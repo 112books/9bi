@@ -1,0 +1,2 @@
+# Entorn LOCAL (hugo server): tots els enllaços absoluts apunten a localhost.
+baseURL = "http://localhost:1313/"

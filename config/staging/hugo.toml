@@ -1,0 +1,4 @@
+# Entorn STAGING (Codeberg Pages en desenvolupament).
+# El workflow fa `hugo --minify --environment staging`.
+# Quan el domini apunti al Codeberg, el workflow passarà a producció.
+baseURL = "https://linuxbcn.codeberg.page/9bi/"

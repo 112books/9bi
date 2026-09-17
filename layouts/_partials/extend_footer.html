@@ -1,10 +1,12 @@
 {{- /* Navegació secundària al peu de cada pàgina (menú "footer") */ -}}
 <nav class="footer-nav" aria-label="Navegació secundària">
   {{- range site.Menus.footer }}
-  <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+  {{- $ext := hasPrefix .URL "http" }}
+  <a href="{{ .URL | relURL }}"{{ if $ext }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a>
   {{- end }}
 </nav>
-<div class="powered-by">
+<div class="footer-powered powered-by">
   <span>Powered by</span>
-  <a href="https://linuxbcn.com" rel="noopener" target="_blank">LinuxBCN</a>
+  <a href="https://linuxbcn.com" target="_blank" rel="noopener">LinuxBCN</a>
+  <span class="footer-powered-reveal">· Consultoria | Desenvolupament | Allotjament | Disseny</span>
 </div>

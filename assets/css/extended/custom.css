@@ -142,6 +142,21 @@
   text-decoration: underline;
 }
 
+.footer-powered-reveal {
+  max-width: 0;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  vertical-align: bottom;
+  opacity: 0;
+  transition: max-width 0.3s ease, opacity 0.3s ease;
+}
+.footer-powered:hover .footer-powered-reveal,
+.footer-powered:focus-within .footer-powered-reveal {
+  max-width: 30em;
+  opacity: 1;
+}
+
 /* ---- Llista "Articles més visitats" ---- */
 
 .popular-list {
@@ -211,4 +226,23 @@
   padding: 0.7rem 1rem;
   border-radius: 6px;
   margin: 0.8rem 0;
+}
+
+/* ---- Header: imatge de fons (static/images/header-bg.jpg) ---- */
+
+:root {
+  --header-height: 104px;
+}
+.header {
+  background-size: cover;
+  background-position: center;
+}
+[data-theme="light"] .header,
+.theme--light:root .header {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+    url("../../images/header-bg.jpg");
+}
+[data-theme="dark"] .header {
+  background-image: linear-gradient(rgba(23, 26, 33, 0.72), rgba(23, 26, 33, 0.72)),
+    url("../../images/header-bg.jpg");
 }

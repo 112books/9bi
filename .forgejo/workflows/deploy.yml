@@ -20,7 +20,9 @@ jobs:
           extended: true
 
       - name: Build amb Hugo
-        run: hugo --minify
+        # STAGING (desenvolupament): entorn -> config/staging (baseURL Codeberg Pages).
+        # Quan el domini apunti, canviar a: hugo --minify --environment production
+        run: hugo --minify --environment staging
 
       # Activa la llista d'articles més visitats en cada deploy.
       # Primer: afegiu el secret GOATCOUNTER_API_KEY a Codeberg → Settings → Actions → Secrets.

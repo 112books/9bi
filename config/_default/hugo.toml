@@ -1,11 +1,7 @@
-# EL DOMINI FINAL ÉS https://9barrisimatge.org/
-# FASE DE DESENVOLUPAMENT: el lloc es serveix des de Codeberg Pages
-# (https://linuxbcn.codeberg.page/9bi/), per això el logo i tots els
-# enllaços absoluts apunten ara aquí.
-# Quan el domini estigui connectat (DNS CNAME 9barrisimatge.org ->
-# linuxbcn.codeberg.page), torneu a:
-#   baseURL = "https://9barrisimatge.org/"
-baseURL = "https://linuxbcn.codeberg.page/9bi/"
+# baseURL es defineix per entorn:
+#   config/development/hugo.toml -> local (hugo server)
+#   config/staging/hugo.toml     -> Codeberg Pages de desenvolupament
+#   config/production/hugo.toml  -> domini definitiu (9barrisimatge.org)
 title = "9 Barris Imatge"
 theme = "PaperMod"
 locale = "ca"
@@ -13,6 +9,10 @@ defaultContentLanguage = "ca"
 timeZone = "Europe/Madrid"
 enableRobotsTXT = true
 enableEmoji = true
+
+# Peu de pàgina: llicència Creative Commons (amb enllaç al web en català).
+# NOTA: confirma la varietat de llicència exacta (ara: CC BY-NC-SA 4.0).
+copyright = 'Contingut sota llicència <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca">Creative Commons Reconeixement-NoComercial-CompartirIgual 4.0</a>'
 
 # Preservem les URL .html de Blogger (/2026/07/slug.html)
 uglyURLs = true
@@ -29,15 +29,19 @@ uglyURLs = true
 [markup.goldmark.renderer]
   unsafe = true
 
+# Taxonomies: tag → tags, categoria → categories
 [taxonomies]
   tag = "tags"
   category = "categories"
 
-# Paginació (quants articles per pàgina a la portada
-# i a la llista d'articles)
-paginate = 24
+[pagination]
+  pagerSize = 24
 
 [params]
+  # Seccions principals: només els articles (posts) surten a la portada;
+  # les guies i la documentació són internes (backend) i no hi apareixen.
+  mainSections = ["posts"]
+
   description = "Blog de l'Associació fotogràfica 9 Barris Imatge de Barcelona."
   ShowPostAuthors = true
   ShowBreadCrumbs = false
@@ -47,6 +51,11 @@ paginate = 24
   ShowCodeCopyButtons = true
   ShowWordCount = false
   comments = false
+
+  # Logo del header (asset a assets/images/logo-header.jpg)
+  [params.label]
+    icon = "images/logo-header.jpg"
+    iconHeight = 36
 
   [params.homeInfoParams]
     Title = "9 Barris Imatge"
@@ -104,12 +113,17 @@ paginate = 24
     url = "/mes-visitats/"
     weight = 4
   [[menu.footer]]
+    identifier = "estadistiques"
+    name = "Estadístiques"
+    url = "https://9barrisimatge.goatcounter.com/"
+    weight = 5
+  [[menu.footer]]
     identifier = "search"
     name = "Cerca"
     url = "/search/"
-    weight = 5
+    weight = 6
   [[menu.footer]]
     identifier = "rss"
     name = "RSS"
     url = "/index.xml"
-    weight = 6
+    weight = 7
