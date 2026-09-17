@@ -79,14 +79,17 @@ sync-9bi.sh                        # script de sync/gestió
 ## CI/CD (`.forgejo/workflows/deploy.yml`)
 
 - Trigger: **push a `main`** + `workflow_dispatch`
-- Steps: checkout → Hugo 0.164.0 extended (`hugo --minify`) → deploy a Codeberg Pages (action `git-pages/action@v2`)
+- Steps: checkout → Hugo 0.164.0 extended (`hugo --minify --environment staging`) → deploy a Codeberg Pages (`https://codeberg.org/git-pages/action@v2` amb `token: ${{ forge.token }}` i `server: codeberg.page`)
 - `site: https://linuxbcn.codeberg.page/9bi/` (FASE DESENVOLUPAMENT; revertir a https://9barrisimatge.org/ quan el domini apunti)
-- **Però les Actions estan DESACTIVADES al repo** (`has_actions: false`): cal activar-les a Codeberg → Repo → Settings → Actions abans que el workflow pugui córrer.
-- Nota: hi ha un pas comentat per refrescar `data/popular.json` amb GoatCounter (secret `GOATCOUNTER_API_KEY`)
+- **PERÒ DIA 2026-09-17**: Codeberg ja NO ofereix l'antic pages server als usuaris nous i els runners gestionats no estan disponibles (`/actions/approval` → 404). El workflow queda en "Waiting for a runner". El desplegament real es fa **sense Actions**:
+  1. Build local: `hugo --minify --environment staging --destination /tmp/pages-deploy`
+  2. Push a la branca `pages`: `cd /tmp/pages-deploy && git init -q -b pages && git add -A && git commit -qm x && git push -f ssh://git@codeberg.org/linuxbcn/9bi.git HEAD:pages`
+  3. **Webhook configurat al repo** (Settings → Webhooks → Forgejo, Target `https://linuxbcn.codeberg.page/9bi/`, Branch filter `pages`) — és el que publica el lloc (sense ell, 400).
+- Nota: en el workflow hi ha un pas comentat per refrescar `data/popular.json` amb GoatCounter (secret `GOATCOUNTER_API_KEY`)
 
 ## Problemes coneguts / pendents (verificats)
 
-1. **Forgejo Actions desactivades** al repo Codeberg (`has_actions: false`): el deploy no s'ha executat. Cal activar les Actions a Codeberg → Repo → Settings → Actions.
+1. **Forgejo Actions activades al repo** però **sense runner disponible** (Codeberg no dona els runners gestionats a usuaris nous: `/actions/approval` → 404). El deploy es fa manualment via branca `pages` + webhook; el workflow no s'ha executat.
 2. `static/admin/config.yml` té `app_id: SUBSTITUEIX-CI-AMB-EL-CLIENT-ID` (placeholder). Pendent: Client ID de l'OAuth2 de Codeberg.
 3. `extend_head.html` apunta a `9barrisimatge.goatcounter.com`: cal crear el lloc al GoatCounter.
 
