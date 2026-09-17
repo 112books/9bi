@@ -277,79 +277,92 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.85;
 }
 
-/* ---- Navegació secundària (peu) ---- */
+/* ---- Peu: banda, columnes i línia inferior ---- */
 
-.footer-nav {
-  margin-top: 1rem;
+.footer-band {
+  height: 4px;
+  background: #e03131;
+}
+
+.footer {
+  padding: 0;
+}
+
+.footer-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+  text-align: left;
+  padding: 2.5rem var(--gap) 1rem;
+}
+
+.footer-col-title {
+  display: block;
+  margin-bottom: 0.6rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary);
+  font-weight: 700;
+}
+
+.footer-col-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.4rem 1.2rem;
+  flex-direction: column;
+  gap: 0.35rem;
   font-size: 0.9rem;
 }
-.footer-nav a {
+
+.footer-col-list a {
   color: var(--secondary);
   text-decoration: none;
 }
-.footer-nav a:hover {
+.footer-col-list a:hover {
   color: var(--primary);
   text-decoration: underline;
 }
 
-.footer-legal {
-  margin-top: 0.45rem;
+.footer-col--logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-bottom {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 0.35rem;
-  font-size: 0.78rem;
-}
-.footer-legal a {
-  color: var(--secondary);
-  text-decoration: none;
-}
-.footer-legal a:hover {
-  color: var(--primary);
-  text-decoration: underline;
-}
-.footer-legal a:not(:last-child)::after {
-  content: "·";
-  margin-left: 0.35rem;
-  opacity: 0.5;
-}
-
-.powered-by {
-  margin-top: 0.6rem;
-  margin-bottom: 1.2rem;
-  font-size: 0.78rem;
-  color: var(--secondary);
-  display: flex;
-  justify-content: center;
   align-items: baseline;
-  gap: 0.3rem;
+  gap: 0.3rem 0.6rem;
+  padding: 0.75rem var(--gap) 1.5rem;
+  font-size: 0.78rem;
+  color: var(--secondary);
 }
-.powered-by a {
+.footer-bottom a {
   color: var(--primary);
   font-weight: 600;
   text-decoration: none;
 }
-.powered-by a:hover {
+.footer-bottom a:hover {
   text-decoration: underline;
 }
 
-.footer-powered-reveal {
-  max-width: 0;
-  display: inline-block;
-  overflow: hidden;
-  white-space: nowrap;
-  vertical-align: bottom;
-  opacity: 0;
-  transition: max-width 0.3s ease, opacity 0.3s ease;
+@media (max-width: 768px) {
+  .footer-cols {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.75rem;
+  }
+  .footer-col--empty {
+    display: none;
+  }
 }
-.footer-powered:hover .footer-powered-reveal,
-.footer-powered:focus-within .footer-powered-reveal {
-  max-width: 30em;
-  opacity: 1;
+@media (max-width: 480px) {
+  .footer-cols {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ---- Llista "Articles més visitats" ---- */
@@ -645,6 +658,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   gap: 0.15rem;
   margin-bottom: 0.7rem;
+  padding: 0 var(--gap);
 }
 .footer-stats-title {
   font-size: 0.72rem;

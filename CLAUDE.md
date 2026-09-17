@@ -50,8 +50,8 @@ Lloc web estàtic de l'Associació fotogràfica 9 Barris Imatge (Barcelona), mig
 - `[markup.goldmark.renderer] unsafe = true` i `[markup.goldmark.parser.attribute] block = true`
 - Taxonomies: `tag` → `tags`, `category` → `categories`, `author` → `author` · `paginate = 24`
 - `params`: `defaultTheme = "dark"`, description, ShowPostAuthors=true, ShowBreadCrumbs=false, ShowReadingTime=false, ShowShareButtons=false, ShowPostNavLinks=true, ShowCodeCopyButtons=true, ShowWordCount=false, comments=false; `homeInfoParams` (Title + Content)
-- `menu.main`: Inici(/), Arxiu(/archive/), Qui som(/qui-som/), El Concurs(/concurs/), Contacte(/contacte/) — **la Guia NO hi és** (és interna, s'accedeix des del CMS); **falta Cerca** (pendent, abans de Contacte)
-- `menu.footer`: Arxiu(/archive/), Etiquetes(/tags/), Més visitats(/mes-visitats/), Estadístiques(goatcounter), Cerca(/search/), RSS(/index.xml)
+- `menu.main`: Inici(/), Arxiu(/archive/), Qui som(/qui-som/), El Concurs(/concurs/), **Cerca(/search/)**, Contacte(/contacte/) — **la Guia NO hi és** (és interna, s'accedeix des del CMS)
+- `menu.footer` (columnes «El web» del peu): **Arxiu 9bi**(/archive/), **Etiquetes / Tags**(/tags/), Més visitats(/mes-visitats/), **Estadístiques del web**(goatcounter), Cerca(/search/), RSS(/index.xml)
 
 ## Estructura de fitxers (verificada)
 
@@ -71,11 +71,11 @@ layouts/
 ├── _shortcodes/membres.html       # taula de membres (ordenada per nº de posts)
 ├── _default/popular.html          # llista de més visitats (llegeix data/popular.json)
 └── _partials/
-    ├── footer.html                # SOBREESCRIT: bloc «9 Barris en números» + count-up
+    ├── footer.html                # SOBREESCRIT: banda accent + 4 columnes (logo, buida, web, legal) + «9 Barris en números» + count-up + línia inferior
     ├── extend_head.html           # GoatCounter → 9barrisimatge.goatcounter.com
-    ├── extend_footer.html         # menú footer + fila legal (Avís legal · Privacitat · Cookies · Crèdits) + "Powered by LinuxBCN" (→ linuxbcn.com)
+    ├── extend_footer.html         # BUIT (el contingut del peu s'ha mogut a footer.html)
     └── extend_post_content.html   # botó "Veure tot l'àlbum de fotos" (si album_url)
-assets/css/extended/custom.css     # estils: mosaic, botó àlbum, footer-nav, powered-by, formulari, membres, footer-stats
+assets/css/extended/custom.css     # estils: mosaic, botó àlbum, tipografies (@font-face), peu (footer-band/-cols/-bottom), formulari, membres, footer-stats
 static/admin/{config.yml,index.html}  # Decap CMS
 static/images/                     # imatges (media_folder del CMS)
 scripts/{migrate_blogger.py,migrate_live.py,goatcounter_popular.py}
@@ -181,7 +181,7 @@ sync-9bi.sh                        # script de sync/gestió
 - **Tema fosc per defecte**: `config/_default/hugo.toml` → `[params] defaultTheme = "dark"` (el botó sol/lluna del header, Alt+T, passa a clar i ho recorda via localStorage).
 - **Arxiu**: l'índex d'anys de la dreta només apareixia a ≥1200px; baixat a **≥1024px** (`custom.css`).
 - **Tipografia**: només feta la **vista prèvia** (cos **Montserrat** + títols **Gillius ADF**) a `/tmp/font-preview`; **no s'ha canviat cap fitxer del web**. Pendent d'instal·lar autoallotjada.
-- **Peu legal**: fila nova `.footer-legal` (**Avís legal · Privacitat · Cookies**) sota el menú del peu; `content/avis-legal.md` i `content/cookies.md` nous (esquelet amb `[PENDENT]`). Espai sota «Powered» (`.powered-by` → `margin-bottom: 1.2rem`).
+- **Peu**: redisseny a **4 columnes** (banda d'accent `#e03131` a dalt + logo · columna buida · «El web» · «Legal»), tot dins de `layouts/_partials/footer.html`; `extend_footer.html` queda **buit**. Línia inferior amb copyright, «Powered by LinuxBCN» i «Powered by Hugo & PaperMod». Responsive: 4→2→1 columnes (la buida s'amaga al mòbil).
 - **`content/qui-som.md`**: «FaVB» → «**FAVB**» a «Links amics».
 - **Tipografies autoallotjades aplicades**: cos **Montserrat** + títols **Gillius ADF** (`static/fonts/`, `@font-face` i overrides a `custom.css`, `preload` a `extend_head.html`; sense cap CDN).
 - **Crèdits ampliats** (`content/credits.md`): links a totes les eines, llicència **CC BY-NC-SA 4.0** explicada en català clar i **mini-FAQ** d'ús de les imatges.
@@ -191,7 +191,7 @@ sync-9bi.sh                        # script de sync/gestió
 
 - **`content/contacte.md`**: afegir al formulari un camp nou "A quina entitat de Nou Barris pertanys o representes (opcionalment)" (input opcional, com `assumpte`).
 - **`content/privacitat.md`**: omplir els `[PENDENT: ...]` amb el **NIF** i l'**adreça** reals de l'associació; sense això la política no és vàlida. (El correu ja hi és: info@9barrisimatge.org.)
-- **Peu legal**: fila legal creada (Avís legal · Privacitat · Cookies · Crèdits). Pendent: contingut real d'`avis-legal.md`, `cookies.md` i completar `privacitat.md` (NIF/adreça); resta d'adequació RGPD.
+- **Peu / legal**: peu de 4 columnes fet (banda accent + logo · buida · «El web» · «Legal»). Pendent: contingut real d'`avis-legal.md`, `cookies.md` i completar `privacitat.md` (NIF/adreça); resta d'adequació RGPD.
 - **Auditoria de seguretat** (encarregada 2026-09-17, pendent).
 - **Auditoria d'accessibilitat** (encarregada 2026-09-17, pendent).
 - **`content/qui-som.md`** (secció «Membres»): **implementat (2026-09-18)** amb `{{< membres >}}` + `data/membres.yml` + `layouts/author/term.html` + col·lecció Decap «membres» (vegeu la sessió 2026-09-18). Pendent: enllaç de reserva al **perfil del bloc vell** («Els components de 9 barris imatge») per als membres sense web (ara mostren «—») i completar els **Instagram** que falten.

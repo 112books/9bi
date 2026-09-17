@@ -1,6 +1,35 @@
 {{- $showStats := or .IsHome (strings.HasSuffix .RelPermalink "qui-som/") -}}
 {{- if not (.Param "hideFooter") }}
+<div class="footer-band" aria-hidden="true"></div>
 <footer class="footer">
+    <div class="footer-cols">
+        <div class="footer-col footer-col--logo">
+            <a href="{{ "" | absLangURL }}" aria-label="{{ site.Title }}">
+                {{- with resources.Get (site.Params.label.icon) }}
+                <img src="{{ .Permalink }}" alt="{{ site.Title }}" height="64" loading="lazy">
+                {{- end }}
+            </a>
+        </div>
+        <div class="footer-col footer-col--empty" aria-hidden="true"></div>
+        <nav class="footer-col" aria-label="Navegació del web">
+            <span class="footer-col-title">El web</span>
+            <ul class="footer-col-list">
+                {{- range site.Menus.footer }}
+                {{- $ext := hasPrefix .URL "http" }}
+                <li><a href="{{ .URL | relURL }}"{{ if $ext }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a></li>
+                {{- end }}
+            </ul>
+        </nav>
+        <nav class="footer-col" aria-label="Enllaços legals">
+            <span class="footer-col-title">Legal</span>
+            <ul class="footer-col-list">
+                <li><a href="{{ "avis-legal/" | relURL }}">Avís legal</a></li>
+                <li><a href="{{ "privacitat/" | relURL }}">Privacitat</a></li>
+                <li><a href="{{ "cookies/" | relURL }}">Cookies</a></li>
+                <li><a href="{{ "credits/" | relURL }}">Crèdits del web</a></li>
+            </ul>
+        </nav>
+    </div>
     {{- if $showStats }}
     {{- $posts := len (where site.RegularPages "Section" "posts") }}
     {{- $anys := sub now.Year 2002 }}
@@ -12,32 +41,20 @@
         </span>
     </div>
     {{- end }}
-    {{- if not site.Params.footer.hideCopyright }}
-        {{- if site.Copyright }}
-        <span>{{ site.Copyright | markdownify }}</span>
-        {{- else }}
-        <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
+    <div class="footer-bottom">
+        {{- if not site.Params.footer.hideCopyright }}
+            {{- if site.Copyright }}
+            <span>{{ site.Copyright | markdownify }}</span>
+            {{- else }}
+            <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
+            {{- end }}
         {{- end }}
-        {{- print " · "}}
-    {{- end }}
-
-    {{- with site.Params.footer.text }}
-        {{ . | markdownify }}
-        {{- print " · "}}
-    {{- end }}
-
-    {{/*
-        - The "Powered by Hugo" text is intentionally left at the end of the footer to give it more prominence.
-        - We kindly encourage you to keep this line. Keeping this credit helps open source projects like PaperMod and Hugo reach more people, supports the open source ecosystem, and shows appreciation for the work that goes into these tools.
-        - If you choose to remove it, please consider adding a link to the PaperMod GitHub repository somewhere on your site to give credit to the project and its contributors.
-        - Support us by sponsoring the project on GitHub Sponsors: https://github.com/sponsors/adityatelange
-    */}}
-    
-    <span>
-        Powered by
-        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
+        {{- with site.Params.footer.text }}
+            <span>{{ . | markdownify }}</span>
+        {{- end }}
+        <span>Powered by <a href="https://linuxbcn.com" rel="noopener" target="_blank">LinuxBCN</a></span>
+        <span>Powered by <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &amp; <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a></span>
+    </div>
 </footer>
 {{- end }}
 
@@ -51,7 +68,7 @@
 </a>
 {{- end }}
 
-{{- partial "extend_footer.html" . }}
+{{- /* El contingut del peu (columnes, legal, powered by) és dins d'aquest fitxer. */ -}}
 
 {{- if $showStats }}
 <script>

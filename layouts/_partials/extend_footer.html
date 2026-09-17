@@ -1,18 +1,1 @@
-{{- /* Navegació secundària al peu de cada pàgina (menú "footer") */ -}}
-<nav class="footer-nav" aria-label="Navegació secundària">
-  {{- range site.Menus.footer }}
-  {{- $ext := hasPrefix .URL "http" }}
-  <a href="{{ .URL | relURL }}"{{ if $ext }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a>
-  {{- end }}
-</nav>
-<nav class="footer-legal" aria-label="Enllaços legals">
-  <a href="{{ "avis-legal/" | relURL }}">Avís legal</a>
-  <a href="{{ "privacitat/" | relURL }}">Privacitat</a>
-  <a href="{{ "cookies/" | relURL }}">Cookies</a>
-  <a href="{{ "credits/" | relURL }}">Crèdits</a>
-</nav>
-<div class="footer-powered powered-by">
-  <span>Powered by</span>
-  <a href="https://linuxbcn.com" target="_blank" rel="noopener">LinuxBCN</a>
-  <span class="footer-powered-reveal">· Consultoria | Desenvolupament | Allotjament | Disseny</span>
-</div>
+{{- /* Aquest partial queda buit: el contingut del peu es renderitza a layouts/_partials/footer.html (override). */ -}}

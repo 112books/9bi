@@ -104,12 +104,12 @@ uglyURLs = true
 
 [[menu.footer]]
     identifier = "archive"
-    name = "Arxiu"
+    name = "Arxiu 9bi"
     url = "/archive/"
     weight = 1
   [[menu.footer]]
     identifier = "tags"
-    name = "Etiquetes"
+    name = "Etiquetes / Tags"
     url = "/tags/"
     weight = 2
   [[menu.footer]]
@@ -119,7 +119,7 @@ uglyURLs = true
     weight = 3
   [[menu.footer]]
     identifier = "estadistiques"
-    name = "Estadístiques"
+    name = "Estadístiques del web"
     url = "https://9barrisimatge.goatcounter.com/"
     weight = 4
   [[menu.footer]]
