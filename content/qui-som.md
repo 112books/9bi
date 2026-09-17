@@ -34,6 +34,8 @@ També agraïm aportacions i donatius —un cafetó, un got— i adoptem andròm
 
 També podem acceptar aportacions econòmiques substancioses per viure millor i somriure més. Proveu-ho!
 
+També hem decidit renunciar a les subvencions públiques; ho expliquem a [Subvencions públiques]({{< relref "subvencions.md" >}}).
+
 ## Membres
 
 El col·lectiu el formen aquestes persones:

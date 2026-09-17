@@ -1,12 +1,9 @@
 ---
-title: "Subvencions públiques: per què hi renunciem"
-date: 2026-09-18T01:40:00+0200
-author: 9 Barris Imatge
-slug: renunciem-a-les-subvencions
-tags:
-- subvencions
-- associacionisme
-description: Crítica a la política de subvencions de l'Ajuntament de Barcelona i motiu pel qual renunciem a les ajudes públiques.
+title: "Subvencions públiques"
+description: "Per què 9 Barris Imatge renuncia a les subvencions públiques de l'Ajuntament de Barcelona"
+url: "/qui-som/subvencions/"
+aliases:
+- "/2026/09/renunciem-a-les-subvencions.html"
 ---
 
 Volem deixar constància de la nostra crítica a la política de subvencions de l'Ajuntament de Barcelona, tant la vigent com la de mandats anteriors.
