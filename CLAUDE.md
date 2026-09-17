@@ -2,6 +2,14 @@
 
 Documentació per a sessions de Claude. Només fets verificats dels fitxers del projecte.
 
+## REGLA PRIMERA (obligatòria)
+
+- **No implementar mai res pel meu compte.** Ni contingut, ni textos, ni disseny, ni enllaços, ni estructures noves. Els suggeriments són benvinguts, però **cal presentar-los i esperar una aprovació explícita de l'usuari abans de tocar cap fitxer.**
+- **No inventar fets** (dates, dades, textos, noms) ni afegir frases "de farciment" no demanades.
+- **No canviar el disseny** (colors, bandes, marges, tipografia, ordre, components) sense aprovació explícita, tant per fer canvis nous com per revertir els existents.
+- Si quelcom és ambigu, **preguntar**; no assumir ni improvisar.
+- El rigor per sobre de la velocitat: verificar sempre a `content/` i `layouts/` abans de donar per fet què hi ha.
+
 ## El projecte
 
 Lloc web estàtic de l'Associació fotogràfica 9 Barris Imatge (Barcelona), migrat de Blogger a Hugo + PaperMod, hostatjat a Codeberg Pages.

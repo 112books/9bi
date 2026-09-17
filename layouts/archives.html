@@ -49,7 +49,7 @@
     {{- range $years }}
     {{- if ne .Key "0001" }}
     {{- $y := replace .Key "0001" "" }}
-    <li><a class="archive-rail-link" href="#{{ $y }}">{{ $y }}</a></li>
+    <li><a class="archive-rail-link" href="#{{ $y }}">{{ $y }}<span class="archive-rail-count">{{ len .Pages }}</span></a></li>
     {{- end }}
     {{- end }}
   </ul>

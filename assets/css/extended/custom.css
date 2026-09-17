@@ -497,6 +497,16 @@
   background: #e03131;
   font-weight: 700;
 }
+.archive-rail-count {
+  margin-left: 0.3rem;
+  font-size: 0.62rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.36);
+}
+.archive-rail-link:hover .archive-rail-count,
+.archive-rail-link.is-current .archive-rail-count {
+  color: inherit;
+}
 
 /* ---- Menú principal: opció activa destacada ---- */
 

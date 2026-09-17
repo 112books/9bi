@@ -32,9 +32,6 @@ El col·lectiu el formen aquestes persones:
 - **Pedro "Casal" Cervera** — [perfil de Blogger](https://www.blogger.com/profile/18053814840045725261)
 - **Pedro Click** — [bloc personal](http://pedroclick.blogspot.com.es/)
 
-Vols formar part de 9 Barris Imatge? Escriu-nos des de la pàgina de [contacte](/contacte/) i parlem-ne.
-{.guide-note}
-
 ## Entitats que ajuden activament a 9 Barris Imatge
 
 - **Casal de Barri de Prosperitat** — [casalprospe.org](http://www.casalprospe.org/)
