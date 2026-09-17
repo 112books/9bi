@@ -93,9 +93,20 @@ sync-9bi.sh                        # script de sync/gestió
 2. `static/admin/config.yml` té `app_id: SUBSTITUEIX-CI-AMB-EL-CLIENT-ID` (placeholder). Pendent: Client ID de l'OAuth2 de Codeberg.
 3. `extend_head.html` apunta a `9barrisimatge.goatcounter.com`: cal crear el lloc al GoatCounter.
 
+## Blog real (verificat el 2026-09-17)
+
+- El blog original i encara viu és **https://www.9barrisimatge.org** (Blogger, `blog-id` `8034150767456238983` — mateix ID que `exports/sample-blogger.xml`, que és un extracte real, no dades falses).
+- Feed públic (`/feeds/posts/default`) confirma **3.006 entrades** (`openSearch:totalResults`). Escala real de la migració pendent.
+- El feed públic serveix **RSS** per defecte (`<rss><channel>`), format diferent de l'Atom (`<feed>`) que exporta "Còpia de seguretat del contingut" de Blogger i que `migrate_blogger.py` espera. Cal l'exportació oficial (Configuració → Altres → Còpia de seguretat del contingut), no el feed públic: conté el contingut complet, esborranys inclosos, sense truncar.
+
+## Decisions pendents per a la migració real (2026-09-17)
+
+- **Etiquetes**: al blog original són molt incompletes (moltes entrades sense tag o amb tags inconsistents). No fer còpia cega amb `migrate_blogger.py` — caldrà revisar/curar les etiquetes, no assumir que el que hi ha al Blogger és la taxonomia final.
+- **Autors**: es crearan comptes reals a Codeberg per a cada membre amb el seu correu actual (el que consta ara — no l'email públic del feed de Blogger, que Google no exposa). El camp `author` de cada post migrat s'haurà de fer correspondre als 9 membres reals de `static/admin/config.yml` (select), no deixar el nom lliure que ve de Blogger.
+
 ## El que encara no existeix (per no assumir)
 
-- Migració real de Blogger (només 2 posts de prova; `markdownify` no està instal·lat al Python del sistema).
+- Migració real de Blogger: només 2 posts de prova migrats, dels 3.006 reals. `markdownify`+`pyyaml` ja instal·lats a `.venv-migracio` (verificat), falta l'export XML oficial del blog real.
 - OAuth2 Application creada ni Client ID.
 - Lloc GoatCounter creat ni API key.
 - Confirmació que `info@9barrisimatge.org` rep correus (FormSubmit).
