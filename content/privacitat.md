@@ -9,8 +9,7 @@ Aquesta política explica com **9 Barris Imatge** tracta les dades personals que
 ## Responsable del tractament
 
 - **Identitat:** Associació 9 Barris Imatge
-- **NIF:** [PENDENT: NIF de l'associació]
-- **Adreça:** [PENDENT: adreça postal de l'associació]
+- **Adreça:** Casal de Barri de Prosperitat, Plaça d'Ángel Pestaña, s/n, 08016 Barcelona
 - **Correu de contacte:** info@9barrisimatge.org
 
 ## Quines dades tractem

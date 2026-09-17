@@ -7,8 +7,7 @@ url: "/avis-legal/"
 ## Titular del lloc
 
 - **Denominació:** Associació 9 Barris Imatge
-- **NIF:** [PENDENT: NIF de l'associació]
-- **Adreça:** [PENDENT: adreça postal de l'associació]
+- **Adreça:** Casal de Barri de Prosperitat, Plaça d'Ángel Pestaña, s/n, 08016 Barcelona
 - **Correu de contacte:** info@9barrisimatge.org
 
 ## Objecte
@@ -21,10 +20,12 @@ Els textos i les fotografies publicats pertanyen als seus autors i a l'associaci
 
 ## Responsabilitat
 
+Els continguts publicats —textos, fotografies i opinions— són responsabilitat exclusiva de qui els signa. Cada autor respon del que publica.
+
+Les persones membres de l'associació ens donem suport i compartim la majoria d'opinions, però les opinions expressades en cada entrada són personals i no comprometen necessàriament la posició de l'associació com a entitat.
+
 L'associació no es responsabilitza de l'ús que es pugui fer de la informació publicada ni del contingut dels llocs enllaçats.
 
 ## Legislació aplicable
 
 Aquest avís es regeix per la legislació espanyola.
-
-[PENDENT: revisar i completar aquest avís amb les dades reals de l'associació.]
