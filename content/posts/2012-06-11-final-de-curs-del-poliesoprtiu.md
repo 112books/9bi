@@ -1,0 +1,22 @@
+---
+title: Final de curs del Poliesoprtiu Valldaura i reciperació de la gesió!
+date: 2012-06-11T00:06:00+0200
+author: Joan "Linux" Martínez i Serres
+slug: final-de-curs-del-poliesoprtiu
+tags:
+- elia
+- fi de curs
+- Poliesportiu Valldaura
+- Prosperitat
+cover:
+  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihgBo_hjcTD3GopOHW0cGnThuKznGCQTI0V6gMmDmrKu8lO6N4Cc5Z66D0C9xXAW0Wjy2A6D611ghXVdhBfSuT1PsPik06_Kpq3wprmroiNQsU0p5tOg9Ow6DcIBoMSTG1QMhafGNfmVI/s400/IMG_2566.jpg
+album_url: https://picasaweb.google.com/103138221614479310970/FinalDeCursDelPoliesoprtiuValldauraIReciperacioDeLaGesio?authuser=0&feat=embedwebsite
+---
+
+|  |
+| --- |
+|  |
+| De [Final de curs del Poliesoprtiu Valldaura i reciperació de la gesió!](https://picasaweb.google.com/103138221614479310970/FinalDeCursDelPoliesoprtiuValldauraIReciperacioDeLaGesio?authuser=0&feat=embedwebsite) |
+
+Bé, després de molta moguda amb El districte de 9 barris finalment el Poliesportiu segueix gestionat per qui ho porta fent tans i tans d'anys i tan i tan bé. Despés de la recent remodelació (i intent d'expoliació) finalment s'ha pogut celebrar al festa de fi de curs i també, evidentmen, que sigui en mans del barri de Prosperitat i la seva gent. Felicitats!!
+Ah! les fotografies son de l'Elia! a la fi s'estrena!

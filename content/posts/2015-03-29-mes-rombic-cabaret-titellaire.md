@@ -1,0 +1,25 @@
+---
+title: 'MÉS RÒMBIC : CABARET TITELLAIRE !!!'
+date: 2015-03-29T21:35:00+0200
+author: 9 Barris Imatge
+slug: mes-rombic-cabaret-titellaire
+tags:
+- titelles
+- dissabte
+- cabaret
+- musica
+- teatro
+cover:
+  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuJNL-Tc76t_PrApL8g7A1yVlGNUO_NIvh8wy0oEpxC6c6_AxFdKbtfgSPLz-E1VdHN-GugibytsT2DTGyWJI_PBKHCdLJpdl7hLv3l-n88JDqS5Qk7YcV23LRbmxyFq7FOr2D549NWIE/s400/_DSC0518.jpg
+album_url: https://picasaweb.google.com/110015855395179205688/MESROMBIC?authuser=0&feat=embedwebsit
+---
+
+<!-- tags auto-generades a partir del vocabulari del blog, revisar -->
+
+|  |
+| --- |
+|  |
+| De [MÉS RÒMBIC !!!](https://picasaweb.google.com/110015855395179205688/MESROMBIC?authuser=0&feat=embedwebsite) |
+
+Dissabte vam disfrutar amb les actuacions de : CHEZ LA POUPÉE,espectacle musical de cabaret on les protagonistes són nines, i Michela Aiello "Capello Rosso", Valentina Raposo "Anita Maravillas", Ángel Navarro, Mauricio Riobo "Mau Teatro".
+Varietat i diversió espectacular, una estona que esperem repetir. MOLTES GRÀCIES per aquestes actuacions tant originals ...i jo que sempre he pensat que les titelles només són pels nens...us esperem l'any que vé, us ho recomano !!!

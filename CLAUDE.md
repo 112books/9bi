@@ -96,8 +96,39 @@ sync-9bi.sh                        # script de sync/gestió
 ## Blog real (verificat el 2026-09-17)
 
 - El blog original i encara viu és **https://www.9barrisimatge.org** (Blogger, `blog-id` `8034150767456238983` — mateix ID que `exports/sample-blogger.xml`, que és un extracte real, no dades falses).
-- Feed públic (`/feeds/posts/default`) confirma **3.006 entrades** (`openSearch:totalResults`). Escala real de la migració pendent.
-- El feed públic serveix **RSS** per defecte (`<rss><channel>`), format diferent de l'Atom (`<feed>`) que exporta "Còpia de seguretat del contingut" de Blogger i que `migrate_blogger.py` espera. Cal l'exportació oficial (Configuració → Altres → Còpia de seguretat del contingut), no el feed públic: conté el contingut complet, esborranys inclosos, sense truncar.
+- **3.006 entrades confirmades** (`openSearch:totalResults`, comptatge exacte verificat: 21 pàgines de 150 sumen 3.006).
+- El domini propi (`www.9barrisimatge.org/feeds/posts/default`) serveix **RSS** per defecte, però l'endpoint directe **`https://www.blogger.com/feeds/8034150767456238983/posts/default?start-index=N&max-results=150`** serveix **Atom complet** (`<feed>`, `<content type="html">` sencer, sense truncar, paginable amb `start-index`) — mateix format que espera `migrate_blogger.py`. Font vàlida per a la migració real, no cal l'exportació manual des del panell si aquest endpoint és accessible.
+- Aquest endpoint no inclou categoria `#kind` per entrada (a diferència de l'export oficial, que barreja posts/pàgines/comentaris) — no cal el filtre `#post` de `parse_xml()`, totes les entrades d'aquest feed ja són posts.
+
+### Mapeig d'autors (verificat, comptatge real per `<author><uri>`)
+
+| Posts | Nom Blogger | `profile/<id>` | Membre |
+|---|---|---|---|
+| 1307 | Joan Martinez i Serres "linuxbcn" | 07873791980606905428 | Joan "Linux" Martínez i Serres |
+| 397+11 | PredroClick / pedro click (2 comptes) | 09502103278209433876 / 09447813154520602112 | Pedro Click |
+| 274 | Manel Sala "Ulls" | 07611922472754557605 | Manel Sala "Ulls" Circ |
+| 118 | francesc barbe | 00926052916717343447 | Francesc Barbe |
+| 110 | ismaelug | 06765486609758806432 | Ismael Utrilla |
+| 86 | Alberto | 16399715831790649537 | Alberto Sanagustín |
+| 78 | Iozsef Kiss | 04330214459290255808 | Iozsef Kiss |
+| 53 | pedrocasal | 18053814840045725261 | Pedro "Casal" Cervera |
+| 29 | núria laura orbaneja | 10639085300606178057 | **Núria Laura Orbaneja** (nou) |
+| 27 | manel villalba | 03875414596834414899 | **Manel Villalba** (nou) |
+| 26 | Ulls (compte diferent) | 03777963813689534193 | assumit = Manel Sala "Ulls" Circ (2n compte; **verificar amb ell**) |
+| 12 | Nico YeYe | 15965093973040358649 | **Nico YeYe** (nou) |
+| 5 | Gris Medio,casi negro | 06831158748343898384 | Juan Carlos Molina (Grismedio Casinegro) |
+| 469+2 | Unknown / Anonymous | (sense uri) | "9 Barris Imatge" (genèric) |
+| 2 | Nou Barris Imatge | 02393670543566068078 | "9 Barris Imatge" (compte de l'entitat) |
+
+**Decidit (2026-09-17)**: s'afegeix tothom que hagi publicat com a membre — Núria Laura Orbaneja, Manel Villalba i Nico YeYe afegits a `static/admin/config.yml` (select `author`) i "9 Barris Imatge" com a genèric pels posts sense autor identificable. Pendent: revisar més endavant qui és actiu/inactiu actualment (no tocat `qui-som.md`, que llista només membres actius — aquesta llista del CMS és l'autoria històrica completa).
+
+### Migració real executada (2026-09-17)
+
+- **`scripts/migrate_live.py`**: migra directament des del feed Atom en directe (no cal export manual), reutilitza el processament de `migrate_blogger.py` (imatges, àlbum, HTML→MD). Mapeig d'autor per `<author><uri>` (taula `AUTHOR_BY_URI`), vocabulari de tags real agregat de tot el blog per suggerir-ne 5 als posts sense cap (marcats amb comentari HTML `<!-- tags auto-generades... -->` per revisar-los).
+- **Resultat**: **3.006/3.006 posts migrats a `content/posts/`**, 0 errors. Build local net (`hugo`, 3006 pàgines, ~30s, sense warnings de col·lisió).
+- **Bug detectat i corregit durant la migració**: la primera passada deduplicava per slug sense any/mes i en va perdre 118 (p.ex. "blog-post" es repeteix 41 cops en mesos diferents — cap col·lisió real d'URL). Fix: dedup per URL original de Blogger, no per slug.
+- **Advertència coneguda**: `album_url` s'extreu de l'enllaç que envolta la primera imatge del post. Si un post té més d'un enllaç rellevant (p.ex. tant un àlbum de Google Photos com un crosspost a `blog.pocallum.cat`), només es captura el primer — pot no ser sempre el que un humà triaria. Detectat al post de Prospe Beach 2026 (l'enllaç de Google Photos que l'usuari havia enganxat manualment al xat va quedar substituït per l'enllaç al crosspost de pocallum.cat en re-executar la migració completa).
+- **Encara sense fer**: commit/push/deploy d'aquests 3.006 fitxers — pendent de revisió de l'usuari al servidor local abans de pujar-ho.
 
 ## Tasques pendents (backlog curt)
 

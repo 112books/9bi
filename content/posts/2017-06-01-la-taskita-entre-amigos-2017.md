@@ -1,0 +1,15 @@
+---
+title: La Taskita - Entre Amigos 2017
+date: 2017-06-01T13:13:00+0200
+author: Joan "Linux" Martínez i Serres
+slug: la-taskita-entre-amigos-2017
+tags:
+- fotos
+cover:
+  image: https://lh3.googleusercontent.com/KCskVwAhEvQ9VuKK67lvUSDaQ_5XDc5Xmr_qANKb7Mlgqi2hSONhCxRionKBU1xGL_15a4tjW_mzcpynvgi3xsRMbf8tgJq3chCehMVPWpWbEZ7ydLKlvKWGCQzwWPvnoJe966Mdds_GsIroPwsBQ7FeQuBfSqGxuhX65zo5TdhyJGQ1SZZ1juflaXN5CIr-YP0I9ZtfHYcXEDCa8TryKvUqXwGYZchAoA2hMtjJVdkWU01IrPAKTDzxC5kEkRsa3PbpRWa2t7KarhpDXT0CgyVApTmeozdDHqEc6q-pJUfwQUCbzvAvQmZQfS6_pS0HNtpnfFgEH5RCygz60e_qBleHq9W9JZgKzoE2kMnantPkJfw8PDq1CZAFpA5Ze-SBAiu_VzXVPrPajb1bKZS3eJbM3KDFtFXv3Cu0AsB6zOfQkOcWT5pBMDdnfRi0DjTEGX4fv7SGMsEWelMHz3TTYQwsE-c60Oy1HGmk7B7A18xGTTTRp_SPuX8wyfwjsO1GcHFlanUGLaWw4rWxX65syzcQketceNFj35wKWPgBoGIgBnk2cQNtbgj_05yIbUtDvxOSG97-oLLOiWnnUzqyzEKmL0lfYVHFldpUQSjy6HGs7RIOhgPkZ1j4EB1gkNjwkf_9WwQVihPLBhod9_CIkwBxBEK_nKfa2HSuzZZytA=w1388-h926-no
+album_url: https://photos.google.com/share/AF1QipMwJz-rffmA01PBDUocFizmLGfmiTsCkFmDtgQNyMjubeR5EMNkGuh-AJrGp8KD0g?key=cHhyUURKLVhva3F2U1RfM3JzNnBsbXYyYUNXOWpR
+---
+
+<!-- tags auto-generades a partir del vocabulari del blog, revisar -->
+
+Fotos de Ángel Salvador

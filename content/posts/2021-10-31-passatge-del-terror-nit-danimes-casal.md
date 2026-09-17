@@ -1,0 +1,25 @@
+---
+title: Passatge del Terror - Nit d´Ànimes - Casal de Barri Prosperitat
+date: 2021-10-31T10:34:00+0100
+author: Manel Sala "Ulls" Circ
+slug: passatge-del-terror-nit-danimes-casal
+tags:
+- 9 barris imatge
+- casal barri prosperitat
+- fotos manel sala ulls
+- nit d'ànimes
+- terrror
+cover:
+  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiNRouwSHej55ggLrMmRDDjoVgpOd9SF4e7gJbFCzYvQ5wFtbgAdVK5sp4PHYkCxDKCWj8FPNes_3s9vXdgL-WvKwtdrBuPxRhLe1UMHA82YKxhtqlPR-4gUp2MBNB4Ps67RLHJGWbNb6E/s600/P2720630.jpg
+album_url: https://photos.app.goo.gl/xAoQ8mN8mUw78ckW8
+---
+
+Passatge del Terror - Nit d´Ànimes - Casal de Barri Prosperitat
+
+Barcelona, 30-octubre-2021
+
+Impressionant el treball realitzat durant aquests últims mesos per l'organització del passatge del terror.
+
+[www.instagram.com/9barrisimatge\_oficial](https://www.instagram.com/9barrisimatge_oficial/?hl=es)
+
+[www.casalprospe.org](https://www.casalprospe.org/)

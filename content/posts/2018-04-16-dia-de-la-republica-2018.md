@@ -1,0 +1,15 @@
+---
+title: Dia de la República 2018
+date: 2018-04-16T20:31:00+0200
+author: 9 Barris Imatge
+slug: dia-de-la-republica-2018
+tags:
+- República
+cover:
+  image: https://lh3.googleusercontent.com/AbUSKSl8JVLAbDuenac4C2oSFzkL0wTTSLDzv_StrERfRDNxbC3PtHyqvW9RkkcDw395aRpsx2nJtE_dKKl_X1F_UHsYhGeJX91TIT00E1MG2huBDXHzgwPhRxME68q3lQtfVO3qfvnBWEfSqQP5l-Dag5XIPYCdEUEyQyXSaudxIf7cA4xBn-PPZOm0yHTUWO5FUL9wcspOBs9IpArxlPT3gCun0h7PWhErKnfUsHwU8sQOe_F0o8W8djvJWni4VPe3zfK_nk-lDwFLOgUPTuojqjz0mrKqQhur3wJ07xJ_uaVofJZtOVv0Wg3EUovynoXPVI53AS0Cw49ch2eSfiBA6JQXUw8yqGqzPH1BmUOgB5ioh6FxmF1LdFAUeKylRu8xo0gJdSFCWQ5gEEccYn4D1Kp6aU4EatF_XsIVoyvz6JQ_GsdBP0haI4xOmoGSnSl-Nce2YD2ZqOVXbJmUus2aYpL1AnDTZ5oRvJE-s80JKRDG67aEHSGg6lgusS9Q1ipjy2LlXtwwx-aEuVVoRIUkicEaY_wA_C47UtdzeROWucWDlTcuveSRQUnic1nW_90LAjw3Ej0bi7Hqc8XkcjMNY6V2m4dgPa6SgtYAT_0yH9DBq012xc-RBGYwYXkviTZRq67G_yE7e4nDy307Jw-NKT2iD5ze=w1362-h908-no
+album_url: https://photos.app.goo.gl/VIaxoNOkCITvlXz23
+---
+
+<!-- tags auto-generades a partir del vocabulari del blog, revisar -->
+
+

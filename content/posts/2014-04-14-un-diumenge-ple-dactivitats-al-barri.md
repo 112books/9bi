@@ -1,0 +1,24 @@
+---
+title: UN DIUMENGE PLÉ D'ACTIVITATS AL BARRI !!!
+date: 2014-04-14T00:03:00+0200
+author: 9 Barris Imatge
+slug: un-diumenge-ple-dactivitats-al-barri
+tags:
+- Feria de Abril
+- activitats
+- VIA JULIA
+- diumenge
+- prospe
+cover:
+  image: https://lh3.googleusercontent.com/-RFSUkO9FfF8/U0rmEjxz4KE/AAAAAAAAArE/lEgtkScGFk0/s160-c/UNDIUMENGEPLEDACTIVITATSALBARRI.jpg
+album_url: https://picasaweb.google.com/110015855395179205688/UNDIUMENGEPLEDACTIVITATSALBARRI?authuser=0&feat=embedwebsite
+---
+
+<!-- tags auto-generades a partir del vocabulari del blog, revisar -->
+
+|  |
+| --- |
+|  |
+| [UN DIUMENGE PLÉ D'ACTIVITATS AL BARRI !!!!](https://picasaweb.google.com/110015855395179205688/UNDIUMENGEPLEDACTIVITATSALBARRI?authuser=0&feat=embedwebsite) |
+
+Aquest diumenge de Rams hem vist gent passejant pel Mercadillo de llibres que cada segón diumenge de mes està a Via Julia amb carácter solidari, per l'esglesia Sta Engracia i per la Feria de abril de la Prospe on hem gaudit de cant, balls i tapes i una mica de calor !!!!

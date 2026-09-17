@@ -1,0 +1,17 @@
+---
+title: Holi Festival Colors !!!
+date: 2017-05-29T01:25:00+0200
+author: 9 Barris Imatge
+slug: holi-festival-colors
+tags:
+- tetrinké
+- música
+- ruta
+cover:
+  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguh_1u6NUymW31BtE3v2KRa751vgqhkurUzjZtukNVXThWh5sFn-6MqCMqDNp2uvs_WprGeYFoafw8ZSCffzTYoT6PvEzZs-TcAYPu3Fab0N7j_T_RcdeG_jsDCe6Rk5UPtuqzDeetPtI/s640/P5280231.jpg
+album_url: https://goo.gl/photos/qKkC2p6SbWx4TqNt6
+---
+
+<!-- tags auto-generades a partir del vocabulari del blog, revisar -->
+
+Organitzat per la Penya Tetrinké la plaça ha sigut un país multicolor on tothom ha disfrutat de la música i de les pòlvores de colors.

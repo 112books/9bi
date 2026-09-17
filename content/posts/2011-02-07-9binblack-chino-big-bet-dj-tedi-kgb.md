@@ -1,0 +1,20 @@
+---
+title: 9binblack - Chino & The Big Bet + DJ Tedi KGB
+date: 2011-02-07T04:03:00+0100
+author: Joan "Linux" Martínez i Serres
+slug: 9binblack-chino-big-bet-dj-tedi-kgb
+tags:
+- 9binblack
+- Chino
+- DJ Tedi KGB
+- linuxbcn
+- The Big Bet
+cover:
+  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyFglTxHKvM4GkRhh5Z8mFde6KIHHsJs19Wj1K1GBOhLjEPP6MwTFzI63bPW0dhDHnq0SUR7N4vFhr53hliTmyjb1I3fx0KZuNrChSBPGt4dZPqDYc72t9K0QUSz1tldwOuzZKllfX6Cs/s400/IMG_0695.jpg
+album_url: https://picasaweb.google.com/linuxbcn/9binblackChinoTheBigBet?feat=embedwebsite
+---
+
+|  |
+| --- |
+|  |
+| De [9binblack - Chino & The Big Bet](https://picasaweb.google.com/linuxbcn/9binblackChinoTheBigBet?feat=embedwebsite) |

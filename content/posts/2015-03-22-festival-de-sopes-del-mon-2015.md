@@ -1,0 +1,24 @@
+---
+title: FESTIVAL DE SOPES DEL MON 2015 !!!
+date: 2015-03-22T20:13:00+0100
+author: 9 Barris Imatge
+slug: festival-de-sopes-del-mon-2015
+tags:
+- festival de sopes
+- 9barris imatge
+- participació
+- 9barris
+- musica
+cover:
+  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOHdO2RgQuepu9U53iaLMSajY0FKDK8D1rCVMZPgoG9k63HlLJfJILqbGHM8UVdftO8_NEB0ghU62CZlpLD0LBxHkCd1ofXCTjnfZl8AXxmacwDHKzXm4P6S24oYnEPcgXWzqjSJaUqxw/s400/_DSC0577.jpg
+album_url: https://picasaweb.google.com/110015855395179205688/FestivalDeSopes2015?authuser=0&feat=embedwebsite
+---
+
+<!-- tags auto-generades a partir del vocabulari del blog, revisar -->
+
+|  |
+| --- |
+|  |
+| De [Festival de sopes 2015](https://picasaweb.google.com/110015855395179205688/FestivalDeSopes2015?authuser=0&feat=embedwebsite) |
+
+Un any més el FESTIVAL DE SOPES DEL MON ha sigut un éxit de participació, organització i de públic, ENHORABONA !!! i moltes gràcies al DESASTROSUS CIRKUS per l'espectacle qu'ens ha oferit, i felicitats pels seus 25 ANYS !!! i no oblidar-nos dels grups musicals i del equip de 9BARRIS IMATGE, els meus companys, que s'han encarregat de fer les mil i una fotos per tindre un bon record d'aquest dia. MOLTES GRÂCIES A TOTHOM !!!

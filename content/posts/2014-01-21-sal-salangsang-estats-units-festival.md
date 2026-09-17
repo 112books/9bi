@@ -1,0 +1,26 @@
+---
+title: Sal Salangsang. Estats Units. Festival Internacional del Circ Ciutat de Figueres
+  2013
+date: 2014-01-21T15:43:00+0100
+author: Manel Sala "Ulls" Circ
+slug: sal-salangsang-estats-units-festival
+tags:
+- video
+- circ
+- '2013'
+- STA
+- ciu
+cover:
+  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnT590iIBBbS16kAPmlwXuhXQiN2GmPSCWTCYiCjRHZgShrxkEisfvO_8RgVzPO6owsuoFBuUfOhU-FrMtg9J94f6FVBYxwQBHVpTYwMbbEfm0gUiabCHebs0T8k6a9cFvxlpHB00j3mhU/s400/IMG_2483.jpg
+album_url: https://picasaweb.google.com/100268695753733554853/SalSalangsangEstatsUnitsFestivalInternacionalDelCircCiutatDeFigueres2013?authuser=0&amp;feat=embedwebsite
+---
+
+<!-- tags auto-generades a partir del vocabulari del blog, revisar -->
+
+|  |
+| --- |
+|  |
+| De [Sal Salangsang. Estats Units. Festival Internacional del Circ Ciutat de Figueres 2013](https://picasaweb.google.com/100268695753733554853/SalSalangsangEstatsUnitsFestivalInternacionalDelCircCiutatDeFigueres2013?authuser=0&feat=embedwebsite) |
+
+Sal Salangsang. Estats Units. Festival Internacional del Circ Ciutat de Figueres 2013.
+Video. [www.youtube.com](https://www.youtube.com/watch?v=15woMKwXWCw)

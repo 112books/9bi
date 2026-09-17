@@ -1,0 +1,31 @@
+---
+title: ' "Cabaret Mudante" Casal de Barri Prosperitat '
+date: 2014-12-28T22:01:00+0100
+author: Manel Sala "Ulls" Circ
+slug: cabaret-mudante-casal-de-barri
+tags:
+- Casal de barri Prosperitat
+- barri prosperitat
+- casal de barri
+- Prosperitat
+- Barcelona
+cover:
+  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzH7ADjAuY0PbZADmKgGhlZjOO72KN7o1JgbrhnkVzxszuD93GSd7wI2n_iZ_tjOdpSAcmBO5o7470Vs62RRtu6_e7Q_Z0mW_gLSPvsAul4xWeQ2CVi6roqOTnM7ZlcW5Bwoss1nLnCVlS/s400/IMG_6984.jpg
+album_url: https://picasaweb.google.com/100268695753733554853/CabaretMudanteCasalDeBarriProsperitat?authuser=0&amp;feat=embedwebsite
+---
+
+<!-- tags auto-generades a partir del vocabulari del blog, revisar -->
+
+|  |
+| --- |
+|  |
+| De ["Cabaret Mudante" Casal de Barri Prosperitat](https://picasaweb.google.com/100268695753733554853/CabaretMudanteCasalDeBarriProsperitat?authuser=0&feat=embedwebsite) |
+
+"Cabaret Mudante"
+Casal de Barri Prosperitat
+20-12-2014 Barcelona
+Artistes:
+VIKISUA
+LILY COLOMBIA
+PELITO
+LOCOFICLOWN

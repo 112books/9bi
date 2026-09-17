@@ -1,0 +1,24 @@
+---
+title: XERRADA SOS SANITAT PUBLICA A LA MARQUESINA DE LA VIA JULIA
+date: 2015-09-14T23:48:00+0200
+author: Pedro "Casal" Cervera
+slug: xerrada-sos-sanitat-publica-la
+tags:
+- sanitat publica
+- nou barris
+- VIA JULIA
+- sanitat
+- Xerrada
+cover:
+  image: https://lh3.googleusercontent.com/-xZKmjmsF5e8/Vfc--3gHtzE/AAAAAAAAH-o/rlrACW2qerg/s160-c-Ic42/XERRADASANITATPUBLICAALAMARQUESINA.jpg
+album_url: https://picasaweb.google.com/114858497713897843587/XERRADASANITATPUBLICAALAMARQUESINA?authuser=0&feat=embedwebsite
+---
+
+<!-- tags auto-generades a partir del vocabulari del blog, revisar -->
+
+|  |
+| --- |
+|  |
+| [XERRADA SANITAT PUBLICA A LA MARQUESINA](https://picasaweb.google.com/114858497713897843587/XERRADASANITATPUBLICAALAMARQUESINA?authuser=0&feat=embedwebsite) |
+
+Com hem vist aquesta tarda a Nou Barris, la defensa de la Sanitat Pública interessa i molt en plena campanya electoral.
