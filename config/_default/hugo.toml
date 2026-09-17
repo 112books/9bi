@@ -35,14 +35,15 @@ uglyURLs = true
   category = "categories"
 
 [pagination]
-  pagerSize = 24
+  # Portada: graella de 4 columnes x 2 files (8 articles per pàgina)
+  pagerSize = 8
 
 [params]
   # Seccions principals: només els articles (posts) surten a la portada;
   # les guies i la documentació són internes (backend) i no hi apareixen.
   mainSections = ["posts"]
 
-  description = "Blog de l'Associació fotogràfica 9 Barris Imatge de Barcelona."
+  description = "Des de 2002 documentant Nou Barris. Blog de l'Associació fotogràfica 9 Barris Imatge de Barcelona."
   ShowPostAuthors = true
   ShowBreadCrumbs = false
   ShowReadingTime = false
@@ -59,7 +60,7 @@ uglyURLs = true
 
   [params.homeInfoParams]
     Title = "9 Barris Imatge"
-    Content = "L'Associació fotogràfica 9 Barris Imatge de Barcelona. Cada col·laborador publica una fotografia, l'enllaç a l'àlbum de fotos i un text que contextualitza la imatge."
+    Content = "**Des de 2002 documentant Nou Barris.** L'Associació fotogràfica 9 Barris Imatge de Barcelona. Cada col·laborador publica una fotografia, l'enllaç a l'àlbum de fotos i un text que contextualitza la imatge."
 
   [params.editPost]
     URL = ""
@@ -72,9 +73,9 @@ uglyURLs = true
     url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "posts"
-    name = "Articles"
-    url = "/posts/"
+    identifier = "archive"
+    name = "Arxiu"
+    url = "/archive/"
     weight = 2
   [[menu.main]]
     identifier = "qui-som"
@@ -83,7 +84,7 @@ uglyURLs = true
     weight = 3
   [[menu.main]]
     identifier = "concurs"
-    name = "Concurs J. A. Cordoncillo"
+    name = "Concurs"
     url = "/concurs/"
     weight = 4
   [[menu.main]]

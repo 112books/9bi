@@ -32,7 +32,9 @@ from markdownify import MarkdownConverter, ATX
 
 ATOM = "{http://www.w3.org/2005/Atom}"
 BLOGGER_KIND = "http://schemas.google.com/g/2005#kind"
-GOOGLE_PHOTOS = "photos.app.goo.gl"
+# Hosts d'imatge del propi Blogger: l'enllaç que envolta la primera imatge
+# sol apuntar aquí per obrir-la a mida completa (lightbox), no és un àlbum.
+BLOGGER_IMAGE_HOSTS = ("blogger.googleusercontent.com", "bp.blogspot.com", "blogspot.com")
 IMG_TAG = re.compile(r"<img [^>]*>", re.IGNORECASE)
 SRC_ATTR = re.compile(r'src\s*=\s*["\']([^"\']+)["\']', re.IGNORECASE)
 HREF_ATTR = re.compile(r'href\s*=\s*["\']([^"\']+)["\']', re.IGNORECASE)
@@ -163,6 +165,16 @@ def parse_xml(path: str):
     return posts
 
 
+def is_album_link(href: str) -> bool:
+    """Un enllaç és àlbum si és extern (no la mateixa imatge de Blogger a mida completa).
+
+    Conserva Google Photos i qualsevol altre servei (Flickr, Picasa, Dropbox...)."""
+    if not href:
+        return False
+    host = urlparse(href).netloc.lower()
+    return not any(h in host for h in BLOGGER_IMAGE_HOSTS)
+
+
 def slugify_sample(slug: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", slug.lower()).strip("-")
 
@@ -190,7 +202,7 @@ def main():
             body_html = post["content"]
             src, parent_href = first_image(body_html)
             image_url = src
-            album_url = parent_href if parent_href and GOOGLE_PHOTOS in parent_href else None
+            album_url = parent_href if is_album_link(parent_href) else None
 
             if args.download_images and src:
                 image_url = download_image(src, pub, slug, args)

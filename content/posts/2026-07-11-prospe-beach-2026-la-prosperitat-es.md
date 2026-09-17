@@ -5,6 +5,7 @@ author: Joan "Linux" Martínez i Serres
 slug: prospe-beach-2026-la-prosperitat-es
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdUMlF-tVrd3Qy5fnVKzktxz-BclxkpmKRWOy4Przrh1WEuTV74nB2FsUnxpQ2T6nyU3EbP3-MlfLKz4aWxOiQhe-OfoXagmQuu4jvAKP1RB5EhiGBl-4RCWTurujUc4950FLCCfkkILYDxHyFnVPap2G6dSUhwimawsuCLC3pApZJALFOGOnpC0GQh9E/w640-h360/IMG_2992.jpg
+album_url: https://photos.google.com/share/AF1QipPtb2LMkTIJXP7HXVO2FfVyJxTf1Pasxuo_6yem_wQl30FaRSo9ecbmmapCr9uMmg?key=RlRjQWg3VzVlZG9SVW0xOGFTeTNRQ1VlUHpIbGF3
 ---
 
 La plaça Ángel Pestaña torna a convertir-se, un estiu més, en la platja més popular de la Prosperitat.

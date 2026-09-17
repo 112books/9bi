@@ -9,6 +9,7 @@
 
 # Entorn Python de migració
 /.venv-migracio/
+__pycache__/
 
 # Editors i sistema
 .DS_Store

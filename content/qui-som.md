@@ -4,13 +4,15 @@ description: "9 Barris Imatge: història, reunions, membres i entitats amigues"
 url: "/qui-som/"
 ---
 
-L'**Associació fotogràfica 9 Barris Imatge** és un col·lectiu de fotògrafs i fotògrafes de l'àmbit del districte de **Nou Barris** (Barcelona) que documenta la vida dels barris: les festes, els actes veïnals, la cultura popular i el dia a dia de la gent.
+L'**Associació fotogràfica 9 Barris Imatge**, fundada l'any **2002**, és un col·lectiu de fotògrafs i fotògrafes de l'àmbit del districte de **Nou Barris** (Barcelona) que documenta la vida dels barris: les festes, els actes veïnals, la cultura popular i el dia a dia de la gent. **Des de 2002 documentant Nou Barris.**
 
 ## Història
 
-9 Barris Imatge va néixer com a bloc de fotografia l'any **2010** amb la voluntat de ser una crònica fotogràfica oberta dels Nou Barris des de dins. Al llarg dels anys, el col·lectiu ha crescut i s'ha anat incorporant gent amb mirades molt diverses, però amb un objectiu comú: **explicar el barri amb una càmera**.
+L'associació es va fundar l'any **2002**. Més tard, el **2010**, va néixer el bloc de fotografia com a crònica fotogràfica oberta dels Nou Barris des de dins. Al llarg dels anys, el col·lectiu ha crescut i s'ha anat incorporant gent amb mirades molt diverses, però amb un objectiu comú: **explicar el barri amb una càmera**.
 
 El bloc ha estat sempre un espai obert i autogestionat on cada membre publica els seus reportatges, amb la fotografia com a protagonista i el text com a acompanyament.
+
+El logotip de l'associació és obra de l'artista de Nou Barris **Toni Pagès**.
 
 ## Reunions
 
