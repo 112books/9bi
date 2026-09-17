@@ -42,4 +42,51 @@
   {{- with $size.Next -}}<a class="pager-link" href="{{ .URL }}">Més antigues →</a>{{- end -}}
 </nav>
 {{- end }}
+
+{{- /* Efemèrides: una entrada propera a la mateixa data de fa 1, 2, 3, 4 i 5 anys */ -}}
+{{- if eq $size.PageNumber 1 }}
+{{- $today := now }}
+{{- $efemeris := slice }}
+{{- range $i := seq 1 5 }}
+  {{- $target := $today.AddDate (sub 0 $i) 0 0 }}
+  {{- $best := false }}
+  {{- $bestDiff := 999999999.0 }}
+  {{- range $pages }}
+    {{- if eq .Date.Year $target.Year }}
+      {{- $diff := math.Abs ((.Date.Sub $target).Hours) }}
+      {{- if lt $diff $bestDiff }}
+        {{- $best = . }}
+        {{- $bestDiff = $diff }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+  {{- with $best }}
+    {{- $efemeris = $efemeris | append (dict "years" $i "page" .) }}
+  {{- end }}
+{{- end }}
+{{- with $efemeris }}
+<section class="efemerides">
+  <h2 class="efemerides-title">Avui fa…</h2>
+  <div class="efemerides-row">
+    {{- range . }}
+      {{- $i := .years }}
+      {{- $p := .page }}
+      <a class="efemeride" href="{{ $p.RelPermalink }}">
+        <p class="efemeride-years">de fa {{ $i }} {{ cond (eq $i 1) "any" "anys" }}</p>
+        {{- $cover := $p.Params.cover.image | default "" }}
+        {{- if $cover }}
+        <img class="efemeride-img" loading="lazy" src="{{ $cover }}" alt="{{ $p.Title }}" />
+        {{- else }}
+        <div class="efemeride-img efemeride-placeholder"><span>{{ strings.Truncate 40 $p.Title }}</span></div>
+        {{- end }}
+        <div class="efemeride-text">
+          <strong class="efemeride-post-title">{{ strings.Truncate 40 $p.Title }}</strong>
+          <time class="efemeride-date" datetime="{{ $p.Date.Format "2006-01-02" }}">{{ $p.Date | time.Format "02 · 01 · 2006" }}</time>
+        </div>
+      </a>
+    {{- end }}
+  </div>
+</section>
+{{- end }}
+{{- end }}
 {{- end }}

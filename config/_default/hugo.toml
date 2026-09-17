@@ -56,7 +56,7 @@ uglyURLs = true
   # Logo del header (asset a assets/images/logo-header.jpg)
   [params.label]
     icon = "images/logo-header.jpg"
-    iconHeight = 36
+    iconHeight = 144
 
   [params.homeInfoParams]
     Title = "9 Barris Imatge"
@@ -84,7 +84,7 @@ uglyURLs = true
     weight = 3
   [[menu.main]]
     identifier = "concurs"
-    name = "Concurs"
+    name = "El Concurs"
     url = "/concurs/"
     weight = 4
   [[menu.main]]

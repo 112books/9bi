@@ -35,17 +35,15 @@ El col·lectiu el formen aquestes persones:
 Vols formar part de 9 Barris Imatge? Escriu-nos des de la pàgina de [contacte](/contacte/) i parlem-ne.
 {.guide-note}
 
-## Entitats que ajuden econòmicament a 9 Barris Imatge
+## Entitats que ajuden activament a 9 Barris Imatge
 
-- **9 Barris Acull** — [9bacull.org](http://9bacull.org/)
 - **Casal de Barri de Prosperitat** — [casalprospe.org](http://www.casalprospe.org/)
+- **9 Barris Acull** — [9bacull.org](http://9bacull.org/)
 
 ## Links amics
 
-- **9 Barris Analògic** — [9banalogic.posterous.com](http://9banalogic.posterous.com/)
 - **9 Barris Protesta** — [9barrisprotesta.blogspot.com](http://9barrisprotesta.blogspot.com/)
 - **A les Barriades** — [alesbarriades.posterous.com](http://alesbarriades.posterous.com/)
-- **Arxiu Històric de Roquetes - Nou Barris** — [noubarris.net/arxiu](http://www.noubarris.net/arxiu/)
 - **Ateneu Popular de 9 Barris** — [ateneu9b.net](http://ateneu9b.net/)
 - **AVV de Prosperitat** — [prosperitat.org](http://prosperitat.org/)
 - **Blog Fotogràfic de Circ** — [circ-manelsala-ulls.blogspot.com.es](http://circ-manelsala-ulls.blogspot.com.es)
@@ -53,17 +51,11 @@ Vols formar part de 9 Barris Imatge? Escriu-nos des de la pàgina de [contacte](
 - **Casal de barri de Prosperitat** — [casalprospe.org](http://www.casalprospe.org/)
 - **Casal de Joves de Prosperitat** — [cjprospe](http://www.ctv.es/USERS/cjprospe/)
 - **districtenoubarris.blogspot.com** — [districtenoubarris.blogspot.com](http://districtenoubarris.blogspot.com/)
-- **El Fotográfico** — [elfotografico.com](http://www.elfotografico.com/)
-- **Escola-Taller de Blues de Barcelona** — [escolablues.com](http://www.escolablues.com/)
 - **FaVB** — [favb.cat](http://favb.cat/)
 - **Festival de Blues de Barcelona** — [festivalbluesbarcelona.com](http://festivalbluesbarcelona.com/)
-- **Fotografia.net** — [fotografia.net](http://www.fotografia.net/)
 - **Grup Foto Roquetes** — [grupfotoroquetes.blogspot.com](http://grupfotoroquetes.blogspot.com.es)
 - **Nou Barris Acull** — [9bacull.org](http://9bacull.org/)
 - **Nou Barris cabrejada, diu prou!** — [9bcabrejada.blogspot.com](http://9bcabrejada.blogspot.com/)
-- **Noubarris.net** — [noubarris.net/web20](http://www.noubarris.net/web20/index.php)
-- **NouBarris.org** — [noubarris.org](http://noubarris.org/)
 - **Pocallum.cat** — [pocallum.cat](http://www.pocallum.cat/)
-- **Prosperitat.net** — [prosperitat.net](http://prosperitat.net/)
 - **Ruido de Fondo. Mario Ortiz** — [el-ruido-de-leomiller.blogspot.com](http://el-ruido-de-leomiller.blogspot.com/)
 - **SoloParaCortos** — [soloparacortos.blogspot.com](http://soloparacortos.blogspot.com/)

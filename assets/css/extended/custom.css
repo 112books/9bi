@@ -2,6 +2,101 @@
 /* 9 Barris Imatge — personalització del theme  */
 /* ============================================ */
 
+/* ---- Portada: efemèrides (Avui fa…) ---- */
+
+.efemerides {
+  margin: 0.5rem 0 1.5rem;
+  /* Mateixa amplada que el mosaic i la capçalera */
+  width: 100vw;
+  max-width: calc(var(--nav-width) + var(--gap) * 2);
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding-left: var(--gap);
+  padding-right: var(--gap);
+  box-sizing: border-box;
+}
+.efemerides-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--secondary);
+}
+.efemerides-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.4rem;
+}
+@media (max-width: 1024px) {
+  .efemerides-row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 700px) {
+  .efemerides-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .efemerides-row {
+    grid-template-columns: 1fr;
+  }
+}
+.efemeride {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--entry);
+  color: inherit;
+  text-decoration: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.efemeride:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+.efemeride-years {
+  margin: 0;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+.efemeride-img {
+  aspect-ratio: 16 / 10;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+.efemeride-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(160deg, var(--tertiary-bg), var(--border));
+  color: var(--secondary);
+  padding: 0.6rem;
+  text-align: center;
+  font-size: 0.85rem;
+}
+.efemeride-text {
+  padding: 0.5rem 0.6rem 0.7rem;
+}
+.efemeride-post-title {
+  display: block;
+  font-size: 0.85rem;
+  line-height: 1.3;
+  color: var(--content);
+}
+.efemeride-date {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.75rem;
+  color: var(--secondary);
+}
+
 /* ---- Portada: mosaic de fotografies ---- */
 
 .site-intro {
@@ -263,18 +358,19 @@
 /* ---- Header: imatge de fons (static/images/header-bg.jpg) ---- */
 
 :root {
-  --header-height: 104px;
+  --header-height: 176px;
 }
 .header {
   background-size: cover;
   background-position: center;
 }
-/* Portada: header i logotip al doble de mida */
+/* Portada: header una mica més alt */
 .header.header-home {
   --header-height: 208px;
 }
-.header-home .logo a img {
-  height: 72px;
+/* Logotip al doble de mida a totes les pàgines */
+.logo a img {
+  height: 144px;
   width: auto;
 }
 [data-theme="light"] .header,
@@ -285,4 +381,101 @@
 [data-theme="dark"] .header {
   background-image: linear-gradient(rgba(23, 26, 33, 0.72), rgba(23, 26, 33, 0.72)),
     url("../../images/header-bg.jpg");
+}
+
+/* ---- Arxiu: navegació horitzontal per anys ---- */
+
+.archive-years {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.5rem 0 1.75rem;
+}
+.archive-year-link {
+  display: inline-block;
+  padding: 0.25rem 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--secondary);
+  text-decoration: none;
+  transition: color 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+}
+.archive-year-link:hover {
+  color: #e03131;
+  border-color: #e03131;
+  background: rgba(224, 49, 49, 0.08);
+}
+.archive-year-header,
+.archive-month-header {
+  scroll-margin-top: 1rem;
+}
+
+/* Índex d'anys fix a la dreta (estil Time Machine) */
+.archive-rail {
+  position: fixed;
+  top: 50%;
+  right: 0.75rem;
+  transform: translateY(-50%);
+  z-index: 40;
+  padding: 0.6rem 0.4rem;
+  border-radius: 12px;
+  background: rgba(20, 20, 22, 0.62);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.28);
+  max-height: 88vh;
+  overflow-y: auto;
+  display: none;
+}
+@media (min-width: 1200px) {
+  .archive-rail {
+    display: block;
+  }
+}
+.archive-rail-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+.archive-rail-link {
+  display: block;
+  padding: 0.12rem 0.55rem;
+  border-radius: 6px;
+  font-size: 0.74rem;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.35;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  text-align: right;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+.archive-rail-link:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.12);
+}
+.archive-rail-link.is-current {
+  color: #fff;
+  background: #e03131;
+  font-weight: 700;
+}
+
+/* ---- Menú principal: opció activa destacada ---- */
+
+.menu a {
+  transition: color 0.15s ease;
+}
+.menu a:hover span {
+  color: #e03131;
+}
+.menu .active {
+  color: #e03131;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 3px solid #e03131;
+  padding-bottom: 2px;
 }
