@@ -99,6 +99,11 @@ sync-9bi.sh                        # script de sync/gestió
 - Feed públic (`/feeds/posts/default`) confirma **3.006 entrades** (`openSearch:totalResults`). Escala real de la migració pendent.
 - El feed públic serveix **RSS** per defecte (`<rss><channel>`), format diferent de l'Atom (`<feed>`) que exporta "Còpia de seguretat del contingut" de Blogger i que `migrate_blogger.py` espera. Cal l'exportació oficial (Configuració → Altres → Còpia de seguretat del contingut), no el feed públic: conté el contingut complet, esborranys inclosos, sense truncar.
 
+## Tasques pendents (backlog curt)
+
+- **`content/contacte.md`**: afegir al formulari un camp nou "A quina entitat de Nou Barris pertanys o representes (opcionalment)" (input opcional, com `assumpte`).
+- **`content/contacte.md`**: treure la línia final "També pots escriure'ns directament a info@9barrisimatge.org." — motiu: exposar l'email fa que la gent contacti pesadament fora del formulari.
+
 ## Decisions pendents per a la migració real (2026-09-17)
 
 - **Etiquetes**: al blog original són molt incompletes (moltes entrades sense tag o amb tags inconsistents). No fer còpia cega amb `migrate_blogger.py` — caldrà revisar/curar les etiquetes, no assumir que el que hi ha al Blogger és la taxonomia final.
