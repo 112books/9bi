@@ -6,6 +6,8 @@ url: "/qui-som/"
 
 L'**Associació fotogràfica 9 Barris Imatge**, fundada l'any **2002**, és un col·lectiu de fotògrafs i fotògrafes de l'àmbit del districte de **Nou Barris** (Barcelona) que documenta la vida dels barris: les festes, els actes veïnals, la cultura popular i el dia a dia de la gent. **Des de 2002 documentant Nou Barris.**
 
+![Membres de 9 Barris Imatge al Casal](/images/Membres-casalL1300396.jpg)
+
 ## Història
 
 L'associació es va fundar l'any **2002**. Més tard, el **2010**, va néixer el bloc de fotografia com a crònica fotogràfica oberta dels Nou Barris des de dins. Al llarg dels anys, el col·lectiu ha crescut i s'ha anat incorporant gent amb mirades molt diverses, però amb un objectiu comú: **explicar el barri amb una càmera**.
@@ -16,21 +18,27 @@ El logotip de l'associació és obra de l'artista de Nou Barris **Toni Pagès**.
 
 ## Reunions
 
-9barrisimatge és 100% anarcoasamblearia i tenim reunions cada dijous (cada dijous que podem) al casal de barri de la Prosperitat que és on tenim el nostre centre d'operacions des de sempre.
+Els membres de 9barrisimatge som un xic anarcoassemblearis i tenim reunions cada dijous sobre les 8 del vespre (cada dijous que podem i ens ve de gust, car) al [Casal de barri de la Prosperitat](http://www.casalprospe.org/), que és on tenim el nostre centre d'operacions des de l'inici.
+
+![Reunió de dijous de 9 Barris Imatge](/images/reunións-dojous-L1420055-1024x576.jpg)
+
+Ho fem els dijous per ser el dia de les minyones i perquè les nostres amigues [Las Rudas](https://www.instagram.com/rudascooperativa/) fan el pintxo i la tapa i nosaltres celebrem el que anomenem «Dojous Calents», si vens ho entendràs ;)
+
+## Com funcionem
+
+9 Barris Imatge funciona amb la feina voluntària dels seus membres. Les poques ajudes econòmiques que tenim serveixen per comprar material (flaixos, trípodes, etc.) i poc més. Ens mou la participació real i ser part de la vida associativa del barri.
+
+No obstant això, no ens sentim obligats a res: fem el que bonament podem, i si ens aviseu hi ha més possibilitats que fem quatre fotografies del vostre acte cultural, festa popular, etc. Sempre a Nou Barris!
+
+També agraïm aportacions i donatius —un cafetó, un got— i adoptem andròmines per fer fotografies de tot tipus: les usem o els cerquem una nova vida.
+
+També podem acceptar aportacions econòmiques substancioses per viure millor i somriure més. Proveu-ho!
 
 ## Membres
 
 El col·lectiu el formen aquestes persones:
 
-- **Alberto Sanagustín** — [perfil de Blogger](https://www.blogger.com/profile/16399715831790649537)
-- **Francesc Barbe** — [perfil de Blogger](https://www.blogger.com/profile/00926052916717343447)
-- **Iozsef Kiss** — [perfil de Blogger](https://www.blogger.com/profile/04330214459290255808)
-- **Ismael Utrilla** — [perfil de Blogger](https://www.blogger.com/profile/06765486609758806432)
-- **Joan "Linux" Martínez i Serres** — [bloc personal](https://blog.pocallum.cat/)
-- **Juan Carlos Molina (Grismedio Casinegro)** — [Instagram](https://www.instagram.com/grismedio_casinegro)
-- **Manel Sala "Ulls" Circ** — [bloc de circ](http://circ-manelsala-ulls.blogspot.com/)
-- **Pedro "Casal" Cervera** — [perfil de Blogger](https://www.blogger.com/profile/18053814840045725261)
-- **Pedro Click** — [bloc personal](http://pedroclick.blogspot.com.es/)
+{{< membres >}}
 
 ## Entitats que ajuden activament a 9 Barris Imatge
 
@@ -48,9 +56,10 @@ El col·lectiu el formen aquestes persones:
 - **Casal de barri de Prosperitat** — [casalprospe.org](http://www.casalprospe.org/)
 - **Casal de Joves de Prosperitat** — [cjprospe](http://www.ctv.es/USERS/cjprospe/)
 - **districtenoubarris.blogspot.com** — [districtenoubarris.blogspot.com](http://districtenoubarris.blogspot.com/)
-- **FaVB** — [favb.cat](http://favb.cat/)
+- **FAVB** — [favb.cat](http://favb.cat/)
 - **Festival de Blues de Barcelona** — [festivalbluesbarcelona.com](http://festivalbluesbarcelona.com/)
 - **Grup Foto Roquetes** — [grupfotoroquetes.blogspot.com](http://grupfotoroquetes.blogspot.com.es)
+- **Las Rudas** — [rudascooperativa](https://www.instagram.com/rudascooperativa/)
 - **Nou Barris Acull** — [9bacull.org](http://9bacull.org/)
 - **Nou Barris cabrejada, diu prou!** — [9bcabrejada.blogspot.com](http://9bcabrejada.blogspot.com/)
 - **Pocallum.cat** — [pocallum.cat](http://www.pocallum.cat/)

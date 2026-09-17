@@ -1,0 +1,35 @@
+{{- $data := hugo.Data.membres.membres | default slice -}}
+{{- $byAuthor := dict -}}
+{{- range $data -}}
+  {{- $byAuthor = merge $byAuthor (dict (lower .autor) .) -}}
+{{- end -}}
+{{- $rows := slice -}}
+{{- range $key, $term := site.Taxonomies.author -}}
+  {{- $title := $term.Page.Title -}}
+  {{- if ne (lower $title) "9 barris imatge" -}}
+    {{- $info := index $byAuthor (lower $title) | default dict -}}
+    {{- $name := $info.nom | default ($info.autor | default $title) -}}
+    {{- $rows = $rows | append (dict
+        "name" $name
+        "count" (len $term.Pages)
+        "url" $term.Page.RelPermalink
+        "web" ($info.web | default "")
+        "instagram" ($info.instagram | default "")
+    ) -}}
+  {{- end -}}
+{{- end -}}
+<table class="members">
+  <thead>
+    <tr><th>Membre</th><th>Posts a 9bi</th><th>Web / Blog personal</th><th>Instagram</th></tr>
+  </thead>
+  <tbody>
+    {{- range sort $rows "count" "desc" }}
+    <tr>
+      <td class="members-name"><a href="{{ .url }}">{{ .name }}</a></td>
+      <td class="members-count"><a href="{{ .url }}">{{ .count }}</a></td>
+      <td>{{ with .web }}{{ $label := . | replaceRE "^https?://" "" | replaceRE "/$" "" }}{{ if strings.Contains . "blogger.com/profile" }}{{ $label = "Perfil a Blogger" }}{{ end }}<a href="{{ . }}" target="_blank" rel="noopener">{{ $label }}</a>{{ else }}—{{ end }}</td>
+      <td>{{ with .instagram }}<a href="{{ . }}" target="_blank" rel="noopener">@{{ . | replaceRE "^https?://(www\\.)?instagram\\.com/" "" | replaceRE "/$" "" }}</a>{{ else }}—{{ end }}</td>
+    </tr>
+    {{- end }}
+  </tbody>
+</table>

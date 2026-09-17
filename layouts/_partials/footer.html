@@ -1,5 +1,17 @@
+{{- $showStats := or .IsHome (strings.HasSuffix .RelPermalink "qui-som/") -}}
 {{- if not (.Param "hideFooter") }}
 <footer class="footer">
+    {{- if $showStats }}
+    {{- $posts := len (where site.RegularPages "Section" "posts") }}
+    {{- $anys := sub now.Year 2002 }}
+    {{- $membres := len (hugo.Data.membres.membres | default slice) }}
+    <div class="footer-stats" aria-label="9 Barris Imatge en xifres">
+        <span class="footer-stats-title">9 Barris en números</span>
+        <span class="footer-stats-list">
+            <span class="stat"><span class="stat-num" data-target="{{ $posts }}">{{ lang.FormatNumber 0 $posts }}</span> <span class="stat-label">posts</span></span><span class="stat-sep">·</span><span class="stat"><span class="stat-num" data-target="{{ $anys }}">{{ $anys }}</span> <span class="stat-label">anys</span></span><span class="stat-sep">·</span><span class="stat"><span class="stat-num" data-target="{{ $membres }}">{{ $membres }}</span> <span class="stat-label">membres</span></span>
+        </span>
+    </div>
+    {{- end }}
     {{- if not site.Params.footer.hideCopyright }}
         {{- if site.Copyright }}
         <span>{{ site.Copyright | markdownify }}</span>
@@ -13,6 +25,19 @@
         {{ . | markdownify }}
         {{- print " · "}}
     {{- end }}
+
+    {{/*
+        - The "Powered by Hugo" text is intentionally left at the end of the footer to give it more prominence.
+        - We kindly encourage you to keep this line. Keeping this credit helps open source projects like PaperMod and Hugo reach more people, supports the open source ecosystem, and shows appreciation for the work that goes into these tools.
+        - If you choose to remove it, please consider adding a link to the PaperMod GitHub repository somewhere on your site to give credit to the project and its contributors.
+        - Support us by sponsoring the project on GitHub Sponsors: https://github.com/sponsors/adityatelange
+    */}}
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
 </footer>
 {{- end }}
 
@@ -27,6 +52,51 @@
 {{- end }}
 
 {{- partial "extend_footer.html" . }}
+
+{{- if $showStats }}
+<script>
+(function () {
+    var block = document.querySelector(".footer-stats");
+    if (!block) return;
+    var nums = Array.prototype.slice.call(block.querySelectorAll(".stat-num"));
+    var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    function fmt(n) { return n.toLocaleString("ca-ES"); }
+    function finish() {
+        nums.forEach(function (el) {
+            var t = parseInt(el.dataset.target, 10);
+            if (!isNaN(t)) el.textContent = fmt(t);
+        });
+    }
+    function run() {
+        if (reduce) { finish(); return; }
+        nums.forEach(function (el) {
+            var target = parseInt(el.dataset.target, 10);
+            if (isNaN(target)) return;
+            var dur = 1200, start = null;
+            function step(ts) {
+                if (start === null) start = ts;
+                var p = Math.min((ts - start) / dur, 1);
+                var eased = 1 - Math.pow(1 - p, 3);
+                el.textContent = fmt(Math.round(target * eased));
+                if (p < 1) requestAnimationFrame(step);
+                else el.textContent = fmt(target);
+            }
+            requestAnimationFrame(step);
+        });
+    }
+    if ("IntersectionObserver" in window) {
+        var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (e) {
+                if (e.isIntersecting) { run(); io.disconnect(); }
+            });
+        }, { threshold: 0.4 });
+        io.observe(block);
+    } else {
+        finish();
+    }
+})();
+</script>
+{{- end }}
 
 <script>
     let menu = document.getElementById('menu');

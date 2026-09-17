@@ -33,12 +33,16 @@ uglyURLs = true
 [taxonomies]
   tag = "tags"
   category = "categories"
+  author = "author"
 
 [pagination]
   # Portada: graella de 4 columnes x 2 files (8 articles per pàgina)
   pagerSize = 8
 
 [params]
+  # Tema per defecte: fosc (es pot canviar a clar amb el botó sol/lluna, Alt+T).
+  defaultTheme = "dark"
+
   # Seccions principals: només els articles (posts) surten a la portada;
   # les guies i la documentació són internes (backend) i no hi apareixen.
   mainSections = ["posts"]
@@ -88,10 +92,15 @@ uglyURLs = true
     url = "/concurs/"
     weight = 4
   [[menu.main]]
+    identifier = "search"
+    name = "Cerca"
+    url = "/search/"
+    weight = 5
+  [[menu.main]]
     identifier = "contacte"
     name = "Contacte"
     url = "/contacte/"
-    weight = 5
+    weight = 6
 
 [[menu.footer]]
     identifier = "archive"

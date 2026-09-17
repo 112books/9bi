@@ -84,3 +84,21 @@ collections:
       - { label: "Data", name: "date", widget: "datetime", required: false }
       - { label: "Esborrany (no visible públicament)", name: "draft", widget: "boolean", default: true }
       - { label: "Contingut", name: "body", widget: "markdown" }
+
+  - name: "membres"
+    label: "Membres (Qui som)"
+    label_singular: "Membre"
+    files:
+      - name: "membres"
+        label: "Nom visible, web i Instagram de cada membre"
+        file: "data/membres.yml"
+        fields:
+          - label: "Membres"
+            name: "membres"
+            widget: "list"
+            summary: "{{fields.autor}}"
+            fields:
+              - { label: "Autor (ha de coincidir amb el camp Autor dels articles)", name: "autor", widget: "select", options: ["Alberto Sanagustín", "Francesc Barbe", "Iozsef Kiss", "Ismael Utrilla", "Joan \"Linux\" Martínez i Serres", "Juan Carlos Molina (Grismedio Casinegro)", "Manel Sala \"Ulls\" Circ", "Pedro \"Casal\" Cervera", "Pedro Click", "Núria Laura Orbaneja", "Manel Villalba", "Nico YeYe", "9 Barris Imatge"] }
+              - { label: "Nom visible (opcional)", name: "nom", widget: "string", required: false, hint: "Si es deixa buit, es mostra el nom de l'autor." }
+              - { label: "Web / Blog personal", name: "web", widget: "string", required: false }
+              - { label: "Instagram", name: "instagram", widget: "string", required: false }

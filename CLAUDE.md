@@ -10,6 +10,14 @@ Documentació per a sessions de Claude. Només fets verificats dels fitxers del 
 - Si quelcom és ambigu, **preguntar**; no assumir ni improvisar.
 - El rigor per sobre de la velocitat: verificar sempre a `content/` i `layouts/` abans de donar per fet què hi ha.
 
+## Protocol d'inici de sessió (obligatori)
+
+A l'inici de **cada** sessió (OpenCode, Claude o la que sigui), abans de treballar:
+
+1. **Sincronitzar els repositoris**: `git fetch origin` i comprovar que `main` (i la branca `pages`) estiguin al dia.
+2. **Iniciar la gestió d'hores**: activar/enregistrar el temps de la sessió (skill `time-tracker`, `.taques/`).
+3. **Recompte del web**: usuaris (GoatCounter), nombre de posts i números del web (posts · anys · membres).
+
 ## El projecte
 
 Lloc web estàtic de l'Associació fotogràfica 9 Barris Imatge (Barcelona), migrat de Blogger a Hugo + PaperMod, hostatjat a Codeberg Pages.
@@ -40,32 +48,38 @@ Lloc web estàtic de l'Associació fotogràfica 9 Barris Imatge (Barcelona), mig
 - `uglyURLs = true` (preserva les URL `.html` de Blogger)
 - `[permalinks] posts = "/:year/:month/:slug"`
 - `[markup.goldmark.renderer] unsafe = true` i `[markup.goldmark.parser.attribute] block = true`
-- Taxonomies: `tag` → `tags`, `category` → `categories` · `paginate = 24`
-- `params`: description, ShowPostAuthors=true, ShowBreadCrumbs=false, ShowReadingTime=false, ShowShareButtons=false, ShowPostNavLinks=true, ShowCodeCopyButtons=true, ShowWordCount=false, comments=false; `homeInfoParams` (Title + Content)
-- `menu.main`: Inici(/), Articles(/posts/), Qui som(/qui-som/), Concurs J. A. Cordoncillo(/concurs/), Contacte(/contacte/) — **la Guia NO hi és** (és interna, s'accedeix des del CMS)
-- `menu.footer`: Articles, Etiquetes(/tags/), Arxiu(/archive/), Més visitats(/mes-visitats/), Cerca(/search/), RSS(/index.xml)
+- Taxonomies: `tag` → `tags`, `category` → `categories`, `author` → `author` · `paginate = 24`
+- `params`: `defaultTheme = "dark"`, description, ShowPostAuthors=true, ShowBreadCrumbs=false, ShowReadingTime=false, ShowShareButtons=false, ShowPostNavLinks=true, ShowCodeCopyButtons=true, ShowWordCount=false, comments=false; `homeInfoParams` (Title + Content)
+- `menu.main`: Inici(/), Arxiu(/archive/), Qui som(/qui-som/), El Concurs(/concurs/), Contacte(/contacte/) — **la Guia NO hi és** (és interna, s'accedeix des del CMS); **falta Cerca** (pendent, abans de Contacte)
+- `menu.footer`: Arxiu(/archive/), Etiquetes(/tags/), Més visitats(/mes-visitats/), Estadístiques(goatcounter), Cerca(/search/), RSS(/index.xml)
 
 ## Estructura de fitxers (verificada)
 
 ```
 content/
-├── posts/                         # 2 posts de prova migrats
-├── qui-som.md, concurs.md, contacte.md   # pàgines estàtiques (amb `url` explícita)
+├── posts/                         # 3.006 posts migrats de Blogger
+├── qui-som.md, concurs.md, contacte.md, privacitat.md, avis-legal.md, cookies.md, credits.md   # pàgines estàtiques (amb `url` explícita)
 ├── search.md (layout "search"), archive.md (layout "archives")
 ├── mes-visitats.md (layout "popular" + hiddenInRss: true)
 ├── guia/                          # _index.md + 6 subpàgines — TOTES amb `draft: true`
 └── documentacio/                  # interna (draft): actes/ (acta 2026-09-10) + concurs/
 layouts/
+├── baseof.html                    # SOBREESCRIT: clau de caché del footer amb la condició de «números»
 ├── index.html                     # portada en mosaic (grid de fotos, paginat)
+├── archives.html                  # arxiu + índex d'anys a la dreta (rail)
+├── author/term.html               # pàgina de posts per autor (mosaic paginat)
+├── _shortcodes/membres.html       # taula de membres (ordenada per nº de posts)
 ├── _default/popular.html          # llista de més visitats (llegeix data/popular.json)
 └── _partials/
+    ├── footer.html                # SOBREESCRIT: bloc «9 Barris en números» + count-up
     ├── extend_head.html           # GoatCounter → 9barrisimatge.goatcounter.com
-    ├── extend_footer.html         # menú footer + "Powered by LinuxBCN" (→ linuxbcn.com)
+    ├── extend_footer.html         # menú footer + fila legal (Avís legal · Privacitat · Cookies · Crèdits) + "Powered by LinuxBCN" (→ linuxbcn.com)
     └── extend_post_content.html   # botó "Veure tot l'àlbum de fotos" (si album_url)
-assets/css/extended/custom.css     # estils: mosaic, botó àlbum, footer-nav, powered-by, formulari, etc.
+assets/css/extended/custom.css     # estils: mosaic, botó àlbum, footer-nav, powered-by, formulari, membres, footer-stats
 static/admin/{config.yml,index.html}  # Decap CMS
-scripts/{migrate_blogger.py,goatcounter_popular.py}
-data/popular.json                  # top visites (exemple)
+static/images/                     # imatges (media_folder del CMS)
+scripts/{migrate_blogger.py,migrate_live.py,goatcounter_popular.py}
+data/{popular.json,membres.yml}    # top visites (exemple) + membres (CMS)
 .forgejo/workflows/deploy.yml      # CI/CD
 archetypes/default.md              # front matter per defecte
 sync-9bi.sh                        # script de sync/gestió
@@ -136,7 +150,7 @@ sync-9bi.sh                        # script de sync/gestió
 - **Resultat**: **3.006/3.006 posts migrats a `content/posts/`**, 0 errors. Build local net (`hugo`, 3006 pàgines, ~30s, sense warnings de col·lisió).
 - **Bug detectat i corregit durant la migració**: la primera passada deduplicava per slug sense any/mes i en va perdre 118 (p.ex. "blog-post" es repeteix 41 cops en mesos diferents — cap col·lisió real d'URL). Fix: dedup per URL original de Blogger, no per slug.
 - **Advertència coneguda**: `album_url` s'extreu de l'enllaç que envolta la primera imatge del post. Si un post té més d'un enllaç rellevant (p.ex. tant un àlbum de Google Photos com un crosspost a `blog.pocallum.cat`), només es captura el primer — pot no ser sempre el que un humà triaria. Detectat al post de Prospe Beach 2026 (l'enllaç de Google Photos que l'usuari havia enganxat manualment al xat va quedar substituït per l'enllaç al crosspost de pocallum.cat en re-executar la migració completa).
-- **Encara sense fer**: commit/push/deploy d'aquests 3.006 fitxers — pendent de revisió de l'usuari al servidor local abans de pujar-ho.
+- **Estat**: els 3.006 posts estan committejats i desplegats.
 
 ## Sessió 2026-09-17 (v2) — formulari RGPD i ordre del peu
 
@@ -149,16 +163,47 @@ sync-9bi.sh                        # script de sync/gestió
 - **`content/privacitat.md`** (nou, `url: "/privacitat/"`): política de privacitat amb responsable, finalitats, base jurídica, destinataris (FormSubmit + proveïdor de correu), conservació, drets i AEPD. **Conté placeholders `[PENDENT: NIF…]` i `[PENDENT: adreça…]` que s'han d'omplir abans de publicar** (vegeu backlog).
 - **`assets/css/extended/custom.css`**: estils `.contact-consent`, `.contact-honeypot` (off-screen), `.contact-after`/`.contact-alt`.
 
+## Sessió 2026-09-18 — membres, imatges, peu en números i tema fosc
+
+- **Llistat de membres implementat** (`content/qui-som.md` → `{{< membres >}}`):
+  - Taxonomia nova `author = "author"` a `config/_default/hugo.toml` (en Hugo el **valor** és la clau de front matter; amb `author = "authors"` no es genera cap terme).
+  - `data/membres.yml`: 12 membres (`autor`, `nom`, `web`, `instagram`), editable des del CMS.
+  - `layouts/_shortcodes/membres.html`: taula ordenada pel nombre de posts (desc); nom i número enllacen a la pàgina de l'autor; els perfils de Blogger es mostren com «Perfil a Blogger»; si `nom` és buit s'usa `autor`. Exclou "9 Barris Imatge".
+  - `layouts/author/term.html`: pàgina per autor amb graella tipus mosaic de portada, paginada (`/author/<slug>.html` i `/author/<slug>/page/N.html`); títol pres de `data/membres.yml` per preservar majúscules/minúscules.
+  - `static/admin/config.yml`: col·lecció de fitxers Decap «membres» sobre `data/membres.yml` (select `autor` amb 13 opcions, `nom`, `web`, `instagram`).
+  - **Pendent**: enllaç de reserva al perfil de «Els components de 9 barris imatge» del bloc vell per als membres sense web (ara mostren «—») i completar els Instagram que falten.
+- **Imatges noves** (mogudes de l'arrel a `static/images/`): `Membres-casalL1300396.jpg` (dalt de «Qui som»), `reunións-dojous-L1420055-1024x576.jpg` (secció Reunions), `juan-sinsangre-trofeus_DSF5756.jpg` (secció nova «Història dels trofeus»). `alt` escrits per nosaltres.
+- **`content/qui-som.md`**: secció nova **«Com funcionem»** (entre Reunions i Membres); text de «Reunions» reescrit per l'usuari amb enllaç a **Las Rudas** (`https://www.instagram.com/rudascooperativa/`), també afegida a «Links amics».
+- **`content/concurs.md`**: secció **«## Història dels trofeus»** (Juan Sin Sangre → Carlitos).
+- **Peu «9 Barris en números»** (només **portada** i **Qui som**): «3.006 posts · 24 anys · 12 membres», amb count-up en entrar a pantalla (IntersectionObserver; amb `prefers-reduced-motion` o sense JS es mostren els valors finals). Valors: `len (where site.RegularPages "Section" "posts")`, `sub now.Year 2002`, `len hugo.Data.membres.membres`; format amb `lang.FormatNumber 0` → «3.006».
+  - **`layouts/_partials/footer.html` sobreescrit** (còpia del tema + bloc + script).
+  - **`layouts/baseof.html` sobreescrit**: cal afegir la condició a la clau de `partialCached "footer.html"` (era `.Layout`+`.Kind`, i «Qui som» comparteix clau amb els posts → agafava el peu cachejat d'un post). **Atenció en actualitzar PaperMod: `baseof.html` i `_partials/footer.html` ara són nostres.**
+- **Tema fosc per defecte**: `config/_default/hugo.toml` → `[params] defaultTheme = "dark"` (el botó sol/lluna del header, Alt+T, passa a clar i ho recorda via localStorage).
+- **Arxiu**: l'índex d'anys de la dreta només apareixia a ≥1200px; baixat a **≥1024px** (`custom.css`).
+- **Tipografia**: només feta la **vista prèvia** (cos **Montserrat** + títols **Gillius ADF**) a `/tmp/font-preview`; **no s'ha canviat cap fitxer del web**. Pendent d'instal·lar autoallotjada.
+- **Peu legal**: fila nova `.footer-legal` (**Avís legal · Privacitat · Cookies**) sota el menú del peu; `content/avis-legal.md` i `content/cookies.md` nous (esquelet amb `[PENDENT]`). Espai sota «Powered» (`.powered-by` → `margin-bottom: 1.2rem`).
+- **`content/qui-som.md`**: «FaVB» → «**FAVB**» a «Links amics».
+
 ## Tasques pendents (backlog curt)
 
 - **`content/contacte.md`**: afegir al formulari un camp nou "A quina entitat de Nou Barris pertanys o representes (opcionalment)" (input opcional, com `assumpte`).
 - **`content/privacitat.md`**: omplir els `[PENDENT: ...]` amb el **NIF** i l'**adreça** reals de l'associació; sense això la política no és vàlida. (El correu ja hi és: info@9barrisimatge.org.)
-- **Peu**: decidir si s'hi afegeix un enllaç **"Privacitat"** (ara només s'hi arriba des del formulari de contacte).
-- **Pàgina d'avís legal** i resta d'adequació RGPD (text de cookies, etc.).
+- **Peu legal**: fila legal creada (Avís legal · Privacitat · Cookies · Crèdits). Pendent: contingut real d'`avis-legal.md`, `cookies.md` i completar `privacitat.md` (NIF/adreça); resta d'adequació RGPD.
 - **Auditoria de seguretat** (encarregada 2026-09-17, pendent).
 - **Auditoria d'accessibilitat** (encarregada 2026-09-17, pendent).
-- **`content/qui-som.md`**: llistat de membres ordenat pel nombre de posts, amb enllaç "Publicacions" (decidit: taxonomia + shortcode), web personal i Instagram opcionals. Roster decidit: tots els autors amb posts excepte "9 Barris Imatge" (12).
-  - **Nota tècnica (verificada 2026-09-17)**: en Hugo, el **valor** de `[taxonomies]` és la clau de *front matter* i la base d'URL, no la clau de l'esquerra. Com que tots els posts fan servir `author:` (singular), cal definir `author = "author"` (o `authors = "author"`) perquè s'indexin; amb `author = "authors"` **no es genera cap terme** (provat). Alternativa: reescriure els 3.006 posts a `authors:`. Canvi provat i **revertit** per no deixar una taxonomia buida; pendent de decidir l'opció final.
+- **`content/qui-som.md`** (secció «Membres»): **implementat (2026-09-18)** amb `{{< membres >}}` + `data/membres.yml` + `layouts/author/term.html` + col·lecció Decap «membres» (vegeu la sessió 2026-09-18). Pendent: enllaç de reserva al **perfil del bloc vell** («Els components de 9 barris imatge») per als membres sense web (ara mostren «—») i completar els **Instagram** que falten.
+- **Comentaris al web**: implementar un sistema de comentaris amb **fort control d'spam** (pendent d'escollir la solució/proveïdor).
+- **Compartir a xarxes**: botons per compartir fàcilment a **Instagram** i les xarxes que es portin ara (pendent).
+- **Tipografies**: cos **Montserrat** + títols **Gillius ADF** (combinació triada per l'usuari; feta només la vista prèvia a `/tmp/font-preview`). Pendent d'instal·lar autoallotjades (`static/fonts/` + `@font-face`, `font-display: swap`, preload) i aplicar-les a `custom.css`. **Res de Google Fonts CDN** (RGPD). Gillius ADF és GPL+excepció de font.
+- **Capçalera sticky amb icones**: en fer scroll, transformar el menú de navegació en icones. **Falta afegir «Cerca» abans de «Contacte»** al menú principal.
+
+## Infraestructura i comunicació (pendent)
+
+- **Butlletí**: cal tenir un butlletí (newsletter) per a l'associació.
+- **DNS i correu**: repensar què fer amb els DNS; es vol **correu gratuït i lliure per a cada membre** i un de **genèric** de l'entitat.
+- **Grup de correu**: llista/grup per enviar un correu a tots els membres.
+- **Telegram**: grup **privat** i **públic** (aquest darrer unidireccional, on s'envien els posts quan es publiquen).
+- **Facebook**: publicar automàticament els posts.
 
 ## Properes sessions
 
@@ -173,7 +218,7 @@ sync-9bi.sh                        # script de sync/gestió
 
 ## El que encara no existeix (per no assumir)
 
-- Migració real de Blogger: només 2 posts de prova migrats, dels 3.006 reals. `markdownify`+`pyyaml` ja instal·lats a `.venv-migracio` (verificat), falta l'export XML oficial del blog real.
+- Migració de Blogger: **feta** (3.006/3.006 posts a `content/posts/`). Pendent: curar etiquetes i autors. No cal l'export XML oficial: `scripts/migrate_live.py` llegeix el feed Atom en directe.
 - OAuth2 Application creada ni Client ID.
 - Lloc GoatCounter creat ni API key.
 - Confirmació que `info@9barrisimatge.org` rep correus (FormSubmit).
