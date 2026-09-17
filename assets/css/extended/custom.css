@@ -23,6 +23,14 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 0.4rem;
   margin: 0 0 2rem;
+  /* Trenca l'amplada estreta de .main: mateixa amplada que la capçalera (--nav-width) */
+  width: 100vw;
+  max-width: calc(var(--nav-width) + var(--gap) * 2);
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding-left: var(--gap);
+  padding-right: var(--gap);
+  box-sizing: border-box;
 }
 @media (max-width: 1024px) {
   .photo-mosaic {

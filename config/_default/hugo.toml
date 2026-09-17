@@ -94,11 +94,6 @@ uglyURLs = true
     weight = 5
 
 [[menu.footer]]
-    identifier = "posts"
-    name = "Articles"
-    url = "/posts/"
-    weight = 1
-  [[menu.footer]]
     identifier = "tags"
     name = "Etiquetes"
     url = "/tags/"
