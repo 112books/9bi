@@ -134,6 +134,15 @@ sync-9bi.sh                        # script de sync/gestió
 
 - **`content/contacte.md`**: afegir al formulari un camp nou "A quina entitat de Nou Barris pertanys o representes (opcionalment)" (input opcional, com `assumpte`).
 - **`content/contacte.md`**: treure la línia final "També pots escriure'ns directament a info@9barrisimatge.org." — motiu: exposar l'email fa que la gent contacti pesadament fora del formulari.
+- **Auditoria de seguretat** (encarregada 2026-09-17, pendent).
+- **Auditoria d'accessibilitat** (encarregada 2026-09-17, pendent).
+- **`content/qui-som.md`**: llistat de membres ordenat pel nombre de posts, amb enllaç "Publicacions" (decidit: taxonomia `authors` + shortcode), web personal i Instagram opcionals. Roster decidit: tots els autors amb posts excepte "9 Barris Imatge" (12). Pendent d'implementar.
+
+## Properes sessions
+
+- **Muntar el CMS**: OAuth2 de Codeberg (Client ID real), usuaris i permisos.
+- **Control de fitxers del Concurs Cordoncillo** (bases, històric, etc.).
+- **Secció per fer i gestionar les reunions** de l'associació.
 
 ## Decisions pendents per a la migració real (2026-09-17)
 
