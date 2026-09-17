@@ -60,7 +60,7 @@ uglyURLs = true
   # Logo del header (asset a assets/images/logo-header.jpg)
   [params.label]
     icon = "images/logo-header.jpg"
-    iconHeight = 144
+    iconHeight = 229
 
   [params.homeInfoParams]
     Title = "9 Barris Imatge"

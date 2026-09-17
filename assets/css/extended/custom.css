@@ -290,10 +290,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-cols {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 2rem;
+  grid-template-columns: repeat(5, 1fr);
+  gap: var(--gap);
   align-items: start;
   text-align: left;
+  max-width: calc(var(--nav-width) + var(--gap) * 2);
+  margin: auto;
   padding: 2.5rem var(--gap) 1rem;
 }
 
@@ -327,8 +329,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-col--logo img {
-  max-width: 100%;
+  width: var(--logo-width);
   height: auto;
+  max-width: 100%;
 }
 
 .footer-bottom {
@@ -337,6 +340,8 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: baseline;
   gap: 0.3rem 0.6rem;
+  max-width: calc(var(--nav-width) + var(--gap) * 2);
+  margin: auto;
   padding: 0.75rem var(--gap) 1.5rem;
   font-size: 0.78rem;
   color: var(--secondary);
@@ -382,13 +387,17 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .footer-cols {
-    grid-template-columns: 1fr 1fr;
-    gap: 1.75rem;
+    grid-template-columns: repeat(3, 1fr);
   }
   .footer-col--empty {
     display: none;
+  }
+}
+@media (max-width: 700px) {
+  .footer-cols {
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media (max-width: 480px) {
@@ -506,6 +515,8 @@ h1, h2, h3, h4, h5, h6 {
 
 :root {
   --header-height: 176px;
+  --logo-width: 138px;
+  --logo-height: 229px;
 }
 .header {
   background-size: cover;
@@ -515,9 +526,9 @@ h1, h2, h3, h4, h5, h6 {
 .header.header-home {
   --header-height: 208px;
 }
-/* Logotip al doble de mida a totes les pàgines */
+/* Logotip: mateixa mida al header i al footer */
 .logo a img {
-  height: 144px;
+  height: var(--logo-height);
   width: auto;
 }
 [data-theme="light"] .header,
@@ -528,6 +539,45 @@ h1, h2, h3, h4, h5, h6 {
 [data-theme="dark"] .header {
   background-image: linear-gradient(rgba(23, 26, 33, 0.72), rgba(23, 26, 33, 0.72)),
     url("../../images/header-bg.jpg");
+}
+
+/* ---- Header sticky amb transformació a icones (escriptori) ---- */
+
+@media (min-width: 769px) {
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: box-shadow 0.25s ease;
+  }
+  .header .header-nav {
+    transition: line-height 0.25s ease;
+  }
+  .header .logo a img {
+    transition: height 0.25s ease;
+  }
+  .header.scrolled {
+    --header-height: 64px;
+    box-shadow: 0 1px 0 var(--border), 0 8px 20px rgba(0, 0, 0, 0.22);
+  }
+  .header.scrolled .logo a img {
+    height: 48px;
+  }
+  .menu-icon {
+    display: none;
+    align-items: center;
+  }
+  .menu-icon svg {
+    width: 20px;
+    height: 20px;
+    display: block;
+  }
+  .header.scrolled .menu-icon {
+    display: inline-flex;
+  }
+  .header.scrolled .menu-text {
+    display: none;
+  }
 }
 
 /* ---- Arxiu: navegació horitzontal per anys ---- */

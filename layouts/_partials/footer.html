@@ -8,7 +8,7 @@
         <div class="footer-col footer-col--logo">
             <a href="{{ "" | absLangURL }}" aria-label="{{ site.Title }}">
                 {{- with resources.Get (site.Params.label.icon) }}
-                <img src="{{ .Permalink }}" alt="{{ site.Title }}" height="64" loading="lazy">
+                <img src="{{ .Permalink }}" alt="{{ site.Title }}" width="138" height="229" loading="lazy">
                 {{- end }}
             </a>
         </div>
@@ -163,6 +163,20 @@
 
 </script>
 {{- end }}
+
+<script>
+    (function () {
+        var header = document.getElementById("header");
+        if (!header) return;
+        var threshold = 120;
+        function onScroll() {
+            if (window.scrollY > threshold) header.classList.add("scrolled");
+            else header.classList.remove("scrolled");
+        }
+        onScroll();
+        window.addEventListener("scroll", onScroll, { passive: true });
+    })();
+</script>
 
 {{- if (not site.Params.disableThemeToggle) }}
 <script>

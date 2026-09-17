@@ -1,4 +1,12 @@
-<header class="header{{ if .IsHome }} header-home{{ end }}">
+{{- $icons := dict
+  "home" "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 10.5 12 3l9 7.5\"/><path d=\"M5 9.5V21h14V9.5\"/><path d=\"M9 21v-6h6v6\"/></svg>"
+  "archive" "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"4\" rx=\"1\"/><path d=\"M5 8v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8\"/><path d=\"M10 12h4\"/></svg>"
+  "qui-som" "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M16 20v-1.5a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4V20\"/><circle cx=\"9\" cy=\"7\" r=\"3.5\"/><path d=\"M22 20v-1.5a4 4 0 0 0-3-3.87\"/><path d=\"M16 3.6a4 4 0 0 1 0 7.8\"/></svg>"
+  "concurs" "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 4h12v5a6 6 0 0 1-12 0V4Z\"/><path d=\"M6 6H3v1a4 4 0 0 0 4 4\"/><path d=\"M18 6h3v1a4 4 0 0 1-4 4\"/><path d=\"M12 15v3\"/><path d=\"M9 21h6\"/></svg>"
+  "search" "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"11\" cy=\"11\" r=\"7\"/><path d=\"m20 20-3.5-3.5\"/></svg>"
+  "contacte" "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path d=\"m3 7 9 6 9-6\"/></svg>"
+-}}
+<header class="header" id="header">
     <nav class="header-nav">
         <div class="logo">
             {{- $label_text := (site.Params.label.text | default site.Title) }}
@@ -57,7 +65,7 @@
                     </svg>
                 </button>
                 {{- end }}
-
+                
                 {{- if (not site.Params.disableLangToggle) }}
                     {{- $lang := .Lang}}
                     {{- with site.Home.Translations }}
@@ -73,7 +81,7 @@
                                 {{- .Language.LanguageName | emojify -}}
                                 {{- else }}
                                 {{- .Lang | title -}}
-                                {{- end -}}
+                                {{- end }}
                             </a>
                         </li>
                         {{- end -}}
@@ -88,12 +96,13 @@
         <ul id="menu" class="menu">
             {{- range site.Menus.main }}
             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
-            {{- $page_url:= replace $currentPage.Permalink "index.html" "" }}
+            {{- $page_url:= $currentPage.Permalink | absLangURL }}
             {{- $is_search := eq (site.GetPage .KeyName).Layout `search` }}
             <li>
                 <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
                 {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
-                    <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
+                    {{- with index $icons .Identifier }}<span class="menu-icon" aria-hidden="true">{{ . | safeHTML }}</span>{{ end }}
+                    <span class="menu-text{{ if eq $menu_item_url $page_url }} active{{ end }}">
                         {{- .Pre }}
                         {{- .Name -}}
                         {{ .Post -}}
