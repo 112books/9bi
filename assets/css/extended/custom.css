@@ -2,6 +2,51 @@
 /* 9 Barris Imatge — personalització del theme  */
 /* ============================================ */
 
+/* ---- Tipografies autoallotjades (sense CDN, RGPD) ---- */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../fonts/montserrat/montserrat-latin-400-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../../fonts/montserrat/montserrat-latin-700-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../../fonts/montserrat/montserrat-latin-800-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Gillius ADF";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../fonts/gillius/GilliusADF-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gillius ADF";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../../fonts/gillius/GilliusADF-Bold.otf") format("opentype");
+}
+
+/* ---- Aplicació: cos Montserrat, títols Gillius ADF ---- */
+body {
+  font-family: "Montserrat", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Gillius ADF", "Montserrat", sans-serif;
+}
+
 /* ---- Portada: efemèrides (Avui fa…) ---- */
 
 .efemerides {

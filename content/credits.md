@@ -8,24 +8,24 @@ Aquest web no és només una eina: és també una manera de fer. Aquí expliquem
 
 ## Desenvolupament
 
-L'ha desenvolupat **LinuxBCN** (linuxbcn.com), amb la feina i les aportacions de l'associació. El codi es manté al repositori `linuxbcn/9bi` de Codeberg.
+L'ha desenvolupat **[LinuxBCN](https://linuxbcn.com)**, amb la feina i les aportacions de l'associació. El codi es manté al repositori [`linuxbcn/9bi`](https://codeberg.org/linuxbcn/9bi) de [Codeberg](https://codeberg.org/).
 
 ## Amb què està fet
 
-- **Hugo** — generador de llocs estàtics (ràpid, sense base de dades).
-- **PaperMod** — tema del lloc per a Hugo.
-- **Decap CMS** — per editar els continguts.
-- **Codeberg** (Forgejo) — allotjament del codi.
-- **Codeberg Pages** — publicació del lloc.
-- **GoatCounter** — estadístiques de visites sense cookies.
-- **Git, Markdown, HTML, CSS i JavaScript**.
-- **Python** — scripts de migració des del bloc antic.
+- **[Hugo](https://gohugo.io/)** — generador de llocs estàtics (ràpid, sense base de dades).
+- **[PaperMod](https://github.com/adityatelange/hugo-PaperMod)** — tema del lloc per a Hugo.
+- **[Decap CMS](https://decapcms.org/)** — per editar els continguts.
+- **[Codeberg](https://codeberg.org/)** ([Forgejo](https://forgejo.org/)) — allotjament del codi.
+- **[Codeberg Pages](https://codeberg.page/)** — publicació del lloc.
+- **[GoatCounter](https://www.goatcounter.com/)** — estadístiques de visites sense cookies.
+- **[Git](https://git-scm.com/)**, **[Markdown](https://daringfireball.net/projects/markdown/)**, HTML, CSS i JavaScript.
+- **[Python](https://www.python.org/)** — scripts de migració des del bloc antic.
 
 ## Programari lliure
 
 Estem convençuts del valor del **programari lliure**: ens dona control, transparència, privacitat i autonomia, i fa possible que una entitat petita pugui mantenir un lloc com aquest. Sempre que podem, fem servir eines lliures.
 
-Hi ha, però, una excepció: per als àlbums de fotos fem servir **Google Photos**, bàsicament per una qüestió de cost i de volum. Ho diem clarament perquè creiem que cal explicar-ho, no amagar-ho.
+Hi ha, però, una excepció: per als àlbums de fotos fem servir **[Google Photos](https://photos.google.com/)**, bàsicament per una qüestió de cost i de volum. Ho diem clarament perquè creiem que cal explicar-ho, no amagar-ho.
 
 ## Els nostres principis
 
@@ -35,4 +35,42 @@ Rebutgem qualsevol postura autoritària, feixista, abusiva i, en general, tota f
 
 ## Llicència
 
-Els continguts (textos i fotografies) es publiquen sota la llicència [Creative Commons Reconeixement-NoComercial-CompartirIgual 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca). El codi del lloc és programari lliure.
+Els continguts (textos i fotografies) es publiquen sota la llicència **[Creative Commons Reconeixement-NoComercial-CompartirIgual 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca)**.
+
+### Què vol dir, en català clar
+
+- **Reconeixement (BY):** has de dir qui n'és l'autor/a i enllaçar la font i la llicència.
+- **NoComercial (NC):** no pots fer servir el material per guanyar diners.
+- **CompartirIgual (SA):** si el modifiques o en fas una obra derivada, l'has de publicar amb la mateixa llicència.
+
+El **[codi del lloc](https://codeberg.org/linuxbcn/9bi)** és programari lliure.
+
+## Preguntes freqüents sobre les imatges
+
+### Puc fer servir les fotografies del bloc?
+
+Sí, sempre que respectis la llicència: ús no comercial, amb reconeixement i compartint igual. Si tens dubtes, escriu-nos.
+
+### Com he de citar una fotografia?
+
+Indica l'autor/a, el títol de l'entrada, «9 Barris Imatge», un enllaç a la publicació original i la llicència. Exemple: *Fotografia: [Nom], «[títol]», 9 Barris Imatge, [enllaç], CC BY-NC-SA 4.0.*
+
+### On les puc fer servir?
+
+En blocs, xarxes, treballs d'escola, materials d'entitats sense ànim de lucre... Sempre que sigui un ús no comercial i citis correctament.
+
+### I si en vull fer un ús comercial?
+
+Escriu-nos a **[info@9barrisimatge.org](mailto:info@9barrisimatge.org)**. L'ús comercial (publicitat, productes, revistes de pagament...) necessita permís exprés de l'autor/a.
+
+### Les fotos dels àlbums de Google Photos?
+
+Poden tenir condicions diferents de les d'aquesta pàgina. Consulta-ho amb nosaltres.
+
+### Puc fer servir fotografies fetes per tercers?
+
+No les podem cedir: pertanyen als seus autors. Respecta sempre els seus drets.
+
+### He de posar la mateixa llicència a la meva obra?
+
+Si la modifiques o en fas una obra derivada, sí: ha de quedar sota la mateixa llicència **CC BY-NC-SA 4.0**.

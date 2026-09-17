@@ -183,6 +183,9 @@ sync-9bi.sh                        # script de sync/gestió
 - **Tipografia**: només feta la **vista prèvia** (cos **Montserrat** + títols **Gillius ADF**) a `/tmp/font-preview`; **no s'ha canviat cap fitxer del web**. Pendent d'instal·lar autoallotjada.
 - **Peu legal**: fila nova `.footer-legal` (**Avís legal · Privacitat · Cookies**) sota el menú del peu; `content/avis-legal.md` i `content/cookies.md` nous (esquelet amb `[PENDENT]`). Espai sota «Powered» (`.powered-by` → `margin-bottom: 1.2rem`).
 - **`content/qui-som.md`**: «FaVB» → «**FAVB**» a «Links amics».
+- **Tipografies autoallotjades aplicades**: cos **Montserrat** + títols **Gillius ADF** (`static/fonts/`, `@font-face` i overrides a `custom.css`, `preload` a `extend_head.html`; sense cap CDN).
+- **Crèdits ampliats** (`content/credits.md`): links a totes les eines, llicència **CC BY-NC-SA 4.0** explicada en català clar i **mini-FAQ** d'ús de les imatges.
+- **Cerca** afegida al `menu.main` (abans de «Contacte»).
 
 ## Tasques pendents (backlog curt)
 
@@ -194,8 +197,8 @@ sync-9bi.sh                        # script de sync/gestió
 - **`content/qui-som.md`** (secció «Membres»): **implementat (2026-09-18)** amb `{{< membres >}}` + `data/membres.yml` + `layouts/author/term.html` + col·lecció Decap «membres» (vegeu la sessió 2026-09-18). Pendent: enllaç de reserva al **perfil del bloc vell** («Els components de 9 barris imatge») per als membres sense web (ara mostren «—») i completar els **Instagram** que falten.
 - **Comentaris al web**: implementar un sistema de comentaris amb **fort control d'spam** (pendent d'escollir la solució/proveïdor).
 - **Compartir a xarxes**: botons per compartir fàcilment a **Instagram** i les xarxes que es portin ara (pendent).
-- **Tipografies**: cos **Montserrat** + títols **Gillius ADF** (combinació triada per l'usuari; feta només la vista prèvia a `/tmp/font-preview`). Pendent d'instal·lar autoallotjades (`static/fonts/` + `@font-face`, `font-display: swap`, preload) i aplicar-les a `custom.css`. **Res de Google Fonts CDN** (RGPD). Gillius ADF és GPL+excepció de font.
-- **Capçalera sticky amb icones**: en fer scroll, transformar el menú de navegació en icones. **Falta afegir «Cerca» abans de «Contacte»** al menú principal.
+- **Tipografies**: **implementat (2026-09-18)** — cos **Montserrat** (woff2 400/700/800) + títols **Gillius ADF** (OTF 400/700), autoallotjades a `static/fonts/`, `@font-face` i overrides a `custom.css` (urls `../../fonts/…`) i `preload` a `extend_head.html`. **Sense cap CDN** (RGPD). Pendent opcional: convertir els OTF de Gillius a woff2.
+- **Capçalera sticky amb icones**: en fer scroll, transformar el menú de navegació en icones (pendent). **«Cerca» ja afegida** al `menu.main`, abans de «Contacte» (2026-09-18).
 
 ## Infraestructura i comunicació (pendent)
 
