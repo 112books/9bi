@@ -1,0 +1,10 @@
+{{- /* Navegació secundària al peu de cada pàgina (menú "footer") */ -}}
+<nav class="footer-nav" aria-label="Navegació secundària">
+  {{- range site.Menus.footer }}
+  <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+  {{- end }}
+</nav>
+<div class="powered-by">
+  <span>Powered by</span>
+  <a href="https://linuxbcn.com" rel="noopener" target="_blank">LinuxBCN</a>
+</div>

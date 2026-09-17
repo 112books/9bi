@@ -1,0 +1,45 @@
+{{- define "main" }}
+{{- $sections := site.Params.mainSections -}}
+{{- $pages := where site.RegularPages "Section" "in" $sections -}}
+{{- $size := .Paginate $pages }}
+{{- with site.Params.homeInfoParams }}
+<header class="site-intro">
+  {{- if .Title }}<h1>{{ .Title | markdownify }}</h1>{{ end -}}
+  {{- if .Content }}<p>{{ .Content | markdownify }}</p>{{ end -}}
+</header>
+{{- end }}
+
+<section class="photo-mosaic">
+  {{- range $size.Pages -}}
+  <article class="mosaic-card">
+    <a class="mosaic-link" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+      {{- $cover := .Params.cover.image | default "" -}}
+      {{- if $cover -}}
+      <div class="mosaic-thumb">
+        <img class="mosaic-img" loading="lazy" src="{{ $cover }}" alt="{{ .Title }}" />
+      </div>
+      {{- else -}}
+      <div class="mosaic-thumb mosaic-placeholder">
+        <span>{{ strings.Truncate 80 .Title }}</span>
+      </div>
+      {{- end -}}
+      <div class="mosaic-caption">
+        <h2>{{ .Title }}</h2>
+        <p class="mosaic-meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "02 · 01 · 2006" }}</time>
+          {{- with .Params.author }} · {{ . }}{{ end -}}
+        </p>
+      </div>
+    </a>
+  </article>
+  {{- end }}
+</section>
+
+{{- if gt $size.TotalPages 1 }}
+<nav class="mosaic-pager">
+  {{- with $size.Prev -}}<a class="pager-link" href="{{ .URL }}">← Més recents</a>{{- end -}}
+  <span>Pàgina {{ $size.PageNumber }} de {{ $size.TotalPages }}</span>
+  {{- with $size.Next -}}<a class="pager-link" href="{{ .URL }}">Més antigues →</a>{{- end -}}
+</nav>
+{{- end }}
+{{- end }}

@@ -1,0 +1,44 @@
+name: Build i deploy a Codeberg Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: ${{ forge.ref == 'refs/heads/main' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Instal·la Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.164.0"
+          extended: true
+
+      - name: Build amb Hugo
+        run: hugo --minify
+
+      # Activa la llista d'articles més visitats en cada deploy.
+      # Primer: afegiu el secret GOATCOUNTER_API_KEY a Codeberg → Settings → Actions → Secrets.
+      # - name: Refresca els articles més visitats
+      #   run: |
+      #     python3 -m venv .venv-migracio
+      #     .venv-migracio/bin/pip install -q requests
+      #     .venv-migracio/bin/python scripts/goatcounter_popular.py --days 30
+      #   env:
+      #     GOATCOUNTER_API_KEY: ${{ secrets.GOATCOUNTER_API_KEY }}
+
+      - name: Deploy a Codeberg Pages
+        uses: https://codeberg.org/git-pages/action@v2
+        with:
+          # FASE DE DESENVOLUPAMENT: apuntem al repo de Codeberg Pages.
+          # Quan el domini 9barrisimatge.org apunti a linuxbcn.codeberg.page,
+          # torneu a posar: site: https://9barrisimatge.org/
+          site: https://linuxbcn.codeberg.page/9bi/
+          server: codeberg.page
+          token: ${{ forge.token }}
+          source: public/

@@ -1,0 +1,115 @@
+# EL DOMINI FINAL ÉS https://9barrisimatge.org/
+# FASE DE DESENVOLUPAMENT: el lloc es serveix des de Codeberg Pages
+# (https://linuxbcn.codeberg.page/9bi/), per això el logo i tots els
+# enllaços absoluts apunten ara aquí.
+# Quan el domini estigui connectat (DNS CNAME 9barrisimatge.org ->
+# linuxbcn.codeberg.page), torneu a:
+#   baseURL = "https://9barrisimatge.org/"
+baseURL = "https://linuxbcn.codeberg.page/9bi/"
+title = "9 Barris Imatge"
+theme = "PaperMod"
+locale = "ca"
+defaultContentLanguage = "ca"
+timeZone = "Europe/Madrid"
+enableRobotsTXT = true
+enableEmoji = true
+
+# Preservem les URL .html de Blogger (/2026/07/slug.html)
+uglyURLs = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[permalinks]
+  posts = "/:year/:month/:slug"
+
+[markup.goldmark.parser.attribute]
+  block = true
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Paginació (quants articles per pàgina a la portada
+# i a la llista d'articles)
+paginate = 24
+
+[params]
+  description = "Blog de l'Associació fotogràfica 9 Barris Imatge de Barcelona."
+  ShowPostAuthors = true
+  ShowBreadCrumbs = false
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  comments = false
+
+  [params.homeInfoParams]
+    Title = "9 Barris Imatge"
+    Content = "L'Associació fotogràfica 9 Barris Imatge de Barcelona. Cada col·laborador publica una fotografia, l'enllaç a l'àlbum de fotos i un text que contextualitza la imatge."
+
+  [params.editPost]
+    URL = ""
+    Text = ""
+    appendFilePath = false
+
+[[menu.main]]
+    identifier = "home"
+    name = "Inici"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "posts"
+    name = "Articles"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    identifier = "qui-som"
+    name = "Qui som"
+    url = "/qui-som/"
+    weight = 3
+  [[menu.main]]
+    identifier = "concurs"
+    name = "Concurs J. A. Cordoncillo"
+    url = "/concurs/"
+    weight = 4
+  [[menu.main]]
+    identifier = "contacte"
+    name = "Contacte"
+    url = "/contacte/"
+    weight = 5
+
+[[menu.footer]]
+    identifier = "posts"
+    name = "Articles"
+    url = "/posts/"
+    weight = 1
+  [[menu.footer]]
+    identifier = "tags"
+    name = "Etiquetes"
+    url = "/tags/"
+    weight = 2
+  [[menu.footer]]
+    identifier = "archive"
+    name = "Arxiu"
+    url = "/archive/"
+    weight = 3
+  [[menu.footer]]
+    identifier = "popular"
+    name = "Més visitats"
+    url = "/mes-visitats/"
+    weight = 4
+  [[menu.footer]]
+    identifier = "search"
+    name = "Cerca"
+    url = "/search/"
+    weight = 5
+  [[menu.footer]]
+    identifier = "rss"
+    name = "RSS"
+    url = "/index.xml"
+    weight = 6

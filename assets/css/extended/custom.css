@@ -1,0 +1,214 @@
+/* ============================================ */
+/* 9 Barris Imatge — personalització del theme  */
+/* ============================================ */
+
+/* ---- Portada: mosaic de fotografies ---- */
+
+.site-intro {
+  text-align: center;
+  padding: 1rem 0 1.5rem;
+}
+.site-intro h1 {
+  font-size: 2rem;
+  margin-bottom: 0.4rem;
+}
+.site-intro p {
+  color: var(--secondary);
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.photo-mosaic {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 0 0 2rem;
+}
+
+.mosaic-card {
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--entry);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.mosaic-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+.mosaic-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+.mosaic-thumb {
+  aspect-ratio: 4 / 3;
+  width: 100%;
+  overflow: hidden;
+}
+.mosaic-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.mosaic-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(160deg, var(--tertiary-bg), var(--border));
+  color: var(--secondary);
+  padding: 1rem;
+  text-align: center;
+}
+.mosaic-caption {
+  padding: 0.7rem 0.9rem 0.9rem;
+}
+.mosaic-caption h2 {
+  font-size: 1rem;
+  margin: 0 0 0.25rem;
+  line-height: 1.3;
+}
+.mosaic-meta {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--secondary);
+}
+
+.mosaic-pager {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 0 2rem;
+  color: var(--secondary);
+}
+.pager-link {
+  font-weight: 600;
+}
+
+/* ---- Botó de l'àlbum de fotos ---- */
+
+.album-link {
+  margin: 1.25rem 0;
+}
+.album-button {
+  display: inline-block;
+  padding: 0.7rem 1.3rem;
+  border-radius: 6px;
+  background: var(--primary);
+  color: var(--theme);
+  font-weight: 600;
+  text-decoration: none;
+}
+.album-button:hover {
+  opacity: 0.85;
+}
+
+/* ---- Navegació secundària (peu) ---- */
+
+.footer-nav {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem 1.2rem;
+  font-size: 0.9rem;
+}
+.footer-nav a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+.footer-nav a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.powered-by {
+  margin-top: 0.6rem;
+  font-size: 0.78rem;
+  color: var(--secondary);
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 0.3rem;
+}
+.powered-by a {
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+.powered-by a:hover {
+  text-decoration: underline;
+}
+
+/* ---- Llista "Articles més visitats" ---- */
+
+.popular-list {
+  padding-left: 1.5rem;
+}
+.popular-list li {
+  margin-bottom: 0.6rem;
+}
+.popular-count {
+  color: var(--secondary);
+  font-size: 0.85rem;
+}
+.popular-missing {
+  color: var(--secondary);
+}
+
+/* ---- Formulari de contacte ---- */
+
+.contact-form {
+  max-width: 560px;
+}
+.contact-form label {
+  display: block;
+  margin: 0.9rem 0 0.3rem;
+  font-weight: 600;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--entry);
+  color: var(--content);
+  font: inherit;
+}
+.contact-form textarea {
+  min-height: 140px;
+}
+.contact-form button {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  background: var(--primary);
+  color: var(--theme);
+  font-weight: 600;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  opacity: 0.85;
+}
+
+/* ---- Caixes de la guia (per a passos) ---- */
+
+.guide-step {
+  border-left: 3px solid var(--primary);
+  background: var(--entry);
+  padding: 0.7rem 1rem;
+  margin: 0.6rem 0;
+  border-radius: 0 6px 6px 0;
+}
+.guide-note {
+  font-size: 0.9rem;
+  color: var(--secondary);
+  background: var(--tertiary-bg);
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  margin: 0.8rem 0;
+}

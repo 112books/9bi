@@ -1,0 +1,86 @@
+# Decap CMS — configuració del blog 9 Barris Imatge
+# Docs backend Forgejo: https://decapcms.org/docs/gitea-backend/
+#
+# ABANS DE DESPLEGAR, cal:
+# 1. Crear el repositori al Codeberg (p. ex. linuxbcn/9barrisimatge)
+# 2. A Codeberg: Settings → Applications → "Create new OAuth2 Application"
+#    - Application name: 9barrisimatge CMS
+#    - Redirect URI: https://9barrisimatge.org/admin/
+#    - Uncheck "Confidential client"
+# 3. Copiar el "Client ID" al camp app_id d'aquí sota
+
+backend:
+  name: forgejo
+  repo: linuxbcn/9bi
+  app_id: SUBSTITUEIX-CI-AMB-EL-CLIENT-ID
+  api_root: https://codeberg.org/api/v1
+  base_url: https://codeberg.org
+  auth_endpoint: https://codeberg.org/login/oauth/authorize
+  branch: main
+
+locale: "ca"
+
+# Les imatges que pugen els editors van a static/images i es serveixen a /images
+media_folder: "static/images"
+public_folder: "/images"
+
+collections:
+  - name: "posts"
+    label: "Articles"
+    folder: "content/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Data de publicació", name: "date", widget: "datetime" }
+      - { label: "Autor", name: "author", widget: "select", options: ["Alberto Sanagustín", "Francesc Barbe", "Iozsef Kiss", "Ismael Utrilla", "Joan \"Linux\" Martínez i Serres", "Juan Carlos Molina (Grismedio Casinegro)", "Manel Sala \"Ulls\" Circ", "Pedro \"Casal\" Cervera", "Pedro Click"] }
+      - label: "Fotografia principal"
+        name: "cover"
+        widget: "object"
+        required: false
+        hint: "La foto que encapçala l'article (es mostra a la portada i a l'article)."
+        fields:
+          - { label: "Imatge", name: "image", widget: "image" }
+      - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Descripció (opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista d'articles i al RSS." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
+
+  - name: "guia"
+    label: "Guia (manual per editors)"
+    label_singular: "Pàgina de la guia"
+    folder: "content/guia"
+    create: true
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Descripció", name: "description", widget: "string", required: false }
+      - { label: "Esborrany (no visible públicament)", name: "draft", widget: "boolean", default: true }
+      - { label: "Contingut", name: "body", widget: "markdown" }
+
+  - name: "actes"
+    label: "Documentació · Actes de les assemblees"
+    label_singular: "Acta de reunió"
+    folder: "content/documentacio/actes"
+    create: true
+    slug: "acta-{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Data de la reunió", name: "date", widget: "datetime" }
+      - { label: "Lloc", name: "lloc", widget: "string", required: false }
+      - { label: "Persones reunides", name: "persones_reunides", widget: "list" }
+      - { label: "Convidats", name: "convidat", widget: "string", required: false }
+      - { label: "Ordre del dia", name: "ordre_del_dia", widget: "list", required: false }
+      - { label: "Esborrany (no visible públicament)", name: "draft", widget: "boolean", default: true }
+      - { label: "Contingut", name: "body", widget: "markdown" }
+
+  - name: "concurs"
+    label: "Documentació · Concurs Cordoncillo"
+    label_singular: "Document del concurs"
+    folder: "content/documentacio/concurs"
+    create: true
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Tipus de document", name: "tipo", widget: "select", options: ["Bases del concurs", "Convocatòria", "Categories", "Grup de música", "Dates i calendari", "Altres"] }
+      - { label: "Data", name: "date", widget: "datetime", required: false }
+      - { label: "Esborrany (no visible públicament)", name: "draft", widget: "boolean", default: true }
+      - { label: "Contingut", name: "body", widget: "markdown" }

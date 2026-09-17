@@ -1,0 +1,30 @@
+{{ define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  <p>{{ .Content }}</p>
+</header>
+{{- $popular := hugo.Data.popular | default slice -}}
+{{- $lookup := dict -}}
+{{- range site.RegularPages -}}
+  {{- $lookup = merge $lookup (dict .RelPermalink .) -}}
+{{- end -}}
+{{- if gt (len $popular) 0 -}}
+<ol class="popular-list">
+  {{- range $popular -}}
+    {{- $itemPath := .path -}}
+    {{- $itemCount := .count -}}
+    {{- $page := index $lookup $itemPath -}}
+    <li>
+      {{- with $page -}}
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <span class="popular-count">({{ $itemCount }} visites)</span>
+      {{- else -}}
+      <span class="popular-missing">{{ $itemPath }}</span>
+      {{- end -}}
+    </li>
+  {{- end -}}
+</ol>
+{{- else -}}
+<p>Encara no hi ha prou dades d'estadístiques.</p>
+{{- end -}}
+{{ end }}

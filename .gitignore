@@ -1,0 +1,17 @@
+# Sortida de Hugo
+/public/
+/.hugo_build.lock
+/resources/
+
+# Exports i fitxers temporals de migració
+/exports/
+/tmp/
+
+# Entorn Python de migració
+/.venv-migracio/
+
+# Editors i sistema
+.DS_Store
+*.swp
+.idea/
+.vscode/
