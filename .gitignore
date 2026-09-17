@@ -11,6 +11,9 @@
 /.venv-migracio/
 __pycache__/
 
+# Log local de deploys (sync-9bi.sh) — no cal versionar-lo
+/.deploy-log
+
 # Editors i sistema
 .DS_Store
 *.swp
