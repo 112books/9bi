@@ -290,7 +290,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-cols {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 2rem;
   align-items: start;
   text-align: left;
@@ -350,18 +350,35 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: underline;
 }
 
-.footer-powered-reveal {
-  max-width: 0;
+.footer-copyright {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+.cc-badge {
+  height: 20px;
+  width: auto;
+  flex: none;
+  border-radius: 3px;
+}
+
+.footer-powered {
   display: inline-block;
+  text-align: center;
+}
+.footer-powered-reveal {
+  display: block;
+  max-height: 0;
   overflow: hidden;
   white-space: nowrap;
-  vertical-align: bottom;
+  font-style: italic;
+  font-size: 0.9em;
   opacity: 0;
-  transition: max-width 0.3s ease, opacity 0.3s ease;
+  transition: max-height 0.25s ease, opacity 0.25s ease;
 }
-.footer-powered-link:hover + .footer-powered-reveal,
-.footer-powered-link:focus + .footer-powered-reveal {
-  max-width: 30em;
+.footer-powered-link:hover ~ .footer-powered-reveal,
+.footer-powered-link:focus ~ .footer-powered-reveal {
+  max-height: 1.6em;
   opacity: 1;
 }
 
@@ -667,30 +684,22 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* ---- Peu: «9 Barris en números» (portada i Qui som) ---- */
-.footer-stats {
-  display: flex;
-  flex-direction: column;
-  gap: 0.15rem;
-  margin-bottom: 0.7rem;
-  padding: 0 var(--gap);
-}
-.footer-stats-title {
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  opacity: 0.7;
-}
+/* ---- Peu: «9 Barris en números» (columna) ---- */
 .footer-stats-list {
   font-size: 0.92rem;
   font-variant-numeric: tabular-nums;
-  line-height: 1.4;
 }
-.footer-stats .stat-num {
+.footer-stats-list .stat-num {
   font-weight: 700;
   color: #e03131;
 }
-.footer-stats .stat-sep {
-  opacity: 0.45;
-  margin: 0 0.3rem;
+
+/* ---- Núvol d'etiquetes (/tags/) ---- */
+.tag-cloud {
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.5rem 0.6rem;
+}
+.tag-cloud a {
+  line-height: 1.4;
 }

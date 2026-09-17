@@ -1,5 +1,7 @@
-{{- $showStats := or .IsHome (strings.HasSuffix .RelPermalink "qui-som/") -}}
 {{- if not (.Param "hideFooter") }}
+{{- $posts := len (where site.RegularPages "Section" "posts") }}
+{{- $anys := sub now.Year 2002 }}
+{{- $membres := len (hugo.Data.membres.membres | default slice) }}
 <div class="footer-band" aria-hidden="true"></div>
 <footer class="footer">
     <div class="footer-cols">
@@ -29,22 +31,22 @@
                 <li><a href="{{ "credits/" | relURL }}">Crèdits del web</a></li>
             </ul>
         </nav>
+        <div class="footer-col footer-col--stats" aria-label="9 Barris Imatge en xifres">
+            <span class="footer-col-title">9 Barris en números</span>
+            <ul class="footer-col-list footer-stats-list">
+                <li><span class="stat-num" data-target="{{ $posts }}">{{ lang.FormatNumber 0 $posts }}</span> posts</li>
+                <li><span class="stat-num" data-target="{{ $anys }}">{{ $anys }}</span> anys</li>
+                <li><span class="stat-num" data-target="{{ $membres }}">{{ $membres }}</span> membres</li>
+            </ul>
+        </div>
     </div>
-    {{- if $showStats }}
-    {{- $posts := len (where site.RegularPages "Section" "posts") }}
-    {{- $anys := sub now.Year 2002 }}
-    {{- $membres := len (hugo.Data.membres.membres | default slice) }}
-    <div class="footer-stats" aria-label="9 Barris Imatge en xifres">
-        <span class="footer-stats-title">9 Barris en números</span>
-        <span class="footer-stats-list">
-            <span class="stat"><span class="stat-num" data-target="{{ $posts }}">{{ lang.FormatNumber 0 $posts }}</span> <span class="stat-label">posts</span></span><span class="stat-sep">·</span><span class="stat"><span class="stat-num" data-target="{{ $anys }}">{{ $anys }}</span> <span class="stat-label">anys</span></span><span class="stat-sep">·</span><span class="stat"><span class="stat-num" data-target="{{ $membres }}">{{ $membres }}</span> <span class="stat-label">membres</span></span>
-        </span>
-    </div>
-    {{- end }}
     <div class="footer-bottom">
         {{- if not site.Params.footer.hideCopyright }}
             {{- if site.Copyright }}
-            <span>{{ site.Copyright | markdownify }}</span>
+            <span class="footer-copyright">
+                <img class="cc-badge" src="{{ "images/cc-by-nc-sa.svg" | relURL }}" alt="Llicència Creative Commons BY-NC-SA 4.0" width="88" height="31" loading="lazy">
+                <span>{{ site.Copyright | markdownify }}</span>
+            </span>
             {{- else }}
             <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
             {{- end }}
@@ -52,7 +54,7 @@
         {{- with site.Params.footer.text }}
             <span>{{ . | markdownify }}</span>
         {{- end }}
-        <span class="footer-powered">Powered by <a class="footer-powered-link" href="https://linuxbcn.com" rel="noopener" target="_blank">LinuxBCN</a><span class="footer-powered-reveal"> · Consultoria | Desenvolupament | Allotjament | Disseny</span> with <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &amp; <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a></span>
+        <span class="footer-powered">Powered by <a class="footer-powered-link" href="https://linuxbcn.com" rel="noopener" target="_blank">LinuxBCN</a> with <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &amp; <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a><span class="footer-powered-reveal">Consultoria | Desenvolupament | Allotjament | Disseny</span></span>
     </div>
 </footer>
 {{- end }}
@@ -69,10 +71,9 @@
 
 {{- /* El contingut del peu (columnes, legal, powered by) és dins d'aquest fitxer. */ -}}
 
-{{- if $showStats }}
 <script>
 (function () {
-    var block = document.querySelector(".footer-stats");
+    var block = document.querySelector(".footer-stats-list");
     if (!block) return;
     var nums = Array.prototype.slice.call(block.querySelectorAll(".stat-num"));
     var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -112,7 +113,6 @@
     }
 })();
 </script>
-{{- end }}
 
 <script>
     let menu = document.getElementById('menu');

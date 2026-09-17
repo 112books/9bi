@@ -25,8 +25,7 @@
     <main class="main">
         {{- block "main" . }}{{ end }}
     </main>
-    {{- $showStats := or .IsHome (strings.HasSuffix .RelPermalink "qui-som/") -}}
-    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") $showStats -}}
+    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
 </body>
 
 </html>
