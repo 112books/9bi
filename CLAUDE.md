@@ -181,7 +181,7 @@ sync-9bi.sh                        # script de sync/gestió
 - **Tema fosc per defecte**: `config/_default/hugo.toml` → `[params] defaultTheme = "dark"` (el botó sol/lluna del header, Alt+T, passa a clar i ho recorda via localStorage).
 - **Arxiu**: l'índex d'anys de la dreta només apareixia a ≥1200px; baixat a **≥1024px** (`custom.css`).
 - **Tipografia**: només feta la **vista prèvia** (cos **Montserrat** + títols **Gillius ADF**) a `/tmp/font-preview`; **no s'ha canviat cap fitxer del web**. Pendent d'instal·lar autoallotjada.
-- **Peu**: redisseny a **4 columnes** (banda d'accent `#e03131` a dalt + logo · columna buida · «El web» · «Legal»), tot dins de `layouts/_partials/footer.html`; `extend_footer.html` queda **buit**. Línia inferior amb copyright, «Powered by LinuxBCN» i «Powered by Hugo & PaperMod». Responsive: 4→2→1 columnes (la buida s'amaga al mòbil).
+- **Peu**: redisseny a **4 columnes** (banda d'accent `#e03131` a dalt + logo · columna buida · «El web» · «Legal»), tot dins de `layouts/_partials/footer.html`; `extend_footer.html` queda **buit**. Línia inferior amb copyright i «Powered by LinuxBCN with Hugo & PaperMod» (links als tres; en hover/focus sobre LinuxBCN es revela «· Consultoria | Desenvolupament | Allotjament | Disseny»). Responsive: 4→2→1 columnes (la buida s'amaga al mòbil).
 - **`content/qui-som.md`**: «FaVB» → «**FAVB**» a «Links amics».
 - **Tipografies autoallotjades aplicades**: cos **Montserrat** + títols **Gillius ADF** (`static/fonts/`, `@font-face` i overrides a `custom.css`, `preload` a `extend_head.html`; sense cap CDN).
 - **Crèdits ampliats** (`content/credits.md`): links a totes les eines, llicència **CC BY-NC-SA 4.0** explicada en català clar i **mini-FAQ** d'ús de les imatges.

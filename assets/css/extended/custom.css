@@ -350,6 +350,21 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: underline;
 }
 
+.footer-powered-reveal {
+  max-width: 0;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  vertical-align: bottom;
+  opacity: 0;
+  transition: max-width 0.3s ease, opacity 0.3s ease;
+}
+.footer-powered-link:hover + .footer-powered-reveal,
+.footer-powered-link:focus + .footer-powered-reveal {
+  max-width: 30em;
+  opacity: 1;
+}
+
 @media (max-width: 768px) {
   .footer-cols {
     grid-template-columns: 1fr 1fr;
