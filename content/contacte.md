@@ -13,6 +13,7 @@ El formulari envia el missatge al correu de l'associació. Abans que funcioni pe
   <input type="hidden" name="_subject" value="Missatge des del web 9 Barris Imatge">
   <input type="hidden" name="_template" value="table">
   <input type="hidden" name="_captcha" value="false">
+  <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" class="contact-honeypot">
   <label for="nom">Nom</label>
   <input id="nom" type="text" name="nom" required autocomplete="name">
   <label for="email">Adreça electrònica</label>
@@ -21,7 +22,14 @@ El formulari envia el missatge al correu de l'associació. Abans que funcioni pe
   <input id="assumpte" type="text" name="assumpte">
   <label for="missatge">Missatge</label>
   <textarea id="missatge" name="missatge" required></textarea>
+  <div class="contact-consent">
+    <input id="consentiment" type="checkbox" name="consentiment" value="sí" required>
+    <label for="consentiment">He llegit i accepto la <a href="/privacitat/">política de privacitat</a> i que les meves dades es tractin per atendre aquesta consulta.</label>
+  </div>
   <button type="submit">Envia el missatge</button>
 </form>
 
-També pots escriure'ns directament a **info@9barrisimatge.org**.
+<div class="contact-after">
+  <p>Responsable del tractament: <strong>Associació 9 Barris Imatge</strong>. Finalitat: atendre i respondre la teva consulta. Legitimació: el teu consentiment. Destinataris: FormSubmit (servei d'enviament del formulari) i el proveïdor de correu de l'associació; no es fan altres cessions. Drets: pots exercir els drets d'accés, rectificació, supressió, oposició, limitació i portabilitat escrivint a info@9barrisimatge.org, i reclamar davant l'AEPD. Més informació a la <a href="/privacitat/">política de privacitat</a>.</p>
+  <p class="contact-alt">També pots escriure'ns directament a <a href="mailto:info@9barrisimatge.org">info@9barrisimatge.org</a>.</p>
+</div>

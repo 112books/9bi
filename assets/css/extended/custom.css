@@ -336,6 +336,40 @@
 .contact-form button:hover {
   opacity: 0.85;
 }
+.contact-form .contact-honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.contact-consent {
+  display: flex;
+  gap: 0.6rem;
+  align-items: flex-start;
+  margin: 1.1rem 0 0.3rem;
+}
+.contact-consent input[type="checkbox"] {
+  width: auto;
+  flex: 0 0 auto;
+  margin: 0.3rem 0 0;
+}
+.contact-consent label {
+  margin: 0;
+  font-weight: 400;
+}
+.contact-after {
+  max-width: 560px;
+}
+.contact-after p {
+  font-size: 0.9rem;
+  color: var(--secondary);
+}
+.contact-alt {
+  margin-top: 1.6rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
 
 /* ---- Caixes de la guia (per a passos) ---- */
 

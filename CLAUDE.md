@@ -130,13 +130,27 @@ sync-9bi.sh                        # script de sync/gestió
 - **Advertència coneguda**: `album_url` s'extreu de l'enllaç que envolta la primera imatge del post. Si un post té més d'un enllaç rellevant (p.ex. tant un àlbum de Google Photos com un crosspost a `blog.pocallum.cat`), només es captura el primer — pot no ser sempre el que un humà triaria. Detectat al post de Prospe Beach 2026 (l'enllaç de Google Photos que l'usuari havia enganxat manualment al xat va quedar substituït per l'enllaç al crosspost de pocallum.cat en re-executar la migració completa).
 - **Encara sense fer**: commit/push/deploy d'aquests 3.006 fitxers — pendent de revisió de l'usuari al servidor local abans de pujar-ho.
 
+## Sessió 2026-09-17 (v2) — formulari RGPD i ordre del peu
+
+- **Menú del peu reordenat** (`config/_default/hugo.toml`, `menu.footer`): **Arxiu, Etiquetes, Més visitats, Estadístiques, Cerca, RSS** (weights 1–6). Verificat al build.
+- **`content/contacte.md`**: formulari reestructurat per complir RGPD:
+  - casella de **consentiment obligatòria** (`name="consentiment"`, no premarcada) amb enllaç a la política;
+  - **honeypot** anti-spam (`_honey`, camp ocult);
+  - bloc "informació bàsica" (responsable, finalitat, legitimació, destinataris, drets) i enllaç a la política;
+  - la línia "També pots escriure'ns directament…" **es manté** però separada del botó (bloc `.contact-alt` amb `border-top`).
+- **`content/privacitat.md`** (nou, `url: "/privacitat/"`): política de privacitat amb responsable, finalitats, base jurídica, destinataris (FormSubmit + proveïdor de correu), conservació, drets i AEPD. **Conté placeholders `[PENDENT: NIF…]` i `[PENDENT: adreça…]` que s'han d'omplir abans de publicar** (vegeu backlog).
+- **`assets/css/extended/custom.css`**: estils `.contact-consent`, `.contact-honeypot` (off-screen), `.contact-after`/`.contact-alt`.
+
 ## Tasques pendents (backlog curt)
 
 - **`content/contacte.md`**: afegir al formulari un camp nou "A quina entitat de Nou Barris pertanys o representes (opcionalment)" (input opcional, com `assumpte`).
-- **`content/contacte.md`**: treure la línia final "També pots escriure'ns directament a info@9barrisimatge.org." — motiu: exposar l'email fa que la gent contacti pesadament fora del formulari.
+- **`content/privacitat.md`**: omplir els `[PENDENT: ...]` amb el **NIF** i l'**adreça** reals de l'associació; sense això la política no és vàlida. (El correu ja hi és: info@9barrisimatge.org.)
+- **Peu**: decidir si s'hi afegeix un enllaç **"Privacitat"** (ara només s'hi arriba des del formulari de contacte).
+- **Pàgina d'avís legal** i resta d'adequació RGPD (text de cookies, etc.).
 - **Auditoria de seguretat** (encarregada 2026-09-17, pendent).
 - **Auditoria d'accessibilitat** (encarregada 2026-09-17, pendent).
-- **`content/qui-som.md`**: llistat de membres ordenat pel nombre de posts, amb enllaç "Publicacions" (decidit: taxonomia `authors` + shortcode), web personal i Instagram opcionals. Roster decidit: tots els autors amb posts excepte "9 Barris Imatge" (12). Pendent d'implementar.
+- **`content/qui-som.md`**: llistat de membres ordenat pel nombre de posts, amb enllaç "Publicacions" (decidit: taxonomia + shortcode), web personal i Instagram opcionals. Roster decidit: tots els autors amb posts excepte "9 Barris Imatge" (12).
+  - **Nota tècnica (verificada 2026-09-17)**: en Hugo, el **valor** de `[taxonomies]` és la clau de *front matter* i la base d'URL, no la clau de l'esquerra. Com que tots els posts fan servir `author:` (singular), cal definir `author = "author"` (o `authors = "author"`) perquè s'indexin; amb `author = "authors"` **no es genera cap terme** (provat). Alternativa: reescriure els 3.006 posts a `authors:`. Canvi provat i **revertit** per no deixar una taxonomia buida; pendent de decidir l'opció final.
 
 ## Properes sessions
 
@@ -156,5 +170,5 @@ sync-9bi.sh                        # script de sync/gestió
 - Lloc GoatCounter creat ni API key.
 - Confirmació que `info@9barrisimatge.org` rep correus (FormSubmit).
 - DNS / CNAME cap a Codeberg Pages (el lloc de producció serà 9barrisimatge.org).
-- Pàgines legals (privacitat, avís legal) i adequació RGPD.
+- Pàgina de privacitat creada (`/privacitat/`) però **amb placeholders de NIF/adreça pendents**; falta l'avís legal i la resta d'adequació RGPD (cookies, etc.).
 - Configuració SEO/IA per a tot el web (metadades, dades estructurades, etc.).
