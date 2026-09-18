@@ -356,7 +356,7 @@ sync-9bi.sh                        # script de sync/gestió
 - **Camp `year` a tots els posts**: aprovat per l'usuari (col·leccions per any, opció «Recomanat»). Script `add_year.py` afegeix `year: YYYY` derivat de la `date` al front matter de **3.006 fitxers** (commit `81e67deff`, desplegat a `pages`). Rang: 2008 (102)…2026 (63), total 3.006, 0 errors; verificat que any coincideix amb la data en tots. El tema ignora la clau (clau de front matter extra inofensiva).
 - **19 col·leccions filtrades al CMS**: `static/admin/config.yml` substitueix la col·lecció `posts` per 19 col·leccions tipus folder `posts-YYYY` amb `filter: { field: "year", value: "YYYY" }`, `create: true` i un camp `year` hidden amb default de l'any corresponent (perquè els posts nous entrin al filtre). Menú ordenat de més recent (2026) a més antic (2008). La llista de 13 autors es manté amb **ancoratge YAML** `x-autors: &autors` per no duplicar-la 19 vegades.
 - **Resultat pràctic**: «Articles · 2026» mostra només els 63 posts d'aquell any (l'any per defecte primer); crear un post nou preomple l'any sol. Redueix el llistat de 3.006 a ~60–250 per any.
-- **Pendent del chrome del CMS** (especificació de l'usuari del 2026-09-18): header amb logo + **«9 Barris Imatge - Gestor de continguts»** + enllaços a la documentació (col·lecció `guia`) per consulta dels editors, i **footer igual que el del web**.
+- **Chrome del CMS implementat** (commit `16534a4ae`, desplegat; pages `d1830af`): `static/admin/index.html` amb capçalera i peu propis usant el **Custom Mount Element** oficial (`<div id="nc-root">` + script `defer` — Decap munta la UI dins, no ocupa tota la pàgina). Header: logo (`../images/logo-header.jpg`) + **«9 Barris Imatge - Gestor de continguts»** + enllaços per consulta dels editors: **Guia i manual** (`#/collections/guia`), Articles · 2026 (`#/collections/posts-2026`), Membres i «Torna al web». Footer: **replica del del web** (banda accent `#e03131`, columnes logo · El web · Legal · 9 Barris en números amb links relatius `../`, CC BY-NC-SA + Powered by LinuxBCN/Hugo/PaperMod amb reveal; estils propis prefixats `cms-`, CSS inline, sense assets del web carregats). **Nota**: els números del peu del CMS (`3.006 posts · 24 anys · 12 membres`) són **estàtics** (quedaran vells); els del web es generen a cada build.
 
 ## Tasques pendents (backlog curt)
 
@@ -390,7 +390,7 @@ sync-9bi.sh                        # script de sync/gestió
 
 ## Properes sessions
 
-- **Muntar el CMS**: OAuth2 de Codeberg **fet** (Client ID `0c6b6c51-…`, desplegat). **Articles per anys fet (v7)**: 19 col·leccions `posts-YYYY` filtrades pel camp `year`. Pendent: **usuaris i permisos** dels col·laboradors (membres actius amb escriptura; inactius sense), chrome del CMS (header amb logo + «9 Barris Imatge - Gestor de continguts» + enllaços a la Guia, footer del web) i la resta de demandes del llistat (ordre, miniatures, títols majúscules).
+- **Muntar el CMS**: OAuth2 de Codeberg **fet** (Client ID `0c6b6c51-…`, desplegat). **Articles per anys fet (v7)**: 19 col·leccions `posts-YYYY` filtrades pel camp `year`. **Chrome del CMS fet (v7)**: header amb logo + «9 Barris Imatge - Gestor de continguts» + enllaços a la Guia, footer del web replicat. Pendent: **usuaris i permisos** dels col·laboradors (membres actius amb escriptura; inactius sense) i la resta de demandes del llistat (ordre, miniatures, títols majúscules).
 - **Control de fitxers del Concurs Cordoncillo** (bases, històric, etc.).
 - **Secció per fer i gestionar les reunions** de l'associació.
 
