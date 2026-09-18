@@ -865,6 +865,19 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
 }
 
+/* Núvol d'etiquetes a la pàgina de Cerca */
+.search-tags {
+  margin: 1.5rem 0 0;
+}
+.tag-cloud-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--secondary);
+}
+
 /* ---- Concurs: bloc d'edició actual, pestanyes i impressió ---- */
 .concurs {
   margin: 1.4rem 0 2.6rem;
