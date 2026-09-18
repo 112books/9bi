@@ -47,7 +47,7 @@ uglyURLs = true
   # les guies i la documentació són internes (backend) i no hi apareixen.
   mainSections = ["posts"]
 
-  description = "Documentant Nou Barris (Barcelona) des del 2002. Blog de l'Associació fotogràfica 9 Barris Imatge."
+  description = "Des de 2002 documentant Nou Barris (Barcelona). Blog de l'Associació fotogràfica 9 Barris Imatge."
   ShowPostAuthors = true
   ShowBreadCrumbs = false
   ShowReadingTime = false
@@ -64,7 +64,9 @@ uglyURLs = true
 
   [params.homeInfoParams]
     Title = "9 Barris Imatge"
-    Content = "Documentant Nou Barris (Barcelona) des del 2002"
+    Content = """**9bi** és l'abreviatura de **9 Barris Imatge**, l'associació fotogràfica de Nou Barris fundada el **2002**. Cada col·laborador publica una fotografia, l'enllaç a l'àlbum de fotos i un text que contextualitza la imatge.
+
+**Des de 2002 documentant Nou Barris.** El logotip és obra de l'artista de Nou Barris **Toni Pagès**."""
 
   [params.editPost]
     URL = ""

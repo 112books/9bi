@@ -4,7 +4,7 @@ description: "9 Barris Imatge: història, reunions, membres i entitats amigues"
 url: "/qui-som/"
 ---
 
-L'**Associació fotogràfica 9 Barris Imatge**, fundada l'any **2002**, és un col·lectiu de fotògrafs i fotògrafes de l'àmbit del districte de **Nou Barris** (Barcelona) que documenta la vida dels barris: les festes, els actes veïnals, la cultura popular i el dia a dia de la gent. **Documentant Nou Barris (Barcelona) des del 2002.**
+**9bi** és l'abreviatura de l'**Associació fotogràfica 9 Barris Imatge**, un col·lectiu de fotògrafs i fotògrafes fundat l'any **2002** a l'àmbit del districte de **Nou Barris** (Barcelona) que documenta la vida dels barris: les festes, els actes veïnals, la cultura popular i el dia a dia de la gent. **Des de 2002 documentant Nou Barris.**
 
 <div class="qsb-tabs">
 <input type="radio" name="qsb-view" id="qsb-som" class="qsb-view-radio" checked>
