@@ -19,7 +19,7 @@ album_url: https://picasaweb.google.com/110015855395179205688/XVConcursFotografi
 |  |
 | --- |
 |  |
-| De [XXV Concurs fotogràfic J.A.Cordoncillo.](https://picasaweb.google.com/110015855395179205688/XVConcursFotograficJACordoncillo?authuser=0&feat=embedwebsite) |
+| De [XXV Concurs fotogràfic Josep Antón Cordoncillo.](https://picasaweb.google.com/110015855395179205688/XVConcursFotograficJACordoncillo?authuser=0&feat=embedwebsite) |
 
 Aquest reportatge està fet pel meu company MANEL VILLALBA.
 Només afegir que com aficionada a la fotografía vaig gaudir de l'exposició i de la companyia dels meus "PROFES", felicitar als guanyadors i animar als que han concursat per seguir fent moltes fotos i no perdre l'esperança que potser alguna vegada el premi será per a ells.Enhorabona i molta força per continuar endavant amb aquesta iniciativa i felicitar pel text que van llegir referent als fotógrafs que disfrutem amb la nostra feina o afició.

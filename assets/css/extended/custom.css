@@ -543,6 +543,25 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---- Header sticky amb transformació a icones (escriptori) ---- */
 
+.menu-icon {
+  display: none;
+  align-items: center;
+}
+.menu-icon svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+@media (max-width: 768px) {
+  .menu-icon {
+    display: inline-flex;
+  }
+  .menu-icon svg {
+    width: 17px;
+    height: 17px;
+  }
+}
+
 @media (min-width: 769px) {
   .header {
     position: sticky;
@@ -562,15 +581,6 @@ h1, h2, h3, h4, h5, h6 {
   }
   .header.scrolled .logo a img {
     height: 48px;
-  }
-  .menu-icon {
-    display: none;
-    align-items: center;
-  }
-  .menu-icon svg {
-    width: 20px;
-    height: 20px;
-    display: block;
   }
   .header.scrolled .menu-icon {
     display: inline-flex;
@@ -756,7 +766,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---- Concurs: bloc d'edició actual, pestanyes i impressió ---- */
 .concurs {
-  margin: 1.6rem 0 2.2rem;
+  margin: 1.4rem 0 2.6rem;
 }
 .concurs-eyebrow {
   margin: 0;
@@ -776,7 +786,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: flex-start;
   justify-content: space-between;
   gap: 0.5rem;
-  margin: 1.6rem 0 1rem;
+  margin: 4.8rem 0 2rem;
   padding: 0;
   list-style: none;
 }
@@ -845,13 +855,135 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 8rem;
 }
 .concurs-cats {
-  margin: 0 0 1.6rem;
+  margin: 3rem 0;
   font-size: 0.95rem;
 }
 .concurs-sep {
   border: 0;
   border-top: 1px solid var(--border);
   margin: 2.5rem 0;
+}
+/* Pestanyes principals del Concurs */
+.concurs-view-radio {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+.concurs-viewlist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0 0 2rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid var(--border);
+}
+.concurs-viewtab {
+  cursor: pointer;
+  padding: 0.6rem 1.15rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 1rem;
+  border: 1px solid var(--border);
+  background: var(--tertiary);
+  user-select: none;
+}
+.concurs-view {
+  display: none;
+}
+#view-2026:checked ~ .concurs-viewlist [for="view-2026"],
+#view-historia:checked ~ .concurs-viewlist [for="view-historia"],
+#view-trofeus:checked ~ .concurs-viewlist [for="view-trofeus"],
+#view-vot:checked ~ .concurs-viewlist [for="view-vot"] {
+  background: #e03131;
+  border-color: #e03131;
+  color: #fff;
+}
+#view-2026:checked ~ #concurs-2026,
+#view-historia:checked ~ #concurs-historia,
+#view-trofeus:checked ~ #concurs-trofeus,
+#view-vot:checked ~ #concurs-vot {
+  display: block;
+}
+.concurs-vot h2 {
+  margin-top: 0;
+}
+.concurs-vot h3 {
+  margin-top: 2.2rem;
+}
+.concurs-history h2 {
+  margin-top: 0;
+}
+.concurs-history h3 {
+  margin-top: 2.2rem;
+}
+.concurs-history table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.94rem;
+}
+.concurs-history th,
+.concurs-history td {
+  text-align: left;
+  padding: 0.6rem 0.7rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+.concurs-history thead th {
+  border-bottom: 2px solid var(--border);
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.concurs-history .is-pending {
+  color: #e03131;
+  font-weight: 600;
+}
+.concurs-note {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+.concurs-share {
+  margin-top: 2.8rem;
+  padding-top: 1.8rem;
+  border-top: 1px solid var(--border);
+}
+.concurs-share h3 {
+  margin-top: 0;
+}
+.concurs-share-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 1.8rem;
+}
+.concurs-share-btn {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 0.92rem;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: inherit;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+.concurs-share-btn svg {
+  width: 18px;
+  height: 18px;
+}
+.concurs-share-btn:hover {
+  border-color: #e03131;
+  color: #e03131;
+}
+.concurs-links {
+  margin: 0.4rem 0 0;
+  padding-left: 1.1rem;
+}
+.concurs-links li {
+  margin: 0.35rem 0;
 }
 .concurs-tabs {
   margin-top: 0.5rem;
@@ -876,6 +1008,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   font-size: 0.95rem;
   border: 1px solid var(--border);
+  background: var(--tertiary);
   user-select: none;
 }
 .concurs-print {
@@ -945,6 +1078,9 @@ h1, h2, h3, h4, h5, h6 {
   #concurs-bases,
   #concurs-bases * {
     visibility: visible !important;
+  }
+  #concurs-2026 {
+    display: block !important;
   }
   .concurs-panel--bases {
     display: block !important;

@@ -66,11 +66,13 @@ content/
 └── documentacio/                  # interna (draft): actes/ (acta 2026-09-10) + concurs/
 layouts/
 ├── baseof.html                    # SOBREESCRIT: clau de caché del footer (condició de «números»)
+├── single.html                    # SOBREESCRIT: h1 amb visualTitle (salt de línia) si el front matter el porta
 ├── index.html                     # portada en mosaic (grid de fotos, paginat)
 ├── archives.html                  # arxiu + índex d'anys a la dreta (rail)
 ├── taxonomy.html                  # SOBREESCRIT: núvol d'etiquetes (/tags/)
 ├── author/term.html               # pàgina de posts per autor (mosaic paginat)
 ├── _shortcodes/membres.html       # taula de membres (ordenada per nº de posts)
+├── _shortcodes/rel.html           # {{< rel "/ruta" >}} → relURL base-aware (per a HTML cru del markdown)
 ├── _default/popular.html          # llista de més visitats (llegeix data/popular.json)
 ├── _markup/render-image.html      # reescriu rutes d'imatge que comencen per «/» amb relURL
 └── _partials/
@@ -212,6 +214,117 @@ sync-9bi.sh                        # script de sync/gestió
 - **Eslògan de portada** (`[params.homeInfoParams] Content` a `hugo.toml`): de «Des de 2002 documentant Nou Barris - Barcelona» a **«Documentant Nou Barris (Barcelona) des del 2002»**.
 - **Decisió (votació popular per QR, en estudi)**: per evitar vots sospitosos i facilitar el recompte. Regla triada: **1 vot per obra i dispositiu**; identitat **anònima per dispositiu** (testimoni firmat + registre al servidor); accés **només amb QR presencial** (secret d'edició). Allotjament previst: **app Python** (`venv` + FastAPI/Flask + SQLite) al **servidor de LinuxBCN** (sense Docker, per decidir). Pendent d'estudiar/decidir.
 
+## Sessió 2026-09-18 (v3) — recerca «Història de la fotografia a Nou Barris» i diagnòstic responsive/etiquetes
+
+> **Sessió de recerca i diagnòstic (només lectura). No s'ha tocat cap fitxer de disseny ni contingut.** Els canvis d'eslògan (`hugo.toml` + `qui-som.md`) estan aplicats però **no committejats**.
+
+### Recerca de fotògrafs (per a la secció nova proposada a «Qui som»)
+
+- **Kim Manresa** — el nom imprescindible. **Nascut a Nou Barris** (el nostre post del 2016-07-01 el descriu com «el fotògraf nascut a Nou Barris»); fotoperiodista **en actiu des de 1974**; **Premi Miravisions d'Honor 2026**; exposició **«Nou Barris 1970-1980»** (marquesina de Via Júlia, 1 juliol 2016, organitzada per la Coordinadora d'Associacions de Veïns i Entitats de Nou Barris). **Donant destacat del fons fotogràfic de l'Arxiu Històric de Roquetes-Nou Barris** (blog de l'Arxiu, 2011). Ja és al nostre arxiu: posts `2016-07-01-exposicio-fotografica-de-kim-manresa.md` i `2016-07-02-exposicio-kim-manresa-nou-barris-1970.md` (la imatge font es diu `expo-quim.jpg`, d'aquí el «Quim»). Enllaços verificats: <https://www.miravisions.cat/ponent/kim-manresa> · <http://arxiuhistoric.blogspot.com/2011/02/fons-fotografic.html>. **Pendent de confirmar el barri de naixement.**
+- **Ginés Cuesta** (Barcelona, **1945–2023**, veí del **Verdum**) — «fotografia al pas»; fons llegat a l'Arxiu Històric de Roquetes-Nou Barris (2011); llibre **«La Barcelona fotografiada de Ginés Cuesta»** (text d'Isabel Segura; ed. Barcelona Llibres, presentat 2024). Enllaç: <https://juditmusachs.com/project/gines-cuesta>. *(L'usuari deia 1944; la font verificada diu 1945.)*
+- **Manel «Ulls» Sala Aponte** — membre de 9 Barris Imatge (`data/membres.yml`: `Manel Sala "Ulls" Circ`; 274 posts), **referent de la fotografia de circ i arts escèniques**. Cognom «Aponte» i condició de «referent» aportats per l'usuari, **sense font externa**: verificar amb ell.
+- **Jesús Atienza** — fotògraf **especialista en titelles/putxinel·lis** i teatre. Verificat al nostre post `2018-04-07-rombic-lateneu-popular-de-nou-barris_7.md` («el fotògraf especialista en el món de les titelles») i a <https://larevoltadelstitelles.bibliomusicineteca.com/fotografies>.
+- **Manel Mora Palau** — fotògraf esportiu, botiga **Foto Mora** (pg. Fabra i Puig); referent de Manel Montilla (betevé).
+- **Manel Montilla** — **barri de Porta**; fotoperiodista esportiu, 35 anys (des de març 1991), llibre **«Soc fotògraf»** (2026). <https://beteve.cat/cultura/fotoperiodista-esportiu-manel-montilla-reivindica-professio-soc-fotograf>.
+- **José María Medina «El Nostálgico»** — veí, projecte **«Nou Barris d'abans i ara»** (exposició 2018 amb l'Arxiu, Via Favència/CC Can Verdaguer). <https://beteve.cat/cultura/fotografies-el-nostalgico-nou-barris-abans-ara>.
+- **Arnau Bach** i **Myriam Meloni** — coautors de **«Linde»** (2020), sobre **Canyelles, Torre Baró, Vallbona i Ciutat Meridiana**.
+- **Mónica Rosselló** — projecte **«16 barris, 1000 ciutats»** (li tocà La Verneda i La Pau).
+- **Gregori Civera** i **Carmen Secanella** — projecte **«Una ciutat desconeguda sota la boira. Noves imatges de la Barcelona dels barris»** (MACBA, 21/06/2024–12/01/2025, comissari Jorge Ribalta).
+- **Taula rodona MACBA «Fotògrafs a la perifèria»** (27/11/2024, Espai Fotogràfic **Can Basté**): Arnau Bach, Gregori Civera, Carmen Secanella i Mónica Rosselló. <https://www.macba.cat/ca/activitats/fotografs-a-la-periferia/> · exposició: <https://www.macba.cat/ca/exposicions/una-ciutat-desconeguda-sota-la-boira-noves-imatges-de-la-barcelona-dels-barris>.
+- **Arxiu Històric de Roquetes-Nou Barris** — font principal de la fotografia veïnal: <https://arxiuhistoric.blogspot.com/> · Instagram [@arxiuhistoric9b](https://www.instagram.com/arxiuhistoric9b/) · revista «L'Arxiu» a <https://raco.cat/index.php/larxiu/issue/archive>.
+- **Fòrum Fotogràfic Can Basté** — <https://www.canbaste.com/> (19è Fòrum). Espai institucional de fotografia del districte.
+- **SENSE ENLLAÇ VERIFICABLE** (no inventar): Juan Manuel Rodríguez Coria **«Morocho»**, **José Antonio Cordoncillo** (el concurs porta el seu nom), **Rafael Juncadella**, **Eva Orti**, **Carlos Navas**, exposició **«L'àpat»** i reportatge «Collserola crema». Probablement consten només a publicacions de l'Arxiu (pendent cercar dins la revista «L'Arxiu», raco.cat).
+- **Decisió pendent (usuari)**: on ubicar-ho — **A)** ampliar la secció «Història» de `qui-som.md`, o **B)** pàgina nova; i si s'estructura amb **pestanyes** (vegeu backlog).
+
+### Estructura proposada per a la recerca (idea aportada per l'usuari, 2026-09-18)
+
+> Objectiu: no una llista, sinó una **genealogia de la fotografia a Nou Barris (~1960–2026)** amb noms, col·lectius, espais, exposicions, llibres i arxius, i una columna **«per què és conegut?»** per distingir trajectòria professional de fons documental excepcional.
+
+- **Dos pols documentals a creuar**: **Arxiu Històric de Roquetes-Nou Barris** (memòria fotogràfica del territori) i **Centre Cívic Can Basté** (fotografia contemporània, formació, exposició, Fòrum Fotogràfic).
+- **Quatre categories** (eviten barrejar perfils):
+  - **A. Fotògrafs de Nou Barris** — nascuts, residents o fortament arrelats, amb activitat fotogràfica significativa: Manresa, Cuesta, Mora, Montilla, Medina, Sala «Ulls», Joan «Linux»…
+  - **B. Fotògrafs que han documentat Nou Barris** — de fora o vinculació territorial menys clara però amb obra significativa sobre el districte: Bach, Meloni, Rosselló, Civera, Secanella…
+  - **C. Fotografia comunitària i de barri** — 9 Barris Imatge, Grup Foto Roquetes, Arxiu Històric, Morocho, Silva, Cordoncillo, Juncadella…
+  - **D. Ecosistema fotogràfic de Nou Barris** — Can Basté + Fòrum Fotogràfic + formació + laboratori + exposicions + beques + fotògrafs que hi han passat.
+- **Llista de treball** (1–9 ja a la nostra recerca; 10–17 nous aportats; 18–22 categoria B):
+  1. Kim Manresa · 2. Manel «Ulls» Sala Aponte · 3. Jesús Atienza · 4. Manel Mora Palau · 5. Manel Montilla · 6. José María Medina «El Nostálgico» · 7. Grup Foto Roquetes · 8. Joan «Linux» Martínez · 9. 9 Barris Imatge (col·lectiu) · 10. Ginés Cuesta · 11. Juan Manuel Rodríguez «Morocho» · 12. Antonio Silva · 13. Eva Orti · 14. Carlos Navas · 15. Arnaldo Gil Albacete · 16. José Antonio Cordoncillo · 17. Rafael Juncadella · 18. Arnau Bach · 19. Myriam Meloni · 20. Mónica Rosselló · 21. Gregori Civera · 22. Carmen Secanella.
+- **Humberto Rivas** — no és «fotògraf de Nou Barris», però **va ser professor de fotografia a Can Basté**, té una **plaça dedicada al districte** i Can Basté li va fer un homenatge: clau per entendre la cultura fotogràfica generada al districte (categoria D, no A).
+- **Can Basté** (aportat per l'usuari, pendent de verificar): funciona **des de 1996** com a equipament especialitzat en fotografia; disposa de **plató, laboratori i estació digital** (analògic i digital); **19è Fòrum Fotogràfic Can Basté** convocat per al **novembre de 2026** amb beques de producció expositiva i publicació fotogràfica; exposició **«L'ahir i l'avui de Nou Barris»** (creua fotografies històriques de l'Arxiu amb noves interpretacions; hi apareix una **foto de Torre Baró d'Arnaldo Gil Albacete, 1990**).
+
+### Verificació de fets/enllaços de la recerca (rodada 2, 2026-09-18)
+
+- **Grup Foto Roquetes**: confirmat com a grup real de fotografia comunitària de Roquetes; hi consten obres de **Manel Villalba** i **Núria Orbaneja** (tots dos membres de 9 Barris Imatge). Font: <https://ctoniguida.wixsite.com/toniguida/fotos> («Fotos cedides pel Manel Villalba del Grup FotoRoquetes», «Fotos cedides per la Núria Orbaneja del Grup FotoRoquetes»).
+- **Can Basté**: confirmat com a equipament especialitzat en fotografia (exposicions, tallers, agenda) a <https://www.canbaste.com/>; **19è Fòrum Fotogràfic Can Basté** actiu amb **beca expositiva i beca de publicació**; exposició «30 anys de Can Basté» (2025) → coherent amb la fundació ~1995/96.
+- **Humberto Rivas**: confirmat com a figura clau de la fotografia a Espanya — Humberto Luis Rivas Ribeiro (**1937–2009**, nascut a Buenos Aires, instal·lat a Barcelona el **1976**; «el fotògraf del silenci»; retrospectiva al **MNAC 2006**; Fundación MAPFRE 2018; **Premi Ciutat de Barcelona d'Arts Plàstiques 1997**; biblioteca donada a la **UAB** el 2017). **Pendent de confirmar**: que fos professor a Can Basté, la plaça dedicada al districte i l'homenatge de Can Basté (no s'ha trobat cap font).
+- **Arnaldo Gil Albacete** i l'exposició **«L'ahir i l'avui de Nou Barris»**: **sense font externa trobada** (caldrà preguntar o cercar a l'Arxiu/Can Basté).
+- **19è Fòrum «novembre 2026»** i el detall de **plató/laboratori/estació digital**: aportats per l'usuari; confirmada l'existència i especialització del Fòrum, no la data exacta ni els serveis.
+
+### Concurs Josep Anton Cordoncillo — recerca i cronologia (2026-09-18)
+
+> Recerca aportada per l'usuari + verificació a l'arxiu propi (`content/posts/`). És una **peça pròpia** de la investigació: «Concurs Josep Anton Cordoncillo — 1990–2026».
+
+- **Origen 1990 (deducció, no font)**: el post propi de **2008** (`content/posts/2008-03-29-concurs-fotogrfic-josep-antn.md`) diu literalment **«XIXª edició»**; el de **2009** (`2009-09-08-...`) diu **«XXena edició»**. Si la numeració és consecutiva, la primera edició seria **1990**. **Pendent** una font de 1990/1991 que ho confirmi.
+- **Cronologia reconstruïda** (any → número; **negreta** = el post diu un número equivocat, error de xifra romana al títol):
+  1990 I · 2008 XIX · 2009 XX · 2010 XXI · 2011 XXII · 2012 **XXIII** (post: «XIII») · 2013 **XXIV** (post: «XIX») · 2014 XXV · 2015 **XXVI** (post: «XVI») · 2016 XXVII · 2017 XXVIII · 2018 XXIX · 2019 XXX · **2020 (no consta cap edició; possible any saltat, p. ex. COVID)** · 2021 XXXI · 2022 XXXII · 2023 XXXIII · 2024 XXXIV · 2025 XXXV · 2026 XXXVI (en curs).
+- **Anomalies de numeració** (anotar com a incidència documental, **no corregir a mà**): 2012 «XIII», 2013 «XIX», 2015 «XVI». La seqüència quadra de 2008 (XIX) a 2019 (XXX) i de 2021 (XXXI) a 2025 (XXXV) **si el 2020 no es va celebrar**.
+- **Categories 2008–2011** (font pròpia): A color tema lliure; B B/N tema lliure; **C Premi Josep Anton Cordoncillo** (tema específic); **D Fotomòbil** (enviament per correu: 2008 a `cbarri@telefonica.net`, 2009 ja a `info@9barrisimatge.org`); E Infantil (des de 2009). Temes C: 2008 «20 anys de Casal de Barri», 2009 «Surrealisme», 2010 «Surrealisme», 2011 «Moviment Indignats 15M». Jurat: **Agrupació Fotogràfica de Catalunya** (2008–2010); **9 Barris Imatge** (des de 2011).
+- **2012** (post «XIII», tema «Erotisme»): 24×30 cm sobre cartolina, lliurament físic; només fotos inèdites; màxim 3 per categoria; 150 € als guanyadors A/B/C.
+- **2014** XXV: reportatge de **Manel Villalba**; àlbum a Picasa (títol «XXV», nom d'àlbum «XVConcurs…»).
+- **2019** XXX: tema «Jubilats»; 100 € per categoria; premi del públic.
+- **2021** XXXI: tema «Vacances, temps lliure»; guanyador Cordoncillo **Cristian Rodríguez** («El despertador»).
+- **2022** XXXII: tema «Menjar»; jurat 9 Barris Imatge; concert **Daniel Higiénico**; el Casal ja el descriu com un «clàssic».
+- **2023** XXXIII: tema «Petó»; **23 participants i 52 fotografies** (memòria del Casal); concert Sweet Marta & Johnny Bigstone.
+- **2024** XXXIV: tema «Mirades»; concert **Jo Solana Trio**; el post diu explícitament «homenatge al membre fundador de 9 Barris Imatge que va deixar-nos».
+- **2025** XXXV: tema «Peus»; bases digitals (1 foto/categoria, JPEG ≥4 MB, correu, RAW de verificació, **prohibició d'IA**); 100 € per categoria + 100 € vot popular; exposició al Casal al desembre (concert Dani Roto).
+- **Cordoncillo (persona) — PENDENT**: només és documentat que era **membre fundador de 9 Barris Imatge** i que el concurs es manté en homenatge seu. Falten naixement/mort, barri, fotografia, fons i origen del nom. Pista: post propi **`content/posts/2010-11-07-lherencia-de-josep-anton-cordoncillo.md`** (enllaç a BTVnotícies, sense text) → possible mort/legat cap al 2010 (però el 2008 el concurs ja portava el seu nom).
+- **Pendent**: reconstruir **35 anys de guanyadors** (any → tema → color → B/N → Cordoncillo → premi públic), que pot revelar fotògrafs no llistats. Fonts: arxius del Casal de Barri Prosperitat, de 9 Barris Imatge i de l'Arxiu Històric de Roquetes-Nou Barris.
+- **Fonts de veritat per a les dades de cada edició** (2026-09-18): el **mateix blog 9barrisimatge.org** (la convocatòria s'ha publicat habitualment, ni que sigui amb una imatge) i el blog **`blog.pocallum.cat`** (que té totes les dades de cada edició). Ús per a la reconstrucció de l'arxiu del concurs i per al sistema de votació.
+
+### Concurs — reestructuració en pestanyes (2026-09-18)
+
+> Implementat (aprovat 2026-09-18). Fitxers: `content/concurs.md`, `assets/css/extended/custom.css`, `layouts/_partials/footer.html`, nou `layouts/_shortcodes/rel.html`.
+
+- **3 pestanyes principals al capdamunt**: **L'edició 2026** (amb sub-pestanyes Bases / Com participar + botó PDF) · **Història del concurs** · **Els trofeus**. CSS pur amb radios (`name="concurs-view"` → `view-2026`/`view-historia`/`view-trofeus`); les sub-pestanyes mantenen `name="concurs-tab"` (`concurs-tab-bases`/`concurs-tab-participar`).
+- **Més aire**: `.concurs` amb més marge; pestanyes, taula i seccions amb espaiat nou.
+- **Història del concurs**: resum + **taula de cronologia 1990/2008–2026** (temes, fets destacats) + evolució del format + apartat Cordoncillo; els punts no confirmats (1990, 2020, numeracions 2012/2013/2015) marcats amb `.is-pending` «per confirmar».
+- **Compartir + enllaços propis**: `.concurs-share` amb botons WhatsApp/Telegram/Correu/Copiar (JS a `footer.html`, via `location.href`) i enllaços a l'etiqueta del concurs (`/tags/concurs-fotogràfic-josep-antón-cordoncillo.html`), al Casal de la Prosperitat i a l'Arxiu Històric.
+- **`layouts/_shortcodes/rel.html`** (nou): `{{< rel "/ruta" >}}` → `relURL` amb `TrimPrefix "/"`. Cal perquè els enllaços/imatges dins blocs HTML crus del markdown no passen pels hooks `render-image`/`render-link`. Utilitzat a `concurs.md` per a la imatge dels trofeus i l'enllaç de l'etiqueta.
+- **Impressió**: `@media print` actualitzat per forçar `#concurs-2026` i el panell de Bases visibles.
+- Build net (6.539 pàgines). Verificat: enllaços i imatge surten amb `/9bi/` (base-aware).
+
+### Concurs — desplegament final (2026-09-18, sessió v4)
+
+- **Títol de pàgina sense abreviatures**: `content/concurs.md` amb `title` sencer («Concurs fotogràfic Josep Antón Cordoncillo») + `visualTitle` (amb `<br>`) per a l'h1. Nou **`layouts/single.html` SOBREESCRIT** (còpia del tema): si la pàgina té `.Params.visualTitle`, l'usa com a h1 amb `safeHTML`; si no, `.Title`. **Atenció en actualitzar PaperMod.**
+- **Subtítol amb enllaç al Casal**: `description` en text pla (per al `<meta>` net) + `visualDescription` (markdown) renderitzada com a subtítol visual a `single.html` (`{{ .Params.visualDescription | .RenderString (dict "display" "inline") }}`); hi ha enllaç a casalprospe.org.
+- **4 pestanyes principals**: L'edició 2026 · **El vot del públic** · Història del concurs · Els trofeus (CSS pur, radios `name="concurs-view"`, `#view-vot`).
+- **Pestanya «El vot del públic»**: premi de 100 € que decideix el públic; sistema digital de vot en estudi — **QR únic a l'exposició** + cada obra porta el seu **número** i al QR s'hi indica el número a votar; 1 vot per obra i dispositiu, anònim; votar al Casal de Barri de Prosperitat.
+- **Botons de compartir amb icones SVG** (WhatsApp/Telegram/Correu/Copia) — text conservat.
+- **Enllaços externs del bloc «Comparteix i enllaços»** trets (petició usuari): només queda l'enllaç intern a l'etiqueta del concurs.
+- **Espaiat**: dates importants `4.8rem 0 2rem` (triple/doble); línia de Categories `3rem 0`; pestanyes inactives amb `background: var(--tertiary)`.
+- **Bug icones del menú arreglat**: `.menu-icon` i `.menu-icon svg` ara tenen mida base **fora** de `@media (min-width: 769px)`; a ≤768px les icones es mostren a 17px (abans l'SVG sense width/height es renderitzava gegant i trencava el mòbil).
+- **Abreviatures corregides** (`J. A. Cordoncillo` / `J.A.Cordoncillo` → nom sencer): `content/concurs.md` i posts `2014-12-16-...` i `2025-12-21-...`.
+- Build net (6.539 pàgines). **Desplegat a Codeberg Pages** (branca `pages`).
+
+### Diagnòstic del núvol d'etiquetes (`/tags/` i `/search/`)
+
+- **A la pàgina de Cerca (`/search/`) NO hi ha núvol d'etiquetes** — cal afegir-lo (pendent d'aprovació).
+- **Recompte real** (2026-09-18): 3.006 fitxers; **11.377 aparicions**; **1.742 tags literals** (1.719 normalitzats: espais/accents/majúscules).
+- **23 grups de variants** a unificar (exemples): `exposicio`/`exposició` (102), `musica`/`música` (101), `presentacio`/`presentació` (78), `veins`/`veïns` (27), `VIA JULIA`/`vía júlia` (28), `torre baro`/`torre baró` (18), `República`/`republica` (28), `prego`/`pregó`, `futbol sala`/`futbol-sala`, `dia de la dona` (amb doble espai), `nit d´animes`/`nit d'ànimes`, `placa Àngel Pestaña`/`Ángel`, etc.
+- **Famílies grans a unificar**: `prospe`(339)/`Prosperitat`(330)/`barri de Prosperitat`(96)/`la prosperitat`(66); `casal de barri`(140)/`casal barri prosperitat`(122)/`Casal de barri Prosperitat`(107)/`Casal de barri de Prosperitat`(95); `9 barris`(89)/`9barris`(52); `festa`(109)/`festes`(88).
+- **890 tags amb 1 sol ús** — molts brossa: hashtags (`#el47 #lluitaveinal…`), dates (`29-09-2010`), noms puntuals, etc.
+- **Etiqueta trencada detectada**: `manel sala "ulls` (73 aparicions, cometes desbalancejades).
+- Eina d'anàlisi temporal usada: `/tmp/tag_analysis.py` (parseja el front matter de `content/posts/*.md`).
+
+### Diagnòstic responsive: icones del header massa grans
+
+- Causa probable: a `custom.css`, **`.menu-icon svg { width: 20px; height: 20px }` i `.menu-icon { display: none }` només existeixen dins `@media (min-width: 769px)`** (línies ~546–581). Per sota de 769px no hi ha cap mida per a l'SVG → l'SVG inline (viewBox sense width/height) es renderitza enorme i el span es mostra.
+- Proposta (requereix aprovació de disseny): definir `.menu-icon`/`.menu-icon svg` amb mida base **fora** del media query i decidir el comportament mòbil (amagar icones o fer-les de ~18 px), o restringir les icones a escriptori.
+
+### Altres
+
+- **Eslògan «arreu» aplicat però NO committejat**: `config/_default/hugo.toml` (línia 50, `description`) i `content/qui-som.md` (línia 7). Build net (6.539 pàgines). Pendent `git push origin main` + deploy a `pages`.
+- **Reestructurar el footer «amb lògica»**: petició de l'usuari, **sense concretar** — preguntar què vol dir (¿col·lapse al mòbil, ¿columnes segons context, ¿reordenar?).
+
 ## Tasques pendents (backlog curt)
 
 - **`content/contacte.md`**: afegir al formulari un camp nou "A quina entitat de Nou Barris pertanys o representes (opcionalment)" (input opcional, com `assumpte`).
@@ -224,6 +337,14 @@ sync-9bi.sh                        # script de sync/gestió
 - **Compartir a xarxes**: botons per compartir fàcilment a **Instagram** i les xarxes que es portin ara (pendent).
 - **Tipografies**: **implementat (2026-09-18)** — cos **Montserrat** (woff2 400/700/800) + títols **Gillius ADF** (OTF 400/700), autoallotjades a `static/fonts/`, `@font-face` i overrides a `custom.css` (urls `../../fonts/…`) i `preload` a `extend_head.html`. **Sense cap CDN** (RGPD). Pendent opcional: convertir els OTF de Gillius a woff2.
 - **Votació popular per QR** (concurs): implementar l'app Python al servidor de LinuxBCN (1 vot per obra i dispositiu, anònim, només QR presencial). Pendent d'estudiar/decidir (2026-09-18).
+
+- **Pestanyes a «Qui som»** (aprovat 2026-09-18): qui som | Com funcionem | Membres | Relacions (entitats + links amics) | **Història de la fotografia a Nou Barris**. Reutilitzar el patró de pestanyes CSS pur del Concurs. (Pendent redactar.)
+- **Història de la fotografia a Nou Barris** (aprovat: incloure a la pestanya nova): genealogia ~1960–2026 amb 4 categories (A fotògrafs de Nou Barris · B que l'han documentat · C fotografia comunitària/de barri · D ecosistema Can Basté) i columna «per què és conegut?»; noms sense font es marquen «pendent de verificar».
+- **Núvol d'etiquetes a la Cerca** (`/search/`) + **depuració d'etiquetes**: 1.742 de literals (23 grups de variants, 890 d'un sol ús, etiqueta trencada `manel sala "ulls`). Pendent de decisions editorials.
+- **Responsive header**: `.menu-icon svg` només té mida dins `@media (min-width: 769px)` → icones gegants per sota; fix pendent d'aprovació de disseny.
+- **Footer «amb lògica»**: reestructuració pendent de concretar amb l'usuari.
+- **Concurs Cordoncillo (investigació pròpia)**: biografia de Cordoncillo, origen documentat (1990), cronologia i 35 anys de guanyadors; incidències de numeració a l'arxiu.
+- **Eslògan «arreu»**: canvis aplicats però **no committejats** (`hugo.toml`, `qui-som.md`); pendent commit + deploy.
 
 ## Infraestructura i comunicació (pendent)
 

@@ -253,5 +253,31 @@
                 window.print();
             });
         });
+
+        document.querySelectorAll("[data-share]").forEach(function (btn) {
+            btn.addEventListener("click", function () {
+                var url = encodeURIComponent(window.location.href);
+                var title = encodeURIComponent(document.title);
+                var kind = btn.getAttribute("data-share");
+                if (kind === "copy") {
+                    var done = function () {
+                        var old = btn.textContent;
+                        btn.textContent = "Copiat!";
+                        setTimeout(function () { btn.textContent = old; }, 2000);
+                    };
+                    if (navigator.clipboard) {
+                        navigator.clipboard.writeText(window.location.href).then(done);
+                    } else {
+                        done();
+                    }
+                    return;
+                }
+                var target = "";
+                if (kind === "whatsapp") target = "https://wa.me/?text=" + title + "%20" + url;
+                else if (kind === "telegram") target = "https://t.me/share/url?url=" + url + "&text=" + title;
+                else if (kind === "email") target = "mailto:?subject=" + title + "&body=" + url;
+                if (target) window.open(target, "_blank", "noopener");
+            });
+        });
     })();
 </script>

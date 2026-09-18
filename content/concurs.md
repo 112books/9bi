@@ -1,14 +1,32 @@
 ---
-title: "Concurs J. A. Cordoncillo"
-description: "El concurs fotogràfic Josep Antón Cordoncillo de 9 Barris Imatge"
+title: "Concurs fotogràfic Josep Antón Cordoncillo"
+description: "El concurs fotogràfic Josep Antón Cordoncillo de 9 Barris Imatge organitzat conjuntament al Casal de Barri de Prosperitat"
 url: "/concurs/"
+visualTitle: "Concurs fotogràfic<br>Josep Antón Cordoncillo"
+visualDescription: "El concurs fotogràfic Josep Antón Cordoncillo de 9 Barris Imatge organitzat conjuntament al [Casal de Barri de Prosperitat](https://casalprospe.org/)"
 ---
 
 El **Concurs Fotogràfic Josep Antón Cordoncillo** és el concurs anual de fotografia que organitza 9 Barris Imatge amb l'objectiu de promoure la mirada fotogràfica sobre el barri, la seva gent i la seva vida.
 
 <div class="concurs">
+<input type="radio" name="concurs-view" id="view-2026" class="concurs-view-radio" checked>
+<input type="radio" name="concurs-view" id="view-historia" class="concurs-view-radio">
+<input type="radio" name="concurs-view" id="view-trofeus" class="concurs-view-radio">
+<input type="radio" name="concurs-view" id="view-vot" class="concurs-view-radio">
+<div class="concurs-viewlist" role="tablist">
+<label for="view-2026" class="concurs-viewtab" role="tab">L'edició 2026</label>
+<label for="view-vot" class="concurs-viewtab" role="tab">El vot del públic</label>
+<label for="view-historia" class="concurs-viewtab" role="tab">Història del concurs</label>
+<label for="view-trofeus" class="concurs-viewtab" role="tab">Els trofeus</label>
+</div>
+<section class="concurs-view" id="concurs-2026">
 <p class="concurs-eyebrow">Edició en curs · 2026</p>
-<h2 class="concurs-title">36è Concurs de Fotografia Josep Anton Cordoncillo</h2>
+<h2 class="concurs-title">
+36 Edició<br>
+Concurs fotogràfic<br>
+Josep Antón Cordoncillo<br>
+de 9 Barris Imatge
+</h2>
 <ol class="concurs-timeline">
 <li class="concurs-step">
 <span class="cal"><span class="cal-month">Set</span><span class="cal-day">25</span></span>
@@ -41,7 +59,8 @@ El **Concurs Fotogràfic Josep Antón Cordoncillo** és el concurs anual de foto
 <button type="button" class="concurs-print" data-concurs-print>Descarrega en PDF</button>
 </div>
 <section class="concurs-panel concurs-panel--bases" id="concurs-bases">
-<h3>Bases del Concurs de Fotografia 36è Josep Antón Cordoncillo 2026</h3>
+<h3>Bases del Concurs de Fotografia<br>
+36è Josep Antón Cordoncillo 2026</h3>
 <h4>Participació</h4>
 <ol>
 <li>Podran participar totes les persones majors d'edat o amb autorització dels seus tutors legals, segons l'article 19 del Codi Civil català i la Llei Orgànica 1/1996, de Protecció Jurídica del Menor.</li>
@@ -99,21 +118,80 @@ El **Concurs Fotogràfic Josep Antón Cordoncillo** és el concurs anual de foto
 </ol>
 </section>
 </div>
+</section>
+<section class="concurs-view concurs-vot" id="concurs-vot">
+<h2>El vot del públic</h2>
+<p>Dins del concurs hi ha un <strong>premi especial del públic</strong>: una distinció que no decideix el jurat, sinó que es lliura directament a la fotografia que rebi més vots de les persones que visiten l'exposició.</p>
+<p>En aquesta edició, des de 9 Barris Imatge <strong>intentarem implementar un sistema digital de votació</strong>, transparent i segur, per evitar possibles fraus que en alguna ocasió hem sospitat.</p>
+<h3>Com funcionarà</h3>
+<ul>
+<li>Per votar caldrà <strong>anar al Casal de Barri de Prosperitat</strong> durant els dies d'exposició.</li>
+<li>A l'exposició hi haurà un <strong>únic codi QR</strong>, ben visible, per escanejar amb la càmera del mòbil.</li>
+<li>Cada fotografia exposada portarà <strong>el seu número</strong> ben visible al costat de l'obra.</li>
+<li>En obrir-se la pàgina del QR, caldrà <strong>indicar el número de la fotografia</strong> que es vol votar.</li>
+<li>El sistema guarda els vots de forma <strong>anònima</strong> i, des del mateix dispositiu, només permet <strong>un vot per obra</strong>, per garantir la transparència en el recompte.</li>
+</ul>
+<h3>Premi del públic</h3>
+<p>El premi del públic serà de <strong>100 €</strong>, amb la votació oberta durant l'exposició de desembre de 2026. La fotografia més votada el recollirà al lliurament de premis del <strong>18 de desembre</strong>.</p>
+</section>
+<section class="concurs-view concurs-history" id="concurs-historia">
+<h2>Història del concurs</h2>
+<p>El Concurs de Fotografia Josep Antón Cordoncillo és un certamen popular vinculat a la Prosperitat i a Nou Barris, organitzat per 9 Barris Imatge amb la col·laboració del Casal de Barri de la Prosperitat. El 2025 va arribar a la 35a edició, cosa que el situa entre les activitats fotogràfiques de més continuïtat del districte.</p>
+<table>
+<thead>
+<tr><th>Any</th><th>Edició</th><th>Tema del Premi Cordoncillo</th><th>Fets destacats</th></tr>
+</thead>
+<tbody>
+<tr><td>1990</td><td><span class="is-pending">I (per confirmar)</span></td><td>—</td><td>Origen deduït de la numeració; pendent de documentar amb una font de l'època.</td></tr>
+<tr><td>2008</td><td>XIX</td><td>20 anys de Casal de Barri</td><td>150 € al primer premi de cada categoria; primera categoria Fotomòbil (enviament per correu).</td></tr>
+<tr><td>2009</td><td>XX</td><td>Surrealisme</td><td>S'incorpora la categoria Infantil (menors de 14 anys).</td></tr>
+<tr><td>2010</td><td>XXI</td><td>Surrealisme</td><td>Jurat a càrrec de l'Agrupació Fotogràfica de Catalunya.</td></tr>
+<tr><td>2011</td><td>XXII</td><td>Moviment Indignats 15M</td><td>El jurat passa a ser 9 Barris Imatge.</td></tr>
+<tr><td>2012</td><td><span class="is-pending">XXIII</span></td><td>Erotisme</td><td>Al web consta com a «XIII» (incidència de numeració). Només fotos inèdites; 24 × 30 cm sobre cartolina.</td></tr>
+<tr><td>2013</td><td><span class="is-pending">XXIV</span></td><td>L'aigua</td><td>Al web consta com a «XIX» (incidència de numeració). Categoria específica de fotografia analògica «retro» (per confirmar).</td></tr>
+<tr><td>2014</td><td>XXV</td><td>—</td><td>Reportatge de l'exposició a càrrec de Manel Villalba.</td></tr>
+<tr><td>2015</td><td><span class="is-pending">XXVI</span></td><td>La llum</td><td>Al web consta com a «XVI» (incidència de numeració).</td></tr>
+<tr><td>2016</td><td>XXVII</td><td>—</td><td>—</td></tr>
+<tr><td>2017</td><td>XXVIII</td><td>—</td><td>—</td></tr>
+<tr><td>2018</td><td>XXIX</td><td>—</td><td>—</td></tr>
+<tr><td>2019</td><td>XXX</td><td>Jubilats</td><td>100 € per categoria i premi del públic.</td></tr>
+<tr><td>2020</td><td><span class="is-pending">— (per confirmar)</span></td><td>—</td><td>Possible any sense edició; pendent de comprovar.</td></tr>
+<tr><td>2021</td><td>XXXI</td><td>Vacances, temps lliure</td><td>Guanyador del Premi Cordoncillo: Cristian Rodríguez, amb «El despertador».</td></tr>
+<tr><td>2022</td><td>XXXII</td><td>Menjar</td><td>Concert de Daniel Higiénico al lliurament de premis.</td></tr>
+<tr><td>2023</td><td>XXXIII</td><td>Petó</td><td>23 participants i 52 fotografies presentades.</td></tr>
+<tr><td>2024</td><td>XXXIV</td><td>Mirades</td><td>Concert de Jo Solana Trio; homenatge a Cordoncillo.</td></tr>
+<tr><td>2025</td><td>XXXV</td><td>Peus</td><td>Bases digitals (JPEG ≥ 4 MB, RAW de verificació) i prohibició d'imatges generades amb IA.</td></tr>
+<tr><td>2026</td><td>XXXVI</td><td><em>pendent</em></td><td>Edició en curs.</td></tr>
+</tbody>
+</table>
+<p class="concurs-note">Les edicions II a XVIII (1991–2007) estan pendents de documentar. En tres edicions (2012, 2013 i 2015) el número publicat al web no coincideix amb la seqüència real; ho deixem anotat com a incidència documental, sense corregir-lo.</p>
+<h3>Evolució del format</h3>
+<ul>
+<li><strong>Paper (fins a la dècada de 2010).</strong> Fotografies de 24 × 30 cm muntades sobre cartolina i entregades físicament al Casal.</li>
+<li><strong>2009.</strong> S'incorpora la categoria Fotomòbil, amb enviament per correu electrònic i votació popular en línia.</li>
+<li><strong>2013.</strong> Categoria específica de fotografia analògica «retro» (per confirmar).</li>
+<li><strong>2021–2024.</strong> El format digital es consolida.</li>
+<li><strong>2025.</strong> JPEG d'un mínim de 4 MB, verificació de l'arxiu RAW en cas de dubte i prohibició explícita d'imatges generades amb intel·ligència artificial.</li>
+</ul>
+<h3>Josep Antón Cordoncillo</h3>
+<p>El concurs porta el nom de <strong>Josep Antón Cordoncillo</strong>, membre fundador de 9 Barris Imatge a qui el col·lectiu ret homenatge. La seva biografia, la seva obra i el possible fons fotogràfic són objecte d'una recerca en curs; en aquesta pàgina n'anirem publicant les dades confirmades.</p>
+</section>
+<section class="concurs-view" id="concurs-trofeus">
+<h2>Els trofeus</h2>
+<p><img src="{{< rel "/images/juan-sinsangre-trofeus_DSF5756.jpg" >}}" alt="Trofeus d'aire futurista fets per Juan Sin Sangre" loading="lazy" decoding="async"></p>
+<p>Fins fa dues edicions, el veí i artista <strong>Juan Sin Sangre</strong> feia cada any, de manera totalment artesanal i sense regles ni mesures (peces úniques), els famosos trofeus d'aire futurista. Malauradament, ja no viu al barri i li és impossible continuar-los fent. El relleu l'ha pres en <strong>Carlitos</strong>, un altre dels grans artistes del barri, i aviat, esperem, tindrem notícies fresques sobre els trofeus i la seva evolució.</p>
+</section>
 </div>
 
-<hr class="concurs-sep">
-
-## Història
-
-El concurs va néixer com un homenatge a en **Josep Antón Cordoncillo**, soci fundador i ànima de 9 Barris Imatge, per mantenir viu el seu esperit de documentar les persones i els espais dels Nou Barris.
-
-Al llarg de les edicions, el concurs ha estat un punt de trobada de fotògrafs aficionats del districte i ha servit de finestra per exposar i reconèixer les imatges que expliquen la quotidianitat del barri.
-
-Cada edició convoca un **tema** diferent i unes **bases** pròpies (format de les imatges, dates de presentació, jurat i premis).
-{.guide-note}
-
-## Història dels trofeus
-
-![Trofeus d'aire futurista fets per Juan Sin Sangre](/images/juan-sinsangre-trofeus_DSF5756.jpg)
-
-Fins fa dues edicions, el veí i artista **Juan Sin Sangre** feia cada any, de manera totalment artesanal i sense regles ni mesures (peces úniques), els famosos trofeus d'aire futurista. Malauradament, ja no viu al barri i li és impossible continuar-los fent. El relleu l'ha pres en **Carlitos**, un altre dels grans artistes del barri, i aviat, esperem, tindrem notícies fresques sobre els trofeus i la seva evolució.
+<div class="concurs-share">
+<h3>Comparteix i enllaços</h3>
+<div class="concurs-share-row">
+<button type="button" class="concurs-share-btn" data-share="whatsapp"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span>WhatsApp</span></button>
+<button type="button" class="concurs-share-btn" data-share="telegram"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg><span>Telegram</span></button>
+<button type="button" class="concurs-share-btn" data-share="email"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg><span>Correu</span></button>
+<button type="button" class="concurs-share-btn" data-share="copy"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><span>Copia l'enllaç</span></button>
+</div>
+<ul class="concurs-links">
+<li><a href="{{< rel "/tags/concurs-fotogràfic-josep-antón-cordoncillo.html" >}}">Totes les edicions del concurs (arxiu)</a></li>
+</ul>
+</div>
