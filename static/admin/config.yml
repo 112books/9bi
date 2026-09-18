@@ -42,11 +42,11 @@ x-autors: &autors
 collections:
   - name: "posts-2026"
     label: "Articles · 2026"
-    folder: "content/posts"
+    folder: "content/posts/2026"
     create: true
-    filter:
-      field: "year"
-      value: "2026"
+    sortable_fields:
+      - { field: "date", label: "Data", default_sort: desc }
+      - { field: "title", label: "Títol" }
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -68,11 +68,11 @@ collections:
 
   - name: "posts-2025"
     label: "Articles · 2025"
-    folder: "content/posts"
+    folder: "content/posts/2025"
     create: true
-    filter:
-      field: "year"
-      value: "2025"
+    sortable_fields:
+      - { field: "date", label: "Data", default_sort: desc }
+      - { field: "title", label: "Títol" }
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -94,11 +94,11 @@ collections:
 
   - name: "posts-2024"
     label: "Articles · 2024"
-    folder: "content/posts"
+    folder: "content/posts/2024"
     create: true
-    filter:
-      field: "year"
-      value: "2024"
+    sortable_fields:
+      - { field: "date", label: "Data", default_sort: desc }
+      - { field: "title", label: "Títol" }
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -120,11 +120,11 @@ collections:
 
   - name: "posts-2023"
     label: "Articles · 2023"
-    folder: "content/posts"
+    folder: "content/posts/2023"
     create: true
-    filter:
-      field: "year"
-      value: "2023"
+    sortable_fields:
+      - { field: "date", label: "Data", default_sort: desc }
+      - { field: "title", label: "Títol" }
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -146,11 +146,11 @@ collections:
 
   - name: "posts-2022"
     label: "Articles · 2022"
-    folder: "content/posts"
+    folder: "content/posts/2022"
     create: true
-    filter:
-      field: "year"
-      value: "2022"
+    sortable_fields:
+      - { field: "date", label: "Data", default_sort: desc }
+      - { field: "title", label: "Títol" }
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -172,11 +172,11 @@ collections:
 
   - name: "posts-2021"
     label: "Articles · 2021"
-    folder: "content/posts"
+    folder: "content/posts/2021"
     create: true
-    filter:
-      field: "year"
-      value: "2021"
+    sortable_fields:
+      - { field: "date", label: "Data", default_sort: desc }
+      - { field: "title", label: "Títol" }
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -198,11 +198,11 @@ collections:
 
   - name: "posts-2020"
     label: "Articles · 2020"
-    folder: "content/posts"
+    folder: "content/posts/2020"
     create: true
-    filter:
-      field: "year"
-      value: "2020"
+    sortable_fields:
+      - { field: "date", label: "Data", default_sort: desc }
+      - { field: "title", label: "Títol" }
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -224,11 +224,11 @@ collections:
 
   - name: "posts-2019"
     label: "Articles · 2019"
-    folder: "content/posts"
+    folder: "content/posts/2019"
     create: true
-    filter:
-      field: "year"
-      value: "2019"
+    sortable_fields:
+      - { field: "date", label: "Data", default_sort: desc }
+      - { field: "title", label: "Títol" }
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -250,11 +250,11 @@ collections:
 
   - name: "posts-2018"
     label: "Articles · 2018"
-    folder: "content/posts"
+    folder: "content/posts/2018"
     create: true
-    filter:
-      field: "year"
-      value: "2018"
+    sortable_fields:
+      - { field: "date", label: "Data", default_sort: desc }
+      - { field: "title", label: "Títol" }
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -276,11 +276,11 @@ collections:
 
   - name: "posts-2017"
     label: "Articles · 2017"
-    folder: "content/posts"
+    folder: "content/posts/2017"
     create: true
-    filter:
-      field: "year"
-      value: "2017"
+    sortable_fields:
+      - { field: "date", label: "Data", default_sort: desc }
+      - { field: "title", label: "Títol" }
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -302,11 +302,11 @@ collections:
 
   - name: "posts-2016"
     label: "Articles · 2016"
-    folder: "content/posts"
+    folder: "content/posts/2016"
     create: true
-    filter:
-      field: "year"
-      value: "2016"
+    sortable_fields:
+      - { field: "date", label: "Data", default_sort: desc }
+      - { field: "title", label: "Títol" }
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -328,11 +328,11 @@ collections:
 
   - name: "posts-2015"
     label: "Articles · 2015"
-    folder: "content/posts"
+    folder: "content/posts/2015"
     create: true
-    filter:
-      field: "year"
-      value: "2015"
+    sortable_fields:
+      - { field: "date", label: "Data", default_sort: desc }
+      - { field: "title", label: "Títol" }
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -354,11 +354,11 @@ collections:
 
   - name: "posts-2014"
     label: "Articles · 2014"
-    folder: "content/posts"
+    folder: "content/posts/2014"
     create: true
-    filter:
-      field: "year"
-      value: "2014"
+    sortable_fields:
+      - { field: "date", label: "Data", default_sort: desc }
+      - { field: "title", label: "Títol" }
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -380,11 +380,11 @@ collections:
 
   - name: "posts-2013"
     label: "Articles · 2013"
-    folder: "content/posts"
+    folder: "content/posts/2013"
     create: true
-    filter:
-      field: "year"
-      value: "2013"
+    sortable_fields:
+      - { field: "date", label: "Data", default_sort: desc }
+      - { field: "title", label: "Títol" }
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -406,11 +406,11 @@ collections:
 
   - name: "posts-2012"
     label: "Articles · 2012"
-    folder: "content/posts"
+    folder: "content/posts/2012"
     create: true
-    filter:
-      field: "year"
-      value: "2012"
+    sortable_fields:
+      - { field: "date", label: "Data", default_sort: desc }
+      - { field: "title", label: "Títol" }
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -432,11 +432,11 @@ collections:
 
   - name: "posts-2011"
     label: "Articles · 2011"
-    folder: "content/posts"
+    folder: "content/posts/2011"
     create: true
-    filter:
-      field: "year"
-      value: "2011"
+    sortable_fields:
+      - { field: "date", label: "Data", default_sort: desc }
+      - { field: "title", label: "Títol" }
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -458,11 +458,11 @@ collections:
 
   - name: "posts-2010"
     label: "Articles · 2010"
-    folder: "content/posts"
+    folder: "content/posts/2010"
     create: true
-    filter:
-      field: "year"
-      value: "2010"
+    sortable_fields:
+      - { field: "date", label: "Data", default_sort: desc }
+      - { field: "title", label: "Títol" }
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -484,11 +484,11 @@ collections:
 
   - name: "posts-2009"
     label: "Articles · 2009"
-    folder: "content/posts"
+    folder: "content/posts/2009"
     create: true
-    filter:
-      field: "year"
-      value: "2009"
+    sortable_fields:
+      - { field: "date", label: "Data", default_sort: desc }
+      - { field: "title", label: "Títol" }
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -510,11 +510,11 @@ collections:
 
   - name: "posts-2008"
     label: "Articles · 2008"
-    folder: "content/posts"
+    folder: "content/posts/2008"
     create: true
-    filter:
-      field: "year"
-      value: "2008"
+    sortable_fields:
+      - { field: "date", label: "Data", default_sort: desc }
+      - { field: "title", label: "Títol" }
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }

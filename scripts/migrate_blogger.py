@@ -222,9 +222,9 @@ def main():
             if album_url:
                 front["album_url"] = album_url
 
-            fname = os.path.join(args.output, f'{pub.strftime("%Y-%m-%d")}-{slug}.md')
+            fname = os.path.join(args.output, pub.strftime("%Y"), f'{pub.strftime("%Y-%m-%d")}-{slug}.md')
             if not args.dry_run:
-                os.makedirs(args.output, exist_ok=True)
+                os.makedirs(os.path.dirname(fname), exist_ok=True)
                 with open(fname, "w", encoding="utf-8") as f:
                     f.write("---\n")
                     f.write(yaml.safe_dump(front, allow_unicode=True, sort_keys=False))

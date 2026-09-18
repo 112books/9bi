@@ -88,12 +88,113 @@
       background: transparent;
     }
 
+    /* ---- Cos (rail propi + aplicació Decap) ---- */
+    .cms-app {
+      flex: 1 1 auto;
+      display: flex;
+      min-height: 0;
+    }
+
+    /* ---- Rail de navegació propi ---- */
+    .cms-rail {
+      flex: none;
+      width: 232px;
+      min-width: 232px;
+      background: #161618;
+      border-right: 1px solid var(--cms-border);
+      padding: 1rem 0.85rem 1rem;
+      font-size: 0.9rem;
+      overflow-y: auto;
+      scrollbar-width: thin;
+    }
+    .cms-rail-group {
+      margin-bottom: 1.4rem;
+    }
+    .cms-rail-group summary {
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--cms-secondary);
+      padding: 0.3rem 0;
+      user-select: none;
+    }
+    .cms-rail-group summary::-webkit-details-marker {
+      display: none;
+    }
+    .cms-rail-group summary::after {
+      content: "▸";
+      transition: transform 0.15s ease;
+      font-size: 0.8em;
+    }
+    .cms-rail-group[open] summary::after {
+      transform: rotate(90deg);
+    }
+    .cms-rail-title {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--cms-secondary);
+      padding: 0.3rem 0 0.2rem;
+    }
+    .cms-rail ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .cms-rail a {
+      display: block;
+      color: var(--cms-primary);
+      text-decoration: none;
+      padding: 0.3rem 0.45rem;
+      border-radius: 5px;
+      border-left: 2px solid transparent;
+    }
+    .cms-rail a:hover,
+    .cms-rail a:focus {
+      background: #202023;
+      text-decoration: underline;
+    }
+    .cms-rail a.is-active {
+      background: #26262a;
+      border-left-color: var(--cms-accent);
+      color: #fff;
+      font-weight: 600;
+    }
+    .cms-rail-years {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.15rem;
+      margin-top: 0.35rem;
+    }
+    .cms-rail-foot {
+      margin-top: 1.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--cms-border);
+    }
+
     /* ---- Contenidor de l'aplicació Decap ---- */
     #nc-root {
       flex: 1 1 auto;
       display: block;
       background: var(--cms-theme);
       min-height: 65vh;
+      min-width: 0;
+      padding-left: 0;
+    }
+    /* Ocultem la barra lateral nativa de Decap (el nostre rail la substitueix) */
+    #nc-root aside {
+      display: none !important;
+    }
+    #nc-root main {
+      padding-left: 0 !important;
     }
 
     /* ---- Peu (replica del web) ---- */
@@ -234,6 +335,25 @@
       .cms-footer-cols { grid-template-columns: repeat(3, 1fr); }
       .cms-footer-empty { display: none; }
     }
+    @media (max-width: 900px) {
+      .cms-app { flex-direction: column; }
+      .cms-rail {
+        width: 100%;
+        min-width: 0;
+        border-right: none;
+        border-bottom: 1px solid var(--cms-border);
+        padding: 0.4rem 0.85rem;
+        overflow: visible;
+      }
+      .cms-rail-group { margin-bottom: 0.25rem; }
+      .cms-rail-group[open] { margin-bottom: 0.5rem; }
+      .cms-rail-title { display: none; }
+      .cms-rail-years { display: flex; flex-wrap: wrap; margin-top: 0.2rem; }
+      .cms-rail-years a { padding: 0.25rem 0.5rem; border-left: none; }
+      .cms-rail-seccions { display: none; }
+      .cms-rail-foot { display: none; }
+      #nc-root { min-height: 60vh; }
+    }
     @media (max-width: 700px) {
       .cms-footer-cols { grid-template-columns: 1fr 1fr; }
     }
@@ -282,8 +402,49 @@
     </nav>
   </header>
 
-  <!-- Decap monta tota la interfície dins d'aquest contenidor -->
-  <div id="nc-root"></div>
+  <div class="cms-app">
+    <aside class="cms-rail" aria-label="Seccions del gestor">
+      <details class="cms-rail-group" open>
+        <summary>Articles</summary>
+        <ul class="cms-rail-years" id="cms-years">
+          <li><a href="#/collections/posts-2026" class="is-active">2026</a></li>
+          <li><a href="#/collections/posts-2025">2025</a></li>
+          <li><a href="#/collections/posts-2024">2024</a></li>
+          <li><a href="#/collections/posts-2023">2023</a></li>
+          <li><a href="#/collections/posts-2022">2022</a></li>
+          <li><a href="#/collections/posts-2021">2021</a></li>
+          <li><a href="#/collections/posts-2020">2020</a></li>
+          <li><a href="#/collections/posts-2019">2019</a></li>
+          <li><a href="#/collections/posts-2018">2018</a></li>
+          <li><a href="#/collections/posts-2017">2017</a></li>
+          <li><a href="#/collections/posts-2016">2016</a></li>
+          <li><a href="#/collections/posts-2015">2015</a></li>
+          <li><a href="#/collections/posts-2014">2014</a></li>
+          <li><a href="#/collections/posts-2013">2013</a></li>
+          <li><a href="#/collections/posts-2012">2012</a></li>
+          <li><a href="#/collections/posts-2011">2011</a></li>
+          <li><a href="#/collections/posts-2010">2010</a></li>
+          <li><a href="#/collections/posts-2009">2009</a></li>
+          <li><a href="#/collections/posts-2008">2008</a></li>
+        </ul>
+      </details>
+      <div class="cms-rail-group cms-rail-seccions">
+        <span class="cms-rail-title">Seccions</span>
+        <ul>
+          <li><a href="#/collections/membres">Membres</a></li>
+          <li><a href="#/collections/guia">Guia i manual</a></li>
+          <li><a href="#/collections/actes">Actes</a></li>
+          <li><a href="#/collections/concurs">Concurs Cordoncillo</a></li>
+        </ul>
+      </div>
+      <div class="cms-rail-foot">
+        <a href="../">Torna al web</a>
+      </div>
+    </aside>
+
+    <!-- Decap monta tota la interfície dins d'aquest contenidor -->
+    <div id="nc-root"></div>
+  </div>
 
   <footer class="cms-footer">
     <div class="cms-footer-band" aria-hidden="true"></div>
@@ -333,6 +494,30 @@
   </footer>
 
   <!-- Decap CMS (abans Netlify CMS); defer perquè trobi el contenidor #nc-root -->
+  <script>
+    /* Destaca a la llista d'anys la col·lecció oberta */
+    (function () {
+      var years = document.getElementById("cms-years");
+      if (!years) return;
+
+      function activeFromHash() {
+        var m = (location.hash || "").match(/collections\/posts-(\d{4})/);
+        return m ? m[1] : null;
+      }
+
+      function markActive() {
+        var active = activeFromHash();
+        var links = years.querySelectorAll("a");
+        for (var i = 0; i < links.length; i++) {
+          var a = links[i];
+          var is = active && a.getAttribute("href").indexOf(active) !== -1;
+          a.classList.toggle("is-active", !!is);
+        }
+      }
+      window.addEventListener("hashchange", markActive);
+      markActive();
+    })();
+  </script>
   <script defer src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
 </body>
 </html>
