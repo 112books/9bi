@@ -360,7 +360,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   box-sizing: border-box;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 4px solid #e03131;
 }
 .cc-badge {
   height: 20px;
@@ -829,6 +829,11 @@ h1, h2, h3, h4, h5, h6 {
 .members-count a {
   font-variant-numeric: tabular-nums;
   font-weight: 600;
+}
+.members-historic-title {
+  margin: 1.5rem 0 0.5rem;
+  font-size: 1.05rem;
+  color: var(--secondary);
 }
 @media (max-width: 640px) {
   .members {

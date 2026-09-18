@@ -88,17 +88,16 @@ collections:
   - name: "membres"
     label: "Membres (Qui som)"
     label_singular: "Membre"
-    files:
-      - name: "membres"
-        label: "Nom visible, web i Instagram de cada membre"
-        file: "data/membres.yml"
-        fields:
-          - label: "Membres"
-            name: "membres"
-            widget: "list"
-            summary: "{{fields.autor}}"
-            fields:
-              - { label: "Autor (ha de coincidir amb el camp Autor dels articles)", name: "autor", widget: "select", options: ["Alberto Sanagustín", "Francesc Barbe", "Iozsef Kiss", "Ismael Utrilla", "Joan \"Linux\" Martínez i Serres", "Juan Carlos Molina (Grismedio Casinegro)", "Manel Sala \"Ulls\" Circ", "Pedro \"Casal\" Cervera", "Pedro Click", "Núria Laura Orbaneja", "Manel Villalba", "Nico YeYe", "9 Barris Imatge"] }
-              - { label: "Nom visible (opcional)", name: "nom", widget: "string", required: false, hint: "Si es deixa buit, es mostra el nom de l'autor." }
-              - { label: "Web / Blog personal", name: "web", widget: "string", required: false }
-              - { label: "Instagram", name: "instagram", widget: "string", required: false }
+    folder: "data/membres"
+    create: true
+    identifier_field: "autor"
+    extension: "yml"
+    format: "yaml"
+    summary: "{{fields.autor}}"
+    fields:
+      - { label: "Autor (ha de coincidir amb el camp Autor dels articles)", name: "autor", widget: "select", options: ["Alberto Sanagustín", "Francesc Barbe", "Iozsef Kiss", "Ismael Utrilla", "Joan \"Linux\" Martínez i Serres", "Juan Carlos Molina (Grismedio Casinegro)", "Manel Sala \"Ulls\" Circ", "Pedro \"Casal\" Cervera", "Pedro Click", "Núria Laura Orbaneja", "Manel Villalba", "Nico YeYe", "9 Barris Imatge"] }
+      - { label: "Nom real", name: "nom", widget: "string", required: false, hint: "El nom real de la persona (es mostra a la seva pàgina d'autor)." }
+      - { label: "Malnom (el que es mostra)", name: "malnom", widget: "string", required: false, hint: "Com es mostra el nom a la llista de membres i a les pàgines d'autor. Si es deixa buit, es mostra el nom real." }
+      - { label: "Web / Blog personal", name: "web", widget: "string", required: false }
+      - { label: "Instagram", name: "instagram", widget: "string", required: false }
+      - { label: "Membre ACTIU (desmarca per convertir-lo en membre històric)", name: "actiu", widget: "boolean", default: true }

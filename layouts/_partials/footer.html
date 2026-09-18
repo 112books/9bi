@@ -1,7 +1,7 @@
 {{- if not (.Param "hideFooter") }}
 {{- $posts := len (where site.RegularPages "Section" "posts") }}
 {{- $anys := sub now.Year 2002 }}
-{{- $membres := len (hugo.Data.membres.membres | default slice) }}
+{{- $membres := len (hugo.Data.membres | default dict) }}
 <div class="footer-band" aria-hidden="true"></div>
 <footer class="footer">
     <div class="footer-cols">

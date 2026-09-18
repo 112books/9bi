@@ -3,14 +3,19 @@
 {{- $size := .Paginate $pages }}
 {{- $title := .Title }}
 {{- $display := $title }}
-{{- range (hugo.Data.membres.membres | default slice) }}
-  {{- if eq (lower .autor) (lower $title) }}
-    {{- $display = .nom | default (.autor | default $title) }}
+{{- $nomreal := "" }}
+{{- range $slug, $member := (hugo.Data.membres | default dict) }}
+  {{- if eq (lower ($member.autor | default "")) (lower $title) }}
+    {{- $display = $member.malnom | default ($member.nom | default ($member.autor | default $title)) }}
+    {{- $nomreal = $member.nom | default "" }}
   {{- end }}
 {{- end }}
 
 <header class="page-header author-header">
   <h1>{{ $display }}</h1>
+  {{- if and $nomreal (ne (lower $nomreal) (lower $display)) }}
+  <div class="post-description">{{ $nomreal }}</div>
+  {{- end }}
   <div class="post-description">{{ len $pages }} publicacions a 9 Barris Imatge</div>
 </header>
 

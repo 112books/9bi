@@ -1,29 +1,33 @@
-{{- $data := hugo.Data.membres.membres | default slice -}}
+{{- $data := hugo.Data.membres | default dict -}}
 {{- $byAuthor := dict -}}
-{{- range $data -}}
-  {{- $byAuthor = merge $byAuthor (dict (lower .autor) .) -}}
+{{- range $k, $m := $data -}}
+  {{- $byAuthor = merge $byAuthor (dict (lower ($m.autor | default "")) $m) -}}
 {{- end -}}
 {{- $rows := slice -}}
 {{- range $key, $term := site.Taxonomies.author -}}
   {{- $title := $term.Page.Title -}}
   {{- if ne (lower $title) "9 barris imatge" -}}
     {{- $info := index $byAuthor (lower $title) | default dict -}}
-    {{- $name := $info.nom | default ($info.autor | default $title) -}}
+    {{- $name := $info.malnom | default ($info.nom | default ($info.autor | default $title)) -}}
     {{- $rows = $rows | append (dict
         "name" $name
         "count" (len $term.Pages)
         "url" $term.Page.RelPermalink
         "web" ($info.web | default "")
         "instagram" ($info.instagram | default "")
+        "actiu" (default false ($info.actiu | default false))
     ) -}}
   {{- end -}}
 {{- end -}}
+{{- $actius := where $rows "actiu" true -}}
+{{- $historics := where $rows "actiu" false -}}
+
 <table class="members">
   <thead>
     <tr><th>Membre</th><th>Posts a 9bi</th><th>Web / Blog personal</th><th>Instagram</th></tr>
   </thead>
   <tbody>
-    {{- range sort $rows "count" "desc" }}
+    {{- range sort $actius "count" "desc" }}
     <tr>
       <td class="members-name"><a href="{{ .url }}">{{ .name }}</a></td>
       <td class="members-count"><a href="{{ .url }}">{{ .count }}</a></td>
@@ -33,3 +37,22 @@
     {{- end }}
   </tbody>
 </table>
+
+{{- if $historics }}
+<h2 class="members-historic-title">Membres històrics</h2>
+<table class="members">
+  <thead>
+    <tr><th>Membre</th><th>Posts a 9bi</th><th>Web / Blog personal</th><th>Instagram</th></tr>
+  </thead>
+  <tbody>
+    {{- range sort $historics "count" "desc" }}
+    <tr>
+      <td class="members-name"><a href="{{ .url }}">{{ .name }}</a></td>
+      <td class="members-count"><a href="{{ .url }}">{{ .count }}</a></td>
+      <td>{{ with .web }}{{ $label := . | replaceRE "^https?://" "" | replaceRE "/$" "" }}{{ if strings.Contains . "blogger.com/profile" }}{{ $label = "Perfil a Blogger" }}{{ end }}<a href="{{ . }}" target="_blank" rel="noopener">{{ $label }}</a>{{ else }}—{{ end }}</td>
+      <td>{{ with .instagram }}<a href="{{ . }}" target="_blank" rel="noopener">@{{ . | replaceRE "^https?://(www\\.)?instagram\\.com/" "" | replaceRE "/$" "" }}</a>{{ else }}—{{ end }}</td>
+    </tr>
+    {{- end }}
+  </tbody>
+</table>
+{{- end }}

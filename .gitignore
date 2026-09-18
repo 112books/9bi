@@ -14,6 +14,9 @@ __pycache__/
 # Log local de deploys (sync-9bi.sh) — no cal versionar-lo
 /.deploy-log
 
+# Gestió d'hores: diaris .md sí que es versionen; les sessions del plugin, no
+/.taques/*/
+
 # Editors i sistema
 .DS_Store
 *.swp

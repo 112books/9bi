@@ -85,7 +85,8 @@ assets/css/extended/custom.css     # estils: mosaic, botó àlbum, tipografies (
 static/admin/{config.yml,index.html}  # Decap CMS
 static/images/                     # imatges (media_folder del CMS)
 scripts/{migrate_blogger.py,migrate_live.py,goatcounter_popular.py}
-data/{popular.json,membres.yml}    # top visites (exemple) + membres (CMS)
+data/popular.json                    # top visites (exemple)
+data/membres/                        # un fitxer per membre (autor, nom, malnom, web, instagram, actiu)
 .forgejo/workflows/deploy.yml      # CI/CD
 archetypes/default.md              # front matter per defecte
 sync-9bi.sh                        # script de sync/gestió
@@ -118,7 +119,7 @@ sync-9bi.sh                        # script de sync/gestió
 ## Problemes coneguts / pendents (verificats)
 
 1. **Forgejo Actions activades al repo** però **sense runner disponible** (Codeberg no dona els runners gestionats a usuaris nous: `/actions/approval` → 404). El deploy es fa manualment via branca `pages` + webhook; el workflow no s'ha executat.
-2. `static/admin/config.yml` té `app_id: SUBSTITUEIX-CI-AMB-EL-CLIENT-ID` (placeholder). Pendent: Client ID de l'OAuth2 de Codeberg.
+2. `static/admin/config.yml` amb el Client ID real de l'OAuth2 de Codeberg (`app_id: 0c6b6c51-…`) — **fet i desplegat (2026-09-18, commit `dd36e51e`)**. Pendent: **usuari i permisos** dels col·laboradors (es treuran a membres inactius perquè no editin).
 3. `extend_head.html` apunta a `9barrisimatge.goatcounter.com`: cal crear el lloc al GoatCounter.
 
 ## Blog real (verificat el 2026-09-17)
@@ -334,6 +335,22 @@ sync-9bi.sh                        # script de sync/gestió
 - **Eslògan «arreu»**: **aplicat i desplegat (2026-09-18)** — `config/_default/hugo.toml` (línia 50, `description`) i `content/qui-som.md` (línia 7).
 - **Reestructurar el footer «amb lògica»**: **implementat (2026-09-18)** — amplada igual al header (`--nav-width`) i versió de telèfon: Logo + El web / Legal / Números, en una sola línia cadascuna.
 
+## Sessió 2026-09-18 (v6) — Client ID CMS, depuració d'etiquetes, header scroll i membres amb actiu/històrics
+
+- **CMS Client ID**: `static/admin/config.yml` amb `app_id: 0c6b6c51-bea8-4b64-8c1e-96bbf02eef15` — **commitejat (`dd36e51e`) i desplegat**, verificat en viu a `/9bi/admin/config.yml`. Redirect URI `https://9barrisimatge.org/admin/`, «Confidential client» desmarcat.
+- **Depuració d'etiquetes APLICADA** (commit `215cdfc8`, desplegat): 3 passades (renames de variants + brossa; variants per cas; Vídeo→vídeo). **430 fitxers** (+315/−524). **Estat final**: 2.891 posts amb tags / 115 sense; **1.675 tags literals únics** (abans 1.743); **11.203 aparicions** (abans 11.382); **0 grups de variants**. Els **anys** com a tag s'han **conservat** (decisió editorial pendent).
+- **Header scroll fix** (commit `a28ea96d`, desplegat): elecció de l'usuari «Canvi instantani» — se suprimeixen `transition: line-height 0.25s ease` i `transition: height 0.25s ease, margin 0.25s ease`; només queda `box-shadow 0.2s ease` (causaven tremolor en fer scroll).
+- **Membres → carpeta amb actiu/històrics**: `data/membres.yml` **substituït per `data/membres/<slug>.yml`** (12 fitxers). Campos: `autor` (clau d'atribució, no es toca), `nom` (real), `malnom` (el que es mostra), `web`, `instagram`, `actiu` (bool, per defecte true).
+  - Taula de membres (`_shortcodes/membres.html`): mostra el **malnom** (si no n'hi ha, el nom real); es parteix en **actius** i «**Membres històrics**» (`actiu: false`) a sota.
+  - Pàgina d'autor (`author/term.html`): títol = **malnom** + línia amb el **nom real** (només si és diferent).
+  - Peu «9 Barris en números»: comptador = **total (actius + històrics)**; ara llegeix el mapa `len (hugo.Data.membres)`.
+  - Decap (`config.yml`): col·lecció `membres` passa de `files` a **folder** (`data/membres`, `identifier_field: autor`, `extension: yml`, `format: yaml`) amb el camp **ACTIU** (boolean, default true).
+  - **Noms reals/malnoms confirmats per l'usuari (2026-09-18)**: Joan = «Linux»; Pedro Click = malnom (nom «Pedro»); Manel Sala = «Ulls»; Pedro Cervera **sense malnom** (sort com «Pedro Cervera»); Francesc Barbe, Ismael Utrilla, Alberto Sanagustín, Iozsef Kiss, Manel Villalba **sense malnom**; Núria = «Nuria»; Nico YeYe = malnom de **Nico Derocal**; Juan Carlos = «Grismedio Casinegro».
+  - **Limitació Decap**: no hi ha ACL per usuari/registre — els inactius «que ja no editen» es gestionen **traient-los l'accés d'escriptura a Codeberg** (no al config).
+- **Peu — filet d'accent sobre «Powered by»**: `border-bottom` de `.footer-copyright` passa a **4px solid #e03131** (mateix gruix i color que la banda `.footer-band` que separa el footer de la resta).
+- **`.gitignore`**: afegit `/.taques/` (gestió d'hores, local).
+- **Pendents nous**: pestanya «9bi als mitjans» a Qui som (+ material de 27 links verificats de les edicions del concurs); chrome del CMS (header amb logo + «Edició de 9 Barris Imatge», footer igual que el web, Manual consultable des del header); demandes del llistat del CMS (ordenació més recents, miniatures, normalitzar **384 títols en majúscules**, permisos per usuari = inviable a Decap).
+
 ## Tasques pendents (backlog curt)
 
 - **`content/contacte.md`**: afegir al formulari un camp nou "A quina entitat de Nou Barris pertanys o representes (opcionalment)" (input opcional, com `assumpte`).
@@ -343,7 +360,7 @@ sync-9bi.sh                        # script de sync/gestió
 - **Auditoria d'accessibilitat** (encarregada 2026-09-17, pendent).
 - **Auditoria de SEO i IA** (encarregada 2026-09-18): deixar el web **ben preparat per a motors de cerca i agents d'IA** (metadades, dades estructurades, sitemap/robots, OpenGraph, etc.).
 - **Document d'URLs de Blogger (SEO/redireccions)** (encarregat 2026-09-18): recull de **totes les URL actuals del blog Blogger** per comprovar que coincideixen amb les entrades actuals del web (l'estructura `/:year/:month/:slug.html` + `uglyURLs = true` ho preserva) o fer una **redirecció a la nova URL** — tema cercadors i SEO.
-- **`content/qui-som.md`** (secció «Membres»): **implementat (2026-09-18)** amb `{{< membres >}}` + `data/membres.yml` + `layouts/author/term.html` + col·lecció Decap «membres» (vegeu la sessió 2026-09-18). Pendent: enllaç de reserva al **perfil del bloc vell** («Els components de 9 barris imatge») per als membres sense web (ara mostren «—») i completar els **Instagram** que falten.
+- **`content/qui-som.md`** (secció «Membres»): **implementat (2026-09-18)** amb `{{< membres >}}` + **`data/membres/<slug>.yml`** (carpeta, amb `nom`/`malnom`/`actiu`) + `layouts/author/term.html` + col·lecció Decap «membres» **folder** amb camp ACTIU (vegeu la sessió v6). Pendent: enllaç de reserva al **perfil del bloc vell** («Els components de 9 barris imatge») per als membres sense web (ara mostren «—»), completar els **Instagram** que falten i marcar les baixes com a `actiu: false` (+ treure l'accés d'escriptura a Codeberg).
 - **Comentaris al web**: implementar un sistema de comentaris amb **fort control d'spam** (pendent d'escollir la solució/proveïdor).
 - **Compartir a xarxes**: botons per compartir fàcilment a **Instagram** i les xarxes que es portin ara (pendent).
 - **Tipografies**: **implementat (2026-09-18)** — cos **Montserrat** (woff2 400/700/800) + títols **Gillius ADF** (OTF 400/700), autoallotjades a `static/fonts/`, `@font-face` i overrides a `custom.css` (urls `../../fonts/…`) i `preload` a `extend_head.html`. **Sense cap CDN** (RGPD). Pendent opcional: convertir els OTF de Gillius a woff2.
@@ -351,7 +368,7 @@ sync-9bi.sh                        # script de sync/gestió
 
 - **Pestanyes a «Qui som»** (aplicat 2026-09-18): **4 pestanyes fetes** — Qui som (Història) · Com funcionem (Reunions + Com funcionem + subvencions) · Membres (`{{< membres >}}`) · Relacions (entitats + links amics) — amb el patró CSS pur del Concurs (radios `name="qsb-view"`, classes `.qsb-*` a `custom.css`). **Pendent: 5a pestanya «Història de la fotografia a Nou Barris»** (contingut de la recerca, sessió separada).
 - **Història de la fotografia a Nou Barris** (aprovat: incloure a la pestanya nova): genealogia ~1960–2026 amb 4 categories (A fotògrafs de Nou Barris · B que l'han documentat · C fotografia comunitària/de barri · D ecosistema Can Basté) i columna «per què és conegut?»; noms sense font es marquen «pendent de verificar».
-- **Núvol d'etiquetes a la Cerca** (`/search/`) + **depuració d'etiquetes**: 1.742 de literals (23 grups de variants, 890 d'un sol ús, etiqueta trencada `manel sala "ulls`). Pendent de decisions editorials.
+- **Núvol d'etiquetes a la Cerca** (`/search/`): **implementat (2026-09-18)**. La **depuració d'etiquetes** ja està **aplicada** (sessió v6); pendent de decisions editorials: **anys** com a tag i **384 articles encara sense tag**.
 - **Responsive header**: **fix fet i desplegat (2026-09-18)** — mides base de `.menu-icon`/`.menu-icon svg` fora del media query; icones a 17 px al mòbil.
 - **Footer «amb lògica»**: **implementat (2026-09-18)** — amplada igual a la del header (`--nav-width`) arreu; versió de telèfon: **Logo + «El web»** · **«Legal»** amb tots els links en una sola línia · **«9 Barris en números»** amb totes les dades en una sola línia.
 - **Concurs Cordoncillo (investigació pròpia)**: biografia de Cordoncillo, origen documentat (1990), cronologia i 35 anys de guanyadors; incidències de numeració a l'arxiu.
@@ -366,7 +383,7 @@ sync-9bi.sh                        # script de sync/gestió
 
 ## Properes sessions
 
-- **Muntar el CMS**: OAuth2 de Codeberg (Client ID real), usuaris i permisos.
+- **Muntar el CMS**: OAuth2 de Codeberg **fet** (Client ID `0c6b6c51-…`, desplegat). Pendent: **usuaris i permisos** dels col·laboradors (membres actius amb escriptura; inactius sense), chrome del CMS (header amb logo + «Edició de 9 Barris Imatge», footer del web, Manual) i les demandes del llistat (ordre, miniatures, títols majúscules).
 - **Control de fitxers del Concurs Cordoncillo** (bases, històric, etc.).
 - **Secció per fer i gestionar les reunions** de l'associació.
 
