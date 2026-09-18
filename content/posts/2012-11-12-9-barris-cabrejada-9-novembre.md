@@ -1,6 +1,7 @@
 ---
 title: 9 Barris Cabrejada 9 Novembre
 date: 2012-11-12T22:42:00+0100
+year: 2012
 author: 9 Barris Imatge
 slug: 9-barris-cabrejada-9-novembre
 tags:

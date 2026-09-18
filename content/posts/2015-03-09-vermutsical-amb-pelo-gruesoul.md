@@ -1,6 +1,7 @@
 ---
 title: VermutSical amb "Pelo Gruesoul"
 date: 2015-03-09T09:24:00+0100
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-pelo-gruesoul
 tags:

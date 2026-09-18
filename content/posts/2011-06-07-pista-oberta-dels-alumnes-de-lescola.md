@@ -1,6 +1,7 @@
 ---
 title: Pista oberta dels alumnes de l´Escola Rogelio Rivel. Curtcirckit 2011
 date: 2011-06-07T01:17:00+0200
+year: 2011
 author: Manel Sala "Ulls" Circ
 slug: pista-oberta-dels-alumnes-de-lescola
 tags:

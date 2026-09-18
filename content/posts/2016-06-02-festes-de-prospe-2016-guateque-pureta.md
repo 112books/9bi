@@ -1,6 +1,7 @@
 ---
 title: Festes de Prospe 2016 - Guateque Pureta
 date: 2016-06-02T08:13:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe-2016-guateque-pureta
 tags:

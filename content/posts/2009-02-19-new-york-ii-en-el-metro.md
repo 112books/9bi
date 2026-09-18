@@ -1,6 +1,7 @@
 ---
 title: NEW YORK II-  EN EL METRO
 date: 2009-02-19T22:26:00+0100
+year: 2009
 author: Pedro Click
 slug: new-york-ii-en-el-metro
 tags:

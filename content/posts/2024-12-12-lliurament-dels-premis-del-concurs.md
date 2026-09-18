@@ -1,6 +1,7 @@
 ---
 title: Lliurament dels Premis del 34è Concurs Fotogràfic Josep Antón Cordoncillo
 date: 2024-12-12T19:10:00+0100
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: lliurament-dels-premis-del-concurs
 tags:

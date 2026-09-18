@@ -1,6 +1,7 @@
 ---
 title: ARRIBADA DE "LA PROSPERITAT"
 date: 2018-05-23T01:05:00+0200
+year: 2018
 author: Alberto Sanagustín
 slug: arribada-de-la-prosperitat
 tags:

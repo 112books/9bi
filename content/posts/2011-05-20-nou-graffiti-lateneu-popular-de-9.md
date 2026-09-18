@@ -1,6 +1,7 @@
 ---
 title: Nou graffiti a l'Ateneu Popular de 9 Barris
 date: 2011-05-20T10:44:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: nou-graffiti-lateneu-popular-de-9
 tags:

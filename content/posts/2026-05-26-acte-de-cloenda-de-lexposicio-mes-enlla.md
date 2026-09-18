@@ -1,6 +1,7 @@
 ---
 title: Acte de cloenda de l’exposició “Més enllà de la Prosperitat” amb Ricky Gil
 date: 2026-05-26T09:26:50+0200
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: acte-de-cloenda-de-lexposicio-mes-enlla
 tags:

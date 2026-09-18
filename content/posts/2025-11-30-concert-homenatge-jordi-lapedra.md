@@ -1,6 +1,7 @@
 ---
 title: Concert Homenatge Jordi Lapedra
 date: 2025-11-30T14:08:00+0100
+year: 2025
 author: Ismael Utrilla
 slug: concert-homenatge-jordi-lapedra
 tags:

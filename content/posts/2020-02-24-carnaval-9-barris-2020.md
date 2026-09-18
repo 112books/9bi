@@ -1,6 +1,7 @@
 ---
 title: Carnaval-9 Barris-2020
 date: 2020-02-24T10:40:00+0100
+year: 2020
 author: Manel Sala "Ulls" Circ
 slug: carnaval-9-barris-2020
 tags:

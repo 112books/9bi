@@ -1,6 +1,7 @@
 ---
 title: Festes de Verdum 2013
 date: 2013-09-22T00:41:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-verdum-2013
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 'Juan José Barreda y grupo '
 date: 2019-04-14T19:05:00+0200
+year: 2019
 author: Manel Sala "Ulls" Circ
 slug: juan-jose-barreda-y-grupo
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Aqui No Hay Quien Beba.Bingo Musical.
 date: 2026-06-06T20:15:47+0200
+year: 2026
 author: Ismael Utrilla
 slug: aqui-no-hay-quien-bebabingo-musical
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Teatre - "No es país para Negras" del Projecte VACA
 date: 2015-12-20T10:07:00+0100
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: teatre-no-es-pais-para-negras-del
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Exposició Mirta Portillo al Casal de Barri de Prosperitat
 date: 2009-09-09T00:03:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: exposicio-mirta-portillo-al-casal-de
 tags:

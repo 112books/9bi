@@ -1,6 +1,7 @@
 ---
 title: Un resum de Sant Xibeco
 date: 2008-11-17T19:02:00+0100
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: un-resum-de-sant-xibeco
 tags:

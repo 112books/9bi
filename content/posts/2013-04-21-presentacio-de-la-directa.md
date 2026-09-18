@@ -1,6 +1,7 @@
 ---
 title: Presentació de la "Directa"
 date: 2013-04-21T02:32:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-de-la-directa
 tags:

@@ -1,6 +1,7 @@
 ---
 title: EL DIVENDRES PEL BARRI
 date: 2014-05-31T08:33:00+0200
+year: 2014
 author: Manel Villalba
 slug: el-divendres-pel-barri
 tags:

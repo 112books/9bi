@@ -1,6 +1,7 @@
 ---
 title: Casal de barri de Prosperitat - Burruezo & Nur Camerata i Virginia Joëlle
 date: 2021-10-24T14:28:00+0200
+year: 2021
 author: Joan "Linux" Martínez i Serres
 slug: casal-de-barri-de-prosperitat-burruezo
 tags:

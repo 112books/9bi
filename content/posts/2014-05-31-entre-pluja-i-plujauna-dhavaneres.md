@@ -1,6 +1,7 @@
 ---
 title: ENTRE PLUJA I PLUJA...UNA D'HAVANERES !!!
 date: 2014-05-31T00:26:00+0200
+year: 2014
 author: 9 Barris Imatge
 slug: entre-pluja-i-plujauna-dhavaneres
 tags:

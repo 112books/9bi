@@ -1,6 +1,7 @@
 ---
 title: La Cultura va de Festa 2025
 date: 2025-05-10T22:27:00+0200
+year: 2025
 author: Pedro Click
 slug: la-cultura-va-de-festa-2025
 tags:

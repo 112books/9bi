@@ -1,6 +1,7 @@
 ---
 title: Prospe mercadet
 date: 2024-05-25T14:57:00+0200
+year: 2024
 author: Francesc Barbe
 slug: prospe-mercadet
 tags:

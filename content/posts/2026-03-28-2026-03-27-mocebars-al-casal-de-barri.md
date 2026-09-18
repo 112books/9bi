@@ -1,6 +1,7 @@
 ---
 title: 2026-03-27 - Mocebars al Casal de barri de Prosperitat
 date: 2026-03-28T20:01:00+0100
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: 2026-03-27-mocebars-al-casal-de-barri
 tags:

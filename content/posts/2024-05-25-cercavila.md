@@ -1,6 +1,7 @@
 ---
 title: Cercavila
 date: 2024-05-25T15:49:00+0200
+year: 2024
 author: Francesc Barbe
 slug: cercavila
 tags:

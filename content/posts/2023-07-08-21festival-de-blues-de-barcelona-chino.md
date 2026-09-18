@@ -1,6 +1,7 @@
 ---
 title: 21Festival de Blues de Barcelona - (Chino Swinglide Trio)
 date: 2023-07-08T18:49:00+0200
+year: 2023
 author: Pedro Click
 slug: 21festival-de-blues-de-barcelona-chino
 tags:

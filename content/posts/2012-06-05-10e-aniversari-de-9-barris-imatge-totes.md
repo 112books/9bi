@@ -1,6 +1,7 @@
 ---
 title: 10è Aniversari de 9 Barris Imatge - totes les fotos de l'expo
 date: 2012-06-05T10:59:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: 10e-aniversari-de-9-barris-imatge-totes
 tags:

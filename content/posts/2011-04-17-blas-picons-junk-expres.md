@@ -1,6 +1,7 @@
 ---
 title: Blas Picón's Junk Exprés
 date: 2011-04-17T01:30:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: blas-picons-junk-expres
 tags:

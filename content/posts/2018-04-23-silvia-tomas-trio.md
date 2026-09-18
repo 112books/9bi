@@ -1,6 +1,7 @@
 ---
 title: Sílvia Tomàs Trio
 date: 2018-04-23T00:05:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: silvia-tomas-trio
 cover:

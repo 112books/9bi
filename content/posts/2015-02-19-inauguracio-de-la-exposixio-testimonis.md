@@ -2,6 +2,7 @@
 title: Inauguració de la exposixió "Testimonis d'un barri de casetes i hortets" al
   Casal de Prosperitat
 date: 2015-02-19T08:33:00+0100
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: inauguracio-de-la-exposixio-testimonis
 tags:

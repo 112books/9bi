@@ -1,6 +1,7 @@
 ---
 title: Casal es Mostra 2025
 date: 2025-06-14T19:35:00+0200
+year: 2025
 author: Pedro Click
 slug: casal-es-mostra-2025
 tags:

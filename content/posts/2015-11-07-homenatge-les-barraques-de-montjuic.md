@@ -1,6 +1,7 @@
 ---
 title: Homenatge a les Barraques de Montjuïc
 date: 2015-11-07T08:30:00+0100
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: homenatge-les-barraques-de-montjuic
 tags:

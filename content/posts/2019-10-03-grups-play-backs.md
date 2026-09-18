@@ -1,6 +1,7 @@
 ---
 title: Grups Play Backs !!!
 date: 2019-10-03T18:41:00+0200
+year: 2019
 author: 9 Barris Imatge
 slug: grups-play-backs
 tags:

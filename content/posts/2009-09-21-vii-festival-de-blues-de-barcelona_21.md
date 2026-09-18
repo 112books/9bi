@@ -2,6 +2,7 @@
 title: VII Festival de Blues de Barcelona - Dissabte - Ñaco Goñi & Amar Sundy Blues
   Reunion i Red House
 date: 2009-09-21T22:35:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: vii-festival-de-blues-de-barcelona_21
 tags:

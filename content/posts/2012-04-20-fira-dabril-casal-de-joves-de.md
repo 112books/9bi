@@ -1,6 +1,7 @@
 ---
 title: Fira d'abril; Casal de Joves de Prosperitat
 date: 2012-04-20T02:12:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: fira-dabril-casal-de-joves-de
 tags:

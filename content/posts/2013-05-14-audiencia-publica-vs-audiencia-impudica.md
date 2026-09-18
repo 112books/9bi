@@ -1,6 +1,7 @@
 ---
 title: Audiencia PUBLICA vs Audiencia IMPUDICA
 date: 2013-05-14T10:19:00+0200
+year: 2013
 author: Pedro "Casal" Cervera
 slug: audiencia-publica-vs-audiencia-impudica
 tags:

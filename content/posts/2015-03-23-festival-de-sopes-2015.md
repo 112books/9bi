@@ -1,6 +1,7 @@
 ---
 title: Festival de Sopes 2015
 date: 2015-03-23T06:32:00+0100
+year: 2015
 author: 9 Barris Imatge
 slug: festival-de-sopes-2015
 tags:

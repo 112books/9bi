@@ -2,6 +2,7 @@
 title: Festival Blues Barcelona - Divendres Joan Pau Cumellas, Greg Zlap i J.J. Milteau
   amb la Mr. Hurricane Band i Lluís Coloma
 date: 2008-09-16T12:21:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: festival-blues-barcelona-divendres-joan
 tags:

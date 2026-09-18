@@ -2,6 +2,7 @@
 title: Empress. Malabars en grup. Rússia. 3r Festival Internacional del Circ Ciutat
   de Figueres 2014
 date: 2014-02-27T17:51:00+0100
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: empress-malabars-en-grup-russia-3r
 tags:

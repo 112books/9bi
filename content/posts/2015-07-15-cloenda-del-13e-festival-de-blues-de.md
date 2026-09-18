@@ -1,6 +1,7 @@
 ---
 title: Cloenda del 13è Festival de Blues de Barcelona a Torre Baró
 date: 2015-07-15T10:58:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: cloenda-del-13e-festival-de-blues-de
 tags:

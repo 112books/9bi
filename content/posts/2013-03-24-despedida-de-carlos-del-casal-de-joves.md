@@ -1,6 +1,7 @@
 ---
 title: Despedida de Carlos del Casal de Joves de Prosperitat
 date: 2013-03-24T13:25:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: despedida-de-carlos-del-casal-de-joves
 tags:

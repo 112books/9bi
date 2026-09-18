@@ -1,6 +1,7 @@
 ---
 title: La Cultura va de festa, un altre any
 date: 2008-04-29T09:00:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: la-cultura-va-de-festa-un-altre-any
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Melón Maguilaz amb Muchachito
 date: 2011-12-17T14:41:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: melon-maguilaz-amb-muchachito
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Expo "Passejant pel Gòtic"
 date: 2019-10-27T20:15:00+0100
+year: 2019
 author: Núria Laura Orbaneja
 slug: expo-passejant-pel-gotic
 tags:

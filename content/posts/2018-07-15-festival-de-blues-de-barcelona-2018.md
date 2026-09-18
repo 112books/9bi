@@ -2,6 +2,7 @@
 title: ' Festival de Blues de Barcelona 2018 - Johnny Big Stone & the Blues Workers,
   Kenny Neal i Joe Louis Walker'
 date: 2018-07-15T13:50:00+0200
+year: 2018
 author: Pedro Click
 slug: festival-de-blues-de-barcelona-2018
 tags:

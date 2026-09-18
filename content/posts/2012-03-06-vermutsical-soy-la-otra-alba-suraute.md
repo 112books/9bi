@@ -1,6 +1,7 @@
 ---
 title: Vermutsical "Soy la otra" - Alba Suraute
 date: 2012-03-06T18:21:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-soy-la-otra-alba-suraute
 tags:

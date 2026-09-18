@@ -1,6 +1,7 @@
 ---
 title: Exposició Encarna "Revuelta" + Juanito Piquete "La revolución desconocida"
 date: 2009-12-19T14:27:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: exposicio-encarna-revuelta-juanito
 tags:

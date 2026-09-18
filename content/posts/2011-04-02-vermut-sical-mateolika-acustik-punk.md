@@ -1,6 +1,7 @@
 ---
 title: Vermut Sical - Mateolika - acustik punk 02/04/11
 date: 2011-04-02T17:34:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: vermut-sical-mateolika-acustik-punk
 tags:

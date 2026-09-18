@@ -1,6 +1,7 @@
 ---
 title: Serigrafia al Casal de Joves de Roquetes
 date: 2012-05-25T00:21:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: serigrafia-al-casal-de-joves-de
 tags:

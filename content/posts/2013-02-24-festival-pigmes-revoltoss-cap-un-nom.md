@@ -1,6 +1,7 @@
 ---
 title: Festival Pigme@s Revoltos@s - Cap a un nom model social i econòmic
 date: 2013-02-24T17:32:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: festival-pigmes-revoltoss-cap-un-nom
 tags:

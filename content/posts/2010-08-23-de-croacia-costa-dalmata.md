@@ -1,6 +1,7 @@
 ---
 title: Sense títol
 date: 2010-08-23T12:46:00+0200
+year: 2010
 author: Pedro Click
 slug: de-croacia-costa-dalmata
 tags:

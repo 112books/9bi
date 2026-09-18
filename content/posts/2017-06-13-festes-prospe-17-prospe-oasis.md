@@ -1,6 +1,7 @@
 ---
 title: Festes Prospe '17 - Prospe Oasis
 date: 2017-06-13T08:58:00+0200
+year: 2017
 author: 9 Barris Imatge
 slug: festes-prospe-17-prospe-oasis
 tags:

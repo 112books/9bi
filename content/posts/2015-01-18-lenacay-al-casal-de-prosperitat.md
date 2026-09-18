@@ -1,6 +1,7 @@
 ---
 title: Lenacay al casal de Prosperitat
 date: 2015-01-18T09:41:00+0100
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: lenacay-al-casal-de-prosperitat
 tags:

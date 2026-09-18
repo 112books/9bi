@@ -1,6 +1,7 @@
 ---
 title: 22è Festival de Blues disparat amb fotografia tradicional
 date: 2024-07-13T10:20:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 22e-festival-de-blues-disparat-amb
 tags:

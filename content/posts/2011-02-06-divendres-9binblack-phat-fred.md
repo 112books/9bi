@@ -1,6 +1,7 @@
 ---
 title: 'Divendres a #9binblack, Phat Fred'
 date: 2011-02-06T22:30:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: divendres-9binblack-phat-fred
 tags:

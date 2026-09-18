@@ -1,6 +1,7 @@
 ---
 title: II Premi Rafael Juncadella
 date: 2019-11-09T19:12:00+0100
+year: 2019
 author: Núria Laura Orbaneja
 slug: ii-premi-rafael-juncadella
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Festa Major de Verdum,diumenge matí !!!
 date: 2016-09-19T00:50:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: festa-major-de-verdumdiumenge-mati
 cover:

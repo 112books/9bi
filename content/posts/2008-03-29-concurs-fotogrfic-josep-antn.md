@@ -1,6 +1,7 @@
 ---
 title: Concurs Fotogràfic Josep Antón Cordoncillo 2008
 date: 2008-03-29T11:22:00+0100
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: concurs-fotogrfic-josep-antn
 tags:

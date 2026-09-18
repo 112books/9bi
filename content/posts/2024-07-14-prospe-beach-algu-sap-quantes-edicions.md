@@ -1,6 +1,7 @@
 ---
 title: 2024-07-14 – Prospe Beach 2024
 date: 2024-07-14T04:36:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: prospe-beach-algu-sap-quantes-edicions
 tags:

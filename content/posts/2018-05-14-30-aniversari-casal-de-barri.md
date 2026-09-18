@@ -1,6 +1,7 @@
 ---
 title: 30 Aniversari Casal de barri
 date: 2018-05-14T09:55:00+0200
+year: 2018
 author: Pedro Click
 slug: 30-aniversari-casal-de-barri
 tags:

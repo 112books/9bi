@@ -1,6 +1,7 @@
 ---
 title: CONCIERTO CASAL DE JOVES DE PROSPE
 date: 2010-02-10T15:31:00+0100
+year: 2010
 author: 9 Barris Imatge
 slug: concierto-casal-de-joves-de-prospe
 tags:

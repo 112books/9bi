@@ -1,6 +1,7 @@
 ---
 title: VII Festival de Blues de Barcelona - Three-Time Losers, al Honkie Tonk
 date: 2009-09-14T09:02:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: vii-festival-de-blues-de-barcelona_14
 tags:

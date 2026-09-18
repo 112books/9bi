@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat, Dissabte - Falcons de Barcelona + Botifarrada Popular
 date: 2009-06-06T17:54:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-dissabte-falcons
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Dia de la República a 9 barris!
 date: 2013-04-14T21:40:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: dia-de-la-republica-9-barris
 tags:

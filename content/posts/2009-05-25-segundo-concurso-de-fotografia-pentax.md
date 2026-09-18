@@ -1,6 +1,7 @@
 ---
 title: “Segundo concurso de fotografía Pentax-Quesabesde.com”
 date: 2009-05-25T18:18:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: segundo-concurso-de-fotografia-pentax
 tags:

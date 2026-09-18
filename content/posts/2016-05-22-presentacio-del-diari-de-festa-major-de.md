@@ -1,6 +1,7 @@
 ---
 title: Presentació del diari de Festa Major de la Prospe
 date: 2016-05-22T00:47:00+0200
+year: 2016
 author: Alberto Sanagustín
 slug: presentacio-del-diari-de-festa-major-de
 tags:

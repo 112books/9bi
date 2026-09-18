@@ -1,6 +1,7 @@
 ---
 title: Mario Ortiz . Un relato oscuro
 date: 2017-04-26T09:38:00+0200
+year: 2017
 author: Manel Sala "Ulls" Circ
 slug: mario-ortiz-un-relato-oscuro_26
 tags:

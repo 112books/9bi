@@ -1,6 +1,7 @@
 ---
 title: 2025-07-25 - Final de curs del Casal de barri de Prospe amb Sol Homar Ensamble
 date: 2025-07-26T16:21:00+0200
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-07-25-final-de-curs-del-casal-de
 tags:

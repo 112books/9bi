@@ -1,6 +1,7 @@
 ---
 title: La Familia Barris visita l'Arxiu Històric de Roquetes - Nou Barris.
 date: 2019-07-13T01:24:00+0200
+year: 2019
 author: 9 Barris Imatge
 slug: la-familia-barris-visita-larxiu
 tags:

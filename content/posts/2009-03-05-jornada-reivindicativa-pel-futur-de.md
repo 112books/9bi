@@ -1,6 +1,7 @@
 ---
 title: Jornada Reivindicativa pel futur de RENFE-Rio de Janeiro
 date: 2009-03-05T11:44:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: jornada-reivindicativa-pel-futur-de
 tags:

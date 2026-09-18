@@ -1,6 +1,7 @@
 ---
 title: 50è aniversari de l'Avv de Prosperitat
 date: 2022-05-28T10:49:00+0200
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: 50e-aniversari-de-lavv-de-prosperitat
 tags:

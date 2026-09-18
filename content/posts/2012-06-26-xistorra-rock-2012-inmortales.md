@@ -1,6 +1,7 @@
 ---
 title: Xistorra Rock 2012. Inmortales
 date: 2012-06-26T21:05:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: xistorra-rock-2012-inmortales
 tags:

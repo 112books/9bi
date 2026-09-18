@@ -1,6 +1,7 @@
 ---
 title: 2026-02-20 - Nou Barris Naits -  The Capaces + Elektra
 date: 2026-02-21T09:04:27+0100
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: 2026-02-20-nou-barris-naits-capaces
 tags:

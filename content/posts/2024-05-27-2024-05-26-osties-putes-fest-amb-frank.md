@@ -1,6 +1,7 @@
 ---
 title: 2024-05-26 - Osties Putes Fest amb Frank Furillo i KEVIN Willis Band
 date: 2024-05-27T19:14:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-05-26-osties-putes-fest-amb-frank
 tags:

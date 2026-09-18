@@ -2,6 +2,7 @@
 title: Molly Saudek . Pierrot de Bronze . 8º Festival Internacional de Circ de Budapest
   2010
 date: 2010-02-01T16:30:00+0100
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: molly-saudek-pierrot-de-bronze-8
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Espectácle de titelles - Tsimane, un viatge a l&#39;Amazònia
 date: 2011-05-14T22:19:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: espectacle-de-titelles-tsimane-un
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Audiencia Pública-policial a Nou Barris
 date: 2013-10-15T01:01:00+0200
+year: 2013
 author: Pedro "Casal" Cervera
 slug: audiencia-publica-policial-nou-barris
 tags:

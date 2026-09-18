@@ -1,6 +1,7 @@
 ---
 title: NO ÈS POBRESA; ÈS INJUSTICIA , A NOU BARRIS !!!
 date: 2015-03-23T21:32:00+0100
+year: 2015
 author: 9 Barris Imatge
 slug: no-es-pobresa-es-injusticia
 tags:

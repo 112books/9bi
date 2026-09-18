@@ -1,6 +1,7 @@
 ---
 title: Dia de la salut mental al Ton i Guida.
 date: 2015-10-14T14:44:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: dia-de-la-salut-mental-al-ton-i-guida
 tags:

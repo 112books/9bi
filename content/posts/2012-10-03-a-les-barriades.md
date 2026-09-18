@@ -1,6 +1,7 @@
 ---
 title: A LES BARRIADES
 date: 2012-10-03T23:14:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: a-les-barriades
 tags:

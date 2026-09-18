@@ -1,6 +1,7 @@
 ---
 title: XV Festival de Sopes del Món
 date: 2018-03-19T19:40:00+0100
+year: 2018
 author: Alberto Sanagustín
 slug: xv-festival-de-sopes-del-mon
 tags:

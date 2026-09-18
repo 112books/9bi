@@ -1,6 +1,7 @@
 ---
 title: Consell de barri a l'Ajuntament de Nou barris
 date: 2015-07-30T01:36:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: consell-de-barri-lajuntament-de-nou
 tags:

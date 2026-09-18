@@ -1,6 +1,7 @@
 ---
 title: Master Class de percussió amb Brincadeira
 date: 2013-01-26T22:10:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: master-class-de-percussio-amb
 tags:

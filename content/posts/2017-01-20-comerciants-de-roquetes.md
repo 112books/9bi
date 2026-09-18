@@ -1,6 +1,7 @@
 ---
 title: Comerciants de Roquetes .
 date: 2017-01-20T23:00:00+0100
+year: 2017
 author: 9 Barris Imatge
 slug: comerciants-de-roquetes
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat - Habaneres i rom cremat
 date: 2009-06-08T15:03:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-habaneres-i-rom
 tags:

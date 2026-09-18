@@ -1,6 +1,7 @@
 ---
 title: Insòlit, exposició de Grup Foto Roquetes al Ton i Guida .
 date: 2017-10-24T21:00:00+0200
+year: 2017
 author: 9 Barris Imatge
 slug: insolit-exposicio-de-grup-foto-roquetes
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 'Concert: The Wait + Radio Makuto'
 date: 2011-06-02T16:44:00+0200
+year: 2011
 author: 9 Barris Imatge
 slug: concert-wait-radio-makuto
 tags:

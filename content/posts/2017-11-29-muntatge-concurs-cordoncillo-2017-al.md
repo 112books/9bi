@@ -1,6 +1,7 @@
 ---
 title: Muntatge concurs Cordoncillo 2017 al Casal de Prosperitat
 date: 2017-11-29T06:59:00+0100
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: muntatge-concurs-cordoncillo-2017-al
 tags:

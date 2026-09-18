@@ -1,6 +1,7 @@
 ---
 title: PREMIOS XXV CONCURS FOTOGRAFIA, JOSEP ANTON CORDONCILLO
 date: 2014-12-14T14:05:00+0100
+year: 2014
 author: Pedro Click
 slug: premios-xxv-concurs-fotografia-josep
 tags:

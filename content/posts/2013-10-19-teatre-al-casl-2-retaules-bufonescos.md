@@ -1,6 +1,7 @@
 ---
 title: Teatre al Casl "2 Retaules Bufonescos"
 date: 2013-10-19T10:24:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: teatre-al-casl-2-retaules-bufonescos
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Cóm construir una caixa de llum casolana
 date: 2008-06-05T10:36:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: cm-construir-una-caixa-de-llum-casolana
 tags:

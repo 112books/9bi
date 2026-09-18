@@ -1,6 +1,7 @@
 ---
 title: Nou Barris Cabrejada, diu Prou !
 date: 2012-11-10T13:04:00+0100
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: nou-barris-cabrejada-diu-prou
 tags:

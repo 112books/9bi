@@ -1,6 +1,7 @@
 ---
 title: Festa Majór de Prosperitat 2013 Cercavila
 date: 2013-06-01T04:43:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: festa-major-de-prosperitat-2013
 tags:

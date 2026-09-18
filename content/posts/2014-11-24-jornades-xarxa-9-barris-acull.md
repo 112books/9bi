@@ -1,6 +1,7 @@
 ---
 title: JORNADES XARXA 9 BARRIS ACULL
 date: 2014-11-24T17:26:00+0100
+year: 2014
 author: Manel Villalba
 slug: jornades-xarxa-9-barris-acull
 tags:

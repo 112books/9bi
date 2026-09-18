@@ -1,6 +1,7 @@
 ---
 title: La foto del dia
 date: 2012-10-03T15:52:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: la-foto-del-dia
 tags:

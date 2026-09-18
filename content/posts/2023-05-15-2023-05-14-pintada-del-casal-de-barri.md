@@ -1,6 +1,7 @@
 ---
 title: 2023-05-14 - Pintada del Casal de barri de Prosperitat
 date: 2023-05-15T12:40:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-05-14-pintada-del-casal-de-barri
 tags:

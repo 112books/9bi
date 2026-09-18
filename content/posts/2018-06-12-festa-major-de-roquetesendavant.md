@@ -1,6 +1,7 @@
 ---
 title: Festa major de Roquetes...endavant !!!
 date: 2018-06-12T23:26:00+0200
+year: 2018
 author: 9 Barris Imatge
 slug: festa-major-de-roquetesendavant
 tags:

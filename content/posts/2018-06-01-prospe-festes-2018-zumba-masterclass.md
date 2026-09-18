@@ -1,6 +1,7 @@
 ---
 title: Prospe Festes 2018 Zumba Masterclass Mais
 date: 2018-06-01T12:30:00+0200
+year: 2018
 author: Ismael Utrilla
 slug: prospe-festes-2018-zumba-masterclass
 tags:

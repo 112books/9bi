@@ -1,6 +1,7 @@
 ---
 title: Sopar d'entitats 2008, Casal de Barri de Prosperitat
 date: 2008-10-27T16:07:00+0100
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: sopar-dentitats-2008-casal-de-barri-de
 tags:

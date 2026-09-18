@@ -1,6 +1,7 @@
 ---
 title: Les Nits de Capibola; Nasty Boogie
 date: 2010-03-20T16:04:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: les-nits-de-capibola-nasty-boogie
 tags:

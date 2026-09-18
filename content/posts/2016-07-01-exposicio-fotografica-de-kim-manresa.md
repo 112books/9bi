@@ -1,6 +1,7 @@
 ---
 title: 'Exposició fotogràfica de Kim Manresa: ''Nou Barris 1970-1980'''
 date: 2016-07-01T14:14:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: exposicio-fotografica-de-kim-manresa
 tags:

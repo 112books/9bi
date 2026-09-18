@@ -1,6 +1,7 @@
 ---
 title: San Xibeco 2019 . Gloria a la Bendita Birra
 date: 2019-11-17T20:44:00+0100
+year: 2019
 author: Manel Sala "Ulls" Circ
 slug: san-xibeco-2019-gloria-la-bendita-birra
 tags:

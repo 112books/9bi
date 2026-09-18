@@ -1,6 +1,7 @@
 ---
 title: Presentació del Llibre TBO Labordeta de Carlos Azagra i Encarna Revuelta
 date: 2018-12-21T10:05:00+0100
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-del-llibre-tbo-labordeta-de
 tags:

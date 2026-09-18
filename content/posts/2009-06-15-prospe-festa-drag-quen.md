@@ -1,6 +1,7 @@
 ---
 title: PROSPE FESTA DRAG QUEN
 date: 2009-06-15T11:41:00+0200
+year: 2009
 author: Pedro Click
 slug: prospe-festa-drag-quen
 tags:

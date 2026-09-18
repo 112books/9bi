@@ -1,6 +1,7 @@
 ---
 title: Date una huerta al Festival de Sopes del Món.
 date: 2019-03-24T22:00:00+0100
+year: 2019
 author: 9 Barris Imatge
 slug: date-una-huerta-al-festival-de-sopes
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Primera asalt contra el Districte de 9 Barris!
 date: 2009-11-06T06:21:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: primera-asalt-contra-el-districte-de-9
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Fiestas de la Prospe-28-05
 date: 2022-06-10T00:47:00+0200
+year: 2022
 author: Iozsef Kiss
 slug: fiestas-de-la-prospe-28-05
 tags:

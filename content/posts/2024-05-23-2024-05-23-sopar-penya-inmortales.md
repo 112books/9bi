@@ -1,6 +1,7 @@
 ---
 title: 2024-05-23 - Sopar Penya Inmortales
 date: 2024-05-23T23:06:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-05-23-sopar-penya-inmortales
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Dave Michell Quintet
 date: 2009-01-26T14:50:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: david-mitchell-quintet
 tags:

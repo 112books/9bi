@@ -1,6 +1,7 @@
 ---
 title: Cabaret Quina Barra
 date: 2009-12-13T23:27:00+0100
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: cabaret-quina-barra
 tags:

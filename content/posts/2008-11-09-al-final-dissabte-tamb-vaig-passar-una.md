@@ -1,6 +1,7 @@
 ---
 title: Tumbando motos 2008 dissabte
 date: 2008-11-09T20:30:00+0100
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: al-final-dissabte-tamb-vaig-passar-una
 tags:

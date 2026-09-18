@@ -1,6 +1,7 @@
 ---
 title: Prospe Beach en analògic
 date: 2013-07-18T20:25:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: prospe-beach-en-analogic
 tags:

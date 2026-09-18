@@ -1,6 +1,7 @@
 ---
 title: BALL GENT GRAN
 date: 2012-05-31T18:19:00+0200
+year: 2012
 author: Pedro Click
 slug: ball-gent-gran
 tags:

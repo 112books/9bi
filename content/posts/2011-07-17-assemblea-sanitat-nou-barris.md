@@ -1,6 +1,7 @@
 ---
 title: ASSEMBLEA SANITAT A NOU BARRIS
 date: 2011-07-17T12:27:00+0200
+year: 2011
 author: Pedro "Casal" Cervera
 slug: assemblea-sanitat-nou-barris
 tags:

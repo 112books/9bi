@@ -1,6 +1,7 @@
 ---
 title: 2025-10-25 - Re-re-re-okupació de 'Date una Huerta'
 date: 2025-11-23T12:06:53+0100
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-10-25-re-re-re-okupacio-de-date
 tags:

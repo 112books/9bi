@@ -1,6 +1,7 @@
 ---
 title: 'Festes de Prosperitat: HAVANERES I CREMAT'
 date: 2012-06-05T00:57:00+0200
+year: 2012
 author: Alberto Sanagustín
 slug: haveneres-i-cremat
 tags:

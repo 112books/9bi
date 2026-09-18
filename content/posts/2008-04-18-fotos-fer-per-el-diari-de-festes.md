@@ -1,6 +1,7 @@
 ---
 title: Fotos a fer per el diari de Festes
 date: 2008-04-18T10:43:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: fotos-fer-per-el-diari-de-festes
 tags:

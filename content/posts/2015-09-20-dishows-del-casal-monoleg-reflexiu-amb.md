@@ -1,6 +1,7 @@
 ---
 title: DiShows del Casal monòleg reflexiu amb "Cándido Crático. El Candidato Democrático"
 date: 2015-09-20T19:41:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: dishows-del-casal-monoleg-reflexiu-amb
 tags:

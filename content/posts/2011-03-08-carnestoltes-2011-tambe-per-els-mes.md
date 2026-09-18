@@ -1,6 +1,7 @@
 ---
 title: Carnestoltes 2011, també per els més petits
 date: 2011-03-08T19:16:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: carnestoltes-2011-tambe-per-els-mes
 tags:

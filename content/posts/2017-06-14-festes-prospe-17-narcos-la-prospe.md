@@ -1,6 +1,7 @@
 ---
 title: Festes Prospe '17 - Narcos a La Prospe
 date: 2017-06-14T10:27:00+0200
+year: 2017
 author: 9 Barris Imatge
 slug: festes-prospe-17-narcos-la-prospe
 tags:

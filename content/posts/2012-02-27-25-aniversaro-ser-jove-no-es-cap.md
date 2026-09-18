@@ -1,6 +1,7 @@
 ---
 title: 25 aniversari "Ser jove no és cap delicte"
 date: 2012-02-27T12:51:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: 25-aniversaro-ser-jove-no-es-cap
 tags:

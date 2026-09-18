@@ -1,6 +1,7 @@
 ---
 title: La Gran Nevada a 9 Barris
 date: 2010-03-08T20:38:00+0100
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: la-gran-nevada-9-barris
 tags:

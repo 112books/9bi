@@ -1,6 +1,7 @@
 ---
 title: TRANSPORTES POR CHINA
 date: 2011-12-04T16:04:00+0100
+year: 2011
 author: Pedro Click
 slug: transportes-por-china
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 2025-12-13 - 5è aniversari del Sindicat d'Habitatge de Nou Barris
 date: 2025-12-13T22:36:09+0100
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-12-13-5e-aniversari-del-sindicat
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Karaoke Band
 date: 2010-07-24T18:09:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: karaoke-band
 tags:

@@ -2,6 +2,7 @@
 title: 'Picnik de blues 2017 amb: Big Band de la Escola-Taller de Blues de Barcelona,
   Simews Shocks i Enma Fernández'
 date: 2017-05-15T09:07:00+0200
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: picnik-de-blues-2017-amb-big-band-de-la
 tags:

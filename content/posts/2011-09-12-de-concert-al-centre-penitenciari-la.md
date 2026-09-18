@@ -2,6 +2,7 @@
 title: Festival de Blues 2011 - Concert al centre penitenciari La Modelo amb els professors
   de l'Escola-Taller de Blues de Barcelona
 date: 2011-09-12T18:24:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: de-concert-al-centre-penitenciari-la
 tags:

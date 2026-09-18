@@ -1,6 +1,7 @@
 ---
 title: 9binblack - IES Sant Andreu
 date: 2013-01-31T18:14:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: 9binblack-ies-sant-andreu
 tags:

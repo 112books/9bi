@@ -1,6 +1,7 @@
 ---
 title: Concert Mateólika casal de joves
 date: 2024-06-27T08:06:00+0200
+year: 2024
 author: Iozsef Kiss
 slug: concert-mateolika-casal-de-joves
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 14 FESTIVAL DE SOPAS DEL MON  2017
 date: 2017-03-28T17:51:00+0200
+year: 2017
 author: Pedro Click
 slug: festiva-de-sopas-del-mon-14-2017
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Herederos Taxi.Casal Joves. Abril'18
 date: 2018-04-21T17:39:00+0200
+year: 2018
 author: Ismael Utrilla
 slug: herederos-taxicasal-joves-abril18
 tags:

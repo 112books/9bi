@@ -1,6 +1,7 @@
 ---
 title: Los Tiestos + La Coctelera Negra a Date una Huerta
 date: 2019-12-02T01:35:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: los-tiestos-la-coctelera-negra-date-una
 tags:

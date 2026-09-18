@@ -1,6 +1,7 @@
 ---
 title: VermutSical amb “THE FREEDOM FIGHTERS”
 date: 2015-01-11T18:16:00+0100
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-freedom-fighters
 tags:

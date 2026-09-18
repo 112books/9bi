@@ -1,6 +1,7 @@
 ---
 title: Feria de Abril al Casal de Joves de Prosperitat
 date: 2013-04-05T00:31:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: feria-de-abril-al-casal-de-joves-de
 tags:

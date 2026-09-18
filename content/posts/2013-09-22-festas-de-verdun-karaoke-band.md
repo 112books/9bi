@@ -1,6 +1,7 @@
 ---
 title: FESTAS DE VERDUN KARAOKE BAND
 date: 2013-09-22T12:18:00+0200
+year: 2013
 author: Pedro Click
 slug: festas-de-verdun-karaoke-band
 tags:

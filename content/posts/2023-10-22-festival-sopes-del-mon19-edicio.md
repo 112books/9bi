@@ -1,6 +1,7 @@
 ---
 title: Festival sopes del món.19 edició
 date: 2023-10-22T22:17:00+0200
+year: 2023
 author: Ismael Utrilla
 slug: festival-sopes-del-mon19-edicio
 tags:

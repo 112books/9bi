@@ -1,6 +1,7 @@
 ---
 title: L'ESPINGARI A LA PROSPE
 date: 2019-04-25T16:41:00+0200
+year: 2019
 author: Alberto Sanagustín
 slug: lespingari-la-prospe
 tags:

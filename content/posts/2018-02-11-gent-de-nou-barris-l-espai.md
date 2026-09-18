@@ -1,6 +1,7 @@
 ---
 title: Gent de Nou Barris !!!
 date: 2018-02-11T00:17:00+0100
+year: 2018
 author: 9 Barris Imatge
 slug: gent-de-nou-barris-l-espai
 tags:

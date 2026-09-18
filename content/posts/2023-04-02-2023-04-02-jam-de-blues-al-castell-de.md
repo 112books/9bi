@@ -1,6 +1,7 @@
 ---
 title: 2023-04-02 - Jam de Blues al Castell de Torrebaró
 date: 2023-04-02T20:13:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-04-02-jam-de-blues-al-castell-de
 tags:

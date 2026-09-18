@@ -1,6 +1,7 @@
 ---
 title: Trapezi 2009 Espectacle Inagural
 date: 2009-05-14T19:11:00+0200
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: trapezi-2009-espectacle-inagural
 tags:

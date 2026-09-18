@@ -1,6 +1,7 @@
 ---
 title: 'La cultura va de festa '
 date: 2024-05-05T18:05:00+0200
+year: 2024
 author: Francesc Barbe
 slug: la-cultura-va-de-festa
 tags:

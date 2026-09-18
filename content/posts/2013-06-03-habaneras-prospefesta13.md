@@ -1,6 +1,7 @@
 ---
 title: HABANERAS PROSPEFESTA13
 date: 2013-06-03T12:07:00+0200
+year: 2013
 author: Pedro Click
 slug: habaneras-prospefesta13
 tags:

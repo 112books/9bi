@@ -1,6 +1,7 @@
 ---
 title: Càmera i ciutat al Caixa Fòrum amb el Grup Foto Roquetes.
 date: 2020-02-13T17:32:00+0100
+year: 2020
 author: 9 Barris Imatge
 slug: camera-i-ciutat-al-caixa-forum-amb-el
 tags:

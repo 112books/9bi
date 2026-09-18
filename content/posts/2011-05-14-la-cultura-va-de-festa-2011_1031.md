@@ -1,6 +1,7 @@
 ---
 title: La Cultura va de festa 2011
 date: 2011-05-14T21:25:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: la-cultura-va-de-festa-2011_1031
 tags:

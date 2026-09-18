@@ -1,6 +1,7 @@
 ---
 title: Javier Corcobado + Tarantula a l'Apolo
 date: 2008-05-23T09:56:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: javier-corcobado-tarantula-lapolo
 tags:

@@ -1,6 +1,7 @@
 ---
 title: S'inicia l'#acampada9barris
 date: 2011-05-25T16:03:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: sinicia-lacampada9barris
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Mojitos...Lokos....Hip... Festa Major Prospe 2009
 date: 2009-06-05T19:11:00+0200
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: mojitoslokoship-festa-major-prospe-2009
 tags:

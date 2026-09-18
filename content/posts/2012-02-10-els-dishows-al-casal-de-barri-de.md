@@ -1,6 +1,7 @@
 ---
 title: Els Dishows al Casal de barri de Prosperitat
 date: 2012-02-10T19:50:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: els-dishows-al-casal-de-barri-de
 tags:

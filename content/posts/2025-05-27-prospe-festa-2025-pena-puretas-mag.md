@@ -1,6 +1,7 @@
 ---
 title: Prospe Festa 2025, Peña Puretas, Mag Adrián Arbondo
 date: 2025-05-27T14:11:00+0200
+year: 2025
 author: Pedro Click
 slug: prospe-festa-2025-pena-puretas-mag
 tags:

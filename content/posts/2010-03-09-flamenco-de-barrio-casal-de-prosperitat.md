@@ -1,6 +1,7 @@
 ---
 title: Flamenco de Barrio . Casal de Prosperitat
 date: 2010-03-09T10:08:00+0100
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: flamenco-de-barrio-casal-de-prosperitat
 tags:

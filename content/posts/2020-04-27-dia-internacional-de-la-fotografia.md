@@ -1,6 +1,7 @@
 ---
 title: Dia internacional de la fotografia estenopeica
 date: 2020-04-27T00:22:00+0200
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: dia-internacional-de-la-fotografia
 tags:

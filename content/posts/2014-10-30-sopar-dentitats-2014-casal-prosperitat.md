@@ -1,6 +1,7 @@
 ---
 title: Sopar d'entitats 2014, Casal Prosperitat
 date: 2014-10-30T11:39:00+0100
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: sopar-dentitats-2014-casal-prosperitat
 tags:

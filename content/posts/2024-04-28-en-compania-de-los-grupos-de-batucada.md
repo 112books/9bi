@@ -1,6 +1,7 @@
 ---
 title: AKELARRE 2024 TRINITAT NOVA
 date: 2024-04-28T22:45:00+0200
+year: 2024
 author: Iozsef Kiss
 slug: en-compania-de-los-grupos-de-batucada
 tags:

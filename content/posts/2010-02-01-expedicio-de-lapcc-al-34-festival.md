@@ -2,6 +2,7 @@
 title: Expedició de l´Apcc al 34º Festival Internacional du Cirque de Monte-Carlo
   2010
 date: 2010-02-01T16:23:00+0100
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: expedicio-de-lapcc-al-34-festival
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 2025-10-25 – Julio Ruiz – La Família a l'Ateneu Popular de Nou Barris
 date: 2025-10-26T10:37:00+0100
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-10-25-julio-ruiz-la-familia
 cover:

@@ -1,6 +1,7 @@
 ---
 title: ¨JAB¨Alberto Noel,Héctor Martín,Joan Vigo,Victor López,Jonathan Herrero.
 date: 2021-07-11T19:09:00+0200
+year: 2021
 author: Francesc Barbe
 slug: jabalberto-noelhector-martinjoan
 tags:

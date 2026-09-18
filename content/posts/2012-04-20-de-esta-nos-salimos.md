@@ -1,6 +1,7 @@
 ---
 title: De ésta nos salimos
 date: 2012-04-20T14:32:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: de-esta-nos-salimos
 tags:

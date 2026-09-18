@@ -1,6 +1,7 @@
 ---
 title: LAPSUS CLAY ROCKFUSIÓN (Casal Prosperitat) 2022
 date: 2022-10-16T12:20:00+0200
+year: 2022
 author: Pedro Click
 slug: lapsus-clay-rockfusion-casal
 tags:

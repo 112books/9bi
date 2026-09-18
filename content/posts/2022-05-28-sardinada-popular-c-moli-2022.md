@@ -1,6 +1,7 @@
 ---
 title: Sardinada Popular C/ Moli 2022
 date: 2022-05-28T17:26:00+0200
+year: 2022
 author: Pedro Click
 slug: sardinada-popular-c-moli-2022
 tags:

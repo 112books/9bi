@@ -1,6 +1,7 @@
 ---
 title: San Xibeco'18.Patrón de la Prospe
 date: 2018-11-19T23:45:00+0100
+year: 2018
 author: Ismael Utrilla
 slug: san-xibeco18patron-de-la-prospe
 tags:

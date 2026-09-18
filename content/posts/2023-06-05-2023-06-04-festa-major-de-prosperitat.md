@@ -1,6 +1,7 @@
 ---
 title: 2023-06-04 – Festa major de Prosperitat – Diumenge
 date: 2023-06-05T00:32:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-06-04-festa-major-de-prosperitat
 tags:

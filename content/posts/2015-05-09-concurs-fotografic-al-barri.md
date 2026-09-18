@@ -1,6 +1,7 @@
 ---
 title: CONCURS FOTOGRÀFIC  !!!
 date: 2015-05-09T21:01:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: concurs-fotografic-al-barri
 tags:

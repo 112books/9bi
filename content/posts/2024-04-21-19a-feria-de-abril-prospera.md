@@ -1,6 +1,7 @@
 ---
 title: 19a Feria de Abril Próspera
 date: 2024-04-21T14:28:00+0200
+year: 2024
 author: Ismael Utrilla
 slug: 19a-feria-de-abril-prospera
 tags:

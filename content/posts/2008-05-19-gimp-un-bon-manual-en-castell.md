@@ -1,6 +1,7 @@
 ---
 title: The Gimp, un bon manual en castellà
 date: 2008-05-19T05:28:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: gimp-un-bon-manual-en-castell
 tags:

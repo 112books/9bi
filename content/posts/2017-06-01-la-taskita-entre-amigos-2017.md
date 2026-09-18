@@ -1,6 +1,7 @@
 ---
 title: La Taskita - Entre Amigos 2017
 date: 2017-06-01T13:13:00+0200
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: la-taskita-entre-amigos-2017
 tags:

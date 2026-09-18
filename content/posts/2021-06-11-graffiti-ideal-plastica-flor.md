@@ -1,6 +1,7 @@
 ---
 title: Graffiti Ideal Plástica Flor
 date: 2021-06-11T18:21:00+0200
+year: 2021
 author: Francesc Barbe
 slug: graffiti-ideal-plastica-flor
 tags:

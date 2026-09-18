@@ -1,6 +1,7 @@
 ---
 title: Chistorra Rock XXlll 2022
 date: 2022-05-31T13:16:00+0200
+year: 2022
 author: Pedro Click
 slug: chitorra-rock-xxlll-2022
 tags:

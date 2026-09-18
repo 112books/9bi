@@ -1,6 +1,7 @@
 ---
 title: 'Harry Walker: lluita obrera, victòria veïnal'
 date: 2019-03-30T18:29:00+0100
+year: 2019
 author: Manel Sala "Ulls" Circ
 slug: harry-walker-lluita-obrera-victoria
 tags:

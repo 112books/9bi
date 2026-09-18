@@ -2,6 +2,7 @@
 title: Sal Salangsang. Estats Units. Festival Internacional del Circ Ciutat de Figueres
   2013
 date: 2014-01-21T15:43:00+0100
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: sal-salangsang-estats-units-festival
 tags:

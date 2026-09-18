@@ -1,6 +1,7 @@
 ---
 title: Presentació del llibre Preses Falses de Joan Linux
 date: 2023-07-09T14:23:00+0200
+year: 2023
 author: Francesc Barbe
 slug: presentacio-del-llibre-preses-falses-de
 tags:

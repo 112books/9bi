@@ -1,6 +1,7 @@
 ---
 title: Correfoc.Grup de Foc de 9 Barris
 date: 2023-06-05T18:00:00+0200
+year: 2023
 author: Ismael Utrilla
 slug: correfocgrup-de-foc-de-9-barris
 tags:

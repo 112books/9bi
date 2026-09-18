@@ -1,6 +1,7 @@
 ---
 title: los domingos por la mañana tambien existen!!!!!!!!!!!
 date: 2008-05-13T13:51:00+0200
+year: 2008
 author: 9 Barris Imatge
 slug: los-domingos-por-la-maana-tambien_13
 tags:

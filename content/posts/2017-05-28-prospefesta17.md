@@ -1,6 +1,7 @@
 ---
 title: Prospefesta17
 date: 2017-05-28T12:14:00+0200
+year: 2017
 author: Pedro Click
 slug: prospefesta17
 tags:

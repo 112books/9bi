@@ -1,6 +1,7 @@
 ---
 title: The Suitcase Brothers al Circuit
 date: 2010-05-17T07:48:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: suitcase-brothers-al-circuit
 tags:

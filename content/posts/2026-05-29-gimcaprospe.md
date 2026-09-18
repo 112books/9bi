@@ -1,6 +1,7 @@
 ---
 title: Gimcaprospe
 date: 2026-05-29T23:12:20+0200
+year: 2026
 author: Francesc Barbe
 slug: gimcaprospe
 tags:

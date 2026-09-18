@@ -1,6 +1,7 @@
 ---
 title: Presentació diari de festes de prosperitat 2012
 date: 2012-05-20T03:09:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-diari-de-festes-de
 tags:

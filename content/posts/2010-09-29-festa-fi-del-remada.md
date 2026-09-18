@@ -1,6 +1,7 @@
 ---
 title: Festa fi del Remadà
 date: 2010-09-29T23:47:00+0200
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: festa-fi-del-remada
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 'FESTIVAL BLUES BARCELONA 20- - Chino & The Big Bet + Sax Attack '
 date: 2020-07-05T11:45:00+0200
+year: 2020
 author: Pedro Click
 slug: festival-blues-barcelona-20-chino-big
 tags:

@@ -1,6 +1,7 @@
 ---
 title: XXVII Xistorra Rock amb Dj Magnamara, Inmortales Band y Motorhits
 date: 2025-05-28T09:41:00+0200
+year: 2025
 author: Iozsef Kiss
 slug: xxvii-xistorra-rock-amb-dj-magnamara
 tags:

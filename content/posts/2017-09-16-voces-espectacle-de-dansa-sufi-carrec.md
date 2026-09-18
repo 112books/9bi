@@ -1,6 +1,7 @@
 ---
 title: VOCES - Espectacle de Dansa Sufi a càrrec de Chiara Salvati
 date: 2017-09-16T09:49:00+0200
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: voces-espectacle-de-dansa-sufi-carrec
 tags:

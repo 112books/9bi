@@ -1,6 +1,7 @@
 ---
 title: El festival de las sopes, les sopes del món mundial. 2014. 9 Barris. Barcelona
 date: 2014-03-25T23:28:00+0100
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: el-festival-de-las-sopes-les-sopes-del
 tags:

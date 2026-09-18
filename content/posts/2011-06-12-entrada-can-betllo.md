@@ -1,6 +1,7 @@
 ---
 title: Entrada a Can Batlló
 date: 2011-06-12T00:00:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: entrada-can-betllo
 tags:

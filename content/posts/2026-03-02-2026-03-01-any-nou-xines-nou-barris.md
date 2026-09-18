@@ -1,6 +1,7 @@
 ---
 title: 2026-03-01 - Any Nou xinès a Nou Barris
 date: 2026-03-02T09:54:21+0100
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: 2026-03-01-any-nou-xines-nou-barris
 tags:

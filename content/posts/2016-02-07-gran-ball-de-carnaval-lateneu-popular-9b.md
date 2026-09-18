@@ -1,6 +1,7 @@
 ---
 title: Gran Ball de Carnaval a l’Ateneu Popular 9b!
 date: 2016-02-07T20:09:00+0100
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: gran-ball-de-carnaval-lateneu-popular-9b
 tags:

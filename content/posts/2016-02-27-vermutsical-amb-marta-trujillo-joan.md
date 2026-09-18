@@ -1,6 +1,7 @@
 ---
 title: Vermutsical amb Marta Trujillo & Joan Urpinell
 date: 2016-02-27T20:20:00+0100
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-marta-trujillo-joan
 tags:

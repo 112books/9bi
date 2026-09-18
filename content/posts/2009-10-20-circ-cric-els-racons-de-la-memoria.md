@@ -1,6 +1,7 @@
 ---
 title: Circ Cric. Els Racons de la Memòria. Teatre Lliure. Barcelona
 date: 2009-10-20T09:44:00+0200
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: circ-cric-els-racons-de-la-memoria
 tags:

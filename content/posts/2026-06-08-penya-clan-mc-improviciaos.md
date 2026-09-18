@@ -1,6 +1,7 @@
 ---
 title: Penya Clan MC - Improviciados
 date: 2026-06-08T11:30:02+0200
+year: 2026
 author: Pedro Click
 slug: penya-clan-mc-improviciaos
 tags:

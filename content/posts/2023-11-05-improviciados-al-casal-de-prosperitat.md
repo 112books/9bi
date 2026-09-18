@@ -1,6 +1,7 @@
 ---
 title: ' Improviciados al Casal de Prosperitat 2023-11-04 -'
 date: 2023-11-05T22:56:00+0100
+year: 2023
 author: Pedro Click
 slug: improviciados-al-casal-de-prosperitat
 tags:

@@ -1,6 +1,7 @@
 ---
 title: La dona i l'educació per la Roser Solà.
 date: 2019-09-26T17:10:00+0200
+year: 2019
 author: 9 Barris Imatge
 slug: la-dona-i-leducacio-per-la-roser-sola
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Nit d'Animes Celta al Casal de Barri
 date: 2013-11-03T17:20:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: nit-danimes-celta-al-casal-de-barri
 tags:

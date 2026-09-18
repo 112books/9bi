@@ -1,6 +1,7 @@
 ---
 title: Roig Pèl-Boig a L'Ateneu Popular 9 Barris.
 date: 2019-02-17T20:38:00+0100
+year: 2019
 author: 9 Barris Imatge
 slug: roig-pel-boig-lateneu-popular-9-barris
 tags:

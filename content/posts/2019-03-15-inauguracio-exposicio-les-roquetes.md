@@ -1,6 +1,7 @@
 ---
 title: Inauguració Exposició "Les Roquetes, Aquesta desconeguda" de Pili Escamilla
 date: 2019-03-15T08:06:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: inauguracio-exposicio-les-roquetes
 tags:

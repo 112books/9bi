@@ -1,6 +1,7 @@
 ---
 title: Vermutsical amb Morosito en acústic – Casal de barri de Prosperitat
 date: 2019-09-08T16:52:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-morosito-en-acustic
 tags:

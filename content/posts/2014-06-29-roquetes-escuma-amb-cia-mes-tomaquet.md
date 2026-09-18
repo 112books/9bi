@@ -1,6 +1,7 @@
 ---
 title: 'ROQUETES : ESCUMA AMB CÍA MÉS TOMÀQUET !!!'
 date: 2014-06-29T22:48:00+0200
+year: 2014
 author: 9 Barris Imatge
 slug: roquetes-escuma-amb-cia-mes-tomaquet
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Carnavales Prospe '2018
 date: 2018-02-11T19:48:00+0100
+year: 2018
 author: Ismael Utrilla
 slug: carnavales-prospe-2018
 tags:

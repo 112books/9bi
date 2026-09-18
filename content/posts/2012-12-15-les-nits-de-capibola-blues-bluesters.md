@@ -1,6 +1,7 @@
 ---
 title: Les nits de Capibola Blues - The Bluesters
 date: 2012-12-15T21:22:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: les-nits-de-capibola-blues-bluesters
 tags:

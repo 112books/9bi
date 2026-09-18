@@ -1,6 +1,7 @@
 ---
 title: Nits de Capibola Blues amb Augie Burr’s ETB Trio
 date: 2013-11-23T16:01:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: nits-de-capibola-blues-amb-augie-burrs
 tags:

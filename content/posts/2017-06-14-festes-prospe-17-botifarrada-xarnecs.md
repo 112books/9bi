@@ -1,6 +1,7 @@
 ---
 title: Festes Prospe '17 - Botifarrada Xarnecs
 date: 2017-06-14T10:34:00+0200
+year: 2017
 author: 9 Barris Imatge
 slug: festes-prospe-17-botifarrada-xarnecs
 tags:

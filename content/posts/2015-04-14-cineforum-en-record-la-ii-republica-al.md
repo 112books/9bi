@@ -1,6 +1,7 @@
 ---
 title: CINEFORUM AL TONI I GUIDA.
 date: 2015-04-14T18:18:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: cineforum-en-record-la-ii-republica-al
 tags:

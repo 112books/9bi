@@ -1,6 +1,7 @@
 ---
 title: '" El reencuentro " a Can Verdaguer.'
 date: 2016-06-12T18:16:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: el-reencuentro-can-verdaguer
 tags:

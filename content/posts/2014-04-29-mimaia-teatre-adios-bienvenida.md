@@ -1,6 +1,7 @@
 ---
 title: Mimaia Teatre “ADIOS BIENVENIDA”
 date: 2014-04-29T17:42:00+0200
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: mimaia-teatre-adios-bienvenida
 tags:

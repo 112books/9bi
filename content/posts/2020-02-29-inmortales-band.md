@@ -1,6 +1,7 @@
 ---
 title: Inmortales Band
 date: 2020-02-29T20:20:00+0100
+year: 2020
 author: Manel Sala "Ulls" Circ
 slug: inmortales-band
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Festival de Sopes del Món 2017 . Nou Barris . Barcelona
 date: 2017-03-27T13:30:00+0200
+year: 2017
 author: Manel Sala "Ulls" Circ
 slug: festival-de-sopes-del-mon-2017-nou
 tags:

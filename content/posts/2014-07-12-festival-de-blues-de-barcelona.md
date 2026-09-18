@@ -1,6 +1,7 @@
 ---
 title: Festival de Blues de Barcelona – Divendres al Parc Central
 date: 2014-07-12T15:23:00+0200
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: festival-de-blues-de-barcelona
 tags:

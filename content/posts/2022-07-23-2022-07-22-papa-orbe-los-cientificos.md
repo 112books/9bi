@@ -1,6 +1,7 @@
 ---
 title: 2022-07-22 - Papa Orbe & los Científicos del Sabor
 date: 2022-07-23T16:19:00+0200
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: 2022-07-22-papa-orbe-los-cientificos
 tags:

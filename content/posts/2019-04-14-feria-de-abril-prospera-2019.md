@@ -1,6 +1,7 @@
 ---
 title: Fería de Abríl Prospera 2019
 date: 2019-04-14T21:02:00+0200
+year: 2019
 author: Manel Sala "Ulls" Circ
 slug: feria-de-abril-prospera-2019
 tags:

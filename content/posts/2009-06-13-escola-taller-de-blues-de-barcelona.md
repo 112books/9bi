@@ -1,6 +1,7 @@
 ---
 title: Escola Taller de Blues de Barcelona; Combos final de curs + entrega diplomes
 date: 2009-06-13T20:49:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: escola-taller-de-blues-de-barcelona
 tags:

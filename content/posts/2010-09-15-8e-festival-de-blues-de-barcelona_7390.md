@@ -1,6 +1,7 @@
 ---
 title: 8è Festival de Blues de Barcelona - MasterClass Pere Puertas
 date: 2010-09-15T04:12:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: 8e-festival-de-blues-de-barcelona_7390
 tags:

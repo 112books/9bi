@@ -1,6 +1,7 @@
 ---
 title: 2024-05-25 - Cercavila amb La Perku del Grup de Foc de Nou Barris i Batuprospe
 date: 2024-05-25T16:30:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-05-25-cercavila-amb-la-perku-del
 tags:

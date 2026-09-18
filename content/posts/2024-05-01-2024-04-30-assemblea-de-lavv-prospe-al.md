@@ -1,6 +1,7 @@
 ---
 title: 2024-04-30 - Assemblea de l'AVV Prospe al nou Casal de Joves de Prosperitat
 date: 2024-05-01T13:05:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-04-30-assemblea-de-lavv-prospe-al
 tags:

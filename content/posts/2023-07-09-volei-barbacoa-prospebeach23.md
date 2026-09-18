@@ -1,6 +1,7 @@
 ---
 title: Volei +Barbacoa= ProspeBeach'23
 date: 2023-07-09T10:44:00+0200
+year: 2023
 author: Ismael Utrilla
 slug: volei-barbacoa-prospebeach23
 tags:

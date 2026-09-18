@@ -1,6 +1,7 @@
 ---
 title: fiesta fin del ramadan
 date: 2009-09-29T11:45:00+0200
+year: 2009
 author: Pedro Click
 slug: fiesta-fin-del-ramadan
 tags:

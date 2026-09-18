@@ -1,6 +1,7 @@
 ---
 title: Vermutsical amb Red Rombo
 date: 2020-02-16T03:48:00+0100
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-red-rombo
 tags:

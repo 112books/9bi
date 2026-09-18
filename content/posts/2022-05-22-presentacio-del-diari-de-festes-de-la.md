@@ -1,6 +1,7 @@
 ---
 title: Presentació del Diari de Festes de la Prosperitat
 date: 2022-05-22T12:37:00+0200
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-del-diari-de-festes-de-la
 tags:

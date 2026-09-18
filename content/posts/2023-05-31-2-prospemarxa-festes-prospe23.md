@@ -1,6 +1,7 @@
 ---
 title: 2ª Prospemarxa Festes Prospe`23
 date: 2023-05-31T13:55:00+0200
+year: 2023
 author: Iozsef Kiss
 slug: 2-prospemarxa-festes-prospe23
 tags:

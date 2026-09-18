@@ -1,6 +1,7 @@
 ---
 title: Pasacalles
 date: 2009-06-05T17:07:00+0200
+year: 2009
 author: Nico YeYe
 slug: pasacalles
 tags:

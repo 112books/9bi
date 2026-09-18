@@ -1,6 +1,7 @@
 ---
 title: Primer aniversari de "La Torrada" amb Rudwailers
 date: 2017-11-04T19:47:00+0100
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: primer-aniversari-de-la-torrada-amb
 tags:

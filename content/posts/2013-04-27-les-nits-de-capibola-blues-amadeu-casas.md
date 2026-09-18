@@ -1,6 +1,7 @@
 ---
 title: Les nits de Capibola Blues; Amadeu Casas i August Tharrats + Xavier Maureta
 date: 2013-04-27T11:57:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: les-nits-de-capibola-blues-amadeu-casas
 tags:

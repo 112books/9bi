@@ -1,6 +1,7 @@
 ---
 title: Els DiShows del Casal amb “DE BARRA VAS”
 date: 2013-02-15T08:00:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: els-dishows-del-casal-amb-de-barra-vas
 tags:

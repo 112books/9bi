@@ -1,6 +1,7 @@
 ---
 title: 15 Festival de Sopes del Món Mundial 2018
 date: 2018-03-19T23:37:00+0100
+year: 2018
 author: Pedro Click
 slug: 15-festival-de-sopes-del-mon-mundial
 tags:

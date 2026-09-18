@@ -1,6 +1,7 @@
 ---
 title: Les nits de Capibola - Ster & The Waxers
 date: 2012-01-22T21:53:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: les-nits-de-capibola-ster-waxers
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 9 barris Any Nou Xinès 2023
 date: 2023-02-04T18:42:00+0100
+year: 2023
 author: Ismael Utrilla
 slug: 9-barris-any-nou-xines-2023
 tags:

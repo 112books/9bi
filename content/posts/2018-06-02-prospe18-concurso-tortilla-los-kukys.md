@@ -1,6 +1,7 @@
 ---
 title: Prospe'18 Concurso Tortilla los kukys
 date: 2018-06-02T11:26:00+0200
+year: 2018
 author: Ismael Utrilla
 slug: prospe18-concurso-tortilla-los-kukys
 tags:

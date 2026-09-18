@@ -1,6 +1,7 @@
 ---
 title: DiShows de Tapes i DesTapes - Mag Pota
 date: 2014-02-14T13:26:00+0100
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: dishows-de-tapes-i-destapes-mag-pota
 tags:

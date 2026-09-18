@@ -1,6 +1,7 @@
 ---
 title: Les Nits de Capibola - Cicle Blues & Boogie
 date: 2011-12-04T23:04:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: les-nits-de-capibola-cicle-blues-boogie
 tags:

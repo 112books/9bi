@@ -1,6 +1,7 @@
 ---
 title: 3r. Concurs de Drag Queens.. Prospe 2009
 date: 2009-06-05T11:24:00+0200
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: 3r-concurs-de-drac-queens-prospe-2009
 tags:

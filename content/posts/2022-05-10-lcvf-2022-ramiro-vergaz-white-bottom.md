@@ -1,6 +1,7 @@
 ---
 title: LCVF 2022 - Ramiro Vergaz - White Bottom
 date: 2022-05-10T17:20:00+0200
+year: 2022
 author: Manel Sala "Ulls" Circ
 slug: lcvf-2022-ramiro-vergaz-white-bottom
 tags:

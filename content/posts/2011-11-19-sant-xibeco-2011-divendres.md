@@ -1,6 +1,7 @@
 ---
 title: Sant Xibeco 2011 - Divendres
 date: 2011-11-19T15:27:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: sant-xibeco-2011-divendres
 tags:

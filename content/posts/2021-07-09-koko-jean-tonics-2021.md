@@ -1,6 +1,7 @@
 ---
 title: Koko-jean &The tonics 2021
 date: 2021-07-09T13:30:00+0200
+year: 2021
 author: Francesc Barbe
 slug: koko-jean-tonics-2021
 tags:

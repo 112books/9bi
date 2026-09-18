@@ -1,6 +1,7 @@
 ---
 title: Daniel Higiénico Band al Sidecar
 date: 2008-05-30T15:02:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: daniel-higinico-band-al-sidecar
 tags:

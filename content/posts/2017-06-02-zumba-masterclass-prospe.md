@@ -1,6 +1,7 @@
 ---
 title: 'Zumba MasterClass Prospe '
 date: 2017-06-02T17:05:00+0200
+year: 2017
 author: Ismael Utrilla
 slug: zumba-masterclass-prospe
 tags:

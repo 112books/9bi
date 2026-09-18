@@ -1,6 +1,7 @@
 ---
 title: Dani Nel.lo ¨Los Saxofonistas Salvajes¨ B/N
 date: 2021-07-10T18:18:00+0200
+year: 2021
 author: Francesc Barbe
 slug: dani-nello-los-saxofonistas-salvajes-bn
 tags:

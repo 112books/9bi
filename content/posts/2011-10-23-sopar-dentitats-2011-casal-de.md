@@ -1,6 +1,7 @@
 ---
 title: Sopar d'entitats 2011 - Casal de Prosperitat
 date: 2011-10-23T22:29:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: sopar-dentitats-2011-casal-de
 tags:

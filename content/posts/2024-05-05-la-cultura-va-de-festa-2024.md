@@ -1,6 +1,7 @@
 ---
 title: La Cultura Va de Festa 2024
 date: 2024-05-05T19:15:00+0200
+year: 2024
 author: Ismael Utrilla
 slug: la-cultura-va-de-festa-2024
 tags:

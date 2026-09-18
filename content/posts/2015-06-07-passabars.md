@@ -1,6 +1,7 @@
 ---
 title: PASSABARS
 date: 2015-06-07T23:02:00+0200
+year: 2015
 author: Pedro Click
 slug: passabars
 tags:

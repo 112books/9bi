@@ -2,6 +2,7 @@
 title: Inauguració de la Exposició fotogràfica retrospectiva del Festival de Blues
   de Barcelona
 date: 2016-07-06T09:35:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: inauguracio-de-la-exposicio-fotografica
 tags:

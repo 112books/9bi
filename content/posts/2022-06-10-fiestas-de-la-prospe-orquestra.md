@@ -1,6 +1,7 @@
 ---
 title: Fiestas de la Prospe - Orquestra Sinfonica de Roquetes
 date: 2022-06-10T01:35:00+0200
+year: 2022
 author: Iozsef Kiss
 slug: fiestas-de-la-prospe-orquestra
 tags:

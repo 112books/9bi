@@ -1,6 +1,7 @@
 ---
 title: San Xibeco '25 (Herederos del Taxi)
 date: 2025-11-16T22:56:00+0100
+year: 2025
 author: Ismael Utrilla
 slug: san-xibeco-25-herederos-del-taxi
 tags:

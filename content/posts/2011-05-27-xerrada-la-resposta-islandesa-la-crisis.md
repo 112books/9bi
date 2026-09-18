@@ -1,6 +1,7 @@
 ---
 title: Xerrada “La resposta islandesa a la crisis” a l'Ateneu Popular de 9 Barris
 date: 2011-05-27T00:52:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: xerrada-la-resposta-islandesa-la-crisis
 tags:

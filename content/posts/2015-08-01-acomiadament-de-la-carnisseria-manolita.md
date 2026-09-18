@@ -1,6 +1,7 @@
 ---
 title: Comiat de la carnisseria Manolita de Prosperitat
 date: 2015-08-01T10:07:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: acomiadament-de-la-carnisseria-manolita
 tags:

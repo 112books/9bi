@@ -1,6 +1,7 @@
 ---
 title: Choro brasilé al Casal
 date: 2008-07-05T08:56:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: choro-brasil-al-casal
 tags:

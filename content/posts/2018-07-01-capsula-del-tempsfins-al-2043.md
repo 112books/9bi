@@ -1,6 +1,7 @@
 ---
 title: Càpsula del temps...fins al 2043 !!!
 date: 2018-07-01T00:43:00+0200
+year: 2018
 author: 9 Barris Imatge
 slug: capsula-del-tempsfins-al-2043
 tags:

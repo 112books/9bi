@@ -2,6 +2,7 @@
 title: '20 FESTIVAL DE BLUES DE BARCELONA 2022: Scaramanga, Adria Costa blues band
   y Barcelona Blues Band'
 date: 2022-07-10T20:16:00+0200
+year: 2022
 author: Pedro Click
 slug: 20-festival-de-blues-de-barcelona-2022_10
 tags:

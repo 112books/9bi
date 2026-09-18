@@ -1,6 +1,7 @@
 ---
 title: Can Peguera i Casal de Barri en analògic
 date: 2013-12-12T00:02:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: can-peguera-i-casal-de-barri-en-analogic
 tags:

@@ -2,6 +2,7 @@
 title: CIRC exposició fotogràfica. Trapezi Vilanova i La Geltrú. 27, 28 i 29 de maig
   2011
 date: 2011-05-24T08:41:00+0200
+year: 2011
 author: Manel Sala "Ulls" Circ
 slug: circ-exposicio-fotografica-trapezi
 tags:

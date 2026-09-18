@@ -1,6 +1,7 @@
 ---
 title: 2022-06-03 - Bizapop Interpenyes
 date: 2022-06-03T19:25:00+0200
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: 2022-06-03-bizapop-interpenyes
 tags:

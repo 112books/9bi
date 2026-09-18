@@ -1,6 +1,7 @@
 ---
 title: 25è aniversari Casal de Barri - Engantxada de cartells
 date: 2013-02-15T08:13:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: 25e-aniversari-casal-de-barri
 tags:

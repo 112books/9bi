@@ -1,6 +1,7 @@
 ---
 title: 11è Festival de Blues de Barcelona - Big Mama Montse a l'Hospital Vall d'Hebrón
 date: 2013-07-18T18:06:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: 11e-festival-de-blues-de-barcelona-big
 tags:

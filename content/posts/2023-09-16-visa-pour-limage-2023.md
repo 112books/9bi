@@ -1,6 +1,7 @@
 ---
 title: 'Visa pour l´image 2023 '
 date: 2023-09-16T11:49:00+0200
+year: 2023
 author: Pedro Click
 slug: visa-pour-limage-2023
 tags:

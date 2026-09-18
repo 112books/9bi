@@ -1,6 +1,7 @@
 ---
 title: XXVII Xistorra Rock 2025
 date: 2025-05-27T14:18:00+0200
+year: 2025
 author: Pedro Click
 slug: y-mira-el-xistorrarock-2025-esta-hecho
 tags:

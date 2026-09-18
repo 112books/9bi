@@ -1,6 +1,7 @@
 ---
 title: Prospe Creativa (nit de la cançó d’autor/a)
 date: 2018-03-25T17:28:00+0200
+year: 2018
 author: Pedro Click
 slug: prospe-creativa-nit-de-la-canco-dautora
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Festival de Blues de Barcelona; Jam Sessión al castell de Torre Baró
 date: 2018-07-17T09:10:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: festival-de-blues-de-barcelona-jam
 tags:

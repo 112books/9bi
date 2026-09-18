@@ -1,6 +1,7 @@
 ---
 title: 10 anys de sopes del món; Exposició fotogràfica
 date: 2013-03-04T15:13:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: 10-anys-de-sopes-del-mon-exposicio
 tags:

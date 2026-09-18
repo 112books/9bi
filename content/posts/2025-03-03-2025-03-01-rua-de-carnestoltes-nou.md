@@ -1,6 +1,7 @@
 ---
 title: 2025-03-01 - Rua de Carnestoltes a Nou Barris
 date: 2025-03-03T10:58:00+0100
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-03-01-rua-de-carnestoltes-nou
 tags:

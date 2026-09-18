@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperiat 2016 - Musiquita en la Taskita
 date: 2016-06-01T08:34:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperiat-2016-musiquita-en
 tags:

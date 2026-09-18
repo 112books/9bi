@@ -1,6 +1,7 @@
 ---
 title: Vermutsical amb "Tosky & Honey"
 date: 2011-09-04T11:41:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-tosky-honey
 tags:

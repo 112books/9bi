@@ -1,6 +1,7 @@
 ---
 title: Aqui no hay quién beba.Bingo musical
 date: 2025-05-31T19:12:00+0200
+year: 2025
 author: Ismael Utrilla
 slug: aqui-no-hay-quien-bebabingo-musical
 tags:

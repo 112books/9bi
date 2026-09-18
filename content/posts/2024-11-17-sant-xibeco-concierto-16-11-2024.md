@@ -1,6 +1,7 @@
 ---
 title: Sant Xibeco Concerts 16-11-2024
 date: 2024-11-17T20:49:00+0100
+year: 2024
 author: Pedro Click
 slug: sant-xibeco-concierto-16-11-2024
 tags:

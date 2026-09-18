@@ -1,6 +1,7 @@
 ---
 title: Vermutsical amb el grup "A Fuego Lento"
 date: 2020-01-27T19:01:00+0100
+year: 2020
 author: Manel Sala "Ulls" Circ
 slug: vermutsical-amb-el-grup-fuego-lento
 tags:

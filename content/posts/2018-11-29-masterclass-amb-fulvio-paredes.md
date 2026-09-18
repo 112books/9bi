@@ -1,6 +1,7 @@
 ---
 title: Masterclass amb Fulvio Paredes
 date: 2018-11-29T08:24:00+0100
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: masterclass-amb-fulvio-paredes
 tags:

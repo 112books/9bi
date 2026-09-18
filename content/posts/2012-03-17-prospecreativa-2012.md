@@ -1,6 +1,7 @@
 ---
 title: ProspeCreativa 2012
 date: 2012-03-17T12:31:00+0100
+year: 2012
 author: 9 Barris Imatge
 slug: prospecreativa-2012
 tags:

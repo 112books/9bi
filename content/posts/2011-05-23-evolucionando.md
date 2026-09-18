@@ -1,6 +1,7 @@
 ---
 title: EVOLUCIONANDO
 date: 2011-05-23T18:05:00+0200
+year: 2011
 author: Pedro Click
 slug: evolucionando
 cover:

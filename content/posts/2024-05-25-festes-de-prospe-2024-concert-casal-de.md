@@ -1,6 +1,7 @@
 ---
 title: Festes de Prospe 2024 Concert casal de joves
 date: 2024-05-25T02:25:00+0200
+year: 2024
 author: Iozsef Kiss
 slug: festes-de-prospe-2024-concert-casal-de
 tags:

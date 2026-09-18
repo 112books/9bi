@@ -1,6 +1,7 @@
 ---
 title: Solidaridad Sierra de la culebra - Kevin Willis
 date: 2023-03-27T09:50:00+0200
+year: 2023
 author: Pedro Click
 slug: solidaridad-sierra-de-la-culebra-kevin
 tags:

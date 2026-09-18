@@ -1,6 +1,7 @@
 ---
 title: Festa de CAP D'ANY amb "LA BANDA DEL COCHE ROJO"
 date: 2010-01-02T12:48:00+0100
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: festa-de-cap-dany-amb-la-banda-del
 tags:

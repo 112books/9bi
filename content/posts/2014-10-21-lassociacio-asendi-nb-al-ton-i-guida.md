@@ -1,6 +1,7 @@
 ---
 title: L'ASSOCIACIÓ ASENDI NB AL TON I GUIDA.
 date: 2014-10-21T01:52:00+0200
+year: 2014
 author: 9 Barris Imatge
 slug: lassociacio-asendi-nb-al-ton-i-guida
 tags:

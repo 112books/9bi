@@ -1,6 +1,7 @@
 ---
 title: Dissabte - Ángel Pestaña - vespre
 date: 2011-04-10T03:29:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: dissabte-angel-pestana-vespre
 tags:

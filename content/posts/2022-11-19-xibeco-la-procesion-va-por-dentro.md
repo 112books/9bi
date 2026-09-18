@@ -1,6 +1,7 @@
 ---
 title: Sant Xibeco 2022
 date: 2022-11-19T19:06:00+0100
+year: 2022
 author: Pedro Click
 slug: xibeco-la-procesion-va-por-dentro
 tags:

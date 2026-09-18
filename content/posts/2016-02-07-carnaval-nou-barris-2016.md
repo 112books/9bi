@@ -1,6 +1,7 @@
 ---
 title: CARNAVAL NOU BARRIS 2016
 date: 2016-02-07T21:46:00+0100
+year: 2016
 author: Pedro Click
 slug: carnaval-nou-barris-2016
 tags:

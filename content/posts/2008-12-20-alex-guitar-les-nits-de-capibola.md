@@ -1,6 +1,7 @@
 ---
 title: Alex Guitar a les nits de Capibola
 date: 2008-12-20T03:36:00+0100
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: alex-guitar-les-nits-de-capibola
 tags:

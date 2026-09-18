@@ -1,6 +1,7 @@
 ---
 title: Loco Brusca al casal de barri
 date: 2009-03-15T23:53:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: loco-brusca-al-casal-de-barri
 tags:

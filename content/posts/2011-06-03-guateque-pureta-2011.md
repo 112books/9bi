@@ -1,6 +1,7 @@
 ---
 title: GUATEQUE PURETA 2011
 date: 2011-06-03T23:28:00+0200
+year: 2011
 author: Pedro Click
 slug: guateque-pureta-2011
 tags:

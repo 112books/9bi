@@ -1,6 +1,7 @@
 ---
 title: Jack´s Sons
 date: 2023-06-04T15:30:00+0200
+year: 2023
 author: Francesc Barbe
 slug: jacks-sons
 cover:

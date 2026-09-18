@@ -1,6 +1,7 @@
 ---
 title: Cercavila Txaranga Prospe&Perku Grup Foc Nou Barris
 date: 2023-05-28T10:30:00+0200
+year: 2023
 author: Ismael Utrilla
 slug: cercavila-txaranga-prospe-grup-foc-nou
 tags:

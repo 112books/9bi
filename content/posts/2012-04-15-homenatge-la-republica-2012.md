@@ -1,6 +1,7 @@
 ---
 title: Homenatge a la República 2012
 date: 2012-04-15T01:45:00+0200
+year: 2012
 author: 9 Barris Imatge
 slug: homenatge-la-republica-2012
 tags:

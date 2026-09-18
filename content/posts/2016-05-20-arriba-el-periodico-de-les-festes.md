@@ -1,6 +1,7 @@
 ---
 title: Arriba el Periódico de les Festes
 date: 2016-05-20T20:36:00+0200
+year: 2016
 author: Alberto Sanagustín
 slug: arriba-el-periodico-de-les-festes
 tags:

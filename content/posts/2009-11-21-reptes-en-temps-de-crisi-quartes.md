@@ -1,6 +1,7 @@
 ---
 title: Reptes en temps de crisi; quartes jornades de 9 Barris Acull
 date: 2009-11-21T22:36:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: reptes-en-temps-de-crisi-quartes
 tags:

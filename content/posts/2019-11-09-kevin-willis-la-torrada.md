@@ -1,6 +1,7 @@
 ---
 title: Kevin Willis a la Torrada
 date: 2019-11-09T17:08:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: kevin-willis-la-torrada
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 39 edició de La Cultura va de Festa 2019
 date: 2019-05-06T18:57:00+0200
+year: 2019
 author: Manel Sala "Ulls" Circ
 slug: 39-edicio-de-la-cultura-va-de-festa-2019
 tags:

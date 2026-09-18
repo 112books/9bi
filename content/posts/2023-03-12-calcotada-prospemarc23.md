@@ -1,6 +1,7 @@
 ---
 title: Calçotada Prospe,Març'23
 date: 2023-03-12T19:02:00+0100
+year: 2023
 author: Ismael Utrilla
 slug: calcotada-prospemarc23
 tags:

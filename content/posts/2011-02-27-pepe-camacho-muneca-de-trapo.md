@@ -1,6 +1,7 @@
 ---
 title: Pepe Camacho & Muñeca de Trapo
 date: 2011-02-27T03:46:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: pepe-camacho-muneca-de-trapo
 tags:

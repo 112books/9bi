@@ -1,6 +1,7 @@
 ---
 title: 'PLE HISTÒRIC A NOU BARRIS '
 date: 2015-07-30T23:03:00+0200
+year: 2015
 author: Pedro "Casal" Cervera
 slug: ple-historic-nou-barris
 tags:

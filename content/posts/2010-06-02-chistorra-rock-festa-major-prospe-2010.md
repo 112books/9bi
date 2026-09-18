@@ -1,6 +1,7 @@
 ---
 title: Chistorra Rock. Festa Major Prospe 2010
 date: 2010-06-02T16:34:00+0200
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: chistorra-rock-festa-major-prospe-2010
 tags:

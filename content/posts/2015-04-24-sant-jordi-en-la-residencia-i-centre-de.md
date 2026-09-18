@@ -1,6 +1,7 @@
 ---
 title: SANT JORDI EN LA RESIDÈNCIA I CENTRE DE DIA PORTA PORTA
 date: 2015-04-24T13:56:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: sant-jordi-en-la-residencia-i-centre-de
 tags:

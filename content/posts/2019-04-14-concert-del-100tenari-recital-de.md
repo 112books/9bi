@@ -1,6 +1,7 @@
 ---
 title: Concert del 100tenari – Recital de Guitarra “Juan José Barreda y grupo”
 date: 2019-04-14T06:49:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: concert-del-100tenari-recital-de
 tags:

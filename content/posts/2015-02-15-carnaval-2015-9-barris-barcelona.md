@@ -1,6 +1,7 @@
 ---
 title: Carnaval 2015, 9 Barris, Barcelona
 date: 2015-02-15T18:42:00+0100
+year: 2015
 author: Manel Sala "Ulls" Circ
 slug: carnaval-2015-9-barris-barcelona
 tags:

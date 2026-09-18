@@ -1,6 +1,7 @@
 ---
 title: Festes de Prospe 2016 - Presentació del diari de festes
 date: 2016-05-22T09:52:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe-2016-presentacio-del
 tags:

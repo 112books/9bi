@@ -1,6 +1,7 @@
 ---
 title: '"Més enllà de la Prosperitat" - Exposició col·lectiva de 9 Barris Imatge'
 date: 2026-05-26T05:30:00+0200
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: mes-enlla-de-la-prosperitat-exposicio
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Markins. Rússia. 1er Festival Internacional del Circ Castell de Figueres 2012
 date: 2012-06-19T23:13:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: markins-russia-1er-festival
 tags:

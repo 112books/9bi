@@ -1,6 +1,7 @@
 ---
 title: 21Festival de Blues de Barcelona (Tori Sparks feat Big - Dani Pérez)
 date: 2023-07-08T18:42:00+0200
+year: 2023
 author: Pedro Click
 slug: 21festival-de-blues-de-barcelona-tori
 tags:

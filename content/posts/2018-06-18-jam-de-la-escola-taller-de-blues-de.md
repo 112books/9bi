@@ -1,6 +1,7 @@
 ---
 title: Jam de la Escola-Taller de Blues de Barcelona al Castell de Torre Baró
 date: 2018-06-18T11:01:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: jam-de-la-escola-taller-de-blues-de
 tags:

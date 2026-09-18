@@ -1,6 +1,7 @@
 ---
 title: Dishows maig - Mikelo
 date: 2013-05-18T22:40:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: dishows-maig-mikelo
 tags:

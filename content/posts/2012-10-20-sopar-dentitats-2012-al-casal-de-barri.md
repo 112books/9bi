@@ -1,6 +1,7 @@
 ---
 title: Sopar d'entitats 2012 al Casal de Barri de Prosperitat
 date: 2012-10-20T10:16:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: sopar-dentitats-2012-al-casal-de-barri
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 18e´FESTIVAL DE SOPAS DEL MON 2022 (Participantes)
 date: 2022-10-23T18:06:00+0200
+year: 2022
 author: Pedro Click
 slug: 18efestival-de-sopas-del-mon
 tags:

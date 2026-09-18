@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat, diumenge amb tormenta
 date: 2009-06-01T12:20:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-diumenge-amb
 tags:

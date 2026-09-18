@@ -1,6 +1,7 @@
 ---
 title: OVIDI3. “Un temps, una estima, una idea”
 date: 2015-05-17T11:05:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: ovidi3-un-temps-una-estima-una-idea
 cover:

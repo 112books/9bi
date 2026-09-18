@@ -1,6 +1,7 @@
 ---
 title: Festival de Blues de Barcelona – Suitcase Brothers
 date: 2020-07-08T18:07:00+0200
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: festival-de-blues-de-barcelona-suitcase
 tags:

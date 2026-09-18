@@ -1,6 +1,7 @@
 ---
 title: Exposició "Retrats de dones de Prosperitat"
 date: 2013-03-05T19:32:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: exposicio-retrats-de-dones-de
 tags:

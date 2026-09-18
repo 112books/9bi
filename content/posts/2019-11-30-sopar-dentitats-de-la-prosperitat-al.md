@@ -1,6 +1,7 @@
 ---
 title: Sopar d'entitats de la Prosperitat al Casal de barri de Prosperitat
 date: 2019-11-30T17:07:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: sopar-dentitats-de-la-prosperitat-al
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Any nou xines
 date: 2023-02-04T21:41:00+0100
+year: 2023
 author: Francesc Barbe
 slug: any-nou-xines
 tags:

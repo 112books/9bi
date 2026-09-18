@@ -1,6 +1,7 @@
 ---
 title: XVI Trobada de Monociclistes, 18 i 19 d´abril 2009, 9 Barris, Barcelona
 date: 2009-04-21T17:56:00+0200
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: xvi-trobada-de-monociclistes-18-i-19
 tags:

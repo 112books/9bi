@@ -1,6 +1,7 @@
 ---
 title: Festival de Blues de Barcelona - Wild Blues
 date: 2016-07-18T10:51:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: festival-de-blues-de-barcelona-wild
 tags:

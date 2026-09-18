@@ -1,6 +1,7 @@
 ---
 title: DIARI DE FESTAS 2012 PROSPERITAT
 date: 2012-05-21T12:24:00+0200
+year: 2012
 author: Pedro Click
 slug: prego-diari-de-festas-2012
 tags:

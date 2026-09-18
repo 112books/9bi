@@ -1,6 +1,7 @@
 ---
 title: Sierra de la Culebra - Improviciados 25-03-2023
 date: 2023-03-27T09:56:00+0200
+year: 2023
 author: Pedro Click
 slug: sierra-de-la-culebra-improviciados
 tags:

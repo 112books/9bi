@@ -1,6 +1,7 @@
 ---
 title: Ostres a “Date una huerta” + Vermutsical amb el grup “A Fuego Lento”
 date: 2020-01-30T13:56:00+0100
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: ostres-date-una-huerta-vermutsical-amb
 tags:

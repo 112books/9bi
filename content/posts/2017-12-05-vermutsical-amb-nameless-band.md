@@ -1,6 +1,7 @@
 ---
 title: Vermutsical amb Nameless Band
 date: 2017-12-05T13:11:00+0100
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-nameless-band
 tags:

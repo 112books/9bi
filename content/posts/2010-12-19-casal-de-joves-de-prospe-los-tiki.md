@@ -1,6 +1,7 @@
 ---
 title: Casal de joves de Prospe - Los Tiki Phantoms
 date: 2010-12-19T17:04:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: casal-de-joves-de-prospe-los-tiki
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Vermut si cal amb Kaori
 date: 2011-02-08T12:02:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: vermut-si-cal-amb-kaori
 tags:

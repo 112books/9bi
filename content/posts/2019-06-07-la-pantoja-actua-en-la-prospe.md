@@ -1,6 +1,7 @@
 ---
 title: La Pantoja actúa en la Prospe !!!
 date: 2019-06-07T01:31:00+0200
+year: 2019
 author: 9 Barris Imatge
 slug: la-pantoja-actua-en-la-prospe
 tags:

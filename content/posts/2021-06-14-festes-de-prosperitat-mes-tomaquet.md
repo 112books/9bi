@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat - Més tomàquet
 date: 2021-06-14T19:49:00+0200
+year: 2021
 author: Francesc Barbe
 slug: festes-de-prosperitat-mes-tomaquet
 tags:

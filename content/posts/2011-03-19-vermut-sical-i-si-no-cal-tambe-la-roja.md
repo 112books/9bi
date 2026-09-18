@@ -1,6 +1,7 @@
 ---
 title: Vermut sical i si no cal tambè!!! - La Roja + Caori
 date: 2011-03-19T19:10:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: vermut-sical-i-si-no-cal-tambe-la-roja
 tags:

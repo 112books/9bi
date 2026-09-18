@@ -1,6 +1,7 @@
 ---
 title: 'Muntatge de l''exposició "Els Inoblidables: la nostra Memòria"'
 date: 2015-12-13T20:34:00+0100
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: muntatge-de-la-exposicio-els
 tags:

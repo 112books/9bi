@@ -1,6 +1,7 @@
 ---
 title: The Fantabulous Míticos
 date: 2015-04-12T19:46:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: the-fantabulous-miticos
 cover:

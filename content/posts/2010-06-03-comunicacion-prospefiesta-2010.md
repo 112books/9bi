@@ -1,6 +1,7 @@
 ---
 title: COMUNICACION, PROSPE FIESTA 2010
 date: 2010-06-03T10:55:00+0200
+year: 2010
 author: Pedro Click
 slug: comunicacion-prospefiesta-2010
 tags:

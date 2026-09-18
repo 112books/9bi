@@ -1,6 +1,7 @@
 ---
 title: XVI Chistorra Rock. Festa Major de Prosperitat 2015
 date: 2015-06-02T12:43:00+0200
+year: 2015
 author: Manel Sala "Ulls" Circ
 slug: xvi-chistorra-rock-festa-major-de
 tags:

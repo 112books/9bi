@@ -1,6 +1,7 @@
 ---
 title: Boni .. Backstage
 date: 2009-11-16T12:29:00+0100
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: boni-backstage
 tags:

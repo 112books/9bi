@@ -1,6 +1,7 @@
 ---
 title: LUDOTECA AL CARRE
 date: 2012-05-31T18:51:00+0200
+year: 2012
 author: Pedro Click
 slug: ludoteca-al-carre
 cover:

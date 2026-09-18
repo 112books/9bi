@@ -1,6 +1,7 @@
 ---
 title: 4t Concurs de Maquetes al Barri
 date: 2008-05-10T20:05:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: 4t-concurs-de-maquetes-al-barri
 tags:

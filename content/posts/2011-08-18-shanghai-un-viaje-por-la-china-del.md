@@ -1,6 +1,7 @@
 ---
 title: SHANGHAI, un viaje por la china del siglo XXI
 date: 2011-08-18T22:09:00+0200
+year: 2011
 author: Pedro Click
 slug: shanghai-un-viaje-por-la-china-del
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Betta & The Groovers
 date: 2023-07-09T18:04:00+0200
+year: 2023
 author: Francesc Barbe
 slug: betta-groovers
 cover:

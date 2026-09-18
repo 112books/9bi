@@ -1,6 +1,7 @@
 ---
 title: Concert de Nadal a Roquetes.
 date: 2016-12-11T15:27:00+0100
+year: 2016
 author: 9 Barris Imatge
 slug: concert-de-nadal-roquetes
 tags:

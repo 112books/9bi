@@ -1,6 +1,7 @@
 ---
 title: Prospe Beach,El Volei Platja de Barri
 date: 2025-07-13T21:34:00+0200
+year: 2025
 author: Ismael Utrilla
 slug: prospe-beachel-volei-platja-de-barri
 tags:

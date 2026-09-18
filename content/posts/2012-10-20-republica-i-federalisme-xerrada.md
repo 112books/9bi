@@ -1,6 +1,7 @@
 ---
 title: República i federalisme, xerrada
 date: 2012-10-20T10:14:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: republica-i-federalisme-xerrada
 tags:

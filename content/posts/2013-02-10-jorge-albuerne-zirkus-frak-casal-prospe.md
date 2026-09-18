@@ -1,6 +1,7 @@
 ---
 title: Jorge Albuerne. Zirkus Frak. Casal Prospe, Carnaval 2013
 date: 2013-02-10T20:05:00+0100
+year: 2013
 author: Manel Sala "Ulls" Circ
 slug: jorge-albuerne-zirkus-frak-casal-prospe
 tags:

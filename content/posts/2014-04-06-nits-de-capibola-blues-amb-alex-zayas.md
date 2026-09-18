@@ -1,6 +1,7 @@
 ---
 title: Nits de Capibola Blues amb Alex Zayas
 date: 2014-04-06T10:13:00+0200
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: nits-de-capibola-blues-amb-alex-zayas
 tags:

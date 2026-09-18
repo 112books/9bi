@@ -1,6 +1,7 @@
 ---
 title: Flamenco de Barrio
 date: 2010-03-07T16:41:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: flamenco-de-barrio
 tags:

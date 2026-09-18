@@ -1,6 +1,7 @@
 ---
 title: Dia de la República. Nou Barris
 date: 2012-04-15T14:36:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: dia-de-la-republica-nou-barris
 tags:

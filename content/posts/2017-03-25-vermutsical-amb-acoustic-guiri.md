@@ -1,6 +1,7 @@
 ---
 title: Vermutsical amb Acoustic Guiri
 date: 2017-03-25T22:15:00+0100
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-acoustic-guiri
 tags:

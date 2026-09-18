@@ -1,6 +1,7 @@
 ---
 title: Donem vida a l'atenció primària.
 date: 2018-11-09T01:27:00+0100
+year: 2018
 author: Núria Laura Orbaneja
 slug: donem-vida-latencio-primaria
 tags:

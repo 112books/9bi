@@ -1,6 +1,7 @@
 ---
 title: La mesquita es presenta al barri
 date: 2018-05-01T23:36:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: la-mesquita-es-presenta-al-barri
 tags:

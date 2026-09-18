@@ -1,6 +1,7 @@
 ---
 title: 9barrisimatge.org
 date: 2008-04-15T11:52:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: 9barrisimatgeorg
 tags:

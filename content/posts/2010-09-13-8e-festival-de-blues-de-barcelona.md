@@ -1,6 +1,7 @@
 ---
 title: 8è Festival de Blues de Barcelona - Vermut de Blues
 date: 2010-09-13T03:56:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: 8e-festival-de-blues-de-barcelona
 tags:

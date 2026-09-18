@@ -1,6 +1,7 @@
 ---
 title: Festival Blues Barcelona - Txell Sust & August Tharrats
 date: 2008-09-14T13:57:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: festival-blues-barcelona-txell-sust
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Nit d&#39;Animes al Casal amb ElectroPutas
 date: 2015-11-07T08:31:00+0100
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: nit-d-al-casal-amb-electroputas
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Rua Carnaval 9 Barris'24
 date: 2024-02-11T14:16:00+0100
+year: 2024
 author: Ismael Utrilla
 slug: rua-carnaval-9-barris24
 tags:

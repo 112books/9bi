@@ -1,6 +1,7 @@
 ---
 title: Festes de Prospe 2025 - Xistorra Rock
 date: 2025-05-27T13:46:00+0200
+year: 2025
 author: Manel Sala "Ulls" Circ
 slug: festes-de-prospe-2025-xistorra-rock
 tags:

@@ -1,6 +1,7 @@
 ---
 title: FESTIVAL DE SOPAS DEL MON 2011
 date: 2011-03-30T20:56:00+0200
+year: 2011
 author: Pedro Click
 slug: festival-de-sopas-del-mon-2011
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Cadena humana en defensa de la Sanitat Pública a l'Hospital Vall Hebrón
 date: 2013-06-19T14:53:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: cadena-humana-en-defensa-de-la-sanitat
 tags:

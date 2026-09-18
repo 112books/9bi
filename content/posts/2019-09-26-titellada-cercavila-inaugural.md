@@ -1,6 +1,7 @@
 ---
 title: TITELLADA CERCAVILA INAUGURAL
 date: 2019-09-26T15:54:00+0200
+year: 2019
 author: Manel Villalba
 slug: titellada-cercavila-inaugural
 tags:

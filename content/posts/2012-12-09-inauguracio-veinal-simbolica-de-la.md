@@ -1,6 +1,7 @@
 ---
 title: 'Inauguració veïnal simbòlica de la residència i centre de dia del carrer Molí '
 date: 2012-12-09T23:44:00+0100
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: inauguracio-veinal-simbolica-de-la
 tags:

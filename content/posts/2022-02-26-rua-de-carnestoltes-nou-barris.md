@@ -1,6 +1,7 @@
 ---
 title: Rua de Carnestoltes a Nou Barris
 date: 2022-02-26T23:27:00+0100
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: rua-de-carnestoltes-nou-barris
 tags:

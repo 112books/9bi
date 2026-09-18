@@ -1,6 +1,7 @@
 ---
 title: Cercavila La Penya Dels 4 Gats
 date: 2026-06-19T20:06:33+0200
+year: 2026
 author: Iozsef Kiss
 slug: cercavila-la-penya-dels-4-gats
 tags:

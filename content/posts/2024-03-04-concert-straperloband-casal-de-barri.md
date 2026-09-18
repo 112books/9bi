@@ -1,6 +1,7 @@
 ---
 title: Concert STRAPERLOBAND (casal de barri Trinitat Nova)
 date: 2024-03-04T10:41:00+0100
+year: 2024
 author: Iozsef Kiss
 slug: concert-straperloband-casal-de-barri
 tags:

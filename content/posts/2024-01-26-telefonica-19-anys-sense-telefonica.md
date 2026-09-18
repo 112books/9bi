@@ -1,6 +1,7 @@
 ---
 title: TELEFONICA 19 ANYS SENSE TELEFONICA
 date: 2024-01-26T09:20:00+0100
+year: 2024
 author: Iozsef Kiss
 slug: telefonica-19-anys-sense-telefonica
 tags:

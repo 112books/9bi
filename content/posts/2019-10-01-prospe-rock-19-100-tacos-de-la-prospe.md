@@ -1,6 +1,7 @@
 ---
 title: Prospe Rock 19 - 100 Tacos de La Prospe
 date: 2019-10-01T13:22:00+0200
+year: 2019
 author: Manel Sala "Ulls" Circ
 slug: prospe-rock-19-100-tacos-de-la-prospe
 tags:

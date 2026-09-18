@@ -1,6 +1,7 @@
 ---
 title: Inauguració nou Casal de Joves de Prosperitat
 date: 2012-09-16T09:35:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: inauguracio-nou-casal-de-joves-de
 tags:

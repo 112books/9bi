@@ -1,6 +1,7 @@
 ---
 title: XXV CONCURS FOTOGRÀFIC J. A. CORDONCILLO.
 date: 2014-12-16T16:32:00+0100
+year: 2014
 author: 9 Barris Imatge
 slug: xxv-concurs-de-fotografia-j-cordoncillo
 tags:

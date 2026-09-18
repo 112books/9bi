@@ -1,6 +1,7 @@
 ---
 title: Tapes del bar del Casal de Prosperitat
 date: 2012-05-13T11:08:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: tapes-del-bar-del-casal-de-prosperitat
 tags:

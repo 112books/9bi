@@ -1,6 +1,7 @@
 ---
 title: Nit d'homenatge a Django Reinhardt
 date: 2010-04-17T20:00:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: not-dhomenatge-django-reinhardt
 tags:

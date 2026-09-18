@@ -1,6 +1,7 @@
 ---
 title: AUDIENCIA PUBLICA? A NOU BARRIS. VERGONYA!!!
 date: 2014-10-14T00:36:00+0200
+year: 2014
 author: Pedro "Casal" Cervera
 slug: audiencia-vergonzosa-nou-barris
 tags:

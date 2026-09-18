@@ -2,6 +2,7 @@
 title: 2024-10-19 - "La risa del pepe" i “Afri k ft Alexch & Figo" al Casal de Joves
   de Prosperitat
 date: 2024-10-20T09:47:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-10-19-la-risa-del-pepe-i-afri-k-ft
 tags:

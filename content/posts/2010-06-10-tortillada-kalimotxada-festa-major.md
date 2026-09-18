@@ -1,6 +1,7 @@
 ---
 title: Tortillada Kalimotxada . Festa Major Prospe 2010
 date: 2010-06-10T01:19:00+0200
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: tortillada-kalimotxada-festa-major
 tags:

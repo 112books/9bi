@@ -1,6 +1,7 @@
 ---
 title: Concert "Mazonas" (Casal de Barri de Prosperitat)
 date: 2013-01-26T22:37:00+0100
+year: 2013
 author: 9 Barris Imatge
 slug: concert-mazonas-casal-districte-nou
 tags:

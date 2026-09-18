@@ -1,6 +1,7 @@
 ---
 title: PETITS I GRANS !!!
 date: 2014-05-30T01:05:00+0200
+year: 2014
 author: 9 Barris Imatge
 slug: petits-i-grans_29
 tags:

@@ -1,6 +1,7 @@
 ---
 title: LA CULTURA VA DE FESTA 2010
 date: 2010-05-12T17:35:00+0200
+year: 2010
 author: Pedro Click
 slug: la-cultura-va-de-festa-2010_12
 tags:

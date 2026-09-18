@@ -1,6 +1,7 @@
 ---
 title: Projecció de fotografies al Casal de Barri
 date: 2008-06-05T09:43:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: projecci-de-fotografies-al-casal-de
 tags:

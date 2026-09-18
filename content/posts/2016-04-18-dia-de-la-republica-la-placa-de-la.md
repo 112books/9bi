@@ -1,6 +1,7 @@
 ---
 title: Dia de la República a la Plaça de la República
 date: 2016-04-18T12:04:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: dia-de-la-republica-la-placa-de-la
 tags:

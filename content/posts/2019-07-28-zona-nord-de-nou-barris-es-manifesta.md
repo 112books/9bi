@@ -1,6 +1,7 @@
 ---
 title: Zona Nord de  Nou Barris es manifesta per una major seguretat.
 date: 2019-07-28T20:10:00+0200
+year: 2019
 author: 9 Barris Imatge
 slug: zona-nord-de-nou-barris-es-manifesta
 tags:

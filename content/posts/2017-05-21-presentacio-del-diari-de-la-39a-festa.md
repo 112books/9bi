@@ -1,6 +1,7 @@
 ---
 title: Presentació del diari de la 39a Festa Major  de la Prospe 2017
 date: 2017-05-21T01:43:00+0200
+year: 2017
 author: Alberto Sanagustín
 slug: presentacio-del-diari-de-la-39a-festa
 tags:

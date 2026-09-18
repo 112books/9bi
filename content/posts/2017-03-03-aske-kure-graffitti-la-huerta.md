@@ -1,6 +1,7 @@
 ---
 title: ASKÉ & KURÉ, GRAFFITTI A LA HUERTA
 date: 2017-03-03T20:17:00+0100
+year: 2017
 author: Alberto Sanagustín
 slug: aske-kure-graffitti-la-huerta
 tags:

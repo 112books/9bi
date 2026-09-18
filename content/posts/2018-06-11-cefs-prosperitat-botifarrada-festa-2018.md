@@ -1,6 +1,7 @@
 ---
 title: CEFS Prosperitat Botifarrada & Festa 2018
 date: 2018-06-11T14:14:00+0200
+year: 2018
 author: Ismael Utrilla
 slug: cefs-prosperitat-botifarrada-festa-2018
 tags:

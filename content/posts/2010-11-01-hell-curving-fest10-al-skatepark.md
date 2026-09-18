@@ -1,6 +1,7 @@
 ---
 title: Hell Curving Fest'10 al Skatepark Guineueta
 date: 2010-11-01T03:33:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: hell-curving-fest10-al-skatepark
 tags:

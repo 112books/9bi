@@ -2,6 +2,7 @@
 title: 'Jornades Xarxa 9 Barris Acull: Contra el racisme, diverses mirades a l’Islam
   (II)'
 date: 2017-11-04T19:37:00+0100
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: jornades-xarxa-9-barris-acull-contra-el_4
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 2024-03-02 - Calçotada popular a la Prospe
 date: 2024-03-04T15:04:00+0100
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-03-02-calcotada-popular-la-prospe
 tags:

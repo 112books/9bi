@@ -1,6 +1,7 @@
 ---
 title: HAVANERAS 4/6/11
 date: 2011-06-12T13:33:00+0200
+year: 2011
 author: Pedro Click
 slug: havaneras
 tags:

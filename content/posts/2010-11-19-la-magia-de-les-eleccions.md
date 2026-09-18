@@ -1,6 +1,7 @@
 ---
 title: La màgia de les eleccions!
 date: 2010-11-19T20:06:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: la-magia-de-les-eleccions
 tags:

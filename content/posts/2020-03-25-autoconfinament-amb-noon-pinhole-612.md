@@ -1,6 +1,7 @@
 ---
 title: Autoconfinament amb Noon Pinhole 6×12
 date: 2020-03-25T06:16:00+0100
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: autoconfinament-amb-noon-pinhole-612
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 35è Concurs de fotografia Josep Antón Cordoncillo
 date: 2025-10-16T12:45:00+0200
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 35e-concurs-de-fotografia-josep-anton
 tags:

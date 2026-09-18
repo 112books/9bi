@@ -1,6 +1,7 @@
 ---
 title: Prospe Capaç + Ni vella ni bestia
 date: 2012-10-05T00:53:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: prospe-capac-ni-vella-ni-bestia
 tags:

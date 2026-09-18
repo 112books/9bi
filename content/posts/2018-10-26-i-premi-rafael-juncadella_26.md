@@ -1,6 +1,7 @@
 ---
 title: I Premi Rafael Juncadella
 date: 2018-10-26T23:23:00+0200
+year: 2018
 author: Núria Laura Orbaneja
 slug: i-premi-rafael-juncadella_26
 tags:

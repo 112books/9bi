@@ -1,6 +1,7 @@
 ---
 title: LA RIOJA, buen yantar y buen beber
 date: 2011-03-12T21:09:00+0100
+year: 2011
 author: Pedro Click
 slug: la-rioja-buen-llantar-y-buen-beber
 tags:

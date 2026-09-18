@@ -1,6 +1,7 @@
 ---
 title: CARNASTOLTES- VICTOR
 date: 2015-02-27T11:33:00+0100
+year: 2015
 author: Pedro Click
 slug: carnastoltes-victor
 tags:

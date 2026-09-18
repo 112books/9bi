@@ -1,6 +1,7 @@
 ---
 title: Un dissabte de Vermut al Casal de Barri
 date: 2017-02-05T15:02:00+0100
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: un-dissabte-de-vermut-al-casal-de-barri
 tags:

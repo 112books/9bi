@@ -1,6 +1,7 @@
 ---
 title: En Pedro pira!
 date: 2008-07-26T20:34:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: en-pedro-pira
 tags:

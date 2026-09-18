@@ -1,6 +1,7 @@
 ---
 title: Celebració de l´any Xinès a Nou Barris 2018
 date: 2018-02-26T13:47:00+0100
+year: 2018
 author: Manel Sala "Ulls" Circ
 slug: celebracio-de-lany-xines-nou-barris-2018
 tags:

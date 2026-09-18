@@ -1,6 +1,7 @@
 ---
 title: Holi Tetrinké...Por muchos años más!!!
 date: 2019-05-27T15:45:00+0200
+year: 2019
 author: Ismael Utrilla
 slug: holi-tetrinkepor-muchos-anos-mas
 tags:

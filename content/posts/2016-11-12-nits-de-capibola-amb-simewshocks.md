@@ -1,6 +1,7 @@
 ---
 title: Nits de Capibola amb Simewshocks
 date: 2016-11-12T22:13:00+0100
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: nits-de-capibola-amb-simewshocks
 tags:

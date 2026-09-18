@@ -1,6 +1,7 @@
 ---
 title: VII Festival de Blues de Barcelona - MasterClass Víctor Puertas
 date: 2009-09-15T00:08:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: vii-festival-de-blues-de-barcelona_9615
 tags:

@@ -1,6 +1,7 @@
 ---
 title: festival de sopes 2025
 date: 2025-10-26T20:47:00+0100
+year: 2025
 author: Francesc Barbe
 slug: festival-de-sopes-2025
 tags:

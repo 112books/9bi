@@ -1,6 +1,7 @@
 ---
 title: 'Jornades Xarxa 9 Barris Acull – Discursos Discriminatoris: Pensem alternatives'
 date: 2018-10-27T17:05:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: jornades-xarxa-9-barris-acull-discursos
 tags:

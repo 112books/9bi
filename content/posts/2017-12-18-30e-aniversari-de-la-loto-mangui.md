@@ -1,6 +1,7 @@
 ---
 title: 30è Aniversari de la Loto Mangui
 date: 2017-12-18T10:58:00+0100
+year: 2017
 author: Manel Sala "Ulls" Circ
 slug: 30e-aniversari-de-la-loto-mangui
 tags:

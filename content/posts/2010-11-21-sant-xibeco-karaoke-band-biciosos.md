@@ -1,6 +1,7 @@
 ---
 title: Vermuth de Sant Xibeco amb Karaoke Band i No al tancament del taller dels Biciosos
 date: 2010-11-21T22:02:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: sant-xibeco-karaoke-band-biciosos
 tags:

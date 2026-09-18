@@ -1,6 +1,7 @@
 ---
 title: Classe Concert al Honky Tonk Bar
 date: 2008-12-28T12:23:00+0100
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: classe-concert-al-honky-tonk-bar
 tags:

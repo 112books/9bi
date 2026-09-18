@@ -1,6 +1,7 @@
 ---
 title: Carnaval 2018 - 9 Barris - Barcelona
 date: 2018-02-11T20:05:00+0100
+year: 2018
 author: Manel Sala "Ulls" Circ
 slug: carnaval-2018-9-barris-barcelona
 tags:

@@ -1,6 +1,7 @@
 ---
 title: The Acoustic Blues Company a l'Ateneu Popular de Nou Barris
 date: 2008-04-05T18:01:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: american-blues-company-lateneu-popilar
 tags:

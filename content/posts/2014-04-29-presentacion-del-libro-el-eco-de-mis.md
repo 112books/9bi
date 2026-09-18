@@ -1,6 +1,7 @@
 ---
 title: Presentación del libro "El Eco de mis pasos" de Mario Ortiz.
 date: 2014-04-29T17:12:00+0200
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: presentacion-del-libro-el-eco-de-mis
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Dia de la República a 9 Barris
 date: 2014-04-13T19:50:00+0200
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: dia-de-la-republica-9-barris
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Vermutsical - Las Hijas del Barón Canalla
 date: 2014-03-24T00:26:00+0100
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-las-hijas-del-baron-canalla
 tags:

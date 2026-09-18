@@ -1,6 +1,7 @@
 ---
 title: Master Class Pere Puertas .. Lone Rhino Club .. Ateneu Popular 9 Barris
 date: 2009-11-09T19:39:00+0100
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: master-class-pere-puertas-lone-rhino
 tags:

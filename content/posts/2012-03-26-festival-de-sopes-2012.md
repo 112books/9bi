@@ -1,6 +1,7 @@
 ---
 title: FESTIVAL DE SOPES 2012
 date: 2012-03-26T13:38:00+0200
+year: 2012
 author: Pedro "Casal" Cervera
 slug: festival-de-sopes-2012
 tags:

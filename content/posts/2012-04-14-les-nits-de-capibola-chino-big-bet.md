@@ -1,6 +1,7 @@
 ---
 title: Les Nits de Capibola - Chino & The Big Bet
 date: 2012-04-14T16:31:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: les-nits-de-capibola-chino-big-bet
 tags:

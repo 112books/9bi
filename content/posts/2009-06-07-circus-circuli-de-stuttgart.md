@@ -1,6 +1,7 @@
 ---
 title: Circus Circuli de Stuttgart
 date: 2009-06-07T17:24:00+0200
+year: 2009
 author: Nico YeYe
 slug: circus-circuli-de-stuttgart
 tags:

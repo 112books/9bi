@@ -1,6 +1,7 @@
 ---
 title: Xocolatada Solidària amb la Marea Groga
 date: 2013-04-11T01:37:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: xocolatada-solidaria-amb-la-marea-groga
 tags:

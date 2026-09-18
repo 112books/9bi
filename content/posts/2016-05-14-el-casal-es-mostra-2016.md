@@ -1,6 +1,7 @@
 ---
 title: El Casal es Mostra 2016
 date: 2016-05-14T10:27:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: el-casal-es-mostra-2016
 tags:

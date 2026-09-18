@@ -1,6 +1,7 @@
 ---
 title: Prospestiu 2011 - Concert del CJP a Prosperitat
 date: 2011-07-17T15:37:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: prospestiu-2011-concert-del-cjp
 tags:

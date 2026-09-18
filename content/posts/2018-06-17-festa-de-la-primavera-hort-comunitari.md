@@ -1,6 +1,7 @@
 ---
 title: FESTA DE LA PRIMAVERA. HORT COMUNITARI ECOVINCLES
 date: 2018-06-17T19:26:00+0200
+year: 2018
 author: Alberto Sanagustín
 slug: festa-de-la-primavera-hort-comunitari
 tags:

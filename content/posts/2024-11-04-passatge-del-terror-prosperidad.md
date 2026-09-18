@@ -1,6 +1,7 @@
 ---
 title: Passatge del terror Prosperitat
 date: 2024-11-04T23:15:00+0100
+year: 2024
 author: Iozsef Kiss
 slug: passatge-del-terror-prosperidad
 tags:

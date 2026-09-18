@@ -1,6 +1,7 @@
 ---
 title: Manifest Prospe Beach
 date: 2012-07-12T12:26:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: manifest-prospe-beach
 tags:

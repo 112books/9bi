@@ -1,6 +1,7 @@
 ---
 title: Trinkalmuerzo
 date: 2024-05-25T14:48:00+0200
+year: 2024
 author: Francesc Barbe
 slug: trinkalmuerzo
 cover:

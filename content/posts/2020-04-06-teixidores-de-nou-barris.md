@@ -1,6 +1,7 @@
 ---
 title: Teixidores de Nou Barris.
 date: 2020-04-06T21:45:00+0200
+year: 2020
 author: 9 Barris Imatge
 slug: teixidores-de-nou-barris
 cover:

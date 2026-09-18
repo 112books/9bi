@@ -1,6 +1,7 @@
 ---
 title: Encuentro Flamenco - Anoush Saadat, Senén Sentío i Remi Normand
 date: 2015-09-05T01:56:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: encuentro-flamenco-anoush-saadat-senen
 tags:

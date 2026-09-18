@@ -1,6 +1,7 @@
 ---
 title: 2023-11-12 – Flamenc de barri a l'Ateneu Popular de Nou Barris
 date: 2023-11-13T22:28:00+0100
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-11-12-flamenc-de-barri-lateneu
 tags:

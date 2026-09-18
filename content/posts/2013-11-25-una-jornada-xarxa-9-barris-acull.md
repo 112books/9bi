@@ -1,6 +1,7 @@
 ---
 title: ' JORNADA 2  XARXA 9 BARRIS ACULL'
 date: 2013-11-25T18:55:00+0100
+year: 2013
 author: Alberto Sanagustín
 slug: una-jornada-xarxa-9-barris-acull
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 'Assaig al Casal! '
 date: 2018-02-04T21:24:00+0100
+year: 2018
 author: Pedro Click
 slug: assaig-al-casal
 tags:

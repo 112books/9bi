@@ -1,6 +1,7 @@
 ---
 title: Sopar de"nadal" al Casal
 date: 2015-12-18T15:33:00+0100
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: sopar-denadal-al-casal
 tags:

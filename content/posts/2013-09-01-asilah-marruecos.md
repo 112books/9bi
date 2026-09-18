@@ -1,6 +1,7 @@
 ---
 title: ASILAH- Marruecos
 date: 2013-09-01T21:15:00+0200
+year: 2013
 author: Pedro Click
 slug: asilah-marruecos
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Racons de Catalunya .... Cap de Creus
 date: 2008-04-08T18:01:00+0200
+year: 2008
 author: Manel Sala "Ulls" Circ
 slug: racons-de-catalunya-cap-de-creus
 tags:

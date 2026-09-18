@@ -1,6 +1,7 @@
 ---
 title: Vistes de Barcelona a Torre Baró
 date: 2012-02-12T17:46:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: vistes-de-barcelona-torre-baro
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Concierto benefico en memoria de Paco Roman
 date: 2022-06-10T00:55:00+0200
+year: 2022
 author: Iozsef Kiss
 slug: concierto-benefico-en-memoria-de-paco
 cover:

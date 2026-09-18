@@ -1,6 +1,7 @@
 ---
 title: Cercavila & Asarock
 date: 2026-05-31T10:49:48+0200
+year: 2026
 author: Ismael Utrilla
 slug: cercavila-asarock
 tags:

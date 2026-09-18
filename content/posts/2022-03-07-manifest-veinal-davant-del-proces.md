@@ -2,6 +2,7 @@
 title: Manifest veïnal davant del procés d’urbanització del solar de la Ideal Plástica
   Flor
 date: 2022-03-07T18:01:00+0100
+year: 2022
 author: Manel Sala "Ulls" Circ
 slug: manifest-veinal-davant-del-proces
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 15è Festival de Sopes del Món 2018
 date: 2018-03-25T14:12:00+0200
+year: 2018
 author: Manel Sala "Ulls" Circ
 slug: 15e-festival-de-sopes-del-mon-2018
 tags:

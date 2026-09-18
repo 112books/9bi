@@ -1,6 +1,7 @@
 ---
 title: Prospe'18 Herederos&Juegos Peñas
 date: 2018-05-31T14:49:00+0200
+year: 2018
 author: Ismael Utrilla
 slug: prospe18-herederos-penas
 tags:

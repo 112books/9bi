@@ -1,6 +1,7 @@
 ---
 title: Any Nou Xinès
 date: 2018-02-25T19:53:00+0100
+year: 2018
 author: Alberto Sanagustín
 slug: any-nou-xines
 tags:

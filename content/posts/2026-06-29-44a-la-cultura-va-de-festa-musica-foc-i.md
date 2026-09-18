@@ -1,6 +1,7 @@
 ---
 title: 44a “La Cultura va de festa” – música, foc i Nou Barris en estat pur
 date: 2026-06-29T23:03:17+0200
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: 44a-la-cultura-va-de-festa-musica-foc-i
 tags:

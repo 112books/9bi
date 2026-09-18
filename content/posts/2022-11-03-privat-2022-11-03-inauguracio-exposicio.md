@@ -1,6 +1,7 @@
 ---
 title: 'Privat: 2022-11-03 – Inauguració Exposició – 50 anys de l’AV Prosperitat'
 date: 2022-11-03T21:08:00+0100
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: privat-2022-11-03-inauguracio-exposicio
 tags:

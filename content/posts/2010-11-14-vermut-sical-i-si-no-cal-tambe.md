@@ -1,6 +1,7 @@
 ---
 title: VERMUT SICAL i si no cal tambè!!! - Bernat Font
 date: 2010-11-14T22:47:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: vermut-sical-i-si-no-cal-tambe
 tags:

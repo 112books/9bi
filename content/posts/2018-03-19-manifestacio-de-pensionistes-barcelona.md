@@ -1,6 +1,7 @@
 ---
 title: Manifestació de Pensionistes Barcelona 17-3-2018
 date: 2018-03-19T10:53:00+0100
+year: 2018
 author: Manel Sala "Ulls" Circ
 slug: manifestacio-de-pensionistes-barcelona
 tags:

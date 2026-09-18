@@ -2,6 +2,7 @@
 title: 15è Festival de Blues de Barcelona – Víctor Puertas & The Mellow Tones, Enma
   Fernández Band, Barcelona Big Blues Band + Jonathan Herrero + Dani Nel·lo
 date: 2017-07-16T17:41:00+0200
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: 15e-festival-de-blues-de-barcelona
 tags:

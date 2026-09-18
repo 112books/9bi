@@ -1,6 +1,7 @@
 ---
 title: La Cultura va de Festa 2022...diumenge de germanor
 date: 2022-05-08T15:52:00+0200
+year: 2022
 author: Ismael Utrilla
 slug: la-cultura-va-de-festa-2022diumenge-de
 tags:

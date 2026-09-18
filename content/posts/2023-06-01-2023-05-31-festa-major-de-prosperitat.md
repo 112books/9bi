@@ -1,6 +1,7 @@
 ---
 title: 2023-05-31 – Festa major de Prosperitat – Dimecres
 date: 2023-06-01T11:23:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-05-31-festa-major-de-prosperitat
 tags:

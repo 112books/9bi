@@ -1,6 +1,7 @@
 ---
 title: Video Final de Festa
 date: 2015-06-08T08:30:00+0200
+year: 2015
 author: Alberto Sanagustín
 slug: video-final-de-festa
 tags:

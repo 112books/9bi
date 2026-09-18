@@ -1,6 +1,7 @@
 ---
 title: 21Festival de Blues de Barcelona - (Susan Santos)
 date: 2023-07-08T18:53:00+0200
+year: 2023
 author: Pedro Click
 slug: festival-de-blues-de-barcelona-susan
 tags:

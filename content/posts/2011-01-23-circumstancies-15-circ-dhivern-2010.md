@@ -1,6 +1,7 @@
 ---
 title: circumstàncies. 15º Circ d´Hivern 2010. Ateneu Popular 9 Barris. Barcelona
 date: 2011-01-23T12:05:00+0100
+year: 2011
 author: Manel Sala "Ulls" Circ
 slug: circumstancies-15-circ-dhivern-2010
 tags:

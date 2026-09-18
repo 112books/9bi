@@ -1,6 +1,7 @@
 ---
 title: Casal de Barri Prosperitat - No a la Guerra
 date: 2022-03-28T18:21:00+0200
+year: 2022
 author: Manel Sala "Ulls" Circ
 slug: casal-de-barri-prosperitat-no-la-guerra
 tags:

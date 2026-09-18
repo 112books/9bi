@@ -1,6 +1,7 @@
 ---
 title: Pregó de la festa major de Verdum
 date: 2013-10-09T08:56:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: prego-de-la-festa-major-de-verdum
 tags:

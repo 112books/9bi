@@ -1,6 +1,7 @@
 ---
 title: Zirkilibrados
 date: 2011-10-26T19:59:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: zirkilibrados
 tags:

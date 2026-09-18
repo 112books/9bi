@@ -1,6 +1,7 @@
 ---
 title: PROSPECAPAÇ - MAS CON MENOS
 date: 2014-06-30T11:27:00+0200
+year: 2014
 author: Pedro Click
 slug: prospecapac-mas-con-menos
 tags:

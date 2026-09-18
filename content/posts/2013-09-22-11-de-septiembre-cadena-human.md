@@ -1,6 +1,7 @@
 ---
 title: 11 DE SEPTIEMBRE CADENA HUMANA
 date: 2013-09-22T12:42:00+0200
+year: 2013
 author: Pedro Click
 slug: 11-de-septiembre-cadena-human
 tags:

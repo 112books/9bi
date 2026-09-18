@@ -1,6 +1,7 @@
 ---
 title: 2023-02-23 - Presentació Llibre "50 anys fent barri"
 date: 2023-02-23T23:33:00+0100
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-02-23-presentacio-llibre-50-anys
 tags:

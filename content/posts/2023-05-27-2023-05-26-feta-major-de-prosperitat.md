@@ -1,6 +1,7 @@
 ---
 title: 2023-05-26 - Festa major de Prosperitat - Divendres
 date: 2023-05-27T08:35:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-05-26-feta-major-de-prosperitat
 tags:

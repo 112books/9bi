@@ -1,6 +1,7 @@
 ---
 title: Festes Prospe 2013 - Pallassos infantil carre Flordeneu
 date: 2013-06-02T16:38:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: festes-prospe-2013-pallassos-infantil
 tags:

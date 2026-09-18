@@ -1,6 +1,7 @@
 ---
 title: Almuerzo Peña Tetrinké
 date: 2019-05-25T17:35:00+0200
+year: 2019
 author: Ismael Utrilla
 slug: almuerzo-pena-tetrinke
 tags:

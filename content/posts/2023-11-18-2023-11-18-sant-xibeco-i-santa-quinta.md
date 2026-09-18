@@ -1,6 +1,7 @@
 ---
 title: 2023-11-18 - Sant Xibeco i Santa Quinta 2023
 date: 2023-11-18T20:49:00+0100
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-11-18-sant-xibeco-i-santa-quinta
 tags:

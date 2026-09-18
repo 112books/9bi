@@ -1,6 +1,7 @@
 ---
 title: Festival Blues Barcelona 2008 - Down Home a Wad-Ras
 date: 2008-09-08T17:49:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: festival-blues-barcelona-2008-down-home
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Espuma Prospe'17
 date: 2017-06-04T18:16:00+0200
+year: 2017
 author: Ismael Utrilla
 slug: espuma-prospe17
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 2024-01-13 - Chino Swingslide al Formentera
 date: 2024-01-14T20:17:00+0100
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-01-13-chino-swingslide-al
 tags:

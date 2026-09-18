@@ -1,6 +1,7 @@
 ---
 title: Prospe Beach 2019 - Entrega de premis
 date: 2019-07-14T19:28:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: prospe-beach-2019-entrega-de-premis
 tags:

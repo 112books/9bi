@@ -1,6 +1,7 @@
 ---
 title: Trinkealmuerzo'24
 date: 2024-05-26T17:34:00+0200
+year: 2024
 author: Ismael Utrilla
 slug: trinkealmuerzo24
 cover:

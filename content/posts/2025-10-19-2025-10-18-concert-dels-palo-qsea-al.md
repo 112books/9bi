@@ -1,6 +1,7 @@
 ---
 title: 2025-10-18 – Concert dels Palo Q’Sea al Casal de Barri de la Prosperitat
 date: 2025-10-19T10:11:00+0200
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-10-18-concert-dels-palo-qsea-al
 tags:

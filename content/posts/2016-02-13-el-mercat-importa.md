@@ -1,6 +1,7 @@
 ---
 title: El Mercat ImPorta
 date: 2016-02-13T17:20:00+0100
+year: 2016
 author: Pedro "Casal" Cervera
 slug: el-mercat-importa
 cover:

@@ -1,6 +1,7 @@
 ---
 title: Jam de Blues Casa de les Aigües
 date: 2020-12-16T02:23:00+0100
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: jam-de-blues-casa-de-les-aigues
 tags:

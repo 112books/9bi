@@ -1,6 +1,7 @@
 ---
 title: 2023-04-20 - Final del Ramadà a Nou Barris
 date: 2023-04-21T10:20:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-04-20-final-del-ramada-nou-barris
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Festes de Prospe 2017 - Dimarts nit
 date: 2017-05-31T07:26:00+0200
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe-2017-dimarts-nit
 tags:

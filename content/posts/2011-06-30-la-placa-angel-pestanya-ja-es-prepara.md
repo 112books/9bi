@@ -1,6 +1,7 @@
 ---
 title: La Plaça Ángel Pestanya ja es prepara per Prospe Beach
 date: 2011-06-30T00:20:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: la-placa-angel-pestanya-ja-es-prepara
 tags:

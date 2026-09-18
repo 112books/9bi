@@ -1,6 +1,7 @@
 ---
 title: Vermut Si Cal - Herederos del Taxi
 date: 2012-02-12T17:32:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: vermut-si-cal-herederos-del-taxi
 tags:

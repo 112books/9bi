@@ -1,6 +1,7 @@
 ---
 title: 2023-06-03 – Festa major de Prosperitat – Dissabte
 date: 2023-06-04T13:18:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-06-03-festa-major-de-prosperitat
 tags:

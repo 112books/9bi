@@ -1,6 +1,7 @@
 ---
 title: Flamenco de Barrio 2018
 date: 2018-11-13T20:55:00+0100
+year: 2018
 author: Manel Sala "Ulls" Circ
 slug: flamenco-de-barrio-2018
 tags:

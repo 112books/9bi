@@ -1,6 +1,7 @@
 ---
 title: 2025-11-08 – Flamencxs del barrio
 date: 2025-11-09T15:31:00+0100
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-11-08-flamencxs-del-barrio
 tags:

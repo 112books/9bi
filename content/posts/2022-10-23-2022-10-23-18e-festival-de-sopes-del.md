@@ -1,6 +1,7 @@
 ---
 title: 2022-10-23 - 18è Festival de Sopes del Món Mundial
 date: 2022-10-23T18:47:00+0200
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: 2022-10-23-18e-festival-de-sopes-del
 tags:

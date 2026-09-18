@@ -1,6 +1,7 @@
 ---
 title: Zumba Fest 2019 - Mais
 date: 2019-06-03T18:35:00+0200
+year: 2019
 author: Ismael Utrilla
 slug: zumba-fest-2019-mais
 tags:

@@ -2,6 +2,7 @@
 title: Inauguració de la exposició fotogràfica "África, una mirada diferente" al Casal
   de barri de Prosperitat
 date: 2018-04-08T21:26:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: inauguracio-de-la-exposicio-fotografica
 tags:

@@ -1,6 +1,7 @@
 ---
 title: MALACARA, Rock de trinxera
 date: 2019-11-09T13:10:00+0100
+year: 2019
 author: Pedro Click
 slug: malacara-rock-de-trinxera
 tags:

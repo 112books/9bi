@@ -1,6 +1,7 @@
 ---
 title: 'Promo Salut Prospe : Diabetes.'
 date: 2018-02-15T21:39:00+0100
+year: 2018
 author: 9 Barris Imatge
 slug: promo-salut-prospe-diabetes
 tags:

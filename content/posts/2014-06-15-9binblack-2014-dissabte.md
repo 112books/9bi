@@ -1,6 +1,7 @@
 ---
 title: 9BinBlack 2014 - Dissabte
 date: 2014-06-15T13:26:00+0200
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: 9binblack-2014-dissabte
 tags:

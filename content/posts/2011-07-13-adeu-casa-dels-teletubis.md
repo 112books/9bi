@@ -1,6 +1,7 @@
 ---
 title: Adéu casa dels Teletubis!
 date: 2011-07-13T15:21:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: adeu-casa-dels-teletubis
 tags:

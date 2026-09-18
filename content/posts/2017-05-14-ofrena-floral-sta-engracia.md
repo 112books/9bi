@@ -1,6 +1,7 @@
 ---
 title: Ofrena floral a Sta Engràcia.
 date: 2017-05-14T21:03:00+0200
+year: 2017
 author: 9 Barris Imatge
 slug: ofrena-floral-sta-engracia
 tags:

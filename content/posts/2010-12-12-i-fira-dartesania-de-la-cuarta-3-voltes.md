@@ -1,6 +1,7 @@
 ---
 title: I fira d'artesania de la Cuarta a 3 Voltes Rebel
 date: 2010-12-12T18:47:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: i-fira-dartesania-de-la-cuarta-3-voltes
 tags:

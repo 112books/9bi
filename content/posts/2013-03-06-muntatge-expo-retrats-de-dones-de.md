@@ -1,6 +1,7 @@
 ---
 title: Muntatge expo "Retrats de dones de Prosperitat"
 date: 2013-03-06T22:59:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: muntatge-expo-retrats-de-dones-de
 tags:

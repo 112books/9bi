@@ -1,6 +1,7 @@
 ---
 title: Futbol Playa al Prospe Beach 2008
 date: 2008-07-21T13:17:00+0200
+year: 2008
 author: Pedro "Casal" Cervera
 slug: futbol-playa-al-prospe-beach-2008
 tags:

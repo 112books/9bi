@@ -1,6 +1,7 @@
 ---
 title: Sanitat pública de qualitat !!!
 date: 2019-04-12T00:12:00+0200
+year: 2019
 author: 9 Barris Imatge
 slug: sanitat-publica-de-qualitat
 tags:

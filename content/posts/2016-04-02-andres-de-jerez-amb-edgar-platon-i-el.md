@@ -1,6 +1,7 @@
 ---
 title: Andrés de Jerez amb Edgar Platón i el Rubio de la Isla
 date: 2016-04-02T10:28:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: andres-de-jerez-amb-edgar-platon-i-el
 cover:

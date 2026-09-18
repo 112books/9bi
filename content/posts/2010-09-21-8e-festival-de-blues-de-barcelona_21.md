@@ -2,6 +2,7 @@
 title: 8è Festival de Blues de Barcelona - Bernat Font Trio, Philippe Le Jeune i Al
   Copley
 date: 2010-09-21T15:50:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: 8e-festival-de-blues-de-barcelona_21
 tags:

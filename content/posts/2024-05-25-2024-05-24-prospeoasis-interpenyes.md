@@ -1,6 +1,7 @@
 ---
 title: 2024-05-24 - Prospeoasis Interpenyes
 date: 2024-05-25T10:17:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-05-24-prospeoasis-interpenyes
 tags:

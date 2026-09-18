@@ -1,6 +1,7 @@
 ---
 title: The Red 'n' the Rotten
 date: 2018-12-16T10:52:00+0100
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: the-red-n-rotten
 tags:

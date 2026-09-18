@@ -1,6 +1,7 @@
 ---
 title: LA CULTURA VA DE FESTA 2019
 date: 2019-05-06T10:49:00+0200
+year: 2019
 author: Pedro Click
 slug: la-cultura-va-de-festa
 tags:

@@ -2,6 +2,7 @@
 title: Àngel Amieva. Figueres Circus Stars. Festival Internacional del Circ Ciutat
   de Figueres 2013
 date: 2014-02-03T23:13:00+0100
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: angel-amieva-figueres-circus-stars
 tags:

@@ -1,6 +1,7 @@
 ---
 title: XXI del Festival de Blues de Barcelona 08/07/2023 ("Vanessa Collie")
 date: 2023-07-09T22:57:00+0200
+year: 2023
 author: Pedro Click
 slug: xxi-del-festival-de-blues-de-barcelona_9
 tags:

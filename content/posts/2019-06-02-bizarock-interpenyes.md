@@ -1,6 +1,7 @@
 ---
 title: Bizarock. Interpenyes
 date: 2019-06-02T21:36:00+0200
+year: 2019
 author: Ismael Utrilla
 slug: bizarock-interpenyes
 tags:

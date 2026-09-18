@@ -1,6 +1,7 @@
 ---
 title: 'Festival de Blues de Barcelona #Bluesalcastell a Torrebaró'
 date: 2017-07-24T18:23:00+0200
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: festival-de-blues-de-barcelona
 tags:

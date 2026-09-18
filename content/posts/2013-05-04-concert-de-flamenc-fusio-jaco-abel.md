@@ -1,6 +1,7 @@
 ---
 title: Concert de Flamenc Fusió - Jaco Abel & Jordi Bonell
 date: 2013-05-04T14:06:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: concert-de-flamenc-fusio-jaco-abel
 tags:

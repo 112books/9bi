@@ -2,6 +2,7 @@
 title: '  Inauguració de la Exposició Fotogràfica "Mercat de Montserrat: La cara oculta"
   de Francesc Barbé'
 date: 2019-09-17T19:26:00+0200
+year: 2019
 author: Pedro Click
 slug: inauguracio-de-la-exposicio-fotografica_17
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Fotografies de tallers del Casal de Barri de Prosperitat, curs 20011/2012
 date: 2012-06-20T23:22:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: fotografies-de-tallers-del-casal-de
 tags:

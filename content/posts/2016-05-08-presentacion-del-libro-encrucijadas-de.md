@@ -1,6 +1,7 @@
 ---
 title: PRESENTACION DEL LIBRO ENCRUCIJADAS DE MAMEN GARGALLO
 date: 2016-05-08T15:18:00+0200
+year: 2016
 author: Pedro Click
 slug: presentacion-del-libro-encrucijadas-de
 tags:

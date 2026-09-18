@@ -1,6 +1,7 @@
 ---
 title: Bricomania; construint una taula de retrat macro
 date: 2013-01-19T01:21:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: bricomania-construint-una-taula-de
 tags:

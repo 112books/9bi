@@ -1,6 +1,7 @@
 ---
 title: Despedida Comunitària !!!
 date: 2018-10-22T22:24:00+0200
+year: 2018
 author: Núria Laura Orbaneja
 slug: despedida-comunitaria
 tags:

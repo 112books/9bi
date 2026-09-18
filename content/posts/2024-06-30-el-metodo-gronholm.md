@@ -1,6 +1,7 @@
 ---
 title: El Método Grönholm
 date: 2024-06-30T10:20:00+0200
+year: 2024
 author: Francesc Barbe
 slug: el-metodo-gronholm
 cover:

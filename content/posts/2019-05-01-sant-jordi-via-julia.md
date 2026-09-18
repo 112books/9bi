@@ -1,6 +1,7 @@
 ---
 title: Sant Jordi a Via Julia.
 date: 2019-05-01T20:54:00+0200
+year: 2019
 author: 9 Barris Imatge
 slug: sant-jordi-via-julia
 tags:

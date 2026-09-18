@@ -1,6 +1,7 @@
 ---
 title: Teatre a la Festa Major de Verdum !!!
 date: 2015-09-17T13:38:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: teatre-la-festa-major-de-verdum_17
 tags:

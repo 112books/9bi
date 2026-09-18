@@ -1,6 +1,7 @@
 ---
 title: Maquetes a l'Arxiu de Roquetes -Nou Barris.
 date: 2019-11-10T20:21:00+0100
+year: 2019
 author: 9 Barris Imatge
 slug: maquetes-larxiu-de-roquetes-nou-barris
 tags:

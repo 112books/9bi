@@ -1,6 +1,7 @@
 ---
 title: Protestes a l'alcalde T-rias
 date: 2014-01-10T17:42:00+0100
+year: 2014
 author: Pedro "Casal" Cervera
 slug: protestes-lalcalde-t-rias
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 2025-01-25 - Tiznao + Fleuves Noirs (Lille) al Casal de Prosperitat
 date: 2025-01-26T11:47:00+0100
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-01-25-tiznao-fleuves-noirs-lille
 tags:

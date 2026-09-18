@@ -1,6 +1,7 @@
 ---
 title: Neu a Prospe!
 date: 2010-03-10T15:19:00+0100
+year: 2010
 author: 9 Barris Imatge
 slug: neu-prospe
 tags:

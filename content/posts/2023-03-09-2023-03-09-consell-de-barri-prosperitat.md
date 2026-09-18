@@ -1,6 +1,7 @@
 ---
 title: 2023-03-09 - Consell de Barri a Prosperitat
 date: 2023-03-09T21:22:00+0100
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-03-09-consell-de-barri-prosperitat
 tags:

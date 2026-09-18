@@ -1,6 +1,7 @@
 ---
 title: Coordinadora residències 5+1.Per un tracte digne.
 date: 2019-05-29T12:45:00+0200
+year: 2019
 author: 9 Barris Imatge
 slug: el-passat-dilluns-27-de-maig-va-tindre
 tags:

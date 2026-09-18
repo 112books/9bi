@@ -1,6 +1,7 @@
 ---
 title: VermutSical Simfònic - Banda Simfònica Roquetes
 date: 2013-10-27T00:00:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-simfonic-banda-simfonica
 tags:

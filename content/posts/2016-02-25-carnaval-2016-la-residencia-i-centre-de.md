@@ -1,6 +1,7 @@
 ---
 title: Carnaval 2016 a la Residència i Centre de Dia Porta
 date: 2016-02-25T22:12:00+0100
+year: 2016
 author: 9 Barris Imatge
 slug: carnaval-2016-la-residencia-i-centre-de
 tags:

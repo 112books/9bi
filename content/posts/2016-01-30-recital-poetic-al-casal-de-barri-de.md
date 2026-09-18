@@ -1,6 +1,7 @@
 ---
 title: Recital poètic al Casal de barri de Prosperitat
 date: 2016-01-30T08:34:00+0100
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: recital-poetic-al-casal-de-barri-de
 tags:

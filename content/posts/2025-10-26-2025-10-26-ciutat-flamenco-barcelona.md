@@ -1,6 +1,7 @@
 ---
 title: 2025-10-26 - Ciutat Flamenco Barcelona –Chicharrón Circo Flamenco
 date: 2025-10-26T23:39:00+0100
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-10-26-ciutat-flamenco-barcelona
 tags:

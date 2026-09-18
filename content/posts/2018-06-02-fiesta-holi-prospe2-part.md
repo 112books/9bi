@@ -1,6 +1,7 @@
 ---
 title: Fiesta Holi Prospe.2 Part
 date: 2018-06-02T11:45:00+0200
+year: 2018
 author: Ismael Utrilla
 slug: fiesta-holi-prospe2-part
 tags:

@@ -1,6 +1,7 @@
 ---
 title: A la Guineueta, amb la Cultura va de Festa 2023
 date: 2023-05-08T08:09:00+0200
+year: 2023
 author: Ismael Utrilla
 slug: a-la-guineueta-amb-la-cultura-va-de
 tags:

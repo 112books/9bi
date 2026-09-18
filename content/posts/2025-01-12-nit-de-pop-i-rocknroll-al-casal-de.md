@@ -1,6 +1,7 @@
 ---
 title: Nit de Pop i Rock’n’Roll al Casal de Barri La Prosperitat
 date: 2025-01-12T23:16:00+0100
+year: 2025
 author: Juan Carlos Molina (Grismedio Casinegro)
 slug: nit-de-pop-i-rocknroll-al-casal-de
 tags:

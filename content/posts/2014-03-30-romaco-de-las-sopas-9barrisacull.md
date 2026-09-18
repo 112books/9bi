@@ -1,6 +1,7 @@
 ---
 title: ROMAÇO DE LAS SOPAS 9barrisacull
 date: 2014-03-30T14:03:00+0200
+year: 2014
 author: Pedro Click
 slug: romaco-de-las-sopas-9barrisacull
 tags:

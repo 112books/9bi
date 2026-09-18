@@ -1,6 +1,7 @@
 ---
 title: Vermusical - Jam Session Festival
 date: 2012-01-08T13:06:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: vermusical-jam-session-festival
 tags:

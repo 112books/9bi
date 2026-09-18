@@ -1,6 +1,7 @@
 ---
 title: Festival de sopas del mundo
 date: 2009-04-03T01:27:00+0200
+year: 2009
 author: Pedro Click
 slug: el-festival-de-la-integracion-este-ano
 tags:

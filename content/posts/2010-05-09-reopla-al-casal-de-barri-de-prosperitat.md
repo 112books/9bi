@@ -1,6 +1,7 @@
 ---
 title: Reopla al Casal de barri de Prosperitat
 date: 2010-05-09T04:06:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: reopla-al-casal-de-barri-de-prosperitat
 tags:

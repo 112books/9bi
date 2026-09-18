@@ -1,6 +1,7 @@
 ---
 title: 'MOTOS, ESCUMA, BALLS DE COLORS... !!!     '
 date: 2014-06-03T21:03:00+0200
+year: 2014
 author: 9 Barris Imatge
 slug: motos-escuma-balls-de-colors
 tags:

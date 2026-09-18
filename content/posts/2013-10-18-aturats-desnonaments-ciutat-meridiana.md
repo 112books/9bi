@@ -1,6 +1,7 @@
 ---
 title: Aturats desnonaments a Ciutat Meridiana
 date: 2013-10-18T16:34:00+0200
+year: 2013
 author: Pedro "Casal" Cervera
 slug: aturats-desnonaments-ciutat-meridiana
 tags:

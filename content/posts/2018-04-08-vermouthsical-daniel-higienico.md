@@ -1,6 +1,7 @@
 ---
 title: 'VermouthSical Daniel Higienico '
 date: 2018-04-08T09:57:00+0200
+year: 2018
 author: Ismael Utrilla
 slug: vermouthsical-daniel-higienico
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Newroz a Barcelona
 date: 2018-03-17T13:42:00+0100
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: newroz-barcelona
 tags:

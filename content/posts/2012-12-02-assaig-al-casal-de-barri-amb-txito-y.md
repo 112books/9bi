@@ -2,6 +2,7 @@
 title: Assaig al Casal de Barri amb Txito y Estibaliz, Eso é!, Los Morositos, The
   Sustanciados, Bald's Band, i Inmortales Band
 date: 2012-12-02T15:55:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: assaig-al-casal-de-barri-amb-txito-y
 tags:

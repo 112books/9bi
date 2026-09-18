@@ -1,6 +1,7 @@
 ---
 title: Carnastoltes 2020 Tarde
 date: 2020-02-23T13:42:00+0100
+year: 2020
 author: Pedro Click
 slug: canastoltes-2020-tarde
 tags:

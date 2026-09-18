@@ -1,6 +1,7 @@
 ---
 title: hip hop a la 30 festa major de prospe
 date: 2008-06-14T14:37:00+0200
+year: 2008
 author: Pedro "Casal" Cervera
 slug: hip-hop-la-30-festa-major-de-prospe
 tags:

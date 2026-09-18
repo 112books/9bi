@@ -1,6 +1,7 @@
 ---
 title: Prospe Beach 2016 - 4x4, el gran dia
 date: 2016-07-10T10:31:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: prospe-beach-2016-4x4-el-gran-dia
 tags:

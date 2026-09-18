@@ -1,6 +1,7 @@
 ---
 title: Trobada Nacional de Gegants 2024
 date: 2024-04-28T22:58:00+0200
+year: 2024
 author: Iozsef Kiss
 slug: trobada-nacional-de-gegants-2024
 tags:

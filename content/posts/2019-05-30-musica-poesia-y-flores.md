@@ -1,6 +1,7 @@
 ---
 title: MUSICA POESIA Y FLORES
 date: 2019-05-30T21:28:00+0200
+year: 2019
 author: Pedro Click
 slug: musica-poesia-y-flores
 tags:

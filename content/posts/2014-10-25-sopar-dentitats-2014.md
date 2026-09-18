@@ -1,6 +1,7 @@
 ---
 title: Sopar d'entitats 2014
 date: 2014-10-25T10:38:00+0200
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: sopar-dentitats-2014
 tags:

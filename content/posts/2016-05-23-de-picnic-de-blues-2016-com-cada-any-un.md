@@ -1,6 +1,7 @@
 ---
 title: Pícnic de Blues 2016 (passat per aigua!)
 date: 2016-05-23T12:17:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: de-picnic-de-blues-2016-com-cada-any-un
 tags:

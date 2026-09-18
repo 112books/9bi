@@ -1,6 +1,7 @@
 ---
 title: Llille 2009 - making off
 date: 2009-05-04T20:41:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: llille-2009-making-off
 tags:

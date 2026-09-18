@@ -1,6 +1,7 @@
 ---
 title: Fira d'Abril de Prosperitat - Diumenge
 date: 2012-04-22T20:43:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: fira-dabril-de-prosperitat-diumenge
 tags:

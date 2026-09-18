@@ -1,6 +1,7 @@
 ---
 title: Taller de MEMORIA al Casal d'Avis de ROQUETES .
 date: 2015-03-27T01:18:00+0100
+year: 2015
 author: 9 Barris Imatge
 slug: taller-de-memoria-al-casal-davis-de
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Gardi Hutter. Joana d´Arc . FestivalCòmic de Figueres
 date: 2009-05-09T19:44:00+0200
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: gardi-hutter-joana-darc-festivalcomic
 tags:

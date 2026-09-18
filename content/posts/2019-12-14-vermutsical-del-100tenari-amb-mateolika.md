@@ -1,6 +1,7 @@
 ---
 title: Vermutsical del 100tenari amb Mateolika
 date: 2019-12-14T20:40:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-del-100tenari-amb-mateolika
 tags:

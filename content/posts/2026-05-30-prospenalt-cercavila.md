@@ -1,6 +1,7 @@
 ---
 title: ' Cercavila'
 date: 2026-05-30T18:40:10+0200
+year: 2026
 author: Francesc Barbe
 slug: prospenalt-cercavila
 tags:

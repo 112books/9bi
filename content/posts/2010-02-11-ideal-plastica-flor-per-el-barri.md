@@ -1,6 +1,7 @@
 ---
 title: Ideal Plàstica Flor per el Barri, segona part
 date: 2010-02-11T15:06:00+0100
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: ideal-plastica-flor-per-el-barri
 tags:

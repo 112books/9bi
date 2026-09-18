@@ -1,6 +1,7 @@
 ---
 title: 2025-05-31 - Festes de Prosperitat - Segon dissabte
 date: 2025-06-19T14:45:00+0200
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-05-31-festes-de-prosperitat-segon
 tags:

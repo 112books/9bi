@@ -1,6 +1,7 @@
 ---
 title: Fútbol Banco 2016
 date: 2016-06-04T15:44:00+0200
+year: 2016
 author: Alberto Sanagustín
 slug: futbol-banco-1-part
 tags:

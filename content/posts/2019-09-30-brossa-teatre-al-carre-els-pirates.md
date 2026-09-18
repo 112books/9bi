@@ -1,6 +1,7 @@
 ---
 title: BROSSA, teatre al carre -   Els Pirates teatre
 date: 2019-09-30T12:41:00+0200
+year: 2019
 author: Pedro Click
 slug: brossa-teatre-al-carre-els-pirates
 tags:

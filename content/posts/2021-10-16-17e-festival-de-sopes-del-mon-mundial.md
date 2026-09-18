@@ -1,6 +1,7 @@
 ---
 title: 17è Festival de Sopes del Món Mundial.
 date: 2021-10-16T16:13:00+0200
+year: 2021
 author: Núria Laura Orbaneja
 slug: 17e-festival-de-sopes-del-mon-mundial
 tags:

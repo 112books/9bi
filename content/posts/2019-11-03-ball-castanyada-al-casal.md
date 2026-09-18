@@ -1,6 +1,7 @@
 ---
 title: Ball Castanyada al casal
 date: 2019-11-03T13:41:00+0100
+year: 2019
 author: Ismael Utrilla
 slug: ball-castanyada-al-casal
 tags:

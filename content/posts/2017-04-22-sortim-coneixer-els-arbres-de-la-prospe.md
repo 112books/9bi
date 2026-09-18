@@ -1,6 +1,7 @@
 ---
 title: Sortim a conèixer els arbres de La Prospe!!
 date: 2017-04-22T21:08:00+0200
+year: 2017
 author: Alberto Sanagustín
 slug: sortim-coneixer-els-arbres-de-la-prospe
 tags:

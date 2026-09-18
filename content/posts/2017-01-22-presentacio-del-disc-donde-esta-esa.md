@@ -1,6 +1,7 @@
 ---
 title: Presentació del Disc – Dónde esta esa mugre – Ultimos de Cuba
 date: 2017-01-22T10:53:00+0100
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-del-disc-donde-esta-esa
 tags:

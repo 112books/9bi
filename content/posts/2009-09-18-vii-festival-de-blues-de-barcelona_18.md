@@ -2,6 +2,7 @@
 title: VII Festival de Blues de Barcelona - Presentació del disc "7 NIGHTS AT CENTRAL"
   de Lluís Coloma Trio
 date: 2009-09-18T12:03:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: vii-festival-de-blues-de-barcelona_18
 tags:

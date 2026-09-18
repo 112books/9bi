@@ -1,6 +1,7 @@
 ---
 title: Sopes cabrejades 2013
 date: 2013-03-17T20:45:00+0100
+year: 2013
 author: Pedro "Casal" Cervera
 slug: sopes-cabrejades-2013
 tags:

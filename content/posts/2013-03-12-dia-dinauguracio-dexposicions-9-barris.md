@@ -1,6 +1,7 @@
 ---
 title: Dia d'inauguració d'Exposicions a 9 Barris
 date: 2013-03-12T11:55:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: dia-dinauguracio-dexposicions-9-barris
 tags:

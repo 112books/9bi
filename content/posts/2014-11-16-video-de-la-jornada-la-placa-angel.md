@@ -1,6 +1,7 @@
 ---
 title: Video de la jornada a la Plaça Ángel Pestaña
 date: 2014-11-16T19:52:00+0100
+year: 2014
 author: Alberto Sanagustín
 slug: video-de-la-jornada-la-placa-angel
 tags:

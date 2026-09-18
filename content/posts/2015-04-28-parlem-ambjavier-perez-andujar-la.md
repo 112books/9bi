@@ -1,6 +1,7 @@
 ---
 title: PARLEM AMB...JAVIER PÉREZ ANDÚJAR A LA BIBLIOTECA LES ROQUETES.
 date: 2015-04-28T00:48:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: parlem-ambjavier-perez-andujar-la
 tags:

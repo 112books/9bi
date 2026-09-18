@@ -2,6 +2,7 @@
 title: 'Dissabte a la Prospe: Teatre itinerant amb la Cia Pirates, La Jam del Prospe-Rock
   i Prospe Rock 2019 – 100 Tacos de la Prospe'
 date: 2019-09-30T18:32:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: dissabte-la-prospe-teatre-itinerant-amb
 tags:

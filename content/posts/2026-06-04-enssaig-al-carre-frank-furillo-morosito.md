@@ -2,6 +2,7 @@
 title: 'Assaig al carrer: Frank furillo, Morosito, Improviciaos, Monterey Blues Band
   31-05-2026'
 date: 2026-06-04T12:12:37+0200
+year: 2026
 author: Pedro Click
 slug: enssaig-al-carre-frank-furillo-morosito
 tags:

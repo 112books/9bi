@@ -1,6 +1,7 @@
 ---
 title: La Cultura va de Festa 2009, dia festiu al parc de la Guineueta
 date: 2009-05-11T11:44:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: la-cultura-va-de-festa-2009-dia-festiu
 tags:

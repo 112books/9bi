@@ -1,6 +1,7 @@
 ---
 title: Inauguración de "Històries dels 80 a BCN-9Barris" al "Arxiu Històric de R-NB"
 date: 2019-12-01T21:22:00+0100
+year: 2019
 author: 9 Barris Imatge
 slug: hasta-el-8-de-enero-se-puede-visitar
 tags:

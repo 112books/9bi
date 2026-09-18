@@ -1,6 +1,7 @@
 ---
 title: Operación Solete a Roquetes.
 date: 2018-07-03T13:11:00+0200
+year: 2018
 author: 9 Barris Imatge
 slug: arrancaoperacion-solete-roquetes
 tags:

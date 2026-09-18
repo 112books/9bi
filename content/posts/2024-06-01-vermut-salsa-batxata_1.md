@@ -1,6 +1,7 @@
 ---
 title: Vermut salsa batxata
 date: 2024-06-01T18:22:00+0200
+year: 2024
 author: Francesc Barbe
 slug: vermut-salsa-batxata_1
 tags:

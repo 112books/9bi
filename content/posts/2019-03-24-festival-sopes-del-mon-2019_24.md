@@ -1,6 +1,7 @@
 ---
 title: Festival Sopes del Món 2019
 date: 2019-03-24T22:46:00+0100
+year: 2019
 author: 9 Barris Imatge
 slug: festival-sopes-del-mon-2019_24
 tags:

@@ -1,6 +1,7 @@
 ---
 title: FBB - Dissabte al Parc Central de 9 Barris
 date: 2015-07-11T17:57:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: fbb-dissabte-al-parc-central-de-9-barris
 tags:

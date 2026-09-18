@@ -2,6 +2,7 @@
 title: Presentació del llibre "Harry Walker, lluita obrera victòria veïnal" al Casal
   de barri de Prosperitat
 date: 2019-03-30T00:59:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-del-llibre-harry-walker
 tags:

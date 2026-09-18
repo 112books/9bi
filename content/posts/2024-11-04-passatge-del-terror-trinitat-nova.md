@@ -1,6 +1,7 @@
 ---
 title: Passatge del terror Trinitat Nova
 date: 2024-11-04T22:32:00+0100
+year: 2024
 author: Iozsef Kiss
 slug: passatge-del-terror-trinitat-nova
 tags:

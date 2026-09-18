@@ -1,6 +1,7 @@
 ---
 title: 5è aniversari Date una huerta amb "Aura" amb Monique Makon i Clara Martin
 date: 2021-10-24T19:22:00+0200
+year: 2021
 author: Joan "Linux" Martínez i Serres
 slug: 5e-aniversari-date-una-huerta-amb-aura
 tags:

@@ -1,6 +1,7 @@
 ---
 title: XIX Edició del Concurs de Fotografía Josep Antón Cordoncillo
 date: 2013-10-31T15:54:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: xix-edicio-del-concurs-de-fotografia
 tags:

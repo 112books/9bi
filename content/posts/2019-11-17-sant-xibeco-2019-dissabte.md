@@ -1,6 +1,7 @@
 ---
 title: Sant Xibeco 2019 – Dissabte
 date: 2019-11-17T19:20:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: sant-xibeco-2019-dissabte
 tags:

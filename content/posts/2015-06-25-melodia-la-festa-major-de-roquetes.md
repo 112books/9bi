@@ -1,6 +1,7 @@
 ---
 title: MELODIA A LA FESTA MAJOR DE ROQUETES !!!
 date: 2015-06-25T17:02:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: melodia-la-festa-major-de-roquetes
 tags:

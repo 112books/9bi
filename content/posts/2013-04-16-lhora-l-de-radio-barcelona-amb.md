@@ -1,6 +1,7 @@
 ---
 title: 'L''hora L de Radio Barcelona amb #9barrisCabrejada'
 date: 2013-04-16T23:53:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: lhora-l-de-radio-barcelona-amb
 tags:

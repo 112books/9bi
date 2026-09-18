@@ -1,6 +1,7 @@
 ---
 title: La "Feria d'Abril" invaeix el barri!
 date: 2008-04-12T18:46:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: la-feria-dabril-invaeix-el-barri
 tags:

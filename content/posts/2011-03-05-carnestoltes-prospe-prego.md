@@ -1,6 +1,7 @@
 ---
 title: Carnestoltes a Prospe - Pregó
 date: 2011-03-05T03:40:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: carnestoltes-prospe-prego
 tags:

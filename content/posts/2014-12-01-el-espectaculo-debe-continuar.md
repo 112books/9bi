@@ -1,6 +1,7 @@
 ---
 title: El espectáculo debe continuar !!!
 date: 2014-12-01T17:30:00+0100
+year: 2014
 author: 9 Barris Imatge
 slug: el-espectaculo-debe-continuar
 tags:

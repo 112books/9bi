@@ -1,6 +1,7 @@
 ---
 title: TOSCANAlll
 date: 2012-08-22T21:28:00+0200
+year: 2012
 author: Pedro Click
 slug: toscanalll
 tags:

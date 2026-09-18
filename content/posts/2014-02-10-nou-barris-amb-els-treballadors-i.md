@@ -1,6 +1,7 @@
 ---
 title: Nou Barris amb els treballadors i treballadores de Panrico
 date: 2014-02-10T09:07:00+0100
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: nou-barris-amb-els-treballadors-i
 tags:

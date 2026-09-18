@@ -1,6 +1,7 @@
 ---
 title: Tancament de 9 Barris Acull
 date: 2024-10-18T18:24:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: tancament-de-9-barris-acull
 tags:

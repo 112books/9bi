@@ -1,6 +1,7 @@
 ---
 title: Phat Fred. 9b in black! Casal Prospe
 date: 2011-02-10T12:19:00+0100
+year: 2011
 author: Manel Sala "Ulls" Circ
 slug: phat-fred-9b-in-black-casal-prospe
 tags:

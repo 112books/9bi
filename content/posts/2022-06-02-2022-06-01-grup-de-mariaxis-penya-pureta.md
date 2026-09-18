@@ -1,6 +1,7 @@
 ---
 title: 2022-06-01 - Grup de Mariaxis - Penya Pureta
 date: 2022-06-02T09:34:00+0200
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: 2022-06-01-grup-de-mariaxis-penya-pureta
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat - dimecres
 date: 2012-05-30T17:30:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-dimecres
 tags:

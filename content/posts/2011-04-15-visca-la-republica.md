@@ -1,6 +1,7 @@
 ---
 title: Visca la República!!
 date: 2011-04-15T05:14:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: visca-la-republica
 tags:

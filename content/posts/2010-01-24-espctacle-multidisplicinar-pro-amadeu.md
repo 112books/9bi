@@ -1,6 +1,7 @@
 ---
 title: Espctacle multidisplicinar pro-Amadeu Casellas
 date: 2010-01-24T16:12:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: espctacle-multidisplicinar-pro-amadeu
 tags:

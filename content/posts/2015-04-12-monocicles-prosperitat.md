@@ -1,6 +1,7 @@
 ---
 title: Monocicles a Prosperitat
 date: 2015-04-12T19:45:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: monocicles-prosperitat
 tags:

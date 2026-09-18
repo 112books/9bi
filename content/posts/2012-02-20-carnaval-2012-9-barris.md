@@ -1,6 +1,7 @@
 ---
 title: Carnaval 2012 . 9 Barris
 date: 2012-02-20T15:46:00+0100
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: carnaval-2012-9-barris
 tags:

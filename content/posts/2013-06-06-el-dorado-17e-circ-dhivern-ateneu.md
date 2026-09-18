@@ -1,6 +1,7 @@
 ---
 title: El Dorado, 17è Circ d’Hivern. Ateneu Popular 9 Barris
 date: 2013-06-06T23:13:00+0200
+year: 2013
 author: Manel Sala "Ulls" Circ
 slug: el-dorado-17e-circ-dhivern-ateneu
 tags:

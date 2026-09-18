@@ -1,6 +1,7 @@
 ---
 title: Festival de Blues de Barcelona 2019 – Dissabte 13
 date: 2019-07-15T10:41:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: festival-de-blues-de-barcelona-2019_15
 tags:

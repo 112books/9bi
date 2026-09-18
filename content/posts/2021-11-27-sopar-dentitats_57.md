@@ -1,6 +1,7 @@
 ---
 title: Sopar d´Entitats
 date: 2021-11-27T12:08:00+0100
+year: 2021
 author: Francesc Barbe
 slug: sopar-dentitats_57
 tags:

@@ -1,6 +1,7 @@
 ---
 title: The Sustanciaos
 date: 2016-03-20T17:35:00+0100
+year: 2016
 author: Pedro Click
 slug: the-sustanciaos
 tags:

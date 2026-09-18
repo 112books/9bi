@@ -1,6 +1,7 @@
 ---
 title: Campanya de recollida de joguines a Prosperitat
 date: 2013-01-06T11:17:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: campanya-de-recollida-de-joguines
 tags:

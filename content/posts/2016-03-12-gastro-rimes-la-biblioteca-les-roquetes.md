@@ -1,6 +1,7 @@
 ---
 title: Gastro - Rimes a la Biblioteca Les Roquetes.
 date: 2016-03-12T21:05:00+0100
+year: 2016
 author: 9 Barris Imatge
 slug: gastro-rimes-la-biblioteca-les-roquetes
 tags:

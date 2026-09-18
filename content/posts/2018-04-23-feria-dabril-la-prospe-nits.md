@@ -1,6 +1,7 @@
 ---
 title: Feria d’Abril a la Prospe – nits
 date: 2018-04-23T00:03:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: feria-dabril-la-prospe-nits
 tags:

@@ -1,6 +1,7 @@
 ---
 title: L'arxiu de Roquetes-Nou Barris, any dedicat als socis !!!
 date: 2016-07-16T18:01:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: larxiu-de-roquetes-nou-barris-any
 tags:

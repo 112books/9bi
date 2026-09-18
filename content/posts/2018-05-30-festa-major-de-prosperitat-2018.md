@@ -1,6 +1,7 @@
 ---
 title: Festa Major de  Prosperitat 2018 - divendres 25 - dissabte 26 - diumenge 27
 date: 2018-05-30T13:22:00+0200
+year: 2018
 author: Manel Sala "Ulls" Circ
 slug: festa-major-de-prosperitat-2018
 tags:

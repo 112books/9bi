@@ -1,6 +1,7 @@
 ---
 title: Desallotjament (intent) de 3 Voltes Rebel (Prosperitat)
 date: 2011-09-26T17:50:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: desallotjament-intent-de-3-voltes-rebel
 tags:

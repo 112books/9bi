@@ -1,6 +1,7 @@
 ---
 title: 2024-05-18 - Presentació del diari de Festes
 date: 2024-05-19T10:13:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-05-18-presentacio-del-diari-de
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 2024-10-13 - 70 anys de Bodega Eduardo
 date: 2024-10-13T19:06:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-10-13-70-anys-de-bodega-eduardo
 tags:

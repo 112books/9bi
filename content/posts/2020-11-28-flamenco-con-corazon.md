@@ -1,6 +1,7 @@
 ---
 title: Flamenco con Corazón - Cesc Barbe
 date: 2020-11-28T20:24:00+0100
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: flamenco-con-corazon
 tags:

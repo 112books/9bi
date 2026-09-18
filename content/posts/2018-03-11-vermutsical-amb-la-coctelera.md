@@ -1,6 +1,7 @@
 ---
 title: Vermutsical amb “La Coctelera”
 date: 2018-03-11T07:39:00+0100
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-la-coctelera
 tags:

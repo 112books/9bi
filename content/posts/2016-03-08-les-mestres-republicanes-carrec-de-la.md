@@ -1,6 +1,7 @@
 ---
 title: Les mestres republicanes a càrrec de la Rosa Solà.
 date: 2016-03-08T21:53:00+0100
+year: 2016
 author: 9 Barris Imatge
 slug: les-mestres-republicanes-carrec-de-la
 tags:

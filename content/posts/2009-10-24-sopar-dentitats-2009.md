@@ -1,6 +1,7 @@
 ---
 title: Sopar d'entitats 2009
 date: 2009-10-24T15:37:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: sopar-dentitats-2009
 tags:

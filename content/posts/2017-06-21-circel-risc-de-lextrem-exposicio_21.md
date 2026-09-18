@@ -1,6 +1,7 @@
 ---
 title: Circ:El risc de l´extrem . Exposició Fotogràfica
 date: 2017-06-21T12:22:00+0200
+year: 2017
 author: Manel Sala "Ulls" Circ
 slug: circel-risc-de-lextrem-exposicio_21
 tags:

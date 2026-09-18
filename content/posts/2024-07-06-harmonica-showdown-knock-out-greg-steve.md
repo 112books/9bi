@@ -1,6 +1,7 @@
 ---
 title: Harmonica Showdown-Knock Out Greg Steve Weston, Sweet Marta
 date: 2024-07-06T13:15:00+0200
+year: 2024
 author: Francesc Barbe
 slug: harmonica-showdown-knock-out-greg-steve
 tags:

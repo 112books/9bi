@@ -1,6 +1,7 @@
 ---
 title: George Bedard. 8è Festival de Blues de Barcelona 2010
 date: 2010-09-26T19:08:00+0200
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: george-bedard-8e-festival-de-blues-de
 tags:

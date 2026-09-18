@@ -1,6 +1,7 @@
 ---
 title: Sense títol
 date: 2010-07-18T04:35:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: concert-premi-arbusto-amb-steelforce-el
 tags:

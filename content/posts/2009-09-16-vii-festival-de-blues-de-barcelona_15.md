@@ -1,6 +1,7 @@
 ---
 title: VII Festival de Blues de Barcelona - Visita a la Model
 date: 2009-09-16T01:49:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: vii-festival-de-blues-de-barcelona_15
 tags:

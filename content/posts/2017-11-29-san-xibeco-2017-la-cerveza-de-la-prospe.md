@@ -1,6 +1,7 @@
 ---
 title: San Xibeco 2017-la cerveza de la Prospe
 date: 2017-11-29T20:17:00+0100
+year: 2017
 author: Ismael Utrilla
 slug: san-xibeco-2017-la-cerveza-de-la-prospe
 tags:

@@ -1,6 +1,7 @@
 ---
 title: MÉS QUE LIRICA vol.2
 date: 2025-04-23T11:26:00+0200
+year: 2025
 author: Iozsef Kiss
 slug: mes-que-lirica-vol2
 tags:

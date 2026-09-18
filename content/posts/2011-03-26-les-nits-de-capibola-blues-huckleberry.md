@@ -1,6 +1,7 @@
 ---
 title: Les Nits de Capibola Blues - Huckleberry Finn
 date: 2011-03-26T19:58:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: les-nits-de-capibola-blues-huckleberry
 tags:

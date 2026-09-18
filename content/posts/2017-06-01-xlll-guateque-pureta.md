@@ -1,6 +1,7 @@
 ---
 title: Xlll GUATEQUE PURETA
 date: 2017-06-01T22:16:00+0200
+year: 2017
 author: Pedro Click
 slug: xlll-guateque-pureta
 cover:

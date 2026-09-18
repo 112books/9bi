@@ -1,6 +1,7 @@
 ---
 title: 3er aniversari "Date una Huerta"
 date: 2019-10-20T12:25:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: 3er-aniversari-date-una-huerta
 tags:

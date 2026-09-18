@@ -1,6 +1,7 @@
 ---
 title: Festival de Sopes del Món 2012. 9 Barris. Barcelona
 date: 2012-03-26T13:16:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: festival-de-sopes-del-mon-2012-9-barris
 tags:

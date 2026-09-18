@@ -1,6 +1,7 @@
 ---
 title: Audiència pública a Nou Barris
 date: 2014-12-10T09:09:00+0100
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: audiencia-publica-nou-barris
 tags:

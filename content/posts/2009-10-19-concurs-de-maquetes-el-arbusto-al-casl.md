@@ -1,6 +1,7 @@
 ---
 title: Concurs de maquetes "El Arbusto" al Casl de Barri de Prosperitat
 date: 2009-10-19T10:02:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: concurs-de-maquetes-el-arbusto-al-casl
 tags:

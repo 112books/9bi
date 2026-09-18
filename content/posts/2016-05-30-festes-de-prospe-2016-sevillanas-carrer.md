@@ -1,6 +1,7 @@
 ---
 title: Festes de Prospe 2016 - Sevillanas Carrer Flordeneu
 date: 2016-05-30T15:00:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe-2016-sevillanas-carrer
 tags:

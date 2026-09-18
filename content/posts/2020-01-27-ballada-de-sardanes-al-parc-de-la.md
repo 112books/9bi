@@ -1,6 +1,7 @@
 ---
 title: Ballada de sardanes al Parc de la Guinaueta.
 date: 2020-01-27T21:01:00+0100
+year: 2020
 author: 9 Barris Imatge
 slug: ballada-de-sardanes-al-parc-de-la
 tags:

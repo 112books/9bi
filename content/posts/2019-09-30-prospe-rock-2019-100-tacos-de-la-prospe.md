@@ -1,6 +1,7 @@
 ---
 title: Prospe Rock 2019 - 100 Tacos de la Prospe
 date: 2019-09-30T12:52:00+0200
+year: 2019
 author: Pedro Click
 slug: prospe-rock-2019-100-tacos-de-la-prospe
 tags:

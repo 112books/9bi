@@ -1,6 +1,7 @@
 ---
 title: Escola de Circ Rogelio Rivel. Curtcirckit 2012
 date: 2012-06-07T13:19:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: escola-de-circ-rogelio-rivel
 tags:

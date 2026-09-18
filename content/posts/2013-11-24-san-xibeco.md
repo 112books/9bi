@@ -1,6 +1,7 @@
 ---
 title: SAN XIBECO
 date: 2013-11-24T21:26:00+0100
+year: 2013
 author: Pedro Click
 slug: san-xibeco
 tags:

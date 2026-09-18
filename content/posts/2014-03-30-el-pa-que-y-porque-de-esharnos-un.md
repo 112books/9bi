@@ -1,6 +1,7 @@
 ---
 title: El Pa Qué y Porque de Esharnos un Cantecito y un Bailesito
 date: 2014-03-30T18:36:00+0200
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: el-pa-que-y-porque-de-esharnos-un
 tags:

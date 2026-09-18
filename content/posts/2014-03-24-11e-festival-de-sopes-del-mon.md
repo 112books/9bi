@@ -1,6 +1,7 @@
 ---
 title: 11è Festival de Sopes del Món
 date: 2014-03-24T00:27:00+0100
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: 11e-festival-de-sopes-del-mon
 tags:

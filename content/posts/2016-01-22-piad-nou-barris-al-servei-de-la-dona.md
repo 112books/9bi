@@ -1,6 +1,7 @@
 ---
 title: PIAD NOU BARRIS al servei de la dona.
 date: 2016-01-22T01:39:00+0100
+year: 2016
 author: 9 Barris Imatge
 slug: piad-nou-barris-al-servei-de-la-dona
 tags:

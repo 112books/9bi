@@ -1,6 +1,7 @@
 ---
 title: Vermut si cal "Quartet de Saxos" 19/02/11
 date: 2011-03-26T20:50:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: vermut-si-cal-quartet-de-saxos-190211
 tags:

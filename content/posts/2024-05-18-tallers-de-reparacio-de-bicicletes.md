@@ -1,6 +1,7 @@
 ---
 title: Tallers de reparació de bicicletes
 date: 2024-05-18T16:05:00+0200
+year: 2024
 author: Francesc Barbe
 slug: tallers-de-reparacio-de-bicicletes
 tags:

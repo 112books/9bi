@@ -1,6 +1,7 @@
 ---
 title: Jornades 9 Barris Acull - Amb els tòpics ens la juguem!
 date: 2010-11-28T15:44:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: jornades-9-barris-acull-amb-els-topics
 tags:

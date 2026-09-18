@@ -1,6 +1,7 @@
 ---
 title: 2024-07-18 - Música a la Fresca - Miguel Talavera i Javier Mur
 date: 2024-07-19T10:21:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-07-18-musica-la-fresca-miguel
 tags:

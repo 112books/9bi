@@ -1,6 +1,7 @@
 ---
 title: Prospebeach 2018. Voley playa & Barbacoas al carrer
 date: 2018-07-15T21:09:00+0200
+year: 2018
 author: Ismael Utrilla
 slug: prospebeach-2018-voley-playa-barbacoas
 tags:

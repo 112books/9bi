@@ -1,6 +1,7 @@
 ---
 title: 2025-02-25 Maruja Ruiz Martos, la veritable història del 47
 date: 2025-02-26T17:01:00+0100
+year: 2025
 author: Juan Carlos Molina (Grismedio Casinegro)
 slug: maruja-ruiz-martos-la-veritable
 cover:

@@ -1,6 +1,7 @@
 ---
 title: Festes de Prospe 2008 - Dissabte 31
 date: 2008-06-02T10:20:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe-2008-dissabte-31
 tags:

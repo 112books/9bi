@@ -1,6 +1,7 @@
 ---
 title: Manifestació "Defensem la vida associativa a Nou Barris; Prou!"
 date: 2009-11-21T11:29:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: manifestacio-defensem-la-vida
 tags:

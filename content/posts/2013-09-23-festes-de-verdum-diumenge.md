@@ -1,6 +1,7 @@
 ---
 title: Festes de Verdum - diumenge
 date: 2013-09-23T22:52:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-verdum-diumenge
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Presentació del diari de festes i concert "40 anys fent música al barri"
 date: 2018-05-20T14:11:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-del-diari-de-festes-i
 tags:

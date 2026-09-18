@@ -1,6 +1,7 @@
 ---
 title: Comença la festa. 40 Festa Major de Prosperiat 2018
 date: 2018-05-21T19:12:00+0200
+year: 2018
 author: Manel Sala "Ulls" Circ
 slug: comenca-la-festa-40-festa-major-de
 tags:

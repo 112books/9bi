@@ -1,6 +1,7 @@
 ---
 title: FERIA DE ABRIL CASAL DE JOVES PROSPERITAT 2022
 date: 2022-04-29T16:34:00+0200
+year: 2022
 author: Pedro Click
 slug: feria-de-abril-casal-de-joves
 tags:

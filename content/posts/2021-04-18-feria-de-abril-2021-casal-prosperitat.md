@@ -1,6 +1,7 @@
 ---
 title: FERIA DE ABRIL 2021 CASAL PROSPERITAT 2021
 date: 2021-04-18T12:25:00+0200
+year: 2021
 author: Pedro Click
 slug: feria-de-abril-2021-casal-prosperitat
 tags:

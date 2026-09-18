@@ -1,6 +1,7 @@
 ---
 title: 2023-05-28 - Festa major de Prosperitat – Diumenge
 date: 2023-05-29T11:38:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-05-28-festa-major-de-prosperitat
 tags:

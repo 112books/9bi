@@ -1,6 +1,7 @@
 ---
 title: 2023-05-27 - Festa major de Prosperitat - dissabte matí
 date: 2023-05-27T16:36:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-05-27-festa-major-de-prosperitat
 tags:

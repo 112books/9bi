@@ -1,6 +1,7 @@
 ---
 title: Musica participativa - maig
 date: 2013-05-18T03:42:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: musica-participativa-maig
 tags:

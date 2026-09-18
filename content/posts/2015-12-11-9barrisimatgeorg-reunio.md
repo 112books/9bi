@@ -1,6 +1,7 @@
 ---
 title: 9BarrisImatge.org reunió
 date: 2015-12-11T11:14:00+0100
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: 9barrisimatgeorg-reunio
 tags:

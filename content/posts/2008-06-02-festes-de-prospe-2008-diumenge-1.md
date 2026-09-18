@@ -1,6 +1,7 @@
 ---
 title: Festes de Prospe 2008 - Diumenge 1
 date: 2008-06-02T11:02:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe-2008-diumenge-1
 tags:

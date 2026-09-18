@@ -1,6 +1,7 @@
 ---
 title: Programa Sant Xibeco 2010!!
 date: 2010-11-16T14:32:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: programa-sant-xibeco-2010
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 2025-11-01 – Passatge del Terror
 date: 2025-11-02T11:32:00+0100
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-11-01-passatge-del-terror
 tags:

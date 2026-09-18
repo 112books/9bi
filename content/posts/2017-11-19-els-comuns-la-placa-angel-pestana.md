@@ -1,6 +1,7 @@
 ---
 title: ELS COMUNS A LA PLAÇA ANGEL PESTAÑA
 date: 2017-11-19T21:39:00+0100
+year: 2017
 author: Alberto Sanagustín
 slug: els-comuns-la-placa-angel-pestana
 tags:

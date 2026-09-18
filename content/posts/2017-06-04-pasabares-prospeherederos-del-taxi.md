@@ -1,6 +1,7 @@
 ---
 title: Pasabares Prospe.Herederos del Taxi
 date: 2017-06-04T19:20:00+0200
+year: 2017
 author: Ismael Utrilla
 slug: pasabares-prospeherederos-del-taxi
 tags:

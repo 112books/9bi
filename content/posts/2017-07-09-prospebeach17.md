@@ -1,6 +1,7 @@
 ---
 title: PROSPEBEACH 2017
 date: 2017-07-09T11:34:00+0200
+year: 2017
 author: Pedro Click
 slug: prospebeach17
 tags:

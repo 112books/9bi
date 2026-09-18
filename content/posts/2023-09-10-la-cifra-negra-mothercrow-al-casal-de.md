@@ -1,6 +1,7 @@
 ---
 title: La Cifra Negra & The Mothercrow al Casal de Prosperitat
 date: 2023-09-10T13:52:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: la-cifra-negra-mothercrow-al-casal-de
 tags:

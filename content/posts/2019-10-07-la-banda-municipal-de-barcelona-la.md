@@ -1,6 +1,7 @@
 ---
 title: La Banda Municipal de Barcelona-La Banda al centenari del barri de la Prosperitat
 date: 2019-10-07T12:27:00+0200
+year: 2019
 author: Pedro Click
 slug: la-banda-municipal-de-barcelona-la
 tags:

@@ -2,6 +2,7 @@
 title: 2024-11-08 – Flamenco de barrio – Un passeig per l’univers de Morente al Casal
   de barri de Prosperitat
 date: 2024-11-12T23:12:00+0100
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-11-08-flamenco-de-barrio-un
 tags:

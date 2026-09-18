@@ -1,6 +1,7 @@
 ---
 title: LES HAVANERES
 date: 2008-05-11T22:20:00+0200
+year: 2008
 author: Pedro "Casal" Cervera
 slug: les-havaneres
 tags:

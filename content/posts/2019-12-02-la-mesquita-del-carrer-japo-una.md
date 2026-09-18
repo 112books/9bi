@@ -2,6 +2,7 @@
 title: 'La mesquita del carrer Japó: una experiència col.lectiva cap a la convivència
   en la diversitat'
 date: 2019-12-02T18:02:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: la-mesquita-del-carrer-japo-una
 tags:

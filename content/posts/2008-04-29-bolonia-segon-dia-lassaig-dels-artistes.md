@@ -1,6 +1,7 @@
 ---
 title: Bolonia, segon dia - A l'assaig dels artistes
 date: 2008-04-29T12:54:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: bolonia-segon-dia-lassaig-dels-artistes
 tags:

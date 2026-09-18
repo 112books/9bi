@@ -1,6 +1,7 @@
 ---
 title: The Suitcase Brothers a Les Basses
 date: 2008-03-29T12:30:00+0100
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: suitcase-brothers-les-basses
 tags:

@@ -1,6 +1,7 @@
 ---
 title: VIDEO DEL CORREFOC I EL PIROMUSICAL
 date: 2018-06-05T23:44:00+0200
+year: 2018
 author: Alberto Sanagustín
 slug: video-del-correfoc-i-el-piromusical
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Vermutsical Willy Fuego
 date: 2017-02-12T12:41:00+0100
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-willy-fuego
 tags:

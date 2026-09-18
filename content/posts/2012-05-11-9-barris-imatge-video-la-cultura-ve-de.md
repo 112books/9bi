@@ -1,6 +1,7 @@
 ---
 title: 9 Barris Imatge vídeo! La Cultura ve de festa 2012
 date: 2012-05-11T20:00:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: 9-barris-imatge-video-la-cultura-ve-de
 tags:

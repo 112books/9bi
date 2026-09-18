@@ -1,6 +1,7 @@
 ---
 title: Per la reobertura CJP al Consell plenari de Nou Barris
 date: 2010-10-06T09:54:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: per-la-reobertura-cjp-al-consell
 tags:

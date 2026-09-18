@@ -1,6 +1,7 @@
 ---
 title: Barcelona Tattoo Expo 2009 - Dissabte
 date: 2009-10-04T05:09:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: barcelona-tattoo-expo-2009-dissabte
 tags:

@@ -1,6 +1,7 @@
 ---
 title: '"Les dones del Barri" a Verdum.'
 date: 2019-09-26T01:14:00+0200
+year: 2019
 author: 9 Barris Imatge
 slug: les-dones-del-barri-verdum
 tags:

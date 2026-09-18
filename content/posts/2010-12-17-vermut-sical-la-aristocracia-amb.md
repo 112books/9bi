@@ -1,6 +1,7 @@
 ---
 title: Vermut Sical. "La Aristocrácia" amb versions de Serrat 11-12-2010. Casal Prospe
 date: 2010-12-17T20:52:00+0100
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: vermut-sical-la-aristocracia-amb
 tags:

@@ -1,6 +1,7 @@
 ---
 title: HUELGA GENERAL
 date: 2010-09-30T00:01:00+0200
+year: 2010
 author: Pedro Click
 slug: huelga-generalque-no-nos-jodan
 tags:

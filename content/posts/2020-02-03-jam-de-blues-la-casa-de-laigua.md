@@ -1,6 +1,7 @@
 ---
 title: Jam de Blues a la Casa de l'Aigua
 date: 2020-02-03T01:25:00+0100
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: jam-de-blues-la-casa-de-laigua
 tags:

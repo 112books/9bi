@@ -1,6 +1,7 @@
 ---
 title: Barcelona Tattoo Expo - Diumenge
 date: 2009-10-05T02:17:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: barcelona-tattoo-expo-diumenge
 tags:

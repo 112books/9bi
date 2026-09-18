@@ -1,6 +1,7 @@
 ---
 title: Nosferata. Casal Barri Prosperitat
 date: 2009-10-06T14:19:00+0200
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: nosferata-casal-barri-prosperitat_06
 tags:

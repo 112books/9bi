@@ -1,6 +1,7 @@
 ---
 title: XVIIè Festival de Blues de Barcelona -  Big Mama Montse & Iratxe
 date: 2019-07-08T10:52:00+0200
+year: 2019
 author: Manel Sala "Ulls" Circ
 slug: xviie-festival-de-blues-de-barcelona
 tags:

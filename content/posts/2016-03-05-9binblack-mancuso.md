@@ -1,6 +1,7 @@
 ---
 title: 9BinBlack - Mancuso
 date: 2016-03-05T11:47:00+0100
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: 9binblack-mancuso
 tags:

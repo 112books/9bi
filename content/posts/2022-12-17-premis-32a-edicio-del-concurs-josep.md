@@ -1,6 +1,7 @@
 ---
 title: Premis  32a Edició del concurs Josep Antón Cordoncillo. 2022-12-16
 date: 2022-12-17T14:31:00+0100
+year: 2022
 author: Pedro Click
 slug: premis-32a-edicio-del-concurs-josep
 tags:

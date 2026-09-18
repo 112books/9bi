@@ -1,6 +1,7 @@
 ---
 title: NAMELESS BAND + LOS DE SIEMPRE
 date: 2018-06-03T18:51:00+0200
+year: 2018
 author: Alberto Sanagustín
 slug: nameless-band-los-de-siempre
 tags:

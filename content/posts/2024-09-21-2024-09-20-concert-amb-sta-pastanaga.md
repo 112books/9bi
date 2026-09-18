@@ -1,6 +1,7 @@
 ---
 title: 2024-09-20 - Concert amb STA + Pastanaga Bros al Casal de Prospe
 date: 2024-09-21T09:06:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-09-20-concert-amb-sta-pastanaga
 tags:

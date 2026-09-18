@@ -1,6 +1,7 @@
 ---
 title: Transmarató, tarda de diumenge
 date: 2016-06-06T00:15:00+0200
+year: 2016
 author: Alberto Sanagustín
 slug: transmarato-tarda-de-diumenge
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Al Formentera
 date: 2020-03-09T20:04:00+0100
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: al-formentera
 cover:

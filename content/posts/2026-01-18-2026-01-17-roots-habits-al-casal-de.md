@@ -1,6 +1,7 @@
 ---
 title: 2026-01-17 - Roots Habits al Casal de barri de Prosperitat
 date: 2026-01-18T10:58:00+0100
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: 2026-01-17-roots-habits-al-casal-de
 tags:

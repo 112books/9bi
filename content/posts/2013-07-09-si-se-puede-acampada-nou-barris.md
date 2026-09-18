@@ -1,6 +1,7 @@
 ---
 title: Si se puede,, acampada Nou Barris
 date: 2013-07-09T17:19:00+0200
+year: 2013
 author: Manel Sala "Ulls" Circ
 slug: si-se-puede-acampada-nou-barris
 tags:

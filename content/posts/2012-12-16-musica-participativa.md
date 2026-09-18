@@ -1,6 +1,7 @@
 ---
 title: Música Participativa
 date: 2012-12-16T14:23:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: musica-participativa
 tags:

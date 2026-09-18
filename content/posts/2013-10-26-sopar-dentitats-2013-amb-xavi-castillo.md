@@ -1,6 +1,7 @@
 ---
 title: Sopar d'entitats 2013 amb Xavi Castillo
 date: 2013-10-26T23:12:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: sopar-dentitats-2013-amb-xavi-castillo
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Inauguració 11è Fòrum Fotogràfic Can Basté
 date: 2010-11-09T18:02:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: inauguracio-11e-forum-fotografic-can
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Sense títol
 date: 2023-12-15T20:57:00+0100
+year: 2023
 author: Ismael Utrilla
 slug: de-les-fotos-presentades-la-33ena
 tags:

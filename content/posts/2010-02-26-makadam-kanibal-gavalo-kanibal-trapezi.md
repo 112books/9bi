@@ -1,6 +1,7 @@
 ---
 title: Makadam Kanibal . Gavalo Kanibal . Trapezi Reus 2009
 date: 2010-02-26T01:19:00+0100
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: makadam-kanibal-gavalo-kanibal-trapezi
 tags:

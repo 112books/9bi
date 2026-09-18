@@ -1,6 +1,7 @@
 ---
 title: 2022-05-28 - Dissabte de Festa Major de Prosperitat
 date: 2022-05-29T10:37:00+0200
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: 2022-05-28-dissabte-de-festa-major-de
 tags:

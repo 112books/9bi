@@ -1,6 +1,7 @@
 ---
 title: 'Campanya veïnal #Judicialacimentera'
 date: 2014-02-15T21:22:00+0100
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: campanya-veinal-judicialacimentera
 tags:

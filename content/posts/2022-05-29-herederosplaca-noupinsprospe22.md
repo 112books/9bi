@@ -1,6 +1,7 @@
 ---
 title: Herederos.Plaça Noupins.Prospe'22
 date: 2022-05-29T13:23:00+0200
+year: 2022
 author: Ismael Utrilla
 slug: herederosplaca-noupinsprospe22
 tags:

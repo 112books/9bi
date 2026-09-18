@@ -1,6 +1,7 @@
 ---
 title: Chiara Salvati al Casal de barri de Prosperitat
 date: 2021-03-16T03:33:00+0100
+year: 2021
 author: Joan "Linux" Martínez i Serres
 slug: chiara-salvati-al-casal-de-barri-de
 tags:

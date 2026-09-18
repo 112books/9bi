@@ -2,6 +2,7 @@
 title: 11è Festival de Blues de Barcelona - Dani Nel·lo, Barcelona Big Blues Band
   & Barbara Clifford
 date: 2013-07-21T21:56:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: 11e-festival-de-blues-de-barcelona-dani
 tags:

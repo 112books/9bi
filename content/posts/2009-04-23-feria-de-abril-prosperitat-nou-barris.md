@@ -1,6 +1,7 @@
 ---
 title: Feria de Abril Prosperitat, Nou Barris, Barcelona 2009
 date: 2009-04-23T10:20:00+0200
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: feria-de-abril-prosperitat-nou-barris
 tags:

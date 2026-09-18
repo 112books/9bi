@@ -1,6 +1,7 @@
 ---
 title: 2021-05-29 - Atomic Leopards al Casal de barri de Prosperitat
 date: 2021-06-01T07:26:00+0200
+year: 2021
 author: Joan "Linux" Martínez i Serres
 slug: 2021-05-29-atomic-leopards-al-casal-de
 tags:

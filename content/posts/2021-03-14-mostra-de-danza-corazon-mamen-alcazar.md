@@ -1,6 +1,7 @@
 ---
 title: Mostra de Danza "Corazón" Mamen alcázar & "Spirali"(danza Sufí) Chiara Salvati
 date: 2021-03-14T12:45:00+0100
+year: 2021
 author: Pedro Click
 slug: mostra-de-danza-corazon-mamen-alcazar
 tags:

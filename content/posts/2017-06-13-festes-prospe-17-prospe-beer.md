@@ -1,6 +1,7 @@
 ---
 title: Festes Prospe '17 - Prospe Beer
 date: 2017-06-13T08:55:00+0200
+year: 2017
 author: 9 Barris Imatge
 slug: festes-prospe-17-prospe-beer
 tags:

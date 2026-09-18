@@ -1,6 +1,7 @@
 ---
 title: Font de Santa Eulàlia .
 date: 2018-07-19T18:28:00+0200
+year: 2018
 author: 9 Barris Imatge
 slug: font-de-santa-eulalia
 tags:

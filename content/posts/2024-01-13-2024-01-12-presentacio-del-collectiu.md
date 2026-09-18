@@ -1,6 +1,7 @@
 ---
 title: 2024-01-12 - Presentació del col·lectiu Soroll & Glitter
 date: 2024-01-13T02:28:00+0100
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-01-12-presentacio-del-collectiu
 tags:

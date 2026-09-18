@@ -1,6 +1,7 @@
 ---
 title: 6è Festival de Sopes del Món Mundial de Nou Barris
 date: 2009-03-30T22:21:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: 6e-festival-de-sopes-del-mon-mundial-de
 tags:

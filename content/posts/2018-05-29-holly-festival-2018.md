@@ -1,6 +1,7 @@
 ---
 title: HOLLY FESTIVAL 2018
 date: 2018-05-29T16:28:00+0200
+year: 2018
 author: Alberto Sanagustín
 slug: holly-festival-2018
 tags:

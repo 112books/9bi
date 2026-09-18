@@ -1,6 +1,7 @@
 ---
 title: 22 maig Vaga a l´ensenyament
 date: 2012-05-23T00:06:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: 22-maig-vaga-lensenyament
 tags:

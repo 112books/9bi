@@ -1,6 +1,7 @@
 ---
 title: 'Cloenda de l’Exposició “Gent de Nou Barris, gent d’arreu” '
 date: 2017-06-22T10:09:00+0200
+year: 2017
 author: Manel Sala "Ulls" Circ
 slug: cloenda-de-lexposicio-gent-de-nou
 tags:

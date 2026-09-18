@@ -1,6 +1,7 @@
 ---
 title: Olga Merino a la Biblioteca de Les Roquetes.
 date: 2016-05-08T16:58:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: olga-merino-la-biblioteca-de-les
 tags:

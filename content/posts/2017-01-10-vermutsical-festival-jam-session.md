@@ -1,6 +1,7 @@
 ---
 title: VermutSiCal Festival Jam Session
 date: 2017-01-10T23:20:00+0100
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-festival-jam-session
 tags:

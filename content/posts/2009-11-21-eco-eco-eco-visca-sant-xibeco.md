@@ -1,6 +1,7 @@
 ---
 title: Eco eco eco, visca Sant Xibeco!!
 date: 2009-11-21T21:17:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: eco-eco-eco-visca-sant-xibeco
 tags:

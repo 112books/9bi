@@ -1,6 +1,7 @@
 ---
 title: Festes a Roquetes!
 date: 2008-07-01T07:43:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: festes-roquetes
 tags:

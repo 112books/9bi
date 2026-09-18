@@ -1,6 +1,7 @@
 ---
 title: 2025-04-30 - Tardeo amb 'La otra rumba' - Casal de barri de Prosperitat
 date: 2025-05-01T10:47:00+0200
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-04-30-tardeo-amb-la-otra-rumba
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Esto es Barcelona ???    Al Ton i Guida.
 date: 2016-06-09T21:35:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: esto-es-barcelona-al-ton-i-guida
 tags:

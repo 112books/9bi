@@ -1,6 +1,7 @@
 ---
 title: Festival de Blues de Barcelona - Big Dani Four
 date: 2020-07-02T18:53:00+0200
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: festival-de-blues-de-barcelona-big-dani
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Prospe'18 Fiesta Holy Tetrinké
 date: 2018-05-31T14:54:00+0200
+year: 2018
 author: Ismael Utrilla
 slug: prospe18-fiesta-holy-tetrinke
 tags:

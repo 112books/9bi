@@ -1,6 +1,7 @@
 ---
 title: Presentació del diari de Festa Major 2023     " Mocebares"
 date: 2023-05-22T18:55:00+0200
+year: 2023
 author: Pedro Click
 slug: presentacio-del-diari-de-festa-major
 tags:

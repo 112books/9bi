@@ -1,6 +1,7 @@
 ---
 title: '[Fotos] Homenatge a Rafa Juncadella'
 date: 2019-02-26T08:53:00+0100
+year: 2019
 author: Núria Laura Orbaneja
 slug: fotos-homenatge-rafa-juncadella
 tags:

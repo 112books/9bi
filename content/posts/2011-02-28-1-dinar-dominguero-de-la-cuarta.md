@@ -1,6 +1,7 @@
 ---
 title: 1ª Dinar dominguero de "la Cuarta"!!
 date: 2011-02-28T02:15:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: 1-dinar-dominguero-de-la-cuarta
 tags:

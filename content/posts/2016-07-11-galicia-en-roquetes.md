@@ -1,6 +1,7 @@
 ---
 title: Galicia en Roquetes !!!
 date: 2016-07-11T23:01:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: galicia-en-roquetes
 tags:

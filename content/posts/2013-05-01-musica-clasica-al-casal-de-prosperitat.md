@@ -1,6 +1,7 @@
 ---
 title: Musica Clasica al Casal de prosperitat
 date: 2013-05-01T23:02:00+0200
+year: 2013
 author: Pedro Click
 slug: musica-clasica-al-casal-de-prosperitat
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 'Monocicles 2017 – Ateneu Popular de Nou Barris '
 date: 2017-04-10T00:36:00+0200
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: monocicles-2017-ateneu-popular-de-nou_9
 tags:

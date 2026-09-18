@@ -1,6 +1,7 @@
 ---
 title: La Nit d'Africa, Ateneu Popular de Nou Barris
 date: 2009-03-21T19:37:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: la-nit-dafrica-ateneu-popular-de-nou
 tags:

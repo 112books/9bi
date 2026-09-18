@@ -1,6 +1,7 @@
 ---
 title: Manifestació - Contre les retallades dels serveis públics 14/05/11
 date: 2011-05-14T18:28:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: manifestacio-contre-les-retallades-dels
 tags:

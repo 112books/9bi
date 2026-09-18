@@ -1,6 +1,7 @@
 ---
 title: Feria de Abril Prospe 2023
 date: 2023-05-01T11:03:00+0200
+year: 2023
 author: Pedro Click
 slug: feria-de-abril-prospe-2023
 tags:

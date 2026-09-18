@@ -1,6 +1,7 @@
 ---
 title: Festival de Blues de Barcelona – Sweet Marta and the Blues Shakers
 date: 2020-07-06T18:49:00+0200
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: festival-de-blues-de-barcelona-sweet
 tags:

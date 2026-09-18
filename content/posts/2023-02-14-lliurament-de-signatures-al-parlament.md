@@ -1,6 +1,7 @@
 ---
 title: Lliurament de signatures al Parlament per la nostra Sanitat
 date: 2023-02-14T14:55:00+0100
+year: 2023
 author: Pedro Click
 slug: lliurament-de-signatures-al-parlament
 tags:

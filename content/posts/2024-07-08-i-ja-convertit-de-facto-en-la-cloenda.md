@@ -1,6 +1,7 @@
 ---
 title: 2024-07-07 - 22è Festival de Blues de Barcelona - Jam Session de clausura
 date: 2024-07-08T10:33:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: i-ja-convertit-de-facto-en-la-cloenda
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Presentació diari de festes de Prospe
 date: 2009-05-26T13:33:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-diari-de-festes-de-prospe
 tags:

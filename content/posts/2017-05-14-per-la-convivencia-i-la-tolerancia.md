@@ -1,6 +1,7 @@
 ---
 title: Per la convivència i la tolerància
 date: 2017-05-14T19:47:00+0200
+year: 2017
 author: Alberto Sanagustín
 slug: per-la-convivencia-i-la-tolerancia
 tags:

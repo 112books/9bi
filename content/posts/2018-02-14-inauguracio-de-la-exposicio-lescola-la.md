@@ -2,6 +2,7 @@
 title: Inauguració de la exposició l’escola a la Prosperitat 1930-2018 al Casal de
   Prosperitat
 date: 2018-02-14T08:40:00+0100
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: inauguracio-de-la-exposicio-lescola-la
 tags:

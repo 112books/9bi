@@ -1,6 +1,7 @@
 ---
 title: DESNONAMENT ATURAT A PROSPERITAT
 date: 2014-04-04T12:43:00+0200
+year: 2014
 author: Pedro "Casal" Cervera
 slug: aturat-intent-de-desnonament-prosperitat
 tags:

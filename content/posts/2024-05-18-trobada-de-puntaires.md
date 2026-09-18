@@ -1,6 +1,7 @@
 ---
 title: Trobada de puntaires
 date: 2024-05-18T20:06:00+0200
+year: 2024
 author: Francesc Barbe
 slug: trobada-de-puntaires
 tags:

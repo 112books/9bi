@@ -1,6 +1,7 @@
 ---
 title: Dishows amb "Crack up show" de la companyia Deux à la Tàche
 date: 2015-12-18T14:44:00+0100
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: dishows-amb-crack-up-show-de-la
 tags:

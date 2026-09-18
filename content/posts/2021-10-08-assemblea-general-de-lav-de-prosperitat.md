@@ -1,6 +1,7 @@
 ---
 title: Assemblea general de l’AV de Prosperitat
 date: 2021-10-08T09:33:00+0200
+year: 2021
 author: Joan "Linux" Martínez i Serres
 slug: assemblea-general-de-lav-de-prosperitat
 tags:

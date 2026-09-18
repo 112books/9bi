@@ -1,6 +1,7 @@
 ---
 title: 3º Cadena Humana Vall Hebron
 date: 2015-05-17T17:41:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: 3-cadena-humana-vall-hebron
 tags:

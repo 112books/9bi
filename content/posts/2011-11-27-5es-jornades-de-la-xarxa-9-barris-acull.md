@@ -1,6 +1,7 @@
 ---
 title: '5es Jornades de la Xarxa 9 Barris Acull: Construint alternatives'
 date: 2011-11-27T10:02:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: 5es-jornades-de-la-xarxa-9-barris-acull
 tags:

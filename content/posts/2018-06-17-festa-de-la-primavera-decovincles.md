@@ -1,6 +1,7 @@
 ---
 title: Festa de la Primavera d’Ecovincles
 date: 2018-06-17T15:10:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: festa-de-la-primavera-decovincles
 tags:

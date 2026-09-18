@@ -1,6 +1,7 @@
 ---
 title: '"Inmortales Band" al Casal de barri de  Prospe'
 date: 2020-02-29T18:31:00+0100
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: inmortales-band-al-casal-de-barri-de
 tags:

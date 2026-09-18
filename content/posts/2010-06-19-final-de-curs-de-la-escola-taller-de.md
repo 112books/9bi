@@ -1,6 +1,7 @@
 ---
 title: Final de curs de la Escola-Taller de Blues de Barcelona, del Casal de Prosperitat
 date: 2010-06-19T17:43:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: final-de-curs-de-la-escola-taller-de
 tags:

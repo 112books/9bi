@@ -1,6 +1,7 @@
 ---
 title: Presentació Plataforma Guanyem
 date: 2014-07-19T08:37:00+0200
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-plataforma-guanyem
 tags:

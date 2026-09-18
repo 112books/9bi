@@ -1,6 +1,7 @@
 ---
 title: Amigos de las Sevillanas 2022 C/ Flor de Neu
 date: 2022-05-28T17:37:00+0200
+year: 2022
 author: Pedro Click
 slug: amigos-de-las-sevillanas-2022-c-flor-de
 tags:

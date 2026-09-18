@@ -1,6 +1,7 @@
 ---
 title: '"Culada" reivindicativa al barri de Prosperitat'
 date: 2012-07-14T16:01:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: culada-reivindicativa-al-barri-de
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 2023-04-29 - Fira d'abril pluges mil!
 date: 2023-05-01T11:23:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-04-29-fira-dabril-pluges-mil
 tags:

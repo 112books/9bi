@@ -1,6 +1,7 @@
 ---
 title: Cercavila Festa Majó de Prospe by Nico
 date: 2017-05-29T09:38:00+0200
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: cercavila-festa-majo-de-prospe-by-nico
 tags:

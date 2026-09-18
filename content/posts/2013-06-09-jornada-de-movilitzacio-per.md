@@ -1,6 +1,7 @@
 ---
 title: Jornada de movilització per l'ensenyament públic i de qualitat a 9 Barris
 date: 2013-06-09T22:27:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: jornada-de-movilitzacio-per
 tags:

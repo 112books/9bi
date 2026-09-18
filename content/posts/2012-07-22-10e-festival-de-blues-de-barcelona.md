@@ -1,6 +1,7 @@
 ---
 title: 10è Festival de Blues de Barcelona - Dissabte
 date: 2012-07-22T21:27:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: 10e-festival-de-blues-de-barcelona
 cover:

@@ -1,6 +1,7 @@
 ---
 title: Penyes & Trinkalmuerzo & Mil Duros
 date: 2026-05-31T10:46:29+0200
+year: 2026
 author: Ismael Utrilla
 slug: penyes-trinkalmuerzo-mil-duros
 tags:

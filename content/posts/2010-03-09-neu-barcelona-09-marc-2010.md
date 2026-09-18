@@ -1,6 +1,7 @@
 ---
 title: Neu a Barcelona . 09-Març-2010
 date: 2010-03-09T12:02:00+0100
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: neu-barcelona-09-marc-2010
 tags:

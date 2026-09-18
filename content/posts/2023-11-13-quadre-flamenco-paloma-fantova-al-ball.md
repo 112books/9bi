@@ -2,6 +2,7 @@
 title: 'QUADRE FLAMENCO: Paloma Fantova al ball, Antonio Fernández i Juan Manzano
   al cante, José Andrés Cortés a la guitarra i José Córdoba "El moskito" al caixó.'
 date: 2023-11-13T10:52:00+0100
+year: 2023
 author: Pedro Click
 slug: quadre-flamenco-paloma-fantova-al-ball
 tags:

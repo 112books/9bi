@@ -1,6 +1,7 @@
 ---
 title: Festa Major Trinitat Nova 2025
 date: 2025-06-15T19:27:00+0200
+year: 2025
 author: Pedro Click
 slug: festa-major-trinitat-nova-2025
 tags:

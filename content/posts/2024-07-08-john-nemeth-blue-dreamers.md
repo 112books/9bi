@@ -1,6 +1,7 @@
 ---
 title: John Nemeth & The Blue Dreamers
 date: 2024-07-08T18:59:00+0200
+year: 2024
 author: Francesc Barbe
 slug: john-nemeth-blue-dreamers
 tags:

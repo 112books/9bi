@@ -1,6 +1,7 @@
 ---
 title: Veïns i entitats de Nou Barris abandonen el ple del districte
 date: 2012-12-18T23:36:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: veins-i-entitats-de-nou-barris
 tags:

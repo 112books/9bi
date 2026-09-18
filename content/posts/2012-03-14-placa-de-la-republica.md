@@ -1,6 +1,7 @@
 ---
 title: Plaça de la República
 date: 2012-03-14T23:18:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: placa-de-la-republica
 tags:

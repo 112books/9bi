@@ -1,6 +1,7 @@
 ---
 title: Pesebre Prosperenc
 date: 2013-01-06T11:21:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: pesebre-prosperenc
 tags:

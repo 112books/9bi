@@ -1,6 +1,7 @@
 ---
 title: Música participativa - V3
 date: 2013-02-17T03:20:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: musica-participativa-v3
 tags:

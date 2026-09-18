@@ -1,6 +1,7 @@
 ---
 title: Nit d'ànimes - Passatge del Terror - Casal Barri Prosperitat
 date: 2023-10-29T18:40:00+0100
+year: 2023
 author: Manel Sala "Ulls" Circ
 slug: nit-danimes-passatge-del-terror-casal_29
 tags:

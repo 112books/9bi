@@ -1,6 +1,7 @@
 ---
 title: 2024-06-01 - Festes de Prsope - Carrer Flor de Neu
 date: 2024-06-02T12:01:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-06-01-festes-de-prsope-carrer-flor
 tags:

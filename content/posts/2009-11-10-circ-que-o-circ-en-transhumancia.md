@@ -1,6 +1,7 @@
 ---
 title: Circ que o !. Circ en Transhumància. Barcelona, Jaca, Toulouse-Balma
 date: 2009-11-10T15:36:00+0100
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: circ-que-o-circ-en-transhumancia
 tags:

@@ -1,6 +1,7 @@
 ---
 title: XI Chistorra Rock 2009 .. Festa Major Prosperitat
 date: 2009-06-05T16:46:00+0200
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: xi-chistorra-rock-2009-festa-major
 tags:

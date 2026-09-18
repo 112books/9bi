@@ -1,6 +1,7 @@
 ---
 title: Carnaval 2020 9barris
 date: 2020-02-23T13:56:00+0100
+year: 2020
 author: Pedro Click
 slug: carnaval-2020-9barris
 tags:

@@ -2,6 +2,7 @@
 title: Exposició " Los Colores de la Revuelta".. i .. Concert Juanito Piquete " La
   Revolución Desconocida"
 date: 2009-12-21T11:30:00+0100
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: exposicio-los-colores-de-la-revuelta-i
 tags:

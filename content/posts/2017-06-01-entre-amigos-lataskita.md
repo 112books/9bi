@@ -1,6 +1,7 @@
 ---
 title: ENTRE AMIGOS-LaTaskita
 date: 2017-06-01T22:14:00+0200
+year: 2017
 author: Pedro Click
 slug: entre-amigos-lataskita
 cover:

@@ -1,6 +1,7 @@
 ---
 title: 2023-04-21 - Festa fi del Ramadà al districte de Nou Barris
 date: 2023-04-22T11:58:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-04-21-festa-fi-del-ramada-al
 tags:

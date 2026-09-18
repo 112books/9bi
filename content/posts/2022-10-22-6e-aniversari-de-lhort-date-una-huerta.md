@@ -1,6 +1,7 @@
 ---
 title: 6è aniversari de l'hort okupat Date una Huerta
 date: 2022-10-22T20:22:00+0200
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: 6e-aniversari-de-lhort-date-una-huerta
 tags:

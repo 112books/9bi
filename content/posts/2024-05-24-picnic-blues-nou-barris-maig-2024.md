@@ -1,6 +1,7 @@
 ---
 title: Picnic Blues Nou Barris maig 2024
 date: 2024-05-24T08:26:00+0200
+year: 2024
 author: Iozsef Kiss
 slug: picnic-blues-nou-barris-maig-2024
 tags:

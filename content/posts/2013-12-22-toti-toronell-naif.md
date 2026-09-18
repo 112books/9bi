@@ -1,6 +1,7 @@
 ---
 title: Toti Toronell. NAÏF
 date: 2013-12-22T13:13:00+0100
+year: 2013
 author: Manel Sala "Ulls" Circ
 slug: toti-toronell-naif
 tags:

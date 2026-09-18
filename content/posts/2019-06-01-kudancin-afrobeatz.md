@@ -1,6 +1,7 @@
 ---
 title: 'Ku´Dancin Afrobeatz '
 date: 2019-06-01T13:55:00+0200
+year: 2019
 author: Manel Sala "Ulls" Circ
 slug: kudancin-afrobeatz
 tags:

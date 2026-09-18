@@ -1,6 +1,7 @@
 ---
 title: 30 aniversari casal – Concert amb JSF
 date: 2018-05-15T10:41:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: 30-aniversari-casal-concert-amb-jsf
 tags:

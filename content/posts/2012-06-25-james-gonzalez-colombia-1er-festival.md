@@ -2,6 +2,7 @@
 title: James González. Colòmbia. 1er Festival Internacional del Circ Castell de Figueres.
   Premi de Plata
 date: 2012-06-25T22:32:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: james-gonzalez-colombia-1er-festival
 tags:

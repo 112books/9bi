@@ -1,6 +1,7 @@
 ---
 title: DOMINGO 29-BIGBAND
 date: 2011-06-03T18:53:00+0200
+year: 2011
 author: Pedro Click
 slug: de-ultima-importacion
 tags:

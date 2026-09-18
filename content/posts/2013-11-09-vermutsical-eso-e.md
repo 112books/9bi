@@ -1,6 +1,7 @@
 ---
 title: Vermutsical ESO É!
 date: 2013-11-09T17:13:00+0100
+year: 2013
 author: Pedro "Casal" Cervera
 slug: vermutsical-eso-e
 tags:

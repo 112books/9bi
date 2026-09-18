@@ -1,6 +1,7 @@
 ---
 title: FLORENCIA, MONUMENTOS, ARTE Y GENTE
 date: 2012-08-23T16:33:00+0200
+year: 2012
 author: Pedro Click
 slug: florencia
 tags:

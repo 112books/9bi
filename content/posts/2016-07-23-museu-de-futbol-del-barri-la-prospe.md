@@ -1,6 +1,7 @@
 ---
 title: Museu de futbol del barri a la Prospe.
 date: 2016-07-23T18:11:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: museu-de-futbol-del-barri-la-prospe
 tags:

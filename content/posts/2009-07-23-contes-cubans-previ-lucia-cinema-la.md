@@ -1,6 +1,7 @@
 ---
 title: Contes cubans, previ a Lucía, cinema a la fresca a Ángel Pestaña
 date: 2009-07-23T01:08:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: contes-cubans-previ-lucia-cinema-la
 tags:

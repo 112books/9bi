@@ -1,6 +1,7 @@
 ---
 title: Teatre "Hagas lo que hagas... ponte bragas!!!"
 date: 2013-03-10T11:00:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: teatre-hagas-lo-que-hagas-ponte-bragas
 tags:

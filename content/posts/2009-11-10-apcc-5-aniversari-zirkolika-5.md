@@ -2,6 +2,7 @@
 title: APCC 5º ANIVERSARI .. ZIRKOLIKA 5º ANIVERSARI  .. 07-11-2009 .. LA CENTRAL
   DEL CIRC
 date: 2009-11-10T01:38:00+0100
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: apcc-5-aniversari-zirkolika-5
 tags:

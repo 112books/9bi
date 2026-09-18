@@ -1,6 +1,7 @@
 ---
 title: El Casal es mostra 2019
 date: 2019-06-16T07:48:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: el-casal-es-mostra-2019
 tags:

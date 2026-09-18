@@ -1,6 +1,7 @@
 ---
 title: Dia de la música a Prosperitat
 date: 2010-06-22T09:23:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: dia-de-la-musica-prosperitat
 tags:

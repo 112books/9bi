@@ -1,6 +1,7 @@
 ---
 title: '2023-03-04 - Vermutsical: La Juju al Casal de barri de Prosperitat'
 date: 2023-03-04T19:59:00+0100
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-03-04-vermutsical-la-juju-al-casal
 tags:

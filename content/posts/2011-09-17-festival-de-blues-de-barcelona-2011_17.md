@@ -1,6 +1,7 @@
 ---
 title: Festival de Blues de Barcelona 2011 - Divendres
 date: 2011-09-17T20:02:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: festival-de-blues-de-barcelona-2011_17
 tags:

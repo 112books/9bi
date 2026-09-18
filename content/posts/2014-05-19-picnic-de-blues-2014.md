@@ -1,6 +1,7 @@
 ---
 title: Picnic de Blues 2014
 date: 2014-05-19T09:14:00+0200
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: picnic-de-blues-2014
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 9 Barris Imatge - 10è Aniversari - Casal Prospe
 date: 2012-05-25T11:35:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: 9-barris-imatge-10e-aniversari
 tags:

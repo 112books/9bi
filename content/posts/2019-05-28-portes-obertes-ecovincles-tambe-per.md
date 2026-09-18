@@ -1,6 +1,7 @@
 ---
 title: Portes obertes a Ecovincles, també per Festa Major
 date: 2019-05-28T23:17:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: portes-obertes-ecovincles-tambe-per
 tags:

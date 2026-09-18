@@ -1,6 +1,7 @@
 ---
 title: 'festival de blues barcelona festival de  WAX & BOOGIE RHYTHM COMBO '
 date: 2021-06-24T13:55:00+0200
+year: 2021
 author: Francesc Barbe
 slug: festival-de-blues-barcelona-festival-de
 tags:

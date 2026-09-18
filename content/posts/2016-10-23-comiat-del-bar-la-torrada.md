@@ -1,6 +1,7 @@
 ---
 title: Comiat del bar La Torrada
 date: 2016-10-23T08:36:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: comiat-del-bar-la-torrada
 tags:

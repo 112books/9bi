@@ -1,6 +1,7 @@
 ---
 title: 'San Xibeco''21.El retorno del Santo '
 date: 2021-11-21T10:23:00+0100
+year: 2021
 author: Ismael Utrilla
 slug: san-xibeco21el-retorno-del-santo
 tags:

@@ -1,6 +1,7 @@
 ---
 title: CARNAVAL  ATENEU POPULAR  9 BARRIS 2009
 date: 2009-03-01T04:08:00+0100
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: carnaval-ateneu-popular-9-barris-2009_28
 tags:

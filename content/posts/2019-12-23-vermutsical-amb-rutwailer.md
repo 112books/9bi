@@ -1,6 +1,7 @@
 ---
 title: Vermutsical amb Rutwailer
 date: 2019-12-23T05:56:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-rutwailer
 tags:

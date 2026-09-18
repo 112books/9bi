@@ -1,6 +1,7 @@
 ---
 title: Vermutsical - Jam Session Festival
 date: 2013-01-12T16:55:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-jam-session-festival
 tags:

@@ -1,6 +1,7 @@
 ---
 title: feria de abril13
 date: 2013-04-07T20:00:00+0200
+year: 2013
 author: Pedro Click
 slug: feria-de-abril13
 tags:

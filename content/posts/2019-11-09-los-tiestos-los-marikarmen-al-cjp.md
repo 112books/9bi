@@ -1,6 +1,7 @@
 ---
 title: Los Tiestos + Los Marikarmen al CJP
 date: 2019-11-09T11:45:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: los-tiestos-los-marikarmen-al-cjp
 tags:

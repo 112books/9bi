@@ -1,6 +1,7 @@
 ---
 title: VII Festival de Blues de Barcelona - Jam Session al Casl de Barri de Prosperitat
 date: 2009-09-20T14:08:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: vii-festival-de-blues-de-barcelona-jam
 tags:

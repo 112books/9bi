@@ -1,6 +1,7 @@
 ---
 title: Marvin Sala.Veïns Flor de Neu .Prospe'22
 date: 2022-05-29T18:33:00+0200
+year: 2022
 author: Ismael Utrilla
 slug: marvin-salaveins-flor-de-neu-prospe22
 tags:

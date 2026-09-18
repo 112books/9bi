@@ -1,6 +1,7 @@
 ---
 title: 2025-05-29 - Dijous - BizaRip Interpenas amb “Nauta Loops”i “Las Bizaplayers”
 date: 2025-05-30T10:07:00+0200
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-05-29-dijous-bizarip-interpenas
 tags:

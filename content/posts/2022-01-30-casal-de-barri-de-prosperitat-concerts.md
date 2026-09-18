@@ -2,6 +2,7 @@
 title: ' Casal de barri de Prosperitat - Concerts KM0 - Crazy Blues Band + Pez Rojo
   2022'
 date: 2022-01-30T12:31:00+0100
+year: 2022
 author: Pedro Click
 slug: casal-de-barri-de-prosperitat-concerts
 tags:

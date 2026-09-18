@@ -1,6 +1,7 @@
 ---
 title: Correfoc i Piromusical
 date: 2016-06-06T01:02:00+0200
+year: 2016
 author: Alberto Sanagustín
 slug: correfoc-i-piromusical
 tags:

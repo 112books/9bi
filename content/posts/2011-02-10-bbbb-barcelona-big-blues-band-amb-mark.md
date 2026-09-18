@@ -1,6 +1,7 @@
 ---
 title: BBBB. Barcelona Big Blues Band amb Mark Tortorici. Ateneu 9 Barris
 date: 2011-02-10T12:58:00+0100
+year: 2011
 author: Manel Sala "Ulls" Circ
 slug: bbbb-barcelona-big-blues-band-amb-mark
 cover:

@@ -1,6 +1,7 @@
 ---
 title: Xerrada debat "Retallades en educació i sanitat" - 12/05/11
 date: 2011-05-14T00:37:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: xerrada-debat-retallades-en-educacio-i
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Penya l@s Despistad@s.Jocs,Música,Paella
 date: 2025-05-31T19:22:00+0200
+year: 2025
 author: Ismael Utrilla
 slug: penya-ls-despistadsjocsmusicapaella
 tags:

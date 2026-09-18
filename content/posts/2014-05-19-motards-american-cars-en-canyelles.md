@@ -1,6 +1,7 @@
 ---
 title: '"MOTARD''S & AMERICAN CARS"  en CANYELLES !!!'
 date: 2014-05-19T21:23:00+0200
+year: 2014
 author: 9 Barris Imatge
 slug: motards-american-cars-en-canyelles
 tags:

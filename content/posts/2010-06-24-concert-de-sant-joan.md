@@ -1,6 +1,7 @@
 ---
 title: Concert de Sant Joan
 date: 2010-06-24T16:31:00+0200
+year: 2010
 author: 9 Barris Imatge
 slug: concert-de-sant-joan
 tags:

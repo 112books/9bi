@@ -2,6 +2,7 @@
 title: 2022-12-02 - Muntatge exposició Josep Antón Cordoncillo al Casal de barri de
   Prosperitat
 date: 2022-12-02T13:29:00+0100
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: 2022-12-02-muntatge-exposicio-josep
 tags:

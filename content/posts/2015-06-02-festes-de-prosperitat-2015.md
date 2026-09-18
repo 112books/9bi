@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat 2015
 date: 2015-06-02T13:14:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-2015
 tags:

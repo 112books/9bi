@@ -1,6 +1,7 @@
 ---
 title: GRUP FOTO ROQUETES AL LABERINT D'HORTA.
 date: 2015-01-20T01:43:00+0100
+year: 2015
 author: 9 Barris Imatge
 slug: grup-foto-roquetes-al-laberint-dhorta
 tags:

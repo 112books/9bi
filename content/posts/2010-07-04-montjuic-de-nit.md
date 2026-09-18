@@ -1,6 +1,7 @@
 ---
 title: Montjuïc de Nit
 date: 2010-07-04T13:45:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: montjuic-de-nit
 tags:

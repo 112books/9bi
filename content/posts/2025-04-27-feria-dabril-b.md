@@ -1,6 +1,7 @@
 ---
 title: Feria d´Abril B&N
 date: 2025-04-27T17:29:00+0200
+year: 2025
 author: Francesc Barbe
 slug: feria-dabril-b
 cover:

@@ -2,6 +2,7 @@
 title: 2022-09-23 - Presentació del llibre "Llorenç, un veí de la Prosperitat" al
   Casal de Prosperitat
 date: 2022-09-23T21:29:00+0200
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: 2022-09-23-presentacio-del-llibre
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Prospebeach 2019 - Tarda/Nit
 date: 2019-07-14T19:08:00+0200
+year: 2019
 author: Manel Sala "Ulls" Circ
 slug: prospebeach-2019-tardenit
 tags:

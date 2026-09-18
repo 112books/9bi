@@ -1,6 +1,7 @@
 ---
 title: Sant Xibeco 2016 - Dissabte
 date: 2016-11-20T18:44:00+0100
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: sant-xibeco-2016-dissabte
 tags:

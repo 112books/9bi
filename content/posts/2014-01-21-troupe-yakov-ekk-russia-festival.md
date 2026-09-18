@@ -2,6 +2,7 @@
 title: Troupe Yakov Ekk. Rússia. Festival Internacional del Circ Ciutat de Figueres
   2013
 date: 2014-01-21T15:38:00+0100
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: troupe-yakov-ekk-russia-festival
 tags:

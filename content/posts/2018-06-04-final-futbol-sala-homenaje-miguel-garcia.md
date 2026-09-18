@@ -1,6 +1,7 @@
 ---
 title: ' FINAL FUTBOL SALA-HOMENAJE A MIGUEL GARCIA'
 date: 2018-06-04T11:40:00+0200
+year: 2018
 author: Pedro Click
 slug: final-futbol-sala-homenaje-miguel-garcia
 tags:

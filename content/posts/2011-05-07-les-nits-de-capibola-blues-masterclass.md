@@ -2,6 +2,7 @@
 title: Les Nits de Capibola Blues; MasterClass de Little Jordi + Johnny Perez Blues
   Trío -  06/05/11
 date: 2011-05-07T14:38:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: les-nits-de-capibola-blues-masterclass
 tags:

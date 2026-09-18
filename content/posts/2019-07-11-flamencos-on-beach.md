@@ -1,6 +1,7 @@
 ---
 title: Flamencos on the beach
 date: 2019-07-11T08:37:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: flamencos-on-beach
 tags:

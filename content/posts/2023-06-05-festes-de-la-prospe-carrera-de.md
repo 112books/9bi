@@ -1,6 +1,7 @@
 ---
 title: Festes de la prospe- carrera de caracoles, dardo, tragabola humano.
 date: 2023-06-05T10:49:00+0200
+year: 2023
 author: Iozsef Kiss
 slug: festes-de-la-prospe-carrera-de
 tags:

@@ -1,6 +1,7 @@
 ---
 title: SkatePark de Roquetes
 date: 2015-09-02T00:28:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: skatepark-de-roquetes
 tags:

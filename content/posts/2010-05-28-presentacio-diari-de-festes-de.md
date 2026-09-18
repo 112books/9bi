@@ -1,6 +1,7 @@
 ---
 title: Presentació diari de festes de Prosperitat
 date: 2010-05-28T03:16:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-diari-de-festes-de
 tags:

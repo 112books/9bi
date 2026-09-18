@@ -1,6 +1,7 @@
 ---
 title: Daniel Higienico
 date: 2022-12-17T14:38:00+0100
+year: 2022
 author: Pedro Click
 slug: daniel-higienico
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Chistorra Rock 2013
 date: 2013-06-01T03:17:00+0200
+year: 2013
 author: Manel Sala "Ulls" Circ
 slug: chistorra-rock-2013
 tags:

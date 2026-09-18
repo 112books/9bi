@@ -1,6 +1,7 @@
 ---
 title: Compagnie Morosof
 date: 2012-10-03T15:51:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: compagnie-morosof
 tags:

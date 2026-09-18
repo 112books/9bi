@@ -1,6 +1,7 @@
 ---
 title: Nou Barris cabrejada."Fotos Oscar" "Video Pedro"
 date: 2012-11-13T15:31:00+0100
+year: 2012
 author: Pedro Click
 slug: nou-barris-cabrejadafotos-oscar
 tags:

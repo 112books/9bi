@@ -1,6 +1,7 @@
 ---
 title: 12M SURT AL CARRER ! BCN
 date: 2012-05-14T19:44:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: 12m-surt-al-carrer-bcn
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 9binblack - Dissabte
 date: 2012-02-27T01:42:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: 9binblack-dissabte
 tags:

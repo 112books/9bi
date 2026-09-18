@@ -1,6 +1,7 @@
 ---
 title: 2026-06-01 – Festes de Prosperitat – Xistorra Rock
 date: 2026-06-02T16:31:22+0200
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: 2026-06-01-festes-de-prosperitat
 tags:

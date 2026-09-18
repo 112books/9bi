@@ -1,6 +1,7 @@
 ---
 title: Carnestoltes 2018 a la Prospe
 date: 2018-02-11T23:09:00+0100
+year: 2018
 author: Pedro Click
 slug: carnestoltes-2018-la-prospe
 tags:

@@ -1,6 +1,7 @@
 ---
 title: La cultura va de festa al parc de la Guineueta
 date: 2013-05-05T20:25:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: la-cultura-va-de-festa-al-parc-de-la
 tags:

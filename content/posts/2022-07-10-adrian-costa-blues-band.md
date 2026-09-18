@@ -1,6 +1,7 @@
 ---
 title: Adrián Costa Blues Band
 date: 2022-07-10T18:26:00+0200
+year: 2022
 author: Francesc Barbe
 slug: adrian-costa-blues-band
 tags:

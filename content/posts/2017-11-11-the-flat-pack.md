@@ -1,6 +1,7 @@
 ---
 title: The Flat Pack
 date: 2017-11-11T08:45:00+0100
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: the-flat-pack
 cover:

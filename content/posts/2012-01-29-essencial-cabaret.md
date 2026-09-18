@@ -1,6 +1,7 @@
 ---
 title: Essencial Cabaret
 date: 2012-01-29T17:07:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: essencial-cabaret
 tags:

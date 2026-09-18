@@ -1,6 +1,7 @@
 ---
 title: Montañesa 3-0 Perelada
 date: 2016-03-08T20:35:00+0100
+year: 2016
 author: Alberto Sanagustín
 slug: montanesa-3-0-perelada
 tags:

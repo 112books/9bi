@@ -1,6 +1,7 @@
 ---
 title: 2024-05-05 - La Cultura va de festa
 date: 2024-05-13T15:11:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-05-05-la-cultura-va-de-festa
 tags:

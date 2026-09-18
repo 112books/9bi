@@ -1,6 +1,7 @@
 ---
 title: Malditos Roedores
 date: 2011-01-16T13:33:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: malditos-roedores
 tags:

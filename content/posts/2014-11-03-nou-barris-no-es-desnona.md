@@ -1,6 +1,7 @@
 ---
 title: NOU BARRIS NO ES DESNONA
 date: 2014-11-03T16:21:00+0100
+year: 2014
 author: Pedro "Casal" Cervera
 slug: nou-barris-no-es-desnona
 tags:

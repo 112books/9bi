@@ -1,6 +1,7 @@
 ---
 title: '"A les barriades!!"'
 date: 2011-01-15T19:56:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: les-barriades
 tags:

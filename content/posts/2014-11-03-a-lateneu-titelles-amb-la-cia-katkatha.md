@@ -1,6 +1,7 @@
 ---
 title: A L'ATENEU, TITELLES AMB LA CÍA " THE KATKATHA PUPPET" DE NOVA DELHI .
 date: 2014-11-03T01:04:00+0100
+year: 2014
 author: 9 Barris Imatge
 slug: a-lateneu-titelles-amb-la-cia-katkatha
 tags:

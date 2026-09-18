@@ -1,6 +1,7 @@
 ---
 title: Passabars amb " Banda Patilla"...
 date: 2023-06-05T12:41:00+0200
+year: 2023
 author: Iozsef Kiss
 slug: passabars-amb-banda-patilla
 cover:

@@ -1,6 +1,7 @@
 ---
 title: 2025-10-03 - Sopar d'entitats al Casal de barri de Prosperitat
 date: 2025-10-04T02:08:00+0200
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-10-03-sopar-dentitats-al-casal-de
 tags:

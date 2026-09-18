@@ -1,6 +1,7 @@
 ---
 title: Jornades Lola, no estàs sola. Concert de Monique Makon and The Soul titoo's
 date: 2019-03-31T22:04:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: jornades-lola-no-estas-sola-concert-de
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Inauguració del Casal de Barri de Trinitat Nova.
 date: 2018-04-07T17:58:00+0200
+year: 2018
 author: 9 Barris Imatge
 slug: inauguracio-del-casal-de-barri-de
 tags:

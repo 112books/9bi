@@ -1,6 +1,7 @@
 ---
 title: Festival de Blues de Barcelona – Barcelona Big Blues Band amb Dani Nel·lo
 date: 2020-07-12T19:11:00+0200
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: festival-de-blues-de-barcelona
 tags:

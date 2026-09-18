@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat 2011 - Dilluns
 date: 2011-05-31T08:37:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-2011-dilluns
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 'Prospe Beach 2026: la Prosperitat es torna a omplir de sorra'
 date: 2026-07-11T21:04:59+0200
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: prospe-beach-2026-la-prosperitat-es
 tags:

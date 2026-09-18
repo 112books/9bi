@@ -1,6 +1,7 @@
 ---
 title: 2025-07-03 - Presentació de l’exposició “Negre sobre blanc” de Blai Catafal
 date: 2025-07-03T22:35:00+0200
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-07-03-presentacio-de-lexposicio
 tags:

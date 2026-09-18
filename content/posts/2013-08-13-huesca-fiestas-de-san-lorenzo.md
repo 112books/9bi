@@ -1,6 +1,7 @@
 ---
 title: HUESCA, FIESTAS DE SAN LORENZO
 date: 2013-08-13T17:26:00+0200
+year: 2013
 author: Pedro Click
 slug: huesca-fiestas-de-san-lorenzo
 tags:

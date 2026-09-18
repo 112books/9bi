@@ -1,6 +1,7 @@
 ---
 title: 100 AÑOS DE PROSPERITAT
 date: 2019-05-19T14:59:00+0200
+year: 2019
 author: Pedro Click
 slug: 100-anos-de-prosperitat
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Crisis, puta crisis!
 date: 2011-01-13T16:07:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: crisis-puta-crisis
 tags:

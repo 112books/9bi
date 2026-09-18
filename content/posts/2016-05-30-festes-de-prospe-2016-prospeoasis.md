@@ -1,6 +1,7 @@
 ---
 title: Festes de Prospe 2016 - Prospeoasis
 date: 2016-05-30T12:20:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe-2016-prospeoasis
 tags:

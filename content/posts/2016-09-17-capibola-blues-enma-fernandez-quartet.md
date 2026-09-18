@@ -1,6 +1,7 @@
 ---
 title: Capibola Blues - Enma Fernández Quartet
 date: 2016-09-17T09:34:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: capibola-blues-enma-fernandez-quartet
 tags:

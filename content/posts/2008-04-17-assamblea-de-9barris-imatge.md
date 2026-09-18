@@ -1,6 +1,7 @@
 ---
 title: Assamblea de 9Barris Imatge
 date: 2008-04-17T22:02:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: assamblea-de-9barris-imatge
 tags:

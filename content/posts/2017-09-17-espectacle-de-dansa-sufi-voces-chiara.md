@@ -1,6 +1,7 @@
 ---
 title: Espectacle de Dansa Sufi “VOCES” Chiara Salvati
 date: 2017-09-17T12:46:00+0200
+year: 2017
 author: Pedro Click
 slug: espectacle-de-dansa-sufi-voces-chiara
 tags:

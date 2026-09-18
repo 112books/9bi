@@ -1,6 +1,7 @@
 ---
 title: FBB - Festa fi de curs de l'Escola-Taller de Blues de Baracelona
 date: 2015-07-09T14:32:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: fbb-festa-fi-de-curs-de-lescola-taller
 tags:

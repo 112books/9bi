@@ -1,6 +1,7 @@
 ---
 title: Vermutsical amb Rutwailer by Alfonso de Castro
 date: 2019-12-24T14:44:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-rutwailer-by-alfonso-de
 tags:

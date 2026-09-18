@@ -1,6 +1,7 @@
 ---
 title: Straperlo Band + Los eléctricos + Jam session al casal Som la Pera
 date: 2021-05-22T10:28:00+0200
+year: 2021
 author: Joan "Linux" Martínez i Serres
 slug: extraperlo-los-electricos-jam-session
 tags:

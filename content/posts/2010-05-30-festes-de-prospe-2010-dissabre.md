@@ -1,6 +1,7 @@
 ---
 title: Festes de Prospe 2010 - Dissabre
 date: 2010-05-30T13:14:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe-2010-dissabre
 tags:

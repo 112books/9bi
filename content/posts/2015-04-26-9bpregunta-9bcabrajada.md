@@ -1,6 +1,7 @@
 ---
 title: '#9bPregunta - 9BCabrajada'
 date: 2015-04-26T08:57:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: 9bpregunta-9bcabrajada
 tags:

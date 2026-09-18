@@ -1,6 +1,7 @@
 ---
 title: Rates i coloms , veïns indesitjables a Formentera 51 (La Prosperitat).
 date: 2019-01-31T18:29:00+0100
+year: 2019
 author: 9 Barris Imatge
 slug: rates-i-coloms-veins-indesitjables
 tags:

@@ -1,6 +1,7 @@
 ---
 title: VermutSical del Casal de Prospe! Amb Oscarboles
 date: 2016-04-04T12:59:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-del-casal-de-prospe-amb
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 'ASSEMBLEA 9BARRIS #acampadabcn'
 date: 2011-06-02T09:46:00+0200
+year: 2011
 author: Pedro "Casal" Cervera
 slug: assemblea-9barris-acampadabcn
 tags:

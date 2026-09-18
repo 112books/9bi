@@ -1,6 +1,7 @@
 ---
 title: Expo_Grup Foto Roquetes [Oct.2018]
 date: 2018-10-05T08:42:00+0200
+year: 2018
 author: Núria Laura Orbaneja
 slug: expogrup-foto-roquetes-oct2018
 tags:

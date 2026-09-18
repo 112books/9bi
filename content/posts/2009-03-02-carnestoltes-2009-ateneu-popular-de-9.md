@@ -1,6 +1,7 @@
 ---
 title: Carnestoltes 2009- Ateneu Popular de 9 Barris
 date: 2009-03-02T09:45:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: carnestoltes-2009-ateneu-popular-de-9
 tags:

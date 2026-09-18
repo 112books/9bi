@@ -2,6 +2,7 @@
 title: Duo Funckoholics. Rússia. Festival Internacional del Circ Ciutat de Figueres
   2013
 date: 2014-02-17T15:59:00+0100
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: duo-funckoholics-russia-festival
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Manifestació "No és pobresa és injusticia" a Plaça Sant Jaume
 date: 2014-12-12T20:05:00+0100
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: manifestacio-no-es-pobresa-es
 tags:

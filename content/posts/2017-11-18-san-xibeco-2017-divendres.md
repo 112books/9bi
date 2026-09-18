@@ -1,6 +1,7 @@
 ---
 title: San Xibeco 2017 - Divendres
 date: 2017-11-18T11:24:00+0100
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: san-xibeco-2017-divendres
 tags:

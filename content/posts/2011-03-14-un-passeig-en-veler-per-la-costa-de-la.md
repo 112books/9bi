@@ -1,6 +1,7 @@
 ---
 title: Un passeig en veler per la costa de la ciutat de Barcelona.
 date: 2011-03-14T20:36:00+0100
+year: 2011
 author: Manel Sala "Ulls" Circ
 slug: un-passeig-en-veler-per-la-costa-de-la
 tags:

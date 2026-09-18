@@ -1,6 +1,7 @@
 ---
 title: 2023-01-28 - Veremutsical amb Alejandro Arriaza
 date: 2023-01-30T11:55:00+0100
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-01-28-veremutsical-amb-alejandro
 tags:

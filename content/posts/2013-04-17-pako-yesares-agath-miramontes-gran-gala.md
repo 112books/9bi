@@ -1,6 +1,7 @@
 ---
 title: Pako Yesares - Agath Miramontes. Gran Gala Solidària de Cir
 date: 2013-04-17T22:55:00+0200
+year: 2013
 author: Manel Sala "Ulls" Circ
 slug: pako-yesares-agath-miramontes-gran-gala
 tags:

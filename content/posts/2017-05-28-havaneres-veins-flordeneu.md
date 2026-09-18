@@ -1,6 +1,7 @@
 ---
 title: 'Havaneres : Veïns Flordeneu.'
 date: 2017-05-28T00:57:00+0200
+year: 2017
 author: 9 Barris Imatge
 slug: havaneres-veins-flordeneu
 tags:

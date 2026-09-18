@@ -1,6 +1,7 @@
 ---
 title: El districte no ho entén, Prospe Beach és la gent!!
 date: 2012-07-12T08:48:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: el-districte-no-ho-enten-prospe-beach
 tags:

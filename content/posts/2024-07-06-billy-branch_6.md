@@ -1,6 +1,7 @@
 ---
 title: Billy Branch
 date: 2024-07-06T15:15:00+0200
+year: 2024
 author: Francesc Barbe
 slug: billy-branch_6
 cover:

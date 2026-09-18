@@ -1,6 +1,7 @@
 ---
 title: Ideal Plastica Flor Projecte Reunió
 date: 2018-10-08T07:27:00+0200
+year: 2018
 author: Ismael Utrilla
 slug: ideal-plastica-flor-projecte-reunio
 tags:

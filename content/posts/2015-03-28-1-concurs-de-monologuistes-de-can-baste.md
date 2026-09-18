@@ -1,6 +1,7 @@
 ---
 title: 1º Concurs de Monologuistes de Can Basté
 date: 2015-03-28T03:24:00+0100
+year: 2015
 author: 9 Barris Imatge
 slug: 1-concurs-de-monologuistes-de-can-baste
 tags:

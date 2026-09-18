@@ -1,6 +1,7 @@
 ---
 title: Preparant els carrers...ha arribat la FESTA MAJOR DE GRÀCIA  !!!
 date: 2015-08-14T15:24:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: preparant-els-carrersha-arrivat-la
 tags:

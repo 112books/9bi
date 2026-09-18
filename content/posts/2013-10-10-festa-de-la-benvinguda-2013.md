@@ -1,6 +1,7 @@
 ---
 title: Festa de la Benvinguda 2013
 date: 2013-10-10T23:39:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: festa-de-la-benvinguda-2013
 tags:

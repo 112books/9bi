@@ -1,6 +1,7 @@
 ---
 title: Festival Blues Barcelona - Diumenge de Boogie Woogie
 date: 2008-09-17T17:59:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: festival-blues-barcelona-diumenge-de
 tags:

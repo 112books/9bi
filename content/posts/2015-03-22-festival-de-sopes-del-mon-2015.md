@@ -1,6 +1,7 @@
 ---
 title: FESTIVAL DE SOPES DEL MON 2015 !!!
 date: 2015-03-22T20:13:00+0100
+year: 2015
 author: 9 Barris Imatge
 slug: festival-de-sopes-del-mon-2015
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Concert solidari de Pigme@ Revoltos@s i Cia. “Escola lliure i pública”
 date: 2010-03-08T02:08:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: concert-solidari-de-pigme-revoltoss-i
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Taula Rodona "En defensa de l'escola pública"
 date: 2018-03-23T03:38:00+0100
+year: 2018
 author: Alberto Sanagustín
 slug: taula-rodona-en-defensa-de-lescola
 cover:

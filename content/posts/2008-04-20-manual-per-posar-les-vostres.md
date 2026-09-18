@@ -1,6 +1,7 @@
 ---
 title: Manual per posar les vostres fotografies a aqeust blog
 date: 2008-04-20T22:31:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: manual-per-posar-les-vostres
 tags:

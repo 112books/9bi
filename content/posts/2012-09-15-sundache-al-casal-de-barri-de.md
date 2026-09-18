@@ -1,6 +1,7 @@
 ---
 title: Sundaché! al Casal de barri de Prosperitat
 date: 2012-09-15T01:53:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: sundache-al-casal-de-barri-de
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Taller Familiar de Galetes i Pizzes (Nico Yeye)
 date: 2015-06-06T13:51:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: taller-familiar-de-galetes-i-pizzes
 tags:

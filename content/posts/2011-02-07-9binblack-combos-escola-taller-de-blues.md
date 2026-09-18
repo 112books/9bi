@@ -1,6 +1,7 @@
 ---
 title: 9binblack - Combos Escola-Taller de blues de Barcelona
 date: 2011-02-07T01:23:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: 9binblack-combos-escola-taller-de-blues
 tags:

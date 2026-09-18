@@ -1,6 +1,7 @@
 ---
 title: 2024-05-25 - ProspeRock + Les Ninis
 date: 2024-05-26T19:20:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-05-25-prosperock-les-ninis
 tags:

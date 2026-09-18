@@ -1,6 +1,7 @@
 ---
 title: 7è Festival de Sopes del Món Mundial
 date: 2010-03-22T07:42:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: 7e-festival-de-sopes-del-mon-mundial
 tags:

@@ -1,6 +1,7 @@
 ---
 title: David Giorcelli Trio de Boogie + Ivo Oller al Bel-Luna Jazz Club
 date: 2009-08-09T20:04:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: david-giorcelli-trio-de-boogie-ivo
 tags:

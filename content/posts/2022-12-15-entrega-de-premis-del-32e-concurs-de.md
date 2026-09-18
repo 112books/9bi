@@ -2,6 +2,7 @@
 title: Entrega de premis del 32è Concurs de fotografia Josep Antón Cordoncillo amb
   Daniel Higiénico
 date: 2022-12-15T06:34:00+0100
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: entrega-de-premis-del-32e-concurs-de
 tags:

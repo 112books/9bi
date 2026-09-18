@@ -1,6 +1,7 @@
 ---
 title: La festa de la primavera a les Roquetes !!!
 date: 2014-04-29T19:33:00+0200
+year: 2014
 author: 9 Barris Imatge
 slug: la-festa-de-la-primavera-les-roquetas
 tags:

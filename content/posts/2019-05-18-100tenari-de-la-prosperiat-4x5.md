@@ -1,6 +1,7 @@
 ---
 title: 100tenari de la Prosperiat a 4x5"
 date: 2019-05-18T18:57:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: 100tenari-de-la-prosperiat-4x5
 tags:

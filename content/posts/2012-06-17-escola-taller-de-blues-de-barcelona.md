@@ -1,6 +1,7 @@
 ---
 title: Escola Taller de Blues de Barcelona - Final de curs
 date: 2012-06-17T08:09:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: escola-taller-de-blues-de-barcelona
 tags:

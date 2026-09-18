@@ -1,6 +1,7 @@
 ---
 title: Resurrection a la cartè
 date: 2010-12-04T11:50:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: resurrection-la-carte
 tags:

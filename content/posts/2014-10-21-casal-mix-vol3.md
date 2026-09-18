@@ -1,6 +1,7 @@
 ---
 title: CASAL MIX VOL.3
 date: 2014-10-21T21:08:00+0200
+year: 2014
 author: Pedro Click
 slug: casal-mix-vol3
 tags:

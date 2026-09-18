@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat - Assaig al carrer
 date: 2014-05-27T16:55:00+0200
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-assaig-al-carrer
 tags:

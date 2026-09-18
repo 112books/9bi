@@ -1,6 +1,7 @@
 ---
 title: Dia de la dona 8 Març
 date: 2024-03-11T09:36:00+0100
+year: 2024
 author: Iozsef Kiss
 slug: dia-de-la-dona-8-marc
 tags:

@@ -1,6 +1,7 @@
 ---
 title: San Xibeco
 date: 2015-11-16T20:33:00+0100
+year: 2015
 author: Pedro Click
 slug: san-xibeco
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Duo Catalexi. Canadà. Festival Internacional del Circ Ciutat de Figueres 2013
 date: 2013-08-30T00:10:00+0200
+year: 2013
 author: Manel Sala "Ulls" Circ
 slug: duo-catalexi-canada-festival
 tags:

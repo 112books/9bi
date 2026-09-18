@@ -1,6 +1,7 @@
 ---
 title: 9 Barris Cabrejada baixa a la Plaça Sant Jaume
 date: 2013-05-10T08:08:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: 9-barris-cabrejada-baixa-la-placa-sant
 tags:

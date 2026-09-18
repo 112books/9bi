@@ -1,6 +1,7 @@
 ---
 title: sabado Rua,Sardinada,Cata en Bodega Eduardo
 date: 2010-06-03T10:39:00+0200
+year: 2010
 author: Pedro Click
 slug: sabado-ruasardinadacata-en-bodega
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Carnastoltes Nou Barris 14-02-2026
 date: 2026-02-15T17:06:00+0100
+year: 2026
 author: Pedro Click
 slug: carnastoltes-nou-barris-14-02-2026
 tags:

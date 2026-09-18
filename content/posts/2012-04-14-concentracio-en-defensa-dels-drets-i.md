@@ -1,6 +1,7 @@
 ---
 title: Concentració en defensa dels drets i llibertats civils. Dia de la República!
 date: 2012-04-14T21:32:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: concentracio-en-defensa-dels-drets-i
 tags:

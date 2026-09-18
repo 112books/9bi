@@ -1,6 +1,7 @@
 ---
 title: Los Cangrejos y Anarkopibxs - casal de joves de prosperitat
 date: 2016-01-30T08:35:00+0100
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: los-cangrejos-y-anarkopibxs-casal-de
 tags:

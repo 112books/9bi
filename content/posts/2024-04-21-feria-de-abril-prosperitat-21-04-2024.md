@@ -1,6 +1,7 @@
 ---
 title: Feria de Abril Prosperitat 21-04-2024
 date: 2024-04-21T23:35:00+0200
+year: 2024
 author: Pedro Click
 slug: feria-de-abril-prosperitat-21-04-2024
 tags:

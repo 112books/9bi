@@ -1,6 +1,7 @@
 ---
 title: '"Salvemos nuestros Centros de Salud"'
 date: 2018-10-05T22:04:00+0200
+year: 2018
 author: Núria Laura Orbaneja
 slug: salvemos-nuestros-centros-de-salud
 tags:

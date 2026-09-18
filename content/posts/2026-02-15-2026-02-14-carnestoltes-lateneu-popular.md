@@ -1,6 +1,7 @@
 ---
 title: 2026-02-14 - Carnestoltes a l'Ateneu Popular de Nou Barris
 date: 2026-02-15T12:59:38+0100
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: 2026-02-14-carnestoltes-lateneu-popular
 tags:

@@ -1,6 +1,7 @@
 ---
 title: StreetWorld; Exposició fotogràfica del Grup "La GInesta"
 date: 2013-06-24T23:03:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: streetworld-exposicio-fotografica-del
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Tia Carroll Band
 date: 2024-07-08T17:27:00+0200
+year: 2024
 author: Francesc Barbe
 slug: tia-carroll-band
 cover:

@@ -1,6 +1,7 @@
 ---
 title: '"Arbusto" VI Concurso de Maquetas 2010. Casal Prospe'
 date: 2010-10-19T00:39:00+0200
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: arbusto-vi-concurso-de-maquetas-2010
 tags:

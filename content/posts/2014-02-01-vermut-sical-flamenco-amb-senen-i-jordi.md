@@ -1,6 +1,7 @@
 ---
 title: Vermut sical - Flamenco amb Senen i Jordi Guerrero
 date: 2014-02-01T22:08:00+0100
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: vermut-sical-flamenco-amb-senen-i-jordi
 tags:

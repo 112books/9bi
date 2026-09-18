@@ -1,6 +1,7 @@
 ---
 title: Vermutsical amb Mariani
 date: 2018-05-21T20:27:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-mariani
 tags:

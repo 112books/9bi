@@ -1,6 +1,7 @@
 ---
 title: Making off exposició "10è anys de Sopes del món"
 date: 2013-03-06T23:13:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: making-off-exposicio-10e-anys-de-sopes
 tags:

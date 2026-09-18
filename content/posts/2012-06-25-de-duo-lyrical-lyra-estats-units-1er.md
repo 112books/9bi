@@ -2,6 +2,7 @@
 title: De Duo Lyrical Lyra. Estats Units. 1er Festival Internacional del Circ Castell
   de Figueres 2012
 date: 2012-06-25T22:37:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: de-duo-lyrical-lyra-estats-units-1er
 tags:

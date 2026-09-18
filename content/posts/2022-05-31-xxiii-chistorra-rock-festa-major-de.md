@@ -1,6 +1,7 @@
 ---
 title: XXIII Chistorra Rock - Festa Major de Prosperitat 2022
 date: 2022-05-31T16:06:00+0200
+year: 2022
 author: Manel Sala "Ulls" Circ
 slug: xxiii-chistorra-rock-festa-major-de
 tags:

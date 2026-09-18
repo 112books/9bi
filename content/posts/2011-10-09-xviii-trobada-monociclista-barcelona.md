@@ -1,6 +1,7 @@
 ---
 title: XVIII trobada Monociclista Barcelona
 date: 2011-10-09T21:43:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: xviii-trobada-monociclista-barcelona
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Comparsas Carnaval Nou Barris 2016
 date: 2016-02-07T18:29:00+0100
+year: 2016
 author: Manel Villalba
 slug: comparsas-carnaval-nou-barris-2016
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 2025-03-01 - Gran vall de Carnaval a l'Ateneu Popular de Nou barris
 date: 2025-03-03T11:28:00+0100
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-03-01-gran-vall-de-carnaval
 tags:

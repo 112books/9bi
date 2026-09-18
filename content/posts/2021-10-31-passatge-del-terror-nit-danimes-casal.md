@@ -1,6 +1,7 @@
 ---
 title: Passatge del Terror - Nit d´Ànimes - Casal de Barri Prosperitat
 date: 2021-10-31T10:34:00+0100
+year: 2021
 author: Manel Sala "Ulls" Circ
 slug: passatge-del-terror-nit-danimes-casal
 tags:

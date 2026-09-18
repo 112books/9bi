@@ -1,6 +1,7 @@
 ---
 title: Jornades 9 Barris Acull 2020 - La Crisi Sanitària a Nou Barris
 date: 2020-11-06T22:04:00+0100
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: jornades-9-barris-acull-2020-la-crisi
 tags:

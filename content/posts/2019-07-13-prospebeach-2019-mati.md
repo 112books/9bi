@@ -1,6 +1,7 @@
 ---
 title: Prospebeach 2019 - Matí
 date: 2019-07-13T17:02:00+0200
+year: 2019
 author: Manel Sala "Ulls" Circ
 slug: prospebeach-2019-mati
 tags:

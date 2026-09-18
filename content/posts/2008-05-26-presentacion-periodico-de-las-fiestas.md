@@ -1,6 +1,7 @@
 ---
 title: PRESENTACION PERIODICO DE LAS FIESTAS DE PROSPE 2008
 date: 2008-05-26T18:35:00+0200
+year: 2008
 author: 9 Barris Imatge
 slug: presentacion-periodico-de-las-fiestas
 tags:

@@ -2,6 +2,7 @@
 title: Les Nits de Capibola Blues - Big dani Pérez Organic Trio + Master Class de
   ball
 date: 2011-01-22T18:07:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: les-nits-de-capibola-blues-big-dani
 tags:

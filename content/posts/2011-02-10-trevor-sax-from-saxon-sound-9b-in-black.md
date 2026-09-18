@@ -1,6 +1,7 @@
 ---
 title: Trevor Sax from Saxon Sound. 9b in black !. Casal Prospe
 date: 2011-02-10T12:24:00+0100
+year: 2011
 author: Manel Sala "Ulls" Circ
 slug: trevor-sax-from-saxon-sound-9b-in-black
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Robert Marnika exposa a Barcelona, a la sala Kowasa
 date: 2009-12-03T01:24:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: robert-marnika-exposa-barcelona-la-sala
 tags:

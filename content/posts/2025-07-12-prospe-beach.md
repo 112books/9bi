@@ -1,6 +1,7 @@
 ---
 title: Prospe Beach
 date: 2025-07-12T17:14:00+0200
+year: 2025
 author: Francesc Barbe
 slug: prospe-beach
 tags:

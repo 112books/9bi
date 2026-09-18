@@ -1,6 +1,7 @@
 ---
 title: The Walking Stick Man Blues Band
 date: 2010-01-31T09:45:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: walking-stick-man-blues-band
 tags:

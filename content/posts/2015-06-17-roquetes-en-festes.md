@@ -1,6 +1,7 @@
 ---
 title: ROQUETES EN FESTES !!!
 date: 2015-06-17T00:26:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: roquetes-en-festes
 tags:

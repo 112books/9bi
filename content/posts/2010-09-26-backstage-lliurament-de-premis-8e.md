@@ -1,6 +1,7 @@
 ---
 title: Backstage + Lliurament de premis. 8è Festival de Blues de Barcelona
 date: 2010-09-26T20:55:00+0200
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: backstage-lliurament-de-premis-8e
 tags:

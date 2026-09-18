@@ -1,6 +1,7 @@
 ---
 title: Novembre Rock Band al Casal de barri de Prosperitat
 date: 2018-12-23T18:16:00+0100
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: novembre-rock-band-al-casal-de-barri-de
 tags:

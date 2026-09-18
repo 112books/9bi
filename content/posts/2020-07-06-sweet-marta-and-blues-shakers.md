@@ -1,6 +1,7 @@
 ---
 title: Sweet Marta and the Blues Shakers
 date: 2020-07-06T10:21:00+0200
+year: 2020
 author: Pedro Click
 slug: sweet-marta-and-blues-shakers
 tags:

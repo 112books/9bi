@@ -1,6 +1,7 @@
 ---
 title: Festival Blues Barcalona 2008 - Big Mama a l'Hospital
 date: 2008-09-11T10:56:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: festival-blues-barcalona-2008-big-mama
 tags:

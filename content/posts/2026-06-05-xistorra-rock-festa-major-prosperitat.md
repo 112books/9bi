@@ -1,6 +1,7 @@
 ---
 title: Xistorra Rock - Festa Major Prosperitat 2026
 date: 2026-06-05T07:25:34+0200
+year: 2026
 author: Manel Sala "Ulls" Circ
 slug: xistorra-rock-festa-major-prosperitat
 tags:

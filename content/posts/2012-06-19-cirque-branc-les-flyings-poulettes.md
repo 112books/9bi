@@ -1,6 +1,7 @@
 ---
 title: Cirque Branc. Les Flyings Poulettes. Curtcirckit 2012
 date: 2012-06-19T22:57:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: cirque-branc-les-flyings-poulettes
 tags:

@@ -1,6 +1,7 @@
 ---
 title: FUTBOLSALA PARES AMPA
 date: 2015-06-07T21:58:00+0200
+year: 2015
 author: Pedro Click
 slug: futbolsala-pares-ampa
 tags:

@@ -1,6 +1,7 @@
 ---
 title: El Casal es Mostra 2014
 date: 2014-06-16T14:28:00+0200
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: el-casal-es-mostra-2014
 tags:

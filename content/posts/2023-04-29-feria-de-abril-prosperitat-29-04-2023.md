@@ -1,6 +1,7 @@
 ---
 title: Feria de Abril Prosperitat 29-04-2023
 date: 2023-04-29T18:23:00+0200
+year: 2023
 author: Pedro Click
 slug: feria-de-abril-prosperitat-29-04-2023
 tags:

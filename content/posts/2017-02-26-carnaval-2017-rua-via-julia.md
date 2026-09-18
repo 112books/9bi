@@ -1,6 +1,7 @@
 ---
 title: 'Carnaval 2017 Rua Via Julia '
 date: 2017-02-26T21:25:00+0100
+year: 2017
 author: Ismael Utrilla
 slug: carnaval-2017-rua-via-julia
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 1972 i Bönöbö al Casal de Barri de Prosperitat
 date: 2010-12-12T18:43:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: 1972-i-bonobo-al-casal-de-barri-de
 tags:

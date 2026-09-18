@@ -1,6 +1,7 @@
 ---
 title: Vermutsical "Jam Session Festival"
 date: 2018-01-21T22:42:00+0100
+year: 2018
 author: Manel Sala "Ulls" Circ
 slug: vermutsical-jam-session-festival
 tags:

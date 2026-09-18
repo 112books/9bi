@@ -1,6 +1,7 @@
 ---
 title: Espai Infantil de Roquetes.
 date: 2019-02-03T18:54:00+0100
+year: 2019
 author: 9 Barris Imatge
 slug: espai-de-cocrianca-de-roquetes
 tags:

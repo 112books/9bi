@@ -1,6 +1,7 @@
 ---
 title: RockArbusto 2016 Casal Prosperitat
 date: 2016-10-02T17:56:00+0200
+year: 2016
 author: Manel Sala "Ulls" Circ
 slug: rockarbusto-2016-casal-prosperitat
 tags:

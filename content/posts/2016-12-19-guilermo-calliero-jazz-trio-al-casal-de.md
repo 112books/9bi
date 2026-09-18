@@ -1,6 +1,7 @@
 ---
 title: Guilermo Calliero Jazz Trio al Casal de barri de Prosperitat
 date: 2016-12-19T10:56:00+0100
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: guilermo-calliero-jazz-trio-al-casal-de
 tags:

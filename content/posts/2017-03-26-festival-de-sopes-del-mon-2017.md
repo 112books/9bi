@@ -1,6 +1,7 @@
 ---
 title: Festival de Sopes del món 2017
 date: 2017-03-26T23:48:00+0200
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: festival-de-sopes-del-mon-2017
 tags:

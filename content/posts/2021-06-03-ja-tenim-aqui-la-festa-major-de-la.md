@@ -1,6 +1,7 @@
 ---
 title: Ja tenim aquí la Festa Major de la Prosperitat!
 date: 2021-06-03T17:46:00+0200
+year: 2021
 author: Joan "Linux" Martínez i Serres
 slug: ja-tenim-aqui-la-festa-major-de-la
 tags:

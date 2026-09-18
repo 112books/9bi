@@ -1,6 +1,7 @@
 ---
 title: Cercavila  Batuprospe
 date: 2025-05-25T11:59:00+0200
+year: 2025
 author: Ismael Utrilla
 slug: cercavila-batuprospe
 tags:

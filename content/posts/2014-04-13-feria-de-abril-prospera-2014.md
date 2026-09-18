@@ -1,6 +1,7 @@
 ---
 title: Feria de Abril Prospera 2014
 date: 2014-04-13T20:15:00+0200
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: feria-de-abril-prospera-2014
 tags:

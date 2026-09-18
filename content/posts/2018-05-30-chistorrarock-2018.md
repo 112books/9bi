@@ -1,6 +1,7 @@
 ---
 title: 'ChistorraRock 2018 '
 date: 2018-05-30T10:28:00+0200
+year: 2018
 author: Manel Sala "Ulls" Circ
 slug: chistorrarock-2018
 tags:

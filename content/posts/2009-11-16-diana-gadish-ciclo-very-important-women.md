@@ -1,6 +1,7 @@
 ---
 title: 'Diana Gadish CICLO VERY IMPORTANT WOMEN presenta: "Génesis Joplin"'
 date: 2009-11-16T15:20:00+0100
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: diana-gadish-ciclo-very-important-women
 tags:

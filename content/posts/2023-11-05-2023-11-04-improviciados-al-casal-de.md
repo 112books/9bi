@@ -1,6 +1,7 @@
 ---
 title: 2023-11-04 - Improviciados al Casal de Prosperitat
 date: 2023-11-05T04:28:00+0100
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-11-04-improviciados-al-casal-de
 tags:

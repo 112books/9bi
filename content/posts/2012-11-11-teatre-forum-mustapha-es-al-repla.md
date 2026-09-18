@@ -1,6 +1,7 @@
 ---
 title: 'Teatre Fòrum: “Mustaphà és al replà” a càrrec del Forn de Teatre Pa''Tothom'
 date: 2012-11-11T14:26:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: teatre-forum-mustapha-es-al-repla
 tags:

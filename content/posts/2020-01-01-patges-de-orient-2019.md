@@ -1,6 +1,7 @@
 ---
 title: Patges de Orient 2019
 date: 2020-01-01T13:40:00+0100
+year: 2020
 author: Pedro Click
 slug: patges-de-orient-2019
 cover:

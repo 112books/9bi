@@ -1,6 +1,7 @@
 ---
 title: Xarxa 9 Barris Acull - 17è Festival de sopes del món
 date: 2021-10-17T19:34:00+0200
+year: 2021
 author: Joan "Linux" Martínez i Serres
 slug: xarxa-9-barris-acull-17e-festival-de
 tags:

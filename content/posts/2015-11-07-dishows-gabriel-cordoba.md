@@ -1,6 +1,7 @@
 ---
 title: Dishows - Gabriel Córdoba
 date: 2015-11-07T08:29:00+0100
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: dishows-gabriel-cordoba
 tags:

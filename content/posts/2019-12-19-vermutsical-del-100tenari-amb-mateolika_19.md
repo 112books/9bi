@@ -1,6 +1,7 @@
 ---
 title: Vermutsical del 100tenari amb MATEOLIKA
 date: 2019-12-19T18:48:00+0100
+year: 2019
 author: Manel Sala "Ulls" Circ
 slug: vermutsical-del-100tenari-amb-mateolika_19
 tags:

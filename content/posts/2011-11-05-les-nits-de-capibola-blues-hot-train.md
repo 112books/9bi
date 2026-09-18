@@ -1,6 +1,7 @@
 ---
 title: Les nits de Capibola Blues - Hot Train Trio
 date: 2011-11-05T14:21:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: les-nits-de-capibola-blues-hot-train
 tags:

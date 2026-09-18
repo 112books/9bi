@@ -1,6 +1,7 @@
 ---
 title: La Cultura va de festa 2012
 date: 2012-05-07T19:24:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: la-cultura-va-de-festa-2012
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Festes de Prospe - divendres - Poemes i Caraoke
 date: 2008-06-07T19:56:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe-divendres-poemes-i
 tags:

@@ -2,6 +2,7 @@
 title: LLITS .. Del 17 de desembre de 2009 al 3 de gener de 2010 Sala Gran del TNC
   (Teatre Nacional de Catalunya)
 date: 2009-12-09T15:11:00+0100
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: llits-del-17-de-desembre-de-2009-al-3
 tags:

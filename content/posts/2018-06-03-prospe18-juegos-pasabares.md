@@ -1,6 +1,7 @@
 ---
 title: Prospe'18 Juegos & Pasabares
 date: 2018-06-03T21:47:00+0200
+year: 2018
 author: Ismael Utrilla
 slug: prospe18-juegos-pasabares
 tags:

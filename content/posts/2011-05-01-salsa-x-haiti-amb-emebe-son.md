@@ -1,6 +1,7 @@
 ---
 title: Salsa x Haití amb "Emebé Son"
 date: 2011-05-01T10:05:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: salsa-x-haiti-amb-emebe-son
 tags:

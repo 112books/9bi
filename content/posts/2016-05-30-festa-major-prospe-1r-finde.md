@@ -1,6 +1,7 @@
 ---
 title: Festa major Prospe  1r finde
 date: 2016-05-30T13:26:00+0200
+year: 2016
 author: Pedro "Casal" Cervera
 slug: festa-major-prospe-1r-finde
 tags:

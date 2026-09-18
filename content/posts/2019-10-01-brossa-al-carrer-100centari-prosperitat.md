@@ -1,6 +1,7 @@
 ---
 title: Brossa al carrer - 100tenari La Prosperitat
 date: 2019-10-01T13:29:00+0200
+year: 2019
 author: Manel Sala "Ulls" Circ
 slug: brossa-al-carrer-100centari-prosperitat
 tags:

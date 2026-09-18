@@ -1,6 +1,7 @@
 ---
 title: Entrega de Premis 9 Barris Imatge 2013
 date: 2013-12-15T23:31:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: entrega-de-premis-9-barris-imatge-2013
 tags:

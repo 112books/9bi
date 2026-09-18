@@ -1,6 +1,7 @@
 ---
 title: La Cultura va de Festa 2009 . Dracs i Diables de la Guineueta i Nou Barris
 date: 2009-05-11T00:39:00+0200
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: la-cultura-va-de-festa-2009-dracs-i
 tags:

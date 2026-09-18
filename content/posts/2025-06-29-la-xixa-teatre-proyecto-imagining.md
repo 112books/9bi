@@ -1,6 +1,7 @@
 ---
 title: La Xixa Teatre, proyecto "Imagining".
 date: 2025-06-29T12:39:00+0200
+year: 2025
 author: Pedro Click
 slug: la-xixa-teatre-proyecto-imagining
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Flamenc “Barcelona Compás”
 date: 2017-10-16T10:44:00+0200
+year: 2017
 author: Manel Sala "Ulls" Circ
 slug: flamenc-barcelona-compas_16
 tags:

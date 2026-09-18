@@ -1,6 +1,7 @@
 ---
 title: XX Chistorra Rock 2019
 date: 2019-05-28T09:35:00+0200
+year: 2019
 author: Manel Sala "Ulls" Circ
 slug: xx-chistorra-rock-2019
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Fes-te de lletres
 date: 2025-10-14T19:04:00+0200
+year: 2025
 author: Iozsef Kiss
 slug: fes-te-de-lletres
 tags:

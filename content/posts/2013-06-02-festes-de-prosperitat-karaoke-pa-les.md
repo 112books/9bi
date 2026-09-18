@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat - Karaoke Pa les Penyes
 date: 2013-06-02T16:37:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-karaoke-pa-les
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Año Nuevo Chino'19 en Nou Barris
 date: 2019-01-27T15:59:00+0100
+year: 2019
 author: Ismael Utrilla
 slug: ano-nuevo-chino19-en-nou-barris
 tags:

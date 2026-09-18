@@ -1,6 +1,7 @@
 ---
 title: '"Aigua viva" a Nou Barris'
 date: 2017-09-29T00:34:00+0200
+year: 2017
 author: 9 Barris Imatge
 slug: aigua-viva-nou-barris
 tags:

@@ -1,6 +1,7 @@
 ---
 title: The Artichokes
 date: 2018-09-09T08:12:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: the-artichokes
 tags:

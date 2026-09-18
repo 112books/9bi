@@ -1,6 +1,7 @@
 ---
 title: Auto-confinament per el bitxo
 date: 2020-03-29T19:32:00+0200
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: auto-confinament-per-el-bitxo
 tags:

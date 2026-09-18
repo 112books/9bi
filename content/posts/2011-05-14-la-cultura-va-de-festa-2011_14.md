@@ -1,6 +1,7 @@
 ---
 title: LA CULTURA VA DE FESTA 2011
 date: 2011-05-14T10:52:00+0200
+year: 2011
 author: Pedro Click
 slug: la-cultura-va-de-festa-2011_14
 tags:

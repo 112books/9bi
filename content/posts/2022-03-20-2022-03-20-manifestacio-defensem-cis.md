@@ -1,6 +1,7 @@
 ---
 title: 2022-03-20 - Manifestació defensem CIS Cotxeres
 date: 2022-03-20T19:12:00+0100
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: 2022-03-20-manifestacio-defensem-cis
 tags:

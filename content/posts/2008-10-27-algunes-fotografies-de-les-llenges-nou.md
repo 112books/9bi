@@ -1,6 +1,7 @@
 ---
 title: Algunes fotografies de "Les llengües a Nou Barris"
 date: 2008-10-27T14:19:00+0100
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: algunes-fotografies-de-les-llenges-nou
 tags:

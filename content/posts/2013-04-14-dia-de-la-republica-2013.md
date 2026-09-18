@@ -1,6 +1,7 @@
 ---
 title: Dia de la Republica 2013
 date: 2013-04-14T17:09:00+0200
+year: 2013
 author: Pedro "Casal" Cervera
 slug: dia-de-la-republica-2013
 tags:

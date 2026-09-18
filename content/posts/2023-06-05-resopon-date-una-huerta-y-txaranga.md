@@ -1,6 +1,7 @@
 ---
 title: Resopon Date una huerta y Txaranga Prospe
 date: 2023-06-05T09:58:00+0200
+year: 2023
 author: Iozsef Kiss
 slug: resopon-date-una-huerta-y-txaranga
 tags:

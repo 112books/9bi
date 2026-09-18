@@ -1,6 +1,7 @@
 ---
 title: Festival de Sopes .Via Julia.
 date: 2022-10-23T19:07:00+0200
+year: 2022
 author: Ismael Utrilla
 slug: festival-de-sopes-via-julia
 tags:

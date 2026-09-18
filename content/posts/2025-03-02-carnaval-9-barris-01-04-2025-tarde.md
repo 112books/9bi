@@ -1,6 +1,7 @@
 ---
 title: Carnaval 9 barris 01-04-2025        tarde
 date: 2025-03-02T19:54:00+0100
+year: 2025
 author: Pedro Click
 slug: carnaval-9-barris-01-04-2025-tarde
 tags:

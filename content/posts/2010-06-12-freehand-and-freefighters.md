@@ -1,6 +1,7 @@
 ---
 title: Freehand and the Freefighters
 date: 2010-06-12T01:52:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: freehand-and-freefighters
 tags:

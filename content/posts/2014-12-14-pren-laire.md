@@ -1,6 +1,7 @@
 ---
 title: PREN L´AIRE
 date: 2014-12-14T13:58:00+0100
+year: 2014
 author: Pedro Click
 slug: pren-laire
 cover:

@@ -1,6 +1,7 @@
 ---
 title: De nou Pigme@s Revoltos@s; enguany amb la campanya "Res a la nevera"
 date: 2011-01-23T16:18:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: de-nou-pigmes-revoltoss-enguany-amb-la
 tags:

@@ -1,6 +1,7 @@
 ---
 title: '"DEMOCRACIA REAL YA" Barcelona 19-05-2011'
 date: 2011-05-19T18:47:00+0200
+year: 2011
 author: Manel Sala "Ulls" Circ
 slug: democracia-real-ya-barcelona-19-05-2011
 tags:

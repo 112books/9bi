@@ -1,6 +1,7 @@
 ---
 title: Portes obertes al castell de TORRE BARÓ !!!
 date: 2014-11-15T23:39:00+0100
+year: 2014
 author: 9 Barris Imatge
 slug: portes-obertes-al-castell-de-torre-baro
 tags:

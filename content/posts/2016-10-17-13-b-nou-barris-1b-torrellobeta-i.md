@@ -1,6 +1,7 @@
 ---
 title: '[13-B = Nou Barris] - 1B - Torrellobeta i Vilapicina'
 date: 2016-10-17T01:46:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: 13-b-nou-barris-1b-torrellobeta-i
 tags:

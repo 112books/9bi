@@ -1,6 +1,7 @@
 ---
 title: Festival de Blues de Barcelona - Bandes emergents + Jam session
 date: 2014-07-12T15:25:00+0200
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: festival-de-blues-de-barcelona-bandes
 tags:

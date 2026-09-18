@@ -1,6 +1,7 @@
 ---
 title: Picnic & Blues
 date: 2010-05-31T15:05:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: picnic-blues
 tags:

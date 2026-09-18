@@ -1,6 +1,7 @@
 ---
 title: Nevada a 9 Barris
 date: 2010-03-10T07:36:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: nevada-9-barris
 tags:

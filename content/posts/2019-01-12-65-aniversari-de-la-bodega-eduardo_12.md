@@ -1,6 +1,7 @@
 ---
 title: 'Concierto Radio Línea 4: La Coctelera Negra'
 date: 2019-01-12T21:04:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: 65-aniversari-de-la-bodega-eduardo_12
 tags:

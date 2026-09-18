@@ -1,6 +1,7 @@
 ---
 title: Sopes del Món 16è Edició
 date: 2019-03-26T15:17:00+0100
+year: 2019
 author: Ismael Utrilla
 slug: sopes-del-mon-16e-edicio
 tags:

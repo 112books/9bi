@@ -1,6 +1,7 @@
 ---
 title: 9BCabrejada - No és pobresa! És injusticia!
 date: 2014-11-20T16:33:00+0100
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: 9bcabrejada-no-es-pobresa-es-injusticia
 tags:

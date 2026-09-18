@@ -1,6 +1,7 @@
 ---
 title: Flamenco de Barrio 2013
 date: 2013-07-28T03:30:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: flamenco-de-barrio-2013
 tags:

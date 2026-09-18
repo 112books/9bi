@@ -1,6 +1,7 @@
 ---
 title: Montserrat Escopinya. Casal Prospe
 date: 2013-02-17T12:33:00+0100
+year: 2013
 author: Manel Sala "Ulls" Circ
 slug: montserrat-escopinya-casal-prospe
 tags:

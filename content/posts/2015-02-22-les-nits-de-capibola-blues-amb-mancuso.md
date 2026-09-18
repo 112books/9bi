@@ -1,6 +1,7 @@
 ---
 title: Les Nits de Capibola Blues amb Mancuso
 date: 2015-02-22T20:51:00+0100
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: les-nits-de-capibola-blues-amb-mancuso
 tags:

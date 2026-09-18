@@ -1,6 +1,7 @@
 ---
 title: Inauguració exposició "África, una mirada" de Pedro García al bar Formentera
 date: 2019-04-06T16:13:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: inauguracio-exposicio-africa-una-mirada
 tags:

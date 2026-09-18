@@ -1,6 +1,7 @@
 ---
 title: Rumbaoke Pa´les Penyes
 date: 2019-06-01T14:20:00+0200
+year: 2019
 author: Manel Sala "Ulls" Circ
 slug: rumbaoke-pales-penyes
 tags:

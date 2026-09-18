@@ -1,6 +1,7 @@
 ---
 title: Festes Prosperitat - KARAOKE 2015
 date: 2015-06-05T15:20:00+0200
+year: 2015
 author: Alberto Sanagustín
 slug: festes-prosperitat-karaoke-2015_70
 tags:

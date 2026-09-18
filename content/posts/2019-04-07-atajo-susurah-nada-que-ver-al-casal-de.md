@@ -1,6 +1,7 @@
 ---
 title: Atajo - Susurah - Nada Que Ver al Casal de barri de Prosperitat
 date: 2019-04-07T00:31:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: atajo-susurah-nada-que-ver-al-casal-de
 tags:

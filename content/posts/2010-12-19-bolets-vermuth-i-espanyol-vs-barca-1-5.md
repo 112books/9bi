@@ -1,6 +1,7 @@
 ---
 title: Bolets, vermuth i Espanyol vs barça (1-5)
 date: 2010-12-19T15:44:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: bolets-vermuth-i-espanyol-vs-barca-1-5
 tags:

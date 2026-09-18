@@ -1,6 +1,7 @@
 ---
 title: Vermutsical - Sambalucía
 date: 2016-06-26T18:31:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-sambalucia
 tags:

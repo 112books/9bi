@@ -1,6 +1,7 @@
 ---
 title: VermutSical - Atomic Leoparts
 date: 2016-10-29T21:12:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-atomic-leoparts
 tags:

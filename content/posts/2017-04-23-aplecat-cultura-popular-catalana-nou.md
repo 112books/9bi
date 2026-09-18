@@ -1,6 +1,7 @@
 ---
 title: APLECAT Cultura popular catalana a Nou Barris..
 date: 2017-04-23T21:08:00+0200
+year: 2017
 author: 9 Barris Imatge
 slug: aplecat-cultura-popular-catalana-nou
 tags:

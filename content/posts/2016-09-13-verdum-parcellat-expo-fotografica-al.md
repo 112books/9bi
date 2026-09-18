@@ -1,6 +1,7 @@
 ---
 title: '"Verdum parcel.lat"  al Casal .'
 date: 2016-09-13T01:03:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: verdum-parcellat-expo-fotografica-al
 cover:

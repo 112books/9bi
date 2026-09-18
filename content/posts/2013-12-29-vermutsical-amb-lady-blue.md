@@ -1,6 +1,7 @@
 ---
 title: VermutSical amb Lady Blue
 date: 2013-12-29T20:19:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-lady-blue
 tags:

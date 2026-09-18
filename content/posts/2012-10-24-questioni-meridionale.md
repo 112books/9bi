@@ -1,6 +1,7 @@
 ---
 title: Questioni Meridionale
 date: 2012-10-24T21:10:00+0200
+year: 2012
 author: Pedro Click
 slug: questioni-meridionale
 tags:

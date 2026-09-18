@@ -1,6 +1,7 @@
 ---
 title: Improviciaos 30-01-2025 sala Diosbar
 date: 2025-02-01T13:22:00+0100
+year: 2025
 author: Pedro Click
 slug: improviciaos-30-01-2025-sala-diosbar
 tags:

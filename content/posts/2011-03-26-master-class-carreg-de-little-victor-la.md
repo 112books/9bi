@@ -1,6 +1,7 @@
 ---
 title: Master Class a càrreg de Little Victor "La guitarra Slide segons Elmore James"
 date: 2011-03-26T19:56:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: master-class-carreg-de-little-victor-la
 tags:

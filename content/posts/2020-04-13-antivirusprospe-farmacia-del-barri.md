@@ -1,6 +1,7 @@
 ---
 title: 'AntivirusProspe : Farmàcia de barri.'
 date: 2020-04-13T11:53:00+0200
+year: 2020
 author: 9 Barris Imatge
 slug: antivirusprospe-farmacia-del-barri
 cover:

@@ -1,6 +1,7 @@
 ---
 title: Fiesta de la Prospe - Danza Vertical
 date: 2022-06-10T01:14:00+0200
+year: 2022
 author: Iozsef Kiss
 slug: fiesta-de-la-prospe-danza-vertical
 tags:

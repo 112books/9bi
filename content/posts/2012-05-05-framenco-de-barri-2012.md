@@ -1,6 +1,7 @@
 ---
 title: Framenco de Barri 2012
 date: 2012-05-05T16:35:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: framenco-de-barri-2012
 tags:

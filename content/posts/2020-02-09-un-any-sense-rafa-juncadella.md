@@ -1,6 +1,7 @@
 ---
 title: Un any sense Rafa Juncadella.
 date: 2020-02-09T16:03:00+0100
+year: 2020
 author: Núria Laura Orbaneja
 slug: un-any-sense-rafa-juncadella
 tags:

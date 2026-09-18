@@ -1,6 +1,7 @@
 ---
 title: DONEM UN TOMB
 date: 2014-06-02T18:48:00+0200
+year: 2014
 author: Manel Villalba
 slug: donem-un-tomb
 tags:

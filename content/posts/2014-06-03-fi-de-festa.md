@@ -1,6 +1,7 @@
 ---
 title: FÍ DE FESTA !!!
 date: 2014-06-03T21:15:00+0200
+year: 2014
 author: 9 Barris Imatge
 slug: fi-de-festa
 tags:

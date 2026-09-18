@@ -1,6 +1,7 @@
 ---
 title: XVIII Chistorra Rock 2017 . Festa Major de Prosperitat
 date: 2017-05-30T11:17:00+0200
+year: 2017
 author: Manel Sala "Ulls" Circ
 slug: xviii-chistorra-rock-2017-festa-major
 tags:

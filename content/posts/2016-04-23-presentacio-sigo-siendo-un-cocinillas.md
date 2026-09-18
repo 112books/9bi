@@ -1,6 +1,7 @@
 ---
 title: Presentació "Sigo siendo un cocinillas"
 date: 2016-04-23T09:00:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-sigo-siendo-un-cocinillas
 tags:

@@ -1,6 +1,7 @@
 ---
 title: EL PLACER DE ESTAR SIN TI
 date: 2008-05-18T13:34:00+0200
+year: 2008
 author: 9 Barris Imatge
 slug: el-placer-de-estar-sin-ti
 tags:

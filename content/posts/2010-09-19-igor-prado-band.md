@@ -1,6 +1,7 @@
 ---
 title: IGOR PRADO BAND
 date: 2010-09-19T12:52:00+0200
+year: 2010
 author: Pedro Click
 slug: igor-prado-band
 tags:

@@ -1,6 +1,7 @@
 ---
 title: FOTOS DE LA DESPEDIDA DE PEDRO DEL CASAL
 date: 2008-07-29T12:05:00+0200
+year: 2008
 author: Pedro "Casal" Cervera
 slug: fotos-de-la-despedida-de-pedro-del
 tags:

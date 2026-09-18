@@ -1,6 +1,7 @@
 ---
 title: Diada Nacional de Catalunya 2014
 date: 2014-09-11T23:16:00+0200
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: diada-nacional-de-catalunya-2014
 tags:

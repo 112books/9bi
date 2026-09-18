@@ -1,6 +1,7 @@
 ---
 title: Calçotada Ateneu la Bobila Porta 2024
 date: 2024-03-04T10:44:00+0100
+year: 2024
 author: Iozsef Kiss
 slug: calcotada-ateneu-la-bobila-porta-2024
 tags:

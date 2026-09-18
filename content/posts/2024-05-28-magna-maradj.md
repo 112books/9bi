@@ -1,6 +1,7 @@
 ---
 title: Xistorra Rock
 date: 2024-05-28T13:49:00+0200
+year: 2024
 author: Francesc Barbe
 slug: magna-maradj
 tags:

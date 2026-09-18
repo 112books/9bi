@@ -1,6 +1,7 @@
 ---
 title: Festes de prosperitat - dilluns
 date: 2012-05-29T12:41:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-dilluns
 tags:

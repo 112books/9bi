@@ -1,6 +1,7 @@
 ---
 title: LIBERTAD DE CREACION
 date: 2011-04-08T16:48:00+0200
+year: 2011
 author: Pedro Click
 slug: libertad-de-creacion
 cover:

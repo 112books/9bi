@@ -1,6 +1,7 @@
 ---
 title: Cursa Popular de Nou Barris '22
 date: 2022-05-22T21:21:00+0200
+year: 2022
 author: Ismael Utrilla
 slug: cursa-popular-de-nou-barris-22
 tags:

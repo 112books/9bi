@@ -1,6 +1,7 @@
 ---
 title: 'Jornades 9 Barris Acull 2022 - Superant obstacles: joves, racisme i exclusió'
 date: 2022-03-26T14:44:00+0100
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: jornades-9-barris-acull-2022-superant
 tags:

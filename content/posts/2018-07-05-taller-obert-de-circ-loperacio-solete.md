@@ -1,6 +1,7 @@
 ---
 title: Operación Solete :Taller Obert de Circ.
 date: 2018-07-05T01:22:00+0200
+year: 2018
 author: 9 Barris Imatge
 slug: taller-obert-de-circ-loperacio-solete
 tags:

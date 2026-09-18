@@ -1,6 +1,7 @@
 ---
 title: Barça .. Tres de Tres ..Copa, Lliga i.. Champions
 date: 2009-05-28T14:05:00+0200
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: barca-tres-de-tres-copa-lliga-i
 tags:

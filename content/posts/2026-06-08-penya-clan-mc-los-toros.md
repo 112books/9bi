@@ -1,6 +1,7 @@
 ---
 title: Penya Clan MC- Los Toros
 date: 2026-06-08T11:42:23+0200
+year: 2026
 author: Pedro Click
 slug: penya-clan-mc-los-toros
 tags:

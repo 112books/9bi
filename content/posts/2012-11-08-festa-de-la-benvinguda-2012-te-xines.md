@@ -1,6 +1,7 @@
 ---
 title: Festa de la Benvinguda 2012 - Te Xinès
 date: 2012-11-08T18:29:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: festa-de-la-benvinguda-2012-te-xines
 tags:

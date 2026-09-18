@@ -1,6 +1,7 @@
 ---
 title: '#acampadabcn #yeswecamp #nonosvamos #spanishrevolution'
 date: 2011-05-20T01:27:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: acampadabcn-yeswecamp-nonosvamos
 cover:

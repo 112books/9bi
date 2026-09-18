@@ -1,6 +1,7 @@
 ---
 title: Gumbo. 8è Festival de Blues de Barcelona 2010
 date: 2010-09-26T18:58:00+0200
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: gumbo-8e-festival-de-blues-de-barcelona
 tags:

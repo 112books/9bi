@@ -1,6 +1,7 @@
 ---
 title: 'Circ: Cabaret Canalla'
 date: 2022-01-02T11:29:00+0100
+year: 2022
 author: Pedro Click
 slug: circ-cabaret-canalla
 tags:

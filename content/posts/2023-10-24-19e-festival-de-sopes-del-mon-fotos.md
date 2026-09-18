@@ -1,6 +1,7 @@
 ---
 title: 19è Festival de Sopes del Món [fotos cedides pel fotògraf Manel Villalba]
 date: 2023-10-24T07:37:00+0200
+year: 2023
 author: Núria Laura Orbaneja
 slug: 19e-festival-de-sopes-del-mon-fotos
 tags:

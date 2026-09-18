@@ -1,6 +1,7 @@
 ---
 title: Presentació del llibre de Mario Ortiz “RUIDO DE FONDO”, al Casal de Prospe
 date: 2009-05-09T14:01:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-del-llibre-de-mario-ortiz
 tags:

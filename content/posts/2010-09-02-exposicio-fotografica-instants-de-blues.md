@@ -1,6 +1,7 @@
 ---
 title: Exposició fotogràfica "Instants de Blues"
 date: 2010-09-02T18:42:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: exposicio-fotografica-instants-de-blues
 tags:

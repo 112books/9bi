@@ -1,6 +1,7 @@
 ---
 title: Festival Sopas del Mon 2014
 date: 2014-03-24T13:05:00+0100
+year: 2014
 author: Pedro Click
 slug: festiva-sopas-del-mon-2014
 tags:

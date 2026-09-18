@@ -1,6 +1,7 @@
 ---
 title: 2020-04-03 - Auto-confinament amb Diana Multi Pinhole
 date: 2020-04-04T03:13:00+0200
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: 2020-04-03-auto-confinament-amb-diana
 tags:

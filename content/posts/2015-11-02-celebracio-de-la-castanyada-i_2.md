@@ -2,6 +2,7 @@
 title: CELEBRACIÓ DE LA CASTANYADA I ANIVERSARIS DE LA RESIDÈNCIA I CENTRE DE DIA
   PORTA
 date: 2015-11-02T14:17:00+0100
+year: 2015
 author: 9 Barris Imatge
 slug: celebracio-de-la-castanyada-i_2
 tags:

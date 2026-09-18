@@ -1,6 +1,7 @@
 ---
 title: Castanyada al Casal de barri de Prosperitat
 date: 2014-11-01T12:34:00+0100
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: castanyada-al-casal-de-barri-de
 tags:

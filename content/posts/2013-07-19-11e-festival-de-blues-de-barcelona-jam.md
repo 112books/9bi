@@ -1,6 +1,7 @@
 ---
 title: 11è Festival de Blues de Barcelona - Jam Session
 date: 2013-07-19T02:52:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: 11e-festival-de-blues-de-barcelona-jam
 tags:

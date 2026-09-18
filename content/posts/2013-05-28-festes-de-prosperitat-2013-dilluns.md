@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat 2013 - dilluns
 date: 2013-05-28T19:07:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-2013-dilluns
 tags:

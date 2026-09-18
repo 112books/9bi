@@ -1,6 +1,7 @@
 ---
 title: Final futbolera de banqueros!
 date: 2016-06-05T19:05:00+0200
+year: 2016
 author: Alberto Sanagustín
 slug: final-futbolera-de-banqueros
 tags:

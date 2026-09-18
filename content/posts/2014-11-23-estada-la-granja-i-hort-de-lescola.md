@@ -1,6 +1,7 @@
 ---
 title: Estada a la granja i l' hort de l'escola Antaviana.
 date: 2014-11-23T23:34:00+0100
+year: 2014
 author: 9 Barris Imatge
 slug: estada-la-granja-i-hort-de-lescola
 tags:

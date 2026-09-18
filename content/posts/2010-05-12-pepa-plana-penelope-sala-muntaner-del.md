@@ -1,6 +1,7 @@
 ---
 title: Pepa Plana . Penèlope. Sala Muntaner. Del 28 d´Abril al 30 de Maig
 date: 2010-05-12T17:42:00+0200
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: pepa-plana-penelope-sala-muntaner-del
 tags:

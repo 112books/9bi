@@ -1,6 +1,7 @@
 ---
 title: Enganxines i adhesius (1910-2015
 date: 2015-10-17T20:19:00+0200
+year: 2015
 author: Alberto Sanagustín
 slug: enganxines-i-adhesius-1910-2015
 tags:

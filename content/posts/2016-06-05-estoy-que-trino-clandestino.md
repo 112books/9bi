@@ -1,6 +1,7 @@
 ---
 title: ESTOY QUE TRINO "clandestino"
 date: 2016-06-05T13:54:00+0200
+year: 2016
 author: Pedro Click
 slug: estoy-que-trino-clandestino
 cover:

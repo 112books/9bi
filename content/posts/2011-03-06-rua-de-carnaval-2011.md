@@ -1,6 +1,7 @@
 ---
 title: RUA DE CARNAVAL 2011
 date: 2011-03-06T14:02:00+0100
+year: 2011
 author: 9 Barris Imatge
 slug: rua-de-carnaval-2011
 tags:

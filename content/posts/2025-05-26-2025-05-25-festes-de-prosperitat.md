@@ -1,6 +1,7 @@
 ---
 title: 2025-05-25 - Festes de Prosperitat - Ostiesputesfest
 date: 2025-05-26T09:52:00+0200
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-05-25-festes-de-prosperitat
 tags:

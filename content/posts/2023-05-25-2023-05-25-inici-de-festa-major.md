@@ -1,6 +1,7 @@
 ---
 title: 2023-05-25 - Inici de Festa Major!!
 date: 2023-05-25T23:41:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-05-25-inici-de-festa-major
 tags:

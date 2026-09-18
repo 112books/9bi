@@ -1,6 +1,7 @@
 ---
 title: '!NO ESTAMOS DE ACUERDO!'
 date: 2012-05-21T10:49:00+0200
+year: 2012
 author: Pedro Click
 slug: no-estamos-de-acuuerdo
 tags:

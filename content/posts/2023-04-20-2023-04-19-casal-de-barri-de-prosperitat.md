@@ -1,6 +1,7 @@
 ---
 title: 2023-04-19 - Casal de barri de Prosperitat
 date: 2023-04-20T17:16:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-04-19-casal-de-barri-de-prosperitat
 tags:

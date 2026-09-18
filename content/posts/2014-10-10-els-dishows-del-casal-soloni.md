@@ -1,6 +1,7 @@
 ---
 title: Els DiShows del Casal - Soloni
 date: 2014-10-10T07:22:00+0200
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: els-dishows-del-casal-soloni
 tags:

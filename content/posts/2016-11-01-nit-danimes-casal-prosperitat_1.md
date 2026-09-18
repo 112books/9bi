@@ -1,6 +1,7 @@
 ---
 title: Nit d´Animes . Casal Prosperitat
 date: 2016-11-01T22:11:00+0100
+year: 2016
 author: Manel Sala "Ulls" Circ
 slug: nit-danimes-casal-prosperitat_1
 tags:

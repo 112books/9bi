@@ -1,6 +1,7 @@
 ---
 title: Vermutsical "Pogo sobre mi madre"
 date: 2019-03-22T13:23:00+0100
+year: 2019
 author: Francesc Barbe
 slug: vermutsical-pogo-sobre-mi-madre
 tags:

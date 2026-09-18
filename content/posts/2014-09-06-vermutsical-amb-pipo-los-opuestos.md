@@ -1,6 +1,7 @@
 ---
 title: Vermutsical amb “PIPO &amp; LOS OPUESTOS”
 date: 2014-09-06T18:54:00+0200
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-pipo-los-opuestos
 tags:

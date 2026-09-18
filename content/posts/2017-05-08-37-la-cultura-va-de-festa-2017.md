@@ -1,6 +1,7 @@
 ---
 title: 37 La Cultura va de Festa 2017
 date: 2017-05-08T08:18:00+0200
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: 37-la-cultura-va-de-festa-2017
 tags:

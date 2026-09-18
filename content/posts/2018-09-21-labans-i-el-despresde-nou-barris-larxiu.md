@@ -1,6 +1,7 @@
 ---
 title: L'abans i el després...de Nou Barris a l'Arxiu !!!
 date: 2018-09-21T00:43:00+0200
+year: 2018
 author: 9 Barris Imatge
 slug: labans-i-el-despresde-nou-barris-larxiu
 tags:

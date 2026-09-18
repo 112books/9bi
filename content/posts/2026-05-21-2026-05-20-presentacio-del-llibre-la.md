@@ -1,6 +1,7 @@
 ---
 title: 2026-05-20 - Presentació del llibre 'La moguda juvenil a la Prosperitat'
 date: 2026-05-21T16:42:07+0200
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: 2026-05-20-presentacio-del-llibre-la
 tags:

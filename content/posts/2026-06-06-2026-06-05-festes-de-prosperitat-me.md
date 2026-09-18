@@ -2,6 +2,7 @@
 title: 2026-06-05 – Festes de Prosperitat – Me Pirra la Birra Fest + Mocebares + Prospe
   Oases
 date: 2026-06-06T15:04:25+0200
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: 2026-06-05-festes-de-prosperitat-me
 tags:

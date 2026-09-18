@@ -1,6 +1,7 @@
 ---
 title: A currar!! 20 anys de Casal de barri de Prosperitat
 date: 2008-04-17T21:55:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: currar-20-anys-de-casal-de-barri-de
 tags:

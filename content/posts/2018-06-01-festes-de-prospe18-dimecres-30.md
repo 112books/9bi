@@ -1,6 +1,7 @@
 ---
 title: ' Festes de Prospe’18 – Dimecres 30'
 date: 2018-06-01T01:31:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe18-dimecres-30
 tags:

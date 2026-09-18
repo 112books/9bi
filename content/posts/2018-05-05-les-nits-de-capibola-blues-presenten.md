@@ -2,6 +2,7 @@
 title: Les Nits de Capibola Blues presenten Paquito Blues Band al Casal de barri de
   Prosperitat
 date: 2018-05-05T20:18:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: les-nits-de-capibola-blues-presenten
 tags:

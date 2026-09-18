@@ -1,6 +1,7 @@
 ---
 title: Cabaret Solidari “Veus de Silenci”
 date: 2011-03-27T03:34:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: cabaret-solidari-veus-de-silenci
 tags:

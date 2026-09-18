@@ -1,6 +1,7 @@
 ---
 title: Vermutsical - Batucada
 date: 2012-05-13T11:09:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-batucada
 tags:

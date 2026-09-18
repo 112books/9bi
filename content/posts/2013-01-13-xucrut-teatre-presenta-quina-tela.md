@@ -1,6 +1,7 @@
 ---
 title: Xucrut Teatre presenta... Quina tela
 date: 2013-01-13T00:52:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: xucrut-teatre-presenta-quina-tela
 tags:

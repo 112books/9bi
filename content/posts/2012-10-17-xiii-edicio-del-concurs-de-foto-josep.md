@@ -1,6 +1,7 @@
 ---
 title: XIII Edició del Concurs de Foto Josep Anton Cordoncillo
 date: 2012-10-17T16:45:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: xiii-edicio-del-concurs-de-foto-josep
 tags:

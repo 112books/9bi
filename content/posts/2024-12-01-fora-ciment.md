@@ -1,6 +1,7 @@
 ---
 title: Fora ciment
 date: 2024-12-01T18:46:00+0100
+year: 2024
 author: Francesc Barbe
 slug: fora-ciment
 cover:

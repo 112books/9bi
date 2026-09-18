@@ -2,6 +2,7 @@
 title: Disco Darling. Jette Mansfield, Hard Ton, Las Fellini + Yogurinha Borova, Hidroboy
   Dj, Divatlantique
 date: 2010-06-16T19:16:00+0200
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: disco-darling-jette-mansfield-las
 tags:

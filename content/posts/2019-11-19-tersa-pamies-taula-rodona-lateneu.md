@@ -1,6 +1,7 @@
 ---
 title: 'Tersa Pàmies : Taula rodona a l''Ateneu Popular Nou Barris.'
 date: 2019-11-19T01:51:00+0100
+year: 2019
 author: 9 Barris Imatge
 slug: tersa-pamies-taula-rodona-lateneu
 tags:

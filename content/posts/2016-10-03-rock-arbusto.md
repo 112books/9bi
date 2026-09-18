@@ -1,6 +1,7 @@
 ---
 title: rock arbusto
 date: 2016-10-03T12:12:00+0200
+year: 2016
 author: Pedro Click
 slug: rock-arbusto
 tags:

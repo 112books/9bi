@@ -1,6 +1,7 @@
 ---
 title: Sofàs Martinez al casal de barri de prospe
 date: 2011-04-17T02:04:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: sofas-martinez-al-casal-de-barri-de
 tags:

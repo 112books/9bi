@@ -1,6 +1,7 @@
 ---
 title: ' Lone Ride & Woolfi and The Big Wheels - Dissabte'
 date: 2014-10-21T00:55:00+0200
+year: 2014
 author: 9 Barris Imatge
 slug: lone-ride-woolfi-and-wheels-dissabte
 tags:

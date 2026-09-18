@@ -1,6 +1,7 @@
 ---
 title: Dança vertical sobre Graffiti a l'Ateneu Popular de 9 Barris
 date: 2013-04-17T00:08:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: danca-vertical-sobre-graffiti-lateneu
 tags:

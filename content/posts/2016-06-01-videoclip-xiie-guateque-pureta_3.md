@@ -1,6 +1,7 @@
 ---
 title: VideoClip XIIè. Guateque Pureta
 date: 2016-06-01T18:49:00+0200
+year: 2016
 author: Alberto Sanagustín
 slug: videoclip-xiie-guateque-pureta_3
 tags:

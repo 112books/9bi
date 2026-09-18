@@ -1,6 +1,7 @@
 ---
 title: Manifestació 18-O - De la Meridiana al Centre de Barcelona
 date: 2019-10-19T10:35:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: manifestacio-18-o-de-la-meridiana-al
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Dia de la dona, 9 Barris, Barcelona
 date: 2014-03-10T20:48:00+0100
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: dia-de-la-dona-9-barris-barcelona
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Festa Trinitat Nova 08-06-2024
 date: 2024-06-11T13:00:00+0200
+year: 2024
 author: Pedro Click
 slug: festa-trinitat-nova-08-06-2024
 tags:

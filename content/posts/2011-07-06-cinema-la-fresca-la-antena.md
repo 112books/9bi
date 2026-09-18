@@ -1,6 +1,7 @@
 ---
 title: Cinema a la fresca - La Antena
 date: 2011-07-06T02:15:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: cinema-la-fresca-la-antena
 tags:

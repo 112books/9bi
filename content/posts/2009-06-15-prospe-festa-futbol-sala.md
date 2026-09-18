@@ -1,6 +1,7 @@
 ---
 title: prospe festa futbol sala
 date: 2009-06-15T12:04:00+0200
+year: 2009
 author: Pedro Click
 slug: prospe-festa-futbol-sala
 tags:

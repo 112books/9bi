@@ -1,6 +1,7 @@
 ---
 title: FBB16 - Exposició + Blue Birds + Jam Session
 date: 2016-07-07T12:34:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: fbb16-exposicio-blue-birds-jam-session
 tags:

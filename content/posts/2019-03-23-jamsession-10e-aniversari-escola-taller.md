@@ -1,6 +1,7 @@
 ---
 title: JamSession 10è aniversari Escola-Taller de Blues de Barcelona
 date: 2019-03-23T22:46:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: jamsession-10e-aniversari-escola-taller
 tags:

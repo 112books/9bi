@@ -2,6 +2,7 @@
 title: Thu Hien .Vietnam. 1er Festival Internacional del Circ Castell de Figueres
   2012. Premi de la Imatge
 date: 2012-06-25T22:42:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: thu-hien-vietnam-1er-festival
 tags:

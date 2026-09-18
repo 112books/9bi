@@ -2,6 +2,7 @@
 title: Circ Raluy . La bellesa de un  Circ. "El Viatge" Del 11 de desembre 2009 al
   10 de gener 2010 Barcelona - Port Vell
 date: 2009-12-17T13:03:00+0100
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: circ-raluy-la-bellesa-de-un-circ-del-11
 tags:

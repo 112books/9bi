@@ -1,6 +1,7 @@
 ---
 title: Picnic de Blues 2013
 date: 2016-04-18T19:14:00+0200
+year: 2016
 author: Francesc Barbe
 slug: picnic-de-blues-2013
 tags:

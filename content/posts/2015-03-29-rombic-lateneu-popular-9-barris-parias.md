@@ -1,6 +1,7 @@
 ---
 title: 'RÒMBIC A L''ATENEU POPULAR 9 BARRIS : PARIAS.'
 date: 2015-03-29T20:53:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: rombic-lateneu-popular-9-barris-parias
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Chistorra Rock - 45 Festa Major Prosperitat
 date: 2023-05-30T18:12:00+0200
+year: 2023
 author: Manel Sala "Ulls" Circ
 slug: chistorra-rock-45-festa-major
 tags:

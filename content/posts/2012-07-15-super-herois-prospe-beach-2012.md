@@ -1,6 +1,7 @@
 ---
 title: Super herois. Prospe Beach 2012
 date: 2012-07-15T18:23:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: super-herois-prospe-beach-2012
 tags:

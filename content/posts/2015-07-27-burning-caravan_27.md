@@ -1,6 +1,7 @@
 ---
 title: BURNING CARAVAN
 date: 2015-07-27T12:18:00+0200
+year: 2015
 author: Pedro Click
 slug: burning-caravan_27
 cover:

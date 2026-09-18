@@ -1,6 +1,7 @@
 ---
 title: Assaigs de Circ. Escola de Circ Rogelio Rivel
 date: 2009-11-19T12:09:00+0100
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: assaigs-de-circ-escola-de-circ-rogelio
 tags:

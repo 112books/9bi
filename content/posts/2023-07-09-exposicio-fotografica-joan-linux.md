@@ -1,6 +1,7 @@
 ---
 title: Exposicio Fotografica ("joan Linux") 9barris imatge 08/07/2023
 date: 2023-07-09T13:12:00+0200
+year: 2023
 author: Pedro Click
 slug: exposicio-fotografica-joan-linux
 tags:

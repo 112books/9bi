@@ -1,6 +1,7 @@
 ---
 title: Pintada Grafiti Casal 14-05-2023
 date: 2023-05-14T18:51:00+0200
+year: 2023
 author: Pedro Click
 slug: pintada-grafiti-casal-14-05-2023
 tags:

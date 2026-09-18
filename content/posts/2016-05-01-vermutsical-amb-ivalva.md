@@ -1,6 +1,7 @@
 ---
 title: VermutSical amb Ivalva
 date: 2016-05-01T12:59:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-ivalva
 tags:

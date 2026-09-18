@@ -1,6 +1,7 @@
 ---
 title: Marxa de la Dignitat 22M a Madrid
 date: 2014-03-25T00:31:00+0100
+year: 2014
 author: Pedro "Casal" Cervera
 slug: marxa-de-la-dignitat-22m-madrid
 tags:

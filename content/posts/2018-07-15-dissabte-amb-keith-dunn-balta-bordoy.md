@@ -2,6 +2,7 @@
 title: Dissabte amb Keith Dunn & Balta Bordoy, Rob Stone & The Boogiers i Travellin
   Brothers
 date: 2018-07-15T14:00:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: dissabte-amb-keith-dunn-balta-bordoy
 tags:

@@ -1,6 +1,7 @@
 ---
 title: HABANERAS
 date: 2017-06-05T10:37:00+0200
+year: 2017
 author: Pedro Click
 slug: habaneras
 cover:

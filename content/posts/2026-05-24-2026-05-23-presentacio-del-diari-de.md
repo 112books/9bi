@@ -1,6 +1,7 @@
 ---
 title: 2026-05-23 - Presentació del Diari de festes amb 'La Risa del Pepe'
 date: 2026-05-24T10:02:56+0200
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: 2026-05-23-presentacio-del-diari-de
 tags:

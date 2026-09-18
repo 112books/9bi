@@ -1,6 +1,7 @@
 ---
 title: '#RapAgainstFascism al Casal de Joves de Prospe'
 date: 2018-11-25T09:14:00+0100
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: rapagainstfascism-al-casal-de-joves-de
 tags:

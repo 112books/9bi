@@ -1,6 +1,7 @@
 ---
 title: Cercavila de Aigua amb Batuprospe
 date: 2025-06-11T00:05:00+0200
+year: 2025
 author: Iozsef Kiss
 slug: cercavila-de-aigua-amb-batuprospe
 tags:

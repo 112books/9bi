@@ -1,6 +1,7 @@
 ---
 title: Final de curs dels taller del Casal de Prosperitat
 date: 2010-06-12T15:18:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: final-de-curs-dels-taller-del-casal-de
 tags:

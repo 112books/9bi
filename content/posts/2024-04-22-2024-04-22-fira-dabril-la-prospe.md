@@ -1,6 +1,7 @@
 ---
 title: 2024-04-22 - Fira d'abril a la Prospe
 date: 2024-04-22T17:36:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-04-22-fira-dabril-la-prospe
 tags:

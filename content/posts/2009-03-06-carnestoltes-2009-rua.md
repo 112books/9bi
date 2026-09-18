@@ -1,6 +1,7 @@
 ---
 title: Carnestoltes 2009 - Rua
 date: 2009-03-06T15:08:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: carnestoltes-2009-rua
 tags:

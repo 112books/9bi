@@ -1,6 +1,7 @@
 ---
 title: Castanyada 2018 & DJ Perlita
 date: 2018-11-01T12:39:00+0100
+year: 2018
 author: Ismael Utrilla
 slug: castanyada-2018-dj-perlita
 tags:

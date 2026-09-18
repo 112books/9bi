@@ -1,6 +1,7 @@
 ---
 title: XVII Trobada de Monociclistes 2010. Apcc. Ateneu Popular 9 Barris. Barcelona
 date: 2010-04-12T22:18:00+0200
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: xvii-trobada-de-monociclistes-2010-apcc
 tags:

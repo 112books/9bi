@@ -1,6 +1,7 @@
 ---
 title: VermutSiCal - Hall
 date: 2014-02-16T01:15:00+0100
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-hall
 tags:

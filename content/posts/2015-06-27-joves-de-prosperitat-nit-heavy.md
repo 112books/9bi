@@ -1,6 +1,7 @@
 ---
 title: Joves de Prosperitat - Nit heavy
 date: 2015-06-27T19:44:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: joves-de-prosperitat-nit-heavy
 tags:

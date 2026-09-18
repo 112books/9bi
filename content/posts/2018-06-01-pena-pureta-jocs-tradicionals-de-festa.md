@@ -1,6 +1,7 @@
 ---
 title: PEÑA PURETA  JOCS TRADICIONALS DE FESTA MAJOR 2018
 date: 2018-06-01T18:58:00+0200
+year: 2018
 author: Pedro Click
 slug: pena-pureta-jocs-tradicionals-de-festa
 tags:

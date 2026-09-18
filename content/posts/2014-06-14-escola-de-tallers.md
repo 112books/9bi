@@ -1,6 +1,7 @@
 ---
 title: ESCOLA DE TALLERS
 date: 2014-06-14T10:58:00+0200
+year: 2014
 author: Manel Villalba
 slug: escola-de-tallers
 tags:

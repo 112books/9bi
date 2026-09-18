@@ -1,6 +1,7 @@
 ---
 title: Final Correfoc i Piromusical - FESTES PROSPERITAT 2015
 date: 2015-06-08T08:30:00+0200
+year: 2015
 author: Alberto Sanagustín
 slug: final-correfoc-i-piromusical-festes
 tags:

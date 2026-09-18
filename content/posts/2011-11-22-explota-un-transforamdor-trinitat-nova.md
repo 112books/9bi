@@ -1,6 +1,7 @@
 ---
 title: Explota un transformador a Trinitat Nova
 date: 2011-11-22T17:57:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: explota-un-transforamdor-trinitat-nova
 tags:

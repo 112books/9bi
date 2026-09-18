@@ -1,6 +1,7 @@
 ---
 title: PROSPEFESTA18  ASAROCK-ASSAIG AL CARRE 2018-HOLI FESTIVAL
 date: 2018-05-28T17:38:00+0200
+year: 2018
 author: Pedro Click
 slug: prospefesta18-asarock-assaig-al-carre
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Gnawa Beat al Casal de barri de Prosperitat
 date: 2017-09-16T10:05:00+0200
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: gnawa-beat-al-casal-de-barri-de
 tags:

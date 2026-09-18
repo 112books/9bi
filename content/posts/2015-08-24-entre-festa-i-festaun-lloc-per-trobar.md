@@ -1,6 +1,7 @@
 ---
 title: Entre festa i festa...un lloc per trobar la calma.
 date: 2015-08-24T21:34:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: entre-festa-i-festaun-lloc-per-trobar
 tags:

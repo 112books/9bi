@@ -1,6 +1,7 @@
 ---
 title: Carnaval Noubarris 2023 (noche)
 date: 2023-02-19T12:29:00+0100
+year: 2023
 author: Pedro Click
 slug: carnaval-noubarris-2023-noche
 tags:

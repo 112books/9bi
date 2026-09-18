@@ -1,6 +1,7 @@
 ---
 title: 2025-11-29 - Concert homenatge a Jordi Lapedra
 date: 2025-11-30T18:56:00+0100
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-11-29-concert-homenatge-jordi
 tags:

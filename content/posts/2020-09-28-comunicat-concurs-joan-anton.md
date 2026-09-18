@@ -1,6 +1,7 @@
 ---
 title: 'Comunicat: Concurs Josep Antón Cordoncillo 2020'
 date: 2020-09-28T21:14:00+0200
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: comunicat-concurs-joan-anton
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Festival de Sopes del Món Mundial 2009
 date: 2009-03-30T19:57:00+0200
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: festival-de-sopes-del-mon-mondial-2009
 tags:

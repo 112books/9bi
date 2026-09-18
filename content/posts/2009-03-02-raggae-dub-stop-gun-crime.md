@@ -1,6 +1,7 @@
 ---
 title: Raggae Dub "Stop Gun Crime!!"
 date: 2009-03-02T11:47:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: raggae-dub-stop-gun-crime
 tags:

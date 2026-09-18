@@ -2,6 +2,7 @@
 title: 'Muntatge de la exposició Fotogràfica "Mercat de Montserrat: La cara oculta"
   de Francesc Barbé'
 date: 2019-09-16T14:28:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: muntatge-de-la-exposicio-fotografica
 tags:

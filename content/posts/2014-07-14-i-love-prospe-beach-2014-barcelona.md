@@ -1,6 +1,7 @@
 ---
 title: I Love Prospe Beach 2014 Barcelona
 date: 2014-07-14T14:07:00+0200
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: i-love-prospe-beach-2014-barcelona
 tags:

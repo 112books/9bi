@@ -2,6 +2,7 @@
 title: Casal de Barri de Prosperitat, es presenta el llibre “La moguda juvenil a la
   Prosperitat. 1980-2000”
 date: 2025-12-20T20:06:00+0100
+year: 2025
 author: Pedro Click
 slug: casal-de-barri-de-prosperitat-es
 tags:

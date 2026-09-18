@@ -1,6 +1,7 @@
 ---
 title: VermutSical amb Kodjo Senyo
 date: 2016-06-11T20:27:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-kodjo-senyo
 tags:

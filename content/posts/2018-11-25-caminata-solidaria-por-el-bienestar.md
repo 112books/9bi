@@ -2,6 +2,7 @@
 title: Caminata solidaria por la construcción del nuevo CAAC de Barcelona y por el
   bienestar animal.
 date: 2018-11-25T23:58:00+0100
+year: 2018
 author: 9 Barris Imatge
 slug: caminata-solidaria-por-el-bienestar
 tags:

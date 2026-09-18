@@ -1,6 +1,7 @@
 ---
 title: 'Exposició: La prosperitat farà 100 anys.'
 date: 2016-05-21T01:47:00+0200
+year: 2016
 author: Alberto Sanagustín
 slug: exposicio-la-prosperitat-fara-100-anys
 tags:

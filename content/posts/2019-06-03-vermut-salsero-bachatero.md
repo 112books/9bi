@@ -1,6 +1,7 @@
 ---
 title: Vermut Salsero Bachatero
 date: 2019-06-03T07:28:00+0200
+year: 2019
 author: Ismael Utrilla
 slug: vermut-salsero-bachatero
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Combos de l'Escola-Taller de Blues de Barcelona a la festa major de l'Ateneu
 date: 2010-05-24T10:50:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: combos-de-lescola-taller-de-blues-de
 tags:

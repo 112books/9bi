@@ -1,6 +1,7 @@
 ---
 title: Homenatge al "Canasto Volador" Expo
 date: 2014-05-09T10:48:00+0200
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: homenatge-al-canasto-volador-expo
 tags:

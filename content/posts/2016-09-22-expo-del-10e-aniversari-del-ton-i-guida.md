@@ -1,6 +1,7 @@
 ---
 title: Expo del 10è aniversari del Ton i Guida a l'Arxiu de Roquetes .
 date: 2016-09-22T21:54:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: expo-del-10e-aniversari-del-ton-i-guida
 tags:

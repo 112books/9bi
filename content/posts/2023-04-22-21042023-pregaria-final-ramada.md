@@ -1,6 +1,7 @@
 ---
 title: 21/04/2023 pregària final Ramadà
 date: 2023-04-22T11:35:00+0200
+year: 2023
 author: Francesc Barbe
 slug: 21042023-pregaria-final-ramada
 tags:

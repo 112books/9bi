@@ -1,6 +1,7 @@
 ---
 title: DiShows “Cabaret Jin Yang”
 date: 2015-02-20T19:47:00+0100
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: dishows-cabaret-jin-yang
 tags:

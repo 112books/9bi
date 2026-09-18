@@ -1,6 +1,7 @@
 ---
 title: Les Rambles d'en Ginés i l'enrajolat del Plà de l'Os !!!
 date: 2017-04-26T22:40:00+0200
+year: 2017
 author: 9 Barris Imatge
 slug: les-rambles-den-gines-i-lenrajolat-del
 tags:

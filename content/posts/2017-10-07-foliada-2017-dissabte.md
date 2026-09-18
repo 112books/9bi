@@ -1,6 +1,7 @@
 ---
 title: Foliada 2017 - Dissabte
 date: 2017-10-07T21:10:00+0200
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: foliada-2017-dissabte
 tags:

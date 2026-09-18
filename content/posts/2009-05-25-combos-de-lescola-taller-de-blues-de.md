@@ -1,6 +1,7 @@
 ---
 title: Combos de l'Escola-Taller de Blues de Barcelona a l'Ateneu Popular de Nou Barris
 date: 2009-05-25T13:44:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: combos-de-lescola-taller-de-blues-de
 tags:

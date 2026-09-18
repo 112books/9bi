@@ -2,6 +2,7 @@
 title: Festival de Blues 2011 - Vermuth de Blues amb Red & The Blue Bastards i Pepe
   J. Gómez Electric Band
 date: 2011-09-11T18:58:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: festival-de-blues-2011-vermuth-de-blues
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Fira d'abril a Prosperitat - Divendres a Harry Walker
 date: 2011-04-09T11:52:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: fira-dabril-prosperitat-divendres-harry
 tags:

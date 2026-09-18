@@ -1,6 +1,7 @@
 ---
 title: Taula Macro Bodegó
 date: 2013-01-26T18:08:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: taula-macro-bodego
 tags:

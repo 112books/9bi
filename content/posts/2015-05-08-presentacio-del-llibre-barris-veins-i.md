@@ -1,6 +1,7 @@
 ---
 title: 'Presentacio del Llibre: “Barris, veïns i Democràcia” de Marc Andreu'
 date: 2015-05-08T14:32:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-del-llibre-barris-veins-i
 tags:

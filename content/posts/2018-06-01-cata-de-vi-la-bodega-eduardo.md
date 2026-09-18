@@ -1,6 +1,7 @@
 ---
 title: Cata de vi a la Bodega Eduardo.
 date: 2018-06-01T00:18:00+0200
+year: 2018
 author: 9 Barris Imatge
 slug: cata-de-vi-la-bodega-eduardo
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Gran Gala Solidària de Circ. Ateneu Popular 9 Barris
 date: 2013-04-17T21:07:00+0200
+year: 2013
 author: Manel Sala "Ulls" Circ
 slug: gran-gala-solidaria-de-circ-ateneu
 tags:

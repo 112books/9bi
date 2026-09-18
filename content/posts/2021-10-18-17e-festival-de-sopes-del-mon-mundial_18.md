@@ -1,6 +1,7 @@
 ---
 title: 17è Festival de Sopes del Món Mundial
 date: 2021-10-18T17:59:00+0200
+year: 2021
 author: Manel Sala "Ulls" Circ
 slug: 17e-festival-de-sopes-del-mon-mundial_18
 tags:

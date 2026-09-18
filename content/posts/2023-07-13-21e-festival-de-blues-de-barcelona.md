@@ -1,6 +1,7 @@
 ---
 title: 21è Festival de Blues de Barcelona
 date: 2023-07-13T16:19:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 21e-festival-de-blues-de-barcelona
 tags:

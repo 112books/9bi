@@ -1,6 +1,7 @@
 ---
 title: Traficante de Palabras
 date: 2013-03-10T20:20:00+0100
+year: 2013
 author: Manel Sala "Ulls" Circ
 slug: traficante-de-palabras_10
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Yaiza Orozco & Alfred Artigas- Vermutsical
 date: 2014-10-21T19:52:00+0200
+year: 2014
 author: Pedro Click
 slug: yaiza-orozco-alfred-artigas-vermutsical
 tags:

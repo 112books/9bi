@@ -1,6 +1,7 @@
 ---
 title: 2026-06-12 - Corredissa Popular 9B
 date: 2026-06-13T20:15:05+0200
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: 2026-06-12-corredissa-popular-9b
 tags:

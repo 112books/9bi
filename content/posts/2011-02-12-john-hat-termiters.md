@@ -1,6 +1,7 @@
 ---
 title: John Hat & the Termiters
 date: 2011-02-12T13:54:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: john-hat-termiters
 tags:

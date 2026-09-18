@@ -1,6 +1,7 @@
 ---
 title: 5è concurs de fotografia de la FAVB
 date: 2009-05-20T17:25:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: 5e-concurs-de-fotografia-de-la-favb
 tags:

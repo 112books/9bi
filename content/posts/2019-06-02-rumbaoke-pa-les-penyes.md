@@ -1,6 +1,7 @@
 ---
 title: RUMBAOKE PA' LES PENYES
 date: 2019-06-02T21:48:00+0200
+year: 2019
 author: Ismael Utrilla
 slug: rumbaoke-pa-les-penyes
 tags:

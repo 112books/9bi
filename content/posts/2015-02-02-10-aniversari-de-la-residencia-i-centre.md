@@ -1,6 +1,7 @@
 ---
 title: 10 Aniversari de la Residència i Centre de Dia Porta
 date: 2015-02-02T14:12:00+0100
+year: 2015
 author: 9 Barris Imatge
 slug: 10-aniversari-de-la-residencia-i-centre
 cover:

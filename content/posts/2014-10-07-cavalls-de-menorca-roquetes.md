@@ -1,6 +1,7 @@
 ---
 title: CAVALLS DE MENORCA A ROQUETES !!!
 date: 2014-10-07T12:51:00+0200
+year: 2014
 author: 9 Barris Imatge
 slug: cavalls-de-menorca-roquetes
 tags:

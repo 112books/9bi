@@ -1,6 +1,7 @@
 ---
 title: Festival de Sopes del Món Mundial 2011
 date: 2011-03-29T10:15:00+0200
+year: 2011
 author: Manel Sala "Ulls" Circ
 slug: festival-de-sopes-del-mom-mundial-2011
 tags:

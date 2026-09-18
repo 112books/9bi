@@ -1,6 +1,7 @@
 ---
 title: Daniel Higiénico a la llibreria En su tinta
 date: 2014-10-03T00:16:00+0200
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: daniel-higienico-la-llibreria-en-su
 tags:

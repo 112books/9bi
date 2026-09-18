@@ -1,6 +1,7 @@
 ---
 title: Exposición "  Roquetes ,aquesta desconeguda".Pili Escamilla
 date: 2019-03-15T19:21:00+0100
+year: 2019
 author: Ismael Utrilla
 slug: exposicion-roquetes-aquesta
 tags:

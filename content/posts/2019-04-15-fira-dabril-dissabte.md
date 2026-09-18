@@ -1,6 +1,7 @@
 ---
 title: Fira d'abril, dissabte
 date: 2019-04-15T08:54:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: fira-dabril-dissabte
 tags:

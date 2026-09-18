@@ -1,6 +1,7 @@
 ---
 title: Quidam. Cirque du Soleil. Barcelona 10/09/2008
 date: 2010-10-20T21:09:00+0200
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: quidam-cirque-du-soleil-barcelona
 tags:

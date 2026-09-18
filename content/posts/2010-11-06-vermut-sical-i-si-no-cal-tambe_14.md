@@ -1,6 +1,7 @@
 ---
 title: VERMUT SICAL i si no cal tambè!!! - Morositos
 date: 2010-11-06T22:03:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: vermut-sical-i-si-no-cal-tambe_14
 tags:

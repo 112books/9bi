@@ -1,6 +1,7 @@
 ---
 title: FIESTA DE LA PRIMAVERA EN LA RESIDÉNCIA PORTA
 date: 2015-03-30T14:25:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: fiesta-de-la-primavera-en-la-residencia
 tags:

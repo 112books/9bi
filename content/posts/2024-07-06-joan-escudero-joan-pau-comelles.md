@@ -1,6 +1,7 @@
 ---
 title: Joan Escudero & Joan Pau Comelles
 date: 2024-07-06T11:50:00+0200
+year: 2024
 author: Francesc Barbe
 slug: joan-escudero-joan-pau-comelles
 cover:

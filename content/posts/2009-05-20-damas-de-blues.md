@@ -1,6 +1,7 @@
 ---
 title: DAMAS DE BLUES
 date: 2009-05-20T18:08:00+0200
+year: 2009
 author: Pedro Click
 slug: damas-de-blues
 tags:

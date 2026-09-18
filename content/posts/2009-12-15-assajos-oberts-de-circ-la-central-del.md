@@ -1,6 +1,7 @@
 ---
 title: Assajos Oberts de Circ. La Central del Circ. Apcc. La Marató TV3 . 13.12.2009
 date: 2009-12-15T12:07:00+0100
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: assajos-oberts-de-circ-la-central-del
 tags:

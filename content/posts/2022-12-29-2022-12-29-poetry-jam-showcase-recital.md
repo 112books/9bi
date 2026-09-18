@@ -1,6 +1,7 @@
 ---
 title: 2022-12-29 - Poetry Jam Showcase Recital
 date: 2022-12-29T22:10:00+0100
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: 2022-12-29-poetry-jam-showcase-recital
 tags:

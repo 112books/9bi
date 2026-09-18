@@ -1,6 +1,7 @@
 ---
 title: Sopes del Mon Mundial 2014
 date: 2014-03-23T23:42:00+0100
+year: 2014
 author: 9 Barris Imatge
 slug: sopes-del-mon-mundial-2014
 tags:

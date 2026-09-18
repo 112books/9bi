@@ -1,6 +1,7 @@
 ---
 title: Pintem el rocòdrom  de Roquetes !!!
 date: 2018-07-29T19:54:00+0200
+year: 2018
 author: 9 Barris Imatge
 slug: pintem-el-rocodrom
 tags:

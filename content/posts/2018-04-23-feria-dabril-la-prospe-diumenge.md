@@ -1,6 +1,7 @@
 ---
 title: Feria d’Abril a la Prospe – diumenge
 date: 2018-04-23T10:16:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: feria-dabril-la-prospe-diumenge
 tags:

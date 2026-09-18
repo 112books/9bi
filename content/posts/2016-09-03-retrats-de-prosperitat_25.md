@@ -1,6 +1,7 @@
 ---
 title: Retrats de Prosperitat
 date: 2016-09-03T10:10:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: retrats-de-prosperitat_25
 tags:

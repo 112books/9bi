@@ -1,6 +1,7 @@
 ---
 title: XXI del Festival de Blues de Barcelona 08/07/2023  ("Chris Cain")
 date: 2023-07-09T23:04:00+0200
+year: 2023
 author: Pedro Click
 slug: xxi-del-festival-de-blues-de-barcelona_77
 tags:

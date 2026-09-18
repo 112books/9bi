@@ -1,6 +1,7 @@
 ---
 title: Segón aniversari de "Date una huerta"
 date: 2018-10-21T09:06:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: segon-aniversari-de-date-una-huerta
 tags:

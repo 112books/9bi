@@ -1,6 +1,7 @@
 ---
 title: LAS POLIS. Festa Major Prosperitat 2016
 date: 2016-06-03T00:09:00+0200
+year: 2016
 author: Manel Sala "Ulls" Circ
 slug: las-polis-festa-major-prosperitat-2016
 tags:

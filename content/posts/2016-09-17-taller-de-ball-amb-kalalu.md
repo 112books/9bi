@@ -1,6 +1,7 @@
 ---
 title: Taller de ball amb Kalalú.
 date: 2016-09-17T20:14:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: taller-de-ball-amb-kalalu
 cover:

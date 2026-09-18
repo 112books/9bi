@@ -1,6 +1,7 @@
 ---
 title: 13è Festival de Sopes del Món Mundial 2016
 date: 2016-03-13T20:57:00+0100
+year: 2016
 author: Manel Sala "Ulls" Circ
 slug: 13e-festival-de-sopes-del-mon-mundial
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 'EuroEnglishProspeVision 2017 '
 date: 2017-05-22T06:59:00+0200
+year: 2017
 author: Manel Sala "Ulls" Circ
 slug: euroenglishprospevision-2017
 tags:

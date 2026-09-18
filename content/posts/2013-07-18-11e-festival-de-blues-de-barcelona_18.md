@@ -1,6 +1,7 @@
 ---
 title: 11è Festival de Blues de Barcelona - Aniversari SBB
 date: 2013-07-18T09:19:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: 11e-festival-de-blues-de-barcelona_18
 tags:

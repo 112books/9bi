@@ -1,6 +1,7 @@
 ---
 title: Festival de Blues de Barcelona – Chino & The Big Bet + Sax Attack
 date: 2020-07-05T13:39:00+0200
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: festival-de-blues-de-barcelona-chino
 tags:

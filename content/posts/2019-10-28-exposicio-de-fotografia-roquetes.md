@@ -1,6 +1,7 @@
 ---
 title: Exposició de Fotografia Roquetes "Mirades d'un barri"
 date: 2019-10-28T15:34:00+0100
+year: 2019
 author: Núria Laura Orbaneja
 slug: exposicio-de-fotografia-roquetes
 tags:

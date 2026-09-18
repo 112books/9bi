@@ -1,6 +1,7 @@
 ---
 title: TODO NUESTRO CARIÑO Y ADMIRACIÓN PARA MARUJA
 date: 2012-05-21T13:02:00+0200
+year: 2012
 author: Pedro Click
 slug: todo-nuestro-carino-y-admiracion-para
 tags:

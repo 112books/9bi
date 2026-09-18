@@ -1,6 +1,7 @@
 ---
 title: Despedida d'Anna, fotos d'estudi
 date: 2010-08-31T22:14:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: de-despedida-anna-casal-retrats-dalguns
 tags:

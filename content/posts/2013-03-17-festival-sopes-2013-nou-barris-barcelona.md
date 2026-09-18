@@ -1,6 +1,7 @@
 ---
 title: Festival Sopes 2013 Nou Barris-Barcelona
 date: 2013-03-17T23:26:00+0100
+year: 2013
 author: Manel Sala "Ulls" Circ
 slug: festival-sopes-2013-nou-barris-barcelona
 tags:

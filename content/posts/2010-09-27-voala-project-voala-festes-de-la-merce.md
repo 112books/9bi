@@ -1,6 +1,7 @@
 ---
 title: Voala Project. Voalá. Festes de la Mercè 2010 Barcelona
 date: 2010-09-27T00:33:00+0200
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: voala-project-voala-festes-de-la-merce
 tags:

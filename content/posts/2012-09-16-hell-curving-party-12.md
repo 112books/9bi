@@ -1,6 +1,7 @@
 ---
 title: Hell Curving Party '12
 date: 2012-09-16T01:28:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: hell-curving-party-12
 tags:

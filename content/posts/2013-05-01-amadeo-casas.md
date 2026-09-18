@@ -1,6 +1,7 @@
 ---
 title: AMADEO CASAS
 date: 2013-05-01T22:59:00+0200
+year: 2013
 author: Pedro Click
 slug: amadeo-casas
 tags:

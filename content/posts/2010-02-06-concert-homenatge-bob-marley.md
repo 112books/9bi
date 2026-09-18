@@ -1,6 +1,7 @@
 ---
 title: Concert homenatge a Bob Marley
 date: 2010-02-06T14:42:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: concert-homenatge-bob-marley
 tags:

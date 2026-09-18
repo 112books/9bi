@@ -1,6 +1,7 @@
 ---
 title: 'festival de blues barcelona 2020  A Ciegas '
 date: 2021-06-24T14:02:00+0200
+year: 2021
 author: Francesc Barbe
 slug: festival-de-blues-barcelona-2020-ciegas
 tags:

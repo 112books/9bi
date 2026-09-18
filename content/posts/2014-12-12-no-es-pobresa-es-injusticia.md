@@ -1,6 +1,7 @@
 ---
 title: NO ES POBRESA, ÉS INJUSTICIA
 date: 2014-12-12T18:05:00+0100
+year: 2014
 author: Pedro "Casal" Cervera
 slug: no-es-pobresa-es-injusticia
 tags:

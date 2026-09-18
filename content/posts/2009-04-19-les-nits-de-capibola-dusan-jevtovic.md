@@ -1,6 +1,7 @@
 ---
 title: Les Nits de Capibola; Dusan Jevtovic Blues and More Band
 date: 2009-04-19T00:25:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: les-nits-de-capibola-dusan-jevtovic
 tags:

@@ -1,6 +1,7 @@
 ---
 title: HARY-TECNO
 date: 2015-06-07T23:28:00+0200
+year: 2015
 author: Pedro Click
 slug: hary-tecno
 cover:

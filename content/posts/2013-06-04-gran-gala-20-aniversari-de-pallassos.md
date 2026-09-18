@@ -1,6 +1,7 @@
 ---
 title: Gran Gala 20 aniversari de Pallassos Sense Fronteres!
 date: 2013-06-04T02:58:00+0200
+year: 2013
 author: Manel Sala "Ulls" Circ
 slug: gran-gala-20-aniversari-de-pallassos
 tags:

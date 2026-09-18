@@ -1,6 +1,7 @@
 ---
 title: San Xibeco 2014, Prosperitat, 9 Barris, Barcelona
 date: 2014-11-15T21:13:00+0100
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: san-xibeco-2014-prosperitat-9-barris
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Prospe Beach 2016 - Tot a punt per la gran festa
 date: 2016-07-09T01:38:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: prospe-beach-2016-tot-punt-per-la-gran
 tags:

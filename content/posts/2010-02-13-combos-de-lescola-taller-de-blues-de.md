@@ -1,6 +1,7 @@
 ---
 title: Combos de l'Escola - Taller de Blues de Barcelona
 date: 2010-02-13T22:47:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: combos-de-lescola-taller-de-blues-de
 tags:

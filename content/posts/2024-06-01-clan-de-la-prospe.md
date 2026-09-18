@@ -1,6 +1,7 @@
 ---
 title: Clan de la prospe
 date: 2024-06-01T17:10:00+0200
+year: 2024
 author: Francesc Barbe
 slug: clan-de-la-prospe
 tags:

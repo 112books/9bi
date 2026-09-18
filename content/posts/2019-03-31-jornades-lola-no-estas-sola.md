@@ -1,6 +1,7 @@
 ---
 title: Jornades Lola, no estàs sola
 date: 2019-03-31T21:19:00+0200
+year: 2019
 author: Pedro Click
 slug: jornades-lola-no-estas-sola
 tags:

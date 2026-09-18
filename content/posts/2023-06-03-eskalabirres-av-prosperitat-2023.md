@@ -1,6 +1,7 @@
 ---
 title: Eskalabirres -AV Prosperitat 2023
 date: 2023-06-03T11:51:00+0200
+year: 2023
 author: Iozsef Kiss
 slug: eskalabirres-av-prosperitat-2023
 tags:

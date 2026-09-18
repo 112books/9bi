@@ -1,6 +1,7 @@
 ---
 title: DTUMBAGA (copla i rumba)
 date: 2016-02-29T18:44:00+0100
+year: 2016
 author: Pedro Click
 slug: dtumbaga-copla-i-rumba
 tags:

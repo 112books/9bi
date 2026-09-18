@@ -1,6 +1,7 @@
 ---
 title: 2025-02-08 - "La vida és una força obscura"
 date: 2025-02-09T00:32:00+0100
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-02-08-la-vida-es-una-forca-obscura
 tags:

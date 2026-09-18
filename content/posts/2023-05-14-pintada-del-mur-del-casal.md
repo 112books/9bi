@@ -1,6 +1,7 @@
 ---
 title: pintada del mur del casal
 date: 2023-05-14T18:40:00+0200
+year: 2023
 author: Francesc Barbe
 slug: pintada-del-mur-del-casal
 tags:

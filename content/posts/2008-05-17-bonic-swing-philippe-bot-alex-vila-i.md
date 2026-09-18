@@ -1,6 +1,7 @@
 ---
 title: Bonic Swing; Philippe Bot, Alex Vila i Guido Wardak
 date: 2008-05-17T20:25:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: bonic-swing-philippe-bot-alex-vila-i
 tags:

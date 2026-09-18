@@ -1,6 +1,7 @@
 ---
 title: Presentació del llibre "Historias del Punk"
 date: 2025-06-20T14:24:00+0200
+year: 2025
 author: Iozsef Kiss
 slug: presentacio-del-llibre-historias-del
 tags:

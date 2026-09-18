@@ -1,6 +1,7 @@
 ---
 title: Date una "huerta"...per sempre !!!
 date: 2018-06-26T19:22:00+0200
+year: 2018
 author: 9 Barris Imatge
 slug: date-una-huerta_26
 tags:

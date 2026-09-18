@@ -1,6 +1,7 @@
 ---
 title: Circ amb Boris Vega al Casal de barri de Prosperitat
 date: 2019-07-26T13:34:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: circ-amb-boris-vega-al-casal-de-barri
 tags:

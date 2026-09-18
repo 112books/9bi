@@ -1,6 +1,7 @@
 ---
 title: Fotografies de tallers del Casal de Barri de Prosperitat, curs 20011/2012
 date: 2012-06-25T10:14:00+0200
+year: 2012
 author: Pedro Click
 slug: taller-ingles
 tags:

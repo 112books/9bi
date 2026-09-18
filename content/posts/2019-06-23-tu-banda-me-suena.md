@@ -1,6 +1,7 @@
 ---
 title: TU BANDA ME SUENA
 date: 2019-06-23T20:30:00+0200
+year: 2019
 author: Pedro Click
 slug: tu-banda-me-suena
 cover:

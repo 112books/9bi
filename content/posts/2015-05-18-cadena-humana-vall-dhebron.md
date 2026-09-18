@@ -1,6 +1,7 @@
 ---
 title: CADENA HUMANA VALL D´HEBRON
 date: 2015-05-18T09:15:00+0200
+year: 2015
 author: Pedro Click
 slug: cadena-humana-vall-dhebron
 tags:

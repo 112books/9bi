@@ -1,6 +1,7 @@
 ---
 title: Festes de Prospe 2016 - Segon divendres
 date: 2016-06-04T12:09:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe-2016-segon-divendres
 tags:

@@ -1,6 +1,7 @@
 ---
 title: CORREFOC I PIROMUSICAL
 date: 2018-06-05T23:19:00+0200
+year: 2018
 author: Alberto Sanagustín
 slug: correfoc-i-piromusical
 tags:

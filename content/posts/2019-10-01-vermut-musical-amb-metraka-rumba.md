@@ -1,6 +1,7 @@
 ---
 title: Vermut musical amb Metraka Rumba.
 date: 2019-10-01T23:30:00+0200
+year: 2019
 author: 9 Barris Imatge
 slug: vermut-musical-amb-metraka-rumba
 tags:

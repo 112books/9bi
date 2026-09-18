@@ -1,6 +1,7 @@
 ---
 title: 2025-01-10 - Straperlo Band + Sin Frenos
 date: 2025-01-11T10:31:00+0100
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-01-10-straperlo-band-sin-frenos
 tags:

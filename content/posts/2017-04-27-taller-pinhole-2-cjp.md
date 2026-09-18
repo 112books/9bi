@@ -1,6 +1,7 @@
 ---
 title: 'Taller Pinhole #2 CJP'
 date: 2017-04-27T09:10:00+0200
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: taller-pinhole-2-cjp
 tags:

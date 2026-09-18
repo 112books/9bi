@@ -1,6 +1,7 @@
 ---
 title: Portes obertes a l'escola d'adults Freire, Verdum.
 date: 2016-09-13T00:34:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: portes-obertes-lescola-dadults-freire
 cover:

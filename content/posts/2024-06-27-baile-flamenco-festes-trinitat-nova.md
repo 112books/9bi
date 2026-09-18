@@ -1,6 +1,7 @@
 ---
 title: Baile flamenco festes trinitat nova
 date: 2024-06-27T08:19:00+0200
+year: 2024
 author: Iozsef Kiss
 slug: baile-flamenco-festes-trinitat-nova
 tags:

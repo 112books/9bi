@@ -1,6 +1,7 @@
 ---
 title: Paraules Indòmites.  Recital literari 30-05-2023
 date: 2023-06-01T14:06:00+0200
+year: 2023
 author: Pedro Click
 slug: paraules-indomites-recital-literari-30
 tags:

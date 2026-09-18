@@ -1,6 +1,7 @@
 ---
 title: Pepa Plana "Penèlope"
 date: 2013-10-02T14:03:00+0200
+year: 2013
 author: Manel Sala "Ulls" Circ
 slug: pepa-plana-penelope
 tags:

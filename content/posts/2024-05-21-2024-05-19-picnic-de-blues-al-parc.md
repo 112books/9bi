@@ -1,6 +1,7 @@
 ---
 title: 2024-05-19 – Pícnic de Blues al parc Central de 9 Barris
 date: 2024-05-21T14:26:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-05-19-picnic-de-blues-al-parc
 tags:

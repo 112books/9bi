@@ -1,6 +1,7 @@
 ---
 title: Festes de Prospe 2016 - Diumenge fi de festes
 date: 2016-06-07T11:07:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe-2016-diumenge-fi-de
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 33è concurs de fotografia Josep Antón Cordoncillo
 date: 2023-11-04T10:33:00+0100
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 33e-concurs-de-fotografia-josep-anton
 tags:

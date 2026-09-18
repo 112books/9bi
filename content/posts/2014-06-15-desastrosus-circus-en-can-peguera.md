@@ -1,6 +1,7 @@
 ---
 title: Desastrosus Circus en Can Peguera
 date: 2014-06-15T01:59:00+0200
+year: 2014
 author: 9 Barris Imatge
 slug: desastrosus-circus-en-can-peguera
 tags:

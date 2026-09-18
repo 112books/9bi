@@ -1,6 +1,7 @@
 ---
 title: Bar Casa TioPepe; Flamenco de barrio
 date: 2013-05-18T22:45:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: bar-casa-tiopepe-flamenco-de-barrio
 tags:

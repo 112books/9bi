@@ -1,6 +1,7 @@
 ---
 title: Edifici 15-O, una ocupació social
 date: 2011-10-17T13:53:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: edifici-15-o-una-ocupacio-social
 tags:

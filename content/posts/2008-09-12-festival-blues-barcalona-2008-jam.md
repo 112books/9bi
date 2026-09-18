@@ -1,6 +1,7 @@
 ---
 title: Festival Blues Barcalona 2008 - Jam Session al Casal de Barri de Prosperitat
 date: 2008-09-12T13:01:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: festival-blues-barcalona-2008-jam
 tags:

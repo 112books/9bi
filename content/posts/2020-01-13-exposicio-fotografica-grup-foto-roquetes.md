@@ -1,6 +1,7 @@
 ---
 title: Exposició Fotogràfica Grup Foto Roquetes
 date: 2020-01-13T14:48:00+0100
+year: 2020
 author: Núria Laura Orbaneja
 slug: exposicio-fotografica-grup-foto-roquetes
 tags:

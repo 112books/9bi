@@ -1,6 +1,7 @@
 ---
 title: FERIA DE ABRIL PROSPERA-domingo
 date: 2011-04-10T23:48:00+0200
+year: 2011
 author: Pedro Click
 slug: feria-de-abril-prospera
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Festes de prospe - Dilluns - Xistorra Rock
 date: 2008-06-04T14:23:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe-dilluns-xistorra-rock
 tags:

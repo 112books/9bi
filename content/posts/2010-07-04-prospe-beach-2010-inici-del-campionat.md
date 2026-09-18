@@ -1,6 +1,7 @@
 ---
 title: Prospe Beach 2010; inici del campionat de parelles
 date: 2010-07-04T12:38:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: prospe-beach-2010-inici-del-campionat
 tags:

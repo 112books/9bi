@@ -1,6 +1,7 @@
 ---
 title: San Xibeco amb LA Montañesa
 date: 2014-11-16T19:55:00+0100
+year: 2014
 author: Alberto Sanagustín
 slug: san-xibeco-amb-la-montanesa
 tags:

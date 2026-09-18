@@ -1,6 +1,7 @@
 ---
 title: 2023-05-29 - Festa major de Prosperitat – Dilluns Chistorra Rock XXV
 date: 2023-05-30T11:43:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-05-28-festa-major-de-prosperitat_30
 tags:

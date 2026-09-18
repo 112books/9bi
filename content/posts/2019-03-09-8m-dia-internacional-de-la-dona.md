@@ -1,6 +1,7 @@
 ---
 title: '8M: Dia Internacional de la Dona'
 date: 2019-03-09T11:48:00+0100
+year: 2019
 author: Manel Sala "Ulls" Circ
 slug: 8m-dia-internacional-de-la-dona
 tags:

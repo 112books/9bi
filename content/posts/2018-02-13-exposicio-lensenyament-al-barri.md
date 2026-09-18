@@ -1,6 +1,7 @@
 ---
 title: 'Exposició “L’ensenyament al barri: història, avui i demà”'
 date: 2018-02-13T20:01:00+0100
+year: 2018
 author: Pedro Click
 slug: exposicio-lensenyament-al-barri
 tags:

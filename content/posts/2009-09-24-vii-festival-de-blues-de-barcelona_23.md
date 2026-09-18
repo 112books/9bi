@@ -2,6 +2,7 @@
 title: VII Festival de Blues de Barcelona - Diumenge - Amb Ricky Nye, Axel Zwingenberger,
   Bob Seele
 date: 2009-09-24T08:40:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: vii-festival-de-blues-de-barcelona_23
 tags:

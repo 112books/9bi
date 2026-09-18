@@ -1,6 +1,7 @@
 ---
 title: El Arbusto - Concurs de maquetes - Divendres
 date: 2015-10-04T11:46:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: el-artusto-concurs-de-maquetes-divendres
 tags:

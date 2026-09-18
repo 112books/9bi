@@ -1,6 +1,7 @@
 ---
 title: La Cultura va de Festa 5-5-2024
 date: 2024-05-05T21:06:00+0200
+year: 2024
 author: Pedro Click
 slug: la-cultura-va-de-festa-5-5-2024
 tags:

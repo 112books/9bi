@@ -1,6 +1,7 @@
 ---
 title: 2025-05-26 - Festes de Prosperitat - Dilluns - XXVII Xisotrra Rock
 date: 2025-05-27T11:31:00+0200
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-05-26-festes-de-prosperitat
 tags:

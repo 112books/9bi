@@ -1,6 +1,7 @@
 ---
 title: Karaokes de Festa!
 date: 2016-06-04T01:41:00+0200
+year: 2016
 author: Alberto Sanagustín
 slug: karaokes-de-festa
 tags:

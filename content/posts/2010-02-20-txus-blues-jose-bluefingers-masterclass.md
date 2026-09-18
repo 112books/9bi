@@ -1,6 +1,7 @@
 ---
 title: Txus Blues & Jose Bluefingers + MasterClass by Chino
 date: 2010-02-20T05:00:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: txus-blues-jose-bluefingers-masterclass
 tags:

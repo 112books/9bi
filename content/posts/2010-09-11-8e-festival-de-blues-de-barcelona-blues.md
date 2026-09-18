@@ -1,6 +1,7 @@
 ---
 title: 8è Festival de Blues de Barcelona - Blues & Circ a Luz de Gas
 date: 2010-09-11T14:12:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: 8e-festival-de-blues-de-barcelona-blues
 tags:

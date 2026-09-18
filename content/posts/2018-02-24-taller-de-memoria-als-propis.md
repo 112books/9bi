@@ -1,6 +1,7 @@
 ---
 title: Taller de memòria als "Propis"
 date: 2018-02-24T23:38:00+0100
+year: 2018
 author: 9 Barris Imatge
 slug: taller-de-memoria-als-propis
 tags:

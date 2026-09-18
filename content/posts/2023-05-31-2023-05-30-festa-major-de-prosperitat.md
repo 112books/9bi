@@ -1,6 +1,7 @@
 ---
 title: 2023-05-30 – Festa major de Prosperitat – Dimarts
 date: 2023-05-31T10:44:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-05-30-festa-major-de-prosperitat
 tags:

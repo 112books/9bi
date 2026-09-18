@@ -1,6 +1,7 @@
 ---
 title: 2025-11-14 - Sant Xibeco - Inici amb el Bingo musical
 date: 2025-11-14T00:54:00+0100
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-11-14-sant-xibeco-inici-amb-el
 tags:

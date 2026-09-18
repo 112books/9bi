@@ -1,6 +1,7 @@
 ---
 title: SENYALS DE FUM
 date: 2016-06-05T13:56:00+0200
+year: 2016
 author: Pedro Click
 slug: senyals-de-fum
 cover:

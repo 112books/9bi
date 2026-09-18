@@ -1,6 +1,7 @@
 ---
 title: festa de l´escuma
 date: 2022-06-05T20:23:00+0200
+year: 2022
 author: Francesc Barbe
 slug: festa-de-lescuma_5
 tags:

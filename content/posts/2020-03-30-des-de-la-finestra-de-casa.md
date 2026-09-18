@@ -1,6 +1,7 @@
 ---
 title: Des de la finestra de casa
 date: 2020-03-30T18:06:00+0200
+year: 2020
 author: Francesc Barbe
 slug: des-de-la-finestra-de-casa
 tags:

@@ -2,6 +2,7 @@
 title: 9BinBlack - Ateneu Popular 9 Barris - Combos Escola Blues- Vin Out - Marina
   BBface & The Beatroots
 date: 2013-02-03T15:29:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: 9binblack-ateneu-popular-9-barris
 tags:

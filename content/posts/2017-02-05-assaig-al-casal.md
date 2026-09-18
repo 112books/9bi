@@ -1,6 +1,7 @@
 ---
 title: Assaig al Casal
 date: 2017-02-05T15:22:00+0100
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: assaig-al-casal
 tags:

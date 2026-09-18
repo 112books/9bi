@@ -1,6 +1,7 @@
 ---
 title: 24º Festival sopas  del Mon 26-10-2025
 date: 2025-10-26T22:06:00+0100
+year: 2025
 author: Pedro Click
 slug: 24-festival-sopas-del-mon-26-10-2025
 tags:

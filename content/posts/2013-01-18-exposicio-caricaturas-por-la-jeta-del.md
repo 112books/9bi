@@ -2,6 +2,7 @@
 title: Exposició “Caricaturas por la jeta” del Pagés + Concert de "El placer de estar
   sin ti"
 date: 2013-01-18T00:37:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: exposicio-caricaturas-por-la-jeta-del
 tags:

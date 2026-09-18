@@ -1,6 +1,7 @@
 ---
 title: 'Continua la lluita pel transport public  '
 date: 2014-10-09T18:40:00+0200
+year: 2014
 author: Pedro "Casal" Cervera
 slug: continua-la-lluita-pel-transport-public
 tags:

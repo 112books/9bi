@@ -1,6 +1,7 @@
 ---
 title: Festival de Blues de Barcelona – Wax & Boogie Rhythm Combo
 date: 2020-07-10T15:24:00+0200
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: festival-de-blues-de-barcelona-wax
 tags:

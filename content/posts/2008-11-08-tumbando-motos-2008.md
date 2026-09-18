@@ -1,6 +1,7 @@
 ---
 title: Tumbando motos 2008
 date: 2008-11-08T12:08:00+0100
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: tumbando-motos-2008
 tags:

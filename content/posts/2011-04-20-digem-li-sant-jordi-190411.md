@@ -1,6 +1,7 @@
 ---
 title: Digem-li Sant Jordi... 19/04/11
 date: 2011-04-20T00:11:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: digem-li-sant-jordi-190411
 tags:

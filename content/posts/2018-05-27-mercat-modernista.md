@@ -1,6 +1,7 @@
 ---
 title: Mercat Modernista.
 date: 2018-05-27T11:42:00+0200
+year: 2018
 author: 9 Barris Imatge
 slug: mercat-modernista
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Festival de Sopes de Lille, França 2009
 date: 2009-05-05T18:42:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: festival-de-sopes-de-lille-franca-2009
 tags:

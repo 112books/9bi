@@ -1,6 +1,7 @@
 ---
 title: Picnic & Blues, les fotos del 2009
 date: 2009-06-03T01:40:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: picnic-blues-les-fotos-del-2009
 tags:

@@ -1,6 +1,7 @@
 ---
 title: CORRIDA DE TOROS
 date: 2011-07-22T12:30:00+0200
+year: 2011
 author: Pedro Click
 slug: corrida-de-toros
 tags:

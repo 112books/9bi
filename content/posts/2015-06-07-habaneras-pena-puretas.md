@@ -1,6 +1,7 @@
 ---
 title: HABANERAS -PEÑA PURETAS
 date: 2015-06-07T22:16:00+0200
+year: 2015
 author: Pedro Click
 slug: habaneras-pena-puretas
 tags:

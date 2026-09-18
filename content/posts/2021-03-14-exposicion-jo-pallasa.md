@@ -1,6 +1,7 @@
 ---
 title: EXPOSICION          "JO PALLASA"
 date: 2021-03-14T11:43:00+0100
+year: 2021
 author: Pedro Click
 slug: exposicion-jo-pallasa
 tags:

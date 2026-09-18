@@ -1,6 +1,7 @@
 ---
 title: Navidad en la Residència Porta
 date: 2015-01-13T10:42:00+0100
+year: 2015
 author: 9 Barris Imatge
 slug: navidad-en-la-residencia-porta_13
 cover:

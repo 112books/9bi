@@ -1,6 +1,7 @@
 ---
 title: MILLA 9BARRIS
 date: 2010-06-09T12:05:00+0200
+year: 2010
 author: Pedro Click
 slug: de-milla-9barris
 tags:

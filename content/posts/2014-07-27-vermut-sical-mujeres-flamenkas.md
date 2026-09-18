@@ -1,6 +1,7 @@
 ---
 title: Vermut Sical - Mujeres Flamenkas
 date: 2014-07-27T13:23:00+0200
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: vermut-sical-mujeres-flamenkas
 tags:

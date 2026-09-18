@@ -1,6 +1,7 @@
 ---
 title: Convocatoria per el 5è "Festival de Sopes del Món Mundial"
 date: 2008-03-28T19:28:00+0100
+year: 2008
 author: 9 Barris Imatge
 slug: convocatoria-per-el-5-festival-de-sopes
 tags:

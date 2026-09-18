@@ -1,6 +1,7 @@
 ---
 title: Prospe Iglú al Casal de Joves de Prosperitat
 date: 2015-03-15T13:20:00+0100
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: prospe-iglu-al-casal-de-joves-de
 tags:

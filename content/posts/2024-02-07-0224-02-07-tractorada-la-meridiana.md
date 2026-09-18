@@ -1,6 +1,7 @@
 ---
 title: 2024-02-07 - Tractorada a la Meridiana
 date: 2024-02-07T16:26:00+0100
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 0224-02-07-tractorada-la-meridiana
 tags:

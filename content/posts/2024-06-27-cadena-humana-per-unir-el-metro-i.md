@@ -1,6 +1,7 @@
 ---
 title: Cadena humana per unir el metro i apropar els barris...
 date: 2024-06-27T08:02:00+0200
+year: 2024
 author: Iozsef Kiss
 slug: cadena-humana-per-unir-el-metro-i
 tags:

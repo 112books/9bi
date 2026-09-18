@@ -1,6 +1,7 @@
 ---
 title: 70 CUMPLEAÑOS DE UN LUCHADOR SOCIAL, ANDRES NAYA
 date: 2016-03-20T17:03:00+0100
+year: 2016
 author: Pedro Click
 slug: 70-cumpleanos-de-un-luchador-social
 tags:

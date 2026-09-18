@@ -1,6 +1,7 @@
 ---
 title: Sant Xibeco 2019 – El Sant al Casal de Joves de Prospe
 date: 2019-11-16T09:15:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: sant-xibeco-2019-el-sant-al-casal-de
 tags:

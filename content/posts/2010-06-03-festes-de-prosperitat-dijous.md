@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat - Dijous
 date: 2010-06-03T19:36:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-dijous
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 'Pere Cánovas : Mestre vitraller a Nou Barris.'
 date: 2015-10-14T14:51:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: pere-canovas-mestre-vitraller-nou-barris
 tags:

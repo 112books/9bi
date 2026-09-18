@@ -1,6 +1,7 @@
 ---
 title: Presentación Diario de FM La Prospe 2026
 date: 2026-05-26T17:46:27+0200
+year: 2026
 author: Juan Carlos Molina (Grismedio Casinegro)
 slug: presentacion-diario-de-fm-la-prospe-2026
 tags:

@@ -2,6 +2,7 @@
 title: Barcelona. Chino,Martí Elies,Blas Picon,Dani Pérez,Victor i Pere Puertas,Martí
   Helies,Ivan Kovakevi.B/N
 date: 2021-07-05T22:17:00+0200
+year: 2021
 author: Francesc Barbe
 slug: barcelona-chinomarti-eliesblas
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 'Assaig al carrer: Edgar, Mocebares, Contra todo pronostico 31-05-2026'
 date: 2026-06-04T12:02:50+0200
+year: 2026
 author: Pedro Click
 slug: assaig-al-carre-edgar-mocebares-contra
 tags:

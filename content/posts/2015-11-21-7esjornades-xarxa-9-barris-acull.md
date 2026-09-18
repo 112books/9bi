@@ -1,6 +1,7 @@
 ---
 title: 7es Jornades Xarxa 9 Barris Acull
 date: 2015-11-21T21:55:00+0100
+year: 2015
 author: Alberto Sanagustín
 slug: 7esjornades-xarxa-9-barris-acull
 tags:

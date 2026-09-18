@@ -1,6 +1,7 @@
 ---
 title: Els fums de Telefónica
 date: 2011-07-25T18:52:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: els-fums-de-telefonica
 tags:

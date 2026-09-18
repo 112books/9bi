@@ -2,6 +2,7 @@
 title: VII Festival de Blues de Barcelona - Divendres 18 - Ian Siegal Band i BB. Blues
   Shacks
 date: 2009-09-21T02:29:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: vii-festival-de-blues-de-barcelona_8062
 tags:

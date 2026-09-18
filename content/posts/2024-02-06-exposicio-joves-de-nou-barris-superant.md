@@ -1,6 +1,7 @@
 ---
 title: EXPOSICIÓ JOVES DE NOU BARRIS SUPERANT OBSTACLES
 date: 2024-02-06T09:45:00+0100
+year: 2024
 author: Iozsef Kiss
 slug: exposicio-joves-de-nou-barris-superant
 tags:

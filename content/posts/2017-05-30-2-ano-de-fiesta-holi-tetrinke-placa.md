@@ -1,6 +1,7 @@
 ---
 title: Holi Fiesta Tetrinké 2017
 date: 2017-05-30T20:27:00+0200
+year: 2017
 author: Ismael Utrilla
 slug: 2-ano-de-fiesta-holi-tetrinke-placa
 tags:

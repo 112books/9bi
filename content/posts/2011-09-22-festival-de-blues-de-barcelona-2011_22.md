@@ -1,6 +1,7 @@
 ---
 title: Festival de Blues de Barcelona 2011 + Backstage
 date: 2011-09-22T10:50:00+0200
+year: 2011
 author: Manel Sala "Ulls" Circ
 slug: festival-de-blues-de-barcelona-2011_22
 tags:

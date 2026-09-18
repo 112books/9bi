@@ -1,6 +1,7 @@
 ---
 title: Festival de Sopes per Kike Espinosa
 date: 2017-05-13T19:36:00+0200
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: festival-de-sopes-per-kike-espinosa
 tags:

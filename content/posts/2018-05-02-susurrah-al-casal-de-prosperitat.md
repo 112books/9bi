@@ -1,6 +1,7 @@
 ---
 title: Susurrah al Casal de Prosperitat
 date: 2018-05-02T18:32:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: susurrah-al-casal-de-prosperitat
 tags:

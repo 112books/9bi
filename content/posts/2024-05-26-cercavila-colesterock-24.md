@@ -1,6 +1,7 @@
 ---
 title: Cercavila & Colesterock '24
 date: 2024-05-26T21:07:00+0200
+year: 2024
 author: Ismael Utrilla
 slug: cercavila-colesterock-24
 tags:

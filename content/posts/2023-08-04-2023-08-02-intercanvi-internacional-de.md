@@ -1,6 +1,7 @@
 ---
 title: 2023-08-02 – Intercanvi Internacional de Circ Barcelona 2023
 date: 2023-08-04T02:31:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-08-02-intercanvi-internacional-de
 tags:

@@ -1,6 +1,7 @@
 ---
 title: VOCES PARA LA INTEGRACION BY NICO
 date: 2017-06-04T12:27:00+0200
+year: 2017
 author: Pedro Click
 slug: voces-para-la-integracion
 tags:

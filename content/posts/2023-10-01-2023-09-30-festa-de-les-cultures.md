@@ -1,6 +1,7 @@
 ---
 title: 2023-09-30 - Festa de les cultures a Prosperitat
 date: 2023-10-01T11:43:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-09-30-festa-de-les-cultures
 tags:

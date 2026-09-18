@@ -1,6 +1,7 @@
 ---
 title: ROQUETES FASHION WEEK !!!
 date: 2014-06-28T01:53:00+0200
+year: 2014
 author: 9 Barris Imatge
 slug: roquetes-fashion-week_7799
 tags:

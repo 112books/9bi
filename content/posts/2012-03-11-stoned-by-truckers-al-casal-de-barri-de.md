@@ -1,6 +1,7 @@
 ---
 title: Stoned by Truckers al Casal de barri de Prosperitat
 date: 2012-03-11T13:21:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: stoned-by-truckers-al-casal-de-barri-de
 tags:

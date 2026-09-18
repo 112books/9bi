@@ -1,6 +1,7 @@
 ---
 title: 'Setmana de la Benvinguda: “La Ruta del Te” - amb Izuran Beat'
 date: 2012-11-10T11:08:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: setmana-de-la-benvinguda-la-ruta-del-te
 tags:

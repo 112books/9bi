@@ -1,6 +1,7 @@
 ---
 title: Més fotos de dissabte
 date: 2016-06-05T17:46:00+0200
+year: 2016
 author: Alberto Sanagustín
 slug: mes-del-dissabte
 tags:

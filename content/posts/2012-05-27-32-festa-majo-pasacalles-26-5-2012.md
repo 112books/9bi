@@ -1,6 +1,7 @@
 ---
 title: 32 ª Festa Majó Pasacalles 26-5-2012
 date: 2012-05-27T12:33:00+0200
+year: 2012
 author: Nico YeYe
 slug: 32-festa-majo-pasacalles-26-5-2012
 tags:

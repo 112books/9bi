@@ -1,6 +1,7 @@
 ---
 title: Casal Barri Prosperitat . La Zentraleta Escénica . El Espectáculo
 date: 2021-12-06T11:16:00+0100
+year: 2021
 author: Manel Sala "Ulls" Circ
 slug: casal-barri-prosperitat-la-zentraleta
 tags:

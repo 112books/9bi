@@ -1,6 +1,7 @@
 ---
 title: Arranca la 12 edició de la Barcelona Tattoo Expo
 date: 2009-10-02T00:11:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: arranca-la-12-edicio-de-la-barcelona
 tags:

@@ -1,6 +1,7 @@
 ---
 title: '"EL VENDEDOR DE SUEÑOS"     AL TON I GUIDA.'
 date: 2014-10-25T00:49:00+0200
+year: 2014
 author: 9 Barris Imatge
 slug: el-vendedor-de-suenos-al-ton-i-guida
 tags:

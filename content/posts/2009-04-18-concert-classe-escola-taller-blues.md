@@ -1,6 +1,7 @@
 ---
 title: Concert Classe Escola-Taller Blues Barcelona; Chino, Ivan, Bernat i Marc
 date: 2009-04-18T23:09:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: concert-classe-escola-taller-blues
 tags:

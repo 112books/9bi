@@ -1,6 +1,7 @@
 ---
 title: 2022-11-24 - Teatre - En Bangkok también hay ratas
 date: 2022-11-24T22:36:00+0100
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: 2022-11-24-teatre-en-bangkok-tambien
 tags:

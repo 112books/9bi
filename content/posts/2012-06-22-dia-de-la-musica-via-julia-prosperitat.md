@@ -1,6 +1,7 @@
 ---
 title: Dia de la música a Vía Júlia, Prosperitat
 date: 2012-06-22T13:48:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: dia-de-la-musica-via-julia-prosperitat
 tags:

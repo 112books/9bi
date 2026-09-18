@@ -1,6 +1,7 @@
 ---
 title: Pase de fotografies al Casal de Barri!!
 date: 2008-07-11T15:01:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: pase-de-fotografies-al-casal-de-barri
 tags:

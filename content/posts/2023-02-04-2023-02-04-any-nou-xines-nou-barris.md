@@ -1,6 +1,7 @@
 ---
 title: 2023-02-04 - Any nou Xinès a Nou Barris
 date: 2023-02-04T17:00:00+0100
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-02-04-any-nou-xines-nou-barris
 tags:

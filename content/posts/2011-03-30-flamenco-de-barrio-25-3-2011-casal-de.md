@@ -1,6 +1,7 @@
 ---
 title: Flamenco de Barrio. 25-3-2011. Casal de Barri Prosperitat
 date: 2011-03-30T17:34:00+0200
+year: 2011
 author: Manel Sala "Ulls" Circ
 slug: flamenco-de-barrio-25-3-2011-casal-de
 tags:

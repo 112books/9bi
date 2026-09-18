@@ -1,6 +1,7 @@
 ---
 title: REPORTATGE CASAL JOVES PROSPE
 date: 2009-12-09T17:28:00+0100
+year: 2009
 author: 9 Barris Imatge
 slug: reportatge-casal-joves-prospe
 tags:

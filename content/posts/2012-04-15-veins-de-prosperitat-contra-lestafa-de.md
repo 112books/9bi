@@ -1,6 +1,7 @@
 ---
 title: Veïns de Prosperitat contra l'estafa de "les Preferents" de La Caixa
 date: 2012-04-15T12:00:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: veins-de-prosperitat-contra-lestafa-de
 tags:

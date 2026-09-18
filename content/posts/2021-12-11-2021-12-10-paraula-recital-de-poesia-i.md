@@ -1,6 +1,7 @@
 ---
 title: 2021-12-10 - Paraula - recital de poesia i música
 date: 2021-12-11T07:21:00+0100
+year: 2021
 author: Joan "Linux" Martínez i Serres
 slug: 2021-12-10-paraula-recital-de-poesia-i
 tags:

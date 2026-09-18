@@ -1,6 +1,7 @@
 ---
 title: Festes de Verdum – Simews Shocks
 date: 2016-09-20T08:53:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-verdum-simews-shocks
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 2023-02-22 - Els escacs a la literatura al Casal de barri de Prosperitat
 date: 2023-02-22T20:30:00+0100
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-02-22-els-escacs-la-literatura-al
 tags:

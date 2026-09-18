@@ -1,6 +1,7 @@
 ---
 title: 4 Concurso Tortillas Los Kukys
 date: 2019-06-02T21:42:00+0200
+year: 2019
 author: Ismael Utrilla
 slug: 4-concurso-tortillas-los-kukys
 tags:

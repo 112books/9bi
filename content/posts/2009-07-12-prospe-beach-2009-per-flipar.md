@@ -1,6 +1,7 @@
 ---
 title: Prospe Beach 2009, per flipar!
 date: 2009-07-12T21:47:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: prospe-beach-2009-per-flipar
 tags:

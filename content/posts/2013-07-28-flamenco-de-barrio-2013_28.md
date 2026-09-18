@@ -1,6 +1,7 @@
 ---
 title: Flamenco de Barrio 2013
 date: 2013-07-28T19:26:00+0200
+year: 2013
 author: Pedro Click
 slug: flamenco-de-barrio-2013_28
 tags:

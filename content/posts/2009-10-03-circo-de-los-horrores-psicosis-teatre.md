@@ -1,6 +1,7 @@
 ---
 title: Circo de los Horrores.. Psicosis.. Teatre Victòria del 1 al 18 Octubre
 date: 2009-10-03T16:37:00+0200
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: circo-de-los-horrores-psicosis-teatre
 tags:

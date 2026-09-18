@@ -1,6 +1,7 @@
 ---
 title: LA ULTIMA Y NOS VAMOS...
 date: 2023-06-05T12:22:00+0200
+year: 2023
 author: Iozsef Kiss
 slug: la-ultima-y-nos-vamos
 cover:

@@ -1,6 +1,7 @@
 ---
 title: Manifestacio Sanitat, educacio y Taxis 25-01-2023
 date: 2023-01-25T17:25:00+0100
+year: 2023
 author: Pedro Click
 slug: manifestacio-sanitat-educacio-y-taxis
 tags:

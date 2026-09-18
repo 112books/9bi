@@ -1,6 +1,7 @@
 ---
 title: 2025-10-10 - Descolonitzem-nos! amb Proyecto Zankara i Dont Hit a la Negrx
 date: 2025-10-11T20:32:00+0200
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-10-10-descolonitzem-nos-amb
 tags:

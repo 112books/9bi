@@ -1,6 +1,7 @@
 ---
 title: Rua de Carnestoltes a 9 Barris
 date: 2016-02-07T20:05:00+0100
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: rua-de-carnestoltes-9-barris
 tags:

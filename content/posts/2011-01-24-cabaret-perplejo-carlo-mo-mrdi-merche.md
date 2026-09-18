@@ -1,6 +1,7 @@
 ---
 title: Cabaret Perplejo. Carlo Mô & Mr.Di, Merche 8a y Cristi Garbo. Almazen
 date: 2011-01-24T12:01:00+0100
+year: 2011
 author: Manel Sala "Ulls" Circ
 slug: cabaret-perplejo-carlo-mo-mrdi-merche
 tags:

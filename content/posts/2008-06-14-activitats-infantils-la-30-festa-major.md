@@ -1,6 +1,7 @@
 ---
 title: Activitats infantils a la 30 festa major de prospe
 date: 2008-06-14T14:42:00+0200
+year: 2008
 author: Pedro "Casal" Cervera
 slug: activitats-infantils-la-30-festa-major
 tags:

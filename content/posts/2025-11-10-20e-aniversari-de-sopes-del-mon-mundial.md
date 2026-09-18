@@ -1,6 +1,7 @@
 ---
 title: 20è Aniversari de Sopes del Món mundial
 date: 2025-11-10T18:25:00+0100
+year: 2025
 author: Iozsef Kiss
 slug: 20e-aniversari-de-sopes-del-mon-mundial
 tags:

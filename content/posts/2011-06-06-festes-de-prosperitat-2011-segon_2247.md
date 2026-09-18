@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat 2011 - Segón diumenge
 date: 2011-06-06T02:01:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-2011-segon_2247
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 2024-10-19 – Raquel Lúa al Casal de Barri de Prosperitat
 date: 2024-10-20T09:39:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-10-19-raquel-lua-al-casal-de-barri
 tags:

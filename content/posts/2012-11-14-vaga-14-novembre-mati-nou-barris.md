@@ -1,6 +1,7 @@
 ---
 title: Vaga 14 Novembre Matí Nou Barris
 date: 2012-11-14T15:18:00+0100
+year: 2012
 author: 9 Barris Imatge
 slug: vaga-14-novembre-mati-nou-barris
 tags:

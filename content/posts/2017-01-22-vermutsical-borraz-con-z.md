@@ -1,6 +1,7 @@
 ---
 title: VermutSiCal - Borraz con Z
 date: 2017-01-22T10:37:00+0100
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-borraz-con-z
 tags:

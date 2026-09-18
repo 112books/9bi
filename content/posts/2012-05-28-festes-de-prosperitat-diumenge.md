@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat - Diumenge
 date: 2012-05-28T15:16:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-diumenge
 tags:

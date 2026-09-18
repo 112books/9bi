@@ -1,6 +1,7 @@
 ---
 title: Festival de Sopes del Món
 date: 2024-10-21T10:44:00+0200
+year: 2024
 author: Núria Laura Orbaneja
 slug: festival-de-sopes-del-mon
 tags:

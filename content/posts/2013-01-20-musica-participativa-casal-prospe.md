@@ -1,6 +1,7 @@
 ---
 title: Música Participativa. Casal Prospe
 date: 2013-01-20T16:24:00+0100
+year: 2013
 author: Manel Sala "Ulls" Circ
 slug: musica-participativa-casal-prospe
 tags:

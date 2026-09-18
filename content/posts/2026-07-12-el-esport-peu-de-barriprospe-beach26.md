@@ -1,6 +1,7 @@
 ---
 title: L'esport a peu de barri...Prospe Beach'26
 date: 2026-07-12T19:05:26+0200
+year: 2026
 author: Ismael Utrilla
 slug: el-esport-peu-de-barriprospe-beach26
 tags:

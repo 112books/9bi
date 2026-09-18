@@ -1,6 +1,7 @@
 ---
 title: Passatge del Terror-Casal de Barri Prosperitat-26-10-2019
 date: 2019-10-27T13:07:00+0100
+year: 2019
 author: Manel Sala "Ulls" Circ
 slug: passatge-del-terror-casal-de-barri
 tags:

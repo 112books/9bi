@@ -2,6 +2,7 @@
 title: 'Inauguració de l''exposició "Harry Walker: Classe obrera i veïnat en lluita"
   de la Comissió del Centenari'
 date: 2019-12-18T00:57:00+0100
+year: 2019
 author: Alberto Sanagustín
 slug: inauguracio-de-lexposicio-harry-walker
 tags:

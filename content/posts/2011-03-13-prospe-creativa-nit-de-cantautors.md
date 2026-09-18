@@ -1,6 +1,7 @@
 ---
 title: Prospe Creativa, Nit de Cantautors
 date: 2011-03-13T14:51:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: prospe-creativa-nit-de-cantautors
 tags:

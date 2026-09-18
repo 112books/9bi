@@ -1,6 +1,7 @@
 ---
 title: ProspeBeach'19 .Magia en la plaza
 date: 2019-07-14T19:54:00+0200
+year: 2019
 author: Ismael Utrilla
 slug: prospebeach19-magia-en-la-plaza
 tags:

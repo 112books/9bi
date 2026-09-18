@@ -1,6 +1,7 @@
 ---
 title: 2023 -10-12 - Concert - Res a celebrar!
 date: 2023-10-13T16:10:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-10-12-concert-res-celebrar
 tags:

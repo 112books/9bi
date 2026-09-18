@@ -1,6 +1,7 @@
 ---
 title: 8è Festival de Blues de Barcelona - Wad-Ras
 date: 2010-09-15T01:34:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: 8e-festival-de-blues-de-barcelona-wad
 tags:

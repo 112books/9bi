@@ -1,6 +1,7 @@
 ---
 title: Prospe Beach pel mati
 date: 2011-07-10T14:38:00+0200
+year: 2011
 author: Pedro "Casal" Cervera
 slug: prospe-beach-pel-mati
 tags:

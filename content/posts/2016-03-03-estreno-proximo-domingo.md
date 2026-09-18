@@ -1,6 +1,7 @@
 ---
 title: Estrena !!!     Pròxim  diumenge !!!
 date: 2016-03-03T20:59:00+0100
+year: 2016
 author: 9 Barris Imatge
 slug: estreno-proximo-domingo
 tags:

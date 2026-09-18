@@ -1,6 +1,7 @@
 ---
 title: Zona Verde Prospefesta 01-06-2024
 date: 2024-06-02T20:29:00+0200
+year: 2024
 author: Pedro Click
 slug: zona-verde-prospefesta-01-06-2024
 tags:

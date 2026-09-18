@@ -1,6 +1,7 @@
 ---
 title: ¡De ésta nos salimos! Concert de Pigme@s revoltos@s
 date: 2012-03-05T02:01:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: de-esta-nos-salimos-concert-de-pigmes
 tags:

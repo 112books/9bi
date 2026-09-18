@@ -1,6 +1,7 @@
 ---
 title: Assaig al Casal de Prosperitat
 date: 2018-02-08T14:13:00+0100
+year: 2018
 author: Manel Sala "Ulls" Circ
 slug: assaig-al-casal-de-prosperitat
 tags:

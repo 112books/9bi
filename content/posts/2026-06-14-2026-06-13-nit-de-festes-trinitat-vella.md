@@ -1,6 +1,7 @@
 ---
 title: 2026-06-13 – Nit de festes a Trinitat Vella i Roquetes
 date: 2026-06-14T20:33:27+0200
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: 2026-06-13-nit-de-festes-trinitat-vella
 tags:

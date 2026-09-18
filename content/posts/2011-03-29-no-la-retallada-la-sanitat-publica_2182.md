@@ -1,6 +1,7 @@
 ---
 title: NO a la Retallada a la Sanitat Publica
 date: 2011-03-29T11:22:00+0200
+year: 2011
 author: Manel Sala "Ulls" Circ
 slug: no-la-retallada-la-sanitat-publica_2182
 tags:

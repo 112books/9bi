@@ -2,6 +2,7 @@
 title: Dani Perez Organic Trio + Master Class de Ball > Mou l'esquelete a ritme de
   Blues
 date: 2011-01-24T12:08:00+0100
+year: 2011
 author: Manel Sala "Ulls" Circ
 slug: dani-perez-organic-trio-master-class-de
 tags:

@@ -1,6 +1,7 @@
 ---
 title: El Casal de joves de Prosperitat al Casal de joves de la Guineueta
 date: 2010-10-18T23:40:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: el-casal-de-joves-de-prosperitat-al
 tags:

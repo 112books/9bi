@@ -1,6 +1,7 @@
 ---
 title: Presentació diari de festes 2014 + Mancuso
 date: 2014-05-18T14:03:00+0200
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-diari-de-festes-2014-mancuso
 tags:

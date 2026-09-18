@@ -1,6 +1,7 @@
 ---
 title: Sortida fotogràfica nocturna !!!
 date: 2019-06-02T16:18:00+0200
+year: 2019
 author: Núria Laura Orbaneja
 slug: sortida-fotografica-nocturna
 tags:

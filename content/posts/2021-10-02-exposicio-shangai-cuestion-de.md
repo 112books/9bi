@@ -1,6 +1,7 @@
 ---
 title: Exposició "Shangai cuestión de perspectiva" de Pedro García
 date: 2021-10-02T11:20:00+0200
+year: 2021
 author: Joan "Linux" Martínez i Serres
 slug: exposicio-shangai-cuestion-de
 tags:

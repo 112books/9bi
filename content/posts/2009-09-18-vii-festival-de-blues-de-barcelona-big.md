@@ -2,6 +2,7 @@
 title: VII Festival de Blues de Barcelona - Big Mama i Manolo Germán a l'Hospital
   de la Vall d'Hebrón
 date: 2009-09-18T19:25:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: vii-festival-de-blues-de-barcelona-big
 tags:

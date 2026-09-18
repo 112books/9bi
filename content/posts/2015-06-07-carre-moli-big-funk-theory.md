@@ -1,6 +1,7 @@
 ---
 title: CARRE MOLI-BIG FUNK THEORY
 date: 2015-06-07T23:13:00+0200
+year: 2015
 author: Pedro Click
 slug: carre-moli-big-funk-theory
 cover:

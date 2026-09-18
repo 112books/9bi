@@ -1,6 +1,7 @@
 ---
 title: Prospe Beach 2016 . 9 Barris . Barcelona
 date: 2016-07-10T12:03:00+0200
+year: 2016
 author: Manel Sala "Ulls" Circ
 slug: prospe-beach-2016-9-barris-barcelona
 tags:

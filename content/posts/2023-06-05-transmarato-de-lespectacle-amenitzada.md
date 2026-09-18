@@ -1,6 +1,7 @@
 ---
 title: Transmarató de l'Espectacle, amenitzada per Desastrosus Circus
 date: 2023-06-05T10:02:00+0200
+year: 2023
 author: Iozsef Kiss
 slug: transmarato-de-lespectacle-amenitzada
 tags:

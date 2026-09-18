@@ -1,6 +1,7 @@
 ---
 title: X el dret a l'habitatge acaba amb ocupació edifici buit a Pablo Iglesias
 date: 2013-03-28T20:53:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: x-el-dret-lhabitatge-acaba-anb-ocupacio
 tags:

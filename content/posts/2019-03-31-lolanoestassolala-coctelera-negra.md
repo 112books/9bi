@@ -1,6 +1,7 @@
 ---
 title: LolaNoEstasSola.La Coctelera Negra
 date: 2019-03-31T22:31:00+0200
+year: 2019
 author: Ismael Utrilla
 slug: lolanoestassolala-coctelera-negra
 tags:

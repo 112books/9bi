@@ -1,6 +1,7 @@
 ---
 title: Esmorzar traginers del diari de Festes de la Prosperitat
 date: 2018-05-20T23:35:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: esmorzar-traginers-del-diari-de-festes
 tags:

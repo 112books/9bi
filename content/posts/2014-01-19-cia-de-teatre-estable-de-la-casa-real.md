@@ -1,6 +1,7 @@
 ---
 title: Cia. de Teatre Estable de la Casa Real presenta "pit i collons"
 date: 2014-01-19T11:14:00+0100
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: cia-de-teatre-estable-de-la-casa-real
 tags:

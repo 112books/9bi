@@ -24,17 +24,36 @@ locale: "ca"
 media_folder: "static/images"
 public_folder: "/images"
 
+# Llista d'autors reutilitzada per totes les col·leccions d'articles
+x-autors: &autors
+  - "Alberto Sanagustín"
+  - "Francesc Barbe"
+  - "Iozsef Kiss"
+  - "Ismael Utrilla"
+  - "Joan \"Linux\" Martínez i Serres"
+  - "Juan Carlos Molina (Grismedio Casinegro)"
+  - "Manel Sala \"Ulls\" Circ"
+  - "Pedro \"Casal\" Cervera"
+  - "Pedro Click"
+  - "Núria Laura Orbaneja"
+  - "Manel Villalba"
+  - "Nico YeYe"
+  - "9 Barris Imatge"
 collections:
-  - name: "posts"
-    label: "Articles"
+  - name: "posts-2026"
+    label: "Articles · 2026"
     folder: "content/posts"
     create: true
+    filter:
+      field: "year"
+      value: "2026"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
       - { label: "Data de publicació", name: "date", widget: "datetime" }
+      - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2026" }
       - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
-      - { label: "Autor", name: "author", widget: "select", options: ["Alberto Sanagustín", "Francesc Barbe", "Iozsef Kiss", "Ismael Utrilla", "Joan \"Linux\" Martínez i Serres", "Juan Carlos Molina (Grismedio Casinegro)", "Manel Sala \"Ulls\" Circ", "Pedro \"Casal\" Cervera", "Pedro Click", "Núria Laura Orbaneja", "Manel Villalba", "Nico YeYe", "9 Barris Imatge"] }
+      - { label: "Autor", name: "author", widget: "select", options: *autors }
       - label: "Fotografia principal"
         name: "cover"
         widget: "object"
@@ -47,6 +66,473 @@ collections:
       - { label: "Descripció (opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista d'articles i al RSS." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
+  - name: "posts-2025"
+    label: "Articles · 2025"
+    folder: "content/posts"
+    create: true
+    filter:
+      field: "year"
+      value: "2025"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Data de publicació", name: "date", widget: "datetime" }
+      - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2025" }
+      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Autor", name: "author", widget: "select", options: *autors }
+      - label: "Fotografia principal"
+        name: "cover"
+        widget: "object"
+        required: false
+        hint: "La foto que encapçala l'article (es mostra a la portada i a l'article)."
+        fields:
+          - { label: "Imatge", name: "image", widget: "image" }
+      - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Descripció (opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista d'articles i al RSS." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
+
+  - name: "posts-2024"
+    label: "Articles · 2024"
+    folder: "content/posts"
+    create: true
+    filter:
+      field: "year"
+      value: "2024"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Data de publicació", name: "date", widget: "datetime" }
+      - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2024" }
+      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Autor", name: "author", widget: "select", options: *autors }
+      - label: "Fotografia principal"
+        name: "cover"
+        widget: "object"
+        required: false
+        hint: "La foto que encapçala l'article (es mostra a la portada i a l'article)."
+        fields:
+          - { label: "Imatge", name: "image", widget: "image" }
+      - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Descripció (opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista d'articles i al RSS." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
+
+  - name: "posts-2023"
+    label: "Articles · 2023"
+    folder: "content/posts"
+    create: true
+    filter:
+      field: "year"
+      value: "2023"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Data de publicació", name: "date", widget: "datetime" }
+      - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2023" }
+      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Autor", name: "author", widget: "select", options: *autors }
+      - label: "Fotografia principal"
+        name: "cover"
+        widget: "object"
+        required: false
+        hint: "La foto que encapçala l'article (es mostra a la portada i a l'article)."
+        fields:
+          - { label: "Imatge", name: "image", widget: "image" }
+      - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Descripció (opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista d'articles i al RSS." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
+
+  - name: "posts-2022"
+    label: "Articles · 2022"
+    folder: "content/posts"
+    create: true
+    filter:
+      field: "year"
+      value: "2022"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Data de publicació", name: "date", widget: "datetime" }
+      - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2022" }
+      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Autor", name: "author", widget: "select", options: *autors }
+      - label: "Fotografia principal"
+        name: "cover"
+        widget: "object"
+        required: false
+        hint: "La foto que encapçala l'article (es mostra a la portada i a l'article)."
+        fields:
+          - { label: "Imatge", name: "image", widget: "image" }
+      - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Descripció (opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista d'articles i al RSS." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
+
+  - name: "posts-2021"
+    label: "Articles · 2021"
+    folder: "content/posts"
+    create: true
+    filter:
+      field: "year"
+      value: "2021"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Data de publicació", name: "date", widget: "datetime" }
+      - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2021" }
+      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Autor", name: "author", widget: "select", options: *autors }
+      - label: "Fotografia principal"
+        name: "cover"
+        widget: "object"
+        required: false
+        hint: "La foto que encapçala l'article (es mostra a la portada i a l'article)."
+        fields:
+          - { label: "Imatge", name: "image", widget: "image" }
+      - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Descripció (opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista d'articles i al RSS." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
+
+  - name: "posts-2020"
+    label: "Articles · 2020"
+    folder: "content/posts"
+    create: true
+    filter:
+      field: "year"
+      value: "2020"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Data de publicació", name: "date", widget: "datetime" }
+      - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2020" }
+      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Autor", name: "author", widget: "select", options: *autors }
+      - label: "Fotografia principal"
+        name: "cover"
+        widget: "object"
+        required: false
+        hint: "La foto que encapçala l'article (es mostra a la portada i a l'article)."
+        fields:
+          - { label: "Imatge", name: "image", widget: "image" }
+      - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Descripció (opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista d'articles i al RSS." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
+
+  - name: "posts-2019"
+    label: "Articles · 2019"
+    folder: "content/posts"
+    create: true
+    filter:
+      field: "year"
+      value: "2019"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Data de publicació", name: "date", widget: "datetime" }
+      - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2019" }
+      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Autor", name: "author", widget: "select", options: *autors }
+      - label: "Fotografia principal"
+        name: "cover"
+        widget: "object"
+        required: false
+        hint: "La foto que encapçala l'article (es mostra a la portada i a l'article)."
+        fields:
+          - { label: "Imatge", name: "image", widget: "image" }
+      - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Descripció (opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista d'articles i al RSS." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
+
+  - name: "posts-2018"
+    label: "Articles · 2018"
+    folder: "content/posts"
+    create: true
+    filter:
+      field: "year"
+      value: "2018"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Data de publicació", name: "date", widget: "datetime" }
+      - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2018" }
+      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Autor", name: "author", widget: "select", options: *autors }
+      - label: "Fotografia principal"
+        name: "cover"
+        widget: "object"
+        required: false
+        hint: "La foto que encapçala l'article (es mostra a la portada i a l'article)."
+        fields:
+          - { label: "Imatge", name: "image", widget: "image" }
+      - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Descripció (opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista d'articles i al RSS." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
+
+  - name: "posts-2017"
+    label: "Articles · 2017"
+    folder: "content/posts"
+    create: true
+    filter:
+      field: "year"
+      value: "2017"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Data de publicació", name: "date", widget: "datetime" }
+      - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2017" }
+      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Autor", name: "author", widget: "select", options: *autors }
+      - label: "Fotografia principal"
+        name: "cover"
+        widget: "object"
+        required: false
+        hint: "La foto que encapçala l'article (es mostra a la portada i a l'article)."
+        fields:
+          - { label: "Imatge", name: "image", widget: "image" }
+      - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Descripció (opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista d'articles i al RSS." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
+
+  - name: "posts-2016"
+    label: "Articles · 2016"
+    folder: "content/posts"
+    create: true
+    filter:
+      field: "year"
+      value: "2016"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Data de publicació", name: "date", widget: "datetime" }
+      - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2016" }
+      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Autor", name: "author", widget: "select", options: *autors }
+      - label: "Fotografia principal"
+        name: "cover"
+        widget: "object"
+        required: false
+        hint: "La foto que encapçala l'article (es mostra a la portada i a l'article)."
+        fields:
+          - { label: "Imatge", name: "image", widget: "image" }
+      - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Descripció (opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista d'articles i al RSS." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
+
+  - name: "posts-2015"
+    label: "Articles · 2015"
+    folder: "content/posts"
+    create: true
+    filter:
+      field: "year"
+      value: "2015"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Data de publicació", name: "date", widget: "datetime" }
+      - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2015" }
+      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Autor", name: "author", widget: "select", options: *autors }
+      - label: "Fotografia principal"
+        name: "cover"
+        widget: "object"
+        required: false
+        hint: "La foto que encapçala l'article (es mostra a la portada i a l'article)."
+        fields:
+          - { label: "Imatge", name: "image", widget: "image" }
+      - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Descripció (opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista d'articles i al RSS." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
+
+  - name: "posts-2014"
+    label: "Articles · 2014"
+    folder: "content/posts"
+    create: true
+    filter:
+      field: "year"
+      value: "2014"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Data de publicació", name: "date", widget: "datetime" }
+      - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2014" }
+      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Autor", name: "author", widget: "select", options: *autors }
+      - label: "Fotografia principal"
+        name: "cover"
+        widget: "object"
+        required: false
+        hint: "La foto que encapçala l'article (es mostra a la portada i a l'article)."
+        fields:
+          - { label: "Imatge", name: "image", widget: "image" }
+      - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Descripció (opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista d'articles i al RSS." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
+
+  - name: "posts-2013"
+    label: "Articles · 2013"
+    folder: "content/posts"
+    create: true
+    filter:
+      field: "year"
+      value: "2013"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Data de publicació", name: "date", widget: "datetime" }
+      - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2013" }
+      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Autor", name: "author", widget: "select", options: *autors }
+      - label: "Fotografia principal"
+        name: "cover"
+        widget: "object"
+        required: false
+        hint: "La foto que encapçala l'article (es mostra a la portada i a l'article)."
+        fields:
+          - { label: "Imatge", name: "image", widget: "image" }
+      - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Descripció (opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista d'articles i al RSS." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
+
+  - name: "posts-2012"
+    label: "Articles · 2012"
+    folder: "content/posts"
+    create: true
+    filter:
+      field: "year"
+      value: "2012"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Data de publicació", name: "date", widget: "datetime" }
+      - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2012" }
+      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Autor", name: "author", widget: "select", options: *autors }
+      - label: "Fotografia principal"
+        name: "cover"
+        widget: "object"
+        required: false
+        hint: "La foto que encapçala l'article (es mostra a la portada i a l'article)."
+        fields:
+          - { label: "Imatge", name: "image", widget: "image" }
+      - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Descripció (opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista d'articles i al RSS." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
+
+  - name: "posts-2011"
+    label: "Articles · 2011"
+    folder: "content/posts"
+    create: true
+    filter:
+      field: "year"
+      value: "2011"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Data de publicació", name: "date", widget: "datetime" }
+      - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2011" }
+      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Autor", name: "author", widget: "select", options: *autors }
+      - label: "Fotografia principal"
+        name: "cover"
+        widget: "object"
+        required: false
+        hint: "La foto que encapçala l'article (es mostra a la portada i a l'article)."
+        fields:
+          - { label: "Imatge", name: "image", widget: "image" }
+      - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Descripció (opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista d'articles i al RSS." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
+
+  - name: "posts-2010"
+    label: "Articles · 2010"
+    folder: "content/posts"
+    create: true
+    filter:
+      field: "year"
+      value: "2010"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Data de publicació", name: "date", widget: "datetime" }
+      - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2010" }
+      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Autor", name: "author", widget: "select", options: *autors }
+      - label: "Fotografia principal"
+        name: "cover"
+        widget: "object"
+        required: false
+        hint: "La foto que encapçala l'article (es mostra a la portada i a l'article)."
+        fields:
+          - { label: "Imatge", name: "image", widget: "image" }
+      - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Descripció (opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista d'articles i al RSS." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
+
+  - name: "posts-2009"
+    label: "Articles · 2009"
+    folder: "content/posts"
+    create: true
+    filter:
+      field: "year"
+      value: "2009"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Data de publicació", name: "date", widget: "datetime" }
+      - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2009" }
+      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Autor", name: "author", widget: "select", options: *autors }
+      - label: "Fotografia principal"
+        name: "cover"
+        widget: "object"
+        required: false
+        hint: "La foto que encapçala l'article (es mostra a la portada i a l'article)."
+        fields:
+          - { label: "Imatge", name: "image", widget: "image" }
+      - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Descripció (opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista d'articles i al RSS." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
+
+  - name: "posts-2008"
+    label: "Articles · 2008"
+    folder: "content/posts"
+    create: true
+    filter:
+      field: "year"
+      value: "2008"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Data de publicació", name: "date", widget: "datetime" }
+      - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2008" }
+      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Autor", name: "author", widget: "select", options: *autors }
+      - label: "Fotografia principal"
+        name: "cover"
+        widget: "object"
+        required: false
+        hint: "La foto que encapçala l'article (es mostra a la portada i a l'article)."
+        fields:
+          - { label: "Imatge", name: "image", widget: "image" }
+      - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Descripció (opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista d'articles i al RSS." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
   - name: "guia"
     label: "Guia (manual per editors)"
     label_singular: "Pàgina de la guia"
@@ -102,3 +588,4 @@ collections:
       - { label: "Web / Blog personal", name: "web", widget: "string", required: false }
       - { label: "Instagram", name: "instagram", widget: "string", required: false }
       - { label: "Membre ACTIU (desmarca per convertir-lo en membre històric)", name: "actiu", widget: "boolean", default: true }
+

@@ -1,6 +1,7 @@
 ---
 title: Espectacle infantil amb el Mag Adrián Arbondo
 date: 2025-05-28T09:59:00+0200
+year: 2025
 author: Iozsef Kiss
 slug: espectacle-infantil-amb-el-mag-adrian
 tags:

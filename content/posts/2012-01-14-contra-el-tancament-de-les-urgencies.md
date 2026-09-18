@@ -1,6 +1,7 @@
 ---
 title: CONTRA EL TANCAMENT DE LES URGENCIES DEL CAP GUINEUETA
 date: 2012-01-14T15:31:00+0100
+year: 2012
 author: Pedro "Casal" Cervera
 slug: contra-el-tancament-de-les-urgencies
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 'SANTANTONÀ. FESTA MEDIEVAL DEL FOC DE FORCALL '
 date: 2013-02-24T13:50:00+0100
+year: 2013
 author: Pedro Click
 slug: santantona-festa-medieval-del-foc-de
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Fashion Week en Roquetes.
 date: 2018-06-25T19:17:00+0200
+year: 2018
 author: 9 Barris Imatge
 slug: fashion-week-en-roquetes
 tags:

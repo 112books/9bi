@@ -1,6 +1,7 @@
 ---
 title: Cardova Block Party - Dissabte
 date: 2014-11-03T16:07:00+0100
+year: 2014
 author: 9 Barris Imatge
 slug: cardova-dissabte
 tags:

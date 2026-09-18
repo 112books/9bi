@@ -1,6 +1,7 @@
 ---
 title: Maneta Kamioneta
 date: 2019-02-10T13:44:00+0100
+year: 2019
 author: Pedro Click
 slug: maneta-kamioneta
 tags:

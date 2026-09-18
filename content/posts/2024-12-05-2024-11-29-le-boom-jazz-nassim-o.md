@@ -1,6 +1,7 @@
 ---
 title: 2024-11-29- Le Boom Jazz + Nassim O
 date: 2024-12-05T19:36:00+0100
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-11-29-le-boom-jazz-nassim-o
 tags:

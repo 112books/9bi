@@ -1,6 +1,7 @@
 ---
 title: 'Teatre Infantil: "UNA PARADETA PARTICULAR "'
 date: 2016-01-17T13:45:00+0100
+year: 2016
 author: Pedro Click
 slug: teatre-infantil-una-paradeta-particular
 tags:

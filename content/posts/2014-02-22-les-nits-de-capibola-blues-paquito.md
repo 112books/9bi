@@ -1,6 +1,7 @@
 ---
 title: Les Nits de Capibola Blues - Paquito groove band + Rafegues de Swing
 date: 2014-02-22T12:11:00+0100
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: les-nits-de-capibola-blues-paquito
 tags:

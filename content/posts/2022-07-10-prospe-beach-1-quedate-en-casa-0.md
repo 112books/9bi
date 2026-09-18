@@ -1,6 +1,7 @@
 ---
 title: Prospe Beach 1 Quedate en casa 0
 date: 2022-07-10T19:34:00+0200
+year: 2022
 author: Ismael Utrilla
 slug: prospe-beach-1-quedate-en-casa-0
 tags:

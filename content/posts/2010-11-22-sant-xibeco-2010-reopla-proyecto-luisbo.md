@@ -1,6 +1,7 @@
 ---
 title: Sant Xibeco 2010 - Reopla + Proyecto Luisbo
 date: 2010-11-22T00:50:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: sant-xibeco-2010-reopla-proyecto-luisbo
 tags:

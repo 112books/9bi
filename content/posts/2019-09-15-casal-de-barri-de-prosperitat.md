@@ -1,6 +1,7 @@
 ---
 title: Casal de barri de Prosperitat - Vermutsical amb Ner & Maza
 date: 2019-09-15T11:08:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: casal-de-barri-de-prosperitat
 tags:

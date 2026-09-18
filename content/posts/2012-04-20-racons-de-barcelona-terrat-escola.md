@@ -1,6 +1,7 @@
 ---
 title: Racons de Barcelona, terrat escola d'adults
 date: 2012-04-20T02:05:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: racons-de-barcelona-terrat-escola
 tags:

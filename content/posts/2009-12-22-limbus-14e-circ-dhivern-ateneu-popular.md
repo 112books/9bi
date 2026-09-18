@@ -2,6 +2,7 @@
 title: LIMBUS. 14è Circ d´hivern. Ateneu Popular 9 Barris. Del 19 desembre 2009 al
   10 de gener 2010
 date: 2009-12-22T12:55:00+0100
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: limbus-14e-circ-dhivern-ateneu-popular
 tags:

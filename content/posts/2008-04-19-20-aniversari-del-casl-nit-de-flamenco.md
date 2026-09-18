@@ -1,6 +1,7 @@
 ---
 title: 20è aniversari del Casl - Nit de flamenco
 date: 2008-04-19T17:02:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: 20-aniversari-del-casl-nit-de-flamenco
 tags:

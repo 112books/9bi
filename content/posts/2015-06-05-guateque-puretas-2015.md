@@ -1,6 +1,7 @@
 ---
 title: Guateque Puretas 2015
 date: 2015-06-05T13:16:00+0200
+year: 2015
 author: Alberto Sanagustín
 slug: guateque-puretas-2015
 tags:

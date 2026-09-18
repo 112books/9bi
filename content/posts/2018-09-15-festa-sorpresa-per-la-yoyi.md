@@ -1,6 +1,7 @@
 ---
 title: Festa sorpresa per a la Yoyi !!!
 date: 2018-09-15T13:58:00+0200
+year: 2018
 author: 9 Barris Imatge
 slug: festa-sorpresa-per-la-yoyi
 tags:

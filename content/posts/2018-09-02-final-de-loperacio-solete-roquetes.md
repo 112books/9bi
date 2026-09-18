@@ -1,6 +1,7 @@
 ---
 title: Final de l'operació " SOLETE" a Roquetes.
 date: 2018-09-02T00:59:00+0200
+year: 2018
 author: 9 Barris Imatge
 slug: final-de-loperacio-solete-roquetes
 tags:

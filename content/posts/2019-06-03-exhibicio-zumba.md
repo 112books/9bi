@@ -1,6 +1,7 @@
 ---
 title: Exhibició Zumba
 date: 2019-06-03T07:34:00+0200
+year: 2019
 author: Ismael Utrilla
 slug: exhibicio-zumba
 tags:

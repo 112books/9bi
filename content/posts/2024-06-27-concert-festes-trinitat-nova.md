@@ -1,6 +1,7 @@
 ---
 title: 'Concert festes trinitat nova '
 date: 2024-06-27T08:27:00+0200
+year: 2024
 author: Iozsef Kiss
 slug: concert-festes-trinitat-nova
 tags:

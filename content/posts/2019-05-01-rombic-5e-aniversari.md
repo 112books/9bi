@@ -1,6 +1,7 @@
 ---
 title: Ròmbic 5è aniversari.
 date: 2019-05-01T21:43:00+0200
+year: 2019
 author: 9 Barris Imatge
 slug: rombic-5e-aniversari
 tags:

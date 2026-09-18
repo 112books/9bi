@@ -2,6 +2,7 @@
 title: 2026-07-05 - La Jam Session posa el punt final al 24è Festival de Blues de
   Barcelona
 date: 2026-07-06T10:49:09+0200
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: 2026-07-05-la-jam-session-posa-el-punt
 tags:

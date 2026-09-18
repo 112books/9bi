@@ -1,6 +1,7 @@
 ---
 title: 'Concert: Le Boom Jazz + Nassim O 29-11-2024'
 date: 2024-11-30T11:53:00+0100
+year: 2024
 author: Pedro Click
 slug: concert-le-boom-jazz-nassim-o-29-11-2024
 tags:

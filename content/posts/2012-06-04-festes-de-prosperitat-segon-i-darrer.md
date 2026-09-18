@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat - Segon i darrer diumenge
 date: 2012-06-04T01:29:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-segon-i-darrer
 tags:

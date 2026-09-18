@@ -1,6 +1,7 @@
 ---
 title: '  bodeguita'
 date: 2014-06-06T20:18:00+0200
+year: 2014
 author: Pedro Click
 slug: bodeguita
 cover:

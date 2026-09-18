@@ -1,6 +1,7 @@
 ---
 title: Primer " encierro" d´unicorns
 date: 2022-06-29T11:05:00+0200
+year: 2022
 author: Francesc Barbe
 slug: primer-encierro-dunicorns
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 2024-11-02 - Nit d'animes al Casal de Prosperitat
 date: 2024-11-06T18:23:00+0100
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-11-02-nit-danimes-al-casal-de
 tags:

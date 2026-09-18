@@ -1,6 +1,7 @@
 ---
 title: Festes de la Prosperitat – Diumenge 26
 date: 2019-05-27T10:17:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-la-prosperitat-diumenge-26
 tags:

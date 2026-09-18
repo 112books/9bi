@@ -1,6 +1,7 @@
 ---
 title: Placa a la Plaça Harry Walker
 date: 2017-06-11T20:16:00+0200
+year: 2017
 author: Alberto Sanagustín
 slug: placa-la-placa-harry-walker
 tags:

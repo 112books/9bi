@@ -1,6 +1,7 @@
 ---
 title: JORNADES X9BAcull
 date: 2016-11-26T22:33:00+0100
+year: 2016
 author: Pedro "Casal" Cervera
 slug: jornades-x9bacull
 tags:

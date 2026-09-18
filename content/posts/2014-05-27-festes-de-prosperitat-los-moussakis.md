@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat - Los Moussakis
 date: 2014-05-27T17:18:00+0200
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-los-moussakis
 tags:

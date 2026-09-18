@@ -1,6 +1,7 @@
 ---
 title: La Cultura va de Festa 2023
 date: 2023-05-07T20:40:00+0200
+year: 2023
 author: Pedro Click
 slug: la-cultura-va-de-festa-2023
 tags:

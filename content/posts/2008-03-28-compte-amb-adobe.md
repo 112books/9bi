@@ -1,6 +1,7 @@
 ---
 title: Compte amb Adobe!
 date: 2008-03-28T19:56:00+0100
+year: 2008
 author: 9 Barris Imatge
 slug: compte-amb-adobe
 tags:

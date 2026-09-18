@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat - divendres
 date: 2010-06-05T16:27:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-divendres
 tags:

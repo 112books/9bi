@@ -1,6 +1,7 @@
 ---
 title: BALL FINAL GUATEQUE PURETAS
 date: 2013-06-01T01:12:00+0200
+year: 2013
 author: Alberto Sanagustín
 slug: ball-final-guateque-puretas_31
 tags:

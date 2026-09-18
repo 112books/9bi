@@ -1,6 +1,7 @@
 ---
 title: 8è Festival de Blues de Barcelona - Sax Gordon i James Harman
 date: 2010-09-18T20:28:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: 8e-festival-de-blues-de-barcelona-sax
 tags:

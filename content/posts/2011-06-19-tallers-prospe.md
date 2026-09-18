@@ -1,6 +1,7 @@
 ---
 title: tallers prospe
 date: 2011-06-19T12:51:00+0200
+year: 2011
 author: Pedro Click
 slug: tallers-prospe
 tags:

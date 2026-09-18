@@ -2,6 +2,7 @@
 title: 2023-06-21 - Ventanas abiertas - Finestres curioses - Ateneu Popular de Nou
   Barris
 date: 2023-06-22T00:04:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-06-21-ventanas-abiertas-finestres
 tags:

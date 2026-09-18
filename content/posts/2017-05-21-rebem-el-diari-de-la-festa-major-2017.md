@@ -1,6 +1,7 @@
 ---
 title: Rebem el diari de la Festa Major 2017
 date: 2017-05-21T01:37:00+0200
+year: 2017
 author: Alberto Sanagustín
 slug: rebem-el-diari-de-la-festa-major-2017
 tags:

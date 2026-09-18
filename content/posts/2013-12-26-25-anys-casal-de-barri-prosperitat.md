@@ -1,6 +1,7 @@
 ---
 title: 25 anys. Casal de Barri Prosperitat.
 date: 2013-12-26T23:00:00+0100
+year: 2013
 author: Manel Sala "Ulls" Circ
 slug: 25-anys-casal-de-barri-prosperitat
 tags:

@@ -1,6 +1,7 @@
 ---
 title: NO al tancament del CAP Guinaueta!! No a la privatització de la Sanitat pública!!
 date: 2012-01-14T00:49:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: no-al-tancament-del-cap-guinaueta-no-la
 tags:

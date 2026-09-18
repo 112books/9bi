@@ -1,6 +1,7 @@
 ---
 title: Expo “Efemèrides de l’any 1919” i presentació “25 documents bàsics sobre Prosperitat”
 date: 2019-01-18T12:02:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: expo-efemerides-de-lany-1919-i
 tags:

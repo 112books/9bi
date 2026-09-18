@@ -2,6 +2,7 @@
 title: Vladislav Goncharov . Pierrot d´Or . 8º Festival Internacional de Circ de Budapest
   2010
 date: 2010-02-01T16:27:00+0100
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: vladislav-goncharov-pierrot-de-oro-8
 tags:

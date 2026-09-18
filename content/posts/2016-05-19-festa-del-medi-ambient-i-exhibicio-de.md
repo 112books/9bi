@@ -1,6 +1,7 @@
 ---
 title: Festa del medi ambient i exhibició de ball en línia...
 date: 2016-05-19T23:56:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: festa-del-medi-ambient-i-exhibicio-de
 tags:

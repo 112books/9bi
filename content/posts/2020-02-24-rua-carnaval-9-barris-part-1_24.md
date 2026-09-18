@@ -1,6 +1,7 @@
 ---
 title: Rua Carnaval 9 barris part 1
 date: 2020-02-24T22:22:00+0100
+year: 2020
 author: Ismael Utrilla
 slug: rua-carnaval-9-barris-part-1_24
 tags:

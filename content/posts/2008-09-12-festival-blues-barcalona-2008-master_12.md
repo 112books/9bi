@@ -2,6 +2,7 @@
 title: Festival Blues Barcalona 2008 - Master Class de Piano a càrreg de Barrelhouse
   Chuck
 date: 2008-09-12T12:59:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: festival-blues-barcalona-2008-master_12
 tags:

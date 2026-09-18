@@ -1,6 +1,7 @@
 ---
 title: 2023-05-20 - Presentació diari de festes de Prosperitat 2023
 date: 2023-05-21T01:24:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-05-20-presentacio-diari-de-festes
 tags:

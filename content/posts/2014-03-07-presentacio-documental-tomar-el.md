@@ -1,6 +1,7 @@
 ---
 title: Presentació documental "Tomar el Escenario"
 date: 2014-03-07T14:36:00+0100
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-documental-tomar-el
 tags:

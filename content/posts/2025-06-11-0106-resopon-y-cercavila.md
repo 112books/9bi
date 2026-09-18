@@ -1,6 +1,7 @@
 ---
 title: 01.06 Resopon y cercavila
 date: 2025-06-11T00:18:00+0200
+year: 2025
 author: Iozsef Kiss
 slug: 0106-resopon-y-cercavila
 tags:

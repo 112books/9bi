@@ -1,6 +1,7 @@
 ---
 title: La Festa del Tricentenari
 date: 2014-04-30T11:44:00+0200
+year: 2014
 author: Manel Villalba
 slug: la-festa-del-tricentenari_30
 tags:

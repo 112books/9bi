@@ -1,6 +1,7 @@
 ---
 title: Volem un casal en condicions - El Casal s'ha d'obrir
 date: 2010-09-29T02:18:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: volem-un-casal-en-condicions-el-casal
 tags:

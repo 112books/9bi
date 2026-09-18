@@ -1,6 +1,7 @@
 ---
 title: Valentina a la Titellada.
 date: 2016-10-01T19:29:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: valentina-la-titellada
 tags:

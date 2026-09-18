@@ -1,6 +1,7 @@
 ---
 title: Alan Bike al Honkytonk Blues Bar
 date: 2010-05-07T12:21:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: alan-bike-al-honkytonk-blues-bar
 tags:

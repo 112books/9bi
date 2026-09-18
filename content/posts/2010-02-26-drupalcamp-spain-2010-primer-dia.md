@@ -1,6 +1,7 @@
 ---
 title: Drupalcamp Spain 2010; primer dia
 date: 2010-02-26T15:03:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: drupalcamp-spain-2010-primer-dia
 tags:

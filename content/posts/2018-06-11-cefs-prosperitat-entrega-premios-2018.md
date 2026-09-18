@@ -1,6 +1,7 @@
 ---
 title: CEFS Prosperitat Entrega Premios 2018
 date: 2018-06-11T14:08:00+0200
+year: 2018
 author: Ismael Utrilla
 slug: cefs-prosperitat-entrega-premios-2018
 tags:

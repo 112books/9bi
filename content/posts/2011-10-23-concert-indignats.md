@@ -1,6 +1,7 @@
 ---
 title: Concert Indignats
 date: 2011-10-23T22:53:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: concert-indignats
 tags:

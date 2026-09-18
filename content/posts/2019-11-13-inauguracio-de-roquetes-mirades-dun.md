@@ -1,6 +1,7 @@
 ---
 title: 'Inauguració de "Roquetes : Mirades d''un barri"'
 date: 2019-11-13T00:42:00+0100
+year: 2019
 author: 9 Barris Imatge
 slug: inauguracio-de-roquetes-mirades-dun
 tags:

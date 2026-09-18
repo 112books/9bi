@@ -1,6 +1,7 @@
 ---
 title: Vermut si cal - Javier Primperán
 date: 2012-09-08T21:34:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: vermut-si-cal-javier-primperan
 tags:

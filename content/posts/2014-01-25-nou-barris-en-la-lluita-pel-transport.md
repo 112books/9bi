@@ -1,6 +1,7 @@
 ---
 title: NOU BARRIS EN LA LLUITA PEL TRANSPORT PUBLIC
 date: 2014-01-25T17:25:00+0100
+year: 2014
 author: Pedro "Casal" Cervera
 slug: nou-barris-en-la-lluita-pel-transport
 tags:

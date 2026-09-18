@@ -1,6 +1,7 @@
 ---
 title: Vermutsical amb Rumbalmibar
 date: 2016-05-08T10:13:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-rumbalmibar
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Nit d'Animes i Castanyada al Casal
 date: 2016-11-01T10:48:00+0100
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: nit-danimes-i-castanyada-al-casal
 tags:

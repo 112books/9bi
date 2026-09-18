@@ -1,6 +1,7 @@
 ---
 title: 16è Festival de Sopes del Món 2019 . Foto Cool
 date: 2019-03-25T09:16:00+0100
+year: 2019
 author: Manel Sala "Ulls" Circ
 slug: 16e-festival-de-sopes-del-mon-2019-foto
 tags:

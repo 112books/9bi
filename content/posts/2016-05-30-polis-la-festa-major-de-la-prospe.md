@@ -1,6 +1,7 @@
 ---
 title: Polis a la Festa Major de la Prospe
 date: 2016-05-30T00:00:00+0200
+year: 2016
 author: Alberto Sanagustín
 slug: polis-la-festa-major-de-la-prospe
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat - Chistorra Rock
 date: 2014-05-27T19:05:00+0200
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-chistorra-rock
 tags:

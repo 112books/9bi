@@ -1,6 +1,7 @@
 ---
 title: La Corcoles. Gris. Curtcirckit 2012 Montgat
 date: 2012-06-07T13:22:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: la-corcoles-gris-curtcirckit-2012
 tags:

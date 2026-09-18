@@ -1,6 +1,7 @@
 ---
 title: TARDA DE FESTA
 date: 2014-05-30T13:26:00+0200
+year: 2014
 author: Manel Villalba
 slug: tarda-de-festa
 tags:

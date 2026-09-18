@@ -1,6 +1,7 @@
 ---
 title: Dia de la Dona a Prosperitat
 date: 2009-03-21T17:10:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: dia-de-la-dona-prosperitat
 tags:

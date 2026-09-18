@@ -1,6 +1,7 @@
 ---
 title: Rua Carnaval 9 barris 2025
 date: 2025-03-02T10:17:00+0100
+year: 2025
 author: Ismael Utrilla
 slug: rua-carnaval-9-barris-2025
 tags:

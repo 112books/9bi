@@ -1,6 +1,7 @@
 ---
 title: The King Revelers Blues Band + John Schooley
 date: 2008-11-23T21:58:00+0100
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: king-revelers-blues-band-john-schooley
 tags:

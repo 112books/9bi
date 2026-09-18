@@ -1,6 +1,7 @@
 ---
 title: Carnestoltes a l'Ateneu Popular de Nou Barris
 date: 2020-02-23T12:22:00+0100
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: carnestoltes-lateneu-popular-de-nou
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Festa major del districte de Nou Barris, sense pregó
 date: 2012-05-19T02:11:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: festa-major-del-districte-de-nou-barris
 tags:

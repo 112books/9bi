@@ -1,6 +1,7 @@
 ---
 title: Veïns Flor de Neu.Marvin Sala.
 date: 2023-05-28T10:36:00+0200
+year: 2023
 author: Ismael Utrilla
 slug: veins-flor-de-neumarvin-sala
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Presentació del nou disc de Juan José Barreda - “Sentidos al Aire”
 date: 2015-11-30T08:24:00+0100
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-del-nou-disc-de-juan-jose
 tags:

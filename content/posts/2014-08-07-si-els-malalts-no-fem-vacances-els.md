@@ -2,6 +2,7 @@
 title: Si els malalts no fem vacances, els llits no es tanquen a l'Hospital de la
   Vall d'Hebron
 date: 2014-08-07T09:59:00+0200
+year: 2014
 author: Pedro "Casal" Cervera
 slug: si-els-malalts-no-fem-vacances-els
 tags:

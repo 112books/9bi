@@ -1,6 +1,7 @@
 ---
 title: Quadre flamenc “Barcelona Compás”
 date: 2017-10-15T21:38:00+0200
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: quadre-flamenc-barcelona-compas
 tags:

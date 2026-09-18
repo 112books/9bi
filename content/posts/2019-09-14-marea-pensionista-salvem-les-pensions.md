@@ -1,6 +1,7 @@
 ---
 title: Marea pensionista "Salvem les pensions"
 date: 2019-09-14T15:20:00+0200
+year: 2019
 author: Núria Laura Orbaneja
 slug: marea-pensionista-salvem-les-pensions
 tags:

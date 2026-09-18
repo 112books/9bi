@@ -1,6 +1,7 @@
 ---
 title: LA CULTURA VA DE FESTA 2014
 date: 2014-05-06T22:05:00+0200
+year: 2014
 author: Pedro Click
 slug: la-cultyra-va-de-festa-2014
 tags:

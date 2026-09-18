@@ -1,6 +1,7 @@
 ---
 title: Festival Blues Barcalona 2008 - Master Class
 date: 2008-09-11T10:59:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: festival-blues-barcalona-2008-master
 tags:

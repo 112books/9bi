@@ -1,6 +1,7 @@
 ---
 title: Festes Prospe 2025 -  IV Encierro de Unicornios
 date: 2025-05-27T13:03:00+0200
+year: 2025
 author: Manel Sala "Ulls" Circ
 slug: festes-prospe-2025-iv-encierro-de
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Tallers del Casal de barri de Prosperitat 2011
 date: 2011-06-30T04:10:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: tallers-del-casal-de-barri-de
 tags:

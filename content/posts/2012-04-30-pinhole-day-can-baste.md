@@ -1,6 +1,7 @@
 ---
 title: Pinhole day a Can Basté
 date: 2012-04-30T00:00:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: pinhole-day-can-baste
 tags:

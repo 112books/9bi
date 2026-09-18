@@ -1,6 +1,7 @@
 ---
 title: VI Concurs de maquetes 'ARBUSTO' - Dissabte
 date: 2010-10-17T17:40:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: vi-concurs-de-maquetes-arbusto-dissabte
 tags:

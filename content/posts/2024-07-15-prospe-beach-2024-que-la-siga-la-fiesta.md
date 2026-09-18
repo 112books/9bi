@@ -1,6 +1,7 @@
 ---
 title: PROSPE BEACH 2024... QUE LA SIGA LA FIESTA
 date: 2024-07-15T00:29:00+0200
+year: 2024
 author: Iozsef Kiss
 slug: prospe-beach-2024-que-la-siga-la-fiesta
 tags:

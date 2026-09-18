@@ -1,6 +1,7 @@
 ---
 title: Pasacalles Festa Major Prosperitat
 date: 2011-06-03T19:29:00+0200
+year: 2011
 author: Nico YeYe
 slug: pasacalles-festa-major-prosperitat
 tags:

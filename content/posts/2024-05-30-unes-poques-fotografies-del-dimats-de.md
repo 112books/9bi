@@ -1,6 +1,7 @@
 ---
 title: 2024-05-28 - Festes de Prospe - PlayBack, Ball en línea i Xoriçada
 date: 2024-05-30T14:05:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: unes-poques-fotografies-del-dimats-de
 tags:

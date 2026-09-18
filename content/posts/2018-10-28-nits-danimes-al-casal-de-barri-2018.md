@@ -1,6 +1,7 @@
 ---
 title: Nits D´Animes al casal de barri 2018
 date: 2018-10-28T19:59:00+0100
+year: 2018
 author: Manel Sala "Ulls" Circ
 slug: nits-danimes-al-casal-de-barri-2018
 tags:

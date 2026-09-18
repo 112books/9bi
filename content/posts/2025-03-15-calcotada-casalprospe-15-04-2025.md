@@ -1,6 +1,7 @@
 ---
 title: Calsuprospe - Casalprospe 15-04-2025
 date: 2025-03-15T21:18:00+0100
+year: 2025
 author: Pedro Click
 slug: calcotada-casalprospe-15-04-2025
 tags:

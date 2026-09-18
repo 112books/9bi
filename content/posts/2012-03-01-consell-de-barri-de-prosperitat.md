@@ -1,6 +1,7 @@
 ---
 title: Consell de barri de Prosperitat
 date: 2012-03-01T12:44:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: consell-de-barri-de-prosperitat
 tags:

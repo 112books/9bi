@@ -1,6 +1,7 @@
 ---
 title: Françoise Rochais .. Malabarista .. Teatro Circo de Albacete
 date: 2009-11-20T13:13:00+0100
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: francoise-rochais-malabarista-teatro
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Dia de la música al parc de la Guineueta
 date: 2011-06-20T08:48:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: dia-de-la-musica-al-parc-de-la
 tags:

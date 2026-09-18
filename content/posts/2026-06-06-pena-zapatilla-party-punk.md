@@ -1,6 +1,7 @@
 ---
 title: Peña Zapatilla - Party Punk
 date: 2026-06-06T19:28:23+0200
+year: 2026
 author: Pedro Click
 slug: pena-zapatilla-party-punk
 tags:

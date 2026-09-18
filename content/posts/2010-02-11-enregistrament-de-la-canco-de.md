@@ -1,6 +1,7 @@
 ---
 title: Enregistrament de la canço de carnestoltes del Casal de Barri
 date: 2010-02-11T12:30:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: enregistrament-de-la-canco-de
 tags:

@@ -1,6 +1,7 @@
 ---
 title: PROSPE BEACH DAY & NIGHT
 date: 2019-07-15T18:27:00+0200
+year: 2019
 author: Alberto Sanagustín
 slug: prospe-beach-day-night
 tags:

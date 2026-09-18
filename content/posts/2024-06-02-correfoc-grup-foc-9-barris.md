@@ -1,6 +1,7 @@
 ---
 title: Correfoc-Grup Foc 9 Barris
 date: 2024-06-02T23:42:00+0200
+year: 2024
 author: Ismael Utrilla
 slug: correfoc-grup-foc-9-barris
 tags:

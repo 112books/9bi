@@ -1,6 +1,7 @@
 ---
 title: Carnaval en la Residencia y centro de dia  Porta
 date: 2015-02-18T18:21:00+0100
+year: 2015
 author: 9 Barris Imatge
 slug: carnaval-en-la-residencia-y-centro-de
 tags:

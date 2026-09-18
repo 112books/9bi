@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat 2011 - Dissabte
 date: 2011-05-29T13:19:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-2011-dissabte
 tags:

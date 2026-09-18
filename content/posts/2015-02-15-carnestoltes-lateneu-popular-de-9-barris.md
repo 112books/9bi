@@ -1,6 +1,7 @@
 ---
 title: Carnestoltes a l'Ateneu Popular de 9 Barris
 date: 2015-02-15T11:25:00+0100
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: carnestoltes-lateneu-popular-de-9-barris
 tags:

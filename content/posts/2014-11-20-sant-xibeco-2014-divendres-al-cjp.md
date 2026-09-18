@@ -1,6 +1,7 @@
 ---
 title: Sant Xibeco 2014 - Divendres al CJP
 date: 2014-11-20T00:14:00+0100
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: sant-xibeco-2014-divendres-al-cjp
 tags:

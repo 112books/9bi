@@ -1,6 +1,7 @@
 ---
 title: HABANERAS Y CENA
 date: 2014-06-06T20:51:00+0200
+year: 2014
 author: Pedro Click
 slug: habaneras-y-cena
 cover:

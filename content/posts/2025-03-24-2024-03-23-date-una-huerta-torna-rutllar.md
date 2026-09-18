@@ -1,6 +1,7 @@
 ---
 title: 2024-03-23 - 'Date una huerta' torna a rutllar!
 date: 2025-03-24T10:57:00+0100
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2024-03-23-date-una-huerta-torna-rutllar
 tags:

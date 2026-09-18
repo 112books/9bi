@@ -1,6 +1,7 @@
 ---
 title: ' Festival de Blues de Barcelona 2018'
 date: 2018-07-16T11:17:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: festival-de-blues-de-barcelona-2018_16
 tags:

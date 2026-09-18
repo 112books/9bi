@@ -1,6 +1,7 @@
 ---
 title: Cadena humana a l'Hospital Vall d'Hebron
 date: 2012-06-30T18:26:00+0200
+year: 2012
 author: Pedro "Casal" Cervera
 slug: cadena-humana-lhospital-vall-dhebron
 tags:

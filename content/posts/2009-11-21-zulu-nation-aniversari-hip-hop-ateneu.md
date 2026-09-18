@@ -1,6 +1,7 @@
 ---
 title: Zulu Nation Aniversari Hip Hop. Ateneu Popular de 9 Barris
 date: 2009-11-21T12:56:00+0100
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: zulu-nation-aniversari-hip-hop-ateneu
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 10 Aniversario Improviciados sala Diobar 11-05-2024
 date: 2024-05-12T20:46:00+0200
+year: 2024
 author: Pedro Click
 slug: 10-aniversario-improviciados-sala
 tags:

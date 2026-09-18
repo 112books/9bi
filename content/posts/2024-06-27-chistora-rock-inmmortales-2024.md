@@ -1,6 +1,7 @@
 ---
 title: Chistora Rock - Inmmortales 2024
 date: 2024-06-27T08:04:00+0200
+year: 2024
 author: Iozsef Kiss
 slug: chistora-rock-inmmortales-2024
 tags:

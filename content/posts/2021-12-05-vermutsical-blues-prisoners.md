@@ -1,6 +1,7 @@
 ---
 title: 'Vermutsical: The Blues Prisoners'
 date: 2021-12-05T08:01:00+0100
+year: 2021
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-blues-prisoners
 tags:

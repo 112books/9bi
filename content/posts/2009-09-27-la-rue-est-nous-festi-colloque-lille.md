@@ -1,6 +1,7 @@
 ---
 title: La Rue Est Nous! Festi Colloque (Lille 2009)
 date: 2009-09-27T22:53:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: la-rue-est-nous-festi-colloque-lille
 tags:

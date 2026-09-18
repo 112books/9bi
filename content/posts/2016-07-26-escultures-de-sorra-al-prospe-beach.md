@@ -1,6 +1,7 @@
 ---
 title: Escultures de sorra al Prospe Beach - Vicente 'Art
 date: 2016-07-26T11:52:00+0200
+year: 2016
 author: Pedro "Casal" Cervera
 slug: escultures-de-sorra-al-prospe-beach
 tags:

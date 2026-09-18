@@ -1,6 +1,7 @@
 ---
 title: Prospe Beach '17 .Barbacoas al Poder
 date: 2017-07-11T19:47:00+0200
+year: 2017
 author: Ismael Utrilla
 slug: prospe-beach-17-barbacoas-al-poder
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Petita Feina per a Pallasso Vell . Sala Muntaner . Barcelona
 date: 2010-02-01T16:20:00+0100
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: petita-feina-per-pallasso-vell-sala
 tags:

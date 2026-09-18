@@ -1,6 +1,7 @@
 ---
 title: 2024-09-25 - Assemblea veïnal iIdeal Plasitca Flor
 date: 2024-09-26T11:14:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-09-25-assemblea-veinal-iideal
 tags:

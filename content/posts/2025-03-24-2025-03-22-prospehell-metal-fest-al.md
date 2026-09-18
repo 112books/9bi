@@ -1,6 +1,7 @@
 ---
 title: 2025-03-22 - Prospehell Metal Fest al Casal de Joves de Prosperitat
 date: 2025-03-24T10:02:00+0100
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-03-22-prospehell-metal-fest-al
 tags:

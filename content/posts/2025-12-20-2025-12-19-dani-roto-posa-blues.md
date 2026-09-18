@@ -1,6 +1,7 @@
 ---
 title: 2025-12-19 – Dani Roto posa blues a l’entrega de premis del 35è Concurs Cordoncillo
 date: 2025-12-20T12:45:00+0100
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-12-19-dani-roto-posa-blues
 tags:

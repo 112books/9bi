@@ -1,6 +1,7 @@
 ---
 title: PROSPE FESTA GENT GRAN
 date: 2009-06-15T11:44:00+0200
+year: 2009
 author: Pedro Click
 slug: festa-gran
 tags:

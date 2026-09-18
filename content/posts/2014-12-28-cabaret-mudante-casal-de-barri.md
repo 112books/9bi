@@ -1,6 +1,7 @@
 ---
 title: ' "Cabaret Mudante" Casal de Barri Prosperitat '
 date: 2014-12-28T22:01:00+0100
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: cabaret-mudante-casal-de-barri
 tags:

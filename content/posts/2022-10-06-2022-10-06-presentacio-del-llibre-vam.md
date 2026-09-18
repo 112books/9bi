@@ -1,6 +1,7 @@
 ---
 title: 2022-10-06 - Presentació del llibre "Vam ser, som i seguirem sent feministes"
 date: 2022-10-06T23:59:00+0200
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: 2022-10-06-presentacio-del-llibre-vam
 tags:

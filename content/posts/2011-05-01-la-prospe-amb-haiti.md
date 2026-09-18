@@ -1,6 +1,7 @@
 ---
 title: La Prospe amb Haití
 date: 2011-05-01T17:40:00+0200
+year: 2011
 author: Manel Sala "Ulls" Circ
 slug: la-prospe-amb-haiti
 tags:

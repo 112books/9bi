@@ -1,6 +1,7 @@
 ---
 title: Bratia al Casal de barri de Prosperitat
 date: 2021-12-18T10:31:00+0100
+year: 2021
 author: Joan "Linux" Martínez i Serres
 slug: bratia-al-casal-de-barri-de-prosperitat
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat, Divendres - Karaoke + Prospe Oasis
 date: 2009-06-06T17:45:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-divendres-karaoke
 tags:

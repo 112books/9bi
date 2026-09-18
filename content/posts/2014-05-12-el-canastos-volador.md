@@ -1,6 +1,7 @@
 ---
 title: ' FIESTA DE EL CANASTOS VOLADOR'
 date: 2014-05-12T13:50:00+0200
+year: 2014
 author: Pedro Click
 slug: el-canastos-volador
 tags:

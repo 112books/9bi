@@ -1,6 +1,7 @@
 ---
 title: Manifestació pel dret a l'habitatge
 date: 2011-09-26T17:47:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: manifestacio-pel-dret-lhabitatge
 tags:

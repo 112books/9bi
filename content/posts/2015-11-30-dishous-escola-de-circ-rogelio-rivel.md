@@ -1,6 +1,7 @@
 ---
 title: Dishous – Escola de circ Rogelio Rivel
 date: 2015-11-30T08:23:00+0100
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: dishous-escola-de-circ-rogelio-rivel
 tags:

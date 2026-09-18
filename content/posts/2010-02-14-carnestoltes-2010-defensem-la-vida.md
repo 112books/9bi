@@ -1,6 +1,7 @@
 ---
 title: CARNESTOLTES 2010 . DEFENSEM la VIDA ASSOCIATIVA a NOU BARRIS   . PROU !!
 date: 2010-02-14T14:53:00+0100
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: carnestoltes-2010-defensem-la-vida
 tags:

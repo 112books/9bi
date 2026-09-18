@@ -1,6 +1,7 @@
 ---
 title: 47a Festa Major de Prosperitat - 24-05-2025
 date: 2025-05-26T11:19:00+0200
+year: 2025
 author: Manel Sala "Ulls" Circ
 slug: 47a-festa-major-de-prosperitat-24-05
 tags:

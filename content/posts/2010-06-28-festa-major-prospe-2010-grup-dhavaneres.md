@@ -1,6 +1,7 @@
 ---
 title: Festa  Major Prospe 2010. Grup d'Havaneres Montjuic
 date: 2010-06-28T10:53:00+0200
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: festa-major-prospe-2010-grup-dhavaneres
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Flamenco de Barrio 2016
 date: 2016-10-16T08:39:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: flamenco-de-barrio-2016
 tags:

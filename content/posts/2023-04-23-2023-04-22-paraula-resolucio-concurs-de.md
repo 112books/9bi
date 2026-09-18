@@ -2,6 +2,7 @@
 title: '2023-04-22 - Paraula: Resolució concurs de microrelats i poesia curta + monòleg
   de Santi Calleja al Casal de barri de Prosperitat'
 date: 2023-04-23T09:54:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-04-22-paraula-resolucio-concurs-de
 tags:

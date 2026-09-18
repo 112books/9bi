@@ -1,6 +1,7 @@
 ---
 title: Barcelona desde el mar 11-01-2009
 date: 2009-01-26T19:29:00+0100
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: barcelona-desde-el-mar-11-01-2009_26
 tags:

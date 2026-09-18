@@ -1,6 +1,7 @@
 ---
 title: 2a cadena humana en defensa Hospital Vall Hebron
 date: 2013-06-15T18:43:00+0200
+year: 2013
 author: Pedro "Casal" Cervera
 slug: 2a-cadena-humana-en-defensa-hospital
 tags:

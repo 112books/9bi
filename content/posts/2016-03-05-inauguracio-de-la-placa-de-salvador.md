@@ -1,6 +1,7 @@
 ---
 title: Inauguració de la Plaça de Salvador Puig Antich
 date: 2016-03-05T17:24:00+0100
+year: 2016
 author: Alberto Sanagustín
 slug: inauguracio-de-la-placa-de-salvador
 cover:

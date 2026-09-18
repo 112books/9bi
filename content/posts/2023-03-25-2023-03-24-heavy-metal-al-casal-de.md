@@ -1,6 +1,7 @@
 ---
 title: 2023-03-24 - Heavy Metal - Al Casal de joves de Prosperitat
 date: 2023-03-25T00:29:00+0100
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-03-24-heavy-metal-al-casal-de
 tags:

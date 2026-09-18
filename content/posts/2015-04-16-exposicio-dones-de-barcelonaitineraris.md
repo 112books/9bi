@@ -1,6 +1,7 @@
 ---
 title: 'EXPOSICIÓ : "DONES DE BARCELONA. ITINERARIS HISTÒRICS."'
 date: 2015-04-16T21:01:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: exposicio-dones-de-barcelonaitineraris
 tags:

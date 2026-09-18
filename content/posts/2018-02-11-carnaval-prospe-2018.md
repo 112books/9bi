@@ -1,6 +1,7 @@
 ---
 title: CARNAVAL PROSPE 2018
 date: 2018-02-11T23:24:00+0100
+year: 2018
 author: Pedro Click
 slug: carnaval-prospe-2018
 tags:

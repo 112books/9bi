@@ -1,6 +1,7 @@
 ---
 title: inici prospe beach i 2x2
 date: 2008-07-08T00:28:00+0200
+year: 2008
 author: Pedro "Casal" Cervera
 slug: inici-prospe-beach-i-2x2
 tags:

@@ -1,6 +1,7 @@
 ---
 title: LLIBRES I ROSES A NOU BARRIS .
 date: 2015-04-24T01:09:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: llibres-i-roses-nou-barris
 tags:

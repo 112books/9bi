@@ -1,6 +1,7 @@
 ---
 title: 8è Festival de Blues de Barcelona - Big Dani Pérez R&B Band
 date: 2010-09-22T02:16:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: 8e-festival-de-blues-de-barcelona-big
 tags:

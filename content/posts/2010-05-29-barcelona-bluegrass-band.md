@@ -1,6 +1,7 @@
 ---
 title: Barcelona Bluegrass Band
 date: 2010-05-29T20:58:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: barcelona-bluegrass-band
 tags:

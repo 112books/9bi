@@ -1,6 +1,7 @@
 ---
 title: Biciosos - Taller de bicis a Verdum
 date: 2009-05-09T11:47:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: biciosos-taller-de-bicis-verdum
 tags:

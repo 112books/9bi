@@ -1,6 +1,7 @@
 ---
 title: 13 FESTIVAL DE SOPAS DEL MON,Nou Barris
 date: 2016-03-14T12:42:00+0100
+year: 2016
 author: Pedro Click
 slug: 13-festival-de-sopas-del-monnou-barris
 tags:

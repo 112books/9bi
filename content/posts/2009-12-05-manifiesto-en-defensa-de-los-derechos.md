@@ -1,6 +1,7 @@
 ---
 title: Manifiesto "En defensa de los derechos fundamentales en internet"
 date: 2009-12-05T13:12:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: manifiesto-en-defensa-de-los-derechos
 tags:

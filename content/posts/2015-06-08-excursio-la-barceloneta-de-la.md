@@ -1,6 +1,7 @@
 ---
 title: EXCURSIÓ A LA  BARCELONETA DE LA RESIDÈNCIA PORTA
 date: 2015-06-08T13:27:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: excursio-la-barceloneta-de-la
 cover:

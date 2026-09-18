@@ -1,6 +1,7 @@
 ---
 title: Concert dels Red Drum i Fosforo's al Casal de Barri de Prosperitat
 date: 2008-04-06T12:54:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: concert-dels-red-drum-i-fsforos-al
 tags:

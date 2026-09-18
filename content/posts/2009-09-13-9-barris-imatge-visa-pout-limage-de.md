@@ -1,6 +1,7 @@
 ---
 title: 9 Barris Imatge a VISA Pout l'Image de Perpinyà
 date: 2009-09-13T07:20:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: 9-barris-imatge-visa-pout-limage-de
 tags:

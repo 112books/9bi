@@ -1,6 +1,7 @@
 ---
 title: Titellada a Roquetes.
 date: 2019-09-18T01:08:00+0200
+year: 2019
 author: 9 Barris Imatge
 slug: titellada-roquetes
 tags:

@@ -1,6 +1,7 @@
 ---
 title: '2026-05-30 – Festes de la Prosperitat: Cercavila'
 date: 2026-05-31T01:32:57+0200
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: 2026-05-30-festes-de-la-prosperitat
 tags:

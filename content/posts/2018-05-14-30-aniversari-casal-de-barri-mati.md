@@ -1,6 +1,7 @@
 ---
 title: 30 Aniversari Casal de barri - Matí
 date: 2018-05-14T22:09:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: 30-aniversari-casal-de-barri-mati
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Habaneras Carrer Flordeneu  y el cantante Tavo Renzi by Nico
 date: 2017-05-29T09:53:00+0200
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: habaneras-carrer-flordeneu-y-el
 tags:

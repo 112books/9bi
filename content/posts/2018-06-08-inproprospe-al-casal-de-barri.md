@@ -1,6 +1,7 @@
 ---
 title: InproProspe al Casal de barri
 date: 2018-06-08T18:50:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: inproprospe-al-casal-de-barri
 tags:

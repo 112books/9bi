@@ -1,6 +1,7 @@
 ---
 title: '"Normal" 6 de marzo ultimo paseo 2020'
 date: 2020-05-30T14:10:00+0200
+year: 2020
 author: Pedro Click
 slug: normal-6-de-marzo-ultimo-paseo-2020
 tags:

@@ -2,6 +2,7 @@
 title: Festes de Prospe - dissabte 7, Sopar Puretes + Rato Bueno i Dj. Perlita de
   la Trini
 date: 2008-06-14T07:49:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: dissabte-7-sopar-puretes-rato-bueno-i
 tags:

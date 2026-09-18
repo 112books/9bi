@@ -1,6 +1,7 @@
 ---
 title: Carnestoltes Nou Barris 2015
 date: 2015-02-15T17:25:00+0100
+year: 2015
 author: 9 Barris Imatge
 slug: carnestoltes-nou-barris-2015
 tags:

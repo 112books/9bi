@@ -1,6 +1,7 @@
 ---
 title: Dijous gras " pirata "  al TiG .
 date: 2016-02-06T01:44:00+0100
+year: 2016
 author: 9 Barris Imatge
 slug: dijous-gras-pirata-al-tig
 tags:

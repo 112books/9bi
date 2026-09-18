@@ -1,6 +1,7 @@
 ---
 title: ' XXI del Festival de Blues de Barcelona 08/09/2023. ("Betta & The Groovers") '
 date: 2023-07-09T22:46:00+0200
+year: 2023
 author: Pedro Click
 slug: xxi-del-festival-de-blues-de-barcelona
 tags:

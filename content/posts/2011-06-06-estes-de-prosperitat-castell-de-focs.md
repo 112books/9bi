@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat - Castell de focs
 date: 2011-06-06T02:11:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: estes-de-prosperitat-castell-de-focs
 tags:

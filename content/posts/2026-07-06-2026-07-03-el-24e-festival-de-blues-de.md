@@ -2,6 +2,7 @@
 title: 2026-07-03 – El 24è Festival de Blues de Barcelona arrenca amb força a Nou
   Barris
 date: 2026-07-06T07:45:35+0200
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: 2026-07-03-el-24e-festival-de-blues-de
 tags:

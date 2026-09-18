@@ -2,6 +2,7 @@
 title: ALWAYS DRINKING PRODUCTIONS presenta CABARET QUINA BARRA . LA VELA . VILANOVA
   i la GELTRÚ
 date: 2010-01-05T14:33:00+0100
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: always-drinking-productions-presenta
 tags:

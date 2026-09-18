@@ -1,6 +1,7 @@
 ---
 title: ANY NOU XINES (PORC)
 date: 2019-01-27T13:25:00+0100
+year: 2019
 author: Pedro Click
 slug: any-nou-xines-porc
 tags:

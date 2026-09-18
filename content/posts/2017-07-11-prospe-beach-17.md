@@ -1,6 +1,7 @@
 ---
 title: Prospe Beach '17
 date: 2017-07-11T09:46:00+0200
+year: 2017
 author: 9 Barris Imatge
 slug: prospe-beach-17
 tags:

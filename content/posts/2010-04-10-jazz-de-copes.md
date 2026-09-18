@@ -1,6 +1,7 @@
 ---
 title: Jazz de Copes
 date: 2010-04-10T21:03:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: jazz-de-copes
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Concert solidari de Pigme@ Revoltos@s i Cia. “Escola lliure i pública
 date: 2010-03-09T01:00:00+0100
+year: 2010
 author: 9 Barris Imatge
 slug: concert-solidari-de-pigme-revoltoss-i_08
 tags:

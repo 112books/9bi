@@ -1,6 +1,7 @@
 ---
 title: Les Nits de Capibloa; Edu Manazas & Whiskey Tren
 date: 2009-06-13T20:50:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: les-nits-de-capibloa-edu-manazas
 tags:

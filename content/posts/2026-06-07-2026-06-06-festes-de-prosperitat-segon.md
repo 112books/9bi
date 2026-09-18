@@ -2,6 +2,7 @@
 title: 2026-06-06 – Festes de Prosperitat – Segon Dissabte – Agua Bendita + Orquestes
   Ángel Pestaña
 date: 2026-06-07T12:19:19+0200
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: 2026-06-06-festes-de-prosperitat-segon
 tags:

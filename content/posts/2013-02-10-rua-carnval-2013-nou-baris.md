@@ -1,6 +1,7 @@
 ---
 title: Rua Carnaval 2013 (Nou Barris)
 date: 2013-02-10T01:07:00+0100
+year: 2013
 author: 9 Barris Imatge
 slug: rua-carnval-2013-nou-baris
 tags:

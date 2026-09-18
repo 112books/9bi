@@ -1,6 +1,7 @@
 ---
 title: Tancament al CAP Guineueta
 date: 2012-01-18T01:29:00+0100
+year: 2012
 author: Pedro "Casal" Cervera
 slug: tancament-al-cap-guineueta
 tags:

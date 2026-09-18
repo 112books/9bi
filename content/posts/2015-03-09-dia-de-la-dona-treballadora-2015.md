@@ -1,6 +1,7 @@
 ---
 title: Dia de la dona treballadora 2015
 date: 2015-03-09T07:41:00+0100
+year: 2015
 author: 9 Barris Imatge
 slug: dia-de-la-dona-treballadora-2015
 tags:

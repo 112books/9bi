@@ -2,6 +2,7 @@
 title: 2026-07-04 –El 24è Festival de Blues de Barcelona tanca una gran edició amb
   una segona jornada de luxe
 date: 2026-07-06T09:12:29+0200
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: 2026-07-04-el-24e-festival-de-blues-de
 tags:

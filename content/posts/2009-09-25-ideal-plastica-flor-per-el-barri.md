@@ -1,6 +1,7 @@
 ---
 title: IDEAL PLÀSTICA FLOR PER EL BARRI
 date: 2009-09-25T12:35:00+0200
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: ideal-plastica-flor-per-el-barri
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 18-10-2019 - Democràcia - Barcelona
 date: 2019-10-19T10:58:00+0200
+year: 2019
 author: Manel Sala "Ulls" Circ
 slug: 18-10-2019-democracia-barcelona
 tags:

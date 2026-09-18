@@ -1,6 +1,7 @@
 ---
 title: Final de curs del Poliesoprtiu Valldaura i reciperació de la gesió!
 date: 2012-06-11T00:06:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: final-de-curs-del-poliesoprtiu
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Caborian.com; Pàgina Interessant!
 date: 2008-04-02T10:30:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: caboriancom-pgina-interessant
 tags:

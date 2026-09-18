@@ -1,6 +1,7 @@
 ---
 title: Nou Barris Meets New Orleans
 date: 2022-05-21T23:58:00+0200
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: nou-barris-meets-new-orleans
 tags:

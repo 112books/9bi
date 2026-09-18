@@ -1,6 +1,7 @@
 ---
 title: '"Guarir" de les Avies Remeieres de la Garrotxa.'
 date: 2016-04-29T00:27:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: guarir-de-les-avies-remeieres-de-la
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Cadena Humana per la Sanitat Pública a la Vall d'Hebrón
 date: 2012-06-30T17:16:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: cadena-humana-per-la-sanitat-publica-la
 tags:

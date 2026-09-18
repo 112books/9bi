@@ -1,6 +1,7 @@
 ---
 title: Rosa Sánchez Quinteto
 date: 2014-03-08T02:16:00+0100
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: rosa-sanchez-quinteto
 cover:

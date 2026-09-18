@@ -1,6 +1,7 @@
 ---
 title: Chistorra Rock 2014. Festes Prosperitat
 date: 2014-05-29T01:49:00+0200
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: chistorra-rock-2014-festes-prosperitat
 tags:

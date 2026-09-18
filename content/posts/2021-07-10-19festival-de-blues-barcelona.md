@@ -1,6 +1,7 @@
 ---
 title: 19FESTIVAL DE BLUES BARCELONA
 date: 2021-07-10T10:22:00+0200
+year: 2021
 author: Pedro Click
 slug: 19festival-de-blues-barcelona
 tags:

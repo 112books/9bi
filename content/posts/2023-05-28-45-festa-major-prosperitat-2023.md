@@ -1,6 +1,7 @@
 ---
 title: '45 Festa Major Prosperitat 2023 '
 date: 2023-05-28T11:54:00+0200
+year: 2023
 author: Manel Sala "Ulls" Circ
 slug: 45-festa-major-prosperitat-2023
 tags:

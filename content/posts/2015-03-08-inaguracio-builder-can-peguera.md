@@ -1,6 +1,7 @@
 ---
 title: Inauguració Boulder Can Peguera
 date: 2015-03-08T21:25:00+0100
+year: 2015
 author: 9 Barris Imatge
 slug: inaguracio-builder-can-peguera
 tags:

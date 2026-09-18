@@ -1,6 +1,7 @@
 ---
 title: 2024-04-11 - Exposició - Tots els colors! Arbres florits de la Prosperitat
 date: 2024-04-12T10:39:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-04-11-exposicio-tots-els-colors
 tags:

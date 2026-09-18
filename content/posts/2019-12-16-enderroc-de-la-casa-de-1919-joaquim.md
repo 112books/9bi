@@ -1,6 +1,7 @@
 ---
 title: Enderroc de la casa de 1919 a Joaquim Valls, 49. La Prosperitat
 date: 2019-12-16T16:43:00+0100
+year: 2019
 author: Alberto Sanagustín
 slug: enderroc-de-la-casa-de-1919-joaquim
 tags:

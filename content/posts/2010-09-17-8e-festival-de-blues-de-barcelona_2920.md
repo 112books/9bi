@@ -1,6 +1,7 @@
 ---
 title: 8è Festival de Blues de Barcelona - MasterClass de James Harman amb Pere Puertas
 date: 2010-09-17T16:32:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: 8e-festival-de-blues-de-barcelona_2920
 tags:

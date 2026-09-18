@@ -1,6 +1,7 @@
 ---
 title: Presentació de la revista nº 75 de "L'Arxiu".
 date: 2018-12-23T18:53:00+0100
+year: 2018
 author: 9 Barris Imatge
 slug: presentacio-de-la-revista-n-75-de-larxiu
 tags:

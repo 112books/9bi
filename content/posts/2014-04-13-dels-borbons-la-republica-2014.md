@@ -1,6 +1,7 @@
 ---
 title: Dels Borbons a la República 2014
 date: 2014-04-13T16:47:00+0200
+year: 2014
 author: 9 Barris Imatge
 slug: dels-borbons-la-republica-2014
 tags:

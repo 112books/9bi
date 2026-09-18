@@ -1,6 +1,7 @@
 ---
 title: La veu d'Àfrica 'Gnawa'
 date: 2009-06-27T13:12:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: la-veu-dafrica-gnawa
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Presentació diari de festes, comencen les festes de Prospe 2013!!
 date: 2013-05-18T23:07:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-diari-de-festes-comencen
 tags:

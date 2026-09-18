@@ -1,6 +1,7 @@
 ---
 title: Festa Major de la Prosperitat 2019
 date: 2019-05-27T15:22:00+0200
+year: 2019
 author: Manel Sala "Ulls" Circ
 slug: festa-major-de-la-prosperitat-2019
 tags:

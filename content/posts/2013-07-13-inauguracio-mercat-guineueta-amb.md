@@ -1,6 +1,7 @@
 ---
 title: 'Inauguració Mercat Guineueta amb protestes veïnals '
 date: 2013-07-13T21:06:00+0200
+year: 2013
 author: Pedro "Casal" Cervera
 slug: inauguracio-mercat-guineueta-amb
 tags:

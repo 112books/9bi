@@ -1,6 +1,7 @@
 ---
 title: Herederos del Taxi. Gira Todo Tiene un final...
 date: 2019-05-27T15:15:00+0200
+year: 2019
 author: Ismael Utrilla
 slug: herederos-del-taxi-gira-todo-tiene-un
 tags:

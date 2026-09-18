@@ -1,6 +1,7 @@
 ---
 title: '"La Prosperitat: arrels històriques". Presentació del llibre'
 date: 2020-10-18T23:02:00+0200
+year: 2020
 author: Alberto Sanagustín
 slug: la-prosperitat-arrels-historiques
 tags:

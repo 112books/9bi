@@ -1,6 +1,7 @@
 ---
 title: En JOAN COLOM, un bon mestre de la fotografía !!!
 date: 2014-05-24T00:26:00+0200
+year: 2014
 author: 9 Barris Imatge
 slug: joan-colom-un-bon-mestre-de-la
 tags:

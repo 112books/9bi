@@ -1,6 +1,7 @@
 ---
 title: Trinkealmuerzo.Penya Tetrinké
 date: 2025-05-25T11:45:00+0200
+year: 2025
 author: Ismael Utrilla
 slug: trinkealmuerzopenya-tetrinke
 tags:

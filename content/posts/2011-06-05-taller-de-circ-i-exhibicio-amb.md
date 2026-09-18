@@ -1,6 +1,7 @@
 ---
 title: Taller de Circ i Exhibicio amb Desastrosus Circus
 date: 2011-06-05T17:27:00+0200
+year: 2011
 author: Nico YeYe
 slug: taller-de-circ-i-exhibicio-amb
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Guanyadores del 35è Concurs de Fotografia Josep Antón Cordoncillo 2025
 date: 2025-12-20T20:51:00+0100
+year: 2025
 author: Pedro Click
 slug: 35e-concurs-de-fotografia-josep-anton
 tags:

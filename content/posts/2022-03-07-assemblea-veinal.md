@@ -1,6 +1,7 @@
 ---
 title: Assemblea VeÏnal
 date: 2022-03-07T14:33:00+0100
+year: 2022
 author: Iozsef Kiss
 slug: assemblea-veinal
 tags:

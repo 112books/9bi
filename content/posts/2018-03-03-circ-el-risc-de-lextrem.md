@@ -1,6 +1,7 @@
 ---
 title: ' Circ: El risc de l´extrem'
 date: 2018-03-03T11:25:00+0100
+year: 2018
 author: Manel Sala "Ulls" Circ
 slug: circ-el-risc-de-lextrem
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Tallers de Circ de l'Ateneu Popular 9Barris.
 date: 2016-09-14T00:52:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: tallers-de-circ-de-lateneu-popular
 cover:

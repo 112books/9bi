@@ -1,6 +1,7 @@
 ---
 title: Catalunya si que es pot. Acte Central a Nou Barris
 date: 2015-09-21T23:28:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: catalunya-si-que-es-pot-acte-central
 tags:

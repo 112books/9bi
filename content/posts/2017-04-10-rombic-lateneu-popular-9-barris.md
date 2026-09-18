@@ -1,6 +1,7 @@
 ---
 title: Ròmbic a l'Ateneu Popular 9 Barris
 date: 2017-04-10T00:38:00+0200
+year: 2017
 author: 9 Barris Imatge
 slug: rombic-lateneu-popular-9-barris
 tags:

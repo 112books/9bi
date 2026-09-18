@@ -1,6 +1,7 @@
 ---
 title: VII Festival de Blues de Barcelona - Vermut de Blues
 date: 2009-09-14T03:22:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: vii-festival-de-blues-de-barcelona
 tags:

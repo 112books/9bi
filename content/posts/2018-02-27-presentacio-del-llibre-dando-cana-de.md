@@ -2,6 +2,7 @@
 title: 'Presentació del Llibre ¡Dando caña! de Pedro Pico, Pico Vena. A càrrec de:
   Azagra & Revuelta'
 date: 2018-02-27T06:03:00+0100
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-del-llibre-dando-cana-de
 tags:

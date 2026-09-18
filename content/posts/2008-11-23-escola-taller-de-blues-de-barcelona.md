@@ -1,6 +1,7 @@
 ---
 title: Escola Taller de Blues de Barcelona - Concert al Honky Tonk Bar
 date: 2008-11-23T22:07:00+0100
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: escola-taller-de-blues-de-barcelona
 tags:

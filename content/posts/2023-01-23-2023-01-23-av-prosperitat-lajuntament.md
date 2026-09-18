@@ -2,6 +2,7 @@
 title: 2023-01-23- AV Prosperitat - L'Ajuntament ve a explicar les obres del carrer
   d’Arítjols
 date: 2023-01-23T21:33:00+0100
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-01-23-av-prosperitat-lajuntament
 tags:

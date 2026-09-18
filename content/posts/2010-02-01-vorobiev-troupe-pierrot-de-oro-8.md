@@ -2,6 +2,7 @@
 title: Vorobiev Troupe . Pierrot de Oro . 8º Festival Internacional de Circ de Budapest
   2010
 date: 2010-02-01T16:25:00+0100
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: vorobiev-troupe-pierrot-de-oro-8
 tags:

@@ -1,6 +1,7 @@
 ---
 title: POESIA ENTRERREJAS ALS DIVENDRES DEL TON I GUIDA !!!
 date: 2015-01-28T00:58:00+0100
+year: 2015
 author: 9 Barris Imatge
 slug: poesia-entrerrejas-als-divendres-del
 tags:

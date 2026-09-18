@@ -1,6 +1,7 @@
 ---
 title: CASAL ES MOSTRA 2021
 date: 2021-06-19T19:39:00+0200
+year: 2021
 author: Pedro Click
 slug: casal-es-mostra-2021
 tags:

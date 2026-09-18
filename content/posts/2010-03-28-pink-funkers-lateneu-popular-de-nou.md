@@ -1,6 +1,7 @@
 ---
 title: Pink Funkers a l'Ateneu Popular de Nou Barris
 date: 2010-03-28T23:40:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: pink-funkers-lateneu-popular-de-nou
 tags:

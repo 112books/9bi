@@ -1,6 +1,7 @@
 ---
 title: 12è Festival de Sopes del Món Mundial. 2015
 date: 2015-03-23T13:59:00+0100
+year: 2015
 author: Manel Sala "Ulls" Circ
 slug: 12e-festival-de-sopes-del-mon-mundial
 tags:

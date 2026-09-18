@@ -1,6 +1,7 @@
 ---
 title: 2024-11-15 – Sant Xibeco – El Persianas & Los influencers muertos
 date: 2024-11-16T09:44:00+0100
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-11-15-sant-xibeco-el-persianas-los
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 10è Aniversari de l'Associació Titellaire de Roquetes !!!
 date: 2015-09-19T22:46:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: 10e-aniversari-de-lassociacio
 tags:

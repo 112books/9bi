@@ -1,6 +1,7 @@
 ---
 title: 2024-06-08 - Cadena humana per reclamar la unió del metro per les Trinitats
 date: 2024-06-08T15:59:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-06-08-cadena-humana-per-reclamar
 tags:

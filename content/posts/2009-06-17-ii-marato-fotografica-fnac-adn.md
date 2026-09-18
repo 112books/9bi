@@ -1,6 +1,7 @@
 ---
 title: II Marató Fotogràfica Fnac-ADN
 date: 2009-06-17T09:00:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: ii-marato-fotografica-fnac-adn
 tags:

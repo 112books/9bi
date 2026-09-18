@@ -1,6 +1,7 @@
 ---
 title: MARIO ORTIZ presentación de su libro "EL ECO DE MIS PASOS"
 date: 2014-04-26T11:14:00+0200
+year: 2014
 author: Pedro Click
 slug: mario-ortiz-presentacion-de-su-libro-el
 tags:

@@ -2,6 +2,7 @@
 title: Yana Serdyukova. Rússia. Festival Internacional del Circ Ciutat de Figueres
   2013
 date: 2014-01-21T15:35:00+0100
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: yana-serdyukova-russia-festival
 tags:

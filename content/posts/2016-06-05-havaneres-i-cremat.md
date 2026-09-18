@@ -1,6 +1,7 @@
 ---
 title: Havaneres i Cremat
 date: 2016-06-05T16:39:00+0200
+year: 2016
 author: Alberto Sanagustín
 slug: havaneres-i-cremat
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Nou Barris New Orleans
 date: 2021-06-11T18:15:00+0200
+year: 2021
 author: Francesc Barbe
 slug: nou-barris-new-orleans
 tags:

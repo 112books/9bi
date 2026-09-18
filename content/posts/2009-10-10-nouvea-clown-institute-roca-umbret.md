@@ -1,6 +1,7 @@
 ---
 title: THE NOUVEAU CLOWN INSTITUTE . ROCA UMBRET FÀBRICA DE LES ARTS GRANOLLERS
 date: 2009-10-10T16:38:00+0200
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: nouvea-clown-institute-roca-umbret
 tags:

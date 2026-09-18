@@ -1,6 +1,7 @@
 ---
 title: Festival de blues
 date: 2009-09-22T12:20:00+0200
+year: 2009
 author: Pedro Click
 slug: festival-de-blues
 tags:

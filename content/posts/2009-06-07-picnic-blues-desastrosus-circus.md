@@ -1,6 +1,7 @@
 ---
 title: Picnic & Blues + Desastrosus circus
 date: 2009-06-07T16:42:00+0200
+year: 2009
 author: Nico YeYe
 slug: picnic-blues-desastrosus-circus
 tags:

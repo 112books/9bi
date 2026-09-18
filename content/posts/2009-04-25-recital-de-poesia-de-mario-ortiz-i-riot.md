@@ -2,6 +2,7 @@
 title: 'Recital de poesía de Mario Ortíz i Riot Über Alles.. Presentació del llibre:
   “RUIDO DE FONDO” de Mario Ortíz'
 date: 2009-04-25T18:56:00+0200
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: recital-de-poesia-de-mario-ortiz-i-riot
 tags:

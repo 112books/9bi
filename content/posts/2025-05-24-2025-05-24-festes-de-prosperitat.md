@@ -2,6 +2,7 @@
 title: 2025-05-24 - Festes de Prosperitat - Campanades, Xupinàs, Cercavila i Sardinada
   popular
 date: 2025-05-24T14:58:00+0200
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-05-24-festes-de-prosperitat
 tags:

@@ -1,6 +1,7 @@
 ---
 title: '32ª edició del concurs de forografia "Josep Antón Cordoncillo" '
 date: 2022-10-05T19:15:00+0200
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: 32-edicio-del-concurs-de-forografia
 tags:

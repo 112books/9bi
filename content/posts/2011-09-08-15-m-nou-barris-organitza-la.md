@@ -1,6 +1,7 @@
 ---
 title: 15-M Nou Barris organitza la Universitat Indignada
 date: 2011-09-08T00:06:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: 15-m-nou-barris-organitza-la
 tags:

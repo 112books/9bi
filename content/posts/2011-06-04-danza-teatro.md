@@ -1,6 +1,7 @@
 ---
 title: danza teatro
 date: 2011-06-04T01:03:00+0200
+year: 2011
 author: Pedro Click
 slug: danza-teatro
 tags:

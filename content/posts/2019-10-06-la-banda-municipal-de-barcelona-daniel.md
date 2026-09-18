@@ -1,6 +1,7 @@
 ---
 title: La Banda Municipal de Barcelona - Daniel Cortizo Peruch
 date: 2019-10-06T11:06:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: la-banda-municipal-de-barcelona-daniel
 tags:

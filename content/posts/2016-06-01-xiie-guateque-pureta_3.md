@@ -1,6 +1,7 @@
 ---
 title: XIIè. Guateque Pureta
 date: 2016-06-01T18:48:00+0200
+year: 2016
 author: Alberto Sanagustín
 slug: xiie-guateque-pureta_3
 tags:

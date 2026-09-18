@@ -1,6 +1,7 @@
 ---
 title: Festes de Prospe - Xistorra rock
 date: 2010-06-01T08:44:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe-xistorra-rock
 tags:

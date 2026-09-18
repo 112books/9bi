@@ -1,6 +1,7 @@
 ---
 title: PERIODICO DE FIESTAS 2017
 date: 2017-05-21T11:09:00+0200
+year: 2017
 author: Pedro Click
 slug: periodico-de-fiestas-2017
 tags:

@@ -1,6 +1,7 @@
 ---
 title: En defensa de la Sanitat Publica
 date: 2011-04-01T21:04:00+0200
+year: 2011
 author: Pedro "Casal" Cervera
 slug: en-defensa-de-la-sanitat-publica
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Pasacalles Festa major 2015
 date: 2015-05-31T13:35:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: pasacalles-festa-major-2015
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Fira d'abril a Prosperitat - dissabte a Ángel Pestaña
 date: 2011-04-09T17:01:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: fira-dabril-prosperitat-dissabte-angel
 tags:

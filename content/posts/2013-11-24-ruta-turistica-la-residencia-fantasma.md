@@ -1,6 +1,7 @@
 ---
 title: RUTA TURÍSTICA A  LA RESIDÈNCIA FANTASMA
 date: 2013-11-24T16:01:00+0100
+year: 2013
 author: Alberto Sanagustín
 slug: ruta-turistica-la-residencia-fantasma
 tags:

@@ -1,6 +1,7 @@
 ---
 title: '2025-02-08 - Pangea: Hardcore Melòdic de Proximitat al Casal de Joves de Prosperitat'
 date: 2025-02-09T01:03:00+0100
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-02-08-pangea-hardcore-melodic-de
 tags:

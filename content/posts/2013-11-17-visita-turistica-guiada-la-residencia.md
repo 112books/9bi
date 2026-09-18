@@ -1,6 +1,7 @@
 ---
 title: Visita turistica guiada a la residència fantasma del carrer Molí
 date: 2013-11-17T22:27:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: visita-turistica-guiada-la-residencia
 tags:

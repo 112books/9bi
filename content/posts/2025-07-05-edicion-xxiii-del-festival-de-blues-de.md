@@ -1,6 +1,7 @@
 ---
 title: Edición XXIII del Festival de Blues de Barcelona 29025
 date: 2025-07-05T18:51:00+0200
+year: 2025
 author: Pedro Click
 slug: edicion-xxiii-del-festival-de-blues-de
 tags:

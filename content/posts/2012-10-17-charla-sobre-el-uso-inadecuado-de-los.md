@@ -1,6 +1,7 @@
 ---
 title: Charla sobre el uso inadecuado de los medicamentos
 date: 2012-10-17T22:59:00+0200
+year: 2012
 author: Pedro "Casal" Cervera
 slug: charla-sobre-el-uso-inadecuado-de-los
 tags:

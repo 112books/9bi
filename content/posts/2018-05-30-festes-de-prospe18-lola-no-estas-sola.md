@@ -1,6 +1,7 @@
 ---
 title: Festes de Prospe'18 - Lola, no estàs sola Seguimos + La Coctelera Negra
 date: 2018-05-30T12:39:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe18-lola-no-estas-sola
 tags:

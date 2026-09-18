@@ -1,6 +1,7 @@
 ---
 title: Rescat en "Date una huerta"
 date: 2019-10-01T19:49:00+0200
+year: 2019
 author: 9 Barris Imatge
 slug: rescat-en-date-una-huerta
 tags:

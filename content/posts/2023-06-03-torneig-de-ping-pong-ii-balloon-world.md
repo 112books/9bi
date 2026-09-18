@@ -1,6 +1,7 @@
 ---
 title: Torneig de ping-pong, II Balloon world cup, prospenalty, Vermut salsa-bachata.
 date: 2023-06-03T16:05:00+0200
+year: 2023
 author: Francesc Barbe
 slug: torneig-de-ping-pong-ii-balloon-world
 tags:

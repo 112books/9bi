@@ -1,6 +1,7 @@
 ---
 title: Espectacle música i Circ amb Ciclidus
 date: 2011-06-05T17:28:00+0200
+year: 2011
 author: Nico YeYe
 slug: espectacle-musica-i-circ-amb-ciclidus
 tags:

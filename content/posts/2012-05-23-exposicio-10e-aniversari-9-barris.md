@@ -1,6 +1,7 @@
 ---
 title: Exposició 10è aniversari 9 Barris Imatge
 date: 2012-05-23T23:23:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: exposicio-10e-aniversari-9-barris
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Carlo-Mô & Mr. Di - 'Teatro de lo Infame'
 date: 2010-12-19T15:57:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: carlo-mo-mr-di-teatro-de-lo-infame
 tags:

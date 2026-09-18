@@ -1,6 +1,7 @@
 ---
 title: Bolonia, el gran dia; Festival internacional de Sopes
 date: 2008-04-29T18:02:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: bolonia-el-gran-dia-festival
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Festes de Prospe’18 – Diumenge 27
 date: 2018-05-28T16:05:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe18-diumenge-27
 tags:

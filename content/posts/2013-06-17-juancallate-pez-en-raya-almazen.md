@@ -1,6 +1,7 @@
 ---
 title: “JUANCÁLLATE” Pez en Raya. Almazen Barcelona 14/06/2013
 date: 2013-06-17T12:51:00+0200
+year: 2013
 author: Manel Sala "Ulls" Circ
 slug: juancallate-pez-en-raya-almazen
 tags:

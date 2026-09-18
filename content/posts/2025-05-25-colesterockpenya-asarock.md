@@ -1,6 +1,7 @@
 ---
 title: Colesterock.Penya Asarock
 date: 2025-05-25T12:13:00+0200
+year: 2025
 author: Ismael Utrilla
 slug: colesterockpenya-asarock
 tags:

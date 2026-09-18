@@ -1,6 +1,7 @@
 ---
 title: FESTIVAL DE BLUES DE BARCELONA- Rob Stone & The Boogiers i Travellin Brothers
 date: 2018-07-15T15:49:00+0200
+year: 2018
 author: Pedro Click
 slug: festival-de-blues-de-barcelona-rob
 tags:

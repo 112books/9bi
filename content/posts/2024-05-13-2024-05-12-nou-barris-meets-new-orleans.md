@@ -1,6 +1,7 @@
 ---
 title: 2024-05-12 – Nou Barris Meets New Orleans 2024
 date: 2024-05-13T12:27:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-05-12-nou-barris-meets-new-orleans
 tags:

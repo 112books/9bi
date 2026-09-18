@@ -1,6 +1,7 @@
 ---
 title: Grup de Percusio TEB
 date: 2011-06-04T00:46:00+0200
+year: 2011
 author: Pedro Click
 slug: grup-de-percusio-teb
 tags:

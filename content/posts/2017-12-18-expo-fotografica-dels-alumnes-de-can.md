@@ -1,6 +1,7 @@
 ---
 title: Expo  fotogràfica dels alumnes de Can Basté.
 date: 2017-12-18T21:13:00+0100
+year: 2017
 author: 9 Barris Imatge
 slug: expo-fotografica-dels-alumnes-de-can
 tags:

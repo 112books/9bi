@@ -1,6 +1,7 @@
 ---
 title: Festa Fi del Prospe Beach amb Leon Demaria al Casal de barri de Prosperitat
 date: 2019-07-27T07:52:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: festa-fi-del-prospe-beach-amb-leon
 tags:

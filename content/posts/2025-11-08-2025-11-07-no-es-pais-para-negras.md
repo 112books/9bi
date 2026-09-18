@@ -1,6 +1,7 @@
 ---
 title: 2025-11-07 - No es país para negras
 date: 2025-11-08T17:46:00+0100
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-11-07-no-es-pais-para-negras
 tags:

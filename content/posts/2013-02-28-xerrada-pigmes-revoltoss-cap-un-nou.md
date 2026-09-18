@@ -1,6 +1,7 @@
 ---
 title: Xerrada Pigme@s Revoltos@s - Cap a un nou model social i econòmic
 date: 2013-02-28T01:00:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: xerrada-pigmes-revoltoss-cap-un-nou
 tags:

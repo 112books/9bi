@@ -1,6 +1,7 @@
 ---
 title: Adeu Alcàntara 71 a Nou Barris.
 date: 2019-01-13T21:04:00+0100
+year: 2019
 author: 9 Barris Imatge
 slug: adeu-alcantara-71-nou-barris
 tags:

@@ -1,6 +1,7 @@
 ---
 title: LLUITA PEL TRANSPORT PUBLIC
 date: 2014-02-20T21:01:00+0100
+year: 2014
 author: Pedro "Casal" Cervera
 slug: lluita-pel-transport-public
 tags:

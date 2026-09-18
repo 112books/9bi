@@ -1,6 +1,7 @@
 ---
 title: Via Crucis en Via Júlia.
 date: 2017-04-15T01:58:00+0200
+year: 2017
 author: 9 Barris Imatge
 slug: via-crucis-en-via-julia
 tags:

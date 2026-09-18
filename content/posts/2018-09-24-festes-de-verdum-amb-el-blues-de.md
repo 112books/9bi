@@ -1,6 +1,7 @@
 ---
 title: Festes de Verdum amb el Blues de Capibola Blues
 date: 2018-09-24T09:36:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-verdum-amb-el-blues-de
 tags:

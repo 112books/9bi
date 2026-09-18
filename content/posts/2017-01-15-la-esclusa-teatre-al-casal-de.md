@@ -1,6 +1,7 @@
 ---
 title: La Esclusa – Teatre al Casal de Prosperitat
 date: 2017-01-15T12:15:00+0100
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: la-esclusa-teatre-al-casal-de
 tags:

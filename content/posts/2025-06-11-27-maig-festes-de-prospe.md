@@ -1,6 +1,7 @@
 ---
 title: 27 Maig Festes de Prospe
 date: 2025-06-11T00:07:00+0200
+year: 2025
 author: Iozsef Kiss
 slug: 27-maig-festes-de-prospe
 tags:

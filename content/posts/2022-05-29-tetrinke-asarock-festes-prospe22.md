@@ -1,6 +1,7 @@
 ---
 title: Tetrinké & Asarock .Festes Prospe´22
 date: 2022-05-29T13:16:00+0200
+year: 2022
 author: Ismael Utrilla
 slug: tetrinke-asarock-festes-prospe22
 tags:

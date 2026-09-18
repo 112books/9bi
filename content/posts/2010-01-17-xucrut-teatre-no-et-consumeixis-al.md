@@ -1,6 +1,7 @@
 ---
 title: Xucrut Teatre 'No et consumeixis' al Casal de barri de Prosperitat
 date: 2010-01-17T16:31:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: xucrut-teatre-no-et-consumeixis-al
 tags:

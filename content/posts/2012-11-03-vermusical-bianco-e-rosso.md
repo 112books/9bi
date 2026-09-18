@@ -1,6 +1,7 @@
 ---
 title: Vermusical "Bianco e Rosso"
 date: 2012-11-03T16:28:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: vermusical-bianco-e-rosso
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Reinauguracio de la biblioteca José Bretones de Trinitat Nova
 date: 2024-02-22T18:24:00+0100
+year: 2024
 author: Iozsef Kiss
 slug: reinauguracio-de-la-biblioteca-jose
 tags:

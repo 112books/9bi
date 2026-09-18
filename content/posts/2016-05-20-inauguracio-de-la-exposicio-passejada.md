@@ -2,6 +2,7 @@
 title: Inauguració de la exposició "Passejada sobre la història del barri" amb Joan
   Catafal i Alberto San Agustín
 date: 2016-05-20T10:21:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: inauguracio-de-la-exposicio-passejada
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Sopar d'Entitats al Casal de barri de Prosperitat
 date: 2015-10-24T16:45:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: sopar-dentitats-al-casal-de-barri-de
 tags:

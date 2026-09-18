@@ -1,6 +1,7 @@
 ---
 title: Maiurta. Los Galindos. Trapezi 2012
 date: 2012-06-07T13:23:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: maiurta-los-galindos-trapezi-2012
 tags:

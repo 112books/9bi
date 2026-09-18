@@ -1,6 +1,7 @@
 ---
 title: Nevada històrica a Prospe, Nou Barris
 date: 2010-03-08T18:36:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: nevada-historica-prospe-nou-barris
 tags:

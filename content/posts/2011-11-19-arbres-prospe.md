@@ -1,6 +1,7 @@
 ---
 title: Arbres Prospe
 date: 2011-11-19T11:33:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: arbres-prospe
 tags:

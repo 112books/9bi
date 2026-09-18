@@ -1,6 +1,7 @@
 ---
 title: Cloenda del Centenari de la Prosperitat
 date: 2019-12-15T19:20:00+0100
+year: 2019
 author: Alberto Sanagustín
 slug: cloenda-del-centenari-de-la-prosperitat
 tags:

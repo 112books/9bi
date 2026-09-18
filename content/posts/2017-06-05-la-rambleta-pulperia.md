@@ -1,6 +1,7 @@
 ---
 title: La Rambleta- Pulperia
 date: 2017-06-05T10:30:00+0200
+year: 2017
 author: Pedro Click
 slug: la-rambleta-pulperia
 cover:

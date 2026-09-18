@@ -1,6 +1,7 @@
 ---
 title: Les Nits de Capibola Blues amb Testapazza
 date: 2015-09-20T13:53:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: les-nits-de-capibola-blues-amb
 tags:

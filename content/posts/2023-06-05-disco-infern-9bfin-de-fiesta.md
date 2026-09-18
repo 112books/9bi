@@ -1,6 +1,7 @@
 ---
 title: Disco Infern 9B.Fin de Fiesta
 date: 2023-06-05T18:11:00+0200
+year: 2023
 author: Ismael Utrilla
 slug: disco-infern-9bfin-de-fiesta
 tags:

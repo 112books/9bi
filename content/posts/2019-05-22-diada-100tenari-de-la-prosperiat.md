@@ -1,6 +1,7 @@
 ---
 title: Diada 100tenari de la Prosperiat
 date: 2019-05-22T06:26:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: diada-100tenari-de-la-prosperiat
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 'Exposició "Els Inoblidables: la nostra Memòria"'
 date: 2015-12-16T18:50:00+0100
+year: 2015
 author: Pedro Click
 slug: exposicio-els-inoblidables-la-nostra
 tags:

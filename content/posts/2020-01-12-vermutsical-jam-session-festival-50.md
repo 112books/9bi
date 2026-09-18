@@ -1,6 +1,7 @@
 ---
 title: Vermutsical “Jam Session Festival 5.0”
 date: 2020-01-12T02:27:00+0100
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-jam-session-festival-50
 tags:

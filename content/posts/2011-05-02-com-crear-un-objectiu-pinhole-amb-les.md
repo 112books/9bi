@@ -1,6 +1,7 @@
 ---
 title: Com crear un "objectiu" Pinhole amb les vostres mans
 date: 2011-05-02T16:56:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: com-crear-un-objectiu-pinhole-amb-les
 tags:

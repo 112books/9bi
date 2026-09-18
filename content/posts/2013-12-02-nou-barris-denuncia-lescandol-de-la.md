@@ -1,6 +1,7 @@
 ---
 title: Nou Barris denuncia l'escàndol de la venda d'habitatge públic
 date: 2013-12-02T22:19:00+0100
+year: 2013
 author: Pedro "Casal" Cervera
 slug: nou-barris-denuncia-lescandol-de-la
 tags:

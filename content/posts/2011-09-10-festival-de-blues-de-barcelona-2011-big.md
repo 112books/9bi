@@ -1,6 +1,7 @@
 ---
 title: Festival de Blues de Barcelona 2011 - The Big Jamboree
 date: 2011-09-10T13:29:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: festival-de-blues-de-barcelona-2011-big
 tags:

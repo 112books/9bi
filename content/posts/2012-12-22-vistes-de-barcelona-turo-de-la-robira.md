@@ -1,6 +1,7 @@
 ---
 title: Vistes de Barcelona a Turó de la Robira, en analògic
 date: 2012-12-22T03:36:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: vistes-de-barcelona-turo-de-la-robira
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 2023-11-05- Festa tardor hort Ecovincles
 date: 2023-11-07T00:34:00+0100
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-11-05-festa-tardor-hort-ecovincles
 tags:

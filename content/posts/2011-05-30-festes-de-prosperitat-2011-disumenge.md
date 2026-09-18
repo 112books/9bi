@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat 2011 - Disumenge
 date: 2011-05-30T02:04:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-2011-disumenge
 tags:

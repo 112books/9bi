@@ -1,6 +1,7 @@
 ---
 title: Cabaret Conformista
 date: 2016-11-27T17:34:00+0100
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: cabaret-conformista
 tags:

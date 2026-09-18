@@ -1,6 +1,7 @@
 ---
 title: Los Mambo Jambo + El Twanguero
 date: 2017-05-06T12:34:00+0200
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: los-mambo-jambo-el-twanguero
 tags:

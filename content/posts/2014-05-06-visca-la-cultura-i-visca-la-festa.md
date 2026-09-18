@@ -1,6 +1,7 @@
 ---
 title: Visca la CULTURA !!! i  Visca la FESTA !!!
 date: 2014-05-06T16:42:00+0200
+year: 2014
 author: 9 Barris Imatge
 slug: visca-la-cultura-i-visca-la-festa
 tags:

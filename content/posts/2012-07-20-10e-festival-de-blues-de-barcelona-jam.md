@@ -1,6 +1,7 @@
 ---
 title: 10è Festival de Blues de Barcelona - Jam Session
 date: 2012-07-20T03:32:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: 10e-festival-de-blues-de-barcelona-jam
 tags:

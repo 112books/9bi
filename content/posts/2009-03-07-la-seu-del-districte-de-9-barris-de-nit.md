@@ -1,6 +1,7 @@
 ---
 title: La Seu del districte de 9 barris de nit
 date: 2009-03-07T11:23:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: la-seu-del-districte-de-9-barris-de-nit
 tags:

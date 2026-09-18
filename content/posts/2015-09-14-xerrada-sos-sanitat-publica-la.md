@@ -1,6 +1,7 @@
 ---
 title: XERRADA SOS SANITAT PUBLICA A LA MARQUESINA DE LA VIA JULIA
 date: 2015-09-14T23:48:00+0200
+year: 2015
 author: Pedro "Casal" Cervera
 slug: xerrada-sos-sanitat-publica-la
 tags:

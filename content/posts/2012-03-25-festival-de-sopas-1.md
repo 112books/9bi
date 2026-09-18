@@ -1,6 +1,7 @@
 ---
 title: FESTIVAL DE SOPAS 1
 date: 2012-03-25T23:18:00+0200
+year: 2012
 author: Pedro Click
 slug: festival-de-sopas-1
 tags:

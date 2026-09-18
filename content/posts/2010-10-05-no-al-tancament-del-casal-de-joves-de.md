@@ -1,6 +1,7 @@
 ---
 title: No al tancament del Casal de Joves de Prosperitat
 date: 2010-10-05T00:25:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: no-al-tancament-del-casal-de-joves-de
 tags:

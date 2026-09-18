@@ -1,6 +1,7 @@
 ---
 title: Antònia Font + Se atormenta una vecina. A la festa major de Nou Barris
 date: 2008-05-31T13:19:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: antnia-font-se-atormenta-una-vecina-la
 tags:

@@ -1,6 +1,7 @@
 ---
 title: VADIK TRIO
 date: 2022-03-26T10:38:00+0100
+year: 2022
 author: Pedro Click
 slug: vadik-trio
 tags:

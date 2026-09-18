@@ -1,6 +1,7 @@
 ---
 title: Festes de Prospe 2013 - Dissabte
 date: 2013-05-27T18:04:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe-2013-dissabte
 tags:

@@ -1,6 +1,7 @@
 ---
 title: DIARI DE FESTES DE LA PROSPERITAT
 date: 2022-05-22T14:35:00+0200
+year: 2022
 author: Pedro Click
 slug: diari-de-festes-de-la-prosperitat
 tags:

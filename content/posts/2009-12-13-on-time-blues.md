@@ -1,6 +1,7 @@
 ---
 title: On Time Blues
 date: 2009-12-13T20:30:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: on-time-blues
 tags:

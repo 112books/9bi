@@ -1,6 +1,7 @@
 ---
 title: LOS ROUTIERS (Rock & Roll)
 date: 2016-02-29T18:37:00+0100
+year: 2016
 author: Pedro Click
 slug: los-routiers-rock-roll
 tags:

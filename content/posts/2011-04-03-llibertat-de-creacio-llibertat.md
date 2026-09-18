@@ -1,6 +1,7 @@
 ---
 title: Llibertat de creació, llibertat d'expressió
 date: 2011-04-03T05:02:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: llibertat-de-creacio-llibertat
 tags:

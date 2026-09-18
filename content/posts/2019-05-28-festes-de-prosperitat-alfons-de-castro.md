@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat - Alfons de Castro
 date: 2019-05-28T08:12:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-alfons-de-castro
 tags:

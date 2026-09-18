@@ -1,6 +1,7 @@
 ---
 title: Jam Session Casal Prospe 2017
 date: 2017-01-10T23:10:00+0100
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: jam-session-casal-prospe-2017
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Autoconfinament amb Holga WPC 6×12
 date: 2020-03-29T19:27:00+0200
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: autoconfinament-amb-holga-wpc-612
 cover:

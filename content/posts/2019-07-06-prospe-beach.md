@@ -1,6 +1,7 @@
 ---
 title: 'Prospe Beach '
 date: 2019-07-06T13:45:00+0200
+year: 2019
 author: Francesc Barbe
 slug: prospe-beach
 tags:

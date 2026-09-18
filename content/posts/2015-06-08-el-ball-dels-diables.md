@@ -1,6 +1,7 @@
 ---
 title: EL BALL DELS DIABLES
 date: 2015-06-08T16:22:00+0200
+year: 2015
 author: Manel Villalba
 slug: el-ball-dels-diables
 tags:

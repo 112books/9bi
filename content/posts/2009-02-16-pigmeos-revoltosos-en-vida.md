@@ -1,6 +1,7 @@
 ---
 title: pigmeos revoltosos&CIA:ENTERRAT EN VIDA
 date: 2009-02-16T18:24:00+0100
+year: 2009
 author: 9 Barris Imatge
 slug: pigmeos-revoltosos-en-vida
 tags:

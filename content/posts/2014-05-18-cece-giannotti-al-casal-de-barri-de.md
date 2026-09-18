@@ -1,6 +1,7 @@
 ---
 title: Cece Giannotti al Casal de barri de Prosperitat
 date: 2014-05-18T14:01:00+0200
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: cece-giannotti-al-casal-de-barri-de
 tags:

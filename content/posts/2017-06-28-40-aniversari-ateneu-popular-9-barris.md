@@ -1,6 +1,7 @@
 ---
 title: 40 Aniversari-Ateneu Popular 9 Barris-1977-2017
 date: 2017-06-28T10:34:00+0200
+year: 2017
 author: Manel Sala "Ulls" Circ
 slug: 40-aniversari-ateneu-popular-9-barris
 tags:

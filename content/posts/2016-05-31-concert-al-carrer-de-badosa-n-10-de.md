@@ -1,6 +1,7 @@
 ---
 title: Sense títol
 date: 2016-05-31T00:13:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: concert-al-carrer-de-badosa-n-10-de
 tags:

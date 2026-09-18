@@ -1,6 +1,7 @@
 ---
 title: Coser y Cantar al Casal de barri de Prosperitat
 date: 2016-07-23T21:28:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: coser-y-cantar-al-casal-de-barri-de
 tags:

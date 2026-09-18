@@ -1,6 +1,7 @@
 ---
 title: Taller de Risoterapia al Casal de Roquetes.
 date: 2016-04-02T22:49:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: taller-de-risoterapia-al-casal-de
 tags:

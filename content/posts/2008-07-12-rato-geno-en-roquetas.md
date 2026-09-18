@@ -1,6 +1,7 @@
 ---
 title: RATO GÚENO EN ROQUETAS
 date: 2008-07-12T12:42:00+0200
+year: 2008
 author: 9 Barris Imatge
 slug: rato-geno-en-roquetas
 tags:

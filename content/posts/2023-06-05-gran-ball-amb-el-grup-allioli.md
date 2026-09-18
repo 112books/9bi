@@ -1,6 +1,7 @@
 ---
 title: Gran Ball amb el grup " Allioli" ...
 date: 2023-06-05T13:10:00+0200
+year: 2023
 author: Iozsef Kiss
 slug: gran-ball-amb-el-grup-allioli
 tags:

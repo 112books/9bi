@@ -2,6 +2,7 @@
 title: DiShows Números Naturales, enteros e irracionales deDiana Gadish and Colectivo
   Ameno
 date: 2016-03-11T08:17:00+0100
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: dishows-numeros-naturales-enteros-e
 tags:

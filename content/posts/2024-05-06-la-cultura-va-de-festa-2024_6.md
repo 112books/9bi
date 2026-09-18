@@ -1,6 +1,7 @@
 ---
 title: La Cultura va de Festa 2024.
 date: 2024-05-06T06:59:00+0200
+year: 2024
 author: Núria Laura Orbaneja
 slug: la-cultura-va-de-festa-2024_6
 tags:

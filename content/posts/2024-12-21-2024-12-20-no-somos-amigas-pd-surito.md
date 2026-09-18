@@ -1,6 +1,7 @@
 ---
 title: 2024-12-20 - No somos amigas + PD Surito
 date: 2024-12-21T10:52:00+0100
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-12-20-no-somos-amigas-pd-surito
 tags:

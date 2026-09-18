@@ -1,6 +1,7 @@
 ---
 title: 'Juegos Bastos Vascos 3.0 : Penya Prospetaos.'
 date: 2017-05-27T22:15:00+0200
+year: 2017
 author: 9 Barris Imatge
 slug: juegos-bastos-vascos-30-penya-prospetaos
 tags:

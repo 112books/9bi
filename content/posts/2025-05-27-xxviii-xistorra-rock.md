@@ -1,6 +1,7 @@
 ---
 title: XXVIII Xistorra Rock
 date: 2025-05-27T08:09:00+0200
+year: 2025
 author: Ismael Utrilla
 slug: xxviii-xistorra-rock
 tags:

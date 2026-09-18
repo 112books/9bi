@@ -1,6 +1,7 @@
 ---
 title: Cantada de nadales a Roquetes per la coral del Ton i Guida .
 date: 2016-11-29T00:51:00+0100
+year: 2016
 author: 9 Barris Imatge
 slug: cantada-de-nadales-roquetes-per-la
 tags:

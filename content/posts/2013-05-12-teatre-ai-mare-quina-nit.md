@@ -1,6 +1,7 @@
 ---
 title: Teatre “Ai mare... quina nit!!!”
 date: 2013-05-12T11:15:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: teatre-ai-mare-quina-nit
 tags:

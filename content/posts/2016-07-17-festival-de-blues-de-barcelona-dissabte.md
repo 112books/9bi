@@ -1,6 +1,7 @@
 ---
 title: Festival de Blues de Barcelona – Dissabte
 date: 2016-07-17T12:30:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: festival-de-blues-de-barcelona-dissabte
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Lille .. França .. Cuines del Món
 date: 2009-04-05T13:26:00+0200
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: lille-franca-cuines-del-mon
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 'Presentació diari de Festes Majors de Prosperitat '
 date: 2013-05-22T18:00:00+0200
+year: 2013
 author: 9 Barris Imatge
 slug: presentacio-diari-de-festes-majors-de
 tags:

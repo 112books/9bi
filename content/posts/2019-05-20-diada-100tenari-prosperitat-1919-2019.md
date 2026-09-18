@@ -1,6 +1,7 @@
 ---
 title: Diada 100Tenari Prosperitat 1919-2019
 date: 2019-05-20T09:09:00+0200
+year: 2019
 author: Manel Sala "Ulls" Circ
 slug: diada-100tenari-prosperitat-1919-2019
 tags:

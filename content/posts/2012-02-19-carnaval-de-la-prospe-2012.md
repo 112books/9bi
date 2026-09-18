@@ -1,6 +1,7 @@
 ---
 title: Carnaval de la Prospe 2012
 date: 2012-02-19T23:49:00+0100
+year: 2012
 author: Nico YeYe
 slug: carnaval-de-la-prospe-2012
 tags:

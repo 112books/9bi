@@ -1,6 +1,7 @@
 ---
 title: Festival Blues Barcelona - Dissabte de Blues
 date: 2008-09-16T18:50:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: festival-blues-barcelona-dissabte-de
 tags:

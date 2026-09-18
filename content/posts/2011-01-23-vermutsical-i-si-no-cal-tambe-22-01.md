@@ -1,6 +1,7 @@
 ---
 title: Vermutsical... i si no cal també! 22-01-2011 amb Patato
 date: 2011-01-23T03:08:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-i-si-no-cal-tambe-22-01
 tags:

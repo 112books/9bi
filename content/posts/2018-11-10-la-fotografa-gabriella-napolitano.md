@@ -1,6 +1,7 @@
 ---
 title: Exposició fotogràfica de Gabriella Napolitano.
 date: 2018-11-10T00:31:00+0100
+year: 2018
 author: Núria Laura Orbaneja
 slug: la-fotografa-gabriella-napolitano
 tags:

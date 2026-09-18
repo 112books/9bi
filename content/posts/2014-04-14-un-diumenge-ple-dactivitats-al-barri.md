@@ -1,6 +1,7 @@
 ---
 title: UN DIUMENGE PLÉ D'ACTIVITATS AL BARRI !!!
 date: 2014-04-14T00:03:00+0200
+year: 2014
 author: 9 Barris Imatge
 slug: un-diumenge-ple-dactivitats-al-barri
 tags:

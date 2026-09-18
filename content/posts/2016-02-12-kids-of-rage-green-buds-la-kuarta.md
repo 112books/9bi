@@ -1,6 +1,7 @@
 ---
 title: Kids of rage + Green buds - La Kuarta
 date: 2016-02-12T15:32:00+0100
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: kids-of-rage-green-buds-la-kuarta
 tags:

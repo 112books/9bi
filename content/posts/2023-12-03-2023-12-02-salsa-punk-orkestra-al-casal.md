@@ -1,6 +1,7 @@
 ---
 title: 2023-12-02 - The Salsa Punk Orkestra al Casal de la Prospe
 date: 2023-12-03T10:23:00+0100
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-12-02-salsa-punk-orkestra-al-casal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Amigos de de la sevillanas
 date: 2024-06-01T17:17:00+0200
+year: 2024
 author: Francesc Barbe
 slug: amigos-de-de-la-sevillanas
 tags:

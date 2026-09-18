@@ -1,6 +1,7 @@
 ---
 title: 9binblack -Divendres al Casal de Prosperitat
 date: 2012-02-27T01:43:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: 9binblack-divendres-al-casal-de
 tags:

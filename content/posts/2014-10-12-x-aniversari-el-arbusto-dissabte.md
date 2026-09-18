@@ -1,6 +1,7 @@
 ---
 title: X aniversari "El Arbusto" - Dissabte
 date: 2014-10-12T11:56:00+0200
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: x-aniversari-el-arbusto-dissabte
 tags:

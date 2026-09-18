@@ -1,6 +1,7 @@
 ---
 title: Expo Rai Ferrer "40 Efemèrides"
 date: 2016-10-03T14:33:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: expo-rai-ferrer-40-efemerides
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 20è Aniversari del Casal de Prospe - Dissabte de festa!
 date: 2008-04-20T03:45:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: 20-aniversari-del-casal-de-prospe
 tags:

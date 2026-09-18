@@ -1,6 +1,7 @@
 ---
 title: JOCS TRADICIONALS - PEÑA PENYA PURETA
 date: 2019-05-30T20:12:00+0200
+year: 2019
 author: Pedro Click
 slug: jocs-tradicionals-pena-penya-pureta
 tags:

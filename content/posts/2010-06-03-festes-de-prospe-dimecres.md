@@ -1,6 +1,7 @@
 ---
 title: Festes de prospe - dimecres
 date: 2010-06-03T09:42:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe-dimecres
 tags:

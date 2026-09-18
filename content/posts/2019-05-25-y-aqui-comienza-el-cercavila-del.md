@@ -1,6 +1,7 @@
 ---
 title: Cercavila Festa Major Prosperitat
 date: 2019-05-25T17:50:00+0200
+year: 2019
 author: Ismael Utrilla
 slug: y-aqui-comienza-el-cercavila-del
 tags:

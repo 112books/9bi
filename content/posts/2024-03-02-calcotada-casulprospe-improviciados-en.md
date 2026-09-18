@@ -1,6 +1,7 @@
 ---
 title: Calçotada - Casulprospe.    Improviciados en concierto 02-03-2024
 date: 2024-03-02T19:11:00+0100
+year: 2024
 author: Pedro Click
 slug: calcotada-casulprospe-improviciados-en
 tags:

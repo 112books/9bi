@@ -1,6 +1,7 @@
 ---
 title: 31è Concurs de fotografia Josep Antón Cordoncillo
 date: 2021-10-12T11:45:00+0200
+year: 2021
 author: Joan "Linux" Martínez i Serres
 slug: 31e-concurs-de-fotografia-josep-anton
 tags:

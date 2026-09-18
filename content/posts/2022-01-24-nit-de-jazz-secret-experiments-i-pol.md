@@ -1,6 +1,7 @@
 ---
 title: 'Nit de jazz: Secret Experiments i Pol Prats Quartet (més Elisenda Julià)'
 date: 2022-01-24T16:06:00+0100
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: nit-de-jazz-secret-experiments-i-pol
 tags:

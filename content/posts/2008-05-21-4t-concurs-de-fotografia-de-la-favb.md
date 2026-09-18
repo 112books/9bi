@@ -1,6 +1,7 @@
 ---
 title: 4t Concurs de fotografia de la Favb
 date: 2008-05-21T20:08:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: 4t-concurs-de-fotografia-de-la-favb
 tags:

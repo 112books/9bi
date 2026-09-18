@@ -1,6 +1,7 @@
 ---
 title: Herederos del Taxi & Bodega Eduardo
 date: 2019-11-19T19:40:00+0100
+year: 2019
 author: Ismael Utrilla
 slug: herederos-del-taxi-bodega-eduardo
 tags:

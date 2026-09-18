@@ -1,6 +1,7 @@
 ---
 title: Rockarbusto 2016 - Divendres
 date: 2016-10-01T12:25:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: rockarbusto-2016-divendres
 tags:

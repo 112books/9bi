@@ -1,6 +1,7 @@
 ---
 title: Casal Mix Vol 2
 date: 2013-10-20T20:59:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: casal-mix-vol-2
 tags:

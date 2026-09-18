@@ -1,6 +1,7 @@
 ---
 title: Tu Banda Me Suena - Festa del dia de la música a la Prospe
 date: 2019-06-22T17:15:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: tu-banda-me-suena-festa-del-dia-de-la
 tags:

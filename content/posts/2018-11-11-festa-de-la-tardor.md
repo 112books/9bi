@@ -1,6 +1,7 @@
 ---
 title: Festa de la Tardor.
 date: 2018-11-11T00:33:00+0100
+year: 2018
 author: Núria Laura Orbaneja
 slug: festa-de-la-tardor
 tags:

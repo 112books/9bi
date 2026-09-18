@@ -1,6 +1,7 @@
 ---
 title: 2023-11-14 - Memòries compartides contra la repressió franquista
 date: 2023-11-14T21:53:00+0100
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-11-14-memories-compartides-contra
 tags:

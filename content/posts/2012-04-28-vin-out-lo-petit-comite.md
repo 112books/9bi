@@ -1,6 +1,7 @@
 ---
 title: Vin-Out + Lo Petit Comité
 date: 2012-04-28T13:15:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: vin-out-lo-petit-comite
 tags:

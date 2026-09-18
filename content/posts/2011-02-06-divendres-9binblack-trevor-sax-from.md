@@ -1,6 +1,7 @@
 ---
 title: 'Divendres a #9binblack, Trevor Sax from Saxon Sound'
 date: 2011-02-06T23:04:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: divendres-9binblack-trevor-sax-from
 tags:

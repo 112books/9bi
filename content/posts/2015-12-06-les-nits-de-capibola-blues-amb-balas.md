@@ -1,6 +1,7 @@
 ---
 title: Les Nits de Capibola Blues amb Balas Perdidas
 date: 2015-12-06T08:45:00+0100
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: les-nits-de-capibola-blues-amb-balas
 tags:

@@ -1,6 +1,7 @@
 ---
 title: LA CULTURA VA DE FESTA 2012
 date: 2012-05-07T23:30:00+0200
+year: 2012
 author: Pedro Click
 slug: la-cultura-va-de-festa-2012_07
 tags:

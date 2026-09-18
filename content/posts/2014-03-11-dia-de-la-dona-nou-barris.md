@@ -1,6 +1,7 @@
 ---
 title: DIA DE LA DONA NOU BARRIS
 date: 2014-03-11T20:15:00+0100
+year: 2014
 author: Pedro Click
 slug: dia-de-la-dona-nou-barris
 tags:

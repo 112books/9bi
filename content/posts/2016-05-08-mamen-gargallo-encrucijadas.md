@@ -1,6 +1,7 @@
 ---
 title: Mamen Gargallo - Encrucijadas
 date: 2016-05-08T10:16:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: mamen-gargallo-encrucijadas
 tags:

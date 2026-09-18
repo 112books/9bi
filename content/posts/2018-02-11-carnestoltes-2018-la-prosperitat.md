@@ -1,6 +1,7 @@
 ---
 title: Carnestoltes 2018 a la Prosperitat
 date: 2018-02-11T18:03:00+0100
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: carnestoltes-2018-la-prosperitat
 tags:

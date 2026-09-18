@@ -1,6 +1,7 @@
 ---
 title: Adaptador gran angular per la càmara
 date: 2008-09-07T13:14:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: adaptador-gran-angular-per-la-cmara
 tags:

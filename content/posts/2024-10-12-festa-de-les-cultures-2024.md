@@ -1,6 +1,7 @@
 ---
 title: Festa de les Cultures 2024
 date: 2024-10-12T20:19:00+0200
+year: 2024
 author: Pedro Click
 slug: festa-de-les-cultures-2024
 tags:

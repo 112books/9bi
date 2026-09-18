@@ -1,6 +1,7 @@
 ---
 title: Concert del 100tenari amb Mon Casino Casamor
 date: 2019-12-16T09:05:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: concert-del-100tenari-amb-mon-casino
 tags:

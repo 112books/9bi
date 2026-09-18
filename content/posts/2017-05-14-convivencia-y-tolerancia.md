@@ -1,6 +1,7 @@
 ---
 title: CONVIVENCIA Y TOLERANCIA
 date: 2017-05-14T11:32:00+0200
+year: 2017
 author: Pedro Click
 slug: convivencia-y-tolerancia
 tags:

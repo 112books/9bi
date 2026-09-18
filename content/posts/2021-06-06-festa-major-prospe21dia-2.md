@@ -1,6 +1,7 @@
 ---
 title: Festa Major Prospe´21.dia 2
 date: 2021-06-06T23:12:00+0200
+year: 2021
 author: Ismael Utrilla
 slug: festa-major-prospe21dia-2
 tags:

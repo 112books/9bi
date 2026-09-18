@@ -1,6 +1,7 @@
 ---
 title: Ualaa!!!  Clown-circ
 date: 2024-06-29T23:33:00+0200
+year: 2024
 author: Francesc Barbe
 slug: ualaa-clown-circ
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Concert Puretas Pime@s- "Angry Reds Band" i "Replicants" 25-05-24
 date: 2024-05-27T09:55:00+0200
+year: 2024
 author: Pedro Click
 slug: concert-puretas-pimes-angry-reds-band-i
 tags:

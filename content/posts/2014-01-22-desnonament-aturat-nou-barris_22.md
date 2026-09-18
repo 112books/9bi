@@ -1,6 +1,7 @@
 ---
 title: Desnonament aturat a Nou Barris
 date: 2014-01-22T12:34:00+0100
+year: 2014
 author: Pedro "Casal" Cervera
 slug: desnonament-aturat-nou-barris_22
 tags:

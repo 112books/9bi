@@ -1,6 +1,7 @@
 ---
 title: La Màgia del Circ. 38 Combinat de Circ. Ateneu Popular de 9 Barris
 date: 2009-10-02T13:48:00+0200
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: la-magia-del-circ-38-combinat-de-circ_02
 tags:

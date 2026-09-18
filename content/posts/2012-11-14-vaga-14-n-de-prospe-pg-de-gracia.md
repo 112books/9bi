@@ -1,6 +1,7 @@
 ---
 title: Vaga 14-N, de Prospe a Pg. de gràcia
 date: 2012-11-14T22:39:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: vaga-14-n-de-prospe-pg-de-gracia
 tags:

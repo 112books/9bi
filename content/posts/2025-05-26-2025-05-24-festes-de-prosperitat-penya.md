@@ -2,6 +2,7 @@
 title: ' 2025-05-24 - Festes de Prosperitat - Penya Lxs Tetes, Dj Perlita i Orquesta
   Aquarium'
 date: 2025-05-26T09:41:00+0200
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-05-24-festes-de-prosperitat-penya
 tags:

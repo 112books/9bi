@@ -1,6 +1,7 @@
 ---
 title: II "Encierro" de Unicornis , Escalabirras
 date: 2023-05-28T18:29:00+0200
+year: 2023
 author: Francesc Barbe
 slug: ii-encierro-de-unicornis-escalabirras
 tags:

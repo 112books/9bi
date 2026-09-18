@@ -1,6 +1,7 @@
 ---
 title: VII Festival de Blues de Barcelona - MasterClass de Big Mama Montse
 date: 2009-09-16T03:00:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: vii-festival-de-blues-de-barcelona_4670
 tags:

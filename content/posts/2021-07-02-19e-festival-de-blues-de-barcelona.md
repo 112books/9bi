@@ -1,6 +1,7 @@
 ---
 title: 19è Festival de Blues de Barcelona - Rambalaya
 date: 2021-07-02T11:40:00+0200
+year: 2021
 author: Francesc Barbe
 slug: 19e-festival-de-blues-de-barcelona
 tags:

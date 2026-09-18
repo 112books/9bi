@@ -1,6 +1,7 @@
 ---
 title: 'Grup Foto Roquetes: Exposició al Ton i Guida.'
 date: 2016-11-08T01:04:00+0100
+year: 2016
 author: 9 Barris Imatge
 slug: grup-foto-roquetes-exposicio-al-ton-i
 tags:

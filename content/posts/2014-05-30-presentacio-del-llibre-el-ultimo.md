@@ -1,6 +1,7 @@
 ---
 title: Presentació del LLibre EL ÚLTIMO ARAGONÉS VIVO
 date: 2014-05-30T17:37:00+0200
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: presentacio-del-llibre-el-ultimo
 tags:

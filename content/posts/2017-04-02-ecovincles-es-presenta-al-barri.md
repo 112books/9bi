@@ -1,6 +1,7 @@
 ---
 title: ECOVINCLES es presenta al barri!!!
 date: 2017-04-02T17:18:00+0200
+year: 2017
 author: Alberto Sanagustín
 slug: ecovincles-es-presenta-al-barri
 tags:

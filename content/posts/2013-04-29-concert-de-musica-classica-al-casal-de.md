@@ -1,6 +1,7 @@
 ---
 title: Concert de Música Clàssica al Casal de barri de Prosperitat
 date: 2013-04-29T12:43:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: concert-de-musica-classica-al-casal-de
 tags:

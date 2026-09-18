@@ -1,6 +1,7 @@
 ---
 title: VermutSical amb "WOOLFI & THE BIG WHEELS"
 date: 2014-12-28T17:46:00+0100
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-woolfi-big-wheels
 tags:

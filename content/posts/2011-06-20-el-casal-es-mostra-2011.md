@@ -1,6 +1,7 @@
 ---
 title: El Casal es mostra 2011
 date: 2011-06-20T09:05:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: el-casal-es-mostra-2011
 tags:

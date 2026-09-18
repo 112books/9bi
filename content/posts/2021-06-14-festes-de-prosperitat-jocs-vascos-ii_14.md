@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat - Jocs Vascos II
 date: 2021-06-14T19:24:00+0200
+year: 2021
 author: Francesc Barbe
 slug: festes-de-prosperitat-jocs-vascos-ii_14
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Llibrería En su Tinta
 date: 2014-05-29T02:09:00+0200
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: llibreria-en-su-tinta
 tags:

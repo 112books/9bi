@@ -1,6 +1,7 @@
 ---
 title: TARDA DE BLUES
 date: 2014-05-21T16:48:00+0200
+year: 2014
 author: Manel Villalba
 slug: tarda-de-blues
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 2026-01-10 — Vermutsical amb Pura Bidasoa
 date: 2026-01-11T12:11:00+0100
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: 2026-01-10-vermutsical-amb-pura-bidasoa
 tags:

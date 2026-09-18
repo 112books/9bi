@@ -1,6 +1,7 @@
 ---
 title: Akelarre a Roquetes !!!
 date: 2015-10-17T19:46:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: akelarre-roquetes
 tags:

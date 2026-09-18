@@ -1,6 +1,7 @@
 ---
 title: Equip de dinamització del Casal de Prosperitat
 date: 2012-10-20T10:20:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: equip-de-dinamitzacio-del-casal-de
 tags:

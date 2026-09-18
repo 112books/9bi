@@ -1,6 +1,7 @@
 ---
 title: PASSEJANT PER LA TRINITAT NOVA !!!
 date: 2015-06-16T01:14:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: trinitat-nova
 tags:

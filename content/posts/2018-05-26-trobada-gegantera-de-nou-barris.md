@@ -1,6 +1,7 @@
 ---
 title: Trobada Gegantera de Nou Barris.
 date: 2018-05-26T19:40:00+0200
+year: 2018
 author: 9 Barris Imatge
 slug: trobada-gegantera-de-nou-barris
 tags:

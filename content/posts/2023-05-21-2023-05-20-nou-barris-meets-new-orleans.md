@@ -1,6 +1,7 @@
 ---
 title: 2023-05-20 - Nou Barris meets New Orleans
 date: 2023-05-21T02:44:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-05-20-nou-barris-meets-new-orleans
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Enrejando, inauguració  de l'exposició al Ton i Guida.
 date: 2019-04-09T17:17:00+0200
+year: 2019
 author: 9 Barris Imatge
 slug: enrejando-inauguracio-de-lexposicio-al
 tags:

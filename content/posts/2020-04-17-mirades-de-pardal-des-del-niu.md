@@ -1,6 +1,7 @@
 ---
 title: Mirades de 9barris des del niu
 date: 2020-04-17T14:01:00+0200
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: mirades-de-pardal-des-del-niu
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Stoy ke trino   30 festa major 2008
 date: 2008-06-02T17:11:00+0200
+year: 2008
 author: Manel Sala "Ulls" Circ
 slug: img-srchttplh4ggphtcom
 tags:

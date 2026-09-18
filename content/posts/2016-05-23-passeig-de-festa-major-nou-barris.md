@@ -1,6 +1,7 @@
 ---
 title: Passeig de Festa Major a Nou Barris.
 date: 2016-05-23T01:06:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: passeig-de-festa-major-nou-barris
 tags:

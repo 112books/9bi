@@ -1,6 +1,7 @@
 ---
 title: PROSPEFESTA PASABARES
 date: 2013-06-03T11:58:00+0200
+year: 2013
 author: Pedro Click
 slug: prospefesta-pasabares
 tags:

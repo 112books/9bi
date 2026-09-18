@@ -1,6 +1,7 @@
 ---
 title: Can Peguera des del cel
 date: 2013-12-07T23:44:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: can-peguera-des-de-el-cel
 tags:

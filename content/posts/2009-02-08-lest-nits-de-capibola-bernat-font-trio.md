@@ -1,6 +1,7 @@
 ---
 title: Lest Nits de Capibola; Bernat Font Trio
 date: 2009-02-08T17:24:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: lest-nits-de-capibola-bernat-font-trio
 tags:

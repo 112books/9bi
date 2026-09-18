@@ -1,6 +1,7 @@
 ---
 title: Vermutsical - Fer Acosta
 date: 2014-04-27T23:28:00+0200
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-fer-acosta
 tags:

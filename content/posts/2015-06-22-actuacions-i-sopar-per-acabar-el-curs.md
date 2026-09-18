@@ -1,6 +1,7 @@
 ---
 title: ACTUACIONS I SOPAR PER ACABAR EL CURS AL TON I GUIDA !!!
 date: 2015-06-22T23:44:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: actuacions-i-sopar-per-acabar-el-curs
 tags:

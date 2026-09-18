@@ -1,6 +1,7 @@
 ---
 title: '#Flamenco de Barrio al Casal de barri de Prosperitat'
 date: 2021-11-15T10:01:00+0100
+year: 2021
 author: Joan "Linux" Martínez i Serres
 slug: flamenco-de-barrio-al-casal-de-barri-de
 tags:

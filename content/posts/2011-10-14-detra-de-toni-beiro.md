@@ -1,6 +1,7 @@
 ---
 title: DETRAS DE TONI BEIRO
 date: 2011-10-14T13:05:00+0200
+year: 2011
 author: Pedro Click
 slug: detra-de-toni-beiro
 tags:

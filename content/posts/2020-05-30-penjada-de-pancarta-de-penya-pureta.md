@@ -1,6 +1,7 @@
 ---
 title: PENJADA DE PANCARTA DE PENYA PURETA
 date: 2020-05-30T16:14:00+0200
+year: 2020
 author: Alberto Sanagustín
 slug: penjada-de-pancarta-de-penya-pureta
 tags:

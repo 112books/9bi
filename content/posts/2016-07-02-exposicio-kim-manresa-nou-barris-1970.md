@@ -1,6 +1,7 @@
 ---
 title: Exposició Kim Manresa - Nou Barris 1970 - 1980
 date: 2016-07-02T09:55:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: exposicio-kim-manresa-nou-barris-1970
 tags:

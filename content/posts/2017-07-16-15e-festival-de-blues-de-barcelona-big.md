@@ -2,6 +2,7 @@
 title: 15è Festival de Blues de Barcelona – Big Dani Pérez Saxplosion, Mingo & Coloma
   & Simón Blues Express & Tia Carroll, Larry McCray & Alex Zayas Band
 date: 2017-07-16T12:05:00+0200
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: 15e-festival-de-blues-de-barcelona-big
 tags:

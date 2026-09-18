@@ -1,6 +1,7 @@
 ---
 title: Cirque Éloize . Nebbia ..  Contorsion
 date: 2009-11-27T13:31:00+0100
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: cirque-eloize-nebbia-contorsion
 tags:

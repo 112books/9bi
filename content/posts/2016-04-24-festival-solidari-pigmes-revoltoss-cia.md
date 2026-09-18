@@ -1,6 +1,7 @@
 ---
 title: Festival solidari Pigme@s Revoltos@s & Cia. "A tu salud"
 date: 2016-04-24T15:47:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: festival-solidari-pigmes-revoltoss-cia
 cover:

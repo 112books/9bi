@@ -1,6 +1,7 @@
 ---
 title: Maneta de Kamioneta al Casal de barri de Prosperitat
 date: 2019-02-11T11:06:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: maneta-de-kamioneta-al-casal-de-barri
 tags:

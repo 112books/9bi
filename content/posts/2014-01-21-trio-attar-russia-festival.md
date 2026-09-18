@@ -1,6 +1,7 @@
 ---
 title: Trio Attar. Rússia. Festival Internacional del Circ Ciutat de Figueres 2013
 date: 2014-01-21T15:46:00+0100
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: trio-attar-russia-festival
 tags:

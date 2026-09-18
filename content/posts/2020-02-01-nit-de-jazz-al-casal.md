@@ -1,6 +1,7 @@
 ---
 title: Nit de Jazz al Casal
 date: 2020-02-01T18:56:00+0100
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: nit-de-jazz-al-casal
 tags:

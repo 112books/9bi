@@ -1,6 +1,7 @@
 ---
 title: Vermutsical amb Alma de Boquerón
 date: 2019-10-06T10:07:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-alma-de-boqueron
 tags:

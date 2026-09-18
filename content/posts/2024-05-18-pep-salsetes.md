@@ -1,6 +1,7 @@
 ---
 title: Pep salsetes
 date: 2024-05-18T17:38:00+0200
+year: 2024
 author: Francesc Barbe
 slug: pep-salsetes
 cover:

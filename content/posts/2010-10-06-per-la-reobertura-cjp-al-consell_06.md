@@ -1,6 +1,7 @@
 ---
 title: Per la reobertura CJP al Consell plenari de Nou Barris
 date: 2010-10-06T10:45:00+0200
+year: 2010
 author: 9 Barris Imatge
 slug: per-la-reobertura-cjp-al-consell_06
 tags:

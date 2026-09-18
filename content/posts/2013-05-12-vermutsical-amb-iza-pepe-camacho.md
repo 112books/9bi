@@ -1,6 +1,7 @@
 ---
 title: VermutSical amb Iza & Pepe Camacho
 date: 2013-05-12T00:57:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-iza-pepe-camacho
 tags:

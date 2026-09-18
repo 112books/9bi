@@ -1,6 +1,7 @@
 ---
 title: San Xibeco .La cerveza que lo cambia todo...
 date: 2019-11-18T20:46:00+0100
+year: 2019
 author: Ismael Utrilla
 slug: san-xibeco-la-cerveza-que-lo-cambia-todo
 tags:

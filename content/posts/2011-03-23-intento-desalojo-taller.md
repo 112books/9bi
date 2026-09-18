@@ -1,6 +1,7 @@
 ---
 title: intent desallotjament taller biciosxs
 date: 2011-03-23T23:12:00+0100
+year: 2011
 author: Pedro "Casal" Cervera
 slug: intento-desalojo-taller
 tags:

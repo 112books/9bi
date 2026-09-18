@@ -1,6 +1,7 @@
 ---
 title: ' Festa en recolzament a Date una huerta al Casal de barri de Prosperitat'
 date: 2019-02-09T22:11:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: festa-en-recolzament-date-una-huerta-al
 tags:

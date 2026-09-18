@@ -1,6 +1,7 @@
 ---
 title: CHOCOLATADA INFANTIL
 date: 2016-06-05T13:45:00+0200
+year: 2016
 author: Pedro Click
 slug: chocolatada-infantil
 tags:

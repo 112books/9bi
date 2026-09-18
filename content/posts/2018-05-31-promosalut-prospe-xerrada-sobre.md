@@ -1,6 +1,7 @@
 ---
 title: 'Promosalut Prospe : Xerrada sobre  prevenció del càncer de còlon i recte.'
 date: 2018-05-31T23:53:00+0200
+year: 2018
 author: 9 Barris Imatge
 slug: promosalut-prospe-xerrada-sobre
 tags:

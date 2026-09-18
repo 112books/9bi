@@ -1,6 +1,7 @@
 ---
 title: Chistorra Rock a les festes de Prosperitat
 date: 2009-06-03T02:33:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: chistorra-rock-les-festes-de
 tags:

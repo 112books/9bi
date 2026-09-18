@@ -1,6 +1,7 @@
 ---
 title: Futbol Platja a Ángel Pestanya
 date: 2009-07-18T17:41:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: futbol-platja-angel-pestanya
 tags:

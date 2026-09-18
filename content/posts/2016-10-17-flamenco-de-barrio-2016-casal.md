@@ -1,6 +1,7 @@
 ---
 title: Flamenco de Barrio 2016. Casal Prosperitat
 date: 2016-10-17T13:45:00+0200
+year: 2016
 author: Manel Sala "Ulls" Circ
 slug: flamenco-de-barrio-2016-casal
 tags:

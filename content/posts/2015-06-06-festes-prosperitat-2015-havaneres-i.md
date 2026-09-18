@@ -1,6 +1,7 @@
 ---
 title: Festes Prosperitat 2015  - Havaneres i cremat
 date: 2015-06-06T11:52:00+0200
+year: 2015
 author: Alberto Sanagustín
 slug: festes-prosperitat-2015-havaneres-i
 tags:

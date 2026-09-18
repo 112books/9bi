@@ -1,6 +1,7 @@
 ---
 title: Virginia Imaz . La Modelo Clowntrapublicitaria . Almazen . Barcelona
 date: 2009-05-09T19:08:00+0200
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: virginia-imaz-la-modelo
 tags:

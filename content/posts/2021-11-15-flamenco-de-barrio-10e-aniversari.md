@@ -1,6 +1,7 @@
 ---
 title: Flamenco de Barrio - 10è Aniversari
 date: 2021-11-15T09:39:00+0100
+year: 2021
 author: Manel Sala "Ulls" Circ
 slug: flamenco-de-barrio-10e-aniversari
 tags:

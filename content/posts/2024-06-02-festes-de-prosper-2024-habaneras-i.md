@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosper 2024 - Habaneras i concierto de Tito
 date: 2024-06-02T11:55:00+0200
+year: 2024
 author: Nico YeYe
 slug: festes-de-prosper-2024-habaneras-i
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Las Hermanas del Desorden amb Blanca Haddad al Casal de barri de Prosperitat
 date: 2021-11-26T09:24:00+0100
+year: 2021
 author: Joan "Linux" Martínez i Serres
 slug: las-hermanas-del-desorden-amb-blanca
 tags:

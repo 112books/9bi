@@ -1,6 +1,7 @@
 ---
 title: Flamenc@s de Barrio - Cuadro Flamenc - Cayana
 date: 2018-11-13T16:54:00+0100
+year: 2018
 author: Pedro Click
 slug: flamencs-de-barrio-cuadro-flamenc-cayana
 tags:

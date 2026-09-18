@@ -1,6 +1,7 @@
 ---
 title: Sopar de Nadal al Casal de barri
 date: 2013-12-22T12:51:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: sopar-de-nadal-al-casal-de-barri
 tags:

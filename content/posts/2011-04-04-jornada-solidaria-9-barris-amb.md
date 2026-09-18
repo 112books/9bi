@@ -1,6 +1,7 @@
 ---
 title: Jornada solidària; 9 barris amb Palestina
 date: 2011-04-04T09:53:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: jornada-solidaria-9-barris-amb
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Musica paticipativa - juny 2013
 date: 2013-06-09T19:06:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: musica-paticipativa-juny-2013
 tags:

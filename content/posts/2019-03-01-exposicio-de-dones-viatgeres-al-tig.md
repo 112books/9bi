@@ -1,6 +1,7 @@
 ---
 title: Exposició de "Dones Viatgeres" al TiG.
 date: 2019-03-01T00:09:00+0100
+year: 2019
 author: 9 Barris Imatge
 slug: exposicio-de-dones-viatgeres-al-tig
 tags:

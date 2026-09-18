@@ -1,6 +1,7 @@
 ---
 title: Sopar de Entitats  Casal de barri de Prosperitat.
 date: 2024-10-05T21:07:00+0200
+year: 2024
 author: Pedro Click
 slug: sopar-de-entitats-casal-de-barri-de
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Celebracions del mes de Gener 2017. Residència i CD Porta
 date: 2017-02-27T09:39:00+0100
+year: 2017
 author: 9 Barris Imatge
 slug: celebracions-del-mes-de-gener-2017
 tags:

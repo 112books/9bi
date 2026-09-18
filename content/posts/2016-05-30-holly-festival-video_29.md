@@ -1,6 +1,7 @@
 ---
 title: Holly Festival Video
 date: 2016-05-30T01:54:00+0200
+year: 2016
 author: Alberto Sanagustín
 slug: holly-festival-video_29
 tags:

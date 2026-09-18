@@ -1,6 +1,7 @@
 ---
 title: Sense títol
 date: 2012-10-09T07:50:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: 9-barris-analogic-projecte-de
 tags:

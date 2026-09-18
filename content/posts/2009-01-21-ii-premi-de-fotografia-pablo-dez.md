@@ -1,6 +1,7 @@
 ---
 title: II PREMI DE FOTOGRAFIA PABLO DÍEZ
 date: 2009-01-21T20:31:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: ii-premi-de-fotografia-pablo-dez
 tags:

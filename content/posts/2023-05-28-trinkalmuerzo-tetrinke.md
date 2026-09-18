@@ -1,6 +1,7 @@
 ---
 title: Trinkalmuerzo Tetrinké
 date: 2023-05-28T10:26:00+0200
+year: 2023
 author: Ismael Utrilla
 slug: trinkalmuerzo-tetrinke
 tags:

@@ -1,6 +1,7 @@
 ---
 title: JORNADES PEL DRET A UN HABITATGE DE LLOGUER PROTEGIT
 date: 2009-02-08T17:55:00+0100
+year: 2009
 author: 9 Barris Imatge
 slug: jornades-pel-dret-un-habitatge-de
 tags:

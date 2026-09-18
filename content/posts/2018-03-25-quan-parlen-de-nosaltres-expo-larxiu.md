@@ -1,6 +1,7 @@
 ---
 title: '"Quan parlen de nosaltres " Expo a L''Arxiu Històric de Roquetes.'
 date: 2018-03-25T20:56:00+0200
+year: 2018
 author: 9 Barris Imatge
 slug: quan-parlen-de-nosaltres-expo-larxiu
 tags:

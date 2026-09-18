@@ -1,6 +1,7 @@
 ---
 title: 2024-01-26 - Presentació del llibre "Cuando vengan los nuestros"
 date: 2024-01-27T10:51:00+0100
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-01-26-presentacio-del-llibre
 tags:

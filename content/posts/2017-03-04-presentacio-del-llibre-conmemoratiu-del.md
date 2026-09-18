@@ -2,6 +2,7 @@
 title: Presentació del llibre conmemoratiu del 50è aniversari de la Parròquia de Sta
   Mª Magdalena,en Roquetes.
 date: 2017-03-04T22:55:00+0100
+year: 2017
 author: 9 Barris Imatge
 slug: presentacio-del-llibre-conmemoratiu-del
 tags:

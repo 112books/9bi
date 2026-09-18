@@ -1,6 +1,7 @@
 ---
 title: EL ARBUSTO
 date: 2015-11-09T18:25:00+0100
+year: 2015
 author: Pedro Click
 slug: el-arbusto
 tags:

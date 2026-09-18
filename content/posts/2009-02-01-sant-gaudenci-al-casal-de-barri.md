@@ -1,6 +1,7 @@
 ---
 title: Sant Gaudenci al Casal de Barri
 date: 2009-02-01T12:40:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: sant-gaudenci-al-casal-de-barri
 tags:

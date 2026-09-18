@@ -1,6 +1,7 @@
 ---
 title: Les Nits de Capibola Blues - A Contra Blues
 date: 2012-03-31T12:09:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: les-nits-de-capibola-blues-contra-blues
 tags:

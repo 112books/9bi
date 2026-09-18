@@ -1,6 +1,7 @@
 ---
 title: Presentación del libro "Anónimos más allá de las apariencias"
 date: 2025-07-03T13:09:00+0200
+year: 2025
 author: Pedro Click
 slug: presntacion-del-libro-anonimos-mas-alla
 tags:

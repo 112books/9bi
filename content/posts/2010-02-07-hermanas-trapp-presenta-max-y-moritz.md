@@ -1,6 +1,7 @@
 ---
 title: Hermanas Trapp presenta 'Max y Moritz'
 date: 2010-02-07T12:00:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: hermanas-trapp-presenta-max-y-moritz
 tags:

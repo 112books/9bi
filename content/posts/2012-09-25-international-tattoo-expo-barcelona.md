@@ -1,6 +1,7 @@
 ---
 title: INTERNATIONAL TATTOO EXPO BARCELONA
 date: 2012-09-25T19:22:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: international-tattoo-expo-barcelona
 tags:

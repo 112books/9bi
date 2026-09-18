@@ -1,6 +1,7 @@
 ---
 title: 2024-09-07 – Concert Jack’s Sons al Casal de barri de Prosperitat
 date: 2024-09-07T10:41:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-09-07-concert-jacks-sons-al-casal
 tags:

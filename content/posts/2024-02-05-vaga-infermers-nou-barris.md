@@ -1,6 +1,7 @@
 ---
 title: VAGA INFERMERS NOU BARRIS
 date: 2024-02-05T01:07:00+0100
+year: 2024
 author: Iozsef Kiss
 slug: vaga-infermers-nou-barris
 tags:

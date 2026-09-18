@@ -1,6 +1,7 @@
 ---
 title: Fusió i foc !!!
 date: 2015-11-10T00:46:00+0100
+year: 2015
 author: 9 Barris Imatge
 slug: fusio-i-foc
 tags:

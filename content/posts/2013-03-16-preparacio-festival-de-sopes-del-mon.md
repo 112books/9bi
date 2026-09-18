@@ -1,6 +1,7 @@
 ---
 title: Preparació Festival de Sopes del món 2013
 date: 2013-03-16T15:57:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: preparacio-festival-de-sopes-del-mon
 tags:

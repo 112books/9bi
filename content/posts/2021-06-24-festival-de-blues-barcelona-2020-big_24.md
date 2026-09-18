@@ -1,6 +1,7 @@
 ---
 title: festival de blues barcelona 2020 Big Dani Four
 date: 2021-06-24T14:14:00+0200
+year: 2021
 author: Francesc Barbe
 slug: festival-de-blues-barcelona-2020-big_24
 tags:

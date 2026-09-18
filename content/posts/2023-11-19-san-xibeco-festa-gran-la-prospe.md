@@ -1,6 +1,7 @@
 ---
 title: San Xibeco , Festa gran a la Prospe
 date: 2023-11-19T15:57:00+0100
+year: 2023
 author: Ismael Utrilla
 slug: san-xibeco-festa-gran-la-prospe
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 8è Festival de Blues de Barcelona - Barcelona Blues Big Band
 date: 2010-09-22T00:45:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: 8e-festival-de-blues-de-barcelona_95
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 2021-05-29 - Nou Barris meets New Orleans VII
 date: 2021-06-01T10:45:00+0200
+year: 2021
 author: Joan "Linux" Martínez i Serres
 slug: 2021-05-29-nou-barris-meets-new-orleans
 tags:

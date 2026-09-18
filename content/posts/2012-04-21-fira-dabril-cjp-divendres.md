@@ -1,6 +1,7 @@
 ---
 title: Fira d'abril CJP - Divendres
 date: 2012-04-21T10:23:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: fira-dabril-cjp-divendres
 tags:

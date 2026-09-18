@@ -1,6 +1,7 @@
 ---
 title: Final de la lliga del Barça al Maxi Mas
 date: 2010-05-17T00:45:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: final-de-la-llista-del-barca-al-maxi
 tags:

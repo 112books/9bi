@@ -1,6 +1,7 @@
 ---
 title: 2023-10-22 - 19è Festival de Sopes del Món
 date: 2023-10-22T21:39:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-10-22-19e-festival-de-sopes-del-mon
 tags:

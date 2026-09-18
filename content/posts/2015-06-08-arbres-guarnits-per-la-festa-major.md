@@ -1,6 +1,7 @@
 ---
 title: Arbres guarnits per la Festa Major
 date: 2015-06-08T20:30:00+0200
+year: 2015
 author: Alberto Sanagustín
 slug: arbres-guarnits-per-la-festa-major
 tags:

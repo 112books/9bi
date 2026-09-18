@@ -1,6 +1,7 @@
 ---
 title: 2023-11-11 -  Flamenc de barri al Casal de barri de Prosperitat
 date: 2023-11-13T12:03:00+0100
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-11-11-flamenc-de-barri-al-casal-de
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Lliurament de Premis del XXVIII Concurs de Fotografia Josep Anton Cordoncillo
 date: 2017-12-16T22:14:00+0100
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: lliurament-de-premis-del-xxviii-concurs
 tags:

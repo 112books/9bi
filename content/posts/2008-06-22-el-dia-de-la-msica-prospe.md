@@ -1,6 +1,7 @@
 ---
 title: El dia de la música a Prospe!
 date: 2008-06-22T19:53:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: el-dia-de-la-msica-prospe
 tags:

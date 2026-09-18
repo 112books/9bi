@@ -1,6 +1,7 @@
 ---
 title: 2024-06-07 - Casal de Bicis - Massa Crítica
 date: 2024-06-08T10:03:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-06-07-casal-de-bicis-massa-critica
 tags:

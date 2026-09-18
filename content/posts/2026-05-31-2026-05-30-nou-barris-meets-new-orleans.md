@@ -1,6 +1,7 @@
 ---
 title: 2026-05-30 – Nou Barris Meets New Orleans
 date: 2026-05-31T12:48:08+0200
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: 2026-05-30-nou-barris-meets-new-orleans
 tags:

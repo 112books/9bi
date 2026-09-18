@@ -1,6 +1,7 @@
 ---
 title: PROSPEFESTA 2011 Sabado
 date: 2011-05-29T18:03:00+0200
+year: 2011
 author: Pedro Click
 slug: prospefesta-2011-sabado
 tags:

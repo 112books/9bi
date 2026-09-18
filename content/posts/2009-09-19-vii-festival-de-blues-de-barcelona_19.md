@@ -1,6 +1,7 @@
 ---
 title: VII Festival de Blues de Barcelona - MasterClass Bob Seeley
 date: 2009-09-19T15:44:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: vii-festival-de-blues-de-barcelona_19
 tags:

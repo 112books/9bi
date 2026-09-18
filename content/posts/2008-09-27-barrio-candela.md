@@ -1,6 +1,7 @@
 ---
 title: Barrio Candela
 date: 2008-09-27T02:09:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: barrio-candela
 tags:

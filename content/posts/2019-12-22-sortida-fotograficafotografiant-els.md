@@ -1,6 +1,7 @@
 ---
 title: Sortida fotogràfica...fotografiant els llums.
 date: 2019-12-22T10:34:00+0100
+year: 2019
 author: Núria Laura Orbaneja
 slug: sortida-fotograficafotografiant-els
 tags:

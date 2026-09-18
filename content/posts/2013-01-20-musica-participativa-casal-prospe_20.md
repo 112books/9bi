@@ -1,6 +1,7 @@
 ---
 title: MÚSICA PARTICIPATIVA CASAL PROSPE
 date: 2013-01-20T17:52:00+0100
+year: 2013
 author: Pedro Click
 slug: musica-participativa-casal-prospe_20
 tags:

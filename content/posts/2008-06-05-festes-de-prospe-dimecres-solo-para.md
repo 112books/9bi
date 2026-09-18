@@ -1,6 +1,7 @@
 ---
 title: Festes de prospe - dimecres - Solo para Cortos
 date: 2008-06-05T09:36:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe-dimecres-solo-para
 tags:

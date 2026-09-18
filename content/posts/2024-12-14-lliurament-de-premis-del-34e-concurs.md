@@ -2,6 +2,7 @@
 title: Lliurament de premis del 34è Concurs Fotogràfic Josep Antón Cordoncillo + Jo
   Solana Trio
 date: 2024-12-14T07:47:00+0100
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: lliurament-de-premis-del-34e-concurs
 tags:

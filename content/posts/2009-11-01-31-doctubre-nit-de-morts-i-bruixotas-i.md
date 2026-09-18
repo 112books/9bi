@@ -2,6 +2,7 @@
 title: 31 d´octubre.. Nit de morts i bruixotes i copes..i .. Casal de Prospe .. Concert
   PRIMOS PERTURBADOS
 date: 2009-11-01T13:41:00+0100
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: 31-doctubre-nit-de-morts-i-bruixotas-i
 tags:

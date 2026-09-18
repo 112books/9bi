@@ -1,6 +1,7 @@
 ---
 title: Calçotada Diables + Serra Almòs + Ateneu 9Barris
 date: 2009-03-31T14:07:00+0200
+year: 2009
 author: 9 Barris Imatge
 slug: calcotada-diables-serra-almos-ateneu
 tags:

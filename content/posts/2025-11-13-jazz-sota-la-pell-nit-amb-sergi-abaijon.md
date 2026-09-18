@@ -1,6 +1,7 @@
 ---
 title: '"Jazz sota la pell"- nit amb Sergi Abaijón Quartet'
 date: 2025-11-13T17:46:00+0100
+year: 2025
 author: Iozsef Kiss
 slug: jazz-sota-la-pell-nit-amb-sergi-abaijon
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Mostra de Cultura Popular Catalana a Nou Barris
 date: 2019-04-28T10:51:00+0200
+year: 2019
 author: Núria Laura Orbaneja
 slug: mostra-de-cultura-popular-nou-barris
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Res a la nevera; per què es passa gana si es llença el menjar?
 date: 2011-02-20T17:41:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: res-la-nevera-per-que-es-passa-gana-si
 tags:

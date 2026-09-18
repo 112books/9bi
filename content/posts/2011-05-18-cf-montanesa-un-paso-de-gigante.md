@@ -1,6 +1,7 @@
 ---
 title: CF MONTAÑESA, UN  PASO DE GIGANTE
 date: 2011-05-18T00:21:00+0200
+year: 2011
 author: Pedro Click
 slug: cf-montanesa-un-paso-de-gigante
 tags:

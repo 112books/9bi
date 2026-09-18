@@ -1,6 +1,7 @@
 ---
 title: Concurs Fototgràfic Josep Anton Cordoncillo 2009
 date: 2009-09-08T23:05:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: concurs-fototgrafic-josep-anton
 tags:

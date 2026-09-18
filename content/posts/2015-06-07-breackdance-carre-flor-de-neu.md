@@ -1,6 +1,7 @@
 ---
 title: BREACKDANCE CARRE FLOR DE NEU
 date: 2015-06-07T22:38:00+0200
+year: 2015
 author: Pedro Click
 slug: breackdance-carre-flor-de-neu
 tags:

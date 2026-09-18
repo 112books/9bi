@@ -2,6 +2,7 @@
 title: 2025-05-28 – Festes de Prosperitat – Dimecres – Paella popular al Casal de
   Joves de Prosperitat
 date: 2025-05-28T19:15:00+0200
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-05-28-festes-de-prosperitat
 tags:

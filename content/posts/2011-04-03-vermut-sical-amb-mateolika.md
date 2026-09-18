@@ -1,6 +1,7 @@
 ---
 title: Vermut Sical amb Mateolika
 date: 2011-04-03T01:10:00+0200
+year: 2011
 author: 9 Barris Imatge
 slug: vermut-sical-amb-mateolika
 tags:

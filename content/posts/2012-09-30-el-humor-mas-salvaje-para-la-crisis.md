@@ -1,6 +1,7 @@
 ---
 title: 'El humor más salvaje para la crisis española (made in Taiwan) '
 date: 2012-09-30T14:09:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: el-humor-mas-salvaje-para-la-crisis
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Karoli "L´home roda" Festa Major Prosperitat 2013
 date: 2013-06-05T16:00:00+0200
+year: 2013
 author: Manel Sala "Ulls" Circ
 slug: karoli-lhome-roda-festa-major
 tags:

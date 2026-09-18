@@ -1,6 +1,7 @@
 ---
 title: EL GERMA DE JOAN?
 date: 2011-06-04T01:10:00+0200
+year: 2011
 author: Pedro Click
 slug: el-germa-de-joan
 cover:

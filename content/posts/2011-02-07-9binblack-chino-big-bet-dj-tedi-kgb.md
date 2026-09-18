@@ -1,6 +1,7 @@
 ---
 title: 9binblack - Chino & The Big Bet + DJ Tedi KGB
 date: 2011-02-07T04:03:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: 9binblack-chino-big-bet-dj-tedi-kgb
 tags:

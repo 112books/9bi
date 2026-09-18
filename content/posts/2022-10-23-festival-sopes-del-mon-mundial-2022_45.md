@@ -1,6 +1,7 @@
 ---
 title: Festival sopes del món mundial 2022
 date: 2022-10-23T18:36:00+0200
+year: 2022
 author: Francesc Barbe
 slug: festival-sopes-del-mon-mundial-2022_45
 tags:

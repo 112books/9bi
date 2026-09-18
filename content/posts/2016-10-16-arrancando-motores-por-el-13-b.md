@@ -1,6 +1,7 @@
 ---
 title: '"Arrancando motores !!!   A por el 13-B !!!'
 date: 2016-10-16T20:49:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: arrancando-motores-por-el-13-b
 tags:

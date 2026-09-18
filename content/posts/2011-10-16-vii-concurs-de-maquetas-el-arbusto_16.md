@@ -1,6 +1,7 @@
 ---
 title: VII Concurs de maquetas "El Arbusto" - Dissabte
 date: 2011-10-16T16:42:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: vii-concurs-de-maquetas-el-arbusto_16
 tags:

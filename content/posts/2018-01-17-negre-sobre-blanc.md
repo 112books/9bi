@@ -1,6 +1,7 @@
 ---
 title: Negre sobre Blanc
 date: 2018-01-17T18:34:00+0100
+year: 2018
 author: Alberto Sanagustín
 slug: negre-sobre-blanc
 tags:

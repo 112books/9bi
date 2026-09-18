@@ -1,6 +1,7 @@
 ---
 title: 'Nit de Foc: Correfoc i Piromusical'
 date: 2016-06-07T01:48:00+0200
+year: 2016
 author: Alberto Sanagustín
 slug: nit-de-foc-correfoc-i-piromusical
 tags:

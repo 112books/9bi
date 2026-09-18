@@ -1,6 +1,7 @@
 ---
 title: Eskalabirres
 date: 2024-05-26T16:26:00+0200
+year: 2024
 author: Francesc Barbe
 slug: eskalabirres
 cover:

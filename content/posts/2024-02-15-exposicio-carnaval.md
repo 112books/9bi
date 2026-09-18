@@ -1,6 +1,7 @@
 ---
 title: Exposició Carnaval.
 date: 2024-02-15T21:03:00+0100
+year: 2024
 author: Núria Laura Orbaneja
 slug: exposicio-carnaval
 tags:

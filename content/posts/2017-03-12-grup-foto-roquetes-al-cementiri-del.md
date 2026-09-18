@@ -1,6 +1,7 @@
 ---
 title: Grup Foto Roquetes al Cementiri del Poble Nou.
 date: 2017-03-12T21:46:00+0100
+year: 2017
 author: 9 Barris Imatge
 slug: grup-foto-roquetes-al-cementiri-del
 tags:

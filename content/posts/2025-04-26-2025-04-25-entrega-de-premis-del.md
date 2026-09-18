@@ -1,6 +1,7 @@
 ---
 title: 2025-04-25 - Entrega de premis del concurs literari
 date: 2025-04-26T18:19:00+0200
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-04-25-entrega-de-premis-del
 tags:

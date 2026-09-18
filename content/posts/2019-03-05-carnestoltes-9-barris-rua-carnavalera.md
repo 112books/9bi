@@ -1,6 +1,7 @@
 ---
 title: Carnestoltes a 9 Barris-Rua Carnavalera
 date: 2019-03-05T19:01:00+0100
+year: 2019
 author: Ismael Utrilla
 slug: carnestoltes-9-barris-rua-carnavalera
 tags:

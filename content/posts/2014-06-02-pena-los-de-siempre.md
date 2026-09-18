@@ -1,6 +1,7 @@
 ---
 title: PEÑA LOS DE SIEMPRE
 date: 2014-06-02T17:48:00+0200
+year: 2014
 author: Manel Villalba
 slug: pena-los-de-siempre
 tags:

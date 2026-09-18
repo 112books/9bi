@@ -1,6 +1,7 @@
 ---
 title: Castell de foc
 date: 2024-06-02T23:56:00+0200
+year: 2024
 author: Francesc Barbe
 slug: castell-de-foc
 tags:

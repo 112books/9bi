@@ -1,6 +1,7 @@
 ---
 title: EXPOSICIÓ FOTOGRÀFICA DEL GRUP FOTO ROQUETES AL TON I GUIDA !!!
 date: 2015-01-15T23:01:00+0100
+year: 2015
 author: 9 Barris Imatge
 slug: exposicio-fotografica-del-grup-foto
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Alguns trucs per a fotògrafs amb pocs recursos econòmics
 date: 2008-04-04T20:22:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: alguns-trucs-per-fotgrafs-amb-pocs
 tags:

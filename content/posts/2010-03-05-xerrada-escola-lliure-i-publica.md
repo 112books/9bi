@@ -2,6 +2,7 @@
 title: Xerrada "Escola lliure i pública" organitzada per Pigmeos al Casal de barri
   de Prosperitat
 date: 2010-03-05T15:13:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: xerrada-escola-lliure-i-publica
 tags:

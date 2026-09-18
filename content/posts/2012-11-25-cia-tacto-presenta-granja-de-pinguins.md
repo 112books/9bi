@@ -1,6 +1,7 @@
 ---
 title: 'Cia. Tacto presenta: “Granja de Pingüins”'
 date: 2012-11-25T10:18:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: cia-tacto-presenta-granja-de-pinguins
 tags:

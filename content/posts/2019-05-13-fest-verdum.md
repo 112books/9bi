@@ -1,6 +1,7 @@
 ---
 title: Fes't Verdum !!!
 date: 2019-05-13T22:01:00+0200
+year: 2019
 author: 9 Barris Imatge
 slug: fest-verdum
 tags:

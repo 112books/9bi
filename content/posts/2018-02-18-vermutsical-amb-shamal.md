@@ -1,6 +1,7 @@
 ---
 title: Vermutsical amb Shamal
 date: 2018-02-18T04:04:00+0100
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-shamal
 tags:

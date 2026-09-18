@@ -1,6 +1,7 @@
 ---
 title: Morosito. Feria de Abril Prosperitat 2017
 date: 2017-04-28T12:26:00+0200
+year: 2017
 author: Manel Sala "Ulls" Circ
 slug: morosito-feria-de-abril-prosperitat-2017
 tags:

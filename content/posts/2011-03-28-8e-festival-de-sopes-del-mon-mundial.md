@@ -1,6 +1,7 @@
 ---
 title: 8è Festival de Sopes del món mundial
 date: 2011-03-28T10:08:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: 8e-festival-de-sopes-del-mon-mundial
 tags:

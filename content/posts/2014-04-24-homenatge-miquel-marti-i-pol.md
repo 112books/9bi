@@ -1,6 +1,7 @@
 ---
 title: Homenatge a Miquel Martí i Pol
 date: 2014-04-24T23:28:00+0200
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: homenatge-miquel-marti-i-pol
 tags:

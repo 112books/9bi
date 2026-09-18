@@ -1,6 +1,7 @@
 ---
 title: 2025-03-21 - Tirititrans Trans Trans
 date: 2025-03-23T11:38:00+0100
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-03-21-tirititrans-trans-trans
 tags:

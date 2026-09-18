@@ -1,6 +1,7 @@
 ---
 title: Manifestació contra el model turístic de Barcelona a la Barceloneta
 date: 2014-08-31T13:20:00+0200
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: manifestacio-contra-el-model-turistic
 tags:

@@ -2,6 +2,7 @@
 title: Festival Blues Barcelona - Vermut de Blues amb Lefty & Gaston,  Sebastopol
   i Slim Bay Seals
 date: 2008-09-16T08:10:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: festival-blues-barcelona-vermut-de
 tags:

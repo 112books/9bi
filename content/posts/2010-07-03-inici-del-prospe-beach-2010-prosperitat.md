@@ -1,6 +1,7 @@
 ---
 title: Inici del Prospe Beach 2010 a Prosperitat
 date: 2010-07-03T12:07:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: inici-del-prospe-beach-2010-prosperitat
 tags:

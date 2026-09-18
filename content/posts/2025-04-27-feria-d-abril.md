@@ -1,6 +1,7 @@
 ---
 title: Feria d ´Abril
 date: 2025-04-27T16:57:00+0200
+year: 2025
 author: Francesc Barbe
 slug: feria-d-abril
 cover:

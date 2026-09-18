@@ -1,6 +1,7 @@
 ---
 title: Spanishrevolution . Barcelona . 20M
 date: 2011-05-21T04:22:00+0200
+year: 2011
 author: Manel Sala "Ulls" Circ
 slug: spanishrevolution-barcelona-20m
 tags:

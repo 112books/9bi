@@ -1,6 +1,7 @@
 ---
 title: Fiesta Espuma. Plaça treballadors  Harry walker
 date: 2019-06-03T07:37:00+0200
+year: 2019
 author: Ismael Utrilla
 slug: fiesta-espuma-placa-treballadors-harry
 tags:

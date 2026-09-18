@@ -1,6 +1,7 @@
 ---
 title: Tardor,, colors que canvien
 date: 2009-10-16T20:33:00+0200
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: tardor-colors-que-canvien
 tags:

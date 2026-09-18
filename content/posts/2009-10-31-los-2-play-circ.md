@@ -1,6 +1,7 @@
 ---
 title: Los 2 Play - Circ
 date: 2009-10-31T13:37:00+0100
+year: 2009
 author: Manel Sala "Ulls" Circ
 slug: los-2-play-circ
 tags:

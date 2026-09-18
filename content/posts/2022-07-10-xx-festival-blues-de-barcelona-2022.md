@@ -1,6 +1,7 @@
 ---
 title: ' XX FESTIVAL BLUES DE BARCELONA 2022'
 date: 2022-07-10T12:19:00+0200
+year: 2022
 author: Pedro Click
 slug: xx-festival-blues-de-barcelona-2022
 tags:

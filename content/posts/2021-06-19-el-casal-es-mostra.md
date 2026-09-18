@@ -1,6 +1,7 @@
 ---
 title: El Casal es mostra
 date: 2021-06-19T18:14:00+0200
+year: 2021
 author: Francesc Barbe
 slug: el-casal-es-mostra
 tags:

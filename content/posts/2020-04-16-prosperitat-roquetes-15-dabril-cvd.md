@@ -1,6 +1,7 @@
 ---
 title: Prosperitat-Roquetes a 15 d'Abril CVD
 date: 2020-04-16T21:02:00+0200
+year: 2020
 author: 9 Barris Imatge
 slug: prosperitat-roquetes-15-dabril-cvd
 tags:

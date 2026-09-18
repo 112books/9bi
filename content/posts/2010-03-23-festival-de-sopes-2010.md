@@ -1,6 +1,7 @@
 ---
 title: Festival de Sopes 2010
 date: 2010-03-23T10:12:00+0100
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: festival-de-sopes-2010
 tags:

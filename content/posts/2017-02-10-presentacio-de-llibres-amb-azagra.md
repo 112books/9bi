@@ -1,6 +1,7 @@
 ---
 title: Presentació de llibres amb Azagra, Revuelta i l’actuació de Kike Ubieto
 date: 2017-02-10T10:11:00+0100
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-de-llibres-amb-azagra
 tags:

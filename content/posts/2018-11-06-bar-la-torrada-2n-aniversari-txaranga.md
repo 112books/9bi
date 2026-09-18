@@ -1,6 +1,7 @@
 ---
 title: Bar La Torrada 2n Aniversari + Txaranga RoketanBand + Mateólika Full Band
 date: 2018-11-06T19:47:00+0100
+year: 2018
 author: Manel Sala "Ulls" Circ
 slug: bar-la-torrada-2n-aniversari-txaranga
 tags:

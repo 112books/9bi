@@ -1,6 +1,7 @@
 ---
 title: Musica Participativa - setembre 2014
 date: 2014-09-21T16:04:00+0200
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: musica-participativa-setembre-2014
 tags:

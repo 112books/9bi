@@ -1,6 +1,7 @@
 ---
 title: Iaioflautes. Casal Prospe pregó Carnaval 2013
 date: 2013-02-17T12:35:00+0100
+year: 2013
 author: Manel Sala "Ulls" Circ
 slug: iaioflautes-casal-prospe-prego-carnaval
 tags:

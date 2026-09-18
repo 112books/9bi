@@ -1,6 +1,7 @@
 ---
 title: FESTIVAL DE BLUES DE BARCELONA
 date: 2010-09-27T20:18:00+0200
+year: 2010
 author: Pedro Click
 slug: festival-de-blues-de-barcelona
 tags:

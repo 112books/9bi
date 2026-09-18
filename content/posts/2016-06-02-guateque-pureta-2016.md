@@ -1,6 +1,7 @@
 ---
 title: GUATEQUE PURETA 2016
 date: 2016-06-02T18:25:00+0200
+year: 2016
 author: Pedro Click
 slug: guateque-pureta-2016
 cover:

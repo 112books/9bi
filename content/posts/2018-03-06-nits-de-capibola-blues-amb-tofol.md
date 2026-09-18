@@ -2,6 +2,7 @@
 title: Nits de Capibola Blues amb Tòfol Martínez Organic trio -  Leica M6 - Ilford
   Detlta 400 @1600
 date: 2018-03-06T10:07:00+0100
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: nits-de-capibola-blues-amb-tofol
 tags:

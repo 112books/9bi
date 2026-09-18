@@ -1,6 +1,7 @@
 ---
 title: 'Mémora : xerrades i tallers gratuits.'
 date: 2016-10-13T22:49:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: memora-xerrades-i-tallers-gratuits
 tags:

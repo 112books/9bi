@@ -1,6 +1,7 @@
 ---
 title: 'Sant Xibeco 2024: tradició i música a la Prosperitat'
 date: 2024-11-17T00:39:00+0100
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: sant-xibeco-2024-tradicio-i-musica-la
 tags:

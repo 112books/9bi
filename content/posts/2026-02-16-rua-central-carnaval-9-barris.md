@@ -1,6 +1,7 @@
 ---
 title: Rua Central Carnaval 9 Barris
 date: 2026-02-16T20:06:00+0100
+year: 2026
 author: Ismael Utrilla
 slug: rua-central-carnaval-9-barris
 tags:

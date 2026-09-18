@@ -1,6 +1,7 @@
 ---
 title: Photocall Sopes Del Món 2023 Bcn
 date: 2023-10-22T22:30:00+0200
+year: 2023
 author: Ismael Utrilla
 slug: photocall-sopes-del-mon-2023-bcn
 tags:

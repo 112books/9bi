@@ -1,6 +1,7 @@
 ---
 title: Incendi Collserola 08-06-2021
 date: 2021-06-09T12:33:00+0200
+year: 2021
 author: Manel Sala "Ulls" Circ
 slug: incendi-collserola-08-06-2021
 tags:

@@ -1,6 +1,7 @@
 ---
 title: RETRATOS,DE LOS PROTAGONISTAS DE FESTIVAL DE SOPAS
 date: 2010-03-25T12:07:00+0100
+year: 2010
 author: Pedro Click
 slug: retratosde-los-protagonistas-de
 tags:

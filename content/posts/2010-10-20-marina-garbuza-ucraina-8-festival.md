@@ -1,6 +1,7 @@
 ---
 title: Marina Garbuza. UcraÏna. 8º Festival Internacional de Circ de Budapest 2010
 date: 2010-10-20T21:15:00+0200
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: marina-garbuza-ucraina-8-festival
 tags:

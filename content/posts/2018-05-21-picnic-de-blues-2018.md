@@ -1,6 +1,7 @@
 ---
 title: Picnic de Blues 2018
 date: 2018-05-21T21:51:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: picnic-de-blues-2018
 tags:

@@ -1,6 +1,7 @@
 ---
 title: FESTIVAL DE BLUES DE BARCELONA 2015
 date: 2015-07-14T17:01:00+0200
+year: 2015
 author: Pedro Click
 slug: festival-de-blues-de-barcelona-2015
 tags:

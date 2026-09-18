@@ -1,6 +1,7 @@
 ---
 title: Assamblea AV Prosperitat
 date: 2013-04-17T00:03:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: assamblea-av-prosperitat
 tags:

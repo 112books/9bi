@@ -1,6 +1,7 @@
 ---
 title: El Centenari de la Prosperitat, 1919-2019 és visible a les nostres escoles
 date: 2019-03-21T10:12:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: el-centenari-de-laprosperitat-1919-2019
 tags:

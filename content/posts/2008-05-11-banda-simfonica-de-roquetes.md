@@ -1,6 +1,7 @@
 ---
 title: Banda Simfonica de Roquetes
 date: 2008-05-11T22:15:00+0200
+year: 2008
 author: Pedro "Casal" Cervera
 slug: banda-simfonica-de-roquetes
 tags:

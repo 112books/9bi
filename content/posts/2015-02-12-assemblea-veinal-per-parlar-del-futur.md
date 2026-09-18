@@ -1,6 +1,7 @@
 ---
 title: Assemblea veïnal per parlar del futur del barri
 date: 2015-02-12T09:02:00+0100
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: assemblea-veinal-per-parlar-del-futur
 tags:

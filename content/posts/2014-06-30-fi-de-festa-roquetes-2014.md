@@ -1,6 +1,7 @@
 ---
 title: FÍ DE FESTA A ROQUETES 2014 !!!
 date: 2014-06-30T00:57:00+0200
+year: 2014
 author: 9 Barris Imatge
 slug: fi-de-festa-roquetes-2014
 tags:

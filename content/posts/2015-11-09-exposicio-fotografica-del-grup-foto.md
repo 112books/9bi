@@ -1,6 +1,7 @@
 ---
 title: 'Exposició fotogràfica del Grup Foto Roquetes al Ton i Guida '
 date: 2015-11-09T17:40:00+0100
+year: 2015
 author: 9 Barris Imatge
 slug: exposicio-fotografica-del-grup-foto
 tags:

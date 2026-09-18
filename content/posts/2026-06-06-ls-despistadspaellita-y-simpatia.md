@@ -1,6 +1,7 @@
 ---
 title: L@s Despistad@s.Paellita y Simpatía.
 date: 2026-06-06T20:21:50+0200
+year: 2026
 author: Ismael Utrilla
 slug: ls-despistadspaellita-y-simpatia
 tags:

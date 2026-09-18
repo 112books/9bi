@@ -1,6 +1,7 @@
 ---
 title: Tabalada de diables, Correfoc, Castell de foc i final de festes de la prospe...
 date: 2023-06-05T14:26:00+0200
+year: 2023
 author: Iozsef Kiss
 slug: tabalada-de-diables-correfoc-castell-de
 tags:

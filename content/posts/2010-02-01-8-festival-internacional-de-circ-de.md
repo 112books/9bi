@@ -1,6 +1,7 @@
 ---
 title: 8º Festival Internacional de Circ de Budapest 2010
 date: 2010-02-01T16:33:00+0100
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: 8-festival-internacional-de-circ-de
 tags:

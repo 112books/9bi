@@ -1,6 +1,7 @@
 ---
 title: Presentació diari de Festes amb Mocebares
 date: 2015-05-24T10:46:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-diari-de-festes-amb
 tags:

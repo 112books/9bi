@@ -1,6 +1,7 @@
 ---
 title: 2022-06-05 - Festes de Prosperitat - Diumenge
 date: 2022-06-06T08:46:00+0200
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: 2022-06-05-festes-de-prosperitat
 tags:

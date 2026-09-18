@@ -1,6 +1,7 @@
 ---
 title: 19 J, una jornada històrica de lluita pacífica a Barcelona
 date: 2011-06-19T23:38:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: 19-j-una-jornada-historica-de-lluita
 tags:

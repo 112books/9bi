@@ -1,6 +1,7 @@
 ---
 title: Festes de Prospe’18 – Dilluns 28 - ChistorraRock
 date: 2018-05-29T13:04:00+0200
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe18-dilluns-28
 tags:

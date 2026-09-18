@@ -1,6 +1,7 @@
 ---
 title: RODA DE PREMSA A "DATE UNA HUERTA"
 date: 2019-06-19T16:28:00+0200
+year: 2019
 author: Alberto Sanagustín
 slug: roda-de-premsa-date-una-huerta
 tags:

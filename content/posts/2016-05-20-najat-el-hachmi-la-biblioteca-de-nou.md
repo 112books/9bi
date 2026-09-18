@@ -1,6 +1,7 @@
 ---
 title: Najat El Hachmi a la Biblioteca de Nou Barris.
 date: 2016-05-20T01:25:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: najat-el-hachmi-la-biblioteca-de-nou
 tags:

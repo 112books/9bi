@@ -1,6 +1,7 @@
 ---
 title: Nou Barris per la convivència
 date: 2017-05-09T12:06:00+0200
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: nou-barris-per-la-convivencia
 tags:

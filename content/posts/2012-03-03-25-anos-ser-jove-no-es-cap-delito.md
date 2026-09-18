@@ -1,6 +1,7 @@
 ---
 title: 25 AÑOS (Ser jove no es cap delicte)
 date: 2012-03-03T08:39:00+0100
+year: 2012
 author: Pedro Click
 slug: 25-anos-ser-jove-no-es-cap-delito
 cover:

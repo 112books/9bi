@@ -1,6 +1,7 @@
 ---
 title: Pícnic de Blues 2019
 date: 2019-05-20T20:30:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: picnic-de-blues-2019
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Cercavila inaugural de la Titellada a Roquetes.
 date: 2016-09-29T17:37:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: cercavila-inaugural-de-la-titellada
 tags:

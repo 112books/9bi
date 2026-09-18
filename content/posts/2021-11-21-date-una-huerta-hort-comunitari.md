@@ -1,6 +1,7 @@
 ---
 title: Date Una Huerta Hort Comunitari
 date: 2021-11-21T11:45:00+0100
+year: 2021
 author: Manel Sala "Ulls" Circ
 slug: date-una-huerta-hort-comunitari
 tags:

@@ -1,6 +1,7 @@
 ---
 title: '"MIRADES I VEUS DEL CATALÀ"'
 date: 2015-02-05T22:02:00+0100
+year: 2015
 author: 9 Barris Imatge
 slug: mirades-i-veus-del-catala
 tags:

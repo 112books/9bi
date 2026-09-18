@@ -1,6 +1,7 @@
 ---
 title: Sol Escobar al Casal de barri de Prosperitat
 date: 2019-07-08T22:32:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: sol-escobar-al-casal-de-barri-de
 tags:

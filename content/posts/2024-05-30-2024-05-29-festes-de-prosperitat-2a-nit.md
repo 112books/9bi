@@ -2,6 +2,7 @@
 title: 2024-05-29 - Festes de Prosperitat - 2a nit de Trivial de Promosalut + Mostra
   Casalera amb Mateolika
 date: 2024-05-30T15:14:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-05-29-festes-de-prosperitat-2a-nit
 tags:

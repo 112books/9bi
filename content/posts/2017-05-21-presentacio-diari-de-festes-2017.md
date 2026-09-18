@@ -1,6 +1,7 @@
 ---
 title: Presentació Diari de Festes 2017
 date: 2017-05-21T08:05:00+0200
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-diari-de-festes-2017
 tags:

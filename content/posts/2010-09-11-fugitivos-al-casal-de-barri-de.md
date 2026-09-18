@@ -1,6 +1,7 @@
 ---
 title: Fugitivos al Casal de barri de Prosperitat
 date: 2010-09-11T15:02:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: fugitivos-al-casal-de-barri-de
 tags:

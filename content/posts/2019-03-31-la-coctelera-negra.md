@@ -1,6 +1,7 @@
 ---
 title: LA COCTELERA NEGRA
 date: 2019-03-31T21:15:00+0200
+year: 2019
 author: Pedro Click
 slug: la-coctelera-negra
 tags:

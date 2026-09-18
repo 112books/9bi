@@ -1,6 +1,7 @@
 ---
 title: Ocupació edifici buit a Prosperitat
 date: 2013-03-28T21:13:00+0100
+year: 2013
 author: Pedro "Casal" Cervera
 slug: ocupacio-edifici-buit-prosperitat
 tags:

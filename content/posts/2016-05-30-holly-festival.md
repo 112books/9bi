@@ -1,6 +1,7 @@
 ---
 title: Holly Festival
 date: 2016-05-30T00:11:00+0200
+year: 2016
 author: Alberto Sanagustín
 slug: holly-festival
 tags:

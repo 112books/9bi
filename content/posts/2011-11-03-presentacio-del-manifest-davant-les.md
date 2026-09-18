@@ -1,6 +1,7 @@
 ---
 title: Presentació del manifest "Davant les eleccions del 20N 9 Barris per la convivència"
 date: 2011-11-03T10:23:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-del-manifest-davant-les
 tags:

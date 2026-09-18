@@ -1,6 +1,7 @@
 ---
 title: 2022-09-17 - Festa major de Verdum
 date: 2022-09-17T20:01:00+0200
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: 2022-09-17-festa-major-de-verdum
 tags:

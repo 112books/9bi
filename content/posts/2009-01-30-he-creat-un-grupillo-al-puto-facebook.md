@@ -1,6 +1,7 @@
 ---
 title: Ara també estem al FaceBook
 date: 2009-01-30T03:49:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: he-creat-un-grupillo-al-puto-facebook
 tags:

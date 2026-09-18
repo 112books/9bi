@@ -1,6 +1,7 @@
 ---
 title: 2026-04-19 - Jam Session de Blues a Casa de l’Aigua
 date: 2026-04-20T10:38:00+0200
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: 2026-04-19-jam-session-de-blues-casa-de
 tags:

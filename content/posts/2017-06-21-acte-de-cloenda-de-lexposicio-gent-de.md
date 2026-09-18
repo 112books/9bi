@@ -1,6 +1,7 @@
 ---
 title: Acte de cloenda de l’Exposició “Gent de Nou Barris, gent d’arreu”
 date: 2017-06-21T19:23:00+0200
+year: 2017
 author: Pedro Click
 slug: acte-de-cloenda-de-lexposicio-gent-de
 tags:

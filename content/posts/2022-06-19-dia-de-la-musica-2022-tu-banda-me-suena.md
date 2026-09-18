@@ -1,6 +1,7 @@
 ---
 title: 'Dia de la Música 2022: ¡Tu banda me suena!'
 date: 2022-06-19T10:46:00+0200
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: dia-de-la-musica-2022-tu-banda-me-suena
 tags:

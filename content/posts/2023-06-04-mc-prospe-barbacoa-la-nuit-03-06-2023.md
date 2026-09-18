@@ -1,6 +1,7 @@
 ---
 title: 'Mc ProsPe: Barbacoa La Nuit 03-06-2023 "Improviciados"'
 date: 2023-06-04T16:46:00+0200
+year: 2023
 author: Pedro Click
 slug: mc-prospe-barbacoa-la-nuit-03-06-2023
 tags:

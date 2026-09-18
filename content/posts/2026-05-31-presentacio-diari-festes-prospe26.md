@@ -1,6 +1,7 @@
 ---
 title: Presentació Diari Festes Prospe'26
 date: 2026-05-31T10:43:14+0200
+year: 2026
 author: Ismael Utrilla
 slug: presentacio-diari-festes-prospe26
 tags:

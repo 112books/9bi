@@ -1,6 +1,7 @@
 ---
 title: Festes de Prospe 2016 - Chistorra Rock
 date: 2016-05-31T10:49:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe-2016-chistorra-rock
 tags:

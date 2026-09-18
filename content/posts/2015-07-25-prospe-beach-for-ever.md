@@ -1,6 +1,7 @@
 ---
 title: PROSPE BEACH FOREVER !!!
 date: 2015-07-25T00:45:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: prospe-beach-for-ever
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Vermutsical amb GIN & TONI
 date: 2016-07-31T10:30:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-gin-toni
 tags:

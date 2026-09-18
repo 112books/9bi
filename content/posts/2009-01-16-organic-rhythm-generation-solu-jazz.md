@@ -1,6 +1,7 @@
 ---
 title: Organic Rhythm Generation - Solu Jazz
 date: 2009-01-16T10:47:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: organic-rhythm-generation-solu-jazz
 tags:

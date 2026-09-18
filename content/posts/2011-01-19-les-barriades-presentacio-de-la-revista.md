@@ -1,6 +1,7 @@
 ---
 title: A les Barriades. Presentació de la revista del Casal de Barri de la Prosperitat
 date: 2011-01-19T14:11:00+0100
+year: 2011
 author: Manel Sala "Ulls" Circ
 slug: les-barriades-presentacio-de-la-revista
 tags:

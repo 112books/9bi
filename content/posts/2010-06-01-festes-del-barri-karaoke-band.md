@@ -1,6 +1,7 @@
 ---
 title: Festes del Barri - Karaoke Band
 date: 2010-06-01T01:06:00+0200
+year: 2010
 author: 9 Barris Imatge
 slug: festes-del-barri-karaoke-band
 tags:

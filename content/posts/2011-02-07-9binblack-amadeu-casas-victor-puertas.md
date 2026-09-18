@@ -1,6 +1,7 @@
 ---
 title: 9binblack - Amadeu Casas & Victor Puertas
 date: 2011-02-07T01:54:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: 9binblack-amadeu-casas-victor-puertas
 tags:

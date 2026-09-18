@@ -1,6 +1,7 @@
 ---
 title: La marea pensionista toma el centro de Barcelona
 date: 2018-03-18T20:08:00+0100
+year: 2018
 author: Pedro Click
 slug: la-marea-pensionista-toma-el-centro-de
 tags:

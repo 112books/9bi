@@ -1,6 +1,7 @@
 ---
 title: 'Ruta per la Prosperitat '
 date: 2016-05-21T18:34:00+0200
+year: 2016
 author: Alberto Sanagustín
 slug: ruta-per-la-prosperitat
 tags:

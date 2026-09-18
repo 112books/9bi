@@ -1,6 +1,7 @@
 ---
 title: DIA DE LA DONA 9BARRIS
 date: 2014-03-10T11:05:00+0100
+year: 2014
 author: Pedro Click
 slug: dia-de-la-dona-9barris
 tags:

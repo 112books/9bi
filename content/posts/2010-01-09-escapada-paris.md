@@ -1,6 +1,7 @@
 ---
 title: Escapada a Paris
 date: 2010-01-09T21:59:00+0100
+year: 2010
 author: Pedro Click
 slug: escapada-paris
 tags:

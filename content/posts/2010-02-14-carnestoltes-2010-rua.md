@@ -1,6 +1,7 @@
 ---
 title: Carnestoltes 2010. Rua
 date: 2010-02-14T11:18:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: carnestoltes-2010-rua
 tags:

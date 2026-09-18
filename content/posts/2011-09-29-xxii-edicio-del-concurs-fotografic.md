@@ -1,6 +1,7 @@
 ---
 title: XXII Edició del Concurs Fotogràfic Josep Anton Cordoncillo
 date: 2011-09-29T19:26:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: xxii-edicio-del-concurs-fotografic
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 27-11-2021 - Sopar d'entitats al Casal de Prosperitat + El Pecado
 date: 2021-11-27T11:51:00+0100
+year: 2021
 author: Joan "Linux" Martínez i Serres
 slug: 27-11-2021-sopar-dentitats-al-casal-de
 tags:

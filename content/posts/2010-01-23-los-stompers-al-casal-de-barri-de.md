@@ -1,6 +1,7 @@
 ---
 title: Los Stompers, al Casal de barri de Prosperitat
 date: 2010-01-23T14:24:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: los-stompers-al-casal-de-barri-de
 tags:

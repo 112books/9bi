@@ -1,6 +1,7 @@
 ---
 title: Festa de l'escuma !!!
 date: 2018-06-25T19:26:00+0200
+year: 2018
 author: 9 Barris Imatge
 slug: festa-de-lescuma
 tags:

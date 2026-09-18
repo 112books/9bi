@@ -1,6 +1,7 @@
 ---
 title: VermutSical amb Merighi-Menrath Jazz Dúo
 date: 2013-04-21T02:36:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-merighi-menrath-jazz-duo
 tags:

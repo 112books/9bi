@@ -1,6 +1,7 @@
 ---
 title: Trinibol y pasabars amb banda Patilla Festes Trinitat Nova
 date: 2025-06-11T08:25:00+0200
+year: 2025
 author: Iozsef Kiss
 slug: trinibol-y-pasabars-amb-banda-patilla
 tags:

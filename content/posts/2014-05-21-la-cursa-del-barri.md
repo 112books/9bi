@@ -1,6 +1,7 @@
 ---
 title: LA CURSA DEL BARRI
 date: 2014-05-21T16:34:00+0200
+year: 2014
 author: Manel Villalba
 slug: la-cursa-del-barri
 tags:

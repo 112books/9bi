@@ -1,6 +1,7 @@
 ---
 title: Burning Caravan
 date: 2015-07-26T12:23:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: burning-caravan
 cover:

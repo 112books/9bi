@@ -1,6 +1,7 @@
 ---
 title: Abril, una primavera de núvols sobre Barcelona
 date: 2012-04-22T18:06:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: abril-una-primavera-de-nuvols-sobre
 tags:

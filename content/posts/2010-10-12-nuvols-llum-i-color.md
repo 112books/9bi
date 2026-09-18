@@ -1,6 +1,7 @@
 ---
 title: Núvols, llum i color
 date: 2010-10-12T22:01:00+0200
+year: 2010
 author: Manel Sala "Ulls" Circ
 slug: nuvols-llum-i-color
 tags:

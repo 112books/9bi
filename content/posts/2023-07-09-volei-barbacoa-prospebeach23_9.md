@@ -1,6 +1,7 @@
 ---
 title: ProspeBeach'23
 date: 2023-07-09T13:38:00+0200
+year: 2023
 author: Pedro Click
 slug: volei-barbacoa-prospebeach23_9
 tags:

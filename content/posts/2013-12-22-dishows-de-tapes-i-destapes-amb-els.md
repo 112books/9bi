@@ -2,6 +2,7 @@
 title: Dishows de tapes i destapes.. Amb els alumnes del taller del Casal "Teatre
   d'improvisació"
 date: 2013-12-22T12:49:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: dishows-de-tapes-i-destapes-amb-els
 tags:

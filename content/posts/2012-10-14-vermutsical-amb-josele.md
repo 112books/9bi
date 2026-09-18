@@ -1,6 +1,7 @@
 ---
 title: Vermutsical amb Josele
 date: 2012-10-14T03:24:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-josele
 tags:

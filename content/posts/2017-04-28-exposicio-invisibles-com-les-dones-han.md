@@ -1,6 +1,7 @@
 ---
 title: 'Exposició InVISIBLES : Com les dones han fet i fan Roquetes.'
 date: 2017-04-28T01:28:00+0200
+year: 2017
 author: 9 Barris Imatge
 slug: exposicio-invisibles-com-les-dones-han
 tags:

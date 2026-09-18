@@ -1,6 +1,7 @@
 ---
 title: Cinema a la fresca - Clàssics en blanc i negre amb música en viu
 date: 2011-07-29T16:33:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: cinema-la-fresca-classics-en-blanc-i
 tags:

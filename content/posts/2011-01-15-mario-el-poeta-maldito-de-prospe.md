@@ -1,6 +1,7 @@
 ---
 title: Mario, el poeta maldito de Prospe
 date: 2011-01-15T16:26:00+0100
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: mario-el-poeta-maldito-de-prospe
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 2024-06-01 - Festes de Prospe - Passabars
 date: 2024-06-02T12:16:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-06-01-festes-de-prospe-passabars
 tags:

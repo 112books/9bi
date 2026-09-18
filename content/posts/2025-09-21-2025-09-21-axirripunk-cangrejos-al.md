@@ -1,6 +1,7 @@
 ---
 title: 2025-09-21 - Axirripunk + The Cangrejos al Casal de barri de Prosperitat
 date: 2025-09-21T11:24:00+0200
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-09-21-axirripunk-cangrejos-al
 tags:

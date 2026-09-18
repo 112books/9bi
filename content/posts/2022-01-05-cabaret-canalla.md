@@ -1,6 +1,7 @@
 ---
 title: Cabaret canalla
 date: 2022-01-05T12:02:00+0100
+year: 2022
 author: Francesc Barbe
 slug: cabaret-canalla
 tags:

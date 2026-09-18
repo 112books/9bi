@@ -1,6 +1,7 @@
 ---
 title: Castanyada "día de los muertos"; al Casal de barri de Prosperitat
 date: 2012-11-01T11:30:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: castanyada-dia-de-los-muertos-al-casal
 tags:

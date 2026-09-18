@@ -1,6 +1,7 @@
 ---
 title: 2025-05-18 - Pícnic de Blues al Parc Central de Nou Barris
 date: 2025-05-19T18:52:00+0200
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-05-18-picnic-de-blues-al-parc
 tags:

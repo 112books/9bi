@@ -1,6 +1,7 @@
 ---
 title: FIN DE RAMADAN
 date: 2010-09-29T23:09:00+0200
+year: 2010
 author: Pedro Click
 slug: fin-de-ramadan
 tags:

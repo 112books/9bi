@@ -1,6 +1,7 @@
 ---
 title: FIESTA PARA HELENA
 date: 2016-11-28T18:44:00+0100
+year: 2016
 author: Pedro Click
 slug: fiesta-para-helena
 tags:

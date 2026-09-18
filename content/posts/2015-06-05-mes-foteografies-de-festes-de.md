@@ -1,6 +1,7 @@
 ---
 title: Més fotéografies de Festes de Prosperitat 2015
 date: 2015-06-05T11:50:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: mes-foteografies-de-festes-de
 tags:

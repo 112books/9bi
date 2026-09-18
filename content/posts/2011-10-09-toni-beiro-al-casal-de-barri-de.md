@@ -1,6 +1,7 @@
 ---
 title: Toni Beiro - al Casal de Barri de Prosperitat
 date: 2011-10-09T16:08:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: toni-beiro-al-casal-de-barri-de
 tags:

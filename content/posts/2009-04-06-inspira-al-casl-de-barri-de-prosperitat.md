@@ -1,6 +1,7 @@
 ---
 title: Inspira, al Casl de barri de Prosperitat
 date: 2009-04-06T14:26:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: inspira-al-casl-de-barri-de-prosperitat
 tags:

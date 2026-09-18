@@ -2,6 +2,7 @@
 title: 'Xocolatada y Festa Quimfants -Festa solidària per a la investigació del cancer
   infantil '
 date: 2024-02-05T00:58:00+0100
+year: 2024
 author: Iozsef Kiss
 slug: xocolatada-y-festa-quimfants-festa
 tags:

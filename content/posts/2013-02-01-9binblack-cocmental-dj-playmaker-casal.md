@@ -1,6 +1,7 @@
 ---
 title: 9BinBlack - Cocmental + Dj Playmaker - Casal Joves Prospe
 date: 2013-02-01T00:21:00+0100
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: 9binblack-cocmental-dj-playmaker-casal
 tags:

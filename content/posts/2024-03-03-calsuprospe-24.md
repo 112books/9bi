@@ -1,6 +1,7 @@
 ---
 title: Calsuprospe '24
 date: 2024-03-03T15:51:00+0100
+year: 2024
 author: Ismael Utrilla
 slug: calsuprospe-24
 tags:

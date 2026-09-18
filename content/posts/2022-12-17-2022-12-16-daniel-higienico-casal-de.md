@@ -1,6 +1,7 @@
 ---
 title: 2022-12-16 - Daniel Higiénico - Casal de Barri de Prosperitat
 date: 2022-12-17T00:31:00+0100
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: 2022-12-16-daniel-higienico-casal-de
 tags:

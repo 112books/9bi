@@ -1,6 +1,7 @@
 ---
 title: La Titellada_2018 [dimecres 26]
 date: 2018-09-27T00:33:00+0200
+year: 2018
 author: Núria Laura Orbaneja
 slug: la-titellada2018-dimecres-26
 tags:

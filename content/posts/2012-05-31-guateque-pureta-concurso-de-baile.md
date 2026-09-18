@@ -1,6 +1,7 @@
 ---
 title: GUATEQUE PURETA, Concurso de baile
 date: 2012-05-31T19:25:00+0200
+year: 2012
 author: Pedro Click
 slug: guateque-pureta-concurso-de-baile
 tags:

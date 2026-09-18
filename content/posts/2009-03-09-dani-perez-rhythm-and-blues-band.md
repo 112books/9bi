@@ -1,6 +1,7 @@
 ---
 title: Dani Pérez Rhythm and Blues Band
 date: 2009-03-09T02:12:00+0100
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: dani-perez-rhythm-and-blues-band
 tags:

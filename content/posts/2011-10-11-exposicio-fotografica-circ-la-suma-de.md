@@ -2,6 +2,7 @@
 title: 'Exposició Fotogràfica . CIRC: La suma de totes les arts escèniques. Manel
   Sala "Ulls"'
 date: 2011-10-11T12:51:00+0200
+year: 2011
 author: Manel Sala "Ulls" Circ
 slug: exposicio-fotografica-circ-la-suma-de
 tags:

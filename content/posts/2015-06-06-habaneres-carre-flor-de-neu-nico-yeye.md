@@ -1,6 +1,7 @@
 ---
 title: Habaneres Carre Flor de Neu (NIco Yeye)
 date: 2015-06-06T13:05:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: habaneres-carre-flor-de-neu-nico-yeye
 tags:

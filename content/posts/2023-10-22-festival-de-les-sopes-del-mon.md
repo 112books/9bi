@@ -1,6 +1,7 @@
 ---
 title: Festival de les sopes del món
 date: 2023-10-22T18:36:00+0200
+year: 2023
 author: Francesc Barbe
 slug: festival-de-les-sopes-del-mon
 tags:

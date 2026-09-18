@@ -1,6 +1,7 @@
 ---
 title: 9 Barris cabrejada, diu prou! - Roda de premsa
 date: 2012-11-07T14:39:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: 9-barris-cabrejada-diu-prou-roda-de
 tags:

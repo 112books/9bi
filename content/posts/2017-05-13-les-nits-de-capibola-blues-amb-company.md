@@ -1,6 +1,7 @@
 ---
 title: Les nits de Capibola Blues amb The Company Store
 date: 2017-05-13T10:45:00+0200
+year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: les-nits-de-capibola-blues-amb-company
 tags:

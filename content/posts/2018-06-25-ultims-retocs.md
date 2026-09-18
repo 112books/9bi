@@ -1,6 +1,7 @@
 ---
 title: Últims retocs !!!
 date: 2018-06-25T19:25:00+0200
+year: 2018
 author: 9 Barris Imatge
 slug: ultims-retocs
 tags:

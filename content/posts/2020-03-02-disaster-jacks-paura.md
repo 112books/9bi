@@ -1,6 +1,7 @@
 ---
 title: Disaster Jacks + Paüra
 date: 2020-03-02T18:39:00+0100
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: disaster-jacks-paura
 tags:

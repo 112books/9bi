@@ -1,6 +1,7 @@
 ---
 title: Carnaval 9 Barris ,,,Volviendo a Sonreir ;)
 date: 2022-02-27T12:57:00+0100
+year: 2022
 author: Ismael Utrilla
 slug: carnaval-9-barris-volviendo-sonreir
 tags:

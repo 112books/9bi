@@ -2,6 +2,7 @@
 title: 2023-12-15 - Concert Sweet Marta & Johnny Bigstone a la entrega de premis del
   33è concurs Josep Antón Cordoncillo
 date: 2023-12-16T20:26:00+0100
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-12-15-concert-sweet-marta-johnny
 tags:

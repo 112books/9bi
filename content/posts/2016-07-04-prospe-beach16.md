@@ -1,6 +1,7 @@
 ---
 title: PROSPE BEACH16
 date: 2016-07-04T10:57:00+0200
+year: 2016
 author: Pedro Click
 slug: prospe-beach16
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 'MÉS RÒMBIC : CABARET TITELLAIRE !!!'
 date: 2015-03-29T21:35:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: mes-rombic-cabaret-titellaire
 tags:

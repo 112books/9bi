@@ -1,6 +1,7 @@
 ---
 title: Pícnic de Blues 2015
 date: 2015-05-18T09:15:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: picnic-de-blues-2015
 tags:

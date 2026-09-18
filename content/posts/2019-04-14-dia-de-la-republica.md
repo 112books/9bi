@@ -1,6 +1,7 @@
 ---
 title: Dia de la República
 date: 2019-04-14T21:40:00+0200
+year: 2019
 author: Manel Sala "Ulls" Circ
 slug: dia-de-la-republica
 tags:

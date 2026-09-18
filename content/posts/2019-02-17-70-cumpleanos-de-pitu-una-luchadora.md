@@ -1,6 +1,7 @@
 ---
 title: 70 CUMPLEAÑOS DE "PITU" UNA LUCHADORA SOCIAL
 date: 2019-02-17T19:59:00+0100
+year: 2019
 author: Pedro Click
 slug: 70-cumpleanos-de-pitu-una-luchadora
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Sense títol
 date: 2024-10-05T09:29:00+0200
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: ahir-divendres-varem-celebrar-la
 tags:

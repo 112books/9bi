@@ -1,6 +1,7 @@
 ---
 title: Questioni Meridionale, música folk del sud d'Italia
 date: 2012-10-21T15:02:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: questioni-meridionale-musica-folk-del
 tags:

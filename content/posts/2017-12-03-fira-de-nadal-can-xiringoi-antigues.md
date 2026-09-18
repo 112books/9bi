@@ -1,6 +1,7 @@
 ---
 title: Fira de Nadal a Can Xiringoi (antigues Cotxeres Borbó)
 date: 2017-12-03T20:59:00+0100
+year: 2017
 author: 9 Barris Imatge
 slug: fira-de-nadal-can-xiringoi-antigues
 tags:

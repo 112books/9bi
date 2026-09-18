@@ -1,6 +1,7 @@
 ---
 title: 38a Cursa Popular  Nou Barris 2025 10Km.
 date: 2025-05-20T20:50:00+0200
+year: 2025
 author: Pedro Click
 slug: 38a-cursa-popular-nou-barris-2025-10km
 tags:

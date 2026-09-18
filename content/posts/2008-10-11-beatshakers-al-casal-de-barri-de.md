@@ -1,6 +1,7 @@
 ---
 title: BeatShakers al Casal de Barri de Prosperitat
 date: 2008-10-11T16:31:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: beatshakers-al-casal-de-barri-de
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Castanyada i teatre al TiG !!!
 date: 2016-10-29T22:40:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: castanyada-i-teatre-al-tig
 tags:

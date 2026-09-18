@@ -1,6 +1,7 @@
 ---
 title: One hour, one Km, one roll – 2020-05-21
 date: 2020-05-22T13:57:00+0200
+year: 2020
 author: Joan "Linux" Martínez i Serres
 slug: one-hour-one-km-one-roll-2020-05-21
 cover:

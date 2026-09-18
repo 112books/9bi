@@ -1,6 +1,7 @@
 ---
 title: 'La Prospe Jazz Soul Experience: Hall + Fulvio Paredes Ensemble'
 date: 2019-01-28T00:15:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: la-prospe-jazz-soul-experience-hall
 tags:

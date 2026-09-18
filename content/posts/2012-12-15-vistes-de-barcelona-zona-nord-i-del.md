@@ -1,6 +1,7 @@
 ---
 title: Vistes de Barcelona; Zona nord i &quot;Bunker&quot; del turó de la Rovira
 date: 2012-12-15T21:24:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: vistes-de-barcelona-zona-nord-i-del
 tags:

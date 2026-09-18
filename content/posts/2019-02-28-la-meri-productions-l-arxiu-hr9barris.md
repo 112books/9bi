@@ -1,6 +1,7 @@
 ---
 title: La Meri Productions a l' Arxiu HR9Barris.
 date: 2019-02-28T23:52:00+0100
+year: 2019
 author: 9 Barris Imatge
 slug: la-meri-productions-l-arxiu-hr9barris
 tags:

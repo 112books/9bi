@@ -2,6 +2,7 @@
 title: 11è Festival de Blues de Barcelona - Blas Picón & The Junk Express, i Lorenzo
   Thompson & Tota Blues
 date: 2013-07-20T15:17:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: 11e-festival-de-blues-de-barcelona-blas
 tags:

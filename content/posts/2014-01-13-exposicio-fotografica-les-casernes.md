@@ -2,6 +2,7 @@
 title: 'Exposició Fotogràfica: "Les Casernes Okupades de Sant Andreu" per Francesc
   Barbé'
 date: 2014-01-13T18:52:00+0100
+year: 2014
 author: Joan "Linux" Martínez i Serres
 slug: exposicio-fotografica-les-casernes
 tags:

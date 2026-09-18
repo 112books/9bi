@@ -1,6 +1,7 @@
 ---
 title: Di-Shows amb Improprospe
 date: 2016-04-12T15:49:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: from-us-presentem-la-sessio
 tags:

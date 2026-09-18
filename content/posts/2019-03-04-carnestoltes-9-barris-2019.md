@@ -1,6 +1,7 @@
 ---
 title: Carnestoltes 9 Barris 2019
 date: 2019-03-04T11:49:00+0100
+year: 2019
 author: Manel Sala "Ulls" Circ
 slug: carnestoltes-9-barris-2019
 tags:

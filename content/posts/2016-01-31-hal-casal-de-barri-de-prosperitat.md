@@ -1,6 +1,7 @@
 ---
 title: HAL - Casal de barri de Prosperitat
 date: 2016-01-31T16:55:00+0100
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: hal-casal-de-barri-de-prosperitat
 tags:

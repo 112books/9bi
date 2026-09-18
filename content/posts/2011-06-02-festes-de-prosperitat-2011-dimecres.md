@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat 2011 - Dimecres
 date: 2011-06-02T02:01:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-2011-dimecres
 tags:

@@ -1,6 +1,7 @@
 ---
 title: VII Prospe Beer. Superbebientes
 date: 2019-05-27T14:55:00+0200
+year: 2019
 author: Ismael Utrilla
 slug: vii-prospe-beer-superbebientes
 tags:

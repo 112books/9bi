@@ -1,6 +1,7 @@
 ---
 title: Sanitat 100% Pública - CAP Rio de Janeiro - 9-6-2020
 date: 2020-06-10T12:03:00+0200
+year: 2020
 author: Manel Sala "Ulls" Circ
 slug: sanitat-100-publica-cap-rio-de-janeiro
 tags:

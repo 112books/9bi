@@ -1,6 +1,7 @@
 ---
 title: Havaneres Veïns i Veïnes del carre Flor de Neu
 date: 2011-06-05T17:32:00+0200
+year: 2011
 author: Nico YeYe
 slug: havaneres-veins-i-veines-del-carre-flor
 tags:

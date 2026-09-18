@@ -1,6 +1,7 @@
 ---
 title: Can Masdeu a Nou Barris
 date: 2018-07-19T18:19:00+0200
+year: 2018
 author: 9 Barris Imatge
 slug: can-masdeu-nou-barris
 tags:

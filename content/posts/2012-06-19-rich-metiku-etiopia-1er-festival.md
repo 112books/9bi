@@ -2,6 +2,7 @@
 title: Rich Metiku. Etiòpia. 1er Festival Internacional del Circ Castell de Figueres
   2012. Premi de Bronze
 date: 2012-06-19T23:17:00+0200
+year: 2012
 author: Manel Sala "Ulls" Circ
 slug: rich-metiku-etiopia-1er-festival
 tags:

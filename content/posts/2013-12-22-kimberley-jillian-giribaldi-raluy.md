@@ -1,6 +1,7 @@
 ---
 title: Kimberley &  Jillian Giribaldi Raluy
 date: 2013-12-22T13:11:00+0100
+year: 2013
 author: Manel Sala "Ulls" Circ
 slug: kimberley-jillian-giribaldi-raluy
 tags:

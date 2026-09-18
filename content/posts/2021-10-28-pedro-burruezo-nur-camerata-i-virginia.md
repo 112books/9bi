@@ -1,6 +1,7 @@
 ---
 title: Pedro Burruezo & Nur Camerata i Virginia Joëlle
 date: 2021-10-28T17:06:00+0200
+year: 2021
 author: Manel Sala "Ulls" Circ
 slug: pedro-burruezo-nur-camerata-i-virginia
 tags:

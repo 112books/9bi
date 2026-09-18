@@ -1,6 +1,7 @@
 ---
 title: 2025-0517 - Nou Barris meets Nova Orleans - BKT Brass Band
 date: 2025-05-18T11:45:00+0200
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-0517-nou-barris-meets-nova-orleans
 tags:

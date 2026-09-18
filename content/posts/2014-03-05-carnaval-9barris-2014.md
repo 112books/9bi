@@ -1,6 +1,7 @@
 ---
 title: CARNAVAL 9BARRIS 2014
 date: 2014-03-05T14:59:00+0100
+year: 2014
 author: Pedro Click
 slug: carnaval-9barris-2014
 tags:

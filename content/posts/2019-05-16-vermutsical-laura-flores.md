@@ -1,6 +1,7 @@
 ---
 title: Vermutsical "Laura Flores"
 date: 2019-05-16T11:50:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-laura-flores
 tags:

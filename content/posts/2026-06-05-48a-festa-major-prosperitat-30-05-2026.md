@@ -1,6 +1,7 @@
 ---
 title: 48a Festa Major Prosperitat - 30-05-2026
 date: 2026-06-05T09:21:49+0200
+year: 2026
 author: Manel Sala "Ulls" Circ
 slug: 48a-festa-major-prosperitat-30-05-2026
 tags:

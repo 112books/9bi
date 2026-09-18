@@ -1,6 +1,7 @@
 ---
 title: Vermutsical amb Blue Birds
 date: 2019-02-24T02:47:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-amb-blue-birds
 tags:

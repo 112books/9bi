@@ -1,6 +1,7 @@
 ---
 title: Festival de Sopes del Món Mundial fa 15 anys !!!
 date: 2018-03-18T20:36:00+0100
+year: 2018
 author: 9 Barris Imatge
 slug: sopes-del-mon-15-anys
 tags:

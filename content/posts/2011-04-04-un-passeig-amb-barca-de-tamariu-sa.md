@@ -1,6 +1,7 @@
 ---
 title: Un passeig amb barca,, de Tamariu a Sa Riera,, Baix Empordà-Costa Brava
 date: 2011-04-04T17:18:00+0200
+year: 2011
 author: Manel Sala "Ulls" Circ
 slug: un-passeig-amb-barca-de-tamariu-sa
 tags:

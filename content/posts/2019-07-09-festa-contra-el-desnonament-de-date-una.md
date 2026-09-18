@@ -1,6 +1,7 @@
 ---
 title: Festa contra el desnonament de "Date una huerta"
 date: 2019-07-09T08:51:00+0200
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: festa-contra-el-desnonament-de-date-una
 tags:

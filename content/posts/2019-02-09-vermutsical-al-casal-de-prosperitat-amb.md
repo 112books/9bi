@@ -1,6 +1,7 @@
 ---
 title: Vermutsical al Casal de Prosperitat amb Aly Alma
 date: 2019-02-09T22:12:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: vermutsical-al-casal-de-prosperitat-amb
 tags:

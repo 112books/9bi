@@ -2,6 +2,7 @@
 title: '2024-11-22 - Jornada feminista al Casal de barri de Prosperitat: cinema i
   música amb accent mexicà'
 date: 2024-11-22T19:38:00+0100
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: 2024-11-22-jornada-feminista-al-casal
 tags:

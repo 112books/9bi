@@ -1,6 +1,7 @@
 ---
 title: Pedro Javier González Live!
 date: 2013-12-02T21:52:00+0100
+year: 2013
 author: 9 Barris Imatge
 slug: pedro-javier-gonzalez-live
 tags:

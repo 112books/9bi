@@ -2,6 +2,7 @@
 title: Thu Hiep & An Hoang. Vietnam. Festival Internacional del Circ Ciutat de Figueres
   2013
 date: 2014-01-21T15:52:00+0100
+year: 2014
 author: Manel Sala "Ulls" Circ
 slug: thu-hiep-hoang-vietnam-festival
 tags:

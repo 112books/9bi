@@ -1,6 +1,7 @@
 ---
 title: 11è Festival de Blues de Barcelona - Lorenzo Thompson & Tota Blues
 date: 2013-07-20T20:01:00+0200
+year: 2013
 author: Pedro Click
 slug: 11e-festival-de-blues-de-barcelona_20
 tags:

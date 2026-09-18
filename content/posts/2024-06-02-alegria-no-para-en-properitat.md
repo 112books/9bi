@@ -1,6 +1,7 @@
 ---
 title: Pasabares Prosperitat 01-06-2024
 date: 2024-06-02T20:09:00+0200
+year: 2024
 author: Pedro Click
 slug: alegria-no-para-en-properitat
 tags:

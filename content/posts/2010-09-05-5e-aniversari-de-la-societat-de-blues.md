@@ -1,6 +1,7 @@
 ---
 title: 5è aniversari de la Societat de Blues de Barcelona
 date: 2010-09-05T16:18:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: 5e-aniversari-de-la-societat-de-blues
 tags:

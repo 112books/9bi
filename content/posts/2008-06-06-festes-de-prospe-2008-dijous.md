@@ -1,6 +1,7 @@
 ---
 title: Festes de Prospe 2008 - Dijous
 date: 2008-06-06T10:03:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe-2008-dijous
 tags:

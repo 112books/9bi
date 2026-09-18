@@ -1,6 +1,7 @@
 ---
 title: Animaros a participar !!!
 date: 2016-04-24T13:58:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: animaros-participar
 tags:

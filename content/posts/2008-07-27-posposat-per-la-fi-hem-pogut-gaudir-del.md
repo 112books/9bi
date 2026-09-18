@@ -1,6 +1,7 @@
 ---
 title: Posposat, però a la fi hem pogut gaudir del Picnic & Blues
 date: 2008-07-27T18:39:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: posposat-per-la-fi-hem-pogut-gaudir-del
 tags:

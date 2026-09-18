@@ -1,6 +1,7 @@
 ---
 title: 'Exposició : Memòria Històrica de la Trinitat Nova.'
 date: 2017-04-28T22:44:00+0200
+year: 2017
 author: 9 Barris Imatge
 slug: exposicio-memoria-historica-de-la
 tags:

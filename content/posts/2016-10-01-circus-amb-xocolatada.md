@@ -1,6 +1,7 @@
 ---
 title: '"Circus" amb xocolatada...'
 date: 2016-10-01T20:32:00+0200
+year: 2016
 author: 9 Barris Imatge
 slug: circus-amb-xocolatada
 tags:

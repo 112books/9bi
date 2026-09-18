@@ -1,6 +1,7 @@
 ---
 title: Festes de Prospe - Habaneras en Carrer Flordeneu
 date: 2016-05-30T14:40:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe-habaneras-en-carrer
 tags:

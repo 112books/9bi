@@ -1,6 +1,7 @@
 ---
 title: GFR A LA BARCELONETA !!!
 date: 2015-03-03T17:24:00+0100
+year: 2015
 author: 9 Barris Imatge
 slug: gfr-la-barceloneta_3
 tags:

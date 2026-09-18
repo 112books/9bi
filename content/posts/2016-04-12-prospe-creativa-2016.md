@@ -1,6 +1,7 @@
 ---
 title: Prospe Creativa 2016
 date: 2016-04-12T15:52:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: prospe-creativa-2016
 tags:

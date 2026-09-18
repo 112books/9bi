@@ -1,6 +1,7 @@
 ---
 title: 15è Festival de Sopes del Món
 date: 2018-03-19T00:25:00+0100
+year: 2018
 author: Joan "Linux" Martínez i Serres
 slug: 15e-festival-de-sopes-del-mon
 tags:

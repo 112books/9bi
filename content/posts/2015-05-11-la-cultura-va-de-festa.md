@@ -1,6 +1,7 @@
 ---
 title: La Cultura va de festa
 date: 2015-05-11T09:07:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: la-cultura-va-de-festa
 tags:

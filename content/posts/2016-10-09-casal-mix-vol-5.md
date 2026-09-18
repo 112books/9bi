@@ -1,6 +1,7 @@
 ---
 title: 'Casal Mix Vol. 5 '
 date: 2016-10-09T21:05:00+0200
+year: 2016
 author: Manel Sala "Ulls" Circ
 slug: casal-mix-vol-5
 tags:

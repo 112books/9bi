@@ -1,6 +1,7 @@
 ---
 title: Trobada d'entitats i espectacle Manolita la primera
 date: 2025-10-14T18:57:00+0200
+year: 2025
 author: Iozsef Kiss
 slug: trobada-dentitats-i-espectacle-manolita
 tags:

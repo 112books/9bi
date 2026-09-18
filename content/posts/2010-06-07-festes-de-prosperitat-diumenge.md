@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat - diumenge
 date: 2010-06-07T06:08:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-diumenge
 tags:

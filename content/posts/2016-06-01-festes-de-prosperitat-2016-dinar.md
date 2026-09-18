@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat 2016 - Dinar popular al CJP
 date: 2016-06-01T17:12:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-2016-dinar
 tags:

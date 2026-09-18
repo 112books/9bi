@@ -1,6 +1,7 @@
 ---
 title: 'Prospe Creativa amb: Dàhlia Duran, Sin Frenos i Straperloband'
 date: 2022-05-07T11:48:00+0200
+year: 2022
 author: Joan "Linux" Martínez i Serres
 slug: prospe-creativa-amb-dahlia-duran-sin
 tags:

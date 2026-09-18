@@ -1,6 +1,7 @@
 ---
 title: KOKO-JEANS & THE TONICS
 date: 2021-07-10T12:18:00+0200
+year: 2021
 author: Pedro Click
 slug: koko-jeans-tonics
 cover:

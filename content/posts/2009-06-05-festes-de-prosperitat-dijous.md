@@ -1,6 +1,7 @@
 ---
 title: Festes de Prosperitat, dijous
 date: 2009-06-05T16:46:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: festes-de-prosperitat-dijous
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Túnel del Terror - Casal de Barri Prosperitat - 2025
 date: 2025-11-02T11:04:00+0100
+year: 2025
 author: Manel Sala "Ulls" Circ
 slug: tunel-del-terror-casal-de-barri
 tags:

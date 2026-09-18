@@ -1,6 +1,7 @@
 ---
 title: 2025-02-23 - The Replicants + Inoxidables
 date: 2025-02-23T12:13:00+0100
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-02-23-replicants-inoxidables
 cover:

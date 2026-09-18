@@ -1,6 +1,7 @@
 ---
 title: 2025-05-17 - The Big Easy’s Crew - As big as it gets
 date: 2025-05-18T12:18:00+0200
+year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-05-17-big-easys-crew-as-big-as-it
 tags:

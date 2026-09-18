@@ -1,6 +1,7 @@
 ---
 title: EL CASAL DE JOVES SURT AL CARRER
 date: 2009-11-14T14:21:00+0100
+year: 2009
 author: 9 Barris Imatge
 slug: el-casal-de-joves-surt-al-carrer
 tags:

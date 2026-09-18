@@ -1,6 +1,7 @@
 ---
 title: Prospe Festa "Young Blood" 01-06-2024
 date: 2024-06-02T20:20:00+0200
+year: 2024
 author: Pedro Click
 slug: prospe-festa-young-blood-01-06-2024
 tags:

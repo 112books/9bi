@@ -1,6 +1,7 @@
 ---
 title: Sant Jordi al Casal de barri de Prospe
 date: 2010-04-25T12:32:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: sant-jordi-al-casal-de-barri-de-prospe
 tags:

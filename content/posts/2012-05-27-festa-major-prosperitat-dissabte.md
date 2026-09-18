@@ -1,6 +1,7 @@
 ---
 title: Festa major Prosperitat - dissabte
 date: 2012-05-27T16:21:00+0200
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: festa-major-prosperitat-dissabte
 tags:

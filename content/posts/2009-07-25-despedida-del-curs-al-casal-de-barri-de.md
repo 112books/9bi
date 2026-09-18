@@ -1,6 +1,7 @@
 ---
 title: Despedida del curs al Casal de Barri de Prospe
 date: 2009-07-25T11:29:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: despedida-del-curs-al-casal-de-barri-de
 tags:

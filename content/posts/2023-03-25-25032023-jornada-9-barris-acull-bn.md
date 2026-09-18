@@ -1,6 +1,7 @@
 ---
 title: 25/03/2023 jornada 9 barris acull B/N
 date: 2023-03-25T18:42:00+0100
+year: 2023
 author: Francesc Barbe
 slug: 25032023-jornada-9-barris-acull-bn
 tags:

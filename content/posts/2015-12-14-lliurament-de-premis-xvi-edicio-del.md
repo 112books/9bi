@@ -1,6 +1,7 @@
 ---
 title: Lliurament de Premis. XVI edició del Concurs Fotogràfic Josep Anton Cordoncillo
 date: 2015-12-14T11:31:00+0100
+year: 2015
 author: Manel Sala "Ulls" Circ
 slug: lliurament-de-premis-xvi-edicio-del
 tags:

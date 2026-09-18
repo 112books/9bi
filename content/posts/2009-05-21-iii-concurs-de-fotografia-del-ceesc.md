@@ -1,6 +1,7 @@
 ---
 title: III Concurs de Fotografia del CEESC
 date: 2009-05-21T13:05:00+0200
+year: 2009
 author: Joan "Linux" Martínez i Serres
 slug: iii-concurs-de-fotografia-del-ceesc
 tags:

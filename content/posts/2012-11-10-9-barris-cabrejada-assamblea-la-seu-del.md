@@ -1,6 +1,7 @@
 ---
 title: 9 barris cabrejada - Assamblea a la seu del districte de 9 barris
 date: 2012-11-10T10:58:00+0100
+year: 2012
 author: Joan "Linux" Martínez i Serres
 slug: 9-barris-cabrejada-assamblea-la-seu-del
 tags:

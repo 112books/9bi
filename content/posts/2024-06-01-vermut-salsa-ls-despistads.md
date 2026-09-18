@@ -1,6 +1,7 @@
 ---
 title: Vermut Salsa&Bachata.Peña L@s Despistad@s
 date: 2024-06-01T17:52:00+0200
+year: 2024
 author: Ismael Utrilla
 slug: vermut-salsa-ls-despistads
 tags:

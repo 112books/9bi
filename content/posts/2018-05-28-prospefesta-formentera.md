@@ -1,6 +1,7 @@
 ---
 title: Prospe18 Formentera
 date: 2018-05-28T17:31:00+0200
+year: 2018
 author: Pedro Click
 slug: prospefesta-formentera
 tags:

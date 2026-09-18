@@ -1,6 +1,7 @@
 ---
 title: Monociclistes a la plaça Francesc Layret
 date: 2015-04-12T20:33:00+0200
+year: 2015
 author: Joan "Linux" Martínez i Serres
 slug: monociclistes-la-placa-francesc-layret
 tags:

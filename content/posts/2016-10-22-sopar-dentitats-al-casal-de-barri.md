@@ -1,6 +1,7 @@
 ---
 title: Trobada d'entitats al Casal de Barri
 date: 2016-10-22T02:10:00+0200
+year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: sopar-dentitats-al-casal-de-barri
 tags:

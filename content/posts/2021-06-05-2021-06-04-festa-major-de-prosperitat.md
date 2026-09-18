@@ -1,6 +1,7 @@
 ---
 title: 2021-06-04 - Festa major de Prosperitat
 date: 2021-06-05T09:26:00+0200
+year: 2021
 author: Joan "Linux" Martínez i Serres
 slug: 2021-06-04-festa-major-de-prosperitat
 tags:

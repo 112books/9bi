@@ -2,6 +2,7 @@
 title: Inauguració de l'exposició "Finals dels 70" a l'Arxiu Històric de Roquetes
   Nou Barris
 date: 2019-02-06T19:06:00+0100
+year: 2019
 author: 9 Barris Imatge
 slug: inauguracio-de-lexposicio-finals-dels
 tags:

@@ -1,6 +1,7 @@
 ---
 title: PROSPE FESTA PEÑAS
 date: 2009-06-15T11:27:00+0200
+year: 2009
 author: Pedro Click
 slug: prospe-festa-penas
 tags:

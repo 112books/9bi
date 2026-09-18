@@ -1,6 +1,7 @@
 ---
 title: La Prospe en solidaritat amb Haití
 date: 2010-02-07T19:22:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: la-prospe-en-solidaritat-amb-haiti
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Sense títol
 date: 2021-12-17T09:19:00+0100
+year: 2021
 author: Joan "Linux" Martínez i Serres
 slug: el-nostre-amic-artista-juan-sin-sangre
 tags:

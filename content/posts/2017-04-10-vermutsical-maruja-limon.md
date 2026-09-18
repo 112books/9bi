@@ -1,6 +1,7 @@
 ---
 title: Vermutsical Maruja Limon
 date: 2017-04-10T01:13:00+0200
+year: 2017
 author: Pedro "Casal" Cervera
 slug: vermutsical-maruja-limon
 tags:

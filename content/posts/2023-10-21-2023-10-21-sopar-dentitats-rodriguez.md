@@ -1,6 +1,7 @@
 ---
 title: 2023-10-21 - Sopar d'Entitats + The Rodríguez Sisters
 date: 2023-10-21T09:47:00+0200
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-10-21-sopar-dentitats-rodriguez
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 5è Festival de sopes del món mundial
 date: 2008-03-30T16:37:00+0200
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: 5-festival-de-sopes-del-mn-mundial
 tags:

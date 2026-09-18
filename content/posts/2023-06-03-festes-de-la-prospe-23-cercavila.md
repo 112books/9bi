@@ -1,6 +1,7 @@
 ---
 title: Festes de la Prospe `23 Cercavila prosperitat
 date: 2023-06-03T11:44:00+0200
+year: 2023
 author: Iozsef Kiss
 slug: festes-de-la-prospe-23-cercavila
 tags:

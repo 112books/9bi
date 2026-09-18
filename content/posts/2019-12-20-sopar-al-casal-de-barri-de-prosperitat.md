@@ -1,6 +1,7 @@
 ---
 title: Sopar al Casal de barri de Prosperitat
 date: 2019-12-20T10:44:00+0100
+year: 2019
 author: Joan "Linux" Martínez i Serres
 slug: sopar-al-casal-de-barri-de-prosperitat
 tags:

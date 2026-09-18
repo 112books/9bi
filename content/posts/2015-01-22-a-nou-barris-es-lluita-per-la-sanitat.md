@@ -1,6 +1,7 @@
 ---
 title: A NOU BARRIS ES LLUITA PER LA SANITAT PÚBLICA GRATUITA !!!
 date: 2015-01-22T22:15:00+0100
+year: 2015
 author: 9 Barris Imatge
 slug: a-nou-barris-es-lluita-per-la-sanitat
 tags:

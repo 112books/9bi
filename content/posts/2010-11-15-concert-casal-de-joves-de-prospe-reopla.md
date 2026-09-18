@@ -1,6 +1,7 @@
 ---
 title: 'Concert casal de Joves de Prospe: Reopla + Electric Gozarela'
 date: 2010-11-15T01:19:00+0100
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: concert-casal-de-joves-de-prospe-reopla
 tags:

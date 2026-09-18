@@ -1,6 +1,7 @@
 ---
 title: Chistorra Rock - Festa Major Prosperitat 2016
 date: 2016-05-31T16:16:00+0200
+year: 2016
 author: Manel Sala "Ulls" Circ
 slug: chistorra-rock-festa-major-prosperitat_31
 tags:

@@ -1,6 +1,7 @@
 ---
 title: VermutSical Ariadna's Myth
 date: 2019-03-26T15:07:00+0100
+year: 2019
 author: Ismael Utrilla
 slug: vermutsical-ariadnas-myth
 tags:

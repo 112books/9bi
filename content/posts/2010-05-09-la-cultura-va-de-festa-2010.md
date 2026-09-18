@@ -1,6 +1,7 @@
 ---
 title: La Cultura va de festa 2010
 date: 2010-05-09T23:17:00+0200
+year: 2010
 author: Joan "Linux" Martínez i Serres
 slug: la-cultura-va-de-festa-2010
 tags:

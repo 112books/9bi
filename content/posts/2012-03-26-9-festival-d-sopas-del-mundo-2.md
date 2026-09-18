@@ -1,6 +1,7 @@
 ---
 title: 9 FESTIVAL DE SOPAS DEL MUNDO 2
 date: 2012-03-26T00:18:00+0200
+year: 2012
 author: Pedro Click
 slug: 9-festival-d-sopas-del-mundo-2
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Festa de la Benvinguda "Marhaba"
 date: 2011-09-29T08:26:00+0200
+year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: festa-de-la-benvinguda-marhaba
 tags:

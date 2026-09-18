@@ -1,6 +1,7 @@
 ---
 title: 2026-06-13 - Vermutsical amb flamenc a càrrec de la Peña Flamenca del Poble-Sec
 date: 2026-06-14T12:18:02+0200
+year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: 2026-06-13-vermutsical-amb-flamenc
 tags:

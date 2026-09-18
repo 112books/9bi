@@ -1,6 +1,7 @@
 ---
 title: 'Flamenco de Barrio: Un Homenatge a l''Herència d''Omega i Enrique Morente'
 date: 2024-11-10T10:09:00+0100
+year: 2024
 author: Joan "Linux" Martínez i Serres
 slug: flamenco-de-barrio-un-homenatge
 tags:

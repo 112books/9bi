@@ -1,6 +1,7 @@
 ---
 title: BigMamaMontse "BluesLab3"
 date: 2008-11-30T13:24:00+0100
+year: 2008
 author: Joan "Linux" Martínez i Serres
 slug: bigmamamontse-blueslab3
 tags:

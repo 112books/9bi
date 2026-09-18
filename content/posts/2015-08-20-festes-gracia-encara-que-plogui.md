@@ -1,6 +1,7 @@
 ---
 title: Festes a Gràcia ...encara que plogui !!!
 date: 2015-08-20T22:32:00+0200
+year: 2015
 author: 9 Barris Imatge
 slug: festes-gracia-encara-que-plogui
 tags:

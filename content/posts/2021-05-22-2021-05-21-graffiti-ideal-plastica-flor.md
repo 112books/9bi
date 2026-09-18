@@ -1,6 +1,7 @@
 ---
 title: 2021-05-21 - Graffiti Ideal Plástica Flor
 date: 2021-05-22T11:28:00+0200
+year: 2021
 author: Joan "Linux" Martínez i Serres
 slug: 2021-05-21-graffiti-ideal-plastica-flor
 tags:

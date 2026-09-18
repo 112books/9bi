@@ -2,6 +2,7 @@
 title: '25-04-2025 Premios Concurso Poesía corta y Microrrelatos 2025 & Actuación
   LVDD '
 date: 2025-04-26T23:52:00+0200
+year: 2025
 author: Juan Carlos Molina (Grismedio Casinegro)
 slug: 25-04-2025-premios-concurso-poesia
 tags:

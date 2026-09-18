@@ -1,6 +1,7 @@
 ---
 title: Concurs Fotogràfic Josep Anton Cordoncillo 2016
 date: 2016-12-19T10:16:00+0100
+year: 2016
 author: Pedro Click
 slug: guilermo-calliero-jazz-trio
 tags:

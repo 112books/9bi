@@ -1,6 +1,7 @@
 ---
 title: Entrega de premis del 31è Concurs de fotografia Josep Antón Cordoncillo
 date: 2021-12-18T09:56:00+0100
+year: 2021
 author: Joan "Linux" Martínez i Serres
 slug: entrega-de-premis-del-31e-concurs-de
 tags:

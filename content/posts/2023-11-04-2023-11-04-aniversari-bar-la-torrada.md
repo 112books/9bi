@@ -1,6 +1,7 @@
 ---
 title: 2023-11-04 - Aniversari Bar la Torrada
 date: 2023-11-04T17:11:00+0100
+year: 2023
 author: Joan "Linux" Martínez i Serres
 slug: 2023-11-04-aniversari-bar-la-torrada
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Feria de Abril 2013 - dissabte
 date: 2013-04-11T01:32:00+0200
+year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: feria-de-abril-2013-dissabte
 tags:
