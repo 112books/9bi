@@ -12,7 +12,7 @@
 backend:
   name: forgejo
   repo: linuxbcn/9bi
-  app_id: SUBSTITUEIX-CI-AMB-EL-CLIENT-ID
+  app_id: 0c6b6c51-bea8-4b64-8c1e-96bbf02eef15
   api_root: https://codeberg.org/api/v1
   base_url: https://codeberg.org
   auth_endpoint: https://codeberg.org/login/oauth/authorize
