@@ -64,7 +64,7 @@ uglyURLs = true
 
   [params.homeInfoParams]
     Title = "9 Barris Imatge"
-    Content = "Des de 2002 documentant Nou Barris - Barcelona"
+    Content = "Documentant Nou Barris (Barcelona) des del 2002"
 
   [params.editPost]
     URL = ""

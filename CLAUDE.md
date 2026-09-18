@@ -59,20 +59,24 @@ Lloc web estàtic de l'Associació fotogràfica 9 Barris Imatge (Barcelona), mig
 content/
 ├── posts/                         # 3.006 posts migrats de Blogger
 ├── qui-som.md, concurs.md, contacte.md, privacitat.md, avis-legal.md, cookies.md, credits.md   # pàgines estàtiques (amb `url` explícita)
+├── subvencions.md                 # pàgina filla de «Qui som» (`url: /qui-som/subvencions/`, amb alias de l'antic URL del post)
 ├── search.md (layout "search"), archive.md (layout "archives")
 ├── mes-visitats.md (layout "popular" + hiddenInRss: true)
 ├── guia/                          # _index.md + 6 subpàgines — TOTES amb `draft: true`
 └── documentacio/                  # interna (draft): actes/ (acta 2026-09-10) + concurs/
 layouts/
-├── baseof.html                    # SOBREESCRIT: clau de caché del footer amb la condició de «números»
+├── baseof.html                    # SOBREESCRIT: clau de caché del footer (condició de «números»)
 ├── index.html                     # portada en mosaic (grid de fotos, paginat)
 ├── archives.html                  # arxiu + índex d'anys a la dreta (rail)
+├── taxonomy.html                  # SOBREESCRIT: núvol d'etiquetes (/tags/)
 ├── author/term.html               # pàgina de posts per autor (mosaic paginat)
 ├── _shortcodes/membres.html       # taula de membres (ordenada per nº de posts)
 ├── _default/popular.html          # llista de més visitats (llegeix data/popular.json)
+├── _markup/render-image.html      # reescriu rutes d'imatge que comencen per «/» amb relURL
 └── _partials/
-    ├── footer.html                # SOBREESCRIT: banda accent + 4 columnes (logo, buida, web, legal) + «9 Barris en números» + count-up + línia inferior
-    ├── extend_head.html           # GoatCounter → 9barrisimatge.goatcounter.com
+    ├── header.html                # SOBREESCRIT: icones de menú per .Identifier + JS .scrolled (sticky)
+    ├── footer.html                # SOBREESCRIT: banda accent + 5 columnes (logo, buida, web, legal, números) + CC + count-up + reveal
+    ├── extend_head.html           # preload de fonts + GoatCounter → 9barrisimatge.goatcounter.com
     ├── extend_footer.html         # BUIT (el contingut del peu s'ha mogut a footer.html)
     └── extend_post_content.html   # botó "Veure tot l'àlbum de fotos" (si album_url)
 assets/css/extended/custom.css     # estils: mosaic, botó àlbum, tipografies (@font-face), peu (footer-band/-cols/-bottom), formulari, membres, footer-stats
@@ -187,25 +191,46 @@ sync-9bi.sh                        # script de sync/gestió
 - **Crèdits ampliats** (`content/credits.md`): links a totes les eines, llicència **CC BY-NC-SA 4.0** explicada en català clar i **mini-FAQ** d'ús de les imatges.
 - **Cerca** afegida al `menu.main` (abans de «Contacte»).
 
+## Sessió 2026-09-18 (v2) — capçalera sticky, imatges, peu, legal, subvencions i concurs
+
+- **Capçalera sticky amb icones** (implementat): `layouts/_partials/header.html` **sobreescrit** (`dict $icons` per `.Identifier`: home→casa, archive→arxiu, qui-som→persones, concurs→trofeu, search→lupa, contacte→sobre). En fer scroll (>120px) el JS afegeix `.scrolled` a `#header` i es mostren `.menu-icon` (SVG de línia, `currentColor`) en lloc de `.menu-text`; logo encongit a 48px. Només escriptori (≥769px).
+- **Imatges base-aware**: `layouts/_markup/render-image.html` (nou) reescriu amb `relURL` les rutes d'imatge que comencen per «/» (`strings.TrimPrefix "/"`). Abans `qui-som.md` i `concurs.md` generaven `src=/images/...` i donaven 404 sota `/9bi/`.
+- **Peu de 5 columnes** (abans 4): `layouts/_partials/footer.html` amb logo · buida · «El web» · «Legal» · **«9 Barris en números»**. La columna de números ara és **sempre visible** (abans només portada/Qui som) i s'ha tret la condició `$showStats` de la clau de `partialCached` a `baseof.html`. `grid-template-columns: repeat(5,1fr)` (5→3 @1024 →2 @700 →1 @480; la buida s'amaga ≤1024).
+- **Logo CC a la línia de llicència**: `static/images/cc-by-nc-sa.svg` + `<img class="cc-badge">` dins `.footer-copyright`.
+- **Reveal de LinuxBCN**: `.footer-powered` inline-block i `.footer-powered-reveal` (consultoria…) es desplega en `:hover`/`:focus` sense desplaçar el text.
+- **Amplada unificada**: `.footer-cols` i `.footer-bottom` amb `max-width: calc(var(--nav-width) + var(--gap) * 2); margin: auto` (com «Avui fa» / el mosaic).
+- **Núvol d'etiquetes**: `layouts/taxonomy.html` **sobreescrit** (`.terms-tags.tag-cloud`), mida `0.85 + 0.9*(count/max)` rem (rang ~0.85–1.75rem); CSS `.tag-cloud`.
+- **Text de Cerca**: `content/search.md` amb `description`.
+- **Logo 138×229**: `--logo-width: 138px` / `--logo-height: 229px` a `:root`; `iconHeight = 229` a `[params.label]` de `hugo.toml`; `<img width="138" height="229">` al peu.
+- **Avís legal i privacitat**: `content/avis-legal.md` reescrit (Titular **sense NIF** —l'associació no en té—, adreça **Casal de Barri de Prosperitat, Plaça d'Ángel Pestaña, s/n, 08016 Barcelona**, i secció «Responsabilitat»: cada autor respon dels seus textos; opinions compartides sense comprometre l'entitat). `content/privacitat.md` amb la mateixa adreça i **sense placeholders**.
+- **Subvencions**: el text «Subvencions públiques: per què hi renunciem» s'ha mogut de `posts/` a **pàgina filla de Qui som** (`content/subvencions.md`, `url: /qui-som/subvencions/`), enllaçada des de «Com funcionem», amb `aliases` que redirigeix l'antic URL `/2026/09/renunciem-a-les-subvencions.html`.
+- **Pàgina del Concurs (36è, 2026)** a `content/concurs.md`:
+  - Bloc superior amb **línia del temps de fulls de calendari**: Set 25 (inici) · Nov 20 (data límit) · Des 01 (inici exposició) · Des 18 (lliurament de premis + concert) · Des 30 (fi). Els passos interns (23 i 30 nov) **no** es mostren al públic.
+  - **Pestanyes** «Bases» i «Com participar» amb **CSS pur** (radios, sense JS) + botó **Descarrega en PDF** (`window.print()`; `@media print` deixa visibles només les bases).
+  - Bases adaptades de la 35a a la 36a (correu `dinamitzacio@casalprospe.org`). **Pendent de confirmar**: premis 100 €, votació popular 1–15 des, hora 19 h i tema de la categoria C.
+  - `<hr class="concurs-sep">` separa el bloc del concurs de «Història».
+- **Eslògan de portada** (`[params.homeInfoParams] Content` a `hugo.toml`): de «Des de 2002 documentant Nou Barris - Barcelona» a **«Documentant Nou Barris (Barcelona) des del 2002»**.
+- **Decisió (votació popular per QR, en estudi)**: per evitar vots sospitosos i facilitar el recompte. Regla triada: **1 vot per obra i dispositiu**; identitat **anònima per dispositiu** (testimoni firmat + registre al servidor); accés **només amb QR presencial** (secret d'edició). Allotjament previst: **app Python** (`venv` + FastAPI/Flask + SQLite) al **servidor de LinuxBCN** (sense Docker, per decidir). Pendent d'estudiar/decidir.
+
 ## Tasques pendents (backlog curt)
 
 - **`content/contacte.md`**: afegir al formulari un camp nou "A quina entitat de Nou Barris pertanys o representes (opcionalment)" (input opcional, com `assumpte`).
-- **`content/privacitat.md`**: omplir els `[PENDENT: ...]` amb el **NIF** i l'**adreça** reals de l'associació; sense això la política no és vàlida. (El correu ja hi és: info@9barrisimatge.org.)
-- **Peu / legal**: peu de 4 columnes fet (banda accent + logo · buida · «El web» · «Legal»). Pendent: contingut real d'`avis-legal.md`, `cookies.md` i completar `privacitat.md` (NIF/adreça); resta d'adequació RGPD.
+- **`content/privacitat.md`**: **fet (2026-09-18)** — adreça real (Casal de Barri de Prosperitat) i **sense NIF** (l'associació no en té); sense placeholders. (El correu ja hi és: info@9barrisimatge.org.)
+- **Peu / legal**: peu de **5 columnes** fet (logo · buida · «El web» · «Legal» · «9 Barris en números»). `avis-legal.md` i `privacitat.md` fets (2026-09-18). Pendent: contingut real d'`cookies.md` i la resta d'adequació RGPD.
 - **Auditoria de seguretat** (encarregada 2026-09-17, pendent).
 - **Auditoria d'accessibilitat** (encarregada 2026-09-17, pendent).
 - **`content/qui-som.md`** (secció «Membres»): **implementat (2026-09-18)** amb `{{< membres >}}` + `data/membres.yml` + `layouts/author/term.html` + col·lecció Decap «membres» (vegeu la sessió 2026-09-18). Pendent: enllaç de reserva al **perfil del bloc vell** («Els components de 9 barris imatge») per als membres sense web (ara mostren «—») i completar els **Instagram** que falten.
 - **Comentaris al web**: implementar un sistema de comentaris amb **fort control d'spam** (pendent d'escollir la solució/proveïdor).
 - **Compartir a xarxes**: botons per compartir fàcilment a **Instagram** i les xarxes que es portin ara (pendent).
 - **Tipografies**: **implementat (2026-09-18)** — cos **Montserrat** (woff2 400/700/800) + títols **Gillius ADF** (OTF 400/700), autoallotjades a `static/fonts/`, `@font-face` i overrides a `custom.css` (urls `../../fonts/…`) i `preload` a `extend_head.html`. **Sense cap CDN** (RGPD). Pendent opcional: convertir els OTF de Gillius a woff2.
-- **Capçalera sticky amb icones**: en fer scroll, transformar el menú de navegació en icones (pendent). **«Cerca» ja afegida** al `menu.main`, abans de «Contacte» (2026-09-18).
+- **Votació popular per QR** (concurs): implementar l'app Python al servidor de LinuxBCN (1 vot per obra i dispositiu, anònim, només QR presencial). Pendent d'estudiar/decidir (2026-09-18).
 
 ## Infraestructura i comunicació (pendent)
 
 - **Butlletí**: cal tenir un butlletí (newsletter) per a l'associació.
 - **DNS i correu**: repensar què fer amb els DNS; es vol **correu gratuït i lliure per a cada membre** i un de **genèric** de l'entitat.
 - **Grup de correu**: llista/grup per enviar un correu a tots els membres.
-- **Telegram**: grup **privat** i **públic** (aquest darrer unidireccional, on s'envien els posts quan es publiquen).
+- **Telegram**: grup **privat** i **públic** (aquest darrer unidireccional, on s'envien els posts quan es publiquen). **Tasca (2026-09-18)**: muntar un **bot** (token de @BotFather), afegir-lo al grup, obtenir el `chat_id` i crear `scripts/telegram.py` que enviï missatges llegint `TELEGRAM_BOT_TOKEN` i `TELEGRAM_CHAT_ID` de l'entorn (mai al repo).
 - **Facebook**: publicar automàticament els posts.
 
 ## Properes sessions
