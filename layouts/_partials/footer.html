@@ -243,3 +243,15 @@
     });
 </script>
 {{- end }}
+
+<script>
+    (function () {
+        document.querySelectorAll("[data-concurs-print]").forEach(function (btn) {
+            btn.addEventListener("click", function () {
+                var bases = document.getElementById("concurs-tab-bases");
+                if (bases) bases.checked = true;
+                window.print();
+            });
+        });
+    })();
+</script>

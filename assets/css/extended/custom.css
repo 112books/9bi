@@ -753,3 +753,135 @@ h1, h2, h3, h4, h5, h6 {
 .tag-cloud a {
   line-height: 1.4;
 }
+
+/* ---- Concurs: bloc d'edició actual, pestanyes i impressió ---- */
+.concurs {
+  margin: 1.6rem 0 2.2rem;
+}
+.concurs-eyebrow {
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #e03131;
+}
+.concurs-title {
+  margin: 0.15rem 0 1.2rem;
+  font-size: 1.55rem;
+  line-height: 1.25;
+}
+.concurs-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.4rem;
+}
+.concurs-card {
+  background: var(--code-bg);
+  border-radius: var(--radius);
+  padding: 1rem 1.1rem;
+}
+.concurs-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+}
+.concurs-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.concurs-list li {
+  margin: 0.25rem 0;
+}
+.concurs-tabs {
+  margin-top: 0.5rem;
+}
+.concurs-tab-radio {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+.concurs-tablist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.7rem;
+}
+.concurs-tab {
+  cursor: pointer;
+  padding: 0.45rem 0.95rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: 1px solid var(--border);
+  user-select: none;
+}
+.concurs-print {
+  margin-left: auto;
+  cursor: pointer;
+  padding: 0.45rem 0.95rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: 1px solid #e03131;
+  background: #e03131;
+  color: #fff;
+}
+.concurs-print:hover {
+  filter: brightness(1.08);
+}
+.concurs-panel {
+  display: none;
+  padding-top: 1.2rem;
+}
+.concurs-panel h3 {
+  margin-top: 0;
+}
+.concurs-panel h4 {
+  margin: 1.1rem 0 0.35rem;
+}
+#concurs-tab-bases:checked ~ .concurs-tablist [for="concurs-tab-bases"],
+#concurs-tab-participar:checked ~ .concurs-tablist [for="concurs-tab-participar"] {
+  background: #e03131;
+  border-color: #e03131;
+  color: #fff;
+}
+#concurs-tab-bases:checked ~ #concurs-bases,
+#concurs-tab-participar:checked ~ #concurs-participar {
+  display: block;
+}
+.concurs-steps li {
+  margin: 0.4rem 0;
+}
+@media (max-width: 640px) {
+  .concurs-grid {
+    grid-template-columns: 1fr;
+  }
+  .concurs-print {
+    margin-left: 0;
+  }
+}
+
+@media print {
+  body * {
+    visibility: hidden !important;
+  }
+  #concurs-bases,
+  #concurs-bases * {
+    visibility: visible !important;
+  }
+  .concurs-panel--bases {
+    display: block !important;
+  }
+  #concurs-bases {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0;
+  }
+}
