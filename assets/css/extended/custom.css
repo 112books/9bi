@@ -606,6 +606,14 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
     justify-content: center;
   }
+  /* Al telèfon el header queda només amb el logo gran i centrat:
+     text del label i toggle de tema ocults (només escriptori) */
+  .header .logo a {
+    font-size: 0;
+  }
+  .header .logo-switches {
+    display: none;
+  }
   .header .menu {
     width: 100%;
     justify-content: center;
