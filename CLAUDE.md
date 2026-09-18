@@ -345,7 +345,7 @@ sync-9bi.sh                        # script de sync/gestió
   - Pàgina d'autor (`author/term.html`): títol = **malnom** + línia amb el **nom real** (només si és diferent).
   - Peu «9 Barris en números»: comptador = **total (actius + històrics)**; ara llegeix el mapa `len (hugo.Data.membres)`.
   - Decap (`config.yml`): col·lecció `membres` passa de `files` a **folder** (`data/membres`, `identifier_field: autor`, `extension: yml`, `format: yaml`) amb el camp **ACTIU** (boolean, default true).
-  - **Noms reals/malnoms confirmats per l'usuari (2026-09-18)**: Joan = «Linux»; Pedro Click = malnom (nom «Pedro»); Manel Sala = «Ulls»; Pedro Cervera **sense malnom** (sort com «Pedro Cervera»); Francesc Barbe, Ismael Utrilla, Alberto Sanagustín, Iozsef Kiss, Manel Villalba **sense malnom**; Núria = «Nuria»; Nico YeYe = malnom de **Nico Derocal**; Juan Carlos = «Grismedio Casinegro».
+  - **Noms reals/malnoms confirmats per l'usuari (2026-09-18)**: Joan = «Linux»; Pedro Click = malnom (nom **Pedro García**); Manel Sala = «Ulls»; Pedro Cervera **sense malnom** (sort com «Pedro Cervera»); Francesc Barbe, Ismael Utrilla, Alberto Sanagustín, Iozsef Kiss, Manel Villalba **sense malnom**; Núria = «Nuria»; Nico YeYe = malnom de **Nico Derocal**; Juan Carlos = «Grismedio Casinegro».
   - **Limitació Decap**: no hi ha ACL per usuari/registre — els inactius «que ja no editen» es gestionen **traient-los l'accés d'escriptura a Codeberg** (no al config).
 - **Peu — filet d'accent sobre «Powered by»**: `border-bottom` de `.footer-copyright` passa a **4px solid #e03131** (mateix gruix i color que la banda `.footer-band` que separa el footer de la resta).
 - **`.gitignore`**: afegit `/.taques/` (gestió d'hores, local).
