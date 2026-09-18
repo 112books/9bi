@@ -3,10 +3,336 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gestió de contingut — 9 Barris Imatge</title>
+  <title>9 Barris Imatge · Gestor de continguts</title>
+  <style>
+    :root {
+      --cms-theme: rgb(29, 30, 32);
+      --cms-primary: rgb(218, 218, 219);
+      --cms-secondary: rgb(155, 156, 157);
+      --cms-border: rgb(51, 51, 51);
+      --cms-accent: #e03131;
+      --cms-width: 1024px;
+      --cms-gap: 20px;
+      --cms-logo-width: 138px;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--cms-theme);
+      color: var(--cms-primary);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ---- Capçalera ---- */
+    .cms-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+      padding: 0.7rem max(1rem, calc((100vw - var(--cms-width)) / 2));
+      background: #161618;
+      border-bottom: 3px solid var(--cms-accent);
+    }
+    .cms-brand {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      text-decoration: none;
+      color: var(--cms-primary);
+    }
+    .cms-brand img {
+      height: 42px;
+      width: auto;
+      border-radius: 3px;
+    }
+    .cms-brand strong {
+      font-size: 1.05rem;
+      letter-spacing: 0.02em;
+      line-height: 1.25;
+    }
+    .cms-brand strong small {
+      display: block;
+      color: var(--cms-secondary);
+      font-weight: 500;
+      font-size: 0.8rem;
+    }
+    .cms-nav {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+    .cms-nav a {
+      color: var(--cms-primary);
+      text-decoration: none;
+      font-size: 0.9rem;
+      padding: 0.4rem 0.8rem;
+      border-radius: 5px;
+      border: 1px solid var(--cms-border);
+      background: #202023;
+    }
+    .cms-nav a:hover,
+    .cms-nav a:focus {
+      border-color: var(--cms-accent);
+      text-decoration: underline;
+    }
+    .cms-nav a.cms-nav--back {
+      border-color: transparent;
+      background: transparent;
+    }
+
+    /* ---- Contenidor de l'aplicació Decap ---- */
+    #nc-root {
+      flex: 1 1 auto;
+      display: block;
+      background: var(--cms-theme);
+      min-height: 65vh;
+    }
+
+    /* ---- Peu (replica del web) ---- */
+    .cms-footer {
+      border-top: 1px solid var(--cms-border);
+    }
+    .cms-footer-band {
+      height: 4px;
+      background: var(--cms-accent);
+    }
+    .cms-footer-cols {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: var(--cms-gap);
+      align-items: start;
+      text-align: left;
+      max-width: var(--cms-width);
+      margin: auto;
+      padding: 2.5rem var(--cms-gap) 1rem;
+    }
+    .cms-footer-title {
+      display: block;
+      margin-bottom: 0.6rem;
+      font-size: 0.95rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--cms-secondary);
+      font-weight: 700;
+    }
+    .cms-footer-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      font-size: 0.9rem;
+    }
+    .cms-footer-list a {
+      color: var(--cms-secondary);
+      text-decoration: none;
+    }
+    .cms-footer-list a:hover {
+      color: var(--cms-primary);
+      text-decoration: underline;
+    }
+    .cms-footer-logo a {
+      display: inline-block;
+    }
+    .cms-footer-logo img {
+      width: var(--cms-logo-width);
+      height: auto;
+      max-width: 100%;
+      border-radius: 3px;
+    }
+    .cms-footer-logo a:hover img {
+      animation: cms-logo-wiggle 0.7s ease-in-out;
+    }
+    @keyframes cms-logo-wiggle {
+      0%   { transform: rotate(0deg) scale(1); }
+      25%  { transform: rotate(-5deg) scale(1.04); }
+      50%  { transform: rotate(4deg) scale(1.04); }
+      75%  { transform: rotate(-2deg) scale(1.04); }
+      100% { transform: rotate(0deg) scale(1); }
+    }
+    .cms-stats .cms-footer-list { font-variant-numeric: tabular-nums; }
+    .cms-stats .cms-stat-num {
+      font-weight: 700;
+      color: var(--cms-accent);
+    }
+    .cms-footer-bottom {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0;
+      border-top: 1px solid var(--cms-border);
+      max-width: var(--cms-width);
+      margin: auto;
+      padding: 1rem var(--cms-gap) 1.5rem;
+      font-size: 0.78rem;
+      color: var(--cms-secondary);
+    }
+    .cms-footer-bottom a {
+      color: var(--cms-primary);
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .cms-footer-bottom a:hover {
+      text-decoration: underline;
+    }
+    .cms-copyright {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.45rem;
+      width: 100%;
+      padding-bottom: 20px;
+    }
+    .cms-copyright::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 100%;
+      width: 100vw;
+      height: 4px;
+      background: var(--cms-accent);
+    }
+    .cms-cc-badge {
+      height: 20px;
+      width: auto;
+      flex: none;
+      border-radius: 3px;
+    }
+    .cms-powered {
+      display: inline-block;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .cms-powered-reveal {
+      display: block;
+      max-height: 0;
+      overflow: hidden;
+      white-space: nowrap;
+      font-style: italic;
+      font-size: 0.9em;
+      opacity: 0;
+      transition: max-height 0.25s ease, opacity 0.25s ease;
+    }
+    .cms-powered-link:hover ~ .cms-powered-reveal,
+    .cms-powered-link:focus ~ .cms-powered-reveal {
+      max-height: 1.6em;
+      opacity: 1;
+    }
+    @media (max-width: 1024px) {
+      .cms-footer-cols { grid-template-columns: repeat(3, 1fr); }
+      .cms-footer-empty { display: none; }
+    }
+    @media (max-width: 700px) {
+      .cms-footer-cols { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 480px) {
+      .cms-footer-cols {
+        grid-template-columns: auto minmax(0, 1fr);
+        grid-template-areas:
+          "logo web"
+          "legal legal"
+          "stats stats";
+        align-items: center;
+      }
+      .cms-footer-logo { grid-area: logo; }
+      .cms-footer-web { grid-area: web; }
+      .cms-footer-legal { grid-area: legal; }
+      .cms-footer-stats { grid-area: stats; }
+      .cms-footer-legal .cms-footer-list,
+      .cms-footer-stats .cms-footer-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: 0 0.55rem;
+      }
+      .cms-footer-legal { text-align: center; }
+      .cms-footer-legal .cms-footer-list { justify-content: center; }
+      .cms-footer-legal .cms-footer-list li + li::before,
+      .cms-footer-stats .cms-footer-list li + li::before {
+        content: "·";
+        margin-right: 0.55rem;
+      }
+    }
+  </style>
 </head>
 <body>
-  <!-- Decap CMS (abans Netlify CMS) -->
-  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+
+  <header class="cms-header">
+    <a class="cms-brand" href="../" title="Torna al web de 9 Barris Imatge">
+      <img src="../images/logo-header.jpg" alt="Logo de 9 Barris Imatge" width="42" height="66" />
+      <strong>9 Barris Imatge<small>Gestor de continguts</small></strong>
+    </a>
+    <nav class="cms-nav" aria-label="Navegació del gestor">
+      <a href="#/collections/guia">Guia i manual</a>
+      <a href="#/collections/posts-2026">Articles · 2026</a>
+      <a href="#/collections/membres">Membres</a>
+      <a class="cms-nav--back" href="../">Torna al web</a>
+    </nav>
+  </header>
+
+  <!-- Decap monta tota la interfície dins d'aquest contenidor -->
+  <div id="nc-root"></div>
+
+  <footer class="cms-footer">
+    <div class="cms-footer-band" aria-hidden="true"></div>
+    <div class="cms-footer-cols">
+      <div class="cms-footer-logo">
+        <a href="../" aria-label="9 Barris Imatge (inici)">
+          <img src="../images/logo-header.jpg" alt="9 Barris Imatge" width="138" height="229" loading="lazy" />
+        </a>
+      </div>
+      <div class="cms-footer-empty" aria-hidden="true"></div>
+      <nav class="cms-footer-web" aria-label="Navegació del web">
+        <span class="cms-footer-title">El web</span>
+        <ul class="cms-footer-list">
+          <li><a href="../archive/">Arxiu 9bi</a></li>
+          <li><a href="../tags/">Etiquetes / Tags</a></li>
+          <li><a href="../mes-visitats/">Més visitats</a></li>
+          <li><a href="https://9barrisimatge.goatcounter.com/" target="_blank" rel="noopener">Estadístiques del web</a></li>
+          <li><a href="../search/">Cerca</a></li>
+          <li><a href="../index.xml">RSS</a></li>
+        </ul>
+      </nav>
+      <nav class="cms-footer-legal" aria-label="Enllaços legals">
+        <span class="cms-footer-title">Legal</span>
+        <ul class="cms-footer-list">
+          <li><a href="../avis-legal/">Avís legal</a></li>
+          <li><a href="../privacitat/">Privacitat</a></li>
+          <li><a href="../cookies/">Cookies</a></li>
+          <li><a href="../credits/">Crèdits del web</a></li>
+        </ul>
+      </nav>
+      <div class="cms-footer-stats" aria-label="9 Barris Imatge en xifres">
+        <span class="cms-footer-title">9 Barris en números</span>
+        <ul class="cms-footer-list">
+          <li><span class="cms-stat-num">3.006</span> posts</li>
+          <li><span class="cms-stat-num">24</span> anys</li>
+          <li><span class="cms-stat-num">12</span> membres</li>
+        </ul>
+      </div>
+    </div>
+    <div class="cms-footer-bottom">
+      <span class="cms-copyright">
+        <img class="cms-cc-badge" src="../images/cc-by-nc-sa.svg" alt="Llicència Creative Commons BY-NC-SA 4.0" width="88" height="31" loading="lazy" />
+        <span>Contingut sota llicència <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca" target="_blank" rel="noopener">Creative Commons Reconeixement-NoComercial-CompartirIgual 4.0</a></span>
+      </span>
+      <span class="cms-powered">Powered by <a class="cms-powered-link" href="https://linuxbcn.com" rel="noopener" target="_blank">LinuxBCN</a> with <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &amp; <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a><span class="cms-powered-reveal">Consultoria | Desenvolupament | Allotjament | Disseny</span></span>
+    </div>
+  </footer>
+
+  <!-- Decap CMS (abans Netlify CMS); defer perquè trobi el contenidor #nc-root -->
+  <script defer src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
 </body>
 </html>
