@@ -9,27 +9,29 @@ El **Concurs Fotogràfic Josep Antón Cordoncillo** és el concurs anual de foto
 <div class="concurs">
 <p class="concurs-eyebrow">Edició en curs · 2026</p>
 <h2 class="concurs-title">36è Concurs de Fotografia Josep Anton Cordoncillo</h2>
-<div class="concurs-grid">
-<div class="concurs-card">
-<h3>Calendari</h3>
-<ul class="concurs-list">
-<li><strong>20 de novembre de 2026</strong> — data límit per a l'entrega de les fotografies.</li>
-<li><strong>23 de novembre de 2026</strong> — recepció de les fotografies definitives per preparar-les i enviar-les a imprimir.</li>
-<li><strong>30 de novembre de 2026</strong> — muntatge de l'exposició.</li>
-<li><strong>1 de desembre de 2026</strong> — inici de l'exposició.</li>
-<li><strong>18 de desembre de 2026</strong> — acte de lliurament de premis.</li>
-<li><strong>30 de desembre de 2026</strong> — final de l'exposició.</li>
-</ul>
-</div>
-<div class="concurs-card">
-<h3>Categories</h3>
-<ul class="concurs-list">
-<li><strong>Color</strong> — tema lliure.</li>
-<li><strong>Blanc i negre</strong> — tema lliure.</li>
-<li><strong>Tema</strong> — <em>pendent</em>.</li>
-</ul>
-</div>
-</div>
+<ol class="concurs-timeline">
+<li class="concurs-step">
+<span class="cal"><span class="cal-month">Set</span><span class="cal-day">25</span></span>
+<span class="cal-label">Inici del concurs</span>
+</li>
+<li class="concurs-step">
+<span class="cal"><span class="cal-month">Nov</span><span class="cal-day">20</span></span>
+<span class="cal-label">Data límit de presentació</span>
+</li>
+<li class="concurs-step">
+<span class="cal"><span class="cal-month">Des</span><span class="cal-day">01</span></span>
+<span class="cal-label">Inici de l'exposició</span>
+</li>
+<li class="concurs-step">
+<span class="cal"><span class="cal-month">Des</span><span class="cal-day">18</span></span>
+<span class="cal-label">Lliurament de premis + concert</span>
+</li>
+<li class="concurs-step">
+<span class="cal"><span class="cal-month">Des</span><span class="cal-day">30</span></span>
+<span class="cal-label">Fi de l'exposició</span>
+</li>
+</ol>
+<p class="concurs-cats"><strong>Categories:</strong> Color · Blanc i negre · Tema <em>(pendent)</em></p>
 <div class="concurs-tabs">
 <input type="radio" name="concurs-tab" id="concurs-tab-bases" class="concurs-tab-radio" checked>
 <input type="radio" name="concurs-tab" id="concurs-tab-participar" class="concurs-tab-radio">
@@ -66,9 +68,10 @@ El **Concurs Fotogràfic Josep Antón Cordoncillo** és el concurs anual de foto
 </ul>
 <h4>Dates importants</h4>
 <ul>
+<li>Obertura de la convocatòria: <strong>25 de setembre de 2026</strong>.</li>
 <li>Data límit de presentació: <strong>20 de novembre de 2026</strong>.</li>
 <li>Exposició: <strong>de l'1 al 30 de desembre de 2026</strong>.</li>
-<li>Lliurament de premis: <strong>divendres 18 de desembre de 2026, a les 19 h</strong>. L'assistència és obligatòria per recollir el premi o, en cas de no poder assistir, cal delegar una persona autoritzada.</li>
+<li>Lliurament de premis i concert: <strong>divendres 18 de desembre de 2026, a les 19 h</strong>. L'assistència és obligatòria per recollir el premi o, en cas de no poder assistir, cal delegar una persona autoritzada.</li>
 </ul>
 <h4>Drets d'autor i ús de les imatges</h4>
 <ul>
@@ -97,6 +100,8 @@ El **Concurs Fotogràfic Josep Antón Cordoncillo** és el concurs anual de foto
 </section>
 </div>
 </div>
+
+<hr class="concurs-sep">
 
 ## Història
 
