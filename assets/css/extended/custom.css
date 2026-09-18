@@ -80,12 +80,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 700px) {
   .efemerides-row {
+    /* Al telèfon 2 columnes (2 + 2) per diferenciar-les del mosaic, que passa a 1 columna */
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 480px) {
-  .efemerides-row {
-    grid-template-columns: 1fr;
   }
 }
 .efemeride {
@@ -357,9 +353,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-copyright {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.45rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
 }
 .cc-badge {
   height: 20px;
@@ -386,6 +387,23 @@ h1, h2, h3, h4, h5, h6 {
 .footer-powered-link:focus ~ .footer-powered-reveal {
   max-height: 1.6em;
   opacity: 1;
+}
+
+/* Detallet simpàtic: el logo del peu balanceja al passar-hi el ratolí */
+.footer-col--logo a:hover img {
+  animation: footer-logo-wiggle 0.7s ease-in-out;
+}
+@keyframes footer-logo-wiggle {
+  0%   { transform: rotate(0deg) scale(1); }
+  25%  { transform: rotate(-5deg) scale(1.04); }
+  50%  { transform: rotate(4deg) scale(1.04); }
+  75%  { transform: rotate(-2deg) scale(1.04); }
+  100% { transform: rotate(0deg) scale(1); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .footer-col--logo a:hover img {
+    animation: none;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -420,6 +438,12 @@ h1, h2, h3, h4, h5, h6 {
     flex-wrap: wrap;
     align-items: baseline;
     gap: 0 0.55rem;
+  }
+  .footer-col--legal {
+    text-align: center;
+  }
+  .footer-col--legal .footer-col-list {
+    justify-content: center;
   }
   .footer-col--legal .footer-col-list li + li::before,
   .footer-col--stats .footer-col-list li + li::before {
@@ -575,12 +599,32 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 @media (max-width: 768px) {
+  .header .header-nav {
+    justify-content: center;
+  }
+  .header .logo {
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .header .menu {
+    width: 100%;
+    justify-content: center;
+  }
   .menu-icon {
     display: inline-flex;
   }
   .menu-icon svg {
     width: 17px;
     height: 17px;
+  }
+  /* Menú només amb icones al telèfon; el text queda a l'atribut title */
+  .menu-text {
+    display: none;
+  }
+  .menu li a:has(.menu-text.active) {
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+    text-decoration-thickness: 2px;
   }
 }
 
@@ -595,7 +639,8 @@ h1, h2, h3, h4, h5, h6 {
     transition: line-height 0.25s ease;
   }
   .header .logo a img {
-    transition: height 0.25s ease;
+    transition: height 0.25s ease, margin 0.25s ease;
+    margin: 15px 0;
   }
   .header.scrolled {
     --header-height: 64px;
@@ -603,6 +648,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .header.scrolled .logo a img {
     height: 48px;
+    margin: 8px 0;
   }
   .header.scrolled .menu-icon {
     display: inline-flex;
