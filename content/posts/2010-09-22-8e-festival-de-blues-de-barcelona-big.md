@@ -9,7 +9,7 @@ tags:
 - fotografia
 - linuxbcn
 - Luz de Gas
-- video
+- vídeo
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzqXEQEvueD6LpyZZ7MzLw6Yc0WjNmZvWId3mwEDUbiCRRpC8oxPOqh2Cc4fThvYouMc4LJm9n7i4CzmnOARL7dZ8qGVdtDFQRPjMHbZA6h8qJncwNRUw_XWMEOePzqfKyHyCWel5e-Hw/w640-h358/IMG_5919.jpg
 album_url: https://photos.app.goo.gl/3CJGCSPjLe3JuXsX7

@@ -7,7 +7,7 @@ tags:
 - nou barris
 - Barcelona
 - can basté
-- exposicio
+- exposició
 - llibre
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7h8ilakLKljdmzcGVoc8CzhiivysZvC6lnIMggM1bTC1_OZ_ZbdEoQF7m0YzS3a94t68IiUr73UzQq0Bz1YncILh4dehGiMRRH6TbXwLRIayEn7yZHRS1_6jeuKLn13dUFSTPtClZZJQ/s640/_2170372-2.jpg

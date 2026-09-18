@@ -5,7 +5,7 @@ author: Ismael Utrilla
 slug: prospe-festes-2018-zumba-masterclass
 tags:
 - masterclass
-- VIA JULIA
+- vía júlia
 - Zumba
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyWR36vwIoBZ5jmGvS0nPq1fdeCmZh-CNRLPn6qT8Spj1g4DneBRgOMXpizJ4DbMmqKg6MpsbYaq_JGwWyYdWHE2jbnN_ZM6UPBxgG3PxjeK3zQ9t2dh-f8j47nYjEgg2KqGMR2PT68FU/s640/IMG_0258.JPG

@@ -4,7 +4,7 @@ date: 2026-03-02T09:54:21+0100
 author: Joan "Linux" Martínez i Serres
 slug: 2026-03-01-any-nou-xines-nou-barris
 tags:
-- plaça Ángel Pestaña
+- plaça Àngel Pestaña
 - ANY NOU XINÈS
 - Prosperitat
 - fotografies

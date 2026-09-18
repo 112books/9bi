@@ -5,7 +5,7 @@ author: Pedro Click
 slug: penya-clan-mc-improviciaos
 tags:
 - improviciados
-- musica
+- música
 - prospefesta penya
 - prospefesta26
 cover:

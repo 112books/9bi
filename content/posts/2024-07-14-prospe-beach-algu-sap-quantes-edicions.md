@@ -7,7 +7,7 @@ tags:
 - bolei
 - menjar
 - platja
-- plaça Ángel Pestaña
+- plaça Àngel Pestaña
 - Prospe Beach
 - Prosperitat
 cover:

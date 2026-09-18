@@ -6,7 +6,7 @@ slug: el-espectaculo-debe-continuar
 tags:
 - nou barris
 - teatre
-- musica
+- música
 - barri
 - ruta
 cover:

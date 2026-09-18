@@ -7,7 +7,7 @@ tags:
 - 9 barris imatge
 - circ
 - circ cric
-- manel sala "ulls"
+- manel sala ulls
 - pallassos sense fronteres
 - teatre lliure
 - tortell poltrona

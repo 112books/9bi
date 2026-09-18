@@ -4,11 +4,6 @@ date: 2011-05-25T16:03:00+0200
 author: Joan "Linux" Martínez i Serres
 slug: sinicia-lacampada9barris
 tags:
-- '#acampada9barris'
-- '#acampadabcn'
-- '#nonosvamos'
-- '#spanishrevolution'
-- '#yeswecamp'
 - 9barris
 - fotografia
 - Prosperitat

@@ -6,7 +6,6 @@ slug: assaig-al-carre-edgar-mocebares-contra
 tags:
 - assaig al carrer
 - Mocebares
-- musica
 - música
 - '2026'
 cover:

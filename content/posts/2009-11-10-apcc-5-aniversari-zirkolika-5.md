@@ -8,7 +8,7 @@ tags:
 - apcc
 - circ
 - festa aniversari apcc
-- manel sala " ulls"
+- manel sala ulls
 - zirkolika
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0czHS6nYjLSIvWIDYtDk1eQv1pNJ-DKe2NSzhG7Ltve3adXr2PhtraIWORfbcdvuKudjqdkbSkrs1xzuumfc63sHdYpQUUCXmsaLR-ebvZAFmzhTGpVR6EzgrxXkT1wUoBwloXIdYdJOX/s400/apcc%205%20aniversari%20fotos%20manel%20sala%20ulls.jpg

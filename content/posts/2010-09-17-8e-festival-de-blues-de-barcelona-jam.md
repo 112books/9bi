@@ -8,7 +8,7 @@ tags:
 - fotografia
 - jam session
 - linuxbcn
-- video
+- vídeo
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvIkqk51PapGMOibC0aCmDSVLXMWfb7cEbAneSR1sHlR9snBPfbxb0r4XhGhGXwxBEEZ4jzwSOBqP9ACcar8gktnlC4YBPi0ePEJ96BuFZPwoTSv4lu9AXC5tnj0HF5qpzmgHTkN0I4W4/w640-h427/IMG_0045.jpg
 album_url: https://photos.app.goo.gl/CdvjUftqgfgSqfgi8

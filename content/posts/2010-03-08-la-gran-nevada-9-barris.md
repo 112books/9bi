@@ -6,7 +6,7 @@ slug: la-gran-nevada-9-barris
 tags:
 - 9 barris
 - Barcelona
-- manel sala "ulls"
+- manel sala ulls
 - neu
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmA8uTGxVYhHmWrE9wk9Bwk8p780hJeGeh_frL-yWegJNrOjFh8slfSzHzGA1yCyvsf4ejWGArQx2z_8mRZkGWG6w12fEc1FyFwIYOuHxYcOxitJMAbwI4ZJ6iUCUthX5nwUna7aKu_fC5/s400/IMG_2559.JPG

@@ -8,7 +8,7 @@ tags:
 - festival de blues de barcelona
 - fotografia
 - linuxbcn
-- lluis coloma
+- Lluís Coloma
 - Luz de Gas
 - presentació disc
 cover:

@@ -5,7 +5,7 @@ author: Manel Sala "Ulls" Circ
 slug: flamenco-de-barrio-25-3-2011-casal-de
 tags:
 - flamenco de barrio
-- manel sala "ulls"
+- manel sala ulls
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRSezLEUEtSIi7LvjgrycX7zzeNKy-F4E6fjyR_LEz_sh34miWUSIqT_gvfC2QkplXR4wGKe7Iz8vvZcO1V3EseRgU62BpnKAhr9JlOsXm7BqopvbPAbTMaYRuSvg51UpkNPNeA1YfzoEL/s400/IMG_8046.jpg
 album_url: https://picasaweb.google.com/ulls2006/FlamencoDeBarrio2532011CasalDeBarriProsperitat?feat=embedwebsite

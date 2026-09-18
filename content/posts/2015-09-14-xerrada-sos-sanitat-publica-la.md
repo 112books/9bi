@@ -6,7 +6,7 @@ slug: xerrada-sos-sanitat-publica-la
 tags:
 - sanitat publica
 - nou barris
-- VIA JULIA
+- vía júlia
 - sanitat
 - Xerrada
 cover:

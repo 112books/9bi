@@ -5,7 +5,7 @@ author: Manel Sala "Ulls" Circ
 slug: arbusto-vi-concurso-de-maquetas-2010
 tags:
 - arbusto
-- manel sala "ulls"
+- manel sala ulls
 - MAQUETAS
 - música
 cover:

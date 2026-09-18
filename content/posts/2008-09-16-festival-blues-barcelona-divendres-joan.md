@@ -14,7 +14,7 @@ tags:
 - linuxbcn
 - Lluís Coloma
 - Mr. Hurricane Band
-- video
+- vídeo
 cover:
   image: http://lh4.ggpht.com/linuxbcn/SM0L6l8Yu1I/AAAAAAAAfp8/h0pcaZdcLSU/w640-h426/IMG_2460.JPG
 album_url: https://photos.app.goo.gl/nWZSqYKWh2WyLdtU8

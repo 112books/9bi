@@ -6,7 +6,7 @@ slug: trapezi-2009-espectacle-inagural
 tags:
 - 9barris imatge
 - circ
-- manel sala "ulls"
+- manel sala ulls
 - trapezi
 - zirkolika
 cover:

@@ -4,7 +4,6 @@ date: 2016-10-29T01:21:00+0200
 author: 9 Barris Imatge
 slug: 1-b-torre-llobeta-2-b-vilapicina
 tags:
-- '#13-B'
 - arxiu roquetes
 - grup foto roquetes
 - Torrellobeta i Vilapicina

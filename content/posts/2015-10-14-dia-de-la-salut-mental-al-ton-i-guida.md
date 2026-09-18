@@ -5,7 +5,7 @@ author: 9 Barris Imatge
 slug: dia-de-la-salut-mental-al-ton-i-guida
 tags:
 - Centre Ton i Guida
-- CONVIVENCIA
+- convivència
 - nou barris
 - catalunya
 - barri

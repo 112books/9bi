@@ -9,7 +9,7 @@ tags:
 - Bob Seele
 - fotografia
 - linuxbcn
-- lluis coloma
+- Lluís Coloma
 - Ricky Nye
 - VII Festival de Blues de Barcelona
 cover:

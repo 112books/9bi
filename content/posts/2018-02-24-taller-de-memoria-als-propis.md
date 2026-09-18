@@ -7,7 +7,7 @@ tags:
 - cultura
 - concurs
 - barri
-- veins
+- veïns
 - arte
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpGPlLPLbwgmHCJMtjDB-b33vLRbiOOUSPk_LdK5BbIfwgdTZKS9qdEzNtNDJjFpxVxNeJucZMpdhWfUxa0IbY71ZubJ4EvxABW7_Xrm025PcZ0Irvw-w7Re1CEy2rT5V33xQ39A5T14I/s640/_2080095.jpg

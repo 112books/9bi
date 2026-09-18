@@ -6,9 +6,8 @@ slug: nosferata-casal-barri-prosperitat_06
 tags:
 - circ
 - clown
-- manel sala " ulls"
+- manel sala ulls
 - teatre
-- www.ulls.info
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0x8jNPE4lLuofG7OgukWA__RpMHLeFStdkdndXbBHcDKphBiCvEvPGjtf7ZXnTyIEAdWNFraZyJiWQuYAo6NQFKH1gDpmwJQvy5xmXhh-v3umAB0bCC-jTBWSB6I8oO3bS27o6jpcbTUe/s400/IMG_2038.JPG
 album_url: http://picasaweb.google.es/ulls1963/NosferataCasalBarriProsperitat?feat=embedwebsite

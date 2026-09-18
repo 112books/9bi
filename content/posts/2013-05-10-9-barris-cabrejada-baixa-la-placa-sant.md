@@ -4,8 +4,6 @@ date: 2013-05-10T08:08:00+0200
 author: Joan "Linux" Martínez i Serres
 slug: 9-barris-cabrejada-baixa-la-placa-sant
 tags:
-- '#9b9m'
-- '#9bcabrejada'
 - manifestació
 - plaça Sant Jaume
 cover:

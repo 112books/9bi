@@ -7,8 +7,8 @@ tags:
 - ARTS ESCÈNIQUES
 - ajuntament
 - teatre
-- musica
-- video
+- música
+- vídeo
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7eVw5Knzdux0w7qKdMgAz02akXQYKOoFDozET7X14Rs4tHo0QLzxfvDrdHw3K4C6gTnLlPGaeZusS9KI5zIF0HrGfQhyCEx1Z_NPbXMdorLn2oln_3RdR7z09IMeiPlFMiW8nNyz8JLpT/s400/IMG_4892.jpg
 album_url: https://picasaweb.google.com/100268695753733554853/LaCorcolesGrisCurtcirckit2012Montgat?authuser=0&amp;feat=embedwebsite

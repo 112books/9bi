@@ -6,7 +6,7 @@ slug: abril-una-primavera-de-nuvols-sobre
 tags:
 - Prosperitat
 - fotografia
-- torre baro
+- torre baró
 - Barcelona
 - 9 barris
 cover:

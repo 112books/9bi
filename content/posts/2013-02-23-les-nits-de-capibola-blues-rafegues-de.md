@@ -7,7 +7,7 @@ tags:
 - casal barri prosperitat
 - la teoria del taburete
 - les nits de Capibila
-- rafagas de swing
+- Ráfagas de Swing
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkWjS_rb1Fk9TdIRM29QBmH_vkBYiH2yyzBBcMRrgoaWinwwm6QPLyJ5h6D5QYIVQnHIumPmB5vjL086yMpiUybfvnjLez0Xv2SzHcpHyA262-qoW-yfVgQkICYmIOwFf4FSejB0f8s_Y/s400/IMG_0309.jpg
 album_url: https://picasaweb.google.com/103138221614479310970/LesNitsDeCapibolaBluesRafeguesDeSwingLaTeoriaDelTaburete?authuser=0&feat=embedwebsite

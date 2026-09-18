@@ -7,7 +7,6 @@ tags:
 - presentació
 - nou barris
 - exposició
-- exposicio
 - manifest
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIl3hFdatc5EY4s_T6DD_I9z7YBJ6D8HER6B_xrvZFqg1B4pzXDo8ipOJr9YsZK6uySWp_RIjz_oGHRcGEDqmA4JV8bakchcMzPM6OQi3Fcta1a5nP2_UqGyycOXYjkzFswMS58PHzoB4m/s640/IMG_20191128_194243.jpg

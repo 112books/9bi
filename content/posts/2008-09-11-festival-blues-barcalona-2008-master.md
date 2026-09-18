@@ -8,7 +8,7 @@ tags:
 - fotografia
 - linuxbcn
 - master class
-- video
+- vídeo
 cover:
   image: http://lh5.ggpht.com/linuxbcn/SMbuZ_fbdpI/AAAAAAAAe0M/CltZhVKiODo/w640-h426/IMG_1724.JPG
 ---

@@ -4,7 +4,6 @@ date: 2013-02-02T15:50:00+0100
 author: Joan "Linux" Martínez i Serres
 slug: 9binblack-casal-de-barri-covers-shop
 tags:
-- '#9binblack'
 - 9binblack
 - Aerolíneas Subterráneas
 - Casal de barri Prosperitat

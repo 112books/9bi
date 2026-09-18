@@ -13,7 +13,7 @@ tags:
 - Guido Wardak
 - linuxbcn
 - Philippe Bot
-- video
+- vídeo
 cover:
   image: http://lh4.ggpht.com/linuxbcn/SC8WPPks6UI/AAAAAAAAUO8/GHYC7MXhzGY/w640-h426/IMG_7989wtmk.JPG
 album_url: https://photos.app.goo.gl/rRqKC8ynKzZ8jKSV7

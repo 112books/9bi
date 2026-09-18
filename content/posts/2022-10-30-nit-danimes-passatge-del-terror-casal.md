@@ -6,7 +6,6 @@ slug: nit-danimes-passatge-del-terror-casal
 tags:
 - Barcelona
 - Casal de barri Prosperitat
-- fotos manel sala ulls
 - nit d'ànimes
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw0SjISgtSl644b6x10QFb6TtuEKZ0sx03DJkRCW12JbZeFiWjZMO1AhSYkSzt_fge2kGYSvlMuK30QSM5h5QxTMnLbGdF4Bu3rI16KkmcmLsI7z43kszBzNEVOC4wfHT_uVgT6eD4YIk3PIIpg9sTagU-3qsEjWrPu1TTw2zVo8h-EjDuPy_Hzq1ebA/s600/P2940473.jpg

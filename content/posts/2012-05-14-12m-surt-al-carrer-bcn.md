@@ -4,8 +4,7 @@ date: 2012-05-14T19:44:00+0200
 author: Manel Sala "Ulls" Circ
 slug: 12m-surt-al-carrer-bcn
 tags:
-- 'Fotos: Manel Sala "Ulls"'
-- manel sala "ulls"
+- manel sala ulls
 - fotos
 - bcn
 cover:

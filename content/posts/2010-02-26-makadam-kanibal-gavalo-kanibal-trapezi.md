@@ -8,7 +8,6 @@ tags:
 - França
 - makadam kanibal
 - trapezi
-- www.ulls.info
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAqfZAQxLy1jSOQPkkFYDewVToE6-yW6lJkFfxCjC4ZRbRAPlA2nyDHyQ-eb9NlQyHFMvGirFKCDR9Y8Xwj7cmu-bR_vV-nETCUJOyZJ0xO0tPGLy-tJ69I5feFdLdrYOJhigRELGChzX-/s400/IMG_4961.JPG
 album_url: http://picasaweb.google.es/ulls2006/MakadamKanibalGavaloKanibal?feat=embedwebsite

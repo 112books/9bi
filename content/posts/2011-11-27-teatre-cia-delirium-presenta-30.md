@@ -4,7 +4,6 @@ date: 2011-11-27T10:05:00+0100
 author: Joan "Linux" Martínez i Serres
 slug: teatre-cia-delirium-presenta-30
 tags:
-- '30'
 - Casal de barri Prosperitat
 - cia. Delirium
 - fotografia

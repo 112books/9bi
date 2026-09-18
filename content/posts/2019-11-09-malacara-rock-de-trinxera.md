@@ -5,7 +5,7 @@ author: Pedro Click
 slug: malacara-rock-de-trinxera
 tags:
 - malacara
-- musica
+- música
 - rock
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipu-_vUJnw6RIZ49mCoUCDouH5AAD-5vNXPJyuCtev_GrKEjQ9Cz-pLBrWXG9GJlGd9Gqi5IM2qXEh7r_i7vKAf58g0daLNsBEM1eMX8KTdwTN7VEN6FHXp3WH6afFR6SXMaglV7IsanHi/s640/DSC04224.jpg

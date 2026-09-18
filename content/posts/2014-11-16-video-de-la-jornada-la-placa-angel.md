@@ -4,10 +4,10 @@ date: 2014-11-16T19:52:00+0100
 author: Alberto Sanagustín
 slug: video-de-la-jornada-la-placa-angel
 tags:
-- plaça Ángel Pestaña
+- plaça Àngel Pestaña
 - san xibeco
 - xibeco
-- video
+- vídeo
 - STA
 cover:
   image: https://lh3.googleusercontent.com/-d97Nj7MLMJo/VGjrHYnlXUI/AAAAAAAAMsw/c62m5KCFLbw/s400/SAN%2520XIBECO%25202014.gif

@@ -5,8 +5,7 @@ author: Manel Sala "Ulls" Circ
 slug: de-prospeoasis-festa-major-prosperitat
 tags:
 - 9barris imatge
-- manel sala "ulls"
-- www.ulls.info
+- manel sala ulls
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEa8y5pYfNh88Yn4yeFTvEaF0_KEWQ_4p5PiU11goLxGGNUkqLnGI1vgpMq6xPJmoQ077F4c1cr3tx3XWVHEq5OtpNRO6Vuc6g23d55OyEtrak7-MEBMHcOWc8dbOV0SW07Hr3CtuXc9tp/s400/IMG_2072.JPG
 album_url: http://picasaweb.google.es/ulls1963/Prospeoasis?feat=embedwebsite

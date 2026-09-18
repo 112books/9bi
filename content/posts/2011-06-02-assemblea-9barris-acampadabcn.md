@@ -4,7 +4,6 @@ date: 2011-06-02T09:46:00+0200
 author: Pedro "Casal" Cervera
 slug: assemblea-9barris-acampadabcn
 tags:
-- '#acampadabcn'
 - nou barris
 - catalunya
 - formació

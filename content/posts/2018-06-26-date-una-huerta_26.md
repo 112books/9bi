@@ -6,7 +6,7 @@ slug: date-una-huerta_26
 tags:
 - reunió
 - huerta
-- veins
+- veïns
 - ruta
 - quim
 cover:

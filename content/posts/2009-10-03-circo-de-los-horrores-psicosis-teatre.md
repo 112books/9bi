@@ -5,7 +5,7 @@ author: Manel Sala "Ulls" Circ
 slug: circo-de-los-horrores-psicosis-teatre
 tags:
 - circo de los horrores
-- manel sala "ulls"
+- manel sala ulls
 - passe gràfic
 - teatre victòria
 - zirkolika

@@ -6,7 +6,7 @@ slug: james-harman-8e-festival-de-blues-de
 tags:
 - Festival Blues Barcelona 2010
 - james harman
-- manel sala "ulls"
+- manel sala ulls
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3w3d5hlWRAuEUIPLFLYEDla-Q35IeHf0BHQU-bZkVeCBFu6BuB9f7dd2j03Wx660s3S4U9P5lTyY1BEqozXWa0SglPgGoPZpXBeYVMRyLzMerGgsWJdvHNvnaH3orIlWjtkxgbeguPglc/s400/IMG_6899.jpg
 album_url: http://picasaweb.google.com/ulls2006/JamesHarman8eFestivalDeBluesDeBarcelona2010?feat=embedwebsite

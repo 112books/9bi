@@ -3,8 +3,6 @@ title: 'Preparant ruta : Turó de la Peira - Can Peguera.'
 date: 2016-11-14T21:57:00+0100
 author: 9 Barris Imatge
 slug: preparant-ruta-turo-de-la-peira-can
-tags:
-- '#13-B'
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyZfRtSQvL2tJ107Atp1h1BC7nOogF2ZImwRlks781rn7uukmiReBENVHRf7D_UJ8vE0fxuLJsp7XsL-QMz6gFfNmePcpprzkoTss90jgzJpVKUhIMcbefWyateSk8p49XPcPj_Eodnt4/s640/PB130170.jpg
 album_url: https://goo.gl/photos/BgW7P1Gr6Ya7Am37A

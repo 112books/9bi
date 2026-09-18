@@ -7,8 +7,7 @@ slug: circ-raluy-la-bellesa-de-un-circ-del-11
 tags:
 - 9 barris imatge
 - circ raluy
-- manel sala "ulls"
-- www.ulls.info
+- manel sala ulls
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7nOavNIDotkPleQddr39yF_oeWPRFo_mYRZaiO9yi0TtFMvlKZWeV7QRKTfavsm2Obj89MsO9RK0KRgiXl2bXMhiI31eiXjvb5_rddSfn3-xQmhnnOIjaKrAF4Wk5-qfyrWrN376U8hEd/s400/CRALUY0046.JPG
 album_url: http://picasaweb.google.es/ulls2006/CircRaluy?feat=embedwebsite

@@ -7,7 +7,7 @@ tags:
 - circ
 - françoise rochais
 - malabarista
-- manel sala "ulls"
+- manel sala ulls
 - teatro circo albacete
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbP3JMaFSlyyrVSM4ym5sGaSoIzbrPouM2m_07ZqhU6AO67E1PKzj5zOaya-rOmwC_h9eE4xv-6HzugecYJD29GuBpNHCI8fwjNygUPTDviVgnRm6hw7bFDfYXAF7JqtdHp2q8YAvhy4YC/s400/IMG_9787.JPG

@@ -4,8 +4,6 @@ date: 2013-10-15T01:01:00+0200
 author: Pedro "Casal" Cervera
 slug: audiencia-publica-policial-nou-barris
 tags:
-- '#15-M'
-- '#9bcabrejada'
 - 9 barris
 - Audiencia Publica
 - nou barris

@@ -7,7 +7,6 @@ tags:
 - atletisme
 - Barcelona
 - cursa popular
-- fotos manel sala ulls
 - nou barris
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDL8DHwr_vNnzqOgHzfdBEtTpuZeHZOyBSDT0RsETPIsvfWK9zMw2Jo5VonyB6-mW9BkutM3l933wR2Uyoi4aUyfVmVlUW272FMTuTkgcucPDRfCgfIoFTbFM3_JVC-IHChUABay21DqAc/s600/2T5A0712.JPG

@@ -8,7 +8,7 @@ tags:
 - Casal de barri de Prosperitat
 - Josep Antón Cordoncillo
 - barri de Prosperitat
-- daniel higiénico
+- Daniel Higiénico
 - casal de barri
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjv5DnqgSnIT2Lo44l5mAz3nRukxvck01NYbyxagdPumS49o_mX7Ze56gXcb-v3q2yGqEau1j3k3NZ5527HGflgnxoyACO14Wmkh6rqK_v3PCyrpN3ebEE-Px-O5wMPcNNEMyQnTCCE3_2AXXSDVWHwhEdBj6mvpcaJpAZWNDU6B-ccEwVlEZZ2_Q7-/w640-h360/L1300008.jpg

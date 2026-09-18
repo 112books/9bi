@@ -6,7 +6,7 @@ slug: passatge-del-terror-prosperidad
 tags:
 - passatge del terror
 - Angel Pestaña
-- nit d'animes
+- nit d'ànimes
 - Prosperitat
 - prospe
 cover:

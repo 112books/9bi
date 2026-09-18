@@ -4,7 +4,7 @@ date: 2024-06-08T10:03:00+0200
 author: Joan "Linux" Martínez i Serres
 slug: 2024-06-07-casal-de-bicis-massa-critica
 tags:
-- plaça Ángel Pestaña
+- plaça Àngel Pestaña
 - casal de barri
 - paella popular
 - Barcelona

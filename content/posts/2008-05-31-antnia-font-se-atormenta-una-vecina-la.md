@@ -9,7 +9,7 @@ tags:
 - fotografia
 - Se atormenta una vecina
 - Seu del districte Nou Barris
-- video
+- vídeo
 cover:
   image: http://lh4.ggpht.com/linuxbcn/SEEuBNNKhxI/AAAAAAAAV30/DuxIKlGi0WI/w640-h426/IMG_8985wtmk.JPG
 album_url: https://photos.app.goo.gl/Z3zaDNcmw5LvTJkR8

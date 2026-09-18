@@ -7,7 +7,7 @@ tags:
 - festes de Verdum
 - participació
 - festa major
-- VIA JULIA
+- vía júlia
 - popular
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjQJEn5GWix3iq32UEhXKpkVuLDAoc-Ya8HAdvvgFm1iVZmmvAfogeKrAfy7pMU3-1Mm9AocIJKgKEN70pQ4UawHjNUwMH13YzKumn78N23Qc87Atdh4b_YOjyvxdRAP-fJ2Rgd8Y9VGA/s640/DSC_0659.jpg

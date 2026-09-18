@@ -10,7 +10,7 @@ tags:
 - fotos
 - incendi
 - incendio
-- manel sala "ulls"
+- manel sala ulls
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaO-LAUrXaTuZMXypfMaebYt_wti4MN0DujucuBbTAH1xvgjq7KJBUDSZDe6fVOSTtBO47XjuNgT29JwVBOToaGGeg7bAm1l8nj7RzAkgFBiFKpW7Bh2WVW1UPxeBS9q6Jc_yyXXGWeP1o/s400/IMG_5942.jpg
 album_url: https://goo.gl/photos/3QcxNFVQfruzUCkb6

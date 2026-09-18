@@ -6,7 +6,7 @@ slug: presentacio-del-diari-de-festes-de
 tags:
 - '2011'
 - diari de festes
-- presentacio
+- presentació
 - prospe
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifOB33BCfcHwANJIyZrmlTyRU-EHtga-bAOI8KSlIJRDP6BL6frpNuRfiN0BEqoigxR4myeIDuTtCP9mX4WCU3hqKmJ5a5KfGkmvh6yjz0nHmy09OlW1VdFIXCaCl0ikp1O73MW1nmoQw/s400/IMG_2090.jpg

@@ -5,7 +5,7 @@ author: Manel Sala "Ulls" Circ
 slug: un-passeig-amb-barca-de-tamariu-sa
 tags:
 - costa brava
-- manel sala "ulls"
+- manel sala ulls
 cover:
   image: https://lh6.googleusercontent.com/_haV9L05_31g/TZiPPmcv7zI/AAAAAAABFvU/GyHlkMRpXZA/s400/IMG_0792.jpg
 album_url: https://picasaweb.google.com/ulls2006/UnPasseigAmbBarcaDeTamariuASaRieraBaixEmpordaCostaBrava?feat=embedwebsite

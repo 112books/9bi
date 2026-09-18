@@ -6,7 +6,6 @@ slug: barcelona-desde-el-mar-11-01-2009_26
 tags:
 - 9 barris imatge
 - Barcelona
-- fotos ulls
 - mar
 - Montseny nevat
 cover:

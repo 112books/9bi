@@ -7,7 +7,7 @@ tags:
 - apcc
 - circ
 - la central del circ
-- manel sala "ulls"
+- manel sala ulls
 - marató tv3
 - zirkolika
 cover:

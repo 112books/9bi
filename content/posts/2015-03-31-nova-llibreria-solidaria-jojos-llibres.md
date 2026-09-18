@@ -7,7 +7,7 @@ tags:
 - ciutat meridiana
 - 9 barris acull
 - presentacion
-- presentacio
+- presentació
 - activitats
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhr5xEt3iXi4fFyey2yAKWKO5XmGpsoTOQ0ICW_rscT_WrousSoMskA8H-e1btZsBli2IN0RCP4PQoXkCz_HmEmZfx1WOsxEbs3G4OXwzaLkeC5xgvNad2902v-dKyGhywsqjigC1YDhLc/s400/20150331_193258.jpg

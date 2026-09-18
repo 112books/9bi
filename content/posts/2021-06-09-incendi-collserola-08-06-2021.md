@@ -7,7 +7,6 @@ tags:
 - 9 barris
 - bombers
 - collserola
-- fotos manel sala ulls
 - incendi
 - nou barris
 cover:

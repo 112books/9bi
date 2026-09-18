@@ -6,7 +6,6 @@ slug: brossa-al-carrer-100centari-prosperitat
 tags:
 - 100tenari La Prosperitat
 - Brossa al carrer
-- 'Fotos: Manel Sala "Ulls"'
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisSaRb5L11mItTnQoU2pGqik6Su3rJxeXkklBTHCTK1OMcoEOkqsH2G88YpO2xcOetcKZg7Ik9aaJCKIiJe77Gcaq7um4PTWrfMIBbcDsjPG34uTfgChYDc6Sq_Chhtw-_OSFNVuoH61Ym/s640/P2230726.JPG
 album_url: https://photos.app.goo.gl/bRt6utPy7ggWz2rE9

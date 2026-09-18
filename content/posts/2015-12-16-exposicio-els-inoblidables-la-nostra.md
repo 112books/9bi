@@ -5,7 +5,6 @@ author: Pedro Click
 slug: exposicio-els-inoblidables-la-nostra
 tags:
 - exposició
-- exposicio
 - expo
 cover:
   image: https://lh3.googleusercontent.com/-aMoHPg515BU/VnGjiBgAFyI/AAAAAAAAoSs/CkR1FJBnUJU/s400-Ic42/DSC_9028.jpg

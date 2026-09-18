@@ -4,7 +4,7 @@ date: 2016-07-10T12:03:00+0200
 author: Manel Sala "Ulls" Circ
 slug: prospe-beach-2016-9-barris-barcelona
 tags:
-- manel sala "ulls"
+- manel sala ulls
 - Prospe Beach
 - Barcelona
 - 9 barris

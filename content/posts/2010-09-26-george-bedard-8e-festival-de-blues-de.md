@@ -6,7 +6,7 @@ slug: george-bedard-8e-festival-de-blues-de
 tags:
 - Festival Blues Barcelona 2010
 - George Bedard
-- manel sala "ulls"
+- manel sala ulls
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJGqJexgqtlZpmHZBSoZxEobVCqUC0uaDGIWLrJCbxFUis0o4dKH1DAxvhExwZEMocYoMDC1wWN1Cdr-e6ChHEUtEKt2UBC5XmfrxVXn7hnosgp1PeoS8f74jPsNY5xrXbA5dNfS4-GULG/s400/IMG_7573.jpg
 album_url: http://picasaweb.google.com/ulls2006/GeorgeBedard8eFestivalDeBluesDeBarcelona2010?feat=embedwebsite

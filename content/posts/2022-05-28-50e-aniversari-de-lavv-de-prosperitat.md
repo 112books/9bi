@@ -6,7 +6,7 @@ slug: 50e-aniversari-de-lavv-de-prosperitat
 tags:
 - Prosperitat
 - prospe
-- Vídeo
+- vídeo
 - avv
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2As7dPtOwIW474airfsZpHNBEejOdTMil7XauTlPFwh6EireBNdkQDzpUAo9BfAwM-dIZEBUuyTO0Qd2aFehTcbBxiLfGZNKGrZBoutb7vuhVTphNDLfW4scj_EjyCKEIgnH1703TIi2HGphqb7rj0S48qzckikGkXNzqTjPf-oORIFgwDst1qPBn/w640-h426/_DSF8711.jpg

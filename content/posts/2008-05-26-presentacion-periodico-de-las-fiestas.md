@@ -6,7 +6,6 @@ slug: presentacion-periodico-de-las-fiestas
 tags:
 - presentacion
 - presentació
-- presentacio
 - fiesta
 - prospe
 cover:

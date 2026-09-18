@@ -6,7 +6,7 @@ slug: flamenco-de-barrio-casal-de-prosperitat
 tags:
 - casal prospe
 - flamenco
-- manel sala "ulls"
+- manel sala ulls
 - música
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjn76shbPLjxC31CwTiu7j0qPKQOJpkx-agn7BjkFbFGbiZnQzYXC6M0AQ_p__dLV0jjSe1unKA0PPM_cKD6L8IsayMyx2z1x7YdFJfskncZVw_m_OBsPM7Rvw3HtFSYcnvL8Ruh05iqDkX/s400/IMG_1888.JPG

@@ -5,7 +5,7 @@ author: Joan "Linux" Martínez i Serres
 slug: exposicio-kim-manresa-nou-barris-1970
 tags:
 - nou barris
-- exposicio
+- exposició
 - barri
 - expo
 cover:

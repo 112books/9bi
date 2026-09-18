@@ -4,7 +4,7 @@ date: 2012-02-20T15:46:00+0100
 author: Manel Sala "Ulls" Circ
 slug: carnaval-2012-9-barris
 tags:
-- manel sala "ulls"
+- manel sala ulls
 - 9 barris imatge
 - 9 barris
 - carnaval

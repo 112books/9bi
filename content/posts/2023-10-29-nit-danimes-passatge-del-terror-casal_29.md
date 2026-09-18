@@ -6,7 +6,6 @@ slug: nit-danimes-passatge-del-terror-casal_29
 tags:
 - 9 barris imatge
 - casal barri prosperitat
-- 'Fotos: Manel Sala "Ulls"'
 - nit d'ànimes
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicFMfCuCav_Lt4GPimy3Zp8XwZSkb1P3MFyH3A4j0QA6ZnhpacIZ5EW1JjxZReuFNwqIQjFSbKRvoK-7Y00jFPvmWPdS1WPZ7bWnkFJpSNgACKAPNZw422U8dbKxuuz71YZFP_blo6E9dD0BuZo1UV0wyvy8PTLPftR54Fd6Ch_R9PrjHxxtNmGg0wU75C/s600/P3140952.JPG

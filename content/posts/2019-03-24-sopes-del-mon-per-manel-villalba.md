@@ -5,7 +5,7 @@ author: 9 Barris Imatge
 slug: sopes-del-mon-per-manel-villalba
 tags:
 - manel villalba
-- VIA JULIA
+- vía júlia
 - Retrat
 - sopes
 - art

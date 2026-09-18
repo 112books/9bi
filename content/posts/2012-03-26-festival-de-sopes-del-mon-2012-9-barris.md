@@ -5,8 +5,7 @@ author: Manel Sala "Ulls" Circ
 slug: festival-de-sopes-del-mon-2012-9-barris
 tags:
 - festival de sopes del món
-- 'Fotos: Manel Sala "Ulls"'
-- manel sala "ulls"
+- manel sala ulls
 - festival de sopes
 - 9 barris imatge
 cover:

@@ -7,8 +7,8 @@ slug: llits-del-17-de-desembre-de-2009-al-3
 tags:
 - circ
 - llits
-- manel sala "ulls"
-- musica
+- manel sala ulls
+- música
 - tnc
 - zirkolika revista de circ
 cover:

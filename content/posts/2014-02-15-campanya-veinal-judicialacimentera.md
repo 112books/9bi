@@ -4,7 +4,6 @@ date: 2014-02-15T21:22:00+0100
 author: Joan "Linux" Martínez i Serres
 slug: campanya-veinal-judicialacimentera
 tags:
-- '#Judicialacimentera'
 - Barcelona
 - cimentra
 - montcada

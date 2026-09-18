@@ -12,7 +12,7 @@ tags:
 - linuxbcn
 - Sebastopol
 - Slim Bay Seals
-- video
+- vídeo
 cover:
   image: http://lh4.ggpht.com/linuxbcn/SM0GOFjC9oI/AAAAAAAAffk/quO7hOjkkX8/w426-h640/IMG_2158.JPG
 album_url: https://photos.app.goo.gl/9E8hYpzTpJkbCFKs9

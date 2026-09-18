@@ -4,7 +4,6 @@ date: 2011-06-19T23:38:00+0200
 author: Joan "Linux" Martínez i Serres
 slug: 19-j-una-jornada-historica-de-lluita
 tags:
-- '#acampadabcn'
 - 19J
 - Barcelona
 - fotografia

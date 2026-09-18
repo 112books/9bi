@@ -4,7 +4,7 @@ date: 2025-05-31T19:12:00+0200
 author: Ismael Utrilla
 slug: aqui-no-hay-quien-bebabingo-musical
 tags:
-- musica
+- música
 - fiesta
 - prospe
 - Bingo

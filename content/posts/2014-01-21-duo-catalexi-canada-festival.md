@@ -4,7 +4,7 @@ date: 2014-01-21T15:24:00+0100
 author: Manel Sala "Ulls" Circ
 slug: duo-catalexi-canada-festival
 tags:
-- video
+- vídeo
 - circ
 - '2013'
 - ciu

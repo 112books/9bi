@@ -10,8 +10,7 @@ tags:
 - circ
 - circ d´hivern
 - limbus
-- manel sala " ulls"
-- www.ulls.info
+- manel sala ulls
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJFp-h6RGEf6IQxHp2OFTHuX0j5pjAl31SQRvaoPseDreQ2yF1k6kPAw_PSg01MwK8e4dHAGtYJa1FScX8BPfLOgH6_E2KTR3cYKOdEqNVIkgIxhpYUbsr4BrJIm6JBz0pcz2Mpqj0IJIK/s400/IMG_0703.JPG
 album_url: http://picasaweb.google.es/ulls2006/Limbus14eCircDHivern?feat=embedwebsite

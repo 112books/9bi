@@ -6,7 +6,6 @@ slug: vencidos-al-ton-i-guida
 tags:
 - Centre Ton i Guida
 - exposició
-- republica
 - República
 - projecció
 cover:

@@ -6,7 +6,7 @@ slug: sant-jordi-via-julia
 tags:
 - nou barris
 - sant jordi
-- VIA JULIA
+- vía júlia
 - roquetes
 - entitats
 cover:

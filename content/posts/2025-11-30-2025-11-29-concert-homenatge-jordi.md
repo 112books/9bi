@@ -17,7 +17,7 @@ tags:
 - Prosperitat
 - Reportatge fotogràfic
 - the sustanciaos
-- Vídeo
+- vídeo
 ---
 
 Aquest dissabte s’ha celebrat un homenatge molt especial a un dels personatges més singulars que ha donat Nou Barris: **Jordi Lapedra**, un artista difícil de classificar que, entre moltes altres aventures, va donar vida a **The Sustancia****os**.

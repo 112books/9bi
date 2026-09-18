@@ -4,8 +4,6 @@ date: 2009-02-19T22:26:00+0100
 author: Pedro Click
 slug: new-york-ii-en-el-metro
 tags:
-- fotos nueva york
-- fotos ny
 - metro nueva york
 - metro ny
 - new york

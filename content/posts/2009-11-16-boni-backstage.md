@@ -7,7 +7,6 @@ tags:
 - backstage
 - Boni
 - circ
-- manel sala "ulls" teatre l´estruc
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhACcZ7RkCpQ4gwVfGtFoN3fcpvtIrIcpMZnN5aibsfk89WV3UJ6Opih8TnNvmk2ce0ldAVFcJrRxdceUhehTFyr6J897QzgLlDOJO7UL-aHm1dqE5YKk4LpwQ3I2e6Im7mBYanYAQo0YxI/s400/backstage-_66.jpg
 album_url: http://picasaweb.google.es/ulls2006/BoniBackstage?feat=embedwebsite

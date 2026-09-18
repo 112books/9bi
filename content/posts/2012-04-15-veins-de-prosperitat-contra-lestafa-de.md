@@ -8,7 +8,7 @@ tags:
 - la caixa
 - lladres
 - preferents
-- veins
+- veïns
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI-bDR8tetLjlbEkYvk_dhgN7Sqsp9YPpX8HgskSIy8t3g_71xwWnFegSqLACo6e_rd95jqP3CAs6XcrjIUPIJHfesRbg9026LKhVpQKtBFAuBFDBqnINk8XbXU3xpFEJ3RAyQow9c5SA/s320/preferents.jpg
 ---

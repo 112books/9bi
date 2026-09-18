@@ -8,7 +8,6 @@ tags:
 - 9 barris acull
 - 9 barris imatge
 - festival de sopes
-- fotos manel sala ulls
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUjEL1EW4BVJQDSqHacDnBeJXiAu13yNT6x52EV9DxxsEjWN0BUEw_cWhqRPsCELg9RaMGSq2QRe3FFOOZlbfCXM_2mpMl_HYi_GkD-mVUHjvIsAx6hQGOwjAjaEGHkuuucVy9zkjBJ059/s600/P2710678.jpg
 album_url: https://photos.app.goo.gl/jJxv4U6EhHv23HJs5

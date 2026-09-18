@@ -4,8 +4,6 @@ date: 2010-09-30T00:01:00+0200
 author: Pedro Click
 slug: huelga-generalque-no-nos-jodan
 tags:
-- 29-09-10
-- 29-09-2010
 - huelga
 - huelga general
 - trabajo

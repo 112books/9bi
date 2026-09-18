@@ -5,7 +5,7 @@ author: Ismael Utrilla
 slug: de-les-fotos-presentades-la-33ena
 tags:
 - concurs
-- musica
+- música
 - premis
 - fotos
 - art

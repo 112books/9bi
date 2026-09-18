@@ -6,7 +6,6 @@ slug: racons-de-catalunya-cap-de-creus
 tags:
 - alt empordà
 - cap de creus
-- fotos ulls 2008
 - girona
 - mar
 - olas

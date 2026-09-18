@@ -6,7 +6,7 @@ slug: jam-de-blues-la-casa-de-laigua
 tags:
 - flamenc
 - blues
-- Vídeo
+- vídeo
 - casa
 - BLUE
 cover:

@@ -4,7 +4,7 @@ date: 2019-10-03T18:07:00+0200
 author: 9 Barris Imatge
 slug: concert-amb-la-societat-coral-lideal
 tags:
-- VIA JULIA
+- vía júlia
 - concert
 - soroll
 - Canço

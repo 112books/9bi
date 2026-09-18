@@ -7,7 +7,7 @@ tags:
 - almazen
 - circ
 - diana gadish
-- manel sala "ulls"
+- manel sala ulls
 - pallassa
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1pLH9N_V2gVJQSS9nfFOOX-KNVCIUNrv7RVYVnqCNfuQmkAGMLxbfPxwoLq9FsS3AT3TedMwOxy41SUNgf7ZQIRVKfsjrsUPFXx92I94gTmqJpQJa2rzR36X7zX3Tbpi4CJ-IYCwD820U/s400/IMG_8690.JPG

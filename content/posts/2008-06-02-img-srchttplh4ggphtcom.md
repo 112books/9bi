@@ -6,9 +6,7 @@ slug: img-srchttplh4ggphtcom
 tags:
 - 9 barris imatge
 - festa major
-- fotos ulls 2008
 - Prosperitat
-- www.ulls.info
 cover:
   image: http://lh4.ggpht.com/ulls1963/SEP8iTkzxrI/AAAAAAAAANw/zp1WDDL1L9Y/s400/IMG_1929_redimensionar.JPG
 album_url: http://picasaweb.google.es/ulls1963/StoyKeTrino/photo#5207283260470838962

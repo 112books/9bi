@@ -8,7 +8,7 @@ tags:
 - diables
 - dracs
 - foc
-- manel sala "ulls"
+- manel sala ulls
 - nou barris
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibXg8qqvx4Biu2nuZp4-i6ant0zlFO99A4LhglDdflQYTejd7PV6lRpphif6SYx8af2hC2T_XcwlqYBDyt0rHIcB_PiL25BiV-qDA-1F2sWqRUebJwEDc39pAxbUKDzLG1hyYRnG672w3w/s400/IMG_9562.JPG

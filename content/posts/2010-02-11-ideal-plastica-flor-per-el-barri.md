@@ -7,7 +7,7 @@ tags:
 - 9 barris imatge
 - barri prosperitat
 - ideal plàstica flor
-- manel sala "ulls"
+- manel sala ulls
 cover:
   image: http://lh6.ggpht.com/_haV9L05_31g/S3QLocmYJUI/AAAAAAAAXOU/3K7pgJ3tODk/s400/IMG_8522.JPG
 album_url: http://picasaweb.google.es/ulls2006/IdealPlasticaFlorPerElBarri?feat=embedwebsite

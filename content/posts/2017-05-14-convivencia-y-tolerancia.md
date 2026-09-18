@@ -4,7 +4,6 @@ date: 2017-05-14T11:32:00+0200
 author: Pedro Click
 slug: convivencia-y-tolerancia
 tags:
-- '9'
 - 9bacull
 - 9barris imatge
 cover:

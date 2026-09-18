@@ -4,8 +4,6 @@ date: 2014-01-10T17:31:00+0100
 author: Pedro "Casal" Cervera
 slug: desnonament-aturat-nou-barris
 tags:
-- '#15-M'
-- '#9bcabrejada'
 - 500x20
 - desnonaments
 - nou barris

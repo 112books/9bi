@@ -4,7 +4,7 @@ date: 2026-07-11T21:04:59+0200
 author: Joan "Linux" Martínez i Serres
 slug: prospe-beach-2026-la-prosperitat-es
 tags:
-- plaça Ángel Pestaña
+- plaça Àngel Pestaña
 - la prosperitat
 - Prospe Beach
 - Prosperitat

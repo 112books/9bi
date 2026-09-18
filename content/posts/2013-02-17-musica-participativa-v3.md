@@ -5,7 +5,7 @@ author: Joan "Linux" Martínez i Serres
 slug: musica-participativa-v3
 tags:
 - casal barri prosperitat
-- musica participativa
+- música participativa
 - rafi
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj11r_ZvgLWeTitPCNyYd39vvtfZczPQHArJho-R_gV9CQnEOmRUXBiBa9we8OvZXEsb4WumCFVj0s7gWv-srbpYdnYqwDSSoOsO4qPiX8r8EXy3xrlvHhIZkM1nnNGkkqOVoiZG9JnWAg/s400/IMG_7231.jpg

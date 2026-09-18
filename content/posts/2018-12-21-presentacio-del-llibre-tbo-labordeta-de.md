@@ -5,7 +5,7 @@ author: Joan "Linux" Martínez i Serres
 slug: presentacio-del-llibre-tbo-labordeta-de
 tags:
 - encarna revuelta
-- presentacio
+- presentació
 - labordeta
 - llibre
 - Carlos

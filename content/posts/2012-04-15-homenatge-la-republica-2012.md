@@ -4,7 +4,6 @@ date: 2012-04-15T01:45:00+0200
 author: 9 Barris Imatge
 slug: homenatge-la-republica-2012
 tags:
-- republica
 - República
 cover:
   image: https://lh5.googleusercontent.com/-Avc1tlW3eKQ/T4oJiEqKlXI/AAAAAAAACbU/BlXfToBcZMo/s400/Republica12%2520%252832%2529.jpg

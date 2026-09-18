@@ -4,7 +4,7 @@ date: 2010-09-27T00:33:00+0200
 author: Manel Sala "Ulls" Circ
 slug: voala-project-voala-festes-de-la-merce
 tags:
-- manel sala "ulls"
+- manel sala ulls
 - voala project
 - voalá
 cover:

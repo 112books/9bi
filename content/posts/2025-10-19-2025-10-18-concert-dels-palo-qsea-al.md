@@ -6,7 +6,7 @@ slug: 2025-10-18-concert-dels-palo-qsea-al
 tags:
 - Casal de barri de Prosperitat
 - barri de Prosperitat
-- plaça Ángel Pestaña
+- plaça Àngel Pestaña
 - casal de barri
 - la prosperitat
 cover:

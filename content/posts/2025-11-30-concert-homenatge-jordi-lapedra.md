@@ -4,8 +4,6 @@ date: 2025-11-30T14:08:00+0100
 author: Ismael Utrilla
 slug: concert-homenatge-jordi-lapedra
 tags:
-- '#RockDeKilòmetreZero #CasalDeBarriProsperitat #TheReplicants #Inoxidables #RockClàssic
-  #HeavyMetal #Barcelona #MúsicaEnDirecte #ComunitatMusical'
 - jazz
 - jordi lapedra
 cover:

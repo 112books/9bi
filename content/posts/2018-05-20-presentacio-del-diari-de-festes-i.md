@@ -5,7 +5,7 @@ author: Joan "Linux" Martínez i Serres
 slug: presentacio-del-diari-de-festes-i
 tags:
 - diari de festes
-- presentacio
+- presentació
 - concert
 - festes
 - barri

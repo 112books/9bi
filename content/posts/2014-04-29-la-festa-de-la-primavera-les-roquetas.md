@@ -8,7 +8,7 @@ tags:
 - districte
 - roquetes
 - diumenge
-- musica
+- música
 cover:
   image: https://lh4.googleusercontent.com/-haikWD4HlzE/U1_YdbdwSzE/AAAAAAAABGo/9soZRXI20YA/s160-c/FesMesAmbMeyns.jpg
 album_url: https://picasaweb.google.com/110015855395179205688/FesMesAmbMeyns?authuser=0&feat=embedwebsite

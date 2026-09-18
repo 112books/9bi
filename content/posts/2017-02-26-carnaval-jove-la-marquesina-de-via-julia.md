@@ -4,7 +4,7 @@ date: 2017-02-26T12:38:00+0100
 author: Joan "Linux" Martínez i Serres
 slug: carnaval-jove-la-marquesina-de-via-julia
 tags:
-- VIA JULIA
+- vía júlia
 - carnaval
 - mar
 cover:

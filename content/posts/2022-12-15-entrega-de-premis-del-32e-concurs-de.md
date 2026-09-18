@@ -6,7 +6,7 @@ author: Joan "Linux" Martínez i Serres
 slug: entrega-de-premis-del-32e-concurs-de
 tags:
 - Josep Antón Cordoncillo
-- daniel higiénico
+- Daniel Higiénico
 - 9 barris imatge
 - fotografia
 - 9 barris

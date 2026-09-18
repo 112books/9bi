@@ -7,7 +7,7 @@ tags:
 - Barcelona
 - casal de barri
 - concert
-- musica
+- música
 - Prosperitat
 - punk
 - Salsa

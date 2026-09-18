@@ -4,7 +4,6 @@ date: 2016-09-22T21:54:00+0200
 author: 9 Barris Imatge
 slug: expo-del-10e-aniversari-del-ton-i-guida
 tags:
-- '#arxiu històric de Roquetes'
 - Centre Ton i Guida
 - roquetes
 - rumors

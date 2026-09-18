@@ -7,7 +7,7 @@ tags:
 - 9 barris imatge
 - cap d´any
 - la banda del coche rojo
-- manel sala " ulls"
+- manel sala ulls
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixSTAhhtv5AQEcsuU8vpkBARj6Xe_bTXPKk3yVrywFmEBpbK2QM3Phli5ATP28wZUhXWe0OW0qbI0EBnordsIgcoilxLZBgpseCl_IODV83YryUt1qu9JYlH7NBx-A_bFhQpkgBE1qSJkA/s400/IMG_1227.JPG
 album_url: http://picasaweb.google.com/ulls2006/CapDAnyProspe?feat=embedwebsite

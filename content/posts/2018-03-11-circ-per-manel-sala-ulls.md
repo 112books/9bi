@@ -4,7 +4,7 @@ date: 2018-03-11T12:50:00+0100
 author: 9 Barris Imatge
 slug: circ-per-manel-sala-ulls
 tags:
-- manel sala "ulls"
+- manel sala ulls
 - barri
 - circ
 - expo

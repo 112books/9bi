@@ -3,9 +3,6 @@ title: 2025-02-25 Maruja Ruiz Martos, la veritable història del 47
 date: 2025-02-26T17:01:00+0100
 author: Juan Carlos Molina (Grismedio Casinegro)
 slug: maruja-ruiz-martos-la-veritable
-tags:
-- '#el47 #lluitaveinal #testimonis #gentdelbarri #maruja #psuc #dignitat #drets #torrebaro
-  #noubarris'
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGBE0bM73XH5CY_-m-HahwFefND3NcuMmBDZMqwf2HSxO5e3jHra7q5CPKJiBVObByddTvODioHDEfaBhxIjsw0DuqbsRAEGRnDXO4FfhtreDvqCeXchnHZ7_RLjup1KtOVP-rrXKEhcBMotvX6090QjL6EiRNKo8DpJxJ96JAKAun6rgCNrbl9VJuNVVt/w360-h640/20250225_180802.jpg
 album_url: https://photos.app.goo.gl/p6jm9hk5BonvgnTE7

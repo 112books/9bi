@@ -4,7 +4,6 @@ date: 2013-01-31T18:14:00+0100
 author: Joan "Linux" Martínez i Serres
 slug: 9binblack-ies-sant-andreu
 tags:
-- '#9binblack'
 - 9binblack
 - Chino and The Big Bet
 - IES Sant Andreu

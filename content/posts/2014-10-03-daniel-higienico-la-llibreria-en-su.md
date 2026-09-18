@@ -4,7 +4,7 @@ date: 2014-10-03T00:16:00+0200
 author: Joan "Linux" Martínez i Serres
 slug: daniel-higienico-la-llibreria-en-su
 tags:
-- daniel higiénico
+- Daniel Higiénico
 - llibre
 - nico
 cover:

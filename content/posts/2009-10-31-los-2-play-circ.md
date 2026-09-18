@@ -7,8 +7,7 @@ tags:
 - 9 barris imatge
 - circ
 - los 2 play
-- manel sala "ulls"
-- www.ulls.info
+- manel sala ulls
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy7MHaVX40wI4NAeo9tBdbwraNGWQ5jdsr-OloSaTzxs6CQuajhUiEY7LnfROVVk5AqaHw3hBSXqAXS9e0GOcjvcZi40wpPzuFY9e1eprRsIbjiXAZxTIPaUcy_PuGffkDNGNJcHfNK6gH/s400/IMG_1374.JPG
 album_url: http://picasaweb.google.com/ulls1963/LOS2PLAY?feat=embedwebsite

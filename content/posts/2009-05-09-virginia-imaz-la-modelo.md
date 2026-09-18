@@ -7,11 +7,10 @@ tags:
 - 9 barris imatge
 - circ
 - clown
-- manel sala  ulls
+- manel sala ulls
 - pallassa
 - payasa
 - virginia imaz
-- www.ulls.info
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK8SX_Br2AmlYrsVvoq9d3hJe37nfkfZ1fYrP979ZD_LfyFV7ds-C7fTu55Qw_rGumQ3FGcK4PVqgv6k9G_lkHIvsCb_9cpgvNb6_JLOMaZFruqSdBR9TiHrsSXsDg3CCiK0R6UcNuKQGZ/s400/virginia%20imaz-almazen-2009-ulls-02.jpg
 album_url: http://picasaweb.google.es/ulls1963/VirginiaImazLaModeloClowntrapublicitariaAlmazenBarcelona?feat=embedwebsite

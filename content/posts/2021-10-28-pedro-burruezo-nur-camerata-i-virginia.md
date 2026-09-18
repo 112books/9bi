@@ -9,7 +9,6 @@ tags:
 - dansa
 - dansa sufí
 - danza
-- fotos manel sala ulls
 - música
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGAUqktqmwBdUpLTa_T5G404jz7pBt3ss9FeI6P0TVV3b8Js8QZ0TPCbQMVTfYdLDcUppMFBO4xQAR8n9e_0_UVOHkahbd8anN63qq4klsLlYYXXzbdD-AAyLLX3RnPcw_JPs-_yXHAWXf/s600/105.jpg

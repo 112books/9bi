@@ -5,9 +5,8 @@ author: Manel Sala "Ulls" Circ
 slug: inmortales-band
 tags:
 - casal barri prosperitat
-- 'Fotos: Manel Sala "Ulls"'
 - Inmortales Band
-- musica
+- música
 - rock & roll
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmHFvWAZjTxlUbh_azEYg6vqYNHYJpmnxvE4kIO8kGw4s972MFdeXFD6vNqQ-ebD83ELpvKc-qBCtYN-IdUwIbfcypBf5N1IaMfG4rLomCgrWHZL7pODwu8kzr8hHd4P1vefveBphKxxuA/s640/P2280407.JPG

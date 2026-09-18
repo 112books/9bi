@@ -6,7 +6,7 @@ slug: 2025-11-01-passatge-del-terror
 tags:
 - Casal de barri de Prosperitat
 - barri de Prosperitat
-- plaça Ángel Pestaña
+- plaça Àngel Pestaña
 - passatge del terror
 - casal de barri
 cover:

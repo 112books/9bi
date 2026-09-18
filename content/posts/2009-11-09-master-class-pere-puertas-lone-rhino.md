@@ -7,7 +7,7 @@ tags:
 - 9 barris imatge
 - ateneu popular 9barris
 - blues
-- manel sala " ulls"
+- manel sala ulls
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI2ZbqBiOZ5iA0SilvdMvvTSZl_lyZxTrA7f8HOqIaaztDScpi_gvKmmd1ZLy_NKafs1zPsYtGrIom2_ktZpdg3itTqvpHhkA41ldjJDi_avzQeTvgHtlXqyjSyAV45uG_elK_J_66D__5/s400/IMG_7725.JPG
 album_url: http://picasaweb.google.es/ulls2006/MasterClassPerePuertasLoneRhinoClub?feat=embedwebsite

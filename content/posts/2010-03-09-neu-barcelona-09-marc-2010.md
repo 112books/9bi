@@ -5,7 +5,7 @@ author: Manel Sala "Ulls" Circ
 slug: neu-barcelona-09-marc-2010
 tags:
 - Barcelona
-- manel sala " ulls"
+- manel sala ulls
 - nevada
 - nou barris
 cover:

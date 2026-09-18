@@ -5,7 +5,6 @@ author: 9 Barris Imatge
 slug: les-mestres-republicanes-carrec-de-la
 tags:
 - Barcelona
-- republica
 - República
 - Xerrada
 - premis

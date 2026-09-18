@@ -8,7 +8,7 @@ tags:
 - festival de blues de barcelona
 - fotos
 - linuxbcn
-- video
+- vídeo
 - wad-ras
 cover:
   image: http://lh6.ggpht.com/linuxbcn/SMU9UWUH2PI/AAAAAAAAekw/1jP5Gfze3C8/w426-h640/IMG_1522.jpg

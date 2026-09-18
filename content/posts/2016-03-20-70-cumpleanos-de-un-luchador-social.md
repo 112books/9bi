@@ -4,7 +4,7 @@ date: 2016-03-20T17:03:00+0100
 author: Pedro Click
 slug: 70-cumpleanos-de-un-luchador-social
 tags:
-- Andres Naya
+- Andrés Naya
 - fiesta
 - STA
 cover:

@@ -6,7 +6,7 @@ slug: nit-danimes-i-castanyada-al-casal
 tags:
 - casal de prosperitat
 - casal de prospe
-- nit d'animes
+- nit d'ànimes
 - Prosperitat
 - castanyada
 cover:

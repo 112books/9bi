@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - Manolo
 - ramon
-- victor puertas
+- Víctor Puertas
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7cS_wDaVvBfjJJlDGOSRBlIDmOp8TBYLaJZc_k70IxsNwcyEC8Zrb2BWIVTvpxKttZqSLBAfzLDssH3kjK2b166pSz3Q4d6CZ-acCIXWRRIEaRWqmBLVX9vU-wiKEAWjkxW8vMDCt5Ck/w640-h427/IMG_9733.jpg
 album_url: https://photos.app.goo.gl/brGr773a6spX3TdCA

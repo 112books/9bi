@@ -4,7 +4,6 @@ date: 2020-07-05T11:45:00+0200
 author: Pedro Click
 slug: festival-blues-barcelona-20-chino-big
 tags:
-- '#festivalBluesBCN'
 - blues
 - Chino & The Big Bet + Sax Attack
 cover:

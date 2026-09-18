@@ -4,7 +4,6 @@ date: 2012-12-18T23:36:00+0100
 author: Joan "Linux" Martínez i Serres
 slug: veins-i-entitats-de-nou-barris
 tags:
-- '#9bcabrejada'
 - barri prosperitat
 - nou barris
 - Seu del districte Nou Barris

@@ -7,7 +7,7 @@ tags:
 - casal de barri
 - trinitat nova
 - dinar popular
-- exposicio
+- exposició
 - entitats
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTH3B0eJ_wB5CHSxu8gSc6WHMDE-z2yWBZ6YXafbTanbXpn1yNTqjm5J5Q5D3ss35I2o69gNOkIv3-di5fbLbi47lCaYtt4kSpgi9cGxpSJF_CQ-dy8HZaqrZGuoA53pBoFDMa_5bm1nE/s640/_4070157.jpg

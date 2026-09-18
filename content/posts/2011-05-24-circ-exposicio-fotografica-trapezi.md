@@ -6,7 +6,7 @@ author: Manel Sala "Ulls" Circ
 slug: circ-exposicio-fotografica-trapezi
 tags:
 - Circ exposició fotogràfica
-- manel sala "ulls"
+- manel sala ulls
 - Trapezi Vilanova i la Geltrú
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivU2U1K2QlU1PMZf7JMiTKrCWU_POlvUBCxNAi7V5LJFCXJ4ysYZu0vbVNCObvF0jD52CVnwqUfh2-n1H790Bd53BdGlI3pCsGqD27q3pJIIocTF891laifEPXbbGBPn8ONddHXd-yxndz/s400/trapezi%20vilanova%20expo%20ulls.jpg

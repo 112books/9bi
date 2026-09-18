@@ -6,7 +6,7 @@ slug: salvem-date-una-huerta
 tags:
 - date una huerta
 - cultura
-- musica
+- música
 - huerta
 - rescat
 cover:

@@ -5,7 +5,7 @@ author: Joan "Linux" Martínez i Serres
 slug: festes-de-prospe18-lola-no-estas-sola
 tags:
 - Festes de prosperitat
-- plaça Ángel Pestaña
+- plaça Àngel Pestaña
 - festes de prospe
 - coctelera negra
 - casal de barri

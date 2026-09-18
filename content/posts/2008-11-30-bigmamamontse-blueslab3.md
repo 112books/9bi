@@ -10,7 +10,7 @@ tags:
 - les bases
 - les nits de Capibila
 - linuxbcn
-- video
+- vídeo
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVQ6lEGUCfMCJksq87gbEFfS0sVA4psChj3bS-nhWAI4__Iq2dDJ-5idwqXkjvqysXI8-oeR5p4med4KnYEnf_lbF0zpyvgny_YjycY2yN519HzCyQ5UE6tDMV2-znCcz9Xt5xH_ziHFc/w640-h426/IMG_9675.JPG
 album_url: https://photos.app.goo.gl/Dom9NzjcbiNmbtTD6

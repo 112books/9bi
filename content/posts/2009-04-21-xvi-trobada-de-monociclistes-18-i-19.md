@@ -8,7 +8,6 @@ tags:
 - 9barris
 - apcc
 - ateneu popular 9barris
-- fotos manel sala ulls
 - monociclistes
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0ZJDyLQ2WieZg2eCpZ69vd3V5Dz3owepm59Rgzb2n3-Fg0MrwmNyz6sn-JmH5-kqx9mriFbLHAzeQ2rLd9hCRT-ATf5QkDJlPU3fdcu0sqJXzaD7zyMbzPLtmeG2EB_geApr6UKGouBfw/s400/IMG_2537.JPG

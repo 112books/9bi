@@ -4,7 +4,7 @@ date: 2018-03-17T13:42:00+0100
 author: Joan "Linux" Martínez i Serres
 slug: newroz-barcelona
 tags:
-- plaça Ángel Pestaña
+- plaça Àngel Pestaña
 - la prosperitat
 - Prosperitat
 - Barcelona

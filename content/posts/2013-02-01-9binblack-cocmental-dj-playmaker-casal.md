@@ -4,7 +4,6 @@ date: 2013-02-01T00:21:00+0100
 author: Joan "Linux" Martínez i Serres
 slug: 9binblack-cocmental-dj-playmaker-casal
 tags:
-- '#9binblack'
 - casal de joves de prosperitat
 - documental
 - Playmaker

@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - música
 - red drum
-- video
+- vídeo
 cover:
   image: http://lh5.google.com/linuxbcn/R_imrY8nzgI/AAAAAAAAPF8/c4Cfy5Uz0e4/w640-h426/IMG_3073.JPG.jpg
 album_url: https://photos.app.goo.gl/F5cpAStwGecdqz8t6

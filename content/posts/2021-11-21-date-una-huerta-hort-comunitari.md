@@ -7,7 +7,6 @@ tags:
 - 9barris imatge
 - comunitari
 - date una huerta
-- fotos manel sala ulls
 - Hort
 - huerta
 cover:

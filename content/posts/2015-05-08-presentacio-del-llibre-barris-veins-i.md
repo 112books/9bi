@@ -4,7 +4,7 @@ date: 2015-05-08T14:32:00+0200
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-del-llibre-barris-veins-i
 tags:
-- presentacio
+- presentació
 - democràcia
 - llibre
 - barri

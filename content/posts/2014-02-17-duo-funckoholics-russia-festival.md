@@ -5,7 +5,7 @@ date: 2014-02-17T15:59:00+0100
 author: Manel Sala "Ulls" Circ
 slug: duo-funckoholics-russia-festival
 tags:
-- video
+- vídeo
 - circ
 - '2013'
 - ciu

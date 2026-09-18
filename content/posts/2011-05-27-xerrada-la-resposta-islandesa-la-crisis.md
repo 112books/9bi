@@ -4,8 +4,6 @@ date: 2011-05-27T00:52:00+0200
 author: Joan "Linux" Martínez i Serres
 slug: xerrada-la-resposta-islandesa-la-crisis
 tags:
-- '#acampada9barris'
-- '#acampadabcn'
 - fotografia
 - joan.linuxbcn.com
 cover:

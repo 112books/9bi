@@ -4,7 +4,6 @@ date: 2012-11-07T14:39:00+0100
 author: Joan "Linux" Martínez i Serres
 slug: 9-barris-cabrejada-diu-prou-roda-de
 tags:
-- '#9bcabrejada'
 - 9bcabrajada
 - favb
 - roda de premsa

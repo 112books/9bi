@@ -4,7 +4,6 @@ date: 2013-10-18T16:34:00+0200
 author: Pedro "Casal" Cervera
 slug: aturats-desnonaments-ciutat-meridiana
 tags:
-- '#9bcabrejada'
 - 500x20
 - 9 barris
 - ciutat meridiana

@@ -4,8 +4,6 @@ date: 2018-11-09T01:27:00+0100
 author: Núria Laura Orbaneja
 slug: donem-vida-latencio-primaria
 tags:
-- '@_FoCAP_ @rebelioprimaria'
-- '@MareaBlancaCAT'
 - Centre Ton i Guida
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHgrgtDuParT2K0QgDKBLnwcMkA5iiMIa2dnZe063SpNN2ZVqQ3FN3aSdVU-gnbhjj5mwqF4BwRIePDlX4oHa6nq7RYSjMmos3aerS1-XJySqXVZSspycDP1DPhQUvPw90GOOAbicz-qXQ/s640/_039.jpg

@@ -7,7 +7,7 @@ slug: exposicio-fotografica-circ-la-suma-de
 tags:
 - exposició fotogràfica
 - institut del teatre
-- manel sala "ulls"
+- manel sala ulls
 - ARTS ESCÈNIQUES
 - Barcelona
 cover:

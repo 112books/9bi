@@ -6,7 +6,7 @@ slug: africa-al-formentera
 tags:
 - fotografies
 - presentació
-- exposicio
+- exposició
 - africa
 - fotos
 cover:

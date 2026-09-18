@@ -4,8 +4,7 @@ date: 2014-07-14T14:07:00+0200
 author: Manel Sala "Ulls" Circ
 slug: i-love-prospe-beach-2014-barcelona
 tags:
-- 'Fotos: Manel Sala "Ulls"'
-- manel sala "ulls"
+- manel sala ulls
 - Prospe Beach
 - Barcelona
 - prospe

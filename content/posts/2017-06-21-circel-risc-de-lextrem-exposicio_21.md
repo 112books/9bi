@@ -6,7 +6,7 @@ slug: circel-risc-de-lextrem-exposicio_21
 tags:
 - exposició fotogràfica
 - espectacle de circ
-- manel sala "ulls"
+- manel sala ulls
 - fotografia
 - Barcelona
 cover:

@@ -5,9 +5,8 @@ author: Manel Sala "Ulls" Circ
 slug: xviii-chistorra-rock-2017-festa-major
 tags:
 - Festa Major de Prosperitat
-- 'Fotos: Manel Sala "Ulls"'
 - Festa major de prospe
-- manel sala "ulls"
+- manel sala ulls
 - 9 barris imatge
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQrHeMZMBz8NLE3pCBzEQ_AJd6648CwVV3BkpvzzHj-gM1-BDIdLIGJGUDLQi4w603F_6ntmJnS0_bHwLBoqN0r0vmBkBi0nX3gMr0SVzLr6v2wuiTZS3_Q-F7n07biWDVCSua0fHZAqAg/s640/IMG_2870.jpg

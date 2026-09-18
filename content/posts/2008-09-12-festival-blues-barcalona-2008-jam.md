@@ -9,7 +9,7 @@ tags:
 - fotografia
 - jam session
 - linuxbcn
-- video
+- vídeo
 cover:
   image: http://lh6.ggpht.com/linuxbcn/SMjri40i_3I/AAAAAAAAfKo/Vzq5eVvIPVs/w640-h426/IMG_2027.JPG
 album_url: https://photos.app.goo.gl/Syf5SPzQRL2XwjBJA

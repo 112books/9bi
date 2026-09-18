@@ -5,7 +5,7 @@ author: Pedro Click
 slug: lapsus-clay-rockfusion-casal
 tags:
 - Casal de barri Prosperitat
-- musica
+- música
 - rock
 - Rockfusión
 cover:

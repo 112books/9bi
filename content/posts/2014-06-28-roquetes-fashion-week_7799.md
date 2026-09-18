@@ -5,7 +5,7 @@ author: 9 Barris Imatge
 slug: roquetes-fashion-week_7799
 tags:
 - roquetes
-- veins
+- veïns
 cover:
   image: https://lh6.googleusercontent.com/-ZoiOk9-OIng/U636HicrhIE/AAAAAAAAGRs/MXzrLbcz4CI/s160-c/ROQUETESFASHIONWEEK.jpg
 album_url: https://picasaweb.google.com/110015855395179205688/ROQUETESFASHIONWEEK?authuser=0&feat=embedwebsite

@@ -4,7 +4,6 @@ date: 2011-09-19T13:14:00+0200
 author: Joan "Linux" Martínez i Serres
 slug: festival-de-blues-de-barcelona-2011_19
 tags:
-- '#festivalBluesBCN'
 - Capibola blues
 - Earl Thomas
 - festiva blues barcelona

@@ -4,7 +4,7 @@ date: 2024-05-30T14:05:00+0200
 author: Joan "Linux" Martínez i Serres
 slug: unes-poques-fotografies-del-dimats-de
 tags:
-- plaça Ángel Pestaña
+- plaça Àngel Pestaña
 - festes de prospe
 - casal de barri
 - xistorra rock

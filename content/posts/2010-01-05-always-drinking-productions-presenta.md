@@ -9,8 +9,6 @@ tags:
 - cabaret quina barra
 - circ
 - dia de la música
-- fotos manel sala ulls
-- www.ulls.info
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX5R3kiVQmlgUX7nuWgB2W4RPvuLLXnJ51XvjX8Nc5VXp9L7EkD44Gdez-67SsnWd-9SD4XDoMgT2KplNZZnVz6UIIPMU_Ct7Fef8u7XQrGbjlVbP9dY9eZcw__Gcr1Otlky2-ihkm9yIj/s400/IMG_1631.JPG
 album_url: http://picasaweb.google.es/ulls2006/CabaretQuinaBarra02?feat=embedwebsite

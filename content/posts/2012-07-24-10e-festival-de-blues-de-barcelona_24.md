@@ -4,7 +4,6 @@ date: 2012-07-24T17:33:00+0200
 author: Joan "Linux" Martínez i Serres
 slug: 10e-festival-de-blues-de-barcelona_24
 tags:
-- '#festivalBluesBCN'
 - graffiti
 - nbq
 cover:

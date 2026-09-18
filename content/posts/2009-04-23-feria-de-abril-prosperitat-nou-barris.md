@@ -9,7 +9,7 @@ tags:
 - cante
 - casal barri prosperitat
 - flamenco
-- manel sala " ulls"
+- manel sala ulls
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh80it5dDvMo4inWGwoRVXnncCy7AUovkjrUDMw8VZESHfM-atLfFnX1TvsFCnhkJSYUyVbCMqhf972Xu1SAP9ISCMNpbf-gqnUBQfJLkFEU3cNHQZK4B8T3_pY85To6dBCUVDrXOb-xMMc/s400/IMG_2484.JPG
 album_url: http://picasaweb.google.es/ulls1963/FeriaDeAbrilProsperitat2009KayokoNakataStudioJapon?feat=embedwebsite

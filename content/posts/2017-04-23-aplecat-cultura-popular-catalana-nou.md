@@ -6,7 +6,7 @@ slug: aplecat-cultura-popular-catalana-nou
 tags:
 - cultura popular
 - nou barris
-- VIA JULIA
+- vía júlia
 - cultura
 - popular
 cover:

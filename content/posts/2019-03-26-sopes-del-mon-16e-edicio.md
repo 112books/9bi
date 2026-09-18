@@ -5,7 +5,7 @@ author: Ismael Utrilla
 slug: sopes-del-mon-16e-edicio
 tags:
 - festival de sopes del món
-- VIA JULIA
+- vía júlia
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicVsj9HKh1usSGUHib456Gd582CdKMRGC9AZxE_P8OCwA74gmJQkgp_U3oSL0p3sHX1aOkcU_GkMw-fyFJVdyc9quLqHU7ijFfeqBqigTgYNOCT9fWgvMLJGb4TW1_i7An2lcD_Hj5RFQ/s640/IMG_2480.JPG
 album_url: https://photos.google.com/share/AF1QipOQM6tPkO3yRGzPwtIFnM9R8ddiOL3OmZFK6w-z4vVbUXzsXivI59utggPJ8rl6hg?key=MG50ZWlSekxabUxoRWN3RUtTR2t0dDJnYm1adWdn

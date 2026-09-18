@@ -4,7 +4,7 @@ date: 2017-05-09T21:58:00+0200
 author: Pedro Click
 slug: la-cultura-va-de-festa-2017
 tags:
-- CONVIVENCIA
+- convivència
 - cultura
 - Cultura va de festa
 - fiesta

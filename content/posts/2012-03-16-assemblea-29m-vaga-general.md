@@ -4,7 +4,6 @@ date: 2012-03-16T00:27:00+0100
 author: 9 Barris Imatge
 slug: assemblea-29m-vaga-general
 tags:
-- '#acampada9barris'
 - Vaga General 2012
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEiQ7PuegH4b5ySttkU844tn6ee3zODPE5nm6KhGeRfKE0Mp-bFCQuOEenmVs4PgGdhSjyM5Sr1nK-4oFiSTkuv55IPd_dO-hZ_A1up4YT1KCBlT10xhB4mNo18GUrtQXHvksnSuCt87Q/s288/DSC_0166.JPG

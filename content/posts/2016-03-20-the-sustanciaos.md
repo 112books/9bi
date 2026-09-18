@@ -4,7 +4,7 @@ date: 2016-03-20T17:35:00+0100
 author: Pedro Click
 slug: the-sustanciaos
 tags:
-- musica
+- música
 - nou barris
 - pop
 - rock

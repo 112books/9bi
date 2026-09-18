@@ -4,7 +4,6 @@ date: 2023-07-09T22:46:00+0200
 author: Pedro Click
 slug: xxi-del-festival-de-blues-de-barcelona
 tags:
-- '#festivalBluesBCN'
 - blues
 - XXI del Festival de Blues de Barcelona
 cover:

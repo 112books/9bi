@@ -6,7 +6,7 @@ author: Manel Sala "Ulls" Circ
 slug: dani-perez-organic-trio-master-class-de
 tags:
 - Dani Perez Organic Trio
-- manel sala "ulls"
+- manel sala ulls
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4pPZaTY66AH3NHKiNtJbviZOAUC4cUHHOAK8GvszjtV7K4kyfYsWmq79VVJcBGc0JCsjCF4xMNECmrQtRyFfLzoefuB8doaLc8MacEsSCYvimg8rmots_ezp9cJqFt5d-R114nXZraao4/s400/IMG_8190.jpg
 album_url: http://picasaweb.google.com/ulls2006/DaniPerezOrganicTrioMasterClassDeBallMouLEsqueleteARitmeDeBlues?feat=embedwebsite

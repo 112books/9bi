@@ -8,7 +8,7 @@ tags:
 - festes de prospe
 - música
 - Proyecto Luisbo
-- video
+- vídeo
 - xarnecs de la Prospe
 cover:
   image: http://lh4.ggpht.com/linuxbcn/SEq5cFCVQtI/AAAAAAAAYIU/8_EoGP4MT98/w640-h360/P1040160.JPG

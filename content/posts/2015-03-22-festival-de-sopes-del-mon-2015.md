@@ -8,7 +8,7 @@ tags:
 - 9barris imatge
 - participació
 - 9barris
-- musica
+- música
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOHdO2RgQuepu9U53iaLMSajY0FKDK8D1rCVMZPgoG9k63HlLJfJILqbGHM8UVdftO8_NEB0ghU62CZlpLD0LBxHkCd1ofXCTjnfZl8AXxmacwDHKzXm4P6S24oYnEPcgXWzqjSJaUqxw/s400/_DSC0577.jpg
 album_url: https://picasaweb.google.com/110015855395179205688/FestivalDeSopes2015?authuser=0&feat=embedwebsite

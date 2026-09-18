@@ -4,7 +4,6 @@ date: 2023-07-13T16:19:00+0200
 author: Joan "Linux" Martínez i Serres
 slug: 21e-festival-de-blues-de-barcelona
 tags:
-- '#festivalBluesBCN'
 - festival de bluesl de barcelona
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiraRbo_iF_a1J-3mL7R4u-eWvekOikGx59OjDgUfgkogby6yCS7r3hbNVey53U3DfiofYxZdH1kdWnKGVX_IFCsGyR5lbHy4fLcNrWtre6SmyMI1kB6U4OguhrCVZIP1vTRyY9wCusZYNoZxMgU185ZrEFBWjsnzz-hgt6YqCrshvbQAdepEhxLGHcalw/w640-h360/L1320921.jpg

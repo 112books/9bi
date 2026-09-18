@@ -5,7 +5,7 @@ author: Manel Sala "Ulls" Circ
 slug: nuvols-llum-i-color
 tags:
 - 9 barris
-- manel sala "ulls"
+- manel sala ulls
 - núvols
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDQ8YfMbWSMj3k27vu-vBodH2US08IwlwDX0MJJ9MSGlyBcncnlr0fqBv05wjCYh2X4dSDYaGDfsQ-jKRHZn0Amr9ZTqvVmxuR_i-YimvG5WO4zNGEhOXkJX0PcE8kKBx51OnyqyJJPbI0/s400/IMG_3788_2.jpg

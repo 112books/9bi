@@ -4,8 +4,6 @@ date: 2013-03-28T21:13:00+0100
 author: Pedro "Casal" Cervera
 slug: ocupacio-edifici-buit-prosperitat
 tags:
-- '#15-M'
-- '#9bcabrejada'
 - 500x20
 - habitatge
 - nou barris

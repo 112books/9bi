@@ -4,8 +4,6 @@ date: 2011-10-17T13:53:00+0200
 author: Joan "Linux" Martínez i Serres
 slug: edifici-15-o-una-ocupacio-social
 tags:
-- '#15-M'
-- '#15o'
 - 15-O
 - 9barris
 - Almagro 2-4

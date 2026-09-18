@@ -6,7 +6,7 @@ slug: gumbo-8e-festival-de-blues-de-barcelona
 tags:
 - Festival Blues Barcelona 2010
 - Gumbo
-- manel sala "ulls"
+- manel sala ulls
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixnV1F0LmVRTXqTfHMVByRRhLcer8rQdsX-SPt2N1MdGaZPOYx3-foJOFFjsr6eGbIVYNc6dj8Qq_dYZLx8fYfd41OmaErOzmQ1h8OFaaU2E2GxgR3c9CA27rCfkgviOnE1-HkjW2OyUpd/s400/IMG_7944.jpg
 album_url: http://picasaweb.google.com/ulls2006/Gumbo8eFestivalDeBluesDeBarcelona2010?feat=embedwebsite

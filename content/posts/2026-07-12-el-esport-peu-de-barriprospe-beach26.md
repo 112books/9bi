@@ -4,7 +4,7 @@ date: 2026-07-12T19:05:26+0200
 author: Ismael Utrilla
 slug: el-esport-peu-de-barriprospe-beach26
 tags:
-- plaça Ángel Pestaña
+- plaça Àngel Pestaña
 - Prospebeach
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5uwvIUNbNYisCODMnOs0nacDUj2nMjjCDPUjaYtICpaCoFBrFR85N86cVLyIl1YUItr7XCo4gKfH9MZYTtG5TyNIhgdAMFVBP3IiYRftUOGOXJt9j5HznxCgddKsTXfZtEZAMN_UrMA9R-DLTai_uzAW9qMENpWV2N33O5FLW8tQaOLzBHN35soA3FAg/w640-h426/_V9A9806.JPG

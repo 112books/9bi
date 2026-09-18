@@ -5,7 +5,7 @@ date: 2014-01-21T15:52:00+0100
 author: Manel Sala "Ulls" Circ
 slug: thu-hiep-hoang-vietnam-festival
 tags:
-- video
+- vídeo
 - circ
 - '2013'
 - ciu

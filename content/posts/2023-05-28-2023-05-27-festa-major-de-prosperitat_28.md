@@ -5,9 +5,6 @@ author: Joan "Linux" Martínez i Serres
 slug: 2023-05-27-festa-major-de-prosperitat_28
 tags:
 - festa major
-- 'Festamajorprospe2023
-
-  festes'
 - pregó
 - Prosperitat
 cover:

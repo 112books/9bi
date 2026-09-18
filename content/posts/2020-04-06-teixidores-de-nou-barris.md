@@ -3,8 +3,6 @@ title: Teixidores de Nou Barris.
 date: 2020-04-06T21:45:00+0200
 author: 9 Barris Imatge
 slug: teixidores-de-nou-barris
-tags:
-- '#antivirusProspe'
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8ExD_BuBc9_aIBUc5LOZ9yOIdwqw6kTd0eQx95zq08_enIOFAL_Lf0hJTQtjuk6A2MndddM5f-l4T94O5msdXC-A1x1_HO6dE5SsigaHKbZbO3CmMSIUaq13mjRY_1Fz7EZ_nKDSjtGw/s640/IMG_20200406_203927.jpg
 album_url: https://photos.app.goo.gl/W82Gzab9hffQzQQZ6

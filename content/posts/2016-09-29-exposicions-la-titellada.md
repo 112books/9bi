@@ -4,7 +4,6 @@ date: 2016-09-29T23:49:00+0200
 author: 9 Barris Imatge
 slug: exposicions-la-titellada
 tags:
-- '#Titellada'
 - associació de titellaires de Roquetes
 - titelles
 cover:

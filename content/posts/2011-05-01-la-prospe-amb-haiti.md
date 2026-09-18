@@ -5,7 +5,7 @@ author: Manel Sala "Ulls" Circ
 slug: la-prospe-amb-haiti
 tags:
 - La prospe amb Haití
-- manel sala "ulls"
+- manel sala ulls
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRuk2c4X25K4oVJa-SJh0XT-khql_QfduVauqph1cPOwGun-qvrZDkdU-ln5pVnrdrOD_SYG7GWlrMNTFabQBh27QAQBlvxu0E-4Jp6fwrW1ws2tpCQWpUXjVkSC7lBOtV7r0TbNXe1FvR/s400/IMG_8461.JPG
 album_url: https://picasaweb.google.com/ulls2006/LaProspeAmbHaiti?feat=embedwebsite

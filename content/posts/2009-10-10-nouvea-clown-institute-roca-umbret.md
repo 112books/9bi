@@ -7,8 +7,7 @@ tags:
 - clown
 - fotos
 - granollers
-- manel sala "ulls"
-- www.ulls.info
+- manel sala ulls
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMpjubyE7D-dmF87ivc7mY8J5Tl79XtCs3X9P1NBeLZAncN4D4FuPMqU2M5dgTp4P6hcPtmr-vhorYWS23gpXUUp4s6hUMVpUgqKUevbjbv-oDLEeSD3r7LtpjtR0UBSpFAbQ1PdGfVZtm/s400/IMG_2321.JPG
 album_url: http://picasaweb.google.com/ulls1963/ClownInstituteGranollers?feat=embedwebsite

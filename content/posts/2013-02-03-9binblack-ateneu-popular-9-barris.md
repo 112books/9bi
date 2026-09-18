@@ -5,7 +5,6 @@ date: 2013-02-03T15:29:00+0100
 author: Joan "Linux" Martínez i Serres
 slug: 9binblack-ateneu-popular-9-barris
 tags:
-- '#9binblack'
 - 9binblack
 - ateneu popular 9 barris
 - Big band escola blues barcelona

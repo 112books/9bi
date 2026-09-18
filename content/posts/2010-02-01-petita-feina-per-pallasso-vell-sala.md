@@ -5,11 +5,10 @@ author: Manel Sala "Ulls" Circ
 slug: petita-feina-per-pallasso-vell-sala
 tags:
 - circ
-- manel sala "ulls"
+- manel sala ulls
 - pallassos
 - sala muntaner
 - teatre
-- www.ulls.info
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3G-QaV_jSe-vvq1L101rEpUXJW3hyphenhyphenTwZJWFZTaSMvxmUpaqntpxxAlm5ZFiF68JJ5EyGLKjEfdV3e0Zmtukll7FtfpchfPR2_dn42wv-cOCcPlGytg2veWizr24bSJZnsM-x1pYWjB5EN/s400/014-pfpv-ulls.jpg
 album_url: https://goo.gl/photos/53Guzth5phmAaRie9

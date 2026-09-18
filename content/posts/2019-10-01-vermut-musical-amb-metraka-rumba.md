@@ -6,7 +6,6 @@ slug: vermut-musical-amb-metraka-rumba
 tags:
 - vermut musical
 - recital
-- musica
 - música
 - rumba
 cover:

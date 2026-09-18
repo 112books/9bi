@@ -6,7 +6,7 @@ slug: final-correfoc-i-piromusical-festes
 tags:
 - Prosperitat
 - correfoc
-- musica
+- música
 - prospe
 - festes
 cover:

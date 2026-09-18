@@ -4,12 +4,9 @@ date: 2019-07-13T17:02:00+0200
 author: Manel Sala "Ulls" Circ
 slug: prospebeach-2019-mati
 tags:
-- '#manelsalaulls'
 - 9 barris
 - 9 barris imatge
-- '@ulls2006'
 - Barcelona
-- 'Fotos: Manel Sala "Ulls"'
 - Prospebeach
 - prospebeach2019
 - Voleibol

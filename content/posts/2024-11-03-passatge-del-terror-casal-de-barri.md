@@ -6,7 +6,6 @@ slug: passatge-del-terror-casal-de-barri
 tags:
 - 9 barris imatge
 - casal barri prosperitat
-- 'Fotos: Manel Sala "Ulls"'
 - passatge del terror
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggkrbbqLtGXUvHIrNANPFDpesHNMLitwwiYmbE37SV7FQ6Cwp4e97ly8rIHXNsOm1p-B5dIrlPsnvaJ4eeP6qNhbzsV5bqkrXBOZ06BJZw4rdalexJNoXu_mpty6hAzvID-A04CtXFVzvKRxq82W_R685URSPfMboj5hL9gr53C8oyYTUu4u4YUZWaqnRv/s600/P3860914-Mejorado-NR.JPG

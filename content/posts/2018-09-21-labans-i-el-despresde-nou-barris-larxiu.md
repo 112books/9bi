@@ -6,7 +6,6 @@ slug: labans-i-el-despresde-nou-barris-larxiu
 tags:
 - nou barris
 - exposició
-- exposicio
 - roquetes
 - barri
 cover:

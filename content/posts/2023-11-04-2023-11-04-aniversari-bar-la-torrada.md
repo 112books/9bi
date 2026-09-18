@@ -4,7 +4,7 @@ date: 2023-11-04T17:11:00+0100
 author: Joan "Linux" Martínez i Serres
 slug: 2023-11-04-aniversari-bar-la-torrada
 tags:
-- plaça Ángel Pestaña
+- plaça Àngel Pestaña
 - la torrada
 - Morosito
 - tradició

@@ -4,8 +4,7 @@ date: 2012-05-23T00:06:00+0200
 author: Manel Sala "Ulls" Circ
 slug: 22-maig-vaga-lensenyament
 tags:
-- 'Fotos: Manel Sala "Ulls"'
-- manel sala "ulls"
+- manel sala ulls
 - Barcelona
 - fotos
 - vaga

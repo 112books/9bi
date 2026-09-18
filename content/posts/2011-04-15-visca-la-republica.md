@@ -6,7 +6,7 @@ slug: visca-la-republica
 tags:
 - fotografia
 - linuxbcn
-- republica
+- República
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_8_1batNUMma2MXcwaoiGgxRuln6GLQc9aQpF9sgMJIdBWP92E2-cmwNh383IR9kXxYCys8H6bvq26xsHVPzvSDmdCVj0TtdupgFFvqubHZAzkGQNmLlT76ZKvFxCONbsRBqDqbOc8pQ/s400/IMG_0549.jpg
 ---

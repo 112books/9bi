@@ -4,8 +4,8 @@ date: 2013-03-10T14:28:00+0100
 author: Pedro Click
 slug: musica-participativa
 tags:
-- musica participativa
-- musica
+- música participativa
+- música
 - '2013'
 - art
 cover:

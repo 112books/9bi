@@ -6,7 +6,7 @@ slug: la-magia-del-circ-38-combinat-de-circ_02
 tags:
 - ateneu popular 9barris
 - circ
-- manel sala "ulls"
+- manel sala ulls
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy6MZ2ZSUCQWA5GQu1fMbnNTuEARmdBS8XB3ywnxPaM-JOBlQlskvjPULWS36LC5TbT-gSfOO4cLBYHErkE0vNAepmQuNN4ktqLMO2K0LQUYvplHJkAUNHjAJ0sHeZHhNYmcAaQTUqEvwl/s400/001-38-combinat-circ-ateneu-popular-9-barris-cris-oller-rucs-rics-2009-ulls.jpg
 album_url: http://picasaweb.google.es/ulls1963/LaMagiaDelCirc?feat=embedwebsite

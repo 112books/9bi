@@ -4,7 +4,6 @@ date: 2013-12-02T22:19:00+0100
 author: Pedro "Casal" Cervera
 slug: nou-barris-denuncia-lescandol-de-la
 tags:
-- '#9bcabrejada'
 - 500x20
 - 9 barris cabrejada
 - 9barris

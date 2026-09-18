@@ -6,7 +6,7 @@ slug: 2024-05-18-presentacio-del-diari-de
 tags:
 - Festes de prosperitat
 - casal de prosperitat
-- plaça Ángel Pestaña
+- plaça Àngel Pestaña
 - festes de prospe
 - casal de prospe
 cover:

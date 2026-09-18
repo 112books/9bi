@@ -5,7 +5,7 @@ author: 9 Barris Imatge
 slug: fins-al-31-de-gener-entrada-gratis-al
 tags:
 - Barcelona
-- exposicio
+- exposició
 - diumenge
 - expo
 - art

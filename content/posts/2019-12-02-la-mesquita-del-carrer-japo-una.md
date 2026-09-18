@@ -9,7 +9,7 @@ tags:
 - convivència
 - 9 barris
 - barri
-- Vídeo
+- vídeo
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

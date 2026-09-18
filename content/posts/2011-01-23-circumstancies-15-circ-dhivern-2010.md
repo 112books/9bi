@@ -6,7 +6,7 @@ slug: circumstancies-15-circ-dhivern-2010
 tags:
 - balagans
 - circ d´hivern
-- manel sala "ulls"
+- manel sala ulls
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQGVcRiwacXfbLi34GzQuPJfiR8dM2qtj_VG-vKw2y8tCRkqkvGE75PxxkrEvxrExLbPxjYgJow75i2TIjOtYxnSiYrCIDDzVuDUZnut59TZ3erzw8K4HxNYwlv7MTaBY3gyEpkJPK6GTF/s400/IMG_1859.jpg
 album_url: https://photos.app.goo.gl/FWv11QfySgvCvz2Q8

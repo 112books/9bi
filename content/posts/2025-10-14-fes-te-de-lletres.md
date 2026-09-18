@@ -6,7 +6,7 @@ slug: fes-te-de-lletres
 tags:
 - activitats infantils
 - presentacion
-- presentacio
+- presentació
 - nou barris
 - literatura
 cover:

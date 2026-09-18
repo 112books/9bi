@@ -5,7 +5,7 @@ author: 9 Barris Imatge
 slug: de-nit-danimes-2011-can-peguera-2011
 tags:
 - casal cosa nostra
-- nit d´ànimes
+- nit d'ànimes
 cover:
   image: https://lh3.googleusercontent.com/-smdlw38wPC4/TrJpwHJgYbI/AAAAAAAACGs/LxLIlG1UgpM/s400/Animes2011%252520%2525281%252529.jpg
 album_url: https://picasaweb.google.com/116805523004990742624/NitDAnimes2011CanPeguera?authkey=Gv1sRgCLfeuajX_bCu1gE

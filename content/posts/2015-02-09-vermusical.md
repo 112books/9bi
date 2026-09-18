@@ -5,7 +5,7 @@ author: Pedro Click
 slug: vermusical
 tags:
 - vermutsical
-- musica
+- música
 - rock
 - pop
 cover:

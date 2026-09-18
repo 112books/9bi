@@ -5,7 +5,6 @@ author: Manel Sala "Ulls" Circ
 slug: passatge-del-terror-casal-de-barri
 tags:
 - casal barri prosperitat
-- 'Fotos: Manel Sala "Ulls"'
 - passatge del terror
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEQFHckgk07Zh7rpF9vCeoRYtVPnFRE4SihGB0YzBV5FdMtRxlzQ8LDaIcDkQ0u7reAUP3hITRJd_DjceZBOzGOPHB88KoAic62T12KADqP5q8ouRLw_Ky0fkMNqOrQ9NCiRoyg0sovRB4/s640/P2250302.JPG

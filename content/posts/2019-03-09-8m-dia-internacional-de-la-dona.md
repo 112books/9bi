@@ -8,7 +8,6 @@ tags:
 - 8 març
 - 8M
 - dia de la dona
-- 'Fotos: Manel Sala "Ulls"'
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcwDmxMNodQkAUX60x-qAjAvqmUl1wYgELN0y4KX1L5AW7fY2IICIDUSiH4WULZAS3jRVGv8MroeSF65bop9MwPbzIqDrpSbeFF8xXhxzo0lrKT0uY9ruNWmvDU8DIpNQtKHt7DVEjR_hf/s640/P1990574.jpg
 album_url: https://photos.app.goo.gl/a7DeqZsc9QP8qcKc8

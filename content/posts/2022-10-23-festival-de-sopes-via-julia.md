@@ -8,7 +8,7 @@ tags:
 - festival de sopes
 - 9 barris acull
 - nou barris
-- VIA JULIA
+- vía júlia
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqVTiTagP73Ex1q68-Y4-kFFrO36SHliAfmB4qqB8AvsrNVLqDHOd_NYP1m0PesBMnnst-jqTIyeL1TfOdgihJk73Q0dQv-be_NiLtB_YGScT2cKhnx4wbe3AfU3kGduxprHEICe7t3Axny0c8cRbsFlHzVYFBjrDOtBIq2m6CO2SwyUI0IjLM3dMp/w640-h426/IMG_0183.JPG
 album_url: https://photos.app.goo.gl/R7NVEwZENVZL25FE9

@@ -6,7 +6,7 @@ slug: la-petaluda-can-baste
 tags:
 - Barcelona
 - can basté
-- republica
+- República
 - Canço
 - vent
 cover:

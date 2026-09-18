@@ -7,7 +7,7 @@ tags:
 - associació de titellaires de Roquetes
 - roquetes
 - FESTA
-- veins
+- veïns
 - avv
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0jw3aMNGiLT66391HRa0P-oyn8XrBqcymC_Twj6lCPyfMkuC5myNC9TTxANo78EYVWLsiDVOOju20mIMv_M-K3c3d0cRMdzOMxCzWO9RrC3bt6hNwtiYDiA-qFykR4snn988ElB5r5e3c/s400/DSCN2408.jpg

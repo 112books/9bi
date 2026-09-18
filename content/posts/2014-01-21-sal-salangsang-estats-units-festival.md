@@ -5,7 +5,7 @@ date: 2014-01-21T15:43:00+0100
 author: Manel Sala "Ulls" Circ
 slug: sal-salangsang-estats-units-festival
 tags:
-- video
+- vídeo
 - circ
 - '2013'
 - STA

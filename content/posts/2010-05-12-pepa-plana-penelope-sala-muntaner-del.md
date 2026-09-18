@@ -4,7 +4,7 @@ date: 2010-05-12T17:42:00+0200
 author: Manel Sala "Ulls" Circ
 slug: pepa-plana-penelope-sala-muntaner-del
 tags:
-- manel sala "ulls"
+- manel sala ulls
 - pallassa
 - penèlope
 - pepa plana

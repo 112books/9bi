@@ -5,7 +5,7 @@ author: Joan "Linux" Martínez i Serres
 slug: dia-de-la-dona-prosperitat
 tags:
 - Casal de barri Prosperitat
-- dia de la  dona
+- dia de la dona
 - dinar popular
 - linuxbcn
 - teatre

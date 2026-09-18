@@ -4,7 +4,7 @@ date: 2012-06-05T10:59:00+0200
 author: Manel Sala "Ulls" Circ
 slug: 10e-aniversari-de-9-barris-imatge-totes
 tags:
-- manel sala "ulls"
+- manel sala ulls
 - 9 barris imatge
 - 10è aniversari
 - fotografies

@@ -8,7 +8,7 @@ tags:
 - arnau viladerbó
 - ateneu popular 9barris
 - Color Humano
-- daniel higiénico
+- Daniel Higiénico
 - doble zero
 - fotografia
 - i'm what i'm

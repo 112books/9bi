@@ -6,7 +6,7 @@ slug: video-final-de-festa
 tags:
 - prospe
 - festes
-- video
+- vídeo
 - FESTA
 - STA
 cover:

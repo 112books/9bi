@@ -4,7 +4,6 @@ date: 2012-07-20T03:32:00+0200
 author: Joan "Linux" Martínez i Serres
 slug: 10e-festival-de-blues-de-barcelona-jam
 tags:
-- '#festivalBluesBCN'
 - casal barri prosperitat
 - jam session
 - Rocky Lawrence

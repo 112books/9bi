@@ -7,7 +7,7 @@ tags:
 - 9barris imatge
 - clown
 - gardi hutter
-- manel sala  ulls
+- manel sala ulls
 - pallassa
 - payasa
 cover:

@@ -5,7 +5,7 @@ date: 2014-02-17T16:08:00+0100
 author: Manel Sala "Ulls" Circ
 slug: jinan-acrobatics-troupe-xina-festival
 tags:
-- video
+- vídeo
 - circ
 - '2013'
 - xina

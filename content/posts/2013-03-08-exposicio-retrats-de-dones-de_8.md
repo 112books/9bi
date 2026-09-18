@@ -5,7 +5,7 @@ author: Joan "Linux" Martínez i Serres
 slug: exposicio-retrats-de-dones-de_8
 tags:
 - casal barri prosperitat
-- dia de la  dona
+- dia de la dona
 - exposició
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikJxbJTEGfEC2I_Izsap6weVPwmnrsTaLzAUv3LshURGNhzpVhf8sZlbZ2qmQg2E6e31_Y_ocHi4i8cvv03RO_8KTo4E3gfCb95nVntK_u7mzlxyyFPieMNRnylED8PpEWNt0qbs-FgZg/s400/IMG_9650.jpg

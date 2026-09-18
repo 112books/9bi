@@ -10,7 +10,7 @@ tags:
 - Mojitos
 - paella pigmeos
 - Victor Urie Blues Quartet
-- video
+- vídeo
 cover:
   image: http://lh6.ggpht.com/linuxbcn/SEOmQNNKkMI/AAAAAAAAWZI/QK4ck6DAC7Y/w640-h426/IMG_9424.JPG
 album_url: https://photos.app.goo.gl/mRjhaxRnL9oREU218

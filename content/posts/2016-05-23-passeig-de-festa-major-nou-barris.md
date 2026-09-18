@@ -7,7 +7,7 @@ tags:
 - festa major
 - nou barris
 - activitats
-- VIA JULIA
+- vía júlia
 - prospe
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf7UMn3JdJNeHCE6KXaBNHr7ulBWRiMcZ6_av8yl2f1dReagwFAPwtlz3N_XmVHDnCSXoCo0lrMBJx0hrDyiCu9coQPfvwnTW4n8AcplnfPXU2xkARTzKIG2nYoCH-B6fg2p8mBnnn9IY/s400/_DSC0299.jpg

@@ -4,7 +4,7 @@ date: 2014-05-21T16:48:00+0200
 author: Manel Villalba
 slug: tarda-de-blues
 tags:
-- musica
+- música
 - blues
 - FESTA
 - BLUE

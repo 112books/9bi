@@ -8,7 +8,7 @@ tags:
 - fotografia
 - linuxbcn
 - rumors
-- VIA JULIA
+- vía júlia
 - xarxa 9 barris ac
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvWGps2z3xMfRu0F7shU6uouRYHCFFJq7PQ0KwQMiorXWlrMnGjoSELZi-_0pDDo7xU48fXm-12xY8w-mq6cCp53tcMq0-7lv0JzO7mp68YPrSWMNPVM6_NDu1cPkiDhdbt8FXBiImZCE/s400/IMG_3653.jpg

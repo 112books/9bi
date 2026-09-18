@@ -7,7 +7,7 @@ tags:
 - casal de joves de prospe
 - Casal de Joves
 - prospe
-- video
+- vídeo
 - CASAL
 ---
 

@@ -7,7 +7,7 @@ tags:
 - Casal de barri de Prosperitat
 - barri de Prosperitat
 - casal de barri
-- nit d'animes
+- nit d'ànimes
 - Prosperitat
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFvoBmx8pdIgUJRjfigD6hnTgyxy2zm4VZiMb9uO3d646A_K4Km4WG1w9sgBRHZGW6L1mOmj1TPMr3ix5na6gpi3iC79rjbI-mvqkWvgRshNgbuX0FDMzg8KOLskXtyHR9Q3LUEh-FSz4/s400/5629%2520-%2520CisinaCX2%2520-Cn400-006.jpg

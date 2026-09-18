@@ -7,7 +7,7 @@ tags:
 - 9bacull
 - ateneu popular 9 barris
 - can basté
-- exposicio
+- exposició
 - festival sopes
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhh7DLjb5jq3_xSDdfl-O93p-RXETHzzjeH7Qh9vUZxwSbOnsaKwXT-oI5yHGKQHC8inYGngRPYZyt5xUyazi_LXzOiPgFlyJPYDsXVbBgygCtB_q4W7zTyE34WwWqSitKaNMceWbwD8Jc/s400/IMG_7773.jpg

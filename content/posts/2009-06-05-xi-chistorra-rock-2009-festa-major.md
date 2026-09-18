@@ -6,7 +6,7 @@ slug: xi-chistorra-rock-2009-festa-major
 tags:
 - 9barris imatge
 - chistorra rock
-- manel sala "ulls"
+- manel sala ulls
 - nou barris
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlNZwUREwab6mmplR0yg6uceSarcx1zuVcasKNgC3p_cF6J8gX0OALVbduKFLRqOSz5C-bQ5TKRaPhnRxAbENlwZEFdr05Xrs0N-qAPd51tlWJg9IZQMITKN7SLKBwhySWbrvFmmyo41JO/s400/IMG_1075.JPG

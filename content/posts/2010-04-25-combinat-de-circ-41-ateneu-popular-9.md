@@ -6,7 +6,7 @@ slug: combinat-de-circ-41-ateneu-popular-9
 tags:
 - ateneu popular 9 barris
 - combinat de circ
-- manel sala "ulls"
+- manel sala ulls
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpcUWzA0voZP1Se2atkGSshm3xMVMsbJLPOAysii6LJI_449DS2VIhK53uz7JAnTNwXvBTrq2GMl31T0RKr6TrqvVBsgWME1ahHkZb7FSe4e6dAWf3BMc5VgNeUP4DHTe93V1_P4w7hElD/s400/313.jpg
 album_url: http://picasaweb.google.es/ulls2006/CombinatDeCirc41AteneuPopular9Barris?feat=embedwebsite

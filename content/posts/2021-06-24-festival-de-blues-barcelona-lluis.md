@@ -5,7 +5,7 @@ author: Francesc Barbe
 slug: festival-de-blues-barcelona-lluis
 tags:
 - Blues Barcelona
-- lluis coloma
+- Lluís Coloma
 - Barcelona
 - blues
 - BLUE

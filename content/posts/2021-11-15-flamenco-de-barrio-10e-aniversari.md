@@ -7,7 +7,6 @@ tags:
 - 9barris imatge
 - flamenco
 - flamenco de barrio
-- fotos manel sala ulls
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs8OOh-l7j98pRmzPAHFxgbiSsCTp7SlQnbjJkAS5R4V51Ev6vrx-by48AnTB70BMF19fPRT3lx3K3sPtnxCYcuUPuShGrlpvNbnFeIIjTTgrzhA0GUOrQ3qIJZbRWf8fnowfNlbMjm0WF/s600/2T5A5015.jpg
 album_url: https://photos.app.goo.gl/u4z578U3SsQQRhct6

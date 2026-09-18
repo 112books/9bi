@@ -4,7 +4,7 @@ date: 2018-12-04T17:06:00+0100
 author: Alberto Sanagustín
 slug: 1a-diada-del-100tenari-i-vermusical
 tags:
-- musica
+- música
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - Marc
 - Pastu
-- victor puertas
+- Víctor Puertas
 - wad-ras
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1PiqCCnpUE-hQS-4jD97H8uaIi-FOUl2mETCXhiyfLZw0CjKVy6EX4TQDXqQ336XzvK55hxVBatrrsEIIFWiLZzx3WGjz6HxTW31yxB-CwFSfHlgUW1oJRWoNbRln3AP8OlctZmcwMBQ/w640-h480/IMG_5626.jpg

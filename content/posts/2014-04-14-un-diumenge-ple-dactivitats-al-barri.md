@@ -6,7 +6,7 @@ slug: un-diumenge-ple-dactivitats-al-barri
 tags:
 - Feria de Abril
 - activitats
-- VIA JULIA
+- vía júlia
 - diumenge
 - prospe
 cover:

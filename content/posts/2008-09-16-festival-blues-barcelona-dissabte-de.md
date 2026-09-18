@@ -8,7 +8,7 @@ tags:
 - festival de blues de barcelona
 - fotografia
 - linuxbcn
-- video
+- vídeo
 cover:
   image: http://lh6.ggpht.com/linuxbcn/SM_HD1vrkVI/AAAAAAAAgSE/1tB_pw2Ckx4/w640-h426/IMG_3377.JPG
 album_url: https://photos.app.goo.gl/29786H4VhDzSfnES8
