@@ -662,13 +662,9 @@ h1, h2, h3, h4, h5, h6 {
     position: sticky;
     top: 0;
     z-index: 100;
-    transition: box-shadow 0.25s ease;
-  }
-  .header .header-nav {
-    transition: line-height 0.25s ease;
+    transition: box-shadow 0.2s ease;
   }
   .header .logo a img {
-    transition: height 0.25s ease, margin 0.25s ease;
     margin: 15px 0;
   }
   .header.scrolled {
