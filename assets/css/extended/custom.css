@@ -598,6 +598,30 @@ h1, h2, h3, h4, h5, h6 {
   height: 20px;
   display: block;
 }
+/* Text del logotip: ocult per defecte (només es mostra en scroll, escriptori) */
+.logo-text {
+  display: none;
+}
+/* Toggle de tema com a darrera opció del menú */
+.menu > li {
+  display: flex;
+  align-items: center;
+}
+.menu .menu-theme .theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.3rem;
+  border: none;
+  background: none;
+  color: var(--content);
+  cursor: pointer;
+}
+.menu .menu-theme .theme-toggle:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
 @media (max-width: 768px) {
   .header .header-nav {
     justify-content: center;
@@ -606,13 +630,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
     justify-content: center;
   }
-  /* Al telèfon el header queda només amb el logo gran i centrat:
-     text del label i toggle de tema ocults (només escriptori) */
-  .header .logo a {
-    font-size: 0;
-  }
-  .header .logo-switches {
-    display: none;
+  /* Al telèfon el header queda només amb el logo gran i centrat */
+  .header .logo {
+    margin: 0 auto;
+    justify-content: center;
   }
   .header .menu {
     width: 100%;
@@ -657,6 +678,10 @@ h1, h2, h3, h4, h5, h6 {
   .header.scrolled .logo a img {
     height: 48px;
     margin: 8px 0;
+  }
+  /* El text del logotip només es mostra quan el header es fa petit (scroll) */
+  .header.scrolled .logo a .logo-text {
+    display: inline;
   }
   .header.scrolled .menu-icon {
     display: inline-flex;
