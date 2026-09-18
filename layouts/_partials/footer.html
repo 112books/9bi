@@ -13,7 +13,7 @@
             </a>
         </div>
         <div class="footer-col footer-col--empty" aria-hidden="true"></div>
-        <nav class="footer-col" aria-label="Navegació del web">
+        <nav class="footer-col footer-col--web" aria-label="Navegació del web">
             <span class="footer-col-title">El web</span>
             <ul class="footer-col-list">
                 {{- range site.Menus.footer }}
@@ -22,7 +22,7 @@
                 {{- end }}
             </ul>
         </nav>
-        <nav class="footer-col" aria-label="Enllaços legals">
+        <nav class="footer-col footer-col--legal" aria-label="Enllaços legals">
             <span class="footer-col-title">Legal</span>
             <ul class="footer-col-list">
                 <li><a href="{{ "avis-legal/" | relURL }}">Avís legal</a></li>

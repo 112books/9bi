@@ -305,6 +305,14 @@ sync-9bi.sh                        # script de sync/gestió
 - **Abreviatures corregides** (`J. A. Cordoncillo` / `J.A.Cordoncillo` → nom sencer): `content/concurs.md` i posts `2014-12-16-...` i `2025-12-21-...`.
 - Build net (6.539 pàgines). **Desplegat a Codeberg Pages** (branca `pages`).
 
+### Peu amb l'ample del header i versió mòbil (2026-09-18, sessió v5)
+
+- **`.footer` ara mesura com el header**: el tema fixa `max-width: calc(var(--main-width) + var(--gap) * 2)` (720px), mentre el header fa 1024 (`--nav-width`). Override a `custom.css`: `.footer { max-width: calc(var(--nav-width) + var(--gap) * 2) }`. **Atenció en actualitzar PaperMod.**
+- **Versió de telèfon (≤480px)**: `.footer-cols` amb `grid-template-areas` → **Logo + «El web»** (costat a costat) · **«Legal»** amb tots els links en una sola línia · **«9 Barris en números»** amb totes les dades en una sola línia (separats per «·»).
+- Classes noves als menús del footer: `footer-col--web` i `footer-col--legal` (a `layouts/_partials/footer.html`).
+- **Títols de columna més grans** (aprovat 2026-09-18): `.footer-col-title` de `0.78rem` → **`0.95rem`**, mateix color `var(--secondary)`.
+- **Tasques anotades al backlog (2026-09-18)**: auditoria SEO i IA, document d'URLs de Blogger (SEO/redireccions), i links a Instagram + Grup de Facebook amb eina automàtica de publicació de posts nous (a més del bot de Telegram pendent).
+
 ### Diagnòstic del núvol d'etiquetes (`/tags/` i `/search/`)
 
 - **A la pàgina de Cerca (`/search/`) NO hi ha núvol d'etiquetes** — cal afegir-lo (pendent d'aprovació).
@@ -322,8 +330,8 @@ sync-9bi.sh                        # script de sync/gestió
 
 ### Altres
 
-- **Eslògan «arreu» aplicat però NO committejat**: `config/_default/hugo.toml` (línia 50, `description`) i `content/qui-som.md` (línia 7). Build net (6.539 pàgines). Pendent `git push origin main` + deploy a `pages`.
-- **Reestructurar el footer «amb lògica»**: petició de l'usuari, **sense concretar** — preguntar què vol dir (¿col·lapse al mòbil, ¿columnes segons context, ¿reordenar?).
+- **Eslògan «arreu»**: **aplicat i desplegat (2026-09-18)** — `config/_default/hugo.toml` (línia 50, `description`) i `content/qui-som.md` (línia 7).
+- **Reestructurar el footer «amb lògica»**: **implementat (2026-09-18)** — amplada igual al header (`--nav-width`) i versió de telèfon: Logo + El web / Legal / Números, en una sola línia cadascuna.
 
 ## Tasques pendents (backlog curt)
 
@@ -332,19 +340,20 @@ sync-9bi.sh                        # script de sync/gestió
 - **Peu / legal**: peu de **5 columnes** fet (logo · buida · «El web» · «Legal» · «9 Barris en números»). `avis-legal.md` i `privacitat.md` fets (2026-09-18). Pendent: contingut real d'`cookies.md` i la resta d'adequació RGPD.
 - **Auditoria de seguretat** (encarregada 2026-09-17, pendent).
 - **Auditoria d'accessibilitat** (encarregada 2026-09-17, pendent).
+- **Auditoria de SEO i IA** (encarregada 2026-09-18): deixar el web **ben preparat per a motors de cerca i agents d'IA** (metadades, dades estructurades, sitemap/robots, OpenGraph, etc.).
+- **Document d'URLs de Blogger (SEO/redireccions)** (encarregat 2026-09-18): recull de **totes les URL actuals del blog Blogger** per comprovar que coincideixen amb les entrades actuals del web (l'estructura `/:year/:month/:slug.html` + `uglyURLs = true` ho preserva) o fer una **redirecció a la nova URL** — tema cercadors i SEO.
 - **`content/qui-som.md`** (secció «Membres»): **implementat (2026-09-18)** amb `{{< membres >}}` + `data/membres.yml` + `layouts/author/term.html` + col·lecció Decap «membres» (vegeu la sessió 2026-09-18). Pendent: enllaç de reserva al **perfil del bloc vell** («Els components de 9 barris imatge») per als membres sense web (ara mostren «—») i completar els **Instagram** que falten.
 - **Comentaris al web**: implementar un sistema de comentaris amb **fort control d'spam** (pendent d'escollir la solució/proveïdor).
 - **Compartir a xarxes**: botons per compartir fàcilment a **Instagram** i les xarxes que es portin ara (pendent).
 - **Tipografies**: **implementat (2026-09-18)** — cos **Montserrat** (woff2 400/700/800) + títols **Gillius ADF** (OTF 400/700), autoallotjades a `static/fonts/`, `@font-face` i overrides a `custom.css` (urls `../../fonts/…`) i `preload` a `extend_head.html`. **Sense cap CDN** (RGPD). Pendent opcional: convertir els OTF de Gillius a woff2.
-- **Votació popular per QR** (concurs): implementar l'app Python al servidor de LinuxBCN (1 vot per obra i dispositiu, anònim, només QR presencial). Pendent d'estudiar/decidir (2026-09-18).
+- **Votació popular per QR** (concurs): implementar l'app Python al servidor de LinuxBCN. **Servidor: linuxbcn.com (Dinahosting)**; preferència per Python amb **mínim de dependències** (venv; sense Docker, per decidir). 1 vot per obra i dispositiu, anònim, només QR presencial. (2026-09-18)
 
 - **Pestanyes a «Qui som»** (aprovat 2026-09-18): qui som | Com funcionem | Membres | Relacions (entitats + links amics) | **Història de la fotografia a Nou Barris**. Reutilitzar el patró de pestanyes CSS pur del Concurs. (Pendent redactar.)
 - **Història de la fotografia a Nou Barris** (aprovat: incloure a la pestanya nova): genealogia ~1960–2026 amb 4 categories (A fotògrafs de Nou Barris · B que l'han documentat · C fotografia comunitària/de barri · D ecosistema Can Basté) i columna «per què és conegut?»; noms sense font es marquen «pendent de verificar».
 - **Núvol d'etiquetes a la Cerca** (`/search/`) + **depuració d'etiquetes**: 1.742 de literals (23 grups de variants, 890 d'un sol ús, etiqueta trencada `manel sala "ulls`). Pendent de decisions editorials.
-- **Responsive header**: `.menu-icon svg` només té mida dins `@media (min-width: 769px)` → icones gegants per sota; fix pendent d'aprovació de disseny.
-- **Footer «amb lògica»**: reestructuració pendent de concretar amb l'usuari.
+- **Responsive header**: **fix fet i desplegat (2026-09-18)** — mides base de `.menu-icon`/`.menu-icon svg` fora del media query; icones a 17 px al mòbil.
+- **Footer «amb lògica»**: **implementat (2026-09-18)** — amplada igual a la del header (`--nav-width`) arreu; versió de telèfon: **Logo + «El web»** · **«Legal»** amb tots els links en una sola línia · **«9 Barris en números»** amb totes les dades en una sola línia.
 - **Concurs Cordoncillo (investigació pròpia)**: biografia de Cordoncillo, origen documentat (1990), cronologia i 35 anys de guanyadors; incidències de numeració a l'arxiu.
-- **Eslògan «arreu»**: canvis aplicats però **no committejats** (`hugo.toml`, `qui-som.md`); pendent commit + deploy.
 
 ## Infraestructura i comunicació (pendent)
 
@@ -352,7 +361,7 @@ sync-9bi.sh                        # script de sync/gestió
 - **DNS i correu**: repensar què fer amb els DNS; es vol **correu gratuït i lliure per a cada membre** i un de **genèric** de l'entitat.
 - **Grup de correu**: llista/grup per enviar un correu a tots els membres.
 - **Telegram**: grup **privat** i **públic** (aquest darrer unidireccional, on s'envien els posts quan es publiquen). **Tasca (2026-09-18)**: muntar un **bot** (token de @BotFather), afegir-lo al grup, obtenir el `chat_id` i crear `scripts/telegram.py` que enviï missatges llegint `TELEGRAM_BOT_TOKEN` i `TELEGRAM_CHAT_ID` de l'entorn (mai al repo).
-- **Facebook**: publicar automàticament els posts.
+- **Xarxes socials (Instagram i Facebook)** (2026-09-18): posar links a l'**Instagram** i al **Grup de Facebook** al web, i dissenyar una **eina automàtica** perquè cada post nou es publiqui automàticament a IG i FB (mateix patró que el bot de Telegram pendent).
 
 ## Properes sessions
 

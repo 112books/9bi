@@ -285,6 +285,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
+  max-width: calc(var(--nav-width) + var(--gap) * 2);
   padding: 0;
 }
 
@@ -302,7 +303,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer-col-title {
   display: block;
   margin-bottom: 0.6rem;
-  font-size: 0.78rem;
+  font-size: 0.95rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary);
@@ -402,7 +403,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 480px) {
   .footer-cols {
-    grid-template-columns: 1fr;
+    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-areas:
+      "logo web"
+      "legal legal"
+      "stats stats";
+    align-items: center;
+  }
+  .footer-col--logo { grid-area: logo; }
+  .footer-col--web { grid-area: web; }
+  .footer-col--legal { grid-area: legal; }
+  .footer-col--stats { grid-area: stats; }
+  .footer-col--legal .footer-col-list,
+  .footer-col--stats .footer-col-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0 0.55rem;
+  }
+  .footer-col--legal .footer-col-list li + li::before,
+  .footer-col--stats .footer-col-list li + li::before {
+    content: "·";
+    margin-right: 0.55rem;
   }
 }
 
