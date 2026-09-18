@@ -94,7 +94,7 @@ sync-9bi.sh                        # script de sync/gestió
 
 ## Front matter (convencions reals)
 
-- **Posts**: `title`, `date` (ISO), `author`, `slug`, `tags` (llista), `cover.image` (opcional), `album_url` (opcional), `description` (opcional)
+- **Posts**: `title`, `date` (ISO), `year` (any, afegit 2026-09-18 per al filtratge del CMS), `author`, `slug`, `tags` (llista), `cover.image` (opcional), `album_url` (opcional), `description` (opcional)
 - **Pàgines**: `title`, `description`, `url` (ruta final explícita)
 - **Guia i documentació**: `draft: true` (internes, només des del CMS; no surten a `public/`)
 - **search.md**: `layout: "search"` · **archive.md**: `layout: "archives"` · **mes-visitats.md**: `layout: "popular"` + `hiddenInRss: true`
@@ -103,7 +103,7 @@ sync-9bi.sh                        # script de sync/gestió
 
 - Backend `forgejo`: repo `linuxbcn/9bi`, `branch main`, `api_root` https://codeberg.org/api/v1
 - `media_folder: static/images` · `public_folder: /images`
-- 4 col·leccions: `posts` (title, date, author[select amb els 9 membres reals], cover.image, album_url, tags, description, body), `guia`, `actes` (title, date, lloc, persones_reunides, convidat, ordre_del_dia, draft, body) i `concurs` (title, tipo[select], date, draft, body)
+- 23 col·leccions: 19 d'articles per any (`posts-2026`…`posts-2008`, filtrades pel camp `year` afegit a cada post; camps: title, date, year [hidden, default l'any], slug, author [select], cover.image, album_url, tags, description, body), més `guia`, `actes` (title, date, lloc, persones_reunides, convidat, ordre_del_dia, draft, body), `concurs` (title, tipo[select], date, draft, body) i `membres` (vegeu "Sessió 2026-09-18 (v6)"). La llista d'autors es reutilitza amb un ancoratge YAML (`x-autors: &autors`).
 
 ## CI/CD (`.forgejo/workflows/deploy.yml`)
 
@@ -351,6 +351,13 @@ sync-9bi.sh                        # script de sync/gestió
 - **`.gitignore`**: afegit `/.taques/` (gestió d'hores, local).
 - **Pendents nous**: pestanya «9bi als mitjans» a Qui som (+ material de 27 links verificats de les edicions del concurs); chrome del CMS (header amb logo + «Edició de 9 Barris Imatge», footer igual que el web, Manual consultable des del header); demandes del llistat del CMS (ordenació més recents, miniatures, normalitzar **384 títols en majúscules**, permisos per usuari = inviable a Decap).
 
+## Sessió 2026-09-18 (v7) — CMS: articles per anys
+
+- **Camp `year` a tots els posts**: aprovat per l'usuari (col·leccions per any, opció «Recomanat»). Script `add_year.py` afegeix `year: YYYY` derivat de la `date` al front matter de **3.006 fitxers** (commit `81e67deff`, desplegat a `pages`). Rang: 2008 (102)…2026 (63), total 3.006, 0 errors; verificat que any coincideix amb la data en tots. El tema ignora la clau (clau de front matter extra inofensiva).
+- **19 col·leccions filtrades al CMS**: `static/admin/config.yml` substitueix la col·lecció `posts` per 19 col·leccions tipus folder `posts-YYYY` amb `filter: { field: "year", value: "YYYY" }`, `create: true` i un camp `year` hidden amb default de l'any corresponent (perquè els posts nous entrin al filtre). Menú ordenat de més recent (2026) a més antic (2008). La llista de 13 autors es manté amb **ancoratge YAML** `x-autors: &autors` per no duplicar-la 19 vegades.
+- **Resultat pràctic**: «Articles · 2026» mostra només els 63 posts d'aquell any (l'any per defecte primer); crear un post nou preomple l'any sol. Redueix el llistat de 3.006 a ~60–250 per any.
+- **Pendent del chrome del CMS** (especificació de l'usuari del 2026-09-18): header amb logo + **«9 Barris Imatge - Gestor de continguts»** + enllaços a la documentació (col·lecció `guia`) per consulta dels editors, i **footer igual que el del web**.
+
 ## Tasques pendents (backlog curt)
 
 - **`content/contacte.md`**: afegir al formulari un camp nou "A quina entitat de Nou Barris pertanys o representes (opcionalment)" (input opcional, com `assumpte`).
@@ -383,7 +390,7 @@ sync-9bi.sh                        # script de sync/gestió
 
 ## Properes sessions
 
-- **Muntar el CMS**: OAuth2 de Codeberg **fet** (Client ID `0c6b6c51-…`, desplegat). Pendent: **usuaris i permisos** dels col·laboradors (membres actius amb escriptura; inactius sense), chrome del CMS (header amb logo + «Edició de 9 Barris Imatge», footer del web, Manual) i les demandes del llistat (ordre, miniatures, títols majúscules).
+- **Muntar el CMS**: OAuth2 de Codeberg **fet** (Client ID `0c6b6c51-…`, desplegat). **Articles per anys fet (v7)**: 19 col·leccions `posts-YYYY` filtrades pel camp `year`. Pendent: **usuaris i permisos** dels col·laboradors (membres actius amb escriptura; inactius sense), chrome del CMS (header amb logo + «9 Barris Imatge - Gestor de continguts» + enllaços a la Guia, footer del web) i la resta de demandes del llistat (ordre, miniatures, títols majúscules).
 - **Control de fitxers del Concurs Cordoncillo** (bases, històric, etc.).
 - **Secció per fer i gestionar les reunions** de l'associació.
 
