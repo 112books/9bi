@@ -57,7 +57,7 @@ Lloc web estàtic de l'Associació fotogràfica 9 Barris Imatge (Barcelona), mig
 
 ```
 content/
-├── posts/                         # 3.006 posts migrats de Blogger
+├── posts/YYYY/                     # 3.006 posts migrats de Blogger, en subcarpetes per any (2008…2026); les URL no depenen del path (permalinks `/:year/:month/:slug` del front matter)
 ├── qui-som.md, concurs.md, contacte.md, privacitat.md, avis-legal.md, cookies.md, credits.md   # pàgines estàtiques (amb `url` explícita)
 ├── subvencions.md                 # pàgina filla de «Qui som» (`url: /qui-som/subvencions/`, amb alias de l'antic URL del post)
 ├── search.md (layout "search"), archive.md (layout "archives")
@@ -103,7 +103,7 @@ sync-9bi.sh                        # script de sync/gestió
 
 - Backend `forgejo`: repo `linuxbcn/9bi`, `branch main`, `api_root` https://codeberg.org/api/v1
 - `media_folder: static/images` · `public_folder: /images`
-- 23 col·leccions: 19 d'articles per any (`posts-2026`…`posts-2008`, filtrades pel camp `year` afegit a cada post; camps: title, date, year [hidden, default l'any], slug, author [select], cover.image, album_url, tags, description, body), més `guia`, `actes` (title, date, lloc, persones_reunides, convidat, ordre_del_dia, draft, body), `concurs` (title, tipo[select], date, draft, body) i `membres` (vegeu "Sessió 2026-09-18 (v6)"). La llista d'autors es reutilitza amb un ancoratge YAML (`x-autors: &autors`).
+- 23 col·leccions: 19 d'articles per any (`posts-2026`…`posts-2008`, una per subcarpeta `content/posts/YYYY/` amb `sortable_fields` per data desc; camps: title, date, year [hidden, default l'any], slug, author [select], cover.image, album_url, tags, description, body), més `guia`, `actes` (title, date, lloc, persones_reunides, convidat, ordre_del_dia, draft, body), `concurs` (title, tipo[select], date, draft, body) i `membres` (vegeu "Sessió 2026-09-18 (v6)"). La llista d'autors es reutilitza amb un ancoratge YAML (`x-autors: &autors`).
 
 ## CI/CD (`.forgejo/workflows/deploy.yml`)
 
@@ -354,9 +354,22 @@ sync-9bi.sh                        # script de sync/gestió
 ## Sessió 2026-09-18 (v7) — CMS: articles per anys
 
 - **Camp `year` a tots els posts**: aprovat per l'usuari (col·leccions per any, opció «Recomanat»). Script `add_year.py` afegeix `year: YYYY` derivat de la `date` al front matter de **3.006 fitxers** (commit `81e67deff`, desplegat a `pages`). Rang: 2008 (102)…2026 (63), total 3.006, 0 errors; verificat que any coincideix amb la data en tots. El tema ignora la clau (clau de front matter extra inofensiva).
-- **19 col·leccions filtrades al CMS**: `static/admin/config.yml` substitueix la col·lecció `posts` per 19 col·leccions tipus folder `posts-YYYY` amb `filter: { field: "year", value: "YYYY" }`, `create: true` i un camp `year` hidden amb default de l'any corresponent (perquè els posts nous entrin al filtre). Menú ordenat de més recent (2026) a més antic (2008). La llista de 13 autors es manté amb **ancoratge YAML** `x-autors: &autors` per no duplicar-la 19 vegades.
+- **19 col·leccions filtrades al CMS (APROXIMACIÓ INICIAL, SUBSTITUÏDA a la sessió v8)**: `static/admin/config.yml` substitueix la col·lecció `posts` per 19 col·leccions tipus folder `posts-YYYY` amb `filter: { field: "year", value: "YYYY" }`, `create: true` i un camp `year` hidden amb default de l'any corresponent (perquè els posts nous entrin al filtre). Menú ordenat de més recent (2026) a més antic (2008). La llista de 13 autors es manté amb **ancoratge YAML** `x-autors: &autors` per no duplicar-la 19 vegades. **Nota (v8)**: el `filter` carregava igualment els 3.006 fitxers de la carpeta → penjament «carregant entrades a la cache»; substituït per subcarpetes físiques per any.
 - **Resultat pràctic**: «Articles · 2026» mostra només els 63 posts d'aquell any (l'any per defecte primer); crear un post nou preomple l'any sol. Redueix el llistat de 3.006 a ~60–250 per any.
 - **Chrome del CMS implementat** (commit `16534a4ae`, desplegat; pages `d1830af`): `static/admin/index.html` amb capçalera i peu propis usant el **Custom Mount Element** oficial (`<div id="nc-root">` + script `defer` — Decap munta la UI dins, no ocupa tota la pàgina). Header: logo (`../images/logo-header.jpg`) + **«9 Barris Imatge - Gestor de continguts»** + enllaços per consulta dels editors: **Guia i manual** (`#/collections/guia`), Articles · 2026 (`#/collections/posts-2026`), Membres i «Torna al web». Footer: **replica del del web** (banda accent `#e03131`, columnes logo · El web · Legal · 9 Barris en números amb links relatius `../`, CC BY-NC-SA + Powered by LinuxBCN/Hugo/PaperMod amb reveal; estils propis prefixats `cms-`, CSS inline, sense assets del web carregats). **Nota**: els números del peu del CMS (`3.006 posts · 24 anys · 12 membres`) són **estàtics** (quedaran vells); els del web es generen a cada build.
+
+## Sessió 2026-09-18 (v8) — CMS: posts en subcarpetes per any + rail propi
+
+- **Porblema**: les col·leccions amb `filter` carregaven tota la carpeta `content/posts` (3.006 fitxers) per mostrar-ne només 63 → el CMS quedava «carregant entrades a la cache». Decap aplica el filtre a client, no a server.
+- **Solució (aprovada per l'usuari, opció «Moure per anys»)**: els **3.006 posts es mouen a subcarpetes físiques** `content/posts/YYYY/` (2008…2026). Les **URL no canvien**: els permalinks `/:year/:month/:slug` surten del front matter (`date` + `slug`), no del path. Verificat comparant l'arbre `public/` abans/després (8.446 pàgines idèntiques).
+- **`config.yml` (commit `77e3d61c9`)**: les 19 col·leccions `posts-YYYY` ara apunten a `folder: content/posts/YYYY` (sense `filter`) i porten **`sortable_fields`** (`date` amb `default_sort: desc` → llistat de més recent a més antic dins de cada any).
+- **Rail propi al CMS** (`static/admin/index.html`, mateix commit): barra lateral esquerra que **substitueix la sidebar nativa de Decap**:
+  - «**Articles**» amb `<details open>` i els **19 anys** (2026→2008, 2026 actiu per defecte) enllaçant a `#/collections/posts-YYYY`;
+  - «Seccions»: Membres, Guia i manual, Actes, Concurs Cordoncillo;
+  - «Torna al web»; JS destaca l'any segons el hash (`#/collections/posts-YYYY`).
+  - CSS: `#nc-root aside { display: none }` i `#nc-root main { padding-left: 0 }` per amagar la sidebar interna de Decap (classes internes → **fràgil davant actualitzacions de Decap**, versió fixada `^3.0.0`). A ≤900 px el rail passa a horitzontal amb els anys en files.
+- **Scripts de migració**: `migrate_live.py` i `migrate_blogger.py` escriuen ara a `content/posts/YYYY/` (`os.path.join(args.output, pub.strftime("%Y"), …)`).
+- Desplegat (webhook ~1-2 min en la verificació): main `77e3d61c9` → pages `65efc85d`. Verificat en viu: config amb `folder: content/posts/2026` + `sortable_fields`, i HTML del rail present.
 
 ## Tasques pendents (backlog curt)
 
@@ -390,7 +403,7 @@ sync-9bi.sh                        # script de sync/gestió
 
 ## Properes sessions
 
-- **Muntar el CMS**: OAuth2 de Codeberg **fet** (Client ID `0c6b6c51-…`, desplegat). **Articles per anys fet (v7)**: 19 col·leccions `posts-YYYY` filtrades pel camp `year`. **Chrome del CMS fet (v7)**: header amb logo + «9 Barris Imatge - Gestor de continguts» + enllaços a la Guia, footer del web replicat. Pendent: **usuaris i permisos** dels col·laboradors (membres actius amb escriptura; inactius sense) i la resta de demandes del llistat (ordre, miniatures, títols majúscules).
+- **Muntar el CMS**: OAuth2 de Codeberg **fet** (Client ID `0c6b6c51-…`, desplegat). **Articles per anys fet (v7/v8)**: camp `year`, primer com a col·leccions filtrades i, en veure que filtraven llistant tot igualment, **posts movent-se a subcarpetes físiques per any** (carpeta per any al config, `sortable_fields` desc) + **rail propi** substituint la sidebar de Decap. **Chrome del CMS fet (v7)**: header amb logo + «9 Barris Imatge - Gestor de continguts» + enllaços a la Guia, footer del web replicat. Pendent: **usuaris i permisos** dels col·laboradors (membres actius amb escriptura; inactius sense) i la resta de demandes del llistat (miniatures, títols en majúscules, normalitzar títols...).
 - **Control de fitxers del Concurs Cordoncillo** (bases, històric, etc.).
 - **Secció per fer i gestionar les reunions** de l'associació.
 
