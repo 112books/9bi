@@ -311,6 +311,7 @@ sync-9bi.sh                        # script de sync/gestió
 - **Versió de telèfon (≤480px)**: `.footer-cols` amb `grid-template-areas` → **Logo + «El web»** (costat a costat) · **«Legal»** amb tots els links en una sola línia · **«9 Barris en números»** amb totes les dades en una sola línia (separats per «·»).
 - Classes noves als menús del footer: `footer-col--web` i `footer-col--legal` (a `layouts/_partials/footer.html`).
 - **Títols de columna més grans** (aprovat 2026-09-18): `.footer-col-title` de `0.78rem` → **`0.95rem`**, mateix color `var(--secondary)`.
+- **`.footer-bottom` en columna**: «Powered by…» centrat i a sota del copyright (CC), amb un **filet** `1px solid var(--border)` a sobre de la línia de Creative Commons.
 - **Tasques anotades al backlog (2026-09-18)**: auditoria SEO i IA, document d'URLs de Blogger (SEO/redireccions), i links a Instagram + Grup de Facebook amb eina automàtica de publicació de posts nous (a més del bot de Telegram pendent).
 
 ### Diagnòstic del núvol d'etiquetes (`/tags/` i `/search/`)
