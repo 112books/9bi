@@ -1,5 +1,12 @@
 # Decap CMS — configuració del blog 9 Barris Imatge
-# Docs backend Forgejo: https://decapcms.org/docs/gitea-backend/
+# Docs backend Gitea/Forgejo: https://decapcms.org/docs/gitea-backend/
+#
+# Nota (2026-09-18): backend "gitea" (NO "forgejo"). La raó: el backend "forgejo"
+# de Decap llista les carpetes amb l'arbre recursiu del repo sencer
+# (git/trees/{sha}?recursive=1) i Codeberg el trunca a 1000 nodes → les carpetes
+# tardanes alfabèticament (content/posts/2014+ i data/membres) sortien buides.
+# El backend "gitea" fa servir l'endpoint per path (git/trees/{branch}:{path}),
+# que no es trunca, i és el que el doc de Decap recomana per a repos Forgejo.
 #
 # ABANS DE DESPLEGAR, cal:
 # 1. Crear el repositori al Codeberg (p. ex. linuxbcn/9barrisimatge)
@@ -10,7 +17,7 @@
 # 3. Copiar el "Client ID" al camp app_id d'aquí sota
 
 backend:
-  name: forgejo
+  name: gitea
   repo: linuxbcn/9bi
   app_id: 0c6b6c51-bea8-4b64-8c1e-96bbf02eef15
   api_root: https://codeberg.org/api/v1
