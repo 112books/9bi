@@ -371,6 +371,24 @@ sync-9bi.sh                        # script de sync/gestió
 - **Scripts de migració**: `migrate_live.py` i `migrate_blogger.py` escriuen ara a `content/posts/YYYY/` (`os.path.join(args.output, pub.strftime("%Y"), …)`).
 - Desplegat (webhook ~1-2 min en la verificació): main `77e3d61c9` → pages `65efc85d`. Verificat en viu: config amb `folder: content/posts/2026` + `sortable_fields`, i HTML del rail present.
 
+## Sessió 2026-09-19 (v1) — votació per QR: pla + mòdul M1 fet i testejat
+
+> **Abans de retocar el web**: els canvis d'aquesta sessió són **documents de planificació (`drafts/`)** i el **mòdul `modules/votacio/`** (0 afectació al web). Committejat el 2026-09-19 a `main` (`387f283a6`) i pujat a Codeberg; branca `pages` resincronitzada amb `origin/pages`.
+
+- **`drafts/2026-09-19-votacio-pla-desenvolupament.md`** (nou): pla de la votació del públic. Seccions: 1) investigació (geofencing off/soft/hard; prova que el vot sense mòbil és «vot en paper»; RGPD: consentiment i never-store de coordenades; comparació d'allotjament), 2) abast M1, 3) estructura de fitxers, 4) pla de treball 11 passos, 5) decisions aprovades, 6) pendents.
+- **Decisions de l'usuari (2026-09-19)**: 1) geofencing **off** per defecte global, **soft** a l'edició 2026 (radi **500 m**, centre Casal de Barri de Prosperitat, `lat=41.3948 lon=2.1775`); 2) sense mòbil → **vot en paper** (urna física + `tally --paper`); 3) `collect_data = none` el 2026; 4) allotjament: **primer Dinahosting compartit** (Passenger), VPS Lite (~34 €/mes) només si falla. Llicència proposada **AGPL-3.0** (per confirmar); repo `9bi-apps` (orientatiu).
+- **Config = INI amb configparser (stdlib)**, no YAML → **zero `pip` en producció**.
+- **`drafts/2026-09-19-apps-modulars-votacio-albums.md`**: document de la suite **completat i coherent**, títol ampliat a «Suit modular de programari lliure per a associacions i escoles de fotografia»; §6 «Mòduls futurs a avaluar — i el vincle amb Llumàtics» (inclou `tallers` i `sortides` com a candidats) + taula de candidats i regla de l'adoptant real; seccions reenumerades 7–12; Fase 7 afegida.
+- **`drafts/2026-09-19-noms-suite.md`** (nou): proposta de noms per a la suite per categories; **top 5: Trípode, Objectiu, Revela, Enquadra, Focus**; decidir català vs internacional.
+- **`modules/votacio/`** (nou, M1) — app WSGI **només stdlib**, sense dependències de tercers en producció:
+  - `app.py`: rutes `/v/<token>` (GET form / POST vot), `/admin/` (login, recompte, export CSV signat, tancar, logout), `/health`. Vot per obra i dispositiu (HMAC-cookie), CSRF per petició, rate-limit per IP, geofencing off/soft/hard amb haversine, i18n ca/es/en, `connect()` auto-crea l'esquema.
+  - `schema.sql` (taules edicions/obres/vots amb UNIQUE per duplicats), `config.example.ini`, `passenger_wsgi.py` (punt d'entrada Phusion Passenger per a Dinahosting/cPanel), `i18n/{ca,es,en}.ini`.
+  - `tools/qr.py` (QR del cartell; `qrcode` només en dev o `qrencode`), `tools/tally.py` (+ `--paper`), `tools/audit.py` (verifica HMAC i duplicats).
+  - **Testejar**: via WSGI i servidor real — vot OK, repetit bloquejat, token dolent 404, geo `hard` fora de radi → 403 i dins → 200, `soft` marca `out`, `off` ignora; `audit` 0 anomalies.
+  - Config local `config.ini` **gitignored** (secrets fora del repo).
+- **`scripts/picasa_to_photos.py`** + `drafts/2026-09-18-pla-recuperacio-albums.md`, `drafts/informe-links-trencats.md`, `drafts/emails-usuaris.md`, `drafts/2026-09-18-codeberg-usuaris.md`: documentació/script de la recuperació d'àlbums i dels usuaris Codeberg (vegeu backlog).
+- **Pendent**: confirmar Python/Passenger al panell de Dinahosting i desplegar amb dates reals (1–15 des 2026), secrets reals (`secrets.token_urlsafe`) i `ssl=1`; confirmar AGPL-3.0 i crear el repo `9bi-apps`; moure el mòdul al repo nou.
+
 ## Tasques pendents (backlog curt)
 
 - **`content/contacte.md`**: afegir al formulari un camp nou "A quina entitat de Nou Barris pertanys o representes (opcionalment)" (input opcional, com `assumpte`).
@@ -385,7 +403,7 @@ sync-9bi.sh                        # script de sync/gestió
 - **Comentaris al web**: implementar un sistema de comentaris amb **fort control d'spam** (pendent d'escollir la solució/proveïdor).
 - **Compartir a xarxes**: botons per compartir fàcilment a **Instagram** i les xarxes que es portin ara (pendent).
 - **Tipografies**: **implementat (2026-09-18)** — cos **Montserrat** (woff2 400/700/800) + títols **Gillius ADF** (OTF 400/700), autoallotjades a `static/fonts/`, `@font-face` i overrides a `custom.css` (urls `../../fonts/…`) i `preload` a `extend_head.html`. **Sense cap CDN** (RGPD). Pendent opcional: convertir els OTF de Gillius a woff2.
-- **Votació popular per QR** (concurs): implementar l'app Python al servidor de LinuxBCN. **Servidor: linuxbcn.com (Dinahosting)**; preferència per Python amb **mínim de dependències** (venv; sense Docker, per decidir). 1 vot per obra i dispositiu, anònim, només QR presencial. (2026-09-18)
+- **Votació popular per QR** (concurs): **`modules/votacio/` (M1) fet i testejat (2026-09-19)** — app WSGI stdlib (0 deps en producció): `/v/<token>`, admin recompte/export/tancar, CSRF, rate-limit, geofencing off/soft/hard, i18n ca/es/en. **Decisions 2026-09-19**: geo **soft** (radi 500 m Casal Prospe), sense mòbil → **vot en paper** (`tally --paper`), `collect_data=none`, allotjament **Dinahosting compartit (Passenger)** primer (VPS Lite ~34 €/mes només si falla). **Pendent**: confirmar Python/Passenger al panell de Dinahosting → desplegar (1–15 des 2026, secrets reals, `ssl=1`); confirmar **AGPL-3.0** i repo `9bi-apps`. Vegeu la sessió 2026-09-19 (v1).
 
 - **Pestanyes a «Qui som»** (aplicat 2026-09-18): **4 pestanyes fetes** — Qui som (Història) · Com funcionem (Reunions + Com funcionem + subvencions) · Membres (`{{< membres >}}`) · Relacions (entitats + links amics) — amb el patró CSS pur del Concurs (radios `name="qsb-view"`, classes `.qsb-*` a `custom.css`). **Pendent: 5a pestanya «Història de la fotografia a Nou Barris»** (contingut de la recerca, sessió separada).
 - **Història de la fotografia a Nou Barris** (aprovat: incloure a la pestanya nova): genealogia ~1960–2026 amb 4 categories (A fotògrafs de Nou Barris · B que l'han documentat · C fotografia comunitària/de barri · D ecosistema Can Basté) i columna «per què és conegut?»; noms sense font es marquen «pendent de verificar».
@@ -422,3 +440,4 @@ sync-9bi.sh                        # script de sync/gestió
 - DNS / CNAME cap a Codeberg Pages (el lloc de producció serà 9barrisimatge.org).
 - Pàgina de privacitat creada (`/privacitat/`) però **amb placeholders de NIF/adreça pendents**; falta l'avís legal i la resta d'adequació RGPD (cookies, etc.).
 - Configuració SEO/IA per a tot el web (metadades, dades estructurades, etc.).
+- Suport Python/Passenger al panell de Dinahosting sense confirmar (per al desplegament de `modules/votacio/`).
