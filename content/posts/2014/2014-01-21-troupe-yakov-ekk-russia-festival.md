@@ -7,7 +7,6 @@ author: Manel Sala "Ulls" Circ
 slug: troupe-yakov-ekk-russia-festival
 tags:
 - circ
-- '2013'
 - ciu
 - foc
 cover:

@@ -5,7 +5,6 @@ year: 2011
 author: Joan "Linux" Martínez i Serres
 slug: presentacio-del-diari-de-festes-de
 tags:
-- '2011'
 - diari de festes
 - presentació
 - prospe

@@ -7,7 +7,6 @@ slug: pintada-grafiti-casal-14-05-2023
 tags:
 - pintada
 - CASAL
-- '2023'
 - casa
 - rafi
 cover:

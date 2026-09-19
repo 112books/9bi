@@ -8,7 +8,6 @@ tags:
 - circ raluy
 - Barcelona
 - circ
-- '2013'
 - bcn
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBcaL1t5vx668hzs1bgWj8HJ8GAOqV1-qA8jvUfWc6VW8VtqSEIGueTtj9vdhahk-ep821JTBmCjwFKG5d9FTOCDJ-uuydNj1mLfDzIOjwBUg229vlLf52eObgYvg7qALPfi1dwyHwx4Ym/s400/IMG_4011.jpg

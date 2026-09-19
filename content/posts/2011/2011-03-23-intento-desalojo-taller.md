@@ -7,7 +7,6 @@ slug: intento-desalojo-taller
 tags:
 - desallotjament
 - barri
-- '2011'
 - mar
 cover:
   image: https://lh6.googleusercontent.com/_f59X45195rk/TYpt8Ducd3E/AAAAAAAAD4I/zxotjT4dQFM/s160-c/2303201102.jpg

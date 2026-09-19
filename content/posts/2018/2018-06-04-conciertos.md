@@ -4,6 +4,8 @@ date: 2018-06-04T11:53:00+0200
 year: 2018
 author: Pedro Click
 slug: conciertos
+tags:
+- música
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEie-opynqOJ2eoKDDVZ2nUF5aIu8L5LTImg6jbxPzeXWSZHP9w0TpWCZcgSt54rujwbyvd3dgRrNguNE4Ec4wwzlwmKpxGfhAMOEkIJwyq9SE4wDOsCVuodzrxTQ7WnP9iWB7NACKOutrvG/s640/P1470094.jpg
 album_url: https://photos.google.com/share/AF1QipMkg82yEmjWUJY3fUNaZNk0abiQz7BueyFRAW_3SuRjHHMeX9w7Lp82AZEaoNLldg?key=U01PODdpbTdRRkowOHVIamJ0QU1vSHdhTDEwa1d3

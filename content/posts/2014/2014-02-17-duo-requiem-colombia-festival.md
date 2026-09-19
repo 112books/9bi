@@ -7,7 +7,6 @@ slug: duo-requiem-colombia-festival
 tags:
 - vídeo
 - circ
-- '2013'
 - ciu
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZJZa40FXBhw4-8vimmP5FwhJzr6xr-ZPTXyWu31NlyBQ6P9x1xuvcZARsxghsjR1dkVMgCTDLMKvErKBAztKIeE570HunhYqB8hxAYXyoK1uNE-KUzL4fftv_EIdTP3bPa8pqv3jKx_n0/s400/IMG_2215.jpg

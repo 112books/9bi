@@ -5,7 +5,6 @@ year: 2013
 author: Pedro Click
 slug: huesca-fiestas-de-san-lorenzo
 tags:
-- '2013'
 - enrique ponce
 - fiestas san lorenzo
 - huesca

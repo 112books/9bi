@@ -4,6 +4,8 @@ date: 2016-09-13T01:03:00+0200
 year: 2016
 author: 9 Barris Imatge
 slug: verdum-parcellat-expo-fotografica-al
+tags:
+- verdum
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJcVL2l87rchvlHl_k44tRzXkvgEKZJgyQxhAZK4PS82RH-ZHgCTFuF1yWz3LwBFjBWW_tKLhlZtsNwJpyU6IGv7_ty9QsUlzxrHy-Dbi66el2R0pDBI90g4MlztFvx2tdbC1tnsyQUQU/s400/P9120072.jpg
 album_url: https://goo.gl/photos/iuR7QGotoXqdRB3D7

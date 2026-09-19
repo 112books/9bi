@@ -8,7 +8,6 @@ slug: thu-hiep-hoang-vietnam-festival
 tags:
 - vídeo
 - circ
-- '2013'
 - ciu
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFFsizcpxrBqFsaOYWeFLqu3qxWXWqklHnnSO0xbl6dJU1i6-HJv94VpDDsAi1z3G_2bJVDieEn_AJAVDvj5LnAeGn20IIjpckW0gdB6BuC1oNhom2VknxGQrBCg6nyssnLaYPf7fJQQBs/s400/IMG_2362.jpg

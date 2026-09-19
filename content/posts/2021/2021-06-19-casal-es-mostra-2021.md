@@ -7,7 +7,6 @@ slug: casal-es-mostra-2021
 tags:
 - casal es mostra
 - CASAL
-- '2021'
 - casa
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjORmc0QN2DwDDYvr_IxVs_8ad1yZzPdgYJ0xGfKEfi3479eFAH73N56olW9vVlEnflo95JymQPzAQUOqMPyJqIQX3YkuFq2j2pX__WQ_ff7XqKBLv_JPC-iOh82e7Y9zIo-dkxVgnHBa9c/s600/P2250994.jpg

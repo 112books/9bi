@@ -7,7 +7,6 @@ slug: 24-festival-blues-bcn-2026-ubangi-stomp
 tags:
 - Festival blues
 - blues
-- '2026'
 - Bang
 - BLUE
 cover:

@@ -8,7 +8,6 @@ tags:
 - carnastoltes
 - nou barris
 - barri
-- '2026'
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsig85lBHNjx0IQmt2u-KwJPpr6S7N8IzjjhGAN5djIEbvaSOg13L90LeO9uHgFw2cQu5R3ZX82GE3ITZY55oprXdvHDx_2zHcoWjvG75OG2h3AymL9fDHM4sjcjx-C0mugaEuGXyZMLlH8LxVDN9tUKrSjsUlYf3bipASokfYb6XR62kYUConR3_QLQM/w640-h410/DSC_7984.jpg
 album_url: https://photos.app.goo.gl/s1319RLt5uTzb8t29

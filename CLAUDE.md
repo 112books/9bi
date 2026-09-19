@@ -389,9 +389,28 @@ sync-9bi.sh                        # script de sync/gestió
 - **`scripts/picasa_to_photos.py`** + `drafts/2026-09-18-pla-recuperacio-albums.md`, `drafts/informe-links-trencats.md`, `drafts/emails-usuaris.md`, `drafts/2026-09-18-codeberg-usuaris.md`: documentació/script de la recuperació d'àlbums i dels usuaris Codeberg (vegeu backlog).
 - **Pendent**: confirmar Python/Passenger al panell de Dinahosting i desplegar amb dates reals (1–15 des 2026), secrets reals (`secrets.token_urlsafe`) i `ssl=1`; confirmar AGPL-3.0 i crear el repo `9bi-apps`; moure el mòdul al repo nou.
 
+## Sessió 2026-09-19 (v2) — cura de tags aplicada i reconciliació amb la sessió de casa
+
+> La feina d'aquesta sessió (cura de tags, formulari, membres) s'havia fet sobre l'estructura **plana** antiga (`content/posts/*.md`) i va quedar sense commitejar. Mentrestant, una altra sessió (del 2026-09-18/19, des de casa) havia pujat a `main` tota la feina del CMS (posts en subcarpetes per any, camp `year`, rail, votació QR, «Santa Brava», …). Aquesta sessió ha **reconciliat** les dues línies: la cura es reaplica sobre l'estructura nova i es commiteja tot de nou.
+
+### Cura de tags — REAPLICADA sobre l'estructura nova (258 posts a `content/posts/<any>/`)
+
+- Mètode: es va salvar el treball del working tree a la branca `wip-cura-tags-plana` (commit `aeea1b18`), es va posar `main` a `origin/main` (c17741aa) i es van reaplicar les tags finals dels 258 fitxers des d'aquesta branca sobre els posts de l'estructura nova (preservant el camp `year` afegit per la sessió de casa i la resta del front matter).
+- **143 posts** amb l'any com a tag **trets** (regla: eliminar tags-any excepte `1972`, nom d'una banda). Verificat: **0 anys restants com a tag**; `1972` conservat (1 post).
+- **125 posts** sense tags (o només d'any) **curats** amb overrides confirmades: The Chanclettes → `ARTS ESCÈNIQUES` · SENYALS DE FUM (×2) → `música` + `Festa Major de la Prosperitat` · POR HAITI → `fotografia` + `solidaritat` · AntivirusProspe → `covid-19` + `solidaritat` · LLORENÇ FA 91 → `activisme` + `veïns`.
+- Els 10 posts curades amb el comentari `<!-- tags auto-generades…revisar -->` s'han quedat sense ell. La resta de posts amb el comentari (1.687) resten intactes.
+- **Formulari** (`content/contacte.md`): camp nou `entitat` (patró `assumpte`), entre `assumpte` i `missatge`.
+- **Membres** (`layouts/_shortcodes/membres.html`): sense `web` → enllaç «Posts al blog» a la pàgina `/author/<slug>.html` (abans «—»); activats i històrics.
+- Build local `hugo` **net** (verificat abans del commit).
+
+### Nota per sessions futures
+
+- La branca `wip-cura-tags-plana` es pot esborrar (ja integrada a `main`); si es manté, no esborrar fins a confirmar el commit de la sessió a `main`.
+
 ## Tasques pendents (backlog curt)
 
-- **`content/contacte.md`**: afegir al formulari un camp nou "A quina entitat de Nou Barris pertanys o representes (opcionalment)" (input opcional, com `assumpte`).
+- **Formulari (`content/contacte.md`)**: **fet (2026-09-19)** — camp nou `entitat` ("A quina entitat de Nou Barris pertanys o representes (opcionalment)", input opcional, patró `assumpte`), entre `assumpte` i `missatge`.
+- **Membres (`layouts/_shortcodes/membres.html`)**: **fet (2026-09-19)** — els membres sense `web` enllacen a «Posts al blog» (`/author/<slug>.html`) en lloc de «—».
 - **`content/privacitat.md`**: **fet (2026-09-18)** — adreça real (Casal de Barri de Prosperitat) i **sense NIF** (l'associació no en té); sense placeholders. (El correu ja hi és: info@9barrisimatge.org.)
 - **Peu / legal**: peu de **5 columnes** fet (logo · buida · «El web» · «Legal» · «9 Barris en números»). `avis-legal.md` i `privacitat.md` fets (2026-09-18). Pendent: contingut real d'`cookies.md` i la resta d'adequació RGPD.
 - **Auditoria de seguretat** (encarregada 2026-09-17, pendent).
@@ -399,7 +418,7 @@ sync-9bi.sh                        # script de sync/gestió
 - **Auditoria d'accessibilitat** (encarregada 2026-09-17, pendent).
 - **Auditoria de SEO i IA** (encarregada 2026-09-18): deixar el web **ben preparat per a motors de cerca i agents d'IA** (metadades, dades estructurades, sitemap/robots, OpenGraph, etc.).
 - **Document d'URLs de Blogger (SEO/redireccions)** (encarregat 2026-09-18): recull de **totes les URL actuals del blog Blogger** per comprovar que coincideixen amb les entrades actuals del web (l'estructura `/:year/:month/:slug.html` + `uglyURLs = true` ho preserva) o fer una **redirecció a la nova URL** — tema cercadors i SEO.
-- **`content/qui-som.md`** (secció «Membres»): **implementat (2026-09-18)** amb `{{< membres >}}` + **`data/membres/<slug>.yml`** (carpeta, amb `nom`/`malnom`/`actiu`) + `layouts/author/term.html` + col·lecció Decap «membres» **folder** amb camp ACTIU (vegeu la sessió v6). Pendent: enllaç de reserva al **perfil del bloc vell** («Els components de 9 barris imatge») per als membres sense web (ara mostren «—»), completar els **Instagram** que falten i marcar les baixes com a `actiu: false` (+ treure l'accés d'escriptura a Codeberg).
+- **`content/qui-som.md`** (secció «Membres»): **implementat (2026-09-18)** amb `{{< membres >}}` + **`data/membres/<slug>.yml`** (carpeta, amb `nom`/`malnom`/`actiu`) + `layouts/author/term.html` + col·lecció Decap «membres» **folder** amb camp ACTIU (vegeu la sessió v6). **2026-09-19 (v2)**: els membres sense `web` ja enllacen a «Posts al blog». Pendent: completar els **Instagram** que falten i marcar les baixes com a `actiu: false` (+ treure l'accés d'escriptura a Codeberg).
 - **Comentaris al web**: implementar un sistema de comentaris amb **fort control d'spam** (pendent d'escollir la solució/proveïdor).
 - **Compartir a xarxes**: botons per compartir fàcilment a **Instagram** i les xarxes que es portin ara (pendent).
 - **Tipografies**: **implementat (2026-09-18)** — cos **Montserrat** (woff2 400/700/800) + títols **Gillius ADF** (OTF 400/700), autoallotjades a `static/fonts/`, `@font-face` i overrides a `custom.css` (urls `../../fonts/…`) i `preload` a `extend_head.html`. **Sense cap CDN** (RGPD). Pendent opcional: convertir els OTF de Gillius a woff2.
@@ -407,7 +426,7 @@ sync-9bi.sh                        # script de sync/gestió
 
 - **Pestanyes a «Qui som»** (aplicat 2026-09-18): **4 pestanyes fetes** — Qui som (Història) · Com funcionem (Reunions + Com funcionem + subvencions) · Membres (`{{< membres >}}`) · Relacions (entitats + links amics) — amb el patró CSS pur del Concurs (radios `name="qsb-view"`, classes `.qsb-*` a `custom.css`). **Pendent: 5a pestanya «Història de la fotografia a Nou Barris»** (contingut de la recerca, sessió separada).
 - **Història de la fotografia a Nou Barris** (aprovat: incloure a la pestanya nova): genealogia ~1960–2026 amb 4 categories (A fotògrafs de Nou Barris · B que l'han documentat · C fotografia comunitària/de barri · D ecosistema Can Basté) i columna «per què és conegut?»; noms sense font es marquen «pendent de verificar».
-- **Núvol d'etiquetes a la Cerca** (`/search/`): **implementat (2026-09-18)**. La **depuració d'etiquetes** ja està **aplicada** (sessió v6); pendent de decisions editorials: **anys** com a tag i els **115 articles sense tag**.
+- **Núvol d'etiquetes a la Cerca** (`/search/`): **implementat (2026-09-18)**. La **depuració d'etiquetes** ja està **aplicada** (sessió v6). **2026-09-19 (v2)**: anys com a tag eliminats (excepte `1972`) i els **125 articles sense tag** curats — vegeu la sessió v2.
 - **Responsive header**: **fix fet i desplegat (2026-09-18)** — mides base de `.menu-icon`/`.menu-icon svg` fora del media query; icones a 17 px al mòbil.
 - **Footer «amb lògica»**: **implementat (2026-09-18)** — amplada igual a la del header (`--nav-width`) arreu; versió de telèfon: **Logo + «El web»** · **«Legal»** amb tots els links en una sola línia · **«9 Barris en números»** amb totes les dades en una sola línia.
 - **Concurs Cordoncillo (investigació pròpia)**: biografia de Cordoncillo, origen documentat (1990), cronologia i 35 anys de guanyadors; incidències de numeració a l'arxiu.

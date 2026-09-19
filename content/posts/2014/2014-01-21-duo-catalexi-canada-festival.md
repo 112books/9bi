@@ -7,7 +7,6 @@ slug: duo-catalexi-canada-festival
 tags:
 - vídeo
 - circ
-- '2013'
 - ciu
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZIZFmkXFr4_FAii509xRw7boWbk0TzkTLUXFXYX5XdwM7iQgOdTlYFPfGq6NJohyphenhyphendxXXEMfw6VB1cYXGf1pXcWRK_v0j5s3JYJRzWRi96S_ht8vpp-YgveLnV2iiqUV7aWPVtFl8xIIcU/s400/IMG_2663.jpg

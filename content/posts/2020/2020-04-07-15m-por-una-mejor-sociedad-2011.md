@@ -6,7 +6,6 @@ author: Pedro Click
 slug: 15m-por-una-mejor-sociedad-2011
 tags:
 - reflexió
-- '2011'
 - art
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuL6iTxMcxQk-H8QR1DDgw8AXyvhaaSPLNDLXhYQQsmxK81h_19sRZL3ElSQy3ZAyx3Uq2w5Nb6J7ai87w4iToYAxFZfnR5C3ANsU4aT3aWCtES5iXUqZ0TYfX6hUo680Ao2aq0bEQ7JDF/s640/DSC_8024.jpg

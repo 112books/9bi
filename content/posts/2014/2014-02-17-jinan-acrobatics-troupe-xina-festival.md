@@ -8,7 +8,6 @@ slug: jinan-acrobatics-troupe-xina-festival
 tags:
 - vídeo
 - circ
-- '2013'
 - xina
 - ciu
 cover:

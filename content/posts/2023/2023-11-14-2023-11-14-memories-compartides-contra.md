@@ -8,7 +8,6 @@ tags:
 - presentació
 - nou barris
 - barri
-- '2023'
 - art
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm2B5fbn4SP3my3Z1lQdnyYAH4ps1VubdcuuDt06dVKbWlqI-hux0LPSk8zm5Zyid55qGkRYIyxppPpXsAVchyF6vRmZruC7CQgjK0W2PoEb6mSUcwf-qO4Ezj9jd7vRuu0pfsVfjkHKlf_Zpmk7ayJpadYFucMIzG_YvLiHKTXE189KSSvTeb6v5btVM/w640-h360/L1370804.jpg

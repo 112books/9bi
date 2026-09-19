@@ -7,7 +7,6 @@ slug: trio-attar-russia-festival
 tags:
 - vídeo
 - circ
-- '2013'
 - ciu
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCMQf2ka4bMReBtxgrlQiPbE2ZuhwEAkve2oR9szos3YLges14wV0hpYmEjP3TUJW9vy6Che-jtts7oFf9UOlbsRvD_OhpUjq4MjZp9BUfbn8kGkZYdiJKhCUE1IJDstvycn6fOz672b_o/s400/IMG_1693.jpg

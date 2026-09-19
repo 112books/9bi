@@ -7,7 +7,6 @@ slug: saeta-i-bateig-san-xibeco-2013
 tags:
 - san xibeco
 - xibeco
-- '2013'
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

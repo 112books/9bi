@@ -8,7 +8,6 @@ tags:
 - rua carnaval
 - carnaval
 - dissabte
-- '2011'
 - mar
 cover:
   image: https://lh3.googleusercontent.com/_QA8WPYPDkx8/TXKWPeAbS4I/AAAAAAAAAmM/Hh9MLL88DWM/s400/DSC_0020.JPG

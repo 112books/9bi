@@ -8,7 +8,6 @@ tags:
 - Feria de Abril
 - prospe
 - CASAL
-- '2021'
 - casa
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5qmKtFTYACwQ8azyL6CQ1QWhx7eeKcycu2QAmKkhz070luHQfwR5wPOaYEXlHj6WffqNXYPrvPa2Qz5rM5L41MWJKOhpLzEYE60VzROAwC8iTJmhvmS2xSKZlW0yJ74EhVMjBhFcVf33p/s600/P2240744.jpg

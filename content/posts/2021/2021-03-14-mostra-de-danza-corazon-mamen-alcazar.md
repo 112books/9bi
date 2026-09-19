@@ -5,7 +5,6 @@ year: 2021
 author: Pedro Click
 slug: mostra-de-danza-corazon-mamen-alcazar
 tags:
-- '2021'
 - arte
 - cultura
 - danza

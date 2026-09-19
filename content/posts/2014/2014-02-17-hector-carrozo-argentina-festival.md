@@ -8,7 +8,6 @@ slug: hector-carrozo-argentina-festival
 tags:
 - vídeo
 - circ
-- '2013'
 - gent
 - ciu
 cover:

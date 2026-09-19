@@ -5,7 +5,6 @@ year: 2023
 author: Pedro Click
 slug: la-cultura-va-de-festa-2023
 tags:
-- '2023'
 - la cultura va de festa
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDVwh5W7DlBxCMq3NtIJ_4HORFV_invU9hjb1K6HF55hLUZJ4TTN_Df2ujqnulIthIqJ0_aYdqyJnxW6XKD4dxmodJdFhr5zXLecqZqqzACOzU2jhG9eaHQtDL7ziJ0Uw65EiTFLOiCBBURWZuc5pQD4I2ePMVClgtOS5cLPcwTKxr9TLPK1AJ8ptF/w640-h426/P2320880.jpg

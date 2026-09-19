@@ -5,7 +5,6 @@ year: 2013
 author: Joan "Linux" Martínez i Serres
 slug: festa-de-la-benvinguda-2013
 tags:
-- '2013'
 - casal barri prosperitat
 - festa de benvinguda
 cover:

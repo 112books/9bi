@@ -5,7 +5,6 @@ year: 2023
 author: Pedro Click
 slug: carnaval-noubarris-2023-noche
 tags:
-- '2023'
 - 9barris
 - Carnaval 2023
 - carnaval2023

@@ -5,7 +5,6 @@ year: 2021
 author: Pedro Click
 slug: exposicion-jo-pallasa
 tags:
-- '2021'
 - Circ exposició fotogràfica
 - cultura
 - desastrosus circus

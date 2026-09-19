@@ -6,7 +6,6 @@ author: Pedro "Casal" Cervera
 slug: sopes-cabrejades-2013
 tags:
 - sopes
-- '2013'
 - STA
 - món
 cover:

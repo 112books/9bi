@@ -7,7 +7,6 @@ slug: playback-ball-en-linia-i-xoricada-30-05
 tags:
 - Casal de la Gent Gran
 - CASAL
-- '2023'
 - ball
 - casa
 cover:

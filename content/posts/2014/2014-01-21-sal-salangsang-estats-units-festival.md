@@ -8,7 +8,6 @@ slug: sal-salangsang-estats-units-festival
 tags:
 - vídeo
 - circ
-- '2013'
 - STA
 - ciu
 cover:

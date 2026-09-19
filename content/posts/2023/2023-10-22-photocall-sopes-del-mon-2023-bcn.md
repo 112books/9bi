@@ -7,7 +7,6 @@ slug: photocall-sopes-del-mon-2023-bcn
 tags:
 - festival sopes
 - sopes
-- '2023'
 - bcn
 - món
 cover:

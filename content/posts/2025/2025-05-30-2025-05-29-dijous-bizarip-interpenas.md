@@ -5,7 +5,6 @@ year: 2025
 author: Joan "Linux" Martínez i Serres
 slug: 2025-05-29-dijous-bizarip-interpenas
 tags:
-- '2025'
 - Barcelona
 - barri de Prosperitat
 - BizaRip Interpenas

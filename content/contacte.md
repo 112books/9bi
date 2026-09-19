@@ -20,6 +20,8 @@ El formulari envia el missatge al correu de l'associació. Abans que funcioni pe
   <input id="email" type="email" name="email" required autocomplete="email">
   <label for="assumpte">Assumpte (opcional)</label>
   <input id="assumpte" type="text" name="assumpte">
+  <label for="entitat">A quina entitat de Nou Barris pertanys o representes (opcionalment)</label>
+  <input id="entitat" type="text" name="entitat">
   <label for="missatge">Missatge</label>
   <textarea id="missatge" name="missatge" required></textarea>
   <div class="contact-consent">

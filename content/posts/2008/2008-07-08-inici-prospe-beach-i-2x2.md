@@ -5,7 +5,6 @@ year: 2008
 author: Pedro "Casal" Cervera
 slug: inici-prospe-beach-i-2x2
 tags:
-- '2008'
 - 2x2
 - beach
 - Casal de barri Prosperitat

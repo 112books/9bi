@@ -8,7 +8,6 @@ tags:
 - Karaoke Band
 - karaoke
 - FESTA
-- '2013'
 - STA
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1HGLynx64DVQ8BBa0tUTXM2p9Lx_2aRpQRZI9CNlkKCDqFfsJq-0zMRl5i46wMAhP4wMdQ72ebWRqnGtdqAmC-3dWkZjKJDXKY5AUttasTzbiN4tJkMMlxiuRcZFEX7BpLxzTBlSQLHU/s400/DSC_6056.jpg

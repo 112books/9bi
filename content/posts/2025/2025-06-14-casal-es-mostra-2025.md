@@ -7,7 +7,6 @@ slug: casal-es-mostra-2025
 tags:
 - casal es mostra
 - CASAL
-- '2025'
 - casa
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMGE4W2ODh7JgwzevAtpqbLIzEe5b5T5Mzru7msyBVAcr1TM9UefHxHjw4WKJuawWLg1q_6Tw1ZxMhhxXJc-NsCSlYaSkkHp45gm_2fSLGfwFiN41LLRYPDw4C2gA8kxbgUupEbDjfl9Xd8ciHekA-KU98c4reO33LB-J8eB2pZNBVnQzfulb0Xk31B8M/w640-h426/DSC_0024.jpg

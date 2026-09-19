@@ -5,7 +5,6 @@ year: 2026
 author: Joan "Linux" Martínez i Serres
 slug: 2026-01-10-vermutsical-amb-pura-bidasoa
 tags:
-- '2026'
 - candombe
 - Casal de la Prosperitat
 - chacarera

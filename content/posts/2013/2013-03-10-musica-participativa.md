@@ -7,7 +7,6 @@ slug: musica-participativa
 tags:
 - música participativa
 - música
-- '2013'
 - art
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrm3iqK8ZrrqXBeb2blU8c11JQfK9_sugNtMwrOEh7ccnQUgvR3sqLUEnydcq6yL36XKxQYuHoJmDvDHMCl665PjaU_G9Xx4ljrMpXkO5uqWj8mMQJzm62F4Oxkj8e9qkQOWmsEXyu98U/s400/PGF_4648.jpg

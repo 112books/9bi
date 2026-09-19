@@ -8,7 +8,6 @@ tags:
 - festa de la benvinguda
 - dissabte
 - FESTA
-- '2013'
 - STA
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYmRhPrSHgF7ws7QfOfsAKzzYW9PtFEEiHM_G0wAonb0lY2RE0SCATttIpgmAnFb_YPIVP-BIIk7UtRKSDZyX8v_G8aeVGDEQkPpqey0wE1uMjVhIrf82zGihRNDYJk7FPWquf4noV5FY/s400/_MG_1310.jpg

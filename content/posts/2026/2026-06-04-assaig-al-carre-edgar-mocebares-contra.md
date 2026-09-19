@@ -8,7 +8,6 @@ tags:
 - assaig al carrer
 - Mocebares
 - música
-- '2026'
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghVX2_IqYdgi29YWWa-_zq7zsXytS2fj-3L5H0rGyOd34989tU1Fccj_W4t3C_CzENcgO6czISR4MvmP8ktcJNQHOC8XSlHp6sEvkg2Vcu8CcxOQ07mwCMgMDFqxIQW6RmqKMrhlUIA0wMkWveuvU6H9Yqrcaft24WZDchP16ALYCfRkSQcP1tptYwMV0/w640-h426/DSC_6400.jpg
 album_url: https://photos.app.goo.gl/RU11A6Hi1i33JCTs8

@@ -8,7 +8,6 @@ slug: duo-funckoholics-russia-festival
 tags:
 - vídeo
 - circ
-- '2013'
 - ciu
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUSurZFmr2VTTJiYvG1-Nj__0Mz9UGwMRUG1cqnmUS-jLQdGA5QIw5biNc5MxV6SCVx2Jvr7O8jy7T6CsxeZrjJKY2j_H3tackXKBL7EzenQrFWQUlMFNEVtlJcQIvkpEUlwILKoKPAXMX/s400/IMG_2538.jpg

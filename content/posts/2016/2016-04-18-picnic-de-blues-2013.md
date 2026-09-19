@@ -6,7 +6,6 @@ author: Francesc Barbe
 slug: picnic-de-blues-2013
 tags:
 - blues
-- '2013'
 - BLUE
 cover:
   image: https://farm8.staticflickr.com/7323/8736090348_e1df9bc6f2.jpg

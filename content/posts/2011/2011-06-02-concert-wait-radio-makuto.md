@@ -7,7 +7,6 @@ slug: concert-wait-radio-makuto
 tags:
 - concert
 - radio
-- '2011'
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJEVSRSYSQpfCOgXwN9LPTF7rnAC2d4cKkAbNJq1_LFf3GogsVxsfBjTcAJiUsxZpdHrk6qpjV0pjpbe3r7rAey-29yapoG6vt3bzCkeZp23G6DTfOhWgAyswtejKhSN0wxK1ee-qGttE/s400/DSC_0017.JPG
 album_url: https://picasaweb.google.com/104199960646572363843/ConcertTheWaitRadioMakuto?feat=embedwebsite

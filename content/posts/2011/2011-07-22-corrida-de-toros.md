@@ -6,7 +6,6 @@ author: Pedro Click
 slug: corrida-de-toros
 tags:
 - fotos
-- '2011'
 - vent
 - STA
 cover:

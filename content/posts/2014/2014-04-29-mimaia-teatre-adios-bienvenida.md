@@ -9,7 +9,6 @@ tags:
 - teatre
 - prospe
 - CASAL
-- '2013'
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2DbUjfl3BZShVO5OHmgsAC5mK0F0JhnOulOBpBg5V2qmzBN5Qgv6oJuC2q-JPsqxrdSbx3ZrwMvz6sZ65Q94FO-KNdWiTxhcC1zqbqgIUlYH5gI5E9XYt0QxEystZxVVqS7_s7hLLlruE/s400/IMG_2137.jpg
 album_url: https://picasaweb.google.com/100268695753733554853/MimaiaTeatreADIOSBIENVENIDA?authuser=0&amp;feat=embedwebsite

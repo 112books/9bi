@@ -9,7 +9,6 @@ tags:
 - assaig al carrer
 - Morosito
 - blues
-- '2026'
 - BLUE
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDQa5G4VdR-pTTmEBwVb6JONQ3TX495s2P3Zg79L2Weaq_Nr7aUqUX0s0JWdm9Nox9jVnXsvaraBo9pKI7Og4pAOIMio8wFzQr1gZK9jrFFbW79XPu3atNvRtxPr3-ZgO3rxCxI99bWfU8LmtPRMdYuznQVwfenr6U6BCOxF0ZHoYOLwcj0MxOnYBE3ck/w640-h426/DSC_6768-2.jpg

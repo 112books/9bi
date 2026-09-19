@@ -7,7 +7,6 @@ slug: 2023-10-12-concert-res-celebrar
 tags:
 - concert
 - CASAL
-- '2023'
 - punk
 - casa
 cover:

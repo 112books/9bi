@@ -8,7 +8,6 @@ slug: angel-amieva-figueres-circus-stars
 tags:
 - clown
 - circ
-- '2013'
 - STA
 - ciu
 cover:

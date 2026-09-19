@@ -10,7 +10,6 @@ tags:
 - Blues Barcelona
 - Barcelona
 - blues
-- '2026'
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFCxL1WiBhID26CilXvoBqq-aTlD8tjd9BT9C7jz_W_e07TUIlFx1AHr2QM_HSW5tgVYcu2SVVobtUqMLQqA0fTZHh9LW3l7z04_uWTtuKcxBwgdR0_XR8qhFjwPRjNr886V6szq86eWq2AZdIirtECkrYghKdkrwqsyFmFEL4mjrPZXJd7ynaYhYTr8U/w640-h426/PGF_0103.jpg
 album_url: https://photos.app.goo.gl/1S5wtP1UNRhFL9Tq6

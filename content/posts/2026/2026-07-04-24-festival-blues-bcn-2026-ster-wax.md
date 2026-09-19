@@ -8,7 +8,6 @@ slug: 24-festival-blues-bcn-2026-ster-wax
 tags:
 - Festival blues
 - blues
-- '2026'
 - BLUE
 - bcn
 cover:
