@@ -2,7 +2,7 @@
 #   config/development/hugo.toml -> local (hugo server)
 #   config/staging/hugo.toml     -> Codeberg Pages de desenvolupament
 #   config/production/hugo.toml  -> domini definitiu (9barrisimatge.org)
-title = "9 Barris Imatge"
+title = "Col·lectiu fotogràfic 9 Barris Imatge"
 theme = "PaperMod"
 locale = "ca"
 defaultContentLanguage = "ca"
@@ -92,15 +92,20 @@ uglyURLs = true
     url = "/concurs/"
     weight = 4
   [[menu.main]]
+    identifier = "faq"
+    name = "FAQ"
+    url = "/credits/#preguntes-freqüents-sobre-les-imatges"
+    weight = 5
+  [[menu.main]]
     identifier = "search"
     name = "Cerca"
     url = "/search/"
-    weight = 5
+    weight = 6
   [[menu.main]]
     identifier = "contacte"
     name = "Contacte"
     url = "/contacte/"
-    weight = 6
+    weight = 7
 
 [[menu.footer]]
     identifier = "archive"
