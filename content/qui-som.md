@@ -30,7 +30,7 @@ url: "/qui-som/"
 <p><img src="{{< rel "/images/reunións-dojous-L1420055-1024x576.jpg" >}}" alt="Reunió de dijous de 9 Barris Imatge" loading="lazy" decoding="async"></p>
 <p>Ho fem els dijous per ser el dia de les minyones i perquè les nostres amigues <a href="https://www.instagram.com/rudascooperativa/">Las Rudas</a> fan el pintxo i la tapa i nosaltres celebrem el que anomenem «Dojous Calents», si vens ho entendràs ;)</p>
 <h2>Santa Brava</h2>
-<p><img src="{{< rel "/images/santa-brava.png" >}}" alt="Santa Brava" loading="lazy" decoding="async"></p>
+<p><img class="santa-brava-logo" src="{{< rel "/images/santa-brava.png" >}}" alt="Santa Brava" loading="lazy" decoding="async" style="width:40%;margin-left:auto;display:block"></p>
 <p>Aquesta festivitat, totalment pagana i sense subvenció de cap secta, fa homenatge al picant en qualsevol de les seves varietats. Aquest element és el que ens uneix a tot el grup i cada membre intenta portar salses noves fetes per un mateix o comprades a indrets exòtics.</p>
 <h2>Com funcionem</h2>
 <p>9 Barris Imatge funciona amb la feina voluntària dels seus membres. Les poques ajudes econòmiques que tenim serveixen per comprar material (flaixos, trípodes, etc.) i poc més. Ens mou la participació real i ser part de la vida associativa del barri.</p>
