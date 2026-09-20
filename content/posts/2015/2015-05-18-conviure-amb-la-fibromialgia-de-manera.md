@@ -2,7 +2,7 @@
 title: CONVIURE AMB LA FIBROMIALGIA DE MANERA POSITIVA !!!
 date: 2015-05-18T01:02:00+0200
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: conviure-amb-la-fibromialgia-de-manera
 tags:
 - xarxa d'intercanvi

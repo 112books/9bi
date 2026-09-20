@@ -2,7 +2,7 @@
 title: Saphie Wells & The Swing Cats - Divendres
 date: 2014-11-09T13:21:00+0100
 year: 2014
-author: 9 Barris Imatge
+author: Ivan
 slug: saphie-wells-swing-cats-divendres
 tags:
 - ateneu popular 9 barris

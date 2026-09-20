@@ -2,7 +2,7 @@
 title: Festes del Barri - Dimecres concert!
 date: 2010-06-03T00:56:00+0200
 year: 2010
-author: 9 Barris Imatge
+author: Dani González
 slug: festes-del-barri-dimecres-concert
 tags:
 - Casal de Joves

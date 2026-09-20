@@ -2,7 +2,7 @@
 title: Combo Sen Noma al TiG
 date: 2017-04-01T19:35:00+0200
 year: 2017
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: combo-sen-noma-al-tig
 tags:
 - Centre Ton i Guida

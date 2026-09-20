@@ -2,7 +2,7 @@
 title: Plaça Pla de Fornells, nova plaça a Roquetes - Trinitat Nova.
 date: 2019-06-28T23:51:00+0200
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: nova-placa-roquetes-trinitat-nova
 tags:
 - ATENEU POPULAR DE 9 BARRIS

@@ -2,7 +2,7 @@
 title: 'Ruta històrica al cementiri de St Andreu. '
 date: 2019-10-14T01:09:00+0200
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: ruta-historica-al-cementiri-de-st-andreu
 tags:
 - nou barris

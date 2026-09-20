@@ -2,7 +2,7 @@
 title: Xarnecs Primasa
 date: 2012-06-02T19:46:00+0200
 year: 2012
-author: 9 Barris Imatge
+author: pecalatrava
 slug: xarnecs-primasa
 tags:
 - Festa major de prospe

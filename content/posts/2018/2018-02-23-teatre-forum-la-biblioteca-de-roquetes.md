@@ -2,7 +2,7 @@
 title: Teatre Fòrum a la Biblioteca de Roquetes !!!
 date: 2018-02-23T00:32:00+0100
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: teatre-forum-la-biblioteca-de-roquetes
 tags:
 - presentació

@@ -2,7 +2,7 @@
 title: 23a Fira pel Dia de La Terra .
 date: 2018-04-29T20:29:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: 23a-fira-pel-dia-de-la-terra
 tags:
 - Parc Central de Nou Barris

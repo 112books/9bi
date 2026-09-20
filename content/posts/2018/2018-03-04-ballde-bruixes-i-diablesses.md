@@ -2,7 +2,7 @@
 title: Ball de Bruixes i Diablesses !!!
 date: 2018-03-04T21:53:00+0100
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: ballde-bruixes-i-diablesses
 tags:
 - reivindicativa

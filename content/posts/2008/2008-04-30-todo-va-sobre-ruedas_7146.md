@@ -2,7 +2,7 @@
 title: Todo va sobre ruedas
 date: 2008-04-30T13:28:00+0200
 year: 2008
-author: 9 Barris Imatge
+author: petxina
 slug: todo-va-sobre-ruedas_7146
 tags:
 - monociclos

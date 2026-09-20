@@ -2,7 +2,7 @@
 title: Africa al Formentera !!!
 date: 2019-04-06T21:08:00+0200
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: africa-al-formentera
 tags:
 - fotografies

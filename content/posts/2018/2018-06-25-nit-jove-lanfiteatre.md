@@ -2,7 +2,7 @@
 title: Nit jove a l'Anfiteatre.
 date: 2018-06-25T19:24:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: nit-jove-lanfiteatre
 tags:
 - roquetes

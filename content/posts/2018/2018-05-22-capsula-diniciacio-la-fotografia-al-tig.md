@@ -2,7 +2,7 @@
 title: Càpsula d'iniciació a la fotografia al TIG.
 date: 2018-05-22T01:02:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: capsula-diniciacio-la-fotografia-al-tig
 tags:
 - Zoom Roquetes

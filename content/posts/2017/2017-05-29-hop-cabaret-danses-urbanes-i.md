@@ -2,7 +2,7 @@
 title: 'Hop Cabaret : Danses urbanes i contemporànies'
 date: 2017-05-29T01:06:00+0200
 year: 2017
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: hop-cabaret-danses-urbanes-i
 tags:
 - casal del barri

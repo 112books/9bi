@@ -2,7 +2,7 @@
 title: 'Eclipse Teatro : La Buena suerte.'
 date: 2018-06-03T23:39:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: eclipse-teatro-la-buena-suerte
 tags:
 - Ateneu Popular de Nou Barris

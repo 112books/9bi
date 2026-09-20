@@ -2,7 +2,7 @@
 title: Castanyada i teatre al TiG !!!
 date: 2016-10-29T22:40:00+0200
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: castanyada-i-teatre-al-tig
 tags:
 - Centre Ton i Guida

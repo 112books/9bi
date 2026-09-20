@@ -2,7 +2,7 @@
 title: PER UNA SANITAT 100 x 100 PÚBLICA , junts ho aconseguirem !!!
 date: 2015-05-17T18:46:00+0200
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: la-vall-dhebron-encadenada-per-tercera
 tags:
 - cadena humana

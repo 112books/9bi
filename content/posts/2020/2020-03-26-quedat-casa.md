@@ -2,7 +2,7 @@
 title: Quedat a casa !!!
 date: 2020-03-26T20:07:00+0100
 year: 2020
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: quedat-casa
 tags:
 - la prosperitat

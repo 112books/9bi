@@ -2,7 +2,7 @@
 title: PRIMER FOTO WALK DEL GRUP FOTO ROQUETES !!!
 date: 2014-11-17T22:19:00+0100
 year: 2014
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: primer-foto-walk-del-grup-foto-roquetes
 tags:
 - grup foto roquetes

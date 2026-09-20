@@ -2,7 +2,7 @@
 title: Associació Animalista RESCAT al Ton i Guida.
 date: 2019-01-17T18:31:00+0100
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: associacio-animalista-rescat-al-ton-i
 tags:
 - nou barris

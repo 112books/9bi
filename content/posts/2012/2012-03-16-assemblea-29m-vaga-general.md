@@ -2,7 +2,7 @@
 title: Assemblea 29M Vaga General!
 date: 2012-03-16T00:27:00+0100
 year: 2012
-author: 9 Barris Imatge
+author: Dani González
 slug: assemblea-29m-vaga-general
 tags:
 - Vaga General 2012

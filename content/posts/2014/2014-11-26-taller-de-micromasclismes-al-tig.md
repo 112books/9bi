@@ -2,7 +2,7 @@
 title: Taller de micromasclismes al TIG.
 date: 2014-11-26T00:08:00+0100
 year: 2014
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: taller-de-micromasclismes-al-tig
 tags:
 - activitats

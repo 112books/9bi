@@ -2,7 +2,7 @@
 title: Feria de la Tapa Tast BCN  2013
 date: 2013-09-27T01:22:00+0200
 year: 2013
-author: 9 Barris Imatge
+author: A.Sedano
 slug: feria-de-la-tapa-tast-bcn-2013
 tags:
 - bcn

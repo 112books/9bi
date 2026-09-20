@@ -2,7 +2,7 @@
 title: Jocs pels nens a la FMNB.
 date: 2018-05-29T22:24:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: jocs-pels-nens-la-fmnb
 tags:
 - festa major

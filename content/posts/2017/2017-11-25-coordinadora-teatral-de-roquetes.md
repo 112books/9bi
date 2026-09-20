@@ -2,7 +2,7 @@
 title: Coordinadora Teatral de Roquetes.
 date: 2017-11-25T20:49:00+0100
 year: 2017
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: coordinadora-teatral-de-roquetes
 tags:
 - Centre Ton i Guida

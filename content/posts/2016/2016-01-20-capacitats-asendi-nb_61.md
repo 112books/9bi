@@ -2,7 +2,7 @@
 title: Capacitats. ASENDI NB.
 date: 2016-01-20T22:01:00+0100
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: capacitats-asendi-nb_61
 tags:
 - exposició fotogràfica

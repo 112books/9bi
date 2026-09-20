@@ -2,7 +2,7 @@
 title: GEGANTS AL BARRI !!!
 date: 2014-05-21T23:38:00+0200
 year: 2014
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: gegants-al-barri
 tags:
 - nou barris

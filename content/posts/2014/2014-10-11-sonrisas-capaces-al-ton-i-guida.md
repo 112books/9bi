@@ -2,7 +2,7 @@
 title: SONRISAS CAPACES AL TON I GUIDA !!!
 date: 2014-10-11T00:23:00+0200
 year: 2014
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: sonrisas-capaces-al-ton-i-guida
 tags:
 - prospe capaç

@@ -2,7 +2,7 @@
 title: Plaça Àngel Pestanya, l'epicentre de la festa !!!
 date: 2017-05-28T02:09:00+0200
 year: 2017
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: placa-angel-pestanya-lepicentre-de-la
 tags:
 - superbebientes

@@ -2,7 +2,7 @@
 title: Eshate un cantesito, abril
 date: 2014-04-26T13:38:00+0200
 year: 2014
-author: 9 Barris Imatge
+author: sandra
 slug: eshate-un-cantesito-abril
 tags:
 - cante

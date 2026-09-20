@@ -2,7 +2,7 @@
 title: ROJO CANCIONERO Y BANDERAS ROTAS
 date: 2012-03-31T01:52:00+0200
 year: 2012
-author: 9 Barris Imatge
+author: A.Sedano
 slug: rojo-cancionero-y-banderas-rotas
 tags:
 - casal de barri

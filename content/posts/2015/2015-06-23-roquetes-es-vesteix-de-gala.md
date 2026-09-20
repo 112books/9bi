@@ -2,7 +2,7 @@
 title: ROQUETES ES VESTEIX DE GALA !!!
 date: 2015-06-23T21:57:00+0200
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: roquetes-es-vesteix-de-gala
 tags:
 - desastrosus circus

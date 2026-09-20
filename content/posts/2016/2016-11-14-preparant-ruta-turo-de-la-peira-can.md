@@ -2,7 +2,7 @@
 title: 'Preparant ruta : Turó de la Peira - Can Peguera.'
 date: 2016-11-14T21:57:00+0100
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: preparant-ruta-turo-de-la-peira-can
 tags:
 - ruta

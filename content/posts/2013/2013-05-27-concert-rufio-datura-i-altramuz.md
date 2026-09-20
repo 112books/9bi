@@ -2,7 +2,7 @@
 title: Concert Rufio d'atura i Altramuz
 date: 2013-05-27T19:59:00+0200
 year: 2013
-author: 9 Barris Imatge
+author: Guillem
 slug: concert-rufio-datura-i-altramuz
 tags:
 - altramuz

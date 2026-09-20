@@ -2,7 +2,7 @@
 title: Bon cop de truita a Roquetes !!!
 date: 2017-02-24T00:01:00+0100
 year: 2017
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: bon-cop-de-truita-roquetes
 tags:
 - Centre Ton i Guida

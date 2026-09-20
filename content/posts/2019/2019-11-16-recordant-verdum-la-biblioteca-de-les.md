@@ -2,7 +2,7 @@
 title: Recordant Verdum a la Biblioteca de Les Roquetes.
 date: 2019-11-16T20:15:00+0100
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: recordant-verdum-la-biblioteca-de-les
 tags:
 - solidaritat

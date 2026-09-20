@@ -2,7 +2,7 @@
 title: Celebració dels 50 anys de la Parròquia Sta Mª Magdalena a Roquetes.
 date: 2016-11-04T00:26:00+0100
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: celebracio-dels-50-anys-de-la-parroquia_3
 tags:
 - ATENEU POPULAR DE 9 BARRIS

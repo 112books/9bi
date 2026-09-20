@@ -2,7 +2,7 @@
 title: Passejada per la història de Roquetes.
 date: 2016-10-11T17:22:00+0200
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: passejada-per-la-historia-de-roquetes
 tags:
 - grup foto roquetes

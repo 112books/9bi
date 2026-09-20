@@ -2,7 +2,7 @@
 title: '" Lorca eran todos " de Pepe Rubianes al Ton i Guida.'
 date: 2016-06-14T16:56:00+0200
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: lorca-eran-todos-de-pepe-rubianes-al_14
 tags:
 - garcia lorca

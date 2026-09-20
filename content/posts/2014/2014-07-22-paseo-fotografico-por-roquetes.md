@@ -2,7 +2,7 @@
 title: PASEO FOTOGRÁFICO POR ROQUETES !!!
 date: 2014-07-22T21:14:00+0200
 year: 2014
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: paseo-fotografico-por-roquetes
 tags:
 - Zoom Roquetes

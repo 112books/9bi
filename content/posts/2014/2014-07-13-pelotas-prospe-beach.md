@@ -2,7 +2,7 @@
 title: PELOTAS A PROSPE BEACH !!!
 date: 2014-07-13T14:46:00+0200
 year: 2014
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: pelotas-prospe-beach
 tags:
 - Prospe Beach

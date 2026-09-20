@@ -2,7 +2,7 @@
 title: Feria d'Abril 9 Barris 2010
 date: 2010-05-05T21:54:00+0200
 year: 2010
-author: 9 Barris Imatge
+author: sandra
 slug: feria-dabril-9-barris-2010
 tags:
 - Feria de Abril

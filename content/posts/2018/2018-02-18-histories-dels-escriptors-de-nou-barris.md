@@ -2,7 +2,7 @@
 title: Històries dels escriptors de Nou Barris.
 date: 2018-02-18T19:37:00+0100
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: histories-dels-escriptors-de-nou-barris
 tags:
 - nou barris

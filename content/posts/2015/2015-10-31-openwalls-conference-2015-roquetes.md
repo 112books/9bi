@@ -2,7 +2,7 @@
 title: Openwalls Conference 2015 a Roquetes !!!
 date: 2015-10-31T19:15:00+0100
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: openwalls-conference-2015-roquetes
 tags:
 - Barcelona

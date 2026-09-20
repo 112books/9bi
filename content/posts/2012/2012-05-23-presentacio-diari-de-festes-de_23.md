@@ -2,7 +2,7 @@
 title: Presentació diari Festes de Prosperitat 2012
 date: 2012-05-23T14:30:00+0200
 year: 2012
-author: 9 Barris Imatge
+author: Guillem
 slug: presentacio-diari-de-festes-de_23
 tags:
 - Festes de prosperitat

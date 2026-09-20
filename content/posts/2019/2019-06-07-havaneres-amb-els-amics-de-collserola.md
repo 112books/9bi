@@ -2,7 +2,7 @@
 title: Havaneres amb "Els Amics de Collserola"
 date: 2019-06-07T00:45:00+0200
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: havaneres-amb-els-amics-de-collserola
 tags:
 - collserola

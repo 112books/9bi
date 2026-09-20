@@ -2,7 +2,7 @@
 title: FINS AL 31 DE GENER ENTRADA GRATIS AL MUSEU DEL DISSENY !!!
 date: 2014-12-17T00:12:00+0100
 year: 2014
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: fins-al-31-de-gener-entrada-gratis-al
 tags:
 - Barcelona

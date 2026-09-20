@@ -2,7 +2,7 @@
 title: Guateque Puretas
 date: 2012-06-02T19:36:00+0200
 year: 2012
-author: 9 Barris Imatge
+author: pecalatrava
 slug: guateque-puretas
 tags:
 - Festes de prosperitat

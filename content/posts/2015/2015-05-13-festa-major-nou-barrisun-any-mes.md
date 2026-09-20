@@ -2,7 +2,7 @@
 title: COMENÇA LA FESTA MAJOR A NOU BARRIS 2015 !!!
 date: 2015-05-13T22:46:00+0200
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: festa-major-nou-barrisun-any-mes
 tags:
 - festa major

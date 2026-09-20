@@ -2,7 +2,7 @@
 title: AVIAT LES FETES DE " LA PROSPE " !!!
 date: 2014-05-19T13:20:00+0200
 year: 2014
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: aviat-les-fetes-de-la-prospe
 tags:
 - prospe

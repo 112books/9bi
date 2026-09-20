@@ -2,7 +2,7 @@
 title: Zoom Roquetes en los comercios del barrio !!!
 date: 2017-07-12T20:56:00+0200
 year: 2017
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: zoom-roquetes-en-los-comercios-del
 tags:
 - Centre Ton i Guida

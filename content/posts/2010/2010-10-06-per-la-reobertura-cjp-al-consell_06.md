@@ -2,7 +2,7 @@
 title: Per la reobertura CJP al Consell plenari de Nou Barris
 date: 2010-10-06T10:45:00+0200
 year: 2010
-author: 9 Barris Imatge
+author: Joan "Linux" Martínez i Serres
 slug: per-la-reobertura-cjp-al-consell_06
 tags:
 - Casal de Joves

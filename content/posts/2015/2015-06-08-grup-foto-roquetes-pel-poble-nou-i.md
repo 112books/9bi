@@ -2,7 +2,7 @@
 title: GRUP FOTO ROQUETES AL POBLE NOU I ...ESPERANT A LA LLUNA !!!
 date: 2015-06-08T17:49:00+0200
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: grup-foto-roquetes-pel-poble-nou-i
 tags:
 - grup foto roquetes

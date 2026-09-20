@@ -2,7 +2,7 @@
 title: On persones grans troben grans persones.
 date: 2016-02-18T22:24:00+0100
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: on-persones-grans-troben-grans-persones
 tags:
 - Centre Ton i Guida

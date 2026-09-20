@@ -2,7 +2,7 @@
 title: Concurs Zoom Roquetes .Natura i medi ambient.
 date: 2019-05-14T20:30:00+0200
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: concurs-zoom-roquetes-natura-i-medi
 tags:
 - Zoom Roquetes

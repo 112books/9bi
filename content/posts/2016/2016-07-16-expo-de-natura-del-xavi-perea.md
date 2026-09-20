@@ -2,7 +2,7 @@
 title: Expo de natura del Xavi Perea.
 date: 2016-07-16T17:07:00+0200
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: expo-de-natura-del-xavi-perea
 tags:
 - Centre Ton i Guida

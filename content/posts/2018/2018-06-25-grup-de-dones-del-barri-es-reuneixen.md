@@ -2,7 +2,7 @@
 title: 'Food Week '
 date: 2018-06-25T19:19:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: grup-de-dones-del-barri-es-reuneixen
 tags:
 - barri

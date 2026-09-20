@@ -2,7 +2,7 @@
 title: Assemblea desafectació de Can Peguera
 date: 2014-12-05T10:00:00+0100
 year: 2014
-author: 9 Barris Imatge
+author: Ivan
 slug: assemblea-desafectacio-de-can-peguera
 tags:
 - Can Peguera

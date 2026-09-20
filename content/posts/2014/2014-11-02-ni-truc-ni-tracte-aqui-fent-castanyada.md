@@ -2,7 +2,7 @@
 title: Ni truc, ni tracte, aquí fent castanyada !!!
 date: 2014-11-02T14:07:00+0100
 year: 2014
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: ni-truc-ni-tracte-aqui-fent-castanyada
 tags:
 - Centre Ton i Guida

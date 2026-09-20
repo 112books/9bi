@@ -2,7 +2,7 @@
 title: Inauguració expos a Can Basté.
 date: 2018-05-01T22:33:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: inauguracio-expos-can-baste
 tags:
 - can basté

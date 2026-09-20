@@ -2,7 +2,7 @@
 title: Salvem "Date una huerta" !!!
 date: 2020-01-31T15:08:00+0100
 year: 2020
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: salvem-date-una-huerta
 tags:
 - date una huerta

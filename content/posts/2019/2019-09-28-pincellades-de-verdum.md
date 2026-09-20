@@ -2,7 +2,7 @@
 title: Pincellades de Verdum.
 date: 2019-09-28T21:24:00+0200
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: pincellades-de-verdum
 tags:
 - nou barris

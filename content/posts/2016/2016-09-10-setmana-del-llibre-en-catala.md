@@ -2,7 +2,7 @@
 title: Setmana del llibre en català.
 date: 2016-09-10T21:18:00+0200
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: setmana-del-llibre-en-catala
 tags:
 - literatura

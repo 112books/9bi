@@ -2,7 +2,7 @@
 title: JA ESTEM DE FESTA !!!
 date: 2014-05-25T00:39:00+0200
 year: 2014
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: ja-estem-de-festa
 tags:
 - festa major

@@ -2,7 +2,7 @@
 title: La Neus Català, una supervivent .
 date: 2016-03-12T23:28:00+0100
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: la-neus-catala-una-supervivent
 tags:
 - Casal de Joves

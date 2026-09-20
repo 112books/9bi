@@ -2,7 +2,7 @@
 title: Dijous Band al Casal de Barri
 date: 2010-11-08T13:35:00+0100
 year: 2010
-author: 9 Barris Imatge
+author: A.Sedano
 slug: dijous-band-al-casal-de-barri
 tags:
 - casal de barri

@@ -2,7 +2,7 @@
 title: Bunker a Collserola - Nou Barris.
 date: 2018-07-01T18:53:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: bunker-collserola-nou-barris
 tags:
 - trinitat nova

@@ -2,7 +2,7 @@
 title: Club de Lectura a la FMNB.
 date: 2018-05-29T21:40:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: club-de-lectura-la-fmnb
 tags:
 - nou barris

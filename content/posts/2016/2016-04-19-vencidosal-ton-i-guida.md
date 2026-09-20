@@ -2,7 +2,7 @@
 title: Vencidos...al Ton i Guida.
 date: 2016-04-19T00:39:00+0200
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: vencidosal-ton-i-guida
 tags:
 - presentació

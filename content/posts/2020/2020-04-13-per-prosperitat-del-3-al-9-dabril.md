@@ -2,7 +2,7 @@
 title: Per Prosperitat del 3 al 9 d'Abril
 date: 2020-04-13T16:46:00+0200
 year: 2020
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: per-prosperitat-del-3-al-9-dabril
 tags:
 - Prosperitat

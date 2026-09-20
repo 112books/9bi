@@ -2,7 +2,7 @@
 title: Nit d'animes 2011
 date: 2011-11-02T11:45:00+0100
 year: 2011
-author: 9 Barris Imatge
+author: Ivan
 slug: de-nit-danimes-2011-can-peguera-2011
 tags:
 - casal cosa nostra

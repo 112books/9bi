@@ -2,7 +2,7 @@
 title: Concert de la Banda Simfònica de Roquetes - Nou Barris !!!
 date: 2016-12-18T22:09:00+0100
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: concert-de-la-banda-simfonica-de
 tags:
 - nou barris

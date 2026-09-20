@@ -2,7 +2,7 @@
 title: Tarda de cinema al Casal d'avis de Roquetes.
 date: 2014-11-22T21:31:00+0100
 year: 2014
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: tarda-de-cinema-al-casal-davis-de
 tags:
 - roquetes

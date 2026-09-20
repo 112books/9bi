@@ -2,7 +2,7 @@
 title: 'Tarda de CAU al carrer : AEIG La Prosperitat.'
 date: 2017-05-28T01:39:00+0200
 year: 2017
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: tarda-de-cau-al-carrer-aeig-la
 tags:
 - la prosperitat

@@ -2,7 +2,7 @@
 title: Dia de la República 2018
 date: 2018-04-16T20:31:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Ivan
 slug: dia-de-la-republica-2018
 tags:
 - República

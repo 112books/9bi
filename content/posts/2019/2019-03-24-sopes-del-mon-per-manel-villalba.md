@@ -2,7 +2,7 @@
 title: Sopes del món per en Manel Villalba.
 date: 2019-03-24T20:55:00+0100
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: sopes-del-mon-per-manel-villalba
 tags:
 - manel villalba

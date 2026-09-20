@@ -2,7 +2,7 @@
 title: Titellada a Roquetes.
 date: 2019-09-18T01:08:00+0200
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: titellada-roquetes
 tags:
 - associació de titellaires de Roquetes

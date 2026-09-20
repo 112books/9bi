@@ -2,7 +2,7 @@
 title: Barcelona En Comú. Nou Barris
 date: 2015-02-19T23:26:00+0100
 year: 2015
-author: 9 Barris Imatge
+author: Ivan
 slug: barcelona-en-comu-nou-barris
 tags:
 - nou barris

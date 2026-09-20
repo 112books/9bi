@@ -2,7 +2,7 @@
 title: Grup Foto Roquetes a Pedralbes.
 date: 2015-10-21T01:09:00+0200
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: grup-foto-roquetes-pedralbes
 tags:
 - grup foto roquetes

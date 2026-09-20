@@ -2,7 +2,7 @@
 title: 9B in Black. Mancuso
 date: 2015-02-21T13:03:00+0100
 year: 2015
-author: 9 Barris Imatge
+author: Ivan
 slug: 9b-in-black-mancuso
 tags:
 - blues

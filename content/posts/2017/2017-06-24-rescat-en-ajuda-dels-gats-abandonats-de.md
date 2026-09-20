@@ -2,7 +2,7 @@
 title: '"Rescat" en ajuda dels gats abandonats de Nou Barris.'
 date: 2017-06-24T14:51:00+0200
 year: 2017
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: rescat-en-ajuda-dels-gats-abandonats-de
 tags:
 - nou barris

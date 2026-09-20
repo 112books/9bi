@@ -2,7 +2,7 @@
 title: 'Grup Foto Roquetes : Llums de Nadal !!!'
 date: 2015-12-16T00:18:00+0100
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: grup-foto-roquetes-llums-de-nadal_31
 tags:
 - grup foto roquetes

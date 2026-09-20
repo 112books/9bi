@@ -2,7 +2,7 @@
 title: Dia de la República 2015
 date: 2015-04-12T16:44:00+0200
 year: 2015
-author: 9 Barris Imatge
+author: Ivan
 slug: dia-de-la-republica-2015
 tags:
 - República

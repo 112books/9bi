@@ -2,7 +2,7 @@
 title: Sant Xibeco viatja a Formentera !!!
 date: 2019-11-17T02:23:00+0100
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: sant-xibeco-viatja-formentera
 tags:
 - la prosperitat

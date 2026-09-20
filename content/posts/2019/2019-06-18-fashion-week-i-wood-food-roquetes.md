@@ -2,7 +2,7 @@
 title: Fashion Week i Wood Food a Roquetes.
 date: 2019-06-18T15:09:00+0200
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: fashion-week-i-wood-food-roquetes
 tags:
 - presentació

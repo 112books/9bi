@@ -2,7 +2,7 @@
 title: Ballada de sardanes a Nou Barris.
 date: 2017-12-03T20:28:00+0100
 year: 2017
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: ballada-de-sardanes-nou-barris
 tags:
 - nou barris

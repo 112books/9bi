@@ -2,7 +2,7 @@
 title: Casa de l'Aigua de Trinitat Nova.
 date: 2018-04-07T18:46:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: casa-de-laigua-de-trinitat-nova
 tags:
 - Trinitat Vella

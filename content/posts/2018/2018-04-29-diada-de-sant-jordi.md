@@ -2,7 +2,7 @@
 title: Diada de Sant Jordi .
 date: 2018-04-29T20:57:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: diada-de-sant-jordi
 tags:
 - sant jordi

@@ -2,7 +2,7 @@
 title: ¡¡¡¡¡¡¡SOMOS LOS GALOS!!!!!!!
 date: 2009-02-26T19:21:00+0100
 year: 2009
-author: 9 Barris Imatge
+author: inma
 slug: somos-los-galos
 tags:
 - Casal de Joves

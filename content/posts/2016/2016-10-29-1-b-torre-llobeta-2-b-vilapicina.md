@@ -2,7 +2,7 @@
 title: 1-B Torre Llobeta 2-B Vilapicina.
 date: 2016-10-29T01:21:00+0200
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: 1-b-torre-llobeta-2-b-vilapicina
 tags:
 - arxiu roquetes

@@ -2,7 +2,7 @@
 title: CURSA DE CARGOLS
 date: 2008-06-02T14:28:00+0200
 year: 2008
-author: 9 Barris Imatge
+author: petxina
 slug: cursa-de-cargols
 tags:
 - carrera cargols

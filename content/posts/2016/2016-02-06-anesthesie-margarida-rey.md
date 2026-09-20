@@ -2,7 +2,7 @@
 title: Anesthésie de la Margarida Rey.
 date: 2016-02-06T00:42:00+0100
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: anesthesie-margarida-rey
 tags:
 - Centre Ton i Guida

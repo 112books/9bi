@@ -2,7 +2,7 @@
 title: 'Inauguració de l''exposició : Els inoblidables , la nostra Memòria.'
 date: 2015-12-19T18:15:00+0100
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: inauguracio-de-lexposicio-els
 tags:
 - exposició fotogràfica

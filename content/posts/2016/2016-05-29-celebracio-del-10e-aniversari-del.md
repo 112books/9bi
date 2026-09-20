@@ -2,7 +2,7 @@
 title: Celebració del 10è aniversari del Centre Ton i Guida !!!
 date: 2016-05-29T20:49:00+0200
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: celebracio-del-10e-aniversari-del
 tags:
 - Centre Ton i Guida

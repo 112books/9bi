@@ -2,7 +2,7 @@
 title: Grup Foto Roquetes passejant per les fonts de Nou Barris !!!
 date: 2016-04-21T00:28:00+0200
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: grup-foto-roquetes-passejant-per-les
 tags:
 - grup foto roquetes

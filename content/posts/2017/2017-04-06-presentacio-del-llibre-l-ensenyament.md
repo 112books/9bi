@@ -2,7 +2,7 @@
 title: 'Presentació del llibre " L'' ensenyament a Nou Barris 1930-1990 " '
 date: 2017-04-06T17:44:00+0200
 year: 2017
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: presentacio-del-llibre-l-ensenyament
 tags:
 - presentació

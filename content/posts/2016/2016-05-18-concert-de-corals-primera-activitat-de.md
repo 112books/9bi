@@ -2,7 +2,7 @@
 title: Concert de Corals, primera activitat de la Festa Major de Nou Barris.
 date: 2016-05-18T16:50:00+0200
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: concert-de-corals-primera-activitat-de
 tags:
 - festa major

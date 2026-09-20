@@ -2,7 +2,7 @@
 title: Caminata solidaria en Roquetes.
 date: 2019-11-30T21:40:00+0100
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: caminata-solidaria-en-roquetes
 tags:
 - torre baró

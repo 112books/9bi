@@ -2,7 +2,7 @@
 title: 'CASAL DE JOVES DE GUANTANAMO: carnaval 2010'
 date: 2010-02-20T20:24:00+0100
 year: 2010
-author: 9 Barris Imatge
+author: inma
 slug: casal-de-joves-de-guantanamo-carnaval
 tags:
 - Casal de Joves

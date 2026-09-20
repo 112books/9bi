@@ -2,7 +2,7 @@
 title: Festes del Barri - Diumenge tarda amb Divide y Wenceslao
 date: 2010-06-07T01:44:00+0200
 year: 2010
-author: 9 Barris Imatge
+author: Dani González
 slug: festes-del-barri-diumenge-tarda-amb
 tags:
 - DaniG

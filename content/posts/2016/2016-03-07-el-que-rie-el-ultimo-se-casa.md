@@ -2,7 +2,7 @@
 title: El que ríe el último... ¡Se casa !
 date: 2016-03-07T15:35:00+0100
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: el-que-rie-el-ultimo-se-casa
 tags:
 - trinitat nova

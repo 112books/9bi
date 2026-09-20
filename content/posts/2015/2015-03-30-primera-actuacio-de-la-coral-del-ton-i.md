@@ -2,7 +2,7 @@
 title: PRIMERA ACTUACIÓ DE LA CORAL DEL TON I GUIDA !!!
 date: 2015-03-30T22:29:00+0200
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: primera-actuacio-de-la-coral-del-ton-i
 tags:
 - presentació

@@ -2,7 +2,7 @@
 title: PASSEJADA  FOTOGRÀFICA PER ROQUETES !!!
 date: 2015-07-20T01:03:00+0200
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: passejada-fotografica-per-roquetes
 tags:
 - grup foto roquetes

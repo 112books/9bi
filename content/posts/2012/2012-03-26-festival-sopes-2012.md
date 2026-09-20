@@ -2,7 +2,7 @@
 title: Sense títol
 date: 2012-03-26T04:00:00+0200
 year: 2012
-author: 9 Barris Imatge
+author: Ivan
 slug: festival-sopes-2012
 tags:
 - 9bacull.org

@@ -2,7 +2,7 @@
 title: Fil i agulla per la Fashion Week.
 date: 2019-06-22T22:31:00+0200
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: fil-i-agulla-per-la-fashion-week
 tags:
 - Homenatge

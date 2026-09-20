@@ -3,7 +3,7 @@ title: Inauguració de l'exposició "Finals dels 70" a l'Arxiu Històric de Roqu
   Nou Barris
 date: 2019-02-06T19:06:00+0100
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: inauguracio-de-lexposicio-finals-dels
 tags:
 - nou barris

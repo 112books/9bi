@@ -2,7 +2,7 @@
 title: Qué bonita es Badalona !!!    Amb el Grup Foto Roquetes .
 date: 2016-06-13T00:31:00+0200
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: que-bonita-es-badalona-amb-el-grup-foto
 tags:
 - grup foto roquetes

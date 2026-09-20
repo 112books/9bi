@@ -2,7 +2,7 @@
 title: Prospe Creativa 2015
 date: 2015-03-21T14:12:00+0100
 year: 2015
-author: 9 Barris Imatge
+author: Ivan
 slug: prospe-creativa-2015
 tags:
 - prospe creativa

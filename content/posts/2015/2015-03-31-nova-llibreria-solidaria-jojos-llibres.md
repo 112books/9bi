@@ -2,7 +2,7 @@
 title: 'NOVA LLIBRERIA SOLIDARIA : JOJOS LLIBRES .'
 date: 2015-03-31T21:33:00+0200
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: nova-llibreria-solidaria-jojos-llibres
 tags:
 - ciutat meridiana

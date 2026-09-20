@@ -2,7 +2,7 @@
 title: Fashion Week en Roquetes.
 date: 2018-06-25T19:17:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: fashion-week-en-roquetes
 tags:
 - ada colau

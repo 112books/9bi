@@ -2,7 +2,7 @@
 title: África, una mirada diferente.
 date: 2018-04-06T18:50:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: africa-una-mirada-diferente
 tags:
 - casal de barri

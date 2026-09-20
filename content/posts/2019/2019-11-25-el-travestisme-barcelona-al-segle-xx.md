@@ -2,7 +2,7 @@
 title: El travestisme a Barcelona al segle XX.
 date: 2019-11-25T22:07:00+0100
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: el-travestisme-barcelona-al-segle-xx
 tags:
 - presentació

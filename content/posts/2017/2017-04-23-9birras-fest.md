@@ -2,7 +2,7 @@
 title: 9BIRRAS FEST !!!
 date: 2017-04-23T21:44:00+0200
 year: 2017
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: 9birras-fest
 tags:
 - activitats

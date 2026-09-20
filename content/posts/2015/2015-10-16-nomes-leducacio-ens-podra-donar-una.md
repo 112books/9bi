@@ -2,7 +2,7 @@
 title: '" Només l''educació ens podrà donar una vida millor " (Camí a l''escola, documental)'
 date: 2015-10-16T01:09:00+0200
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: nomes-leducacio-ens-podra-donar-una
 tags:
 - activitats

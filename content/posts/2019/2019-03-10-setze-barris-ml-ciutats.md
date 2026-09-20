@@ -2,7 +2,7 @@
 title: Setze Barris, mil ciutats.
 date: 2019-03-10T21:49:00+0100
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: setze-barris-ml-ciutats
 tags:
 - ciutat meridiana

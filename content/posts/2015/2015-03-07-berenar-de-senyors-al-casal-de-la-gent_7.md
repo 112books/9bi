@@ -2,7 +2,7 @@
 title: BERENAR DE SENYORS AL CASAL DE LA GENT GRAN DE ROQUETES !!!
 date: 2015-03-07T19:31:00+0100
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: berenar-de-senyors-al-casal-de-la-gent_7
 tags:
 - Casal de la Gent Gran

@@ -2,7 +2,7 @@
 title: Visita guiada per l'antic mental a  la FMNB.
 date: 2018-05-27T11:10:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: visita-guiada-per-lantic-mental
 tags:
 - can basté

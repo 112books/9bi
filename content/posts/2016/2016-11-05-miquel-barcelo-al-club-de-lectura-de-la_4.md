@@ -2,7 +2,7 @@
 title: Miquel Barceló al Club de Lectura de la Biblioteca de Les Roquetes.
 date: 2016-11-05T02:20:00+0100
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: miquel-barcelo-al-club-de-lectura-de-la_4
 tags:
 - roquetes

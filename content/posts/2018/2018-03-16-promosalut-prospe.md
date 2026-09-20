@@ -2,7 +2,7 @@
 title: Promosalut Prospe.
 date: 2018-03-16T00:08:00+0100
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: promosalut-prospe
 tags:
 - rio de janeiro

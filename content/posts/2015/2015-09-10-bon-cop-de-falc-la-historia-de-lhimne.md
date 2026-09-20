@@ -2,7 +2,7 @@
 title: Bon cop de falç. La història de l'himne.
 date: 2015-09-10T02:33:00+0200
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: bon-cop-de-falc-la-historia-de-lhimne
 tags:
 - exposició

@@ -2,7 +2,7 @@
 title: '" 10 ANYS DE SOPES DEL MÓN " A LA BIBLIOTECA LES ROQUETES !!!'
 date: 2014-07-17T20:14:00+0200
 year: 2014
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: 10-anys-de-sopes-del-mon-la-biblioteca
 tags:
 - Biblioteca Les Roquetes

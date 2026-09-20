@@ -2,7 +2,7 @@
 title: Setmana del llibre català 2015.
 date: 2015-09-06T01:59:00+0200
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: setmana-del-llibre-en-catala-2015
 tags:
 - cultura

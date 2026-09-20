@@ -2,7 +2,7 @@
 title: Roquetes, projecte fotogràfic del Plà de Barris
 date: 2019-05-02T01:44:00+0200
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: roquetes-projecte-fotografic-del-pla-de
 tags:
 - exposició

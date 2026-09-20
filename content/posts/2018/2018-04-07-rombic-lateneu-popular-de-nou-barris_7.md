@@ -2,7 +2,7 @@
 title: Ròmbic a L'Ateneu Popular de Nou Barris.
 date: 2018-04-07T16:24:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: rombic-lateneu-popular-de-nou-barris_7
 tags:
 - Ateneu Popular de Nou Barris

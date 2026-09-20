@@ -2,7 +2,7 @@
 title: Circ, per Manel Sala "Ulls".
 date: 2018-03-11T12:50:00+0100
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: circ-per-manel-sala-ulls
 tags:
 - manel sala ulls

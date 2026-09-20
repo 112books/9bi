@@ -2,7 +2,7 @@
 title: Retorn al MODERNISME !!!
 date: 2014-05-22T00:02:00+0200
 year: 2014
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: retorn-al-modernisme
 tags:
 - ruta

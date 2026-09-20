@@ -2,7 +2,7 @@
 title: BCN NETA  BRIGADA NOCTURNA
 date: 2008-05-26T19:40:00+0200
 year: 2008
-author: 9 Barris Imatge
+author: petxina
 slug: bcn-neta-brigada-nocturna
 tags:
 - Prosperitat

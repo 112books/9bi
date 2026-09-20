@@ -2,7 +2,7 @@
 title: La Petaluda a Can Basté.
 date: 2018-03-04T21:14:00+0100
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: la-petaluda-can-baste
 tags:
 - Barcelona

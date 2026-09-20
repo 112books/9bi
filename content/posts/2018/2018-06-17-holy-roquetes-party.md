@@ -2,7 +2,7 @@
 title: Holy Roquetes Party.
 date: 2018-06-17T16:32:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: holy-roquetes-party
 tags:
 - roquetes

@@ -2,7 +2,7 @@
 title: MÁS CON MENOS, TOTS I TOTES SOM CAPAÇOS !!!
 date: 2014-06-30T19:03:00+0200
 year: 2014
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: mas-con-menos-tots-i-totes-som-capacos
 tags:
 - prospe capaç

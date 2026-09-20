@@ -2,7 +2,7 @@
 title: 'Taller d''educació canina a Roquetes. '
 date: 2019-01-21T01:09:00+0100
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: taller-deducacio-canina
 tags:
 - nou barris

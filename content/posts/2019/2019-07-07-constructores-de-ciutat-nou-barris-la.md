@@ -2,7 +2,7 @@
 title: 'Constructores de ciutat: Nou Barris La lluita de les dones pels drets de ciutadania.'
 date: 2019-07-07T22:35:00+0200
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: constructores-de-ciutat-nou-barris-la
 tags:
 - Centre Ton i Guida

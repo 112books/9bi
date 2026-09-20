@@ -2,7 +2,7 @@
 title: 'Retrats d''un barri : Un viatge en blanc i negre.'
 date: 2019-09-29T16:53:00+0200
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: retrats-dun-barri-un-viatge-en-blanc-i
 tags:
 - casal de barri

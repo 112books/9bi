@@ -2,7 +2,7 @@
 title: Festa de la Primavera 2015
 date: 2015-03-29T17:30:00+0200
 year: 2015
-author: 9 Barris Imatge
+author: Ivan
 slug: festa-de-la-primaverra-2015
 tags:
 - ciutat meridiana

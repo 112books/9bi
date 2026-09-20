@@ -2,7 +2,7 @@
 title: Concurs Zoom Roquetes !!!
 date: 2016-06-08T00:45:00+0200
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: concurs-zoom-roquetes
 tags:
 - Zoom Roquetes

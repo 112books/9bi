@@ -2,7 +2,7 @@
 title: Concert del Pigme@ Revoltos@s per la Escola lliure i pública
 date: 2010-03-09T22:17:00+0100
 year: 2010
-author: 9 Barris Imatge
+author: Dani González
 slug: concert-del-pigme-revoltoss-per-la
 tags:
 - ateneu popular 9barris

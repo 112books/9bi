@@ -2,7 +2,7 @@
 title: Espectacle de titelles al TIG  per la Cía Pegim Penjam !!!
 date: 2014-11-28T01:18:00+0100
 year: 2014
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: espectacle-de-titelles-al-tig-per-la
 tags:
 - titelles

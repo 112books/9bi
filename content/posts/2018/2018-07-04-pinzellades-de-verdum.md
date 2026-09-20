@@ -2,7 +2,7 @@
 title: Pinzellades de Verdum.
 date: 2018-07-04T11:55:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: pinzellades-de-verdum
 tags:
 - casal de barri

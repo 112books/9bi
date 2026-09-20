@@ -2,7 +2,7 @@
 title: De Prosperitat a Roquetes
 date: 2020-03-30T20:27:00+0200
 year: 2020
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: de-prosperitat-roquetes_78
 tags:
 - Prosperitat

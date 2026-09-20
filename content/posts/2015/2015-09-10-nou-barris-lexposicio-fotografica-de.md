@@ -2,7 +2,7 @@
 title: 'Nou Barris a l''exposició fotogràfica de Antoni Capella . Fotògraf de societat. '
 date: 2015-09-10T01:37:00+0200
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: nou-barris-lexposicio-fotografica-de
 tags:
 - exposició fotogràfica

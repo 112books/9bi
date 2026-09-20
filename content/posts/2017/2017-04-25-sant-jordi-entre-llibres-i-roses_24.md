@@ -2,7 +2,7 @@
 title: Sant Jordi , entre llibres i roses....
 date: 2017-04-25T00:28:00+0200
 year: 2017
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: sant-jordi-entre-llibres-i-roses_24
 tags:
 - participació

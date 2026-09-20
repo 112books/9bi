@@ -2,7 +2,7 @@
 title: VII Concurs de Maquetes ''El Arbusto''  -Divendres-
 date: 2011-10-15T20:16:00+0200
 year: 2011
-author: 9 Barris Imatge
+author: A.Sedano
 slug: vii-concurs-de-maquetes-el-arbusto
 tags:
 - concurs de maquetes

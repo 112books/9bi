@@ -2,7 +2,7 @@
 title: Adeu als Horts Comunitaris de Roquetes !!!
 date: 2015-10-31T22:27:00+0100
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: adeu-als-horts-comunitaris-de-roquetes_31
 tags:
 - comunitari

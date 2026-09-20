@@ -2,7 +2,7 @@
 title: Els Horts de Porta
 date: 2015-03-14T11:49:00+0100
 year: 2015
-author: 9 Barris Imatge
+author: Ivan
 slug: els-horts-de-porta
 tags:
 - Barcelona

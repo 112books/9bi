@@ -2,7 +2,7 @@
 title: KARAOKE PER COMENÇAR !!!
 date: 2015-03-03T01:42:00+0100
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: karaoke-per-comencar
 tags:
 - activitats

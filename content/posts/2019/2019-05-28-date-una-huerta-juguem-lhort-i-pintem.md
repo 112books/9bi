@@ -2,7 +2,7 @@
 title: 'Date una huerta : Juguem a l''hort i pintem al carrer.'
 date: 2019-05-28T01:13:00+0200
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: date-una-huerta-juguem-lhort-i-pintem
 tags:
 - date una huerta

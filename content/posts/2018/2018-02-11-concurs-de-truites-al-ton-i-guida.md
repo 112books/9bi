@@ -2,7 +2,7 @@
 title: Concurs de truites al Ton i Guida.
 date: 2018-02-11T01:28:00+0100
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: concurs-de-truites-al-ton-i-guida
 tags:
 - Centre Ton i Guida

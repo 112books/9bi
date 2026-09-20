@@ -2,7 +2,7 @@
 title: FINAL DE FESTA...AMB TRACA FINAL !!!
 date: 2015-06-25T17:30:00+0200
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: final-de-festaamb-traca-final
 tags:
 - nou barris

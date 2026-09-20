@@ -2,7 +2,7 @@
 title: Pirates de Roquetes... cap a la rua  de Nou Barris !!!
 date: 2016-02-06T21:30:00+0100
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: pirates-de-roquetesa-la-rua
 tags:
 - nou barris

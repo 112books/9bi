@@ -2,7 +2,7 @@
 title: Festes del Barri - Diumenge tarda
 date: 2010-05-31T18:18:00+0200
 year: 2010
-author: 9 Barris Imatge
+author: Dani González
 slug: festes-del-barri-diumenge-tarda
 tags:
 - Bingo

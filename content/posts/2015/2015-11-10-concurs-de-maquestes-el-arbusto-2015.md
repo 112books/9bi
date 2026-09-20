@@ -2,7 +2,7 @@
 title: Concurs de maquestes "El Arbusto 2015" Dissabte
 date: 2015-11-10T17:45:00+0100
 year: 2015
-author: 9 Barris Imatge
+author: sandra
 slug: concurs-de-maquestes-el-arbusto-2015
 tags:
 - El Arbusto

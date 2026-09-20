@@ -2,7 +2,7 @@
 title: FESTA DE PRIMAVERA EN ROQUETES 2015.
 date: 2015-04-19T21:55:00+0200
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: festa-de-primavera-en-roquetes-2015
 tags:
 - roquetes

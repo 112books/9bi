@@ -2,7 +2,7 @@
 title: Exposicions a la Titellada
 date: 2016-09-29T23:49:00+0200
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: exposicions-la-titellada
 tags:
 - associació de titellaires de Roquetes

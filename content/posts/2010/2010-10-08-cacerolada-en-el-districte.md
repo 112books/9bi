@@ -2,7 +2,7 @@
 title: Cacerolada en el Districte
 date: 2010-10-08T00:18:00+0200
 year: 2010
-author: 9 Barris Imatge
+author: Dani González
 slug: cacerolada-en-el-districte
 tags:
 - casal de joves de prospe

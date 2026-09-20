@@ -2,7 +2,7 @@
 title: Bref, cinefòum sobre l'ablació al Ton i Guida.
 date: 2016-06-23T18:51:00+0200
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: bref-cinefoum-sobre-lablacio-al-ton-i
 tags:
 - Igualtat de gènere

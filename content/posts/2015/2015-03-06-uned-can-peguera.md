@@ -2,7 +2,7 @@
 title: UNED a Can Peguera
 date: 2015-03-06T15:32:00+0100
 year: 2015
-author: 9 Barris Imatge
+author: Ivan
 slug: uned-can-peguera
 tags:
 - Can Peguera

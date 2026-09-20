@@ -2,7 +2,7 @@
 title: Participa al concurs fotogràfic  ZOOM ROQUETES !!!
 date: 2018-05-13T19:29:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: participa-al-concurs-fotografic-zoom
 tags:
 - Concurs Fotogràfic

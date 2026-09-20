@@ -2,7 +2,7 @@
 title: ROQUETES, AQUESTA DESCONEGUDA .
 date: 2015-03-21T16:48:00+0100
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: roquetes-aquesta-desconeguda
 tags:
 - Barcelona

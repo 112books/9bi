@@ -2,7 +2,7 @@
 title: Festa de l'escuma a la FM de Verdum.
 date: 2019-10-01T19:18:00+0200
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: festa-de-lescuma-la-fm-de-verdum
 tags:
 - festes de Verdum

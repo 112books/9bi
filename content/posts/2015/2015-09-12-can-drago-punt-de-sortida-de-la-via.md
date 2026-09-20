@@ -2,7 +2,7 @@
 title: Can Dragó ...punt de sortida de la Via Lliure !!!
 date: 2015-09-12T14:43:00+0200
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: can-drago-punt-de-sortida-de-la-via
 tags:
 - gent

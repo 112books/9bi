@@ -2,7 +2,7 @@
 title: Per Roquetes del 3 al 9 d'Abril
 date: 2020-04-13T17:42:00+0200
 year: 2020
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: per-roquetes-del-3-al-9-dabril
 tags:
 - roquetes

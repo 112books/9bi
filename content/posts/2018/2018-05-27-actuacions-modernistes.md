@@ -2,7 +2,7 @@
 title: Actuacions modernistes...
 date: 2018-05-27T12:23:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: actuacions-modernistes
 tags:
 - activitats

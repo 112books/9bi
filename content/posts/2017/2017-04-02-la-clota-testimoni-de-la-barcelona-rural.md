@@ -2,7 +2,7 @@
 title: La Clota, testimoni de la Barcelona rural.
 date: 2017-04-02T23:54:00+0200
 year: 2017
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: la-clota-testimoni-de-la-barcelona-rural
 tags:
 - Barcelona

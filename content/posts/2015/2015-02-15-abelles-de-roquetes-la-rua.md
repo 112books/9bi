@@ -2,7 +2,7 @@
 title: ABELLES DE ROQUETES A LA RUA !!!
 date: 2015-02-15T21:30:00+0100
 year: 2015
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: abelles-de-roquetes-la-rua
 tags:
 - participació

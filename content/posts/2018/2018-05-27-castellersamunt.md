@@ -2,7 +2,7 @@
 title: Castellers...amunt !!!
 date: 2018-05-27T10:37:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: castellersamunt
 tags:
 - Barcelona

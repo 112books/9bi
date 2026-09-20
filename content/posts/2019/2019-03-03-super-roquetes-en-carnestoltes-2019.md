@@ -2,7 +2,7 @@
 title: Super Roquetes en Carnestoltes 2019 !!!
 date: 2019-03-03T00:19:00+0100
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: super-roquetes-en-carnestoltes-2019
 tags:
 - carnestoltes 2019

@@ -3,7 +3,7 @@ title: Festes de Prosperitat 2011 - cursa de cargols, lanzamiento de huesos de a
   + maskintos band -
 date: 2011-05-29T14:18:00+0200
 year: 2011
-author: 9 Barris Imatge
+author: A.Sedano
 slug: festes-de-prosperitat-2011-cursa-de
 tags:
 - Festes de prosperitat

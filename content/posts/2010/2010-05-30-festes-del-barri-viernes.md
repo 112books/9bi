@@ -2,7 +2,7 @@
 title: Festes del Barri - Divendres
 date: 2010-05-30T15:46:00+0200
 year: 2010
-author: 9 Barris Imatge
+author: Dani González
 slug: festes-del-barri-viernes
 tags:
 - DaniG

@@ -2,7 +2,7 @@
 title: 10 ANYS  FENT PINYA A ROQUETES AMB EL PLÀ COMUNITARI  !!!
 date: 2014-10-19T01:56:00+0200
 year: 2014
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: dia-de-la-pinya-roquetes
 tags:
 - comunitari

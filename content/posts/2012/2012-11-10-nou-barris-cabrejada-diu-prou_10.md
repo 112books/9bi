@@ -2,7 +2,7 @@
 title: Nou Barris cabrejada, diu prou!
 date: 2012-11-10T13:19:00+0100
 year: 2012
-author: 9 Barris Imatge
+author: Manel Sala "Ulls" Circ
 slug: nou-barris-cabrejada-diu-prou_10
 tags:
 - Nou Barris cabrejada

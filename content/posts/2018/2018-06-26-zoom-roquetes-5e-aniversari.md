@@ -2,7 +2,7 @@
 title: Zoom Roquetes, 5è aniversari.
 date: 2018-06-26T18:44:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: zoom-roquetes-5e-aniversari
 tags:
 - Centre Ton i Guida

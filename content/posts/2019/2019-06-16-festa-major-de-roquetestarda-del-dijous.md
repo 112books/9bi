@@ -2,7 +2,7 @@
 title: Festa Major de Roquetes,tarda del dijous.
 date: 2019-06-16T01:49:00+0200
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: festa-major-de-roquetestarda-del-dijous
 tags:
 - grup foto roquetes

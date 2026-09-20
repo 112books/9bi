@@ -2,7 +2,7 @@
 title: Un dissabte qualsevol...
 date: 2011-06-20T16:58:00+0200
 year: 2011
-author: 9 Barris Imatge
+author: Dani González
 slug: un-dissabte-qualsevol
 tags:
 - Honey

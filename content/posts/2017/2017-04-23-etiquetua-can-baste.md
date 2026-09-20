@@ -2,7 +2,7 @@
 title: Etiquetua a Can Basté.
 date: 2017-04-23T21:21:00+0200
 year: 2017
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: etiquetua-can-baste
 tags:
 - presentació

@@ -2,7 +2,7 @@
 title: Exposició de Joan Brossa..
 date: 2019-09-18T00:31:00+0200
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: exposicio-de-joan-brossa
 tags:
 - Plaça de la Prosperitat

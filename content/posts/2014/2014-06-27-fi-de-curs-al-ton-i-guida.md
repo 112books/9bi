@@ -2,7 +2,7 @@
 title: FÍ DE CURS AL TON I GUIDA !!!
 date: 2014-06-27T00:10:00+0200
 year: 2014
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: fi-de-curs-al-ton-i-guida
 tags:
 - Zoom Roquetes

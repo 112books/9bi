@@ -2,7 +2,7 @@
 title: Canvi climàtic a l'exposició "Un Toc de Primavera".
 date: 2016-03-15T19:00:00+0100
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: canvi-climatic-lexposicio-un-toc-de
 tags:
 - Centre Ton i Guida

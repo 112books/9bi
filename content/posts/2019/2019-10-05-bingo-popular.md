@@ -2,7 +2,7 @@
 title: Bingo Popular.
 date: 2019-10-05T16:56:00+0200
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: bingo-popular
 tags:
 - festes de Verdum

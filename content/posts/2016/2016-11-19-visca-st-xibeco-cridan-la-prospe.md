@@ -2,7 +2,7 @@
 title: Visca St Xibeco !!!  Cridan a  La Prospe !!!
 date: 2016-11-19T16:41:00+0100
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: visca-st-xibeco-cridan-la-prospe
 tags:
 - Casal de barri Prosperitat

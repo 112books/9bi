@@ -2,7 +2,7 @@
 title: Clara Campoamor. La mujer olvidada.
 date: 2016-03-09T01:09:00+0100
 year: 2016
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: clara-campoamor-la-mujer-olvidada
 tags:
 - República

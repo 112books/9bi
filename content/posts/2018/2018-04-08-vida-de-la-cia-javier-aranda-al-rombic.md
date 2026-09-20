@@ -2,7 +2,7 @@
 title: Vida de la Cía Javier Aranda al Ròmbic.
 date: 2018-04-08T21:06:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: vida-de-la-cia-javier-aranda-al-rombic
 tags:
 - Ateneu Popular de Nou Barris

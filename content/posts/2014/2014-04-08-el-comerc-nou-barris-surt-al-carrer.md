@@ -2,7 +2,7 @@
 title: EL COMERÇ A NOU BARRIS SURT AL CARRER !!!
 date: 2014-04-08T22:56:00+0200
 year: 2014
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: el-comerc-nou-barris-surt-al-carrer
 tags:
 - presentació

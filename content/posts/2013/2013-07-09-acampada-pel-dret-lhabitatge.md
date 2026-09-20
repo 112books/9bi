@@ -2,7 +2,7 @@
 title: Acampada pel Dret a l'Habitatge
 date: 2013-07-09T19:20:00+0200
 year: 2013
-author: 9 Barris Imatge
+author: Ivan
 slug: acampada-pel-dret-lhabitatge
 tags:
 - habitatge

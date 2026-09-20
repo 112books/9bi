@@ -2,7 +2,7 @@
 title: Presentació de la revista nº 77 de l' AHRNB.
 date: 2019-12-22T20:42:00+0100
 year: 2019
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: presentacio-de-la-revista-n-77-de-l
 tags:
 - presentació

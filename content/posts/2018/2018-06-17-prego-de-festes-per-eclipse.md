@@ -2,7 +2,7 @@
 title: Pregó de festes per Eclipse.
 date: 2018-06-17T16:26:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: prego-de-festes-per-eclipse
 tags:
 - roquetes

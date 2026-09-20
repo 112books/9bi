@@ -2,7 +2,7 @@
 title: Sopar i xerrada de dones !!!
 date: 2018-07-29T20:10:00+0200
 year: 2018
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: sopar-i-xerrada-de-dones
 tags:
 - Xerrada

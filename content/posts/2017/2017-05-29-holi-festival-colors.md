@@ -2,7 +2,7 @@
 title: Holi Festival Colors !!!
 date: 2017-05-29T01:25:00+0200
 year: 2017
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: holi-festival-colors
 tags:
 - tetrinké

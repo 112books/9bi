@@ -2,7 +2,7 @@
 title: Exposició fotogràfica "Nou Barris en festes"
 date: 2014-04-26T00:26:00+0200
 year: 2014
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: exposicio-fotografica-nou-barris-en_25
 tags:
 - Biblioteca Les Roquetes
