@@ -83,4 +83,4 @@ Punt a decidir: es vol un nom **català/llatí** (Trípode, Objectiu, Revela, En
 1. Escollir 2-3 finalistes.
 2. Comprovar disponibilitat (Codeberg, GitHub, domini `.org`/`.cat` si es vol).
 3. Batre amb el nom dels mòduls interns (`votacio`, `albums`...) perquè encaixin com a submòduls (p. ex. `focus/votacio`, `tripode/votacio`).
-4. Registrar-ne la marca conceptual al README de la suit (sense registre legal si no cal).
+4. Registrar-ne la marca conceptual al README de la suit (sense registre legal si no cal). 

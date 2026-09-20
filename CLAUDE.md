@@ -407,6 +407,15 @@ sync-9bi.sh                        # script de sync/gestió
 
 - La branca `wip-cura-tags-plana` es pot esborrar (ja integrada a `main`); si es manté, no esborrar fins a confirmar el commit de la sessió a `main`.
 
+## Sessió 2026-09-20 — autors recuperats, membres veterans, Cordoncillo, header
+
+- **Recuperació d'autors (2026-09-20)**: commit i deploy de la feina de la sessió anterior. **439 de 473 posts** reassignats (93%); **34 irresolubles** documentats a `drafts/autors-no-resolts.md` (comptes Google completament eliminats). Script `scripts/recupera_autors_blogger.py` v2 commitat.
+- **Autors nous descoberts** (principal: **Pili E. G.**, 339 posts): 11 fitxers nous a `data/membres/` + 11 opcions noves al select del CMS (`static/admin/config.yml`, ara 24 opcions).
+- **«Membres veterans»**: nomenclatura aprovada per l'usuari per al segon grup (en lloc de «Membres històrics»).
+- **Josep Anton Cordoncillo**: afegit a `data/membres/` com a membre fundador honorífic (`rol: 'Membre fundador honorífic'`, `actiu: false`, sense posts al blog). El shortcode `layouts/_shortcodes/membres.html` **reescrit** per iterar `data/membres/` com a font primària (en lloc de la taxonomia), de manera que membres sense posts publicats apareixen igualment. Camp `rol` mostrat en cursiva quan `count=0`.
+- **Noms i malnoms actualitzats**: Linux→Joan Linux, Ulls→Manel "Ulls", Nuria→Núria Orbaneja; Ivan Ortiz, Inma Alicio, Antonio Sedano, Pepa Calatrava com a noms reals; Sandra "Casal" i Ignasi "Casal" com a malnoms.
+- **Bug tremolor header (fix definitiu)**: histèresi al listener de scroll — afegeix `.scrolled` a `scrollY > 120px`, treu-la a `scrollY < 90px`. Trenca el bucle reflow que causava el tremolor (el canvi de mida del logo de 229px → 48px provoca un salt de layout que modificava `scrollY` i tornava a fer toggle).
+
 ## Tasques pendents (backlog curt)
 
 - **Formulari (`content/contacte.md`)**: **fet (2026-09-19)** — camp nou `entitat` ("A quina entitat de Nou Barris pertanys o representes (opcionalment)", input opcional, patró `assumpte`), entre `assumpte` i `missatge`.
@@ -418,7 +427,7 @@ sync-9bi.sh                        # script de sync/gestió
 - **Auditoria d'accessibilitat** (encarregada 2026-09-17, pendent).
 - **Auditoria de SEO i IA** (encarregada 2026-09-18): deixar el web **ben preparat per a motors de cerca i agents d'IA** (metadades, dades estructurades, sitemap/robots, OpenGraph, etc.).
 - **Document d'URLs de Blogger (SEO/redireccions)** (encarregat 2026-09-18): recull de **totes les URL actuals del blog Blogger** per comprovar que coincideixen amb les entrades actuals del web (l'estructura `/:year/:month/:slug.html` + `uglyURLs = true` ho preserva) o fer una **redirecció a la nova URL** — tema cercadors i SEO.
-- **`content/qui-som.md`** (secció «Membres»): **implementat (2026-09-18)** amb `{{< membres >}}` + **`data/membres/<slug>.yml`** (carpeta, amb `nom`/`malnom`/`actiu`) + `layouts/author/term.html` + col·lecció Decap «membres» **folder** amb camp ACTIU (vegeu la sessió v6). **2026-09-19 (v2)**: els membres sense `web` ja enllacen a «Posts al blog». Pendent: completar els **Instagram** que falten i marcar les baixes com a `actiu: false` (+ treure l'accés d'escriptura a Codeberg).
+- **`content/qui-som.md`** (secció «Membres»): **implementat**. Shortcode `{{< membres >}}` itera `data/membres/` (23 fitxers: 12 actius + 11 veterans + Cordoncillo). Pendent: completar els **Instagram** que falten i treure l'accés d'escriptura a Codeberg als membres inactius.
 - **Comentaris al web**: implementar un sistema de comentaris amb **fort control d'spam** (pendent d'escollir la solució/proveïdor).
 - **Compartir a xarxes**: botons per compartir fàcilment a **Instagram** i les xarxes que es portin ara (pendent).
 - **Tipografies**: **implementat (2026-09-18)** — cos **Montserrat** (woff2 400/700/800) + títols **Gillius ADF** (OTF 400/700), autoallotjades a `static/fonts/`, `@font-face` i overrides a `custom.css` (urls `../../fonts/…`) i `preload` a `extend_head.html`. **Sense cap CDN** (RGPD). Pendent opcional: convertir els OTF de Gillius a woff2.
@@ -448,15 +457,16 @@ sync-9bi.sh                        # script de sync/gestió
 ## Decisions pendents per a la migració real (2026-09-17)
 
 - **Etiquetes**: al blog original són molt incompletes (moltes entrades sense tag o amb tags inconsistents). No fer còpia cega amb `migrate_blogger.py` — caldrà revisar/curar les etiquetes, no assumir que el que hi ha al Blogger és la taxonomia final.
-- **Autors**: es crearan comptes reals a Codeberg per a cada membre amb el seu correu actual (el que consta ara — no l'email públic del feed de Blogger, que Google no exposa). El camp `author` de cada post migrat s'haurà de fer correspondre als 9 membres reals de `static/admin/config.yml` (select), no deixar el nom lliure que ve de Blogger.
+- **Autors**: **439/473 resolts (2026-09-20)**. 34 posts irresolubles (comptes eliminats) queden com «9 Barris Imatge» — documentats a `drafts/autors-no-resolts.md`. El CMS ja té tots els autors al select (24 opcions). Pendent: crear comptes Codeberg per als membres actuals.
 
 ## El que encara no existeix (per no assumir)
 
 - Migració de Blogger: **feta** (3.006/3.006 posts a `content/posts/`). Pendent: curar etiquetes i autors. No cal l'export XML oficial: `scripts/migrate_live.py` llegeix el feed Atom en directe.
-- OAuth2 Application creada ni Client ID.
+- ~~OAuth2 Application creada ni Client ID.~~ **FET (2026-09-18)** — Client ID `0c6b6c51-…` desplegat.
+- ~~Pàgina de privacitat amb placeholders.~~ **FET (2026-09-18)** — adreça real, sense placeholders.
 - Lloc GoatCounter creat ni API key.
 - Confirmació que `info@9barrisimatge.org` rep correus (FormSubmit).
 - DNS / CNAME cap a Codeberg Pages (el lloc de producció serà 9barrisimatge.org).
-- Pàgina de privacitat creada (`/privacitat/`) però **amb placeholders de NIF/adreça pendents**; falta l'avís legal i la resta d'adequació RGPD (cookies, etc.).
+- Contingut real d'`cookies.md` i la resta d'adequació RGPD.
 - Configuració SEO/IA per a tot el web (metadades, dades estructurades, etc.).
 - Suport Python/Passenger al panell de Dinahosting sense confirmar (per al desplegament de `modules/votacio/`).
