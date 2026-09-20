@@ -1,26 +1,30 @@
 {{- $data := hugo.Data.membres | default dict -}}
-{{- $byAuthor := dict -}}
-{{- range $k, $m := $data -}}
-  {{- $byAuthor = merge $byAuthor (dict (lower ($m.autor | default "")) $m) -}}
-{{- end -}}
-{{- $rows := slice -}}
+{{- $taxo := dict -}}
 {{- range $key, $term := site.Taxonomies.author -}}
-  {{- $title := $term.Page.Title -}}
-  {{- if ne (lower $title) "9 barris imatge" -}}
-    {{- $info := index $byAuthor (lower $title) | default dict -}}
-    {{- $name := $info.malnom | default ($info.nom | default ($info.autor | default $title)) -}}
+  {{- $taxo = merge $taxo (dict (lower $term.Page.Title) (dict "count" (len $term.Pages) "url" $term.Page.RelPermalink)) -}}
+{{- end -}}
+
+{{- $rows := slice -}}
+{{- range $slug, $m := $data -}}
+  {{- $autor := $m.autor | default "" -}}
+  {{- if and $autor (ne (lower $autor) "9 barris imatge") -}}
+    {{- $tx := index $taxo (lower $autor) | default dict -}}
+    {{- $count := $tx.count | default 0 -}}
+    {{- $url := $tx.url | default "" -}}
+    {{- $name := $m.malnom | default ($m.nom | default $autor) -}}
     {{- $rows = $rows | append (dict
-        "name" $name
-        "count" (len $term.Pages)
-        "url" $term.Page.RelPermalink
-        "web" ($info.web | default "")
-        "instagram" ($info.instagram | default "")
-        "actiu" (default false ($info.actiu | default false))
+        "name"      $name
+        "count"     $count
+        "url"       $url
+        "web"       ($m.web | default "")
+        "instagram" ($m.instagram | default "")
+        "actiu"     ($m.actiu | default false)
+        "rol"       ($m.rol | default "")
     ) -}}
   {{- end -}}
 {{- end -}}
-{{- $actius := where $rows "actiu" true -}}
-{{- $historics := where $rows "actiu" false -}}
+{{- $actius   := where $rows "actiu" true -}}
+{{- $veterans := where $rows "actiu" false -}}
 
 <table class="members">
   <thead>
@@ -29,28 +33,32 @@
   <tbody>
     {{- range sort $actius "count" "desc" }}
     <tr>
-      <td class="members-name"><a href="{{ .url }}">{{ .name }}</a></td>
-      <td class="members-count"><a href="{{ .url }}">{{ .count }}</a></td>
-      <td>{{ with .web }}{{ $label := . | replaceRE "^https?://" "" | replaceRE "/$" "" }}{{ if strings.Contains . "blogger.com/profile" }}{{ $label = "Perfil a Blogger" }}{{ end }}<a href="{{ . }}" target="_blank" rel="noopener">{{ $label }}</a>{{ else }}<a href="{{ .url }}">Posts al blog</a>{{ end }}</td>
-      <td>{{ with .instagram }}<a href="{{ . }}" target="_blank" rel="noopener">@{{ . | replaceRE "^https?://(www\\.)?instagram\\.com/" "" | replaceRE "/$" "" }}</a>{{ else }}—{{ end }}</td>
+      <td class="members-name">{{ if .url }}<a href="{{ .url }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}</td>
+      <td class="members-count">{{ if gt .count 0 }}<a href="{{ .url }}">{{ .count }}</a>{{ else if .rol }}<span class="members-rol">{{ .rol }}</span>{{ else }}&mdash;{{ end }}</td>
+      {{- $web := .web }}{{- $url := .url }}
+      <td>{{ if $web }}{{ $label := $web | replaceRE "^https?://" "" | replaceRE "/$" "" }}{{ if strings.Contains $web "blogger.com/profile" }}{{ $label = "Perfil a Blogger" }}{{ end }}<a href="{{ $web }}" target="_blank" rel="noopener">{{ $label }}</a>{{ else if $url }}<a href="{{ $url }}">Posts al blog</a>{{ else }}&mdash;{{ end }}</td>
+      {{- $ig := .instagram }}
+      <td>{{ if $ig }}<a href="{{ $ig }}" target="_blank" rel="noopener">@{{ $ig | replaceRE "^https?://(www\\.)?instagram\\.com/" "" | replaceRE "/$" "" }}</a>{{ else }}&mdash;{{ end }}</td>
     </tr>
     {{- end }}
   </tbody>
 </table>
 
-{{- if $historics }}
+{{- if $veterans }}
 <h2 class="members-historic-title">Membres veterans</h2>
 <table class="members">
   <thead>
     <tr><th>Membre</th><th>Posts a 9bi</th><th>Web / Blog personal</th><th>Instagram</th></tr>
   </thead>
   <tbody>
-    {{- range sort $historics "count" "desc" }}
+    {{- range sort $veterans "count" "desc" }}
     <tr>
-      <td class="members-name"><a href="{{ .url }}">{{ .name }}</a></td>
-      <td class="members-count"><a href="{{ .url }}">{{ .count }}</a></td>
-      <td>{{ with .web }}{{ $label := . | replaceRE "^https?://" "" | replaceRE "/$" "" }}{{ if strings.Contains . "blogger.com/profile" }}{{ $label = "Perfil a Blogger" }}{{ end }}<a href="{{ . }}" target="_blank" rel="noopener">{{ $label }}</a>{{ else }}<a href="{{ .url }}">Posts al blog</a>{{ end }}</td>
-      <td>{{ with .instagram }}<a href="{{ . }}" target="_blank" rel="noopener">@{{ . | replaceRE "^https?://(www\\.)?instagram\\.com/" "" | replaceRE "/$" "" }}</a>{{ else }}—{{ end }}</td>
+      <td class="members-name">{{ if .url }}<a href="{{ .url }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}</td>
+      <td class="members-count">{{ if gt .count 0 }}<a href="{{ .url }}">{{ .count }}</a>{{ else if .rol }}<span class="members-rol">{{ .rol }}</span>{{ else }}&mdash;{{ end }}</td>
+      {{- $web := .web }}{{- $url := .url }}
+      <td>{{ if $web }}{{ $label := $web | replaceRE "^https?://" "" | replaceRE "/$" "" }}{{ if strings.Contains $web "blogger.com/profile" }}{{ $label = "Perfil a Blogger" }}{{ end }}<a href="{{ $web }}" target="_blank" rel="noopener">{{ $label }}</a>{{ else if $url }}<a href="{{ $url }}">Posts al blog</a>{{ else }}&mdash;{{ end }}</td>
+      {{- $ig := .instagram }}
+      <td>{{ if $ig }}<a href="{{ $ig }}" target="_blank" rel="noopener">@{{ $ig | replaceRE "^https?://(www\\.)?instagram\\.com/" "" | replaceRE "/$" "" }}</a>{{ else }}&mdash;{{ end }}</td>
     </tr>
     {{- end }}
   </tbody>

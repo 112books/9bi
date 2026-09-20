@@ -168,10 +168,11 @@
     (function () {
         var header = document.getElementById("header");
         if (!header) return;
-        var threshold = 120;
+        var thresholdOn = 120, thresholdOff = 90;
         function onScroll() {
-            if (window.scrollY > threshold) header.classList.add("scrolled");
-            else header.classList.remove("scrolled");
+            var y = window.scrollY;
+            if (y > thresholdOn) header.classList.add("scrolled");
+            else if (y < thresholdOff) header.classList.remove("scrolled");
         }
         onScroll();
         window.addEventListener("scroll", onScroll, { passive: true });
