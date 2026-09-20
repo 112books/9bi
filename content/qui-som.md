@@ -4,7 +4,7 @@ description: "9 Barris Imatge: història, reunions, membres i entitats amigues"
 url: "/qui-som/"
 ---
 
-**9bi** és l'abreviatura de l'**Associació fotogràfica 9 Barris Imatge**, un col·lectiu de fotògrafs i fotògrafes fundat l'any **2002** a l'àmbit del districte de **Nou Barris** (Barcelona) que documenta la vida dels barris: les festes, els actes veïnals, la cultura popular i el dia a dia de la gent. **Des de 2002 documentant Nou Barris.**
+**9bi** és l'abreviatura de **9 Barris Imatge**, un col·lectiu de fotògrafs i fotògrafes fundat l'any **2002** per **Josep Antón Cordoncillo** a l'àmbit del districte de **Nou Barris** (Barcelona) que documenta la vida dels barris: les festes, els actes veïnals, la cultura popular i el dia a dia de la gent. **Des de 2002 documentant Nou Barris.**
 
 <div class="qsb-tabs">
 <input type="radio" name="qsb-view" id="qsb-som" class="qsb-view-radio" checked>
@@ -19,11 +19,17 @@ url: "/qui-som/"
 </div>
 <section class="qsb-view" id="qsb-panel-som">
 <h2>Història</h2>
-<p>L'associació es va fundar l'any <strong>2002</strong>. Més tard, el <strong>2010</strong>, va néixer el bloc de fotografia com a crònica fotogràfica oberta dels Nou Barris des de dins. Al llarg dels anys, el col·lectiu ha crescut i s'ha anat incorporant gent amb mirades molt diverses, però amb un objectiu comú: <strong>explicar el barri amb una càmera</strong>.</p>
-<p>El bloc ha estat sempre un espai obert i autogestionat on cada membre publica els seus reportatges, amb la fotografia com a protagonista i el text com a acompanyament.</p>
-<p>El logotip de l'associació és obra de l'artista de Nou Barris <strong>Toni Pagès</strong>.</p>
-<p><img src="{{< rel "/images/9bi-històrica.jpeg" >}}" alt="Foto històrica de 9 Barris Imatge" loading="lazy" decoding="async"></p>
-<p><img src="{{< rel "/images/Membres-casalL1300396.jpg" >}}" alt="Membres de 9 Barris Imatge al Casal" loading="lazy" decoding="async"></p>
+<p>El col·lectiu es va fundar l'any <strong>2002</strong> per <strong>Josep Antón Cordoncillo</strong>. Tot el material del fundador es troba a l'Arxiu Històric de Roquetes des de la seva mort, però sembla que encara no hi ha manera de que aquest estigui disponible. Fins a data d'avui ningú d'aquest arxiu ha contactat amb nosaltres.</p>
+<figure>
+<img src="{{< rel "/images/9bi-històrica.jpeg" >}}" alt="Alguns dels primers membres de 9 Barris Imatge; Manel Ulls, Petxina, Cordoncillo, Pedro Click i Albert" loading="lazy" decoding="async">
+<figcaption>Alguns dels primers membres de 9 Barris Imatge; Manel «Ulls», Petxina, Cordoncillo, Pedro Click i Albert.</figcaption>
+</figure>
+<p>El blog que ara ja es consolida com a pàgina web ha estat sempre un espai obert i autogestionat on cada membre publica els seus reportatges, amb la fotografia com a protagonista i el text com a acompanyament.</p>
+<figure>
+<img src="{{< rel "/images/Membres-casalL1300396.jpg" >}}" alt="Alguns dels membres actuals del col·lectiu: Joan Linux, Francesc Barbé, Pedro Click i Manel Ulls" loading="lazy" decoding="async">
+<figcaption>Alguns dels membres actuals del col·lectiu: Joan Linux, Francesc Barbé, Pedro Click i Manel «Ulls».</figcaption>
+</figure>
+<p>El logotip que tenim des dels inicis és obra de l'artista de Nou Barris <strong>Toni Pagès</strong>.</p>
 </section>
 <section class="qsb-view" id="qsb-panel-com">
 <h2>Reunions</h2>
@@ -31,8 +37,9 @@ url: "/qui-som/"
 <p><img src="{{< rel "/images/reunións-dojous-L1420055-1024x576.jpg" >}}" alt="Reunió de dijous de 9 Barris Imatge" loading="lazy" decoding="async"></p>
 <p>Ho fem els dijous per ser el dia de les minyones i perquè les nostres amigues <a href="https://www.instagram.com/rudascooperativa/">Las Rudas</a> fan el pintxo i la tapa i nosaltres celebrem el que anomenem «Dojous Calents», si vens ho entendràs ;)</p>
 <h2>Santa Brava</h2>
-<p><img class="santa-brava-logo" src="{{< rel "/images/santa-brava.png" >}}" alt="Santa Brava" loading="lazy" decoding="async" style="width:40%;margin-left:auto;display:block"></p>
+<img class="santa-brava-logo" src="{{< rel "/images/santa-brava.png" >}}" alt="Santa Brava" loading="lazy" decoding="async" style="float:right;width:35%;margin:0 0 1em 1.5em">
 <p>Aquesta festivitat, totalment pagana i sense subvenció de cap secta, fa homenatge al picant en qualsevol de les seves varietats. Aquest element és el que ens uneix a tot el grup i cada membre intenta portar salses noves fetes per un mateix o comprades a indrets exòtics.</p>
+<div style="clear:both"></div>
 <h2>Com funcionem</h2>
 <p>9 Barris Imatge funciona amb la feina voluntària dels seus membres. Les poques ajudes econòmiques que tenim serveixen per comprar material (flaixos, trípodes, etc.) i poc més. Ens mou la participació real i ser part de la vida associativa del barri.</p>
 <p>No obstant això, no ens sentim obligats a res: fem el que bonament podem, i si ens aviseu hi ha més possibilitats que fem quatre fotografies del vostre acte cultural, festa popular, etc. Sempre a Nou Barris!</p>

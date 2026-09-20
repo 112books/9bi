@@ -1,12 +1,12 @@
 ---
 title: "Contacte"
-description: "Posa't en contacte amb l'Associació fotogràfica 9 Barris Imatge"
+description: "Posa't en contacte amb el col·lectiu fotogràfic 9 Barris Imatge"
 url: "/contacte/"
 ---
 
 Si vols contactar amb **9 Barris Imatge** —per participar, col·laborar o qualsevol altra consulta—, omple el formulari i et respondrem tan aviat com puguem.
 
-El formulari envia el missatge al correu de l'associació. Abans que funcioni per primera vegada, algú de l'equip ha de **confirmar l'activació** de l'adreça (us arribarà un primer correu de verificació automàticament).
+El formulari envia el missatge al correu del col·lectiu. Abans que funcioni per primera vegada, algú de l'equip ha de **confirmar l'activació** de l'adreça (us arribarà un primer correu de verificació automàticament).
 {.guide-note}
 
 <form class="contact-form" action="https://formsubmit.co/info@9barrisimatge.org" method="POST">
@@ -32,6 +32,6 @@ El formulari envia el missatge al correu de l'associació. Abans que funcioni pe
 </form>
 
 <div class="contact-after">
-  <p>Responsable del tractament: <strong>Associació 9 Barris Imatge</strong>. Finalitat: atendre i respondre la teva consulta. Legitimació: el teu consentiment. Destinataris: FormSubmit (servei d'enviament del formulari) i el proveïdor de correu de l'associació; no es fan altres cessions. Drets: pots exercir els drets d'accés, rectificació, supressió, oposició, limitació i portabilitat escrivint a info@9barrisimatge.org, i reclamar davant l'AEPD. Més informació a la <a href="{{< relref \"privacitat.md\" >}}">política de privacitat</a>.</p>
+  <p>Responsable del tractament: <strong>9 Barris Imatge</strong>. Finalitat: atendre i respondre la teva consulta. Legitimació: el teu consentiment. Destinataris: FormSubmit (servei d'enviament del formulari) i el proveïdor de correu del col·lectiu; no es fan altres cessions. Drets: pots exercir els drets d'accés, rectificació, supressió, oposició, limitació i portabilitat escrivint a info@9barrisimatge.org, i reclamar davant l'AEPD. Més informació a la <a href="{{< relref \"privacitat.md\" >}}">política de privacitat</a>.</p>
   <p class="contact-alt">També pots escriure'ns directament a <a href="mailto:info@9barrisimatge.org">info@9barrisimatge.org</a>.</p>
 </div>

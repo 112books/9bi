@@ -64,7 +64,7 @@ Omple el formulari de sota amb el teu nom d'usuari de Codeberg i les teves dades
 </form>
 
 <div class="contact-after">
-  <p>Responsable: <strong>Associació 9 Barris Imatge</strong>. Finalitat: gestionar el teu perfil de membre i l'accés al gestor de continguts. Legitimació: el teu consentiment. Destinataris: FormSubmit (enviament del formulari) i el proveïdor de correu de l'associació; no es fan altres cessions. Drets: pots exercir els drets d'accés, rectificació, supressió, oposició, limitació i portabilitat escrivint a <a href="mailto:info@9barrisimatge.org">info@9barrisimatge.org</a>.</p>
+  <p>Responsable: <strong>9 Barris Imatge</strong>. Finalitat: gestionar el teu perfil de membre i l'accés al gestor de continguts. Legitimació: el teu consentiment. Destinataris: FormSubmit (enviament del formulari) i el proveïdor de correu del col·lectiu; no es fan altres cessions. Drets: pots exercir els drets d'accés, rectificació, supressió, oposició, limitació i portabilitat escrivint a <a href="mailto:info@9barrisimatge.org">info@9barrisimatge.org</a>.</p>
   <p class="contact-alt">Si prefereixes, pots enviar-nos les dades directament per correu a <a href="mailto:info@9barrisimatge.org">info@9barrisimatge.org</a>.</p>
 </div>
 

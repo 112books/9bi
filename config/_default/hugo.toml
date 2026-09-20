@@ -47,7 +47,7 @@ uglyURLs = true
   # les guies i la documentació són internes (backend) i no hi apareixen.
   mainSections = ["posts"]
 
-  description = "Des de 2002 documentant Nou Barris (Barcelona). Blog de l'Associació fotogràfica 9 Barris Imatge."
+  description = "Des de 2002 documentant Nou Barris (Barcelona). Blog del col·lectiu fotogràfic 9 Barris Imatge."
   ShowPostAuthors = true
   ShowBreadCrumbs = false
   ShowReadingTime = false

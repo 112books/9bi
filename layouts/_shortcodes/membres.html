@@ -25,7 +25,28 @@
   {{- end -}}
 {{- end -}}
 {{- $actius   := where $rows "actiu" true -}}
-{{- $veterans := where $rows "actiu" false -}}
+{{- $tots_veterans := where $rows "actiu" false -}}
+{{- $honorifics := slice -}}
+{{- $veterans  := slice -}}
+{{- range $tots_veterans -}}
+  {{- if and .rol (eq .count 0) -}}
+    {{- $honorifics = $honorifics | append . -}}
+  {{- else -}}
+    {{- $veterans = $veterans | append . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if $honorifics }}
+<div class="membres-fundadors">
+  {{- range $honorifics }}
+  <div class="membres-fundador">
+    <span class="membres-fundador-name">{{ .name }}</span>
+    <span class="membres-fundador-rol">{{ .rol }}</span>
+    <span class="membres-fundador-dash">&mdash;&emsp;&mdash;</span>
+  </div>
+  {{- end }}
+</div>
+{{- end }}
 
 <table class="members">
   <thead>

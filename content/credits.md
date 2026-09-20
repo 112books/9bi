@@ -8,7 +8,7 @@ Aquest web no és només una eina: és també una manera de fer. Aquí expliquem
 
 ## Desenvolupament
 
-L'ha desenvolupat **[LinuxBCN](https://linuxbcn.com)**, amb la feina i les aportacions de l'associació. El codi es manté al repositori [`linuxbcn/9bi`](https://codeberg.org/linuxbcn/9bi) de [Codeberg](https://codeberg.org/).
+L'ha desenvolupat **[LinuxBCN](https://linuxbcn.com)**, amb la feina i les aportacions del col·lectiu. El codi es manté al repositori [`linuxbcn/9bi`](https://codeberg.org/linuxbcn/9bi) de [Codeberg](https://codeberg.org/).
 
 ## Amb què està fet
 
