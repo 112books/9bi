@@ -20,6 +20,7 @@
         "instagram" ($m.instagram | default "")
         "actiu"     ($m.actiu | default false)
         "rol"       ($m.rol | default "")
+        "ordre"     (int ($m.ordre | default 99))
     ) -}}
   {{- end -}}
 {{- end -}}
@@ -51,7 +52,7 @@
     <tr><th>Membre</th><th>Posts a 9bi</th><th>Web / Blog personal</th><th>Instagram</th></tr>
   </thead>
   <tbody>
-    {{- range sort $veterans "count" "desc" }}
+    {{- range sort $veterans "ordre" "asc" }}
     <tr>
       <td class="members-name">{{ if .url }}<a href="{{ .url }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}</td>
       <td class="members-count">{{ if gt .count 0 }}<a href="{{ .url }}">{{ .count }}</a>{{ else if .rol }}<span class="members-rol">{{ .rol }}</span>{{ else }}&mdash;{{ end }}</td>

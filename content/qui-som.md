@@ -22,6 +22,7 @@ url: "/qui-som/"
 <p>L'associació es va fundar l'any <strong>2002</strong>. Més tard, el <strong>2010</strong>, va néixer el bloc de fotografia com a crònica fotogràfica oberta dels Nou Barris des de dins. Al llarg dels anys, el col·lectiu ha crescut i s'ha anat incorporant gent amb mirades molt diverses, però amb un objectiu comú: <strong>explicar el barri amb una càmera</strong>.</p>
 <p>El bloc ha estat sempre un espai obert i autogestionat on cada membre publica els seus reportatges, amb la fotografia com a protagonista i el text com a acompanyament.</p>
 <p>El logotip de l'associació és obra de l'artista de Nou Barris <strong>Toni Pagès</strong>.</p>
+<p><img src="{{< rel "/images/9bi-històrica.jpeg" >}}" alt="Foto històrica de 9 Barris Imatge" loading="lazy" decoding="async"></p>
 <p><img src="{{< rel "/images/Membres-casalL1300396.jpg" >}}" alt="Membres de 9 Barris Imatge al Casal" loading="lazy" decoding="async"></p>
 </section>
 <section class="qsb-view" id="qsb-panel-com">
@@ -45,6 +46,10 @@ url: "/qui-som/"
 {{< membres >}}
 </section>
 <section class="qsb-view" id="qsb-panel-relacions">
+<h2>Segueix-nos</h2>
+<ul>
+<li><strong>Instagram</strong> — <a href="https://www.instagram.com/9barrisimatge_oficial/" target="_blank" rel="noopener">@9barrisimatge_oficial</a></li>
+</ul>
 <h2>Entitats que ajuden activament a 9 Barris Imatge</h2>
 <ul>
 <li><strong>Casal de Barri de Prosperitat</strong> — <a href="http://www.casalprospe.org/">casalprospe.org</a></li>

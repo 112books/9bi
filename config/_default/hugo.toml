@@ -137,3 +137,8 @@ uglyURLs = true
     name = "RSS"
     url = "/index.xml"
     weight = 6
+  [[menu.footer]]
+    identifier = "instagram"
+    name = "Instagram"
+    url = "https://www.instagram.com/9barrisimatge_oficial/"
+    weight = 7
