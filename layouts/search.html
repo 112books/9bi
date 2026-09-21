@@ -27,7 +27,7 @@
 </div>
 
 {{- /* Núvol d'etiquetes a la pàgina de Cerca */ -}}
-{{- $terms := site.Taxonomies.tags.Alphabetical }}
+{{- $terms := site.Taxonomies.tags.ByCount }}
 {{- if gt (len $terms) 0 }}
 {{- $max := 1 }}
 {{- range $terms }}{{ if gt .Count $max }}{{ $max = .Count }}{{ end }}{{ end }}
