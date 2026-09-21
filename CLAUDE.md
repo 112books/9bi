@@ -418,6 +418,12 @@ sync-9bi.sh                        # script de sync/gestió
 
 ## Tasques pendents (backlog curt)
 
+> **Anotat 2026-09-21 — 4 pendents dictats per l'usuari (per no oblidar-los; cap acció feta, només registre):**
+> 1. **Revisar i arreglar que surtin les imatges en miniatura al backend**.
+> 2. **Revisar si ja algú ha iniciat el procès de creació del seu usuari**.
+> 3. **Revisar que els que no son ADMIN (Tots menys jo i els que diré) només puguin veure els seus posts**.
+> 4. **Migrar ja al domini de prodicció (9barrisimatge.org)**: Canviar DNS, revisar que tot es veurà bé, revisar que les URL actuals de blogger es redireccionen on pertoca i finalment desactivar el blogger.
+
 - **Formulari (`content/contacte.md`)**: **fet (2026-09-19)** — camp nou `entitat` ("A quina entitat de Nou Barris pertanys o representes (opcionalment)", input opcional, patró `assumpte`), entre `assumpte` i `missatge`.
 - **Membres (`layouts/_shortcodes/membres.html`)**: **fet (2026-09-19)** — els membres sense `web` enllacen a «Posts al blog» (`/author/<slug>.html`) en lloc de «—».
 - **`content/privacitat.md`**: **fet (2026-09-18)** — adreça real (Casal de Barri de Prosperitat) i **sense NIF** (l'associació no en té); sense placeholders. (El correu ja hi és: info@9barrisimatge.org.)
