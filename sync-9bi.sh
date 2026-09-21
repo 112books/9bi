@@ -130,9 +130,14 @@ sync() {
 }
 
 # ── Deploy real a producció (build → branca 'pages') ────────────────────
-# Fa servir un directori temporal per al build, independent del repo local:
-# no toca 'main' ni cap fitxer del working tree. Només force-pusha la
-# branca 'pages' remota (branca de sortida generada, no de codi font).
+# Deploy INCREMENTAL (canvi 2026-09-21, motiu quota de Codeberg):
+# ANTES es feia 'git init' + force-push d'un snapshot complet del build
+# (~160 MiB) a cada deploy; els snapshots anteriors quedaven com a objectes
+# orfes al servidor i feien créixer la quota fins a superar els 750 MiB.
+# ARA es manté un CLON persistent de la branca 'pages' a ~/.cache/9bi-pages,
+# es reseteja a l'últim publicat i s'hi sincronitza el build: el push és
+# NORMAL (fast-forward) i només es pugen els objectes que realment canvien.
+# Els blobs que no canvien es reutilitzen (mateix hash) → creixement mínim.
 deploy() {
   if [[ -n "$(git status --short)" ]]; then
     warn "Hi ha canvis sense commitejar/pujar a '${BRANCH_DEPLOY}'."
@@ -140,6 +145,15 @@ deploy() {
     read -r -p "  Continuar igualment? (s/N) " cont
     [[ "$cont" != "s" && "$cont" != "S" ]] && { dim "Deploy cancel·lat."; return 0; }
     echo ""
+  fi
+
+  PAGES_CACHE="${HOME}/.cache/9bi-pages"
+  if [[ ! -d "$PAGES_CACHE/.git" ]]; then
+    print "Primera vegada: clonant la branca '${BRANCH_PAGES}' a ${PAGES_CACHE}..."
+    git clone -q --branch "$BRANCH_PAGES" --single-branch "$REPO_SSH" "$PAGES_CACHE" || {
+      err "No s'ha pogut clonar ${REPO_SSH}. Revisa quota/connexió."
+      exit 1
+    }
   fi
 
   read -r -p "  Nom d'aquest deploy (p.ex. 'header x2 + graella 4x2'): " label
@@ -155,8 +169,8 @@ deploy() {
   ok "Build correcte."
 
   echo ""
-  warn "Ara es farà un push forçat (force-push) a la branca remota '${BRANCH_PAGES}'."
-  warn "Això reemplaça el contingut publicat; NO afecta 'main' ni cap altra branca."
+  warn "Es farà un deploy incremental (només els fitxers que canvien) a la branca '${BRANCH_PAGES}'."
+  warn "El clon persistent es resetejarà a l'últim publicat abans de sincronitzar-hi el build."
   read -r -p "  Confirmes el deploy \"${label}\"? (s/N) " confirm
   if [[ "$confirm" != "s" && "$confirm" != "S" ]]; then
     dim "Deploy cancel·lat."
@@ -164,18 +178,27 @@ deploy() {
     return 0
   fi
 
+  print "Sincronitzant el clon de '${BRANCH_PAGES}' amb el remot..."
+  git -C "$PAGES_CACHE" fetch -q origin "$BRANCH_PAGES"
+  git -C "$PAGES_CACHE" reset -q --hard "origin/${BRANCH_PAGES}"
+  git -C "$PAGES_CACHE" clean -qfd
+
+  print "Copiant el build al clon (eliminant fitxers que ja no hi són)..."
+  rsync -a --delete "$BUILD_DIR"/ "$PAGES_CACHE"/
+
   USER_NAME="$(git config user.name || echo "9bi")"
   USER_EMAIL="$(git config user.email || echo "noreply@9barrisimatge.org")"
 
   (
-    cd "$BUILD_DIR"
-    git init -q -b "$BRANCH_PAGES"
-    git add -A
-    git -c user.name="$USER_NAME" -c user.email="$USER_EMAIL" commit -qm "$label"
-    git push -f "$REPO_SSH" "HEAD:${BRANCH_PAGES}"
-  ) || {
-    err "Push a '${BRANCH_PAGES}' fallat."
-    rm -rf "$BUILD_DIR"
+    git -C "$PAGES_CACHE" add -A
+    git -C "$PAGES_CACHE" -c user.name="$USER_NAME" -c user.email="$USER_EMAIL" \
+      commit -qm "$label"
+  ) || { err "Commit al clon fallat."; exit 1; }
+
+  print "Push incremental a '${BRANCH_PAGES}'..."
+  git -C "$PAGES_CACHE" push origin "$BRANCH_PAGES" || {
+    err "Push a '${BRANCH_PAGES}' fallat. Si és per quota de Codeberg, cal tenir"
+    err "aprovada la petició '[STORAGE]' a Codeberg-e.V./requests (vegeu drafts/2026-09-21-quota-codeberg.md)."
     exit 1
   }
 

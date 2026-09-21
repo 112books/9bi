@@ -119,11 +119,27 @@ sync-9bi.sh                        # script de sync/gestió
   3. **Webhook configurat al repo** (Settings → Webhooks → Forgejo, Target `https://linuxbcn.codeberg.page/9bi/`, Branch filter `pages`) — és el que publica el lloc (sense ell, 400).
 - Nota: en el workflow hi ha un pas comentat per refrescar `data/popular.json` amb GoatCounter (secret `GOATCOUNTER_API_KEY`)
 
+## Sessió 2026-09-21 — Quota de Codeberg: diagnòstic, petició i deploy incremental
+
+> Tot el context i el text llest de la petició a **`drafts/2026-09-21-quota-codeberg.md`**.
+> Decisió de l'usuari: **restar a Codeberg** (programari lliure; defugir GitHub), demanar
+> augment **modest** de quota (1500 MiB), garantir ús eficient, i **no pagar mai per quota**
+> (si Codeberg cobrès — no és la política — pla B: GitHub).
+
+- **Quota de Codeberg**: límit per **usuari** (no per repo) de **750 MiB per a git**; LFS/packages 1,5 GiB addicionals (no es fan servir). Font: blog oficial «New storage limits on Codeberg» (2025-05-14) i FAQ oficial: *"no quota for valid use-cases"*, excepcions per a ús legítim **gratuïtes** (el propietari les aprova amb un "lgtm"; casos reals aprovats: issues 2103, 2109, 2026 de `Codeberg-e.V./requests`).
+- **Ús real del compte `linuxbcn`** (API, 2026-09-21): `9bi` = 767.549 KiB (**≈ 749,6 MiB**), `konsento` = 6.515 KiB, `gestor-hores` = 9 KiB → **total ≈ 756 MiB > 750 MiB** (sobrepas ≈ 6 MiB). Per això el push falla: `Forgejo: Quota exceeded … pre-receive hook declined`.
+- **Causa de la mida de `9bi`**: el **deploy antic** feia `git init` + `git add -A` + `git push -f HEAD:pages` amb **tot el build (~164 MiB)** a cada publicació; els snapshots anteriors quedaven com a **objectes orfes** al servidor que compten per a la quota fins al GC. El repo local comprimit és només ~254 MiB (pack 229 MiB) — aquesta és la mida "honesta". Les **fotos reals són externes** (àlbums Google Photos enllaçats); al repo només hi ha covers/miniatures petites.
+- **Solució aplicada (3 potes)**:
+  1. **Petició `[STORAGE]`** a `Codeberg-e.V./requests/issues/new` (template «Increase storage quota(s)»): Git Repositories **1500 MiB**, LFS 1500 MiB (default). Text complet llest a `drafts/2026-09-21-quota-codeberg.md`. Pend: **enviar-la** (requereix login a Codeberg).
+  2. **Deploy incremental** a `sync-9bi.sh` (implementat 2026-09-21): clon persistent de `pages` a `~/.cache/9bi-pages`, reset a l'últim publicat, rsync del build, i **push normal** (fast-forward) — només es pugen els objectes que canvien; no es creen orfes. **Ja no hi ha force-push.**
+  3. Es deixa anotada l'opció de demanar que Codeberg faci **GC** al servidor (neteja dels orfes antics) un cop hi hagi marge per pushar; amb el deploy incremental el repo ja no creix.
+
 ## Problemes coneguts / pendents (verificats)
 
-1. **Forgejo Actions activades al repo** però **sense runner disponible** (Codeberg no dona els runners gestionats a usuaris nous: `/actions/approval` → 404). El deploy es fa manualment via branca `pages` + webhook; el workflow no s'ha executat.
-2. `static/admin/config.yml` amb el Client ID real de l'OAuth2 de Codeberg (`app_id: 0c6b6c51-…`) — **fet i desplegat (2026-09-18, commit `dd36e51e`)**. Pendent: **usuari i permisos** dels col·laboradors (es treuran a membres inactius perquè no editin).
-3. `extend_head.html` apunta a `9barrisimatge.goatcounter.com`: cal crear el lloc al GoatCounter.
+1. **Quota de git de Codeberg superada** (≈756 MiB vs 750 MiB) → **cap push** (ni a `main` ni a `pages`) funciona fins que s'aprovi la petició `[STORAGE]` (1500 MiB) a `Codeberg-e.V./requests`. **Els commits queden locals i nets** (no es perden). Un cop aprovada: pujar els commits pendents de `main` + 1 deploy. El script ja fa **deploy incremental** perquè no torni a passar. (Vegeu `drafts/2026-09-21-quota-codeberg.md`.)
+2. **Forgejo Actions activades al repo** però **sense runner disponible** (Codeberg no dona els runners gestionats a usuaris nous: `/actions/approval` → 404). El deploy es fa manualment via branca `pages` + webhook; el workflow no s'ha executat. Idem: el workflow actual no és el canal; el desplegament de producció és `sync-9bi.sh deploy` (incremental, 2026-09-21).
+3. `static/admin/config.yml` amb el Client ID real de l'OAuth2 de Codeberg (`app_id: 0c6b6c51-…`) — **fet i desplegat (2026-09-18, commit `dd36e51e`)**. Pendent: **usuari i permisos** dels col·laboradors (es treuran a membres inactius perquè no editin).
+4. `extend_head.html` apunta a `9barrisimatge.goatcounter.com`: cal crear el lloc al GoatCounter.
 
 ## Blog real (verificat el 2026-09-17)
 
