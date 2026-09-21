@@ -2,6 +2,9 @@
 
 Documentació per a sessions de Claude. Només fets verificats dels fitxers del projecte.
 
+- **Consensuar abans d'inventar**: no inventar ni afegir res creativament (textos, funcionalitats, disseny, etiquetes…)
+  sense demanar permís explícit. Quan un pla JA s'ha consensuat, aplicar-lo sense tonteries (sense re-verificar el que
+  ja està verificat i registrat), a no ser que hi hagi risc real de trencar alguna cosa — en aquest cas aturar i avisar abans.
 ## REGLA PRIMERA (obligatòria)
 
 - **No implementar mai res pel meu compte.** Ni contingut, ni textos, ni disseny, ni enllaços, ni estructures noves. Els suggeriments són benvinguts, però **cal presentar-los i esperar una aprovació explícita de l'usuari abans de tocar cap fitxer.**
@@ -418,11 +421,12 @@ sync-9bi.sh                        # script de sync/gestió
 
 ## Tasques pendents (backlog curt)
 
-> **Anotat 2026-09-21 — 4 pendents dictats per l'usuari (per no oblidar-los; cap acció feta, només registre):**
+> **Anotat 2026-09-21 — 5 pendents dictats per l'usuari (per no oblidar-los; cap acció feta, només registre):**
 > 1. **Revisar i arreglar que surtin les imatges en miniatura al backend**.
 > 2. **Revisar si ja algú ha iniciat el procès de creació del seu usuari**.
 > 3. **Revisar que els que no son ADMIN (Tots menys jo i els que diré) només puguin veure els seus posts**.
 > 4. **Migrar ja al domini de prodicció (9barrisimatge.org)**: Canviar DNS, revisar que tot es veurà bé, revisar que les URL actuals de blogger es redireccionen on pertoca i finalment desactivar el blogger.
+> 5. **Ordenar a l'apartat de cerca les etiquetes per les que apareixen més a les que apareixen menys**.
 
 - **Formulari (`content/contacte.md`)**: **fet (2026-09-19)** — camp nou `entitat` ("A quina entitat de Nou Barris pertanys o representes (opcionalment)", input opcional, patró `assumpte`), entre `assumpte` i `missatge`.
 - **Membres (`layouts/_shortcodes/membres.html`)**: **fet (2026-09-19)** — els membres sense `web` enllacen a «Posts al blog» (`/author/<slug>.html`) en lloc de «—».
