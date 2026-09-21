@@ -2,9 +2,9 @@
 
 Documentació per a sessions de Claude. Només fets verificats dels fitxers del projecte.
 
-- **Consensuar abans d'inventar**: no inventar ni afegir res creativament (textos, funcionalitats, disseny, etiquetes…)
-  sense demanar permís explícit. Quan un pla JA s'ha consensuat, aplicar-lo sense tonteries (sense re-verificar el que
-  ja està verificat i registrat), a no ser que hi hagi risc real de trencar alguna cosa — en aquest cas aturar i avisar abans.
+- **Demanar permís abans d'inventar**: cal demanar permís per vols inventar creativament coses (textos, funcionalitats,
+  disseny, etiquetes…). Quan hem consensuat un pla cal aplicar-lo sense tonteries (sense re-verificar el que ja està
+  verificat i registrat), a no ser que puguis trencar res — en aquest cas aturar i avisar abans.
 ## REGLA PRIMERA (obligatòria)
 
 - **No implementar mai res pel meu compte.** Ni contingut, ni textos, ni disseny, ni enllaços, ni estructures noves. Els suggeriments són benvinguts, però **cal presentar-los i esperar una aprovació explícita de l'usuari abans de tocar cap fitxer.**
