@@ -3,6 +3,15 @@
 > Data: 2026-09-21. Investigació verificada des de l'API de Codeberg i la documentació
 > oficial (blog.codeberg.org i docs.codeberg.org). Resum de la sessió.
 
+## 🚨 COM ES PODRIA DEMANA: 1 clic
+
+1. Obre `https://codeberg.org/Codeberg-e.V./requests/issues/new?template=storage-quota.yaml`.
+   Si el template no es prefereix, tria «Increase storage quota(s)» del menú de templates.
+2. Omple els camps amb el text de la secció «Text de la petició» d'aquest document.
+3. Envia. Normalment l'owner (fnetX) aprova amb un "lgtm" (casos reals: 2103, 2026, 2109).
+
+(Cal estar loguejat a Codeberg amb l'usuari `linuxbcn`.)
+
 ## Què ha passat
 
 El `git push` al repositori `linuxbcn/9bi` falla amb:
