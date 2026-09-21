@@ -13,10 +13,11 @@
             </a>
         </div>
         <div class="footer-col footer-col--empty">
-            <a href="{{ "credits/" | relURL }}" aria-label="Taro Photo App">
+            <a href="{{ "credits/" | relURL }}" aria-label="Taro Photo App" class="taro-mark">
                 {{- with resources.Get "images/taro-logo-text.svg" }}
                 <img src="{{ .Permalink }}" alt="Taro Photo App" width="69" height="70" loading="lazy">
                 {{- end }}
+                <span class="taro-app-name">Photo App</span>
             </a>
         </div>
         <nav class="footer-col footer-col--web" aria-label="Navegació del web">

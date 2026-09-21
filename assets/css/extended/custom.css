@@ -418,6 +418,29 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Logo Taro a la columna buida + text «Photo App» a sota, color adaptatiu */
+.footer-col--empty a.taro-mark {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  text-decoration: none;
+}
+.footer-col--empty a.taro-mark img {
+  display: block;
+}
+.footer-col--empty a.taro-mark:hover img {
+  animation: footer-logo-wiggle 0.7s ease-in-out;
+}
+.taro-app-name {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.6rem;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  color: var(--primary);
+}
+
 @media (max-width: 1024px) {
   .footer-cols {
     grid-template-columns: repeat(3, 1fr);

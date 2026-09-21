@@ -1,5 +1,5 @@
 ---
-title: "Crèdits"
+title: "Crèdits d'aquest projecte"
 description: "Amb què està fet aquest web, qui l'ha desenvolupat i quins valors defensem"
 url: "/credits/"
 ---
@@ -8,7 +8,11 @@ Aquest web no és només una eina: és també una manera de fer. Aquí expliquem
 
 ## Desenvolupament
 
-L'ha desenvolupat **[LinuxBCN](https://linuxbcn.com)**, amb la feina i les aportacions del col·lectiu. El codi es manté al repositori [`linuxbcn/9bi`](https://codeberg.org/linuxbcn/9bi) de [Codeberg](https://codeberg.org/).
+L'ha desenvolupat **[LinuxBCN](https://linuxbcn.com)**, a partir de la necessitat i la possibilitat que va veure **Joan Linux**, membre de 9 Barris Imatge, de fer en programari lliure el que portàvem massa temps fent a Blogger i amb les limitacions que això comportava: dificultat per publicar els àlbums per a membres amb un perfil poc tècnic, dependència de Blogger i la seva poca flexibilitat, etc. El codi es manté al repositori [`linuxbcn/9bi`](https://codeberg.org/linuxbcn/9bi) de [Codeberg](https://codeberg.org/).
+
+## L'aplicació Taro
+
+Amb el mateix esperit vam crear **Taro**, l'aplicació de programari lliure per a associacions fotogràfiques que les ajuda en la **gestió i l'exhibició de les seves fotografies**. La versió definitiva es presentarà a **[LinuxBCN.com](https://linuxbcn.com/)**, on es concentraran la descripció, la llicència, les funcionalitats i el codi font. Ara mateix encara està en **fase de beta**: qualsevol suggeriment serà benvingut, especialment per part dels membres del col·lectiu de 9 Barris Imatge.
 
 ## Amb què està fet
 
@@ -19,7 +23,7 @@ L'ha desenvolupat **[LinuxBCN](https://linuxbcn.com)**, amb la feina i les aport
 - **[Codeberg Pages](https://codeberg.page/)** — publicació del lloc.
 - **[GoatCounter](https://www.goatcounter.com/)** — estadístiques de visites sense cookies.
 - **[Git](https://git-scm.com/)**, **[Markdown](https://daringfireball.net/projects/markdown/)**, HTML, CSS i JavaScript.
-- **[Python](https://www.python.org/)** — scripts de migració des del bloc antic.
+- **[Python](https://www.python.org/)** — les aplicacions dels mòduls de Taro (formularis, votació, autopublicació).
 
 ## Programari lliure
 
@@ -47,7 +51,7 @@ El **[codi del lloc](https://codeberg.org/linuxbcn/9bi)** és programari lliure.
 
 ## Preguntes freqüents sobre les imatges
 
-### Puc fer servir les fotografies del bloc?
+### Puc fer servir les fotografies del web?
 
 Sí, sempre que respectis la llicència: ús no comercial, amb reconeixement i compartint igual. Si tens dubtes, escriu-nos.
 
@@ -57,7 +61,7 @@ Indica l'autor/a, el títol de l'entrada, «9 Barris Imatge», un enllaç a la p
 
 ### On les puc fer servir?
 
-En blocs, xarxes, treballs d'escola, materials d'entitats sense ànim de lucre... Sempre que sigui un ús no comercial i citis correctament.
+En webs, xarxes, treballs d'escola, materials d'entitats sense ànim de lucre... Sempre que sigui un ús no comercial i citis correctament.
 
 ### I si en vull fer un ús comercial?
 
