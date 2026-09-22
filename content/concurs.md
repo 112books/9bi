@@ -11,11 +11,13 @@ El **Concurs Fotogràfic Josep Antón Cordoncillo** és el concurs anual de foto
 <div class="concurs">
 <input type="radio" name="concurs-view" id="view-2026" class="concurs-view-radio" checked>
 <input type="radio" name="concurs-view" id="view-historia" class="concurs-view-radio">
+<input type="radio" name="concurs-view" id="view-guanyadors" class="concurs-view-radio">
 <input type="radio" name="concurs-view" id="view-trofeus" class="concurs-view-radio">
 <input type="radio" name="concurs-view" id="view-vot" class="concurs-view-radio">
 <div class="concurs-viewlist" role="tablist">
 <label for="view-2026" class="concurs-viewtab" role="tab">L'edició 2026</label>
 <label for="view-vot" class="concurs-viewtab" role="tab">El vot del públic</label>
+<label for="view-guanyadors" class="concurs-viewtab" role="tab">Guanyadors</label>
 <label for="view-historia" class="concurs-viewtab" role="tab">Història del concurs</label>
 <label for="view-trofeus" class="concurs-viewtab" role="tab">Els trofeus</label>
 </div>
@@ -134,9 +136,121 @@ de 9 Barris Imatge
 <h3>Premi del públic</h3>
 <p>El premi del públic serà de <strong>100 €</strong>, amb la votació oberta durant l'exposició de desembre de 2026. La fotografia més votada el recollirà al lliurament de premis del <strong>18 de desembre</strong>.</p>
 </section>
+<section class="concurs-view concurs-guanyadors" id="concurs-guanyadors">
+<h2>Guanyadors del concurs</h2>
+<p>El concurs reparteix cada any els premis de les diferents categories (Color, Blanc i negre, el Premi Cordoncillo i el Premi del Públic). Aquí hi recopilem els guanyadors i, quan en tenim, les fotografies guanyadores. La llista es va completant a mesura que recuperem la documentació històrica.</p>
+
+<div class="concurs-edicio">
+<h3>2025 · XXXV edició</h3>
+<table>
+<thead><tr><th>Categoria</th><th>Guanyador/a</th></tr></thead>
+<tbody>
+<tr><td>Premi Cordoncillo · tema «Peus»</td><td>Laura Caraballo Sánchez</td></tr>
+<tr><td>Color</td><td>Xavier Estany Salas</td></tr>
+<tr><td>Blanc i negre</td><td>Paula Charles Esteve</td></tr>
+<tr><td>Vot del públic</td><td>Miguel Ángel Benito García</td></tr>
+</tbody>
+</table>
+<div class="concurs-gallery">
+<figure>
+<img src="{{< rel "/images/concurs/2025-a-peus.webp" >}}" alt="Fotografia guanyadora del Premi Cordoncillo 2025, tema «Peus», de Laura Caraballo Sánchez" class="portrait" loading="lazy" decoding="async">
+<figcaption>Premi Cordoncillo · «Peus» — Laura Caraballo Sánchez</figcaption>
+</figure>
+<figure>
+<img src="{{< rel "/images/concurs/2025-b-color.webp" >}}" alt="Fotografia guanyadora de la categoria Color 2025, de Xavier Estany Salas" loading="lazy" decoding="async">
+<figcaption>Color — Xavier Estany Salas</figcaption>
+</figure>
+<figure>
+<img src="{{< rel "/images/concurs/2025-c-bin.webp" >}}" alt="Fotografia guanyadora de la categoria Blanc i negre 2025, de Paula Charles Esteve" loading="lazy" decoding="async">
+<figcaption>Blanc i negre — Paula Charles Esteve</figcaption>
+</figure>
+<figure>
+<img src="{{< rel "/images/concurs/2025-d-public.webp" >}}" alt="Fotografia guanyadora del Vot del Públic 2025, de Miguel Ángel Benito García" loading="lazy" decoding="async">
+<figcaption>Vot del públic — Miguel Ángel Benito García</figcaption>
+</figure>
+</div>
+</div>
+
+<div class="concurs-edicio">
+<h3>2024 · XXXIV edició</h3>
+<table>
+<thead><tr><th>Categoria</th><th>Guanyador/a</th></tr></thead>
+<tbody>
+<tr><td>Premi Cordoncillo · tema «Mirades»</td><td>Cristian Rodríguez Fernández</td></tr>
+<tr><td>Color</td><td>Gloria Martín Martínez</td></tr>
+<tr><td>Blanc i negre</td><td>Jaume Charles Bernis</td></tr>
+<tr><td>Vot del públic</td><td>Miguel Ángel Benito</td></tr>
+</tbody>
+</table>
+<div class="concurs-gallery">
+<figure>
+<img src="{{< rel "/images/concurs/2024a.webp" >}}" alt="Fotografia guanyadora del Concurs Josep Antón Cordoncillo 2024" loading="lazy" decoding="async">
+</figure>
+<figure>
+<img src="{{< rel "/images/concurs/2024b.webp" >}}" alt="Fotografia guanyadora del Concurs Josep Antón Cordoncillo 2024" loading="lazy" decoding="async">
+</figure>
+<figure>
+<img src="{{< rel "/images/concurs/2024c.webp" >}}" alt="Fotografia guanyadora del Concurs Josep Antón Cordoncillo 2024" loading="lazy" decoding="async">
+</figure>
+<figure>
+<img src="{{< rel "/images/concurs/2024d.webp" >}}" alt="Fotografia guanyadora del Concurs Josep Antón Cordoncillo 2024" loading="lazy" decoding="async">
+</figure>
+</div>
+</div>
+
+<div class="concurs-edicio">
+<h3>2022 · XXXII edició</h3>
+<p class="is-pending">Guanyadors pendents de documentar.</p>
+</div>
+
+<div class="concurs-edicio">
+<h3>2021 · XXXI edició</h3>
+<table>
+<thead><tr><th>Categoria</th><th>Guanyador/a</th></tr></thead>
+<tbody>
+<tr><td>Color</td><td>Carles Verdú</td></tr>
+<tr><td>Blanc i negre</td><td>Jaume Charles («la cara de la nena»)</td></tr>
+<tr><td>Premi Cordoncillo · tema «Vacances»</td><td>Cristian Rodríguez («el despertador»)</td></tr>
+<tr><td>Premi del públic</td><td>Iozsef Kiss («el castell»)</td></tr>
+</tbody>
+</table>
+<div class="concurs-gallery">
+<figure>
+<img src="{{< rel "/images/concurs/2021.webp" >}}" alt="Fotografia guanyadora del Concurs Josep Antón Cordoncillo 2021" loading="lazy" decoding="async">
+</figure>
+<figure>
+<img src="{{< rel "/images/concurs/2021b.webp" >}}" alt="Fotografia guanyadora del Concurs Josep Antón Cordoncillo 2021" loading="lazy" decoding="async">
+</figure>
+<figure>
+<img src="{{< rel "/images/concurs/2021c.webp" >}}" alt="Fotografia guanyadora del Concurs Josep Antón Cordoncillo 2021" loading="lazy" decoding="async">
+</figure>
+<figure>
+<img src="{{< rel "/images/concurs/2021d.webp" >}}" alt="Fotografia guanyadora del Concurs Josep Antón Cordoncillo 2021" class="portrait" loading="lazy" decoding="async">
+</figure>
+</div>
+</div>
+
+<div class="concurs-edicio">
+<h3>2015 · XVI edició</h3>
+<table>
+<thead><tr><th>Categoria</th><th>Obra</th><th>Guanyador/a</th></tr></thead>
+<tbody>
+<tr><td>Color</td><td>«Oficis Perduts»</td><td>Cristina Moral</td></tr>
+<tr><td>Blanc i negre</td><td>«Joc d'ombres»</td><td>Carles Vila</td></tr>
+<tr><td>Analògic</td><td>«Macba»</td><td>Francisco Benítez</td></tr>
+<tr><td>Premi Cordoncillo · tema «La Llum»</td><td>«Hotel Arts Torres Maphre»</td><td>Trini Álvarez</td></tr>
+<tr><td>Premi del públic</td><td>«Protección»</td><td>Felipe Sánchez</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="concurs-note">Edicions anteriors a 2015 i les de 2022 i 2023: pendents de documentar. Les fotografies guanyadores de 2015 i 2021 estan pendents de validació; les imatges de 2021 provenen de l'anunci de l'edició al blog.</p>
+</section>
+
 <section class="concurs-view concurs-history" id="concurs-historia">
 <h2>Història del concurs</h2>
 <p>El Concurs de Fotografia Josep Antón Cordoncillo és un certamen popular vinculat a la Prosperitat i a Nou Barris, organitzat per 9 Barris Imatge amb la col·laboració del Casal de Barri de la Prosperitat. El 2025 va arribar a la 35a edició, cosa que el situa entre les activitats fotogràfiques de més continuïtat del districte.</p>
+<p>Per al llistat de guanyadors i fotos premiades de cada edició, vegeu la pestanya <em>Guanyadors</em>.</p>
 <table>
 <thead>
 <tr><th>Any</th><th>Edició</th><th>Tema del Premi Cordoncillo</th><th>Fets destacats</th></tr>

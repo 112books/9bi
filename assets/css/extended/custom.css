@@ -1073,6 +1073,7 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 #view-2026:checked ~ .concurs-viewlist [for="view-2026"],
+#view-guanyadors:checked ~ .concurs-viewlist [for="view-guanyadors"],
 #view-historia:checked ~ .concurs-viewlist [for="view-historia"],
 #view-trofeus:checked ~ .concurs-viewlist [for="view-trofeus"],
 #view-vot:checked ~ .concurs-viewlist [for="view-vot"] {
@@ -1081,6 +1082,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #view-2026:checked ~ #concurs-2026,
+#view-guanyadors:checked ~ #concurs-guanyadors,
 #view-historia:checked ~ #concurs-historia,
 #view-trofeus:checked ~ #concurs-trofeus,
 #view-vot:checked ~ #concurs-vot {
@@ -1124,6 +1126,65 @@ h1, h2, h3, h4, h5, h6 {
 .concurs-note {
   font-size: 0.9rem;
   opacity: 0.8;
+}
+/* Guanyadors: llistat per edició i galeria de fotos premiades */
+.concurs-guanyadors h2 {
+  margin-top: 0;
+}
+.concurs-guanyadors h3 {
+  margin-top: 2.2rem;
+}
+.concurs-edicio {
+  margin: 2.2rem 0 0;
+}
+.concurs-edicio > table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.8rem 0 1.2rem;
+  font-size: 0.94rem;
+}
+.concurs-edicio th,
+.concurs-edicio td {
+  text-align: left;
+  padding: 0.5rem 0.7rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+.concurs-edicio thead th {
+  border-bottom: 2px solid var(--border);
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.concurs-guanyadors .concurs-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.2rem;
+}
+.concurs-guanyadors .concurs-gallery figure {
+  margin: 0;
+}
+.concurs-guanyadors .concurs-gallery img {
+  width: 100%;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
+  background: var(--tertiary);
+}
+.concurs-guanyadors .concurs-gallery figure img.portrait {
+  aspect-ratio: 3 / 4;
+}
+.concurs-guanyadors .concurs-gallery figcaption {
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
+  text-align: center;
+  opacity: 0.85;
+}
+.concurs-guanyadors .is-pending {
+  color: #e03131;
+  font-weight: 600;
 }
 .concurs-share {
   margin-top: 2.8rem;
@@ -1221,6 +1282,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 .qsb-view .members {
   margin: 1rem 0 0;
+}
+.historia-galeria {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0 0;
+}
+@media (max-width: 700px) {
+  .historia-galeria {
+    grid-template-columns: 1fr;
+  }
+}
+.historia-galeria figure {
+  margin: 0;
+}
+.historia-galeria img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: block;
+  border-radius: var(--radius);
+}
+.historia-galeria figcaption {
+  margin-top: 0.35rem;
+  font-size: 0.85rem;
+  color: var(--secondary);
+  text-align: center;
 }
 .concurs-tabs {
   margin-top: 0.5rem;

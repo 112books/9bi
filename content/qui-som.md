@@ -30,6 +30,24 @@ url: "/qui-som/"
 <figcaption>Alguns dels membres actuals del col·lectiu: Joan Linux, Francesc Barbé, Pedro Click i Manel «Ulls».</figcaption>
 </figure>
 <p>El logotip que tenim des dels inicis és obra de l'artista de Nou Barris <strong>Toni Pagès</strong>.</p>
+<div class="historia-galeria">
+<figure>
+<img src="{{< rel "/images/historia/dsc-9799.webp" >}}" alt="Manel Sala «Ulls» durant el muntatge de l'exposició dedicada a Joan Antón Cordoncillo" loading="lazy" decoding="async">
+<figcaption>Manel Sala «Ulls» en un moment del muntatge de l'exposició de Joan Antón Cordoncillo.</figcaption>
+</figure>
+<figure>
+<img src="{{< rel "/images/historia/imatge-20260922.webp" >}}" alt="Cartell al casal de barri anunciant el dia de l'entrega de premis" loading="lazy" decoding="async">
+<figcaption>Cartell al casal de barri anunciant el dia de l'entrega de premis.</figcaption>
+</figure>
+<figure>
+<img src="{{< rel "/images/historia/p1050134.webp" >}}" alt="Moment de l'entrega de premis amb Manel, Pedro Click i Pedro «Casal» al Casal de Barri de la Prosperitat" loading="lazy" decoding="async">
+<figcaption>Moment de l'entrega de premis amb Manel, Pedro Click i Pedro «Casal» al Casal de Barri de la Prosperitat.</figcaption>
+</figure>
+<figure>
+<img src="{{< rel "/images/historia/p1050143.webp" >}}" alt="Guanyadors del Concurs Fotogràfic Josep Antón Cordoncillo" loading="lazy" decoding="async">
+<figcaption>Guanyadors del Concurs Fotogràfic Josep Antón Cordoncillo (cal confirmar l'edició).</figcaption>
+</figure>
+</div>
 </section>
 <section class="qsb-view" id="qsb-panel-com">
 <h2>Reunions</h2>
