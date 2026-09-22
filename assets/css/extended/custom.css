@@ -574,6 +574,29 @@ h1, h2, h3, h4, h5, h6 {
   border-top: 1px solid var(--border);
 }
 
+.contact-follow {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin: 1.2rem 0;
+}
+.contact-follow img {
+  border-radius: 10px;
+  width: 150px;
+  height: auto;
+  flex: none;
+}
+.contact-follow span {
+  font-size: 0.95rem;
+}
+
+@media (max-width: 480px) {
+  .contact-follow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
 /* ---- Caixes de la guia (per a passos) ---- */
 
 .guide-step {

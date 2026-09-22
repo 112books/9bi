@@ -142,3 +142,8 @@ uglyURLs = true
     name = "Instagram"
     url = "https://www.instagram.com/9barrisimatge_oficial/"
     weight = 7
+  [[menu.footer]]
+    identifier = "telegram"
+    name = "Canal de Telegram"
+    url = "https://t.me/NouBarrisImatge"
+    weight = 8
