@@ -2,7 +2,7 @@
 title: TROBADA CELTA EN CAN BASTÉ !!!
 date: 2014-08-01T01:32:00+0200
 year: 2014
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: velada-celta-en-can-baste
 tags:
 - can basté

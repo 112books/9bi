@@ -2,7 +2,7 @@
 title: '"LOS DE SIEMPRE" I ALGÚNS MÉS...!!!'
 date: 2014-06-01T01:09:00+0200
 year: 2014
-author: 9 Barris Imatge
+author: Pili E. G.
 slug: los-de-siempre-i-alguns-mes
 tags:
 - torneig
