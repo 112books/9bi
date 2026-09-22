@@ -1,6 +1,6 @@
 # Mail: crea el teu usuari de Codeberg
 
-Estat: ESBORRANY — pendent d'enviar (destí previst: 2026-09-19/20, quan el CMS estigui més avançat, ostensiblement amb les miniatures arreglades). L'envia l'entitat des de info@9barrisimatge.org amb camp genèric (no hi posar correus aquí).
+Estat: **ENVIAT** (2026-09-22) als membres de 9 Barris Imatge des de info@9barrisimatge.org amb camp genèric.
 
 ---
 

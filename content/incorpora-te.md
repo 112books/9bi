@@ -31,7 +31,6 @@ Omple el formulari de sota amb el teu nom d'usuari de Codeberg i les teves dades
 <form class="contact-form" action="https://formsubmit.co/info@9barrisimatge.org" method="POST">
   <input type="hidden" name="_subject" value="Alta de membre — 9 Barris Imatge">
   <input type="hidden" name="_template" value="table">
-  <input type="hidden" name="_captcha" value="false">
   <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" class="contact-honeypot">
 
   <label for="nom-complet">Nom complet <span aria-hidden="true">*</span></label>

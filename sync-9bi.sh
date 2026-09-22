@@ -184,7 +184,7 @@ deploy() {
   git -C "$PAGES_CACHE" clean -qfd
 
   print "Copiant el build al clon (eliminant fitxers que ja no hi són)..."
-  rsync -a --delete "$BUILD_DIR"/ "$PAGES_CACHE"/
+  rsync -a --delete --exclude='.git/' "$BUILD_DIR"/ "$PAGES_CACHE"/
 
   USER_NAME="$(git config user.name || echo "9bi")"
   USER_EMAIL="$(git config user.email || echo "noreply@9barrisimatge.org")"

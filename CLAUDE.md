@@ -12,6 +12,7 @@ Documentació per a sessions de Claude. Només fets verificats dels fitxers del 
 - **No canviar el disseny** (colors, bandes, marges, tipografia, ordre, components) sense aprovació explícita, tant per fer canvis nous com per revertir els existents.
 - Si quelcom és ambigu, **preguntar**; no assumir ni improvisar.
 - El rigor per sobre de la velocitat: verificar sempre a `content/` i `layouts/` abans de donar per fet què hi ha.
+- **Serveis externs**: abans de provar un servei extern nou (allotjament, CI/CD, edició de codi, aplicacions…), cal **estudiar-ne bé totes les condicions d'ús**: espai disponible, preus, tipus d'usos permesos, límits i polítiques. Documentar-ho a `gestio/` o `drafts/` abans d'aprovar-ne l'ús (lligó de la quota de Codeberg, 2026-09-21).
 
 ## Protocol d'inici de sessió (obligatori)
 
