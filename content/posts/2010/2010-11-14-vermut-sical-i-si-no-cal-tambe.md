@@ -17,4 +17,4 @@ album_url: https://photos.app.goo.gl/XqEn1hGgdjUcnnEq7
 |  |
 | --- |
 |  |
-| De [Vermut sical - Bernat Font](http://picasaweb.google.com/linuxbcn/VermutSicalBernatFont?feat=embedwebsite) |
+| De [Vermut sical - Bernat Font](https://photos.app.goo.gl/XqEn1hGgdjUcnnEq7) |

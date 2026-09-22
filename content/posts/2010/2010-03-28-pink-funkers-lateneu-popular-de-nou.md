@@ -11,7 +11,7 @@ tags:
 - pink funkers
 cover:
   image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFCsgJ37nQgZOO3YBrA5sbT_L6n6ultFsk430X3Cfzc8Un32QKqxTWkW1Zf4my_HhCREQmj5xD0JHnZ36x7bppK85ShB7NV2wa6EqWXkc_8C73WLk66dcQKlZuZKMlhlQNLSwFvlCqYHI/w640-h426/IMG_2861.JPG
-album_url: http://picasaweb.google.com/linuxbcn/PinkFunkers?authkey=Gv1sRgCIKMveiJ05b-0wE&amp;feat=embedwebsite
+album_url: https://photos.app.goo.gl/dUFnPNRaDhBCcEFs5
 ---
 
 |  |

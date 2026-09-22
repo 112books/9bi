@@ -1,14 +1,14 @@
 {
-  "generated": "2026-09-19",
+  "generated": "2026-09-22",
   "source": "content/posts",
   "stats": {
     "accounts": 32,
-    "albums": 1216,
-    "references": 2326,
-    "album_url_checked": 2827,
-    "body_urls": 1192,
+    "albums": 1196,
+    "references": 2306,
+    "album_url_checked": 2828,
+    "body_urls": 1174,
     "lh_single_photos": 40,
-    "no_picasa_album_url": 1653
+    "no_picasa_album_url": 1656
   },
   "accounts": {
     "103138221614479310970": {
@@ -22096,204 +22096,6 @@
             "body": 1
           }
         },
-        "FestesDeRoquetes": {
-          "url": "http://picasaweb.google.com/linuxbcn/FestesDeRoquetes/",
-          "url_clean": "https://picasaweb.google.com/linuxbcn/FestesDeRoquetes",
-          "first_seen": "content/posts/2008/2008-07-01-festes-roquetes.md",
-          "posts": [
-            {
-              "file": "content/posts/2008/2008-07-01-festes-roquetes.md",
-              "field": "album_url",
-              "date": "2008-07-01",
-              "title": "Festes a Roquetes!",
-              "url": "https://9barrisimatge.org/2008/07/festes-roquetes.html"
-            }
-          ],
-          "count": {
-            "album_url": 1,
-            "body": 0
-          }
-        },
-        "LesNitsDeCapibolaAlexGuitar": {
-          "url": "http://picasaweb.google.com/linuxbcn/LesNitsDeCapibolaAlexGuitar?feat=embedwebsite",
-          "url_clean": "https://picasaweb.google.com/linuxbcn/LesNitsDeCapibolaAlexGuitar",
-          "first_seen": "content/posts/2008/2008-12-20-alex-guitar-les-nits-de-capibola.md",
-          "posts": [
-            {
-              "file": "content/posts/2008/2008-12-20-alex-guitar-les-nits-de-capibola.md",
-              "field": "body",
-              "date": "2008-12-20",
-              "title": "Alex Guitar a les nits de Capibola",
-              "url": "https://9barrisimatge.org/2008/12/alex-guitar-les-nits-de-capibola.html"
-            }
-          ],
-          "count": {
-            "album_url": 0,
-            "body": 1
-          }
-        },
-        "DaveMichellQuintet": {
-          "url": "http://picasaweb.google.com/linuxbcn/DaveMichellQuintet?feat=embedwebsite",
-          "url_clean": "https://picasaweb.google.com/linuxbcn/DaveMichellQuintet",
-          "first_seen": "content/posts/2009/2009-01-26-david-mitchell-quintet.md",
-          "posts": [
-            {
-              "file": "content/posts/2009/2009-01-26-david-mitchell-quintet.md",
-              "field": "body",
-              "date": "2009-01-26",
-              "title": "Dave Michell Quintet",
-              "url": "https://9barrisimatge.org/2009/01/david-mitchell-quintet.html"
-            }
-          ],
-          "count": {
-            "album_url": 0,
-            "body": 1
-          }
-        },
-        "LocoBruscaGuasavi": {
-          "url": "http://picasaweb.google.com/linuxbcn/LocoBruscaGuasavi?feat=embedwebsite",
-          "url_clean": "https://picasaweb.google.com/linuxbcn/LocoBruscaGuasavi",
-          "first_seen": "content/posts/2009/2009-03-15-loco-brusca-al-casal-de-barri.md",
-          "posts": [
-            {
-              "file": "content/posts/2009/2009-03-15-loco-brusca-al-casal-de-barri.md",
-              "field": "body",
-              "date": "2009-03-15",
-              "title": "Loco Brusca al casal de barri",
-              "url": "https://9barrisimatge.org/2009/03/loco-brusca-al-casal-de-barri.html"
-            }
-          ],
-          "count": {
-            "album_url": 0,
-            "body": 1
-          }
-        },
-        "PresentacioDelLlibreDeMario": {
-          "url": "http://picasaweb.google.com/linuxbcn/PresentacioDelLlibreDeMario?feat=embedwebsite",
-          "url_clean": "https://picasaweb.google.com/linuxbcn/PresentacioDelLlibreDeMario",
-          "first_seen": "content/posts/2009/2009-05-09-presentacio-del-llibre-de-mario-ortiz.md",
-          "posts": [
-            {
-              "file": "content/posts/2009/2009-05-09-presentacio-del-llibre-de-mario-ortiz.md",
-              "field": "body",
-              "date": "2009-05-09",
-              "title": "Presentació del llibre de Mario Ortiz “RUIDO DE FONDO”, al Casal de Prospe",
-              "url": "https://9barrisimatge.org/2009/05/presentacio-del-llibre-de-mario-ortiz.html"
-            }
-          ],
-          "count": {
-            "album_url": 0,
-            "body": 1
-          }
-        },
-        "FestesDeProsperitatChistorraRock": {
-          "url": "http://picasaweb.google.com/linuxbcn/FestesDeProsperitatChistorraRock?feat=embedwebsite",
-          "url_clean": "https://picasaweb.google.com/linuxbcn/FestesDeProsperitatChistorraRock",
-          "first_seen": "content/posts/2009/2009-06-03-chistorra-rock-les-festes-de.md",
-          "posts": [
-            {
-              "file": "content/posts/2009/2009-06-03-chistorra-rock-les-festes-de.md",
-              "field": "body",
-              "date": "2009-06-03",
-              "title": "Chistorra Rock a les festes de Prosperitat",
-              "url": "https://9barrisimatge.org/2009/06/chistorra-rock-les-festes-de.html"
-            }
-          ],
-          "count": {
-            "album_url": 0,
-            "body": 1
-          }
-        },
-        "FestesDeProsperitatDivendresKaraokeProspeOasis": {
-          "url": "http://picasaweb.google.com/linuxbcn/FestesDeProsperitatDivendresKaraokeProspeOasis?feat=embedwebsite",
-          "url_clean": "https://picasaweb.google.com/linuxbcn/FestesDeProsperitatDivendresKaraokeProspeOasis",
-          "first_seen": "content/posts/2009/2009-06-06-festes-de-prosperitat-divendres-karaoke.md",
-          "posts": [
-            {
-              "file": "content/posts/2009/2009-06-06-festes-de-prosperitat-divendres-karaoke.md",
-              "field": "body",
-              "date": "2009-06-06",
-              "title": "Festes de Prosperitat, Divendres - Karaoke + Prospe Oasis",
-              "url": "https://9barrisimatge.org/2009/06/festes-de-prosperitat-divendres-karaoke.html"
-            }
-          ],
-          "count": {
-            "album_url": 0,
-            "body": 1
-          }
-        },
-        "EscolaTallerDeBluesDeBarcelonaCombosFinalDeCurs": {
-          "url": "http://picasaweb.google.com/linuxbcn/EscolaTallerDeBluesDeBarcelonaCombosFinalDeCurs?feat=embedwebsite",
-          "url_clean": "https://picasaweb.google.com/linuxbcn/EscolaTallerDeBluesDeBarcelonaCombosFinalDeCurs",
-          "first_seen": "content/posts/2009/2009-06-13-escola-taller-de-blues-de-barcelona.md",
-          "posts": [
-            {
-              "file": "content/posts/2009/2009-06-13-escola-taller-de-blues-de-barcelona.md",
-              "field": "body",
-              "date": "2009-06-13",
-              "title": "Escola Taller de Blues de Barcelona; Combos final de curs + entrega diplomes",
-              "url": "https://9barrisimatge.org/2009/06/escola-taller-de-blues-de-barcelona.html"
-            }
-          ],
-          "count": {
-            "album_url": 0,
-            "body": 1
-          }
-        },
-        "SoparDEntitatsAlCasalDeBarriDeProsperitat": {
-          "url": "http://picasaweb.google.com/linuxbcn/SoparDEntitatsAlCasalDeBarriDeProsperitat?feat=embedwebsite",
-          "url_clean": "https://picasaweb.google.com/linuxbcn/SoparDEntitatsAlCasalDeBarriDeProsperitat",
-          "first_seen": "content/posts/2009/2009-10-24-sopar-dentitats-2009.md",
-          "posts": [
-            {
-              "file": "content/posts/2009/2009-10-24-sopar-dentitats-2009.md",
-              "field": "body",
-              "date": "2009-10-24",
-              "title": "Sopar d'entitats 2009",
-              "url": "https://9barrisimatge.org/2009/10/sopar-dentitats-2009.html"
-            }
-          ],
-          "count": {
-            "album_url": 0,
-            "body": 1
-          }
-        },
-        "PinkFunkers": {
-          "url": "http://picasaweb.google.com/linuxbcn/PinkFunkers?authkey=Gv1sRgCIKMveiJ05b-0wE&amp;feat=embedwebsite",
-          "url_clean": "https://picasaweb.google.com/linuxbcn/PinkFunkers",
-          "first_seen": "content/posts/2010/2010-03-28-pink-funkers-lateneu-popular-de-nou.md",
-          "posts": [
-            {
-              "file": "content/posts/2010/2010-03-28-pink-funkers-lateneu-popular-de-nou.md",
-              "field": "album_url",
-              "date": "2010-03-28",
-              "title": "Pink Funkers a l'Ateneu Popular de Nou Barris",
-              "url": "https://9barrisimatge.org/2010/03/pink-funkers-lateneu-popular-de-nou.html"
-            }
-          ],
-          "count": {
-            "album_url": 1,
-            "body": 0
-          }
-        },
-        "FestesDeProsperitatDijous02": {
-          "url": "http://picasaweb.google.com/linuxbcn/FestesDeProsperitatDijous02?feat=embedwebsite",
-          "url_clean": "https://picasaweb.google.com/linuxbcn/FestesDeProsperitatDijous02",
-          "first_seen": "content/posts/2010/2010-06-03-festes-de-prosperitat-dijous.md",
-          "posts": [
-            {
-              "file": "content/posts/2010/2010-06-03-festes-de-prosperitat-dijous.md",
-              "field": "body",
-              "date": "2010-06-03",
-              "title": "Festes de Prosperitat - Dijous",
-              "url": "https://9barrisimatge.org/2010/06/festes-de-prosperitat-dijous.html"
-            }
-          ],
-          "count": {
-            "album_url": 0,
-            "body": 1
-          }
-        },
         "DespedidaAnnaCasal": {
           "url": "http://picasaweb.google.com/linuxbcn/DespedidaAnnaCasal?feat=embedwebsite",
           "url_clean": "https://picasaweb.google.com/linuxbcn/DespedidaAnnaCasal",
@@ -22316,114 +22118,6 @@
           ],
           "count": {
             "album_url": 1,
-            "body": 1
-          }
-        },
-        "8eFestivalDeBluesDeBarcelonaJamSession": {
-          "url": "http://picasaweb.google.com/linuxbcn/8eFestivalDeBluesDeBarcelonaJamSession?feat=embedwebsite",
-          "url_clean": "https://picasaweb.google.com/linuxbcn/8eFestivalDeBluesDeBarcelonaJamSession",
-          "first_seen": "content/posts/2010/2010-09-17-8e-festival-de-blues-de-barcelona-jam.md",
-          "posts": [
-            {
-              "file": "content/posts/2010/2010-09-17-8e-festival-de-blues-de-barcelona-jam.md",
-              "field": "body",
-              "date": "2010-09-17",
-              "title": "8è Festival de Blues de Barcelona - Jam Session al Casal de barri de Prosperitat",
-              "url": "https://9barrisimatge.org/2010/09/8e-festival-de-blues-de-barcelona-jam.html"
-            }
-          ],
-          "count": {
-            "album_url": 0,
-            "body": 1
-          }
-        },
-        "8eFestivalDeBluesDeBarcelonaConferenciaJeanGuillermo": {
-          "url": "http://picasaweb.google.com/linuxbcn/8eFestivalDeBluesDeBarcelonaConferenciaJeanGuillermo?feat=embedwebsite",
-          "url_clean": "https://picasaweb.google.com/linuxbcn/8eFestivalDeBluesDeBarcelonaConferenciaJeanGuillermo",
-          "first_seen": "content/posts/2010/2010-09-17-8e-festival-de-blues-de-barcelona_17.md",
-          "posts": [
-            {
-              "file": "content/posts/2010/2010-09-17-8e-festival-de-blues-de-barcelona_17.md",
-              "field": "body",
-              "date": "2010-09-17",
-              "title": "8è Festival de Blues de Barcelona - Conferència Jean Guillermo",
-              "url": "https://9barrisimatge.org/2010/09/8e-festival-de-blues-de-barcelona_17.html"
-            }
-          ],
-          "count": {
-            "album_url": 0,
-            "body": 1
-          }
-        },
-        "8eFestivalDeBluesDeBarcelonaSaxGordonIJamesHarman": {
-          "url": "http://picasaweb.google.com/linuxbcn/8eFestivalDeBluesDeBarcelonaSaxGordonIJamesHarman?feat=embedwebsite",
-          "url_clean": "https://picasaweb.google.com/linuxbcn/8eFestivalDeBluesDeBarcelonaSaxGordonIJamesHarman",
-          "first_seen": "content/posts/2010/2010-09-18-8e-festival-de-blues-de-barcelona-sax.md",
-          "posts": [
-            {
-              "file": "content/posts/2010/2010-09-18-8e-festival-de-blues-de-barcelona-sax.md",
-              "field": "body",
-              "date": "2010-09-18",
-              "title": "8è Festival de Blues de Barcelona - Sax Gordon i James Harman",
-              "url": "https://9barrisimatge.org/2010/09/8e-festival-de-blues-de-barcelona-sax.html"
-            }
-          ],
-          "count": {
-            "album_url": 0,
-            "body": 1
-          }
-        },
-        "VermutSicalBernatFont": {
-          "url": "http://picasaweb.google.com/linuxbcn/VermutSicalBernatFont?feat=embedwebsite",
-          "url_clean": "https://picasaweb.google.com/linuxbcn/VermutSicalBernatFont",
-          "first_seen": "content/posts/2010/2010-11-14-vermut-sical-i-si-no-cal-tambe.md",
-          "posts": [
-            {
-              "file": "content/posts/2010/2010-11-14-vermut-sical-i-si-no-cal-tambe.md",
-              "field": "body",
-              "date": "2010-11-14",
-              "title": "VERMUT SICAL i si no cal tambè!!! - Bernat Font",
-              "url": "https://9barrisimatge.org/2010/11/vermut-sical-i-si-no-cal-tambe.html"
-            }
-          ],
-          "count": {
-            "album_url": 0,
-            "body": 1
-          }
-        },
-        "SantXibecoKaraokeBandBiciosos": {
-          "url": "http://picasaweb.google.com/linuxbcn/SantXibecoKaraokeBandBiciosos?feat=embedwebsite",
-          "url_clean": "https://picasaweb.google.com/linuxbcn/SantXibecoKaraokeBandBiciosos",
-          "first_seen": "content/posts/2010/2010-11-21-sant-xibeco-karaoke-band-biciosos.md",
-          "posts": [
-            {
-              "file": "content/posts/2010/2010-11-21-sant-xibeco-karaoke-band-biciosos.md",
-              "field": "body",
-              "date": "2010-11-21",
-              "title": "Vermuth de Sant Xibeco amb Karaoke Band i No al tancament del taller dels Biciosos",
-              "url": "https://9barrisimatge.org/2010/11/sant-xibeco-karaoke-band-biciosos.html"
-            }
-          ],
-          "count": {
-            "album_url": 0,
-            "body": 1
-          }
-        },
-        "ResurrectionALaCarte": {
-          "url": "http://picasaweb.google.com/linuxbcn/ResurrectionALaCarte?feat=embedwebsite",
-          "url_clean": "https://picasaweb.google.com/linuxbcn/ResurrectionALaCarte",
-          "first_seen": "content/posts/2010/2010-12-04-resurrection-la-carte.md",
-          "posts": [
-            {
-              "file": "content/posts/2010/2010-12-04-resurrection-la-carte.md",
-              "field": "body",
-              "date": "2010-12-04",
-              "title": "Resurrection a la cartè",
-              "url": "https://9barrisimatge.org/2010/12/resurrection-la-carte.html"
-            }
-          ],
-          "count": {
-            "album_url": 0,
             "body": 1
           }
         },
@@ -24381,46 +24075,10 @@
             "album_url": 1,
             "body": 1
           }
-        },
-        "VermutsicalAmbToskyHoney": {
-          "url": "https://picasaweb.google.com/linuxbcn/VermutsicalAmbToskyHoney?authuser=0&authkey=Gv1sRgCI7j-YuXoJORTA&feat=embedwebsite",
-          "url_clean": "https://picasaweb.google.com/linuxbcn/VermutsicalAmbToskyHoney",
-          "first_seen": "content/posts/2011/2011-09-04-vermutsical-amb-tosky-honey.md",
-          "posts": [
-            {
-              "file": "content/posts/2011/2011-09-04-vermutsical-amb-tosky-honey.md",
-              "field": "body",
-              "date": "2011-09-04",
-              "title": "Vermutsical amb \"Tosky & Honey",
-              "url": "https://9barrisimatge.org/2011/09/vermutsical-amb-tosky-honey.html"
-            }
-          ],
-          "count": {
-            "album_url": 0,
-            "body": 1
-          }
-        },
-        "FestivalDeBluesDeBarcelona2011JamSessionAlCasalDeProsperitat": {
-          "url": "https://picasaweb.google.com/linuxbcn/FestivalDeBluesDeBarcelona2011JamSessionAlCasalDeProsperitat?authuser=0&authkey=Gv1sRgCIOTmKihm7GEgQE&feat=embedwebsite",
-          "url_clean": "https://picasaweb.google.com/linuxbcn/FestivalDeBluesDeBarcelona2011JamSessionAlCasalDeProsperitat",
-          "first_seen": "content/posts/2011/2011-09-16-festival-de-blues-de-barcelona-2011-jam.md",
-          "posts": [
-            {
-              "file": "content/posts/2011/2011-09-16-festival-de-blues-de-barcelona-2011-jam.md",
-              "field": "body",
-              "date": "2011-09-16",
-              "title": "Festival de Blues de Barcelona 2011 - Jam Session al Casal de barri de Prospe",
-              "url": "https://9barrisimatge.org/2011/09/festival-de-blues-de-barcelona-2011-jam.html"
-            }
-          ],
-          "count": {
-            "album_url": 0,
-            "body": 1
-          }
         }
       },
-      "n_album_url": 81,
-      "n_body": 107,
+      "n_album_url": 79,
+      "n_body": 90,
       "member": "Joan \"Linux\" Martínez i Serres"
     },
     "pedro.cervera": {
@@ -29284,24 +28942,6 @@
             "body": 1
           }
         },
-        "Circumstancies15CircDHivern2010AteneuPopular9BarrisBarcelona": {
-          "url": "http://picasaweb.google.com/ulls2006/Circumstancies15CircDHivern2010AteneuPopular9BarrisBarcelona?feat=embedwebsite",
-          "url_clean": "https://picasaweb.google.com/ulls2006/Circumstancies15CircDHivern2010AteneuPopular9BarrisBarcelona",
-          "first_seen": "content/posts/2011/2011-01-23-circumstancies-15-circ-dhivern-2010.md",
-          "posts": [
-            {
-              "file": "content/posts/2011/2011-01-23-circumstancies-15-circ-dhivern-2010.md",
-              "field": "body",
-              "date": "2011-01-23",
-              "title": "circumstàncies. 15º Circ d´Hivern 2010. Ateneu Popular 9 Barris. Barcelona",
-              "url": "https://9barrisimatge.org/2011/01/circumstancies-15-circ-dhivern-2010.html"
-            }
-          ],
-          "count": {
-            "album_url": 0,
-            "body": 1
-          }
-        },
         "CabaretPerplejoCarloMoMrDiMerche8aYCristiGarboAlmazen": {
           "url": "http://picasaweb.google.com/ulls2006/CabaretPerplejoCarloMoMrDiMerche8aYCristiGarboAlmazen?feat=embedwebsite",
           "url_clean": "https://picasaweb.google.com/ulls2006/CabaretPerplejoCarloMoMrDiMerche8aYCristiGarboAlmazen",
@@ -29722,7 +29362,7 @@
         }
       },
       "n_album_url": 68,
-      "n_body": 71,
+      "n_body": 70,
       "member": "Manel Sala \"Ulls\" Circ"
     },
     "trobadaalternativa9barris": {
@@ -33669,6 +33309,13 @@
       ]
     },
     {
+      "url": "https://photos.app.goo.gl/CBdWgKbJjxEpFRRB6",
+      "field": "album_url",
+      "posts": [
+        "content/posts/2008/2008-07-01-festes-roquetes.md"
+      ]
+    },
+    {
       "url": "https://photos.app.goo.gl/MsFPGySbznfc8CU9A",
       "field": "album_url",
       "posts": [
@@ -35706,6 +35353,13 @@
       ]
     },
     {
+      "url": "https://photos.app.goo.gl/dUFnPNRaDhBCcEFs5",
+      "field": "album_url",
+      "posts": [
+        "content/posts/2010/2010-03-28-pink-funkers-lateneu-popular-de-nou.md"
+      ]
+    },
+    {
       "url": "https://photos.app.goo.gl/u2o2uE18MEZcMB5Y6",
       "field": "album_url",
       "posts": [
@@ -36627,6 +36281,13 @@
       "field": "album_url",
       "posts": [
         "content/posts/2026/2026-07-12-el-esport-peu-de-barriprospe-beach26.md"
+      ]
+    },
+    {
+      "url": "https://blog.pocallum.cat/2026/09/20/2026-09-19-casal-de-barri-de-prosperitat-tributo-a-amaral/",
+      "field": "album_url",
+      "posts": [
+        "content/posts/2026/2026-09-20-2026-09-19-casal-de-barri-de-prosperitat-tributo-a-amaral.md"
       ]
     },
     {

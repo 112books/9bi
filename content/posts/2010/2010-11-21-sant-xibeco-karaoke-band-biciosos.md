@@ -20,4 +20,4 @@ Aquest dissabte més Sant Xibeco amb la incombustible Karaoke Band per amenitzar
 |  |
 | --- |
 |  |
-| De [Sant Xibeco - Karaoke Band + Biciosos](http://picasaweb.google.com/linuxbcn/SantXibecoKaraokeBandBiciosos?feat=embedwebsite) |
+| De [Sant Xibeco - Karaoke Band + Biciosos](https://photos.app.goo.gl/cMuhyfCg77WrvC5b6) |

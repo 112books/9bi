@@ -18,4 +18,4 @@ album_url: https://photos.app.goo.gl/fJvNA8pk51U6N5Xy8
 |  |
 | --- |
 |  |
-| [Festes de Prosperitat; Chistorra Rock](https://photos.app.goo.gl/fJvNA8pk51U6N5Xy8)De [Festes de Prosperitat; Chistorra Rock](http://picasaweb.google.com/linuxbcn/FestesDeProsperitatChistorraRock?feat=embedwebsite) |
+| [Festes de Prosperitat; Chistorra Rock](https://photos.app.goo.gl/fJvNA8pk51U6N5Xy8)De [Festes de Prosperitat; Chistorra Rock](https://photos.app.goo.gl/fJvNA8pk51U6N5Xy8) |

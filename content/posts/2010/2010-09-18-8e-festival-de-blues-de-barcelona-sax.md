@@ -18,6 +18,6 @@ album_url: https://photos.app.goo.gl/WmDJek5YLMeEehj19
 |  |
 | --- |
 |  |
-| De [8è Festival de Blues de Barcelona - Sax Gordon i James Harman](http://picasaweb.google.com/linuxbcn/8eFestivalDeBluesDeBarcelonaSaxGordonIJamesHarman?feat=embedwebsite) |
+| De [8è Festival de Blues de Barcelona - Sax Gordon i James Harman](https://photos.app.goo.gl/WmDJek5YLMeEehj19) |
 
 8è Festival de Blues de Barcelona. Primer dia dels concerts centrals al poliesportiu Valldaura. Aquest divendres un luxe de concert amb Sax Gordon i James Harman. La banda: Lluís Coloma al piano, Manolo al contrabaix, Marc a la bateria, Dani Pérez al saxo, Balta a la guitarra i David Pastor a la trompeta.

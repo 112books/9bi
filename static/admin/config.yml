@@ -702,3 +702,199 @@ collections:
       - { label: "Instagram", name: "instagram", widget: "string", required: false }
       - { label: "Membre ACTIU (desmarca per convertir-lo en membre històric)", name: "actiu", widget: "boolean", default: true }
 
+  # ── Recuperació d'àlbums Picasa (generat per scripts/albums_fix.py fitxes) ──
+  # Una collection per autor; cada carpeta conté només els seus àlbums trencats.
+  # L'autor només ha d'omplir «Enllaç nou»; la resta és informatiu (ocult).
+  # Vegeu la guia: content/guia/recuperar-enllacos-d-albums.md
+  - name: "recuperacio-joan-linux"
+    label: "Àlbums per arreglar · Joan Linux"
+    label_singular: "Àlbum"
+    folder: "data/recuperacio/joan-linux-martinez-i-serres"
+    create: false
+    delete: false
+    extension: "md"
+    format: "yaml-frontmatter"
+    identifier_field: "album"
+    sortable_fields:
+      fields: [any, album]
+    thumbnail: "foto"
+    summary: "{{fields.album}} · {{fields.any}}"
+    fields:
+      - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
+      - { label: "Autor", name: "autor", widget: "hidden" }
+      - { label: "Àlbum", name: "album", widget: "hidden" }
+      - { label: "Any", name: "any", widget: "hidden" }
+      - { label: "Foto de mostra", name: "foto", widget: "hidden" }
+      - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
+      - { label: "Nombre de posts", name: "posts", widget: "hidden" }
+      - { label: "Post d'exemple", name: "exemple", widget: "hidden" }
+      - { label: "Cos", name: "body", widget: "markdown" }
+
+  - name: "recuperacio-pedro-click"
+    label: "Àlbums per arreglar · Pedro Click"
+    label_singular: "Àlbum"
+    folder: "data/recuperacio/pedro-click"
+    create: false
+    delete: false
+    extension: "md"
+    format: "yaml-frontmatter"
+    identifier_field: "album"
+    sortable_fields:
+      fields: [any, album]
+    thumbnail: "foto"
+    summary: "{{fields.album}} · {{fields.any}}"
+    fields:
+      - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
+      - { label: "Autor", name: "autor", widget: "hidden" }
+      - { label: "Àlbum", name: "album", widget: "hidden" }
+      - { label: "Any", name: "any", widget: "hidden" }
+      - { label: "Foto de mostra", name: "foto", widget: "hidden" }
+      - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
+      - { label: "Nombre de posts", name: "posts", widget: "hidden" }
+      - { label: "Post d'exemple", name: "exemple", widget: "hidden" }
+      - { label: "Cos", name: "body", widget: "markdown" }
+
+  - name: "recuperacio-9-barris-imatge"
+    label: "Àlbums per arreglar · 9 Barris Imatge"
+    label_singular: "Àlbum"
+    folder: "data/recuperacio/9-barris-imatge"
+    create: false
+    delete: false
+    extension: "md"
+    format: "yaml-frontmatter"
+    identifier_field: "album"
+    sortable_fields:
+      fields: [any, album]
+    thumbnail: "foto"
+    summary: "{{fields.album}} · {{fields.any}}"
+    fields:
+      - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
+      - { label: "Autor", name: "autor", widget: "hidden" }
+      - { label: "Àlbum", name: "album", widget: "hidden" }
+      - { label: "Any", name: "any", widget: "hidden" }
+      - { label: "Foto de mostra", name: "foto", widget: "hidden" }
+      - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
+      - { label: "Nombre de posts", name: "posts", widget: "hidden" }
+      - { label: "Post d'exemple", name: "exemple", widget: "hidden" }
+      - { label: "Cos", name: "body", widget: "markdown" }
+
+  - name: "recuperacio-manel-sala"
+    label: "Àlbums per arreglar · Manel «Ulls»"
+    label_singular: "Àlbum"
+    folder: "data/recuperacio/manel-sala-ulls-circ"
+    create: false
+    delete: false
+    extension: "md"
+    format: "yaml-frontmatter"
+    identifier_field: "album"
+    sortable_fields:
+      fields: [any, album]
+    thumbnail: "foto"
+    summary: "{{fields.album}} · {{fields.any}}"
+    fields:
+      - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
+      - { label: "Autor", name: "autor", widget: "hidden" }
+      - { label: "Àlbum", name: "album", widget: "hidden" }
+      - { label: "Any", name: "any", widget: "hidden" }
+      - { label: "Foto de mostra", name: "foto", widget: "hidden" }
+      - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
+      - { label: "Nombre de posts", name: "posts", widget: "hidden" }
+      - { label: "Post d'exemple", name: "exemple", widget: "hidden" }
+      - { label: "Cos", name: "body", widget: "markdown" }
+
+  - name: "recuperacio-pedro-casal"
+    label: "Àlbums per arreglar · Pedro «Casal»"
+    label_singular: "Àlbum"
+    folder: "data/recuperacio/pedro-casal-cervera"
+    create: false
+    delete: false
+    extension: "md"
+    format: "yaml-frontmatter"
+    identifier_field: "album"
+    sortable_fields:
+      fields: [any, album]
+    thumbnail: "foto"
+    summary: "{{fields.album}} · {{fields.any}}"
+    fields:
+      - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
+      - { label: "Autor", name: "autor", widget: "hidden" }
+      - { label: "Àlbum", name: "album", widget: "hidden" }
+      - { label: "Any", name: "any", widget: "hidden" }
+      - { label: "Foto de mostra", name: "foto", widget: "hidden" }
+      - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
+      - { label: "Nombre de posts", name: "posts", widget: "hidden" }
+      - { label: "Post d'exemple", name: "exemple", widget: "hidden" }
+      - { label: "Cos", name: "body", widget: "markdown" }
+
+  - name: "recuperacio-alberto-sanagustin"
+    label: "Àlbums per arreglar · Alberto Sanagustín"
+    label_singular: "Àlbum"
+    folder: "data/recuperacio/alberto-sanagustin"
+    create: false
+    delete: false
+    extension: "md"
+    format: "yaml-frontmatter"
+    identifier_field: "album"
+    sortable_fields:
+      fields: [any, album]
+    thumbnail: "foto"
+    summary: "{{fields.album}} · {{fields.any}}"
+    fields:
+      - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
+      - { label: "Autor", name: "autor", widget: "hidden" }
+      - { label: "Àlbum", name: "album", widget: "hidden" }
+      - { label: "Any", name: "any", widget: "hidden" }
+      - { label: "Foto de mostra", name: "foto", widget: "hidden" }
+      - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
+      - { label: "Nombre de posts", name: "posts", widget: "hidden" }
+      - { label: "Post d'exemple", name: "exemple", widget: "hidden" }
+      - { label: "Cos", name: "body", widget: "markdown" }
+
+  - name: "recuperacio-nico-yeye"
+    label: "Àlbums per arreglar · Nico YeYe"
+    label_singular: "Àlbum"
+    folder: "data/recuperacio/nico-yeye"
+    create: false
+    delete: false
+    extension: "md"
+    format: "yaml-frontmatter"
+    identifier_field: "album"
+    sortable_fields:
+      fields: [any, album]
+    thumbnail: "foto"
+    summary: "{{fields.album}} · {{fields.any}}"
+    fields:
+      - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
+      - { label: "Autor", name: "autor", widget: "hidden" }
+      - { label: "Àlbum", name: "album", widget: "hidden" }
+      - { label: "Any", name: "any", widget: "hidden" }
+      - { label: "Foto de mostra", name: "foto", widget: "hidden" }
+      - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
+      - { label: "Nombre de posts", name: "posts", widget: "hidden" }
+      - { label: "Post d'exemple", name: "exemple", widget: "hidden" }
+      - { label: "Cos", name: "body", widget: "markdown" }
+
+  - name: "recuperacio-manel-villalba"
+    label: "Àlbums per arreglar · Manel Villalba"
+    label_singular: "Àlbum"
+    folder: "data/recuperacio/manel-villalba"
+    create: false
+    delete: false
+    extension: "md"
+    format: "yaml-frontmatter"
+    identifier_field: "album"
+    sortable_fields:
+      fields: [any, album]
+    thumbnail: "foto"
+    summary: "{{fields.album}} · {{fields.any}}"
+    fields:
+      - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
+      - { label: "Autor", name: "autor", widget: "hidden" }
+      - { label: "Àlbum", name: "album", widget: "hidden" }
+      - { label: "Any", name: "any", widget: "hidden" }
+      - { label: "Foto de mostra", name: "foto", widget: "hidden" }
+      - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
+      - { label: "Nombre de posts", name: "posts", widget: "hidden" }
+      - { label: "Post d'exemple", name: "exemple", widget: "hidden" }
+      - { label: "Cos", name: "body", widget: "markdown" }
+

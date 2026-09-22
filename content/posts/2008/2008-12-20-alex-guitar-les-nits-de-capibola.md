@@ -25,4 +25,4 @@ Espero poder tornar a veure'l!
 |  |
 | --- |
 |  |
-| De [Les Nits de Capibola - Alex Guitar](http://picasaweb.google.com/linuxbcn/LesNitsDeCapibolaAlexGuitar?feat=embedwebsite) |
+| De [Les Nits de Capibola - Alex Guitar](https://photos.app.goo.gl/qLoifyiJUY5JgduMA) |

@@ -11,6 +11,9 @@ Subcomandes:
   collect   Escaneja content/posts → data/picasa-broken.json
             (corpus agrupat per compte Picasa: àlbums, posts que els referencien)
   sheets    Llegeix el corpus → drafts/candidats/<membre>.md per a cada autor
+  fitxes    Genera data/recuperacio/<membre>/*.yml (una fitxa per àlbum)
+            perquè cada autor els corregeixi des del CMS
+  recull    Llegeix les fitxes desades → data/links-nous.json (old → new)
   validate  Comprova status HTTP i títol públic dels enllaços nous
   apply     Aplica un mapa «URL antiga → URL nova» al front matter i al cos
 
@@ -26,6 +29,8 @@ Formats de fitxer:
 
   scripts/albums_fix.py collect
   scripts/albums_fix.py sheets
+  scripts/albums_fix.py fitxes
+  scripts/albums_fix.py recull
   scripts/albums_fix.py validate --file data/links-nous.json
   scripts/albums_fix.py apply --file data/links-nous.json --dry-run
   scripts/albums_fix.py apply --file data/links-nous.json --write
@@ -50,6 +55,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT = os.path.join(ROOT, "content", "posts")
 CORPUS = os.path.join(ROOT, "data", "picasa-broken.json")
 CANDIDATS = os.path.join(ROOT, "drafts", "candidats")
+RECUPERACIO = os.path.join(ROOT, "data", "recuperacio")
 SITE_URL = "https://9barrisimatge.org"
 
 PICASA_RE = re.compile(
@@ -438,12 +444,118 @@ def apply(args):
     if not args.write:
         print("\n(DRY RUN: cap fitxer modificat; cal --write)")
 
-    print(json.dumps(dict(changes), ensure_ascii=False))
-    print(f"\nFitxers afectats: {len(affected)}")
-    for rel, c in affected:
-        print(f"  {rel}: {dict(c)}")
-    if not args.write:
-        print("\n(DRY RUN: cap fitxer modificat; cal --write)")
+
+def _cover_of(rel):
+    """Retorna l'URL de portada (cover.image) d'un post, o '' si no en té."""
+    try:
+        text = open(os.path.join(ROOT, rel), encoding="utf-8", errors="replace").read()
+    except OSError:
+        return ""
+    m = re.search(r"^cover:\s*$([\s\S]*?)^\S", text, re.M)
+    if not m:
+        return ""
+    m2 = re.search(r"^\s+image:\s*(.+?)\s*$", m.group(1), re.M)
+    if m2:
+        return m2.group(1).strip().strip("\"'")
+    return ""
+
+
+def _dump_fitxa(fitxa):
+    """Fitxa en markdown: front matter YAML pla + cos amb la foto de mostra.
+
+    El cos en markdown fa que Sveltia RENDERITZI la imatge al panell de
+    preview (un camp string només mostraria el text de l'URL).
+    """
+    lines = ["---"]
+    for k, v in fitxa.items():
+        lines.append(f"{k}: {json.dumps(v, ensure_ascii=False)}")
+    foto = fitxa.get("foto", "")
+    body = f"**Foto de mostra** (per identificar l'àlbum):\n\n![Foto de mostra]({foto})\n" if foto else ""
+    body += "\n> Obriu l'àlbum equivalent al vostre Google Photos, genereu l'enllaç\n" \
+            "> compartible (Comparteix → Crea un enllaç) i enganxeu-lo al camp\n" \
+            "> **«Enllaç nou»** d'abaix.\n"
+    return "\n".join(lines) + "\n---\n\n" + body
+
+
+def fitxes():
+    """Genera una fitxa YAML per àlbum a data/recuperacio/<membre>/.
+
+    Cada fitxa = un àlbum Picasa trencat que l'autor ha de corregir al CMS.
+    El nom de carpeta (slug del membre) és la carpeta de la collection Sveltia,
+    així cada autor veu només els seus àlbums sense cap filtre extra.
+    """
+    corpus = json.load(open(CORPUS, encoding="utf-8"))
+    by_member = defaultdict(list)
+    for owner, acc in corpus["accounts"].items():
+        member = acc["member"]
+        if not member:
+            continue  # sense membre assignat → es queda al full de treball
+        for album, data in acc["albums"].items():
+            by_member[member].append((album, data))
+
+    os.makedirs(RECUPERACIO, exist_ok=True)
+    for member, items in sorted(by_member.items(), key=lambda kv: kv[0]):
+        folder = os.path.join(RECUPERACIO, slugify(member))
+        os.makedirs(folder, exist_ok=True)
+        items.sort(key=lambda kv: (kv[1]["posts"][0]["date"], kv[0]))
+        n = 0
+        for album, data in items:
+            dates = [p["date"] for p in data["posts"] if p["date"]]
+            year = dates[0][:4] if dates else ""
+            first = data["posts"][0]
+            fitxa = {
+                "autor": member,
+                "album": humanize(album),
+                "any": year,
+                "foto": _cover_of(first["file"]),
+                "url_antiga": data["url_clean"],
+                "url_nova": "",
+                "posts": len(data["posts"]),
+                "exemple": first["url"] if first["url"] else first["file"],
+            }
+            name = f"{dates[0] if dates else '0000'}-{slugify(album)}.md"
+            open(os.path.join(folder, name), "w", encoding="utf-8").write(_dump_fitxa(fitxa))
+            n += 1
+        print(f"  {member}: {n} fitxes → data/recuperacio/{slugify(member)}/")
+    print(f"\nFitxes generades a {RECUPERACIO}/")
+
+
+def recull():
+    """Llegeix les fitxes desades i aplega old → new a data/links-nous.json.
+
+    L'autor es deriva de la CARPETA (data/recuperacio/<slug>/), no del camp
+    «autor» del fitxer: així un error de l'autor en editar-lo no trenca
+    l'agrupació. El camp «autor» es conserva al fitxer per a llegir-lo a mà.
+    """
+    slug_to_member = {}
+    for member in {m for m in ACCOUNT_MEMBERS.values() if m}:
+        slug_to_member[slugify(member)] = member
+
+    out = defaultdict(list)
+    n = 0
+    for folder_name in sorted(os.listdir(RECUPERACIO)):
+        folder = os.path.join(RECUPERACIO, folder_name)
+        if not os.path.isdir(folder):
+            continue
+        member = slug_to_member.get(folder_name)
+        if not member:
+            print(f"  [!] carpeta desconeguda, es Salta: {folder_name}")
+            continue
+        for fn in sorted(os.listdir(folder)):
+            if not fn.endswith(".md"):
+                continue
+            text = open(os.path.join(folder, fn), encoding="utf-8", errors="replace").read()
+            meta, _ = front_matter(text)
+            nova = (meta.get("url_nova") or "").strip()
+            antiga = (meta.get("url_antiga") or "").strip()
+            if nova and nova != antiga and antiga:
+                out[member].append({"old": antiga, "new": nova})
+                n += 1
+
+    path = os.path.join(ROOT, "data", "links-nous.json")
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(dict(out), f, ensure_ascii=False, indent=2)
+    print(f"Recollits {n} enllaços nous de {len(out)} autors → {path}")
 
 
 def main():
@@ -454,6 +566,10 @@ def main():
     sub.add_parser("collect", help="genera data/picasa-broken.json")
 
     sub.add_parser("sheets", help="genera drafts/candidats/<membre>.md")
+
+    sub.add_parser("fitxes", help="genera data/recuperacio/<membre>/*.yml per al CMS")
+
+    sub.add_parser("recull", help="llegeix les fitxes → data/links-nous.json")
 
     v = sub.add_parser("validate", help="comprova els enllaços nous")
     v.add_argument("--file", default=os.path.join(ROOT, "data", "links-nous.json"))
@@ -471,6 +587,10 @@ def main():
         collect()
     elif args.cmd == "sheets":
         sheets()
+    elif args.cmd == "fitxes":
+        fitxes()
+    elif args.cmd == "recull":
+        recull()
     elif args.cmd == "validate":
         validate(args)
     elif args.cmd == "apply":

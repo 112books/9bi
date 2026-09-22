@@ -17,6 +17,6 @@ album_url: https://photos.app.goo.gl/vi7uYeYDeKXdNPbt9
 |  |
 | --- |
 |  |
-| De [Presentació del llibre de Mario](http://picasaweb.google.com/linuxbcn/PresentacioDelLlibreDeMario?feat=embedwebsite) |
+| De [Presentació del llibre de Mario](https://photos.app.goo.gl/vi7uYeYDeKXdNPbt9) |
 
 Dons això, ara toca llegir-lo! o visiteu el seu blog [el-ruido-de-leomiller.blogspot.com](https://photos.app.goo.gl/vi7uYeYDeKXdNPbt9)

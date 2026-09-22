@@ -17,4 +17,4 @@ album_url: https://photos.app.goo.gl/5kaSkufhwtFgV8jv8
 |  |
 | --- |
 |  |
-| De [Sopar d'entitats al Casal de Barri de Prosperitat](http://picasaweb.google.com/linuxbcn/SoparDEntitatsAlCasalDeBarriDeProsperitat?feat=embedwebsite) |
+| De [Sopar d'entitats al Casal de Barri de Prosperitat](https://photos.app.goo.gl/5kaSkufhwtFgV8jv8) |

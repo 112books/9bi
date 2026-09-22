@@ -23,4 +23,4 @@ Karaoke organitzat per la penya "Mil duros" i també el "Prospe Oasis" amb "Colo
 |  |
 | --- |
 |  |
-| De [Festes de Prosperitat, Divendres - Karaoke + Prospe Oasis](http://picasaweb.google.com/linuxbcn/FestesDeProsperitatDivendresKaraokeProspeOasis?feat=embedwebsite) |
+| De [Festes de Prosperitat, Divendres - Karaoke + Prospe Oasis](https://photos.app.goo.gl/bF18EfSEQCmQqak69) |

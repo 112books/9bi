@@ -19,7 +19,7 @@ Les fotografies dels quatre combos formats per alumnes i professors de l'Escola-
 |  |
 | --- |
 |  |
-| De [Escola-Taller de Blues de Barcelona - Combos final de curs](http://picasaweb.google.com/linuxbcn/EscolaTallerDeBluesDeBarcelonaCombosFinalDeCurs?feat=embedwebsite) |
+| De [Escola-Taller de Blues de Barcelona - Combos final de curs](https://photos.app.goo.gl/632JK7ADA1zxwz5p6) |
 
 I la entrega dels diplomes de final de curs.
 

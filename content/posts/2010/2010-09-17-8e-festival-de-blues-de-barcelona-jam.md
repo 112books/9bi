@@ -18,6 +18,6 @@ album_url: https://photos.app.goo.gl/CdvjUftqgfgSqfgi8
 |  |
 | --- |
 |  |
-| De [8è Festival de Blues de Barcelona - Jam Session](http://picasaweb.google.com/linuxbcn/8eFestivalDeBluesDeBarcelonaJamSession?feat=embedwebsite) |
+| De [8è Festival de Blues de Barcelona - Jam Session](https://photos.app.goo.gl/CdvjUftqgfgSqfgi8) |
 
 Fantàstica Jam Session amb els millors músics de l'escena blusera de Barcelona. Algúns d'ells de l'Escola-Taller de blues de Barcelona i amb George Bedard com a sorpressa ;)

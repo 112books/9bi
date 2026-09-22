@@ -20,4 +20,4 @@ Una nit de teatre, una nit genial. Ara feia molt de temps que no veia teatre. Aq
 |  |
 | --- |
 |  |
-| De [Loco Brusca "Guasavi"](http://picasaweb.google.com/linuxbcn/LocoBruscaGuasavi?feat=embedwebsite) |
+| De [Loco Brusca "Guasavi"](https://photos.app.goo.gl/86Nq2xZ8NjWBtxLc8) |

@@ -16,7 +16,7 @@ album_url: https://photos.app.goo.gl/FWv11QfySgvCvz2Q8
 |  |
 | --- |
 |  |
-| De [circumstàncies. 15º Circ d´Hivern 2010. Ateneu Popular 9 Barris. Barcelona](http://picasaweb.google.com/ulls2006/Circumstancies15CircDHivern2010AteneuPopular9BarrisBarcelona?feat=embedwebsite) |
+| De [circumstàncies. 15º Circ d´Hivern 2010. Ateneu Popular 9 Barris. Barcelona](https://photos.app.goo.gl/FWv11QfySgvCvz2Q8) |
 
 .. Reportatge Fotogràfic
 .. Crítica 15è Circ d'Hivern de l'Ateneu de 9 Barris

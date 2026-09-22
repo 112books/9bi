@@ -20,6 +20,6 @@ Amb la conferència "Blues Sense Fronteres".
 |  |
 | --- |
 |  |
-| De [8è Festival de Blues de Barcelona - Conferència Jean Guillermo](http://picasaweb.google.com/linuxbcn/8eFestivalDeBluesDeBarcelonaConferenciaJeanGuillermo?feat=embedwebsite) |
+| De [8è Festival de Blues de Barcelona - Conferència Jean Guillermo](https://photos.app.goo.gl/Pk2zatYSGZQr5PjV9) |
 
 Molt aviat el vídeo de la conferència.

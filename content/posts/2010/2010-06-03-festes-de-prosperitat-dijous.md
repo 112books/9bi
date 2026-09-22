@@ -33,4 +33,4 @@ Air gitar i Proyecto Luisbo organitzat per la penya "Xarnegs de Prospe"
 |  |
 | --- |
 |  |
-| De [Festes de Prosperitat - Dijous](http://picasaweb.google.com/linuxbcn/FestesDeProsperitatDijous02?feat=embedwebsite) |
+| De [Festes de Prosperitat - Dijous](https://photos.app.goo.gl/urskSJKDK4crGauB6) |

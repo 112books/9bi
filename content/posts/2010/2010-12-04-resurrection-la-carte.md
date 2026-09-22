@@ -22,4 +22,4 @@ Esculli la seva estrella preferida: Louis Amstrong, Billie Holiday, Frank Sinatr
 |  |
 | --- |
 |  |
-| De [Resurrection a la cartè](http://picasaweb.google.com/linuxbcn/ResurrectionALaCarte?feat=embedwebsite) |
+| De [Resurrection a la cartè](https://photos.app.goo.gl/EPFeMGEdRBUYMRUU6) |
