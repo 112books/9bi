@@ -1,12 +1,11 @@
-# Decap CMS — configuració del blog 9 Barris Imatge
-# Docs backend Gitea/Forgejo: https://decapcms.org/docs/gitea-backend/
+# Sveltia CMS — configuració del blog 9 Barris Imatge
+# Docs config: https://sveltiacms.app/en/docs/configuration/
 #
-# Nota (2026-09-18): backend "gitea" (NO "forgejo"). La raó: el backend "forgejo"
-# de Decap llista les carpetes amb l'arbre recursiu del repo sencer
-# (git/trees/{sha}?recursive=1) i Codeberg el trunca a 1000 nodes → les carpetes
-# tardanes alfabèticament (content/posts/2014+ i data/membres) sortien buides.
-# El backend "gitea" fa servir l'endpoint per path (git/trees/{branch}:{path}),
-# que no es trunca, i és el que el doc de Decap recomana per a repos Forgejo.
+# Nota (2026-09-22): backend "gitea" per a repos Gitea/Forgejo (Codeberg). Sveltia
+# llista les carpetes amb l'arbre recursiu amb paginació (git/trees/{branch}?recursive=1&page=N),
+# que Codeberg retalla a 1000 nodes per pàgina; paginant ho cobreix tot
+# (3.006 posts + data/membres). Els camps "sortable_fields" i "thumbnail"
+# estan adaptats al format d'Sveltia (compatible amb Static CMS).
 #
 # ABANS DE DESPLEGAR, cal:
 # 1. Crear el repositori al Codeberg (p. ex. linuxbcn/9barrisimatge)
@@ -25,7 +24,8 @@ backend:
   auth_endpoint: https://codeberg.org/login/oauth/authorize
   branch: main
 
-locale: "ca"
+# Nota idioma: Sveltia detecta la llengua del navegador de cada editor (el camp
+# "locale" de Decap ja no s'aplica; per tant no s'ha d'afegir).
 
 # Les imatges que pugen els editors van a static/images i es serveixen a /images
 media_folder: "static/images"
@@ -63,8 +63,13 @@ collections:
     folder: "content/posts/2026"
     create: true
     sortable_fields:
-      - { field: "date", label: "Data", default_sort: desc }
-      - { field: "title", label: "Títol" }
+      fields:
+        - date
+        - title
+      default:
+        field: date
+        direction: descending
+    thumbnail: "cover.image"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -89,8 +94,13 @@ collections:
     folder: "content/posts/2025"
     create: true
     sortable_fields:
-      - { field: "date", label: "Data", default_sort: desc }
-      - { field: "title", label: "Títol" }
+      fields:
+        - date
+        - title
+      default:
+        field: date
+        direction: descending
+    thumbnail: "cover.image"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -115,8 +125,13 @@ collections:
     folder: "content/posts/2024"
     create: true
     sortable_fields:
-      - { field: "date", label: "Data", default_sort: desc }
-      - { field: "title", label: "Títol" }
+      fields:
+        - date
+        - title
+      default:
+        field: date
+        direction: descending
+    thumbnail: "cover.image"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -141,8 +156,13 @@ collections:
     folder: "content/posts/2023"
     create: true
     sortable_fields:
-      - { field: "date", label: "Data", default_sort: desc }
-      - { field: "title", label: "Títol" }
+      fields:
+        - date
+        - title
+      default:
+        field: date
+        direction: descending
+    thumbnail: "cover.image"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -167,8 +187,13 @@ collections:
     folder: "content/posts/2022"
     create: true
     sortable_fields:
-      - { field: "date", label: "Data", default_sort: desc }
-      - { field: "title", label: "Títol" }
+      fields:
+        - date
+        - title
+      default:
+        field: date
+        direction: descending
+    thumbnail: "cover.image"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -193,8 +218,13 @@ collections:
     folder: "content/posts/2021"
     create: true
     sortable_fields:
-      - { field: "date", label: "Data", default_sort: desc }
-      - { field: "title", label: "Títol" }
+      fields:
+        - date
+        - title
+      default:
+        field: date
+        direction: descending
+    thumbnail: "cover.image"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -219,8 +249,13 @@ collections:
     folder: "content/posts/2020"
     create: true
     sortable_fields:
-      - { field: "date", label: "Data", default_sort: desc }
-      - { field: "title", label: "Títol" }
+      fields:
+        - date
+        - title
+      default:
+        field: date
+        direction: descending
+    thumbnail: "cover.image"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -245,8 +280,13 @@ collections:
     folder: "content/posts/2019"
     create: true
     sortable_fields:
-      - { field: "date", label: "Data", default_sort: desc }
-      - { field: "title", label: "Títol" }
+      fields:
+        - date
+        - title
+      default:
+        field: date
+        direction: descending
+    thumbnail: "cover.image"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -271,8 +311,13 @@ collections:
     folder: "content/posts/2018"
     create: true
     sortable_fields:
-      - { field: "date", label: "Data", default_sort: desc }
-      - { field: "title", label: "Títol" }
+      fields:
+        - date
+        - title
+      default:
+        field: date
+        direction: descending
+    thumbnail: "cover.image"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -297,8 +342,13 @@ collections:
     folder: "content/posts/2017"
     create: true
     sortable_fields:
-      - { field: "date", label: "Data", default_sort: desc }
-      - { field: "title", label: "Títol" }
+      fields:
+        - date
+        - title
+      default:
+        field: date
+        direction: descending
+    thumbnail: "cover.image"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -323,8 +373,13 @@ collections:
     folder: "content/posts/2016"
     create: true
     sortable_fields:
-      - { field: "date", label: "Data", default_sort: desc }
-      - { field: "title", label: "Títol" }
+      fields:
+        - date
+        - title
+      default:
+        field: date
+        direction: descending
+    thumbnail: "cover.image"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -349,8 +404,13 @@ collections:
     folder: "content/posts/2015"
     create: true
     sortable_fields:
-      - { field: "date", label: "Data", default_sort: desc }
-      - { field: "title", label: "Títol" }
+      fields:
+        - date
+        - title
+      default:
+        field: date
+        direction: descending
+    thumbnail: "cover.image"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -375,8 +435,13 @@ collections:
     folder: "content/posts/2014"
     create: true
     sortable_fields:
-      - { field: "date", label: "Data", default_sort: desc }
-      - { field: "title", label: "Títol" }
+      fields:
+        - date
+        - title
+      default:
+        field: date
+        direction: descending
+    thumbnail: "cover.image"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -401,8 +466,13 @@ collections:
     folder: "content/posts/2013"
     create: true
     sortable_fields:
-      - { field: "date", label: "Data", default_sort: desc }
-      - { field: "title", label: "Títol" }
+      fields:
+        - date
+        - title
+      default:
+        field: date
+        direction: descending
+    thumbnail: "cover.image"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -427,8 +497,13 @@ collections:
     folder: "content/posts/2012"
     create: true
     sortable_fields:
-      - { field: "date", label: "Data", default_sort: desc }
-      - { field: "title", label: "Títol" }
+      fields:
+        - date
+        - title
+      default:
+        field: date
+        direction: descending
+    thumbnail: "cover.image"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -453,8 +528,13 @@ collections:
     folder: "content/posts/2011"
     create: true
     sortable_fields:
-      - { field: "date", label: "Data", default_sort: desc }
-      - { field: "title", label: "Títol" }
+      fields:
+        - date
+        - title
+      default:
+        field: date
+        direction: descending
+    thumbnail: "cover.image"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -479,8 +559,13 @@ collections:
     folder: "content/posts/2010"
     create: true
     sortable_fields:
-      - { field: "date", label: "Data", default_sort: desc }
-      - { field: "title", label: "Títol" }
+      fields:
+        - date
+        - title
+      default:
+        field: date
+        direction: descending
+    thumbnail: "cover.image"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -505,8 +590,13 @@ collections:
     folder: "content/posts/2009"
     create: true
     sortable_fields:
-      - { field: "date", label: "Data", default_sort: desc }
-      - { field: "title", label: "Títol" }
+      fields:
+        - date
+        - title
+      default:
+        field: date
+        direction: descending
+    thumbnail: "cover.image"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
@@ -531,8 +621,13 @@ collections:
     folder: "content/posts/2008"
     create: true
     sortable_fields:
-      - { field: "date", label: "Data", default_sort: desc }
-      - { field: "title", label: "Títol" }
+      fields:
+        - date
+        - title
+      default:
+        field: date
+        direction: descending
+    thumbnail: "cover.image"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Títol", name: "title", widget: "string" }
