@@ -425,6 +425,12 @@ h1, h2, h3, h4, h5, h6 {
   flex: none;
   border-radius: 3px;
 }
+/* PaperMod aplica white-space:nowrap a .footer span:last-child; cal anular-lo
+   perquè el bloc de llicència pugui fer salt de línia al mòbil. */
+.footer-copyright-text,
+.footer-copyright-text > span {
+  white-space: normal;
+}
 
 .footer-powered {
   display: inline-block;
