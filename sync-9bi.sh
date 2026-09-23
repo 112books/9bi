@@ -4,14 +4,27 @@
 #  Ús: ./sync-9bi.sh               (menú interactiu)
 #      ./sync-9bi.sh status        (estat del repo, local i remot)
 #      ./sync-9bi.sh sync          (commit + pull --rebase + push a main)
-#      ./sync-9bi.sh deploy        (build staging + push a 'pages' → producció)
+#      ./sync-9bi.sh deploy [staging|production]   (build + push a 'pages', per entorn)
+#      ./sync-9bi.sh deploy-prod   (atall: deploy production)
 #      ./sync-9bi.sh build         (build local, amb drafts)
 #      ./sync-9bi.sh server        (servidor local → localhost:1313)
+#
+#  Entorns (baseURL de cada un, vegeu config/<env>/hugo.toml):
+#    local      → http://localhost:1313/            comanda: server / hugo server -D
+#    staging    → https://linuxbcn.codeberg.page/9bi/   comanda: deploy staging
+#    production → https://9barrisimatge.org/        comanda: deploy production / deploy-prod
+#    taro (app) → allotjament propi (LinuxBCN/Dinahosting), NO es desplega aquí.
+#  Com es construeixen les URLs: tots els enllaços interns i imatges usen
+#  `relURL` amb el baseURL de l'entorn actiu (hooks render-image / rel.html),
+#  de manera que el mateix contingut es publica correctament a qualsevol entorn.
 #
 #  Nota sobre el deploy real (2026-09-17): Forgejo Actions no té runner
 #  disponible al repo, així que un push a 'main' NO publica el lloc.
 #  La publicació la fa la branca 'pages' (build local) + un webhook
 #  configurat al repo. Per això 'sync' i 'deploy' són passos separats.
+#  ⚠ El domini (production) es publica via un webhook propi de git-pages
+#  (TXT _git-pages-repository → linuxbcn/9bi.git); si el domini no es
+#  refresca, cal revisar el webhook del domini a Settings → Webhooks.
 # ═══════════════════════════════════════════════════════════════════════
 
 set -euo pipefail
@@ -23,8 +36,23 @@ BRANCH_PAGES="pages"          # branca que serveix Codeberg Pages (via webhook)
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_CODEBERG="linuxbcn/9bi"
 REPO_SSH="ssh://git@codeberg.org/${REPO_CODEBERG}.git"
-SITE_URL="https://linuxbcn.codeberg.page/9bi/"
 DEPLOY_LOG="${REPO_DIR}/.deploy-log"
+
+# Entorns de desplegament (build `hugo --environment <env>` → baseURL).
+#   staging    → https://linuxbcn.codeberg.page/9bi/   (previsualització)
+#   production → https://9barrisimatge.org/            (domini real)
+# L'entorn determina com es construeixen les URLs (vegeu config/<env>/hugo.toml).
+ENV_STAGING="staging"
+ENV_PROD="production"
+
+# Defineix la URL de publicació per entorn (per als missatges i el log).
+env_url() {
+  case "$1" in
+    "$ENV_STAGING") echo "https://linuxbcn.codeberg.page/9bi/" ;;
+    "$ENV_PROD")    echo "https://9barrisimatge.org/" ;;
+    *)              echo "??" ;;
+  esac
+}
 
 # ── Colors i helpers ─────────────────────────────────────────────────────
 RED='\033[0;31m'; GRN='\033[0;32m'; YLW='\033[1;33m'
@@ -129,7 +157,8 @@ sync() {
   fi
 }
 
-# ── Deploy real a producció (build → branca 'pages') ────────────────────
+# ── Deploy real (build → branca 'pages'), per entorn ────────────────────
+# Ús: deploy [staging|production]  — entorn per defecte: staging
 # Deploy INCREMENTAL (canvi 2026-09-21, motiu quota de Codeberg):
 # ANTES es feia 'git init' + force-push d'un snapshot complet del build
 # (~160 MiB) a cada deploy; els snapshots anteriors quedaven com a objectes
@@ -139,6 +168,13 @@ sync() {
 # NORMAL (fast-forward) i només es pugen els objectes que realment canvien.
 # Els blobs que no canvien es reutilitzen (mateix hash) → creixement mínim.
 deploy() {
+  local ENV="${1:-$ENV_STAGING}"
+  case "$ENV" in
+    "$ENV_STAGING"|"$ENV_PROD") ;;
+    *) err "Entorn desconegut: '$ENV'. Usa 'staging' o 'production'."; exit 1 ;;
+  esac
+  local SITE_URL; SITE_URL="$(env_url "$ENV")"
+
   if [[ -n "$(git status --short)" ]]; then
     warn "Hi ha canvis sense commitejar/pujar a '${BRANCH_DEPLOY}'."
     warn "El deploy publica el que hi ha ARA als fitxers locals, encara que no estigui pujat a main."
@@ -160,18 +196,18 @@ deploy() {
   [[ -z "$label" ]] && label="deploy $(date '+%Y-%m-%d %H:%M')"
 
   BUILD_DIR="$(mktemp -d "${TMPDIR:-/tmp}/9bi-deploy.XXXXXX")"
-  print "Build de producció a ${BUILD_DIR}..."
-  if ! hugo --minify --environment staging --destination "$BUILD_DIR"; then
+  print "Build amb l'entorn '${ENV}' a ${BUILD_DIR}..."
+  if ! hugo --minify --environment "$ENV" --destination "$BUILD_DIR"; then
     err "Build fallat. Deploy avortat, cap canvi remot."
     rm -rf "$BUILD_DIR"
     exit 1
   fi
-  ok "Build correcte."
+  ok "Build correcte (${ENV}) → ${SITE_URL}"
 
   echo ""
   warn "Es farà un deploy incremental (només els fitxers que canvien) a la branca '${BRANCH_PAGES}'."
   warn "El clon persistent es resetejarà a l'últim publicat abans de sincronitzar-hi el build."
-  read -r -p "  Confirmes el deploy \"${label}\"? (s/N) " confirm
+  read -r -p "  Confirmes el deploy \"${label}\" a '${ENV}'? (s/N) " confirm
   if [[ "$confirm" != "s" && "$confirm" != "S" ]]; then
     dim "Deploy cancel·lat."
     rm -rf "$BUILD_DIR"
@@ -203,10 +239,13 @@ deploy() {
   }
 
   rm -rf "$BUILD_DIR"
-  echo "$(date '+%Y-%m-%d %H:%M')  ${label}  (font: $(git rev-parse --short HEAD))" >> "$DEPLOY_LOG"
+  echo "$(date '+%Y-%m-%d %H:%M')  [${ENV}] ${label}  (font: $(git rev-parse --short HEAD))" >> "$DEPLOY_LOG"
   ok "Deploy complet: \"${label}\" → ${SITE_URL}"
   dim "El webhook de Forgejo publica el lloc en pocs segons."
 }
+
+# Alias shortcuts
+deploy-prod() { deploy "$ENV_PROD"; }
 
 server_local() {
   print "Arrancant servidor local (http://localhost:1313)..."
@@ -235,7 +274,8 @@ upload() {
 case "${1:-menu}" in
   status) status; exit 0 ;;
   sync)   sync;   exit 0 ;;
-  deploy) deploy; exit 0 ;;
+  deploy) deploy "${2:-staging}"; exit 0 ;;
+  deploy-prod) deploy "production"; exit 0 ;;
   build)  build_local; exit 0 ;;
   server) server_local; exit 0 ;;
 esac
@@ -251,10 +291,11 @@ echo -e " Branca: ${YLW}${CURRENT}${RST}"
 echo ""
 echo " 1) Status (local + remot, no modifica res)"
 echo " 2) Sync codi font (commit + pull --rebase + push a main)"
-echo " 3) Deploy a producció (build + push a 'pages', amb confirmació)"
-echo " 4) Servidor local → localhost:1313"
-echo " 5) Build local (hugo --minify, amb drafts)"
-echo " 6) Refresca els articles més visitats (GoatCounter)"
+echo " 3) Deploy a staging (build + push a 'pages' → linuxbcn.codeberg.page/9bi/)"
+echo " 4) Deploy a producció (build + push a 'pages' → 9barrisimatge.org)"
+echo " 5) Servidor local → localhost:1313"
+echo " 6) Build local (hugo --minify, amb drafts)"
+echo " 7) Refresca els articles més visitats (GoatCounter)"
 echo "───────────────────────────────────────"
 echo " 0) Sortir"
 echo ""
@@ -265,10 +306,11 @@ echo ""
 case "$opt" in
   1) status ;;
   2) sync ;;
-  3) deploy ;;
-  4) server_local ;;
-  5) build_local ;;
-  6) upload ;;
+  3) deploy "staging" ;;
+  4) deploy "production" ;;
+  5) server_local ;;
+  6) build_local ;;
+  7) upload ;;
   0) exit 0 ;;
   *) err "Opció no vàlida: '${opt}'"; exit 1 ;;
 esac

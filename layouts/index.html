@@ -27,7 +27,7 @@
         <h2>{{ .Title }}</h2>
         <p class="mosaic-meta">
           <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "02 · 01 · 2006" }}</time>
-          {{- with .Params.author }} · {{ . }}{{ end -}}
+          {{- with .Params.author }} · {{ partial "autordisplay.html" . }}{{ end -}}
         </p>
       </div>
     </a>
@@ -47,7 +47,7 @@
 {{- if eq $size.PageNumber 1 }}
 {{- $today := now }}
 {{- $efemeris := slice }}
-{{- range $i := seq 1 5 }}
+{{- range $i := slice 1 2 3 4 5 10 }}
   {{- $target := $today.AddDate (sub 0 $i) 0 0 }}
   {{- $best := false }}
   {{- $bestDiff := 999999999.0 }}

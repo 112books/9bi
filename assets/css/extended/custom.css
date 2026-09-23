@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .efemerides-row {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 0.4rem;
 }
 @media (max-width: 1024px) {
@@ -425,10 +425,11 @@ h1, h2, h3, h4, h5, h6 {
   flex: none;
   border-radius: 3px;
 }
-/* PaperMod aplica white-space:nowrap a .footer span:last-child; cal anular-lo
-   perquè el bloc de llicència pugui fer salt de línia al mòbil. */
-.footer-copyright-text,
-.footer-copyright-text > span {
+/* PaperMod aplica white-space:nowrap a .footer span:last-child (0,1,1); cal
+   ANULAR-LO amb especificitat major (0,2,1) perquè el bloc de llicència pugui
+   fer salt de línia al mòbil. */
+.footer span.footer-copyright-text,
+.footer span.footer-copyright-text > span {
   white-space: normal;
 }
 
@@ -530,6 +531,23 @@ h1, h2, h3, h4, h5, h6 {
   .footer-col--legal .footer-col-list li + li::before {
     content: "·";
     margin-right: 0.55rem;
+  }
+  /* Al mòbil, apilem el logotip CC al damunt del text de la llicència:
+     badge centrat a dalt i text a tota l'amplada del web sota seu. */
+  .footer-copyright {
+    min-width: 0;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .footer-copyright .cc-badge {
+    height: 22px;
+  }
+  .footer-copyright-text,
+  .footer-copyright-text > span {
+    min-width: 0;
+    width: 100%;
+    overflow-wrap: anywhere;
+    text-align: center;
   }
 }
 
@@ -736,26 +754,39 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   .header .header-nav {
     justify-content: center;
+    /* El menú no ha d'heretar el line-height del header (259px):
+       és el que feia la fila d'icones gegant (header de 488px). */
+    line-height: normal;
   }
   .header .logo {
     margin: 0 auto;
     justify-content: center;
   }
-  /* Al telèfon el header queda només amb el logo gran i centrat */
-  .header .logo {
-    margin: 0 auto;
-    justify-content: center;
+  /* El fons del header a la meitat de l'actual (488 → 244px):
+     la imatge només cobreix la banda superior; el menú queda sota, fora del fons. */
+  .header {
+    background-size: 100% 244px;
+    background-position: top center;
+    background-repeat: no-repeat;
   }
+  /* Icones del menú en una línia, amb 35px sota el logo */
   .header .menu {
     width: 100%;
     justify-content: center;
+    margin-top: 35px;
+    column-gap: 1rem;
   }
   .menu-icon {
     display: inline-flex;
   }
+  /* Icones al doble (17 → 34px) */
   .menu-icon svg {
-    width: 17px;
-    height: 17px;
+    width: 34px;
+    height: 34px;
+  }
+  .menu-theme .theme-toggle svg {
+    width: 34px;
+    height: 34px;
   }
   /* Menú només amb icones al telèfon; el text queda a l'atribut title */
   .menu-text {

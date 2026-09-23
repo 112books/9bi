@@ -1,0 +1,4 @@
+{{- if or .Params.author site.Params.author }}
+    {{- $raw := (.Params.author | default site.Params.author) }}
+    {{- partial "autordisplay.html" $raw }}
+{{- end -}}

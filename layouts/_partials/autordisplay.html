@@ -1,0 +1,18 @@
+{{/* Rep el nom d'autor cru (string o llista) i retorna el nom de visualització:
+     malnom de data/membres si hi és; si no, nom; si no, el cru. */}}
+{{- $raw := . -}}
+{{- if reflect.IsSlice $raw -}}
+    {{- $mapped := slice -}}
+    {{- range $raw -}}
+        {{- $mapped = $mapped | append (partial "autordisplay.html" .) -}}
+    {{- end -}}
+    {{- delimit $mapped ", " -}}
+{{- else -}}
+    {{- $display := $raw -}}
+    {{- range $slug, $m := (hugo.Data.membres | default dict) -}}
+        {{- if eq (lower ($m.autor | default "")) (lower $raw) -}}
+            {{- $display = $m.malnom | default ($m.nom | default $raw) -}}
+        {{- end -}}
+    {{- end -}}
+    {{- $display -}}
+{{- end -}}
