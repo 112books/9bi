@@ -8,7 +8,7 @@ tags:
 - drupalcampspain
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmp7RX8QfIGwli9I0mFMRyAhQdysZDJikC_oWt2vlqouds4tnM4GmKdrcaCKucXUPpIcsgVgrXZOPy9wW2-frroo5OoXOlUL_VOAYxf3MeI7OQRBtsmzDNPZcQ5bHzB3MFxeL2kMqWT1o/w640-h426/IMG_9939.JPG
+  image: images/covers/34b5722612378d32.webp
 album_url: https://photos.app.goo.gl/HkxwguAehnJfDHfx9
 ---
 

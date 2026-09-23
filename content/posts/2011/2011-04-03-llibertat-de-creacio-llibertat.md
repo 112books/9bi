@@ -9,7 +9,7 @@ tags:
 - fotografia
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIwBmr7zd5iwWv7drrKD4_O0bfAenCSlAW2bqzcXFU3H1gmCOx756AXRRJHQt1PTyqZSWRjkXww2HqmMDksCbRD0722RhgTSX8I3YS5rnnQdKv5R0VIOgGTMVaVbPkOIohU7OVzopt2ZE/s400/IMG_4130.jpg
+  image: images/covers/f6ef733627577dd5.webp
 album_url: https://picasaweb.google.com/linuxbcn/LlibertatDeCreacioLlibertatDExpressio?feat=embedwebsite
 ---
 

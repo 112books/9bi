@@ -11,7 +11,7 @@ tags:
 - gent
 - art
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3XjGjdcfZehyphenhyphenvazAZlm3ZF5lrQcbFKrLs2gzLRZXlfVTwJAWLpqTD_pMCHqd-fs5VxxvkxDQ07-gl4bJPCan6F8kJOnNuHCQB2suPzYGHk2z9KmfwXWVMUJExtfxipeqeyJdZgz4yB3c/s640/P5270087.jpg
+  image: images/covers/b41922a0953c1626.webp
 album_url: https://photos.app.goo.gl/sEW6XLaap7jTJVRZA
 ---
 

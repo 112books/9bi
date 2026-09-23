@@ -10,7 +10,7 @@ tags:
 - art
 - mur
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2Ty9prHcVCqeL4-JU4SLVvCiE8KL-nYEZ12VErgmp1vfWCbjfM4asyx9tOhfy3OnbauCZC_Se4trYzINup9hyphenhyphenZFAX9djrCZijY_kIoJcoERJc3GxP27zepQyNbDPotEv9ex9vyq0UDirK/s640/P2190597.jpg
+  image: images/covers/a8e40d73b3bad916.webp
 album_url: '
 
   https://photos.google.com/share/AF1QipP4NKJ-qj-ywwDrk-zxG5dxdJNbRva9kgoH-B8p_P5utOlq2zcJ7-iXR5ijDr4QTQ?hl=es&key=Y1gyTklVSGRkbERucHBnQ1NRRERYQTF2M0dHUE53'

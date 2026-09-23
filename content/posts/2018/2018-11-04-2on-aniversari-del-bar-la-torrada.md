@@ -7,7 +7,7 @@ slug: 2on-aniversari-del-bar-la-torrada
 tags:
 - la torrada
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYXOt5hv-UoeRoIaQf3h4pm1-JTxVtmK2eEzNObKFBPxk1QKkEFfit4LYVdwfptpR47dGrNc__jq85WmjMuz-KTunmFRW0iqXMfYt3JOFPhRsw1Rt4XC4oQljM0FippI9W-r_lhegpXbI/s640/_DSF6954.jpg
+  image: images/covers/42f80cab85c8b76d.webp
 album_url: https://photos.app.goo.gl/MWSNfh6HqLfNm16u5
 ---
 

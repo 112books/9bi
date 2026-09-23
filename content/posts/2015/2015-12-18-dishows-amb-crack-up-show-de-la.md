@@ -7,7 +7,7 @@ slug: dishows-amb-crack-up-show-de-la
 tags:
 - dishows
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoIit8kCTuaYxexsjdyxVZZ11JhW-r9j9wnN4LvLnS-mcqg-3ixGBGCB_ru7eYTl5Fpt4irIHbQfXy-UtPw4txRZrSWFudxcIGCTxZXniyXUU3R_QnqJIGCqDg3-S6Bzs655d9bHV1dJA/s400-Ic42/DSCF2482.jpg
+  image: images/covers/cc1f0719ef713f90.webp
 album_url: https://picasaweb.google.com/103138221614479310970/DishowsAmbCrackUpShowDeLaCompanyiaDeuxALaTache?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - Honkytonk Blues Bar
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYGgtr71dmmBLCQFbytWyarjI2jwjBscAmSHi6PFwBtKIkJ_kzt7ikPR8LaYldy182CCNDz5V0JLlVF5Ysiq20elYZfYIDL-h5tF09mx1T2dfO0EToBOOK7vC5anbB_QQTO_Z8e9-sQjM/w640-h277/IMG_4347.jpg
+  image: images/covers/13ad9593f62ca204.webp
 album_url: https://photos.app.goo.gl/PYoZr9uT5ygEvuMN9
 ---
 

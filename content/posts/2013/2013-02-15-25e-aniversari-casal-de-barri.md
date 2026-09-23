@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - mur
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4hOu9u0EHc57D8wSB1Ab1ykV21GXqRK1YPlQT8ekiHmXJcSzZ577pDopkUn-r3xwq_7cu9DpHtvoRYXgLYwtsPRhS8BgPt5d_dxKuuOVTzfOHvbO7FWvUwOoaNKiJsrGtMKcgcRysVXg/s400/IMG_9605.jpg
+  image: images/covers/2c9955a539d53c20.webp
 album_url: https://picasaweb.google.com/103138221614479310970/25eAniversariCasalDeBarriEngantxadaDeCartells?authuser=0&authkey=Gv1sRgCOjM7d6foL-oRg&feat=embedwebsite
 ---
 

@@ -8,7 +8,7 @@ tags:
 - Prospe Beach
 - Ángel Pesstaña
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWfchvkd92r-qQ7nhQSN3dlAy6N2I7FC2RX2jBdvm6bxcPp4z9DfzJTnIaSWGbenhhkTFU-Qem3aTLTpehdDLO6KDAlD0jkTsuEtQmY_wLLCRAUAUHI-3R-ru7Tx0D5XtJOz1JDgdv3rg/s320/IMG_4762.jpg
+  image: images/covers/86e08184d39cd672.webp
 ---
 
 Un dels senyals que m'indiquen que ja tenim la calor aquí (i que no pararà fins a final d'estiu) és quan es posa la sorra de platja a la Plaça Ángel Pestaña, com cada any.

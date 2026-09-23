@@ -9,7 +9,7 @@ tags:
 - despedida
 - Pedro
 cover:
-  image: http://lh6.ggpht.com/pedro.cervera/SI44bq29wzI/AAAAAAAABCY/0SrJQLqzqeU/s400/IMG_0164.JPG
+  image: images/covers/2a8dff8ea65de9e3.webp
 album_url: http://picasaweb.google.es/pedro.cervera/DespedidaDelCasalCaminoDeLaIndia/photo#5228178265436177202
 ---
 

@@ -11,7 +11,7 @@ tags:
 - presentació
 - nou barris
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbg15EauSQRrH3Ar_TEXzZlV-kyLE9Rs6hYy8MGmN_ny1t9lTsC9NYzl-AE-4jmaCwNPZvJ9AxGSzmuzKouB45ETBX7qX11HS9kDBAysOhdpWmzM8xijqEDvOoYq6p-rhrdpVsiec3XTo/s640/_DSC0395-2.jpg
+  image: images/covers/04e88df5431627a3.webp
 album_url: https://photos.app.goo.gl/MJoRz3g8pQo8Qkq23
 ---
 

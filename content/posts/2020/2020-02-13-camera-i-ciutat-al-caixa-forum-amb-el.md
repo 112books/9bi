@@ -11,7 +11,7 @@ tags:
 - fotografia
 - exposició
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBQo2vcKUBy8Mh51CJcRdT78Pi_QuuSKWfMURS2PPxYvUt3__V6xlbJ334UNxerzzP0X17ojydRAxIiEV_ZWxm54yzS2ls7-qwyCr3UvPpvRQ6jLLe2N5SyoLnmaHc1knkKuvXmFNViyk/s640/P2090024.jpg
+  image: images/covers/7fa65947a38d0b91.webp
 album_url: https://photos.app.goo.gl/a1GvWZHzKJWr9QbL9
 ---
 

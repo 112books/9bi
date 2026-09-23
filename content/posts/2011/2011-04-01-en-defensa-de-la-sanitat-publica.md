@@ -10,7 +10,7 @@ tags:
 - sanitat
 - vall hebron
 cover:
-  image: https://lh5.googleusercontent.com/_f59X45195rk/TZYGJ0Ns2QE/AAAAAAAAD68/ylviWSxVIjk/s160-c/EnDefensaDeLaSanitatPublica.jpg
+  image: images/covers/d7b79dbbd59c6128.webp
 album_url: https://picasaweb.google.com/pedro.cervera/EnDefensaDeLaSanitatPublica?feat=embedwebsite
 ---
 

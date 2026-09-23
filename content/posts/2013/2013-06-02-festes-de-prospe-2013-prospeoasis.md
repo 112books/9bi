@@ -8,7 +8,7 @@ tags:
 - festes de prospe
 - nico
 cover:
-  image: https://lh5.googleusercontent.com/-MbNdYtAfrWk/UatSOLvqhLE/AAAAAAAABZw/hh6fXa4N2cY/s160-c/FestesDeProspe2013Prospeoasis.jpg
+  image: images/covers/9be9bbcd7298b685.webp
 album_url: https://picasaweb.google.com/nico9barrisimarge/FestesDeProspe2013Prospeoasis?authuser=0&feat=embedwebsite
 ---
 

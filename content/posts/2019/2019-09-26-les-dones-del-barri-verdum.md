@@ -11,7 +11,7 @@ tags:
 - nou barris
 - ajuntament
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFcMO-yaWPHS2M5evdaKBl8prburIQyIfzvQZjw9JwqO51gHwVeb_aHOjkM8mDt63e3zHZ7de1-K7hQsIFahvwT5IZSZzMQZN6gDxEzY2jdSvX2yBSMc24DhV6djsTZDU34hqAo55Xmlo/s640/DSC_0067.jpg
+  image: images/covers/11dbf98e082504be.webp
 album_url: https://photos.app.goo.gl/Gz7JXQFyrkgrUQXB9
 ---
 

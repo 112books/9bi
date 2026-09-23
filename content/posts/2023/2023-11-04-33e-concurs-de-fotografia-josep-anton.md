@@ -11,7 +11,7 @@ tags:
 - exposició
 - entitats
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJ3nnTlW6aItN5WbWPl72J9F0SGdLxPXIkbJhUz59e1fZRs_IlVGcrWembgOBpFNHg0Q8fcgYdwvnIY855fWm5HFKYkcMnWzNhfKaq9QwuMa2RP_t1oLGpmh9wH_FLM3HLrINQoboUa434tkck-ZVnbhuSiOTUzDtjHLqgzQy-OP4Ahl_-kwbbNtm9a3U/w452-h640/cordoncillo-100.jpg
+  image: images/covers/07dd512af4082064.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

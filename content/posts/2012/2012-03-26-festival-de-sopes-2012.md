@@ -8,7 +8,7 @@ tags:
 - festival sopes
 - nou barris
 cover:
-  image: https://lh5.googleusercontent.com/-8GvYrzk4Eus/T3A17-w6JaE/AAAAAAAAFOI/DtnoJx02pCQ/s160-c/FestivalSopes2012.jpg
+  image: images/covers/fa06d22498a2aad4.webp
 album_url: https://picasaweb.google.com/pedro.cervera/FestivalSopes2012?authuser=0&feat=embedwebsite
 ---
 

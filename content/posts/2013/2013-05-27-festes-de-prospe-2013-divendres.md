@@ -9,7 +9,7 @@ tags:
 - festes de prospe
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivCss8tzdFK2XHWMJOOA7tpEvvgPUvmQvDOFp8Ui-hncyhb_Ou68QooiXFKqAQif14G5kzwWmMNOI8jgRDteH9KUQP_kVjPgU4rIGhe-5eP5MwO-7-Q22jH8r1SAzx-50gjovnMQM7zGw/s400/IMG_9448.jpg
+  image: images/covers/e07e553e7a891325.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestesDeProspe2013Divendres?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - membres
 - trobada
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjc0amDLPjA0PxnXwdaG-itHo4VL-WjfhQUS-q_7KXCoTEBO0rm5B32A08BxVhlqAwAFckWahPc_xdOiWe4tjQUfU3t4iTG4AlehVqoVnQZH7kphYwpSOUT79SMThEeNE6hU_IyZpxZa2Y/s400/20160519_191235.jpg
+  image: images/covers/3edb1841517f9582.webp
 album_url: https://picasaweb.google.com/lh/photo/RIpXknCCD8deMESIK7M2ndMTjNZETYmyPJy0liipFm0?feat=embedwebsite
 ---
 

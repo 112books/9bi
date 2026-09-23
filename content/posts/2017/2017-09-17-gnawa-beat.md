@@ -11,7 +11,7 @@ tags:
 - música
 - africa
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgb2jJVydxcSdhDDZTZLAXJ44Dv2JL4XaZYbLSfz8Hef14UlVZgbMojjzwvcuQYdzJCTDKePLgIXrtsx3uNCEbAJgSryNcpoKzt62zzAiA1c1cptvOPHgvOLpUprLR311aojSaUVf-pXPJw/s640/P1430292.jpg
+  image: images/covers/485a6632e36e2fc5.webp
 album_url: https://photos.app.goo.gl/q1JzJx2H867Mz4kv1
 ---
 

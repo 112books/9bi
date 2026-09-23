@@ -9,7 +9,7 @@ tags:
 - Festival de Blues de Barcelona 2011
 - manel sala ulls
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBZawp9VkFUOtuh469zH97CY-Ga8yNPo8ayzn951zV4OD5rT4eMA2GvlB8mRVHQQH3rOmgzWMGaWus-gPN6hGCcV9EX04vB-90Pt8TOVjWQXzIN9WodWWIJGECAvDdHxuqEtS5qsJBoWgB/w640-h427/IMG_2363.jpg
+  image: images/covers/1ba0e7d44d4ae024.webp
 album_url: https://picasaweb.google.com/ulls2006/FestivalDeBluesDeBarcelona2011Backstage?authuser=0&amp;feat=embedwebsite
 ---
 

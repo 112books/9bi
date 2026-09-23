@@ -11,7 +11,7 @@ tags:
 - passatge del terror
 - casal de barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrnxuc8zz3LaNm92_MuYtFvtcgiJXfyl0CsmfwoOQxcwFeqv9O82tHvrBsL8vsfJqgM6JRbW3ceA06KezBBNeeWoH9RgOR_S7XKBmdrp_HodZJyQ0E0MjLOXc7zJi6K8RgWpdcojjb9TPqunP-bdW56bLETrLiv9wfI45K2Itp91LqyZupN38v5HmF0BQ/w640-h426/IMG_2120.jpg
+  image: images/covers/c0047bd5ce8e01f8.webp
 album_url: https://photos.app.goo.gl/Jz2FjmwYFGYDCVT7A
 ---
 

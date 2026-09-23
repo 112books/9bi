@@ -7,7 +7,7 @@ slug: 2022-06-01-grup-de-mariaxis-penya-pureta
 tags:
 - mar
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZM11gA3t_VrCZQilIVovXEWQdi9KJzJa-4LK9Fr6S5bMUrINiUY4B40XmtstOCr_2gk93EfNfQSyL1fYNXiRym716LbnXD8joFM6VnjzbMZBuhVoLMgJhhSB32wBGtNzcVQ38xAylL2oCY_FbXgx6cr3r_9DKfbmVzSxdnjl39pSarfNFjeNqwTPI/w640-h426/_DSF9307.jpg
+  image: images/covers/625f81feef33c922.webp
 album_url: https://photos.app.goo.gl/b9vWVVjAhMtcgzKNA
 ---
 

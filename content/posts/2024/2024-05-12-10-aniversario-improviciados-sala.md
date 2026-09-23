@@ -11,7 +11,7 @@ tags:
 - prospe
 - art
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKvTViQwllJqctRK8GDOH4OSW7XejW-_E8m5rS10krQSXvkheESSjRZoQ9mxljlZfN4t1WnfGWZQyGPrM36esd3pY2r-ZRUCRFifboa8UzoyyEcys_tFrUORyekaB5UdBJmnapHbQhVgbmPc6qwA5ZbnrdQKz9HO8CeWzQMqtziBy_8AQaZy8dDIWmZL0/w640-h428/DSC_2988.jpg
+  image: images/covers/4c3d4c10e6dfe9a1.webp
 album_url: https://photos.app.goo.gl/VGTXanL8X4PsqGbj7
 ---
 

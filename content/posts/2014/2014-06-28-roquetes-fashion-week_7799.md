@@ -8,7 +8,7 @@ tags:
 - roquetes
 - veïns
 cover:
-  image: https://lh6.googleusercontent.com/-ZoiOk9-OIng/U636HicrhIE/AAAAAAAAGRs/MXzrLbcz4CI/s160-c/ROQUETESFASHIONWEEK.jpg
+  image: images/covers/163f202563278554.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ROQUETESFASHIONWEEK?authuser=0&feat=embedwebsite
 ---
 

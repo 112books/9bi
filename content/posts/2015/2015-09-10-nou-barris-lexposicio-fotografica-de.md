@@ -11,7 +11,7 @@ tags:
 - Barcelona
 - exposició
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPKSZQB-jZh5XIOyGa7_NOpnYMtBbQ1AKzy6yKCOC5fuOVHn7MNeLun5dyUc9vwA_iQd8wYnyrzaHxIhfOhL5pYERJ4N2rwdo4CzjOxtjWTp75xeA0r-XY_lLig9148whj6uyAxiZRCLbp/s400-Ic42/DSCN0767.jpg
+  image: images/covers/4da64824b371a21a.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ExposicioDeLAntoniCapella?authuser=0&feat=embedwebsite
 ---
 

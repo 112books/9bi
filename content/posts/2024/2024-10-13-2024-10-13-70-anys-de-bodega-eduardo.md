@@ -11,7 +11,7 @@ tags:
 - prospe
 - quim
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiN2DmOevoCOnXCaUSmMQOSjZs6vBi3ZDNXXTsXEFmr7k-n5x7_jJcZ6t0PHAq5WekWuOmSNN7GeBmmyVxQcAdYB1ZWEQdauNMLL9nYzi9kznTe-TIVen3xoMfLIAgqcnyM22Z7wAzVk4x7_H9OkFFOgt9zQHL2YyUrldAkD1XZgMQtd0yVCoxmX2Z7lYQ/w640-h428/L1480377.jpg
+  image: images/covers/d38ba5db6f37a5af.webp
 album_url: https://photos.app.goo.gl/K7vpqs7Ptuc4TqBN6
 ---
 

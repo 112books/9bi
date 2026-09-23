@@ -8,7 +8,7 @@ tags:
 - can basté
 - Panrico
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy57DNE_rGq4xO613Jo2qyylbUcnQM1JyISz0uEkKSnk_ouQ0mJ-d7i_nEhfDO6tiyemASxxKaZ8kPGBTKCd9bn63Nk_K6tEyypCLDZFVPX5Aut37B-uEeNvfmhoLSx-iMXxUiW9IVxUY/s400/IMG_3593.jpg
+  image: images/covers/60d4f869cf1599b8.webp
 album_url: https://picasaweb.google.com/103138221614479310970/NouBarrisAmbElsTreballadorsITreballadoresDePanrico?authuser=0&feat=embedwebsite
 ---
 

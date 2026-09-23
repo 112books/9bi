@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - entitats
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3GpWOHmFG381utMwTusLFsRsednNqwKJXwnvVughQHx_QjeuiDTfl-DBgcibcjJ1D43oFFadyO48jDWpdidO2tVjVz4izW-QHzgrqfFxmW2Zw54t1bnFluH2FILgaGsaOocmsjRsh-Is7/s400/IMG_1921.jpg
+  image: images/covers/d35c44967d2f53a2.webp
 album_url: https://picasaweb.google.com/100268695753733554853/SoparDEntitats2014CasalProsperitat?authuser=0&amp;feat=embedwebsite
 ---
 

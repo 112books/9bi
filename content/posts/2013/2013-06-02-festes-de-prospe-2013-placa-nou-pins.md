@@ -8,7 +8,7 @@ tags:
 - diari de festes
 - nico
 cover:
-  image: https://lh3.googleusercontent.com/-BdPI7nZD6c8/UatSySgTsyE/AAAAAAAABcw/YC7KvMpCjV8/s160-c/FestesDeProspe2013PlacaNouPins.jpg
+  image: images/covers/74a01b37e19b8b38.webp
 album_url: https://picasaweb.google.com/nico9barrisimarge/FestesDeProspe2013PlacaNouPins?authuser=0&feat=embedwebsite
 ---
 

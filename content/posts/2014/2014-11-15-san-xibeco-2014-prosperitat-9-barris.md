@@ -11,7 +11,7 @@ tags:
 - 9 barris
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc3p5R3CAhDncER1yILzwU7gpsqwpZo4J-znn2h4QKsozO4PKqPdr3rhqwuVsGfUljj-o7aQVgpRhYPauT_Gnf1RSxv3Hs1qxNOqxx4G6bqNLNOtVuUe5uyjKSaBr85xVyXGXa8Vv7CGCl/s400/IMG_8346.jpg
+  image: images/covers/4cd26c874aee1b28.webp
 album_url: https://picasaweb.google.com/100268695753733554853/SanXibeco2014Prosperitat9BarrisBarcelona?authuser=0&amp;feat=embedwebsite
 ---
 

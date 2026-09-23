@@ -11,7 +11,7 @@ tags:
 - llits
 - STA
 cover:
-  image: https://lh5.googleusercontent.com/-H5SnxSuOOdQ/U-IyHG-rSfE/AAAAAAAAHZg/eqgZyInnbro/s160-c/MalaltsSenseLlitsILlitsSenseMalaltsNoPotSer.jpg
+  image: images/covers/828b0c38983283d2.webp
 album_url: https://picasaweb.google.com/114858497713897843587/MalaltsSenseLlitsILlitsSenseMalaltsNoPotSer?authuser=0&feat=embedwebsite
 ---
 

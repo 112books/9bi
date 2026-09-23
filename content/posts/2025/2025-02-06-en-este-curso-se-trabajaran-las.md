@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - nou barris
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2vQ-sfY5_nb90-kKpBWyF_N3XCX_3eRqQnp2q3BWiXYY5_6Dyfk9EdihdsRwDrPRkZkyD5Fcw5rvf7er4-h-J-Zys-GDd6Us63bbmy6c1CJnHXuBopxxmzQnMA7sRRrjIq6ommkuisTcO_5LkXxdk0T14QMel-qXd4gOjRYmw7bMzoaUM6-xEbfl-TnA/w640-h640/tallerfoto.jpg
+  image: images/covers/0930f603bf681f35.webp
 album_url: https://photos.app.goo.gl/6JXoirPncBwPox4F9
 ---
 

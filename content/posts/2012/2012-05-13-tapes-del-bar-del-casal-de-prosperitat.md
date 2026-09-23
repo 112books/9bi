@@ -11,7 +11,7 @@ tags:
 - prospe
 - CASAL
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgW3QlyehbiZ4DX8k-aWXOJOQg-4IcUiwseSitYvkkyN4q_4f57utwjMIVKkNIV-pkUMIULw7taNRygYDRzGhxeT_Q9fB9Vu5Sl3xT0W29rbzS_nUcEDybO7zdIkt-7mN86uDN84pFIVKI/s400/IMG_0937.jpg
+  image: images/covers/6ca818782a379d75.webp
 album_url: https://picasaweb.google.com/103138221614479310970/TapesDelBarDelCasalDeProsperitat?authuser=0&feat=embedwebsite
 ---
 

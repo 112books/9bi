@@ -11,7 +11,7 @@ tags:
 - festes
 - art
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsC7jn0fttv8fWTaBvnGqlzp7cqCH25IdCDuo7orZ3uoqFKxcCwBpIxJi9BgML54zu4AHwn6KQFTGxXPHBcLxbcCRucH-uy-Z7xmdBUBvFw6SfzQ2VUO2RUK1DNsjwyhAuP5pw6xDUDYU/s400/DSC_0466-2.jpg
+  image: images/covers/66730692f4c2427e.webp
 album_url: https://picasaweb.google.com/110015855395179205688/TitelladaCavallsDeMenorca
 ---
 

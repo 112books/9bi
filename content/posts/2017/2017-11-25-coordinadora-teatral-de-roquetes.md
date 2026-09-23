@@ -7,7 +7,7 @@ slug: coordinadora-teatral-de-roquetes
 tags:
 - Centre Ton i Guida
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha_MJ1XmFMqiRm9f5GzmSOBkABqFGDlJig0A_PfqY9ah7xzf1hWLhCMRaj4gN_h-5bvJKN1Bqltbp0jvigt31y-Il-bf93MIvrXkaDdFfASM3joJzPh_rHd3uqQQtD6V4A8iUWCP7o_YA/s640/_B210156.jpg
+  image: images/covers/63951f4b6dff5570.webp
 album_url: https://photos.app.goo.gl/cl4PNVGnzpKWu8Jk1
 ---
 

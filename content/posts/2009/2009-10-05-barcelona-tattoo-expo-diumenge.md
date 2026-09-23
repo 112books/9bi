@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - tattoo
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvWs5G9R0iktTSvoRo9pdi_m8q3VNZo8qbnEE_NIr4YnCnULDYKXmYxLR95dcFzGeBVC0dT-7UHCj64o7IP4UX4s6ZaMvrPKOyfN0RWhKb1ybynGph0ydH3770Ga7BU9V-poiGyI60hQ8/w640-h426/IMG_3954.JPG
+  image: images/covers/fc720d6c4ee99175.webp
 album_url: https://photos.app.goo.gl/1HTF9cwieWNXGbfu6
 ---
 

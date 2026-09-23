@@ -7,7 +7,7 @@ slug: estes-de-prosperitat-castell-de-focs
 tags:
 - castell de focs
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7M6kB9irz9D4Qs8U_u9JBnCGEQadgX9H5gZ2YSNKq_0PSTe8r5IeyXtA7h9x-DsEpWruuYellIScsUbiv65Ul-k1Lxk7rWX0niGo4rGOKxuTOKxvDt4AbjPlSwg3nHZxlx4p5cjEXC4M/s400/IMG_3477.jpg
+  image: images/covers/1eafbe7964a9c308.webp
 album_url: https://picasaweb.google.com/linuxbcn/FestesDeProsperitatCastellDeFocs?feat=embedwebsite
 ---
 

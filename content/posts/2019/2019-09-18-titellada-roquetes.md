@@ -11,7 +11,7 @@ tags:
 - roquetes
 - titelles
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkZMvtgdRXBE7SUsn0Nxt93ItDuR-gbMPoXhvtObHaLWLsRwZUWlM94yVXCfBrBu5dl7aA61_cNC_afvUZrMBEGs1r7oRGMDQZu9FtlL63o00idYOrjk-BeLnWalrJe4_3HV-GqClGJJc/s640/IMG_20190917_180026.jpg
+  image: images/covers/785d8e186fc03ca4.webp
 album_url: https://photos.app.goo.gl/xHUHTjqVGTK76FpR7
 ---
 

@@ -11,7 +11,7 @@ tags:
 - roquetes
 - CASAL
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirV0_OIgc1p5S9nCNu6LeO9Koik_1q5hLVTxg9m84N_9viizucMnKqT_RfLW66rsS0pzFJnNJQaxUN1bKP2JwewFf8ErbhcQX20To4atvWRQGzls-7EKxMq_3E_ujb7t31sbp38zgNVOM/s400/_DSC0010.jpg
+  image: images/covers/6a3ee39d6b544063.webp
 album_url: https://picasaweb.google.com/110015855395179205688/BERENARDESENYORS?authuser=0&feat=embedwebsite
 ---
 

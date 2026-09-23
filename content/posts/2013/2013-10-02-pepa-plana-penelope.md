@@ -11,7 +11,7 @@ tags:
 - pallassa
 - penèlope
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1YTmzIV3Sdygi7zVRA1Nt-O8LKRYJQWrq-82pr4AueMVCr3dQWlBHR31bnPsUgtpRnZCEScyJooAMdAVhnI5sx9Jo9tTNT_ACrUxsLOdSR6rubREFMhFOK4XihYT195T3ebHeysSBlmuy/s400/IMG_1647.jpg
+  image: images/covers/0f3256faa1a7b90d.webp
 album_url: https://picasaweb.google.com/100268695753733554853/PepaPlanaPenelope02?authuser=0&amp;authkey=Gv1sRgCJ6Po9X9uYnEkwE&amp;feat=embedwebsite
 ---
 

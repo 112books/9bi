@@ -10,7 +10,7 @@ tags:
 - blues
 - BLUE
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsnIyMxF7J3EgAQod5pYSEZOBI84f2gJeaECZ2j7pteNWLf-brpZY6sQcQMC1uEI2_cvTHtwzPL-f4lP93fJs_vWB9ecTN7rdl3ihGQIWa56ZNukw7qC6usfSDfFQrpphPvafCtjtYYSI/s640/2020-07-07+-+B+-+++020.jpg
+  image: images/covers/26074c8991ad4a7b.webp
 album_url: https://photos.app.goo.gl/Egsq3HHDoEhDM3Xr8
 ---
 

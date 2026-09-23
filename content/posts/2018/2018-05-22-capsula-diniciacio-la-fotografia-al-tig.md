@@ -11,7 +11,7 @@ tags:
 - concurs
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvDvTyTJB3xOh0qU-lZ1a0K8jNIab2Vr__38Brsnw-m2PDNwPJ8wlpg_lM0AxroUJesnrsPIw8bgH9Ap2r47c_y1J0jb6SaUiaRRLQruASH0xpV8SwlBsUvBeJgaWPRtIuE3PspW8JPPc/s640/_DSC0052.jpg
+  image: images/covers/7f5d21954eb119bd.webp
 album_url: https://photos.app.goo.gl/yP8R9ujEBGapYtW02
 ---
 

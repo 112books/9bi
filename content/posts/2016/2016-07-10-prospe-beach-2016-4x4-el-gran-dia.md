@@ -11,7 +11,7 @@ tags:
 - art
 - mar
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhu40gQieeI18DTIctMwyftoiPqWrU5-NHu9Pr4tU_CLQ_UooMRIIREPeDzQyqMLUlM8d25a9S4DYzbn4lN9p5KRorllpRBK1nu0pBWWpQ_adB1H9yTH5KilDy1siMx734DU3Wo5pYo1rA/s400/DSCF3409.jpg
+  image: images/covers/7b2b6b12ff1923a0.webp
 album_url: https://picasaweb.google.com/103138221614479310970/6305606356854936737?authuser=0&feat=embedwebsite
 ---
 

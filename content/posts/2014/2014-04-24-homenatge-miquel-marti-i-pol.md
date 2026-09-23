@@ -9,7 +9,7 @@ tags:
 - art
 - mar
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVq0TmXrIa70O4DuOraUWi9um7vaAFwpICV3CPXCnNjSrRl6JLGxPOWh1u8z4XiO4eX8dPdJlZwHsAxi4am1Y14tE3FAPTA6QYLjrz4FyrllM-FQAjac9xdX-3BCKFC-HEyj6FAJpteD0/s400/IMG_4354.jpg
+  image: images/covers/575aaae7a6232ce9.webp
 album_url: https://picasaweb.google.com/103138221614479310970/HomenatgeAMiquelMartiIPol?authuser=0&feat=embedwebsite
 ---
 

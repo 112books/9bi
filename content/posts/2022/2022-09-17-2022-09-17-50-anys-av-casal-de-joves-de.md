@@ -11,7 +11,7 @@ tags:
 - la prosperitat
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_Jyyt_v4qcV0bQfRcGcCJzaYnVSf6mm24djw5-ZYDPA3qWFIoxbohU1AeHmIWyiyj2RB59yUsEZm_Bo6Yy8tPr-KtnoGW2MHCRAzSqdyDgB4icTNGSMzzIax8h2qqlBB9TA5ZKNOS3qW_EKerbWMtEkUWNz5a3KizjejPlrIDk3N8QYVXQILoaU2P/w640-h426/_DSF0462.jpg
+  image: images/covers/669bf1320221125b.webp
 album_url: https://photos.app.goo.gl/BBA67RaSLbfZkZFJ9
 ---
 

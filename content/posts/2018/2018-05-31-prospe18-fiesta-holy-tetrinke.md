@@ -8,7 +8,7 @@ tags:
 - fiesta holy
 - fiestas prospe 2018
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhegr3jnY0IELFcAkdTY7OPtC4PBU7qJM64KhQYlmQOzjSRGe11SL8dln8nOeFRfgTwlJQcamRf9x7N6aqBe5alY98rRlJJr3908r4hkyOK3VUne5pADYULqShyphenhyphenvt0UBxzEPZHkzy6as3M/s640/YDXJ0020.jpg
+  image: images/covers/4f5e5b86110ba476.webp
 album_url: https://photos.google.com/share/AF1QipMxRe8LD80slaKe9PAslY6aWgaUsRgEHZOklcZ9Mvca1yy0yf1SDvLYCMXzVL1upA?key=a21wUklFbThmd3hpaGRRbEdVVWJNR3RvbGtjS1hR
 ---
 

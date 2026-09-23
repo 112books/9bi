@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx3AnDEFifGOav-fhZOj9cDv6_2FjjL4mMiraopGHa_EUp7eVxKcZcvlW3zt0UcHymghsdTEjIMNCIPMzRKU2RqR_iC5IBwT1jQI9fAc8Bt02RyCwnQYpSxlQOhERY-KjD-yjtjIVE3N8/s400/IMG_7440.jpg
+  image: images/covers/808382dea1b62f92.webp
 album_url: https://picasaweb.google.com/103138221614479310970/ProspeIgluAlCasalDeJovesDeProsperitat?authuser=0&feat=embedwebsite
 ---
 

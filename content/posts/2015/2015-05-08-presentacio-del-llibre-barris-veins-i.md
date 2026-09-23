@@ -11,7 +11,7 @@ tags:
 - barri
 - veïns
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxRhsEbxMa1rFyHjdaTMmFNhqNp_WZGmtmnSLrxjAtoyKfgzOj2oNbjEcRwoOQjwvMBXrQaO7k_ZOL9E3rHPAjiaXpK3hF0U-gBObSVxQ7ofYSRWeG40Lvlz4BIdRsAeWWCve71GnsKkA/s400/IMG_4974.jpg
+  image: images/covers/674d447c2c2061f1.webp
 album_url: https://picasaweb.google.com/103138221614479310970/PresentacioDelLlibreBarrisVeinsIDemocraciaDeMarcAndreu?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - ione
 - asia
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhW4SXPkBN8FSOeivyRN8X4OJCTZHB7Uvo0_1mlYCFCZDApQ6222gLknBBxhwu4ns6WsskuSr8cW-6mSwvb4URbNfWSjkDENnLKOUeH_ar3WK51XIxH9m4sBiNGvl7gQvdRYvKK9VQ9hwM/s400/IMG_0568.JPG
+  image: images/covers/95ac2cad1ee761a6.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

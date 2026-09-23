@@ -11,7 +11,7 @@ tags:
 - torre baró
 - Barcelona
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIRp02tjDPXcU9QpGckNfQ_SBusfpu3kly0jnpM0TBCOIl4RZyT_l0-fCPp9wvLIYwAZs1BXWSLQeguNUGEeGSFeY1sfzfkH1mbWfg-3XR6xESiHUIYEiOUpoQIx6VSdn0LfpZRJRpVp7Ov-1GvYrJCu3xeDPh9rIYy2lwkxIGuIAhc97fJtLyIBBN_YI/w640-h480/L1470139.jpg
+  image: images/covers/9ef0f5d3852e49ff.webp
 album_url: https://photos.app.goo.gl/R79K1wDCniXkFMk17
 ---
 

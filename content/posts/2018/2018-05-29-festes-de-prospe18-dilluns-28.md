@@ -10,7 +10,7 @@ tags:
 - festes
 - rock
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV63BsHHFcoe_CrrJAlFjrf_5sEPU65vN-Euw9xDCE2puXLQdX9qlrxMAQr7ErpaNAbhoZU7dvt90xCHWnbTwktIWwb84xUzhei10hxE-VKbIJiY-73cfSpUiDt6UDjhUharoaGfC3w6I/s640/_DSF5198.jpg
+  image: images/covers/2250a2f849e3c23b.webp
 album_url: https://photos.app.goo.gl/81raKBaCboHKdJDS2
 ---
 

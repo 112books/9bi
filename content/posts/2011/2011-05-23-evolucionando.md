@@ -7,7 +7,7 @@ slug: evolucionando
 tags:
 - fotografia
 cover:
-  image: https://lh3.googleusercontent.com/_dJvZmZjVed0/TdqCqaOT5EI/AAAAAAAADVI/unJGAFvIDbU/s400/DSC_8111.jpg
+  image: images/covers/0d56d364545cf347.webp
 album_url: https://picasaweb.google.com/pdro.gracias/EVOLUCIONANDO?feat=embedwebsite
 ---
 

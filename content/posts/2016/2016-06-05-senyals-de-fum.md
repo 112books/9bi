@@ -8,7 +8,7 @@ tags:
 - música
 - Festa Major de la Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieb6is8yMELEKspSGOkZ7jdYpHz5YlTcO6GVT3wQJC4dm-h0Fn2QXxSxuAcolCPM-tb0G8S6UTpo8E7uWpcVAPV52ZEnLpF65n041Z_uBjFgUClaM1QagiIG-kOslMAcHzdM3ZBZ9GcD4/s400/_DSC2824.jpg
+  image: images/covers/2ce52c31a8799c86.webp
 album_url: https://picasaweb.google.com/115791131166530059320/6292661083625619089?authuser=0&feat=embedwebsite
 ---
 

@@ -12,7 +12,7 @@ tags:
 - Hermanowar
 - concert
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlT7cRu2tRiKanJ059lw2JY77KJDadikKvCpz1P1kptNhWHjKVS_wUFUJI6hFqEyVGG_mKmeMZeb3g9_H9dBGJpICLD4dvIOaGWGf5BJs9ca2WfF-_4kKZLh-wGyejTRQeAzAnmfLvDCIKT9SSEwKSNWi0Ro4hdZ3x2vZxJmznRJ1_Wz9CAuJaVwBo9g8/w640-h360/L1510181.jpg
+  image: images/covers/6fd6215094728fbe.webp
 album_url: https://photos.app.goo.gl/PkRC4sEVhJemQRE1A
 ---
 

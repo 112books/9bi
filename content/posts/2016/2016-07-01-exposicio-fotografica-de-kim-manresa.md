@@ -11,7 +11,7 @@ tags:
 - nou barris
 - exposició
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiowXoYuQCvoc9-EShtimcyoPAkQAbZnA93St69DATEyZLi6uFeHsWxjwroQkqxKYd-7D927VfyWOYLBLmuTPzJQdeWx0wwJYYOeswKG_DaTIZrgXScwXECzLwKej49GC_i5WNyHwDaR1A/s1600/expo-quim.jpg
+  image: images/covers/02d34151e9a6cfd9.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

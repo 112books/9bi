@@ -10,7 +10,7 @@ tags:
 - festival de blues de barcelona
 - linuxbcn
 cover:
-  image: http://lh6.ggpht.com/linuxbcn/SMji95umOBI/AAAAAAAAe_w/8cUi1ZAGxpk/w640-h426/IMG_1841.JPG
+  image: images/covers/1324d1d305e27a9f.webp
 album_url: https://photos.app.goo.gl/7QJrbTTpkrJrsiwJA
 ---
 

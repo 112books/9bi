@@ -9,7 +9,7 @@ tags:
 - fotografia
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEietZvImWGemtSEEQmfUAc_YDWiA1fqN8BEqnLycu61yft2PsMjEsoKo5AtzLDhO_JR2FySnzTy3JrqRoSbyUhXV97WXlheoi8Hn8TEwF1jk0JctK0RchR0jZC4oNU7jnVIsrahXoQJCNA/s400/IMG_0470.jpg
+  image: images/covers/727853a5ca2d2d15.webp
 album_url: https://picasaweb.google.com/linuxbcn/FiraDAbrilDissabteMitgdia090411?feat=embedwebsite
 ---
 

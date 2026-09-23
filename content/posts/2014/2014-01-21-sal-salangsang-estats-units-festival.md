@@ -11,7 +11,7 @@ tags:
 - STA
 - ciu
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnT590iIBBbS16kAPmlwXuhXQiN2GmPSCWTCYiCjRHZgShrxkEisfvO_8RgVzPO6owsuoFBuUfOhU-FrMtg9J94f6FVBYxwQBHVpTYwMbbEfm0gUiabCHebs0T8k6a9cFvxlpHB00j3mhU/s400/IMG_2483.jpg
+  image: images/covers/12f591a6fddf49f0.webp
 album_url: https://picasaweb.google.com/100268695753733554853/SalSalangsangEstatsUnitsFestivalInternacionalDelCircCiutatDeFigueres2013?authuser=0&amp;feat=embedwebsite
 ---
 

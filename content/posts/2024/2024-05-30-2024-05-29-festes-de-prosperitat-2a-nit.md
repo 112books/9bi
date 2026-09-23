@@ -13,7 +13,7 @@ tags:
 - promosalut
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioU7Ug_Xqz6bq_2vvqNa-R2dX2MXfYRp2-EONyyyy66kC_93jOAWWBNSNFEQB-5dHQTLwVeyBK1nJ1I5DB4RZapCtGhyIE0pwcMT-VvWhCNRWfyXo4OpnBdVe2wxD_XHoXYpOCHeai71S-WgY365wI6MGJEBZkSK-nRLtOsjaDhVtMR7MWkERMS0MqJ5o/w640-h426/_DSF2428.jpg
+  image: images/covers/f445f67738d10c43.webp
 album_url: https://photos.app.goo.gl/cnuXpNpDk5pf92Cx5
 ---
 

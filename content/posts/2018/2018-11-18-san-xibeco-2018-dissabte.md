@@ -9,7 +9,7 @@ tags:
 - dissabte
 - xibeco
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlBuywnzNWZFl5hp4nBSS9au1sG062ZjE6JcphU3_rjIIybc4qQnCx_YUmfUmCaJ1SVYAr3ZR58rM7cW_4ACweztL8pPOzynT1yg6UUxzyH0cNnJqV2iUdWpv6Xcgfa9f6j25SsQglkWw/s640/_DSF7654.jpg
+  image: images/covers/87bed0651af56a5d.webp
 album_url: https://photos.app.goo.gl/xDCTh7j2kC3zFyq77
 ---
 

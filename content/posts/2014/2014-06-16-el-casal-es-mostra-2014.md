@@ -11,7 +11,7 @@ tags:
 - casal es mostra
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipCI3ClCiYBcuH53LL04FyB2EDmXUYoIqm9zd73onQpsykQgv1JT5zMiDA6bQm0sYYSr14PvEHN92eCZk1lWQvH-4h280Rr8y0um5IVHb4wCwSWr6ABX4BE3IUYfxSg1YJ5UoWo4gARcWt/s400/IMG_0656.jpg
+  image: images/covers/197f82cc7277df3b.webp
 album_url: https://picasaweb.google.com/100268695753733554853/ElCasalEsMostra2014?authuser=0&amp;feat=embedwebsite
 ---
 

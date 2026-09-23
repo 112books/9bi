@@ -10,7 +10,7 @@ tags:
 - peña tetrinké
 - tetrinké
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj11KVH65RHqk8-NXYzorgF-28iUvBkljOrXtd-I65xOQbyqA74bpP8N_KgFFZz6EkCzstAB3SPadq-EQX1CKKLAtwoIVuuaL6lOa3J9ghMAWQZqUxJLckCAsKGja-RNW23pDPYpbd4ta1qgsWVwPW3u9krz4Its99W8FbAhLDPE8sPpwm3VkWWltf5/w640-h424/IMG_0071.JPG
+  image: images/covers/dff2b0010064ee3d.webp
 album_url: https://photos.app.goo.gl/JjXR63r73brKhbt39
 ---
 

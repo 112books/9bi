@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - prospe creativa
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0n83KjU-lRIiWw05-d-3VBMgSHhNxf9MCr-NiIu-h9DhmkzZQKj52MdS126oSDFMWMb1RTHukamI1Y_qQXkpssUclQcBsUKRdbLke72kRS-t7gIpimFSZUdCav-CioF4wBE_r8lMmJa8/s400/IMG_2943.jpg
+  image: images/covers/b4a802c8bc4afc65.webp
 album_url: https://picasaweb.google.com/linuxbcn/ProspeCreativaNitDeCantautors?feat=embedwebsite
 ---
 

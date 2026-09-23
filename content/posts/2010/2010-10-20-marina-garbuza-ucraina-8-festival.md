@@ -8,7 +8,7 @@ tags:
 - festival internacional de circo de Budapest
 - marina garbuza
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNZVsBZ0iQfOVQHRNszuF1ktxHRpaxQUfH49kXAV5MWakZi264mAKwmYa-47amN_iUjsxYQYTkmm2dJKgXgslqaCMdF-xyCvG_ToFAl7ycGO5U5YLfkZ7F46Lyn9vi1WXfKD3Dq1ipfYca/s400/IMG_6451.jpg
+  image: images/covers/4db325f6c395965d.webp
 album_url: http://picasaweb.google.com/ulls2006/MarinaGarbuzaUcraIna8FestivalInternacionalDeCircDeBudapest2010?feat=embedwebsite
 ---
 

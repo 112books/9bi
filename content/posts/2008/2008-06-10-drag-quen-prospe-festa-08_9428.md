@@ -7,7 +7,7 @@ slug: drag-quen-prospe-festa-08_9428
 tags:
 - DRAG QUEN PROSPE FESTA 08
 cover:
-  image: http://lh4.ggpht.com/Perdo.Garcia/SE2aNMOjo7E/AAAAAAAABV8/4KsDw47iCYg/s160-c/DRAGQUEN02.jpg
+  image: images/covers/8412e5604ecdf139.webp
 album_url: http://picasaweb.google.com/Perdo.Garcia/DRAGQUEN02
 ---
 

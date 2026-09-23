@@ -11,7 +11,7 @@ tags:
 - entitats
 - vistes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcrDIXP7Ia_y6FXV2NKluseTnXMLq4eLMJQiaQ0o7DWeIpfVOk2ty6DKFkehy4J0ZnOhTh6aELjv5tTdCapUgOEffWIyZt4sZ5Qw8UMCJOJlLmDALuXGNHw1VcwxxDUH9LdjQ28tDiN7c/s640/P4270858.jpg
+  image: images/covers/2e206832868ee4c1.webp
 album_url: https://goo.gl/photos/D8ymXLaWdiDeYN8R9
 ---
 

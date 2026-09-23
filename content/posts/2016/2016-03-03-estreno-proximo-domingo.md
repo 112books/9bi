@@ -10,7 +10,7 @@ tags:
 - STA
 - veu
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6WyEaS4KsZ0KFTJLmALlJsYfeqFFJrDr3xHjbN15j1c-Knju4QXhKfyegOTK5kZt1RjDK23ymUfzDwDkMR4PLA3FkZdU3EnIEHA7Eo57C1TEEOW6KCKq4AkAlbLXOe44CPOsLM14qpfQ/s400-Ic42/IMG-20160222-WA0003.jpg
+  image: images/covers/1936024f62bc057f.webp
 album_url: https://picasaweb.google.com/110015855395179205688/Eclipse?authuser=0&feat=embedwebsite
 ---
 

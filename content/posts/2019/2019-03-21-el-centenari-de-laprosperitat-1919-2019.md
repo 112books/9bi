@@ -11,7 +11,7 @@ tags:
 - CENTENARI
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAVaQDn4h5mwax0sVGRwcjFrOX-TNSHx1GfFFaSDikCR9ZS61yMEZ1EhSg5IrIz3w7kHCn9s6GFio5C-L0OJanHT1W4hrJnxbXGDTzXa9klYJRdtFEj7TVxDXjPeN3doXqxzngHQ-lZ6g/s640/_DSF8877.jpg
+  image: images/covers/c6eb8828418c7feb.webp
 album_url: https://photos.app.goo.gl/WC7EWHaXbWVFHFvk8
 ---
 

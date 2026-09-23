@@ -12,7 +12,7 @@ tags:
 - linuxbcn
 - on time blues
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgieDTt45H-BGnmnrSh219DMfd_YL9yxHYZXiQF4dmwOxGyh7YbjlzgxcdJfJcOmUqdt2w83HAjr1-Qnlq9FFfpC47cLWrYKak2zl5FO9X_oKAj77njMxCR73fZmzr05ZNixqYHqL6rZ-0/w640-h469/IMG_7000.jpg
+  image: images/covers/3e33bac5f49de4f9.webp
 album_url: https://photos.app.goo.gl/RBv7eyh65GVaeE9f8
 ---
 

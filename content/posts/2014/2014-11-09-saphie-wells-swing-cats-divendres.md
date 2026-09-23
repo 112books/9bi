@@ -7,7 +7,7 @@ slug: saphie-wells-swing-cats-divendres
 tags:
 - ateneu popular 9 barris
 cover:
-  image: https://lh6.googleusercontent.com/-RrxsJBciNak/VF9ZLov8MQI/AAAAAAAAFRA/CrdArnTwBeo/s400/Saphie%2520%252820%2529.jpg
+  image: images/covers/dd78b6d324812b41.webp
 album_url: https://picasaweb.google.com/116805523004990742624/SaphieWellsTheSwingCats?authuser=0&authkey=Gv1sRgCLrMjcDG6tifWw&feat=embedwebsite
 ---
 

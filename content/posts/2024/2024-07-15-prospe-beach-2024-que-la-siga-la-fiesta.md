@@ -11,7 +11,7 @@ tags:
 - 9barris
 - fiesta
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuVUsUp3O6upNuRb9TFvzJjDZkG3M3XHQfTgXlucurLQHf7IaRaGBcqgn6mCrLmP6YGXOyqaob1SVxUF_4hC_wDdTi8EuVWFZTLNlecxHMEXALHuCdCGyaDCvdY6UkacyE9iBv77o_BI1e2mPfwKYkqnj-5wKMsKg3Bap-8cN8MxEkDSoxeLtyk-KOmpc/w480-h640/P1110647.JPG
+  image: images/covers/df67f8e2bfc49dbb.webp
 album_url: https://photos.app.goo.gl/jJVE7SXdc6nV7uWk6
 ---
 

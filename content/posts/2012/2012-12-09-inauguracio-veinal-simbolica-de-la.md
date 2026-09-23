@@ -11,7 +11,7 @@ tags:
 - nou barris
 - diumenge
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhP-Ua04wjg11gc7xwQlfCuoZSeKB7zePyZ30YFn9O5DAIMNIcFjEtCseH6PRrCSy8D1VnXeWDCiSR2jS8Il1-7P9Hl1rQ44PVj-GL6Q-DY6ce37wXM67c9VEMuWn1IFTrwQ5RmEabTKTVF/s400/IMG_6927.jpg
+  image: images/covers/b30778b83fe90c1f.webp
 album_url: https://picasaweb.google.com/100268695753733554853/InauguracioVeinalSimbolicaDeLaResidenciaICentreDeDiaDelCarreMoliDel?authuser=0&amp;feat=embedwebsite
 ---
 

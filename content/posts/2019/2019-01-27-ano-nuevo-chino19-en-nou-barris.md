@@ -9,7 +9,7 @@ tags:
 - barri
 - Chino
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8JHdhFUaXx2JVW7N0vqLlMLyG41jpRfjygiMgyrTJ3eF3HWKkZnuv5zg5XpYfwpmX-qJV1kbkVWNcj4uKCR_ZrHpM6qHcgiLuHKjWNGXLLXpkTkkmJ5kcTvCds9NA_9H_xpd09ItImM0/s640/IMG_2214.JPG
+  image: images/covers/cf022e3fa11e25c8.webp
 album_url: https://photos.google.com/share/AF1QipMFnHkHH_GOvFiRkxlRFU7JTVMGV3vKe_ZTWmrG-0Q5tcFL1c65d3O1bvhSq_6YPQ?key=UDRVd1JjS1NOcXdfeWpVT29nbG9kUGZyV2pRdXlB
 ---
 

@@ -9,7 +9,7 @@ tags:
 - hal
 - vermut sical
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirpi-BrbArcBqal40otf3oI-JdNpYjF5UBhDoArzxbHfHGkLKHzs2D4oucCK_rHyW3TeOsmwzf7_gMLLVNhb1P1PumEvE-AltSuDHxhyphenhyphenhdA1yHKwqalzu37Hrt5dUt8n3x5PPwZQSx0NQ/s400/IMG_4394.jpg
+  image: images/covers/37c9be577e4d9635.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutSiCalHall?authuser=0&feat=embedwebsite
 ---
 

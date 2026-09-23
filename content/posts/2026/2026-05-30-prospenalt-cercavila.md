@@ -7,7 +7,7 @@ slug: prospenalt-cercavila
 tags:
 - cercavila
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPdmg-AidFt4VlGvbnbCxmoHuQPVurqvNsZs9u8Qu3_qVihlPKvfiDH_i8Y9wQEZwm1oMoRgwNCgYIXUeCcpEnQndeuIo35N_J1e7S7Rbib_wY8m-GY7N_O1CYGgvVJBfG6Jh_cFeVv3PBi_IGn0HRalmQy9LSV9miMmTm7AnZ89UO2yvGnep7eABIyZ_N/w640-h426/DSCF0872.jpg
+  image: images/covers/c32a76d3b3e881a4.webp
 album_url: https://photos.app.goo.gl/3o7e7xGXnVANPdas7
 ---
 

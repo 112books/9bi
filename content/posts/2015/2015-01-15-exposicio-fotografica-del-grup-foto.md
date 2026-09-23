@@ -11,7 +11,7 @@ tags:
 - roquetes
 - expo
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiWt2-5eURB4kaNqgi4XKjJR9jg5xEYkO3Z75EN5y62rghAtE3hqZrenxum1g8p_j-88b11q3V3rNfz1SLqkMBKZOy6IT61cUCMONb3R4ZTQomZ-ms25Ssomuxz48yFree1mIrXXGXjnQ/s400/_DSC0455.jpg
+  image: images/covers/263d4389056675e6.webp
 album_url: https://picasaweb.google.com/110015855395179205688/1EXPOSICIODELGRUPFOTOROQUETES?authuser=0&feat=embedwebsite
 ---
 

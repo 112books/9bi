@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - Luz de Gas
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZNcbjjx94armaKuSO6DvRkYC4OfrD7gA3DqQDiVx5CCvPeqpy3TeTkKZVNkqwYsVVgRbW0bMwj6Z_1xGdFcFutPunwT4Fd62toRF0PVROMHjqCMghNphqU-raT_HprfpfOY_guQGcUBo/w640-h427/IMG_9186.jpg
+  image: images/covers/9baf4ff54d54f5c9.webp
 album_url: https://photos.app.goo.gl/qDbrP8ZZz1rbjbuV6
 ---
 

@@ -10,7 +10,7 @@ tags:
 - teatre
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYd7buX4SfVACBUYRIUZuaGPTGQD_Dvj-aJ9oBYw8Bs9VqTQIo0hnBxY3v1XWr7F8toBqjeJ3-f1HDeIXVja7qhNAeH9Q8-pFeilUX4ZwiWvcthlXw7Q8ah5M9IczkfBJPBgfkTcbg_U4/s400/_DSC0132.jpg
+  image: images/covers/a655f32d17158c6d.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6295333102491362945?authuser=0&feat=embedwebsite
 ---
 

@@ -10,7 +10,7 @@ tags:
 - fotografia
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCZDYBV08_NHp2PygdCEhMCYQSXJdI3Qqb1KpH7btuH7xrc9IEpJoIsuNbMhg5JMV9fdTZwQNVT3Wq7R2G1Nbjmxky6wn9q3gLGdfi30CjNwvOlpXABO85l8YTU49YbOmAqa67mwIB4go/w640-h426/IMG_3983.JPG
+  image: images/covers/4878b8be1cc7f196.webp
 album_url: https://photos.app.goo.gl/1rsdM5Mbqp5fU2Ps6
 ---
 

@@ -22,7 +22,7 @@ tags:
 - recital
 - violí
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsVrUnhn_d946syOUTuH48opcXlk35dY2Pbfp2yxLOe-D6yUXyvj2gHEFESQPGv_MAIck4iT6yYyVbcA-zd_sL3wFXwno8hKlP6x3v4vtgI655iS-cslCkFKfcCor23rh3PLWlppenIOIKgc-V8VH5jWyHobJfcs8VxxhTWafUzNwSs6NfN-wRNeGqCN8/w640-h426/2024-11-08%20-%20APX400@1600%20-%20Paula%20Dominguez%20-%200022.jpg
+  image: images/covers/4bed0f0e6f10e70b.webp
 album_url: https://photos.app.goo.gl/7zonUQwmXrjjv2sz5
 ---
 

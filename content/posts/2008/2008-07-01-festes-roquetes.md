@@ -9,7 +9,7 @@ tags:
 - roquetes
 - sofas martinez
 cover:
-  image: http://lh3.ggpht.com/linuxbcn/SGkvWUHcNdI/AAAAAAAAb10/S9RuT-IMYF0/w640-h426/IMG_0875.JPG
+  image: images/covers/ad6ebe3caf6dffc8.webp
 album_url: https://photos.app.goo.gl/CBdWgKbJjxEpFRRB6
 ---
 

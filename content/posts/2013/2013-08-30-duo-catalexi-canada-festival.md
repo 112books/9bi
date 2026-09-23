@@ -8,7 +8,7 @@ tags:
 - circ
 - ciu
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZIZFmkXFr4_FAii509xRw7boWbk0TzkTLUXFXYX5XdwM7iQgOdTlYFPfGq6NJohyphenhyphendxXXEMfw6VB1cYXGf1pXcWRK_v0j5s3JYJRzWRi96S_ht8vpp-YgveLnV2iiqUV7aWPVtFl8xIIcU/s400/IMG_2663.jpg
+  image: images/covers/d3f42b6bae954391.webp
 album_url: https://picasaweb.google.com/100268695753733554853/DuoCatalexiCanadaFestivalInternacionalDelCircCiutatDeFigueres2013?authuser=0&amp;authkey=Gv1sRgCMDgxenIg8X8BQ&amp;feat=embedwebsite
 ---
 

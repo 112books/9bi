@@ -11,7 +11,7 @@ tags:
 - 9barris
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgThyphenhyphencBk7PDIJm2Sokh9YdObDqTLphKjmIee4zorduEk6Q_xsrPHZxCV1Qz4SSuMSC6ZxsHBO8ZXNNaVwLjYmpj-FjAiWVnINd-M-p_eAY4SY980xqnewpPeLBMmDJvCM3xffQMddz0W60/s640/BCN1910DLUX_50161-1200px.JPG
+  image: images/covers/5cc7de06789ebe08.webp
 album_url: https://photos.app.goo.gl/YrxdkhA4QGcMXTvR8
 ---
 

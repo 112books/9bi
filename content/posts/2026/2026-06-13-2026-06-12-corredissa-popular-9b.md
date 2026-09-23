@@ -13,7 +13,7 @@ tags:
 - nou barris
 - Nou Barris en Lluita
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbnEEj5b06OsWhcVn7oKV6MgZnsIME23v-O9K0e6kXC7FDSMw8z2SVKvlRpgW19dGMps_bs0NjK4IHVzhw231EcNHhY2YoD4Px2MT_TbBitdRX70g6RDhF0OZIoenvne5oHBbvraKZ0TR7oi4GzyWKPw11d87CF0LVoZXpVK0D5njN9HRZNE-j_IuoH3M/w640-h426/DSCF5223.jpg
+  image: images/covers/b13732154a213bb6.webp
 album_url: https://photos.app.goo.gl/CizE6fWFELWCg13q9
 ---
 

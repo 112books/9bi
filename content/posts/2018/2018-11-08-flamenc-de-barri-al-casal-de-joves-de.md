@@ -11,7 +11,7 @@ tags:
 - barri
 - CASAL
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhsU_p9sMJPFVRrYwNfRwj3-qWy-U9kE1cycWpvQrXqlrFvWu7SILUuccTph-yM8ICf05FcHgnfPDlD114bxYeJ7wRo_VouE9m6ebIea1OTXARtzAMDn6IjjhdX5L5zSlpL11pBBeGyfQ/s640/_DSF7100.jpg
+  image: images/covers/8c0f23564193d5ef.webp
 album_url: https://photos.app.goo.gl/HPX8SMwQRYsycpvr7
 ---
 

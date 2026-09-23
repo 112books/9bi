@@ -11,7 +11,7 @@ tags:
 - Barcelona
 - formació
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsULE0O5RN7BHUmnrin1Gqmueq0bsZSWIN6ORU8euf_cgZ-D0MUVqdhzbEe9bk-Xkp244UiuRnbwB006VS2cOA3Uk0j4KeqaAevi6t65kPTxSPn197_ZhlpPZtzRQBMr1VBRqK2yW29Iq5/s400-Ic42/_DSC0445.jpg
+  image: images/covers/1ec797e9e2e44b8d.webp
 album_url: https://picasaweb.google.com/110015855395179205688/PIADNOUBARRISPuntDInformacioIAtencioALesDones?authuser=0&feat=embedwebsite
 ---
 

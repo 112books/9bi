@@ -10,7 +10,7 @@ tags:
 - cursa9barris
 - running
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpy2GTagwTOadxZUGIeS9uVZBkqvpdy5NbvtHBMSGdoAqU8zmwJJy4bpAoS3iioWERphNeuBebD8Zkegu9_WKD6yznsvvD1I8MFOw3SwUcRvYtBNsf6P81yQIlJ1VnbxBRYfDE7oeBShlVGJubA_l3leqWIgPaVAjfneIIHSn7B9IDxtA9zgSDs3dc/w640-h426/IMG_7307.JPG
+  image: images/covers/4e172fb8ada88597.webp
 album_url: https://photos.app.goo.gl/oeNQgPjghWJTBxZFA
 ---
 

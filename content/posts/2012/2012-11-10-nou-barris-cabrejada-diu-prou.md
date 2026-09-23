@@ -9,7 +9,7 @@ tags:
 - nou barris
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOAzQQw-ojCXkkPL0zEv2cnIKTVNXbUOYydZSdtqrhUngZ_p7NCxmfOqfHXQmDVeyzPNTd590vI79cW7osGG0z8No3idRku-AWzWDnw1_rzRYiSPuoCxXUhyRX2O2icP2MGkuZ6jjn8QSp/s400/IMG_5797.jpg
+  image: images/covers/d1a986f6d8fa57cf.webp
 album_url: https://picasaweb.google.com/100268695753733554853/NouBarrisCabrejadaDiuProu?authuser=0&amp;feat=embedwebsite
 ---
 

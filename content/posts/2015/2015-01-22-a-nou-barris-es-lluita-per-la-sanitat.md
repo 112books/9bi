@@ -11,7 +11,7 @@ tags:
 - Xerrada
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjftorcekIur_bYxJLfIBxARkxIzfZOVbZYVinvF0WoiHksmdJOQADNbKy_C2B_MkqfVj_ugQqbDfXmMf0gANElwTvvq08Z8X7nteN8JN8cptGmwQ6ri_zJRNoNq8ZN5wVwCPz2UAfoQtc/s400/_DSC0210.jpg
+  image: images/covers/3b48eeaace68bd3d.webp
 album_url: https://picasaweb.google.com/110015855395179205688/SalutPublicaANouBarris?authuser=0&feat=embedwebsite
 ---
 

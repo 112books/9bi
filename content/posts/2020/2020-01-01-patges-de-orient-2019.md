@@ -7,7 +7,7 @@ slug: patges-de-orient-2019
 tags:
 - festes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiS5oKvHIKGpoOL6CM-XzTC1p4BhIqSUyG4-TBRbVO3NVkvCnI4lRn4fo_N3snuZkPG-WbHEI6jWhi-Nb6qxsBN0IrCE_3TRFPnnUJqICc66abPrq6avLZuGkiL7EkCt23mR3SDDweGHUQI/s640/P2220933.jpg
+  image: images/covers/cc859e2cbcce8525.webp
 album_url: https://photos.google.com/share/AF1QipMzxKNngNfnykd9rSFf2XIooB5-TNKdD5-5qtCrVdBhk8SJxXNp-o-iC93pf47vcA?key=dEFzMUV0VkFfR29DQjhkODlqMVFHSTJ2MUYzNnhB
 ---
 

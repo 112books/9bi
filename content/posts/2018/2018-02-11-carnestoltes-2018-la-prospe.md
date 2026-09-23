@@ -8,7 +8,7 @@ tags:
 - carnestoltes
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHVK8fEYloJWLfmsFlxQt-VOZrYLdyfo7mRoN-CCioQ-rAO1zD1QVgviv417kMJM1uiLHVyVy0qQ-b2NHLJYqOugmLfmHa3w0pxrfzrGDJPQp7yVXL9NdqMgNhFycVI1_xPNHY080Ow_xo/s640/P1450007.jpg
+  image: images/covers/bab68ff885a9b474.webp
 album_url: https://photos.google.com/share/AF1QipMeHkqrBSLSwlbM0Uc-slYy19aXPHDDTylF9GdwgaAasQMhtojAWU9ntdZwteqzgA?hl=es&key=NHRSeG5hVV9jbFdyOTJXXzJMalRJMzVITlE2OWN3
 ---
 

@@ -11,7 +11,7 @@ tags:
 - Capibola blues
 - música en viu
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqi7ZE4EefLAyNRgdUcjr7DHD1G6drtiyk_0X63deuqHcChBe_kUyEtYA-0OSZsi1vBTP1fAw3zgRxz_lj9vYpHISBz-rJuhTAoQrrmzpYSr4MuSCOyIOFw2Ere0EvxVcTlWMDe7XnFgh0vgr7tAJVwYxZ4MH_h4b5BK9WskCaY-25E7lguq5vImvGVFA/w390-h640/2025-05-18%20-%20LM6%20-%20Foma100@299%20-%20Picnic%20de%20Blues-%20B%20-%200012.jpg
+  image: images/covers/8e01205a4dcd8ed5.webp
 album_url: https://photos.app.goo.gl/WqoqPhBwKGpuKmEf7
 ---
 

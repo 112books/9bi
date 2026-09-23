@@ -11,7 +11,7 @@ tags:
 - França
 - Lille
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0MdiSu-kZEORl3Nvs0OMVYhuA-rAm12CW49WF6RsIXm0SceJVUcM4TZyzoAIxGPIq3zvz3IoZYERdx73Ep7O5YqtbQnhFlHketbkzP20b_Wy5bz6-EBOD_lVxsQgHuKCX9iZXZaugs_A/w360-h640/P1060812.jpg
+  image: images/covers/afd75303d0795ae6.webp
 album_url: https://photos.app.goo.gl/LweUXVaGu9oKHrzY8
 ---
 

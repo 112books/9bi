@@ -10,7 +10,7 @@ tags:
 - Hospital Vall d'Hebrón
 - recortes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3fwZ6iNSuasfygDbjpVQtk6oRah_-xoXSRN8_TuTP0F42PFub9P9_lJYMAVaCJ6wOcrRZTGwnWnqVhNZWl2h2rzTq13M3V2Co6iyY3sEhMIsweyrCmfbsHaIzRbMkvmzv5yeipy1-HgY/s400/DSC_3825.jpg
+  image: images/covers/d940b90f8f96dd12.webp
 album_url: https://picasaweb.google.com/115791131166530059320/17DeMayoDe2015?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - exposició
 - Homenatge
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5YUqXRH7xH06vJAmEjBN51kLfmP7wuVvnqo3ZlL-1nIwvnR1UBp2kDPxZz82w37Hg0h6kQTPqU7_vekM0-8-SgTI6kQqHKBoZ9uTHzWCdrfSEsVTLkxBUNBUNdhpssEiaehH54ACJkoRtpm0qsDmeGVAhxjo8wWe40IWPJz5EwYb66y8U77i7C-gF50c/w640-h376/2023-11-12%20-%20LM6%20-%20APX400@1600%20-%20Flamenco%20de%20Barrio%20-%200032.jpg
+  image: images/covers/340ce9ca2194ced5.webp
 album_url: https://photos.app.goo.gl/HtBhnaQkrjytyQD16
 ---
 

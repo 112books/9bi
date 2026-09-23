@@ -11,7 +11,7 @@ tags:
 - STA
 - veu
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBlOphwCmndKaRQU1tjAKNpJiU7WNgNZGVQBNJCIWHlr0Mjap_M_Z5v1mFcDLiZkwDcf_qYttuTgVyjlzK8LVFZEHwZPxPU91NsEPjd7juCSPi3TCkk0UAsWD4shrGhyphenhyphen0s4FQ5DQeSREXL/s640/P1420870.jpg
+  image: images/covers/89a18e8b7d6dc851.webp
 album_url: https://photos.app.goo.gl/a8OmLR89kv55Q7Gh2
 ---
 

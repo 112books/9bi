@@ -9,7 +9,7 @@ tags:
 - reivindicativa
 - sardinada
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj48AwKT_RctoemGEY6vtv4MvjAS68DAAFbUgA0YqQKL3lvNm3X6SKZoQoWoEng7OBwLEzQHEiF7dNDSx7rsogDk-Q84jkb6fHzpeKuOVl1tW3w4p_TievQxUTpGvhADiGNaY4DaY-rp_k/s320/trazado+SARDINADA++A5.jpg
+  image: images/covers/46fc1b4fe2e1ce7f.webp
 ---
 
 Diumenge 1 de març

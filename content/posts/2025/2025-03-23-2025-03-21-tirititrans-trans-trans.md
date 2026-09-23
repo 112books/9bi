@@ -17,7 +17,7 @@ tags:
 - Transformació social
 - Visibilització
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiD3VijZQk51HP4NL2ApdOhSCsS844sDDY0kzEwMdYVz7GPwHj1oEHGVuLMacxwgEGr3wGiEcfIwjNBjtrnbSPN6uwgNRUVg-3h6B_1H7WL8_0v_xPI1ykDsYkUi6BsM_fS4fagSPMTzy9h41sRmiJyhndLPOrkSKizapq36kZbj7BHhPdAoFuxTSqsWU0/w640-h360/DSCF0134.jpg
+  image: images/covers/7b345ce19a2db1f5.webp
 album_url: https://photos.app.goo.gl/4NoQuCyz2yBQKXVw9
 ---
 

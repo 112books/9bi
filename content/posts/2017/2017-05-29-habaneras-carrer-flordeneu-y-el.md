@@ -8,7 +8,7 @@ tags:
 - nico
 - neu
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgu48CQRA6vBHVisBg-dwlk3QQXeWB0RQFwoTPpY0uNV4IG6VNU8v5q2DQFPWjbi5o3Z4gGMBk9Cb6WhuC5CqkYf1qAoCOt_HRH1QCs4Qe0-t9f_fw0BBRHnqEhG6vIHYINkFlBYeuGCCY/s640/DSC04370.jpg
+  image: images/covers/315ef4c2765537bd.webp
 album_url: https://goo.gl/photos/1n9tDJtfeyb6XuCD8
 ---
 

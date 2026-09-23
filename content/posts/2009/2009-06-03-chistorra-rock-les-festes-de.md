@@ -11,7 +11,7 @@ tags:
 - inmortales
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUcmhzdwKoPgxrE2uCtBs8pRtBSYNNPaNIiUWyuRSz5tmpjN118tedgCi3QnDCImAikSfN9p91z5_KtkhnwpLhlGobOFd6sNnlM4B6hFGTBNsGVfIGf2Ml4jfxa71eilGZItTH37J4Pu4/w640-h426/IMG_5140.JPG
+  image: images/covers/7deba950c92c626f.webp
 album_url: https://photos.app.goo.gl/fJvNA8pk51U6N5Xy8
 ---
 

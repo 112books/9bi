@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGVW9y3VfLlgeO2SGaZDE7LBH2ChB00RpN4etM1nmCUXac8R-KeOVfgMybpYKKMd5IZ_mRuq1oRmCb576w9VfMwqZU_pklmek3Q6XEbcFU7q2yPVtiOkk0Ld5oYg2SB33Wk9WpTWHM6dA/w640-h426/IMG_2781.JPG
+  image: images/covers/ed1b67c3de6fe4cd.webp
 album_url: https://photos.app.goo.gl/hG6izkKU4sAU4QdV7
 ---
 

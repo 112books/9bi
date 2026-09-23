@@ -11,7 +11,7 @@ tags:
 - festes
 - rock
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVMt6tlaLPCVIsH951weIEblKkIGeAwxMrzU6pE080DU6uUJKBUVPntv9T1n-kwy4ssJXrN1IlinDvJBexuS13onmtz4cX68mJn2NTSus2lUpQcddORJc4pXpqZcMtjLnQYAfU3V8gnKY/s400/DSCF1286.jpg
+  image: images/covers/d313f3fdfc4c8319.webp
 album_url: https://picasaweb.google.com/103138221614479310970/6290770623638716929?authuser=0&feat=embedwebsite
 ---
 

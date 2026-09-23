@@ -8,7 +8,7 @@ tags:
 - festes
 - art
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjug63vN1plFi2mEdmI98sM0Va0WqJ_hzGCxxJi2MMDxtV_uGtlj-buhT3mNb-bLzmiwwytJo3mJUkZEwNhzywf50ac3WTt1jPEM-WwbkOiRRw2sccHlqw66vEgWwbjmzu9VdnFWXN4pW0/s400-Ic42/DSCF6885.jpg
+  image: images/covers/da643e660f6509d5.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutPerRepartirElsCarrers?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - menjar
 - ruta
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNy2I77NS9i2s2JPyMjWmv3chIkF90ZPuYOI01Tsen4mkfbfqES4r3JfCpvWFdAcSwWiTaKSYISP6FOsSY60TQin79OAe4nR4K3Va5u4wJs8L8MKxBA3Ex4s-HSEuerYAYcDYoLYxCWck/s640/IMG_20190615_201728.jpg
+  image: images/covers/b67e4073530e328d.webp
 album_url: https://photos.app.goo.gl/NkGT4orTuhrrPPXo9
 ---
 

@@ -9,7 +9,7 @@ tags:
 - linuxbcn
 - sopar entitats
 cover:
-  image: http://lh6.ggpht.com/linuxbcn/SQXESelDXqI/AAAAAAAAiFs/lbCefEZrOBE/w640-h426/IMG_7570.JPG
+  image: images/covers/5506350fcff9aa96.webp
 album_url: https://photos.app.goo.gl/xG5drY5ZKX8LK3nZ7
 ---
 

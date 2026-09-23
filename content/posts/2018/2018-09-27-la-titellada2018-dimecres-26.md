@@ -8,7 +8,7 @@ tags:
 - activitats infantils
 - associació de titellaires de Roquetes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjU8oMOquzyZf1AzJ8zl6eTWE-y1P7f2EQ1yra6u2I24S3n_QiLBpZqVG3f2JdVpXXx21DgSntwUVL0lcDHucyyHbvthRmeP11GvvGKUSc7k8IPlrD85jU85-Zqrc_zGvY0K9kx3ROJAxEv/s640/_002.jpg
+  image: images/covers/29bce37c03ff3854.webp
 album_url: https://photos.google.com/share/AF1QipMxDcbIMXKbsFr7y_SqD3cbLpqp6ZIUQk7AHN_oUM5laDikqCdCDvpietzHA2GaTw?key=cXEwU3ZESVZtdURvVHBLdDlJc0s1bGVONnVLQnBn
 ---
 

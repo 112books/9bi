@@ -8,7 +8,7 @@ tags:
 - concert
 - jazz
 cover:
-  image: https://blogger.googleusercontent.com/img/a/AVvXsEi3BJaRtCrCBAy20BJ10kKcFxxtx8V9OrN0rUSupmDFumJX_E_toNlnEI-0c3taP-ME84RV8x2aNPvA-6y1mt1uaH6bgcw_dmOE5NQGBNaSsmHgMw63GietbId-PBn7FSF_797X7G8-5hVq24HCjvxh1EIDKt2MKgEkmB5XDep0BwFMXEhD6tnfu9Y5=w640-h480
+  image: images/covers/348d2a2c7a43f2e0.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

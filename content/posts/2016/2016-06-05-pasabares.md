@@ -10,7 +10,7 @@ tags:
 - pasabares
 - prospe festa
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiraBMBsnPJH-CZkNG8SK6NUQoLrp6JEGjNspJI2i1RIyZGj_gJ5yrMZfRwC0EE2-yAiHKcUFIrTt_cEn-FJdavQtLmujxPjOV-V2vPBdF1uhHaONDL4ufugd7SgLczNnorNgGqHvocElE/s400/_DSC2388.jpg
+  image: images/covers/ee6b7ebfe1c992d3.webp
 album_url: https://picasaweb.google.com/115791131166530059320/6292668590276537553?authuser=0&feat=embedwebsite
 ---
 

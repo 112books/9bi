@@ -12,7 +12,7 @@ tags:
 - barri de Prosperitat
 - memòria històrica
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVp-dnj-DdyepJRpiNvDeU5eV_4fzihLStwA-dR883uKB5fTYkKh7DGFHFgZmGXjXlBetDj5jBmJVXa4iS8_Xwv65BGBJMVKdeTat7FOj0eS5N6EZs436WjgaMTzrCaTjlvQ_HJX54LCGhyA5CZTWeQ9en3NBuQd0sGHYSrmtBRq1ZfYjvI_3HG36UxDw/w640-h290/DSC_0005-2.jpg
+  image: images/covers/49dd72cc14d36146.webp
 album_url: https://photos.app.goo.gl/3ywg3ruV2KiC1Kju8
 ---
 

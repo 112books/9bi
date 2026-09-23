@@ -11,7 +11,7 @@ tags:
 - Barcelona
 - teatre
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFIFAnhcecJtt7Ob5sungA2XXEgh01L79CUbs0Y114o0wjJZEX_uATGipaGImhFktYyrdrVGs9YxieZhK1xQrzNkqH-RSH79OB3rE5T0_wguE9Asj8cW_3nTUshTKmjL0OrrUQO_FgIEI/s400/_DSC0075.jpg
+  image: images/covers/b65e520ad83a655b.webp
 album_url: https://picasaweb.google.com/lh/photo/vSkkZSOMsIFkjFj-1WIr5tMTjNZETYmyPJy0liipFm0?feat=embedwebsite
 ---
 

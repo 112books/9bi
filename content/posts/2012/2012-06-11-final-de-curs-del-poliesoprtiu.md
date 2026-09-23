@@ -10,7 +10,7 @@ tags:
 - Poliesportiu Valldaura
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihgBo_hjcTD3GopOHW0cGnThuKznGCQTI0V6gMmDmrKu8lO6N4Cc5Z66D0C9xXAW0Wjy2A6D611ghXVdhBfSuT1PsPik06_Kpq3wprmroiNQsU0p5tOg9Ow6DcIBoMSTG1QMhafGNfmVI/s400/IMG_2566.jpg
+  image: images/covers/a7a948165343c513.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FinalDeCursDelPoliesoprtiuValldauraIReciperacioDeLaGesio?authuser=0&feat=embedwebsite
 ---
 

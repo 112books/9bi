@@ -9,7 +9,7 @@ tags:
 - pintada
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0Vt99IaKgGCNKVCrzwUGHxYvuE-zC3oWYH22uKXyciO3Ul34xnFaii86Nhx_4ImvOpgM2uO9Mf268ZSf4Xr-gD2rnkZB6UYgzqpKSbsDVgNK-i_MvwTROrtIXHAy9Hx0jZk_pyXYhxOQ/s400/IMG_8875.jpg
+  image: images/covers/5fe8c9fd7cce0d71.webp
 album_url: https://picasaweb.google.com/lh/photo/IWg370JiBHO_oG3K_uXfog?feat=embedwebsite
 ---
 

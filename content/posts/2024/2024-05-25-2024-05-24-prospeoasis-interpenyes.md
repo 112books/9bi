@@ -11,7 +11,7 @@ tags:
 - prospeoasis
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfPZ7shAbWOSnoC775NV-FqHTbLpWHs3zitRIpnfweKW9PfKwnufRR2tNhjnQI4dUHAwmmBCP9-YTMqUXCIQYV9TInB9_T8wmUlloBsAswIB-F_Zy_3SB_ozR3BNyTi_3JxNkcSydQXKAI0DHrk8qmQUcPgMnka6H3oXk1TYMABGDkgCgbtxY8Hs8G24I/w640-h426/_DSF1046.jpg
+  image: images/covers/f5e394e7524d1e7a.webp
 album_url: https://photos.app.goo.gl/H6rWDjMfqXjkaJLo8
 ---
 

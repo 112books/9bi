@@ -7,7 +7,7 @@ slug: de-ultima-importacion
 tags:
 - barcelona Blues Big Band
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfrIVTMxGKCBg9WKJvIxvyLqVrG2vMTIMxKH28OSw6OaJhbVkIeiPAjmbhyphenhyphenVBEloK-rHqdfMrz7k2Rv99nWvIkUaM1eE5YeRFbFlWxoXjXrobZst3h_IAMUnngV3xOTKzNHazvlOSkYoQ/s400/PED_8605.JPG
+  image: images/covers/7692e0fcf3019d63.webp
 album_url: https:/picasaweb.google.com/Perdo.Garcia/UltimaImportacion05?feat=embedwebsite
 ---
 

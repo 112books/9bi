@@ -8,7 +8,7 @@ tags:
 - Prosperitat
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzrm_GwPI4g0JPhI36wGCzRIcJgsCugkEV0oA3HdJrhInYaTHKXr1XbQl7JLVeeBQlDMg-kL2AZhnCykWwsD7Na-iKsSueMjvpIzACbvIm2GU9IEwLAweYdTY1sQLU5r1xuR-bPK251c4/s400-Ic42/IMG_2455.jpg
+  image: images/covers/783d8b61e93bff1c.webp
 album_url: https://picasaweb.google.com/103138221614479310970/CarnisseriaManolita?authuser=0&feat=embedwebsite
 ---
 

@@ -8,7 +8,7 @@ tags:
 - presentació
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhh8NEaEJEZD4JWQ4RM-fe4MCD7kLKURImxDthGyoDcD0wnMX-ZGBIdUQWITs9AKXDfYS1M9iLz1COI-WnFEOOsjf_on0fbS2yJwxOC39P-V0y2CM_IUWuggHLMpTFnNhwYfAEGqh5s90/s640/DSCF0001.jpg
+  image: images/covers/429dd9aba63b0268.webp
 album_url: https://goo.gl/photos/Rw8URnd56NSj87yn8
 ---
 

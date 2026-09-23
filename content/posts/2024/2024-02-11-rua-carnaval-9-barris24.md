@@ -9,7 +9,7 @@ tags:
 - carnestoltes 2024
 - rua carnaval via julia
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxFIEM4ZcphoHKoj0T0VuabwHoiBJ1VwFsgqkLzVcfwBg1pTdLau5sabQAdknOyklmB4BFmAAmRhsnTt8dc26o-nalK__TdFVEHdzxCgVJmRa0kkXuqE7ND_0W9P6Gf3DLrdlYgdzjKAC1Mko9NPmdE4KanGm1ETDYi9nVBCCvv4HhACW9DqYuQQVTNS4/w640-h426/9V9A5649.JPG
+  image: images/covers/b6fe47b76e5d11da.webp
 album_url: https://photos.app.goo.gl/sD4aRc3ZDUW6nWzu6
 ---
 

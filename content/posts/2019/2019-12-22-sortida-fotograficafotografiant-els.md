@@ -8,7 +8,7 @@ tags:
 - fotografies
 - grup foto roquetes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj1twrqe7UOiFjYCkBtzcModg6af5KB4bxXbed-lOAa9W0FM6y2JRZfc5MBScr9CqWYBbKWtBMa0VI9sRWSJWbrnwAUaUQKr5fjiYeO_NVmhtus115jIq4e3vmptbs8NLvw_lJUJ1f94bj/s640/fotos_nadal_2019_002.jpg
+  image: images/covers/8add1f5afe55c35d.webp
 album_url: https://photos.google.com/share/AF1QipPH8g3JVV0g2DUHD4GMUZSwu2zJFV3VVS9canC_tFVI3USCsNC8sAqR42xyhxszbw?key=YUs3TmNLaTUzY0FpTTZteWdFQnhqbmJJcFBQSGpR
 ---
 

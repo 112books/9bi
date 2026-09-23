@@ -7,7 +7,7 @@ slug: montanesa-3-0-perelada
 tags:
 - la montañesa
 cover:
-  image: https://lh3.googleusercontent.com/-n18Z-X5MKzA/Vt8oDqnuVyI/AAAAAAAAPVE/2KsckTdDpz0/s400-Ic42/MONTAN%2525CC%252583ESA%252520-%25252030.jpg
+  image: images/covers/8fcc3e824e75a48e.webp
 album_url: https://picasaweb.google.com/111964096227458093905/Montanesa30Perelada?authuser=0&feat=embedwebsite
 ---
 

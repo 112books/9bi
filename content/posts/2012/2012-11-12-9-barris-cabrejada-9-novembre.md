@@ -11,7 +11,7 @@ tags:
 - FESTA
 - barri
 cover:
-  image: https://lh4.googleusercontent.com/-hijnnAk7HVw/UKQNgQZWLZI/AAAAAAAACpk/BKcWFofH3q8/s400/Mani9N%2520%25283%2529.jpg
+  image: images/covers/011c34657577cb27.webp
 album_url: https://picasaweb.google.com/116805523004990742624/Manifestacio9BCabrejada9Novembre?authuser=0&amp;authkey=Gv1sRgCOSUzqes5rvJVg&amp;feat=directlink
 ---
 

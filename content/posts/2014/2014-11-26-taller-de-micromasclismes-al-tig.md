@@ -7,7 +7,7 @@ slug: taller-de-micromasclismes-al-tig
 tags:
 - activitats
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicA7JuoSUJRz-lLb2ZCZzfC0g1VHOGmDFeC-_ZFQmpDqUjJLTqEXckPpahCzUBp9gI9u80mbOeLEosUgFQxuuf1cThJDjPKZe1C86OK9Ie_H4CisDTVLEfFu2jyiR7djjRBX3nPhXk4G0/s400/_DSC0704.jpg
+  image: images/covers/7e8a74b91c094370.webp
 album_url: https://picasaweb.google.com/110015855395179205688/TallerDeMicromasclismes?authuser=0&feat=embedwebsite
 ---
 

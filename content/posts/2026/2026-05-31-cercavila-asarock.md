@@ -9,7 +9,7 @@ tags:
 - asarock
 - rock
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTXnG03Z8GznNFGvNSkUPHeV-mP4tbjAiJsjTeUwMCA27ISJ5FaBUpm7Q42aelUdJrClwx4bSSaGruqHNj7HAiIdz-Oqkwr_yl9bQNYQfKCo4dhRTAOazUl9Aw-Enr8vL9fuaXnWPr6PUJpL98ViJJ28s7hVOMVjjv3tAU_2dfFGDpTsU7TIE58uYeyDY/w640-h426/IMG_0554.JPG
+  image: images/covers/9d1d7e75305a7e07.webp
 album_url: https://photos.app.goo.gl/TKcMJCFuFKC1esYY9
 ---
 

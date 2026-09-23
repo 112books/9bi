@@ -12,7 +12,7 @@ tags:
 - barri de Prosperitat
 - casal de barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI20vUdd69Oqy9FUk6E_srkpc4LtJrgNGuT5bRvw6w-LAPDImnmK0a_w1220xQrclk6hbnFBQeTmhFZLdnDc0JimA6nbeeMYmZf-7tLnCHhNHme2BtXUBpDFV7oyTq58xhPD0bwMYO9mY/s400/expo-blues-casal-2016.jpg
+  image: images/covers/40bf7de81daf7cb5.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

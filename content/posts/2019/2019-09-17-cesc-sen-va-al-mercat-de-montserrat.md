@@ -11,7 +11,7 @@ tags:
 - CASAL
 - expo
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAiqt1BfjP04lnuuizogzNo9jlbNRjna5cpi7PqmKPXeSOKo6M6MyeAl5-7H_ApNkwezCOVbhhdDb7E9YObJt1cfW5lD4apBIg0OSROXC9QL7Iftew_ONtmt_8Ajz3CP_uduV2yyTSE58/s640/IMG_20190916_194521.jpg
+  image: images/covers/799e969846b232f5.webp
 album_url: https://photos.app.goo.gl/FT5EJoQSVerm8dpU7
 ---
 

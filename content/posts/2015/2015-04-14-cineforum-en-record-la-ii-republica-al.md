@@ -11,7 +11,7 @@ tags:
 - STA
 - Luz
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8u4uyY0IkdXFq1duux4rVAFl6MVb1-kqU7a55nuGWcsWjQuJunX9_nGhkeFPFp6YU7lotkvPOIPf7_f0jUThNQrczd4OwZXgYOOuM-Ty5g0nlWE45kiYJdKEJ09Dv72wvm2CSpenuzmw/s400/_DSC0014.jpg
+  image: images/covers/10f1d9f47f76b6f4.webp
 album_url: https://picasaweb.google.com/110015855395179205688/CineforumPerRecordarLaProclamacioDeLaIIRepublica?authuser=0&feat=embedwebsite
 ---
 

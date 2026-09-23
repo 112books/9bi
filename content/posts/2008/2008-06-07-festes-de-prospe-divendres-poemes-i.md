@@ -11,7 +11,7 @@ tags:
 - mil duros
 - poemes
 cover:
-  image: http://lh6.ggpht.com/linuxbcn/SErBJlCVRII/AAAAAAAAYSE/VVoIWGqwCSo/w426-h640/IMG_0010.JPG
+  image: images/covers/4d54d500763f1e5e.webp
 album_url: https://photos.app.goo.gl/Rr2NMBiJ4rEpeXZRA
 ---
 

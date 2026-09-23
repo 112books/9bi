@@ -11,7 +11,7 @@ tags:
 - beach
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7DOT5xycF8SnimavdBjCDBhy-1LIiDkHm3y5chiiNEZ1CBAQSYV5K8QFUI963flUOSz_KGF16MPGEbPgsoGlxG3Q4jJrzEF1oPDB1Ww3csJ3NRzYsty8vzx4To8BGhU2aB2LnxeKD2wM/s400/DSCF3183.jpg
+  image: images/covers/c3961f007f2747a7.webp
 album_url: https://picasaweb.google.com/103138221614479310970/6305101382334325505?authuser=0&feat=embedwebsite
 ---
 

@@ -8,7 +8,7 @@ tags:
 - prospe
 - festes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmZrLp6tkDa9arifozMcAsyvQWI3OlDY7RhoaCb9H0c8y9dvt4gilgLth6FnhWelRp-uMQuCjlCk4ZQgpwZfS4wqwAjQZ0hYAmc3VgnUfZjdnDSE0xyje-vRq5zJqvses9Ja1QsfIeuAh4/s640/35140354491_30712692fd_z.jpg
+  image: images/covers/7b1d3a7ac6579c21.webp
 album_url: https://flic.kr/s/aHskX79T1T
 ---
 

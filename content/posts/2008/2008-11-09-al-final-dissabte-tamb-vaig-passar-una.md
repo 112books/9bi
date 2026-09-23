@@ -9,7 +9,7 @@ tags:
 - linuxbcn
 - tumbando motos
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCvOXQjBIFBxjXLCU-lpDKecryXr-2gZ1yG0QpuehNYinqJcbIknGdlzLWfYR8dg4JY52kHcVczfBXnGptunXgTbwC82rzMmexasdnMp7bbGQPGuxpF4-0n2sKNAe1dT3b7Tee5RMfYW4/w640-h426/IMG_8195.JPG
+  image: images/covers/53cb9e32c111b704.webp
 album_url: https://photos.app.goo.gl/NLRNE1KqGZaP2QMPA
 ---
 

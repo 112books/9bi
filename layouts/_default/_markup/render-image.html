@@ -1,0 +1,8 @@
+{{- $alt := .PlainText | default (replaceRE " *$" "" .Text) }}
+{{- $title := .Title | plainify }}
+{{- $src := .Destination }}
+{{- if and (strings.HasPrefix $src "/") (strings.HasPrefix $src "/images/") }}
+    {{- /* Camí estàtic local: absURL perquè respecti el subcamí de baseURL (staging /9bi/) */}}
+    {{- $src = strings.TrimPrefix "/" $src | absURL }}
+{{- end }}
+<img src="{{ $src | safeURL }}" alt="{{ $alt | safeHTMLAttr }}"{{ with $title }} title="{{ . | safeHTMLAttr }}"{{ end }} loading="lazy">

@@ -11,7 +11,7 @@ tags:
 - presentació
 - Las Rudas
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhB2xOOf-B9wiXoydH-XqXlOUExV93FxHPXBgpLnp-NrecbeulA_1yA0niJEFLH7LhbGb8G9OcsyoyAHqeaDaKrK4upjItKqmK716FKKrR1-to_yNQU1-s9rwxyxVuJl9t4aIyb8SFaJUTJ4M5IDPguOESXh-3m8mGlijI7HK31jaZ5tvf1hWPfY6qfgFCs/w640-h426/_DSC4245.jpg
+  image: images/covers/3513b4e11f409df9.webp
 album_url: https://photos.google.com/u/0/album/AF1QipP3sD6VxJvQmMlx9nLho8jDKBNOVB8u8EugFCf2?hl=es
 ---
 

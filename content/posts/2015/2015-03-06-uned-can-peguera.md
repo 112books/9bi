@@ -11,7 +11,7 @@ tags:
 - barri
 - veïns
 cover:
-  image: https://lh3.googleusercontent.com/--S7DKJieSys/VPlUm4XmgDI/AAAAAAAAGQU/_rgU5-yBOAU/s400/CAN%2520PEGUERA%2520-%252086.jpg
+  image: images/covers/c58db38620c328ef.webp
 album_url: ' https://picasaweb.google.com/116805523004990742624/UNEDACanPeguera?authuser=0&authkey=Gv1sRgCKSX-Ky2hd-y3AE&feat=embedwebsite '
 ---
 

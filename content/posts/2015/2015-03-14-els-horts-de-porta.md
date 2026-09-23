@@ -11,7 +11,7 @@ tags:
 - ball
 - STA
 cover:
-  image: https://lh6.googleusercontent.com/-BdAq63Zz9Fk/VQHzBAioy4I/AAAAAAAAHNA/muXoc3kwdoA/s400/Huertos%2520Porta%2520%252841%2529.jpg
+  image: images/covers/14bd5ee511264d8f.webp
 album_url: https://picasaweb.google.com/116805523004990742624/HortsPorta?authuser=0&authkey=Gv1sRgCOC3tLWH9r6xrwE&feat=embedwebsite
 ---
 

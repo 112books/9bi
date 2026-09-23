@@ -9,7 +9,7 @@ tags:
 - fiesta
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQC_DdLbG_huMYGRvDF0MGheQTlrEYchsesZ6ChwN9Fdw4e_EaRjCP1ylgTD3c3squr6zcKQFNQvE0KRJATtRZsGczkncXUGFcNN8HJ9zUGwR2UQ9wRyw01Y1t7zet7imUZpFSo56UfpM/s400-Ic42/_DSC0938-2.jpg
+  image: images/covers/f02d1550ce0385ad.webp
 album_url: https://picasaweb.google.com/115791131166530059320/ANDRESCUMPLE70?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - art
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaTbUwLj9qvEhoxul5_1o8eY05tMSFlcGvfoHAqw6cAwlKcVMRmVvHA9grv3_ejd2OL7djNody9tTerdTMbkJf0lr4FFKns4T737CDzVzJJz89EuOIt18Z_3-ZAMaxQaV2B_r0xghM3NQ/s400/P9090028.jpg
+  image: images/covers/04c8146068498060.webp
 album_url: https://goo.gl/photos/R7LeLRDLoQfsCXKB7
 ---
 

@@ -11,7 +11,7 @@ tags:
 - districte
 - roquetes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7z0yKtUsOsI04Dx1zPsgMRWgR2gs5cLHlEXBtxyLB7kP56YbX-G_hfoo4DPLem8rkMA4UmOhxWBi5EikiQg__XsvVN8wBPrWxqKZgj8rCqRuJYurUsop1uElkc4FQAdYzRPr4G5PHsIFo/s640/_DSC0088.jpg
+  image: images/covers/4b83fe09ea829a2c.webp
 album_url: https://goo.gl/photos/QUeV8PjeJa6c4aK76
 ---
 

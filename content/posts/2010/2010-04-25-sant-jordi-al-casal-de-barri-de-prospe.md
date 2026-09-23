@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - sant jordi
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGbbYx9pSldGYH3jV41pDDQU1VDlqcnQkNYHBp6q-eTLuh1u-itr8_FWdu6zZ-LZeXHpD75BGs3Dq0qy-MfdulhuvGaTP7c1r24jAx-fHkH3pAxN8B6ulAwFU6oAw5hNoDYGqgpxw2fuc/w640-h426/IMG_3713.jpg
+  image: images/covers/b68548241cac8162.webp
 album_url: https://photos.app.goo.gl/V42Hw7odTLTAymEF7
 ---
 

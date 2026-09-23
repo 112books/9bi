@@ -21,7 +21,7 @@ tags:
 - ReflexióSocial
 - ViolènciesDeGènere
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkP62zaiM7rufwkRJ6NtAMfpwOlOvG4YJselJViW0zRTP31yYQ-eB01ZyVvwMo6TACG7JpoATZwpBA5zD2MWbujPSYoF8ZXWfMQlLszG1k3myTxG-EX-7Prd6c4RmTFe65-hqq_fRJk-TtUP_7C9KPgp0BEs8k4hTEiq8GtrAxE5J5Ns5OJYw2iZ0RtIA/w640-h426/DSCF6563-Mejorado-NR.jpg
+  image: images/covers/cbe91378d9ae32a3.webp
 album_url: https://photos.app.goo.gl/vCZWGZEBuhb2aMk89
 ---
 

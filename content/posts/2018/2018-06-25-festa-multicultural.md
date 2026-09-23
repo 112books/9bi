@@ -11,7 +11,7 @@ tags:
 - cultura
 - FESTA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYtvJ0lTiya8EUzWBNqBFhyphenhyphenihl8nl0aFGSYrr59J9e1cpu_P3jaVLSOysNU50GxsKKpcuBQcUNUo7VkU9DkbDj2tMRmDw7gvLX5xaPQNBT13RK8f-UabTP8aHUzyhZ7CGroWXd3847kgUB/s400/_6170067.jpg
+  image: images/covers/fa676fd7e7045bc8.webp
 album_url: https://photos.app.goo.gl/j2YwVZ8JQpznh35u9
 ---
 

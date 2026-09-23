@@ -8,7 +8,7 @@ tags:
 - CASAL
 - casa
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUs-nr5Rw3foaSgK5_nIajAvjCOJmla9JQhvSgFOIunoGAAc7hNrE5-XROoLWNL6AbuW48__n-wWr4mrgL1GhYrhr3RxT8LBrOddChwaG3Ld4TJnfdCAWJWWEnHq242OPOe3jwL5zGpmk/s400-Ic42/DSCF1287.jpg
+  image: images/covers/424134807eb38e0b.webp
 album_url: https://picasaweb.google.com/103138221614479310970/NitDAnimesAlCasalAmbElectroPutas?authuser=0&feat=embedwebsite
 ---
 

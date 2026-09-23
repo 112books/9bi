@@ -10,7 +10,7 @@ tags:
 - roquetes
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiN-XulDJUz5SXvRVZ2XTgrrxoMv1AkPTesecDtE0vl2nxVUsxwVcIQj6UyEj-MjobBmI0oji-vw5k2HKXbIReuRSKjJWedTv8dK6kG1l5S_uU6J3Pg41MwySdUfgVrf7qrNoA6UFtgPnI/s640/IMG_20180920_194000.jpg
+  image: images/covers/79a5616200f78042.webp
 album_url: https://photos.app.goo.gl/b87wevmTq17MB9YBA
 ---
 

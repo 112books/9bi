@@ -11,7 +11,7 @@ tags:
 - exposició
 - roquetes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgotHfBeajIWdD6azSs9a0sYbbnR0unfyPspKzXoGT80jgpGnkeAPa8EZxagair6oov-VZ-7dnyh3JatmN9b_aHdqmGfF5v-sYfXB9TzMxSTUElMrR3q7WribMa9Cs5S0FWUzV9_VdgmSeb/s400-Ic42/Cartell%252520Fotowalk.jpg
+  image: images/covers/2c6ca04ff07246b2.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ExposicioFotograficaDelGrupFotoRoquetesAlTonIGuida?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - master class
 - vídeo
 cover:
-  image: http://lh5.ggpht.com/linuxbcn/SMbuZ_fbdpI/AAAAAAAAe0M/CltZhVKiODo/w640-h426/IMG_1724.JPG
+  image: images/covers/8d6873dd4ae94acf.webp
 ---
 
 Bé, durant el transcurs d'aquesta setmana blusera he pogut assistir a totes les Master Class organitzades per el Festival de Blues de Barcelona. Us passo un recull amb els links a les fotos i vídoeos d'aquestes:

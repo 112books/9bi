@@ -11,7 +11,7 @@ tags:
 - nou barris
 - Barcelona
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUdNGaSO0iBm-Ms3ATl5f3RleJW52-Yd2aEvk8yeRWjDOXDWAe3Kh_0Lk6_4PH9n_8qShE4tku_gf6FMVBMbHueoMq-sSJ5yJdLJt4HLox_eRQNOYDlBNB64ZVou8P92voJpzxRhySg3PV/s640/IMG_3163.jpg
+  image: images/covers/b5bf718a6cf94745.webp
 album_url: https://goo.gl/photos/fZzP87WWwysNv8cU9
 ---
 

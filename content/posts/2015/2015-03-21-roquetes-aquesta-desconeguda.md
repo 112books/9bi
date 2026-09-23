@@ -11,7 +11,7 @@ tags:
 - barri
 - expo
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHuim90FJLqd_-n3o4rUsSDNWixtmx4B97Al_5vPvIgxWbierlQxRW-VhjhCT_Ct_WDZlWChDZ5IkQt0O9VLoE-jXd_LWd_qWI8a8zqDCuNtuzT4g5alNq3I4BaFJTyuiZLJPGxcb5Un4/s400/1%2520Cartell%2520de%2520l%2527exposici%25C3%25B3%2520_.jpg
+  image: images/covers/dbb2c74ec1f9da68.webp
 album_url: https://picasaweb.google.com/110015855395179205688/RoquetesALaBiblioteca?authuser=0&feat=embedwebsite
 ---
 

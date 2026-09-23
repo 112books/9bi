@@ -9,7 +9,7 @@ tags:
 - ateneu popular 9 barris
 - circ
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9U4H_-QVisgvWKJk7otJ1GMoKiSa5CIYtnxXGnXYRNrV1E3Jf-5FcfyPxfCQO09x_WpAJjGv0arvAkwzFt9WSacXuoSc5GdlsDlrHgo-p0o7DfXAM22YS-WNinT8iFxeGurP_oGcpNIU/s400/20160913_185614.jpg
+  image: images/covers/ba7f61e07d1a2b05.webp
 album_url: https://goo.gl/photos/5gKUwJFhY11Mpf8f7
 ---
 

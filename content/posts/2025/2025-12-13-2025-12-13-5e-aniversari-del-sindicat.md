@@ -11,7 +11,7 @@ tags:
 - nou barris
 - habitatge
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGyREW71gwPzOKrqHaouTMch13aLouQNG66QhnZZDDKIaZ5uIOz3MEWgX_XzsC3y0Ix7d6sUi2vEpCmvcuOesvqD97sN_H6Qt9yHwjBVe7S1kH5MolAyeux0DQEOieMcB1H-Ro0y5a1duoewR_cM9BxpJjZOrTPWN4VnHh9hXo_kPWzVF1TUCuodHs0iw/s600/L1540039.jpg
+  image: images/covers/70c0979f0eb24bd0.webp
 album_url: https://photos.app.goo.gl/9929sCijFThVLfNq5
 ---
 

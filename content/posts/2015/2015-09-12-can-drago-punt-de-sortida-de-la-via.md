@@ -9,7 +9,7 @@ tags:
 - art
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiG4AoxTYOjQA1wEbtc5yxEHW8zBRfM5BMsmKTqe8tlgUndzF4zVertSNNqoRPh-xFocYz_3NtJr6xhKWrYb1mBrk7ERsUlyKnAvn6X3Gyjn_zjLtLc1dRBzZtE54j74djAyYl9FY2me_8/s400-Ic42/_DSC0182.jpg
+  image: images/covers/8a6a7476ddb9d3a0.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ViaCatalana2015?authuser=0&feat=embedwebsite
 ---
 

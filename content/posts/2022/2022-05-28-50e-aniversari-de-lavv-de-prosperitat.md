@@ -10,7 +10,7 @@ tags:
 - vídeo
 - avv
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2As7dPtOwIW474airfsZpHNBEejOdTMil7XauTlPFwh6EireBNdkQDzpUAo9BfAwM-dIZEBUuyTO0Qd2aFehTcbBxiLfGZNKGrZBoutb7vuhVTphNDLfW4scj_EjyCKEIgnH1703TIi2HGphqb7rj0S48qzckikGkXNzqTjPf-oORIFgwDst1qPBn/w640-h426/_DSF8711.jpg
+  image: images/covers/3ea4de347917229e.webp
 album_url: https://photos.app.goo.gl/NPtrrUP6i7ZsWEtD8
 ---
 

@@ -10,7 +10,7 @@ tags:
 - manel sala ulls
 - 9 barris imatge
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQrHeMZMBz8NLE3pCBzEQ_AJd6648CwVV3BkpvzzHj-gM1-BDIdLIGJGUDLQi4w603F_6ntmJnS0_bHwLBoqN0r0vmBkBi0nX3gMr0SVzLr6v2wuiTZS3_Q-F7n07biWDVCSua0fHZAqAg/s640/IMG_2870.jpg
+  image: images/covers/7165c79a22d1f1f6.webp
 album_url: https://goo.gl/photos/rVFRmPWw461wqaY8A
 ---
 

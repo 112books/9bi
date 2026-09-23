@@ -7,7 +7,7 @@ slug: v-encierro-de-unicornios
 tags:
 - nico
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhgqFCbr9trMxikyWI_Yel3CXHBk-GdICuWyLAQTShmNLD4fd4uXl_R87oDt9n7-i2EtZtTb3rm-1nSzKv6umrR6Tb081bYbJS5fC9qyVqXt3bEzbkVS3KiTOywlPFMfIZiHLX2dDP96AzamevT6T-0ifX8Nis-jUA3pWlKB5fVHNuU9buzpzyOff8TFng/w640-h426/DSCF1275.jpg
+  image: images/covers/718fa738e5324199.webp
 album_url: https://photos.app.goo.gl/KCZbDbVV3cnaw5c9A
 ---
 

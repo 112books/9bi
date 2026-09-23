@@ -10,7 +10,7 @@ tags:
 - barri
 - rua
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkI8Skd8gd4bNh3BijMaLTZma3SimgAt3Ux6TRmAV_D6ybJyLZwT6RnitMCGbaQGEt10ygY9ohYZbkKXfEgCQsWe33eiZrQtBrRU5G8ftBORHoTzyCODbiQsnqC2ROiuMque3r6RmUNk0/s400-Ic42/IMG_8256.jpg
+  image: images/covers/9e73eed595c02437.webp
 album_url: https://picasaweb.google.com/103138221614479310970/RuaDeCarnestoltesA9Barris?authuser=0&feat=embedwebsite
 ---
 

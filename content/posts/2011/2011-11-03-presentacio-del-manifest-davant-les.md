@@ -10,7 +10,7 @@ tags:
 - fotografia
 - manifest
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoVYuvskXP3FgsseVaq9jY4GzvW7sVHmD6AKxqaZE1OtGd4xj5LKrvRJzvBQ8T5VVwJ8yrmSa3giW_mFl2E1VAp9ayUh1wc7J6eCwXOQhaKZmAGrb8ssj_luBdOWRnUlEJTNZ0gHa3NRw/w640-h480/IMG_7428.jpg
+  image: images/covers/e27a9aeeecf58d32.webp
 album_url: https://photos.app.goo.gl/4ZTH2anjmScuM5BN8
 ---
 

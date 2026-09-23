@@ -11,7 +11,7 @@ tags:
 - casal de barri
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJ-klr14Y8ODTgAsNyh2M_gUacMIOhImjgz4S0ngm8Wmt5eAOVBeC1Q3TbnTxSt2DUQoMnPbUsBBxJ0QILXoDBVdWr4WfnOxyIvoPpP6tCiFZuAfCXFGHaD8rYgZPXwgiHGaofeX_7wh4/s640/HD%2523390+-+003.jpg
+  image: images/covers/2cdc29c6ede799da.webp
 album_url: https://photos.app.goo.gl/XpXGpyhTn9nL5Tw17
 ---
 

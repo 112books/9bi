@@ -9,7 +9,7 @@ tags:
 - casal barri prosperitat
 - pigmeos revoltosos
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIEQxI1i3wqzuD8MzGh0A3T5ucNpVg3jAVMPnY8KwnyCM0mp3hMmnbGEgaAY01v2p5z0844RqHU2Bx9otp3rMcNRiLBPm4wdfQ0fuTk7I_7Xca5LmVuvMpWvJNMLptlfmnS7JchiH3FrI/s400/poster%20pigmeos%202011.jpg
+  image: images/covers/3fb856c7d550523b.webp
 album_url: https://picasaweb.google.com/lh/photo/vqBmiYpFQyKS9qXow65qew?feat=embedwebsite
 ---
 

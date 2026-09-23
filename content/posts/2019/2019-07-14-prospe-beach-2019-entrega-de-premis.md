@@ -10,7 +10,7 @@ tags:
 - premis
 - beach
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5wXUDuURqMG4qpMgPrubR7Hq-RmlYjlV-NEzRZ1TBc3FdwP_e28BKVapFTffM_uvSd8j-0QUjid3FoJu_p-z9Zz0SzQ63iaI_VvHybqVTZ-XQOwE8JSrYAqjhuphhKMyiZcfXsorcr1s/s640/L1210388.jpg
+  image: images/covers/e642137c650579e9.webp
 album_url: https://photos.app.goo.gl/3HSr9drJfPMAzt837
 ---
 

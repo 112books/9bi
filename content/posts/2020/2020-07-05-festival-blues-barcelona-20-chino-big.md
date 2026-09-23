@@ -8,7 +8,7 @@ tags:
 - blues
 - Chino & The Big Bet + Sax Attack
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMz4JRg-CJmvl9PKLlaC67dc6kp7xePrGqRpkSGZVkBELc2RkP6WOd9dpfsj3gQOCUW_4uZK2IUHHsF87oZIyU9fGaqUSA2jF0ZjbGZC6U425lCA_IxY4gLDNo56xs1LkD8fZ4dR6Yijt9/s640/DSC04757-2.jpg
+  image: images/covers/8d97f42cb86151b1.webp
 album_url: https://photos.google.com/share/AF1QipOyd_3e1MCP9GJSlQRUOwoRgYNL0Yd2_1Cgrh60JnVEZES7YVIzV92iFI_33AZjEg?key=aFlTYjRnaW9OSG5oWWZHM21sOG1ESmNFRjZLcWRB
 ---
 

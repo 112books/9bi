@@ -9,7 +9,7 @@ tags:
 - guineueta
 - la cultura va de festa. linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8-IXwu2UrpbLFK3FLBEKVDBHsDh28QW-vWlmAAIWhv1SXPysQ32pfVXsXPoX3ktrehS7nKnyugqFnC0gk4mdgC7dP9f4NApmfLzmisdeo4jqqUkc9jQuJDsiB10PDnIfhqtfdk0uayz8/w426-h640/IMG_0446.jpg
+  image: images/covers/cc1e43d89c952c8e.webp
 album_url: https://photos.app.goo.gl/6Q9fqAMUuAyYk12b7
 ---
 

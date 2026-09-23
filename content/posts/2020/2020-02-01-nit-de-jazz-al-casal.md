@@ -11,7 +11,7 @@ tags:
 - CASAL
 - jazz
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwM5_uwxMREQ5WSF4UoixEHQqM_A1YT6p6WKn_GOl_rbIaCvQz5s3V9LxSpT8cVMnXLiRDHMl3tpK6c_DWLJXsc5Dt_LDBfpJZwDUe_nJIKX-tubDQjvxbGHmy1viSNjnNfSdKDtUplZU/s640/2020-01-31+-A+-+004.jpg
+  image: images/covers/0d14061531c01c0c.webp
 album_url: https://photos.app.goo.gl/Y8wBucKsfj6cG43D7
 ---
 

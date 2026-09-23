@@ -10,7 +10,7 @@ tags:
 - casa
 - art
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUkMNvPs9UBaHOucZjZmrQDUskIOpVSzUccJk9teBGFneNfxClbfKblSM36CPerFruiQhs-hXWrin4LnLW2uNfGuMjeDxPti5lD3-N_zs_rumXlu1-Yin0TR7a36sQUzafX4Pvn_AshdP0/s640/IMG_1879.jpg
+  image: images/covers/a206658283928aca.webp
 album_url: https://goo.gl/photos/TQsEULb4oN9FSaar8
 ---
 

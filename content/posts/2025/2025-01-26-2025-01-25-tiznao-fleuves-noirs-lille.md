@@ -12,7 +12,7 @@ tags:
 - RockAlternatiu
 - Tiznao FleuvesNoirs
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivC0OfH9xyfnh-cd-dMwbZEXWgmXApX4iNgTJ_ZJquoEWI1jyLIZd4_xFBlPQyaAhHG96bGIClnTQ1vKL8GEIcx1AnovFcD-wBVLazzuZ1TIuZU7P6AfFBiDrupR7WsFtxG6_YBua-fMPSRaCVzuIOf761U9hYHc4-jVSVRhmMYGus-HaBw0DB0zkbZH8/w640-h360/DSCF8009.jpg
+  image: images/covers/7d6c3bff8093b4e4.webp
 album_url: https://photos.app.goo.gl/u2i1mRoFz8y19bXJ9
 ---
 

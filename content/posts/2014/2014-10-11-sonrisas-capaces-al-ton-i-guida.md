@@ -11,7 +11,7 @@ tags:
 - CASAL
 - risas
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGfqd_-tt09mdTEWuXdF_h9HueGZfWg4mI4gwzv-lqogpI4JTK2qI9gNbmHJOj4m7MmHmYKMYQ-J39aFXpYz_1ZqT6XowjAy7JuH7PuPjbyTFWqjHB-dk9Ljh1ivY_ZY7zqs8VjM-bF0Q/s400/DSC_0938.jpg
+  image: images/covers/624bbbf3e9a2c958.webp
 album_url: https://picasaweb.google.com/110015855395179205688/SONRISASCAPACES?authuser=0&feat=embedwebsite
 ---
 

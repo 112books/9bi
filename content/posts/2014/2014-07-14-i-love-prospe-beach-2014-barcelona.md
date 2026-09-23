@@ -10,7 +10,7 @@ tags:
 - Barcelona
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHHn373WHd_an0TXpa9hhiItOHeiNkYSmrYz8CCBMizRzlvqQSvNcfsqNN1lrbkoK3w8q_FeoD256cX2pmJSwEcWlROz5LwEZnjCePalJ_OaHFDGiCLCjDXPJ5SswjjBq2tYo8pm2em3UE/s400/IMG_7937.jpg
+  image: images/covers/c97bd01d70307df5.webp
 album_url: https://picasaweb.google.com/100268695753733554853/ILoveProspeBeach2014Barcelona?authuser=0&amp;feat=embedwebsite
 ---
 

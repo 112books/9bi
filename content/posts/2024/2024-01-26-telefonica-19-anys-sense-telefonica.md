@@ -11,7 +11,7 @@ tags:
 - prospe
 - enllaç
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfTqHEeKdTouWp2pWuFmc8YF4D-sbGvKWfNSSpAsr_sqh7XSVOI2Url3D8f1Mwr4IKlDsmOe2gRCPkA5_JEJTPX2h0B3nWu2fQsSYNx4dfihQ9GCEGWfw1sXAHp00EGAcC28U7QhNNR2V2gE4Yw6hSiFy7MuGT7nNcXxI6Ik5FnmDsSYyp24gdNauRuEg/w640-h360/20240122_115950.JPG
+  image: images/covers/2c0a6e3d7c0ed8ad.webp
 album_url: https://photos.app.goo.gl/tGEUV79ADRrfEbEy8
 ---
 

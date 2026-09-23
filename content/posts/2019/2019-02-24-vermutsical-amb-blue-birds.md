@@ -8,7 +8,7 @@ tags:
 - vermutsical
 - BLUE
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4EEdKUgDzyJKHOHHugPgTeWDlByDFVsb7mG3vegpJ-lZXa8fXlKYrGW6kLkhp0YxF2XxIuylVBYeTt5_gwfiAvHNywn4ZXS6zl6QXoUnn78pWk1HXledZQ5A2d3r-lb0TaMKRDsJTHjE/s640/HD%2523340+-+021.jpg
+  image: images/covers/af192f19f21828d7.webp
 album_url: https://photos.app.goo.gl/ZWCgNYvuwtbq7Rpa7
 ---
 

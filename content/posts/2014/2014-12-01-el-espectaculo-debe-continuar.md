@@ -10,7 +10,7 @@ tags:
 - casa
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis_AnXF6zqGrFhkj5wH99pZwmUhIEm-aIxQXVa9_hZS6oyNFfiV5ZNZR5kuwDpPoTROpMfWxKqc7sNw46eunBOJF1Dl9Z2LcrsebNi_vqFJQRuBadBWlEJGFVSXC1EXdM9AlLAmohrJGE/s400/_DSC0896-2.jpg
+  image: images/covers/c0d0292cfaa6ff50.webp
 album_url: https://picasaweb.google.com/110015855395179205688/Atrezzo?authuser=0&feat=embedwebsite
 ---
 

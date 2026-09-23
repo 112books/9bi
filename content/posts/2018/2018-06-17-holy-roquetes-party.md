@@ -10,7 +10,7 @@ tags:
 - ruta
 - art
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZVscxnqOhc5H7jO4gTEHc3FXPGUyGaYZFLABjK6D5MNJCGgWoF5Jd2DSdiDvaYySD9KPyQJAAezU5dxD2g-Pb174XvyUaXjo6KGm3Jb6ufao-CJYZ9JHzRYFAAFx-yBcLvkfefqFuyGk/s640/_6120116.jpg
+  image: images/covers/b68df217f4a404b3.webp
 album_url: https://photos.app.goo.gl/DaPwRsHShvikc27n7
 ---
 

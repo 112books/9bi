@@ -11,7 +11,7 @@ tags:
 - expo
 - ione
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQZs57uuG1e0EVLAK8ndiNnPZO_F-ToISlKinGmSJvAGqMguPstg6506Q2UF-eD2ML4yAyptUcS_sXyuSXEhtYxeXOVKmoU21bspqJcIq_xu-NAUuC8u7OeAPisLEa7zUICgbjrU1FavPy/s400/IMG_4360.jpg
+  image: images/covers/2cff693698ace315.webp
 album_url: https://picasaweb.google.com/100268695753733554853/INTERNATIONALTATTOOEXPOBARCELONA?authuser=0&amp;feat=embedwebsite
 ---
 

@@ -10,7 +10,7 @@ tags:
 - lliga
 - Maxi Mas
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWzJKnnU1mO6QkoVfw3lcTln3pRSg8rB6UxLM7Vh3ReIjhdykNgSVBI2tUzgh1Q5I19NuV8nWCJQ-fCqQsMnRfYT5P3_-uxmqb-MoLim6EppCE3nBW8oYKymOezYhtcWcSc66HdTMnrNc/w640-h480/IMG_0808.jpg
+  image: images/covers/465273a198462f42.webp
 album_url: https://photos.app.goo.gl/D48uC2ArBW68E2vz6
 ---
 

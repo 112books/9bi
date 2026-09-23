@@ -9,7 +9,7 @@ tags:
 - exposició
 - expo
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuDqHqE-FPiWUzm35ka4dveDtBS3fhrhLOmz1uhWY5oppYRV4tHn0SPEm-TrUvr7BUpyJFBf5ed4jW3u_PO6FdnzLBb6c7W0n09LxfkaPylaK5arttuyUEYzAZiBFeuHymsBe5NNc6nz8/s640/L1230288.jpg
+  image: images/covers/7fb7436ce15fc529.webp
 album_url: https://photos.app.goo.gl/g6Xfj4pEJWc3sAZf8
 ---
 

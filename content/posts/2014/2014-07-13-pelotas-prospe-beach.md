@@ -10,7 +10,7 @@ tags:
 - beach
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFDbDjtb4cQh7Z5NJzJSZ6Lhdxrtl15M3JyUVKH8mR123eMTx5yZlPez2kvBQ_z9ohDmeyJzEynsL-6qNhY014iDml6EKaZ5K0Pf__4UrAcxjG1Cc6WuJu4KCBJhC0c-WDvNQzvg6oBAo/s400/DSC_0890.jpg
+  image: images/covers/95516be7585af656.webp
 album_url: https://picasaweb.google.com/110015855395179205688/PROSPEBEACH2014?authuser=0&feat=embedwebsite
 ---
 

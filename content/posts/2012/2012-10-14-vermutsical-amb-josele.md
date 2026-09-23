@@ -9,7 +9,7 @@ tags:
 - josele
 - vermut sical
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsojM2sRIomeV3en9Ubz-aAXeRFtkWo90ZCgQafkMY6CqhpAP6KAo3gJtgeorf97Vvw51d5_Fcy8LBdPAZGZB_8JMHx5HzxYAFYg87FDIGwiWsZFodNBYxImdUbFqpK3V5l9KIdABLj3o/s400/IMG_2495.jpg
+  image: images/covers/c0ebbc0a1571931f.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutsicalAmbJosele?authuser=0&feat=embedwebsite
 ---
 

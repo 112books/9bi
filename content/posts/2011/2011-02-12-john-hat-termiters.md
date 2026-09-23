@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - Skatepark
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiht8C2HwIo96IRtHkjI_2b8pVnmjB-IFSMooDpjDjOBiBnzrICrq90n_KAA3xBhP9rpFY4fZpzyB6DSAf7qDqKBkWNp3DzlGCb_3y5F5r1fV4JvDJpOzDY3-p770zcVSPQkUsYptB3Cnw/s400/IMG_0832.jpg
+  image: images/covers/442d3b153218e88a.webp
 album_url: https://picasaweb.google.com/linuxbcn/JohnHatTheTermiters?feat=embedwebsite
 ---
 

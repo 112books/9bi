@@ -9,7 +9,7 @@ tags:
 - flamenc
 - fotos
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTlSZS6ZT6HqBj66sS78KCtk_DVu8bwcprn_LSLYOJfZ4ogAXPR-_w-2jCZxsuh_v5Q5vT22100HWIEJxC7OKWbIhVbojvRg_MUZrDHuq3wqOmdcmTuHASZNKmG9OkuaIhapWJhngBWb0/w424-h640/DSC_3675.jpg
+  image: images/covers/c76c7a9926a2d042.webp
 album_url: https://photos.app.goo.gl/YUfwf3DHMsfsseCF6
 ---
 

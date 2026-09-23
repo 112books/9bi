@@ -11,7 +11,7 @@ tags:
 - popular
 - fotos
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJKZ-Fd-v0-o22DnUHMpA-IlfchpiTWhPGN2IT185QDctJiDb3-qPU1XPC01cfet1_vadYAvSzX1ok07m9fgDoK6UKy-X-s3yQYRjiTGkvlTaoSq0Q8u6g_D5ZhoGc8FOnAYVtlvAOe9w/s640/_DSC1965.jpg
+  image: images/covers/53a33e82868d5d41.webp
 album_url: https://photos.app.goo.gl/9oM8FgQgHsxgfzR52
 ---
 

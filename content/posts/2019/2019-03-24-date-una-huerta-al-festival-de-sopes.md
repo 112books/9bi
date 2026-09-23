@@ -11,7 +11,7 @@ tags:
 - huerta
 - arbres
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIsfLVEC81lwOhToXA2AdSYtwyJUWFKWC0PjroY-_CK0CfOaX2R5Jy-qNTNl7KrWAmnlaCwPR_YrNEPwPsqivU5Q4eVurm13xLuZGc_pb6DzwIi_dG992iN6arx43N6Kc0Vu9mXthtN7s/s640/_3240092.jpg
+  image: images/covers/c9ebc7265d4b7f89.webp
 album_url: https://photos.app.goo.gl/icobCLLqUeoZN4o39
 ---
 

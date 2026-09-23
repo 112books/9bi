@@ -9,7 +9,7 @@ tags:
 - llibre
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOTI9I7e8SO0G75BQLJk39zuNKbS_wql1X-7rQI1T_PhenKkKxvKZp0AtGJqEa61R7x4Yz4Vg3d3qMr0zIO10oAe7RuHUf-4WyuIbRj-js1yBT5IFiVVVn-N2ylsiEmM-chxCO2ygH9GA/s640/_DSC0086.jpg
+  image: images/covers/95f7f7375dbad89a.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

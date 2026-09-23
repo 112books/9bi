@@ -10,7 +10,7 @@ tags:
 - STA
 - veu
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKJfiwSjdWOVL63kJ7pqy6YMS3iB82ELYsixM1VXfK477SARS0AKtaYkbQA5hIH2v1S7rzbOU-pjczDnQmSBwOVRIjMEhVmWoxgI2JxmiCWB3F_j3GP9RPruemX-jZ_GbjbH9DqcNto5E/s400/_DSC0351.jpg
+  image: images/covers/2f40d6c9a340527d.webp
 album_url: https://picasaweb.google.com/110015855395179205688/PROJECTEANTAVIANA?authuser=0&feat=embedwebsite
 ---
 

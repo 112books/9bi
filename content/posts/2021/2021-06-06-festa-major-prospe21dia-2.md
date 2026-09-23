@@ -8,7 +8,7 @@ tags:
 - Festa major de prospe
 - juegos peñas
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOA8_0BpuiG3n-XCYhoYx__5RIL_AIGjA042Pl9D143BtxCTX6k-6nPMFIUDeCEajF-tzneBi-AVtQzlWHFpOCYnSzf_ZLIIoWM8lA2QA-QZsqRxiRguOeoqB-2YYXhGxa0kATUXR7bvE/w640-h470/IMG_4988.JPG
+  image: images/covers/f7a6de4bf54ef91c.webp
 album_url: https://photos.app.goo.gl/knaxJGdUJQR7zeJ17
 ---
 

@@ -12,7 +12,7 @@ tags:
 - blues
 - Chino
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2C6RmVll7yHd5XDqGEsS7Taf5BpeFmxqfa25l4HY8Zbysjm8hdJaFZVm2PZ3coSo6SzKuxaJUALe9RjrxFTMxrH4Lw5ObGvWLL6q8cnWNJVQeupfoXqTZJgsAhw-eiTKdnKJgP2jVc4Y/s640/2020-07-10+-+C+-++013.jpg
+  image: images/covers/091b95282eca4ee8.webp
 album_url: https://photos.app.goo.gl/xAKtXq8e4EmRvVfc8
 ---
 

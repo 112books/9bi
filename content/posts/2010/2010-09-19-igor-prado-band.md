@@ -9,7 +9,7 @@ tags:
 - festival de blues de barcelona
 - IGOR
 cover:
-  image: http://lh5.ggpht.com/_dJvZmZjVed0/TI5tfv5UZ_I/AAAAAAAACMI/-leVTLWSS28/s400/DSC_5391.jpg
+  image: images/covers/788c9b5a870be267.webp
 album_url: http:////picasaweb.google.com/pdro.gracias/UltimaImportacion?feat=embedwebsite
 ---
 

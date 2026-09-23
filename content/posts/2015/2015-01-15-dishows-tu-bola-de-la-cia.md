@@ -7,7 +7,7 @@ slug: dishows-tu-bola-de-la-cia
 tags:
 - dishows
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFNpKvCRX3XLNYAXbJpxpOiEC_SR2Nziz4zdf3OnoD_sN1QhyD0Kmw4jSBr13LMLDdOREQQCvEkqs3kbZ7zCjL_VjK83IQqvrGGmHy0OYBSbNNRRTiUnGvEkaUpF6sD48x7B8F9k2NT7Y/s400/IMG_7350.jpg
+  image: images/covers/b6fcdf9d0a372995.webp
 album_url: https://picasaweb.google.com/103138221614479310970/DiShowsATuBolaDeLaCiaSonrriexnarices?authuser=0&amp;feat=embedwebsite
 ---
 

@@ -9,7 +9,7 @@ tags:
 - grup foto roquetes
 - Torrellobeta i Vilapicina
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCSJ0dVNTkhKyRrvvHLUi6z1paFktJhvAciHBMMxoKGRLDsDk_2_qXZWWyT-Zd94JwwT3gihH09ubTo_cRPAYKj16Drocwsv4Dc1KSLKO_ZB4GrUcfuBJGt1WhnAT0EK1CsyYoHwZhwiU/s640/_DSC0189.jpg
+  image: images/covers/3be45a5dea3c2e49.webp
 album_url: https://goo.gl/photos/z3zjzZm4x1Jm2pWd6
 ---
 

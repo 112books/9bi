@@ -7,7 +7,7 @@ slug: 2b-el-turo-de-la-peira-i-can-peguera
 tags:
 - Barcelona
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtRmj9md5Z-YEUIB61SQahW7M3D6oHuuskc95BDDmudRdLYVdxFXA5jBwGJAPolnEYGCedNboGYMgJpMj4vEllUxoyy2fXSmhtqSpzkrHYPJaBrQ_3-_BHo5N0JQfxuCKrgkRmSLllzUE/s640/DSCF7883.jpg
+  image: images/covers/0f27264fffe88417.webp
 album_url: https://goo.gl/photos/NUZM6GpEnBrhFjB16
 ---
 

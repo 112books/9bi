@@ -9,7 +9,7 @@ tags:
 - ideal plàstica flor
 - manel sala ulls
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNnDmKQZFCq1naciQrsIy1nsp0U2f_pMNSN5ZmWHocuYuEbRoItsodVF0N3u9zfUc1q6umiCXd1OtX_LBKG0xIx-fXaPk-Gkf-jIV1WxDlwlV2T6qiSlA-Ge8AAT-iSPoS7qCN-IRmgSGR/s400/IMG_6991.JPG
+  image: images/covers/ae7a40b2c41f6c0b.webp
 album_url: http://picasaweb.google.es/ulls1963/FabricaIdealFlor?feat=embedwebsite
 ---
 

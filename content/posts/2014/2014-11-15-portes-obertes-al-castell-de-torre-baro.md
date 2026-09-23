@@ -11,7 +11,7 @@ tags:
 - ruta
 - veu
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1p7CDgI1EI2H-XuZc0QpJZ7ZJ7P-I7cOiYpMHgzamx6Q4ylOSicyqbzSL1rclonQ762N5zkyhx2TXpSNqgeuaY_EUgY6OtesqN4J-l__O6WM51kq5dgDtRcLHjMLsiGHS7rhMw_JeAIU/s400/_DSC0814.JPG
+  image: images/covers/8ad3444a70145673.webp
 album_url: https://picasaweb.google.com/110015855395179205688/CASTELLDETORREBARO?authuser=0&feat=embedwebsite
 ---
 

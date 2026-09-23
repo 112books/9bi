@@ -12,7 +12,7 @@ tags:
 - SBB
 - societat de blues de barcelona
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVS3uQOrDd6-OyDzg9FivvShzjVVApbIHYo3FSQIfq7osME1BSJQ6XZBixToEhjdp-dYLpcNIiX-cKnlADM1ErINpMMvphAnG3cSHXITiI2jWa7ljwQGVJrbwcMyd5o00ATmuSDWfZzVo/w640-h422/IMG_9001.jpg
+  image: images/covers/ec229d562c8e6e8a.webp
 album_url: https://photos.app.goo.gl/NzaDjEa1zzD7PykY7
 ---
 

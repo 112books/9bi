@@ -9,7 +9,7 @@ tags:
 - dani pedrosa
 - despedida
 cover:
-  image: http://lh6.ggpht.com/linuxbcn/SIt05rAQ_KI/AAAAAAAAc4Y/pzEUwVl5k1o/w640-h360/P1040311.JPG
+  image: images/covers/6f1f347506023cce.webp
 album_url: https://photos.app.goo.gl/pJJqRo5NXJAywpn57
 ---
 

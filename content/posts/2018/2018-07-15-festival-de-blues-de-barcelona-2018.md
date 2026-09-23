@@ -8,7 +8,7 @@ slug: festival-de-blues-de-barcelona-2018
 tags:
 - blues
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0qQLrxMd36MOatUM2lqjTWIQTsZXQHGEgAFCAleySqwNc3EmOi-MkIwSf9awLEe0uW2C8FJIT8_Rn6tFP6Cj_HjPdDlg3BSdFj2zeQqh8PPY7b5mBdZfgXgi2KM55Uveol29LHcOGjv4q/s640/PGF_3328.jpg
+  image: images/covers/fdba782df33b4d25.webp
 album_url: https://photos.google.com/share/AF1QipNBcl2vH-eQtOIbCoMVrSYXzrIrj0IH74jshmUefXEKrH-m8gMaqgHEJB-7IfjYmg?key=a1BXTlRGbVdNX2x3b091VTdDaXJ4ajBvNC1jOHVn
 ---
 

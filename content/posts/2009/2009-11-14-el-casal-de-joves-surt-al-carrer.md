@@ -10,7 +10,7 @@ tags:
 - CASAL
 - casa
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjylruItFylhyphenhyphen4KMSfbfR2dJHBnWhpVBvozB6wnnbnhGoHB8L_HMX4kVUMpNicRLq7SqnHrbm9_QXMucz_R9Kq2ph8QCYC3RxGQzhtSCDGVbBgIFlrTC1o7oatzT1PTIR2Xwez-e4WPTzkt/s400/_DSC7560.JPG
+  image: images/covers/c3d9f65ebbd5f448.webp
 album_url: http://picasaweb.google.es/inmalcario/CasalAlCarrer#
 ---
 

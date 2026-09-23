@@ -11,7 +11,7 @@ tags:
 - plaza angel pestaña
 - rock
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhr97VunVUk9cIKCf5tZbTmkp6xWuihYJQmYFK1qJyG5ihLA2_fzY1HErrPDGhirKcRbRLBEkzBOVxmhifZytYowIwvvkyRq2QWQRW2Li067-c2Kq2l7gE7AVY-l5UekTLtt760kKnNmXK1O9wMalqKJbluJsAPm0PcaVuZ7tfUKEcL5YvGE9bmEn_uuz4/w640-h426/_DSF3649.jpg
+  image: images/covers/ceae22aa0c4ed6fb.webp
 album_url: https://photos.app.goo.gl/5MQ9BwkLAxRVF7Sn7
 ---
 

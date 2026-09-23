@@ -9,7 +9,7 @@ tags:
 - Big Wheels
 - Woolfi
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1TBzAMECMtK6jhf2IKcZ_DDZ7XdmMy63CllWiO7MwF_OmUq6jo9xGBO3_Y40cyzG0vq60LBJ8xNhTzz2EBY24WPGnSH3cEyLQlssKPR0tYjgRzAdwYtq1ntXWO7aRe630HmXxrcSuuXA/s400/IMG_5436.jpg
+  image: images/covers/f128487bab0f9380.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutSicalAmbWOOLFITHEBIGWHEELS?authuser=0&feat=embedwebsite
 ---
 

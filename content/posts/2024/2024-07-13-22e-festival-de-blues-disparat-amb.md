@@ -11,7 +11,7 @@ tags:
 - Barcelona
 - dissabte
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijViJteZtyrPOEg9TAKixezrlGew8lyrgAxDkZ9FjC1T2ihwu5yChE3p1fNT346r0DjGwHS17es9KnnMEQXQhZkgzFmQQokTVscjUOaYd1f_MUTNV_zcEyrREc7EGmUHxIUjr0MqzPwx51R7Y6EP9uvosjEL4-1EeDaASvIBFNWxXXFdTduaH7pvbWFak/w640-h382/2024-07-05%20-%20LM6%20-%20APX400@1600%20-%20FBB24%20-%20C%20-0008.jpg
+  image: images/covers/7ce808f4e560e0c8.webp
 album_url: https://photos.app.goo.gl/9VUktVuKmqJkhMWC8
 ---
 

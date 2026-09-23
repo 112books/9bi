@@ -10,7 +10,7 @@ tags:
 - joan.linuxbcn.com
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgotkuJ11jP5VjjGnWiJjwQaB-8BHRwiqAi4JpQNLWAjAYOjA8ktWbA8JBov8ui4OxrIcg92lT2yvIx6u5kr8Mli_hXLaqEzKPm0cUY2AamsPAAfiPKSt_aBuP76vY6gF7Xn4D8XSTRjVs/s400/IMG_9697.jpg
+  image: images/covers/4955d8a7e2c91505.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestesDeProspe2013Diumenge?authuser=0&feat=embedwebsite
 ---
 

@@ -7,7 +7,7 @@ slug: despedida-de-lemilia
 tags:
 - despedida
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrHeL0wqg1R0ewpg3WODZlSpNbRF3m7GuICTMO74EBt7lIGKsISfz6XJ8elQ4y5cr0_71WHkaXDOufdJc629t7cnoYYMWQsAlO8rlHzpZJrPTxFvpYBB9eeX7qWAjtRusbIm_KwdscMUY/s400-Ic42/DSCF8768.jpg
+  image: images/covers/dbd25bcc6bf0c9f2.webp
 album_url: https://picasaweb.google.com/103138221614479310970/DespedidaDeLEmilia?authuser=0&feat=embedwebsite
 ---
 

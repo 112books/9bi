@@ -11,7 +11,7 @@ tags:
 - membres
 - fotos
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_uDNzHMOvsKGwk-U9taSmpbzQ4mAbNmy-nk2ZIaOnb0wz2KrrfFYxv2ZHzv68l73__qaQedFNGFucKXT5NaDrlP-6yFXoMap4FckrwR4Ib9D_7I0WpyM4bEK4bfOUjNt2Qfp23hUIpD8/s400/_DSC0293.jpg
+  image: images/covers/06c8f9c3c264f42a.webp
 album_url: https://picasaweb.google.com/110015855395179205688/FestaMajorNouBarris2015?authuser=0&feat=embedwebsite
 ---
 

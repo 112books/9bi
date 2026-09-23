@@ -7,7 +7,7 @@ slug: tributo-bambino
 tags:
 - flamenco
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcSb70zSQpVK7rhgXFv0tT_5YBwXSmrPlGlB1Kf3TfSbrv89-kHl1jIrhfuUAnz3HkVEsh-l_C_-UXc-h5xfdQLAr4-tyV3JL2Itq5Fl5YD2EONjSAjcXolzEaWNLPiNnK3bZ1kYvyy_A/s640/DSCF1951.jpg
+  image: images/covers/12d6bbc38582933c.webp
 album_url: https://goo.gl/photos/kvtTzNxMuh21TrJm9
 ---
 

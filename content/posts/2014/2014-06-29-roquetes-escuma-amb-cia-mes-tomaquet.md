@@ -11,7 +11,7 @@ tags:
 - ruta
 - STA
 cover:
-  image: https://lh3.googleusercontent.com/-8jBVkTBw2YQ/U7B2gsItHSE/AAAAAAAAGyM/goNwm147Pe8/s160-c/FestaDeLEscumaARoquetes.jpg
+  image: images/covers/8ff19bbb2f988e26.webp
 album_url: https://picasaweb.google.com/110015855395179205688/FestaDeLEscumaARoquetes?authuser=0&feat=embedwebsite
 ---
 

@@ -7,7 +7,7 @@ slug: tunel-del-terror-casal-de-barri
 tags:
 - 9barris imatge
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtt2jA90wbQSy464eJwClxyQLaFmpn7di-akxUyJKS0YfHDdY6CRDpuTDVIm8__ECgCQKbdOivqsJfpkF8xlntvEknXdt4AReCYSTizr82ZheKLBoZvfyknCjGXpvQWUxwxTMSOiiDSjk22_mQGIPd7dUHfsFEw7GQINfklVmIWp3iZhQ64K2TA-JiQq4D/s600/2T5A9433.jpg
+  image: images/covers/e65b0e2bec783c8b.webp
 album_url: https://photos.app.goo.gl/A7t7y6sCHNNzNHBG7
 ---
 

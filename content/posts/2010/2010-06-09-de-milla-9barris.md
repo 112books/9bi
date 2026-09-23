@@ -8,7 +8,7 @@ tags:
 - 9barris
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfCeLn4FTJOQD4zfSpPCeT-pMXF8-Ic7XxrPNucxT-q9uglDXcD-3edjlqQEkXaD93d17KP92izsQsedjZXGnqiq35n5kZIzQ_mmtiZ8Vs8H5oVcf2KhkAVyBIiIGx1AwOWIf4_F6Hn_w/s400/DSC_2758.JPG
+  image: images/covers/f16855e71418cd62.webp
 album_url: http://picasaweb.google.es/Perdo.Garcia/Milla9Barris?feat=embedwebsite
 ---
 

@@ -10,7 +10,7 @@ tags:
 - cultura
 - FESTA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjDeZf1vffsZD9xu8KetP4w4cS58an2GEO3uxSSogSXQ-8kxfVmBL7_I4tlGBTwNVQnLNFsdL5cD6MV0hcMhk-azRT8W3UCZSNF2nsFeDz5lBo9C_jrcODZeRHI8w_e5EbAFOcYjKLhlw/s400/PGF_8170.JPG
+  image: images/covers/4cae5b5526599249.webp
 album_url: https://picasaweb.google.com/115791131166530059320/6DeMayoDe2013?authuser=0&feat=embedwebsite
 ---
 

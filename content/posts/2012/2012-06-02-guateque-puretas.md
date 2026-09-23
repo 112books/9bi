@@ -8,7 +8,7 @@ tags:
 - Festes de prosperitat
 - guateque puretes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9LdV-DcJy8qhT7cUDbtYxfFhsY7-9Pu1syelJ3i7YDeEpzi-20FPsEl05vNLwYEl69OeQKC1veKoLi41zolfXzpbWqxeYtvjh0ZvfhGO9RXAlD65gQk1rVGd8-083O2Rkzt_rv-U6tZ0/s400/DSC_5900.JPG
+  image: images/covers/f68ffb65e7832926.webp
 album_url: https://picasaweb.google.com/108654039305170515016/GuatequePuretas?authuser=0&feat=embedwebsite
 ---
 

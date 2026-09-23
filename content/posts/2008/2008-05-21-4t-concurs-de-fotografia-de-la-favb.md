@@ -7,7 +7,7 @@ slug: 4t-concurs-de-fotografia-de-la-favb
 tags:
 - Concurs Fotogràfic
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCtmbs73FUPCh1wnBfrti1UVf7w_PfRJdZSnWyz0r6uYuVJYWbMWtXbAomFfg-qy-oHUeUd7taKNukPMEnWU_KhfT_8DFbw4PQKnlHbIR3jQkz8KZlfYQtgsV7cfCyrB8z1hAdp5-65iI/s320/Leica-3c-Sephia-256.gif
+  image: images/covers/26a96e5100027b76.webp
 ---
 
 Doncs si. S'ha presentat per quarta vegada el concurs de fotografia de la Favb ([favb.cat](http://favb.cat "Federació d'Associacions de Veïns i Veïnes de Barcelona").

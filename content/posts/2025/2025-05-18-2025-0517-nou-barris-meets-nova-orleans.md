@@ -19,7 +19,7 @@ tags:
 - tallers familiars
 - tradicions
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh27jsjzNzBgJTNk0j9z6pBroYWf6CTynwOu0R4phblCCJDzZsEgY5MBu88DPAtLTr2b0KlDKXqUtVYX-OuaTP62ZNY3O_zPNDIXMEVDikK9JedIXMVawdLYsRCvxLCaPN06fwEG_8zvv3nabH31hfq8Fh8LviRQ6-kDO0XmTMHKwA93ZR8MxyDZqSU_ZM/w640-h426/DSCF0935.jpg
+  image: images/covers/e3ec7447dc5fcd22.webp
 album_url: https://photos.app.goo.gl/kVfR1qypybHMMDcA7
 ---
 

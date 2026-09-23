@@ -11,7 +11,7 @@ tags:
 - improviciados
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh__yCs3wc5U8mgtG1Hwwh_0-WUEOVafLaezsucO7HcvJfdEwRcKYwRNkxDuLGBICHmyH202n8ed08lakA9Tp5TmsavB5aRUKq3Q5Om9LHUWUE1ba7muPMXf98PYOldw5SXDiQFyhg8xabC34zvSsEjNAWaVJ9nWNAkAyJLmlT-tCNT3ry2XWwCZJeNj_o/w640-h428/L1480303.jpg
+  image: images/covers/9530dbcd93288295.webp
 album_url: https://photos.app.goo.gl/4bcvH46hR1AtVFT66
 ---
 

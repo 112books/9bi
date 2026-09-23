@@ -8,7 +8,7 @@ tags:
 - 9 barris imatge
 - festival circ budapest
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjCYLXOx8T1PvNcmGTp9KiG1nN2lQJ0nCMgjMcsevLPnCQbS4QlcIqqCesyF61ZJfdKSl94nCZ3u3kY6lBI6O1O7NG8Bhs4_aKHmPGDYmet65DL9J9e56csUnA4_ghsIYYqDaaby9kAR2v/s400/0103.jpg
+  image: images/covers/85e6e9ac28f4fd42.webp
 album_url: http://picasaweb.google.es/ulls2006/FestivalInternacionalDeCircDeBudapest2010?feat=embedwebsite
 ---
 

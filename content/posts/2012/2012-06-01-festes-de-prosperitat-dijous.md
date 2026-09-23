@@ -8,7 +8,7 @@ tags:
 - festa major
 - Festes de prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl_bak21x0owgsP0gawIX-ih_f4JWJxmS5doE5JLHh-kf6x2FL17egNAO5Wi8ISVlYWm0Z0eUDyZjyTcuc-zX4acpijejVkMRn8gIeW9MsovIiV0kviyIs_bhfqvfVbD6RSW4D7E2f-gw/s400/IMG_1966.jpg
+  image: images/covers/6afce2f0e6a73387.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestesDeProsperitatDijous03?authuser=0&feat=embedwebsite
 ---
 

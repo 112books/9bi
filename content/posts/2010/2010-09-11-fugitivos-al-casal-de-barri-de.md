@@ -10,7 +10,7 @@ tags:
 - fugitivos
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg92FjgIkgR0l4EUek4oCz8QGcaWDoUsmcsdNKJmktdko4HGImzFcbn0ZrIoGgDMFWw_yVicsERDRjWW-6IhIdaYqEd8zRd1jSTZFkzWgtVEKDU_u_7graz_YP6O6_rSwmnpRW27io0OPo/w640-h427/IMG_9357.jpg
+  image: images/covers/b9ff91d47e14e293.webp
 album_url: https://photos.app.goo.gl/WfDH6ALfuyYqSCkt6
 ---
 

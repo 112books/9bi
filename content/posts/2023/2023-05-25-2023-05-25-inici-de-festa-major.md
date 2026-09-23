@@ -13,7 +13,7 @@ tags:
 - rudas cooperativa
 - Sonido Mangrlar
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaPIaO7tcKNPLCSD3YTnb2Qa3cmMigGldLP_qEokYtoUxpFPE1f77K3pKzXzJtp1yS1KRC9j5mmDM1YWnyuedT6VeAXcjovkOTB1QukuVse6zPhgGWaQ3F4n0u1a-i4AcjMDG-jUocZUyg1XYd9Q7hZ71pzp4KIlJwx7uZJNTMzHaqg2WfPFbOtqFy/w640-h360/L1310055.jpg
+  image: images/covers/f05b8b05fe121490.webp
 album_url: https://photos.app.goo.gl/qbsV2srEJGB7VWAk6
 ---
 

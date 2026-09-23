@@ -7,7 +7,7 @@ slug: festes-de-prosperitat-2011-dimecres
 tags:
 - Festes de prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVY76ErRCxuhQaY_suLL9melfax0V82XvC-geui3VbbPtKgdgvTLdJr27ykrBNbrzl5-K_96TZNvDzsTCRNNmVq33o0AFy74Q0p8N0tjryM_LH6RpSnpMdGdYWCfEc-J-pt6obWjRXmas/s400/IMG_8079.jpg
+  image: images/covers/d71ea414775589d9.webp
 album_url: https://picasaweb.google.com/linuxbcn/FestesDeProsperitat2011Dimecres?feat=embedwebsite
 ---
 

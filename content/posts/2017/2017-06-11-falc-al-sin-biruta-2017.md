@@ -7,7 +7,7 @@ slug: falc-al-sin-biruta-2017
 tags:
 - ruta
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-TWputeu9GErt1r_FI8Kotc7LrYYJMuz_yEPpQsOqGfDGe12fpcXKJ4J_iKWpNh_V75abJOOLSHOFIOTKgN0EKAFn73nAqLLiH0aibh6SRVNEcfjQ1eDGkrCFbPw-pQahxbOro_ARsdw/s640/HD%2523126+-+024.jpg
+  image: images/covers/cb8468615bd3823f.webp
 album_url: https://goo.gl/photos/e2EJocPVs9Vzy6Xi7
 ---
 

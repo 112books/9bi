@@ -9,7 +9,7 @@ tags:
 - inmortales
 - rock
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjjfElBitYd4bREIvihlVSaDmHupIhXYAEafMsVLpOqTxm82T_S4GN78XVwtq_MclYzcdOGN5WnHQrjMND73LpZT4-28P27FiN3sLZkaFxOmDUzk_Y-HKEC6aq6L6u9XbWrScBr3R2USqH/s400/IMG_4051.jpg
+  image: images/covers/2ef59df53b46aa2f.webp
 album_url: https://picasaweb.google.com/100268695753733554853/XistorraRock2012Inmortales?authuser=0&feat=embedwebsite
 ---
 

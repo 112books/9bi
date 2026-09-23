@@ -11,7 +11,7 @@ tags:
 - barri
 - ruta
 cover:
-  image: https://lh3.googleusercontent.com/-sPck360HaPo/U7CdnEiDn4E/AAAAAAAAHVg/t-raO1OxIFM/s160-c/GrupJuvenilATREZZOIELESPECTACULODEBECONTINUAR.jpg
+  image: images/covers/9c4aa7cc4a1c99a2.webp
 album_url: https://picasaweb.google.com/110015855395179205688/GrupJuvenilATREZZOIELESPECTACULODEBECONTINUAR?authuser=0&feat=embedwebsite
 ---
 

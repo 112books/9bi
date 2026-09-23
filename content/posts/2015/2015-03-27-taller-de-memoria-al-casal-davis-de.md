@@ -11,7 +11,7 @@ tags:
 - avis
 - mar
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOf7cTzb0xCTnJw140Vww4NNCNGCj8E1RIWFM-0vg6BfD4HC_VN9tSv9MbYBAWt5CQMhhywe5nH9KwKTU3m3dnvXXhCHUuCB1P43F44GKkcBiDYW80b9EetXODpiKxoSQMJeBLQv7QM4k/s400/_DSC0819.jpg
+  image: images/covers/92ed39e407a6a304.webp
 album_url: https://picasaweb.google.com/110015855395179205688/TallerDeMemoriaAlCasalDAvisDeRoquetes?authuser=0&feat=embedwebsite
 ---
 

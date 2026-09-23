@@ -7,7 +7,7 @@ slug: 9bpregunta-9bcabrajada
 tags:
 - 9bcabrajada
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhelW65jmYNLM4VQqjA-0Q98HhjaEBWo15AfrD8r_yJjukTnBtZ6UUcKodPSQAvRP3I9IicGN7jMnd3i70RoKFnLvX2trfbkNYsagatYFOozi_KeepBoESRdaSBOBi-8glOSwFS4ZrK4KY/s400/IMG_4139.jpg
+  image: images/covers/77761cd0a633bd3f.webp
 album_url: https://picasaweb.google.com/103138221614479310970/9bPregunta9BCabrajada?authuser=0&feat=embedwebsite
 ---
 

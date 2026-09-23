@@ -11,7 +11,7 @@ tags:
 - expo
 - mar
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCkvE6bQ0lvRy_SQPoCgCBgNEoVbzq_JqYv88_JtaCxFvOHGE_1kNoOOpxix5Qb0OUV-hU9uY9jWcPA8BD3CEK6kZh0N3_frzlLi1UTCxHgz9izssYfak2Gtglkn4ZKNtHY_ZW913pyKk/s640/20180309_210939.jpg
+  image: images/covers/5ffbad502418b3b5.webp
 album_url: https://photos.app.goo.gl/XdkXwNPy0jur06682
 ---
 

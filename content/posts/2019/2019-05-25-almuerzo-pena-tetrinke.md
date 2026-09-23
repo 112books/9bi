@@ -10,7 +10,7 @@ tags:
 - parrillada
 - peña tetrinké
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDsqDwCbDiKEIeYQogNKcN9IFja-GbCe5e3ntNkVlZvc-UjYOFzV3ttxgIFYX_vmWq1IP-vIEtwii766-AymxJeZs1Pok4qkJCJmw9IywaXwDCaZRI_ggGTIYbxQcfDKouHNZFV7fj4BA/s640/IMG_2708.JPG
+  image: images/covers/8572716d5a6360c1.webp
 album_url: https://photos.google.com/share/AF1QipPh4CG-Pa08K-w8NaiXlBSmfgKqdHiXHk6IjbCsiyWcI1TZkvRngd7Uv4gPbAKqRQ?key=RlpIWG9XdTJNV3ViRTJRQWZwMlUxakE4Ukt0ZHBB
 ---
 

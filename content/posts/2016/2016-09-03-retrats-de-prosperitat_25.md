@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - Retrat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjV_P5D_Zfb4VTJ7qsuDPaL_MAEVoxfeVmdOjvPIuc9TFb5NGKqjR9oyWfIQmTIoauTcNiLe3C9zCrEUStUoUmgKuLFEJyrdOnDfaq34pBr-jPdIEAKad5B3VJqBe7clftvPt5tOle9DI/s400/HD%252375-Holga-LG400+-+008.jpg
+  image: images/covers/e1570a8cbd7580bd.webp
 album_url: https://photos.google.com/share/AF1QipPzkwMq56zhA_Lr0sHIGEc9uIjEdo3r-3RzjnPGMtj4vPAiHe3WfkWNonA60lru_Q?hl=ca&key=Q2xFOVQ4VkNvcUR0OXJmV2FJNlZzazhiUGEzV3Rn
 ---
 

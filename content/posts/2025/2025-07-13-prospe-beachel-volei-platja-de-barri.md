@@ -11,7 +11,7 @@ tags:
 - música
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiICAP6l4UXo4eoxR481ETGpU9jLmFYoI-x0QOGLLYNOnYgXeDJFxTViQT5XzfXSrzShGa7N-4aWR3bOoXn6udNifSfc_Up-SQfgPT3PG7wbju-2Dqk-q8fD_iLpV7PpALOVR6nGMQoh2fkSAC6VgU_NqfB4yVobsX4xSP0Z3CiAnD4U4IOIYWEVIHTl54/w640-h426/IMG_8050.JPG
+  image: images/covers/b6aa75cf958062eb.webp
 album_url: https://photos.app.goo.gl/b8pfgpvdd1PYtCB49
 ---
 

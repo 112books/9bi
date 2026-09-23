@@ -10,7 +10,7 @@ tags:
 - teatre
 - Xucrut Teatre
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyBnXsVtk6lqklAdaBuW6Kpjk4621raGYCQAaq5813hfKmWUYZennaHIlp0YLz9KJ_IoiIvbgDY9cuTywUxnD4mmiLxHuO-Ck2PLiHQG61Vt0itdv1ISSq0LVERYGubmo_IQd4MnzLckc/w640-h426/IMG_7810.JPG
+  image: images/covers/8a9d8beabd9e0632.webp
 album_url: https://photos.app.goo.gl/nsVYS6kcVyHXTF9s5
 ---
 

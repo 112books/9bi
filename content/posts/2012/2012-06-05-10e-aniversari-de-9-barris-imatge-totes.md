@@ -11,7 +11,7 @@ tags:
 - fotografies
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_chIENdcETOGy_K7msCl2HpWJNATpAqycBrFSoG0Xtw3x_NAds61Q6VhOh3WwxGiXW21nnLb0MrGfY19tIgmJxU94GVrckTbGuAG5X15HNdvFgh0qrkSWpz4Iiu4FFgtNmU3UGYiFxrIT/s400/DSC_6207.jpg
+  image: images/covers/def6c38b65c4c3d5.webp
 album_url: https://picasaweb.google.com/100268695753733554853/10eAniversariDe9BarrisImatgeTotesLesFotosDeLExpo?authuser=0&amp;feat=embedwebsite
 ---
 

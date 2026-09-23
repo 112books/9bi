@@ -7,7 +7,7 @@ slug: diada-nacional-de-catalunya-2014
 tags:
 - catalunya
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-h67R5FzHLWpUsMmNYtWZzCEz5-0lM2_3KI5zO3CVCX8S5GEZuzcPytJqP45cS3cCDn6OxCpmda3Wi1ZxK3Lwcr5chx_UeN4ehJ3i02HMB6ZwNzi4pssrOqLV5M5g-34eS2ssD_AAMj6N/s400/IMG_4844.jpg
+  image: images/covers/6b24e20f196dce9a.webp
 album_url: https://picasaweb.google.com/100268695753733554853/DiadaNacionalDeCatalunya201402?authuser=0&amp;feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - llibre
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGrDG3Aw9PBAGLkGQumKh2PIXWLLkFZxHC5TrdZDaK9JZLXYQkU8xuSNuR046OAIJ-KIUWBSdubyX-AikqV8Wc3641sMJcJCYV3S38Nq5-3ujbC_5Tufw0F2kTBF9o3Njs4PP8dy4Vmk9p/s400/_DSC1013.jpg
+  image: images/covers/5aec9e3e3657337b.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6278727655590196561?authuser=0&feat=embedwebsite
 ---
 

@@ -8,7 +8,7 @@ tags:
 - Angel Pestaña
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZVKCnFMeA-RhREDga-bOr5LU4VNmxPicVI0wkSzypSSs2gcOh2oW6IvB8hmll_NJKY3TLk1EAj7qU-T9HKXjJZ8x9qVpun401eEFYmdqpi8X2mGXJCZuard4rjFrKH7rR5uuhvKrraZw/s640/COMUNS+-+94.jpg
+  image: images/covers/4c7636482b7cb6f8.webp
 album_url: https://photos.app.goo.gl/Tca3utGJpL1KVBoU2
 ---
 

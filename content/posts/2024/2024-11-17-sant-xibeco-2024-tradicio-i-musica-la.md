@@ -11,7 +11,7 @@ tags:
 - harry walker
 - santa quinta
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8Z4xzkVYuO5OUYNCXVubjPnPsz3v8MGIl2tKDgJEWLkJ0NcqTWhHJaxUXsVYqzhgiTTpYdOBaIZVy9Vz3Kl-4j_JUC2g_VhlhH6Y_s-IFB_QpOkM09087fUWEgPHF4aubUga4Inf1ni_gd0g5l6v4u10b1ztf7eKNp-6hYdJfDqRsjRMlzll2vyQ0liU/w640-h426/DSCF6291.jpg
+  image: images/covers/63f065151f2acc40.webp
 album_url: https://photos.app.goo.gl/EbhpETDoHCcMVAFL6
 ---
 

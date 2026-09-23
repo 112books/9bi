@@ -11,7 +11,7 @@ tags:
 - llibre
 - Aitor
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLT3VNvOF7P3Rn3CDDUkz05yAGcG6ov6cGH_ZiVvvItghkRf-jfBpDJM2-pV2TANzfNOJMpmUIk66wEAip11QjM79H_pAogk2w_e-faL69gPyaBS7EX6gR8ucIaLXCePsAzjvB_kRHUwM/s400-Ic42/_DSC0404.jpg
+  image: images/covers/39e9088d1af4b29d.webp
 album_url: https://picasaweb.google.com/110015855395179205688/Vencidos02?authuser=0&feat=embedwebsite
 ---
 

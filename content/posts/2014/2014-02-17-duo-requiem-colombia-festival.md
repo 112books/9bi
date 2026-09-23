@@ -9,7 +9,7 @@ tags:
 - circ
 - ciu
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZJZa40FXBhw4-8vimmP5FwhJzr6xr-ZPTXyWu31NlyBQ6P9x1xuvcZARsxghsjR1dkVMgCTDLMKvErKBAztKIeE570HunhYqB8hxAYXyoK1uNE-KUzL4fftv_EIdTP3bPa8pqv3jKx_n0/s400/IMG_2215.jpg
+  image: images/covers/70482debcb47de6b.webp
 album_url: https://picasaweb.google.com/100268695753733554853/DuoRequiemColombiaFestivalInternacionalDelCircCiutatDeFigueres2013?authuser=0&amp;feat=embedwebsite
 ---
 

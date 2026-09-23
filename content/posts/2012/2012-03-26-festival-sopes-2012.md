@@ -10,7 +10,7 @@ tags:
 - festival sopes
 - vía júlia
 cover:
-  image: https://lh6.googleusercontent.com/-XwD_F8nji9g/T3WfC6HxESI/AAAAAAAACP8/IFzp2wf524I/s400/Sopes2012%2520%25281%2529.jpg
+  image: images/covers/92ee61efff601f24.webp
 album_url: https://picasaweb.google.com/116805523004990742624/FestivalSopes201202?authuser=0&authkey=Gv1sRgCOWU4dqL5vqS9QE&feat=embedwebsite
 ---
 

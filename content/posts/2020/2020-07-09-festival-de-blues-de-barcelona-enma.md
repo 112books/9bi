@@ -11,7 +11,7 @@ tags:
 - ball
 - BLUE
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoMnU_vlhwHx056gzHDhSDlIxZb5GmUe4xA3L4vmhleyjhid3fPBN8IB9Nmqh4nWhZYQoP4d_rd8nu_JmgtQco5-SppxlRy4dpNjG84dfkpXPlcMUYCOhyphenhyphenaff7jB0Nb43Lp418bXsro8w/s640/2020-07-087+-+A+-+++023.jpg
+  image: images/covers/b62ce8edcb65408e.webp
 album_url: https://photos.app.goo.gl/btNmeMWXkvL1ijLd7
 ---
 

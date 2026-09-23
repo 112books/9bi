@@ -10,7 +10,7 @@ tags:
 - FESTA
 - STA
 cover:
-  image: http://lh5.ggpht.com/_XSTjenR1RBc/SjKgIUdamKE/AAAAAAAAEPA/V3W6wRUFwco/s160-c/Penas.jpg
+  image: images/covers/0b7b23d2b7f17ba6.webp
 album_url: http://picasaweb.google.es/Perdo.Garcia/Penas?feat=embedwebsite
 ---
 

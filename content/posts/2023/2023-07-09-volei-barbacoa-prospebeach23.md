@@ -11,7 +11,7 @@ tags:
 - menjar
 - platja
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLgpB8YGUBMrUpVZqUINjinMG_-UD9np9J6lJHELirjeZ2A6a_rylVojpZ7JDM04nkRCRmdWYfefymutMBwcYuDvMUCWsNQP0mR5o4hN4byBlhJe1d2CiCdRgTaBJMETaKDXleCEpRCnfcIgeu0D6EUKrioR-RZ1cfco8XcIJ1N1dY5fRWUmfEKcAJJKA/w640-h404/9V9A2757.JPG
+  image: images/covers/8cf8e2af3388e43e.webp
 album_url: https://photos.app.goo.gl/KfUfLgZd9gTE9Dhv6
 ---
 

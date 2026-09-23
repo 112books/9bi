@@ -11,7 +11,7 @@ tags:
 - música
 - teatro
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuJNL-Tc76t_PrApL8g7A1yVlGNUO_NIvh8wy0oEpxC6c6_AxFdKbtfgSPLz-E1VdHN-GugibytsT2DTGyWJI_PBKHCdLJpdl7hLv3l-n88JDqS5Qk7YcV23LRbmxyFq7FOr2D549NWIE/s400/_DSC0518.jpg
+  image: images/covers/07c9522fe986080f.webp
 album_url: https://picasaweb.google.com/110015855395179205688/MESROMBIC?authuser=0&feat=embedwebsit
 ---
 

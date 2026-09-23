@@ -10,7 +10,7 @@ tags:
 - les basses
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXqBU9aEpOqCS1A-iIqDKegGw6312P3EUgRseuI7nfx0kw5hLBVRxAjLTUVRqxZf1Fl8Th6K7sLv-VdFdVJLx56uPoyryZ5EDYfJuV_84ib70scqkcL_hyphenhyphenuqCkyYlal7c3R_JYVD3R6P4/w640-h426/IMG_6531.JPG
+  image: images/covers/36dad862439ba50e.webp
 album_url: https://photos.app.goo.gl/632JK7ADA1zxwz5p6
 ---
 

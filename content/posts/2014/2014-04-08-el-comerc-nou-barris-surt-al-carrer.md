@@ -9,7 +9,7 @@ tags:
 - nou barris
 - barri
 cover:
-  image: https://lh3.googleusercontent.com/-4Org483jaHo/U0Mc3O6E9FE/AAAAAAAAAfo/6rF4NTlBR8k/s160-c/ELCOMERCANOUBARRISSURTALCARRER.jpg
+  image: images/covers/bdb1af2e3e33cf1a.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ELCOMERCANOUBARRISSURTALCARRER?authuser=0&feat=embedwebsite
 ---
 

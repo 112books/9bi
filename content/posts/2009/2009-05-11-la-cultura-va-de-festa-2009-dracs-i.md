@@ -12,7 +12,7 @@ tags:
 - manel sala ulls
 - nou barris
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibXg8qqvx4Biu2nuZp4-i6ant0zlFO99A4LhglDdflQYTejd7PV6lRpphif6SYx8af2hC2T_XcwlqYBDyt0rHIcB_PiL25BiV-qDA-1F2sWqRUebJwEDc39pAxbUKDzLG1hyYRnG672w3w/s400/IMG_9562.JPG
+  image: images/covers/d537eb26fcd47b14.webp
 album_url: http://picasaweb.google.es/ulls1963/LaCulturaVaDeFesta2009DracsIDiablesDeLaGuineuetaINouBarris?feat=embedwebsite
 ---
 

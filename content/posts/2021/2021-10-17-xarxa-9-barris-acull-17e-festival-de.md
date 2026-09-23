@@ -11,7 +11,7 @@ tags:
 - xarxa 9 barris ac
 - 9 barris acull
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJB1gGAvfEwV5btUmyIWR3YWsk90fyFUdARfxOn7HqTXgNLL-vLAki6LZv5W7DzRDtPqQFCttGTl-WRUPutRkeO-oowFM-YAsOpubt73Hul-7adsqXwsmjo3mNzVe0KNdxDmddC4bzaEc/w640-h426/IMG_7993.jpg
+  image: images/covers/006f4077c3ede552.webp
 album_url: https://photos.app.goo.gl/pnn8tQBj2YVM4RAU9
 ---
 

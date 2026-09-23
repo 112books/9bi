@@ -7,7 +7,7 @@ slug: carnaval-prospe-2018
 tags:
 - carnaval carnaval2018
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCtE85aDnHxnwmhyphenhyphenV8IMycOKHcGACAGfOBl6QhWDJqnYYl3foXLdt6OtYrmLRoWcwICOzQVwHybaVPtV3_9Ipuzg5ByGFMpKXeSURoeZodarYbPO70VJNKiEMYWcSf9yOvbaU0T2GCnJk3/s640/P1450484.jpg
+  image: images/covers/d0e586c8b6ffa759.webp
 album_url: https://photos.google.com/share/AF1QipND-pTFXUbOKdbe_JKAkPO7hzvumFOOR0LxyRPqcNng3gdcFqATjeCnlH-hFofRmA?hl=es&key=cTBOYldqX2h1ZHpnRFpHN3djZXVOUGdvVG9KeTVn
 ---
 

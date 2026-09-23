@@ -10,7 +10,7 @@ tags:
 - circ raluy
 - manel sala ulls
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7nOavNIDotkPleQddr39yF_oeWPRFo_mYRZaiO9yi0TtFMvlKZWeV7QRKTfavsm2Obj89MsO9RK0KRgiXl2bXMhiI31eiXjvb5_rddSfn3-xQmhnnOIjaKrAF4Wk5-qfyrWrN376U8hEd/s400/CRALUY0046.JPG
+  image: images/covers/b2939153e3cbc8cc.webp
 album_url: http://picasaweb.google.es/ulls2006/CircRaluy?feat=embedwebsite
 ---
 

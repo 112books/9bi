@@ -10,7 +10,7 @@ tags:
 - casa
 - rafi
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjedkogaER2JAO8YgQbrooG2YibNlWnU9T62rUeBz4tg-876osxs_AVz4KMynlCbm4cCnqa-xcU95J_qTN68CKPwtVtKEq9sWLuE6elAWmXHo91Msh8IZ2C0A_Ipn1h5eu-wtM4xqbPykM5yHpvB8roiLZhWl1HsYS1tMgVy8yKj1fr-2KnnHE_-dfj/w640-h426/P2330096.jpg
+  image: images/covers/1d78d8974f8ab57a.webp
 album_url: https://photos.app.goo.gl/DUUjSyVxfXi1sKMp6
 ---
 

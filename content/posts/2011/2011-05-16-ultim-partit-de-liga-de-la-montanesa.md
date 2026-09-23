@@ -10,7 +10,7 @@ tags:
 - la montañesa
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmIRqRSPBgEK7kdGqUo2emygqkHtWHj57po4Dtm9_U6spnUOWvcIiW9pVaD0aYZCWBiDci13MUvXt5v6r8qounLjWtAoVO0tCcz7g6krgzMH_AEm7lpTH2QEZgocFu9tSM7RX88U23fPk/s400/IMG_1609.jpg
+  image: images/covers/73d75883e47a9374.webp
 album_url: https://picasaweb.google.com/linuxbcn/UltimPartitDeLigaDeLaMontanesa#
 ---
 

@@ -9,7 +9,7 @@ tags:
 - la ruta del te
 - setmana de benvinguda
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgB-51jkwPnEUn9kSFShtoUM2bn7Z8237blAFT3HWBcjkvK884M7vl3NnKDYdrB7-OuKrNLm4zDNy-QKqR3-UH1yidp7OHVvuLPhvQC_IOhy1wVFenGJ56fMtbYqu3EsINABt5E9MI11LY/s400/IMG_4391.jpg
+  image: images/covers/c09ec813c23e1a46.webp
 album_url: https://picasaweb.google.com/103138221614479310970/SetmanaDeLaBenvingudaLaRutaDelTeAmbIzuranBeat?authuser=0&feat=embedwebsite
 ---
 

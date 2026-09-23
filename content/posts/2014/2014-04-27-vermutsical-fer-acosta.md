@@ -8,7 +8,7 @@ tags:
 - vermutsical
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxl6RQxkpzRrvLmzEH9_SwwociRQtk4drzBvkMdWIE6-pUEK9bUNJ_0W7dqjRFJGrcCc5gyzCqU_IIjMuTwdoPEydBw8Pzpe6Y3yKJ2EEVbr6LJypnGTVWK2lFvJLXuxwDaHKidu7ObJc/s400/IMG_4427.jpg
+  image: images/covers/526895df90362d26.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutsicalFerAcosta?authuser=0&feat=embedwebsite
 ---
 

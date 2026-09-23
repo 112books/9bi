@@ -11,7 +11,7 @@ tags:
 - concerts
 - concert
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbWIH5YCjLdnyGGxxX2bQUfV3jxJmZnrAiRWnoZ9QhBEyIxH3mrU7mvgDpyqtj7lpI2EwqeJQ0DjpXFXOpBRY3iCoq-vJvVZoSQJxlb1gSvuam42IaCR9uhtEN2ArKKD7msCsNMpTMGh6W8fcMCVSB_q8-FEGZswCx1ByIm3QlBOpZwL58e9mqNT4X9LQ/w640-h426/PG0_7573.jpg
+  image: images/covers/f7dcb40b77566b49.webp
 album_url: https://photos.app.goo.gl/CBmP82PxmXWmpBBC7
 ---
 

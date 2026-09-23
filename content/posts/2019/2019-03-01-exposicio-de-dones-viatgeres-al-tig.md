@@ -11,7 +11,7 @@ tags:
 - dones
 - expo
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIXP97we7bwjdV1ORjb9cFwIpADNLJVl3uacGz8jvKs0KCZk5KVCgFawi1pJHk0MChMJ1xDUdcH2X0X1nrPawxQ5ju-dxU5KiHIO2lVRCLBNIOc_szx2Ux2o94M21DT-dtzMu3Kjp9Rws/s640/IMG_20190225_191704_resized_20190227_025104868.jpg
+  image: images/covers/1c32f1a4a629a447.webp
 album_url: https://photos.app.goo.gl/oTcPjijMKQgs4o7a6
 ---
 

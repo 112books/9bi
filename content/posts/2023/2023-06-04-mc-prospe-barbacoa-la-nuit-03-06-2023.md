@@ -9,7 +9,7 @@ tags:
 - barbacoa
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-mKftVHelck51MAf2wz34VmkIzXJiz0ZS1apctULIjmK8qfMM_8wz4rzd9GN1zZkpxbcooRlFwQYyp4NPPmEfnhjmskRwbdRyeW3y1Ei5qMl8IPZTiqecPaU0p9utKdmjJ07xPTCNSrLRvGm2d5vH1W4vBL9V86cd--JPmsokCVKndi37JJxgA_yR/w640-h350/P1070516.jpg
+  image: images/covers/5df824b5e9749127.webp
 album_url: https://photos.app.goo.gl/UWkp8tSA32Q9nuX87
 ---
 

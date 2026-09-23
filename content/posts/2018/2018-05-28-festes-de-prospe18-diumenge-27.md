@@ -10,7 +10,7 @@ tags:
 - prospe
 - festes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTUv8FucmXSjDVLEEyLkGYkOHF4QTITR_wvJnFBAKEiCpAv-YhT2ni7q2nH4TQLn96e9Y8IurjRlHvGt2srE4mAWWFlu_yCiddDQ-LUdJuHP6iX0CrOnP3sxme1V53E3AuCroFT3CwY78/s640/_DSF5157.jpg
+  image: images/covers/2b1387d42795fba0.webp
 album_url: https://photos.app.goo.gl/xPCfiPzvD2k1lIQg1
 ---
 

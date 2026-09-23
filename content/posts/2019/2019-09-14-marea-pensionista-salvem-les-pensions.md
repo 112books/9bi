@@ -7,7 +7,7 @@ slug: marea-pensionista-salvem-les-pensions
 tags:
 - MareaPensionista
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTbTUQLf5l4rWjEHf-3hH9z_7HOwmcNoM3UKLK6OrZhuW0Cr9LBaYK4s3jR6cY_vpR2ry8cCGRklNzXbYm_mxntOENjvF0GbC58OF2HCkEkM_SGlPwkwqdyH3TL8S_PS3cK386KIfQEM41/s640/pensions_013.jpg
+  image: images/covers/5db9d8db514246ef.webp
 album_url: https://photos.google.com/share/AF1QipNcGDuWA0OxVu_qa0N8I5CITYtkMSSaK1B4RiqKGD_qR4uhEe7dnx77zVeBwfq_6w?key=bldaNUlsQXFsRzRQSGJLaUJmaWxiUXcyWDFoNmRB
 ---
 

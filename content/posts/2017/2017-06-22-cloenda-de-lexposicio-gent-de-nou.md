@@ -10,7 +10,7 @@ tags:
 - manel sala ulls
 - xarxa 9 barris ac
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVjvKatQ25xbSuHGdFKRrqpIO0ZAd9K0c-_HRO9ZCgRLpeUeNvxjk4pkiMQ-WX-cWhIeZuDnAra9CY2IjfbaLd6gaMp3W7PdyLSL5vRxWjbXn5OR2Rv_uNzBfj6IsjjtVu8cih2EuL6uGm/s640/Foto-Ulls-0066.jpg
+  image: images/covers/be9cd9d78ca96a91.webp
 album_url: https://goo.gl/photos/4QhudhDNFtTLedUn8
 ---
 

@@ -11,7 +11,7 @@ tags:
 - SOPAS
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4E_owP3UA4v3fXzyQxaOus75LMID2cIYy1kkYDSyx4-jbyqXJpMlQ0l0XUcm_nObhtqnQ9XgyPIx9hwL22RTf_hu_rB0u8yPyIrV0yT6WNVzR94wCF_z0G7iah2vvGTYClNTbLTCwQHIFo2B59r5rhFTEu7olK9s3v4desz00Oo-zf5Q6a8MjVTaHU80/w640-h428/_PGF1476.jpg
+  image: images/covers/380ca681a0055049.webp
 album_url: https://photos.app.goo.gl/ZUPRJXe5qWXpKHXR6
 ---
 

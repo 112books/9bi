@@ -7,7 +7,7 @@ slug: la-cultura-va-de-festa-2024_6
 tags:
 - la cultura va de festa
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1czwfoe9_PazwUxcCVDvxODzzP_FNm3YmQDpD-DERVvbvxbCsQ1uNOIdR6YzBWMPGYDGxIeQDsImHoBTD3MPQ7fDMk1O32ZZ4kgzwWf-txiExjLRphTDUSp942sep1OzPiK7eDAEMgPDBkJjt_ry49rE5jP7BeTcMTCakRjuyBWzWq1_DhLB3F_NHwe8/w674-h398/lcvf_2024-107.JPG
+  image: images/covers/5348ba1b3a37e1b5.webp
 album_url: https://photos.app.goo.gl/VvjaBWhQkkiJT8pz5
 ---
 

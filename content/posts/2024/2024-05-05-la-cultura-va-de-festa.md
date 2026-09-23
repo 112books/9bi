@@ -11,7 +11,7 @@ tags:
 - FESTA
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9dNJFTswOhgESPHM9tEPcUxMSFV9bkBf_6itULcawFG8xjL9Jtql9wsgq9oQlGjlzDs4wZn0UdDAGjKpFb67CyuxhYXqY6eW16EboCba8MR5JFReJBDMRsT9uyKMY0IjdqOnNo1guH9hSypYE7O4geTve0A-Q6ooIS2uRLl7fxdJE50xUwDag8ivirM2m/w640-h426/DSCF8425.jpg
+  image: images/covers/a52e2cf6a77b436d.webp
 album_url: https://photos.app.goo.gl/fv4ZuYfWbcHHxPwd7
 ---
 

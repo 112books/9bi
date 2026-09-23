@@ -11,7 +11,7 @@ tags:
 - prospe
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoUa0Xe9vBsomLBRJR4dA0AaYINurB_DGgXa6hyphenhyphenAhbizwPcIP0DumpHuL0mv5pba_QlktvhDZlPFyNWTdD55ggUiqHUzqFmpaQqVv8WTxb7UvMUg9kLYdsKpNd061WLYapOpB6Vg2l6ks/s640/20180315_194038.jpg
+  image: images/covers/9497d27ee68efa10.webp
 album_url: https://photos.app.goo.gl/gUWBEBeQjFZJDTYt1
 ---
 

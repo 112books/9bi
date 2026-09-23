@@ -11,7 +11,7 @@ tags:
 - titelles
 - diumenge
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjX2AY8PZDuHszC83ub2PHma4reu43RiWHIjUoVkv7AyFPlHw4y7p_rcSfExTGw3Vkngg98CPi5SQTaUuhAWqACLPecU6dxREKjKZOpzADmMbd-yAM3zZ_PPUGA92QhDJXuJSMsCd3jFQs/s640/IMG_20190217_131447.jpg
+  image: images/covers/2dc38bdcf3e63a99.webp
 album_url: https://photos.app.goo.gl/qoanCh2EXfA56dnF6
 ---
 

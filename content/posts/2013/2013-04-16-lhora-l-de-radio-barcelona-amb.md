@@ -12,7 +12,7 @@ tags:
 - l'hora l
 - radio
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZPSzs9sAZn35WLmCdlYFVn02huXt9qzR8Kia-Qy9QsJdeVmF-F2d3fJmIr0duCB_LXjbiwgw4rqLqOo8Nb30-dKHph32EnUXZKwsvR3DMTAmmuFP8svYYYB0t7ROtKRYzlgSZjaRmwRI/s400/IMG_8656.jpg
+  image: images/covers/b411caa340b3eb70.webp
 album_url: https://picasaweb.google.com/103138221614479310970/LHoraLDeRadioBarcelonaAmb9barrisCabrejada?authuser=0&feat=embedwebsite
 ---
 

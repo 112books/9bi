@@ -12,7 +12,7 @@ tags:
 - fotografia
 - 9 barris
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhK7UxgPWDs_YuxeVfECtVq02NSskdKDmMfJ4b7eFV_JR0D5BEdygmvjmmokYfG2UQjXZKD5NtT51J0MKs3C339cjjKzw0C3jUoHxVpaZmPjV-cvQsufDbNiG7R7ibaeAimDpsriKyZpyJ_up4gv_hvq34Ms2uWTKD267tqv3xIIew1OucJFqTLt2b5/w448-h640/Cordoncillo%202022.jpg
+  image: images/covers/a28d29701dccaafc.webp
 album_url: https://www.casalprospe.org/esdeveniments/concurs-de-fotografia-josep-antón-cordoncillo-entrega-de-premis-concert
 ---
 

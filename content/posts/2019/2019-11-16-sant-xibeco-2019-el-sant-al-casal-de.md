@@ -11,7 +11,7 @@ tags:
 - prospe
 - xibeco
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3TQH11lEkcGXh70jJxbSy9nIca3NSa_a57sbfCRHW398Mzk8osH52jcEEbSNGAVYK2P_NpJ5lT4lLJATVZRBA02QWQiyHF8_iBXS5Q_qOth_RtAvqh5T4bJYjOPUgxM4j17XJY9BJP1g/s640/_DSF3914.jpg
+  image: images/covers/453025d2be5b1e30.webp
 album_url: https://photos.app.goo.gl/DNbTbaPNYvweMDQ36
 ---
 

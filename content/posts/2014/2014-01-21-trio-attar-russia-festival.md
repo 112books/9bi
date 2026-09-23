@@ -9,7 +9,7 @@ tags:
 - circ
 - ciu
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCMQf2ka4bMReBtxgrlQiPbE2ZuhwEAkve2oR9szos3YLges14wV0hpYmEjP3TUJW9vy6Che-jtts7oFf9UOlbsRvD_OhpUjq4MjZp9BUfbn8kGkZYdiJKhCUE1IJDstvycn6fOz672b_o/s400/IMG_1693.jpg
+  image: images/covers/1722721d3d6f6ace.webp
 album_url: https://picasaweb.google.com/100268695753733554853/TrioAttarRussiaFestivalInternacionalDelCircCiutatDeFigueres2013?authuser=0&amp;feat=embedwebsite
 ---
 

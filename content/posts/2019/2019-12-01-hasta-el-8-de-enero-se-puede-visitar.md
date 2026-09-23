@@ -10,7 +10,7 @@ tags:
 - exposició
 - manifest
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIl3hFdatc5EY4s_T6DD_I9z7YBJ6D8HER6B_xrvZFqg1B4pzXDo8ipOJr9YsZK6uySWp_RIjz_oGHRcGEDqmA4JV8bakchcMzPM6OQi3Fcta1a5nP2_UqGyycOXYjkzFswMS58PHzoB4m/s640/IMG_20191128_194243.jpg
+  image: images/covers/a2b7481f23845a9b.webp
 album_url: https://photos.app.goo.gl/m4BZ3n9bi9sfFWQv9
 ---
 

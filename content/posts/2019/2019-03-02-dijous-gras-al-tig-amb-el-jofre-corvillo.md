@@ -8,7 +8,7 @@ tags:
 - menjar
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhftJNqD4_xf0-qnlxjZq7pCedlkk13bbj4EvR-jc1VXXn7ycqEVOV25RUmmdOGqcuSDCKy8e5hGsHwptucn0TunCOlmvcFWySdjqLCNzAfOSmuhHlzPd-vX1ta1cJGh8KFC4m7Iz0uTB4/s640/IMG_20190228_184657_resized_20190302_043817370.jpg
+  image: images/covers/192f78dd323147ca.webp
 album_url: https://photos.app.goo.gl/d2PixQycWqxmkfAw7
 ---
 

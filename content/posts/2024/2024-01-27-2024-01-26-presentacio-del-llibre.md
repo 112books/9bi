@@ -11,7 +11,7 @@ tags:
 - participació
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiVFUnHJSnweSsqx_dwNNmIJu333RQJe-nhuSdkM3SSni7qFll2cXcyClPRy8k_VJ2GWYC2P50tkg1fQTalY1f2Co-MpYw1ZDUlquxhDKjB6vUZWE43o3-fm3AxV4Rg8QaOZeoH68ePL_J5lVPYUPlbP8cdLWcftGSyT8LctVkV8GjZWdHCU1-jbl6Hs4/s600/L1410400-Mejorado-NR.jpg
+  image: images/covers/4366d60042d72271.webp
 album_url: https://photos.app.goo.gl/ZzZn6sVNNojsPpFv5
 ---
 

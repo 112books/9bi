@@ -11,7 +11,7 @@ tags:
 - activitats
 - comunitari
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkhGoJ3bKU_Fy69OelIE0G2GzywVXbpoPQuNRD0KfQg1Ux7SwpUH_QTXTTxic9W6zd0tgHfEmkznf4rUVh-r14bpWWzK4Sz1gxoDyIw1nzUgxpGslnrn7GudA088Pl9TWVf8J8CGCxtP0/s640/_7020073.jpg
+  image: images/covers/40145eec1c47f9e1.webp
 album_url: https://photos.app.goo.gl/WnHAWjXymdByrz8p8
 ---
 

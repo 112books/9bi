@@ -11,7 +11,7 @@ tags:
 - Los Deltonos i Down Home Orkesta
 - picnic i blues
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhORJUghnmk62GISGMb-7BuS74WWcL4w9Aj5mAr_HzZkdPdvt1ZbSA_2gVzgF5Qm0KyGz9wxC_tKa168TR3cCWzdNPoTzty5YOa2YEeGGF1W24OCeBoJUvHPwts5dNsvYX7fCSYv0lAAIc/w640-h290/IMG_4438.JPG
+  image: images/covers/628e10e5381ed3cc.webp
 album_url: https://photos.app.goo.gl/cwrvAh1cpXSZk6CL6
 ---
 

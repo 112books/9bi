@@ -7,7 +7,7 @@ slug: grup-foto-roquetes-pel-poble-nou-i
 tags:
 - grup foto roquetes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxJeyZl3fr4KYkVoJj0SRE3FWARaMWbMM2YFW_ehFIz4bqZYVArq88Ascp5avvWFZLDb6pYS4aRZf7R1jXDM1NbvOulCwVMWYhwigy2QdTHqhCKZ75ZApxXQsSE_5oYy976PSUGivvSQs/s400/_DSC0389.jpg
+  image: images/covers/c059cb9da8e02bf6.webp
 album_url: https://picasaweb.google.com/lh/photo/Rh9aKvNXeTXNV-OsGU5jANMTjNZETYmyPJy0liipFm0?feat=embedwebsite
 ---
 

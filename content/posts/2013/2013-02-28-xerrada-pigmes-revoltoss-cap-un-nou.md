@@ -10,7 +10,7 @@ tags:
 - Pigmeos Revoltosas
 - Xerrada
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNTdPyTmnWScg-Ik-L-Ujje3Tk1hYq92Dct5P9aqHoGpoZ3b3Qze2MMP6uvaZAI9LR8VpjyfuZ6UVmcbod43CIzgql_1xTv-Rj7Z0ER_x0Kq_o7EEPERkXZW8LD-vDkex_VtnFNMP7LAc/s400/IMG_1304.jpg
+  image: images/covers/39bfdb333836f686.webp
 album_url: https://picasaweb.google.com/103138221614479310970/XerradaPigmeSRevoltosSCapAUnNouModelSocialIEconomic?authuser=0&feat=embedwebsite
 ---
 

@@ -9,7 +9,7 @@ tags:
 - blues
 - centre civic les basses
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib7S0kRPVBSjnfOm88SrJNXYc49mDYxVs9njg9gdRw6BzrTQ5-DAUSOokGsgtJnBCggeyND7IHEAWXFbLmXy65pXopyBFO4ehU-Qh4vl7rKZJbAidf8yM-b2SrqVytYNjAYODYrDcoz4Y/s400/_MG_3935.jpg
+  image: images/covers/56718c0552211894.webp
 album_url: https://picasaweb.google.com/103138221614479310970/11eFestivalDeBluesDeBarcelonaAniversariSBB?authuser=0&feat=embedwebsite
 ---
 

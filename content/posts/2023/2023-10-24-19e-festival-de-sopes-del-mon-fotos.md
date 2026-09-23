@@ -8,7 +8,7 @@ tags:
 - festival de sopes del món
 - manel villalba
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhK5WJG2wHVkefJbXK1cmydKTWQQV7MQKk2ZxkJ6fX-59EQuoDhhyphenhyphenkzlrK073q2q_pI-iu_uM5JZr1oS__CMGZdC5wa4u0cKUJrj0H6EsJSSEskkiu3BnyQ_ggxezJj4tRgfyn58ptNw-3jIF1EStY9fMv0gnXZEtIWPppsQuxC3l41XJj-sLSeWp_ZVOI/s600/DSCF8451.jpg
+  image: images/covers/e24d3fc6d78060a9.webp
 album_url: https://photos.app.goo.gl/G6fUNTgmdEwb3gTZ8
 ---
 

@@ -8,7 +8,7 @@ tags:
 - manifestació
 - plaça Sant Jaume
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimIJT3iIrTkgJvIxz_hZwGCYOAXVRlAiIZiEi31ASCoRKI5sVWrUqaLkg2eRLY5XjQxqFKyrGqHObFruTxtBcwrDiUxBn4jZyD-t_KsW-dIMppmtxyF9SVoF5Z9gsAmMaQjhLPcEzYMPY/s400/IMG_9013.jpg
+  image: images/covers/22f7b2bd235eca27.webp
 album_url: https://picasaweb.google.com/103138221614479310970/9BarrisCabrejadaBaixaALaPlacaSantJaume?authuser=0&feat=embedwebsite
 ---
 

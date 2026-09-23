@@ -12,7 +12,7 @@ tags:
 - vídeo
 - wad-ras
 cover:
-  image: http://lh6.ggpht.com/linuxbcn/SMU9UWUH2PI/AAAAAAAAekw/1jP5Gfze3C8/w426-h640/IMG_1522.jpg
+  image: images/covers/8c4965f49fac00c3.webp
 album_url: https://photos.app.goo.gl/xkDGnd4TaF8Pnroo9
 ---
 

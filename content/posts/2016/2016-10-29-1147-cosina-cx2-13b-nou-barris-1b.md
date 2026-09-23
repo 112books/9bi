@@ -10,7 +10,7 @@ tags:
 - 9barris
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYpuG9u00wyfbnzONKidRK3aIMzb-UiXSkKWqMZ9RCSZ7mIf3u8PDZHYPD92O40jPO3nAbyZrfaX5P8qdF_qy53cbVzOqqrlrI8G1ZOLgTkSeOz_CMUmPeiZyxlNGRRgqPI7xqR3xBwcE/s640/1147-+Cosina+Cx2+-+010.jpg
+  image: images/covers/9120bbd241b0934b.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

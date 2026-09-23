@@ -12,7 +12,7 @@ tags:
 - Gumbo
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6nrYWKMiSy4fxVsIW6ZfT4n2doZw1wHCazfg2ZaCbiOUumrrbGceEgD_mccjYoMxt3YidtwZHgqKOLWX_zN21moSKW0vu6dfQvzvO5lsa3gIyA_4TtLq51MUaKIOjOIUyJ37pzbRWQhU/w640-h427/IMG_1074.jpg
+  image: images/covers/2d6fa1be1d2c23a8.webp
 album_url: https://photos.app.goo.gl/U74i3Uq5oUHo2cvKA
 ---
 

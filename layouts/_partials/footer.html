@@ -12,16 +12,38 @@
                 {{- end }}
             </a>
         </div>
-        <div class="footer-col footer-col--empty">
+        <div class="footer-col footer-col--spacer" aria-hidden="true"></div>
+        <div class="footer-col footer-col--socials">
+            <span class="footer-col-title">També a:</span>
             <a href="{{ "credits/" | relURL }}" aria-label="Taro Photo App" class="taro-mark">
                 {{- with resources.Get "images/taro-logo-text.svg" }}
                 <img src="{{ .Permalink }}" alt="Taro Photo App" width="69" height="70" loading="lazy">
                 {{- end }}
                 <span class="taro-app-name">Photo App</span>
             </a>
+            <ul class="footer-col-list footer-social-list">
+                <li>
+                    <a href="{{ "index.xml" | relURL }}" class="footer-social-link" title="RSS" aria-label="RSS">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+                        <span>RSS</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ "https://www.instagram.com/9barrisimatge_oficial/" | safeURL }}" class="footer-social-link" target="_blank" rel="noopener" title="Instagram" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        <span>Instagram</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ "https://t.me/NouBarrisImatge" | safeURL }}" class="footer-social-link" target="_blank" rel="noopener" title="Canal de Telegram" aria-label="Canal de Telegram">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+                        <span>Telegram</span>
+                    </a>
+                </li>
+            </ul>
         </div>
         <nav class="footer-col footer-col--web" aria-label="Navegació del web">
-            <span class="footer-col-title">El web</span>
+            <span class="footer-col-title">El Web</span>
             <ul class="footer-col-list">
                 {{- range site.Menus.footer }}
                 {{- $ext := hasPrefix .URL "http" }}
@@ -38,14 +60,16 @@
                 <li><a href="{{ "credits/" | relURL }}">Crèdits del web</a></li>
             </ul>
         </nav>
-        <div class="footer-col footer-col--stats" aria-label="9 Barris Imatge en xifres">
-            <span class="footer-col-title">9 Barris en números</span>
-            <ul class="footer-col-list footer-stats-list">
-                <li><span class="stat-num" data-target="{{ $posts }}">{{ lang.FormatNumber 0 $posts }}</span> posts</li>
-                <li><span class="stat-num" data-target="{{ $anys }}">{{ $anys }}</span> anys</li>
-                <li><span class="stat-num" data-target="{{ $membres }}">{{ $membres }}</span> membres</li>
-            </ul>
-        </div>
+    </div>
+    <div class="footer-stats" aria-label="9 Barris Imatge en xifres">
+        <span class="footer-col-title">9 Barris en números</span>
+        <span class="footer-stats-line">
+            <span class="stat-num" data-target="{{ $posts }}">{{ lang.FormatNumber 0 $posts }}</span> posts
+            <span class="stat-sep" aria-hidden="true">·</span>
+            <span class="stat-num" data-target="{{ $anys }}">{{ $anys }}</span> anys
+            <span class="stat-sep" aria-hidden="true">·</span>
+            <span class="stat-num" data-target="{{ $membres }}">{{ $membres }}</span> membres
+        </span>
     </div>
     <div class="footer-bottom">
         {{- if not site.Params.footer.hideCopyright }}
@@ -80,7 +104,7 @@
 
 <script>
 (function () {
-    var block = document.querySelector(".footer-stats-list");
+    var block = document.querySelector(".footer-stats-line");
     if (!block) return;
     var nums = Array.prototype.slice.call(block.querySelectorAll(".stat-num"));
     var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;

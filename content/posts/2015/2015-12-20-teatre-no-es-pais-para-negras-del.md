@@ -9,7 +9,7 @@ tags:
 - teatre
 - Negra
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFJx1XVuzK8589stXtIObl3dXc2WlZiRsG8gEc2Xw87cpveWkopAJGXGU6Eaa-nHcyEtfytSJ_EFGwRahavsFltEwGLX2bYUFWkCRzKc151Yn7yJNMX_7BhERIZD3WAak4CMQBPFNfPyU/s400-Ic42/IMG_6745.jpg
+  image: images/covers/8ae932490d9e35b4.webp
 album_url: https://picasaweb.google.com/103138221614479310970/TeatreNoEsPaisParaNegrasDelProjecteVACA?authuser=0&feat=embedwebsite
 ---
 

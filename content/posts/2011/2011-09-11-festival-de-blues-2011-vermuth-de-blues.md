@@ -12,7 +12,7 @@ tags:
 - Red and The Blue Bastards
 - vermuth and blues
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0bo1ijVZs3XGD7QfFxjSXMeRJSUnanJk16m_AQQKRGD-NWNp48wfvZADu83v62STzersEj7VSFQlqpdFvC0Dlkr2t7zvaWeM7854eS75iCmJdi5E1rEAWuyWM9MQZYaxRQfe1jO_wm5U/w640-h427/IMG_1998.jpg
+  image: images/covers/7cd45cd25e41df52.webp
 album_url: https://photos.app.goo.gl/8nPcXKsyPvmQTZW86
 ---
 

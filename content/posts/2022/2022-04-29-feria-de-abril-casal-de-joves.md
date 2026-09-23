@@ -11,7 +11,7 @@ tags:
 - flamenco
 - guitarra
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgO2Uzgjxliik0EQpfYhFfnQKDRc7CfixrriAnTZazeXfL0g-_Xzr5VrPA9z666U-DMaoHd4Ts7Mh9lbWUsxmXdRXfPSFRXh-UJAIsCkZN2xF9W2xUINIJdOfd3SDhiDlgXpUMK5sc3431A5Ijx3QRn9XrhouWUYBgjpuYbqiVNj9A0A1OHHhH6uPHo/w640-h480/PGF_3906.jpg
+  image: images/covers/35053a6c14b46f30.webp
 album_url: https://photos.app.goo.gl/dRfQGrDGLdL8PBPq9
 ---
 

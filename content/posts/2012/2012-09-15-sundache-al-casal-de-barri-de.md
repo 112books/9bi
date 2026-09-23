@@ -11,7 +11,7 @@ tags:
 - pocallum
 - Sundaché
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlCy-JHIOnpJSKLYpSCiCYvDALBZ7Kd752zAhfYxTxMPA4GwSLeuOaI1dMSjAHH2nPbcl1-dQj6n_RY-x1GVhLnm1E7pQS9xJOcUi8v701XCKk1QLcEq7m8Zn7G9sHS0_QPw_CijYG4Vg/s400/IMG_8137.jpg
+  image: images/covers/f670cc76162171bd.webp
 album_url: https://picasaweb.google.com/103138221614479310970/Sundache?authuser=0&feat=embedwebsite
 ---
 

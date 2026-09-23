@@ -10,7 +10,7 @@ tags:
 - veïns
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQhX8strusMK8AqwAbQZcqvwwrGRH-mewAtIOAR3GOpy1R7EsocS6Zh2B58q7PBvLN-BE1sGJQfA6YJHrQ0Q0sMCNBvl95AdY17kwIaxx_oAPJ21sOXEnxnnDcE4r1FVtnrr6RLhgchG6pzX7o1DRNG9BHSZw6HKW6tojy59GaRyGsWQl00SfRQR3ibf0/w640-h426/DSC00991.jpg
+  image: images/covers/8c82a95b7b105686.webp
 album_url: https://photos.app.goo.gl/zeaVWwm2iAp8iATA8
 ---
 

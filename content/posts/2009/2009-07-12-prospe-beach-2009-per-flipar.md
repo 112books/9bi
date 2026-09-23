@@ -9,7 +9,7 @@ tags:
 - linuxbcn
 - Prospe Beach 2009
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTSCVHdStQ0WmnnusH3K38L-exeM97NaEMWnxckM6kCYh-oZWji7JxIlPUcYQtLkPNoVrebYcVnmtIN7b7kH7yZkjwyQag6B_HpWreNbiqUGIm3c6in8USvMwcDM86Pswa2x8lwhJbIp4/w640-h480/P1070371.JPG
+  image: images/covers/9a55a4f5e6a02d6c.webp
 album_url: https://photos.app.goo.gl/eZKqrQLe5DLE2U5A8
 ---
 

@@ -11,7 +11,7 @@ tags:
 - roquetes
 - entitats
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4RNmbictxkU8hem48rm7TRjgipXryXOcGsAoXMz6Mhl6-OkZKidLt8TcO6qOKSKxrDnmZHixPwdhImQKEcGNYJE4VNcDT72sf-supcig4FF6dL5iyQXsW5SYKJ2wH_KlfKyBxd09Whbg/s640/IMG-20180430-WA0021.jpg
+  image: images/covers/53dc100bc7815499.webp
 album_url: https://photos.app.goo.gl/JhQZPRIm2ic1NDox2
 ---
 

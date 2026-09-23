@@ -11,7 +11,7 @@ tags:
 - barri
 - sopes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvD6prejEoVY3YVkVQv8S8H7Ymc8unN3wapKSiltRVGFzC1TAnyDEBwHLfuadtaIHpbMDYm8HsizX_05SFZq71ycsueQIh4yK6nSU5XvlnM0jyuDw5B6NXwzJBuQoo832xvPbIYEGWwco/s640/F1000026.JPG
+  image: images/covers/1635c6c785e79c2c.webp
 album_url: https://goo.gl/photos/KBeJtQRH9ZxBP6Fi6
 ---
 

@@ -7,7 +7,7 @@ slug: prospe-beach-pel-mati
 tags:
 - Prospe Beach
 cover:
-  image: https://lh5.googleusercontent.com/-0M6sHe0DhQQ/ThmWKHRkaWE/AAAAAAAAEJE/v1NEpFikHQs/s160-c/ProspeBeach11Mati.jpg
+  image: images/covers/4bfb29cfc982e630.webp
 album_url: https://picasaweb.google.com/pedro.cervera/ProspeBeach11Mati?authuser=0&feat=embedwebsite
 ---
 

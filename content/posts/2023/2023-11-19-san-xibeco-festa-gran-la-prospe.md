@@ -11,7 +11,7 @@ tags:
 - Penyes
 - xibeco
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDV4Gw8ZDaNsfHG-giok7CkddMUo_k-ZZfO_MaqOdwlhGLRGec7tswTgD9QXY0VXad7MxGwJwh1LiWxBbicJCeZgAaRVgCk0R2QKpwS4Me2sCTWn3qLm98jdDwwvlOyvPhen4QgDQDVn3GtS5Z0a_3KJgM0IJjAfME-YKBdzjP2aRfkW6MNyVYd1XwaJE/w640-h428/IMG_0765.JPG
+  image: images/covers/6c372691cb44f61d.webp
 album_url: https://photos.app.goo.gl/xzi9VzURY1j8aoQw6
 ---
 

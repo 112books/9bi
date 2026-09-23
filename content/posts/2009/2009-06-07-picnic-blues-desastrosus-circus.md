@@ -10,7 +10,7 @@ tags:
 - circ
 - BLUE
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjtUB8shShPw1ZUYSgyPLeq1zJPFH0lqzVLJXosPN2vL3fnP3vLLS2kEo2okPuj7eIdGhHL57Zq_gu4uTbmVAXQ7ST5029BDb1EaWmm1PGzWyF_xlAr4OVQwwJIJ3gbowbmyZhZiCIJNSe/s400/P5023205.JPG
+  image: images/covers/02fa4883d0bdeb1a.webp
 album_url: http://picasaweb.google.com/nico9barrisimarge/BluesDesastrosusCircus?feat=embedwebsite
 ---
 

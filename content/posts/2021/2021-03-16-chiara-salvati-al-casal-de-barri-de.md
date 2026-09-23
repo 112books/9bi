@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAHmwkj9BBCjV5kSGluDKM3wZ4LMR4Xxb0bJM5VWScc8hTTD1g1yp-Zw3URmlG6qZTAAyTlSLLaMLXwD1_SZTwUXkSwXWoXjHO37f6b8WOhmiweXBRS88CXZj_yq-2kEK6IDC7SgJPJlE/w640-h426/2021-03-12+-+Chiara+S+-+038.jpg
+  image: images/covers/4cb8a87bc3d6eaf1.webp
 album_url: https://photos.app.goo.gl/aATihbmSeuZtTxTL9
 ---
 

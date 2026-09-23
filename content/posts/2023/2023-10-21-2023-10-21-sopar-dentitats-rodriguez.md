@@ -11,7 +11,7 @@ tags:
 - guitarra
 - entitats
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7bUI0vAO4Bb__uCVBg68u-B0Bm46Ddm3I75Sjr0K0HI2IE19i-oZFTGGHKmJpIWJuohlnXsBlcAvyvvVo-0OwLk2ONehjPYQmxIZ4dmLBsGtrTIE1Z40HsFUylyaBprBomM_eNd9R40LVYIokUI7WvKayW03g7G37MsgBc9KXOfOsME35dy5rLdL3Wuc/w640-h218/IMG_2169.jpg
+  image: images/covers/2ea95a9d8c9957e0.webp
 album_url: https://photos.app.goo.gl/G2jDfschsBJaPgJF9
 ---
 

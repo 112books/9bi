@@ -10,7 +10,7 @@ tags:
 - carnaval16
 - carnaval2016
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibNmR_KBZnUhlGLy5RUn7m5WYQjAh9kCivPJgcTNStJyWIkcZlSxWPq95UdTFEcfpXwy67n6gS05PUodWEPYqRq1gOZfwXQ2D20o1xN3_MTgbF5BJHV6phBu-hvuYvY4fhrtYi_AHWn68/s400-Ic42/DSC_9869.jpg
+  image: images/covers/6e0f9f5eff4b919f.webp
 album_url: https://picasaweb.google.com/115791131166530059320/CARNAVAL2016?authuser=0&feat=embedwebsite
 ---
 

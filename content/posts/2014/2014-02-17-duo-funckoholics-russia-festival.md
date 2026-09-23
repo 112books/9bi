@@ -10,7 +10,7 @@ tags:
 - circ
 - ciu
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUSurZFmr2VTTJiYvG1-Nj__0Mz9UGwMRUG1cqnmUS-jLQdGA5QIw5biNc5MxV6SCVx2Jvr7O8jy7T6CsxeZrjJKY2j_H3tackXKBL7EzenQrFWQUlMFNEVtlJcQIvkpEUlwILKoKPAXMX/s400/IMG_2538.jpg
+  image: images/covers/65edb1fd8958e5da.webp
 album_url: https://picasaweb.google.com/100268695753733554853/DuoFunckoholicsRussiaFestivalInternacionalDelCircCiutatDeFigueres2013?authuser=0&amp;feat=embedwebsite
 ---
 

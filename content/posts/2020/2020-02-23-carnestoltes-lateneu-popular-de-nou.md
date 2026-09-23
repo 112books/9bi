@@ -11,7 +11,7 @@ tags:
 - popular
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi96I9dEWwCeURfNEIk94xv8Ep95Dg91HZuQ6QfY-gD1uncm8C2Iz6300c9XBTb-Voe8Xl-P6_ueMb5gidbvGIzkhYo_UY3iRUXV5RVvNc4KMxFpHwp4Y4R3Hc4sQMpELNP4fYdRGGf42M/s640/L1230209.jpg
+  image: images/covers/66036b26d371ddf0.webp
 album_url: https://photos.app.goo.gl/tdhq28JQ24ES77yP8
 ---
 

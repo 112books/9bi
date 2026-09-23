@@ -10,7 +10,7 @@ tags:
 - libros editorial
 - Mamen gargallo
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjMSHxIsXVEAhYJdNj2IZt0sXkLc7Z36xg28IxlRVorqCXWPbhPCBbIMl-F_U9ANwQfsMQlWjxdbAiqvKUwTlF0h5GnYED7RFm6U__hItBqVQQh0P947Gf6QhNwrYVnUTFUjh6hNFepyI/s400/_DSC1890.jpg
+  image: images/covers/0722b39b55e3e9d6.webp
 album_url: https://picasaweb.google.com/115791131166530059320/6282302548894062577?authuser=0&feat=embedwebsite
 ---
 

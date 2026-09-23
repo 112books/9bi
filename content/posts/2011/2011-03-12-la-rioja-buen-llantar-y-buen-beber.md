@@ -10,7 +10,7 @@ tags:
 - la rioja
 - navarrete
 cover:
-  image: https://lh4.googleusercontent.com/_dJvZmZjVed0/TXvBAumC8VI/AAAAAAAAC9Y/qhB1lOtx5Rc/s400/DSC_3111.jpg
+  image: images/covers/c0cbea1d318f7326.webp
 album_url: https://picasaweb.google.com/pdro.gracias/LARIOJA?feat=embedwebsite
 ---
 

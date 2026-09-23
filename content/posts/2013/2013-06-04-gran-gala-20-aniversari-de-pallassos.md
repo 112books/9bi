@@ -11,7 +11,7 @@ tags:
 - teatre lliure
 - Amadeu Casas
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdPcGNdtAZuz9YF_2zDqyFi7nmh9p0UBSmxoNytDfmzpxU2-DGTW8RLaOxJernSEIWd9i2g2kgUZtv7Lu4VNYV9UwIx6doXcCX1fqCm0r_2Mi0Y6Rs8BupzmY92OD8asMfP_9rT5cuZW1h/s400/IMG_0904.jpg
+  image: images/covers/031a06d82e49afc2.webp
 album_url: https://picasaweb.google.com/100268695753733554853/GranGala20AniversariDePallassosSenseFronteres?authuser=0&amp;feat=embedwebsite
 ---
 

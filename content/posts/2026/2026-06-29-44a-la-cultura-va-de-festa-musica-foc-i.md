@@ -11,7 +11,7 @@ tags:
 - cultura popular
 - trinitat nova
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFIoJ-oPXZjp0PMyEhSamiOP3w6ytHFwYqlneGPw_N5Lyb5eBekJWmgxNRPkOBtMZVRRerf5sKOGW2icvrIhKNsGKOyUneWFej5fcmxXRAW-UG5Gqn6HPoP_n51liNpbx2KRMH0A-NhBWgIJysHXUUNEG_uWlCY4bftWP7f0t6Mcv1JJrREOGHtPWijeo/w640-h426/DSCF6103.jpg
+  image: images/covers/f63bdc0a7f614642.webp
 album_url: https://blog.pocallum.cat/2026/06/28/2026-06-27-44a-la-cultura-va-de-festa/
 ---
 

@@ -9,7 +9,7 @@ tags:
 - flamenc de barri
 - flamenco de barrio
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjh1m4SLfUVZzu1zIKNkqvG_yXWvGZaGKVdtt41aDEi5bpcSAwRhgG6DJaZyfj8R0qq3ZX6sKkmxkj9v8NCVOFxeJTesUaS6jXNyapJjP3VD7DL6QAdeEQvYAQ6gS4_IB1V27A1GErGPl4/s400/IMG_0271.jpg
+  image: images/covers/bbe3a67fbc42a613.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FramencoDeBarri2012?authuser=0&feat=embedwebsite
 ---
 

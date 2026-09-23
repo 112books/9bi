@@ -9,7 +9,7 @@ tags:
 - catalunya
 - diumenge
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrc-vm7JkBo_869h9Taf6YNXwI_FLOOITRANK2wy6X7qMq66dLj_w2kw7l0LSu0dGWVmn65zPinu34sGbApHdmYZEK7HEXYzR1ME1R9A6WBdxO1Zi7iHWhI-ZHmQ_Tskc4QzbtUQDMNP0/s640/_5200201.jpg
+  image: images/covers/388fc5025298565e.webp
 album_url: https://photos.app.goo.gl/24jrR3YjFdIZFTll1
 ---
 

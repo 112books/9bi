@@ -11,7 +11,7 @@ tags:
 - ARTS ESCÈNIQUES
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEJMlEQf7A-xvWKeLquJvedIb546TLrVWBxQvQNv3jNGjyI01KxJzVCj_wopEfOpgt7vr2iR5N3czWNSjq0jNRHXdpfaqmauhchFX0ELzt8lL6r2t3dnVerLMXicacYyL-FYb81upBKbqc/s640/expo+cartell+circ+vertival+2018+original-rs.jpg
+  image: images/covers/f4d465612626aefd.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

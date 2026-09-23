@@ -11,7 +11,7 @@ tags:
 - ball
 - neu
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDrsJK3e9iorKf8LcJ3AU8A1-OC_7aUtooIsatNXrdhESvvG2LNVbRvHuulTj6PC1OpRs6bExYe-OHPPVproKU02d3hHNVUc4Cq2UjtdIk0L_GtFOFXVzX39czPsNWf1kuuq7yqtO1TEQ/s400-Ic42/DSCF4131.jpg
+  image: images/covers/7a3b3f01167e1d4b.webp
 album_url: https://picasaweb.google.com/103138221614479310970/GranBallDeCarnavalALAteneuPopular9b?authuser=0&feat=embedwebsite
 ---
 

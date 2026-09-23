@@ -10,7 +10,7 @@ tags:
 - fotografia
 - joan.linuxbcn.com
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLSTodZogkXIMeBZ8NdF4U-7iK_3JaQBQ4ZruDhmJwnsEz2fFlXHbqvKtFDc1mCqHmQAbljDm2LVbTLLB_hZSq90rtHvfUpxHchO0j8gLlGVX_wRsXida2d2CrC9VhIQXu6rc4Gm_Hdf4/s400/IMG_5448.jpg
+  image: images/covers/7b81b3f96102893b.webp
 album_url: https://picasaweb.google.com/linuxbcn/EssencialCabaret?authuser=0&authkey=Gv1sRgCKDcnYOIuvqI2gE&feat=embedwebsite
 ---
 

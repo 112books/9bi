@@ -11,7 +11,7 @@ tags:
 - guineueta
 - cultura
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiy3h-01F2DIx1I3jj6GyS8zC3Xb_iG0ruzUNRU7K_efvV5Y8TOLrLnltAzV4sYOZDtFglsEBCyRscG3hKFapZ7gB0yh0TqaiB-hGaT-LiLnuukh0dqLd66KrKlbq6XHjpq5OdUn9UIW1o/s640/HD%2523118+-+LM6+-+RPX100+-+007.jpg
+  image: images/covers/4e0ea6e583a03b9e.webp
 album_url: https://goo.gl/photos/tFzTPJ5rqX4K3Doy6
 ---
 

@@ -11,7 +11,7 @@ tags:
 - formació
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtrqLsVzCNoS-R8958-dSFabrczZGIIfHxUDa1StmvebfRNwqWi3RYQS-o_Q0skPtINOM7o_Otpt1jSCPnUPFqo8T3kVxP7-OUXBjFw1TriL_MSzf2l6bc2Pi_J_xXCxBswHK4z35LlLg/s640/IMG_20181220_192405.jpg
+  image: images/covers/9becc2551123788f.webp
 album_url: https://photos.app.goo.gl/T5a1YiNFQtuvcuxQ9
 ---
 

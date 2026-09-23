@@ -12,7 +12,7 @@ tags:
 - Seu del districte Nou Barris
 - vídeo
 cover:
-  image: http://lh4.ggpht.com/linuxbcn/SEEuBNNKhxI/AAAAAAAAV30/DuxIKlGi0WI/w640-h426/IMG_8985wtmk.JPG
+  image: images/covers/cc3756bbcad14e90.webp
 album_url: https://photos.app.goo.gl/Z3zaDNcmw5LvTJkR8
 ---
 

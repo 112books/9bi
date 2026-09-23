@@ -9,7 +9,7 @@ tags:
 - fotografia
 - marhaba
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRgy62j-Z_Dt3NDs-sowA-acbZPL0byGvBX1guZJRtfHQtq9LnyQh0qZqpi6eAzqiw33dS96d9z3Vad7kcLUzJhBsyfWvECWt2si_t7TKfZI6mRKt7gJnHXtvAbNx7U9Di5oAfhdt8V24/w640-h427/IMG_4951.jpg
+  image: images/covers/3cadc04b7a672226.webp
 album_url: https://photos.app.goo.gl/dDv6vLx4TLeLCrKg6
 ---
 

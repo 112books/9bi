@@ -11,7 +11,7 @@ tags:
 - fotos
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGPwv0r0A7d0MoFExLb_Ey1qNbUcRo_2XSF2LfHLtWgS2GvclFtAXnOXRUme_T-ymPYWphxxxxOapMFNpIS0AdY_0meRo5j0RC-gk4COQCge45ZQJbpZPjzuihMzV8pimYbz3YKObrqTg/s400/IMG_0855.jpg
+  image: images/covers/8c95be9d2ad8c7c7.webp
 album_url: https://picasaweb.google.com/115791131166530059320/Carnavalmanel?authuser=0&feat=embedwebsite
 ---
 

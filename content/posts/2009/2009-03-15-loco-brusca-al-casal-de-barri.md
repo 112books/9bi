@@ -11,7 +11,7 @@ tags:
 - loco brusca
 - teatre
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheiS3hHWQo7eJhrlxfFkdzj0oC_CXRRVW3GqCt-aTYwmzQYfpex1kQKCWkk9t2pkBZ9oU5J-gdNGNuK_GJY7nTsCogRI5G7Itimzj3UPBAlMqApNp_YXBUEML8JkMHljZiensmfBnlUqg/w640-h426/IMG_6131wtmk.JPG
+  image: images/covers/e3603b3347378a18.webp
 album_url: https://photos.app.goo.gl/86Nq2xZ8NjWBtxLc8
 ---
 

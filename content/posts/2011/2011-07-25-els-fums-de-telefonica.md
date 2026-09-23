@@ -12,7 +12,7 @@ tags:
 - soroll
 - Telefónica
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkImy5QvZNUD8e7IGUzjsK9LmjLIcjY9p2P0Z3PGUVAv35xna7XEKQqQTtMklkP4uaZbjz7jWlbsD4jWCW61RpP4XZ0IX9nvcEdpI9G5brBjOn6zsa6hTh1FQwUeso4ExlmDtGvVA4SHk/s400/IMG_5597.jpg
+  image: images/covers/37624858c79c6fda.webp
 album_url: https://picasaweb.google.com/linuxbcn/ElsFumsDeTelefonicaAProsperitat?authuser=0&authkey=Gv1sRgCKTXi-Oe4ZS6tgE&feat=embedwebsite
 ---
 

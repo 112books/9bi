@@ -11,7 +11,7 @@ tags:
 - rafi
 - STA
 cover:
-  image: https://lh3.googleusercontent.com/-pzKB3G8Qd8o/T5CpgT5d8NI/AAAAAAAADCI/W7OcePrDv2s/s400/DSC_4650.JPG
+  image: images/covers/abf015d8fbadca03.webp
 album_url: https://picasaweb.google.com/fotospigmeos/DeEstaNosSalimosCoro?authuser=0&feat=embedwebsite
 ---
 

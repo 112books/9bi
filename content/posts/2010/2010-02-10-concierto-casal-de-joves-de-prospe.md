@@ -11,7 +11,7 @@ tags:
 - fiesta
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhe4axqyIvJM9bgHh40PQAYNKDZHkjN5ByAfccbbrRWWAMLfroRNwGhG5TL4g-5SkbKLfLv3OGfbd0r8DOcuycRfmf5PGA9myWNbLmhhm3B3ewf80rB8toU6iUkSNQDOjaeOm7ITrVcD14_/s400/_DSC1157.JPG
+  image: images/covers/b432ec705bc58c57.webp
 album_url: http://picasaweb.google.es/inmalcario/BoloCasalJovesProspe#
 ---
 

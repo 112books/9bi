@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - castanyada
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgj5I68PaJZF50ye-dN8xN-4RxGtPlgtkAYTF29UQPztaCCS41Apg9N8-uTYObBjvRqRyC0sbvauH01OiSXsgzOuVaKNmDXlL3aELtTaU4YTn0I-Zn7HzVDSsS8iEo82TVoMGJalw6PUIg/s400/IMG_6933.jpg
+  image: images/covers/96f4661e2acbe027.webp
 album_url: https://picasaweb.google.com/103138221614479310970/CastanyadaAlCasalDeBarriDeProsperitat?authuser=0&feat=embedwebsite
 ---
 

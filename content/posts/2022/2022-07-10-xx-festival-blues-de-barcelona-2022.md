@@ -11,7 +11,7 @@ tags:
 - blues
 - ruta
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhX3Ze7IS5yDpFUHAETc_bw4T3xE7lQYqgJr7rnFBRw3Pu-PG4O5S1Mc-Zk5w_6Ld505HnRJEhKkraprnwFuMa89CN-O4Mub3W4X9decJvwoOlerQ3cde-5QNoccMGXhFteF23D23XaSW07wmGBE79DXa361e0cTWvfQ7ObxFx6xMMB_Ql9LKypbGz0/w640-h428/PGF_4669.jpg
+  image: images/covers/daade25da5137a8a.webp
 album_url: https://photos.app.goo.gl/Ttpx6Xsyu9ibnDXn6
 ---
 

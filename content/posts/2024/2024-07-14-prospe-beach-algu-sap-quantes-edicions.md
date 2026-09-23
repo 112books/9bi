@@ -12,7 +12,7 @@ tags:
 - Prospe Beach
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi94dMRS2u43ON8yVU5HO1CckXQGCLkrOG3InGd11z0EnC6gi4PJUdRiMrAKICEjGgaL73Ry2e5_6Ud0tTW7L6CivF3YvUdvAz-mwZPT_sO1_QQ8gF4RzYLXoCTkUPNqsccEX5pyIgdh_Emj6_RbGhp46G4qDA_WBjzU50Mktxq1BT22o3bCz3oJJBUBtE/w640-h426/_DSF3664.jpg
+  image: images/covers/70cbefee58e1c32b.webp
 album_url: https://photos.app.goo.gl/165MwP8a3B4sYAm98
 ---
 

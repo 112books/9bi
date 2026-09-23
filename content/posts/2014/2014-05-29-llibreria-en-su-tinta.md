@@ -8,7 +8,7 @@ tags:
 - Barcelona
 - llibre
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGf3-5JiTURry3Wo988hJQG1XYlH5abAxTxmhGTh1RDglpBTRqV9znIXzAfZHjNM2dNqxofejSvtcydy5bdJ3adnMk_SEreYa58Bi3FQwaC1_tY1Yh0YFLofaH2ZzJuFh4CPm_txnH5Sjt/s400/IMG_7702.jpg
+  image: images/covers/f356a1812c78216a.webp
 album_url: https://picasaweb.google.com/100268695753733554853/LlibreriaEnSuTinta02?authuser=0&amp;feat=embedwebsite
 ---
 

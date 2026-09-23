@@ -11,7 +11,7 @@ tags:
 - prospe
 - CASAL
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggbVy_1RIMlIL3czf-XT7jJQKAidLbQPi4N9_nrvTkuNvRXIY8oB8A4vpMHhM6Oip9CKW_K2zTpCZnv0SzcHARNuRoBvsOsAQSEG5yMk1XdhPhdxks7zVrtTLRsDYG-99xgT_uwekEChY/s640/_DSF4513.jpg
+  image: images/covers/47658904530fdcbe.webp
 album_url: https://photos.app.goo.gl/f74Wfd5jfkUEnntXA
 ---
 

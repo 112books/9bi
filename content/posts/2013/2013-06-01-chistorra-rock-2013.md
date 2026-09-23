@@ -8,7 +8,7 @@ tags:
 - chistorra rock
 - rock
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpVwQUVIs7r2AxQEJ32wMxhgFaXvU8G7SNYioQIU8pDxXiOlG7vvAgfu0d3X7mAe2yR26tlP9FtsqFj88YzDBSMIqZknLWdIvh2UgsNcGs9EXFpJajPSWSiQvCDggyG4Jf_yWGI_1bJ-Yj/s400/IMG_0710.jpg
+  image: images/covers/3cca28890940b10e.webp
 album_url: https://picasaweb.google.com/100268695753733554853/ChistorraRock2013?authuser=0&amp;feat=embedwebsite
 ---
 

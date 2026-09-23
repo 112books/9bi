@@ -8,7 +8,7 @@ tags:
 - escola_antaviana
 - Òmnium Cultural Nou Barris
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwZj5WWxc-rXv9H1eNI6pSlgHAk-06eOVagrVmDqz7_C5cOgwGld9RsKjOQ0wrs7tBnHr5z8XrwlEKWmaiVi-btVsJkCRrWZZVh_X0EZ8GeugYu7QkVxS6hLXJG0bWK-Wo4gKRY2bIQdE-/s640/II+premi+Rafa+J._052.jpg
+  image: images/covers/016d58f723dacec2.webp
 album_url: https://photos.google.com/share/AF1QipPoHHaVoUgVm_8LqDpezhdfV1TgZKtA2OVwXdYkl1Ze2I4__rx3LYeBkhjiFJXItg?key=N2ZrLTd5Mjd1WWU2SzY1ZU9sUVpoS0NWQ2dsb2NR
 ---
 

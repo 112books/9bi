@@ -9,7 +9,7 @@ tags:
 - batucada
 - Akelarre
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiS_PNspyyBlw0bvoNIqlG2QiKP8NvpqroIYWJDZnAPBQJ0fwM47U4ailwD0-HsZ-WoZQebGmB-3JIVkZMEs_xKhQCTnKFTIPVS2EUAWbgtOOFbmJ2qfVfVP9PHm4TOGZmFBv_5eLAMuiq3_GbklLnvD0mGeHz-5pKFfP8xOQkFhbJxl_WdTJehO29MPk/w640-h426/DSC02412.jpg
+  image: images/covers/845a2a5d5744614e.webp
 album_url: https://photos.app.goo.gl/6PbBit3M59sP48dp9
 ---
 

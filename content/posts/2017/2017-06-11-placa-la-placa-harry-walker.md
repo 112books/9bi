@@ -11,7 +11,7 @@ tags:
 - ball
 - vaga
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNSJlEml5Qq47dZHRYb-8YJslhapt79qj5NaVkM5srKdBvExw9stkSwG2gJoOPkfwlQkT0qEj1TWxcKKn1q8LRkUrabKgI5iAV9XxePMLw3DB3jiJdH-hHRMmbljpJOJwtOLAnoYsDoL4/s640/H+WALKER+-+10.jpg
+  image: images/covers/943145c0e911d48c.webp
 album_url: https://goo.gl/photos/orQLQ58YnRG56X8M6
 ---
 

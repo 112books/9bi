@@ -9,7 +9,7 @@ tags:
 - voala project
 - voalá
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVWcYrIEq1fPswjEHuuXiFXCwMcgLaS8a7G_FrGIbehXJINQbDwMXT2-0VzOt_Pz49U3tjyIpJpOjCLOEBg_XDvSnVF5V-6thNpQyByB4FLP02DR59erNEjZ_VdAaTdVSDsk-DHhrj2gIA/s400/IMG_8845_2.jpg
+  image: images/covers/8308a609579f288b.webp
 album_url: http://picasaweb.google.com/ulls2006/VoalaProjectVoalaFestesDeLaMerce2010Barcelona?feat=embedwebsite
 ---
 

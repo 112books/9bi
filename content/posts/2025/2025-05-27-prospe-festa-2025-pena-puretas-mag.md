@@ -10,7 +10,7 @@ tags:
 - prospe
 - FESTA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoPo6yA4ug5ApiKcjY7gTJsD-qFyOLXSoNW9ohku_blgjvQctechLuC_q3OieXzpqrJ36-Yh2_9XaD9Nsl0-Y3eU8g7CdjXATrQbPKdnc6yEZqBorxkMVIJL1-dLFFoqNarN9j4KbvIFr1GsCZLydwNFdftFFk-arowE26wP94RdMi6kwJRlpcxli-61A/w640-h426/P7F_5629.jpg
+  image: images/covers/7ba38c67dfbb6912.webp
 album_url: https://photos.app.goo.gl/6crs1WGoDF5BJw7W7
 ---
 

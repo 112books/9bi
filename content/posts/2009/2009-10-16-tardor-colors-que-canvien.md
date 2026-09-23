@@ -10,7 +10,7 @@ tags:
 - manel sala ulls
 - montseny
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2N1JxqytyFTXzVV_O1BsCCfn1_sy4Ps5BbNHOlOh4OEwkg5xy8RlRCN04cKwBF2Vaq_CNqfKga1nAJY-EiYIlbOAdvXIbMzh0x480yKsPN1X8Rrn8n1jF5LaI6z0KGwXqmlp4Mbyud7RR/s400/70x50%2001.jpg
+  image: images/covers/f05e55472f075c3b.webp
 album_url: http://picasaweb.google.com/ulls1963/Tardor?feat=embedwebsite
 ---
 

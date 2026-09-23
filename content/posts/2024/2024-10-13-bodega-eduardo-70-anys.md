@@ -7,7 +7,7 @@ slug: bodega-eduardo-70-anys
 tags:
 - veïns
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4-YY7GtdNX-oqLt3NAub-1s6v1H90WGNOX5JElZ01uEqPUI1A50xOm8JFG1Cl_hZkw-cK3LBl9Hi1C4VwUjmo0I_CtGSS8oa544k3NMVOtpEKbcvGQoEnIQ5PSSyDr1hAkwzSuF1j-nCsE9JCB__Kbo6mDYH-NMe0zQJJniVLLwOBNw_zB8Ks_ovqToBT/w640-h426/_DSF1782.jpg
+  image: images/covers/b08fede9ef9aa2a0.webp
 album_url: https://photos.app.goo.gl/Xp83MWBX4HpBrLoY9
 ---
 

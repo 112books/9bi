@@ -9,7 +9,7 @@ tags:
 - flamenco
 - flamenc
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgC0UCOjw1YJIvF04yEQCJOqgTEvfClHE934gv3I0q8_uQBvUQmat4zEa34qdiRDEJC8up4p2AXDpW3C3NOaFrOhU0AhSPnWgztViMUO9hfXSHA6uidPU5O-RfOf6qjasL3A4QIvUh5s1g/s400/IMG_3291.jpg
+  image: images/covers/735a71cd7c0afdfd.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutSicalFlamencoAmbSenenIJordiGuerrero?authuser=0&feat=embedwebsite
 ---
 

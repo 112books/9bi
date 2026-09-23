@@ -7,7 +7,7 @@ slug: nits-de-capibola-amb-simewshocks
 tags:
 - capibola
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsIRGxoN6DcqEkq2o-qUr8sqromtLyBLm00h06Esz7DW_xAt-nyfxsLWkgAHAAM1or1k2YmVbYQ28TQJX4h8fTBTOkXpiwDpXYP2ioMLwr8m3GY1unK_l5Vym92Td9WhzjbeHxhPcC0-Q/s640/DSCF7208.jpg
+  image: images/covers/80a64102c447631e.webp
 album_url: https://goo.gl/photos/4vFPLtwaZRUjbsh56
 ---
 

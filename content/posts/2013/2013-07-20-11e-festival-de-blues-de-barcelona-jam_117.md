@@ -11,7 +11,7 @@ tags:
 - Barcelona
 - blues
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi26EwroNDWZV9_9DBFpnYjysGCTv_8R8uBd75EZ4mgPyNwEglipyvAYP_Pk0BavO7QDX13zlvPLoK1lHNrJejdJqxlm2xwA8IQFqTtrorE9BaIKLhWNvrsm2kCYsCcGccxBv27tBZJqKk/s400/DSC_2352.jpg
+  image: images/covers/abdd219a81b95cd5.webp
 album_url: https://picasaweb.google.com/115791131166530059320/JamSesionCasal?authuser=0&feat=embedwebsite
 ---
 

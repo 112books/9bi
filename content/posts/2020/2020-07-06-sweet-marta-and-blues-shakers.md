@@ -10,7 +10,7 @@ tags:
 - art
 - mar
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxWHTxcd1CneqYqwm5GuyunkxmbFh4J-UF5d_B2dxDZKlLBLfS65kq1ExG1eBmKoow_IVItZlt2AlMESJ08jWpwSzO2mWygm_4HoK2G2SUWE3Q9tsVijcf7MzJtesYruuRK7QACekQRDai/s640/PGF_8320.jpg
+  image: images/covers/42737866a4cd702a.webp
 album_url: https://photos.google.com/share/AF1QipMnLDnXR5rmyNLZbxXSBKwUV8AOCkCrY36F6jIjkn-LbnylzffEGxDswdXHjHBjFQ?key=MHo4WC1ZOVlVLWgtbGd4S19uQ0dMa0QwX2ZTZXd3
 ---
 

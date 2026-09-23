@@ -9,7 +9,7 @@ tags:
 - plaça Ángelestaña
 - prospe beaach 2022
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgovvKJfnzmyNCnqaRYE7vAFZzeduMbZK44ECtPmTUeLHdMmbAqF-7-XRH1PH2xmguOr_YpN1sn-2sOgTrJDvBBN5kzdiT2zxbZ7hRd5BNXHnoqngOSGoqyQSvszsLek6CcGr_d2dNd9EPeknEmI6vPz_y9mF8NatISJVhbHPpvbFMGuPo5HP9wan0D/w640-h426/IMG_6280.JPG
+  image: images/covers/1eae3234d0cb1371.webp
 album_url: https://photos.app.goo.gl/CayHH5XiVqq9QsTcA
 ---
 

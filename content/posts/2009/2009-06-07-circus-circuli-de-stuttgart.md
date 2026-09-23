@@ -8,7 +8,7 @@ tags:
 - Circus Circuli de Stuttgart
 - nico
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT9SRNiUfMnTvlPfND8rKWwL01cbe9n2ww5wirCBWhVlSPqsySPBoip63CQRwGCwD8LsG6Wtby5vfM-JjrxJQ0U_CylGCig_JVOjW88OUPRlPjh_Kt4MU_1iFKQ1YW2U6x477Q5N0ryFa1/s400/P5043345.JPG
+  image: images/covers/eb68c224d7c2c159.webp
 album_url: http://picasaweb.google.com/lh/photo/EM9iZO5d1QvGKw2_-XbrRQ?feat=embedwebsite
 ---
 

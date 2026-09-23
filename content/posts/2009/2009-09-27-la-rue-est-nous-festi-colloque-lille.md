@@ -10,7 +10,7 @@ tags:
 - Lille
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhP6_1V_G5CIdbCkMIVqC04ORh2rpIN3mOlBJkDN-5Ny8fkqr1ZOQRE60GwEAh0CoXiOmk5A-u_fgkUb1hHJ256W5htgGh0XYhGpLk7NlDKSPgXBnuVuYj582Qgbkiy26YRrOZsXPvXcTo/w640-h426/IMG_6534.jpg
+  image: images/covers/697383e681032c6f.webp
 album_url: https://photos.app.goo.gl/tFV5wfgZZSFotg3q8
 ---
 

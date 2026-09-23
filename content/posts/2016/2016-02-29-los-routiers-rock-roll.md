@@ -11,7 +11,7 @@ tags:
 - cultura
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7gipckldoTMbs37Ng6mfB4rfLw8zvSI2RK_7n8lDUpp6hvBSF_vaW3nMeGf9TzznDV_mKy9gD8NO6nRuyFd0x8LOL3Im-yvonaObcEXkUQY52YaxpKQgOD33DoMMQd-O8qLWu0NWA3fM/s400-Ic42/DSC_9937.jpg
+  image: images/covers/f12a69796ec873e4.webp
 album_url: https://picasaweb.google.com/115791131166530059320/LOSROUTIERSRockRoll?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - flamenco
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQHMY4Sh74F3upnwTUEiGY7qZWsTnUyAb5XEi22FSIGkAE20wLI_Gdh_TnCTpoDQDerjL4lqhvOLa3xK1pW7bpHOHCTukOeYR-lG4kAf28ixws8GlLzrskE821gakGhkxpv8jivEXdSZA/s400/IMG_8293.jpg
+  image: images/covers/ff16f2d0c5395e8b.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FeriaDeAbrilAlCasalDeJovesDeProsperitat?authuser=0&amp;authkey=Gv1sRgCL2c3IP64J2wEQ&amp;feat=embedwebsite
 ---
 

@@ -9,7 +9,7 @@ tags:
 - festival de blues de barcelona
 - música
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhM5oJpc782mUlG7seBATd5RtEupmoTazHwcVV0WIJMKjORhdqdjDjFtLZ8LdN2gc_vT1ASbH0EV3m7gHgPqzJhtkxHTiurWsY_lMXyK7LTuXsLaFpW9kVJybFQ7cpJX9zb4owk-drhu4s/s400/IMG_7364.jpg
+  image: images/covers/e5ef06ae3591e2e7.webp
 album_url: https://picasaweb.google.com/103138221614479310970/10eFestivalDeBluesDeBarcelonaDissabte?authuser=0&feat=embedwebsite
 ---
 

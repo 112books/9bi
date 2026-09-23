@@ -11,7 +11,7 @@ tags:
 - festes
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihY5NrmovBF-L80qTleoPQvDisayCEEyPy152_2INktUWTE_Q75cbrB4yItGSSIluIUiQjAnr_6IrDwGAPgIXZKWlj5Wz5rUWrI8I5JL4aWFjUUmGuMv94a72DcfXogqVplQ3VLXJGKBA/s640/_DSF4664.jpg
+  image: images/covers/fc132500b957a7ce.webp
 album_url: https://photos.app.goo.gl/evRwdgrSXJJMd5t53
 ---
 

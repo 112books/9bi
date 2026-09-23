@@ -9,7 +9,7 @@ tags:
 - barri
 - mar
 cover:
-  image: https://lh4.googleusercontent.com/-aIvjJs61eXg/UzC4lvUO0bE/AAAAAAAAHOY/C1wJltawIJs/s160-c/MarxaDeLaDignitat22M.jpg
+  image: images/covers/be176cbfef26e0f0.webp
 album_url: https://picasaweb.google.com/114858497713897843587/MarxaDeLaDignitat22M?authuser=0&feat=embedwebsite
 ---
 

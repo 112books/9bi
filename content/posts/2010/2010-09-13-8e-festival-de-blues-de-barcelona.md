@@ -12,7 +12,7 @@ tags:
 - linuxbcn
 - vermuth de blues
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg66cQ40OViMApxedfwuIXkFvQgKVvCk9NU-HJ62kS0AY62ucY4aKvfivlX5QO0tZsM5Gq3aQuzHwpXthsmLqVFaSo89ScmNu0u1CdnbXzMhLju2M91qhBunnKhaQTNPVvUSPiWCCr3lWs/w640-h427/IMG_9589.jpg
+  image: images/covers/05222e2b76292b82.webp
 album_url: https://photos.app.goo.gl/G5kgmaAtuTvtGsVk7
 ---
 

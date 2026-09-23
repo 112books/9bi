@@ -11,7 +11,7 @@ tags:
 - fotos
 - art
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgB2WvqOCSGGoDezHcHeaBVRdeEaVdVM_psu71uoC1nLmv-qElBqwICCQ3Enm7QWtYlwQg_Ki0cfK3kL3k7_smkcOnZKra4UyTcU2rfPm9RNHSOi_tYYmAW1ZNs8wkHVxbeDVQ7Iue7XOlHZoya1NCXwNeAtjFnUMWx7iqckf0mXp2bRoGwRfzbfQCDEuo/w640-h450/IMG_0831.JPG
+  image: images/covers/c18e4c8d203d5387.webp
 album_url: https://photos.app.goo.gl/m8wfFyqRnxa1Wdd18
 ---
 

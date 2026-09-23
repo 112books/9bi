@@ -12,7 +12,7 @@ tags:
 - llibre
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPMG1mHlZltNXfABDb89edWJp5aaJf1tUaJF48l5rfPt3XspX_WnKgaE6MebBpSwQu24jrDNqQtrIllogBN23h4FePO4k83DdmLRGKdT8Mda8vmI9vTDBUnUFyx5wINFf1BFfXcTWz-x4/s640/HD%2523243+-+LM4-2+-+017.jpg
+  image: images/covers/682160fbff66f2ed.webp
 album_url: https://photos.app.goo.gl/PqSXx9EZuohWBXPk8
 ---
 

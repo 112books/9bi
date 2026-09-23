@@ -11,7 +11,7 @@ tags:
 - roquetes
 - teatro
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiGZeehAXRvfIFeJzjaou6gb9JdgFsYGCu63IZdBXG695JIBBjpV3uMBBlGZusylmULQp61R0X09Sra3jpc2ct3_aLqR0xfQVEBJDuRESr4jyh8xuHT8qwzMOUzBkv3vyy3AyN-Y90N_Rb/s640/PB240119.jpg
+  image: images/covers/b750f55e0f7654d3.webp
 album_url: https://photos.app.goo.gl/e8euBSajhfXoVdDw7
 ---
 

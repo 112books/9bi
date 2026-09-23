@@ -12,7 +12,7 @@ tags:
 - Nou Barris cabrejada
 - participació
 cover:
-  image: https://lh4.googleusercontent.com/-f2GoBa6sWQs/UZHrrMDbt4E/AAAAAAAAGH4/_wj4V9IXXqQ/s160-c/AudienciaImPublicaDistricteNouBarris.jpg
+  image: images/covers/2c0c17f6d4c5cd28.webp
 album_url: https://picasaweb.google.com/114858497713897843587/AudienciaImPublicaDistricteNouBarris?authuser=0&feat=embedwebsite
 ---
 

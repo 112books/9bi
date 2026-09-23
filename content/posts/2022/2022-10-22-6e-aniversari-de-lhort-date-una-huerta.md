@@ -10,7 +10,7 @@ tags:
 - barri
 - Hort
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnhAeJvZ0-kibqhrJlj0XHbjsUFQPEC4qKLC8w05qwSYeUt24NCMAJ85HxUP-8ZZTCiHVrvGPYztOK-Ic8UJjg-wK7x6CU1EFhNwpIP6RrG0AlKTKXbRVG9tFb7YbzZwuyb0yTJr36twD-pFKQEOAnnmFHg7vYKiZBL2-GvknhAMNrDDHlNrX9NnFo/w640-h426/_DSF1177.jpg
+  image: images/covers/295218c3613611f2.webp
 album_url: https://photos.app.goo.gl/ua5AxW9xrYW6D9g3A
 ---
 

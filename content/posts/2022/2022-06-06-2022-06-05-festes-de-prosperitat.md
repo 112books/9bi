@@ -11,7 +11,7 @@ tags:
 - diumenge
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSHNIZV8kcZnroy2Cwhq_2EvltNfT325Ej3TdhF5Txo542JaOnvKxkAeb9G8pt2hEOz8sqajsFOYxr0X02s_PmImju2m8sgmgwrVHfkFEp5wfLHWNUG2btEOEZb8t6ZcFrb6_TGKXX2lcKt10eAou6h-gJg2YBGCP-JIzQS7GMyE8HDfWRqqw1Quz8/w640-h426/_DSF9606.jpg
+  image: images/covers/5e3b805b1e56238d.webp
 album_url: https://photos.app.goo.gl/71AwUjaSfad9qUGh7
 ---
 

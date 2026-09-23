@@ -14,7 +14,7 @@ tags:
 - Prosperitat
 - retallades
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnX7iTVNr2SYJs_ORCRedkwqZGBzzIiDYloGJhn4N7kAdYOdgy7E-fg2znSzUpZbe6YPmsXWB1-uynlCY-9icEgJi59N9bVItK2aB1LFONWR0ZV6HXgITnOkJil0llcOT1KuB8QivAKOc/s400/IMG_1734.jpg
+  image: images/covers/0edf3eb3f23dd805.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestaMajorDelDistricteDeNouBarrisSensePrego?authuser=0&feat=embedwebsite
 ---
 

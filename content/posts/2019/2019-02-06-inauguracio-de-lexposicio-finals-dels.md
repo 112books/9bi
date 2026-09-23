@@ -12,7 +12,7 @@ tags:
 - roquetes
 - fotos
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQk_VsP7SswVDLob3NYbOqU0NgBe-zhfZJvSb_XMNH3b3TMQBowcmBoC6cBBpUz4IMASOFpUf_O4lx2Gk0Fugsrc-BVYR1EsSdBTGt9OAegTkclyOmTdF54Y9-k9jJO9sHZpagR8t7_qI/s640/IMG_20190131_193653_resized_20190203_113356073.jpg
+  image: images/covers/0612bfe981e0b403.webp
 album_url: https://photos.app.goo.gl/wdb6Fewv7H1zU6EE6
 ---
 

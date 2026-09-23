@@ -11,7 +11,7 @@ tags:
 - exposició
 - jovent
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhE2PeIBTQbqkOya4KJjX29YK0RJ5kwt0RO6AB_tSxshkWV4bMMEZyIuzJmFQ7h2HtNZB-Mb0Bz_UqMU-hk332o38gKeDQPS9WxoKmWJtBNCOkDZwVbDyzgHn1O8cnj4Tk0ueMW0Ksf9Op-o0fXA27KutzdZeQYFn2w0Eoxq45ENDptiDVkqVLpDrLIFKc/w360-h640/20240125_183328.JPG
+  image: images/covers/a8ee35149cc2766a.webp
 album_url: https://photos.app.goo.gl/ajh7yRhjtGEukhhn6
 ---
 

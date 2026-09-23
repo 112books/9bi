@@ -11,7 +11,7 @@ tags:
 - Boni
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7jNEADmJtzITGkdggbN1HSFm1I0zck9T8BsRpdX5vcdq-dIF9fdhFBRlaSOxyXe7Uhsh4-9KLgRamx0G1XG7rcXJ1laBp7aJV3PYq4MevCNSkcUxl4UDRdZmpUZOjHNuLKboWO5ofH_M/s640/2020-04-03+-+006.jpg
+  image: images/covers/7b76ddda5708236a.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

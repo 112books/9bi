@@ -11,7 +11,7 @@ tags:
 - jazz
 - arte
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSQUiW2upGYvCK8vNxb7aRBpvXpluKt1q147hyphenhyphenwK63sKchJ-JdZQFSksr400qpVdl32xhHLjEHBQlWsTBfcyCv6es4tpJmvfyYX8pNt0CsghAKF7D_gxEVUHJONkOdQMpUBdY3NZ6eO10/s400/_DSC0806.jpg
+  image: images/covers/ec329837771a050b.webp
 album_url: https://picasaweb.google.com/110015855395179205688/LACORALDELTONIGUIDA?authuser=0&feat=embedwebsite
 ---
 

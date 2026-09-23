@@ -8,7 +8,7 @@ tags:
 - vermutsical
 - batucada
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhShQ3rMTm_D3iQfIebvlD1GjMfo1vX70GI8zEmgkj2NaaBxMHlYfxQ0Cxmnjvt-uTDu_5FdHRAH8Y4pV7HjgjX6tlcT7WeZjOXXj9BOIlXflCfSZqhcyNSVAn5AEp5qB_FtYyqbqETHTk/s400/IMG_1013.jpg
+  image: images/covers/805b1a737b9eddb5.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutsicalBatucada?authuser=0&authkey=Gv1sRgCInc9OH7_YPrNg&feat=embedwebsite
 ---
 

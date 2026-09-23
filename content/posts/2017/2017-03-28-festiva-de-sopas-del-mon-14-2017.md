@@ -9,7 +9,7 @@ tags:
 - sopas del mon
 - SOPAS
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaRrJpUhZtB9OkHl4jCuJOW1fVaIAKx8tzdHA1Vef0IWrpzfZhL8UPfVwFy6jOSkqCnrgKBIy4EIzvfrvGANn7k0m7hDZAVzNtDY2Bcq6Q3qTG5SdlzA8-ZTvq3xV3YMRVNFHUTivrKF4/s640/P1360590.jpg
+  image: images/covers/7707f98a374fff1a.webp
 album_url: https://photos.google.com/share/AF1QipPFS0_DzanEv91omrlI2pHjl2kJWHvAdlbf0oWTINYnP4YZyAFzT8-RYcupY38Shg?hl=es&key=SUN3aWhDYTN5a3BlcVBoUG9LTTFKclM0OURkXzdR
 ---
 

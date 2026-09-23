@@ -9,7 +9,7 @@ tags:
 - XIC9barris
 - Òmnium Cultural Nou Barris
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_XAVPmdIw0AZP26dQ9wzeBCymlAeaQxJO8BC3U6p7CF6D5wXuwrn_sCEoRYbpFCbJXKqx2Rr1SwRp62sM5wACOOQqMMk9xBTmaGgnApz76GhkZ3h5pHDiB3k06S7KNksX0-fps_KZ_0ti/s640/rafa+juncadella.png
+  image: images/covers/8b38a32ed8e5310b.webp
 album_url: https://photos.google.com/share/AF1QipMu3j-zbzMKs2lr5HGaIFYnoqCVf6D_ZEkH6mEGtgbNYoMdKZzeEB8UQHC4lKuNfg?key=amdSTTlWWk5MQm51S0NMRXoyN1BSWk9Ba2paXzRR
 ---
 

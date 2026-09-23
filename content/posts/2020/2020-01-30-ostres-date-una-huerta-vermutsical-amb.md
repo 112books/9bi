@@ -9,7 +9,7 @@ tags:
 - vermutsical
 - huerta
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxbEqP7h_WXJGbOsxqkVBmU4-0CegexlGRidoMAHGpEvfIPwmdtikmiN0A0LOqo0dq1AgGs7HU2-mT7yjRzZpVZRH085VmiqTJ-BJvB4SqUR2zoSLSCC9TcwBFtXc-I53GWpBYLjlXpLw/s640/2020-01-25+-+A+-016.jpg
+  image: images/covers/564a0428a3dc59b6.webp
 album_url: https://photos.app.goo.gl/ShQpPUo8FT3ZrRqR6
 ---
 

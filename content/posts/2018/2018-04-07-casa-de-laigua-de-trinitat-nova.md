@@ -11,7 +11,7 @@ tags:
 - barri
 - casa
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglSiB0wMGS9Z5qjToU4DdFoCY_QlNeHFUnhBvzwr45jCLjwA0GGrl0DkwRwQeXNdz5_oRslHqEP8lK9eazMVHVs5K8EqxGH6Z1AogrkqX2y4VjJR2BJaU3MREw9vgCm9lH8K5pm_iFn-o/s640/P4070101.jpg
+  image: images/covers/6bd474341adc2632.webp
 album_url: https://photos.app.goo.gl/DGMKQtpqi9k6ZAm02
 ---
 

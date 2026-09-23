@@ -11,7 +11,7 @@ tags:
 - música
 - blues
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAtIy-o9TEwEpO22nzynHaUE2-P1aUsh0K2ov7Xi1wgbG7DfAtEV6qSM7nRSf3DL46Rg3s9SCmfcI7-bzTX_wuR0T_auW1UJB7qPUlup6GDHrHEAfK-sQMQf7r2qfZwFo5Ot3g5MpHLdU/w640-h400/2020-12-13+-+JamcluesB-+004.jpg
+  image: images/covers/258fa1b992c87b44.webp
 album_url: https://photos.app.goo.gl/biKBcnwHmwyJZ5yH6
 ---
 

@@ -7,7 +7,7 @@ slug: expo-fotografica-dels-alumnes-de-can
 tags:
 - can basté
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOVoao8VSOKmCC3flIvpEq_Pgt4xNpR-pK0ZjlUmZkx4PrsJEPHV73QyftIlJzFZxU0Ql17mX7rGWWar0L4RB8dFxSZFnlugYVMiD_ZyfMxBxE1vE_qnBSz8cd5NxZtimVr-y4l8VKeQY/s640/20171214_194247.jpg
+  image: images/covers/d413772ac22e3b5a.webp
 album_url: https://photos.app.goo.gl/QPLAGxJJT3lLgaLm1
 ---
 

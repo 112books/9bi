@@ -20,7 +20,7 @@ tags:
 - tradició
 - veïnat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLLC8XMLrnm1ESMpu3nuY8o4FG558GOKumAGydcaaKmR4ep8rfqarfe8RiO6_iX5R5LxpUZ9mnSU7ZsGbEyD2o6B4aFnGCMxHTYBVjyS-YQ8ao_6wJvzoXbOFSE7rzL44_Di-ZArgjf_LtxV5OQFAX6zkSj3_lXCeBAv7pA3SeyDso3zz58-ud1JXL57M/w640-h426/DSCF1377.jpg
+  image: images/covers/d95b1fc184706c0c.webp
 album_url: https://photos.app.goo.gl/LKrpbzERGCzR7kX46
 ---
 

@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - guitarra
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZWPHOENwrPaVMu-xPbXi5Ks3aK1x5kaEPoJOkEkljGFt7ROhyphenhyphenWzgrxAJiaYArJzkKrtDbkKz7T-eutGDASq2cAdwg_injbmvw0-T6h8qmIipuJrRWlFu_-v9xzSZqCoHK2mgajFvgF2I/w640-h426/2021-10-22+-+Burruezo+-+007.jpg
+  image: images/covers/3288285ac8cd058a.webp
 album_url: https://photos.app.goo.gl/b6AJu5G9NkLMSJmVA
 ---
 

@@ -11,7 +11,7 @@ tags:
 - música
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgD_uMxz2YMGeZQCitoeMR4-FT_Tr791iYFDq1yruftdeLOiAE8n2f_GPeBzyj04yyiIXrdmQp8PmVFvpsRendY2CVo6D2S1hk8kfaORmtLxNdZDdKVrRZnH5-5-cjdq_9vYT9JxYXf5ivWZJQCpVbXYKXv60IMULacueT5Kp06qiDh27qbpuoaKusBvdI/w640-h426/DSC01257.jpg
+  image: images/covers/bbd51c4688e40e38.webp
 album_url: https://photos.app.goo.gl/oZHGmAf3bvjs2eqa7
 ---
 

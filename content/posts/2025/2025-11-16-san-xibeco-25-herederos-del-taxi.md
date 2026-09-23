@@ -11,7 +11,7 @@ tags:
 - san xibeco
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfRRoUPaIE2g686MvVKsgR7mZ5_cgy7sWJtFUGjkic1o5Sk1Zst8XxSz3E3pKYrjTod9PdgRkgqECvM_7xkwT-Z7HylyozgpilpY7ztRHtYr6jb17F7GE5N6snlMNFqz3L6T8-uX-Gm2kw7LJzhT9wRLQIG9ihxhypQG2Pe4nKft3wZMLcTXauIoNlIfc/w640-h426/9V9A8928.JPG
+  image: images/covers/b0541719e2cf7fd0.webp
 album_url: https://photos.app.goo.gl/szD1gbPBkiwMv9PZ8
 ---
 

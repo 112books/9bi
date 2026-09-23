@@ -11,7 +11,7 @@ tags:
 - concerts
 - dissabte
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEGHeMu7XRT60AbiPEASz1ampbsehI1GVtsdSoKjDS1xmOYUuJ0_nwrWlQueQXfeou7pQOhyphenhyphenjfFBYQpfLoOqgaeh7etlGoTOTpYJH0kt7O1RtMbhq8KpmNJqtUbD3GcQgA_WhoiAHhyuK8D-qJbz9L1Os9l2ztwBvP7hk9-5_UyF-r_t8q12itszg1QQQ/w640-h426/_DSF1390.jpg
+  image: images/covers/360dca183517f817.webp
 album_url: https://photos.app.goo.gl/RHUwEcPcKpVJbsUq5
 ---
 

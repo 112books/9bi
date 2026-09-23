@@ -7,7 +7,7 @@ slug: expo-centenari-de-brossa
 tags:
 - CENTENARI
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxEQ1QyIwio47eEJ2Iq7JZ-t5pXa7SQEYHtIp1zIVQ6fNBAHMTWgebtlv_LRCgKEZYBDNDbT821fzk0kTVlsuFTts6gv51NZaOXQdyOx7yNV8OsPJ73-J0FVlhyhKR9FAdWZ-OB0dGClw/s640/BROSSA+-+1.jpg
+  image: images/covers/ac6d30d350881286.webp
 album_url: https://photos.app.goo.gl/ibaG1ucey2eHB1tX9
 ---
 

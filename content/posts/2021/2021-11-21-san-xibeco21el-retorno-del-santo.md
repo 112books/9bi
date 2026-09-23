@@ -9,7 +9,7 @@ tags:
 - Herederos del Taxi
 - sanxibeco2021
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXoW-KuW0FYxw44kjYzuvbLSX_FDbOLcyK_IRPvdzERDWaVHZRCzMK0Fnthz7FX6_nYwhEw28q7kivobsc3ike6bkBaJm9kSYvCLQt668ZtZ6FddJiYFHqZxi8xl74rHAfMHUT1ARv3QI/w552-h640/PXL_20211119_201554315.NIGHT.jpg
+  image: images/covers/67e8c780b44a185f.webp
 album_url: https://photos.app.goo.gl/nwegtwg8GAqRDRk6A
 ---
 

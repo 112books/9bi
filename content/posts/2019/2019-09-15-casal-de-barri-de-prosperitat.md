@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - vermutsical
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4qAzIj-Ax3c6YDyPdwtvvkthBbutATM3IzBibPHFI9s-pw39jo_HO8KYzdpx3XmqgvbKS6Ty1SuCACMY4uTW64TAeUkVJhIv1MFEp-_YU-ImyH_4kWORKnRZu74geOGkrbQ2MsrAegKk/s640/HD%2523437+-+009.jpg
+  image: images/covers/eed7ce6c6a42e59a.webp
 album_url: https://photos.app.goo.gl/1GbXHffPwyReNhXUA
 ---
 

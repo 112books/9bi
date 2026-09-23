@@ -10,7 +10,7 @@ tags:
 - dishows
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidVx-O18mAz28yTgkFNwDPfQrdPtLc1sUgVxpIZYG17jh98GZ-M0jOH5yt75tHgY_JfM3jDAiQCdyPNaSxA8fL-jIGXAhnJYvOh-oHMbhOzjZrj-17EYxYD5ZgQ6R92Zr56cvqGab_tsA/s400/IMG_9571.jpg
+  image: images/covers/178086b4977d561c.webp
 album_url: https://picasaweb.google.com/103138221614479310970/ElsDiShowsDelCasalAmbDEBARRAVAS?authuser=0&feat=embedwebsite
 ---
 

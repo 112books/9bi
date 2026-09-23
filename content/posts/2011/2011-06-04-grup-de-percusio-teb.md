@@ -7,7 +7,7 @@ slug: grup-de-percusio-teb
 tags:
 - percusio TEB
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEho_SbTphlfddP9vE43r6N15O3C_GqYL9kzEsWWE43pFMXF0VhEToyU0kcHskHYGWGgsRIVOpy4l47KbQ4Tjoz3oFxAosWXwb-PbDh51ThwtyEWhH_xR6fTcHgShh_t3M1sRNvpuBSah-Y/s400/PED_9173.jpg
+  image: images/covers/3c8157a5b121a136.webp
 album_url: https://picasaweb.google.com/Perdo.Garcia/GRUPPERCUSIOTEB?feat=embedwebsite
 ---
 

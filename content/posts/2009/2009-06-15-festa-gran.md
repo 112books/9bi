@@ -11,7 +11,7 @@ tags:
 - gent
 - STA
 cover:
-  image: http://lh4.ggpht.com/_XSTjenR1RBc/SjKhq5ETS-E/AAAAAAAAEQo/7RWWxv9uq6M/s160-c/FestaGran.jpg
+  image: images/covers/227874dc8d8c91dd.webp
 album_url: http://picasaweb.google.es/Perdo.Garcia/FestaGran?feat=embedwebsite
 ---
 

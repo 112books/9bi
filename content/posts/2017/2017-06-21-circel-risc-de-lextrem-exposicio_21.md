@@ -11,7 +11,7 @@ tags:
 - fotografia
 - Barcelona
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcGRnEOY38jd6i4Rja7SdhpUcLym5cvMJSQHO2ka2rMyzCqZti4B1yaubpPQJzwmiidL3qIuR0M7eMv6bJ8t_xsgt2CmMFkUWHPpaMLWTZsZdQTn_5JqXuXjLsDmP1MawNhbZbMvhHwSsc/s640/expo-circ-ulls-casal-prospe.jpg
+  image: images/covers/a8b35781db30de56.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

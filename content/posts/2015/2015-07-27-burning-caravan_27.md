@@ -8,7 +8,7 @@ tags:
 - blues
 - música
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2twXIcGNRLewpfETKgWr3vuuVM2eOaOP4JUVotkMEr0Spsu_nooLEE8qvhU-HT-lQ1iyue6jlBoLKqvW7NXzG08f36sTMJETQ44usJh560pgUNtVVtYA9Ba8WZEXF7oHm1bC-l-SJoJ8/s400-Ic42/DSC_6437.jpg
+  image: images/covers/6d9753d83f76d4d7.webp
 album_url: https://picasaweb.google.com/115791131166530059320/25DeJulioDe2015?authuser=0&feat=embedwebsite
 ---
 

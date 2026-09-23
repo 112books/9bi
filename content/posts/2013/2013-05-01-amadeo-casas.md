@@ -7,7 +7,7 @@ slug: amadeo-casas
 tags:
 - casa
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib5X903AF_EuwQQe_D4iZNDFhSuQPcqire2KThibCQ12jerF0dydiK9IuY0U73F3V3KftnmJqmFU1XOestMDWFxcxe_Mb5hyphenhyphenELDtscPWv3ldq2ZVljScjNzG22BFIDW0bnBcNUrUm3Ebo/s400/PGF_7966.jpg
+  image: images/covers/9a441f82b8da69b2.webp
 album_url: https://picasaweb.google.com/115791131166530059320/1DeMayoDe2013?authuser=0&feat=embedwebsite
 ---
 

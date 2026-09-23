@@ -7,7 +7,7 @@ slug: acampadabcn-yeswecamp-nonosvamos
 tags:
 - Indignados
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiMhiQ30rdmg3YAJGwloiqz-NG8bRpng-4K4ItA2qWb-aVqew3NxKgdJih0O4Aj-VQmBJTC0TprlsdlXmLjOwtVIXotLuwr3wU9M6-G_ZFifUOOrmvOnGB91K-RiTj2f2OFRBXzZRoZOA/s400/IMG_1932.jpg
+  image: images/covers/b19b3b685d3d644d.webp
 album_url: https://picasaweb.google.com/linuxbcn/AcampadabcnYeswecampNonosvamosSpanishrevilution?authkey=Gv1sRgCMz00u3nmMPWGA&feat=embedwebsite
 ---
 

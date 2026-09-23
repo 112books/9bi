@@ -10,7 +10,7 @@ tags:
 - plaça Àngel Pestaña
 - sorra
 cover:
-  image: http://lh4.ggpht.com/linuxbcn/SG8ae3c1itI/AAAAAAAAcFY/IpMtdu13jXQ/w426-h640/IMG_0938.JPG
+  image: images/covers/a6cbf885cb0ea63d.webp
 album_url: https://photos.app.goo.gl/MsFPGySbznfc8CU9A
 ---
 

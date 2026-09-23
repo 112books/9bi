@@ -9,7 +9,7 @@ tags:
 - festes de prospe 2017
 - tetrinké
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-78QkaaNpkbnNlDVEMNOPih-AnLxQuSNALdA-10BCJSpZjCw9QD3Pvi6Kd2KVJIiSLh5n86UwfxQyRCt0shN_e6HAZ7LzXfRNpv3QjFXrsuvy0Tx-TZykl9sspvcc3qt2jJ6O5n2-QmU/s640/IMG_0799.JPG
+  image: images/covers/e1634f869196e8f4.webp
 album_url: https://goo.gl/photos/AhL9TWdmWkFXdy9f6
 ---
 

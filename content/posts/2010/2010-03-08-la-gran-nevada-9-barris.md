@@ -10,7 +10,7 @@ tags:
 - manel sala ulls
 - neu
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmA8uTGxVYhHmWrE9wk9Bwk8p780hJeGeh_frL-yWegJNrOjFh8slfSzHzGA1yCyvsf4ejWGArQx2z_8mRZkGWG6w12fEc1FyFwIYOuHxYcOxitJMAbwI4ZJ6iUCUthX5nwUna7aKu_fC5/s400/IMG_2559.JPG
+  image: images/covers/712c5955edbd613e.webp
 album_url: http://picasaweb.google.es/ulls2006/LaGranNevadaANouBarris?feat=embedwebsite
 ---
 

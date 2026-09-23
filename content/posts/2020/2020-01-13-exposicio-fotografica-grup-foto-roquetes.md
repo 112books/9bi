@@ -9,7 +9,7 @@ tags:
 - exposició fotogràfica
 - grup foto roquetes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZqY3IFs3IkbrrJcCCC-ARvkMaWyPDqiy2n-g_7vGNeOrAROamRYjSt3AQ4EvA4OeGSgoXtwLND5tAyEUr_EHOr3GthfjMEDZjxtmIZKzfbcpa9oBh-6HtAPFig-0btMd8c0CvCU99unUq/s400/QUE+SOMOS+GFR.jpg
+  image: images/covers/a01106e1f11a2a80.webp
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieuQiWuEXPuYQ1ODZMmjVgzs-7wVUjg9MelhYUpf2y4DYQrgbQwaRFGinEmhrNwIDGdW7oddsdFJtPLDiBvJihD8vGF2PmstNtFFk6DIQslgOYa26E7eD6jJb-KhlGhFx5XFS_z1GDUCk8/s400/expo+GFR.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieuQiWuEXPuYQ1ODZMmjVgzs-7wVUjg9MelhYUpf2y4DYQrgbQwaRFGinEmhrNwIDGdW7oddsdFJtPLDiBvJihD8vGF2PmstNtFFk6DIQslgOYa26E7eD6jJb-KhlGhFx5XFS_z1GDUCk8/s1600/expo+GFR.jpg)
+[![](/images/covers/dba29486589b0303.webp)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieuQiWuEXPuYQ1ODZMmjVgzs-7wVUjg9MelhYUpf2y4DYQrgbQwaRFGinEmhrNwIDGdW7oddsdFJtPLDiBvJihD8vGF2PmstNtFFk6DIQslgOYa26E7eD6jJb-KhlGhFx5XFS_z1GDUCk8/s1600/expo+GFR.jpg)

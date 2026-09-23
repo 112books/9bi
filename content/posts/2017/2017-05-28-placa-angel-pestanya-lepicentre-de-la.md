@@ -11,7 +11,7 @@ tags:
 - exposició
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzhkYpojemkJ4SQlm_c8j90C2VVCxNdRg1-h6hTwRZs6ZBXQXSq_8XBim1mJGfzDmPMuqWvkmfQ4l2bIq3m2x2uwWrsD1Kbl910JODQ1Q8B5tL-FylnyO0UjbLg_Dml5UyIcoCI6i1II4/s640/P5270132.jpg
+  image: images/covers/4d282dfc74378b87.webp
 album_url: https://goo.gl/photos/y2VxrmTHazCRYmAJ7
 ---
 

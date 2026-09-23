@@ -10,7 +10,7 @@ tags:
 - peña peñita peña
 - Rufio d'atura
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLw3mOPcsuzqcWq8fMPQzJKs8TgGhqVOG-uX_dc3ZuLZfzPF6VP_dyewUj_nc871BxZHxfR_GSY8V5y4jE5hcaqZEJCPLal7NbLErRGN4R72O-QH0pRcc-O7vyFjzInQryB22YuL5fRMyO/s1600/26052013-IMG_0311.jpg
+  image: images/covers/e3dbe54515a81cdb.webp
 album_url: https://plus.google.com/photos/108741777266825743534/albums/5882695120227370785
 ---
 

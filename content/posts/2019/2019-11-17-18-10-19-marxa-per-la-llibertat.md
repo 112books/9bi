@@ -8,7 +8,7 @@ tags:
 - llibertat
 - mar
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvWmJ1wHepTMfVTZ0-tDlZWKvOUxIXmE11HLHJ-cJI5_fq77rbuQFlyTwXMfFavorL6P8bhTD4rnSBSzLsopdwyqtKUH1cGqjxmMSYyEmixZpf32BSoy5HR8W4jGxHoIW50S7ySWogg38W/s640/DSC_9916.jpg
+  image: images/covers/8c57eabe1e126381.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

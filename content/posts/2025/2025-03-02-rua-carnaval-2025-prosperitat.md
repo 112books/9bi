@@ -11,7 +11,7 @@ tags:
 - fotos
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwiiIrSE7IFz4baB1z2dbjJpfUF5Nwyk3U9N9jdf3cf_ef9QhRkX2uV8AZaGcwWHKMqfRe4U6De45AB5qeudwA21m4uy5YuYk5m0Gz1hj1qGTXmRAWm6qtCgfICiZZl7NTmJvX0JdSIlVgkWej74UquVre-k2lNXNAXhM0PSkos0eIvdsWnZSxTuLWsOk/w640-h480/P3010628.jpg
+  image: images/covers/8e59d0b9f65317ac.webp
 album_url: https://photos.app.goo.gl/RhMqzvPvZUGJNgw28
 ---
 

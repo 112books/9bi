@@ -11,7 +11,7 @@ tags:
 - trobada
 - música
 cover:
-  image: https://lh5.googleusercontent.com/-_SSBbQ3Q4T8/U9rLMhj8UyI/AAAAAAAALHY/H0rzzjPrFJc/s400/DSC_0337-2.jpg
+  image: images/covers/40f9b7445579228d.webp
 album_url: https://picasaweb.google.com/110015855395179205688/CANBASTECELTA?authuser=0&feat=embedwebsite
 ---
 

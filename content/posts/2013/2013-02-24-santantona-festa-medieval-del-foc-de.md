@@ -11,7 +11,7 @@ tags:
 - fiesta
 - FESTA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg94uPxNrsi7mAr9Tg-jjg002x4w8IDlub00zi0gU4PFN5dgFD-dRKjF7WWAjvndAZs-DgSKXq17NwXDUC_NX96isyWT0XNiQw5Mmd0WB7t7klgCzOHf8d0A6oeea43o34y8BEGhQgzk8A/s400/PGF_4577.jpg
+  image: images/covers/352a893b708ffa8d.webp
 album_url: https://picasaweb.google.com/115791131166530059320/24DeFebreroDe2013?authuser=0&feat=embedwebsite
 ---
 

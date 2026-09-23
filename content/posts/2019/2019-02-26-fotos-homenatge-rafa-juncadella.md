@@ -9,7 +9,7 @@ tags:
 - ateneu popular 9barris
 - XIC9barris
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSvsQBYcvoxAlBy7Bycym6DB3texiisaKQweDFrVrTRzk66E4UyUFlI9iFjfD9ANBNEf-lqdIHObSTpDBtepz8uqXTKlNXHnglPE550QWyGiMnfDYMyZWGkYsD5ojInQSbKq6cQ0CoCp3J/s640/rafa_071.jpg
+  image: images/covers/dff8ef35cc814e20.webp
 album_url: https://photos.google.com/share/AF1QipNnINWg_SAfkFsmujeki64i9SSkxrTxMe4JNaJjeqmIq2PCYQsrTusTMWMnfZHuqg?key=RlZPX0NEN2FtTmZMOWlTXzMtQi1kV25UXy1wM2Fn
 ---
 

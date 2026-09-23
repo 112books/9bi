@@ -8,7 +8,7 @@ tags:
 - prospe
 - rock
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpR8KIIWhoYu6oOUyeOhouh_qsm5w1bAgxwtTvBsO1DiaRlAkX4OJIOa2dQTwfE9D-hByOIMPOsUCUTjKLBmOZ8mOvOvhErZdIdI23JqZvpo3_vFc7y7g7KV35RNRF0OiGWajKjdzyFt0m/s640/P2210743.jpg
+  image: images/covers/d563e61c082351b8.webp
 album_url: https://photos.google.com/share/AF1QipMywWkNoTcBEOKvNm5T6Lv73VQqbRyvWs1RjxoffNVjVX36fzXjM-ypSA4oeYY0kg?key=RXp4QjlpaUstSHFkZWU5UzhKVklBdS12dUJFNjVR
 ---
 

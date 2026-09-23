@@ -9,7 +9,7 @@ tags:
 - barri
 - expo
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLot36CZNOOq_p9rxcTleJ04VZ_ZjaWhH9jhn1Gr_ALFqlZGNAJTTkOsvo7yNLRBZ3HQjlk9yill80267Irp7EjW8VNzUHlQW4Y1WzywtxuXAXtq33Ig2kROnMUvHffBowv0LQ_ZACmhav/s640/P1450635.jpg
+  image: images/covers/0ed116f53e38d4d5.webp
 album_url: https://photos.google.com/share/AF1QipP9LYnM9eiOhTZXj4ntrLTMcRdNTjmi6CbDCLzgvk8W3PgWXyMF0rWHLy429P0vAg?hl=es&key=blpGMGI1ak16bWhScWN2NlNjVnJ3MFhhcEdjcDRB
 ---
 

@@ -11,7 +11,7 @@ tags:
 - fotografia
 - manel sala ulls
 cover:
-  image: http://lh6.ggpht.com/_QO31doAgUHQ/San2q6m6oqE/AAAAAAAABoo/swuHoz7YbX8/s160-c/CARNAVAL9BARRIS2009ATENEUPOPOLARDE9BARRIS.jpg
+  image: images/covers/a963cfe7ee4e0ca6.webp
 album_url: http://picasaweb.google.es/ulls1963/CARNAVAL9BARRIS2009ATENEUPOPOLARDE9BARRIS?authkey=Gv1sRgCIOq25mIodzkGQ&feat=embedwebsite
 ---
 

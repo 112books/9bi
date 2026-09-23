@@ -12,7 +12,7 @@ tags:
 - casal de barri
 - inmortales
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6Exxk97KDYK3FwN7q6snO3I0FLZOXtBAs9F03SI2BXEeD4iZuc4ycyNeevAFA_wyX9_0BOUJCdHQ5mPdXraBSTBxP9N3yTEUIR9b9WbfBh5QCUvQm-a4gLN8qut-pm3FUYgX3svNEZP8/s400/IMG_5802.jpg
+  image: images/covers/711ccd44cd3d5ac9.webp
 album_url: https://picasaweb.google.com/103138221614479310970/AssaigAlCasalDeBarri?authuser=0&feat=embedwebsite
 ---
 

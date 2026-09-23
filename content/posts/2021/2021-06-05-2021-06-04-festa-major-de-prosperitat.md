@@ -11,7 +11,7 @@ tags:
 - festes de prospe
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhv4Ceymi0JCViFvL-N4hUFzfbCWyV_m2KXfhdpWmThj1PEEBfi6kXliAhTjMbyedRDILVQN3qcYQQzswU83R8ldMTS6NdbuPyXk0VN31aZa6_Em58MDpqKcu-xQkwm7KFrvwpJz9bcK3U/w640-h360/L1270477.jpg
+  image: images/covers/edaee9fa5419f264.webp
 album_url: https://photos.app.goo.gl/ZgB25kPqj7CiUqDE8
 ---
 

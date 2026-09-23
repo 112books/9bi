@@ -11,7 +11,7 @@ tags:
 - fotografies
 - nou barris
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqQe1woclxXQKkhabCnJOCTVckutxgsjUbNm7NRSMP1mpSqN6-1X7Ol-rjZnVkgL8cyxOSfYSkIHK6MhcvpMswfQD9O18rwijmPE6w9_LW21XYQ5exsUQ43Tm6mf8QqzohmOPJ84tWFYem-oK5-B78J5M113aMM_jusnVrSEZCi9qnJr1BaZY1gaP-Px4/w640-h426/IMG_8030.jpg
+  image: images/covers/7349aba604104289.webp
 album_url: https://photos.app.goo.gl/ogrqxyD3PPzBh59s7
 ---
 

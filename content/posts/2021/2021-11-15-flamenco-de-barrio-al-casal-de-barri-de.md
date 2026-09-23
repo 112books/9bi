@@ -11,7 +11,7 @@ tags:
 - casal de barri
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoRSq59_xi2We_S2-D3-H16BlIDosNNB2WgrDB64W8rp2MBupPJzfpFfLSXie11kHKseSGtm7y13Nb3mv-DYvUSpLVBDcIslX1yssAsDBtxQkJv8Vz_8W1g3DNgFr_Y1OYCMrAHqBB03A/w640-h426/2021-11-14-+FlamencoBB+-020.jpg
+  image: images/covers/c75a45b884038b4e.webp
 album_url: https://photos.app.goo.gl/1oECRqUVDetMfXrL7
 ---
 

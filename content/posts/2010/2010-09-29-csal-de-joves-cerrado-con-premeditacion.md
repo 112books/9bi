@@ -9,7 +9,7 @@ tags:
 - CASAL
 - casa
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7oQuYv-FthDoruPTTaSIGbVA4SlQKmE6ZWeRdDyevfWe6R1aCa8UTdVetwc52u-HzHO2_rAxx3DT3v4OH0Y3LDovQp68f3x2ENg_WdBIz5B3p8KNQ7ITJh2Lhl44C9R_2GKprUpxcDIE/s400/28092010031.jpg
+  image: images/covers/71e8b049ff58e5cc.webp
 album_url: http://picasaweb.google.com/Perdo.Garcia/CASALDEJOVES?feat=embedwebsite
 ---
 

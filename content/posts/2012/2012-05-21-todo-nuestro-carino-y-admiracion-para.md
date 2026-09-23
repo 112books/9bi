@@ -11,7 +11,7 @@ tags:
 - art
 - mar
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMkLRPQF9AcoaNimHVTmvjqbE_2uKgxw87Tt9EV5QWKKVpiPkhBao7GNE4HMUwm87H0qyhOzkOIRo7NCjF1YoEJ5f9qP8XYk4G-DiJyELtSanywcuJ1ywtoQWDdtRLYRUDlemtOp5uV4o/s400/DSC_5587.jpg
+  image: images/covers/97ff045617adb59e.webp
 album_url: https://picasaweb.google.com/115791131166530059320/MARUJA?authuser=0&feat=embedwebs
 ---
 

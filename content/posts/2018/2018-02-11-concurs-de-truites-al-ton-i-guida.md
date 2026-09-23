@@ -7,7 +7,7 @@ slug: concurs-de-truites-al-ton-i-guida
 tags:
 - Centre Ton i Guida
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuBBGnym4pM3BELByCOLfEhTW-PjM27k8TqVJNFb3SluTlO-CbSZ7XAEAnCMa1VGlP42JODw5tUhPI82Yi7cMCrn3eCWBUKG6jAieUoN9lR6pgT1DCkMWHd6Vgnb2hZIURq_xfU9Bw1pE/s640/_2080212.jpg
+  image: images/covers/937342dc42beed0f.webp
 album_url: https://photos.app.goo.gl/KnJxd3jrsZE518gf1
 ---
 

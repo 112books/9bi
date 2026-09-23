@@ -11,7 +11,7 @@ tags:
 - ruta
 - quim
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDwkNH8ueH0eVSNDJkrj8rvZMIDUGJ9EZeRptojGtOypVUWtHEeQCT91vdD3JVZQw3pi15-xDqTm_xz6XT_6BWDgrQBWqPny-E7cDmLDBBHkargfWRUnSWQaeQhS1Ji_F1e3Zi3sB546Y/s640/20180526_142608.jpg
+  image: images/covers/182129bf19eff673.webp
 album_url: https://photos.app.goo.gl/685CY9RRhJ1ThNKB6
 ---
 

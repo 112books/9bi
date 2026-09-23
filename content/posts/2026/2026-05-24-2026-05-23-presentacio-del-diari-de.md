@@ -11,7 +11,7 @@ tags:
 - diari de festes
 - casal de barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWxT6eiPkf6i4D5yIol-GpZfAgHFrWp8J3J0zDz08hUfEvDPMUHxleezcwpFcb-Atc8ipgS_fQipClF0KZ6A9UIY5Ab8mO6UsXPfEcGC87qm0K0hH7Zu0Id3Dy9xTpFuzPRRJFVOrVGh7Qng9OL2fstDqFCSDTZyhvbvqMv1PjA0pStCshWtBttlQYnak/w640-h426/DSCF4429.jpg
+  image: images/covers/f11ba1e06614d777.webp
 album_url: https://photos.app.goo.gl/rgCBekNvCXp5vSi4A
 ---
 

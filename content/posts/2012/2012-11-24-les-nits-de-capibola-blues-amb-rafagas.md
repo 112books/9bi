@@ -11,7 +11,7 @@ tags:
 - les nits de Capibila
 - Ráfagas de Swing
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKrcNd0RwiFzY2F5mIzpQFuRwOkOY_qHhvdKXQlPCfCBkvNWLu_uvgpfzQS1uUXyAsJqcsBO76jyPeGja4d4dYvCKHkV3gcfL_O-PZgLquctki1SXGp4odakWRKmLHorKQhCQCp3I8a7Y/s400/IMG_5521.jpg
+  image: images/covers/58a4f4c2019fa11e.webp
 album_url: https://picasaweb.google.com/103138221614479310970/RafagasDeSwingHuckleberryFinnBluesBand?authuser=0&amp;feat=embedwebsite
 ---
 

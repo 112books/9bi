@@ -10,7 +10,7 @@ tags:
 - prospe capaç
 - teatre
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXBoSXQdYhdQHr5SOuBVXCP_Yh_WQg9-XiqJp4IpkAGnD6DuavLj1m86J6WVMunZci1O1hHv5jALY4IcU3R6jaQN8rak3R9LuC0mBpn5b31xs0Ci5qWsuv-CB6VuumsLnYgpDgrPZQkA/s400/IMG_5308.jpg
+  image: images/covers/7728737ffa4ee6c1.webp
 album_url: https://picasaweb.google.com/lh/photo/CS0A5DQ78uER7AoIjKCEWw46j_C4x6Uwzg5_qggD8iY?feat=embedwebsite
 ---
 

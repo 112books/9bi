@@ -10,7 +10,7 @@ tags:
 - prospe
 - beach
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh10XB0GNdTk6haOl4pTdlC5WlxnZOVnso0knhyyQj5-r_R-6Gl2sPUGctGted7UP__Yjgbn5bcxFRk71PO8fER4hHVYKzszzUm4ThUMUNfRs-Fn3bssWDX8h1UFs35gifiv6H-CzKyYk0/s640/DSCF5592.jpg
+  image: images/covers/bc695f5f3a85536c.webp
 album_url: https://goo.gl/photos/rYDzsEUtPmcRd1ok6
 ---
 

@@ -11,7 +11,7 @@ tags:
 - roquetes
 - fotos
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFq0DSBZnFmM_T9s2uU9gWxbYgrwsCWaC4FqN8OfLJfMv_MzlquyE95h4B3bWWPaKC3k9Q5rK972MYVDRR5bX9XF2Obk0ebZd4BZOlb6CoWMzuBdI894ljMmShH7o_iUdj6Ame6bYkdB4/s400-Ic42/_DSC0504.jpg
+  image: images/covers/eda97c48d5a43e4f.webp
 album_url: https://picasaweb.google.com/110015855395179205688/GFRAGUAANOUBARRIS?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - roquetes
 - entitats
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnMw_CYCpfM-5E2UPMyfbzBMegVG_jI2cBmmuedq_v3jyJRudeBNsTbTYw-3DR5PSigMT4g5n8ql1Ymh20QX05iCZl0v_mD5G5x4uhXeJRAruO-445d2rH3W4nGUxD-R0z-2ANsZ13VBA/s400/20150516_193348.jpg
+  image: images/covers/f7dc5f0802da5995.webp
 album_url: https://picasaweb.google.com/110015855395179205688/EnganchateAlCarro?authuser=0&feat=embedwebsite
 ---
 

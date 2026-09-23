@@ -11,7 +11,7 @@ tags:
 - art
 - mar
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3nZd6RSmbKUQQ4QuMSUBkJZWCEOWycxpD326oGl03EO2aaVZ5K3jamykcjKI5iMEc218LRrbxSyIus5Ys6RNHpKujD72w1cT5BEJ-0gnQxydysKMYXZzpT5zJ77GD8pZJxEoPI2LVzXs/s400/IMG_3887.jpg
+  image: images/covers/74ada7f855bcd444.webp
 album_url: https://picasaweb.google.com/103138221614479310970/XAniversariElArbustoDissabte?authuser=0&feat=embedwebsite
 ---
 

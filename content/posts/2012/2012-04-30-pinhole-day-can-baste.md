@@ -8,7 +8,7 @@ tags:
 - can basté
 - pinhole day
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx5IW3QFvvvkEA8hHo4yybfNDN-va9ogql5N9V1SgwuFxyh3qFykxFz6UcRpXHH89TEBrZPzC-Xlemk1IyJvA4PyZnszQFaot15grim38BngOTd-K2Zo29kmLwqItbpuy4cBnEeZzCy_8/s400/IMG_0621.jpg
+  image: images/covers/428e73123e484a7b.webp
 album_url: https://picasaweb.google.com/103138221614479310970/PinholeDayACanBaste?authuser=0&authkey=Gv1sRgCMHj8ILbvYmpugE&feat=embedwebsite
 ---
 

@@ -7,7 +7,7 @@ slug: comiat-la-sandra
 tags:
 - fotografia
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtXeR1K9Ln-3lvHsF8gvla6hz-dPMw97tsUIWwamdboVPkinOjWdyy9lXANx534jJ_8_g9CYpeY-RV392c6zEFon3DnU80k11CQEt6SAojrcQhVn-6WlytS6cI6lPT4o6x1i_YwmYwuSk/s400-Ic42/DSCF6607.jpg
+  image: images/covers/e9885715dc8b3c1b.webp
 album_url: https://picasaweb.google.com/103138221614479310970/ComiatALaSandra?authuser=0&feat=embedwebsite
 ---
 

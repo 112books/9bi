@@ -11,7 +11,7 @@ tags:
 - Barcelona
 - districte
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWKAWPeUjItvGWrv1me5CpDCPBCeMCDtfvQPR_2xs1vadeABXFxe-JVH5dmpjX3Tp3xdKke6DTebEKTf7X4e1YQFUCUd9bcuAkgbr0pdjNLUiMvhRLq30io-5Y1_-_GhzQ59n68Zjdvko/s400/IMG_4730.jpg
+  image: images/covers/ea38ff493d227fa7.webp
 album_url: https://picasaweb.google.com/103138221614479310970/6307838829847498273?authuser=0&feat=embedwebsite
 ---
 

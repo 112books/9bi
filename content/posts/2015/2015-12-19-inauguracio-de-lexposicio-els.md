@@ -11,7 +11,7 @@ tags:
 - festes
 - vistes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgK17x_gpTmcBPRk41APIWKlm7rDwZQLGhYwunHOBJXEJmJTcz5LD_TgvErvey7i_mnrThOUVqqQk1iQcWmbt8ZpU7vql7n6suVKEyTys-0PFBrszdnuC9T7H5aG_1QlGZcvVeVMJ3KbjA/s400-Ic42/20151215_191915.jpg
+  image: images/covers/cb85ee3768b07b38.webp
 album_url: https://picasaweb.google.com/110015855395179205688/InauguracioDeLExposicioElsInolbidablesLaNostraMemoria?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - arbres
 - fotos
 cover:
-  image: http://lh3.googleusercontent.com/-NZPaZI-CQ6o/VXgbTi7rP4I/AAAAAAAAOYY/ixvJA13xaEk/s400/JACARANDA%252520.jpg
+  image: images/covers/b2da85c236824e06.webp
 album_url: https://picasaweb.google.com/111964096227458093905/ArbresGuarnitsPerLaFestaMajor?authuser=0&amp;feat=embedwebsite
 ---
 

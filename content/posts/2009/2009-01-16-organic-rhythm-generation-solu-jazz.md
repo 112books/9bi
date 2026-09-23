@@ -9,7 +9,7 @@ tags:
 - la Nau Ivanow
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifG0j0u3fJ_8JW5AhSzchvvtcz61qWQ38GQmucgGQWQs7pAR9doYtvu2cnuEzoCmNz4Zf5umOLb4E0NxT_hAJD-ldDJJdKSfJ_bAGoPgzAZVXpMFOkDris_-0h_d0oUkrW3JB9CqRIJpo/w640-h426/IMG_1062.jpg
+  image: images/covers/b34e76c6fbf22682.webp
 album_url: https://photos.app.goo.gl/N5miuukPWkuGVGMM9
 ---
 

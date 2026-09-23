@@ -11,7 +11,7 @@ tags:
 - transport públic
 - trias
 cover:
-  image: https://lh6.googleusercontent.com/-5aObIbnELZU/UtAa4QcVMDE/AAAAAAAAGyg/ckEd-K-DrE8/s160-c/ProtestesALAlcaldeTRiasANouBarris.jpg
+  image: images/covers/e12485858c82544b.webp
 album_url: https://picasaweb.google.com/114858497713897843587/ProtestesALAlcaldeTRiasANouBarris?authuser=0&feat=embedwebsite
 ---
 

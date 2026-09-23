@@ -10,7 +10,7 @@ tags:
 - Prosperitat
 - sanxibeco2019
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirKyXfRvSoP4j7Pyw2IWU1rMqRLaZEMxdbtKQ0Ulj_qduzM2hhzCxvRFbJCnKKzEFDkxL1ZYE9d8oIEVkJ1GZTu3VuuPYIRnjXxOjeuwVNgFiNNAwkPzv6j6wzoe0afXbfdR7TfwNaMt4/s640/IMG_4644.JPG
+  image: images/covers/b059b862cee6cf21.webp
 album_url: https://photos.app.goo.gl/tpu8H2qSyre7BHsa7
 ---
 

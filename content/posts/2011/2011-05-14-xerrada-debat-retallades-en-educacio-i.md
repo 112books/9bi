@@ -9,7 +9,7 @@ tags:
 - Casal de barri Prosperitat
 - fotografia
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiB3ZsMzrxOCVKipgXV47l8QFnSaBzikPSAUfIsFcDms-cgC91OMNy23VdxEX2CfrGu-izXKITHWiYxeJ9PRNpLoHvkDt6RvSQC6EjqmOlXYnYTLGdLMmXTAyr9OAu1ZoeTXzFq7-uycVA/s400/IMG_6682.jpg
+  image: images/covers/5c0d889463a0b6c6.webp
 album_url: https://picasaweb.google.com/linuxbcn/XerradaDebatRetalladesEnEducacioISanitat120511?feat=embedwebsite
 ---
 

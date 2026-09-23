@@ -11,7 +11,7 @@ tags:
 - arte
 - art
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8XHBZNauuD1nyP12y4hrgSAoOvfXiqqemcsASkm7KVJl32abqybhZzRz4HA9UDRvXAKqZJ4wA_XW-z9ra-RXw_TUTHp5L2FMHZXb0DHq3FW9Hiyw5n2b_c4lEX9bnB8-ftYVKGug42B0-LmNUvkP7vI3gbasJ_9zpPoOgdX9zxDPjuifkDTLBiSJw4oA/w640-h428/L1410566.jpg
+  image: images/covers/2f45726d8470b026.webp
 album_url: https://photos.app.goo.gl/94dQEYsg5oHVdVjc8
 ---
 

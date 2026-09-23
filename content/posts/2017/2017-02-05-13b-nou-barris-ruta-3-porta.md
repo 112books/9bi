@@ -9,7 +9,7 @@ tags:
 - barri
 - ruta
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVQ5UkdXCTbZPEBTYZPfar2ynTWPW5t4o1f3vzwx7fLqOgBRWmbzq3hwdFrdaWpNJG1gHOOUsws2rxcamSw6DBBZHYMsq9GCW-BJh20NI4nI7E7wTOXBXdeLdkBGhgZnmfPlEgt98bIRg/s640/266+-+LeicaM6+-+CN400-8+026.jpg
+  image: images/covers/cb7ebd89586fab54.webp
 album_url: https://goo.gl/photos/Qk4fe97ojyVdYTdQ7
 ---
 

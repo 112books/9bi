@@ -10,7 +10,7 @@ tags:
 - fotos
 - manel sala ulls
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg53HK6zrdmWalNrXXskHvJa9QvH-2oG8IVD4LKLUH62o5HQSivorHVVjxtEsBjEXhyphenhyphenFbwC7IbY5vpRNs4qSgJ6H1u7aq-brFMVkQ2v-sdX5eBQKlRqONEpvaMM6n2NGEMGc69_wIv7wo71/s400/IMG_6689.JPG
+  image: images/covers/9fb8199a2016e91b.webp
 album_url: http://picasaweb.google.es/ulls1963/NitDAnimes20099BarrisImatgeUlls?feat=embedwebsite
 ---
 

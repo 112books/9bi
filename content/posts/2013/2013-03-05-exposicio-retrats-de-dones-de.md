@@ -10,7 +10,7 @@ tags:
 - exposició
 - retrats
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9IqQKeqxon_izIRJOcI63fDzFC84ulRUBdMocfj5lExkQr2rP5Vllr9maRA-l8vgQdry0y5rAJrrSkjJuelAmxzOINqPQ_sqHx_yoD2wh2qYasw-mpmq5z5qafw2KRjSEXarQ1TKOlbY/s400/expodones+copia.jpg
+  image: images/covers/d1cc69840d403e91.webp
 ---
 
 Aquest proper 8 de Març inaugurem l'exposició "Retrats de dones de Prosperitat" el petit homenatge que fem 9barrisImatge a totes les dones del barri!

@@ -10,7 +10,7 @@ tags:
 - joan.linuxbcn.com
 - questioni meridionale
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLWi5miOHwVPh_RB7qqY9oKPCQMnAXyQI0aDKFoesjX3cwle2Uv5oIQoWftC-dMNyrdsopou6wbSfXq45sAS4FRN6nxn_hyrxXWPIbfG4mqlDoiCUfz85pt6Fy_YGW-mxUpbZdMnW2zdc/s400/IMG_2620.jpg
+  image: images/covers/9a04a992d33db9d5.webp
 album_url: https://picasaweb.google.com/103138221614479310970/QuestioniMeridionaleMusicaFolkDelSudDItalia?authuser=0&feat=embedwebsite
 ---
 

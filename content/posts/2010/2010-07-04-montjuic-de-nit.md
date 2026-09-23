@@ -14,7 +14,7 @@ tags:
 - Lluís Coloma Trio
 - pere puertas
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjigQOFlEU9teZREJ_wDK-FbO1Y8wxNlIgGnTLDVpmGx9y1jbyMiU1IV29T7UAlnAQsiQ2iCPwxRqVaj5DTl5vP4xoFtk7u3JRLAMPYmT5xVP1wEpxdIsfFfSCS4YjXjt-HwZ0_2epfM90/w640-h238/IMG_7271.jpg
+  image: images/covers/da6bdb5c5c4d7ee8.webp
 album_url: https://photos.app.goo.gl/HWtukdUWQH5769sT6
 ---
 

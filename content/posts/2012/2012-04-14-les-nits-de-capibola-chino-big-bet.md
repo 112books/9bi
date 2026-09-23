@@ -10,7 +10,7 @@ tags:
 - joan.linuxbcn.com
 - les nits de Capibila
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAtS7JGgH3TKYoHUVFK15Uz8WjeU7PkYJ6ExPvOPG0PMoTCccWGxx_fA80ZTVPLlut-cHRJoNndDnL7iOxnADEsShPomV_Ioxt1dW_Z2im4b8JUxhpQMiSNTJMSRioPf6-5_O2f-MMogQ/s400/IMG_9570.jpg
+  image: images/covers/227fd990e2f821bd.webp
 album_url: https://picasaweb.google.com/103138221614479310970/LesNitsDeCapibolaChinoTheBigBet?authuser=0&feat=embedwebsite
 ---
 

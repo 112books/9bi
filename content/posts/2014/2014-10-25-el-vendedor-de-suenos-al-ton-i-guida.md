@@ -10,7 +10,7 @@ tags:
 - asia
 - STA
 cover:
-  image: https://lh6.googleusercontent.com/-9Kcz2j_mGDY/VErS20zcEOI/AAAAAAAAS3g/nDklMKuttjY/s400/_DSC0835-2.jpg
+  image: images/covers/55d3cb1ee0ccc47f.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ELVENDEDORDESUENOSAlLTONIGUIDA?authuser=0&feat=embedwebsite
 ---
 

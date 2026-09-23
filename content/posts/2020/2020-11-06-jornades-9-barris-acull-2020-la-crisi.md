@@ -11,7 +11,7 @@ tags:
 - jornades
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7gRzPVmSzy1xECiZRe_09XYf6JDhpoi_J02cnaBMONuQtzsVuc8rEytXjeJEWD67o-21FnvVt0I80gYQC4AJfbv2GmQTCuMcqTPYRBHcmiGtjIBYT1VsVpSWzKY3Gw9kGuPug4Aco14c/w640-h427/IMG_1974.jpg
+  image: images/covers/85d9ca68f880cab1.webp
 album_url: https://photos.app.goo.gl/Gi5sCw7WKHwVUaxK9
 ---
 

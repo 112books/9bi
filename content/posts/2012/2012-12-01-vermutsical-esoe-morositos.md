@@ -9,7 +9,7 @@ tags:
 - Esoé
 - morositos
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi91sFrR_qwmTgfSgaXrxThbQ_VRa0bBTVec8i8lD45nPhdHU8PkWqSUvAyLUo4FwOmjQ4z8t_7lca2HBMNb9UzgfwXDFYitsHAdBUq2jRS2-PBnWvWrrTG1S699Qq0Ff-rbT03YH_qvWw/s400/IMG_6393.jpg
+  image: images/covers/48020681772b5f51.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutsicalEsoeMorositos?authuser=0&feat=embedwebsite
 ---
 

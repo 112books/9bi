@@ -11,7 +11,7 @@ tags:
 - neu
 - art
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcsE-wRq7qpGIfOeudM24ipKDf8T02LmCDzuTAwOXhrq9OHg5dcf9iYQ-HOwvCBeRMjezOvofAGFnvxeYtSNhK1Ds_abGmNJdn4ub0Chkrq2_OAIaqJ5S8IYGXN8zqsaoWvAMSeBGfO82LgKUSqUtbHRNxxi-zoM30GxLOPWUkvCdKw9ZSm8vpFXZ0iRA/w640-h426/DSC01321.jpg
+  image: images/covers/0effa6b885c97099.webp
 album_url: https://photos.app.goo.gl/TADrLo8eoU1tdH5W7
 ---
 

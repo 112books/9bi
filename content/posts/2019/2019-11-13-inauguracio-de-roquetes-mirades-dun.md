@@ -11,7 +11,7 @@ tags:
 - preparació
 - exposició
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixZvjXKnKG00AcGuqQyKnw4vsX-e8mUjiUIoE5hVSED3Ho3lzOvXxiQOyJCx_QEgT5ILBLfXOS10XsrU8BjBFHDfm7QdBJYw8H7pI7Pmw6Q7tIH7msl3aVhNVx2-UjyjeX8U6sxbkRxtQ/s640/IMG_20191107_194110.jpg
+  image: images/covers/c0c22435d41d2365.webp
 album_url: https://photos.app.goo.gl/UdiS5Eo2Tczhf3VWA
 ---
 

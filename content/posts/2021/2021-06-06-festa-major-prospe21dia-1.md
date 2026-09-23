@@ -7,7 +7,7 @@ slug: festa-major-prospe21dia-1
 tags:
 - Festa major de prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgea_01SJjlQUwfdWYZKS4Vxqajgfk5AuwMv3vPbK83bifF8746zRFMg6HxDHug1Yb0reEOKDANkeJc0F13eWCSUpHC9N8WnAp_QNwwHfPfU8JIOLeV8jfxz2epYW5KnNyJLWkZleaTR64/w640-h426/IMG_4849.JPG
+  image: images/covers/dcc7f361cc68fc01.webp
 album_url: https://photos.app.goo.gl/H7cy5MkHTepMoT736
 ---
 

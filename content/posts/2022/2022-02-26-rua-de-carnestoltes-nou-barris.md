@@ -10,7 +10,7 @@ tags:
 - barri
 - rua
 cover:
-  image: https://blogger.googleusercontent.com/img/a/AVvXsEiJ1BvzJsuM7Tq5lXowGVAf-LwyIDWWs9B8uSNAybSLwo9IM9E4zOPzoRRBdFSqtPNpMKJD4pn_Lg8nr57OnPjXQFmH5Mvz6Hb_dBmXwWTz0TbRxzD5uwnlb2Ega3s7s1qIizblwhZLjVbscBCQn9mZiqlYRXx03-XGMfdMaTYmLFGFPphF5XlZzKwv=w640-h426
+  image: images/covers/f477407074bc8f81.webp
 album_url: https://photos.app.goo.gl/r9n2BCqcBEAUWP1AA
 ---
 

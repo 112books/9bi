@@ -11,7 +11,7 @@ tags:
 - FESTA
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEik5TeTYJW3nmz-LInxVJ2WYDe-C5BrHjQlQTI6cdijZRkmEYKhGDxpLsphMDZUoB90FVvKOs2JK6QeDKbuk4Hm4oj9BSsyTEPklyaiVXRzHOInFXtQgjuP5GNDkISsWv4iQnIyZiNSj2iP9Qw3YbBWtXE99CqValg6U40qARrDc4FKjxBvfKIhWWyVZfs/w640-h394/2023-11-05-%20M5-35F3.5-Foma100%20-Festa%20tardor%20hort%20-%200020.jpg
+  image: images/covers/15e68907516f1aaa.webp
 album_url: https://photos.app.goo.gl/ESHXJUcjDFu72g969
 ---
 

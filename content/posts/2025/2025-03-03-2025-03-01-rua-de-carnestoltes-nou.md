@@ -11,7 +11,7 @@ tags:
 - nou barris
 - carnaval
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8f99nuRtE2q75YkCbuwa0J48HrSG-O3ihioYs2zx2eWMFpECu5znyx4qc9K5gYVGh-4c14jvvB5EAEs20kL9zC8ITJumtdsfoFVcZ301zqyf8B53qhPrPcnBgOJdgIV45xdb0s1t4xo6yZa4fmFdgtNpeF_gUCHTCsLMTfCT3bI2zTzsycFuj4MrLll8/w640-h360/DSCF9623-Mejorado-NR.jpg
+  image: images/covers/c04c8ad908bcb699.webp
 album_url: https://photos.app.goo.gl/fsDhk8ihwuB4HbWE6
 ---
 

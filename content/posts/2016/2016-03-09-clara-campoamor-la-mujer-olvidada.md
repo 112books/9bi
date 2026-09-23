@@ -11,7 +11,7 @@ tags:
 - dones
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkSVPG6BNDZyTZTe0wk2bZ6y4f385isIIg8TN1OsrVnib3V8p36emx2qd3RctLndp43TnPx9JnPLnI6lR3wq1Zx0Uwx6P7Gn4hbvGtd8iPtRICketjDUmNFZ92Ccq_cihcKA6yCcY4XgY/s400-Ic42/_DSC0249.jpg
+  image: images/covers/cabd08dced8a5186.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ClaraCampoamorLaMujerOlvidada?authuser=0&feat=embedwebsite
 ---
 

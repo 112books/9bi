@@ -11,7 +11,7 @@ tags:
 - prospe
 - festes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5WVZXTMbKmJijrUvVPp3X0z9z7mstQ3jc0TzCv3PxuoJdLYiB2B5QpH7R9j6pYWfL7gM1M2ON-L1ESE29_dFx5y24vs7mB077LhmRxqWyAXMeaTyQnzaaPxIWlcVUoiSCTvkcZJcRLdaa/w640-h426/_DSF1222.jpg
+  image: images/covers/ed0eaee2e32947e0.webp
 album_url: https://photos.app.goo.gl/KRqP8Y7PvQBwyngd6
 ---
 

@@ -11,7 +11,7 @@ tags:
 - presentacion
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEbWaH-FXGaXfd4H5LkUfNkC7wNHT1IG1FMmkHTc1BE6TUoconyI6j-mLI-XWGtu0xCWzO2tjRXssD_MQ9MPexx6SWZgLwUY6TNELYHyV-XghsLow0Oav-PPtvNHeWuVQCsNIOwpVphdtWz4EdCWx5JaDogAJUbj855100PQrpn4wvkhNScFNx7p9650E/w640-h426/IMG_3398.jpg
+  image: images/covers/a6052a61dac5f7a5.webp
 album_url: https://photos.app.goo.gl/WoLpE3VMFYyzbcGM6
 ---
 

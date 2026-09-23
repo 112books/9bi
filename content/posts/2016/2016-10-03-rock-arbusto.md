@@ -8,7 +8,7 @@ tags:
 - arbusto
 - rock
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaQnZASfs2gnRU3l6kgVpgSjquogViw4UdG9KAkfJr9X96hYm24y4xhWDq_wBHJwKM-qksHYmZh2nBBjP2QPHLwyRe3pWfufZMx0kNrjqBD4O4VDsy84YgL6i4iQSI8D1SHgfMEa76pDE/s640/P1020125.jpg
+  image: images/covers/b170ae224e3bad02.webp
 album_url: https://photos.google.com/share/AF1QipOmS_Q4s43xxkWA0Raq_-yQsdXu7gBkCW990vEKJAP5I3KtvJvgkIZ551trMofYBA?hl=es&amp;key=NkJHcXBrUWhCSTFra1B4aF9zQ3YtMmNxSU9hU0hB
 ---
 

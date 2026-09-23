@@ -11,7 +11,7 @@ tags:
 - nou barris
 - les basses
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDgmPMGJWTPj4mLS4dnt4pxdtjl_g927zM9UJsszJyr6VbvR3_IJhQggziC6KZRWUoVFwaxDESRx3DDihUXORs3-mrocHWicx0S1UCri2x4xzCQR2moThtr3pMFvK7O4vthLTnBxKp3x4/s640/_2060029-2.jpg
+  image: images/covers/a70960886278367c.webp
 album_url: https://photos.app.goo.gl/16liRDU5vu9uaueY2
 ---
 

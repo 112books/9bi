@@ -7,7 +7,7 @@ slug: homenatge-la-republica-2012
 tags:
 - República
 cover:
-  image: https://lh5.googleusercontent.com/-Avc1tlW3eKQ/T4oJiEqKlXI/AAAAAAAACbU/BlXfToBcZMo/s400/Republica12%2520%252832%2529.jpg
+  image: images/covers/36a5e5727747d5a5.webp
 album_url: ' https://picasaweb.google.com/116805523004990742624/HomenatgeALaRepublica2012?authuser=0&authkey=Gv1sRgCIrJtJLaxbP4nQE&feat=embedwebsite '
 ---
 

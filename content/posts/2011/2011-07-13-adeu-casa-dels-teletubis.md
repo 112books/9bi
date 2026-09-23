@@ -8,7 +8,7 @@ tags:
 - Parking
 - Ángel Pesstaña
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNXwm5fyNLRCnofz1y-YgjrOQAnTUjLZ5i_aClcdM-5tvBTikJllQGiqPpXaoAFWiVIVG7ZZx4pqxZsD8atHbL6zaNLZaP6oc9uiDBli-AO4g-oKYIBhUYSttLamUD7wfYOMUDBQ_0AVs/s400/IMG_9810.jpg
+  image: images/covers/a73650cdc51ac5ca.webp
 album_url: https://picasaweb.google.com/lh/photo/57pKCjSzVyMrVcuRxvV9NyNZu-J6foWPLSKo6v3JBlc?feat=embedwebsite
 ---
 

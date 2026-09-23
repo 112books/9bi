@@ -11,7 +11,7 @@ tags:
 - presentació Premsa
 - tattoo
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4uaOPUQLVoWeuJvWVU_sc5BL2bc3z7h6i2_uKeZmanyUS2QO4MpK-F_ax4E39kiKRskQVDaH6eLD-V9jae-xqubZD7RwVIiZDaWLm2caq3qO0vEF7kOD-Fh76kewn5MM1f8H0w8j3JPY/w640-h426/IMG_1456.JPG
+  image: images/covers/aac557cbd01e1dab.webp
 album_url: https://photos.app.goo.gl/3FkJojzogoawmfYm6
 ---
 

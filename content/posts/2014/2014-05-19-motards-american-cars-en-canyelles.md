@@ -9,7 +9,7 @@ tags:
 - canyelles
 - expo
 cover:
-  image: https://lh4.googleusercontent.com/-aNhnqNG_m4w/U3pUcy3rqYE/AAAAAAAAB0M/rGpsjFpkraI/s160-c/ExposicioDeMotosICotxesAmericans.jpg
+  image: images/covers/8793bf065c9d32a4.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ExposicioDeMotosICotxesAmericans?authuser=0&feat=embedwebsite
 ---
 

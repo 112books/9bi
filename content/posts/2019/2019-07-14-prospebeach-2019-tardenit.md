@@ -11,7 +11,7 @@ tags:
 - Voleibol
 - música
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9mxLQwchwZG3oZZhN0rLvqLvmEfWQ-9bBBCjq72nvQfkdh8biOMmXlmN4JmvsLH_oDdMNm3LTapKCUYM5wU6Hn3MWy7hXHQTjWaqSSs2hF4tmSYZa4yBYJaTQ-AtMey7k2mg6DXmBNsy2/s640/P2150237.JPG
+  image: images/covers/a81e0df5914424d6.webp
 album_url: https://photos.app.goo.gl/kkYZqy97gSEX4kS7A
 ---
 

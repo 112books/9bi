@@ -11,7 +11,7 @@ tags:
 - Reocupació
 - Ocupació
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrEeP9XZmzX8M_JrMOz3ZrDkmPwn-SI4ymvr0VVgGmvQCalrts6iKeUr_U9b4Em7O8Iot3IZMm6CwDam6f3QJgC6Ly98KV1vuYd8QTlNYDpIM6K0dfPmkkvIjafbPCel6x0Wj4zc3dwjg/s640/IMG_20190117_143001.jpg
+  image: images/covers/424855f73e611224.webp
 album_url: https://photos.app.goo.gl/GhMCbFT1r1rbGyy27
 ---
 

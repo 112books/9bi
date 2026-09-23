@@ -7,7 +7,7 @@ slug: presentacio-plataforma-guanyem
 tags:
 - presentació
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtsoa45IcgmHuR0tEjxPZIFEhx7B3Rkz_n83gqTkcbGmqPxrlByBrfO_YTr-0LEd7uWVtxDV75aLInUGLvx3Rsd2IiJLIsXLq8ApcD7HfsdIJacAgu8DX4C48EEaD15geIaJYbm1ylbIQ/s400/IMG_6252.jpg
+  image: images/covers/b5b4b86cffa51b5f.webp
 album_url: https://picasaweb.google.com/103138221614479310970/PresentacioPlataformaGuanyem?authuser=0&feat=embedwebsite
 ---
 

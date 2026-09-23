@@ -10,7 +10,7 @@ tags:
 - lolanoestassola
 - vermouthsical
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjy0H_0nJlZGC86gLamED3WqN-x_09T-3-Q40X_WlmVo2RSYw2hIxtF2CMrPHS8KFd5gdDIxJrXg5xzWRfRtmuFCX2nQXZrplGyCjAMwcP8A95QAKt52IaLXcEHgFNSdUYdJmQZXAcJqpc/s640/IMG_2538.JPG
+  image: images/covers/e3a25d627aa3723c.webp
 album_url: https://photos.google.com/share/AF1QipO3no2Ml5mRQ0VaFi7kePEDKEHhZmGiQLP9-87cw-EXie7LAk2yAuyeKGe8GUJ5hg?key=eXotVmpxaTBWWUM5eW81OC1zWTRRS3VEV0g3clh3
 ---
 

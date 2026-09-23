@@ -11,7 +11,7 @@ tags:
 - casal de barri
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz0OLsMhNW0vZJvL0_qwBoCzkDJlFkGLdojGvrB0HNmA5XxnR5X50qD2sMs57eeuEvJvyRuX2FO-b8jZwDPhebKFFQPLVHEsTw29TQYNi7LqmsQ2w9R4fMGoTilVsuDM0r7eFw0RloHgAs9V5DI0jTkKmYoTCZpDtGxMvos4AODZoCCL1hpnR8Tf6g/s16000/cordoncillo22.jpg
+  image: images/covers/44d1b9aeab042064.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

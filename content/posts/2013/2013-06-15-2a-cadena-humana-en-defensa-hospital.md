@@ -12,7 +12,7 @@ tags:
 - retallades
 - sanitat
 cover:
-  image: https://lh6.googleusercontent.com/-LrLPjqCmPFo/UbyMOi_g5ME/AAAAAAAAGSU/wX0JQIMufYk/s160-c/2aCadenaHumanaHospitalVallHebron.jpg
+  image: images/covers/5eab652e5e9bc761.webp
 album_url: https://picasaweb.google.com/114858497713897843587/2aCadenaHumanaHospitalVallHebron?authuser=0&feat=embedwebsite
 ---
 

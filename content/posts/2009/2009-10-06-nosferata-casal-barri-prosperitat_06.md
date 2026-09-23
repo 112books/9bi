@@ -10,7 +10,7 @@ tags:
 - manel sala ulls
 - teatre
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0x8jNPE4lLuofG7OgukWA__RpMHLeFStdkdndXbBHcDKphBiCvEvPGjtf7ZXnTyIEAdWNFraZyJiWQuYAo6NQFKH1gDpmwJQvy5xmXhh-v3umAB0bCC-jTBWSB6I8oO3bS27o6jpcbTUe/s400/IMG_2038.JPG
+  image: images/covers/3864a106e6e8363c.webp
 album_url: http://picasaweb.google.es/ulls1963/NosferataCasalBarriProsperitat?feat=embedwebsite
 ---
 

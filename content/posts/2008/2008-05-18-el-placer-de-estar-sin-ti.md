@@ -11,7 +11,7 @@ tags:
 - flamenc
 - fiesta
 cover:
-  image: http://lh3.ggpht.com/jaime14bf/SDATwrmFUlE/AAAAAAAAAU4/LqjDeBrm_w8/s160-c/ELPLACERDEESTARSINTI.jpg
+  image: images/covers/115fcd0f08406c4b.webp
 album_url: http://picasaweb.google.es/jaime14bf/ELPLACERDEESTARSINTI
 ---
 

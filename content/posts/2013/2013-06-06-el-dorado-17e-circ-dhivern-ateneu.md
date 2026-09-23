@@ -11,7 +11,7 @@ tags:
 - barri
 - circ
 cover:
-  image: https://lh3.googleusercontent.com/-meYVKrRgtNc/UbC-kAtu2uI/AAAAAAABg5U/lzZXGlCU2LE/s400/IMG_7975.jpg
+  image: images/covers/08755d5428c110b3.webp
 album_url: https://picasaweb.google.com/100268695753733554853/ElDorado17eCircDHivernAteneuPopular9Barris?authuser=0&amp;feat=embedwebsite
 ---
 

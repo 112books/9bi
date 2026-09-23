@@ -11,7 +11,7 @@ tags:
 - manel sala ulls
 - pirineus de circ
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhah1R7cQ3Qo-gfDEkHI3CUwXlJNrpXDxulPik0t98RfUP_3lS-o1ev_Hz_xjs6n7xkDBJFR73nGYd0gMVfi4G9s3i91KP0_h46yNiEPTu4cSq-TLGUh9zDkyD5jxm7Oc4UbPH7VifGGiBH/s400/circ%20que%20o-%20acrostiches-%20ulls-%20029.jpg
+  image: images/covers/be579101d84925cd.webp
 album_url: http://picasaweb.google.es/ulls2006/CircQueOCircEnTranshumanciaBarcelonaJacaToulouseBalma?feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - maquillatge
 - concert
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy7WCHNLer51cVBlV59wWbSob5Or30L5bmv3bU2OEC0RoGQO2rd4LILgv_6tRcUE6d7lHNLL1odDZSRldk6SXoTTLKF99jNn3W74HsdgP9-erVKuQnUFxGiqQ3ksLd8Td3LSaMCl2csy_U/s640/IMG_20191116_131501.jpg
+  image: images/covers/b8e1d42a6717e2e6.webp
 album_url: https://photos.app.goo.gl/XjH1XhJrdChPGwYH8
 ---
 

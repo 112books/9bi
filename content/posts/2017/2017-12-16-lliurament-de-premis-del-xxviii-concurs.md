@@ -11,7 +11,7 @@ tags:
 - 9barris
 - concurs
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgecay06ujYDRQKyr9CZ0h1YrG7LJcL_TkCPYySEr7hN8jC-T5ufkPCotDGIyidoMkkMshTXUU2Drj5gOCMRWvvxRB2qUe_c_c1qcpSfwwNogpGSkIgeHguoEer7sHKK_8x3UkUr7sPNE0/s640/_DSF3261.jpg
+  image: images/covers/2ed65f0a552f9746.webp
 album_url: https://photos.app.goo.gl/TTHYhjEujUIESivJ3
 ---
 

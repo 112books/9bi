@@ -10,7 +10,7 @@ tags:
 - joan.linuxbcn.com
 - Ángel Pesstaña
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjd07sQDPYJcwxEg00FqS9BvaOE-Dw9UjMOIgvsq4SfUYj-RDr2v4xAd0_CJJbHHCVRQR5TTM2QA60gDxuUX4QxIjQoW-RMzODunK2jRh7C-NMNN9dN3jblwwLwu6SHe_b5bzlHdE8KN1M/s400/IMG_5210.jpg
+  image: images/covers/e00e8b57c35ab21e.webp
 album_url: https://picasaweb.google.com/linuxbcn/CinemaALaFrescaLaAntena?authkey=Gv1sRgCKD_ks-gwv_hkAE
 ---
 

@@ -9,7 +9,7 @@ tags:
 - prospe
 - beach
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYbQCTmyohSkTdbs9DE73dQ_2e-BZam6-P2Xif2S1XT7Sp211qp7S8Xc58go-oGLPtLAeHYtQYcJvhK9KWf7GCG2rB_pbe8Zd9lAI6a8cCUZWYgZ50Lge8-vHqSuCbu89EknxY6czZyDgJ/s400/IMG_8198.jpg
+  image: images/covers/db5109b300b9fcdc.webp
 album_url: https://picasaweb.google.com/100268695753733554853/SuperHeroisProspeBeach2012?authuser=0&amp;feat=embedwebsite
 ---
 

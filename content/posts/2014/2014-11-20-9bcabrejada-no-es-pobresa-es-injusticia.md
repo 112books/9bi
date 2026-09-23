@@ -8,7 +8,7 @@ tags:
 - 9bcabrejada
 - obres
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwwQ0NWXpqJ6yODXrtDHZO0HuGIsK_7i4aT30vR4-BbW78cRUBuerxRiG3eRV2DoJGJ8nR9ST3Rfj8M0rFIVhinNeqGZ_OiAP0NkY9SlVLS7IBiC-1ipLT_FotmcgIdd3F_ZzhCNFEW_8/s400/IMG_6999.jpg
+  image: images/covers/f1a4f4f92b372768.webp
 album_url: https://picasaweb.google.com/103138221614479310970/9BCabrejadaNoEsPobresaEsInjusticia?authuser=0&feat=embedwebsite
 ---
 

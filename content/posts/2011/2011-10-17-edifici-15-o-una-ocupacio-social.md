@@ -10,7 +10,7 @@ tags:
 - Almagro 2-4
 - Ocupació
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdE6xoPGHnb7XppgVc6UbEbVSTgoqXHhyl6ymMQBeVYDC62MhSTR6FFMzubDo1R63tKU-3zAhChK3qAx1xtem8X5bO0IVc5GnGyIhC2dw7NBjfG_qEKsrbgZ7-0WiQ7C5bjouL9zlHx6c/w640-h480/IMG_6925.jpg
+  image: images/covers/76afebb609a03f72.webp
 album_url: https://photos.app.goo.gl/MRoVg5MXgf6dW2Sy8
 ---
 

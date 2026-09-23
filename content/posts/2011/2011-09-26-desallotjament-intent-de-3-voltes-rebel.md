@@ -9,7 +9,7 @@ tags:
 - desallotjament
 - fotos
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCwNX0eF7wp8CzoWTmFtsEtBIuDduHHAI__GP0C-sxAspSPZwWkJ2JFGaHWVL44rUfntKoMQHOmPs8g9fy-JhFGAQT02te52_T2YU3TliWlF5n0plWENFYvsbF5YoI4DuTb9ocq-TXuvg/w640-h480/IMG_6547.jpg
+  image: images/covers/3079982faccf5a61.webp
 album_url: https://photos.app.goo.gl/YAec3yvKX9xDwrnP6
 ---
 

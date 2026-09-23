@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - presentació
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgY_NwZh3cWs-N4KXtraa2Qecay8TQGueYFHEYQYtSLOIDnY9hpWeg4va0RKe-t64rw9FPkipQA2jgFCsVFG88_FMgRdNiHTxubBvv6TUwDC-L5VsrDALFtMwG3cm5cHeholdG5S4hN-SgE/s400/IMG_7836.jpg
+  image: images/covers/27e60364dc297955.webp
 album_url: https://picasaweb.google.com/100268695753733554853/PresentacioDelLLibreELULTIMOARAGONESVIVO?authuser=0&amp;feat=embedwebsite
 ---
 

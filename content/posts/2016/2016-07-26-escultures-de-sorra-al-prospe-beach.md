@@ -11,7 +11,7 @@ tags:
 - beach
 - sorra
 cover:
-  image: https://lh3.googleusercontent.com/-kppEEYAIpi8/V5cqhulQBdE/AAAAAAAAIuI/eYsjMAZTDEQQJp_AsXc4uNfEJGKIJxAygCCo/s160-c/6311560161711359441
+  image: images/covers/52890d0e915c5fdb.webp
 album_url: https://picasaweb.google.com/114858497713897843587/6311560161711359441?authuser=0&feat=embedwebsite
 ---
 

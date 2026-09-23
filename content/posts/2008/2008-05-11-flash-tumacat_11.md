@@ -11,7 +11,7 @@ tags:
 - CASAL
 - casa
 cover:
-  image: http://lh5.ggpht.com/pedro.cervera/SCcZfF6dYCI/AAAAAAAAAKM/BkFK3pExHjY/s400/IMG_2307.JPG
+  image: images/covers/f6f258e37ff2c30a.webp
 album_url: http://picasaweb.google.com/pedro.cervera/FLASHTumacat/photo#5199152316776538146
 ---
 

@@ -9,7 +9,7 @@ tags:
 - documental
 - Playmaker
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjy81Gyj5iYMCwTxwynOTmjlMpdRGLSsS84SFzQOvXC_wVrbrlmZQfEVEWzgE_aF_uanJR-reVwhHDoXXE7-FSyviFwvovfrb4fS_rDC33PdRGK-glyfLZSXDIFsdnShuFht5wbBfi1ACk/s400/IMG_8477.jpg
+  image: images/covers/8b2b8caf88448ba1.webp
 album_url: https://picasaweb.google.com/103138221614479310970/9BinBlackCocmentalDjCasalJovesProspe?authuser=0&feat=embedwebsit
 ---
 

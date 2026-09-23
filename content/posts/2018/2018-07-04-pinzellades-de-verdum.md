@@ -11,7 +11,7 @@ tags:
 - verdum
 - juliol
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNlV5CWd4H66HaAe3IrPPr_f3IMn_cvtTQ3Swluq51ajvtG-nUqPGyx1Optcnikv3t7yeACWQh-PlXVAHI2y-R-sfBXl67AdIM5HEtMnOwKBSz7QBt-I96S7scbrfnU7yICcQH6BSKXBM/s640/20180703_195022.jpg
+  image: images/covers/66b1c60eed69e4a6.webp
 album_url: https://photos.app.goo.gl/QXECntTtmWAiLw8x5
 ---
 

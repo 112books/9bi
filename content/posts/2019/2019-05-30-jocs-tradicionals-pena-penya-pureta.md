@@ -7,7 +7,7 @@ slug: jocs-tradicionals-pena-penya-pureta
 tags:
 - jocs
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOU_Jsc1vlO9SW5EPoI0JkJnfoFR1hZ5XCZFqhJVZUTMTDCUz4e8DJRiufEJrKlDmI47FwpkUmCGVDu2Biq1KiV5bPFBgm6szhJgBFR1o37VtYpHW473cxEPpDRrusGcnC-B4JqKIpZCMB/s640/P2210408.jpg
+  image: images/covers/ab3c8db9bb126ce2.webp
 album_url: https://photos.google.com/share/AF1QipM-2NIUDAQXoJTCQrKfv6YCbbMYTzeEx1XaoddFU6f7d2c7C2k8Phq9DJcBYXq4dA?key=NF9fclB2ZUpwaEVEYWRrRjBrZFJCS09ZWWc0QWl3
 ---
 

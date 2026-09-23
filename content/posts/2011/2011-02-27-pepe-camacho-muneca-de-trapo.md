@@ -11,7 +11,7 @@ tags:
 - Muñeca de Trapo
 - Pepe Camacho
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj89hCyFDhIP5eJYXMWu-f2uDBBSGctTnnpzqho1HULxlgaIfzqoNnR__fg3GPjc9ke1mto_yt5RPeN7P1m_IVkIwxlAh2ODvp5sCdHKPHs10w7H3jSdhBy8c5fMWOOc0np8P6J-FIcrRQ/s400/IMG_2029.jpg
+  image: images/covers/41381bce969c8b58.webp
 album_url: https://picasaweb.google.com/linuxbcn/PepeCamachoMunecaDeTrapo?feat=embedwebsite
 ---
 

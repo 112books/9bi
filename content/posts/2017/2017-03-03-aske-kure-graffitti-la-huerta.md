@@ -10,7 +10,7 @@ tags:
 - ball
 - quim
 cover:
-  image: https://3.bp.blogspot.com/-ZbdidEzovWU/WLm8uqjt_vI/AAAAAAAASmc/zmPo6vTQpjcfhKuiqaMVg_zeZg7FFcn7QCPcB/s640/GRAFFITTI%2B-%2B36.jpg
+  image: images/covers/8de83389d501fdd3.webp
 album_url: https://goo.gl/photos/GcuLEqhsfG4PPV167
 ---
 

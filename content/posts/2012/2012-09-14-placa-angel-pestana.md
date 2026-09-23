@@ -9,7 +9,7 @@ tags:
 - plaça Àngel Pestaña
 - xoricia
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYT1JmEnVOQ1u7ujfnmzfbTozky2MGNZLVIVdUC6EEAtEQvnxUO7UFhTnrqkhbGDqU0Iy4hXwWNfFznBKwMcAxk3Zjwe-lMLDZL7APJjLNR0N-g6nOpVElwDQA5Bcj-oHtx0RYN3cU4_c/s320/IMG_4895.jpg
+  image: images/covers/3b96671539f16cdf.webp
 ---
 
 

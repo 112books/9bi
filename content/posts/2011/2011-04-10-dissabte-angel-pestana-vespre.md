@@ -9,7 +9,7 @@ tags:
 - fotografia
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI5nc-y_haCqT4JY6f2Ef6_dVpRnJoI9AvICjiA92ikhmbpojrKUR0KXCqE-kT9pdajsSCdmNE6R0dl2Buss2YgRatZgFB5hS9v2SmvJFNTO6oz2HelsXO39_LmeMF5V5lHljUl25nG3E/s400/IMG_4512.jpg
+  image: images/covers/d959c7d648147a74.webp
 album_url: https://picasaweb.google.com/linuxbcn/DissabteAngelPestanaVespre?feat=embedwebsite
 ---
 

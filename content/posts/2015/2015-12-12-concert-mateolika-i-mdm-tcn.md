@@ -9,7 +9,7 @@ tags:
 - concert
 - Mateo
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNhtSuJQuNEI4sv4axwu6qxmjjGZLH1CVhgdouOm3T7ETpRgUrk6D8kEC41xqsWbGs_Er328DXMRev5Lst-cMOrX5YGrK8gxP8J6bffTSbdwb4aTjx9_x-EsnuU-qY3vZJlEXXbA6pcfM/s400-Ic42/IMG_6558.jpg
+  image: images/covers/aaea9413ab3de67c.webp
 album_url: https://picasaweb.google.com/103138221614479310970/ConcertMateolikaIMDMTCN?authuser=0&feat=embedwebsite
 ---
 

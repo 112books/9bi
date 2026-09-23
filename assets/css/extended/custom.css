@@ -325,10 +325,56 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: underline;
 }
 
+.footer-social-list .footer-social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.footer-social-link svg {
+  width: 18px;
+  height: 18px;
+  flex: none;
+}
+.footer-social-link:hover svg {
+  color: var(--primary);
+}
+
 .footer-col--logo img {
   width: var(--logo-width);
   height: auto;
   max-width: 100%;
+}
+
+/* 9 Barris en números: una sola línia, sota les 5 columnes */
+.footer-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  max-width: calc(var(--nav-width) + var(--gap) * 2);
+  margin: auto;
+  padding: 0.25rem var(--gap) 1.5rem;
+  text-align: center;
+}
+.footer-stats .footer-col-title {
+  margin-bottom: 0;
+}
+.footer-stats-line {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  font-size: 0.95rem;
+  color: var(--secondary);
+}
+.footer-stats-line .stat-num {
+  font-weight: 700;
+  color: var(--primary);
+}
+.footer-stats-line .stat-sep {
+  color: var(--border);
+  font-weight: 700;
 }
 
 .footer-bottom {
@@ -418,18 +464,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Logo Taro a la columna buida + text «Photo App» a sota, color adaptatiu */
-.footer-col--empty a.taro-mark {
+/* Logo Taro + socials a la seva columna: Taro «Photo App» amb enllaç, i a sota RSS/Instagram/Telegram */
+.footer-col--socials .taro-mark {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 4px;
   text-decoration: none;
+  margin: 0.25rem 0 0.75rem;
 }
-.footer-col--empty a.taro-mark img {
+.footer-col--socials .taro-mark img {
   display: block;
 }
-.footer-col--empty a.taro-mark:hover img {
+.footer-col--socials .taro-mark:hover img {
   animation: footer-logo-wiggle 0.7s ease-in-out;
 }
 .taro-app-name {
@@ -443,9 +490,9 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 1024px) {
   .footer-cols {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
-  .footer-col--empty {
+  .footer-col--spacer {
     display: none;
   }
 }
@@ -456,32 +503,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 480px) {
   .footer-cols {
-    grid-template-columns: auto minmax(0, 1fr);
-    grid-template-areas:
-      "logo web"
-      "legal legal"
-      "stats stats";
-    align-items: center;
+    grid-template-columns: 1fr 1fr;
   }
-  .footer-col--logo { grid-area: logo; }
-  .footer-col--web { grid-area: web; }
-  .footer-col--legal { grid-area: legal; }
-  .footer-col--stats { grid-area: stats; }
-  .footer-col--legal .footer-col-list,
-  .footer-col--stats .footer-col-list {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 0 0.55rem;
+  .footer-col--logo {
+    text-align: left;
   }
+  .footer-col--web,
   .footer-col--legal {
     text-align: center;
   }
+  .footer-col--web .footer-col-list,
   .footer-col--legal .footer-col-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
     justify-content: center;
+    gap: 0 0.55rem;
   }
-  .footer-col--legal .footer-col-list li + li::before,
-  .footer-col--stats .footer-col-list li + li::before {
+  .footer-col--web .footer-col-list li + li::before,
+  .footer-col--legal .footer-col-list li + li::before {
     content: "·";
     margin-right: 0.55rem;
   }
@@ -646,6 +686,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ---- Header sticky amb transformació a icones (escriptori) ---- */
+
+.menu a {
+  font-weight: 600;
+}
+.menu a .menu-text.active {
+  font-weight: 700;
+}
 
 .menu-icon {
   display: none;

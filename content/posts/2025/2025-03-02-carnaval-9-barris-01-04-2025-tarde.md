@@ -10,7 +10,7 @@ tags:
 - fiesta
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicL-E0ZzxnkMrTG_PrMnwZDscmv-mZzZewbyI94QckpigqY0vEQXa6o6u6NPtwi_OqPPleH_xxDfNhDoOlhGN32cT6L14VCJy0aUbZIG8mXMfQOmWuO6hNmjNqGk66gAXFM_3K0mxQsDbWbbjvMJn0S0TVkor9pNWXCXLS-2eqvBaxjBr7Lpq7MThH6jU/w640-h426/PG0_1308.jpg
+  image: images/covers/2a67d70b7538a88b.webp
 album_url: https://photos.app.goo.gl/QLzUi32tHEbQSKbe8
 ---
 

@@ -8,7 +8,7 @@ tags:
 - jazz
 - veu
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3JkE6O4-6yklYzlRaDn8eWU3kTq6zwwHJHVZ_YtE4b7m2h1Cz4W7_wUXEOrBXyfAgidB_91vamkhq7-QQD-eI5vHbz6-0NGoCUfI9YWKFbHJ-TbOMkbITnZQ_8viyDQ4m1AsvC9SqM8B6XVnETJlIdeokpFUaOgvmCYllID_JUjMQ9NzDG5o7BlR_/w640-h426/2022-07-22%20-%20Papa%20Orbe%20&amp;%20los%20cienti%CC%81ficos%20del%20Sabor0018.jpg
+  image: images/covers/5436c703b2433e6e.webp
 album_url: https://photos.app.goo.gl/LNK6Ei8SGXUbsgrb7
 ---
 

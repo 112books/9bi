@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - vía júlia
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFMp3dS54qdhBEsuzSUTo4GaNjQX6oj-XrMbrMFh1TdRz387vTw6VeGxNU_WwgNJQmdWceHbt1qJ-MEexzCzDeGKP1BE6IXv5kZd7wne0F7SOGbXb9y2VFQf2aDhwn_FqhVLaE-ESg_acZZiyt_GQ-sz6N1Dx9hKuAvMk7C3MLfw5EbjR1L6MB1BHUYU8/w640-h426/IMG_6813.jpg
+  image: images/covers/5e19b41c52a00c26.webp
 album_url: https://photos.app.goo.gl/WxEyo3yvmsuMBYr57
 ---
 

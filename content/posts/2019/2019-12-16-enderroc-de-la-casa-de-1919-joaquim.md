@@ -7,7 +7,7 @@ slug: enderroc-de-la-casa-de-1919-joaquim
 tags:
 - CENTENARI DE LA PROSPERITAT
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiW_d8-352J7sRiJpfF91pcxDW2nUz0d6jU-2X4Yal9uWBwNutmuxfvQWSaFaqfc7-9y7cuo_OgOTsUaH9-_wIVGP0MfckaXSoICFubkqHCHKidw5Oxo7ErLIgIJTWe2qyr-Kv9SIgWM6M/s640/ENDERROC+-+40.jpg
+  image: images/covers/ec2818dad24b255f.webp
 album_url: https://photos.app.goo.gl/n9ZTfXAuomY69YT6A
 ---
 

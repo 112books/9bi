@@ -11,7 +11,7 @@ tags:
 - 9 barris
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgs0025kobOYNm0S3KT62em05H-FIJgGRBFvJR47DFqw1-R_A8ip2tT6Ms7c_Kt7aHZ9OBE0zLrOquGpMbSxgAY1YtC0GV-3rmccLtMDNjqsivaJS7A_tTuu1BNWUK9qS1QujiGHZMSxooV/s400/aniversari+blog.jpg
+  image: images/covers/67db7e4e7812938c.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

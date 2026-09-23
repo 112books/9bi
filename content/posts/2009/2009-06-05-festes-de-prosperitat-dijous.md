@@ -11,7 +11,7 @@ tags:
 - guateque puretas
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQiISamGblRGRwKJKjtJFC7-qtWpAIajCcDiGUvDi0BXiH-8wK6ALxs2VRgi5EkElJkcqsazfXoEuB4bsph9-u8IzGNrlHKMzdhtI7FSrF6LMRzbxNesk2f8VP0gySSMoOcSqdeTqx9cg/w640-h426/IMG_5705.JPG
+  image: images/covers/49d01168d779241f.webp
 album_url: https://photos.app.goo.gl/xFMfvrgmgDJAprrW6
 ---
 

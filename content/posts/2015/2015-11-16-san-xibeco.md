@@ -8,7 +8,7 @@ tags:
 - san xibeco
 - xibeco
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjenuMKCcbYwPuqCkPNfyJrOtYE_NzFJFDd-8zf-C2-b6kdWQW-2HOticbE8nPC2Gdk6_5c5zx-qjVOn9EsratspLIU9-QCOEfOH2-0hv5xPcNmh-q2CNmMU8SzkpxvhF01QWks6Bq97dA/s400-Ic42/DSC_8379.jpg
+  image: images/covers/f39545fd085c2269.webp
 album_url: https://picasaweb.google.com/115791131166530059320/SANXIBECO?authuser=0&feat=embedwebsite
 ---
 

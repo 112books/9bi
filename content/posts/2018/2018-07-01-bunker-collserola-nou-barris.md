@@ -11,7 +11,7 @@ tags:
 - torre baró
 - bunker
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyujrpKc2As1NfAB6lcf2FgesvT97bi9ELX1mbzGKXj3ettQSbkayn1uBSPRcblnJpFgG7TrEew-oIxTZJlNxp0dGgV-YsXhN_6F_aIPKJmcDsVftusJIljw-bX6dlPZKRFUn5-Z-12-A/s640/20180624_204920.jpg
+  image: images/covers/e8c61077425348a5.webp
 album_url: https://photos.app.goo.gl/EfKzoJJPL23x3e4Q8
 ---
 

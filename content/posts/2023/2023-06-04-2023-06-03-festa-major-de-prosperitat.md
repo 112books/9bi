@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - festa major
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZedBOv1z1nXVTkgDRLuRa04XYkarldxUIey4A7F4TTQdHKAiH2-VMkTxlWErtNw6Cl-Kd_Tk-bZff0_59ismYJdu5BHUK_zHWtJ0ms6LiAfh1u6GwGYqdffB_0QD0H0tpiHKcFv8XYHI/w640-h426/?authuser=0
+  image: images/covers/f078ace23b93a122.webp
 album_url: https://photos.app.goo.gl/ukASj1eL2JKJ3wX17
 ---
 

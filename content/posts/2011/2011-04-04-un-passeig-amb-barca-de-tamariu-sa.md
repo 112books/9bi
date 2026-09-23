@@ -8,7 +8,7 @@ tags:
 - costa brava
 - manel sala ulls
 cover:
-  image: https://lh6.googleusercontent.com/_haV9L05_31g/TZiPPmcv7zI/AAAAAAABFvU/GyHlkMRpXZA/s400/IMG_0792.jpg
+  image: images/covers/c518ff87a63b22e1.webp
 album_url: https://picasaweb.google.com/ulls2006/UnPasseigAmbBarcaDeTamariuASaRieraBaixEmpordaCostaBrava?feat=embedwebsite
 ---
 

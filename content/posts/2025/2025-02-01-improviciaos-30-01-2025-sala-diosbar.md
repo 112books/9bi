@@ -8,7 +8,7 @@ tags:
 - Barcelona
 - art
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2SvGMgFjYFeS8yRkjyLMeyZ54y24J8N0147JWz_SvIe5GNwGXnY-Ukb_F8oYTlSoWvFy1uIM4ET_10akdQ0KrnE7RNah2BgalmQXKY5qLAwyIiVuV6V60phHqdhmJ8S3_8w9S4qKuhQKTJYWbWj7Vw3n87mU9eGlOKGP-1aw-ZgBgMMXgO2OgqBESQ4Y/w426-h640/PG0_9936-Mejorado-NR.jpg
+  image: images/covers/d89e6560f48d54ad.webp
 album_url: https://photos.app.goo.gl/hbm9kwfeDt9G37ZPA
 ---
 

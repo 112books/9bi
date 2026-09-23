@@ -10,7 +10,7 @@ tags:
 - Rato Bueno
 - sopar amb la penya Pureta
 cover:
-  image: http://lh3.ggpht.com/linuxbcn/SFNdMzrQhtI/AAAAAAAAbO8/D8TWcCdJ6w8/w640-h426/IMG_0365.JPG
+  image: images/covers/01b20aa3ba5b2843.webp
 album_url: https://photos.app.goo.gl/9LXdYfXyT4W84vkN9
 ---
 

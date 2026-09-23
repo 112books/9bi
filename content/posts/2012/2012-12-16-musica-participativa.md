@@ -9,7 +9,7 @@ tags:
 - joan.linuxbcn.com
 - música participativa
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnr2UVWBw6vmov49Zzgb3HSsVk_pSjrHV-_gO7aqvuRf3dYn2Ybp_1auMt_Yna16Tfu7LIMwA52M7Pxj1EIGSyvYRmoiD4KUpZzitifiSv6KNSGo5z_G-wfRq8qPUMkao4rxvby-muNT8/s400/IMG_6249.jpg
+  image: images/covers/6b874629b6ed5e8b.webp
 album_url: https://picasaweb.google.com/103138221614479310970/MusicaParticipativa?authuser=0&feat=embedwebsite
 ---
 

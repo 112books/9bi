@@ -12,7 +12,7 @@ tags:
 - roquetes
 - llibre
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIjlFBkQzn6J-NKnoS3WfxBYzMqsfHppaiz_XWJvLcNRW6LEa51DtCA1gKTIlMjGh52nThdj_x-npfw5N44wh81ogVXIGx6uwCkejdczgNw99OVQZeoAXHYehZIujqaIJl4qb3EfzlhIc/s640/_DSC0497.jpg
+  image: images/covers/2e31fa34cc482503.webp
 album_url: https://goo.gl/photos/ofsAQe32pgawJ4Sj6
 ---
 

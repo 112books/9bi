@@ -11,7 +11,7 @@ tags:
 - prospe
 - huerta
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxe-xbI-Pmmzw3ZsWO4tUML4JeyRimKMZfZWOWj9fT2LFcr8b1dvZv0zH4CnwFMqD7I3MLCT2OBdJJyU06b0lHYxAHIS0vQUPEvUcosX3DmCBdILxsEbUYf9m4GZn_fYOk0Y-sWSIU9KQ/s640/_5270054.jpg
+  image: images/covers/cdffeae423d0d9ea.webp
 album_url: https://photos.app.goo.gl/zAbeA9jM8S1EsoQ98
 ---
 

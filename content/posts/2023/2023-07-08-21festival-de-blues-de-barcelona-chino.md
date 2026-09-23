@@ -11,7 +11,7 @@ tags:
 - blues
 - Chino
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwOANBLqRnZA55oFVVSlFjF4925Ziok9NVup0cjEKGrOktmZ7kP8jPsKKXuzhqT1TSPcHZ_s-qNb8jFS_y9OkekOQyXtgP21lfZZq5rcL6Z7UwV6vaOe3qyXdNhpJ-2ef9W6xnbpnnqps4WMFgHZilbS-qk5ZujF4g5Ddfqj0WsCDtWY9-aD7RG9Vw18Q/w640-h428/PGF_2200.jpg
+  image: images/covers/bc7665789217995f.webp
 album_url: https://photos.app.goo.gl/oXbkop2jhTCnVZ4k8
 ---
 

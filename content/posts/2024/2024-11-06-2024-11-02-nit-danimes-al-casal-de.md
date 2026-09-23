@@ -15,7 +15,7 @@ tags:
 - nit d'ànimes
 - passatge del terror
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiy9T-NvMp4_ea9WD9hwWpgUGZ8iFm8sNUN_cYHh0p1ipvt2zzEJdZlmFi6VWs3gbNbxtPBKVDQi8zWhmP5en85hls7YdZ5tFCbWP5aPpmNHFEVxlrpSzKutzua5b1S_gScw6rtQzU2LAm31iX8yjv8EaCYFx3WpxoeS8poOFjFaCKUt5CrgAb9XpK4qh4/w640-h426/DSCF6113.jpg
+  image: images/covers/e86e8359d10062f0.webp
 album_url: https://photos.app.goo.gl/BHw4yyDkC8vNRWJ66
 ---
 

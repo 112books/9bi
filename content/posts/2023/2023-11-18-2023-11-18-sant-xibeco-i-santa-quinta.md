@@ -11,7 +11,7 @@ tags:
 - sant xibeco
 - santa quinta
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWHKGbCYAx3blK9NynDMntn4WLUWIOfDElGI4reEci91i9e8O8wBYzFcKZb9CVeBtXBPjL2lCy2aOjtffDQo1P5dUiphuPz_CchuMTEiJqLx6V5L4uq5v4OXugx6bn1nbYd7wwSE_Jd3CCevCNR2CZ4QY98JRrtcbij6sBliShreUkQiZYeUv8wUmKSkI/w640-h426/_DSF5806.jpg
+  image: images/covers/2fdc7528b04e0896.webp
 album_url: https://photos.app.goo.gl/4s3EKc7wm4ZgC2AX7
 ---
 

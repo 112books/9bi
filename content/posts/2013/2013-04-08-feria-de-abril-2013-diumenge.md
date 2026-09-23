@@ -9,7 +9,7 @@ tags:
 - feria d'abril
 - plaça Àngel Pestaña
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrDxkDPEl24g3qEpOZkxk2BSxxSi3-4ayj1mZyiwJtyWC1GYH4GG8ij7aTAixA7NAgdMQ6U-LLVhVN-Hbx7cEJrttsEqr2A0UjkO3OdRude40Efekv3o1IEvVOcvuE3EjzJDeUWB3A7dM/s400/IMG_2673.jpg
+  image: images/covers/d248d2e8a4392d49.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FeriaDeAbril2013Diumenge?authuser=0&feat=embedwebsite
 ---
 

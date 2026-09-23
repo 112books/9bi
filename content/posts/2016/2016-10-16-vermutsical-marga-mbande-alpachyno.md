@@ -8,7 +8,7 @@ tags:
 - vermutsical
 - mar
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguSQK8Ppc7Ksl-pNxlrjOc4viOjnS23qeDXI2Q0mm1MGPVVXyqEIsgTx1L2FpEZdmuI2siiC34hefopsKZLTqMjxq98fY0qJ0KWmtWczTqiIpWxXNOppzqEgMYhWge6YswheFkfdmVB8s/s640/DSCF6065.jpg
+  image: images/covers/77b2b28ed49139ad.webp
 album_url: https://goo.gl/photos/xZKrWzW79ovxk6Px8
 ---
 

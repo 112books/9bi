@@ -11,7 +11,7 @@ tags:
 - tallers
 - vídeo
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikeJAcoh57uToGujHkucAtHwbXNBb2_6pzasmr5ZD0xIg9qXdwIh50HRC7thiK0pWPZC_I5Aj-WZAUL9L-jks_eySAV18Ky-EBrsUGlIrFgHUaNwFJ9bpbXPC624CwLcCkL90mZYRSpQI/w640-h480/IMG_3761.JPG
+  image: images/covers/d2bdc9ff74ae2bec.webp
 album_url: https://photos.app.goo.gl/K1NZ1GG2dNCijfZo9
 ---
 

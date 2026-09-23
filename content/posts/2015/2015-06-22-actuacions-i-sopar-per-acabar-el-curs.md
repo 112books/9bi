@@ -11,7 +11,7 @@ tags:
 - concurs
 - música
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivtRuOxR9Adei-4LQLb-UfnLcR40eaGCrbMjSAmBLsCc5KclIK5kdhjVVhheoTsqsVGZYozb0vWGX0tn0JiVNJs5DJBA3KV1W7mgr8a-Uzt4mADsUNDND9pXSg5reW_mBoCqTo4fB0hn0/s400/_DSC0301.jpg
+  image: images/covers/57dfe8d989491ea0.webp
 album_url: https://picasaweb.google.com/110015855395179205688/FiDeCursAlTonIGuida?authuser=0&feat=embedwebsite
 ---
 

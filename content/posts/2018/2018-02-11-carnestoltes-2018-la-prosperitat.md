@@ -11,7 +11,7 @@ tags:
 - carnestoltes
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwhWJzzYdG3bdxTcnnbMY7pUXYUDSTv85qzsuJEOWMIxZbs184zquFN1dZD8tqg0HO2VkxmUvehSFOfDN2BgBFwSe_SwfFqi7ym5J_cvF08j0BLCUdTPznNJy-qdJrA4WW4tLfBD8iPeg/s640/IMG_0221.jpg
+  image: images/covers/a9cc56676274fb5a.webp
 album_url: https://photos.app.goo.gl/hXlUmPo5uOui6WTg2
 ---
 

@@ -11,7 +11,7 @@ tags:
 - Barcelona
 - dissabte
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqnsFBfIccaCtnwqu60Zxta35cITio8texA9h-HsSNq8ggqYyGKZnohyhl13ICNPXbKTDhJLCL2rczVTyFaKfYHcakcvh-d2tg3I3xVfznbW1Jggyz0yXIZ-nKt-yf_I_v_FnrF4qSGmo/s400/IMG_6298.jpg
+  image: images/covers/fc21e4e8e3217ef0.webp
 album_url: https://picasaweb.google.com/103138221614479310970/6308215396618350305?authuser=0&feat=embedwebsite
 ---
 

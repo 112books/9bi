@@ -11,7 +11,7 @@ tags:
 - pinhole
 - inuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-geXDkQ7drEJdJEb6RTVpG1IT6w6svYs53hKMthK32vmi2wsnvZmCFZLMLT6C1LmRsHziF_Db9UDucG6uStsAefMEX8ugbfPZk44_mh0B6hV2BBpyPJLJvl6fpH65ZnwGtkfK2IskShA/s640/2020-04-26B+-+001.jpg
+  image: images/covers/c2ad811be7c76bc5.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

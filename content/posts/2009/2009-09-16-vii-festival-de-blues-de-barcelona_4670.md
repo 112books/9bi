@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - masterclass
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqvXEFxN_teZxSYVucdaY-5ZAqM0M5C00X_YNmVXBmYPN4zNzZy8f0JhfJcPM7i082dy01-swJ_4OUiPfIYluIWQeGpZRAN1NsyozrSPkfJwCZ3gh7H5GKRhAgPfUFIyWYKuOG91Q-0U4/w640-h338/IMG_8760.jpg
+  image: images/covers/dae4bdbf8639c1e7.webp
 album_url: https://photos.app.goo.gl/H24SHmvZeENzV4z48
 ---
 

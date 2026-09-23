@@ -11,7 +11,7 @@ tags:
 - cultura
 - Xerrada
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfmli7W__LpOWuh78JWbRCuujWq1hqj4mFRHKEnm-9KTqEILOjFuTyvltJUKqLLFlWvt-Ae09vDjXKmif4Rdp6AA_zzO7Nphf1sLzU-SpvXpTi5PhuPWdrdygj8uXsk2uF8HYwtk9cgc0/s400/20160620_205521.jpg
+  image: images/covers/0db94586d799641a.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6299423454893235793?authuser=0&feat=embedwebsite
 ---
 

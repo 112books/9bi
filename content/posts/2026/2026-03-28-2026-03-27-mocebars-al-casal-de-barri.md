@@ -18,7 +18,7 @@ tags:
 - rudas cooperativa
 - Txito i Estíbaliz
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYalPPv-B1QHpzifGaR2pLKumKpmMVvo4IMJ-c03XEY0YPwn6FmkQGbvheP7a80CPLX77y4kiVthWTW1DbVzZmxmCe9G2db54dCrYWWH-e_70hCJgP7btPtCmf0KElu_Sk7o6VOeTbMHeAOJ0L6zhnQlbqblsrP-cGbmT56iFoWl7-OlGOqgDsSZHO6Z4/w640-h426/DSCF4129.jpg
+  image: images/covers/a07efcb1b8ba019d.webp
 album_url: https://photos.app.goo.gl/xHwupmNYBBjzszbD7
 ---
 

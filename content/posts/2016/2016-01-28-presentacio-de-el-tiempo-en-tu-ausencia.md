@@ -10,7 +10,7 @@ tags:
 - llibre
 - poemes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTJRVN3KcFGqGK4Kvo9o8OpwRQZqo9EJy6Pn-k_R30nHuPnqu5fBVckNuSwXhrHDgUTDys48wanCft7xj1n34njz5ymA_1EfHV2wZ2SLr-iMb6q8uCoXmP7GbNzUNu6s1UdL8anaBhDoOJ/s400-Ic42/20160128_185704.jpg
+  image: images/covers/0c2da28d040377e4.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ElTiempoEnTuAusenciaPoemesDeLaNuriaSegura?authuser=0&feat=embedwebsite
 ---
 

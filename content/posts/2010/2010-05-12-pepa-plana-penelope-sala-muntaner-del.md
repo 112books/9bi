@@ -11,7 +11,7 @@ tags:
 - pepa plana
 - sala muntaner
 cover:
-  image: http://lh6.ggpht.com/_haV9L05_31g/S-rGyRTCZYI/AAAAAAAAjgI/VW6BwfnNAyQ/s400/035.jpg
+  image: images/covers/4519022355792857.webp
 album_url: http://picasaweb.google.es/ulls2006/PepaPlanaPenelope?feat=embedwebsite
 ---
 

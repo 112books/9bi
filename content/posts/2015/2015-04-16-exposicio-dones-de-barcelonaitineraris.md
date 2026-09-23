@@ -11,7 +11,7 @@ tags:
 - districte
 - roquetes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeLIPLkYDfcC6UZ6Aicn4n_kWZLBjfxmZp5lbD8jecob6KJf7Ktm2pZNMgaCRxmJwemRPPbobic3Rr7pqzIsIIDbCWnAH2KgfQpVPjeu43R6eFMBBnraverCETowemIsPMW4ZkwLg-9YU/s400/20150416_182228.jpg
+  image: images/covers/5b2f634ae8c317fb.webp
 album_url: https://picasaweb.google.com/110015855395179205688/DONESDEBARCELONAITINERARISHISTORICS?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - sidecar
 - vídeo
 cover:
-  image: http://lh4.ggpht.com/linuxbcn/SD_vYtNKgKI/AAAAAAAAVfk/rAoW_F7IsTs/w640-h426/IMG_8453wtmk.JPG
+  image: images/covers/e1ebf104fdde3804.webp
 album_url: https://photos.app.goo.gl/iZA7riZEfJ82QT8q7
 ---
 

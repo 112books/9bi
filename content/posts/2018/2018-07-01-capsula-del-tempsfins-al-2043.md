@@ -9,7 +9,7 @@ tags:
 - Canço
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtsMGJUe8hlDg5dYD1O0a4F6uAAXZxVKA654wJjB9Z5gfvDHEbwJHTtcFuhp7uLpjSrbH87qv494bkzotMr23snFvXnV8y1z5AfQPF52P4IM2Kybc6BG8lFdwoNpy1tODhSTXkPlE2pLs/s640/_6300036.jpg
+  image: images/covers/d3cccc11900cb580.webp
 album_url: https://photos.app.goo.gl/WREG5Tuv5ubrt8Fg9
 ---
 

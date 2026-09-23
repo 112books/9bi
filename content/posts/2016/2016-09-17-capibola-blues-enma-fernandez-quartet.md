@@ -11,7 +11,7 @@ tags:
 - arte
 - BLUE
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6vjANKUG1jSzVRg7qss8rXxwNe5NxZ4vdbRwMYqMTYbMUdtGYVP1-kzgxyQ4onj9N6brc_L3ygXHQhyyQHxGWkCBbJvdbe7-ULWWvFhM2D8iZdzepo_l-QVaV6LMwcMbB3_Zwdwol4sU/s400/DSCF4887.jpg
+  image: images/covers/71bf0e46bbb3b3e4.webp
 album_url: https://goo.gl/photos/CbNSQZE3RrM35hbd8
 ---
 

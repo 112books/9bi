@@ -8,7 +8,7 @@ tags:
 - jazz
 - jordi lapedra
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4ERIwi1jxKmzOWikqPnK_8VSP6tYo8uFYss2V-XSfzBNaiky3FpdLiJl6AiNKPgXrNXO5L8Y2-MChGY3ZwMoUfmZTGqfvwF0pWXnSt7Knp2VHIB1Kyr0_OmOnsfpeuCH-PSRuitdZ3EkvLVNN8L9SmND0iyEMBl4iM__mPV-9BGMZNiVElP5N5xPtDGk/w640-h426/9V9A9045.JPG
+  image: images/covers/93d4203f9de844c6.webp
 album_url: https://photos.app.goo.gl/jcpMsx15ytv3wPrb8
 ---
 

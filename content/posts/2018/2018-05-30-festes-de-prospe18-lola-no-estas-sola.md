@@ -11,7 +11,7 @@ tags:
 - coctelera negra
 - casal de barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3QUXtQ4-8TURt3CN7eU0-0g1JMC0iHzhtEdRPvwjtB5G_ADbbnkiD9OSwl7CsYzPjXfeBWvuVGTYwKUgFoqxtXIIRpvwv5hyIwacSGtHaLc_RDyIJa7UHv2HwJoj9odSP89tqvrPykMg/s640/_DSF5525.jpg
+  image: images/covers/8f07874946c7e603.webp
 album_url: https://photos.app.goo.gl/hf1YYCUC9Kjyj2ZP2
 ---
 

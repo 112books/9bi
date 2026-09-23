@@ -10,7 +10,7 @@ tags:
 - manel sala ulls
 - monociclistes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN7RK3w5lXWaEjJ1ePsn8S9bKgT0O6ySvXx0DQFcY6CczrSX7mW202lkjHhDjiWa-s1q2FgnGzHIhy-pKzrbnS94-J-Q0QsfFqPqsA7rTNZJzVgO1KQS4cqJlxgZ0qi7S594AUlr9VIl2P/s400/230.jpg
+  image: images/covers/65b387a3554fd722.webp
 album_url: http://picasaweb.google.es/ulls2006/XVIITrobadaDeMonociclistes2010ApccAteneuPopular9BarrisBarcelona?feat=embedwebsite
 ---
 

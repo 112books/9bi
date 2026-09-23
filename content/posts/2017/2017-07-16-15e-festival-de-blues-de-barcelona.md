@@ -12,7 +12,7 @@ tags:
 - Dani Nel·lo
 - Barcelona
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaPE5i01L7Jtb8GbP5PrF0vbjLo3FO5ATHVwQzZ5PZMArWjSKNB39l-Wx3rKLj-ERcQr0UXcDhTrESS8VLICe6YyDHtusVP9y7iLOcY1Fvs8cBVtjgaNNqt9HjoKNUIWVRWJq4MMFDhkw/s640/IMG_4358.jpg
+  image: images/covers/a60352032fee6f4b.webp
 album_url: https://photos.app.goo.gl/3szju5dznKDaDZ0T2
 ---
 

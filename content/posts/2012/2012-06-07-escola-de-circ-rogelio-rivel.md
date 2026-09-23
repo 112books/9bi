@@ -9,7 +9,7 @@ tags:
 - circ
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPYic7fj5lC1U4K2k5ibQ-qiWYJ8ho4Zjtc7-M4KM_1oskYOTFVRTMvoxVnppZ8D7hV1UfsqT8EeUiy0lmg8xhZl2_0bf87lhlS0jX9i042bn8mlxQwPuZLancLmGhIdGR3q3Y_jxkBFwr/s400/IMG_5920.jpg
+  image: images/covers/7853158054d5ed93.webp
 album_url: https://picasaweb.google.com/100268695753733554853/EscolaDeCircRogelioRivelCurtcirckit2012?authuser=0&amp;feat=embedwebsite
 ---
 

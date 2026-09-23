@@ -11,7 +11,7 @@ tags:
 - vía júlia
 - xarxa d'intercanvi
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiv-x99a6pq4Y4wY0SzLA56u_frnE4ZyeNipQ8xhFFBZWQXJVsDWukrcgHSB5WOlDYsgWeReSNhD9DbamJO9lWgIHaeBjlk_-CzzGw9coiMh0zRXIto9Lrb5PJQecDPWcDifpMcgLfhrWk/s400/IMG_6202.jpg
+  image: images/covers/56d586e63fadaf0a.webp
 album_url: https://picasaweb.google.com/103138221614479310970/11eFestivalDeSopesDelMon?authuser=0&feat=embedwebsite
 ---
 

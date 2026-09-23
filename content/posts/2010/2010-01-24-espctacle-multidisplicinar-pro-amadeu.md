@@ -17,7 +17,7 @@ tags:
 - la petite sof
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmkZnENhLqQDuEB4LrVWkPLT9RDWSJabUAiCH1Qk0YJyyHupiypx8S1sV5JPj9HOlZ2nH5DQN45bcAXCAu7ySWtCyWwUyqLzGRgihNRJtNOwpdgJZVQkJhZvDc53XCyO9V1XLcplLWdjo/w640-h426/IMG_8238.JPG
+  image: images/covers/ee56766b40fd095d.webp
 album_url: https://photos.app.goo.gl/Va8UNozveDQbQxP46
 ---
 

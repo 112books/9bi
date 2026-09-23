@@ -9,7 +9,7 @@ tags:
 - Prospebeach
 - prospebeach2019
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWwQ932hkLYGsBasxO2fFLp-wgxykPd002A_YJHuE3qbxRtlyGrsQsM_of7Wetsin3WcFRej-zXAxlIpqlKPOCsUXo9qzpxdtW3G-10i9BR8RzZZeSaOdvVxgmEWyo8-Umc5EJYy6TIp4/s640/IMG_3600.JPG
+  image: images/covers/7ace7fe5d9b7cd26.webp
 album_url: https://photos.app.goo.gl/mxToeSVWkNjsmGUP8
 ---
 

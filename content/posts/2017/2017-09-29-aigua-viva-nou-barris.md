@@ -11,7 +11,7 @@ tags:
 - diumenge
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOlgZiGjCwzWRiecGJfitsa9Wqo3nqyCpA1vMY2pWaD4YSQekFshD7J2p8oO4ThRsq46o33137e4ECTinjeMknCfmfx9wgRym99Od_ubohf8odd3tK7mhiI-PvjKSf-rk9nyms28Gsrac/s640/20170928_190346.jpg
+  image: images/covers/b1502d658bb28af4.webp
 album_url: https://photos.app.goo.gl/DfpQponsk3bPV8IG3
 ---
 

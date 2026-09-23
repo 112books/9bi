@@ -13,7 +13,7 @@ tags:
 - Red House
 - Ñaco Goñi
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyZ-swYC-qwGn9dBsVB_BUpqBwxvt12w2nsJ3Pg7POYAPq647I4dJeeev5W7rs4Nb5jxkdnKuUxqMoNY8g421sCUztSn4IWTMb6igub5sLCARQdKGdYZaIR3er2aFPI5Iv8Oizu3uWImw/w640-h426/IMG_0579.JPG
+  image: images/covers/1b3940ff1ec1d407.webp
 album_url: https://photos.app.goo.gl/3F4AuzpkyYJ1MFat6
 ---
 

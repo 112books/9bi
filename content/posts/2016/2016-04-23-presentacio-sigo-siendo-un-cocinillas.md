@@ -7,7 +7,7 @@ slug: presentacio-sigo-siendo-un-cocinillas
 tags:
 - presentació
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz4Lid-4CIw5c1HtNFCnqbP284SJAgJNJ9V47lG4kjzGfRv1L2Hx45ehrgvxZZzlQCjd_BhV2mOnYLoqgmXQlW69i-Jx0VfhL11zhDsvwLoKn-U0BV0ztyKboW7UQwAH7y4IYZvXEATRI/s400/DSCF9150.jpg
+  image: images/covers/3d6e4d61483d5446.webp
 album_url: https://picasaweb.google.com/103138221614479310970/6276639476395003873?authuser=0&feat=embedwebsite
 ---
 

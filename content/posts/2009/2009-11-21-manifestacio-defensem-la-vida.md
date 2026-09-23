@@ -12,7 +12,7 @@ tags:
 - Prosperitat
 - tancament
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg27K5w_ldkL-BmbzkIEqo6lXgZ8QzEEXNEyrECrKgi3tRu1Vl7kG1KkP8OHy6RgyzThqGujXJ6CDJz4KwteHqiOBDwGkBqT2ssKNjbmwMWLMHIr_7gRN66ZxjYmsVyeAv2bI4rTZT-7_k/w640-h426/IMG_6679.JPG
+  image: images/covers/6b0e06dc442fdfdb.webp
 album_url: https://photos.app.goo.gl/hHPmQ7pBQGJD7jUk9
 ---
 

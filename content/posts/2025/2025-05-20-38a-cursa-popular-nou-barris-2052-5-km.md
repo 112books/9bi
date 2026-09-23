@@ -11,7 +11,7 @@ tags:
 - barri
 - pop
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZKk6bDyY1J-zUVfodoSVaOcIuvGvwH3uh9h7XI-psNlVlZCr9EyBMzRf8a0mw2xwcKtYFIIKNsgRiulX01TTFW2X21ueVoq-d_10iF9TNE3OZXQ1Kc1jgvDKq27SBZH3Krv3_PhyTqk4L5uk6y1cGUB7S4AnKXlqG4TNJKAg7DCvrp8HL4Q-TdCjiZiY/w640-h426/P7F_4255.jpg
+  image: images/covers/56cc9d509944a94f.webp
 album_url: https://photos.app.goo.gl/Zyu5tg9dFyUXgFZh9
 ---
 

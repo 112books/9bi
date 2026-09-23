@@ -10,7 +10,7 @@ tags:
 - fotos
 - integracion
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinHaPfHoIsDtDjUJhnDNRGz-8JnCh_21JRqLUpcww9cS2UyR1Ck58m13wBExjkEbjG1Eju0w-Z1OUD9IgUMSH4V_6gokVkpJhyTzRJJNR4G4YxD9IXbNHxtp18Wo-GQgYae9RyeYvwDCQ/s400/P1230389.JPG
+  image: images/covers/1bb4a2edd87eddf6.webp
 album_url: http://picasaweb.google.es/Perdo.Garcia/Sopas09?feat=embedwebsite#
 ---
 

@@ -10,7 +10,7 @@ tags:
 - flamenco
 - flamenco de barrio
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirRSi_EdhDA_17lOFUGjxfxmRCQ63O2EJfL9QH7_Bn3wfuyTv0S3Bkcvczta9Mr7IuXr2aQpkroENaVKrcMaOF4pceaFXDmlfE_0h8Q9lbwy8AOHu5NjINoX4R1keecPF11p72zQULBTRce5xbNt7rVmzGv0lJa3g4amYbHgjXSX97flDkz3vQ8Ak3tho/w640-h426/2023-11-11-%20LM6%20-%20AgfaAPX400@1600%20-%20Flamenco%20de%20Barrio%202023%20-2-%200026.jpg
+  image: images/covers/eab185f2205ddac5.webp
 album_url: https://photos.app.goo.gl/4AoaUEMi17sgeFEw8
 ---
 

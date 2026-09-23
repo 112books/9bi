@@ -11,7 +11,7 @@ tags:
 - vía júlia
 - popular
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjQJEn5GWix3iq32UEhXKpkVuLDAoc-Ya8HAdvvgFm1iVZmmvAfogeKrAfy7pMU3-1Mm9AocIJKgKEN70pQ4UawHjNUwMH13YzKumn78N23Qc87Atdh4b_YOjyvxdRAP-fJ2Rgd8Y9VGA/s640/DSC_0659.jpg
+  image: images/covers/1b2c8eb09c566240.webp
 album_url: https://photos.app.goo.gl/rb9FPv4A1VMcZBGt5
 ---
 

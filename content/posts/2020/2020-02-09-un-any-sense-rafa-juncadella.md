@@ -8,7 +8,7 @@ tags:
 - agermanament nou barris-boris vega
 - Òmnium Cultural Nou Barris
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhS_nWEh6jqm7u6IINxn5bMZkoZdRgiu-t0xdNV7G30fvfM_WrsQrlXqHGubi_CuPUwBw3hzUzGyDItzVykw6Xm70ICiEePh408lkSXafss6NENus2kLhRB9VI6v4uATEjptWbsCUvG0aum/s640/mercadet_025.jpg
+  image: images/covers/515845a4ef3cfdd2.webp
 album_url: https://photos.google.com/share/AF1QipPDQLHK29EA8rjJLOSADQZ1a1tLgwPNTAEVQzXVkkmfNNlGc6bz0a9zdbioe-h4ug?key=cDdDOGJuNnJHVWY0dEhvc3FHRWtZQXhXbkhNSHFB
 ---
 

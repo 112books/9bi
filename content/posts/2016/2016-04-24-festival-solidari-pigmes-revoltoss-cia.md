@@ -7,7 +7,7 @@ slug: festival-solidari-pigmes-revoltoss-cia
 tags:
 - solidaritat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzCF2qwqud2PrkqmFNFc4wKF8JqMatsyocV8a4dfSrXPF6Mb2HCmluDzllIGtF3fPSB1uHAu2saffa08wgjYXRZ-8_R2_WZlIf3pKobmgr9FHXKa7hEWR-rpUjayn4girf83iWRIHJE9g/s400/IMG_0961.jpg
+  image: images/covers/0306a2145875925c.webp
 album_url: https://picasaweb.google.com/103138221614479310970/6277110415094699121?authuser=0&feat=embedwebsite
 ---
 

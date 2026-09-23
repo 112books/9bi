@@ -11,7 +11,7 @@ tags:
 - fotografia
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikluQZKvfuBjGa7ITZCY8Z1bliqH2-SOpE4qG4IdRog1T6rVcFVqaetXluvxkeEdtkTYnDrE5pXzSmj-T1FkXpycrDy-d4rZeYIHPPe2WSg5_JMoTDCNyCOW1tKJtIqWySMMu-apIMyPk/w640-h426/IMG_0759.JPG
+  image: images/covers/decf7685222a5dad.webp
 album_url: https://photos.app.goo.gl/MohmixaWxzQRYMWa9
 ---
 

@@ -8,7 +8,7 @@ tags:
 - Centre Ton i Guida
 - exposició fotogràfica
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNw_3slfgu_RJeUKcDvgawI0VYINcvU_xWNfcNKHb3S5lrQzw-37T25Ac5OwdxQs3uNXroMJE2YPFN8SoV2U9HidqpL-Tq6G7TvYtgg_OJhIUCLSmdCQG9tiVtwBwFrf6aRgtqFFbR/s640/_025.jpg
+  image: images/covers/88105834200421b2.webp
 album_url: https://photos.google.com/share/AF1QipMvB-O0-zftgXu1QsLPPLNYGXWT_d4E1olsJeY2HK_h-C3G3xCEoVkGGNgiPYw-VQ?key=c1dncDZnbERZNTlOaGZmRnlGSVZ0SGtYdjVucnpR
 ---
 

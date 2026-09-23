@@ -9,7 +9,7 @@ tags:
 - festes de prospe
 - presentació
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgP7ruUPC7m-p_7NA4muZpgcdCKeEDXFhnvlQrqqUlP8XfuSj_giQ3PR2YDKCRLa4FX18qYxoh5tmziK1v1o5Nk7pNqhN-UZHmxci-D9Po8c3bz4Lwi5J1_PwE4p6H-xTJ55wdmdN7tVlA/s400/IMG_1277.jpg
+  image: images/covers/8a7b176fe729d47a.webp
 album_url: https://picasaweb.google.com/103138221614479310970/PresentacioDiariDeFestesDeProsperitat2012?authuser=0&feat=embedwebsite
 ---
 

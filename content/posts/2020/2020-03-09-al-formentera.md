@@ -7,7 +7,7 @@ slug: al-formentera
 tags:
 - fotografia
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKjbetEsioe6zxPABPCZWMhiMqScfTyss7-88c5BQKUqJUnGUSQ7QWC8T6OxwUjEzYq0MsQjADtnb5qnnEKUihOMIoLJVti-6mxmkUgRT5Z39z7fnjgMa4_d8Z2d3KX6gZ5Fsa043bLzQ/s640/2020-03-08+-+formenter+-002.jpg
+  image: images/covers/d48a273257458c16.webp
 album_url: https://photos.app.goo.gl/B9ijgSj7hAEf3Dvk8
 ---
 

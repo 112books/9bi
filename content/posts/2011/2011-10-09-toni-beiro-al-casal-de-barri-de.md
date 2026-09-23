@@ -9,7 +9,7 @@ tags:
 - joan.linuxbcn.com
 - Toni Beiro
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiK6KhWUGo0bpsDYU1GcLSc5OpzVyjAjKdFDvJ2yqiWMzzXytP_gUjTEdoDwEW96qQEFbFBAX_XOx2Hy6Ywms_NRR8en62KrfctwwehY0yzBHaojaabsxEvKmEtQQx-exMyB7N6DqrkOc/w640-h480/IMG_6731.jpg
+  image: images/covers/b457135d17519635.webp
 album_url: https://photos.app.goo.gl/aP3dSCgDVfi2wFxf6
 ---
 

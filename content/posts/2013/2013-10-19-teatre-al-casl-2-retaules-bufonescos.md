@@ -9,7 +9,7 @@ tags:
 - institut del teatre
 - teatre
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4ruxnMyFlQFurZW13HHnZBXt8u8ckMcfMZFQKjCqI1zFldEg2p0aiiYDoExubw3m9poYEnwWW0eGVKoW7Xja9i6tTHdtbYE-6zL-CVUYYdG9nONsDLZ8EbP3vjiqGS_V0mH-VktFX86o/s400/_MG_1369.jpg
+  image: images/covers/24e4081d61f1ee43.webp
 album_url: https://picasaweb.google.com/lh/photo/3bTvkuXaF3We1tKmZLTaZtMTjNZETYmyPJy0liipFm0?feat=embedwebsite
 ---
 

@@ -9,7 +9,7 @@ tags:
 - china
 - Shanghai
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiB_lOszTe3-UEPz9_1QjLKcqgwBbXieOi7Mj8ptnfinn-sAtHPUsqAaL2VvnsNZ5FANnqesdiy1NyBmzEkp7ixdM7T8yrFXte6A7mruDhXdGNCX6QW5eiGPc77cfYHAjSZ9yVQXipUUMw/s400/PED_0684.jpg
+  image: images/covers/8a00aac9fed845e4.webp
 album_url: https://picasaweb.google.com/Perdo.Garcia/SHANGHAI?authuser=0&feat=embedwebsite
 ---
 

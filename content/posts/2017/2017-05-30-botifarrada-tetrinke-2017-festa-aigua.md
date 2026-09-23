@@ -9,7 +9,7 @@ tags:
 - festa del aigua
 - tetrinké
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-dnbMAXRSUvc17w9G-7WhyESEBfLTZCNdBWCh4tjY9k8eXfNhFxIwhNhMLDxfZSreZug3zODGltdisPSMo8TtWNZV_tH0KXx4FPzCfAhQ_IS65nhkeNou6lrMoiFQglqYIcPImDvy0a8/s640/IMG_0202.JPG
+  image: images/covers/8854f0a6d4a94609.webp
 album_url: https://goo.gl/photos/UwuyfoQeZVGfZL5g9
 ---
 

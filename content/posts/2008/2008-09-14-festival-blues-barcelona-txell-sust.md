@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - vídeo
 cover:
-  image: http://lh3.ggpht.com/linuxbcn/SMviJKurutI/AAAAAAAAfUg/nprbnv0eCCA/w640-h426/IMG_2353.JPG
+  image: images/covers/4b01d778c43ac559.webp
 album_url: https://photos.app.goo.gl/Fq7zjewvZb8spGYA8
 ---
 

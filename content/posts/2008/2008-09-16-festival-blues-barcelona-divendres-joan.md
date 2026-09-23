@@ -17,7 +17,7 @@ tags:
 - Mr. Hurricane Band
 - vídeo
 cover:
-  image: http://lh4.ggpht.com/linuxbcn/SM0L6l8Yu1I/AAAAAAAAfp8/h0pcaZdcLSU/w640-h426/IMG_2460.JPG
+  image: images/covers/393225eda56a09e9.webp
 album_url: https://photos.app.goo.gl/nWZSqYKWh2WyLdtU8
 ---
 

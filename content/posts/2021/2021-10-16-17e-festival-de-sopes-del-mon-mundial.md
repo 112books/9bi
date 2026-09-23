@@ -9,7 +9,7 @@ tags:
 - Seu del disctricte de Nou Barris
 - XIC9barris
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVD0Siw8AxlUH2GcySsTksAU0qP6PvaHVcfaytTvXcXX7i6vQ1b9qlvQ0HF9WJe5Axmx4RTT1qRz6gqqET6dWCzabxlrxR9hWeeXRiOwYVqimnSXynyXBNKFTU9ODvJap2PuqTQJ36rYyh/s600/sopes_2021_027.jpg
+  image: images/covers/81fdc37441327172.webp
 album_url: https://photos.google.com/share/AF1QipPglBXKw6D3WXNxYHctyGor_ZIdNobBxyVQ1xrodwWGsmoEGRmlZPbQPnLIOMQSwA?key=ZnloOWdxa21Bdk9oN2ZDNnZYWTBuSUVZUDlnZjRR
 ---
 

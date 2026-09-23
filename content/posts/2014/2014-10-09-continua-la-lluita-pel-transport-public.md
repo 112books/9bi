@@ -10,7 +10,7 @@ tags:
 - popular
 - pop
 cover:
-  image: https://lh4.googleusercontent.com/-pjjAfYGm-bM/VDa0yS1RpXE/AAAAAAAAHiA/Jn_meDk0T8g/s160-c/ATM8DOctubre14.jpg
+  image: images/covers/93e2c5d847b78c6f.webp
 album_url: https://picasaweb.google.com/114858497713897843587/ATM8DOctubre14?authuser=0&feat=embedwebsite
 ---
 

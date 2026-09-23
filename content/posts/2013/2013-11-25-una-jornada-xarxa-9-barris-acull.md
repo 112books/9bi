@@ -11,7 +11,7 @@ tags:
 - 9 barris
 - barri
 cover:
-  image: http://2.bp.blogspot.com/--c5I-CBbxT8/UpOH3YZXY4I/AAAAAAAALCI/JEwdDk-SbzE/s1600/JORNADA+2+-+01.jpg
+  image: images/covers/8dbc5054766e3f20.webp
 album_url: https://picasaweb.google.com/111964096227458093905/JORNADA29BarrisAcull?noredirect=1
 ---
 

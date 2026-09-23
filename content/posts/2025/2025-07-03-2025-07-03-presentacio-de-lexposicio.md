@@ -11,7 +11,7 @@ tags:
 - presentació
 - activitats
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxLP-RlHKU6rFeGqZJFMTzMdKXErbJyD8kSm0_t64o9xDD6qEjFieSJiwG1XtYR0ds-Qyojktz2OzKMaI5deQUygsE-ugfox0yANY6QPCwIwX750ZryZe75xkNCOBCljQqFz99cfA4AhbF1BoS-Vn6dAX_twTXZFbCgN26-3X9Qc35Y9zdHKVrQ8VrhX0/w640-h480/IMG_4444.jpg
+  image: images/covers/b959a96a3232b9eb.webp
 album_url: https://photos.app.goo.gl/6ERaBh7hCeq9kLrg8
 ---
 

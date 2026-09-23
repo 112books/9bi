@@ -11,7 +11,7 @@ tags:
 - BLUE
 - bcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjH3meVraO1_JfjSfXiEWGypStA8hTDMbWHjBxstMbThgCSJPJpQ3j8_HW32n21C5v6JLhByB_Sp5jHtEhW6gJUEP1ROSxJVn8y_6Kw5hc5zK4rujQLt2s6MU7-NdqZyJfj3S5uqZ8CKOWKGmY8JcxTrS1uqaBL2WYDTzgEJZEu1rFvECBeQk5hPvV0KlI/w640-h480/PGF_0291.jpg
+  image: images/covers/68ba49654a9c65ed.webp
 album_url: https://photos.app.goo.gl/b9NqVPdrpfE195HS6
 ---
 

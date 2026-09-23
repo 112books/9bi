@@ -7,7 +7,7 @@ slug: la-clota-testimoni-de-la-barcelona-rural
 tags:
 - Barcelona
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguY3nO-0cS6-IKh33PMiKBh1zNYgUbelQrDux6c36XV1TNfuqDYMqKW1VxC0v8vPx07st1mtToTHiTts7UTMRdfCtfXgb6Xf8D7rhGg9V7LQkxhU9wPZ5eWUVRkBsTXrp1tSEThbxLoyg/s640/P3310062-2.jpg
+  image: images/covers/f62fa2618eecbaf3.webp
 album_url: https://goo.gl/photos/oCiRms73nf2WZeUf8
 ---
 

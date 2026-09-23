@@ -11,7 +11,7 @@ tags:
 - entitats
 - cultura
 cover:
-  image: https://lh4.googleusercontent.com/-xnkUZ4zl6nc/U2jjGqfyR6E/AAAAAAAABg4/V77-yH-MZMA/s160-c/LaCULTURAVaDeFESTA.jpg
+  image: images/covers/08e043f271e29b99.webp
 album_url: https://picasaweb.google.com/110015855395179205688/LaCULTURAVaDeFESTA?authuser=0&feat=embedwebsite
 ---
 

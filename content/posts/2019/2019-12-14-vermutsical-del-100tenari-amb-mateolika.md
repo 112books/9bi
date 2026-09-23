@@ -9,7 +9,7 @@ tags:
 - mateolika
 - Mateo
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2IDrE6xFktb8f74wUi0WOnP0YxQPQFqY0AqfYS4RTD59D5WSK3xAPV4NziBPnGO2lA5NelF8s9BQKyCyOqTkfsF_ZlVHpz8Rj32TqyqsCzaW4tYlrbsDHr3s14R9x19UXbMoXb2V6JrM/s640/_DSF4502.jpg
+  image: images/covers/cf1cd24b2df815ea.webp
 album_url: https://photos.app.goo.gl/4sVCs9JkmQhpzmxf8
 ---
 

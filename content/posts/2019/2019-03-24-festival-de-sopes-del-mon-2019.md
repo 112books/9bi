@@ -10,7 +10,7 @@ tags:
 - sopes
 - món
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRDOFnCLWekHC4qe0bfMHcB5aZrVOgWqA_FjaUkOUCzZNvCRiY4kPoW00HmV0-lgjTlVul82BOgUR4zyF1UoIRw5Ta2ZU2Sr9Gtz6BlY_-aBF7rvYkYO_aA31GmBygFO4N_9cxFHScoT4/s640/_DSF9138.jpg
+  image: images/covers/846b0efd14281de4.webp
 album_url: https://photos.app.goo.gl/4kLKns9WJjC7QJHW6
 ---
 

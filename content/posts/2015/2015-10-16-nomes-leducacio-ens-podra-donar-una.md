@@ -11,7 +11,7 @@ tags:
 - cultura
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglS6b3Q08XsJl70djkIvNip0IdLK4cqjHF0qYFCr4QCqc8kATmbtJwaBCQDPhTE0UCcttyu374FNFSAnXDQZEIU7UzNxdCFDxlDjyF1GBnOYaVi9V7RJOsGp95Ldb9c1FnPyqWegCLycxG/s400-Ic42/DSCN1000.JPG
+  image: images/covers/043a41324a610188.webp
 album_url: https://picasaweb.google.com/110015855395179205688/CamiALEscola?authuser=0&amp;feat=embedwebsite
 ---
 

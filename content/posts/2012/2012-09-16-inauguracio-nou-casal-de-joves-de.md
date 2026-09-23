@@ -11,7 +11,7 @@ tags:
 - joan.linuxbcn.com
 - rio de janeiro
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjimLXDGqLgG0GqlSBxlYaY-ECRtM4yohteShte7b0lBgjrIbChZJjDAhWl8a5Lm7YN5ZOzh8mggMVCAiCwGswCkoyCw42C1ZvACXHzJ5Ql_oDzzFC-zD0fVYWfB3uFIKwL0Z2VBqTtVeQ/s400/IMG_4921.jpg
+  image: images/covers/ba2a7ff6daa38a49.webp
 album_url: https://picasaweb.google.com/103138221614479310970/InauguracioNouCasalDeJovesDeProsperitat?authuser=0&feat=embedwebsite
 ---
 

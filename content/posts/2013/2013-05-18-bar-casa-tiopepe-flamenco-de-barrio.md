@@ -12,7 +12,7 @@ tags:
 - Roquetas
 - Senén López
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaJNj1sm5AwBO12ywVG7TWIm3H2sG61tzw00Z5Sr4i8HXFZBsQeyItlazWsHx7nkLdlkGbhyphenhyphenVdbf9jDz_mKabOnMRvhvMcKA95kdZns1rtMDMJliIXkft8Opd7wtVUDGq1PTDWrjGTUAg/s400/IMG_9105.jpg
+  image: images/covers/669418e7a6bfee2c.webp
 album_url: https://picasaweb.google.com/103138221614479310970/BarCasaTioPepeFlamencoDeBarrio?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - concert
 - cultura
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsC0yrLQ8KI4haDHpniKs1XvQMpR2LZWWyrw03nWz77bVcEoaoKmtaJjaUaYoTAPPNtng9p1A5WxQtSSRGnWuDxDI3Rtj7yAgnvlFQXAngYV9PYLFJA33dKLH0L2xjJkPxMatGcWyFdp1o59DJlZgsgJH_2YbX-SPX5IE4ytUUdOluIWyJoCLyJIgKF_M/w426-h640/DSC01274.jpg
+  image: images/covers/ab197565d602de36.webp
 album_url: https://photos.app.goo.gl/EhedBkKNniLqjo85A
 ---
 

@@ -11,7 +11,7 @@ tags:
 - Riot Übert Alles
 - sant jordi
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvJSuqQVsgtk4TeuuNmgbJd7Cbum_ue-KdAHVVAEopWrxqZGzPMWkbEg-syX6YgmJXL0WxO_qRNu_u2Fbn1vcKtKre1OUHtPJGdaGFf3MoTidqmWas8OBe6ljkTDA6faR6fIECwPo2rT8/s400/IMG_0571.jpg
+  image: images/covers/b4e33f9c5db3bf30.webp
 album_url: https://picasaweb.google.com/linuxbcn/DigemLiSantJordi190411?feat=embedwebsite
 ---
 

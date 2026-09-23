@@ -12,7 +12,7 @@ tags:
 - manel sala ulls
 - zirkolika
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0czHS6nYjLSIvWIDYtDk1eQv1pNJ-DKe2NSzhG7Ltve3adXr2PhtraIWORfbcdvuKudjqdkbSkrs1xzuumfc63sHdYpQUUCXmsaLR-ebvZAFmzhTGpVR6EzgrxXkT1wUoBwloXIdYdJOX/s400/apcc%205%20aniversari%20fotos%20manel%20sala%20ulls.jpg
+  image: images/covers/dabff426cff0f6a1.webp
 album_url: http://picasaweb.google.es/ulls2006/APCC5ANIVERSARIZIRKOLIKA5ANIVERSARI?feat=embedwebsite
 ---
 

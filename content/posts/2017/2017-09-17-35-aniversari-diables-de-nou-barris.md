@@ -9,7 +9,7 @@ tags:
 - diables
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1xPAg4LI6d-UCUsoolgkTMJZchyX9htyE5jnbTVklGi9sH6IzFInwMVvRcmxcqaMiMt2pSMsaMiWOdCIkUdZ5Yxv5vQKpypT5Q9ALn1QcopZHhEJG7L4zbVHKzWJs_yVb4F7bz4l4UhY/s640/DSCF6030.jpg
+  image: images/covers/5fdb271669dbbc81.webp
 album_url: https://photos.app.goo.gl/lSOP24sdABHphMpu1
 ---
 

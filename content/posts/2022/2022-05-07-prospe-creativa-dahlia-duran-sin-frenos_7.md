@@ -9,7 +9,7 @@ tags:
 - Sin Frenos
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKelkWlXD0fYw5vVLrcw_IczS9CySl6NCBfZMGn32hKp3HLSKKp7pSpqqGdX0B64uUWbfTxdMdRmQ2deMo0tz6s_GYqtJ0IsaXNA7NOxsdxmk9NfxpgbN72YyfohVs9YbyqIk4umkOc6VF22sbVGLQ-1ncH58AYrdiefwvBubspezfJhNcFMiY7s_2/w640-h426/P2290052.jpg
+  image: images/covers/161a7951d0092a4e.webp
 album_url: https://photos.app.goo.gl/h2gbsD2SPsXu5Vhk7
 ---
 

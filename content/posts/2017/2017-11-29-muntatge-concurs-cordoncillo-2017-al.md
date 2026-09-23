@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - concurs
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTrVmjIkco2cKxHkPG2momZM922y0JBiG8p28CFZh0YRRfdlTFWUzb-uV5aC4fmR7ZerSieUmde5jY2zCaSePsA2K-qvdo9AOszx2aYLLlX429-kpAgcoBO0myRPoIAyu7BboYDXbAqP8/s640/IMG_1213.JPG
+  image: images/covers/2ea544df6b6c665a.webp
 album_url: https://photos.app.goo.gl/HEKS3VkTPpeV5Ued2
 ---
 

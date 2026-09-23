@@ -7,7 +7,7 @@ slug: holly-festival-video_29
 tags:
 - Festa major de prospe
 cover:
-  image: https://lh3.googleusercontent.com/-AtJ7IW2Loes/V0t9gfC7jkI/AAAAAAAAQZ8/ARpquO5JgJ4m6tTVDNwXIugTjupAykTDACCo/s400/HOLLY%2B%2BVIDEO.mov
+  image: images/covers/6b8d7e2fccd84727.webp
 album_url: https://picasaweb.google.com/111964096227458093905/6290259296377892257?authuser=0&feat=embedwebsite
 ---
 

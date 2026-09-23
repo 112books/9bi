@@ -9,7 +9,7 @@ tags:
 - barri
 - veïns
 cover:
-  image: https://lh6.googleusercontent.com/-o20n32FvuNI/VIF6iquO-ZI/AAAAAAAAFbA/A500isAQyok/s400/IMG_7837b.jpg
+  image: images/covers/643f7b0855b263b2.webp
 album_url: https://picasaweb.google.com/116805523004990742624/AssembleaDesafectacioDeCanPeguera?authuser=0&authkey=Gv1sRgCPnrtLTxiPaEqAE&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - dissabte
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiowLg4zVRsbLhaFK2WcJH2pmXRcCW0AhsYyrsbIKiox3sqJP0ReCKX11rTaJQxcocIXESwdaagZhqqIuypqXfbpf_HN0Yt-WHnGhzCgRbriRmT6_WUHurOCofpUCi4Y8IASm_KWJBz0fo/s400/IMG_5783.jpg
+  image: images/covers/c1204cfb0c09b351.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestesDeProsperitatDissabte?authuser=0&feat=embedwebsite
 ---
 

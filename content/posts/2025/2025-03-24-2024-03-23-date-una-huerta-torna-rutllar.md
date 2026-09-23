@@ -17,7 +17,7 @@ tags:
 - Prosperitat
 - Reocupació
 cover:
-  image: https://blog.pocallum.cat/wp-content/uploads/2025/03/DSCF0398-1024x683.jpg
+  image: images/covers/87891061bd9513f2.webp
 ---
 
 Doncs sí senyora veïna! El projecte ***Date una Huerta*** torna a ser una realitat al barri de la Prosperitat! Aquest passat diumenge, el solar del carrer Joaquim Valls, 79, ha estat reocupat per la comunitat després de mesos d’inactivitat i abandonament.
@@ -28,13 +28,13 @@ Durant anys, aquest espai ha estat molt més que un hort-jardí: ha estat un pun
 
 Després d’haver entregat les claus al desembre passat, la propietat no ha fet cap ús del terreny, deixant-lo en un estat d’abandonament. Això ha portat a les veïnes i veïns a prendre la decisió de reocupar-lo per evitar que esdevingui un focus de brutícia i rates. Aquesta acció compta amb el suport de més de seixanta entitats del barri.
 
-![](https://blog.pocallum.cat/wp-content/uploads/2025/03/DSCF0402-1024x683.jpg)
+![](/images/covers/a7284681c14884fb.webp)
 
 ## Un espai per al barri
 
 Des del 2016, ***Date una Huerta*** ha estat un exemple de com transformar un solar abandonat en un lloc ple de vida. Ha acollit activitats com teràpies per a nens amb autisme, suport a exreclusos i espais per al diàleg i la convivència. Ara, amb aquesta nova etapa, es busca continuar amb aquest esperit comunitari fins que hi hagi un projecte urbanístic clar que respecti les necessitats del barri.
 
-![](https://blog.pocallum.cat/wp-content/uploads/2025/03/DSCF0403-1024x683.jpg)
+![](/images/covers/7007285972b3154e.webp)
 
 ## Què podem esperar?
 

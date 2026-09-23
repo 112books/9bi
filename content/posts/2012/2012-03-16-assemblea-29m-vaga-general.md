@@ -7,7 +7,7 @@ slug: assemblea-29m-vaga-general
 tags:
 - Vaga General 2012
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEiQ7PuegH4b5ySttkU844tn6ee3zODPE5nm6KhGeRfKE0Mp-bFCQuOEenmVs4PgGdhSjyM5Sr1nK-4oFiSTkuv55IPd_dO-hZ_A1up4YT1KCBlT10xhB4mNo18GUrtQXHvksnSuCt87Q/s288/DSC_0166.JPG
+  image: images/covers/6e03d3ac16a2a2be.webp
 album_url: https://picasaweb.google.com/lh/photo/9bfVoR4F7hBMjDPZvHKmYdy0aWSSCViwm6SXvDct9qo?feat=embedwebsite
 ---
 

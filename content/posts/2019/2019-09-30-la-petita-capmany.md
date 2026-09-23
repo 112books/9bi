@@ -7,7 +7,7 @@ slug: la-petita-capmany
 tags:
 - teatre
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimseKvFqKkGd5zhq6wRBUkYEqdwmNriuljuQg0Ux0MHoOTeTzjm9ffakRe_ho-OyNFTdmJO3DFozFO9itzyp3_jy8gwQJjJ2ICImJbGE9VJqXl_TynQHWmsL7d1xSlcX5Fkfn6BSrdNujZ/s640/_DSF3899.jpg
+  image: images/covers/91010d04a89ea9e3.webp
 album_url: 'https://photos.app.goo.gl/LfzS3n1aouYXyHgU8
 
   '

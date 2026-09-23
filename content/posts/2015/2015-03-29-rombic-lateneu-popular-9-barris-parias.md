@@ -11,7 +11,7 @@ tags:
 - Barcelona
 - 9 barris
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsrMJ55_iwbKpH8u0ZAl80-gyDsz28qDci-sYb5dt4MqCHbkcaCSCh_ECPV88EKBBRCor5CsXYADO-M4S71gDoeV-As8-QKjxGFzEJgxREosyGaUWdRBe3VGnmzwu3rGMRzBPciz9I9jA/s400/_DSC0148.jpg
+  image: images/covers/866fb6643b2f7c86.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ROMBIC2015?authuser=0&feat=embedwebsite
 ---
 

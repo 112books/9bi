@@ -8,7 +8,7 @@ tags:
 - casal barri prosperitat
 - teatre
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1rEMWlHk8pXm7uE9NTobAERNhyt_-Ni5Qu4ZDjU7vgrWA3y0GfTU7jFtwRiibKZBJLKO2xQ4LssFY8-yg0IGVR-Bx8ZkeucxXr1D90Ge087fyXDdozaIBQxJdqRc8edFJJd8_Sz1HuqFt/s600/2T5A7590.jpg
+  image: images/covers/ebb5199ca4c52439.webp
 album_url: https://photos.app.goo.gl/Mf8yStFvMJ7UuanL7
 ---
 

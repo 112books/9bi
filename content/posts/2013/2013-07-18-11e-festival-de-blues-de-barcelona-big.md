@@ -8,7 +8,7 @@ tags:
 - Big Mama Montse
 - Hospital Vall d'Hebrón
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDHzSOTV4oiFEqqPSpRCsULG90gy91MbgWKmP7tFDrf6GrsXhAGooRfWDX5XKxPsX-8K9rkLvIHyWeyenk9dHVnXZZPUX2g66kKEtv75nundqAmaQISwFvdzycn9pP9IK07yMkiN0CTIY/s400/_MG_4334.jpg
+  image: images/covers/fc2b628679ef5200.webp
 album_url: https://picasaweb.google.com/103138221614479310970/11eFestivalDeBluesDeBarcelonaBigMamaMontseALHospitalVallDHebron?authuser=0&feat=embedwebsite
 ---
 

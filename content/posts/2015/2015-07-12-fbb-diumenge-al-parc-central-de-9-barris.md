@@ -10,7 +10,7 @@ tags:
 - diumenge
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijZOZL0JjLhrF19OapRqfWZbkWEvXUtAAnBslMs-bPD6HyKj8axyN9iszHjzh7hghSoJGWmMtrjfAT6hN1RXqKFxLgpZub3wJ5qZgCAHuU4AcNhQnIOpf9pOrehLEb5SDssKkncLUqbLo/s400-Ic42/IMG_1079.jpg
+  image: images/covers/643cb284e726d37e.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FBBDiumengeAlParcCentralDe9Barris?authuser=0&feat=embedwebsite
 ---
 

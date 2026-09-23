@@ -7,7 +7,7 @@ slug: 19e-festival-de-sopes-del-mon-22
 tags:
 - festival de sopes del món
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpu93_EgUxSssb2Owbydfio3jnPUvzpDNRfqUHgSOVWWU8fpHZz6zJoAQg93c4F3DQ4F2ySr4lK5btPp6EXKvbAmWS_l4dMo55qzic1ZX36ISl58OAEDGZ7XrKWWVHkifwoWdq0yI2lSr2pSIUUDMdTeqqMt8L9OY3qOMbM_FYgx6Tfua3mKdYoQWH1jc/w615-h398/sopas_.2023-023.JPG
+  image: images/covers/5ab9b7ee665f8039.webp
 album_url: https://photos.app.goo.gl/u8rnvfzg3WQbFd4M6
 ---
 

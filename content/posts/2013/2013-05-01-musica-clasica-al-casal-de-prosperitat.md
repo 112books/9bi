@@ -11,7 +11,7 @@ tags:
 - música
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhax8IdutXPUxSZk1dpQ-f3JtoE2GC1GiIG5S48ci0deimjnEH_wQ4gPdodCTNQRVn5WgiyrEy-KB4NemHXO7QDr0eLTw6xMdSvHf09aIuEYOnLQnpkvJqtWAsOdfa2-nP5fJ-GZyiHlgk/s400/PGF_8067.jpg
+  image: images/covers/0f6fba72f3fbe5cf.webp
 album_url: https://picasaweb.google.com/115791131166530059320/1DeMayoDe201302?authuser=0&feat=embedwebsite
 ---
 

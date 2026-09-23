@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - Ángel Pesstaña
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsNNFL7UMYkyoMdzsnQ9jvBKtD53Vucowyk6PUYt7DTk1B1Ui8jKCJgbMYO5pi_YmNBqepBBBw820Hzfm5RpFL1MTthrAzAuTI7qIGsDaRv4FAKdpfDhmnB_htj1qw9gbrYPaDtkMaCtc/w640-h480/pintada-pestanya.jpg
+  image: images/covers/4710f1145e12de2d.webp
 album_url: https://photos.app.goo.gl/XyVubHWpBBZe5VCf7
 ---
 

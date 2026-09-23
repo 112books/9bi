@@ -9,7 +9,7 @@ tags:
 - Barcelona
 - barri
 cover:
-  image: https://lh5.googleusercontent.com/-0rL-YYpAvRg/VOZhm9or1PI/AAAAAAAAFwY/Hz_XsZBkggs/s400/Guanyem%2520%25284%2529.jpg
+  image: images/covers/2c04643c65233188.webp
 album_url: ' https://picasaweb.google.com/116805523004990742624/BarcelonaEnComuNouBarris?authuser=0&authkey=Gv1sRgCMHc58i1gduY_AE&feat=embedwebsite'
 ---
 

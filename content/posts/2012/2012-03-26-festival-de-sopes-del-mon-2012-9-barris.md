@@ -10,7 +10,7 @@ tags:
 - festival de sopes
 - 9 barris imatge
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3gL4qEkedjePiXboKpUcpVLd8P6WJjEvdNyZ_aSAfRDc9oAtk8zqvszQ634Q-dw1VXz-0fW4N6aM-UGMTrIPXs7Jd2AQcseLtDThbUNA_-M_5k5i9aCWJHXjd33CoJHz8FjYgull8thca/s400/IMG_6042.jpg
+  image: images/covers/4144cef26c0d1941.webp
 album_url: https://picasaweb.google.com/100268695753733554853/FestivalDeSopesDelMon20129BarrisBarcelona?authuser=0&amp;feat=embedwebsite
 ---
 

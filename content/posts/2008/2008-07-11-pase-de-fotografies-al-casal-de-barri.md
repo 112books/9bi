@@ -11,7 +11,7 @@ tags:
 - Prospe Beach
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGNZb95LbaLcgDF5mNnvwqgqAzW8GuYjg1aI4CT563EN-zxODeFcm_dAO8ayQ_qEEjnm9p1VQpG1NKvUG3DXFZeXUsoSold32IYjO4XehqJsbTsH3HR4mThnScb3JjDXL8MR8JuYGyfYQ/w640-h426/passe-de-fotos-web.jpg
+  image: images/covers/a9ec48e0d886b7fd.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

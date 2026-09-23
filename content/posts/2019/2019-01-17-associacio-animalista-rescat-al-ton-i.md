@@ -11,7 +11,7 @@ tags:
 - barri
 - llits
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDaAlbRG7cqHB1QyWJq_fX20NWLdWHafq_feCHQv8LvNrTwPq00OjOSthhLiIlIPvcJ2TgBu26LD5MhRLZtm-TKt9n9_3FJtKJ-k2mOruDdGWXnDMHujh6MWJnkqW-uS7_rARb0YMPzms/s640/IMG_20190114_173514_resized_20190116_121115723.jpg
+  image: images/covers/1fc9044ca8477282.webp
 album_url: https://photos.app.goo.gl/54mj4mA8b5avYkL27
 ---
 

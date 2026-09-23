@@ -12,7 +12,7 @@ tags:
 - Ocupació
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzYtEFwrPTWbHLFBGPuR23rK8iJT4j4SGHM3fSZrrv3NpWY0H3tvZlPh1QyD5ahtQqZkf8nI2C6-2BzKbnFkbbH2VttQA2jZJ8hzc_Y45uCA-M2abC2gmR8R4FWXi26cqpUftJOGnlUpQ/s400/IMG_8178.jpg
+  image: images/covers/c77b0314191f889a.webp
 album_url: https://picasaweb.google.com/lh/photo/9GB1M2JFerdf6fbqOMPGrNMTjNZETYmyPJy0liipFm0?feat=directlink
 ---
 

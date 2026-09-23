@@ -11,7 +11,7 @@ tags:
 - dones
 - ruta
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9zhuIyDH862U6gnwp7UECkZGLYvjfXm6RkYDFSMfGajEU8dGAoIDUPTW_CzvMpGU9y3rKMI73vV6vuYSjb1JO_rapvg-lgw4ZM5X1-mC7qB66AFGHkX9rvjzgsAja_9O-8TNsn6nH6Gc/s640/_6010029.jpg
+  image: images/covers/9ee2fcdbacecdf2a.webp
 album_url: https://photos.app.goo.gl/UJAUDm4F7szPvQQk6
 ---
 

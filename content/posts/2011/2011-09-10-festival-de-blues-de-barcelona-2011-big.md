@@ -11,7 +11,7 @@ tags:
 - Luz de Gas
 - the big jamporee
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_mUus0vYWHx0bD7JC6zspv4a92XqeKpAg8m_JL5ftJLeBZJTuDjWMIxQ5nL9lZMQHp9TU0rti-_hu8NbrYi4WcIp6_18h5a6806TIUiPRWpx8oZ5ZBRvgMdP_miwHKYBRW7t5KQmnnbM/w640-h427/IMG_1498.jpg
+  image: images/covers/b60ea45b77a8df06.webp
 album_url: https://photos.app.goo.gl/H5SuXxWZooYw8UKv9
 ---
 

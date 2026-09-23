@@ -9,7 +9,7 @@ tags:
 - cinema a la feresca
 - plaça Àngel Pestaña
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgu90skNN9WVDhKuzjVQ8ivMiPDWq_55xnKb-WeUsD0_ZOkbL8kddLGr1IWmqr1j7eKIWoeRVeNe9FMCv68ZqlQbSQU9TqlAQexy2xQ_FrOKKqgkVkdnCrM92Uahyphenhyphen-1rY7O-TfJSXvdzJA/s400/IMG_5624.jpg
+  image: images/covers/3a3717a47dac0a7a.webp
 album_url: https://picasaweb.google.com/linuxbcn/CinemaALaFrescaCinemaMutAmbMisicaEnViu?authuser=0&feat=embedwebsite
 ---
 

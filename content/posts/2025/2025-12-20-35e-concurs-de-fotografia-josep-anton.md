@@ -11,7 +11,7 @@ tags:
 - la prosperitat
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQ0a_0PztZx3-5oSbSNWnumJ7neBS7gRB96nbfHmcz2KXxNn0bS-9WB1nm04CO6_Tt_iCfF0A_hBRB0qNqQWQpNU40kt6UFnvsjilfP4_xdA9E0yH0cqLCESIeNqkKBbJ8TPAhxj9M0bw7FCBOsGrpfRXehZZ28CZX0Hkqkc-wqY-5us1PV3Rmxd_HqZc/w640-h426/P1210132.jpg
+  image: images/covers/2f4c9161f682eb68.webp
 album_url: https://photos.app.goo.gl/WfVHs174DpHZCFPd8
 ---
 
@@ -29,18 +29,18 @@ Així que ja ho sabeu: **aneu esmolant les òptiques i afinant la mirada**, que 
 
 **Enhorabona a totes les guanyadores!**
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEjUul8m3D03DlzTdISazN7NtS7rTP5p0zk-YE60jr8_-5w2SurOadt_RgH8lAk4BIS9mZXTMhQ2aI86C9qG6sYvyuoBJZuUMqGB1Zy829OH_39nQEDwWKeEnpAJUqaV0C_OxPjFRNNd4idxysoswUgjwRr5CgGp20FRuHc_8LX1dUbWBDmkFx_O4jsShNY=w480-h640)](https://blogger.googleusercontent.com/img/a/AVvXsEjUul8m3D03DlzTdISazN7NtS7rTP5p0zk-YE60jr8_-5w2SurOadt_RgH8lAk4BIS9mZXTMhQ2aI86C9qG6sYvyuoBJZuUMqGB1Zy829OH_39nQEDwWKeEnpAJUqaV0C_OxPjFRNNd4idxysoswUgjwRr5CgGp20FRuHc_8LX1dUbWBDmkFx_O4jsShNY)
+[![](/images/covers/a90951b10287948e.webp)](https://blogger.googleusercontent.com/img/a/AVvXsEjUul8m3D03DlzTdISazN7NtS7rTP5p0zk-YE60jr8_-5w2SurOadt_RgH8lAk4BIS9mZXTMhQ2aI86C9qG6sYvyuoBJZuUMqGB1Zy829OH_39nQEDwWKeEnpAJUqaV0C_OxPjFRNNd4idxysoswUgjwRr5CgGp20FRuHc_8LX1dUbWBDmkFx_O4jsShNY)
 
 Guanyadora de la categoria temàtica: "Peus": Laura Caraballo Sánchez
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEhnCLoioNZuYcDzf2Drv-z8IEXLIFxgoCjP1QFz_5IkJf8VXEjRRuJcqJZmNoGsM1cnwgpheiIvO4KLYgydsJ8FFsaIW75eZ2WB3aNKVRN6ef-2FyAJVkfS6aJICU5_eLZKuvPlJYFAJI2TuuJF93Z0UspnKtvGKf97TL00BF8JmkILlycCQXcgTEuCtNg=w640-h426)](https://blogger.googleusercontent.com/img/a/AVvXsEhnCLoioNZuYcDzf2Drv-z8IEXLIFxgoCjP1QFz_5IkJf8VXEjRRuJcqJZmNoGsM1cnwgpheiIvO4KLYgydsJ8FFsaIW75eZ2WB3aNKVRN6ef-2FyAJVkfS6aJICU5_eLZKuvPlJYFAJI2TuuJF93Z0UspnKtvGKf97TL00BF8JmkILlycCQXcgTEuCtNg)
+[![](/images/covers/c7bef514b5404dfd.webp)](https://blogger.googleusercontent.com/img/a/AVvXsEhnCLoioNZuYcDzf2Drv-z8IEXLIFxgoCjP1QFz_5IkJf8VXEjRRuJcqJZmNoGsM1cnwgpheiIvO4KLYgydsJ8FFsaIW75eZ2WB3aNKVRN6ef-2FyAJVkfS6aJICU5_eLZKuvPlJYFAJI2TuuJF93Z0UspnKtvGKf97TL00BF8JmkILlycCQXcgTEuCtNg)
 
 Guanyador de la categoria Color: Xavier Estany Salas
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEiew5blHjnks5Am6-VxXtDqhyyzXY0cc3iCwkNUv-Clm8AZFF-UsNIyILW-FwBzA2i5aUS4YnNnzHtHJu0AH8UsOW5DKTj7Zz1pQatqynRjRWoLgPbdyhBUHjWGDQ2JRMVb1PS2bDguvQpp_oGjfg6qxarBRC-wfysNN1ubEUbUA_Dl1Ux8yduYOjgyDlw=w640-h424)](https://blogger.googleusercontent.com/img/a/AVvXsEiew5blHjnks5Am6-VxXtDqhyyzXY0cc3iCwkNUv-Clm8AZFF-UsNIyILW-FwBzA2i5aUS4YnNnzHtHJu0AH8UsOW5DKTj7Zz1pQatqynRjRWoLgPbdyhBUHjWGDQ2JRMVb1PS2bDguvQpp_oGjfg6qxarBRC-wfysNN1ubEUbUA_Dl1Ux8yduYOjgyDlw)
+[![](/images/covers/4e013eed34ae6473.webp)](https://blogger.googleusercontent.com/img/a/AVvXsEiew5blHjnks5Am6-VxXtDqhyyzXY0cc3iCwkNUv-Clm8AZFF-UsNIyILW-FwBzA2i5aUS4YnNnzHtHJu0AH8UsOW5DKTj7Zz1pQatqynRjRWoLgPbdyhBUHjWGDQ2JRMVb1PS2bDguvQpp_oGjfg6qxarBRC-wfysNN1ubEUbUA_Dl1Ux8yduYOjgyDlw)
 
 Guanyadora de la categoria Blanc i negre: Paula CHARLES ESTEVE
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEg8_9Lo4vllXBKKSygCCvspyST4jSVAIM1rtF251QJtoVvSdLWfUWbi51mAyOk2PG6vazBzDujPWnn-fMxXMxN9s7g3yJyBqtdO3bfLoSyD0gFN383WxTVnX9H0uHLPKQefU1rNQC2HoZYF9s_lhW3r-gxfaIRBYCLtfmLO_--N8B-oYg_mNaHQaqo7C2M=w640-h480)](https://blogger.googleusercontent.com/img/a/AVvXsEg8_9Lo4vllXBKKSygCCvspyST4jSVAIM1rtF251QJtoVvSdLWfUWbi51mAyOk2PG6vazBzDujPWnn-fMxXMxN9s7g3yJyBqtdO3bfLoSyD0gFN383WxTVnX9H0uHLPKQefU1rNQC2HoZYF9s_lhW3r-gxfaIRBYCLtfmLO_--N8B-oYg_mNaHQaqo7C2M)
+[![](/images/covers/dda9dd3595d7e22c.webp)](https://blogger.googleusercontent.com/img/a/AVvXsEg8_9Lo4vllXBKKSygCCvspyST4jSVAIM1rtF251QJtoVvSdLWfUWbi51mAyOk2PG6vazBzDujPWnn-fMxXMxN9s7g3yJyBqtdO3bfLoSyD0gFN383WxTVnX9H0uHLPKQefU1rNQC2HoZYF9s_lhW3r-gxfaIRBYCLtfmLO_--N8B-oYg_mNaHQaqo7C2M)
 
 Guanyador del Vot del Públic: Miguel Angel Benito Garcia

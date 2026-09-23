@@ -8,7 +8,7 @@ tags:
 - Concurs Fotogràfic
 - Concurs Fotogràfic Josep Antón Cordoncillo
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWqY4rHgQGmncOpSHbkLA-EcW7qdewoQenp5_aoiI6_SsL60rWqUsBrUPlW7BST3SG3U37JfgZ7IEJf7iAyUbdP8pLmIRwUhWLMsGxktVinSsgj8qi1ljojhuFiUHtKTVBze2alOLky_M/s320/CONCURSO+FOTOS_0.gif
+  image: images/covers/e3cb1d6e79a7f737.gif
 ---
 
 ### BASES DEL CONCURS

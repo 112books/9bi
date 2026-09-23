@@ -11,7 +11,7 @@ tags:
 - FESTA
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3ZVN2TDlxbmwVKewSHjHnzpiGlxydmPP2ih5xx_Q8DXd0XSzQ6-uAXnOZVk4KQcgXuTtzmTq7t58WEHuB9XTC1R2sgtyro0fiV2Uw0yOYsCOH1w0IqpulvdKn1Gr2lwP41HrfbRFoBDM/s400/_DSC0983.jpg
+  image: images/covers/4416f7e6328c31c8.webp
 album_url: https://picasaweb.google.com/110015855395179205688/CARNAVAL2015?authuser=0&feat=embedwebsite
 ---
 

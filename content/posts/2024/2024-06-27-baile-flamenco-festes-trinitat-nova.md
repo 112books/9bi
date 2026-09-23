@@ -11,7 +11,7 @@ tags:
 - festes
 - baile
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_F5iWOsAxJr_GNDgOUpzRYIYUe5GfPAfP8ZseLrBjwwbD2XvO63No2XRvGbuoTXYcKQgllH0C9Qg4Y70U7wpVF8enA64hfDE5-M2e6kIH9qZtWkdJvY05epCIMX7CxRmlpugG8FOk_iSpFuw1_AwjrX-5jeYWH4s-UzyZWzdssXkKRYTg3did6FzC7L4/w640-h426/por%20revisar%20121.jpg
+  image: images/covers/b77980c2b1311883.webp
 album_url: https://photos.app.goo.gl/vMcXH245j2c957BR9
 ---
 

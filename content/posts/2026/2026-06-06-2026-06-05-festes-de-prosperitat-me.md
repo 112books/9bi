@@ -13,7 +13,7 @@ tags:
 - nou barris
 - Prosperitat Barcelona
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI4A6FRFx0GGn1Gk_o17jzzHheqQcpEyGTTUO9PHBrIHvriULKjfKG1p5HjAtatDlrAGb1M7RspuW5S7vKD_9sSTu32whau5lgxNISDjhB75NmoBQhVIqfb96XRM5joFoBoIV5sRY3wkkpY2-JfRfs2-R33jwuO6MPcsr9J10mcgJYtgfu1hyphenhyphenBaqtWaa8/w640-h426/DSCF4953.jpg
+  image: images/covers/3945a6b80e24a83e.webp
 album_url: https://blog.pocallum.cat/2026/06/06/2026-06-05-festes-de-prosperitat-me-pirra-la-birra-fest-mocebares-prospe-oases/
 ---
 

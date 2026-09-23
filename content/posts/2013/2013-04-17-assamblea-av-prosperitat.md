@@ -8,7 +8,7 @@ tags:
 - assamblea
 - avv prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhec8pD4Ugw36OFKrJlO4D82Vs3rGMak7yKJBuxIRWtOKRZkjmcc75eWpILOGDfmJ_FFNX8kuLNDuLZyhVFWK5laArSMsN-37l-PTzhXva-SFzpoL0-e_KyLQ0LIXVrqhFOdQ3-rEwhLX4/s400/IMG_8683.jpg
+  image: images/covers/3fe4e0517a87419d.webp
 album_url: https://picasaweb.google.com/103138221614479310970/AssambleaAVProsperitat?authuser=0&feat=embedwebsite
 ---
 

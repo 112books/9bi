@@ -11,7 +11,7 @@ tags:
 - ruta
 - casa
 cover:
-  image: https://lh6.googleusercontent.com/-NjLWdRwT_5Q/VHe7LUy9EnI/AAAAAAAAXw4/do19sX68ghg/s400/_DSC0713.JPG
+  image: images/covers/13ab07ce9431de3f.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ElRegal?authuser=0&feat=embedwebsite
 ---
 

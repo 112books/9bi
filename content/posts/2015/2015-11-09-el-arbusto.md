@@ -11,7 +11,7 @@ tags:
 - arbusto
 - concurs
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7Y8m5ektf1EUO7aFrgYFgScGQX2l879XpkNgdxLtkLPkOMY6OCF3yvF1HPEao0ApBxxGiKgW7r_uUoLFStQfZ7fU8gCsWsxEaP-p38golFjTvYq3vh_G5wsXTQ-3d8dW8YLUP-vP-Eyc/s400-Ic42/DSC_7993.jpg
+  image: images/covers/13ebec82987a15f0.webp
 album_url: https://picasaweb.google.com/115791131166530059320/ARBUSTO03?authuser=0&feat=embedwebsite
 ---
 

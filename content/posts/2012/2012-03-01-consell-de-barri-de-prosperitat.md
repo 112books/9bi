@@ -10,7 +10,7 @@ tags:
 - consell de barri
 - victor català
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-YLo_UpWb53iP7RYrtXcp9c-AqCKyCX2My1WNdwa7FHfqiKvWNn5sVIjqIKhSSxwFei_4KRgzTHXtKa6I089_yoqwhdxRZdA8SXb8avWwrELv_gY36GY0e5dbhoR7hr7gweETp11JiRA/s400/IMG_7955.jpg
+  image: images/covers/cbc243f11bd8362c.webp
 album_url: https://picasaweb.google.com/103138221614479310970/ConsellDeBarriDeProsperitat?authuser=0&feat=embedwebsite
 ---
 

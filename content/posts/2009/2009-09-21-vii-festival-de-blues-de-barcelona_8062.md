@@ -13,7 +13,7 @@ tags:
 - linuxbcn
 - VII Festival de Blues de Barcelona
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDNJCsKWOtPcV4-XQElJ8QxbDAIy695uOkVaADLTuVRSKuK1TKdvkkoMl9mu3G6jtTiteYPu-2CxOxK1f2uebObCfCJblhY6lnGkaBbdPce3BSYHTm72P39nJ6EzoMlIgReuTa96oQrYQ/w640-h426/IMG_9826.jpg
+  image: images/covers/fe090c4f15a65541.webp
 album_url: https://photos.app.goo.gl/b55nDZJ6v5v997Eo6
 ---
 

@@ -8,7 +8,7 @@ tags:
 - Amar Sundy Blues Reunion
 - festival de blues de barcelona
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJdX8z_eKy9y-E1LKhDTXxoYa8lCpbu8RtawcWimGQsM5Aa204NZtGJiWnh0IQR8u5MlDQgLLSUEHDLrQus7vhtlHncRdOXVocYcK6LhiqyZjLU1ncbIP8cIJRXnPo4bVqgSMiV2huguo/s400/PED_6085.jpg
+  image: images/covers/c7fd027f631335d9.webp
 album_url: https://picasaweb.google.com/Perdo.Garcia/BLUES2011?authuser=0&feat=embedwebsite
 ---
 

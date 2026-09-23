@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - Barcelona
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzH7ADjAuY0PbZADmKgGhlZjOO72KN7o1JgbrhnkVzxszuD93GSd7wI2n_iZ_tjOdpSAcmBO5o7470Vs62RRtu6_e7Q_Z0mW_gLSPvsAul4xWeQ2CVi6roqOTnM7ZlcW5Bwoss1nLnCVlS/s400/IMG_6984.jpg
+  image: images/covers/a32fbb84a16ebfa4.webp
 album_url: https://picasaweb.google.com/100268695753733554853/CabaretMudanteCasalDeBarriProsperitat?authuser=0&amp;feat=embedwebsite
 ---
 

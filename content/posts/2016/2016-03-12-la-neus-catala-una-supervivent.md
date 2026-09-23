@@ -11,7 +11,7 @@ tags:
 - graffiti
 - Xerrada
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgr4ph9U34kMd6tx8omTkA-D3xCbkhNvQdjIk2pyhGXeKyf9kFTvaQYoTyIbByViAvceR3aTWLTh_V_IJgmKWa82x_sXG0nFq1TpLVQwnqmOgkRxnGoHlHxQro4q6GujVOLG2_bNgrK9DE/s400-Ic42/_DSC0418.jpg
+  image: images/covers/6de3e55017b886f3.webp
 album_url: https://picasaweb.google.com/110015855395179205688/NeusCatalaPerLElisendaBelenguerAlTonIGuida?authuser=0&feat=embedwebsite
 ---
 

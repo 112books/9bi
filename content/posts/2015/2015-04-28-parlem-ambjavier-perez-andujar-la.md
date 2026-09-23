@@ -11,7 +11,7 @@ tags:
 - roquetes
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgATJy0ViiMNFnppD4nnDJZQZVczkaMWVXprip5pb5-TPJ9TWBY-4Ic2ezx3_xhD0jzvkDePx0KXtcKkZxpD9d5fQ3qhqbrjAAHKtSo1kk9R91FQ-esfbFXxjYrtMWkOSzGreEaNPzOaWI/s400/_DSC0339.jpg
+  image: images/covers/e22972bf6a1ec4b5.webp
 album_url: https://picasaweb.google.com/110015855395179205688/PASEOSCONMIMADRECLUBDELECTURA2015?authuser=0&feat=embedwebsite
 ---
 

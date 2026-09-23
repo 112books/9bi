@@ -8,7 +8,7 @@ tags:
 - nou barris
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAKiqUiKCWJIVdMujU4fDxLc-At4G32_Ypyk2kCqzyZzmG61wEgJtmnezTR11L0jDzOnd-rMqZxI4yZWW7_5QJoXZTK59KOqIfCp4WTnB7cbGFHTDFfVX1QECf4kQEjz9iGB_0KXgW_6E/s400/IMG_4992.jpg
+  image: images/covers/7ee0cfcc79603450.webp
 album_url: https://picasaweb.google.com/103138221614479310970/AudienciaPublicaANouBarris?authuser=0&feat=embedwebsite
 ---
 

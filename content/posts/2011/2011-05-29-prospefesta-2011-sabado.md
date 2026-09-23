@@ -8,7 +8,7 @@ tags:
 - fiesta
 - prospefesta2011
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjIbGo0ZYQJg3KLUIjer5ISr3a1OGMQOp92rae7bFCDsuasYc2G6mp9wlBW__gXxxgNCSDpbPVjGCq99tvxLRyLjyjzivHUkPBw-SCHBTh6K2TVXKce2Vvii5BwMBMP4jDR55yOEZ1K7s/s400/PED_8163.JPG
+  image: images/covers/9b1db7932189328f.webp
 album_url: https://picasaweb.google.com/lh/sredir?uname=Perdo.Garcia&target=ALBUM&id=5612167533879542417&feat=embedwebsite
 ---
 

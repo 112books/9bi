@@ -9,7 +9,7 @@ tags:
 - casa
 - avis
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhs4BYTcd5w9IhYX_kYqEwBIhiJ7JDBcPPZd0KdCrQswTCc7kPhIXb1vLf6DmqbBDfZZoEpFacub1GPHfKYANvr9epM8-DdoVw11JtSpEPW6n_FnInOJ953uirq9Sqpn_8NHgLWv30E8OMX/s640/P1440795.jpg
+  image: images/covers/6d6ca0c37fa73ecf.webp
 album_url: https://photos.google.com/share/AF1QipMeuPJ58gj_11YOLt_hquwBpo7qrdDijUs9TTBoJnlbR9l-Dw4cRFKu3nsUZDI5sg?hl=es&key=Vnc0OXN5T2FZSm1FbF9KSzE3aWMwMDRYeHRuVkV3
 ---
 

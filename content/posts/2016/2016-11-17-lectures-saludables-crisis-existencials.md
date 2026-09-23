@@ -7,7 +7,7 @@ slug: lectures-saludables-crisis-existencials
 tags:
 - Biblioteca Les Roquetes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7IfYqpZr2lYfrA62J0zXfVUy8ndGaSDxunO90Qpoa1fRacorxJpHKz3GblgAYV0sJ3x5t85Z7R6aOtcagGYtR6du7ipPiqIjPUrE_9Nmfx1m8gjw6d5gDEHZ5ygxNxtysnaFci73Nl00/s640/20161114_200455.jpg
+  image: images/covers/36ffd0a8fb4e581e.webp
 album_url: https://goo.gl/photos/QS8nWSUX8wrYHWgY8
 ---
 

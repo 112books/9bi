@@ -11,7 +11,7 @@ tags:
 - festes
 - art
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWNbTX9IsmOqSmFAZh9gWocuNG_ox-ATwPU1vsTo-7qq-3WB5JvidIdoQExzX9gKq533oYUnVJJpYgUvbUsEBIMMUFX_n_7HWermSSE_Yth58jpcQnUp0m5oW2QYH80PW3JQ99kEtq9Rc/s640/DSCF4450.jpg
+  image: images/covers/32ebe3f5143d02fd.webp
 album_url: https://goo.gl/photos/22o7DAek2zhL7dbp7
 ---
 

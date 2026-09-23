@@ -16,7 +16,7 @@ tags:
 - nou barris
 - STUTGARD
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih6ti6PR3WrLDmhCBm6OYUAyzd-FNHXHu-sxfP-ztAyPy8qvXYZvlhTe4W-HE6cNLjr-R3GLmZ7CRqNJ4wX4lW3Vf57ZvveaU2lbwFfBLdAkSepvgzZ-_IUMqj4JrSwnGLnQBl_ro5ap8/w640-h360/?authuser=0
+  image: images/covers/8d652ffd26441899.webp
 album_url: https://photos.app.goo.gl/gAUeAZBCqqfKZgp76
 ---
 

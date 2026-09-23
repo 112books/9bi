@@ -9,7 +9,7 @@ tags:
 - Herederos del Taxi
 - vermut sical
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUDV2kxHmzNPCbx7ScBBAeJayEk4SCZoK6D3arAo69YmBQXwUmURhr6T2xBipmJyCrZHLeafkuiUas_tt-RU5GV6suNtsRaNZZ6S_89BDISfE5kTL43gEyNnY132nel4iTJDQG5210piQ/s400/IMG_8126.jpg
+  image: images/covers/a5ecb0e742af728a.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutSiCalHerederosDelTaxi?authuser=0&feat=embedwebsite
 ---
 

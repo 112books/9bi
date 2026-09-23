@@ -12,7 +12,7 @@ tags:
 - harry walker
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAqrxzl8fCUhfPD9k8S3yuFIy2T3_47sC2aFK3s1URQDV6BusS5Mi6MUW5HMtHrX9N0DkPpThVjvyOnwlgsCfhmucZYdLMNN5iVRgGhvsG7aparlq6O8fqyRDkc9bpZjAq8SfIydvbcTM/s640/L1200804.jpg
+  image: images/covers/747568071f8c384c.webp
 album_url: https://photos.app.goo.gl/UeFaDBSFJo3pb4E68
 ---
 

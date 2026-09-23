@@ -7,7 +7,7 @@ slug: dia-de-la-musica_20
 tags:
 - música
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2OTjk1y9-MZMfu7kPzblRwr8noxYBaMQhjPRXj2py6JxwVu_2uEJGvaQ7DDsRvr8yomiEZwOZOA3oJzNbxdWOhusGqjFlKuyyKLGon9VX0sezsKdtYfGnpVn379uxmmpANaeQURMc2een/s600/P2260274.jpg
+  image: images/covers/909c75f09c0a5260.webp
 album_url: https://photos.google.com/share/AF1QipOnswJBes52xd_oD29lKjflhVHVQB8fHCCdjHPcfdoLZnwTVn9PQqaEK4ekfJqZzA?key=V0RkZkg1bzlyVjNQZDI5Ymk2MTYwdjRrb3RnQWd3
 ---
 

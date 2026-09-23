@@ -12,7 +12,7 @@ tags:
 - pallassa
 - payasa
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZpe5s3zh-cVQ66ygS9CJxytecx8N_ToxHtLEUqAy3oq0tCW_9beEvJGLUtgvGZrvx3BnPRbSz82qXsexomiDxdQD6GFgDtWcFrj0jpmG2zB8agRUQND-_SMcYYn_WtZePrfeyjqH_ZDwK/s400/gardi-hutter-festivalcomic-figueres-2009-ulls-004.jpg
+  image: images/covers/22a833740fad22e7.webp
 album_url: http://picasaweb.google.es/ulls1963/GardiHutterJoanaDArcFestivalComicDeFigueres?feat=embedwebsite
 ---
 

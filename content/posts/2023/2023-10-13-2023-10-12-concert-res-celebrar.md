@@ -10,7 +10,7 @@ tags:
 - punk
 - casa
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguH8S7efyl_M6vQZ2J9KZ9tqaZBSIgYE31NX_ntmR30oW2pGOkE3_b2vqVqjTIxT5w0hMxyAXc4IKYp4kB0qL0dC4k3Fa-qkWe9GvVKOUevt-HXks0QcxqctmJI7gpm2OAxOeWN7kME4xE0vbeiKx4dJYiG8ZRLMNp9CPbtuqIhDn3uylXMV501TRWW9U/w640-h426/_DSF4898.jpg
+  image: images/covers/cdce346b73b96c83.webp
 album_url: https://photos.app.goo.gl/yvGHVKAYG7DRudA39
 ---
 

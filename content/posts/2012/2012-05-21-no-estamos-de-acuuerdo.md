@@ -7,7 +7,7 @@ slug: no-estamos-de-acuuerdo
 tags:
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEia9DoP79NZzu9HvrPNgX_q1AD_t-Cf7KGvz0rBOOmns9N4RkEMUd4A_x_mc-J7qCwX7uK-PWIFbDc9y4tMAaY5I-V123U50fJVv-rrONiwanZzecxW6LGp8JtVnV4JrKP5hlScV7z2YDs/s400/P1270902.jpg
+  image: images/covers/1393e01ec4dcf8a6.webp
 album_url: https://picasaweb.google.com/115791131166530059320/21DeMayoDe2012?authuser=0&feat=embedwebsite
 ---
 

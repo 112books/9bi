@@ -11,7 +11,7 @@ tags:
 - festival de blues de barcelona
 - la modelo
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl6nqNgtP0q8hwUaKxwRmtD5YYDzc-4y9oTQ3P_SLqjkS4SaCvAkF7jU2mSvXetXiIU1Fc96Gl_h3TtQIfj3ZW1po2chdsQ-1jfO2soVd9ztMFZ8G7HCPhpadw4FuCaBtEzzsBdTFXVGY/w640-h405/IMG_6339.jpg
+  image: images/covers/acf5607786b407c9.webp
 album_url: https://photos.app.goo.gl/jbDH1UwUM5B6yDZAA
 ---
 

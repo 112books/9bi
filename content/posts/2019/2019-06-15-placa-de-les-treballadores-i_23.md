@@ -8,7 +8,7 @@ tags:
 - harry walker
 - ball
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-aGWjAFLJBadeW35qlMGIx4sznGgmuEL7YyUHjctPFsufhNkS0iV8ycwUeMN5FMdtj7PZHuo9T_Q-K-4ePz0_wCJNP3yaKbaxO8yRJ9gbw8XxrsD7LX3DScBBy8K1O0f9K5SfDZTojEqP/s640/DSC_8733.jpg
+  image: images/covers/01c60f25449c9cb7.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

@@ -10,7 +10,7 @@ tags:
 - los 2 play
 - manel sala ulls
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy7MHaVX40wI4NAeo9tBdbwraNGWQ5jdsr-OloSaTzxs6CQuajhUiEY7LnfROVVk5AqaHw3hBSXqAXS9e0GOcjvcZi40wpPzuFY9e1eprRsIbjiXAZxTIPaUcy_PuGffkDNGNJcHfNK6gH/s400/IMG_1374.JPG
+  image: images/covers/8e2acecc3448ef1c.webp
 album_url: http://picasaweb.google.com/ulls1963/LOS2PLAY?feat=embedwebsite
 ---
 

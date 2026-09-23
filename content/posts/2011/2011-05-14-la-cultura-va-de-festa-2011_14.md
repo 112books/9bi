@@ -11,7 +11,7 @@ tags:
 - reivindicació
 - nou barris
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0xAGwOSkTjR4lacgwYvU8RBTzJrKooYybcvKi54kVIOULI5rgL_O9_maZvsFofVUMrJ8KlNUabxC21ypc_jmsgc0MlxAJRdSq8vnFtCU02DzQ8Robs35uOzRRB7F6XmF8925KjNuwCfo/s400/DSC_5898.jpg
+  image: images/covers/c95a026f7bfbe78b.webp
 album_url: https://picasaweb.google.com/Perdo.Garcia/Cultu2011?feat=embedwebsite
 ---
 

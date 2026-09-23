@@ -10,7 +10,7 @@ tags:
 - Casal de barri Prosperitat
 - Covers Shop
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijZ_brDZhAsD-gjt7KTXtUZ6MmPnxzgEylHRJNPljyRh0REtcK6-OR8MuAe6a7y5g0A8yerx2CmSFSDXRVX5n0qBSieX0e9D2fA9QfKQU_s6oGP4zEVuNWKKstrKzmqjSV6ezEb9AVaCQ/s400/IMG_8759.jpg
+  image: images/covers/b710ed4f55cf1e32.webp
 album_url: https://picasaweb.google.com/103138221614479310970/9BinBlackCasalDeBarriCoversShopAerolineasSubterraneas?authuser=0&feat=embedwebsite
 ---
 

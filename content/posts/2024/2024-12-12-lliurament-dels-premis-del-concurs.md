@@ -11,7 +11,7 @@ tags:
 - barri de Prosperitat
 - Concurs Fotogràfic
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgS_fMA69bkyTyNBY5EzrHQ3mGVCXNCQVeqplPMbg04Zr4jcRt441pGksChbJECnLlWpSDSxZxaxbn3c1GtLjaM3lqZc1x0fZg8aIa7OJpbQMjHjJ_rSpyt41YHQAZsEC9CuRimd2JtSsBNH4086p3fSQ2EwgubCpaJrisS9Im_NV_I4B4sDWfMRwGaXFo/s16000/expo_desembre.jpg
+  image: images/covers/92e48381849359b0.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

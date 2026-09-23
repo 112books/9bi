@@ -13,7 +13,7 @@ tags:
 - nou barris acull
 - reptes en temps de crisi
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_BPz9EI_2esNUQrRR89O0ktDLTohkSlQg6LVslDVRUEKjX9s9IbwUrUE879Rs9gIxBYDekF1Zpe9RPAu2zGsBhzpBpBISj4XOlUjsR5frROirmmc0QaP344A_Ipi7Kr5RiwjNkxZM2ko/w640-h426/IMG_6957.JPG
+  image: images/covers/63c7d43957f8b445.webp
 album_url: https://photos.app.goo.gl/qsABEntvoByZoobf7
 ---
 

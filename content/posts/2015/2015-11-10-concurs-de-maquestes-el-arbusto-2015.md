@@ -10,7 +10,7 @@ tags:
 - arbusto
 - concurs
 cover:
-  image: https://lh3.googleusercontent.com/-7Pt5KDj_Ql8/VkIczPwO2yI/AAAAAAAABQ4/8gJUi0Nj5hE/s400-Ic42/DSC_7939.jpg
+  image: images/covers/da372c26772fe4bc.webp
 album_url: https://picasaweb.google.com/104952335506567568674/ConcursDeMaquestesElArbusto2015Dissabte?authuser=0&feat=embedwebsite
 ---
 

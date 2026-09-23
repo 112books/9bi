@@ -7,7 +7,7 @@ slug: la-mesquita-es-presenta-al-barri
 tags:
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ4n5OCIBYRWn4dS6tDsn0N3ai4aI3aIzJ_fcUgUPAzfnUlyPXyhsOamc5FlTZlqOMUB-CsWZWoDg1-nlfZGtLN4KelhqYa149Gh3jjoVLwJs9sv19P5FTxXbhN1v9yQEqCRaXDCUeUcw/s640/_DSF4355.jpg
+  image: images/covers/67c659b6bc300010.webp
 album_url: https://photos.app.goo.gl/cSAmuguSyjpABQ2z9
 ---
 

@@ -9,7 +9,7 @@ tags:
 - la cultura va de festa. linuxbcn
 - parc de la guineueta
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV-fZQqwC8ChWbiqUmM85Xjc9UDvDU5azRYFkwcOaIYQV3qea1baLurQTHMyK_isfBAWK1U5H5UT_MAdVh_ctFdlVUDg1tb-X0AbGIzWKYzCA5FE0PDAmGxYvGrxRz0yQDzSYTxBqStpo/w640-h426/IMG_7548.JPG
+  image: images/covers/4265affa7066a2ed.webp
 album_url: https://photos.app.goo.gl/vo8fiPWgxMjJ9umw5
 ---
 

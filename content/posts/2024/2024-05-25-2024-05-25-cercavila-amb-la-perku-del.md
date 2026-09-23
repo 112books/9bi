@@ -11,7 +11,7 @@ tags:
 - Batuprospe
 - Barcelona
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSMByfO_vZCsXMlggmPw0e-djVuCWiY2odcHax9cndy-FneqOTxyv7pGGO3Z-ElsjiUjm-xbt-glilWIU8yljePeXtNw8oKIPwoDn2ckPknUiDLhDKOxQzmXQYNrK6MjseFekaXZA3GEnkm4DQG4hog6v4r3HtCCNGxKQ8bTc-NFIxPGD0mJ5_WOuLkh0/w640-h426/_DSF1288.jpg
+  image: images/covers/3c43185a08cde81f.webp
 album_url: https://photos.app.goo.gl/ygoWTsrQLAQ6hrzeA
 ---
 

@@ -7,7 +7,7 @@ slug: xxviii-xistorra-rock
 tags:
 - xistorra rock
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPgZBWeoWuxVnSDMatrQPaHCjb5oz9LdGnGOwS9ke223EOaX2LlRcp0owq1jW1p3Nf1iQorF83zMJ4IIhGySzoSVV_XKPqDxm9TQkxUynlcl3Rm2eUSeWgDgSwA5FlmWTC-qdUGNraeh_km39_uabiLv4pQUOX4_t89Z6i0s86lgqGq2f4c_IitwsTUqs/w640-h424/IMG_0577.JPG
+  image: images/covers/5f97eeb4d459560d.webp
 album_url: https://photos.app.goo.gl/HouhcPu8anJGWrCi9
 ---
 

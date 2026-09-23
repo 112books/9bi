@@ -9,7 +9,7 @@ tags:
 - dia de la dona
 - exposició
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikJxbJTEGfEC2I_Izsap6weVPwmnrsTaLzAUv3LshURGNhzpVhf8sZlbZ2qmQg2E6e31_Y_ocHi4i8cvv03RO_8KTo4E3gfCb95nVntK_u7mzlxyyFPieMNRnylED8PpEWNt0qbs-FgZg/s400/IMG_9650.jpg
+  image: images/covers/4c4087c10b3e313a.webp
 album_url: https://picasaweb.google.com/103138221614479310970/ExposicioRetratsDeDonesDeProsperitat?authuser=0&amp;feat=embedwebsite
 ---
 

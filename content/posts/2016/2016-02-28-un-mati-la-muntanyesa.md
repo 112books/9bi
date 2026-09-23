@@ -7,7 +7,7 @@ slug: un-mati-la-muntanyesa
 tags:
 - fotografia
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4aqHPp9TRYvU9CVNEVDN3WFnUbLwazjC2dJp1AYTic6fZ5sK-i_MQzAjdJcGS-gln6hJF9TnkXRdp-ne2yrJMQ7Wg94XASvnWWLONoxkuLhui1Ar09fv6PBpMIhqrWn82zgAN0NY1fXQ/s400-Ic42/DSCF6770.jpg
+  image: images/covers/7d38c84f337ec4c2.webp
 album_url: https://picasaweb.google.com/103138221614479310970/UnMatiALaMuntanyesa?authuser=0&feat=embedwebsite
 ---
 

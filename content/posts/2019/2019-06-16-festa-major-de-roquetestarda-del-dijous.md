@@ -11,7 +11,7 @@ tags:
 - festes
 - fotos
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYK8exj4vFJ-T28IfWVm3WBe_ww6bCuenzUGH7WUPRmw64GYzuP3bzMwhN7cIzzOavUDQjkaeXxucNf4PblW7sH8ZVZhOy-ori9Ev2GHnvs0fW01eXDn6rlHFZEP4ju2m0S47wTQFqrFg/s640/IMG_20190613_185922.jpg
+  image: images/covers/62b91c475ac9d879.webp
 album_url: https://photos.app.goo.gl/g9NE1vFCfDWfuSXN9
 ---
 

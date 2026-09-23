@@ -8,7 +8,7 @@ tags:
 - activitats
 - cultura
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinAt4-GCJhk2O0ludlzAAGUv5NBqDyBpkVMTunVyQGfvuXz5ATUAdOp7f-8nfdGsQ1QsGY8WXGagilgDDSWJFdF6vO1rN2ZJkvnumtLZijEir_TYdFd9Ixa8heMCdKj_3UnvD4fexJnKm1/s400/Aplecat_040.jpg
+  image: images/covers/4bab1e6122fc23a2.webp
 album_url: https://photos.google.com/share/AF1QipMQCB1-tYDUmxeQ5QVLbbyCsod3elJcrX3Yx04RKYwkyMj_h4u3nRtz_-JBagATnQ?key=WHA0RzQ3dFlfQk0taHZvWW5BSTgwV2tYOXBJcm5R
 ---
 

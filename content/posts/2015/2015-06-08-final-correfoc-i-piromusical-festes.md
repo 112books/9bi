@@ -11,7 +11,7 @@ tags:
 - prospe
 - festes
 cover:
-  image: https://lh3.googleusercontent.com/-H26BNcfGFII/VXYhox5bH6I/AAAAAAAAOOg/YWhXuOrXqio/s400/FINAL%252520FESTA%252520-%25252030.jpg
+  image: images/covers/2a8d5c3e9d9f94c9.webp
 album_url: https://picasaweb.google.com/111964096227458093905/FINALDEFESTA?authuser=0&feat=embedwebsite
 ---
 

@@ -13,8 +13,8 @@ tags:
 - red drum
 - vídeo
 cover:
-  image: http://lh5.google.com/linuxbcn/R_imrY8nzgI/AAAAAAAAPF8/c4Cfy5Uz0e4/w640-h426/IMG_3073.JPG.jpg
+  image: images/covers/be25161ce9cdde2a.webp
 album_url: https://photos.app.goo.gl/F5cpAStwGecdqz8t6
 ---
 
-[![](http://lh5.google.com/linuxbcn/R_iiaY8nyqI/AAAAAAAAO7g/G2yVy9xYmUM/w640-h430/IMG_2971.JPG.jpg)](https://photos.app.goo.gl/5PvCsdM2nsUEWnNY8)
+[![](/images/covers/23a811e51987c77d.webp)](https://photos.app.goo.gl/5PvCsdM2nsUEWnNY8)

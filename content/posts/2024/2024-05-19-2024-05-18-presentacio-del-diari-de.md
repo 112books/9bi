@@ -11,7 +11,7 @@ tags:
 - festes de prospe
 - casal de prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwT-wtwSkj9HYFEzZImlmKEIhWbT5fm3brc5PgsXkbIEvl4aT4wZb84mVEeTap03bOVgbnsCLps4pJgSXe2MEU04G-6iA12ALc0Yl_ML0BnL2jwEyFILArBGxUIFJsP3lEdTEvzBjFiqJIsDdYRf9mjM2mbwy_l4vTGOQIWNuAWEqhRMyU3ab7_XSkbIU/w640-h426/_DSF0836.jpg
+  image: images/covers/aacc9ac14c3e7fe2.webp
 album_url: https://photos.app.goo.gl/J1p5Y51AkF4fEr9GA
 ---
 

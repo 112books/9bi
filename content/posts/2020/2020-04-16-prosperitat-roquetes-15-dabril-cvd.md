@@ -11,7 +11,7 @@ tags:
 - casa
 - llum
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwUtDq2nmmqvC5zE-_Xy0PnvnHoe0pi57dNZGvC4LMDeFCX9Dp4iBfQ0Oa15id3JusPpy7pmRSwlBnfF5BWrUmVHNdJDVwWIezvwEGRL3ABviWTKK39I8eKLJK28PmjMSZJNR_hGO5N2s/s640/IMG_20200415_204629.jpg
+  image: images/covers/e27be0f7e2048d50.webp
 album_url: https://photos.app.goo.gl/dv7CHKxSHQ43DWVW6
 ---
 

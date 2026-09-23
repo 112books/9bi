@@ -10,7 +10,7 @@ tags:
 - rua
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1D1oheCiChjbkaxcXiKjeMrt1JFCQhyHDPArjxjGMDzjPY0Z1Uu_wI5um9hzWGd1baNqRyuo8T3NbsVzpQTbawN1Cx2anOqoISLyOM8emsCuTW8LS4KUgluq2-cPchcgjjCuiu0db8Lc/s640/_3030785.jpg
+  image: images/covers/364ba351ef769e23.webp
 album_url: https://photos.app.goo.gl/QoEG7odYH9zJNg8F2
 ---
 

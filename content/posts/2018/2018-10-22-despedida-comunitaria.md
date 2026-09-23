@@ -7,7 +7,7 @@ slug: despedida-comunitaria
 tags:
 - ateneu popular 9 barris
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPq0gMPZ0xWDvupECBKhV-RcJr5ILrM2WWlZqxkl5oefvsa6CgfWbbWWB6scI6FId2FZ-breEtMBYbl06Tz6QNZ4Vc-F5EQ__LnFHhX-rjHYQZxFIuBfpRd10UPkk8SV5b-RvikxRaaW9p/s640/despedida_6_109.jpg
+  image: images/covers/e53f7927363292b6.webp
 album_url: https://photos.google.com/share/AF1QipMMKnNZj_s2pTGYae0NFgSuD-5TbCDQWsRr0GXFhCHSGwdAqgB24TmQCPqsy134IQ?key=MWRGNWt4V2hQNWtWcm5aRmNiM3hwZ1FudGNNeVNR
 ---
 

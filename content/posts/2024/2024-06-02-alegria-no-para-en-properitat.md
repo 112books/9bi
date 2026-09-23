@@ -9,7 +9,7 @@ tags:
 - pasabares
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUtOzVDTzf2dPjzjvt-bWgrlvOQJuKFFQZae2BqJpVO5h12RSDdVcSdAqLU4gv1zKRVPBGAndngdrqc6YX-0xYpqgy_kl2V3P7lTO4n9g-pBRz3A48PAnGj2ckrJXGCOs6FOHJsL3pbj8YLnSwXiBxDOkqV52_DmMokYLCFAVGEilJq5XUt-20AeDGRsM/w640-h426/DSC_4143.jpg
+  image: images/covers/1bcaa531b48fd50e.webp
 album_url: https://photos.app.goo.gl/oLGELaemQgioJAst9
 ---
 

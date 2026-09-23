@@ -7,7 +7,7 @@ slug: vermutsical-willy-fuego
 tags:
 - vermutsical
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmXHfsv06fC0TcmGcQ4MyhGPYMfm_2F6yX5es4NPQMmR2o6C49ax9FOL8vmb-9fP6oNqUAojTNHlZ5okBaI-W6uL1FWs3jCz_cSMUSSF8DP2Q2Jbt2cAsGdWr7nYrpp67LdTdBghb5gzk/s640/DSCF0589.jpg
+  image: images/covers/6e96528a1ffcd787.webp
 album_url: https://goo.gl/photos/p7pzVVJ7eScBgCDn6
 ---
 

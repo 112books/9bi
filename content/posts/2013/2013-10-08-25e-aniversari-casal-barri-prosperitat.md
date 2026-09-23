@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBqF1fRjW4jEcuKF9cKr0LsGEP5mUgliApbdmNDVzPobJ7euluSlrOloYU7AzRa-ArCgJOJPGgEBvHMiDe9bd49uJGpEyBQk0L-bq_AB7vIODqoUGh0snMesi40WFy4uLO37hsPK5xuQVo/s400/IMG_8147.jpg
+  image: images/covers/034380d2607a42ae.webp
 album_url: https://picasaweb.google.com/100268695753733554853/25eAniversariCasalBarriProsperitat?authuser=0&amp;authkey=Gv1sRgCKqtgKz48ID7twE&amp;feat=embedwebsite
 ---
 

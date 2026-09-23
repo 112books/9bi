@@ -7,7 +7,7 @@ slug: toni-beiro
 tags:
 - Toni Beiro
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUzwwq4fLaqL4cFbeiRpL7XY4y4Wyp8Sa_KCZ28znD7KhF3KH0FAstJ8u6Qf6UTxZiib-1oVzBLfA38tUnJq_ToIWXQHCdoDXsBJrCjKsEJDrZfSiDcF2PtEBe2hwbGdYkVpsKwnSra4k/s400/mnjh.jpg
+  image: images/covers/91197747a69e96e7.webp
 album_url: https://picasaweb.google.com/Perdo.Garcia/14DeOctubreDe2011?authuser=0&feat=embedwebsite
 ---
 

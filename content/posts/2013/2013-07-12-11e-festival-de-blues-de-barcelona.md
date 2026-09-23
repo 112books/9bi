@@ -9,7 +9,7 @@ tags:
 - bandes emergents
 - Casal de barri Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglAHeZDz8T69t_QzWzrR6g7C9Sycx66VfgcGn90Qw5FkrBFVFthdPFZ0O6Nrn3GIYd3wow2-zx7gczfXAsXPHxv79N3BSflLvhAwmQfe7W2E28POeGIuO3bFNpYwDC4Q1C0FGbRYWa9mI/s400/IMG_2348.jpg
+  image: images/covers/89ee8433c5a722b9.webp
 album_url: https://picasaweb.google.com/103138221614479310970/11eFestivalDeBluesDeBarcelonaBandesEmergents?authuser=0&feat=embedwebsite
 ---
 

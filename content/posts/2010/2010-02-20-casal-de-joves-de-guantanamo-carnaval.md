@@ -10,7 +10,7 @@ tags:
 - CASAL
 - casa
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMFSUeAuJ0sfVJ-KQekMsolwKdDzQiykhxjQc6pBl8fW0S3wM1IzZaRLo7STu8q7he8ihjsj3me4CyF3mbrgU_SSbw7OrhqCKtos6U08WA9uoF8FWEX409s0HuD4YFgpC7i0P-nV-visBX/s400/_DSC2948.jpg
+  image: images/covers/21cec38602699307.webp
 album_url: http://picasaweb.google.es/inmalcario/CASALDEJOVESDEGUANTANAMOCarnaval2010#
 ---
 

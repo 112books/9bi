@@ -8,7 +8,7 @@ tags:
 - activitats
 - reis
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKdQJgYtUiq2kYS3wa0dr-QMoK2APEbYPv3mGZxwIIvO_dwB6ieYHMXjuQDfCbARJ8oYwCUp6CkntrVxZ94OM2c59PBEr0QkNSq8tgTUaK-FcVuW7HVHcUQD6NUyB0c4mckybqEnj_FLEf/s640/20170105_121602.jpg
+  image: images/covers/c3cdf379796320d7.webp
 album_url: https://photos.google.com/share/AF1QipPgO4q1Fd1Mt9e45MwmPk3UOHDXeQajTQpjDwRbYnpa96vOQDgtgETi7a9e6uDthg?hl=es&amp;key=MHFDTHl0bWZGTHdnUlZvUy1zVnY1bFBBMm5aZ2JB
 ---
 

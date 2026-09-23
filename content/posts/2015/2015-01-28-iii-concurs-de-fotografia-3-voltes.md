@@ -11,7 +11,7 @@ tags:
 - nou barris
 - districte
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7pjE5Lj9WkfbU6Wnr1EZIwJ6ogACj8hqA4OdKvbxLQyQHx1t2Rg9T3vvE5_FPJNfDKHCLqKOzUPn1q_jmS8Jxz0209-2BiAbTdxEjSWqBGwZg5Bo1TAUs3ShBTLeoQmfrwS2cIfuIp3Y/s1600/CONCURS+DE+FOTOGRAFIA.jpg
+  image: images/covers/a6eecca218206752.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

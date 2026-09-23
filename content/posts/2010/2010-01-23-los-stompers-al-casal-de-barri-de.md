@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - los stompers
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwJ0Ej9RNj_QPlIV6okrA8eVSDtmQmJXlaphxP4r0tDy-XUjFM-cbyCyNTgHDPeNc1DDWoBxdJgXFkF0keZ92c7eytLINyX6liZ4Nq_CvkRc7oq59gjOgOMMCPLRT05gU_pHspndS-Vfw/w640-h426/IMG_8031.JPG
+  image: images/covers/b60a5f8d5aa6bc17.webp
 album_url: https://photos.app.goo.gl/adfBKx9bSV9DT9sv5
 ---
 

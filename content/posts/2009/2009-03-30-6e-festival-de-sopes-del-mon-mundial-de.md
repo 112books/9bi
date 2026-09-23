@@ -9,7 +9,7 @@ tags:
 - festival sopes
 - fotografia
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc0n-99PzX4aBrtdWvTBgxbuLmSaZwUyKVfnDyNblxkt2DY4jjx2d7M8t57EjF73Vnf1dBii2BxcMSPcbVch6PgzL_viTDe8XfCYo2xlyeE_jsJd-LHBRTLxIARswiI46JcwXE5MWFwec/w640-h426/IMG_7669.JPG
+  image: images/covers/06ad83e0c68244a8.webp
 album_url: https://photos.app.goo.gl/2v2KmsJUTexNr3zM8
 ---
 

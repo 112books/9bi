@@ -7,7 +7,7 @@ slug: festes-de-verdum-diumenge
 tags:
 - festes de Verdum
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgh4CAacTfnLcZmZEoTtpFUI5SflxQ9i5mB0f-UnKydirXlLPMuFaYBpWa7Sm6m9Y47uuHD-mYM1rWHiocu8aSzQyJSa9bNOpvnw2LQpytuDTgeF1EppB-fPX64gI2CoKepRnCwQiqXfM/s400/IMG_1700.jpg
+  image: images/covers/39b31ce30a30db75.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestesDeVerdumDiumenge?authuser=0&feat=embedwebsite
 ---
 

@@ -10,7 +10,7 @@ tags:
 - rock
 - pop
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCumyGsnjY8bJLewK5szvPovD9lM8dtonlcdsRm0wwC0ixGJv6XnYB7NNG0Py2Gzf2ODEXa-uPEQM2gmOImjH-gyDQexOEEscmgC94VC32k-DS9A9oW1WOeiVqdN2j8ItrmZPVgLujZ1E/s400/DSC_0169.jpg
+  image: images/covers/f26aae12dbcf7d99.webp
 album_url: https://picasaweb.google.com/115791131166530059320/VERMUSICAL?authuser=0&feat=embedwebsite
 ---
 

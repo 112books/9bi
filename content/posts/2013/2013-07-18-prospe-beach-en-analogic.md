@@ -9,7 +9,7 @@ tags:
 - plaça Àngel Pestaña
 - Prospe Beach
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuQ0i8Ic0j9EMiEFsi2g8AqdOUffdBOMKekKyP7Ee9Eh-ezq8vK0JYLiWf8nNgNgpoZd1SUueKFI00bnO0ijDUazAL9jcGzVIB_EbrE3_TEVBurr2xbb3H8baEjN-YqMY6hNPs2dk4Jl0/s400/0769%2520-%2520LC-A%2520-%2520CN100%2520-%2520028.jpg
+  image: images/covers/ddf5d29bcbc92127.webp
 album_url: https://picasaweb.google.com/103138221614479310970/0769LomoLCACN100?authuser=0&feat=embedwebsite
 ---
 

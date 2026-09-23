@@ -9,7 +9,7 @@ tags:
 - directa
 - setmanari
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLzm3450ZBiAfSEV8YtAu3TjUfxcpSg7M9sZTg9-gaIPgQBXn0iuWnODED7G5yhnAsklSGj8c5jtPWnPnHA8NEvQcS21iFXxG-Zp5YEMbkZf1cidVfB9NMXwFavBPUDEBNaIJZ0BhC1Qg/s400/IMG_8728.jpg
+  image: images/covers/55ebd9db5bd98701.webp
 album_url: https://picasaweb.google.com/103138221614479310970/PresentacioDeLaDirecta?authuser=0&feat=embedwebsite
 ---
 

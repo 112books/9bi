@@ -11,7 +11,7 @@ tags:
 - chistorra rock
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEim7flBIGIMudO4BULByZbUqCtTaKKClyq68iwCnpoKOth-owKQZjbU24P4JqUhpKaHXJWDHABORTQFbluOhITS77tcTmHsaSo3DbJU0TiXcQQ3ZZeHD2nKbzaZNUJnYztUwsKEP3iIGLn6/s400/IMG_9093.jpg
+  image: images/covers/fb479ed7833fc498.webp
 album_url: https://picasaweb.google.com/100268695753733554853/6290785192511781697?authuser=0&amp;feat=embedwebsite
 ---
 

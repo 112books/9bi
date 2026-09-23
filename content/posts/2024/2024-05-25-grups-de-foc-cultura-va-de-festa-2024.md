@@ -11,7 +11,7 @@ tags:
 - STA
 - foc
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVxrmYdwXjbU49Hhj1AJnHprZSNOUOh6aEinVxKlVw860rR3-PmvnhxpnmHxW6Umf26xieGKBj9xCnywkveM1fIsH9p0o5y-nAhElSzRZMD7EsDVcjA2exCOGLbTMJvgrxkLmESBfjNtlcA7tH8NM1nN8Iniq0AZq3ARf7OWtZAfyBoytFYpdWkT0_RgI/w640-h426/DSC03699.jpg
+  image: images/covers/04fd7bdcf9d0b845.webp
 album_url: https://photos.app.goo.gl/ZGJEPNfrKizgGeBs5
 ---
 

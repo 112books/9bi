@@ -7,7 +7,7 @@ slug: lespingari-havaneres-al-casal-de-la
 tags:
 - Casal de la Gent Gran
 cover:
-  image: https://4.bp.blogspot.com/-vU6LGXA9jF8/WP6F9lg9m2I/AAAAAAAATPA/ycedPp5zGmgfO3Hi5hlC4Y1_3wZ0Kgv7wCPcB/s640/L%2527ESPINGARI%2B-%2B18.jpg
+  image: images/covers/18e309c79b86eff8.webp
 album_url: https://goo.gl/photos/sfEitENiCDwd3pc56
 ---
 

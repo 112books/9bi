@@ -7,7 +7,7 @@ slug: 2020-03-29-auto-confinament-amb-holga
 tags:
 - fotografia
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZJbtL5AEGng8OjOPYCCuJ7iPjgYNFDkEJ1q3eudNs2_PDRi6c7NKD6qP9XCxKR8p8cI38eZMoA49gdgp7JXsW6SvKxUjbgu9rOobfs3OCyK1VR1InpXjnMrxXVwM1taW0dALeVBCd86g/s640/2020-03-29+-+004.jpg
+  image: images/covers/2b2ec9f3fd5b7347.webp
 album_url: https://photos.app.goo.gl/U4JpePu5QkDF2ScM8
 ---
 

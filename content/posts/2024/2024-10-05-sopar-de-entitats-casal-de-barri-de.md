@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - entitats
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCD8E7MBtIeBOlvL-5d65JUayvkBykOMcv0zCMfoFgm-tlSiBSZuQnliBgwn1owlStAPGizm0LMggl19MNHxyHGLvxHvm4lPO19GLp3f6i7eiPktg6kLdqiqNmDRkQZx7By-BGayAscjAMUr5e2X32uHN6D6Aa7RiUUDbCRxcpiyjeTvkqYn9VqS9gCWk/w640-h426/_DSC0086.jpg
+  image: images/covers/031aa691c9a060bf.webp
 album_url: https://photos.app.goo.gl/NvzUtqRNeLVgtqr66
 ---
 

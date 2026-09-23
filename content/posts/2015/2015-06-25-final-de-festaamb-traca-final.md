@@ -11,7 +11,7 @@ tags:
 - FESTA
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhi-q2lyKiowy02UPmtRDHBUR_QETMWwfF1-WlX43BJ7LVEJD6_xBKbHigcHicUip5zf_0T4C1W-2V4wrFV3rj3RWRuDb_p5q51lioLC1mPqNyG2TIth-CCVdbA3cCDoHnm-fPziXCsSVI/s400/_DSC0079.jpg
+  image: images/covers/1b0ddfd2d35423a9.webp
 album_url: https://picasaweb.google.com/110015855395179205688/FESTAMULTICULTURA2015?authuser=0&feat=embedwebsite
 ---
 

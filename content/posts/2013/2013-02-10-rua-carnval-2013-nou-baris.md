@@ -11,7 +11,7 @@ tags:
 - FESTA
 - barri
 cover:
-  image: http://farm9.staticflickr.com/8388/8460164262_2910e65e65_n.jpg
+  image: images/covers/7ece5dba3eefa8b9.webp
 album_url: http://www.flickr.com/photos/oscaresteve/sets/72157632731671086/
 ---
 

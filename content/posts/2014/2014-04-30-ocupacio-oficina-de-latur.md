@@ -11,7 +11,7 @@ tags:
 - Marc
 - ball
 cover:
-  image: https://lh3.googleusercontent.com/-oUsfvlkmJ0E/U2D_ulaRf5E/AAAAAAAAHUA/pu_Wrqxp7lI/s160-c/OCUPACIOOFICINADELSOC.jpg
+  image: images/covers/91774d34d66c278f.webp
 album_url: https://picasaweb.google.com/114858497713897843587/OCUPACIOOFICINADELSOC?authuser=0&feat=embedwebsite
 ---
 

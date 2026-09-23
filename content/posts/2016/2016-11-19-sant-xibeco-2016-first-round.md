@@ -8,7 +8,7 @@ tags:
 - sant xibeco
 - xibeco
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIlmgJMzYn_PrfDr2TNbODEAkEe2aKI8lNm4O0gVmb8Txg0SAzqN5H1IqhKJX1GB40NWN1LBMVu5hW40GA110L8MGZocO4CBLMj2Mowu2yqi0qKy2axOPqM70WPBAu8SmVLNjtpvTA5kg/s640/DSCF7418.jpg
+  image: images/covers/2c7c5eb115588e94.webp
 album_url: https://goo.gl/photos/LnVfihttRH1XN8mx5
 ---
 

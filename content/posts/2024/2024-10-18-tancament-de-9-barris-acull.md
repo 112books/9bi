@@ -16,7 +16,7 @@ tags:
 - solidaritat
 - tancament
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx8V3qWX8fjt9svB9Rl_iImbtmp-6wN1PSzKYbekoS4FndgvDK2GtXb2ASKV6HITUCn6HdiMXa6-B1MNhOE3-C0WnngmKJH_UyvrQsqHXnJGmBPpDX4iymNFlr06IoXPLe3T4l8A596JD-gqOJlczgMaE6BZD9KEtjRTWC1jBGi1MVbd6LZ5qAUGW8zbE/w640-h426/IMG_3699.jpg
+  image: images/covers/aaee3cf711469a46.webp
 album_url: https://photos.app.goo.gl/AEoQDmC7gNgCCuVP8
 ---
 

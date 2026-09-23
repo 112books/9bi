@@ -9,7 +9,7 @@ tags:
 - Prosperitat
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKYXb-aMcCrmX4iA-UlJnckcfy8p0tqebtJAVZX7JEXq1NgRYhctfvxPw9mA0z7WkVexEZ5SZgPZ78dV4vF8pvlJCtCTkwrEB0Nc2tQFpska-EDxRtKMzmoEfIvxJsvJ2gLoBYGdB8PUU/s400/DSC_3335.jpg
+  image: images/covers/f8d69a9bc489579f.webp
 album_url: https://picasaweb.google.com/115791131166530059320/FeriaDeAbril2015?authuser=0&feat=embedwebsite
 ---
 

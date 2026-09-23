@@ -10,7 +10,7 @@ tags:
 - correr
 - STA
 cover:
-  image: http://lh3.ggpht.com/jaime14bf/SEPmeiH6K6E/AAAAAAAABBE/J7OhYlUFeQU/s160-c/CARRERACARGOLS.jpg
+  image: images/covers/2e07fd1f948a337e.webp
 album_url: http://picasaweb.google.es/jaime14bf/CARRERACARGOLS
 ---
 

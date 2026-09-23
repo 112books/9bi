@@ -11,7 +11,7 @@ tags:
 - xina
 - ciu
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVyXGcvNBdS9d1EeFWBIgWZa5aEU58moxXL3_zNSPihkrYwn-ohUX38o5ie8wrCqivSsSOcEebcYuH_TMoc5WiSNPSzkUnai4lC3OruTZ5wQJOA8Xc-cRHLqM8N3SsyywqjaNzu9eFgWzm/s400/IMG_2383.jpg
+  image: images/covers/f6854425aeacf984.webp
 album_url: https://picasaweb.google.com/100268695753733554853/JinanAcrobaticsTroupeXinaFestivalInternacionalDelCircCiutatDeFigueres2013?authuser=0&amp;feat=embedwebsite
 ---
 

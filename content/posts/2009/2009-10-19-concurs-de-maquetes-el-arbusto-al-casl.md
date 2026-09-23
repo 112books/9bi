@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - maquetes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrWkdjdNVvt2ZVfUJ6vLVfXoPD12vGxw4hNi8SEFK3WVInzfooHdmVuk8FLwS1ssO6joqcF0Odcf4WWGPwddPXTd7nzuKxzQFENujxZKbfVzRtcC2wxh_ifYtpdW7GgddDzRKSStcipnA/w640-h426/IMG_4776.JPG
+  image: images/covers/e7d8c8753cfb9e83.webp
 album_url: https://photos.app.goo.gl/9uoizy8JNacbUJLSA
 ---
 

@@ -9,7 +9,7 @@ tags:
 - Negra
 - radio
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh42rcupKkXQVIRr1G2xExXHW6DAB2XdTxGlI8zSpBhYzUW0XmqxTi3vBddLrb3x8x6hwkDJ9MHdx9IGS2J-M-gcnJsUkXfXR_tHrbpnaVcJL_KIPXQpuuz2MNy7o9RufHUvzIOD8TAFDY/s640/L1200156.jpg
+  image: images/covers/58ee357459719081.webp
 album_url: https://photos.app.goo.gl/cgeEKHaBc85w81cV8
 ---
 

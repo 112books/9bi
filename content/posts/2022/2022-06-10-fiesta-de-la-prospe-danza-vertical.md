@@ -10,7 +10,7 @@ tags:
 - danza
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCB3cmDtllfhUtdApKEVoWXUfgvj05jfX-4X_75jvvJsNeF90lE3iYFKZJF7253RbOsGLKpDWJHwd8eCwQ3P0AvzO6CMfX1lSj52WfhepB_Hc_kpphu7_abnHWOkWNsacqoyWQiAt-cuxON6SlRiODWY0Jlx0anL26mfxk_9A01agnR0i7eymaeWvf/w640-h480/P1050095.JPG
+  image: images/covers/31830e36214c0315.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

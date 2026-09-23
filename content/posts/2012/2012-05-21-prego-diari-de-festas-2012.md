@@ -11,7 +11,7 @@ tags:
 - diari
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqRrFT5D8h7SXWT_JFtPussbTiIOeiuT0fuhzr-GpI3B8rDNvul1y2kqhk6lq7CxxxRzYcsAOYRqV4YAB1yt58m1Atn6b6k-9d3Hfa8fpsBbobegHsHj-cBA58L8yRHEKiIQPijHqgwFY/s400/P1280007.jpg
+  image: images/covers/0c7f68d021899ec1.webp
 album_url: https://picasaweb.google.com/115791131166530059320/21DeMayoDe201202?authuser=0&feat=embedwebsite
 ---
 

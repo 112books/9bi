@@ -125,25 +125,10 @@ uglyURLs = true
   [[menu.footer]]
     identifier = "estadistiques"
     name = "Estadístiques del web"
-    url = "https://9barrisimatge.goatcounter.com/"
+    url = "https://9bi.goatcounter.com/"
     weight = 4
   [[menu.footer]]
     identifier = "search"
     name = "Cerca"
     url = "/search/"
     weight = 5
-  [[menu.footer]]
-    identifier = "rss"
-    name = "RSS"
-    url = "/index.xml"
-    weight = 6
-  [[menu.footer]]
-    identifier = "instagram"
-    name = "Instagram"
-    url = "https://www.instagram.com/9barrisimatge_oficial/"
-    weight = 7
-  [[menu.footer]]
-    identifier = "telegram"
-    name = "Canal de Telegram"
-    url = "https://t.me/NouBarrisImatge"
-    weight = 8

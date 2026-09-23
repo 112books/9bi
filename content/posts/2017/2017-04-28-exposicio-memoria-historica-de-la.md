@@ -11,7 +11,7 @@ tags:
 - exposició
 - formació
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI4SEtmwoIVIFAUOcvskDRjkRQC0opp5oHl1Yl1h1Qnl2yn66YMEZwQumrWJ3JhcfYOLGDZsjn0uHshl2oeeOl2ByVPs-wMpm2eJ9bjlgGfhGduaGU5kcke5EKIxe9W4ZeuVaCD-TFiX4/s640/20170427_142750.jpg
+  image: images/covers/05c1541fae80fdbe.webp
 album_url: https://goo.gl/photos/ZiyNJ8ZLuUTLWgsT6
 ---
 

@@ -11,7 +11,7 @@ tags:
 - entitats
 - llibre
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2yNeRqi9tJyc7qnP8x42y7W6Gcnxn6RL6M2b_Cb4Zok87tMEKKYrAcMXActtz9kZHSLsJbbH7xqBk1M6SB1MClDzWCXMkehEXNTJgR7Gg-TQZH7FbjGZCXvyKFm3QB0W8OgAm5Vhd-zc/s400/_DSC0600.jpg
+  image: images/covers/580c4ba479e85bf3.webp
 album_url: https://picasaweb.google.com/lh/photo/kQ0ELkCAA39Lr1YsJUxaKdMTjNZETYmyPJy0liipFm0?feat=embedwebsite
 ---
 

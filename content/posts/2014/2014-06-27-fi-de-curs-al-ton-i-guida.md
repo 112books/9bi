@@ -11,7 +11,7 @@ tags:
 - concurs
 - premis
 cover:
-  image: https://lh3.googleusercontent.com/-pkmevRKpHew/U6yV6wEUTcE/AAAAAAAAF58/OTyIMCBN2cM/s160-c/MOSTRADACTIVITATSDELTONIGUIDA2014.jpg
+  image: images/covers/278eb47b5c293616.webp
 album_url: https://picasaweb.google.com/110015855395179205688/MOSTRADACTIVITATSDELTONIGUIDA2014?authuser=0&feat=embedwebsite
 ---
 

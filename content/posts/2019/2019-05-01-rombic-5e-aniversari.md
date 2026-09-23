@@ -11,7 +11,7 @@ tags:
 - activitats
 - roquetes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipQewvjiyYSUzspJpmZ1cGanWALSrF9Vtu6IAssfaufREkoYi9n4hTej82t2Dv3savJ4ZF2GCf8mOcd_1PKo86IH4JtQSeensAVIhHBwEXYCjHdYQoFheNIogvJ7799MK0QI5JUWTJf10/s640/IMG_20190427_214502.jpg
+  image: images/covers/9fae4aab1f4253df.webp
 album_url: https://photos.app.goo.gl/bwrX4M3EfiRvtTVj7
 ---
 

@@ -11,7 +11,7 @@ tags:
 - popular
 - música
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiegys9Nx_Bh0B8x2aV8SeKA0slmCqXa01hOykdSpR_Zspty7jn8flILBfzwdJ5eotxI3VPgIS52esfD7pu_LxCr2XsnJeJKxtHZ7G64nGila1bKNflwFom6yQdNHlwUU-4AJ61USst_DBN1XyGr1LX2XDPXj8YLguFoHCwibLD5VcbCWsBXMwhY-Zg/w640-h426/_DSF9972.jpg
+  image: images/covers/029fd45739e547de.webp
 album_url: https://photos.app.goo.gl/3aiWkXtL3Lxn3dPm8
 ---
 

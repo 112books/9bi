@@ -17,6 +17,11 @@ __pycache__/
 # Gestió d'hores: diaris .md sí que es versionen; les sessions del plugin, no
 /.taques/*/
 
+# Material de preparació (imatges històriques, logo, notes) — carpeta iCloud
+/- imatges històriques/
+/-taro-logo/
+/9 Barris Imatge: història documentada.md
+
 # Editors i sistema
 .DS_Store
 *.swp

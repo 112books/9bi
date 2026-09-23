@@ -8,7 +8,7 @@ tags:
 - Cultura va de festa
 - parc de la guineueta
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKggn1Wttk1tUCcJIpI-wmqR6BNW_L5Q2-TH3fjfPuAwGFMY4xSaAhWjGvCI2A9Tt0K-QfIALs0b2El7x7k92GDV4e60_73e4PkwDH5oC3_IRIq40h6R8EOriqjQEUYB6UTiGLjNNri5F-SukRfmUhSfG8n_WJf-2XehiREoF76KRVCAtWXzDeLa64/w640-h368/_V9A2349.JPG
+  image: images/covers/e2b7689cb77ceeae.webp
 album_url: https://photos.app.goo.gl/AskkLWb9uT1Apg1P8
 ---
 

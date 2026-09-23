@@ -11,7 +11,7 @@ tags:
 - STA
 - veu
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKH8KdJfEvVTH-HzybNzpTNNGFaaR3ZCmAoU11wVE0tyRx5LX4dKiRjfkRecXgpyIO-VU9ZbSucVcLMiTgGjjUofBfFXUwvL9ZJ_E339uChbKlDXZwN04P6lmlhW_yR7g5ejmLya6k-dN_/s400-Ic42/DSCN0802.jpg
+  image: images/covers/9c1299145e4b8b00.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ElsSegadorsAlBorn?authuser=0&feat=embedwebsite
 ---
 

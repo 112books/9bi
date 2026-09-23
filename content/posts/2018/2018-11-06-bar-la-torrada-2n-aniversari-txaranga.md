@@ -11,7 +11,7 @@ tags:
 - la torrada
 - Barcelona
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_n5WTk_fT2NCVuO4I64uGC6e5SKoDdcTARBx70M1NnJ3nkAs98PeHJROI8WDXjtJw3xkqbb3Jb7QtrwvkyRRYCewtnf1VgP8fuuOAo0uSjYZzwWX8tBKjLOh3wwfxw_SlXjosWA_Rau2T/s640/P1930352.jpg
+  image: images/covers/ced64f2fc1ddda00.webp
 album_url: https://photos.app.goo.gl/zi8ZBPSJASRjWTNa7
 ---
 

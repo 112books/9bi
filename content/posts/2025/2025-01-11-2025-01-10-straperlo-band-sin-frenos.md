@@ -16,7 +16,7 @@ tags:
 - Sin Frenos
 - Straperlo Band
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEit4Y7jVMtu3alVCZs428M0TghJPssneBJHxgShpu2pjfO02EzXqdMigRxU8RngRCL0M-yK1S_DLMEVsoBgkFH12p67JJa4OSvv491C85MLQDNcatKVT0MmVyW1M6JZAViySDsDK-X5madoiKcxWJTRYhfm7ZP5AWIGRxdpmLBpyY4R_bfQv6yCiQ2DFr0/w640-h426/DSCF7608.jpg
+  image: images/covers/ba9afb8ce0b8f242.webp
 album_url: https://photos.app.goo.gl/tj56gCRnSGJSaaF89
 ---
 

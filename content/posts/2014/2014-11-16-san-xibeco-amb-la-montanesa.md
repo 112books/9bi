@@ -9,7 +9,7 @@ tags:
 - san xibeco
 - xibeco
 cover:
-  image: https://lh3.googleusercontent.com/-5KoK3hiJH5E/VGjqPXJRBMI/AAAAAAAAMr0/VfpLl0bbsr8/s400/SAN%2520XIBECO%2520AMB%2520LA%2520MONTAN%25CC%2583ESA.gif
+  image: images/covers/7b903855fbd4d7cc.webp
 album_url: https://picasaweb.google.com/lh/photo/c3K23L3-jTWmfjj6D8lOtNMTjNZETYmyPJy0liipFm0?feat=embedwebsite
 ---
 

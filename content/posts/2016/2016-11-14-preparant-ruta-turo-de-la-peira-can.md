@@ -8,7 +8,7 @@ tags:
 - ruta
 - fotografia
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyZfRtSQvL2tJ107Atp1h1BC7nOogF2ZImwRlks781rn7uukmiReBENVHRf7D_UJ8vE0fxuLJsp7XsL-QMz6gFfNmePcpprzkoTss90jgzJpVKUhIMcbefWyateSk8p49XPcPj_Eodnt4/s640/PB130170.jpg
+  image: images/covers/58cf8694a52834f1.webp
 album_url: https://goo.gl/photos/BgW7P1Gr6Ya7Am37A
 ---
 

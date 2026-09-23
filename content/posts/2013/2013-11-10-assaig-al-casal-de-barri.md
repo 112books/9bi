@@ -10,7 +10,7 @@ tags:
 - Jessi James Dio
 - Private Job
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtPGff2th3OYcSXNsRsTSbe8QsYeqLMnpWliM6ZnOqMVz_vRNDYUdxHfz1fVxNzrJyr1sN7Ayy8KroY-_6dl-meuGEPP-zFYpF-qf9D0jdY5hAsbyYZarXWNzbL4rFfsanbct3MnZeQdE/s400/_MG_1754.jpg
+  image: images/covers/bbc7718c4f4e4b52.webp
 album_url: https://picasaweb.google.com/103138221614479310970/AssaigAlCasalDeBarri02?authuser=0&amp;feat=embedwebsite
 ---
 

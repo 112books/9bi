@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - vermutsical
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTdVjbRIXwusbkCYUTUgkR9M9-UNl3xNGroWWqUl9ltThcJNk_lP41Sw61-8cGYfuigQqWssL1GNbxdd1mVc5YkPAv8nsR9fe8IESUAkWZs4BSxBp-KKk7fs6FHdU4n2luI270QzwXcmCp/s400/IMG_0150.jpg
+  image: images/covers/f383402f257848be.webp
 album_url: https://picasaweb.google.com/100268695753733554853/25AnysCasalDeBarriProsperitat19882013?authuser=0&amp;feat=embedwebsite
 ---
 

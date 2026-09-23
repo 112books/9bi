@@ -11,7 +11,7 @@ tags:
 - SOPAS
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1SPAqfx-G7N2Q9jjhFqzBPEE3DkxxH0nq5cmV1fUXxFqBJSOKzTi2aN0pfSjX3DaKp-PsdDcMAG8HJ-8drTTDpy-kbHEHEUtf194tsWCZ3oKx_CQ3dJbXTTMlj1uPzTSEmvUbj5vEcyU/s400/IMG_2159.jpg
+  image: images/covers/e33fe005ea3505fc.webp
 album_url: https://picasaweb.google.com/115791131166530059320/ROMANCODELASSOPAS?authuser=0&feat=embedwebsite
 ---
 

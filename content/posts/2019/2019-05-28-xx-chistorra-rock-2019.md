@@ -11,7 +11,7 @@ tags:
 - prospe
 - rock
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIjs7P-fndCC9Plm6EYSGq8MHN2mxn_xyLQ89abwEHMjWgNvZybDsaRwNpp7aasnm-xHGvrzhIZtBszfKKNXDg5KBgiXxBgFR6RGUeCX93-FHp37U8akn0ZgTwNeB8Dcjkw8umPCQntQZk/s640/P2070393.jpg
+  image: images/covers/a75122cef05c018d.webp
 album_url: https://photos.app.goo.gl/N6SqNWs7vs6CDeNbA
 ---
 

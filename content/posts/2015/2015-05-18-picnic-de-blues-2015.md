@@ -8,7 +8,7 @@ tags:
 - blues
 - BLUE
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNAP9zqJZhCt-h45VF1lEFol8H839xciDnMGbqSDwQyhmT96W4XvaaV0N-i5PGJjQB1CeN0HcRWS0dV3vGCUkbCQn-L8sIteADJIBQiX5hRjwouo_fHQ2vcf4myxB99ksby8o6yPNz_NI/s400/IMG_6300.jpg
+  image: images/covers/361d54d42caddb14.webp
 album_url: https://picasaweb.google.com/103138221614479310970/PicnicDeBlues2015?authuser=0&feat=embedwebsite
 ---
 

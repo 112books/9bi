@@ -10,7 +10,7 @@ tags:
 - noubarris
 - Sierra de la culebra
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh27JApCR6Ve7-zva3vk4GdzZ5YP78FNmHPeQ_3ZTri0ZZmbG9sYBqBeqtH6Wrfj52t58JjSWQgAIQ_eOVKYZhZWm69TTplQgVoGb6mq3I-ZyHGGQJjo_7ktMfwIRj2sQ-DGJ5rafvdY4Dj9jSqyW66Kw-FacDBVhrVKzuW7QwupKERrBvT1QLP-IDR/w640-h428/PGF_0575.jpg
+  image: images/covers/ac97c714de6e366c.webp
 album_url: https://photos.app.goo.gl/xkaeeqgig43qmhAJ7
 ---
 

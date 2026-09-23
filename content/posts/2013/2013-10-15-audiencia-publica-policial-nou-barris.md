@@ -9,7 +9,7 @@ tags:
 - Audiencia Publica
 - nou barris
 cover:
-  image: https://lh6.googleusercontent.com/-bhbMmGJDkqA/Ulxy5Y6t-zE/AAAAAAAAGds/KPtUfMfuQsI/s160-c/AudienciaPublicaPolicialANouBarris.jpg
+  image: images/covers/3a6aa6347c52ab1f.webp
 album_url: https://picasaweb.google.com/114858497713897843587/AudienciaPublicaPolicialANouBarris?authuser=0&feat=embedwebsite
 ---
 

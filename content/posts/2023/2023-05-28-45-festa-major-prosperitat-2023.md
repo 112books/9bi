@@ -9,7 +9,7 @@ tags:
 - casal barri prosperitat
 - Festa Major Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFxcKDHJI51MnzA-Z4XgIZv7q0DYJdLFPJuybR4ZdWm8BR2F2h1InkAkH9O7LwbnJgV-fV4UvpsZ5tPTM_YYwAtGiMz07WSqbUx7wJUOMeqCOk2uTrRFePySzZsK_XHkUjl4_IVCDpLChWk0UdkITPl4xnnfcITvkigBSEgxc9l9xfMVJLUC-TXhsG5Q/s600/P3060386.JPG
+  image: images/covers/dd0e3bc58fc2fa87.webp
 album_url: https://photos.app.goo.gl/27Mr3DifJRRiyHb68
 ---
 

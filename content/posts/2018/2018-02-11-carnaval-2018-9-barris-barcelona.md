@@ -11,7 +11,7 @@ tags:
 - carnaval
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKYsOEXtssl5WfOM407njD0fa0gTll0xRBcxIQYO01RPi6Hq_P2oHKm5giTjCM1WumZwHJO3LacWMvoK9Uu7V68g2AlSbcNW6r9V7J0LsEMbihfxpRqHMbsdFDDBd42tbJ1FabGoQBgFhF/s640/P1300334.jpg
+  image: images/covers/85a70c17464204d4.webp
 album_url: https://photos.app.goo.gl/QeyvIkYRWefh9Tch1
 ---
 

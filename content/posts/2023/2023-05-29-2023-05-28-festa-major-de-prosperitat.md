@@ -11,7 +11,7 @@ tags:
 - bingo zapatillas
 - paella popular
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWnLmkVHABBOyy67ZgFT9rPTBWQU7RgD2OeULySuOfJrALYVdUC1Hb8vw8stHO9ZPtfartK-fJeZKdsTQU3rd5lrbQb5O3eACbPgN3VKBCUWoxy7gOR-jJa9zejYvs4DHYTpG0dRrus_o/w640-h426/?authuser=0
+  image: images/covers/e3d73ddef9477563.webp
 album_url: https://photos.app.goo.gl/tS1gnPZs9s2Ripmc9
 ---
 

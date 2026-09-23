@@ -9,7 +9,7 @@ tags:
 - dones
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmdqaDfcIujUsuREBYAb9X60QE0uHSlyNZut-kVVb7TqMViiZ_pg_F-yWsPDBElt7YL3vb6rGrhPqs5yMxLSTtKWMBlC6za4wqiSRW5fr4sGy4ycM0a8oFF7bkkjx0cQf7vt8ZE7WET1mX/s640/P2200218.jpg
+  image: images/covers/c0ea72607e7e579d.webp
 album_url: https://photos.google.com/share/AF1QipNrZX8b9NWmO6oHi6sYCtG0xc9sQ3RQ4YKRdULbD_CKiMT8pSxiA1YI1oSPBPOpFQ?key=NjVFeDJ2VkFvVGxkSFFjcElHVVgwRGNRVTFNNWhn
 ---
 

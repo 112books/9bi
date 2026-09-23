@@ -11,7 +11,7 @@ tags:
 - expo
 - Marc
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhleHgZwtsKCxfM_Sq8kqtHYT-pZull9Oilbf0VRqZinEWkj63l1nZGSId6MYTuFEYxy7R4NWJ2k9BuXzSgsBI4veNBcdRDGBJj9Dy-L9LytkLy4dbPa_taxWKJqfdoHP1uEu4iZWmmHw/s400/20160511_201633.jpg
+  image: images/covers/6441c2f924278aae.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6285360740946398449?authuser=0&feat=embedwebsite
 ---
 

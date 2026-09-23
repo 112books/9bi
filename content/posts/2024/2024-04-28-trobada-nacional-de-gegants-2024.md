@@ -9,7 +9,7 @@ tags:
 - trobada
 - ciu
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQLYNLo6YEBIShyUvB1OtXJdFQe47RSTf4j2erLNrn-63DCjqhYQmI9IQ4hBQ9gXxa7zKX5hslL2toaEzdkYsOxCakWsFsD3z1EAmIpsPzeTXBT0WqU3hBv_HSmZ-Q2uZyfk-OVu23hDb8cQPT_hEAGz3PASefX5gng7L3QjpisJTKdWh4rO2Zr9taPvc/w640-h426/DSC02970.jpg
+  image: images/covers/71ce2583f8e1d301.webp
 album_url: https://photos.app.goo.gl/mQjdiYJLmBz55ppU6
 ---
 

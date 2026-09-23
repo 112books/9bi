@@ -11,7 +11,7 @@ tags:
 - paella
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLBuCUDZ_aN_dHAt7PM0mbN76DyCdNE9rBy0MP6_lSrKr7JHVbYnq_wAYJaL8M0AL8VREmGn6qWuk7R_DZyUYrOyxX6AJFQj6XrRnTAV7W05IdID6j9GZdq-MKizt18qu5TqnyXi3BmSY/s400/_DSC0076.jpg
+  image: images/covers/c14af031d5a58290.webp
 album_url: https://picasaweb.google.com/110015855395179205688/DIADELAPINYA?authuser=0&feat=embedwebsite
 ---
 

@@ -8,7 +8,7 @@ tags:
 - ateneu popular 9 barris
 - pigmeos revoltosos
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinJawHvXvIVMlFdin5zucjCvJscLjH1Oia9beXZAP4-qNe8DxtomD_wnCeq021JbMBPJi2gla9N5Jns02J0VH811xZVjelhu7ofIAHEzwwqpmIAqGOzS3y6wclpqlOVH-roO-Evxj0fL8/s400/IMG_8285.jpg
+  image: images/covers/d94a7707fbc05ac7.webp
 album_url: https://picasaweb.google.com/103138221614479310970/DeEstaNosSalimosConcertDePigmeSRevoltosS?authuser=0&feat=embedwebsite
 ---
 

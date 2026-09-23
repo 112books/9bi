@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - fotografies
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQNrxjAgqV6yRU-V-obeg8pjJ834fII69BPBEo977ME28p59KT_uoQ60mMrQzt6Oa-6BAhiXtZlhd3djFN4gnEKFH8-l7mBWJDd4ex6N7MHuZz6XEQy4IGcz3KuJA0GPm-04eq4sfnRog/s400/DSC_2322.jpg
+  image: images/covers/4a65b122f7bb2433.webp
 album_url: https://picasaweb.google.com/115791131166530059320/25DeJunioDe201204?authuser=0&feat=embedwebsite
 ---
 

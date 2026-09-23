@@ -11,7 +11,7 @@ tags:
 - fotografies
 - presentació
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgulJEehOrueWHkr7p-udjPubxk5cz1x7UJuBq1gsJokypnQRH76mJ8d0tte-P_NQzR6Gxh-lvOaiuV7LoLFIzr0VyWyUknDZjoj0GfXKotwK2KWEEwdPs35sGFO7GCiHIkwXHCnYIUVDrgyg5Z9cd2siZwCQ9GmsdySnqkc9RTPRWssvQuP0_bV__sSkM/w640-h360/L1420956-Mejorado-NR.jpg
+  image: images/covers/667f5bbabee960c3.webp
 album_url: https://photos.app.goo.gl/duo9VbwobjzDK8AaA
 ---
 

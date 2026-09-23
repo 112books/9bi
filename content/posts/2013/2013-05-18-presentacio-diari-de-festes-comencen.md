@@ -13,7 +13,7 @@ tags:
 - linuxbcn
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipkdxdG82RW6BMyWCs11MYohvDlJBlE471ndcUQX1ddk7FFBoUOUECggDf1Sssiu3Q2LQd4mdzOUhElk7LYJW3HbbefWlpWZQYNK83b-2cwMSOlKxWlweUiabfsoYcU3dzCy_oLBq2-Us/s400/IMG_9281.jpg
+  image: images/covers/9759a3c60a152f55.webp
 album_url: https://picasaweb.google.com/103138221614479310970/PresentacioDiariDeFestesComencenLesFestesDeProspe2013?authuser=0&feat=embedwebsite
 ---
 

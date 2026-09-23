@@ -10,7 +10,7 @@ tags:
 - neu
 - pop
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEin_nP38T3wJ8MsTAMWf88GLt4-keJl45mYPiI7tNY313WObS4h0P0cunwfeEejhQT7F1wWcWQU1bFCXI5mpYapRUv8LdBTLYtoScDCX9O5sFGQ0VQ_J7Kp1WaDDE9Y4Uhfmq__JCAYxW4/s640/DSCF0647.jpg
+  image: images/covers/98ed35de4e9dfe88.webp
 album_url: https://goo.gl/photos/MN3tEBZAQQiJ5iFw5
 ---
 

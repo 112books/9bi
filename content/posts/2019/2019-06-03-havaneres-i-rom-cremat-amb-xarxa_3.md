@@ -8,7 +8,7 @@ tags:
 - rom cremat
 - havaneres
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbwBIoRzKMycqRwSdu-8B0BCifhPi8ZBfk4WRGia1fXxHr63SkbesKgi_H6Hjs3dZjU9yIOOMpSW9MAaqSQT2gNmCXiWmHkG8rtZON0T5VZtX06RMq0biUpNZ6seVoY5jTLRMMy00A-33o/s640/DSC_8402.jpg
+  image: images/covers/f32f9f6616f0a34d.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

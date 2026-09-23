@@ -12,7 +12,7 @@ tags:
 - dia de los muertos
 - mexic
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXkzQlJWo6KW_1Fyce8dtwFvY3LURIFIiUEXVfzbLL_CedqxqxqncFbz35GXSEIjSLW7wXjkiQij19cryLC2pifRDUidKhPS5fvVCKQtRYbEDnY53ZJpB_my47A_DyR1atwjs1sMrPtXg/s400/IMG_3716.jpg
+  image: images/covers/a39d5b7433394d45.webp
 album_url: https://picasaweb.google.com/103138221614479310970/CastanyadaDiaDeLosMuertosAlCasalDeBarriDeProsperitat?authuser=0&amp;feat=embedwebsite
 ---
 

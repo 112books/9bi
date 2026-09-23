@@ -11,7 +11,7 @@ tags:
 - prospe
 - baile
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNcfyeAk0ItxwbhcNdrFtewhay10T-UTtRs5EwAqpcpT5BPEJoKKoOpOSUI2cxlmFaVui1kmWZbBwMPLedo5oNAestbecoS6GdzJd-iIT4raFPCOuLSMkTQ1-aYWDXI0t2y1H7jhI3SqzElRJJXg0o9ga8rUKgBuUIdIq0CFQMDv_2_VbXZ4kVp8DJJWs/w640-h426/DSC_2078.jpg
+  image: images/covers/8ffa2dec43ee238b.webp
 album_url: https://photos.app.goo.gl/RFHp4Tn5Dh1NzbdMA
 ---
 

@@ -9,7 +9,7 @@ tags:
 - Festes de prosperitat
 - nico
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg36mjD1tooj28FglO2DEY_8xryZ2GChp-DApC_VNGvvrWBrWxj7gYT_dmAQdYJfBk-Bpe9XkCHXo-tymobu87gCFQ-bEFA8X-jBncRhrKD3WkMH3jY_AbpIxW8D-NSkQ7RWUjHXd2iqTA/s400/P1014878.JPG
+  image: images/covers/604b143fea8c1c97.webp
 album_url: https://picasaweb.google.com/103138221614479310970/34FestaMajoPasacalles2652012?authuser=0&feat=embedwebsite
 ---
 

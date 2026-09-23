@@ -11,7 +11,7 @@ tags:
 - nou barris
 - Comunitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_tNdMB8xQDV2OsvgLkAarRyAc6idrxVd9Yw_YGRR3t7JOaugYpb8IAoSFkllRqeF2J9fWQ0ZaX5XaUDfp0j1J5d3L5hf2udS1r7YV7PcVANaafAalTFuT_FcG_X3lr5nYf2zLOXndbrWdP8gddooJFhYURCVz1AnHruJP4QGRmSN6f0i5IQCwo80aVvM/w640-h426/IMG_4578.jpg
+  image: images/covers/bd2f32845d5ce318.webp
 album_url: https://photos.app.goo.gl/kiMkMdXDbix1cyR29
 ---
 

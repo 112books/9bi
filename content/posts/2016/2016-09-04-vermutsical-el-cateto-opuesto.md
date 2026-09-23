@@ -7,7 +7,7 @@ slug: vermutsical-el-cateto-opuesto
 tags:
 - vermutsical
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_-Nd1eGnufRARkrKpXASfaeLvyTYNkuano2q8hQjkONaBys78uJ5lOaJJZhOf8o5cwwScs_6uFaUUDsGL9bY373s8MQbPKU6SwzQsQVZSTFac6c677LQ3t2xS5IuJTSMrNJBoB9dQMCI/s400/DSCF4454.jpg
+  image: images/covers/ed9ea8f6abe89a94.webp
 album_url: https://goo.gl/photos/ik1dapXAV92u6rw98
 ---
 

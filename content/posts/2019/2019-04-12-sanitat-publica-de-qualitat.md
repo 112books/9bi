@@ -11,7 +11,7 @@ tags:
 - sanitat
 - FESTA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJGaQdlFJ6LVfmtgoqTfj8VOUXdFwOTkiuTug09kTK4lhJCaX719T1p7plOE0rn46mMSZi1boieD76yj8GX6rcvp4UUKaE8PUbcG19uA2_nhSrc0Cl3A7Sf0Ga3fLQC1vqN3vBBQxs9mw/s640/_4070138+-+copia.jpg
+  image: images/covers/cb03b80e2da0fced.webp
 album_url: https://photos.app.goo.gl/zF9JBYGyySYfmma26
 ---
 

@@ -9,7 +9,7 @@ tags:
 - BLUE
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb8zhJoMnKeEiHjnY5zDax2wzfQ3K5bt4njMJgJsQcA9EVrHqMfPCcFBunZbybJQ0dkTNEvJbHjh_yahq4RCC5u7HnaLWhO7Zf1vgrplrsyQu_t_tbOS5oynm7_kPviblpRzkM_UN7u4eHrfWF-jXaVX2bOLS6UpEAofhcWS_z9gaI3Hjjwr67icn3sA/w426-h640/_DSF2979.jpg
+  image: images/covers/3f6200d52b28f357.webp
 album_url: https://photos.app.goo.gl/RN7MThYuHPaVztLC9
 ---
 

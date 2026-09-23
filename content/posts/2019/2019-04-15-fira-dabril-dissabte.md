@@ -8,7 +8,7 @@ tags:
 - Fira d'abril
 - dissabte
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZczaNduor6VgRFTe4wGffgVx3fsBhvRy1QLg5UkNLmLNeAaBdF-5OWrnX302vMOaabkW2-M9lR9iQQVHFrkfi5v0F4YcRFDs6acQdEzn-tDeIJzZXP5NiUJOQtvyvqrX3IoeuR_2AJ0M/s640/_DSF9409.jpg
+  image: images/covers/b67682e8bb17cf0d.webp
 album_url: https://photos.app.goo.gl/mNuKYVRBBTvRAjde6
 ---
 

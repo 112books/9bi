@@ -11,7 +11,7 @@ tags:
 - Jean Guillermo
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglRtdGTx4JMvx3WiuhsJ7CGqmdYWEgo6U2_DTNf62fCpe8oF5F30P_hjuDMo7poHq9V1otmsJqntf-Ow_uXKJK4Y7fw75-3rxLbUeAO3mdzkaFyDXLIBGh9xHoY9BK48i2ljJAwqTdXLs/w640-h427/IMG_9948.jpg
+  image: images/covers/06ce39a7b68530d0.webp
 album_url: https://photos.app.goo.gl/Pk2zatYSGZQr5PjV9
 ---
 

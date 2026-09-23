@@ -11,7 +11,7 @@ tags:
 - nou barris
 - ramadà
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJhr9_9Jm5_NBe6J-SgAd-OlG8MA7jIKQUHBfdjim7mFyzMfBCCIwBO8mhQxpfAeYXa1A4Xo2Hcw56MkEyNhn6UekmPjrM7ynXhOovGHHEz1qFmfb8WDaGu3S0fM2_v4WYd4ZD7vqJAGj_RGywMhkZV3pzugFqDi_iQsQnyRlNIDeqvS2MWu69f_2I/w640-h426/_DSF8363.jpg
+  image: images/covers/571fbb73e948d4f9.webp
 album_url: https://photos.app.goo.gl/MWCeASEovLp4MPKq8
 ---
 

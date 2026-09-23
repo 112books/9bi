@@ -10,7 +10,7 @@ tags:
 - verdum
 - FESTA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEju99e1TyoNCx5Yr5XQQRxxSPohH10kOHHxXX6CJfVz893WwyiKhDQF3kSRXRD4rtcfV8ziSk7HVZRi4jl3FF0fcsvcheReuzi44WzRNxKdkh3o0lgLmYdXJNPB6N-GJiaZYJ3SXW8bqpU/s400/P9180069.jpg
+  image: images/covers/468e648580214c18.webp
 album_url: https://goo.gl/photos/z1NzFPn2bcfYpzdx7
 ---
 

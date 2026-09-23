@@ -9,7 +9,7 @@ tags:
 - Pedro
 - expo
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikizc_B4wHFIQZwkdTn-xcMBPY22YdtYKNkGBWkvwqHh2Dqy1dloCJtrMAZ4ABIXoL-Ptk-m3pLVmhik8NYW7OO1qgs1JErIPPavUNO9Oxho2MKOr5Deqd_1zd0unQuPyfjOsFkSZdGrk/w640-h480/IMG_2059.jpg
+  image: images/covers/88121b3c55107335.webp
 album_url: https://photos.app.goo.gl/XLkqXScseyP6RrKw7
 ---
 

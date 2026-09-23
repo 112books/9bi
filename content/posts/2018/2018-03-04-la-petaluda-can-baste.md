@@ -11,7 +11,7 @@ tags:
 - Canço
 - vent
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEKc8jAgpJuvDO8LR_wGYmM1XvdCg8JQm4MkQT59tR7VLJevexQTclBV_GlmJVVEVooE4243InzCQwsBgvu042xLD2qxsxhq50OLDfQ6hZqvEMQyv0VAZzJyEDwBtMyqvWefqiSB2UMFs/s640/_3030795.jpg
+  image: images/covers/781b5c809328ffb0.webp
 album_url: https://photos.app.goo.gl/PCy8FSij8B081XdB2
 ---
 

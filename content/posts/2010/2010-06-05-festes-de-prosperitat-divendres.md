@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - prospeoasis
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgt1FGwjMWp1nrIISEpcSNMJtkiwQSzTTw3bQ547MP2DXP1hQsun7tAJyc0eEG57vrXnKNcIEsY2aH-NocytDyab06Qx4shrAJsH1y0P9HjxVW8sM1ycT8MJbkWtDqiW94fCTEchp7YJIU/w640-h480/IMG_2579.JPG
+  image: images/covers/92b9f98da460e4fc.webp
 album_url: https://photos.app.goo.gl/jEzdshimpvPkkYud6
 ---
 

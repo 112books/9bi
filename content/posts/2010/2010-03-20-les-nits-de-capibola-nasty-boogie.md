@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - nasty boogie
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg85WTFi1iFvdLOnA75aV1XMIobUSk1BPipt5wVoPk2vFjcoaw7kgQdrxLgNTXuD-0BASoGtt_8iEWMbPvql7hlwuB0-q4QLK29ZMsik7dZlLyQ6JFDMmIkpoLmEp6IrG-UXcgn58hFSTA/w640-h246/IMG_2345.JPG
+  image: images/covers/6057e5f69c558b69.webp
 album_url: https://photos.app.goo.gl/tiJkwJnSYz5SEUvJ7
 ---
 

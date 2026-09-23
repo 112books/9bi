@@ -11,7 +11,7 @@ tags:
 - comunitari
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiL7S1aQbQqoHyIP1ZcLsdP0DIn6_oTc5QFlztvBXI5UJFZdRYLTDH_HwyM_LGZu4IdL7f6QenZDyKn4g_XDdfmUGWLuE5t2oEjTqwDeUN2CqXHQAjNEFv72pj-McTpsRZj38DQD5lBGto/s640/_7010034.jpg
+  image: images/covers/8ce6fd2878f1947b.webp
 album_url: https://photos.app.goo.gl/uJ8nLP8WEwAHScWt7
 ---
 

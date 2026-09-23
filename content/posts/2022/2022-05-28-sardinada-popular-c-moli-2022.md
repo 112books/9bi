@@ -10,7 +10,7 @@ tags:
 - popular
 - pop
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib8RYLuSRSArBXN5TB-0OU4Q5s2wMQ5afgLEaX01oITb8UXY7MFlvrbVMVwlR3zT_MUvYBb911ShYL03OTjzTWspPZ6lqLmZXQW_JOAPUWzDQ4_xb35nRJWrij5IkaMhGQICQAbLy-YxAI2mW09vhNGHh80qJEorIJIvDYcF1wF9DvxYnadeTCl06d/w640-h426/P2290596.jpg
+  image: images/covers/5e3d67a48ed18f80.webp
 album_url: https://photos.app.goo.gl/L3TZZNDGkxaRuhZh9
 ---
 

@@ -7,7 +7,7 @@ slug: rebem-el-diari-de-la-festa-major-2017
 tags:
 - Festa major de prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisfbLFRiw0cO7iQFnzkSFN1KkCtBgKOZp-ac-u1gD9Uh5jIRKwgzMUrxCNM45KU9W3lFfgZxpwWYXgtjLfWjeFWxQRvXn_MJkCcW_ZKffhyCHrJXxrJ5cM9noLY-u7E8dqDntwP89LexQ/s640/PERIO%25CC%2581DICO+-+26.jpg
+  image: images/covers/a1e794b01ae27854.webp
 album_url: https://goo.gl/photos/iqAhf2pn5ZSLiVcy9
 ---
 

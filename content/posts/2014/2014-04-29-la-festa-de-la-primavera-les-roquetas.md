@@ -11,7 +11,7 @@ tags:
 - diumenge
 - música
 cover:
-  image: https://lh4.googleusercontent.com/-haikWD4HlzE/U1_YdbdwSzE/AAAAAAAABGo/9soZRXI20YA/s160-c/FesMesAmbMeyns.jpg
+  image: images/covers/45dd488b45088d38.webp
 album_url: https://picasaweb.google.com/110015855395179205688/FesMesAmbMeyns?authuser=0&feat=embedwebsite
 ---
 

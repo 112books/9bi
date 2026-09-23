@@ -9,7 +9,7 @@ tags:
 - plaza angel pestaña
 - Prospe Beach
 cover:
-  image: http://lh5.ggpht.com/pedro.cervera/SIRu1D5YJcI/AAAAAAAABAQ/YkO0pcG2QPk/s400/futbol%20prospebeach08%20011.jpg
+  image: images/covers/333f94e2076215f9.webp
 album_url: http://picasaweb.google.es/pedro.cervera/FutbolplayaProspeBeach2008/photo#5225423325514704322
 ---
 

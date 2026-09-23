@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - 9 barris
 cover:
-  image: http://lh3.google.com/linuxbcn/R-9kEI8nvUI/AAAAAAAAN6U/Sr2HKgfC1d0/w426-h640/IMG_2333.JPG.jpg
+  image: images/covers/c55cff2dc8f12e65.webp
 album_url: https://photos.app.goo.gl/oufCBTqTnixZL9GHA
 ---
 

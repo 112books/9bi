@@ -11,7 +11,7 @@ tags:
 - fiesta
 - FESTA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP0YfHIe2TM8x6515f0Wsgx8XA9F6PyZ4qCSIu0zZWDR4P7L6BowG3-2ISlcG6pi3mKK65n5P_lvRzjf8HeXU0yKz2cjXc5ieRoyNk2tnnmoNydncsf36V5enHqgQfKOAJKs8w5mfqdcqy1EBwfoZDUFbFrnfUZjPUjqlay_ARyYIX5lGRH0aSeFKw-qE/w640-h426/DSC_2735-2.jpg
+  image: images/covers/fa4e3a1531ab28b9.webp
 album_url: https://photos.app.goo.gl/XssxvRsETkH1433y8
 ---
 

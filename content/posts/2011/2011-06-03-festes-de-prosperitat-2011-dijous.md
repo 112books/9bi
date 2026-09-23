@@ -7,7 +7,7 @@ slug: festes-de-prosperitat-2011-dijous
 tags:
 - Festes de prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOsxVBwVJtxjGdsT7hyphenhyphensTxQ_KEKQB_hhghQ3cFyMMgKWndHm3Kj4ps9UDyVukUvNLdJ44IPhCV77sbJWxOPNksw0XbQ3j0Ax_OF_wpqVVlxso1ycc-9FBdD7v_7hlTAy2tdQOGbAJcAqM/s400/IMG_2643.jpg
+  image: images/covers/013597b064b1301a.webp
 album_url: https://picasaweb.google.com/linuxbcn/FestesDeProsperitat2011Dijous?authkey=Gv1sRgCIb6xr3A-o3msgE&feat=embedwebsite
 ---
 

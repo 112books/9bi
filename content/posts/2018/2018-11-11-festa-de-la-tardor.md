@@ -9,7 +9,7 @@ tags:
 - pla comunitari roquetes
 - PlaDeBarris
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgU0TgjLjljkHrWAbYSAKXtl5RySu32YfeNb8Qsv6H1Y3VZxC_ph4VuFQ43uaVSRpHaMwDITjMVXYI9i4mTYDsHj7-ITly47nZUP9h6hO-H8Wob12H7lRA3X_WqvBPgRKaSz0qGm2zt0gPa/s640/_012.jpg
+  image: images/covers/6681db94dc4cbfb9.webp
 album_url: https://photos.google.com/share/AF1QipMHKb_rhbo3Nz1pj8-pp108OQSISAcX1nk3DOywM7a2xhwefuV__nEn-CGZXnKFdA?key=RTZJRzQ1TDdCU0llY3Z4bXBFV2NxMlFxVl9IcG93
 ---
 

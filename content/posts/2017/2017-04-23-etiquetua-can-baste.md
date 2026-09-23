@@ -11,7 +11,7 @@ tags:
 - teatre
 - música
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1avAOzKlGengGQ_ocygCFPsKh8qd4gnyEIHkSMisgxFHe92W3G8yl9CXNdp4RnKUMkUanqKpQdotVuR398u88N8iI93Hww0O_mSDVZ2E_FS5xzk4j7un7_Yq-NxtACVf8LQf82bd3UEI/s640/P4220529.jpg
+  image: images/covers/e4c5e8739136d15c.webp
 album_url: https://goo.gl/photos/pGW2XBAyrDXQyMzx9
 ---
 

@@ -14,7 +14,7 @@ tags:
 - parc de la guineueta
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbhAfkaFgkUqG_TkbUvw1UoU2mJIIiDGhNErNu6c6XoqReE7v7vmAiL81We6ftB9KjGhnpPAnMm6YUZF5oxDBJE5nA24NACzdxuRJe47vdIneIdQo-MigLqyFjrO1L_kT8rYhf_FpAxLw/s400/IMG_5900.jpg
+  image: images/covers/745337cba358b6e5.webp
 album_url: https://picasaweb.google.com/linuxbcn/LaCulturaVaDeFesta080511?feat=embedwebsite
 ---
 

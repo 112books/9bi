@@ -11,7 +11,7 @@ tags:
 - barri
 - pregó
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiPr0Ekd7-78jL3NUKeaYHzrgJg1GDRmfIkaom3NAoPPhWUKD-Jc-KV0bzOnJfvhmsO67DVIbn3ToYv9VTJMIDCmpPSOiQ-j-aLnhDF3CkzNhJrfmkHp6GkTxGWDZvs0mUa4TXaU3vE6Q/s640/_6120107.jpg
+  image: images/covers/f03330a73c4738fe.webp
 album_url: https://photos.app.goo.gl/aQtskpnpt6qa6xSRA
 ---
 

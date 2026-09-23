@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - nou barris
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggqd7xouHp69AM45q3zen7YVzFyvfhYeyxAd-P4ZZdeEGepHHY8Zd9DapuQOzdJGOpUf_2Raf-H1D7rK3MO28BjgvtPyhHycZOoM-vUrn9YJJJKKEa1AcWi2x1IsQCzs9Z8x8554ZRg7sc/s320/Prospe-Beach-2012.jpg
+  image: images/covers/363dc8531b0281d2.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

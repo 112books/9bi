@@ -10,7 +10,7 @@ tags:
 - rock
 - mar
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYcypblJnuUER9dqFoHrJ5GbbqIRJOHZhs-cpkluBv3Xcbt1KtF7WYdEDUbGaw3XV5V0zJ5_GrJl8k9CtkmrqlS8LGLyIipD_1D3n9ZFgpLhQcORUwvdkOPyDOE0ZMUL2EGR2vNItmjzUJWFOsopJntaixdiwjE6vM75T3P_wDzbGu0toWo7CKVzaE/w640-h426/P2330376.jpg
+  image: images/covers/b2b552f375510e62.webp
 album_url: https://photos.app.goo.gl/fhvVSJ2bLpdnZ6xr7
 ---
 

@@ -12,7 +12,7 @@ tags:
 - danza
 - música
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGAUqktqmwBdUpLTa_T5G404jz7pBt3ss9FeI6P0TVV3b8Js8QZ0TPCbQMVTfYdLDcUppMFBO4xQAR8n9e_0_UVOHkahbd8anN63qq4klsLlYYXXzbdD-AAyLLX3RnPcw_JPs-_yXHAWXf/s600/105.jpg
+  image: images/covers/0ee840a24cce752c.webp
 album_url: https://photos.app.goo.gl/CScNC17FfWCYQ5US8
 ---
 

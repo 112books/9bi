@@ -11,7 +11,7 @@ tags:
 - nico
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisTCL5rmtOTIt3yyncBSxoboaeITR9fGspiqrRGv-4BiQIjcad84BMEE44-PHkNGyg_Kz9cSmr7oTiTamCOj_bLFdq4bd1gt1570V_LZUDT9OfxnpQPuOHcste_fND5JGfFA1aarg_VO0/s640/DSC04163.jpg
+  image: images/covers/d880c9ec005974d6.webp
 album_url: https://goo.gl/photos/KG2CpTeYC2nBPNa67
 ---
 

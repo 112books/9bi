@@ -9,7 +9,7 @@ tags:
 - 9 barris
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjGNU2dOgK8U40vON7Ksn3y7ewGjujH40kYDw3OXFaIAAI627umMYpnd7wFzH1rGbM_KSnlEzSj6quQ-x3hIEcj1eXEF4CtX19WcOfC-_CzPuMU7mVfL3AZoSxjbUujQ9JPx73hlyZJi0/s400/IMG_4289.jpg
+  image: images/covers/1eacfe277ae617d0.webp
 album_url: https://picasaweb.google.com/103138221614479310970/DiaDeLaRepublicaA9Barris?authuser=0&feat=embedwebsite
 ---
 

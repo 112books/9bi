@@ -7,7 +7,7 @@ slug: presentacio-del-nou-disc-de-juan-jose
 tags:
 - presentació
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiddOdHeiMnyO6mJOnvusuFibTtvZIoH-X4-pUQ6olifqH8Nq_PlLEC8HSogIehbNGDHEH5YUEofJKfAYt5dc60ju1d8skqU_rGuvSW8jyqiN429DA4oqebRQTuT3BP1pwjHRiNiNb1psc/s400-Ic42/IMG_5664.jpg
+  image: images/covers/38ba2a79200441da.webp
 album_url: https://picasaweb.google.com/103138221614479310970/PresentacioDelNouDiscDeJuanJoseBarredaSentidosAlAire?authuser=0&amp;feat=embedwebsite
 ---
 

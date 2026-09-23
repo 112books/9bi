@@ -7,7 +7,7 @@ slug: jacks-sons-bn
 tags:
 - música
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGnMGhQmb3Oze6GKMn8j34FtUkQLEzDeq39AdcMNBw6uC67o86xRaSTUAmLcWCRQQNbXfwBup74OrLOHgBhr1LSRiPagK_u99XcqdDksbBDSvXr5gYqQvVhqfUTwo5BlofaKscaX1qHlWuIjfbcbFV6bl97uALdSe0Z2b1YM5cLXcTHm6zQs4hhvMhoQ/w640-h426/DSCF7718.jpg
+  image: images/covers/732dc3306e609022.webp
 album_url: https://photos.app.goo.gl/tJUa4chgN2XtTQNy9
 ---
 

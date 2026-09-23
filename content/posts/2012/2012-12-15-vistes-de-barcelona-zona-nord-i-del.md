@@ -13,7 +13,7 @@ tags:
 - vistes de Barcelona
 - zona nord
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijSZHNUBHAJsJCkD2miw_DvYhYOmqK8ja5bDZqVAWm3smqbqxDeY9XCYma1EwtGSwAAfNwgpeDF1YOHs_QaZvQAPzYrydhtlSPzntP93Z1ecoOZ5yVfDTyB-_b2KIn_VQOD5pxdJHYSAE/s400/IMG_6201.jpg
+  image: images/covers/2390ec803cbce888.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VistesDeBarcelonaZonaNordIBunkerDelTuroDeLaRovira?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - fotos
 - barri
 cover:
-  image: http://lh5.ggpht.com/jaime14bf/SDr2f3ffjVI/AAAAAAAAAyw/QtuR19IBeY4/s144/DSC03060.JPG
+  image: images/covers/9ef21de45ba573e9.webp
 album_url: http://picasaweb.google.es/jaime14bf/BCNNETABRIGADANOCTURNA/photo#5204743346712448338
 ---
 

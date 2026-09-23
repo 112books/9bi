@@ -9,7 +9,7 @@ tags:
 - ruth and the wailers
 - vermut sical
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEE879NMSQ6OQvXEmTq-uCMl0n-hQ9iItqonP06hlo9twMUy7EV1oTu0pPIFBR3TonZqNtc67YQV1PntVFQtgFM24ecIR5ekQ4in36PqkI6kA3_KQ7kk1QYNzYOXQbec1WkMv0GDhkDsA/w640-h480/IMG_7457.jpg
+  image: images/covers/2f746aed74784de5.webp
 album_url: https://photos.app.goo.gl/9YYPvfUscxYe5cKGA
 ---
 

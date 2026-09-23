@@ -11,7 +11,7 @@ tags:
 - recital
 - poemes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqhzPXl5kVVevZX9NFZgZRcz0DwLpXhK-wwsLxxz5wiimaOlmajM4-aZOtAWFUd4DiEYmUAlOiFD0uHoGcS5byiRnLb3FN9F2yfFl0NGVujYUfuTN120lUYOZGKKIRkDdOqqPiGj55Vc8/s400/B706rw_IQAEEUzi.jpg
+  image: images/covers/7369faf644b6fc9b.webp
 album_url: https://picasaweb.google.com/110015855395179205688/POESIAENTRERREJAS?authuser=0&feat=embedwebsite
 ---
 

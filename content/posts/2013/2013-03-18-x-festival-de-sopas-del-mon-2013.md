@@ -14,7 +14,7 @@ tags:
 - fotografia
 - FOTOGRAFIA DIGITAL
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPuTzY4iGq38U7ep6UluOVRAoUftPjLnZqOBehCg3_530d_2RLLYnrwR6lFI1SolLzxkdiuMFUERtX_iaGEQ-tZE2ezEPeNENB8sBZf-nNV5PdLTo9I0HzWrBTg1vepgfhnBH_IIlkxf4/s400/PGF_4827.jpg
+  image: images/covers/cbd9410e5e977cbf.webp
 album_url: https://picasaweb.google.com/115791131166530059320/18DeMarzoDe2013?authuser=0&feat=embedwebsite
 ---
 

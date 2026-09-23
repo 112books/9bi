@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - jam session
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZZH71X3EocRlADxY9ny0r1j2sDcBZewi7UWn0nuQJZzAVb5pCfQzS5LQOknSi57SsUaiEwGWQQX0XJ5RxYN1rHL2i9F-z4Lkct0uQitSCf4Z1b6LhWWtfGJlI5syXQzOA7rF4JafUek3mTWWQ8ERiwrxxEt4hn2X3J3vcDiLz7oq6XZIXLYQxDe_yyFs/w640-h426/_DSF4558.jpg
+  image: images/covers/d44e73b8d181f085.webp
 album_url: https://photos.app.goo.gl/9HbjuU21kyXkWjJx5
 ---
 

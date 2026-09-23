@@ -11,7 +11,7 @@ tags:
 - little victor
 - masterclass
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBO8H-r7QTfyk6NDhK3oDpDnpljks35xVdVCDPhiUBDQ87kvhsYE1QrWxj0ASFVwYGsxcRUR9AYMZl0MQTk6VV6mkPtZoo9bZpRNew6r4CAcQbpJiuNHq2HNps2BM0r1FX_dbNkAjp6no/s400/IMG_3351.jpg
+  image: images/covers/8daf927d82ba4376.webp
 album_url: https://picasaweb.google.com/linuxbcn/MasterClassLittleVicror250311?feat=embedwebsite
 ---
 

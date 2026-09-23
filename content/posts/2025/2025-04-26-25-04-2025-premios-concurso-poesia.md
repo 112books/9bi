@@ -12,7 +12,7 @@ tags:
 - música
 - poesía
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwydZJ5smmcKlOSqwQC4rrVbMH48D6vtEiCu4waTkEdqcA3NrPZF6Yem9pVWUbX9RDF8cUCUzcXE37wMqLI9FuK8G1Z2ON65f3e4FqGS8RSkkdr40xda4WF0qYoJpUFuUXj0UZQYCct8jrc7kjowCdIsYxgQrMZcNtCCeiam2hsaKi5Ucie4UQL9qtq8d9/w640-h426/DSCF4506.JPG
+  image: images/covers/c6dbb4d6aff2db5d.webp
 album_url: https://photos.app.goo.gl/Ew2ZwZ4oMUoUtoS87
 ---
 

@@ -10,7 +10,7 @@ tags:
 - barri
 - BLUE
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbSnijQR1ZZSzWuSNpsiRgSRs2gXjx_jn9qCUAQ8lXNooS9oPCe_INwMnB-D6Ce1sNfi8HOwZTc2fd73q2gim28DNKx_YcD3MWkQEvmMIUtVmIsKdSrklOkGu7erfgJc28s9yF2cVc2Kmz-IpHGHV543MYhsCXscfn-5sSOeawgUArWZPkGBxlThkwpAw/w640-h426/DSC04384.jpg
+  image: images/covers/b07a55b097aba6cf.webp
 album_url: https://photos.app.goo.gl/onaWBTQW9UoiEC867
 ---
 

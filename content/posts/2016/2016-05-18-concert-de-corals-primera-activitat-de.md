@@ -11,7 +11,7 @@ tags:
 - trobada
 - fotos
 cover:
-  image: https://lh3.googleusercontent.com/-VgeRV3ZkA6M/Vzx9NtY-uPE/AAAAAAAAlgs/6cKjCrtQDhwKoXhYubvHdnesN2ILnACEACCo/s160-c/6286036854378510577
+  image: images/covers/672eb4587e721d65.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6286036854378510577?authuser=0&feat=embedwebsite
 ---
 

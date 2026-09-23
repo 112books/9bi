@@ -11,7 +11,7 @@ tags:
 - ignasi
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicQxKqMlhdDLhS7DanD4n7XUZWqicI7JCIfTJmwz6Q-MeNXLE_Unsg3gzh7F3bO_Ukfdf-bU_KehtuvAgv-esB7svJkN6W85koGDW9GxltFlAdrWw_EBA4S5gQacpGRO1LJIqZn_J0l60/s640/_A130072.jpg
+  image: images/covers/2f07a983e290c184.webp
 album_url: https://photos.app.goo.gl/myDNa7NCAAKa7eqS6
 ---
 

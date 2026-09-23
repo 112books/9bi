@@ -11,7 +11,7 @@ tags:
 - diumenge
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxfOxyUwhyuAv7n23xCkAsWhbU1e3tc80VntA_DzlhkuUw7BCPCohMb1CQyUdx9ZPjn4M5zYiP1UP_TwU_jkqt9uuQZj-9LyXx2G0diX4F9b7IozIHiB0PJQreDJBfqQqRurfVc-y3GuE/s400/IMG_5903.jpg
+  image: images/covers/ca583a2ada04b405.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestesDeProsperitatDiumenge03?authuser=0&feat=embedwebsite
 ---
 

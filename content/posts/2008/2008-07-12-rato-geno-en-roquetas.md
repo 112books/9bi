@@ -7,7 +7,7 @@ slug: rato-geno-en-roquetas
 tags:
 - Roquetas
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJymDM26dqr41-Oeg1Cf4mIPKX_ioXIHI3qCDnesiEojoqMch2YnCSO7UxkXyetxgo-CMElkrsSSOvHsthgzJYYQLJ5uQAwjuknV8BKTovWzDRuM8uJNijJ_ZMBWFIeLt8BdJ6tOtUtZsC/s400/_DSC0036.jpg
+  image: images/covers/9d5342363dc8dfed.webp
 album_url: http://picasaweb.google.es/inmalcario/RatoGuenoEnRoquetas
 ---
 

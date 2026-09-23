@@ -10,7 +10,7 @@ tags:
 - Pedro
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjx4sKYLGiiywcWND_l6gJigQtyXOE4SqpMa6jkMdRRm6K1Nb-VF3xK24PmwVSo8GFuTV9ilt2N9Wx4hbyK842iDLHQN2HnxC5zleblc56etWjJI__tiUE-NXtpNK1T1xtBtCbuFm5ldNc/s640/20161103_192622.jpg
+  image: images/covers/ff780b724b40af0c.webp
 album_url: https://goo.gl/photos/gjTm5tXGEx1sghLeA
 ---
 

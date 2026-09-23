@@ -9,7 +9,7 @@ tags:
 - jam session
 - vermutsical
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqRx16A35nO-o9jVO5vBurUY9_vPDyMBHARwLiibGjPRO-JkxqyuHQQUc9PzS1tnATYFZkVBu0GpXaGtnHDoJnGZJsRFCdNx5yh93lOC3mTLpD5v8IC3XOKSRelMik77jOOi87f-VWbl0/s640/2020-01-12+-++015.jpg
+  image: images/covers/6aac10efb3d464d9.webp
 album_url: https://photos.app.goo.gl/dF6746LxFpXTLprj7
 ---
 

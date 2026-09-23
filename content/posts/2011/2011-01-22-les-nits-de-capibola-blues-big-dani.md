@@ -13,7 +13,7 @@ tags:
 - linuxbcn
 - organic trio
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5pkQ1Bx7m_OerK2WGV-mY4ezdYQgUh1HJOcx1vBhHh_V6JDdKefSjS95aX65TGATO9SAcMoT3yYtMarZfkbTRhPQxNbnI-CGFLy8vBpYyQVZk12FdxYAQEDH0LaetbTUqhUBukvhvMRg/s400/IMG_9287.jpg
+  image: images/covers/1aebc75b5e491d5b.webp
 album_url: https://picasaweb.google.com/linuxbcn/LesNitsDeCapibolaBluesBigDaniPerezOrganicTrio?feat=embedwebsite
 ---
 

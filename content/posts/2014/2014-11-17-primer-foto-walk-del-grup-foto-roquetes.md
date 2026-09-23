@@ -11,7 +11,7 @@ tags:
 - paseo
 - art
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyHzQG-m_7tfkzBKmrg3rk_uKmCsQBXxQgtFkyXFVvnifEiU28wTnyTLYumaBXMbTfdmohueErr3i2EWjerCakW5bjlyutPaagF7UReYarNfbshi8peyCEJarPKAz08Oukxn0BF0woZr0/s400/_DSC0146.jpg
+  image: images/covers/143360a78acc332e.webp
 album_url: https://picasaweb.google.com/110015855395179205688/FOTOWALKPERSTANDREUDELGRUPFOTOROQUETES?authuser=0&feat=embedwebsite
 ---
 

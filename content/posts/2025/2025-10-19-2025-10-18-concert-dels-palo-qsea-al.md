@@ -11,7 +11,7 @@ tags:
 - casal de barri
 - la prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh802TXX-EmdfAgeFJOCskvvo_QL6gx8eEaF0ORBQ7aT4m7BWchqmy1a_CDVinpJ21QVmC-AA3hFCa4BLLrJdVjXtpE-TvlLpp-c4M5fnOB6GQaVEbqQNlPjer75AMBfRr4j8BaDMgJwohtt6P40wCXqbg63mQrs06OtS1r6RuPK8WWPj7BZ2g6KchM1x8/w640-h426/IMG_1261.jpg
+  image: images/covers/fd58c466a31d6b82.webp
 album_url: https://photos.app.goo.gl/TgdoPKbMtXHbTCu86
 ---
 

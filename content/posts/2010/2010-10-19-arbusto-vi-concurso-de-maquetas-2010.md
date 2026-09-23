@@ -10,7 +10,7 @@ tags:
 - MAQUETAS
 - música
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4f4cVcJwODUTl26ajuqY8XHsqffn8MIUReVLoAsRbXpS3gfqxoWxiz6rhqaCGpYBWnUlEc1A8ekRugvYBy42b-l7Lk78I6ll4b3JJwD8Wa9ERvCpzT2lzdlDnWOeZ1BwzGt9k91Pnw7Xb/s400/IMG_4968.jpg
+  image: images/covers/20eadc0edd0fc83b.webp
 album_url: http://picasaweb.google.com/ulls2006/ArbustoVIConcursoDeMaquetas?feat=embedwebsite
 ---
 

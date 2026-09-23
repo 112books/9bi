@@ -11,7 +11,7 @@ tags:
 - 9 barris
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhcWQKRCYxSkD9_k30YGBzrOhf0acIjNSzCNkoaoxddTTH_Oi2LNjtQTTizE0dd-Pnk1ScpO4MR5o6ca-g3vGfvKy9Ogu5A0y8CMU6GdMq3BTc3fs_T58A0FoeSxQx9vEpvKsX5ZWstmoH/s400-Ic42/IMG_2232.jpg
+  image: images/covers/33bd777ba4e2008c.webp
 album_url: https://picasaweb.google.com/100268695753733554853/13eFestivalDeSopesDelMonMundial2016?authuser=0&amp;feat=embedwebsite
 ---
 

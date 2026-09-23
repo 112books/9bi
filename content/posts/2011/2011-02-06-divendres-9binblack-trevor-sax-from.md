@@ -11,7 +11,7 @@ tags:
 - Saxon Sound
 - Trevor Sax
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0dFKC9mlVx4FCqrCKDM5ap3-OWb4kFigSeduqd6upwE5QNzoAwrmkAVnfpnIWX5_n-gCQFGXgUOX1SjueahRj7pB0LLn9iAvVzFOZgLknLd9Z9ltNyU7tWyrcXeL-k1aGWOzPvmpj6WU/s400/IMG_0126.jpg
+  image: images/covers/0b598befabc2f61c.webp
 album_url: https://picasaweb.google.com/linuxbcn/9binblackTrevorSaxFromSaxonSound?feat=embedwebsite
 ---
 

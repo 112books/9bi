@@ -11,7 +11,7 @@ tags:
 - expo
 - veu
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiS1L-uv0Wi9vmO54vQQN6fg4vOLCgXxfP5spt44NL3oAe6Syv8bX8e1KBPYwIxGLGmn6x0fiZxGhA5rVz7tJnWCiSD4_bfWlgP_NdHB7WxleYJkawmXux9b3vaKiy2jdOrhlnW2XCTqA8/s400/20160714_183307.jpg
+  image: images/covers/3409b65c3917ecd0.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6307938240457331521?authuser=0&feat=embedwebsite
 ---
 

@@ -10,7 +10,7 @@ tags:
 - expo
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilNUghTQpk96zkmAfKDnnoed6BG481oFQU29ZB6z8qxpzsqNbDnIQd0ZDLiu6BW3SNTj4o7fht0XJsYDzNVogMfrzpQeon96r1S6pgnH_iBP0eNFG17FdYfykTKRKjdIIhLqSmJQI0Gos/s400-Ic42/20160303_180645.jpg
+  image: images/covers/d5f512d69d3749d7.webp
 album_url: https://picasaweb.google.com/110015855395179205688/PodemFerHo?authuser=0&feat=embedwebsite
 ---
 

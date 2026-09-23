@@ -13,7 +13,7 @@ tags:
 - nevada
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh15x3j3rrRuuaHVjVdBzA3fQskUpHGhiTdPHHXXmYM_txQA_XsOT0S9s2zWpElp6HeUJntd0qad3f4rIghSN7lWkZHunqf3rPW7hyb3i4-0eUb1GRRGsF8UVC41ePIIbVMk_dvkV7nW_g/w640-h360/P1080573.JPG
+  image: images/covers/0e0cd3eeee7bbe1a.webp
 album_url: https://photos.app.goo.gl/wRapVqokQK6i5roh8
 ---
 

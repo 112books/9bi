@@ -11,7 +11,7 @@ tags:
 - STA
 - ciu
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXCTWIoEYgF-0urKW7JTXHhVeQ8Ol1hXA5pTk7AUDKTF7jIFiK2H2tWkI_2qfE4jxpt0GXs6bNBA-jYnhyphenhyphenr2zTx6JC5VZQjg8UhHj5U8dypS5_qm9_1Li5niq6icsu_MFEqU7_U17oe91f/s400/IMG_1058.jpg
+  image: images/covers/7c48c8278098a65f.webp
 album_url: https://picasaweb.google.com/100268695753733554853/AngelAmievaFigueresCircusStarsFestivalInternacionalDelCircCiutatDeFigueres2013?authuser=0&amp;feat=embedwebsite
 ---
 

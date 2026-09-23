@@ -12,7 +12,7 @@ tags:
 - ny
 - nyc
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdVrrZ7Kbq0qO2ybsXGaAhKpfNUgux7UF-tg-xNCsMeqmPuCha-M_ItPCVCfRAC0QO4plZetDxFf8Z0LMBs-NkFqCdFoTPEP8KADY_Eg4W7ybCp7gbF_0DttTxLD9Fo3WL21eLruk8Plc/s400/m1.jpg
+  image: images/covers/376834b81ff02db5.webp
 album_url: http://picasaweb.google.es/lh/photo/sk65I1rybtbJK1cW81yYDw?feat=embedwebsite
 ---
 

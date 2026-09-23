@@ -11,7 +11,7 @@ tags:
 - 9 barris
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMkuipTO5TQtaxq1LFMbBGJUQUXMEXQknsu65uVutXcQ0H1alZj2EmSThtoUpPNRqw2RU2fPeXVBBe9PLaT9SnNbKcVZpo8jfynAHe-Gw4TUh3aHHTFfTlehNk-FPSOOC0irru8-RPSUq1/s400/IMG_4365.jpg
+  image: images/covers/32a42a0413041d4a.webp
 album_url: https://picasaweb.google.com/100268695753733554853/6305629511442106289?authuser=0&amp;feat=embedwebsite
 ---
 

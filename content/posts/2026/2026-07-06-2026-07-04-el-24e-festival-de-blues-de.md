@@ -12,7 +12,7 @@ tags:
 - fotografies
 - Barcelona
 cover:
-  image: https://blogger.googleusercontent.com/img/a/AVvXsEhTafUb_u5X5Yj0Bww631bNKJmVWjS3j-3WqPucRORpLrudlMUarY6npKGMXzfuIe-j7aVtL8XWmP2lwiVw26TWH8OtXLefTOvh8KDpulAIOeCf6Vzz4vfTNq_4xG5wEukqqYmS4gPVQt4YC9HrTKvFrfF7Sw3yjveu0QqhANA6erTW_WxAzRK8JQmPFbw=w640-h426
+  image: images/covers/8a48cfb875e4eb33.webp
 album_url: https://blog.pocallum.cat/2026/07/06/2026-07-04-24e-festival-de-blues-de-barcelona/
 ---
 

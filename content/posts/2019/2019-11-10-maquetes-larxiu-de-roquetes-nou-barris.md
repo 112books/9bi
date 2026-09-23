@@ -11,7 +11,7 @@ tags:
 - barri
 - obres
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjU0MRaB5ypk_q4oa_TwegVB257a80O_utZm2hXGUNs6RGgJ1t0bqSdQyyXCgjchfyxOozxrLo6OLxOjINUkX0CxqQexuY4dWZMQcZhy_J3BtixgiAtg3RUGcprbcmUlMHPtI66fgCGOMA/s640/IMG_20191105_184023.jpg
+  image: images/covers/944efcb87b7e022f.webp
 album_url: https://photos.app.goo.gl/ANsYaWi5NARXgJzNA
 ---
 

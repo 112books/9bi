@@ -11,7 +11,7 @@ tags:
 - fiesta
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMNGRT2XX8lSMBvrSF9oqxNGzHmt2gyNFoYXM5bW-4dix4io5x8F95Ui5q42HBbXeRR0WxeasByxDkKZEzK34bSmFs2Mwxipt90qcpxXSuRUCYn71r5rzt4ijy2YN9RE4ewndhJt7bzziUyyv3Iah-CaoD06KCo4kMSaUd_PzB3KkwziEyFPKL5f2FSpk/w640-h426/IMG_0045.JPG
+  image: images/covers/0fb28d4841c194e9.webp
 album_url: https://photos.app.goo.gl/yWhbynVYMjudSq2n7
 ---
 

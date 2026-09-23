@@ -7,7 +7,7 @@ slug: la-cursa-del-barri
 tags:
 - barri
 cover:
-  image: https://lh6.googleusercontent.com/-C31ZNWVriIE/U3y2ZDCKjdE/AAAAAAAAA0Q/MdkNG3Mm2QM/s160-c/FEMESPORT.jpg
+  image: images/covers/6d013c8333c84232.webp
 album_url: https://picasaweb.google.com/102149297277529522464/FEMESPORT?authuser=0&feat=embedwebsite
 ---
 

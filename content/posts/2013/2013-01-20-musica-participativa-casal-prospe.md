@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - llibertat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRm46oTaejwIvtwc0XV1-L-JSHbZBA3O4fh7ZS0ArjO-1petZqSaKsjTx-B4R_o_L2FW0tTgFS4Pu8oDA9Wzb7TYpRQDBT_CwMldMI09cheI2hT32Q9nMcIdpCoklbpuhMZHBqqpEZN745/s400/IMG_8575.jpg
+  image: images/covers/efd1d9152d643282.webp
 album_url: https://picasaweb.google.com/100268695753733554853/MusicaParticipativaCasalProspe?authuser=0&amp;feat=embedwebsite
 ---
 

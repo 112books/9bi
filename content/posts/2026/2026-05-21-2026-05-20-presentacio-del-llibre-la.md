@@ -16,7 +16,7 @@ tags:
 - Prosperitat
 - Roger Costa Puyal
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBS39jqeitdwtDV_bcQpb8IaOT-2FXcO5x6pGgJ6zJFwuT-WLcV8sNmI3EhD2P7ssQhWyRNr_3KdlB7STToTgw8CZNIyyWJBLAP4Xx1m9EZ4jk53zSisB6Ccsost5dMXJxfugPkue5i8xI6kqGbRF7XEtYIfAp5Eghmx81j0xAuaJWMXrTQpD0ZBmaw14/w640-h360/IMG_1988.jpg
+  image: images/covers/703736d450d9b761.webp
 album_url: https://photos.app.goo.gl/eDGA5MKfAHbQQrBp6
 ---
 

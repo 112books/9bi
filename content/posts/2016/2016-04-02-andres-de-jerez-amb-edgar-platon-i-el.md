@@ -7,7 +7,7 @@ slug: andres-de-jerez-amb-edgar-platon-i-el
 tags:
 - flamenco
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDXZpHBjHD9ku_afNIphxiEzrichnV4zT7KbXMYIHcIOfdMAz5MUYiRz8WlHeNscbB8zbKZ4Qpyz6IrTY6baVNfRsJAw8KuSYhD-3MPc_v-8JcJT2cz186uv80rkrtqgdZIPlOsBNfLzk/s400-Ic42/IMG_9888.jpg
+  image: images/covers/a33e5e23dfa53156.webp
 album_url: https://picasaweb.google.com/103138221614479310970/AndresDeJerezAmbEdgarPlatonIElRubioDeLaIsla?authuser=0&feat=embedwebsite
 ---
 

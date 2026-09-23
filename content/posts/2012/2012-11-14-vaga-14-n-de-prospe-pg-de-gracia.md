@@ -10,7 +10,7 @@ tags:
 - barri prosperitat
 - Vaga General 2012
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx2phbTsZ_7GNUyh0YS1qSINeiUBzKIhyYNXSmtHNae-kb-Zb2UI-DJk6rRqDtDFfyAmd3Gd38RHP5noqvyLtykfEF6QX5Jdz8R3TAp3B2qdD_GlDIlT1_7FsIhm_2J-pxldxax4tmsSs/s400/IMG_6176.jpg
+  image: images/covers/977a596f2895f2fe.webp
 album_url: https://picasaweb.google.com/103138221614479310970/Vaga14NDeProspeAPgDeGracia?authuser=0&amp;authkey=Gv1sRgCJiKne2Oj-qFpQE&amp;feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - festa major
 - Barcelona
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1txzs1D3yfK42XghavqoER0sg8T5bH3axeGlmti2iTSzGtNJDhISXG-fAyZMHz8ga4f-r9Po8bTXUnkPVDskwRLcgeAAmXMlwQqe1HSn0wQ3fPDObz7yzD-t8d4TUP-2s4UhcTLItW2v-/s640/P2080644.jpg
+  image: images/covers/06dd4b8852d8fd87.webp
 album_url: https://photos.app.goo.gl/DUJWq96AYgQFuFxP6
 ---
 

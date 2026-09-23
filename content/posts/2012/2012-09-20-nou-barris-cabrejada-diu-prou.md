@@ -11,7 +11,7 @@ tags:
 - manifest
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeNKR7__SkLIWCvV3lYrt41QxH4y7FHoLzHRK1Od3G3EqBLSWX7r_4uqA1XuB4sd3BH_3JdWJjXJv6wGAPlnNLieFpvDLWgMfnU2mUk7DKaVRhWwj38PvbePvSfRM-T-vfo3Df4oOnfEI/s320/9bescabreja-400.png
+  image: images/covers/275a9915c064f027.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

@@ -10,7 +10,7 @@ tags:
 - mur
 - ciu
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkI5ntsk0r7heWuxo-O6zsc3EV7RBwfL0ffAgRAB-rqgh71w0Ax59h0PLDgTgG4x4A-CEzSVG8tZAht4oRyNJofA3QB04T7Aro86tsR9qfj_TyhGYhpUaE-ffj7tPeQJqCF_beplyxNKo/s640/_DSC0081.jpg
+  image: images/covers/2275a9a7fd1d070c.webp
 album_url: https://goo.gl/photos/c7WzeyKoKe5amPkQ9
 ---
 

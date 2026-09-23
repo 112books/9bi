@@ -11,7 +11,7 @@ tags:
 - Barcelona
 - blues
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaH9jD8gyLqqXyWQwZR9wJHrmCyS--XCFj_9kPD13oIYgylLGOdH4PKiY41KUVDdPuj_GlQ8F8ZBT1pfboY15l32P2dtFNnyvrVuL7T39sGvL2YMhVwn7wC75obJC7L2bKrdUaU-yOnelJQMHpFQOec8EyWm5CnrASLnmkgDaQxjYB9KdaLzrQwvoB6J8/w640-h428/PGF_1941.jpg
+  image: images/covers/5faea79c8de5e765.webp
 album_url: https://photos.app.goo.gl/vEtWHiXRYScpWG9N9
 ---
 

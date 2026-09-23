@@ -10,7 +10,7 @@ tags:
 - jazz
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi69JDRpuJcmzOZ4uk9KAZpWcc9czsFahyphenhyphen9Kf_jHrfI6445NfG6UOZl_a0C1HCHqjywyfTjpAeieSjHtYJPcHxsYtx1ZAXIyyvjYUNxi0pTIryDm7DXyxS3OGe8RCML1MzxXfd4FmEVGQ0/w384-h640/IMG_1808.JPG
+  image: images/covers/6f68d270da658dff.webp
 album_url: https://photos.app.goo.gl/PzrchJa6S6acxT8GA
 ---
 

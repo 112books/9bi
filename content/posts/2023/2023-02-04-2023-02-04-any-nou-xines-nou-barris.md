@@ -17,7 +17,7 @@ tags:
 - vía júlia
 - xinès
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_1TvpneydIY8zypMggafO2lgR8WJuOEkC0nW6YcMhdzaf9RKKcuTvOmAteMXLkLU_j2VZ8uHfjjc6xoK60VETlfZ3d2t01xruTvVSG92zC-FkyQK3lrjzA3Bf4gRITLvy-FPZy4PtAkE/w640-h426/?authuser=0
+  image: images/covers/c55313378a52b148.webp
 album_url: https://photos.app.goo.gl/WGNUGdo5jWD3Yqmu6
 ---
 

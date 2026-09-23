@@ -10,7 +10,7 @@ tags:
 - BLUE
 - gent
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEic9MaxjrZ8VpxUqnMaIuQwaGubTMND8efReT61hOB9txLRFbn5tYFgEvQbECojD9SdQQRaj7fXmbHegF-T0Is84iMUHqOCx01nAK3MOPXzYIs58AsN_Y76WNMtF7tBlEGKD_cCrWHLRf0/s640/2020-01-12+-+a+-++034.jpg
+  image: images/covers/59cef8f242a74362.webp
 album_url: https://photos.app.goo.gl/RBDkirJwnrENDyPq7
 ---
 

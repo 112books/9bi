@@ -11,7 +11,7 @@ tags:
 - protestes
 - trias
 cover:
-  image: https://lh4.googleusercontent.com/-ymGKYRoAKNA/UeGarLyXCzE/AAAAAAAAGW0/HXzLuaKJEi8/s160-c/InauguracioMercatGuineuetaAmbProtestes.jpg
+  image: images/covers/b6a77008f43e1b97.webp
 album_url: https://picasaweb.google.com/114858497713897843587/InauguracioMercatGuineuetaAmbProtestes?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - barri
 - mar
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiG4f5DIHj54LdPi9WNYZu3L8456Nl5X9LiaDqAPil0a12wNIRi-RDSHP8o8Knv9asvWHXSPrRHERV2pXUdLNyG3zJw9p0eI78CDC_RVmYLcyS8tFXhhpLw66T67XWMR7mB4aCnGxmuTcU/s400/DSC_0323.JPG
+  image: images/covers/cecd70f951f2b489.webp
 album_url: https://picasaweb.google.com/104199960646572363843/ProspeCreativa2012?authuser=0&feat=embedwebsite
 ---
 

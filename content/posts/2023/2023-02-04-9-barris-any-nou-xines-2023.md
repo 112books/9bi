@@ -11,7 +11,7 @@ tags:
 - any nou
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-V9j7yvIa4SsC40jufoqHPW5JpCd19SNhTBax_1yTk9Nm6dtqYOvy_BWUMTevc4AYDMx-pQ0jJq5VMwqBDuW5hRf63L7w8vPztBbPIvcaPk0_7jeqSGjInwU_Ipri6usSgcl6thi0XwzXva3C_5wLDPbut46stwBUczvRIrs7e2He_ZZ-7c6qr1hB/w640-h432/9V9A0167.JPG
+  image: images/covers/b24b116fa94d054c.webp
 album_url: https://photos.app.goo.gl/jvd2nEndSgKFxjgx9
 ---
 

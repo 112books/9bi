@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - músicics
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWeXt84v-oAPRywLiGqlvZa7H8n8hx2yRDddCh11lERWQZxxTmbeD1yQa5Gf3kpeBT-8JPxCbHicDq3JOpc3dmjTzdRE-ihKSFOHTS5jOlqpj7gXt-kEW-RX-D73TTZX3x5mEtKfP1lYI/w640-h480/IMG_4002.jpg
+  image: images/covers/551760ee888b1baa.webp
 album_url: https://photos.app.goo.gl/peyu71MRn1zk2SKW7
 ---
 

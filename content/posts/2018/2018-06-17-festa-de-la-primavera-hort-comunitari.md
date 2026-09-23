@@ -11,7 +11,7 @@ tags:
 - FESTA
 - Hort
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYJ5Jgjf7968WV6Imd2s-t7gr-s6eukkBlvrByuTfdBQELj9v6ZEYrG2SrJ1gCqbYdxT3pzdIsNq88r9z4wOEc0vNHzL5Fvu1_GE2bN_PUKrB3dwkWqfdXD0lN2NkkrvRi7d2RFX4R95g/s640/HORT+-+46.jpg
+  image: images/covers/8137139a0e12f25a.webp
 album_url: https://photos.app.goo.gl/qf7GBAvWs4EzFEpT6
 ---
 

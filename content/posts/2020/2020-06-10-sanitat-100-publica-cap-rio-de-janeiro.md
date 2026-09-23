@@ -11,7 +11,7 @@ tags:
 - nou barris
 - guineueta
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNh7eLFiLCn3TzQwj-j8-wGc95SuFHbhqv3MYnwOkU-dcZsD7A4HbzJ-hBvEVixI9heQ42mTBpnHEdfkQeOpau9t-ur-CaJ1uuiYW9lWoZLwFDEagCgeiy8FOjvdXKeHWZa5o0le0IT_5F/s640/P2300892.JPG
+  image: images/covers/28fb2f19acc0ef0e.webp
 album_url: https://photos.app.goo.gl/hMjhv1x4QFztFzYg7
 ---
 

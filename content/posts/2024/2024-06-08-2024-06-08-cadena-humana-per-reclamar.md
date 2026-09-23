@@ -11,7 +11,7 @@ tags:
 - cadena humana
 - trinitat nova
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdYsTcANSrSDMfh1xL27RL8xL5o5Iu6NGFGpsrJITxy2BDKdHblugeBs0CZhgzYMJyHabAb9nlEw_cEibbIHiB1hNJQGhmGtlwDCnpzDPhLbBlMh8UVnrmzBJ3BEaIxvQ-yw-9Q-eCcebcuKiTWG049_pz4-5GH4VT2GvZ7qfNmQrR2liAzNxTTA0-xyY/w640-h426/_DSF3158.jpg
+  image: images/covers/76942e3e4d090677.webp
 album_url: https://photos.app.goo.gl/HEonAB7ncPstq5VT9
 ---
 

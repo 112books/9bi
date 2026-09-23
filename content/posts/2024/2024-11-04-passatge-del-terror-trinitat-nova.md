@@ -8,7 +8,7 @@ tags:
 - passatge del terror
 - trinitat nova
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFsMMAhvNHVsK7ltyHb9NkU_hjOEuRtHSyJsON_6lIp6NWSaUPZTLIs6jakyg3iOmUjqy1e0YlqisquD0fgebrd_OGLy4mFUm2y6phCq5CZmM-laBo78ovBRzVC47-resT3YWMyaCWSIg1QNyZmI_-AC8bKLx3rHiJsLet5l4RJebwcuqIWIhLF1Z_9lc/w640-h426/DSC07497.jpg
+  image: images/covers/0fc2a6440fb91ae4.webp
 album_url: https://photos.app.goo.gl/E7mPZchkjWXpNQw77
 ---
 

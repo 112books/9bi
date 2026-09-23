@@ -11,7 +11,7 @@ tags:
 - carnaval
 - barri
 cover:
-  image: https://lh5.googleusercontent.com/-fWyENdrIQjs/VOC9fAYshHI/AAAAAAAAFn8/ooHEzwD2cFM/s400/Carnaval_2015%2520%2528100%2529.jpg
+  image: images/covers/cf7c06161f69a265.webp
 album_url: ' https://picasaweb.google.com/116805523004990742624/CarnavalNouBarris2015?authuser=0&authkey=Gv1sRgCK6t_NKFmKWAqAE&feat=embedwebsite '
 ---
 

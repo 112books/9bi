@@ -11,7 +11,7 @@ tags:
 - la prosperitat
 - santa quinta
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1QQ2lHy5hgeA6N63iNHC3effh3Qqi-1QNRSah7Mybs_kLibNnIWX5ECw_koHT7rJorYUtGBNR-eDoHHCRIA84gmgk2IKY_PE-eanYpJVrZ7T70PIft2jdEnob0yHvETSkC240uySmLcsHiYbrhrWYNnKMJzifa1LreZ9OMJoyvStHAZcwLmbo8B0A1Kk/w640-h426/DSCF2162.jpg
+  image: images/covers/0820a4126e7b4e31.webp
 album_url: https://photos.app.goo.gl/JBDHsYxNrYf2Kx4t8
 ---
 

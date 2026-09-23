@@ -11,7 +11,7 @@ tags:
 - dones
 - ball
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSJVQEHWyP1R2hIPHomPVxOIfbLlAwHlX8KyzkHK9X0HhCEkI6ur7VSG8F4xZzieBfzP0ALzOAqqC4CTjWIHshcleD5UKP0tuLmQ4RQI6TKGyeJYO8UU1NxKGhxGIF5zAW_wWemy2y-OY/s640/P3030837.jpg
+  image: images/covers/8a1b4e5b13be387b.webp
 album_url: https://photos.app.goo.gl/UKxYfGDtXyeG25D23
 ---
 

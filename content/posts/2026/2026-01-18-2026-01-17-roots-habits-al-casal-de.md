@@ -20,7 +20,7 @@ tags:
 - Roots Habits
 - Roots Rock Reggae
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoGO6cA9363ZatXiN0482uhU3YwmSFnHcXoGn1odDFNKRI7acanlt1TKqwPYdEh5hl33ze0fn_CkZHHnLUPmljG2wvF0QRSiRsMenVRUdWL8nCr6VO0mny0NBg6Rw_C9n49aC3rdQpfBnaeWJTd5Fv328O-xflxuNPgh7FsRf-qfftYNu-ciThhl8A7xg/w640-h426/DSCF2598.jpg
+  image: images/covers/de1881f7acc3d875.webp
 album_url: https://photos.app.goo.gl/iuRLRjgHfUyoAbXi7
 ---
 

@@ -8,7 +8,7 @@ tags:
 - art
 - mar
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGW3j8M2ZzGO1SDYQW9VYYoYiEEgdzJEukLzldnPhHzz43nveNJXJzy7FNHq2N_sMayZLzvCOa5W0iMw0-yXjy3lejD0HjdU_D5vWbRvWbQYoR6GaiepI_kARO5QYnkXpWZ_1Ll6fMKXgP/w640-h426/DSCF5740.jpg
+  image: images/covers/ee7467366d8cd689.webp
 album_url: https://photos.app.goo.gl/saA18Gd69T2n62Fs7
 ---
 

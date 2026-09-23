@@ -11,7 +11,7 @@ tags:
 - prospe
 - futbol
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDJvbWRp0YoZ4nM3IUn9xglT5KknlFDJtOMZbNpOITRPIvTWtvi0VjUf3GmOeZWuZj8O0jtdUsu7GfTRepZ500DkZSxHJeXW26NWtrNhp9XSOjMX_fyqo8xxl7HvfFHxuBiGa585dIuTg/s400/20160723_144547.jpg
+  image: images/covers/c2e2b23eeebb3471.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6310547298053308945?authuser=0&feat=embedwebsite
 ---
 

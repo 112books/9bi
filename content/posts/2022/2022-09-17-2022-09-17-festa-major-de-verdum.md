@@ -11,7 +11,7 @@ tags:
 - festes
 - verdum
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFJAURCSpWr0yT8GmV4p5VjiBnYAj8rMxw5JnvKxuO6AgCGOhs-TJU345QP88fqpaJowPD23N0eFD4uj3v565iOsEiTM6mLvHTb0vYXIdEOfdqGoE_jM6xFue4ks0KhY5TMPFe7aA_05JJst1vBf9ZHQUAsTecFOk_hYJO94PpJks22xmOWgAoeCv6/w640-h426/_DSF0461.jpg
+  image: images/covers/a8d99d4633628d7e.webp
 album_url: https://photos.app.goo.gl/ZQUkeC6xRrfFaiZc8
 ---
 

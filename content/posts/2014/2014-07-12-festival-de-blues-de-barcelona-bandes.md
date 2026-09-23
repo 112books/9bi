@@ -11,7 +11,7 @@ tags:
 - Barcelona
 - blues
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCfkmSrrWguf8HbvCwDL3QMU9xfB8pVRoPZ6YypeVycoWSfBDFUp24irWapjYfG4rgq4Xq0nsJY92eTKjbVS_nxMoSJtPy1uVia6psaN2Y_HdBL7aD3lexknnfZrUlpk3GpEvobXVp4bU/s400/IMG_0512.jpg
+  image: images/covers/762a41493dcc3567.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestivalDeBluesDeBarcelonaBandesEmergentsJamSession?authuser=0&feat=embedwebsite
 ---
 

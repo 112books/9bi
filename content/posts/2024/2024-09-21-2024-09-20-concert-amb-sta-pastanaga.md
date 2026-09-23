@@ -15,7 +15,7 @@ tags:
 - Pastanaga Bros
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXae2RuNTTINOvIpG071fW06tW9IsiEaNUX_uhefS1AN8RTS5miWNwrFi64r6JJBvNvKu83A6rR8ca_Nsw5qzqKEDFi4B3Da1mouJM2zW9TdrXx2B5PWcjMzElIZt_1xJ4og1bQl1MHXGgmx1RmFYat-0-Orloitd7J6XTSRI7xTfH6k6rBU7YDnuF7bU/w640-h426/_DSF6026.jpg
+  image: images/covers/bfa9e3eb408811a3.webp
 album_url: https://photos.app.goo.gl/NoHXFqFJ6b4L3SUm7
 ---
 

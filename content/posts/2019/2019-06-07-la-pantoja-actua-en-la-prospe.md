@@ -11,7 +11,7 @@ tags:
 - neu
 - mar
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglyja4CE1F4mRjlYPBsX-zaPhOfcc58bW5HEFqKAfAt0ZTA6H8ElnvgDXaiiv9ujeViMR1lWPmcSkfiP2qp7POKOJgTUtZvIicdkLhAd4bEknBZpauTJhdScjBC-JMwD5RXXkdvlPfeQE/s640/_6010145.jpg
+  image: images/covers/f7882e7ba9e87d89.webp
 album_url: https://photos.app.goo.gl/cTiStpQg1VCVPkkN8
 ---
 

@@ -9,7 +9,7 @@ tags:
 - nou barris
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-Lb2Nkd45j6VYOFWj_2b_xreW8DSNjpYd3CgBDqWi9a5hlTpYUSHv-kK4lIDIQJg3_95cnAvEylXQxEh4_Mmmbg6nHYZGjfNVi04vtq60prTI-pXYNGxnE2qwfQBfYRZqdsD-kWI0p94rju65OVSthmfGfV8dz8nEN5VkS2vvQcaBAjqvE9PSCLttsfY/w640-h426/DSC_0942.jpg
+  image: images/covers/2f711347a61f9444.webp
 album_url: https://photos.app.goo.gl/2sE8oW1eyauVE4wH8
 ---
 

@@ -11,7 +11,7 @@ tags:
 - fotos
 - barri
 cover:
-  image: https://lh6.googleusercontent.com/-18ihkFsJLr0/VDxPrmnUI0E/AAAAAAAAHkY/8k3jNHrKcfU/s160-c/AudienciaPublicaANouBarris.jpg
+  image: images/covers/a7d9133d7e720a8d.webp
 album_url: https://picasaweb.google.com/114858497713897843587/AudienciaPublicaANouBarris?authuser=0&feat=embedwebsite
 ---
 

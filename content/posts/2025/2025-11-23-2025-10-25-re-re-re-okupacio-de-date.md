@@ -11,7 +11,7 @@ tags:
 - la prosperitat
 - reivindicativa
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVUz9AIF4x2Z5rfMwvi78vGnMqikOHbQda-VoozvYneNC_F58o2ZTVB_w3SehB0zk1G-lWTw99bgrCsf7_VM4CcAJ_RH2tGVvUCTomjXaNdoCYFzfC0MXC1GM3SPKCrMCr2PJURX8vQQYTWLXkQLe86kxU4eyXZOIrf9LVcl1b7A1PJ_vceuL2NZH2mXQ/w640-h426/DSCF2119.jpg
+  image: images/covers/bb74bec8e6d86eee.webp
 album_url: https://photos.app.goo.gl/N9RParU6XWstkacn6
 ---
 

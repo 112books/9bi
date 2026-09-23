@@ -7,7 +7,7 @@ slug: pasabarestorrada4611
 tags:
 - PASBARES
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ0-_A9gb46OS2qx8uU8rU-ZanxAGwV3oQfDOe2CzAnYJ12MgSSq0v29EjKebi6xpXTVh07zSWtYk2Fg5cXbiuEocOzwdtHu8-ywVuDYX_OY1o9WtYawCvjk9J75T0CGTntlFrvOw1wZU/s400/PED_9550.jpg
+  image: images/covers/193f14b424a79881.webp
 album_url: https://picasaweb.google.com/Perdo.Garcia/Torrada?feat=embedwebsite
 ---
 

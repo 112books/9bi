@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - Barcelona
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN-Qp1BFDvD7EtaejXNCMsavtQR_EdcRWf3Z_rnmfLQB3dwX-AzmU1bUx3p1oWJabgLwTwUACAVJi68oIi658pImYX9Rnvtx72O4YmNVpz5hxH0ohi6lJ8lJZM2yJucs88Z_nxngXpWtMl/s640/P1930755.jpg
+  image: images/covers/8976f8038aa8fd19.webp
 album_url: https://photos.app.goo.gl/4kw1Z7tRWZx35c668
 ---
 

@@ -9,7 +9,7 @@ tags:
 - cjp
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid_1Skp4PXO5DFI6zK84hOicjTxYo9NBsr_T-ZXmH2WM2YSCaUBf2kD_g5CdZpXm0aGLw91yICCiLYjHHg3WimMsU550HRDcB7bbbR-B62w-euzn3adT_NWoKpnBkB1HxHrWUkskYRpcU/s400/IMG_2145.jpg
+  image: images/covers/373a2de9f49ee086.webp
 album_url: https://picasaweb.google.com/lh/photo/5L2xhqFOVjLzISDDhslqt2FowNUGffRsMFMWYV3zOJc?feat=embedwebsite
 ---
 

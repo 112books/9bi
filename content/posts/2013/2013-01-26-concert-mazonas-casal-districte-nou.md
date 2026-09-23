@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - concert
 cover:
-  image: http://farm9.staticflickr.com/8368/8418203626_07a829a53a_n.jpg
+  image: images/covers/31b19e096365c58f.webp
 album_url: http://www.flickr.com/photos/oscaresteve/sets/72157632619139258/
 ---
 

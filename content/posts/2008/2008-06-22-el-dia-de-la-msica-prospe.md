@@ -9,7 +9,7 @@ tags:
 - dia de la música
 - harry walker
 cover:
-  image: http://lh3.ggpht.com/linuxbcn/SF5M-xhh2BI/AAAAAAAAbdM/VASCS-WzTMU/w640-h426/IMG_0500.JPG
+  image: images/covers/bf08aa1ec72097e9.webp
 album_url: https://photos.app.goo.gl/2TxHSAG12T1wNTeq5
 ---
 

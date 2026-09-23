@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - fotografia
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK1gb6xzrXc9fyC-Nb95yi8cbvH2G6sQ1ZqX04WUntsejZm6oG3LFLBA16-3Zim1u_IFIK4OM6DRwHxmdXwGcVK8OuSSxWdpC0VNXtmJRKiW5fIT24AOHFwRJ5x8wg1N3WWt2K_E5uktg/s640/P1050143.jpg
+  image: images/covers/14303efc7ed26d15.webp
 album_url: https://photos.google.com/share/AF1QipOco15zcZ_F6Cm7CwXZYvt4eToCL9IYftB0NbOsvpm5UezAvE6UKMuTZqx3Jn3jeg?hl=es&key=TXdtQ3VuSjlTT083anNOUllZblJIM1J3dThBbUhn
 ---
 

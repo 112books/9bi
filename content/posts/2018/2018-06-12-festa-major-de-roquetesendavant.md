@@ -11,7 +11,7 @@ tags:
 - FESTA
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKl9K5YhybuPkI-tOv9XuxbPmT04QvUSvYLfcK4g-Ck5WIGx6gzgGNegM_aSc6YVdZ9T_qSKcqdZqXWQweXmhsx9HYhhVDglClnmvsekDfYsKgcLKxasXNfJSxxZ0_vmfYg_wfvXoc-UE/s640/_6110105.jpg
+  image: images/covers/b4e1d238a87492af.webp
 album_url: https://photos.app.goo.gl/SnzJ33CiPEpCJGei8
 ---
 

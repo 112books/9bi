@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - teatre
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjACIfwotbZ6xgZ9qEKPGI59NGDa8r4w0vVN6hxZBzu8ulueUFlPMn-ECqqbn-X5iT_-k0gVAJhb1K1ooWYs5RiDV6eTXV1rpbTOaOAEhtnKqOWD7cXMGbMISIGrLdVNRJ_QLSV7hfweuk/w640-h426/IMG_5989.JPG
+  image: images/covers/61ce01298b309657.webp
 album_url: https://photos.app.goo.gl/WGErZdeRuByPJYaq7
 ---
 

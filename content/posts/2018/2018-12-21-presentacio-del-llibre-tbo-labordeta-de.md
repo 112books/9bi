@@ -11,7 +11,7 @@ tags:
 - llibre
 - Carlos
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNKdK_-KeI1aAYWkambVtUy5yFf2QQ8zf5UcnCUORu_rNN0Vl5cNT616Z7Dn4kXW54mW1RAMdqK5wdfrif38crQKsRe_5w8z1sBgkan6wisAbIaaF8dWS_lTlAX5z_EQ9z9lWYFLI8FL4/s640/_DSF8689.jpg
+  image: images/covers/61f3a8cbd77ef8aa.webp
 album_url: https://photos.app.goo.gl/o74KnDmtwFex6tE46
 ---
 

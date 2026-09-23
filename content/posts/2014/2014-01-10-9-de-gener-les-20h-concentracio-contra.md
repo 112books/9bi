@@ -11,7 +11,7 @@ tags:
 - metro
 - transport públic
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjv7LCBHCtUNzTYZUPzwtjAubu_VvmOeVU2qCqBnbkxsCMrfY6iTcOa6-mAIswCjS1DLcUhlKX6Gmt4_vrHcskUStBXqcyjjMtkpC1bmJFChm9Wu5Dm2ikpd8Cy8CpCB8lZL3rHdi42fWw/s400/IMG_3371.jpg
+  image: images/covers/45566bfd0a535f2c.webp
 album_url: https://picasaweb.google.com/103138221614479310970/9DeGenerALes20hConcentracioContraLaPujadaDelPreuDelTransportPublic?authuser=0&feat=embedwebsite
 ---
 

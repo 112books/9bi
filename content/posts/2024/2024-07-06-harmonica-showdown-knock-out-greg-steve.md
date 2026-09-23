@@ -8,7 +8,7 @@ tags:
 - art
 - mar
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeePMZ7UsxD1VRuWJ409Kn4RLkYq6dXeToZqYZo1mOzAqzjhwzETCNcWkpvU_er5gDLoVoCCGkUkNOrX9rMWlg4uDtCDUaeTyy1rdYIX5xZQyWzfH0ZEOAqyYv66jnM69Tu85R4srYT8TEk5vse-uKVV-2bgPrr_ABRugQTZv_DgR4erFY85Y5kfH0g7NO/w640-h426/DSCF1484-Mejorado-NR.jpg
+  image: images/covers/8586e75c91ac7c91.webp
 album_url: https://photos.app.goo.gl/Mgf9AwGCZrVJVc1J8
 ---
 

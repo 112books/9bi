@@ -9,7 +9,7 @@ tags:
 - Casal de barri Prosperitat
 - les nits de Capibila
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFs6WLwNaOcxrfbakLKEjvRjC8KSrnrTU3-_FpRXkLPqsfOrpX-HkXbecueJXezhw1FVsiZoxljis1vcQT3hKo8R6fy4GT8ZBOZVFD1kOIfKwe3oePMnwry4ht_le25XUMJ8kDW-sqYkE/s400/_MG_2077.jpg
+  image: images/covers/70fda9c0a9708467.webp
 album_url: https://picasaweb.google.com/103138221614479310970/NitsDeCapibolaBluesAmbAugieBurrSETBTrio?authuser=0&amp;feat=embedwebsite
 ---
 

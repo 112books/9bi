@@ -11,7 +11,7 @@ tags:
 - teatre
 - verdum
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjc3xnkvBUXrbG2ZLp5KP-pyKl7IrDuXX05y0JppL9ikLotdlpail2tIuW4Fq8UgxJnnCZazIIXusOq9LCph6QaFmr8Rrs0Wz20AVtR5CywhNe7SBv9jhl8N9zdJ95fMtSUXh4OTmUBOSw/s400-Ic42/20150916_183737.jpg
+  image: images/covers/02f3f63b94535d18.webp
 album_url: https://picasaweb.google.com/110015855395179205688/TeatreLaHerencia?authuser=0&feat=embedwebsite
 ---
 

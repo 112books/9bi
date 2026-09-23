@@ -10,7 +10,7 @@ tags:
 - prospe
 - festes
 cover:
-  image: http://lh3.googleusercontent.com/-xpLIP2XG6lM/VXQStzShkhI/AAAAAAAAOCo/vJXdL7duGXw/s400/HAVANERES-CREMAT%252520-%25252001.jpg
+  image: images/covers/8fd699dc8946bff7.webp
 album_url: https://picasaweb.google.com/111964096227458093905/HAVANERESICREMAT?authuser=0&amp;feat=embedwebsite
 ---
 

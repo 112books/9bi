@@ -8,7 +8,7 @@ tags:
 - cadena humana
 - vall hebron
 cover:
-  image: https://lh3.googleusercontent.com/-2rdkMPC8hzw/VVi01BbeJfI/AAAAAAAAISM/Cg7KMbbit2c/s400/3cvh%252520%25252828%252529.jpg
+  image: images/covers/091a9b2bd1313fab.webp
 album_url: ' https://picasaweb.google.com/116805523004990742624/3CadenaVallHebron?authuser=0&authkey=Gv1sRgCJKu8NPRuI-YGw&feat=embedwebsite '
 ---
 

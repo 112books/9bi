@@ -8,7 +8,7 @@ tags:
 - linuxbcn
 - vermut sical
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRXhxIzWp-klCYEcHxDxrmt6FPxYaWEO72Zy9kBQthUvYlMxOX5tIYI4LCnPpg7kBQs3_yyr7N20l-kngTQRAWAJ9WBeTHeMJtyRNSOnid9dtpKtvnrDb-XxyoC4Caq6EiT3wZ7tuhwTI/s400/IMG_9679.jpg
+  image: images/covers/bc9cdfbd775b1f28.webp
 album_url: https://picasaweb.google.com/lh/photo/zcNfHL_5i6VNtLTmNwAx1A?feat=embedwebsite
 ---
 

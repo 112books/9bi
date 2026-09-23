@@ -12,7 +12,7 @@ tags:
 - participació
 - nou barris
 cover:
-  image: https://blogger.googleusercontent.com/img/a/AVvXsEgJ7kzO1X8RAq2H2Epn6uSBJctKSayzPTZFTHkPbMqIsn7iiztMdFsm2w-uC4xtU4zmRAPKvOGUYYEH9zl8hTbpQy9eCxp6MFtVQPUg8qvZ-YpmdwuNlKcEeTob_m617DFGnEPeVpMFgsGUUEihH17e_dVlpioXb1XiOiVpUT_4tGG1RZ70FjtFLpppwtk=w640-h426
+  image: images/covers/cf860de955c1f60e.webp
 album_url: https://blog.pocallum.cat/2026/07/06/2026-07-03a05-24-festival-de-blues-de-barcelona/
 ---
 

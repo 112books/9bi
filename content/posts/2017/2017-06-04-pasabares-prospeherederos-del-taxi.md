@@ -10,7 +10,7 @@ tags:
 - pasabares
 - tetrinké
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPX3sbZkW74qpX0LU2ZUsjqhuLzEyauZwAiisvqnkpFYtBXX6Boj17uLKQYk8orxEAjIZf0bVwTN9oTYIEkZFpbvvvpxZL01wIAnUhrRFgZwcHlxBf09t4FCJS7chPmMVerRiBQAv39mY/s640/IMG_0133.JPG
+  image: images/covers/a5dfd71dd075e328.webp
 album_url: https://goo.gl/photos/nWh9WxkMgxpY46tC8
 ---
 

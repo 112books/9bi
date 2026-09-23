@@ -11,7 +11,7 @@ tags:
 - barri
 - ruta
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYNiYBbVH9qe3evGqwwSisx9IEzUatiibL1o3icmoWbbDoKRoXEiEb3xU78PMGIAiGXsk-WD5TSoyXchCwTb3eHuu-SVUjCbjlDy820Qvayjpr1KEpfnZaF4oNDYn5u9sDU_vuFClq_18/s400/Cartell+ZOOM+Roquetes+2016-2.jpg
+  image: images/covers/ed24f7004628a068.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6277090319539057745?authuser=0&feat=embedwebsite
 ---
 

@@ -10,7 +10,7 @@ tags:
 - linuxbcn. fotografia
 - Veus de Silenci
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxdTZP_TEVZGscheXuF5N6q_hnnmss9LS0RXriaNq_cX5KZf9w7zZ0phkxKbRUst6otLwes8yEb8a4pUNbVt2fXOcW4B9Wg4RJTp6ruPJ9PZPaMueF8-KJ08PHx-GkzPytCSauqAMGBkw/s400/IMG_3471.jpg
+  image: images/covers/26ee55b8e416943e.webp
 ---
 
 |  |

@@ -11,7 +11,7 @@ tags:
 - diables
 - teatre
 cover:
-  image: https://lh3.googleusercontent.com/-mxxAsgqdBTs/U7COWs-lJpE/AAAAAAAAHFA/6xa287F-SHc/s160-c/FestaMulticulturaIDiablesDeLaGuinaguetaARoquetes.jpg
+  image: images/covers/208dca79dee5db92.webp
 album_url: https://picasaweb.google.com/110015855395179205688/FestaMulticulturaIDiablesDeLaGuinaguetaARoquetes?authuser=0&feat=embedwebsite
 ---
 

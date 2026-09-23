@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHeTAoVRHtzCYHzpbFQu8kFTvyCDcwCs8otzOqcMkU48FWe5rcBMdjhX_e8vr6NJSN7CNcwgYOXhp5ydfKhJzGcPvxIY0RzSdjmWmcHxuN4qXv4imlkO4G5O-b8i2IbhdxJQuZufsfspU/s400/IMG_2360.jpg
+  image: images/covers/c0d82752fce992e3.webp
 album_url: https://picasaweb.google.com/linuxbcn/CarnestoltesAProspeRua?feat=embedwebsite
 ---
 

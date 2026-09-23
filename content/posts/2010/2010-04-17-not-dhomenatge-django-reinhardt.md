@@ -13,7 +13,7 @@ tags:
 - shine
 - tedi kgb
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibK6o0Bh3L9DQaErFlDW1_cwu10NFn7BlzZzgPMmxS2BM8wtCSwVarY9vofKji_uuPY5MK2HgWTHoZfIXJtcmS3TfaCQS3Kq3CiP75BoV5UL04vv4QbDFM9ulnc07_pXw-j8cveD1h4xY/w640-h426/IMG_3409.jpg
+  image: images/covers/2be89d94bc4fb77e.webp
 album_url: https://photos.app.goo.gl/tHF5GQVhVKM3YA139
 ---
 

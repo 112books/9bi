@@ -9,7 +9,7 @@ tags:
 - casal de joves de roquetes
 - serigrafia
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBEzSDVTTLG-yf75BYJxkdIgVTZrtGRNCVj8q6TrH1pyqvQ3yV2gqWhrVRlUmiyJpvQl26_YZgm_28d6hRYLYmi05RSysNB0FayKQproH2Pgxc4TAofh3WKjQpD6Bob_StyCOiuuXuLJ0/s400/IMG_1344.jpg
+  image: images/covers/5dd2401a3474434e.webp
 album_url: https://picasaweb.google.com/103138221614479310970/SerigrafiaAlCasalDeJovesDeRoquetes?authuser=0&feat=embedwebsite
 ---
 

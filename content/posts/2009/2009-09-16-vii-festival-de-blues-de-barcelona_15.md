@@ -11,7 +11,7 @@ tags:
 - la modelo
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHh2jh4MPNBYvjB9F5hFWWFPzfsoVcsAnNcq1nKOQfDPKlSLb6991IGQc4pLzFSi8f_o36yujc30EXhWFmapRgR4HHMMXW9sVX3FUR0X_qEZgvpYak5PktM1phPK2YjQzy5ErbTqP0Rqc/w640-h426/IMG_6279.jpg
+  image: images/covers/40c50d8232e07970.webp
 album_url: https://photos.app.goo.gl/AzWj2ZNLuVu9h1tS7
 ---
 

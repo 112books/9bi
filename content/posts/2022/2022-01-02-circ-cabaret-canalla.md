@@ -8,7 +8,7 @@ tags:
 - cabaret
 - circ
 cover:
-  image: https://blogger.googleusercontent.com/img/a/AVvXsEiPwDFV9wSctNsqoJJqQGbtCy-K84YoaTuILWxgD_UkDz0YcHZpadi1H4rSvjmUOsCs0T18SbNOPdTuaIqY4Tos3gVfo5KB718Ib7eqJX9R5fz9ZNpuj94eplb-K026lhzwIpTz3B9M1B6pM3o6lnrSSUKs_oEQ3JhIWcEb2i0xlsCIddR8KYFHqtNo=w640-h426
+  image: images/covers/ec265559a9e8a07d.webp
 album_url: https://photos.app.goo.gl/AZ8G5utJ5DHHnYf19
 ---
 

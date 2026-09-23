@@ -11,7 +11,7 @@ tags:
 - 9 barris
 - roquetes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgj1KuREMy9iPKer5wFAph4RAoFUMZid7KAIpLRuL9qVGllSxNPpezNYqnya-as-XSQVFAw9hrCTBsbmDOKycCBty0L33YuJXnx43-sAgOke288bbenSA5dV5o_mq7SUc2bLh3M3jyW7-jY/s640/P1010060.jpg
+  image: images/covers/c8ee858af22156e2.webp
 album_url: https://photos.app.goo.gl/i3bEshyuSDP3s4et9
 ---
 

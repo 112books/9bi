@@ -12,7 +12,7 @@ tags:
 - linuxbcn
 - Una Història de Blues
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYRIIFRlQr-VhLhxLhCUBc1dvgvECIKB9Qw7HHwuUYO7_PGXPl21B9JgEamYfrvn7aGr1vz3tyKgWtIoKWc7iIIju7VEwXLuATLNBHoFNLEyFObmw38IotKBlc_jTjn02gXMftad8agSo/w426-h640/IMG_8384.jpg
+  image: images/covers/6d8f0ce49898b820.webp
 album_url: https://photos.app.goo.gl/nJ2qVpEawrtLtrmx9
 ---
 

@@ -10,7 +10,7 @@ tags:
 - jocs
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQ_np2vLX68Hj9GlLcUraDc0wrnxI8pnd4yhLIP_FeMpRdzF5VFU7vyFRGAd-1u6kK5jXbToH6vsLxRZ_0zNNaOJzlaa_lhl5lvAZFF-OIk8Ph379c-Wn6ivvgSieSa3sduyiM8JwPLGmwKxVK9-zAFONtSg9Ird5pekoXmqkZ7VxYepUfGqJLVjUti_s/w640-h426/9V9A7890.JPG
+  image: images/covers/e6090918011f555e.webp
 album_url: https://photos.app.goo.gl/EmJhms7GEvduGuZs7
 ---
 

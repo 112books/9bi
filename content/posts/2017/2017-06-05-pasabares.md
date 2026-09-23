@@ -9,7 +9,7 @@ tags:
 - festes de prospe 2017
 - PROSPEFESTA17
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWlI7EFNst2d1yrchwEltk3XbI6YvH6w8DfM6Khb-IafqeTxuzjenDmC6ADfhtXeGmkx1L6sAYyFjPK0I0Lk1bYJQnWGGQWb5aeYyKg4TLHFur8YyZBWvCa6rnFmcQRLuNfWQOXxCPia5P/s640/P1380992.jpg
+  image: images/covers/f5d6866223e032c8.webp
 album_url: https://photos.google.com/share/AF1QipPr_WraN2kUzN5oznck7drLrxKvnS733bbWMDA0hJL25FuN-_HSSL_RLaAkbg_X_w?hl=es&key=NlZET0pTVzJidVV1MEpReXBSLTczYnFiU0UwcURB
 ---
 

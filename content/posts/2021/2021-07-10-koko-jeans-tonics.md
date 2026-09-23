@@ -8,7 +8,7 @@ tags:
 - blues
 - música
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqLfVFt_Wu6LGMxznDMBZD10VYa9p-Y0jKfH4lEeQ1BUFDXBQE0xRYs0gYSspau6qarEJ-FZkidV2hFE0zWpKJ9NNXp2IAR7DfNJX5VQv3HCJSSmDiJZWVbYV1-KXUvsGyVK_DiG_vvSXu/s600/PGF_1080.jpg
+  image: images/covers/563558bac8ee1e76.webp
 album_url: https://photos.google.com/share/AF1QipNCp0Y73rNB0MGhMiDlYJoh_JOwTeFfqQH155d9TJNGwxB6SWHOsnJQMnkUeampsg
 ---
 

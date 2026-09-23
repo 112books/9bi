@@ -7,7 +7,7 @@ slug: ja-tenim-aqui-la-festa-major-de-la
 tags:
 - concursfestesprospe2021penyes9barrisimatge
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFyARQ7n62XHQPxXyD8ribZ68xpCX-wLJe1oKkIVy9KWbMOCFBudl0U9YNr9qY9Tc6GpZxHpjj3HhN0VK9vP9gn0FrEh8K_pOyG4ez3e2xrSHh3Co_6kaDxKOfMXCt4CSxL9npq_fPPSA/w470-h640/prosperitat21_portada_02-752x1024.jpg
+  image: images/covers/80cd67c8be126413.webp
 ---
 
 I com no pot ser d'altre manera també tenim ja disponible el [Programa de festes](https://www.prosperitat.org/2021/05/31/programa-de-la-festa-major-de-prosperitat-2021/) i el [Diari de la Festa major](https://www.prosperitat.org/2021/06/03/la-prosperitat-el-diari-de-la-festa-major/)[.](https://www.prosperitat.org/2021/06/03/la-prosperitat-el-diari-de-la-festa-major/)

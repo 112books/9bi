@@ -9,7 +9,7 @@ tags:
 - carnaval
 - mar
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_ScnYpXiSrgDfENOgB_jh1GB6OntD6mCjinqmIFSl3bloQZfVuFws9BIPd1kqstf3MdLnsZKD-V0cgeZEFz9QCP17_pZZDou9U-z-llahTlFa0mxpt91IKpSJ_znsGmI0EUkDWP2kEBE/s640/DSCF0988.jpg
+  image: images/covers/6f5d1b705225c144.webp
 album_url: https://goo.gl/photos/M2SkWoWjmaNoo2kZ6
 ---
 

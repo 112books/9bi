@@ -14,7 +14,7 @@ tags:
 - Plaça de la Prosperitat
 - Woolfi
 cover:
-  image: https://3.bp.blogspot.com/--imdNftepp0/V0tw7ZPipzI/AAAAAAAALlg/RdA1wUpKZxYMlw42WoEh6ynFiItDw-iMACKgB/s400/Woolfi%2B%2526%2BThe%2BBig%2BWheels%2B%2540%2BPlac%25CC%25A7a%2Bde%2Bla%2BProsperitat%252C%2B%2522Assaig%2Bal%2BCarrer%2522%2B2016-8.jpg
+  image: images/covers/8875b61875811c8c.webp
 album_url: https://picasaweb.google.com/115837747848659272017/6290241209071115761#
 ---
 

@@ -11,7 +11,7 @@ tags:
 - Bingo
 - rock
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoFNVVE_1ROivjWX9GrogAHi2g6Pmaj7DnQPXXjAa9tUUymHgndXuHVbATlq83Gu1rwUvy4w_WiSsOIFHdciwPzoRwP7__RoHqCij22BsEhBhuIa_Ibho8KDCFOggtBVDl6RDAvXd6SeCj_XotNbUCyZF-djFiAj0w-rUavsFEQh7QJgfysieNwcB2JAc/w640-h426/9V9A7824.JPG
+  image: images/covers/7e531a38a31d7e76.webp
 album_url: https://photos.app.goo.gl/eCGcJJtu9qaVmkab9
 ---
 

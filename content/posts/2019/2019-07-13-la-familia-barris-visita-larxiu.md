@@ -11,7 +11,7 @@ tags:
 - cultura
 - juliol
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJTEGEarvRFvmFKH70Nnc-cu0atKpZSNVASvUlxMa71V1vY2kmmuuJgoA1_z-nqqKONsg1PjgQtIeLge8QFoY2qqwQubQxNEPLotye4GL-bf0Aca_4k6Y605RNSDWqaRRGwmfAlMGmt8Y/s640/IMG_20190709_184719_resized_20190710_115435743.jpg
+  image: images/covers/88241ba9090ce746.webp
 album_url: https://photos.app.goo.gl/NZC8PpDM6rSXgdh87
 ---
 

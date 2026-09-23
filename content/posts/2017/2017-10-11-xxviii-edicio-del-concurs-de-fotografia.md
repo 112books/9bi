@@ -9,7 +9,7 @@ tags:
 - concurs
 - rafi
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzyJYyjMEGAS1t08XPNyyO86tknPS0vfR7-gKikr_tpUdFfsP093cEUvYmuooTzsr5xQMLw2L8MdBuG90jGgMu_HY7mc8kXBCSG_J-slOz6Z3JzwplNPFh9Vc7OHSVQLJ5oSwNQ_s3r9I/s640/BASES+FOTO+2017.jpg
+  image: images/covers/bae8ebc29b93a548.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

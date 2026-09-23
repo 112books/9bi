@@ -8,7 +8,7 @@ tags:
 - Prospestiu
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRbq-dnUGmszuXWem80ghBuBeKW1xjW_h1qgGMq7Jq2lwhLp-EgGAT-Kk6uSyWQOtBb16hK9kg0p0ldmxwaOa7mYeqAcMjNMVFz_Iob0JVcbg4OU6GR9jdF9zykmMandAEnwRU0PxZOH0/s640/DSCF5110.jpg
+  image: images/covers/f54f3fda34937d7b.webp
 album_url: https://goo.gl/photos/btW5EJRZYTEpiXah6
 ---
 

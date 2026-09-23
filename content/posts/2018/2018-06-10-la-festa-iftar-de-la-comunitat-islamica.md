@@ -11,7 +11,7 @@ tags:
 - barri
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKrsYtg4pRUAqz9nRM0v-sKGYIX5MEVhK3q0wVM2w10jX5KtSDdMGk17C9ZZGfH_y_-wmB9VhWecOZAiE0EzgIvN9omy_tsl550ps78H5viTEXUArbHaxmrZfY7FAndhv7ujabeeK4lWk/s640/HD%2523244+-+LM4-2+-+021.jpg
+  image: images/covers/2b8191b3a9609a91.webp
 album_url: https://photos.app.goo.gl/cv8LAUHdnfvt7QrL6
 ---
 

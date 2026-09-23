@@ -11,7 +11,7 @@ tags:
 - BLUE
 - STA
 cover:
-  image: https://lh6.googleusercontent.com/-kYUUUirmbWs/U3y6o9u7xuE/AAAAAAAAA2A/tonxk_QnAUM/s160-c/DESPRESDETANTAFESTAUNAMIQUETADEMUSICAPERRELAXARSE.jpg
+  image: images/covers/2af0c3e7621f9ded.webp
 album_url: https://picasaweb.google.com/102149297277529522464/DESPRESDETANTAFESTAUNAMIQUETADEMUSICAPERRELAXARSE?authuser=0&feat=embedwebsite
 ---
 

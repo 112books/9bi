@@ -11,7 +11,7 @@ tags:
 - dissabte
 - teatre
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCosCWbATs17dJkrPqYBU-JoIfbWA5i0l9j1AbrtR9VZOxq_utYP2-Bz5YbNwBDERmhTaqpPY10iq4FTkq4P_ZzzB7QqjoOpm4csOf56xL-RqG4nIG2WcElqXato2ewCnKML7tZvtWdwI/s400/_DSC0181.jpg
+  image: images/covers/91f7a05230ef9416.webp
 album_url: https://picasaweb.google.com/110015855395179205688/FestaDePrimaveraRoquetes2015?authuser=0&feat=embedwebsite
 ---
 

@@ -8,7 +8,7 @@ tags:
 - fiesta
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhE3i4vYk0ktySOvG0UXu-e9Nn7p9LwOJDmGQo7DyI16XkzM5x6_emKgsNbRSUcLmCYQlQDMIVPlo-bn6GjEtyhuy9JdfEYjQJyTAZz6R-rt6slNGceT0__J9TWAFjN8WUzAMdG0AfYP6vN/s640/P1460230.jpg
+  image: images/covers/6466c1d38fdcf399.webp
 album_url: https://photos.google.com/share/AF1QipMtHPblAaxbtpqhrMjm2nBcSbZeo9lxh8SkLOhDK1b7TSr4d4xLXH7rwLTmiilkWw?key=emVCNDVLVnN2d2FKRmZtaDBpRkcxQVgyTnlYQzFB
 ---
 

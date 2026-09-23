@@ -10,7 +10,7 @@ tags:
 - prospe
 - expo
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjN7ZcT29_lXidnVVq7NduSow9Fm3ziE3nLQJ1GfWVxDPwZS7rBBgOMA1EiIXbDnNc2hqGP4_dHx6EO6Gj4jOLPUuth8pGC_hR-IJ-be2brITbScHpKjmKjEEZiLI49TSShSN2D85IYgQU/s640/L1200190.jpg
+  image: images/covers/b2572ce45c20a40a.webp
 album_url: https://photos.app.goo.gl/frQotdLZfNyy7vrV8
 ---
 

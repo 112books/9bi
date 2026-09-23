@@ -10,7 +10,7 @@ tags:
 - grup foto roquetes
 - Prospe Beach
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSNQdYlQfee4muyh-E7JBoXWxvhl-KV6PyKCBwa5Xe2DpmV1zUWjFg4XTKfGDbutG90gmE3rWT1TYQf76WVLBqKbGTpsVEz3oSM4dSxsFUyrhtNtnXYPJwu7Aj8DTPMHGhB7kO9wTJoD8/s400-Ic42/20150723_185052.jpg
+  image: images/covers/eb7bd5455d0ff318.webp
 album_url: https://picasaweb.google.com/110015855395179205688/20AnysDeProspeBeach?authuser=0&feat=embedwebsite
 ---
 

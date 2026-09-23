@@ -11,7 +11,7 @@ tags:
 - gnawa
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfCYhMoNIK3VPm3xl6T3L0IRiOseZRChAm4gaF7amy1J7QYbVQFDFj_XHLgvZvWZWuDohxwkhbmoPFjbCQQL8y-jXErFMTfmSIdwTXNdVujfk14zPT138RzI0l8L8-C4oeww2Klh_P7u0/w640-h426/IMG_7751.JPG
+  image: images/covers/9baab3907c009de6.webp
 album_url: https://photos.app.goo.gl/F9ZowHbKgTNPpX3J8
 ---
 

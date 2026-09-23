@@ -8,7 +8,7 @@ tags:
 - Barcelona
 - racons
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDR0oiPGdGLiTCyupLdL0IMsrMSEaj6pnI2NyFuMHezWldzBxZ6TWisH7mNTK7dKE4Zf4zkSiizAmW6xSHNM5sbfcpNwaBYnKwK-T6abSWKnTTbIM4akCMdqPT5iGZsVnaDefZ6QfqQIs/s400/IMG_0063.jpg
+  image: images/covers/7089039a5ad30391.webp
 album_url: https://picasaweb.google.com/103138221614479310970/RaconsDeBarcelonaTerratNovaEscolaDAdults?authuser=0&authkey=Gv1sRgCLfT1JO7u5jB6AE&feat=embedwebsite
 ---
 

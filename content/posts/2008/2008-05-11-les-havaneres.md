@@ -11,7 +11,7 @@ tags:
 - havaneres
 - prospe
 cover:
-  image: http://lh6.ggpht.com/pedro.cervera/SCbeal6dXnI/AAAAAAAAAEI/GuREETnXi4k/s400/20aniv%20011.jpg
+  image: images/covers/e8b815237d02a621.webp
 album_url: http://picasaweb.google.com/pedro.cervera/Havaneres2008/photo#5199087368281087602
 ---
 

@@ -11,7 +11,7 @@ tags:
 - art
 - món
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEityyocrjuw-UoapYuNkN4XjkfiexhyvITtTBx-lox_twB0QMAcNAdtthA6EBz2cU7BnUnGtDGoUjlGFriqNxIcMOHxWcc0NM2E84tH3mPmaTQ9rPFi8DoZFpwutSS8WnwRVWSaRRAMNzQ/w640-h426/IMG_5547.JPG
+  image: images/covers/792a391d15ebb13d.webp
 album_url: https://photos.app.goo.gl/T6HWomu9n3SV7wYK6
 ---
 

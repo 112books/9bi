@@ -11,7 +11,7 @@ tags:
 - festa major
 - promosalut
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi918Bh7QKI4wnJ_IamwANKgKLKG0u930oup_IaYlIEYfM1l_jyDmOC-ZAj9JhRY9mUOTWs4Rx3hT4xzWguS7Fok_UtxcmsYctVgSDVekft9hCu4opQbVedDdnCQhOMUYGcusjJ8Hp8Pc8/w640-h426/?authuser=0
+  image: images/covers/4dc2c74c4e2feee0.webp
 album_url: https://photos.app.goo.gl/xAAgFmSN4tdTis2G9
 ---
 

@@ -7,7 +7,7 @@ slug: des-de-la-finestra-de-casa
 tags:
 - casa
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNbyG3AeltJwbq04JFbCDwzww-kCLFK5Wcr1ni4GhqHSiMayfBTf4ALdjwcTspFTRbQi9R52HMjtaaqaHwWdv-_QxF07K93fj8cZ7083i-nygmQiV-zXGXBS9v4F8m-t21FzKzQcfoiN3D/s640/DSCF1371+copia.jpg
+  image: images/covers/0345e10973c9d30f.webp
 album_url: https://photos.app.goo.gl/aJux3VhUr6hDKADN7
 ---
 

@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - arbusto
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDMA31q-vko1hwYM7b0mPn7CQoQgX7fOl6DIiBc163Ez-1LGZhP5NlC2CCCHx2xwdaEPEw5P8u7Yp6nbzkqnQ3Lfe5XhR_kzobiChHuH8ZwsSSnuqTjcDkSlBmN0m6WL2ErNBIWn_SB1pd/s640/IMG_9877.jpg
+  image: images/covers/58d554f9bf595ec5.webp
 album_url: https://goo.gl/photos/nGebZAy87HHDTKVRA
 ---
 

@@ -16,7 +16,7 @@ tags:
 - sardinada popular
 - txaranga de la prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6Yxpf14iLndLdEGe8-H0CRl0CEXn-V-mbHRBgoqb70CdMnQjUPTdehufJOIjRZGu6nl4HmHW-6_JlH40YUBbATbPofifcPrGsd__PUiYZx75OGD17TV7-mqMOwReX67T-50XkBAN2Abw/w640-h426/?authuser=0
+  image: images/covers/a858e6685c78f6bc.webp
 album_url: https://photos.app.goo.gl/tsSFjPxza4SkJMx9A
 ---
 

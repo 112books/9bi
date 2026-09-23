@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - pere puertas
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjehVzDciVICNQdavuWt1hwSCGyZCocNHZACmOyP9EuDyWU6Z_34O3gVRL9s44MSpDoy-VFDE2_TG3h037R2c40WE-UNa0ogv7SHz9q2ekiG7W8ovLTH8hhRP7nDAIAhCBddVdm1BKxEVo/w640-h427/IMG_9950.jpg
+  image: images/covers/d3091166d05645c9.webp
 album_url: https://photos.app.goo.gl/ZDjGZM2pQZHBjThA8
 ---
 

@@ -9,7 +9,7 @@ tags:
 - prospe
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEie-kM31ex_7avZrAFFeckIt-eODNYH-eq4GqhNXmNzQIYC4Wn1rEzSaT3G13H2lMEBdXibjQ2Vn4bn4HuHxlO8lybiUavaRG23JJqxftS8kGg-RcHPEp_cniB6WEutCFdCOTEhM3t9AmXt_BJCkXpnmZbwHb4sDMu3csrjwPldH-sb62IaUTlXli0o/w640-h480/P1050290.JPG
+  image: images/covers/d7fdc90a6c231c05.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

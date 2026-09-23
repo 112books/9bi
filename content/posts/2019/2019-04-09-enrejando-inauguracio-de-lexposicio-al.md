@@ -11,7 +11,7 @@ tags:
 - expo
 - Boni
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk8VoDSL7Md20f6xberKFY1nriJh8i9n3Ug7sSi1x4SjsTEsnrONpxl7jgqsEW-uQAnb9RmzLUrQsGc_wWdfVfMGYzIbfgzUAiKbIBYRWWpjzrnigo2x26hboATNaaQJbkDZMUHEL_C3Y/s640/IMG_20190408_180838_resized_20190409_031744110.jpg
+  image: images/covers/e6e68bdc440ebbef.webp
 album_url: https://photos.app.goo.gl/UuZfwKrWnXUSiB9i7
 ---
 

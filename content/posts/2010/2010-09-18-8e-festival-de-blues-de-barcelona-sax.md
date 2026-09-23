@@ -11,7 +11,7 @@ tags:
 - la cultura va de festa. linuxbcn
 - sax gordon
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKf8z5zWSayFUYsw6WNhNpL_V3KoctB29m5H7ByXOxxKIqQwU4ggQeS1D5yMhpMCcFUcJ5EER_XitQCojtr-QPEarl-Gb3XoNuOTtfCbsc3otkRvmALTOmTs4bmOPHdPb4xSdsHp1MHSg/w640-h325/IMG_0724.jpg
+  image: images/covers/e5a12219e997a904.webp
 album_url: https://photos.app.goo.gl/WmDJek5YLMeEehj19
 ---
 

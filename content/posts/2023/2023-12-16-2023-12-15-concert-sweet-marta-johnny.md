@@ -12,7 +12,7 @@ tags:
 - casal de barri
 - 9barrisimatge
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0eUSH9yWbmX1qq0BnuthZwajC1PvUoqdNSxQxMyuKEXPZ-fQxtsMU8Hf11mjBz5aWdzOO__f1f-AKOf38RhLpTdPjccj6eFxX_xcaISbm8F6jXUlExK6dRvtdX1z1Jwfs86cd5eJMFeOLfDUa4jX3tqQ_FxhPnEDz0OPn69AJZfPxtBy0vuZ2kv9CUnw/w640-h398/2023-12-15%20-%20Vaiat%20-%20LM6%20-%20APX400@1600%20-%20%20%200007.jpg
+  image: images/covers/f3ce9440ed7bb3cf.webp
 album_url: https://photos.app.goo.gl/e8CXHF7gkbVWzwwC6
 ---
 

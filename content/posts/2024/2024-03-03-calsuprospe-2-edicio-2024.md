@@ -10,7 +10,7 @@ tags:
 - prospe
 - art
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN8ep8Xjg88kKQJ8uXpchVEQyJPEQ_u1UD1SXjrHNK4PESM99VNZ-Qdh-s0VN8oJneK4VsoHuRuf3deZMjsB2Sr-Kc6fkI5FRV60nIfsHEDAz1rRwHzbSWSYsKSS8DKTKOzlAQ8HsiHfaEjH0fddq2dSLfRq4pJETujcz_Hy7DZlL31vNMUkBB73zlBH4/w640-h426/DSC01049.jpg
+  image: images/covers/f753939823c44864.webp
 album_url: https://photos.app.goo.gl/caPeQ5m7rCHZ2hmXA
 ---
 

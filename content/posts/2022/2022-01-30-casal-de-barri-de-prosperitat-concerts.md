@@ -12,7 +12,7 @@ tags:
 - Prosperitat
 - concerts
 cover:
-  image: https://blogger.googleusercontent.com/img/a/AVvXsEiP8ea2bJa0S4hZ0Pzdd9kixelwoyfmVO78g33arvIeQc9bmL24aQGXHhUb4HM_LQXUJ1dSepYKa21sUdAn_NTVpFnjq_WpCPrfVBKU_Z9dN2UDeY2kuHU6QhGHrUPuSv-79ZYfuOAIf55tbQn16NWFKTdjqJIxi2jf6GQzuSYgzjFKIuurfejgLc_Q=w640-h426
+  image: images/covers/69a3ef21a30b4e86.webp
 album_url: https://photos.app.goo.gl/k1DzcFEEa3iVuhdZA
 ---
 

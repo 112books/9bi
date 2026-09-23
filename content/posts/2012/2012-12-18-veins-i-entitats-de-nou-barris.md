@@ -9,7 +9,7 @@ tags:
 - nou barris
 - Seu del districte Nou Barris
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjELjyUNWx27_U8kHO3_xS0qZsQKIhB1LlQ6_yWJnrGErpOEQ4573ES7FNXYyP9se0NGL3P8Xqz17eXw6S6zxnq62RJt23OVrGNJcr52O35Hf4ptCm5Y3BdgISJ0jZztX58oCHfdajPh5Y/s400/IMG_6639.jpg
+  image: images/covers/e3aebe62390a658a.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VeinsIEntitatsDeNouBarrisAbandonenElPleDelDistricte?authuser=0&amp;feat=embedwebsite
 ---
 

@@ -10,7 +10,7 @@ tags:
 - parc de la guineueta
 - yeye
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgj57GVs8ldmHy3utimycjOdBOkW-wUprj7h75PHvSZLc7XbnmpS7wiIt5LUoy1_xct2NZFzwXzeBy7vmMoGTcseKLYCo5cgEak5sPxLXJZcCLDGxeJxuD5ZMWGpWUYoBU1cO_BlFYLuSE/s400/P1019274.JPG
+  image: images/covers/44f8ed44eb26d269.webp
 album_url: https://picasaweb.google.com/linuxbcn/LaCulturaVaDeFestaNiko?authkey=Gv1sRgCOGY5O-_-bvlhAE&feat=embedwebsite
 ---
 

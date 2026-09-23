@@ -7,7 +7,7 @@ slug: muzirca-clarcika-can-peguera-2017
 tags:
 - Can Peguera
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1U_JF5N-0jJeQaQj-bkNb95NjwDi6SEZ9lZ4OVCKqn6-BAfz0hLFRybGRUeFfh63ycCKDx3tdRj4MSgQJXrnkP3A2GlQaM37Ha4qh29CjDImBMzmdt3BoWNr8UvZB-jWxoMfV8kgjDtCt/w1350-h900-no/
+  image: images/covers/b5b053d69b1f2f9f.webp
 album_url: https://goo.gl/photos/uKfa4ipWVRR5HeeZ7
 ---
 

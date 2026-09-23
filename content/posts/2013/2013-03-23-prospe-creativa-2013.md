@@ -14,7 +14,7 @@ tags:
 - Punto cero
 - Tresa Prades
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGrU8GrDNpD7hIh-suMB4A6_-W0R0-NOJfGctD7ihzVFIEL6JuoXfsN7vwAZ0D5dOwmwBxSc87bbqcon80Q_6SXEw5HT2w8hIu23krt94r_qDyy35NEqHpEq3SlRYvzp-JOolPn5Ji_ZI/s400/IMG_2352.jpg
+  image: images/covers/5b1fbe718af565c4.webp
 album_url: https://picasaweb.google.com/103138221614479310970/ProspeCreativa2013?authuser=0&amp;feat=embedwebsite
 ---
 

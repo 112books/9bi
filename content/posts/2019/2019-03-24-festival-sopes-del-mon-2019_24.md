@@ -11,7 +11,7 @@ tags:
 - blues
 - fotos
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbP_4PyJnl9RTWEnFYaHwGSZ7a6jpbgLuSMnQ23o6BvV6LZsyHVAoLpfhEw9f1RIjI8w91HCsprDPQPAy-HTJH40vO069lZSfjaZuBSJgf-SgdK8nFFUE36fYTb3KnUxsjTNFYzpHd6tE/s640/_3240240.jpg
+  image: images/covers/5a16cf7de8e3062d.webp
 album_url: https://photos.app.goo.gl/GU7aLibG736SXpPV7
 ---
 

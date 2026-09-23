@@ -11,7 +11,7 @@ tags:
 - activitats
 - Barcelona
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAXTRXyZEPce76zqnIUBvphtuF0nZmGt0B4mzyCG5uO5Vgaqvnowlo8bx69-bYj-D6C2fP93EsVt5ZOcHoUMnbk22w9iDkWAp9ifcRHaT3oHEon3vqjNOxDUPQtpLHwm2sfXJBZ80SkW2SvafVDaKmTbEMBWdW-Hl7CvW1c6nvttAHRB9d5uz_FJUa/w640-h426/_DSF2203.jpg
+  image: images/covers/fd3cd93b3ddbc76f.webp
 album_url: https://photos.app.goo.gl/ZXX3kmJkqtDqhHBb6
 ---
 

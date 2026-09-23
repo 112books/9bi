@@ -9,13 +9,13 @@ tags:
 - Mocebares
 - música
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghVX2_IqYdgi29YWWa-_zq7zsXytS2fj-3L5H0rGyOd34989tU1Fccj_W4t3C_CzENcgO6czISR4MvmP8ktcJNQHOC8XSlHp6sEvkg2Vcu8CcxOQ07mwCMgMDFqxIQW6RmqKMrhlUIA0wMkWveuvU6H9Yqrcaft24WZDchP16ALYCfRkSQcP1tptYwMV0/w640-h426/DSC_6400.jpg
+  image: images/covers/c628ca18347c4415.webp
 album_url: https://photos.app.goo.gl/RU11A6Hi1i33JCTs8
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiosg454mx6Jbj0Tgkgh183VMUjyGYwo1z7n53eMbPGZeCVxGvaO5TQsMuQxETYSJHMaGxcUVmLlFpQbRX1WArCm-dqOHJGMSlh_s7Syv_jKAqivEbEpvoot9RzqnOD-ossfF_ZYsnYGixFYlGZXfLIJ4svtTiyck2xa_HJtt9q-rYJbWRRY7GOtl2Gs9U/w640-h426/DSC_6452.jpg)](https://photos.app.goo.gl/RU11A6Hi1i33JCTs8)
+[![](/images/covers/9160b0daeac39ba9.webp)](https://photos.app.goo.gl/RU11A6Hi1i33JCTs8)
 
 ### Una Tarde de Música Extraordinaria
 

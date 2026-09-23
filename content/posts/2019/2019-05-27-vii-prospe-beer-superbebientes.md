@@ -8,7 +8,7 @@ tags:
 - festa prospe 19
 - superbebientes
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLg6fqeMyKyt2t3AxqfHZ33z1OjU8S4uIRxSCVu69JLN6_4P9KdVmyqE2EHx6MjkJJAjkeEowursiCSnwWliMITiMebgJVolloltvmvKzuEXjgjqKxmPhrQpTpgFDq4KJRIy4wWTogwRs/s640/IMG_2821.JPG
+  image: images/covers/986c24e7dda4ca62.webp
 album_url: https://photos.app.goo.gl/4J7St9N7xpUitPhd9
 ---
 

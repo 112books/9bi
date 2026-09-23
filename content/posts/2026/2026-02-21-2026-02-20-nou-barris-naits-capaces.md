@@ -17,7 +17,7 @@ tags:
 - rock
 - The Capaces
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDLvmYJ8sftUuaueXKiamrDf2c5K-0jta-B4OHihzUnMbegSTgZoWjcmaCNT4Z5MhIJZ-8WsEA1EsQK6D44ixqTR2JXAFlZBpD0vVP1Fl7V3NwiJTKskvgIaT9MU1ATCEwV9nt5nOPvg2Nrgb5nxwZR0cQ9z2og0cHy_peWjreEeyhsSE6Amt2-mFGr8Y/w640-h426/IMG_5033.jpg
+  image: images/covers/a47fae59f8199626.webp
 album_url: https://photos.app.goo.gl/EAUv8iREAsHsUnpN7
 ---
 

@@ -10,7 +10,7 @@ tags:
 - art
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjffJQf9TouAgwoqCVTPjq5DlXOzvUsLoqxmM9I6kCmYNLvLhRDg9FUNYwlVDmVRI8oq16vcLjoDsUYKq2gjpxo3JjnP8ltuHXzlfqFlnyZyI5q1V3HJVup96LhoQHU-AonB2NinxbtkBg/s400-Ic42/DSC_9414.jpg
+  image: images/covers/9f922e456ba2920a.webp
 album_url: https://picasaweb.google.com/115791131166530059320/TeatreInfantilUNAPARADETAPARTICULAR?authuser=0&feat=embedwebsite
 ---
 

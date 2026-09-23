@@ -11,7 +11,7 @@ tags:
 - dissabte
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQwoCv6L95dhvhWu1hU4dDbQoOYSBpEGwnPx26d0cNr9zhYRhoiFQ1WNqMoGjz13s8c9SW8rmjw8VhSDcTc88wrWg879yQuRhZwnDhsju_OQBfrIDGBcoIcflUHsWrTWBVQwnQSrFeA1E/s640/_DSF0186.jpg
+  image: images/covers/7775335e754a5379.webp
 album_url: https://photos.app.goo.gl/LYwGoqUnacVyTvVb9
 ---
 

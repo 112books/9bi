@@ -7,7 +7,7 @@ slug: lone-ride-woolfi-and-wheels-dissabte
 tags:
 - ateneu popular 9 barris
 cover:
-  image: https://lh3.googleusercontent.com/-WJef1BtdsdM/VEThMvF41rI/AAAAAAAAEa0/dqlh2gXDpDM/s400/WoolfiTheWheels%2520%252825%2529.jpg
+  image: images/covers/dce7f7202412a8ea.webp
 album_url: https://picasaweb.google.com/116805523004990742624/LoneRideWoolfiAndTheBigWheels?authuser=0&feat=embedwebsite
 ---
 

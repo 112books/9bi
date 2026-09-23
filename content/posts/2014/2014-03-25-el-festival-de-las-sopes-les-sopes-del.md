@@ -11,7 +11,7 @@ tags:
 - 9 barris
 - 9bacull
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWbRX2HdbefwYl-Fwb7Bkzb5R4DPsCTNDb1OofOTDbfCTfq2f2SDAV8-3NZaAvO3MzwJd8MVobK2V4S-qHgtQD30zM7TOYtdNw0rA-bvjvrUIta1T7vrsO5ReO2pe6JA781R-nk0toqkRq/s400/IMG_0120.jpg
+  image: images/covers/0e1ccfaea7e9c0b1.webp
 album_url: https://picasaweb.google.com/100268695753733554853/ElFestivalDeLasSopesLesSopesDelMonMundial20149BarrisBarcelona?authuser=0&amp;feat=embedwebsite
 ---
 

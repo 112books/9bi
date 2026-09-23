@@ -8,7 +8,7 @@ tags:
 - associació de titellaires de Roquetes
 - titelles
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJsBkzoL54960OpHd6TAj_Yre9dxNxqeQywMS5j0pwlESXaTX0eSmFqBtIhXgGYrfquOS8vea3k7A-cboXMIx6NphG9H53WVo2xSkNn4H-xEhIC28_SAq9ZLXDHcfFaTjela7nu03Q2I0/s400/P9260322.jpg
+  image: images/covers/81f7887008fe435f.webp
 album_url: https://goo.gl/photos/PvXc8ZXybpcAeXGY9
 ---
 

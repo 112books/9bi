@@ -8,7 +8,7 @@ tags:
 - Barcelona
 - flamenc
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiy1PF06_Z3zeVzhXfK7LgXGJVP7au5Ke1m0GPQio1K3P9k90W9JlzQZfuR-Uc5C_r8ypLuOw2sE3SudBD0SobFh6z-fzrYYVO0FGsYgVqdeUHjzjnP4TTmLxJuvgRP3QjixOi_BQyYOAQ/s640/IMG_8459.jpg
+  image: images/covers/4a0813e054a027bd.webp
 album_url: https://photos.app.goo.gl/iqVBQS85qK1VlLk12
 ---
 

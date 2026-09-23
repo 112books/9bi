@@ -9,7 +9,7 @@ tags:
 - festa major
 - Prosperitat
 cover:
-  image: http://lh4.ggpht.com/ulls1963/SEP8iTkzxrI/AAAAAAAAANw/zp1WDDL1L9Y/s400/IMG_1929_redimensionar.JPG
+  image: images/covers/2299714973d20990.webp
 album_url: http://picasaweb.google.es/ulls1963/StoyKeTrino/photo#5207283260470838962
 ---
 

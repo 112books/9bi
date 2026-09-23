@@ -11,7 +11,7 @@ tags:
 - harry walker
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjneMupXiBRwIOFkSDbc7sYJqLecCGM0q5GlOr_VITjOwoyj4yOs9dkAmrbIto-g2ddeqVloD2xbhv_OXs3eZ5gS5Indp9sOU6hsCZRZAWUvB1ST22xKy7Gzr-wxiOO9fpw22C79fKt5GA/s400/IMG_4503.jpg
+  image: images/covers/64024031ddc5e078.webp
 album_url: https://picasaweb.google.com/linuxbcn/FeriaDAbrilDivendres080411?feat=embedwebsite
 ---
 

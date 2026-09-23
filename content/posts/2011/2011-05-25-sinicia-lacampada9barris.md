@@ -9,7 +9,7 @@ tags:
 - fotografia
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMvnRMt5PJbRL2jTRC6TkMCinQ44Eb2xfW-V1aX_83wJMnPpB0OdogWT7N-BTiN9_RwVqxrvAwvm8RslL-PAvaxc_fk2AdzCBkokMEGePc0Vuy4JXcrhQhjjIKZRSlQ6cpgg1Z901a2r0/s400/IMG_2170.jpg
+  image: images/covers/7080eeb7f1300df3.webp
 album_url: https://picasaweb.google.com/linuxbcn/Acampada9Barris?feat=embedwebsite
 ---
 

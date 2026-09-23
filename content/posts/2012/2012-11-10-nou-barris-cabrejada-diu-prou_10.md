@@ -10,7 +10,7 @@ tags:
 - fotos
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg42quBB8sFYNuO1M3RF9x-evzWtl4uOweh2zinNNu2e7-DYGdidKUxTgAtWatQTzFtOmV9fuUlN_j9awZ62dd0q0YD9dnaiI3lSLSAuV76p0Zrii6Z8MbZCvi8R-OgU8KtUBcKebFyc2w/s320/9bcabrejada+%252864+de+89%2529.jpg
+  image: images/covers/2f2eb8d11f38fe86.webp
 album_url: https://plus.google.com/photos/108741777266825743534/albums/5808973963420180865
 ---
 

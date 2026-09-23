@@ -7,7 +7,7 @@ slug: excursio-la-barceloneta-de-la
 tags:
 - avis
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEy2KPsQolefgbMWNW6KsgA0IoInym_96WnQk05yXNIV6Z87LSStingjMYbIpOhu2sShws3xh5u4XuvxWWXQGYG2kIL8tCSJfXw89vPlHAt8suadQxj8nnqE0D_moR6SLp7HiotgoGG7FO/s400/IMG_20150602_121018.jpg
+  image: images/covers/28128b21c3eb7f0e.webp
 album_url: https://picasaweb.google.com/115452009915421757608/ExcursionBarceloneta?authuser=0&feat=embedwebsite
 ---
 

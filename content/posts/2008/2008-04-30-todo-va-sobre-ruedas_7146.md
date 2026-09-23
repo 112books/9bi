@@ -8,7 +8,7 @@ tags:
 - monociclos
 - petxina
 cover:
-  image: http://lh5.ggpht.com/jaime14bf/SBhXgQZbftI/AAAAAAAAADo/IhfoORpzxV4/s400/DSC01462.JPG
+  image: images/covers/949a3bd5243f7a36.webp
 album_url: http://picasaweb.google.es/jaime14bf/MONOCICLOS02/
 ---
 

@@ -11,7 +11,7 @@ tags:
 - Mario
 - art
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhM55ziImwGHlvSPL9sr4rbpxWPZwP1tJaHa7bcrDUzZcq_mEd3bkorVC5ZPpm_DDtzbuscvVNoFC-3axj0_QIOE7VrSUcenrvQxi5Jo4vLU-CDxToj_T3gtXqCV6IQh456p1TqtqfDszxRqU9xWrddxZMoO7EoYBx95bhlcjbPZiOjleI6k4QPjQZmPS8/w640-h480/IMG_20250702_192428.jpg
+  image: images/covers/a183e849df5d6e70.webp
 album_url: https://photos.app.goo.gl/EUPXJZTTdrycHbsDA
 ---
 

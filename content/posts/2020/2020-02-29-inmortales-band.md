@@ -10,7 +10,7 @@ tags:
 - música
 - rock & roll
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmHFvWAZjTxlUbh_azEYg6vqYNHYJpmnxvE4kIO8kGw4s972MFdeXFD6vNqQ-ebD83ELpvKc-qBCtYN-IdUwIbfcypBf5N1IaMfG4rLomCgrWHZL7pODwu8kzr8hHd4P1vefveBphKxxuA/s640/P2280407.JPG
+  image: images/covers/a4eb6019c4643f67.webp
 album_url: https://photos.app.goo.gl/N52rjGU5jJ8yuWnc6
 ---
 

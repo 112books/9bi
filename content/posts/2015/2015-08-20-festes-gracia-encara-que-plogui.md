@@ -7,7 +7,7 @@ slug: festes-gracia-encara-que-plogui
 tags:
 - Festa Major de Gràcia 2015
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4i9K70ru4-MvzH21m1G48b5a4GJhzJlvrqAS15HZU38lYE16kye9rr07bvS1rSGXXeUH4pXnh0VjA4a-4P4dkKv8o98a9jMBg3h6TF0D9AIw79dtSTWl_x0iIih7RzumuznI1PJ3pheM/s400-Ic42/_DSC0506.JPG
+  image: images/covers/5aca8a7d5aba7e3a.webp
 album_url: https://picasaweb.google.com/110015855395179205688/FestaMajorDeGracia201503?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - paella
 - CASAL
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNqXz-cdsKW1nwTbGhKodhe91VFJ8D2f-g5K1ltFvXzBxKmoTSAtp1gaI2f13wHWX6ghoXEnTRLc7o9goK7Q_DCtUPeATFyRWy_yfOskRbc8R1XwA9hKSuwZRAZntZ6yiVgD7v3p4BeqVbiXiyUzOIQNlDHYkVAk9-sOC6ttMJsZuOzE1xXhdiRN7n/w640-h426/P2290739.jpg
+  image: images/covers/c0f4bba252ef263c.webp
 album_url: https://photos.app.goo.gl/V3EwQio9mJ1e2XbB6
 ---
 

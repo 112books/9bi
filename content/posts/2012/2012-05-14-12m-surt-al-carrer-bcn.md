@@ -9,7 +9,7 @@ tags:
 - fotos
 - bcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8ZQTnfqWswLy5jkjfcrVqlnB41tJ9yK-a60z5wloN1INgJiF0OZ-d7FxIO6Irn0C4DLuLnxt8fjfjQNXVfZJNjp6s5awUSwMsoXsJw2fiDVwEVq-ZpEWX_X0MuxEm3GViGc61E2WmtS7g/s400/IMG_0754.jpg
+  image: images/covers/3cbdd46dda92b500.webp
 album_url: https://picasaweb.google.com/100268695753733554853/12MSURTALCARRERBCN?authuser=0&amp;feat=embedwebsite
 ---
 

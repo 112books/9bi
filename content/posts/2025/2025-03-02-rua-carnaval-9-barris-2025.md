@@ -11,7 +11,7 @@ tags:
 - 9 barris
 - carnaval
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7prTgNeYg4LYl3xgwgNR3aFiIgdVqX9siq1EbQ0hfwO8-NVRoFdkaD3aydOurMqZ-BxMi9ylMhyphenhyphenPLt9gvXhFLvMKlVCx0OMpwzIC71wGJvggSMocXPRz_YIQFRvkZnjEcj_2kahSrp0SOaoDz595vJd6Csw09pjDiDr5gwPyFl845I2Y62dJ0nsCr3Go/w640-h426/_V9A1020.JPG
+  image: images/covers/982d5d7fdba2a340.webp
 album_url: https://photos.app.goo.gl/kJDUZycYRCuD1kcJ7
 ---
 

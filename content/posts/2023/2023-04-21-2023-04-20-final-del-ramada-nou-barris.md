@@ -9,7 +9,7 @@ tags:
 - ramadà
 - religió
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1iir3TKh8OTPpDfgrLi2mwpXdWJdiYlax7kyzAIN8sC78cqi29iNmnVC1EVQAWqL_ez0cJagFtG86bBVcg5E2d6hO1Qyf2qjrxP2TxEhOIJQmmugxz3smY2OUqFQtyO-MmGb6RGSJ_iIPIPdCJcCfqKCAA9zyIR8GP4E5KltTyKdze7ZiReBGnK9Y/w640-h426/_DSF8245.jpg
+  image: images/covers/0cf1073804e29421.webp
 album_url: https://photos.app.goo.gl/7rGPbsPchWUrYD6d6
 ---
 

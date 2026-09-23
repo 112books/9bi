@@ -11,7 +11,7 @@ tags:
 - ione
 - mar
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiv60OYG-L9z8jQc2lGJwe6zVfneohjlzceUNsWLkTQ4XYzUAGu_A5wtqqcW9NhjrU0aNKXL3hUmhQT4OxlVD_246OsQHlm-2AyzJfCFuzEIOA7mRBGQsWr1yZpYidMgiyJ-AJjWrEspYSm/s640/IMG_6077.jpg
+  image: images/covers/bc0507d70fdce4d3.webp
 album_url: 'https://photos.app.goo.gl/Xo35N3VazTz7EYpC7
 
   '

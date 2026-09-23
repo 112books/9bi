@@ -12,7 +12,7 @@ tags:
 - Skatepark
 - skt
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis_JLX7YxUqdXj3m_klVyu2UtHjKxrTfHIR9wlymdZ-7WIdCk6uKqMjbWd9kYNwGZZ38EKud0HjuZVzcH6cPTMZXtVUpHG27AvJc_2dtIWNbJ4MPtW-0BFHiIb_1QR5NkRXSp5rsAP3uE/s400/IMG_8231.jpg
+  image: images/covers/9147bc3a4c35f0c1.webp
 album_url: https://picasaweb.google.com/103138221614479310970/HellCurvingParty12?authuser=0&feat=embedwebsite
 ---
 

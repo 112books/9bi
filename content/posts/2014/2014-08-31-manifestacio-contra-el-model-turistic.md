@@ -11,7 +11,7 @@ tags:
 - FESTA
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgj5H-OjOngUO_bUIBWlrap2keUSGRE1czLtG3ZqgsjfwxvuyJdMV_cx5WDpc93xf1DkV7DrHhiks2fIuR2HBaM___FaQETXwoIyL_R8Z-K6EVpycwfudVhTuhlC1DX_r6OnxB1iqpadxw/s400/IMG_6430.jpg
+  image: images/covers/1f0b4fe715c9c671.webp
 album_url: https://picasaweb.google.com/103138221614479310970/ManifestacioContraElModelTuristicDeBarcelonaALaBarceloneta?authuser=0&feat=embedwebsite
 ---
 

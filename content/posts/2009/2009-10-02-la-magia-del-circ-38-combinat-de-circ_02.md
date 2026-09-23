@@ -9,7 +9,7 @@ tags:
 - circ
 - manel sala ulls
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy6MZ2ZSUCQWA5GQu1fMbnNTuEARmdBS8XB3ywnxPaM-JOBlQlskvjPULWS36LC5TbT-gSfOO4cLBYHErkE0vNAepmQuNN4ktqLMO2K0LQUYvplHJkAUNHjAJ0sHeZHhNYmcAaQTUqEvwl/s400/001-38-combinat-circ-ateneu-popular-9-barris-cris-oller-rucs-rics-2009-ulls.jpg
+  image: images/covers/0144a25b5bd52ad2.webp
 album_url: http://picasaweb.google.es/ulls1963/LaMagiaDelCirc?feat=embedwebsite
 ---
 

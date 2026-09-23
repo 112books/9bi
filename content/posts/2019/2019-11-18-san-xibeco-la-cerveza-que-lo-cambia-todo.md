@@ -9,7 +9,7 @@ tags:
 - pasabares
 - sanxibeco2019
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPPs6ztkrZ8ZVC5ub1y9qRO7wF1bWXpEGVxDH2i4Emlhd_tBJLPUQmx30i7ORZYe9CeXE92STiWThvjyGclNy7lm0qe50FOGadKSjtwSFT9mr-fI79sZLEuoGqqmSWb2o9e5CkJb5SAis/s640/IMG_4481.JPG
+  image: images/covers/b52b084efec0079d.webp
 album_url: https://photos.app.goo.gl/YtVQLWxKTRANHoKc7
 ---
 

@@ -9,7 +9,7 @@ tags:
 - Prosperitat
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglb_TvkwXGBYPiANUfI9gJ0mOpjRtr_SgxTMydiQIBSilb2PixWpQfqMaGB2tC2puHOg62Ezh-qcRyCIRGNodlkdUUcdyMlyYpP7Oo-kJ1wez2vF_BmtbgKHaEErVLO3a8665KoE0yczt-/s640/DSC_7640.jpg
+  image: images/covers/84db1339a22fd46b.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

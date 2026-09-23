@@ -16,7 +16,7 @@ tags:
 - plaça Santa Engràcia
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTTlgyv-EHw7H9vcRQEqamnfJYK-gdiQstQ71zddK7xtUk2qZCCvI5vx6QG2tqQutREmalKv1odWdo6RoGqgZwNor7WRUoSNRbMA5ouDRZ8qOfy9FYDZOePXsZqruL5irPPK1Xo55uQbIzewsSqd33hOWTJVa4pBqw3Sk7LQVZJ1ADNBkXG7YZapWrDvI/w640-h426/DSCF5098.jpg
+  image: images/covers/142bf247034ed806.webp
 album_url: https://blog.pocallum.cat/2026/06/07/2026-06-06-festes-de-prosperitat-segon-dissabte-agua-bendita-orquestes-angel-pestana/
 ---
 

@@ -11,7 +11,7 @@ tags:
 - membres
 - música
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiehpLFyHEbhN3-vDxDkrXjxEGJFQhpycQ2eF-oNPYWFCT9KI49X_uxoQ9lXoehCyj0zIi116GTpOmFm1ln29PBnn0c4rmh3N0sW5vSxn-ODhCtqJPElxzK0865s_IotEiCStTfhrXLsr-405KCM-EjB9Wgfw2ylnaeYf7MgGQSwnPSfhufK-xVkY58/w640-h426/_DSF8095.jpg
+  image: images/covers/4f9a738f38e634a5.webp
 album_url: https://photos.app.goo.gl/XX6ZwfUsE19uopnX7
 ---
 

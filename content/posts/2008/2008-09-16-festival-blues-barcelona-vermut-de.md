@@ -15,7 +15,7 @@ tags:
 - Slim Bay Seals
 - vídeo
 cover:
-  image: http://lh4.ggpht.com/linuxbcn/SM0GOFjC9oI/AAAAAAAAffk/quO7hOjkkX8/w426-h640/IMG_2158.JPG
+  image: images/covers/45424ad919423a03.webp
 album_url: https://photos.app.goo.gl/9E8hYpzTpJkbCFKs9
 ---
 

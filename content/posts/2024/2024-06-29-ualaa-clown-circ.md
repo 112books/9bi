@@ -8,7 +8,7 @@ tags:
 - clown
 - circ
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfXScWl5CmTKwuIkh1VZqByQqLejXtiUkqAsEqfdXh57itSPUObgNxTS5C4mqBbCiXOnXY3oAxEYfG-mVEKB6eH4jq6T99binnK-5aLjdeKld62-w75zp5c_ZKa6QZbCrjbbKuwhC4BySVG9quvcBGgo11xDzrq3QTeho8sDLQKgfXH01nhpPXC60hLBzJ/w426-h640/DSCF0821-Mejorado-NR.jpg
+  image: images/covers/a56ad57468f2d548.webp
 album_url: https://photos.app.goo.gl/EefecSQaRPc4ABjm6
 ---
 

@@ -7,7 +7,7 @@ slug: vermutsical-amb-pelo-gruesoul
 tags:
 - vermutsical
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivQ1t32e-fDO5Hp79MRv3okdbffRXlSzcfrNnp5U3URHrmXk0KNz-us5hkTV_qtAfL7tstxPzIVtuitNsJOh7iVXsivqnXeMBa5NCnc72NGqdJNfgYHTNRZQwVjQW96DeA0t7Fd3y29tU/s400/IMG_7385.jpg
+  image: images/covers/c05715c5b3ae2eca.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutSicalAmbPeloGruesoul?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - arte
 - ruta
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeRidQ_PiGk_1HfE4-XBAW2z4bXdQr-7EKTqwZQTgkUYyaaseaq6A0FjM7jEHSH9iV6HxUlPBgaVlYFvXcE8tU3XuvFMcbkTiccqL8XyyYn-vEAD1uDZo3smcCkoPvs2CRt3Q11CTazzU/s640/P4220548.jpg
+  image: images/covers/498f655244e74310.webp
 album_url: https://goo.gl/photos/YFiNr7gU1126U3Hy6
 ---
 

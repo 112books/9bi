@@ -8,7 +8,7 @@ tags:
 - crisis
 - diari
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpwmGm0SBAb6XoIRWx78u8-AD3YS2CuiwBavOtYEMLMZjgQ_GMhWl8OZ1rZyg65Xg9mT6QGPcPTSXQ2oZ3f7NnU_8WaUkHk1MEM_idhk_NXPHEqQNonY3LtShJKGD0fnTHOdv1l4LSM_8n/s320/crisis-espanola-parodiada-Taiwan_EDIIMA20120928_0106_7.jpg
+  image: images/covers/0e96cd267e219b6f.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

@@ -10,7 +10,7 @@ tags:
 - CASAL
 - casa
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_vbUSo5uu814pJVIbdiGmaru2qtlslIS1UpCs_h7GKCmKHqhGIcuHAQDHC8EaleDtl3Wh2eMMPo_TvOP6KRpwa5g8hp9kYKAyksAT0Iy2bJhmXsIJDln2eazNDTwU14jm6yGEuy9HjcA/s400/DSC_0061.JPG
+  image: images/covers/000a83d259164a55.webp
 album_url: http://picasaweb.google.com/104199960646572363843/DijousBand?feat=embedwebsite
 ---
 

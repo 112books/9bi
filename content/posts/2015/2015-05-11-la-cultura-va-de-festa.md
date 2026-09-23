@@ -11,7 +11,7 @@ tags:
 - FESTA
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhi6cBf-WBc6enuMg-CdlrCBdCTq1NjAXOsMjeViXm52ih7uD4e6qiVf1xja8zUS7e121Cv3IO3A_Efzu1KKMs8ljRJvspptzwppfhEt5l2bYbodvsc6ruHVuNBZNrSF2ZQ3K6mO5DRup4/s400/IMG_5186.jpg
+  image: images/covers/22bb374c4b686894.webp
 album_url: https://picasaweb.google.com/103138221614479310970/LaCulturaVaDeFesta02?authuser=0&feat=embedwebsite
 ---
 

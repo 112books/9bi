@@ -7,7 +7,7 @@ slug: musica-poesia-y-flores
 tags:
 - música
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPbOZG-Xqrb8pdBKtBs54iduKFSDa4HmGTIr26Z-pG5MynTQM4TBf3UsylwGnrL4XufyymAJDzkgKCk_HPOsPGjw1tS9lz6_Mi2LGQviSAsws29LvesN-d3S0G9Htonv-o_ZmJKmExPzdv/s640/P2210521.jpg
+  image: images/covers/994e8f6a141521bd.webp
 album_url: https://photos.google.com/share/AF1QipMGUMbGQKMUXi7RguSfj4FD4Pd21RRiWMNRRQF3qVbhFncmqmQor8uJJeiGUPcFMQ?key=T1pBTlhDV3hIQnlwQm11aUg5TjZkRUJHTGJzTzR3
 ---
 

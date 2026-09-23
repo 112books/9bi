@@ -10,7 +10,7 @@ tags:
 - carnaval
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwPzpYRZSyTFjNmEr2jl8Gp3t9rH-c8UoAj0FAba3PvcASQmQLxUHDNRuurgkaWD06i4kkPjICN-WqRPDIwPYx4soICBGJnF63arKY7J-vQoSJvllDosYaQxpBtX8Bry-twrbq0eeo7H0q/s400/IMG_8463.jpg
+  image: images/covers/817f96a1c6266e0b.webp
 album_url: https://picasaweb.google.com/100268695753733554853/Carnaval20159BarrisBarcelona?authuser=0&amp;feat=embedwebsite
 ---
 

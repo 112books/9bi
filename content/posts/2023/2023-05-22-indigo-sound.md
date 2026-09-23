@@ -10,7 +10,7 @@ tags:
 - FESTA
 - diari
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQYnCD-0t_eEudu9rQ7JjeE9L63k-6el81cFKBRgT-gCr2WsSjSimDO9HGICJMwOv8pRUJcg7btVvEZtErJwL3tLd7VMn8nlgHiHk_UdtGeGR7ciKt67mReL1XbgHD6B3ftkYK-Nd1wbsqnLl892CBZYRyIbP-CkCJAFnu_skqdxQz1PsLeTEIZtu1/w640-h428/PGF_1736.jpg
+  image: images/covers/a31af980cc1b0c36.webp
 album_url: https://photos.app.goo.gl/QCKjfG7FPVNS6zHx6
 ---
 

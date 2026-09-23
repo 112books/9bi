@@ -11,7 +11,7 @@ tags:
 - rafi
 - art
 cover:
-  image: https://blogger.googleusercontent.com/img/a/AVvXsEhnIUtPu2VeWklzm_iJUllaS7Pyw3MoKbp14XUOSm6AnXxMKUy_FmvzMiS3HweKdlotiRkXJgRk-GosSM5VfB9Jw0VNb-hp85waYGH3DiV9SvaFmE5UsfM27MPmEYwe_f-loZymSPOOVh6lR2cNNGIlvVRvtrodmACqHda7IFnhqut9Pu1OrRM70D4J=w640-h426
+  image: images/covers/268ee5b5d4cdbb97.webp
 album_url: https://photos.app.goo.gl/6EfwMUs5DRRmrUoe7
 ---
 

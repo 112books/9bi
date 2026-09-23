@@ -7,7 +7,7 @@ slug: carnaval-en-la-residencia-y-centro-de
 tags:
 - carnaval
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVbbxOTa1giFa14JyvDC52Ep5DQbQtkuLNkwiqbhc7CdgxiSwNzRtpSRdo6zvkWSd_JW7qpypNU63hQOsebOQ3WsbATzxS4IPZfuLhIvEpS8R0-rO2Qzncq8d6hBO98YTDTnuzQUaiErbC/s400/DSC06619.JPG
+  image: images/covers/d6c90f7148e37e9a.webp
 album_url: https://picasaweb.google.com/115452009915421757608/CarnavalesEnLaResidenciaPorta?authuser=0&feat=embedwebsite
 ---
 

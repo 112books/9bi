@@ -11,7 +11,7 @@ tags:
 - nou barris
 - 9 barris
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNXD_utULUkCkJJ9Ey59jvh4AYCnGpQkkCMUCztD8KB_en3JpVQ4v9uCU15wiCRDJ7k3DAzzvLJysiKqFtIYHsBfRdy8y8upJP7xBIZbq6n8xXQmxRubGAxqyN8Ltr5GMBZom9kqrOy9o/s640/_3181000.jpg
+  image: images/covers/5b3c4640b2ab048d.webp
 album_url: https://photos.app.goo.gl/1O7IKHkNG7sCbnv13
 ---
 

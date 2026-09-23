@@ -10,7 +10,7 @@ tags:
 - barri
 - CASAL
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-Nc_8JccKCbkcjpw70qhqrhWkGwZUW5YgWNBMqfhkb0Cr0K9f6V3LP9Zp3vmz9mT3haZ7yZErxAfzNBCmAClv5cOW47USRdiAJsulWh-BTA-6wKB5M2nZvJI0QoqmYVUuWMuYOKzgxqbXBSz_i_BxaWsubO3rek7C2SS1c9cMVxmcoUNOSCyG120h/w640-h426/P2330534.jpg
+  image: images/covers/6680c391373597c8.webp
 album_url: https://photos.app.goo.gl/CzWCR9oKTBxKChR38
 ---
 

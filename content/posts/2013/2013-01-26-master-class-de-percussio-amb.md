@@ -9,7 +9,7 @@ tags:
 - casal barri prosperitat
 - master class
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgF6i7bHUoFhZaylOl-fbXeMmbLdVMzTA11-1bkU6Gr72NlFQP4wHKpgq8Oka3MWvhFU2gJyuGFNBP80YgTcLphIzP1QR7ph51nRZn4DHEmNLFVP_cORr7-YQYGSGiD_Gd5C5liJ_S70_4/s400/IMG_8230.jpg
+  image: images/covers/1a02f8a10c9201bc.webp
 album_url: https://picasaweb.google.com/103138221614479310970/MasterClassDePercussioAmbBrincadeira?authuser=0&feat=embedwebsite
 ---
 

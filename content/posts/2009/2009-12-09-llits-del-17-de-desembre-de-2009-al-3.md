@@ -13,7 +13,7 @@ tags:
 - tnc
 - zirkolika revista de circ
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnXRzm_D_9lqlRSp_F6Kq9AZkpUrelVLrtaE7tzXWGDt6xI_kOUjXOa5ammr9_MoTjIFLCAnGB5PU9LdqWnJBglu4UHGEMCpQqeDtNJae99fT768_gIxf3SRih22UXAz0pGLBQ18Mo0lsn/s400/IMG_9725.JPG
+  image: images/covers/db76db9dd15d0b5f.webp
 album_url: http://picasaweb.google.es/ulls2006/Llits?feat=embedwebsite
 ---
 

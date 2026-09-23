@@ -11,7 +11,7 @@ tags:
 - participació
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhb-2vAn-9Usk7RRE2VBuYYcGG4wXZDVDn6v8e983NyAxPPjM0nyuWB6CKNLqRU7dA7SE39NDCSH8rud3VcUVGEcCykjrCU12YIZwVZL4V8UGd4l6Z3lXfV1sLmoCk6H59CqEeKw9F8gC9l/s320/P1030300.jpg
+  image: images/covers/e7e09baf233ccbb6.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->
@@ -34,7 +34,7 @@ El març passat, el Districte de 9Barris ens concedeix la primera reunió per la
 PB, que ha assumit el Conseller Tècnic, un càrrec de confiança de la Regidora del Districte,
 escollit a dit i membre del partit que governa, convergent.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3-DngXIViGrMa37UsImNzTTj3A5xTKfrvareFzy9JVGZnAaISinJnnuMbyTKvWn9sfb9eRA4MrhRmvVmt1B3qGUzm_PSB6dyx_Nbu4eObT5Rr6Iaqw3YC7zttUa6bBGixQo1jp1piAQ1q/s320/P1030190.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3-DngXIViGrMa37UsImNzTTj3A5xTKfrvareFzy9JVGZnAaISinJnnuMbyTKvWn9sfb9eRA4MrhRmvVmt1B3qGUzm_PSB6dyx_Nbu4eObT5Rr6Iaqw3YC7zttUa6bBGixQo1jp1piAQ1q/s1600/P1030190.jpg)
+[![](/images/covers/009e87476a3e12d2.webp)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3-DngXIViGrMa37UsImNzTTj3A5xTKfrvareFzy9JVGZnAaISinJnnuMbyTKvWn9sfb9eRA4MrhRmvVmt1B3qGUzm_PSB6dyx_Nbu4eObT5Rr6Iaqw3YC7zttUa6bBGixQo1jp1piAQ1q/s1600/P1030190.jpg)
 
 A la primera reunió diu, sense papers, que li pressuposten la sorra per 26.000 € i que no ho
 podrà assumir, que ha de buscar més pressupostos. Acordem amb ell que nosaltres
@@ -53,7 +53,7 @@ donat la cara. És més, ens han donat l'esquena. Sempre hem complert amb tots e
 paràmetres legals d'horaris i convivència veïnal. El criteri de rebaixar el perímetre no és
 econòmic.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8dUAuRQkT3tMRup73wlsu_oJa_v6YC8swVAStCLKJjXY-LorWKXp4uob7ZemqyTsx5hondXut-UaJN-0kDa_06budHkPwvGVBtupMDc5J8TzoNkfxQdxP_FMSKRsl3lLuzZ1bJwJP86PU/s320/P-beach+081.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8dUAuRQkT3tMRup73wlsu_oJa_v6YC8swVAStCLKJjXY-LorWKXp4uob7ZemqyTsx5hondXut-UaJN-0kDa_06budHkPwvGVBtupMDc5J8TzoNkfxQdxP_FMSKRsl3lLuzZ1bJwJP86PU/s1600/P-beach+081.jpg)
+[![](/images/covers/2ea88d297131a4f0.webp)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8dUAuRQkT3tMRup73wlsu_oJa_v6YC8swVAStCLKJjXY-LorWKXp4uob7ZemqyTsx5hondXut-UaJN-0kDa_06budHkPwvGVBtupMDc5J8TzoNkfxQdxP_FMSKRsl3lLuzZ1bJwJP86PU/s1600/P-beach+081.jpg)
 
 I nosaltres no rebaixarem el projecte global perquè sí, ni tampoc la dignitat del
 barri i la seva vida associativa.
@@ -69,7 +69,7 @@ pista, a les piscines, dinant, jugant... és important que hi siguem!!!
 Volem expressar el nostre cabreig front la manca de transparència i de respecte.
 Per tot això,
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio2EyIstdAL-C_SBFW9LXRnGCajOA9QBx0AB-uevOYYwwfgHwCpx18NKO7FDUOFz8Fw84pQDzq4c1orgliPdSS934wBPx8cgg2G11XFMXpb99Lhph5Kw_u2ESvGJi_qX7qqnmDMT0bzqAm/s320/IMG_3894.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio2EyIstdAL-C_SBFW9LXRnGCajOA9QBx0AB-uevOYYwwfgHwCpx18NKO7FDUOFz8Fw84pQDzq4c1orgliPdSS934wBPx8cgg2G11XFMXpb99Lhph5Kw_u2ESvGJi_qX7qqnmDMT0bzqAm/s1600/IMG_3894.jpg)
+[![](/images/covers/b2dfe100bb11897c.webp)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio2EyIstdAL-C_SBFW9LXRnGCajOA9QBx0AB-uevOYYwwfgHwCpx18NKO7FDUOFz8Fw84pQDzq4c1orgliPdSS934wBPx8cgg2G11XFMXpb99Lhph5Kw_u2ESvGJi_qX7qqnmDMT0bzqAm/s1600/IMG_3894.jpg)
 
 Exigim:
 1) Els pressupostos i justificacions econòmiques dels darrers anys en relació a les
@@ -83,6 +83,6 @@ d'aquesta activitat, havent provocat un col·lapse en la seva organització.
 Beach en plenes condicions.
 5) La renúncia als càrrecs de confiança per part dels Ajuntaments.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-ZNxYfbFKuiE3xY1jBWxfISKuX1ndYHO-nw0dXDsYuNkp56uwoSkjdGl4NDOHMsSojR0AnUcERPXIWXta5R1neXB2WvBC7FApHnxwnz6i0I1XwStuCyfdN7dgHwAcfdbJ-jVR3sIygWJt/s320/IMG_1265.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-ZNxYfbFKuiE3xY1jBWxfISKuX1ndYHO-nw0dXDsYuNkp56uwoSkjdGl4NDOHMsSojR0AnUcERPXIWXta5R1neXB2WvBC7FApHnxwnz6i0I1XwStuCyfdN7dgHwAcfdbJ-jVR3sIygWJt/s1600/IMG_1265.jpg)
+[![](/images/covers/6fba723b67d17616.webp)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-ZNxYfbFKuiE3xY1jBWxfISKuX1ndYHO-nw0dXDsYuNkp56uwoSkjdGl4NDOHMsSojR0AnUcERPXIWXta5R1neXB2WvBC7FApHnxwnz6i0I1XwStuCyfdN7dgHwAcfdbJ-jVR3sIygWJt/s1600/IMG_1265.jpg)
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga1fdFySTtI4582QINmaGN0e9_53PASDpGGtY525X2IerMMP7MldFFRp42mhKzeiADCkbjvW05hsG_2Ndg817wM-6uW-9DtOkGvg5gkWwyvT205S5LX0z2MUHXPThvbbgJ_NcHIE-Bc_ii/s320/IMG_4076.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga1fdFySTtI4582QINmaGN0e9_53PASDpGGtY525X2IerMMP7MldFFRp42mhKzeiADCkbjvW05hsG_2Ndg817wM-6uW-9DtOkGvg5gkWwyvT205S5LX0z2MUHXPThvbbgJ_NcHIE-Bc_ii/s1600/IMG_4076.jpg)
+[![](/images/covers/d9d47da090c671ca.webp)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga1fdFySTtI4582QINmaGN0e9_53PASDpGGtY525X2IerMMP7MldFFRp42mhKzeiADCkbjvW05hsG_2Ndg817wM-6uW-9DtOkGvg5gkWwyvT205S5LX0z2MUHXPThvbbgJ_NcHIE-Bc_ii/s1600/IMG_4076.jpg)

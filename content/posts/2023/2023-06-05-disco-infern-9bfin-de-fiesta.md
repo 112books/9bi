@@ -10,7 +10,7 @@ tags:
 - luna
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgn_CyZRX6QKtSFQ5zbo8FPgiEcvlhSQ5J6eArMg60hQGu8wNrTo5ba6IJ8iVKewdl3pe8fmVtvsD8fWLq0uqZ3P7v4-6d8_1sN0Bo0INr29kpimKW-fR7cfTmZFYCOe2jaBmKDKNvIKulcqQsb59l7q1QPWUkk7hI2JPdRO9UDryUnWpwu36cPf6gV/w640-h426/IMG_0399.JPG
+  image: images/covers/c15ae0eb376761ae.webp
 album_url: https://photos.app.goo.gl/u7mrk6JUpH8QdFix7
 ---
 

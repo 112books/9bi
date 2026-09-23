@@ -8,7 +8,7 @@ tags:
 - arbres
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4XJb1gZr7CgnguO8Wpgqfdre4udKzLP_-I9s3q0eirxDMkKaFTFBMIdcFVy-CyU8owMo2CDrojZ1t_RkKQgChUu5ceLHNt93Wy81aM8aHGI075fFXn413zxt5kikJ5tkr2JHjKx7Pv9Q/s320/arbres.jpg
+  image: images/covers/5ee2ffacead0e1bb.webp
 album_url: http://gallery.me.com/alse#100723&view=grid&bgcolor=black&sel=0
 ---
 

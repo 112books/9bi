@@ -10,7 +10,7 @@ tags:
 - nevada
 - nou barris
 cover:
-  image: http://lh3.ggpht.com/_haV9L05_31g/S5Yml965jGI/AAAAAAAAbqo/Qw9DmexZmRM/s400/IMG_2690.JPG
+  image: images/covers/cd16213fcfb85eca.webp
 album_url: http://picasaweb.google.es/ulls2006/NeuABarcelona?feat=embedwebsite
 ---
 

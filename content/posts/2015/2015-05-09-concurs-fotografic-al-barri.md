@@ -11,7 +11,7 @@ tags:
 - roquetes
 - concurs
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4oVZWJEriufS4_BUCD7y9NiM0m9HjpzfmXnCb4wO23u3SqeDEcvzw8v5aga3gJuyGwm0pRpsAwersjTau8Ueut-WbHeOCAmHGsZXvkBgNfVCOolNPdUMKyF7u350AIlA-vONy87HD6Kk/s400/Cartell.jpg
+  image: images/covers/976fb542272cf57c.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ZOOMROQUETES2015?authuser=0&feat=embedwebsite
 ---
 

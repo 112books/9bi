@@ -10,7 +10,7 @@ tags:
 - Tosky and Honey
 - vermut sical
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpiH3sTtpNIruLwZNc0YtBSOX4yY7RasEBb37BMTFqh0FveM5vSNYAfL9WLjC_vh87xlzxXdaBzS7ndGIcuOTaX2S9GzmwyHxi3RhInzXjr_nfapXOVF4Gife8b5f_XzwvyPMjfx3hH-s/w640-h480/IMG_6297.jpg
+  image: images/covers/5847a9cdc9b75b5e.webp
 album_url: https://photos.app.goo.gl/6wSKMto3yGA827Q99
 ---
 

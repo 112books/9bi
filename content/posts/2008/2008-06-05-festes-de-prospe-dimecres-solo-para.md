@@ -9,7 +9,7 @@ tags:
 - festes de prospe
 - solo para cortos
 cover:
-  image: http://lh5.ggpht.com/linuxbcn/SEeXL9NKplI/AAAAAAAAX2k/WpohGF50Aek/w640-h426/IMG_9975.JPG
+  image: images/covers/09ae93dc6c2294ca.webp
 album_url: https://photos.app.goo.gl/heTdeqDeL4DVRLTY8
 ---
 

@@ -18,7 +18,7 @@ tags:
 - nou barris
 - Omega
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwk_i0gZZxh7KqknC2wtk_MGN2Igzxs8KD_UC6R1BUQgT72b38UXPTTzpp7NHAitmbhPFLi33bMYCupc7ejlDVIenwTsPh-o14CYouyOtxbcTXHDwI5xiLdOTKsOdPPQC1dBZuTcJ0P-L8Vs6AS46mRH2VUKUhUya1EjhyphenhyphenhL38_FDmHjZrvr8u0Kvf6OI/w640-h426/IMG_4669.jpg
+  image: images/covers/962a6b92273a63a3.webp
 album_url: https://photos.app.goo.gl/icCcw7jDzSutrWb17
 ---
 

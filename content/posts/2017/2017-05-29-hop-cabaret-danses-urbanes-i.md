@@ -11,7 +11,7 @@ tags:
 - dansa
 - CASAL
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ31qFqYpe0ZJAgvBbratBb61oOUVnvMoTE7T13nOtFJ3aVa3TBNP0gu7Qi0XAcVo4EAvc0oeT1kjm5CUyxZ-owEwO1wR6U4rmvawztkHBv1bGNLgcrKMzR7LNidqoxerR2VI2bfxBcpU/s640/P5280176.jpg
+  image: images/covers/c8dde8a7f9ceb3ba.webp
 album_url: https://goo.gl/photos/KnWxXKYyw5M9bxUVA
 ---
 

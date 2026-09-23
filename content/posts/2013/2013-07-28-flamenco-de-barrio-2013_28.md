@@ -10,7 +10,7 @@ tags:
 - flamenc
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLCLLId_VUXwW_0flFWa52SI0nuvrsIe5AedcyqsV8XG2_U2AlHmCBsFAdS2yIXg1tpMLPDCnNqds1QuyWdhzhdevq4SeaRUBqLZhFKbCujoO_rEW_q_OsmxTzCVcYrP1Y7juPgoXuhDY/s400/DSC_3598.jpg
+  image: images/covers/ab72fc51d9bbe5b7.webp
 album_url: https://picasaweb.google.com/115791131166530059320/FLAMENCO2013?authuser=0&feat=embedwebsite
 ---
 

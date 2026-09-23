@@ -10,7 +10,7 @@ tags:
 - Morosito
 - tradició
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjepoG-Ki9POBtiT7Mqhns5PKsC2zWwkmwYpfBi5zzRD18I8b4J1444xnQ-cDV3g3TQ4QcZ_m6dBGXdlERTv_RnkozXiLJIN_trNa624OrsseEvAxGBs8-egyUg0hkMaIU7oT1ryYdE0vTl4XvPF1ccN2gr1LZZgj8MwCAVoiHdUbhdlWYAUSL4whv_0Go/w640-h360/L1360927.jpg
+  image: images/covers/6605da776b6be78c.webp
 album_url: https://photos.app.goo.gl/xPGMyoNim9iZs3Q56
 ---
 

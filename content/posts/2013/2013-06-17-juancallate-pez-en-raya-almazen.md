@@ -10,7 +10,7 @@ tags:
 - ABSURDO
 - Marc
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd_fRNg-aMmLYxPwAVAALC7slJgBnK8_raGHS09nG6Ox6jOa2jQHXhmIodWcKuNpUNkVZd40hA-ndQRoQ4mKBChiOIvJ-5w8W0wbEjozyjRpBr9eGe3YqCnVGSIpq1yIcsI8pX-1qNxxRA/s400/IMG_3644.jpg
+  image: images/covers/f95285d399829dad.webp
 album_url: https://picasaweb.google.com/100268695753733554853/JUANCALLATEPezEnRayaAlmazenBarcelona14062013?authuser=0&amp;feat=embedwebsite
 ---
 

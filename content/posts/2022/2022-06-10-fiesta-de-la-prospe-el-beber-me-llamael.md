@@ -10,7 +10,7 @@ tags:
 - nico
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0e9f6vBzyIwh-YcqPlfUNTjAfRbYsTV4bJxAs1SC2WQq7II4yJp_kBIGEJL_dmF_bipv1I4GYneH9qFt46mHad8hYhFakit98Mh0T3GXZuKenGJLl3TrgR9uVdoOU8wBb5c-WykJNJILw-FN5OkFwXBW8YGkaIZ3O9FsZMbgKYiCpX5JzgrjSSOPT/w480-h640/P1040851.JPG
+  image: images/covers/1ad2f584fbec221c.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

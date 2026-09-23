@@ -11,7 +11,7 @@ tags:
 - Barcelona
 - pocallum
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhCOsCEdVzwmDg7v5CX1wwxcefxz3YMULiNmlpOg31FVXsY3QGEYZXN-zCWcgKGsEcqLhPEJsz4-2ExUse0pz6AVAG3hEs8D4vuuh_ArNOYt7GCowX89N32Q6AyPJ38zQxzc0m77ndYlwTI7Q0dii84UrYtTUdMxYCU8Afo53AZR2HEt4eAxSXMHf98dw/w640-h426/IMG_2315.jpg
+  image: images/covers/e0c9c681f931a6b4.webp
 album_url: https://blog.pocallum.cat/2025/10/27/2025-10-26-ciutat-flamenco-barcelona-chicharron-circo-flamenco/
 ---
 

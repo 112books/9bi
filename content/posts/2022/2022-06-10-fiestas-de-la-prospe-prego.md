@@ -10,7 +10,7 @@ tags:
 - pregó
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-xGTMaTfVqzY71YDKSpBgmYeJJUHxcYCJe90MCvXbmTH53XljMp5LmsT7nPktL_9txnvFu0rdEtohrIIeAjnbtnJJQ7V3hqPDqGM8RbS608CepYt4Rg4dy1CBZP_9aeJlLzgOpm5cL-9SWjFQMpnoeNmBqkrGfmddItpZ5az5WSoQK3LIVszwqSJi/w480-h640/P1040681.JPG
+  image: images/covers/1e5e5dc1c0bfb758.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

@@ -11,7 +11,7 @@ tags:
 - juanito piquete
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO_-3BeM6iXPo8AtqHPGU5_BWowjpMBXUrstLVnuGJTyjaPtTf9aINbwzcDLiv2WMxOeiKvnQCq6pjdNnbsR5D6hRlxx1hwzTxJTWcAqQpOI-tgbNXDooEzGmxJnrP1FQMuz03WhIii6w/w640-h426/IMG_7383.JPG
+  image: images/covers/b18f744854f8c624.webp
 album_url: https://photos.app.goo.gl/tXdsxvTg5PxNX1Dx9
 ---
 

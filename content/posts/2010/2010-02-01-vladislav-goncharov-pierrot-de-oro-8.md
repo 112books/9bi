@@ -10,7 +10,7 @@ tags:
 - festival circo budapest
 - vladislav goncharov
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0UXM4BY2Smzc1aMQjLiM2ca-Lu8PGBbjKZT_y-y_mvmz6dq2A_s70u1dlZGcMNapmTSksSBO0kthRnxi8E7e97eXYJ1VxVqZOMD-6mUCKbohCTSTawo7E2nSMo1_W9pZNCJKWQ53MB6j1/s400/018-golden%20pierrot-vladislav%20goncharov-lions-ukraine-festival%20circus%20budapes%202010-%20foto%20ulls.jpg
+  image: images/covers/aff4c685b7ac537d.webp
 album_url: http://picasaweb.google.es/ulls2006/VladislavGoncharov?feat=embedwebsite
 ---
 

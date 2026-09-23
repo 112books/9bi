@@ -11,7 +11,7 @@ tags:
 - soroll
 - lliga
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3cwsXo6O0giaraHNIP8SLY5AI3Xb1-AEI3qy588-VSG3u1ekwb4mSH9mHkj6e-dl-BaaqTmYnfs387wggrRvBdfp5AzzimsmukdQW7nIhYlbfbFxusuSFyF-0dZliTFTmOaldG69ZjP2i/s400/IMG_1937.jpg
+  image: images/covers/0f209d30a5901e8a.webp
 album_url: https://picasaweb.google.com/100268695753733554853/TotiToronellNAIF02?authuser=0&amp;feat=embedwebsite
 ---
 

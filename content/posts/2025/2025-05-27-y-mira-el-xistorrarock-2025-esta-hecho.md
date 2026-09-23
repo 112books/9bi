@@ -10,7 +10,7 @@ tags:
 - rock
 - ruta
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyfVusku0xiZSbjNYGTklUMKwYJxuq6FoGn5PsoU3EeMWURBOM1SKfcqYi4JiuGDwqa8fXQXAWzSwfEBjKrz-rSZaFWln0-BVp6yN5PPvQgXEaI03ygsM1OLRzHQ0DSmCwyECpcT8KByjBjcJW1oBRI-0rCqSVtE0skrFKKJY3b8OaiaZaTNWBmr0a620/w640-h426/P7F_5645.jpg
+  image: images/covers/3fb2e7eba776ffd4.webp
 album_url: https://photos.app.goo.gl/5zUaWKDeRUY99ZuU9
 ---
 

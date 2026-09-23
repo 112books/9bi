@@ -8,7 +8,7 @@ tags:
 - guateque puretas
 - puretas
 cover:
-  image: http://lh3.googleusercontent.com/-ic9IEIbvOFY/VXGBgUJVQWI/AAAAAAAANoQ/6aIhjn0-lOA/s400/GUATEQUE%2525202015%252520-%25252001.jpg
+  image: images/covers/2dde8d5fc2cf6413.webp
 album_url: https://picasaweb.google.com/111964096227458093905/GUATEQUEPURETAS2015?authuser=0&amp;feat=embedwebsite
 ---
 

@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - Mirta Portillo
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBc3KO7Ba3o8MSi-jwCXEuQOe5RKLsmpdlx69ymmfoofmQaWvjYG1um_Be1b0aW85ln-xT6vWe0q7Yuw_1Wrvhff1OUnvND46FIipJ96UU0dH0mel39yYKXyFDf0MzPCe4S-R8N8rUFOs/w640-h426/IMG_8207.jpg
+  image: images/covers/2afaefb095ceaebe.webp
 album_url: https://photos.app.goo.gl/nhzAMwpN973bqBdn6
 ---
 

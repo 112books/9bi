@@ -7,7 +7,7 @@ slug: casserolada-de-acampada9barris
 tags:
 - casserolada
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjADvNl0zkgb4BcpcB8pO1XbQMsBKJ_Pz2z93DZpUglgwLaN5_A9Qm5iqC_oGLGEdvRAm-4eIkGzfAZr5CqGRnxMVy7YDwm-eMPrQZNx0vTLevIZEwDtjN7Rgywfp5zI_OSMn9F80iES4s/s400/IMG_2243.jpg
+  image: images/covers/9066fab5643b1d5d.webp
 album_url: https://picasaweb.google.com/linuxbcn/CasseroladaDeAcampada9barris?feat=embedwebsite
 ---
 

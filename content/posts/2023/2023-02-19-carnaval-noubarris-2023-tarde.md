@@ -10,7 +10,7 @@ tags:
 - carnestoltes
 - noubarris
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd8svnC9PKWHq7HbeE7DlEQe7gxyOKRwLeJjt8MpRO5yrLVz9q7MiUuLI4yw8hUCnq4ABisEuNxb7YN52Ku8dL6A1dziE2CP_hGPFq6dulzfZX1ocOKPkQlQaYIgUNVB9s2PtRldAQXSw5PBfbPh3SZZos9vOs8tRu3__9BGHU75BpXbc9BXZjWDi1/w640-h428/PGF_9269.jpg
+  image: images/covers/b6651dae9b078e42.webp
 album_url: https://photos.app.goo.gl/2jZeJaqkN8pH4E4t6
 ---
 

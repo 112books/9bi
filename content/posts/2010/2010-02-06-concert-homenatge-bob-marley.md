@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - Zulu Nation Barcelona
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjblKdvg-a-Mg1ZN_NEhF1rgK8CAKwqO0IvLUho23kXp6i79-urgiBsWVEmUVTKZ1sfdkwV1_5nnoz04yKRxsp5nzva4rMlK3jh9HO02dNdWEpd5uXAyitZabWnkq_nQE_7B5qdLBhWPZE/w640-h301/IMG_8993.jpg
+  image: images/covers/dc1437ec64b5974a.webp
 album_url: https://photos.app.goo.gl/Cwm9NGzMNW3GMhQV9
 ---
 

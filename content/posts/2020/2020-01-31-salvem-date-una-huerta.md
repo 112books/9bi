@@ -11,7 +11,7 @@ tags:
 - huerta
 - rescat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgS0Tc7zljcp8fajB92cRcgjjeY8YC0XPXV1fJQFM94pS8Csbg5elYMLuxQ-P7C4vaUOoJccSOrcMJ8RNQDni_3NrzDX8TUq8LkyrAQYxwyijC7rSguBbvqdoM10TlKZkLmJO1uLyNz6REo/s640/IMG_20200126_124540.jpg
+  image: images/covers/685547426aa323a5.webp
 album_url: https://photos.app.goo.gl/qxPA1P168Y9dedGt9
 ---
 

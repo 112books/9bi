@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiVBrjVYXK7sBTwJSu-IOeuVAKXJ-Z8VIvhSyM_hBIb7EQ9GFk24K14GiMGEaHS9N8ieLrEBYKdmhOu8tNkUbUcvqwVjO2b0MfTcdkEGyk8-K4B0BvrgxjujUZrcWjYGRop4Ti19kQ8ho/s640/DSCF9231.jpg
+  image: images/covers/50fe628708d849be.webp
 album_url: https://goo.gl/photos/7n6skXZeQKhFiE597
 ---
 

@@ -13,7 +13,7 @@ tags:
 - vídeo
 - xarxa 9 barris acull
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOBC4RTfl1TY5lS3e65d0HBpvsWiDx0M5ILHL46dCa7KoY4m_VJFvfO0XZcCIFZqHShO4rkLEWN1TtKrUhDyqhziVGjvQrfuXgTJlkJ1FJg90wSK7FMS76ENvo6n1u89Ye2UpOLKhNwIY/w640-h427/IMG_1503.jpg
+  image: images/covers/3e19359d649718b6.webp
 album_url: https://photos.app.goo.gl/zq2xKniFStZE7PW8A
 ---
 

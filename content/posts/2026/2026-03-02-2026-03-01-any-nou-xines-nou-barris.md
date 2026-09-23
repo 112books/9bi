@@ -11,7 +11,7 @@ tags:
 - fotografies
 - gastronomia
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZyHdFx0unZ44BCB3CC3odaekVhAK3A883ZUxpHM59n5F5vec02Ei8xjmTBeQBXncHs4kTDAE96SiFLZ_nSB_JrQPZB-bSdlnPumoa5ySLX1_n4c8NmWI7gxRS9mDqHYRYcZ2ncvtv5VbsPmf0w5Y1vWbFxMcnMp_s8vACJd4qAmc44og51xoHWd8Vmbs/w640-h426/IMG_5316.jpg
+  image: images/covers/504952e9424c2975.webp
 album_url: https://photos.app.goo.gl/8wkVpZXvgKGteFNp7
 ---
 

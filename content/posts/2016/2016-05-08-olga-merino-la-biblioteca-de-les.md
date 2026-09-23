@@ -11,7 +11,7 @@ tags:
 - nadal
 - neu
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBky8Wb3eyGj1ekbODrg897zRuI0F2s8y9NNQIP10XVyR7eJUG9wSlmAXIeq_BSPGJjqXtwHE5lTgmTy0MHsh0S9SvcNOTV4zKSqu_MDP15-inRIvmbLZ8aLhJl6Jc4YgyfMq5MgUo9d7l/s400/20160505_192923.jpg
+  image: images/covers/98305ae59ca84132.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6282324329678752881?authuser=0&feat=embedwebsite
 ---
 

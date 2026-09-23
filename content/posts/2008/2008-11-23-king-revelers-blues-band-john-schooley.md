@@ -12,7 +12,7 @@ tags:
 - linuxbcn
 - vídeo
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgL2dX55Z9EQwn72EvzciUFiq-7TVb3P_rrZq9xtpqbo67G42dZxhni765JIrd229GSSjZ7X2yLgM3UzobSLealM2xzzexHLSWm55H0ie70D8GwdGJL0HI6oGXXB_P5TwNa_dJtUcssr7U/w640-h426/IMG_9055.JPG
+  image: images/covers/4723d010c929cdb3.webp
 album_url: https://photos.app.goo.gl/sYSMERJx6rXYmjwN8
 ---
 

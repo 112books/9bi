@@ -11,7 +11,7 @@ tags:
 - Juglar con las palabras
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeq8Z_XJ-Hqv5XJP1SdMpUe4PltB0mriTGCsgpLdYTCm_UiMpM6bf_ttZJCkFNOEq6tcHWCbl6BEcia5PCgWZ8CQypKNWmIDo5NBpJFkrKe3PWpiFbE4_7t1i2qGlw7nWZsXosVnesW5w/s400/IMG_9848.jpg
+  image: images/covers/7abc30edccf452de.webp
 album_url: http://picasaweb.google.com/linuxbcn/CristianAtanasiuJuglarConLasPalabras?feat=embedwebsite
 ---
 

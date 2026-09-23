@@ -11,7 +11,7 @@ tags:
 - barri
 - rock
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPCmSEQMkcA2g6aptiaKVoUaAq1Bjujq-dvLEIfkLfCQuw-aJXV2SprvpkSv8XGR0OrW8rPay2y_4eS5GVdCjK9p-FA6eAr0pLMmb5N1E7gZDgrRin1x5UusgoVaegVa1bKkycjQZhEUn-K0_-EEBzOm9FFiPxY6CkV-Uf5YGS-yo0trFDaccYF_bMY2k/w640-h426/IMG_0058.JPG
+  image: images/covers/7738caae3a7cf5eb.webp
 album_url: https://photos.app.goo.gl/6kDidcuJCu5pnh9D8
 ---
 

@@ -11,7 +11,7 @@ tags:
 - Poliesportiu Valldaura
 - reopla
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiavscq3z6byJj6PAKgnOPexzBQKyImKAP1-216F5CGMJ1ByuXHM3G2HhhE8VgLUPKm58v9WwmZ0PcXQRBdw6YceZpofjuBeHq8ajlHZwArgfD9Get_bGcFOHpxLCcJjBWVUNsuOqwJTgM/w640-h427/IMG_8887.jpg
+  image: images/covers/df8655a448275e9e.webp
 album_url: https://photos.app.goo.gl/HpWmGpe5uTKcKgWN9
 ---
 

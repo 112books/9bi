@@ -7,7 +7,7 @@ slug: expo-rai-ferrer-40-efemerides
 tags:
 - expo
 cover:
-  image: https://lh3.googleusercontent.com/p-sL7AXGHEAPtZU6Eci4hsmHYlZSztQdCZhOmy8ag3toq5tzhTWwc58h5CdEJZn0w1gxdt0OjLAZx5g=w2560-h1440-no
+  image: images/covers/7252cf93e50c48d2.webp
 album_url: https://get.google.com/albumarchive/111964096227458093905/album/AF1QipPl7O2JFL-apI__sZuXPCMH9o-7E4lHiHo97JSX?source=pwa
 ---
 

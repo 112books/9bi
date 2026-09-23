@@ -8,7 +8,7 @@ tags:
 - activitats
 - verdum
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg78VN8LuSoB0dzvhNDhxYCbamQ0Ml3ou77ecc5dC3qJPllv8u3YYJpBUP2yhhgL5zquu91t6R9emTGX2BLtR4_OKbAbeMXLhdgTbvldKNbHbY9d9dCHj5Sdsz2iOt-SYSF37K8gWewytg/s400/P9120004.jpg
+  image: images/covers/0125be1bc53d8634.webp
 album_url: https://goo.gl/photos/BrJFyXB7WEXvvsfg9
 ---
 

@@ -7,7 +7,7 @@ slug: cardova-dissabte
 tags:
 - ateneu popular 9 barris
 cover:
-  image: https://lh3.googleusercontent.com/-3hOTWvEBIz4/VFeVy4WcSQI/AAAAAAAAFE4/VxS2a0I3kXY/s400/Cardova%2520%2528137%2529.jpg
+  image: images/covers/7b4517e4e17bb6d9.webp
 album_url: https://picasaweb.google.com/116805523004990742624/Cardova?authuser=0&feat=embedwebsite
 ---
 

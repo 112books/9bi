@@ -8,7 +8,7 @@ tags:
 - Feria de Abril
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAEAIWQEPZUwor0hFd9ke9sUU8fQBESvJQvikEqEOK14MhYFKoOW1pR4BBHWaiBR_vLWmEPR1D5k0KgyI_rwBycwrPRLD9U1Ul7l6tLHxnemOCKYrF3hiB7Tia7uvnGjr-gWMnZZJNKT_2i4-N1gbDa2wnF06wqP5fwzI_22zIlLJM850wpk89wjWf/w640-h426/P2320705.jpg
+  image: images/covers/c6444e7e7a245e29.webp
 album_url: https://photos.app.goo.gl/W3Z1gVapUVcgaLLu7
 ---
 

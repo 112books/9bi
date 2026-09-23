@@ -10,7 +10,7 @@ tags:
 - art
 - món
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipQvXUL2qs97T97JDEtMnSuItjLDWW2xA54x0nr2d_lOvaDbNlVcw7jWxXf053cQz3SDR4UugSJe0SqJK6WtQnUYwvCJaS7lqpJjeXryt2U-SvYGr_VAU4UPIuwwBCt-Xwpe2qgHvMSno/w640-h426/IMG_5511.JPG
+  image: images/covers/dacacb7d099a5fc7.webp
 album_url: https://photos.app.goo.gl/6mY9LWcw15pwfXRr5
 ---
 

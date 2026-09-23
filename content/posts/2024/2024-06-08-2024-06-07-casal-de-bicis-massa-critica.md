@@ -11,7 +11,7 @@ tags:
 - Barcelona
 - directa
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXu14uWt5oJvOUDNU4mAVIK-Y7shbsIRnRc55e3fS59goDvykbXOeq7GR66AJRmDyulle0KFjSd9EhVeAXlsZbvc2korwM1rW7f2-KMHOqggrg2ao6MEUHxI_New7ba0seooTOtqtEKtZYQyPG24oRiSQM5WW_27NmKhcO9B5Xa9VgZfo5lPf-Nhlrh4A/w640-h426/_DSF2956.jpg
+  image: images/covers/abded944be6b024a.webp
 album_url: https://photos.app.goo.gl/pcsbEUNuUQQLxwTp6
 ---
 

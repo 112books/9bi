@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - prospe creativa
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDoJtVj8gnhl5BTG1RWFZznEQIxKuf9ZOUZdDo0hzOlOdstL2geXrI-iYDxBqb6xBNAbVOgYbXIZ1zFE5lbV3TnMrpNmhpRF5e1Gcr2Z2S7eQ6lxPVNOTYEvOh6KlWXWBX9_KG13NlhTo/w640-h426/IMG_1576.JPG
+  image: images/covers/a3f9b3972c56e24e.webp
 album_url: https://photos.app.goo.gl/4p73X9GtzR6U3r2P7
 ---
 

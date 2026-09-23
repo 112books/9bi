@@ -13,7 +13,7 @@ tags:
 - Victor Urie Blues Quartet
 - vídeo
 cover:
-  image: http://lh6.ggpht.com/linuxbcn/SEOmQNNKkMI/AAAAAAAAWZI/QK4ck6DAC7Y/w640-h426/IMG_9424.JPG
+  image: images/covers/ff1b8a3bf7ea77ab.webp
 album_url: https://photos.app.goo.gl/mRjhaxRnL9oREU218
 ---
 

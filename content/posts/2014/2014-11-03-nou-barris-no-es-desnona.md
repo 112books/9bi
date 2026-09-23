@@ -10,7 +10,7 @@ tags:
 - desnonaments
 - nou barris
 cover:
-  image: https://lh6.googleusercontent.com/-yRDXpWlh1tU/VFebFaSGIaE/AAAAAAAAHmQ/uGMaexPl0rU/s160-c/DillunsDeDesnonamentsANouBarris.jpg
+  image: images/covers/5b51fc5b782a3309.webp
 album_url: https://picasaweb.google.com/114858497713897843587/DillunsDeDesnonamentsANouBarris?authuser=0&feat=embedwebsite
 ---
 

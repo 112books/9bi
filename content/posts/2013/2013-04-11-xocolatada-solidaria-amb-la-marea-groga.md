@@ -10,7 +10,7 @@ tags:
 - marea groga
 - plaça Àngel Pestaña
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil7LP2LBBYwZ912y1nY9Odk1z9vBqtYnUdKFrJQd39Rt6fF8iKQuJA5XJi34_jqvt6rLNNi0BK8slYMzoo42nSfMUD14GgPcbrzksA7Olan6tyGt1jBO3NS1JtwajpV9-OFJrToMcUdgs/s400/IMG_8568.jpg
+  image: images/covers/5d1efffa51a459cc.webp
 album_url: https://picasaweb.google.com/103138221614479310970/XocolatadaSolidariaAmbLaMareaGroga?authuser=0&feat=embedwebsite
 ---
 

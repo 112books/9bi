@@ -8,7 +8,7 @@ tags:
 - casal barri prosperitat
 - castanyada
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhCPqvnrqWt6Q0yEAKoajOERrIuTuyQdJOhiUmgrolRYQg-UcqFEyWG7lalvosIzoDg3OjlAFG_1aANLf-8y8oGSNLIsbjCF7dwXmvOTpppmBx4th94kBi2BSNDk05iV7jkZWSUo9IKZ4/s640/IMG_4366.JPG
+  image: images/covers/8a87c717a3e8512e.webp
 album_url: https://photos.app.goo.gl/ocuuD6ZHAtg762Sq8
 ---
 

@@ -13,7 +13,7 @@ tags:
 - Prosperitat 2016
 - Rock & Rios Band
 cover:
-  image: https://1.bp.blogspot.com/-hdXD2n2EhLQ/V0y3RLfIUCI/AAAAAAAALns/Fb3-MfZv0P86t9gjxRSxnnQLymVMkcokgCKgB/s400/Inmortales%2B%2540%2BChistorra%2BRock%2B2016-7.jpg
+  image: images/covers/ee39b0ad68ebdfae.webp
 album_url: https://picasaweb.google.com/115837747848659272017/6290604097420016081#
 ---
 

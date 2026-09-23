@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - música
 cover:
-  image: http://lh5.ggpht.com/linuxbcn/SPCzjyFNKII/AAAAAAAAhgk/KZxFidvWjxk/w426-h640/IMG_6400.JPG
+  image: images/covers/6d1b0919dc874787.webp
 album_url: https://photos.app.goo.gl/zsF4msL4T6gmB3Ny8
 ---
 

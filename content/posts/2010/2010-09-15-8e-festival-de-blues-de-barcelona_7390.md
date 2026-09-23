@@ -13,7 +13,7 @@ tags:
 - masterclass
 - pere puertas
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUm14sYuC6Q-aNzUYYi74yxRrtRWOTR-Ev24wiO5fpEjX8o6WQHreJ4bbplgJqfr_gGYhiOivz8BTI-yyg-0eBpa-rG0Yq7e_E9rkV0m-nmp133btnp0vcKmjN8tiiruC2U3kD4gBMG_k/w640-h427/IMG_9932.jpg
+  image: images/covers/4fbce93798abf4fa.webp
 album_url: https://photos.app.goo.gl/ZehERk3mNGNP73tS7
 ---
 

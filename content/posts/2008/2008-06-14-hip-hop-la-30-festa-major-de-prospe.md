@@ -9,7 +9,7 @@ tags:
 - festa major prospe
 - hip hop
 cover:
-  image: http://lh5.ggpht.com/pedro.cervera/SFOru-6240I/AAAAAAAAAYc/ZBCvbzemmu8/s400/IMG_2531.JPG
+  image: images/covers/7b8712c9e7c8e0c0.webp
 album_url: http://picasaweb.google.es/pedro.cervera/HipHopALa30FestaMajorProspe/photo#5211698017449993026
 ---
 

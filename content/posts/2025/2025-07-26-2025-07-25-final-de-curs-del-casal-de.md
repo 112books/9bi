@@ -18,7 +18,7 @@ tags:
 - ritmes sud-americans
 - Sol Homar Ensamble
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmXGEKwtuOHZYIOceS5qfRRfKBnUtZvCrxFrwnlKLcxlw_Ss_8teJGoM9lgM9wlMFplDIr-fN8nlpGI_1c17DR6KUuXono7uO3xfASW2onva4cW-GFk8B6LqufEHlSDy7QRKX2AIp74lnAOG3Vt1sbUxRlBMAESyagA5Olq8_js7WiZGGxzEo1xcFOwO8/w640-h426/IMG_0173.jpg
+  image: images/covers/7e67e53895b9720c.webp
 album_url: https://photos.app.goo.gl/2uBg9nq22QYYY4ZY7
 ---
 

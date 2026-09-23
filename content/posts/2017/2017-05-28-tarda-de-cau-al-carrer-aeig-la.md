@@ -11,7 +11,7 @@ tags:
 - dissabte
 - formació
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQwY9Wmafl30gVnXfjabh_Zi2394dYZ536b49pmRmRiQqh8StOfk2SwlvbVh8W-dwtTvsEYlWo_XHsZwVl6K2k0BG3tfGQPUyekBrKNx77lco2hfsnBLOpyZrSIpIRTnaQ20aXT7Toox8/s640/P5270045.jpg
+  image: images/covers/1c601955e0cdd991.webp
 album_url: https://goo.gl/photos/MEFABrew44ALB6oaA
 ---
 

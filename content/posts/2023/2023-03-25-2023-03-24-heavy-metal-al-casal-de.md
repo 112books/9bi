@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - heavy metal
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkmBzYqyWkcaHGUtDTDxoiw5-c6TtJPiO86Lqq_OngEsT5T4QhYX-1ESZSt8UZo2NuK3MwA5KbrhG-hkrQ36CwmAScWoymXzH8JzIYwt2NAHJpJYMKdKjP3qWxYLVA9U6RdDYePz9WuUwyqH-HC5Wge3E6BRL-nmO-fC0DKnP_tS8FPX7aONiYbnLM/w640-h292/_DSF7279.jpg
+  image: images/covers/77d77a2aea9e3831.webp
 album_url: https://photos.app.goo.gl/21BzQ2bSjobiQuD17
 ---
 

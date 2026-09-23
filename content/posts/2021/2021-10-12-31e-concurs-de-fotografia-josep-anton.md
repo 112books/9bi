@@ -11,7 +11,7 @@ tags:
 - concurs
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7bU_0PJR8cD6msuEXjGFN18S80mOn4-aUXwkZkk2s_QPL1KakC9EH3MdhnPjEVYeJWXHWogirF-iA2x6ahEEuJSV0umS8eAMGL1aXdrgUTug27l5EBiEhpwGMPLnHkjk0dskKkBN6M4A/w448-h640/CORDONCILLO+2.jpg
+  image: images/covers/19943483f712c43f.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

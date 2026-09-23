@@ -10,7 +10,7 @@ tags:
 - transport públic
 - trias
 cover:
-  image: https://lh6.googleusercontent.com/-_LlPmubMYUY/UwZa2I4MUwE/AAAAAAAAHCA/dwYMAOy-YVo/s160-c/LLUITAPELTRANSPORTPUBLIC140219.jpg
+  image: images/covers/993edde05ac247ac.webp
 album_url: https://picasaweb.google.com/114858497713897843587/LLUITAPELTRANSPORTPUBLIC140219?authuser=0&feat=embedwebsite
 ---
 

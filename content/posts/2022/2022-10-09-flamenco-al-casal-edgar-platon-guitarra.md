@@ -9,7 +9,7 @@ tags:
 - CASAL
 - flamenco
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTPoXPdJM4r2Ygnt5fD-h8u0tmyQTNNa5kjujDlZd45tqPcKlhfj9oC6ImleRrb-kuC-VKCHDuIK3OeLJrTn1ZAVgcc1ES7_C2Fg8kCP7vGkJcFq90u5vMyL2seS3ubQqX6z6wCQt5jc4uZkrqo9qp1K-UMczsitbAuw_A97jRhGP_t-KjkUrNvgdz/w428-h640/PGF_6179.jpg
+  image: images/covers/9f87d831bab41baa.webp
 album_url: https://photos.app.goo.gl/s8f1wgVFzFXCbbr29
 ---
 

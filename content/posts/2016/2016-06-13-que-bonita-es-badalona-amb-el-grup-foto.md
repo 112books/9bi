@@ -11,7 +11,7 @@ tags:
 - fotos
 - rafi
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguKuio4OmXz5VyE4tXRInWWC6uwlov3-0hbBp09EPH-3KF5ZxSP4lTx6cJZMlUc34OO3FObwcLrOtgTxjB6SaAy0f8QrbEQno3lMTQMVdZrMi8FURxfQDNN0bSt5bT1EUnE-4jNvLyoi4/s400/_DSC0096-2.jpg
+  image: images/covers/cdeb1716670a01ce.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6295431813096466833?authuser=0&feat=embedwebsite
 ---
 

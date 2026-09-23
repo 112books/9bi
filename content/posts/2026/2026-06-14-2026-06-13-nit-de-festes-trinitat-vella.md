@@ -14,7 +14,7 @@ tags:
 - Tribade
 - Trinitat Vella
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy-14Dvq6tVggcNk6Aq1Vjqek_xiDGhRm5cYpqMWGsHw8qSm2pmgHGsTuF2HDY6v1ulxrI0m8AKdXJBZBlcXkyhc0B8c8zvf94FrpNxGI5GAxWlooF-dyXVtnYBXzHLNAzTpbBpBKo_5xPdaOhmrbU3r9Wmb5EKeDhHMLungN0VtINacHC2j0k6KJB3cI/w640-h426/DSCF5611.jpg
+  image: images/covers/3e208bd4a26c8454.webp
 album_url: https://blog.pocallum.cat/2026/06/14/2026-06-13-de-tour-per-les-festes-de-trinitat-vella-i-roquetes/
 ---
 

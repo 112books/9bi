@@ -9,7 +9,7 @@ tags:
 - DaniG
 - Seu del districte Nou Barris
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpZQI-bPkR33LuDgFCtJrnTHVWS-xgAz2zO-mhYFSxRNv6j1XM3oIRrsbUmMIOmINCPIORF6-aSINuThGD67Of5EgkfCyqMrIfYv5I1AcQuWt04fy2DNLwCy-kSHqAUbkBcxAJJdnZb4E/s400/DSC_0579.jpg
+  image: images/covers/3686a6d3d086a150.webp
 album_url: http://picasaweb.google.es/danigcaballero/CaceroladaEnElDistricte#
 ---
 

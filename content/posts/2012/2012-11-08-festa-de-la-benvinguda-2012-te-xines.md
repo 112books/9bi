@@ -12,7 +12,7 @@ tags:
 - xina
 - xinès
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfW-WD0-1Cg6iin7U9xuuv5ZcN8lGozlObt7Gz8ZbomVy1vDqDcyWwWzNAsL45ItG1zGR3tCMlKWTdBUN5eoPK_R8zQZ1xTvYrrTnjosro_C1QyKKj6Ozx6cPM_hvgFAULunaVudpNk0Q/s400/IMG_5885.jpg
+  image: images/covers/efce363d0825e068.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestaDeLaBenvinguda2012TeXines?authuser=0&amp;feat=embedwebsite
 ---
 

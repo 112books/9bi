@@ -16,7 +16,7 @@ tags:
 - Orquesta Mitjanit
 - pocallum
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSoO2eZJL0VPMM55QJsRMkzQ_mBk21FGOFxKHl6TTdOY_5oCG7IhD7VSo9qcQ4RGJaCO2dGQH47ysab_3J6NCbvoDqSTRX3_nI7lfNkigMtS_qZ5Jg72uPgCRwuZu84vVB6sR-lk1VeBBFcsHGCBobfpa1PFJ7i6ymseGWXK9od9hDHBGunfM47MH9sJ8/w640-h360/DSCF9880-Mejorado-NR.jpg
+  image: images/covers/8387603e2064cc2a.webp
 album_url: https://photos.app.goo.gl/bqBAQr2B42TkdSSq8
 ---
 

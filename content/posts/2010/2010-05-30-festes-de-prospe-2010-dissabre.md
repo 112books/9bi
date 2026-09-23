@@ -11,7 +11,7 @@ tags:
 - pregó
 - tir de pinyol. linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRB2hAt0RJVq-PAGBDcpjqI7-BZPegzAplU9Ddvziq1V5sBusP6R6dI2Y937X7K60-JC8s43_w87OH0futV0SVAnyGbXbqfHlnpvXRgUcCy5XbuEwe40bDma9wZsBHh5eVtdmGYIh1D2E/w640-h480/IMG_1712.JPG
+  image: images/covers/f6083753a10f4c0d.webp
 album_url: https://photos.app.goo.gl/TJB2zBFvRotjCrwK8
 ---
 

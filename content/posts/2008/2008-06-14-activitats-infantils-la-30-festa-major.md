@@ -11,7 +11,7 @@ tags:
 - festa major prospe
 - peña peñita peña
 cover:
-  image: http://lh4.ggpht.com/pedro.cervera/SFOvJwMJ9WI/AAAAAAAAAbM/GBrNtpF5VvY/s400/IMG_2426.JPG
+  image: images/covers/939f8aa2cf36e112.webp
 album_url: http://picasaweb.google.es/pedro.cervera/ActivitatsInfantilsFm/photo#5211701775887365474
 ---
 

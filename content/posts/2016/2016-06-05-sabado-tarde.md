@@ -7,7 +7,7 @@ slug: sabado-tarde
 tags:
 - música
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnW4aJ-D5fU_jKOJAdXqxuknouAXPz1WHyOAsj7Jkri76iGqHmsBTUAmicRvJIQeFxlcEZYAO9tUoK1lkhUEy-KSIYig5PNTvZp6fSkcynkeSOYkGdc1C4AlEGERsLQtOYXxOPHZuo9no/s400/_DSC2603.jpg
+  image: images/covers/defceca9e363d953.webp
 album_url: https://picasaweb.google.com/115791131166530059320/6292665695840215009?authuser=0&feat=embedwebsite
 ---
 

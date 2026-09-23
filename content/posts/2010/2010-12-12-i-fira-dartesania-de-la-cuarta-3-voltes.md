@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - Luz
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOroEmWppgFgMnXsahfquyLDlbI010_Ht2r4TRnQzHWexqIZmc-dxfNQz_CnXTbf7s2laOP8xFEuAAWPjzR29yvHioYbUg8SVBIaWQhD9bfP7FxhAfw0AcavPPe0sX9gQb3rpMLqtcAtM/w480-h640/IMG_8423.jpg
+  image: images/covers/92622092489ee2ad.webp
 album_url: https://photos.app.goo.gl/dowJ3YRCpU1eZE3T6
 ---
 

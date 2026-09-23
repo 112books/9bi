@@ -11,7 +11,7 @@ tags:
 - popular
 - barri
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7-hqJstAiwYmUiuXpsZSAu0OkGbogdWZXNlfrlEUC868pbvI2x2kVxGz8Y7tzZm78jSbP94mQuK8hVJWGBre86cWE38wyVSlo4OFYYMObZ8Jjy71ZZFN03tYXP62C1wW6EOIwby0afkE/w640-h396/2021-05-29+-+9bNewOrle-+055.jpg
+  image: images/covers/4a7c1aeeb4c1501e.webp
 album_url: https://photos.app.goo.gl/YU8oE4jx2Te84QBo8
 ---
 

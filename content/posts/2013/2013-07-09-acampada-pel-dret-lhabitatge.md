@@ -7,7 +7,7 @@ slug: acampada-pel-dret-lhabitatge
 tags:
 - habitatge
 cover:
-  image: https://lh3.googleusercontent.com/-tQJ2swFH0no/UdxEkzzvDsI/AAAAAAAADHU/_yKjxxqkE8A/s400/Acampada72013%2520%252810%2529.jpg
+  image: images/covers/7cb52cb313a1a493.webp
 album_url: ' https://picasaweb.google.com/116805523004990742624/AcampadaPelDretALHabitatge?authuser=0&feat=embedwebsite '
 ---
 

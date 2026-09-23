@@ -9,7 +9,7 @@ tags:
 - puretas
 - STA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUzFCxHzFsFD4wmsm9799pylM6H6H9uUvAs_UKrjWy098lJ_yrCTEX2IQz8oNLfJnheSAJl896O64D9J154__GTiYP0T4rHBA7kVk1RhPICY_7IJnqr9BgOSToRK33CUw0cDqtMetIScU9cpbW70eQEgDhehO3_to4RwlHTu4bx6vGaRUutm74bsjI27k/w640-h426/DSC02920.jpg
+  image: images/covers/ba6a510d6fffa564.webp
 album_url: https://photos.app.goo.gl/RZT7kcnPeANff8yu6
 ---
 

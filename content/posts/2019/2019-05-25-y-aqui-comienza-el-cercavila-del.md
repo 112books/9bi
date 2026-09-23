@@ -8,7 +8,7 @@ tags:
 - capgrossos
 - festes de prospe 2019
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZS8sW_-QfwQbQtSOenj2KcQnZPMig_kfYv2AGnaMGHMp5eNTc3Z4S3FjXcqYZrm8tIC64GQn3IKCD8KzcVmFsclXDsbSAREwfg9I8UyWScwt9Ogh6KK4xJ-mV7fEBKUSgTXY6m6QIWBY/s640/IMG_2741.JPG
+  image: images/covers/97cf6295319c3d5f.webp
 album_url: https://photos.google.com/share/AF1QipM8mGZRCCaEiko8g1ZPvhMcY7RhR9vBBTpeLHh31w6bUvRG4g4PwytOKEl1aYt0LA?key=TklkdFMxWWlOeGI3V0x3UFRrTzhmZlNoN2xfSXJn
 ---
 

@@ -13,7 +13,7 @@ tags:
 - nat Font Trio
 - Philippe Le Jeune
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisE3cTL0fHXZY4pzKO7FWKe2oh7pX9CbSCD01DDyTiZzx9LQb7ukkoO9YjHE2vIDe_PLrp4iKuNO5V1Ib4gg5iFiq-XeTF2MIaNWHDruqibh5SWA29tQxksHTXAtLgb6n_KHkqVrFQvkA/w640-h427/IMG_2105.jpg
+  image: images/covers/b41b42b005768f24.webp
 album_url: https://photos.app.goo.gl/8di7MeRvbygEssK76
 ---
 

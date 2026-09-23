@@ -11,7 +11,7 @@ tags:
 - correfoc
 - FESTA
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnpwefXqpF2wwqapfNT2jyhHppHzjZI3DbfH8_yVItNAo2Emc-u-rj8clyx1Mp1lRNdQ3BqqAsO4oJenF_BInlRgmFhz_kXCTuuQk-i9eilqhbzBg_uu5RF7xFzOTh7yH5ygFRBb970mEt-_tlTl_opkf3TuUHYZ9coCc6aVoEI0N66K1am-iq2rb2/w640-h426/IMG_0246.JPG
+  image: images/covers/4125e42786d29481.webp
 album_url: https://photos.app.goo.gl/Vwmqo7o49ZsoRbmv9
 ---
 

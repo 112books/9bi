@@ -11,7 +11,7 @@ tags:
 - sound system
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_gR9gpd1gq6WSmRs5YpENWBX-w9OCf6V-y_Sgvy2iq_oiG4pZh-WDMpXLRDNJenP1hxIxZ7X5R0dJg8XVpp9gZeJtXKSMnNiB_J1ZW7tXcr4gev-yTSHMJmo7wT8wiXENmU8EQncgysqO-I5jC9xFgil53i44W0Co3HOPtkzemDbEOC-YznrG3g_5/w640-h426/_DSF6340.jpg
+  image: images/covers/25e8599bb7eb2cea.webp
 album_url: https://photos.app.goo.gl/sUjHo795irLrzKdu7
 ---
 

@@ -11,7 +11,7 @@ tags:
 - arbusto
 - concurs
 cover:
-  image: https://lh6.googleusercontent.com/-XNnUj_N1Qrk/TpnLGrA-l-I/AAAAAAAABKQ/67NWkhU5NLQ/s400/DSC_0087.JPG
+  image: images/covers/ce324b30ca05fa58.webp
 album_url: https://picasaweb.google.com/104199960646572363843/ConcursoArbusto2011Viernes14102011?authuser=0&feat=embedwebsite
 ---
 

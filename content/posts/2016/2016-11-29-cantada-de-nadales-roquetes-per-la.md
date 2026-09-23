@@ -7,7 +7,7 @@ slug: cantada-de-nadales-roquetes-per-la
 tags:
 - Centre Ton i Guida
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFMiMGLm2xWzxUqW93mFnERBeZgE-yaUFnjfX0-VlRLNxmawsmIQqXlA3z_KJOCfd3_VXW1YwSkbbGUUTemU2qiV1BA0o2zOXE9jYjyBEbAMfboLBy5z-4N9A0BjyPc3W2YmQWatZZG3U/s640/_DSC0157.jpg
+  image: images/covers/76f5b70f228bb9d9.webp
 album_url: https://goo.gl/photos/hvdFTFMPhu6se68y5
 ---
 

@@ -13,7 +13,7 @@ tags:
 - teatre lliure
 - tortell poltrona
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMFwBlHqZD1UMsOrBITITjVzsjPBPXi8oLtNRG__GOZAInYi-TZirxyuGFirbdsgYjzdjM07LI5y5DlsVeV8s_hVGuZ6wxPV6Yoz_gf4NNGovwaK3yPfHFbXtG9WrPFUCq2k0vfbjYVZat/s400/006.jpg
+  image: images/covers/b7a8aba100483d9c.webp
 album_url: http://picasaweb.google.es/ulls1963/CircCric35Anys?feat=embedwebsite
 ---
 

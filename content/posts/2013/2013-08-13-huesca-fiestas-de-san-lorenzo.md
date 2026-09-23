@@ -16,7 +16,7 @@ tags:
 - san lorenzo
 - san lorenzo 2013
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPTjMwPRiJItY839wkYv5OInMiJ1a6vXdi4wc5UIzmgr-6gKtMpEadzhHtArewrt-e63woGaLPUem45T-aISxOfLAIIQ78vZ-4rLEK9i4iFfhqf0AN6ZD6jZECB8d6J4UWwRZR2v5ePo8/s400/DSC_5587.jpg
+  image: images/covers/9f2c264abf2fc322.webp
 album_url: https://picasaweb.google.com/115791131166530059320/FIESTASDESANLORENZOHUESCA?authuser=0&feat=embedwebsite
 ---
 

@@ -12,7 +12,7 @@ tags:
 - Penyes
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN-CeOzMEZHgUDq2Ix4c2tpFRhyphenhyphen3sINfcayMgAiIhW5SEjZXGtVYkHyZs4MXYIEvUdqg0Lq-EAzEdkyB3HTwoPUugYCPyFNs39PFGD5-TjVfuVSUewRoPOo7Lt90YJzAOGaNjC1AS8Sxk/w640-h426/?authuser=0
+  image: images/covers/b8bd9624cf558d37.webp
 album_url: https://photos.app.goo.gl/MfH9QNJbb6oL3a3w6
 ---
 

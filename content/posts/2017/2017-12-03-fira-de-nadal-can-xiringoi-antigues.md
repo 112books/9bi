@@ -11,7 +11,7 @@ tags:
 - barri
 - nadal
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjhajsTd_ooPmAixojjvmf7yALKFuio6SgtlMZI0WJ14jLHce1T0AsnM7gMGK6PDSeqNH6hLEx5m4qczWULBxTQ8DAPloEL0tHCmThTjRqsn3-jHIijESwn8fRrljz7ZiX0zzzx_j3TNk/s640/_C030216.jpg
+  image: images/covers/b1360ace72296b96.webp
 album_url: https://photos.app.goo.gl/a7pvQg4ZHKGhP40U2
 ---
 

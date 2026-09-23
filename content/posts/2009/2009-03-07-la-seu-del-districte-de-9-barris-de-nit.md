@@ -9,7 +9,7 @@ tags:
 - fotografia
 - inuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdVd_roFI4F68QW_OONw7YTANvjC_ngQUh4PJCyB3z87-ghYzcdCuaftBfoYoI4u__E00SRkFnDkICtEDEQx_tCOD5IMvOAnrMxplnfWCPJiNTlAvCykPPiP-xjx_0E3-CSUaal-W2KKY/w640-h426/IMG_4556.JPG
+  image: images/covers/18e21233b7dd64da.webp
 album_url: https://photos.app.goo.gl/AVkbAJwmjo7D3wE48
 ---
 

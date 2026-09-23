@@ -7,7 +7,7 @@ slug: gimcaprospe
 tags:
 - prospe
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0VTELmai49LEhnai3WQ_KFyEvFgCcwGBEgP0Dvc1I29hBQNVMBfGzKxg8OMVyTtNPWaGBi4nNMEEysBd-nRketpIaXUikIfr2yrMXUa0osqE2dNxeO17N1VVzuzcNHvP0xVL1DooQQYQkJ7J53lJxY4k4CFaDJWg_Td1TCaqFD36qgCRfdIhnS8Dgsp-x/w640-h426/DSCF0761.jpg
+  image: images/covers/7f0425c508ab0703.webp
 album_url: https://photos.app.goo.gl/Qtf8XQdeCiu9nDY36
 ---
 

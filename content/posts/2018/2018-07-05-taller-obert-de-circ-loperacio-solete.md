@@ -11,7 +11,7 @@ tags:
 - metro
 - circ
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfYoaauo-XIbWTYsKpwTv8EoeztASbG2PuMKEanvpf1JQ7-Mqy6ERSOmRvXTQwcOSr_33mu9E2NTuIDtTdYF0DNHU2PwLXecIlYfZ3gpHYJbau_Dd-0wUr51Bc3fbGvLdJNUBCTnw_zh4/s640/_DSC0463.jpg
+  image: images/covers/1225aa0ff08d084b.webp
 album_url: https://photos.app.goo.gl/X7iFxYvPoRgGcyuC9
 ---
 

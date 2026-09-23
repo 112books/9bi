@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - festa major
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg85P-dLqERSxzHloAxvbiXeXMcllACEYVotlJWR_jf97S8UD-AxJAcB3tM_tq6TIfpE0VabdfMBMTOA-EE-_UiyBw3Ew_3mYGq2YStKcpgKtr4j_6w4Tilzu9BIVd9r3lvKjutwia0kX29/s400/IMG_8731.jpg
+  image: images/covers/8a286574cca3e7ab.webp
 album_url: https://picasaweb.google.com/100268695753733554853/XVIChistorraRockFestaMajorDeProsperitat2015?authuser=0&amp;feat=embedwebsite
 ---
 

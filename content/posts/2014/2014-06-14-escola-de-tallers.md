@@ -7,7 +7,7 @@ slug: escola-de-tallers
 tags:
 - tallers
 cover:
-  image: https://lh3.googleusercontent.com/-p6hduURqkQs/U5wJcZ4ic2E/AAAAAAAADss/zKtKwfxX91s/s160-c/LESFORCDELAPRES.jpg
+  image: images/covers/b9860a35a9395f33.webp
 album_url: https://picasaweb.google.com/102149297277529522464/LESFORCDELAPRES?authuser=0&feat=embedwebsite
 ---
 

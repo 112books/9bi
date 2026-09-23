@@ -12,7 +12,7 @@ tags:
 - prospebeach2019
 - Voleibol
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyHri2y8vXRSwsf32deQvtcwn801OCPhH18j9iBF1F08_fneoJcoC3UfnTCtxuJSSmXX7k_tqBFBHbnYEOkefTb2f71IeGCRVfUgJfQT8ztH1QuGLLa3ltsyjMD_AzbYli6Wr17bUKgWql/s640/P2150161.JPG
+  image: images/covers/5b15572bedeecdf8.webp
 album_url: https://photos.app.goo.gl/JyPcNhgkbVPCB6S58
 ---
 

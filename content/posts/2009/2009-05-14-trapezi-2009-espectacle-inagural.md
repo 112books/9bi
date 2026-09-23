@@ -11,7 +11,7 @@ tags:
 - trapezi
 - zirkolika
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYnTX86PWUCGQLp8LMQiK19QSTXR2HdtcW5p2dJ5JgUtQyDnWzl73V5Wzho-ezri3xqxknYkce6Ygpbca6ZAyl5L9yFF5B2wI_uUlPeC9997t2wAyINKwiWp7XKO0G1Zth82xA9k9F8zqH/s400/trapezi%2002%20ulls.jpg
+  image: images/covers/335416ae2cd86081.webp
 album_url: http://picasaweb.google.es/ulls1963/Trapezi2009EspectacleInagural?feat=embedwebsite
 ---
 

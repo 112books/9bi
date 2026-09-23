@@ -11,7 +11,7 @@ tags:
 - sala muntaner
 - teatre
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3G-QaV_jSe-vvq1L101rEpUXJW3hyphenhyphenTwZJWFZTaSMvxmUpaqntpxxAlm5ZFiF68JJ5EyGLKjEfdV3e0Zmtukll7FtfpchfPR2_dn42wv-cOCcPlGytg2veWizr24bSJZnsM-x1pYWjB5EN/s400/014-pfpv-ulls.jpg
+  image: images/covers/a600058074553696.webp
 album_url: https://goo.gl/photos/53Guzth5phmAaRie9
 ---
 

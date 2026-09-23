@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - fotografies
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLnIeW05Vf2UDkFxJj14RlJW7_8R_rskWJ9qVjc1r1l5U64TQBISXZIsuh-yU5Q7VOONWVXhzBiF_nrbNQX1HoYW3quh9JkfHkshHoijlHZIfguWGfG-YQpLVhpyodYIvtj7_XtlGAg2NyVILPMRHTj1s1X4EsLVTkYNDjm822C3yYWmAQkOTguYC-lb8/w640-h426/2024-11-29-%20Le%20Boom%20Jazz%20+%20Nassim%20O%20-%200035.jpg
+  image: images/covers/1b71f84662e52520.webp
 album_url: https://photos.app.goo.gl/ytcgU2KqgSnDH41DA
 ---
 

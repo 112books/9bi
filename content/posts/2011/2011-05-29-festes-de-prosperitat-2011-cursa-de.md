@@ -12,7 +12,7 @@ tags:
 - dissabte
 - fiesta
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgreBHZDdjtgUOSqmRQ_d7usLRHzRitHTwTFej3ZRXEkE8pMPUD6fOVPnwL80KlKq4mYRnyME26hR1pvlbaxwLpiF8lFFyZhHh-UpAqJkK02UxAzxiNust66vdcKkAxI8BNfFQfxtvxW6E/s400/DSC_0009.JPG
+  image: images/covers/b3d6c67eb219baa1.webp
 album_url: https://picasaweb.google.com/104199960646572363843/FIESTASPROSPE2011?feat=embedwebsite
 ---
 

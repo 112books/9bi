@@ -18,7 +18,7 @@ tags:
 - pocallum
 - Prosperitat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEick-jy82pD9UyZhDPLJ3qm_4YkeFXN5HXxla4g48Z0vSg91ALdddcJhJhCxd-KPnYBKuXpk1Q4B5Q3uuL1ehdHWJe4My55aebuJtdNdzaLv8Bmdu6SB4Z9BIbXWKkYNnvkipnpmStDF-vP8rA0rwxXPmVjeDR9DiSfW4cyEz5MqER_7i04cXrpFBHlads/w640-h426/DSCF4585.jpg
+  image: images/covers/b589f974c40941d1.webp
 album_url: https://photos.app.goo.gl/rfG5FP859F4QS4uT9
 ---
 

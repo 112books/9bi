@@ -11,7 +11,7 @@ tags:
 - 9 barris
 - formació
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEPSwLbvffgPz7XpXfn58Mz2JJliY6VRYKbuHOa71tsfak6zMZBh6aCggvFP7N548jnTJJHviLenVevej1difhmAnBBb3Lv2IE7cxEl0CNKFf-08OElse_ikAQN7fVWKZqSRe2l7Yb21Q/s640/midades-de-9barris.png
+  image: images/covers/488752c0c7f9ddfe.webp
 album_url: https://photos.app.goo.gl/7e4WMQvQKMEtuVwJ7
 ---
 

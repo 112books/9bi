@@ -8,7 +8,7 @@ tags:
 - música
 - fotografia
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhU1l_Awqz7qFZJW3g69ISJxV4yEF7zxytvZnVDGXAXW-BcJYE2u9YkZIWot5qPfSedYwyBQoT6ojBmfY1kBRdL4Ng0I5lU7MxNbgymh7D56QbaL2l44aLAHNwhIEcBE2sJ3demnUmD65Pt/w640-h426/DSCF4356.jpg
+  image: images/covers/6bc94c336561820c.webp
 album_url: https://photos.app.goo.gl/BGY1ab1SpS3XL8pa9
 ---
 

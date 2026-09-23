@@ -9,7 +9,7 @@ tags:
 - calçots
 - plaça Àngel Pestaña
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCBlz7hKN9vq8tE5I5wE_X9PfB9yGXNJ1SamQTs6lP8QMCybAJM5_f6nGHnbSgGN0BePRH1MOdJ_3ugJcAgSIBZdqwBBnRA8soseNSS0CQMyMc4OIwYCcMSRJ07noNcjWMeAlMtgO8S5K0WJ0H2VxyliT_yKVATEkyPalTZ7AkDbgMKs_Eq5VKWzmf/w484-h640/IMG_0135.JPG
+  image: images/covers/9b212b22b22216dc.webp
 album_url: https://photos.app.goo.gl/3fwNVbQdE6hEMnwTA
 ---
 

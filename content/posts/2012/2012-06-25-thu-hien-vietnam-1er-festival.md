@@ -12,7 +12,7 @@ tags:
 - circ
 - expo
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg673xWnj3F5-kC1hiJty4No0S3S64x_kIpbPozrZJr-J8nT2oN2ElK0Wdupgjc0v93onMPQS1MA5tIJM6u7A1tU8L1nZT3Xor8HJ7BP1mcfe-SerNZ1lg5i_Kf0pIy7PrQtFCf9gNMGVfm/s400/ulls36.jpg
+  image: images/covers/4e3c96e420fcb52c.webp
 album_url: https://picasaweb.google.com/100268695753733554853/ThuHienVietnam1erFestivalInternacionalDelCircCastellDeFigueres2012PremiDeLaImatge?authuser=0&amp;feat=embedwebsite
 ---
 

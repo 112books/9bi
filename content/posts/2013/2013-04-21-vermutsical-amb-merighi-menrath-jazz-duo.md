@@ -9,7 +9,7 @@ tags:
 - Merighi-Menrath Jazz Dúo
 - vermut sical
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0gEJVpMGzileMTl2rXeM92IAcaY9oCSDggWo-pifjpCuVmKEnEdw6fSai_7frYliTuqA2-e3sPtokbqbvPCohikydLP6r81X2KyQLWH5TGG6WjH7FcaqqGeR2i7HqC5_O1vTJMI9wADY/s400/IMG_8746.jpg
+  image: images/covers/c0ab0626978fd3a2.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutSicalAmbMerighiMenrathJazzDuo?authuser=0&feat=embedwebsite
 ---
 

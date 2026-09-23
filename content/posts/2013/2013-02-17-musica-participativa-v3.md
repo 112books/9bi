@@ -9,7 +9,7 @@ tags:
 - música participativa
 - rafi
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj11r_ZvgLWeTitPCNyYd39vvtfZczPQHArJho-R_gV9CQnEOmRUXBiBa9we8OvZXEsb4WumCFVj0s7gWv-srbpYdnYqwDSSoOsO4qPiX8r8EXy3xrlvHhIZkM1nnNGkkqOVoiZG9JnWAg/s400/IMG_7231.jpg
+  image: images/covers/f51dca502b56243c.webp
 album_url: https://picasaweb.google.com/103138221614479310970/MusicaParticipativaV3?authuser=0&feat=embedwebsite
 ---
 

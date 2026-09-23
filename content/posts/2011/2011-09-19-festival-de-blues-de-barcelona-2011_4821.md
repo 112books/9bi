@@ -11,7 +11,7 @@ tags:
 - joan.linuxbcn.com
 - Mark Braun
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZq8LleceHGpS6zcweTixdxQ1wZ0twU161FRrdfM17V5DEMyhyphenhyphen-oMq6psWyj9qUGVsekuxB_4993bjpfcMMU3izOV-Bq3GaPPDjFGRFXNYKjsucv-v1yhj0nSqi5kQJ52R6nLivjjhtUE/w640-h427/IMG_3775.jpg
+  image: images/covers/daf629dd4421b1b3.webp
 album_url: https://photos.app.goo.gl/ibDB49fAP4iXQgyc7
 ---
 

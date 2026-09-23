@@ -11,7 +11,7 @@ tags:
 - Barcelona
 - blues
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhK9rVs0G3NR5UQC_gzI3TBhDeRnGAPVKRZWnx5XLI1aFJi2GaMk3kM8TcXFsPtTzX6iWL21hTFYh8JO-pl2MvLC61guskp1ynQWnXNZyK_hdfu4KBNx9rGXkMWNt_E0kbUBNNcEbGtByU/s640/2020-07-12+-+B+-++008.jpg
+  image: images/covers/1aced3f72432db0d.webp
 album_url: https://photos.app.goo.gl/wSX8ofzrQ5VevEmGA
 ---
 

@@ -11,7 +11,7 @@ tags:
 - titelles
 - inspirat
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ_Vc4SCVRJ3bzQlZYj5Dsq1_IdMjXwcD9J6IvlgIAFnKoNpLJmMO90we32aLhiCpRLQUiuZvqtTyO936qplQNNFZQp72z9SMaqXwE1VxZ2LxzXCqliMlwUsxoaum1tvkcFSmAMrdzHfs/s640/_DSC0136.jpg
+  image: images/covers/22f57bb2f0222bdd.webp
 album_url: https://goo.gl/photos/hReJiuipbpmmHXXV6
 ---
 

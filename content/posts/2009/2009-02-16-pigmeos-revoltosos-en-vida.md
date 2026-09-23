@@ -11,7 +11,7 @@ tags:
 - pigmeos
 - popular
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOvkzlZZtTS0jaWiT5JieL1UxqLekbDc0XTThSJ9FetGDdrnYqhw7lW1pqx_u_lYueQ-NcbWaEigwzIvyNbHQBmSGyzptZPppEykIFlifLhgZ82jdkbCEYoyENZvohIrkecgrsuMBv7Q5j/s400/_DSC1450.JPG
+  image: images/covers/24497aecc25b5d97.webp
 album_url: http://picasaweb.google.es/inmalcario/PigmeosRevoltososCIAENTERRATENVIDA#
 ---
 

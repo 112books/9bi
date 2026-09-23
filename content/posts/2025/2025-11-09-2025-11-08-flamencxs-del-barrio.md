@@ -11,7 +11,7 @@ tags:
 - Flamencxs del barrio
 - pocallum
 cover:
-  image: https://blogger.googleusercontent.com/img/a/AVvXsEj28Z6PDxLXMU2qlHoKK7ZrljjdDCN_yfTo126XFNwVS5Bw5RxvvgNnWWL5EAqEefrAEChKaJysmerNp6333lNFhD_4-jUhlZsSBMZgpG45Qk0vPCwV2RVlZwhXWQ6LLBZauq31xWJdlQV3GaK8CxUqkQIMEuv_KCdL7SRKBDdWuodpVU2nBcbA6XPP9Ok=w640-h426
+  image: images/covers/6ac00643b73b22d6.webp
 album_url: https://blog.pocallum.cat/2025/11/09/2025-11-08-flamencxs-del-barrio/
 ---
 

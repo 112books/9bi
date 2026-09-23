@@ -11,7 +11,7 @@ tags:
 - reivindicació
 - nou barris
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxM38eeKvFtdVa0vfapwurTy8DWGHbuNuD9flKQZ5H6C8X5eudkOmPitl9g3lI66QDRsvGrmj3DGiK4aVYM_aH3nLEwIgm3CfbGVrNucXnwUSq7fcSIO4RGS4jitJE_Kz8z2zm4ebRPiKf/s640/P2030293.jpg
+  image: images/covers/c93f8cba45920ca9.webp
 album_url: https://photos.app.goo.gl/KLs5xiGu5szEC5Bf9
 ---
 

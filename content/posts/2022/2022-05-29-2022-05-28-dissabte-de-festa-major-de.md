@@ -11,7 +11,7 @@ tags:
 - festa major
 - dissabte
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiinz-gj71mkXP9Pdb2Flf_VduTbecufYxMVlH9LZQCfpqmD7eDc-LEVaImjH_ZeItmp5vkggHF41s5XeDIG2L2w_KwF_OmIQuQr3-hfhFxSu7wQGBldZJ2RTIzn1WmjjgdSuIBHjpv0YxKAp5Xj1wmpRmCkHhNLQ7PPHUSLMrxI0D_qXF8fdARnRL/w640-h426/_DSF8936.jpg
+  image: images/covers/70d61e32dc5c5e98.webp
 album_url: https://photos.app.goo.gl/84ykAGUiG5eTtEbe8
 ---
 

@@ -10,7 +10,7 @@ tags:
 - carnestoltes
 - linuxbcn
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhE8j_I4Fa1FS8c3F4jkCz6WGgL0JiEuoALLBzx17FNaM0p0-7EzvRI72a68C9fvb9rleQWzhPFz09ONYsBjvgy4R1SMIm7Wb9sHwhnjK5Te9RLdDYUTpxhc2YwFzTXMEoxioJe4GSafWg/w426-h640/IMG_3682.jpg
+  image: images/covers/3807c3247af5b4bb.webp
 album_url: https://photos.app.goo.gl/wKfDBA6MVTQunS9P8
 ---
 

@@ -8,7 +8,7 @@ tags:
 - dones
 - circ
 cover:
-  image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZcjQ1S256ZLLYqp-WNkV1GhlCDpgWzWOZDfkuvLCeZq9vT2T2hk1C7MquUDiaMCILNSqJaNp_BbimyBWIlTatmQJobCF9Hp4jzKe2jrgg_97_E3YSisYRzN8ydWLjcfolA6oEStNlpdiU/s400/IMG_5113.jpg
+  image: images/covers/5f64ca4f0819ed6a.webp
 album_url: https://picasaweb.google.com/100268695753733554853/CirqueBrancLesFlyingsPoulettesCurtcirckit2012?authuser=0&amp;feat=embedwebsite
 ---
 
