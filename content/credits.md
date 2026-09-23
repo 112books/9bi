@@ -53,7 +53,7 @@ El **[codi del lloc](https://codeberg.org/linuxbcn/9bi)** és programari lliure.
 
 ### Puc fer servir les fotografies del web?
 
-Sí, sempre que respectis la llicència: ús no comercial, amb reconeixement i compartint igual. Si tens dubtes, escriu-nos.
+Sí, sempre que respectis la llicència [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca): ús no comercial, amb reconeixement i compartint igual. Si tens dubtes, escriu-nos.
 
 ### Com he de citar una fotografia?
 

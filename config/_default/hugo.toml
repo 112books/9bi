@@ -10,9 +10,11 @@ timeZone = "Europe/Madrid"
 enableRobotsTXT = true
 enableEmoji = true
 
-# Peu de pàgina: llicència Creative Commons (amb enllaç al web en català).
+# Peu de pàgina: llicència Creative Commons.
+# La primera línia (a la plantilla) enllaça a la FAQ «Puc fer servir les fotografies del web?»,
+# que és on hi ha l'enllaç directe a Creative Commons.
 # NOTA: confirma la varietat de llicència exacta (ara: CC BY-NC-SA 4.0).
-copyright = 'Contingut sota llicència <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca">Creative Commons Reconeixement-NoComercial-CompartirIgual 4.0</a>'
+copyright = 'Contingut sota llicència Creative Commons Reconeixement-NoComercial-CompartirIgual 4.0'
 
 # Preservem les URL .html de Blogger (/2026/07/slug.html)
 uglyURLs = true
