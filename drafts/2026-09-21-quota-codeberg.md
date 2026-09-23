@@ -130,9 +130,14 @@ Thank you for your time.
 
 ## Estat després de la petició
 
-- Mentre la quota estigui excedida, **cap push** (ni a `main` ni a `pages`) funcionarà.
+- **2026-09-22 — RESOLT sense augment**: Codeberg va respondre que han fet
+  garbage collection del repo i ara ocupa **22 MiB**: *"I triggered GC for the
+  mentioned repository and it's now 22MiB. As such I don't believe you would
+  need a quota raise for now."* → **no cal augment de quota**, el push queda
+  desbloquejat. T-008 queda desbloquejat.
+- Mentre la quota estava excedida, cap push (ni a `main` ni a `pages`).
 - Els commits locals queden fets i nets (no es perden).
-- Un cop aprovada, cal pujar: commits de main pendents + un deploy per publicar.
+- Ara cal pujar: els commits de main pendents + un deploy per publicar.
 - Si mai Codeberg cobrès l'augment (no és la política), pla B documentat: migrar a
   GitHub (github.com) — però hi voldríem arribar mai, preferim 100% programari lliure.
 
