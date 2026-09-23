@@ -11,7 +11,7 @@ Subcomandes:
   collect   Escaneja content/posts → data/picasa-broken.json
             (corpus agrupat per compte Picasa: àlbums, posts que els referencien)
   sheets    Llegeix el corpus → drafts/candidats/<membre>.md per a cada autor
-  fitxes    Genera data/recuperacio/<membre>/*.yml (una fitxa per àlbum)
+  fitxes    Genera recuperacio/<membre>/*.yml (una fitxa per àlbum)
             perquè cada autor els corregeixi des del CMS
   recull    Llegeix les fitxes desades → data/links-nous.json (old → new)
   validate  Comprova status HTTP i títol públic dels enllaços nous
@@ -55,7 +55,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT = os.path.join(ROOT, "content", "posts")
 CORPUS = os.path.join(ROOT, "data", "picasa-broken.json")
 CANDIDATS = os.path.join(ROOT, "drafts", "candidats")
-RECUPERACIO = os.path.join(ROOT, "data", "recuperacio")
+RECUPERACIO = os.path.join(ROOT, "recuperacio")
 SITE_URL = "https://9barrisimatge.org"
 
 PICASA_RE = re.compile(
@@ -478,7 +478,7 @@ def _dump_fitxa(fitxa):
 
 
 def fitxes():
-    """Genera una fitxa YAML per àlbum a data/recuperacio/<membre>/.
+    """Genera una fitxa YAML per àlbum a recuperacio/<membre>/.
 
     Cada fitxa = un àlbum Picasa trencat que l'autor ha de corregir al CMS.
     El nom de carpeta (slug del membre) és la carpeta de la collection Sveltia,
@@ -516,14 +516,14 @@ def fitxes():
             name = f"{dates[0] if dates else '0000'}-{slugify(album)}.md"
             open(os.path.join(folder, name), "w", encoding="utf-8").write(_dump_fitxa(fitxa))
             n += 1
-        print(f"  {member}: {n} fitxes → data/recuperacio/{slugify(member)}/")
+        print(f"  {member}: {n} fitxes → recuperacio/{slugify(member)}/")
     print(f"\nFitxes generades a {RECUPERACIO}/")
 
 
 def recull():
     """Llegeix les fitxes desades i aplega old → new a data/links-nous.json.
 
-    L'autor es deriva de la CARPETA (data/recuperacio/<slug>/), no del camp
+    L'autor es deriva de la CARPETA (recuperacio/<slug>/), no del camp
     «autor» del fitxer: així un error de l'autor en editar-lo no trenca
     l'agrupació. El camp «autor» es conserva al fitxer per a llegir-lo a mà.
     """
@@ -567,7 +567,7 @@ def main():
 
     sub.add_parser("sheets", help="genera drafts/candidats/<membre>.md")
 
-    sub.add_parser("fitxes", help="genera data/recuperacio/<membre>/*.yml per al CMS")
+    sub.add_parser("fitxes", help="genera recuperacio/<membre>/*.yml per al CMS")
 
     sub.add_parser("recull", help="llegeix les fitxes → data/links-nous.json")
 

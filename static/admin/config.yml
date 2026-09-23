@@ -709,7 +709,7 @@ collections:
   - name: "recuperacio-joan-linux"
     label: "Àlbums per arreglar · Joan Linux"
     label_singular: "Àlbum"
-    folder: "data/recuperacio/joan-linux-martinez-i-serres"
+    folder: "recuperacio/joan-linux-martinez-i-serres"
     create: false
     delete: false
     extension: "md"
@@ -733,7 +733,7 @@ collections:
   - name: "recuperacio-pedro-click"
     label: "Àlbums per arreglar · Pedro Click"
     label_singular: "Àlbum"
-    folder: "data/recuperacio/pedro-click"
+    folder: "recuperacio/pedro-click"
     create: false
     delete: false
     extension: "md"
@@ -757,7 +757,7 @@ collections:
   - name: "recuperacio-9-barris-imatge"
     label: "Àlbums per arreglar · 9 Barris Imatge"
     label_singular: "Àlbum"
-    folder: "data/recuperacio/9-barris-imatge"
+    folder: "recuperacio/9-barris-imatge"
     create: false
     delete: false
     extension: "md"
@@ -781,7 +781,7 @@ collections:
   - name: "recuperacio-manel-sala"
     label: "Àlbums per arreglar · Manel «Ulls»"
     label_singular: "Àlbum"
-    folder: "data/recuperacio/manel-sala-ulls-circ"
+    folder: "recuperacio/manel-sala-ulls-circ"
     create: false
     delete: false
     extension: "md"
@@ -805,7 +805,7 @@ collections:
   - name: "recuperacio-pedro-casal"
     label: "Àlbums per arreglar · Pedro «Casal»"
     label_singular: "Àlbum"
-    folder: "data/recuperacio/pedro-casal-cervera"
+    folder: "recuperacio/pedro-casal-cervera"
     create: false
     delete: false
     extension: "md"
@@ -829,7 +829,7 @@ collections:
   - name: "recuperacio-alberto-sanagustin"
     label: "Àlbums per arreglar · Alberto Sanagustín"
     label_singular: "Àlbum"
-    folder: "data/recuperacio/alberto-sanagustin"
+    folder: "recuperacio/alberto-sanagustin"
     create: false
     delete: false
     extension: "md"
@@ -853,7 +853,7 @@ collections:
   - name: "recuperacio-nico-yeye"
     label: "Àlbums per arreglar · Nico YeYe"
     label_singular: "Àlbum"
-    folder: "data/recuperacio/nico-yeye"
+    folder: "recuperacio/nico-yeye"
     create: false
     delete: false
     extension: "md"
@@ -877,7 +877,7 @@ collections:
   - name: "recuperacio-manel-villalba"
     label: "Àlbums per arreglar · Manel Villalba"
     label_singular: "Àlbum"
-    folder: "data/recuperacio/manel-villalba"
+    folder: "recuperacio/manel-villalba"
     create: false
     delete: false
     extension: "md"
