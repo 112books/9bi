@@ -11,7 +11,7 @@
 </header>
 {{- end }}
 
-{{- $terms := .Data.Terms.Alphabetical }}
+{{- $terms := .Data.Terms.ByCount }}
 {{- $max := 1 }}
 {{- range $terms }}{{ if gt .Count $max }}{{ $max = .Count }}{{ end }}{{ end }}
 {{- $type := .Type }}

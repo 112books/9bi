@@ -618,7 +618,7 @@ h1, h2, h3, h4, h5, h6 {
 /* ---- Header: imatge de fons (static/images/header-bg.jpg) ---- */
 
 :root {
-  --header-height: 176px;
+  --header-height: 259px;
   --logo-width: 138px;
   --logo-height: 229px;
 }
@@ -626,9 +626,9 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   background-position: center;
 }
-/* Portada: header una mica més alt */
+/* Portada: mateixa alçada que la resta (el logotip defineix l'alçada real) */
 .header.header-home {
-  --header-height: 208px;
+  --header-height: 259px;
 }
 /* Logotip: mateixa mida al header i al footer */
 .logo a img {
@@ -716,9 +716,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 769px) {
+  /* Header fixe amb padding constant: encongir-lo mai altera el layout del
+     contingut (adéu al tremolor en fer scroll). */
+  body {
+    padding-top: var(--header-height);
+  }
   .header {
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
+    height: var(--header-height);
     z-index: 100;
     transition: box-shadow 0.2s ease;
   }

@@ -4,16 +4,17 @@
   <p>{{ .Content }}</p>
 </header>
 {{- $popular := hugo.Data.popular | default slice -}}
-{{- $lookup := dict -}}
-{{- range site.RegularPages -}}
-  {{- $lookup = merge $lookup (dict .RelPermalink .) -}}
-{{- end -}}
 {{- if gt (len $popular) 0 -}}
 <ol class="popular-list">
   {{- range $popular -}}
-    {{- $itemPath := .path -}}
+    {{- $itemPath := trim .path "/" -}}
     {{- $itemCount := .count -}}
-    {{- $page := index $lookup $itemPath -}}
+    {{- $page := false -}}
+    {{- range site.RegularPages -}}
+      {{- if and (not $page) (strings.HasSuffix (trim .RelPermalink "/") $itemPath) -}}
+        {{- $page = . -}}
+      {{- end -}}
+    {{- end -}}
     <li>
       {{- with $page -}}
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
