@@ -26,7 +26,7 @@
       {{- $cover := .Params.cover.image | default "" -}}
       {{- if $cover -}}
       <div class="mosaic-thumb">
-        <img class="mosaic-img" loading="lazy" src="{{ $cover }}" alt="{{ .Title }}" />
+        <img class="mosaic-img" loading="lazy" src="{{ $cover | relURL }}" alt="{{ .Title }}" />
       </div>
       {{- else -}}
       <div class="mosaic-thumb mosaic-placeholder">

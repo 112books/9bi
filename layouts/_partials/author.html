@@ -1,4 +1,9 @@
-{{- if or .Params.author site.Params.author }}
-    {{- $raw := (.Params.author | default site.Params.author) }}
-    {{- partial "autordisplay.html" $raw }}
+{{- if or .Params.author site.Params.author -}}
+    {{- $raw := (.Params.author | default site.Params.author) -}}
+    {{- $display := partial "autordisplay.html" $raw -}}
+    {{- if reflect.IsSlice $raw -}}
+        {{- $display -}}
+    {{- else -}}
+        <a href="{{ printf "author/%s.html" ($raw | urlize) | absURL }}">{{ $display }}</a>
+    {{- end -}}
 {{- end -}}
