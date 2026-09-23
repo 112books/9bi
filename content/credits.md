@@ -12,7 +12,7 @@ L'ha desenvolupat **[LinuxBCN](https://linuxbcn.com)**, a partir de la necessita
 
 ## L'aplicació Taro
 
-Amb el mateix esperit vam crear **Taro**, l'aplicació de programari lliure per a associacions fotogràfiques que les ajuda en la **gestió i l'exhibició de les seves fotografies**. La versió definitiva es presentarà a **[LinuxBCN.com](https://linuxbcn.com/)**, on es concentraran la descripció, la llicència, les funcionalitats i el codi font. Ara mateix encara està en **fase de beta**: qualsevol suggeriment serà benvingut, especialment per part dels membres del col·lectiu de 9 Barris Imatge.
+Amb el mateix esperit vam crear **[Taro](https://linuxbcn.com/ca/projectes/taro-photo-app/)**, l'aplicació de programari lliure per a associacions fotogràfiques que les ajuda en la **gestió i l'exhibició de les seves fotografies**. La versió definitiva es presentarà a **[LinuxBCN.com](https://linuxbcn.com/ca/projectes/taro-photo-app/)**, on es concentraran la descripció, la llicència, les funcionalitats i el codi font. Ara mateix encara està en **fase de beta**: qualsevol suggeriment serà benvingut, especialment per part dels membres del col·lectiu de 9 Barris Imatge.
 
 ## Amb què està fet
 
