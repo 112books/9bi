@@ -11,11 +11,13 @@ url: "/qui-som/"
 <input type="radio" name="qsb-view" id="qsb-com" class="qsb-view-radio">
 <input type="radio" name="qsb-view" id="qsb-membres" class="qsb-view-radio">
 <input type="radio" name="qsb-view" id="qsb-relacions" class="qsb-view-radio">
+<input type="radio" name="qsb-view" id="qsb-fotografs" class="qsb-view-radio">
 <div class="qsb-viewlist" role="tablist">
 <label for="qsb-som" class="qsb-viewtab" role="tab">Qui som</label>
 <label for="qsb-com" class="qsb-viewtab" role="tab">Com funcionem</label>
 <label for="qsb-membres" class="qsb-viewtab" role="tab">Membres</label>
 <label for="qsb-relacions" class="qsb-viewtab" role="tab">Relacions</label>
+<label for="qsb-fotografs" class="qsb-viewtab" role="tab">Història de la fotografia a Nou Barris</label>
 </div>
 <section class="qsb-view" id="qsb-panel-som">
 <h2>Història</h2>
@@ -101,5 +103,51 @@ url: "/qui-som/"
 <li><strong>Ruido de Fondo. Mario Ortiz</strong> — <a href="http://el-ruido-de-leomiller.blogspot.com/">el-ruido-de-leomiller.blogspot.com</a></li>
 <li><strong>SoloParaCortos</strong> — <a href="http://soloparacortos.blogspot.com/">soloparacortos.blogspot.com</a></li>
 </ul>
+</section>
+<section class="qsb-view" id="qsb-panel-fotografs">
+<h2>Història de la fotografia a Nou Barris</h2>
+<p>Nou Barris té una tradició fotogràfica pròpia, entre els fotògrafs nascuts o establerts al districte, els que l'han retratat des de fora, la fotografia comunitària de les entitats i un equipament públic, el <a href="https://www.canbaste.com/que-es-lespai-fotografic-can-baste/" target="_blank" rel="noopener">Centre Cívic Can Basté</a>, que n'ha fet la seva especialitat. Aquesta genealogia (aprox. 1960–2026) la resumim en quatre blocs.</p>
+<h3>Fotògrafs de Nou Barris</h3>
+<p>Fotògrafs nascuts, residents o fortament arrelats al districte, amb activitat fotogràfica significativa.</p>
+<table>
+<thead><tr><th>Fotògraf/a</th><th>Per què és conegut</th></tr></thead>
+<tbody>
+<tr><td>Kim Manresa</td><td>Fotoperiodista nascut a Nou Barris, en actiu des de 1974; exposició «Nou Barris 1970–1980» i donant del fons de l'Arxiu Històric. <em>Pendent de confirmar el barri de naixement.</em></td></tr>
+<tr><td>Ginés Cuesta (1945–2023, veí del Verdum)</td><td>«Fotografia al pas»; fons llegat a l'Arxiu Històric (2011) i llibre «La Barcelona fotografiada de Ginés Cuesta» (2024).</td></tr>
+<tr><td>Manel «Ulls» Sala</td><td>Membre de 9 Barris Imatge i referent de la fotografia de circ i arts escèniques. <em>Pendent de verificar amb ell.</em></td></tr>
+<tr><td>Joan «Linux» Martínez</td><td>Membre fundador de 9 Barris Imatge; documenta la vida del barri des del 2002 i la vida cultural de <strong>tota Barcelona</strong> des de <a href="https://www.pocallum.cat/" target="_blank" rel="noopener">Pocallum.cat</a>. Ha impartit classes de fotografia al Casal de Joves de Prosperitat.</td></tr>
+<tr><td>Manel Mora Palau</td><td>Fotògraf esportiu; botiga Foto Mora al passeig de Fabra i Puig.</td></tr>
+<tr><td>Manel Montilla</td><td>Del barri de Porta; fotoperiodista esportiu amb 35 anys d'ofici i llibre «Soc fotògraf» (2026).</td></tr>
+<tr><td>José María Medina «El Nostálgico»</td><td>Projecte «Nou Barris d'abans i ara», exposat amb l'Arxiu Històric (2018).</td></tr>
+</tbody>
+</table>
+<h3>Fotògrafs i fotògrafes que han documentat Nou Barris</h3>
+<p>Amb obra significativa sobre el districte des de Barcelona.</p>
+<table>
+<thead><tr><th>Fotògraf/a</th><th>Per què és conegut</th></tr></thead>
+<tbody>
+<tr><td>Arnau Bach i Myriam Meloni</td><td>Coautors de «Linde» (2020), sobre Canyelles, Torre Baró, Vallbona i Ciutat Meridiana.</td></tr>
+<tr><td>Mónica Rosselló</td><td>Projecte «16 barris, 1000 ciutats» (li va tocar La Verneda i La Pau).</td></tr>
+<tr><td>Gregori Civera i Carmen Secanella</td><td>Exposició «Una ciutat desconeguda sota la boira» (<a href="https://www.macba.cat/" target="_blank" rel="noopener">MACBA</a>, 2024–2025).</td></tr>
+</tbody>
+</table>
+<h3>Fotografia comunitària i de barri</h3>
+<table>
+<thead><tr><th>Col·lectiu / persona</th><th>Per què és conegut</th></tr></thead>
+<tbody>
+<tr><td>9 Barris Imatge</td><td>El nostre col·lectiu (des del 2002).</td></tr>
+<tr><td>Grup Foto Roquetes</td><td>Fotografia comunitària de Roquetes; hi consten obres dels nostres membres Manel Villalba i Núria Orbaneja.</td></tr>
+<tr><td>Josep Antón Cordoncillo</td><td>Fundador de 9 Barris Imatge; la seva càmera va retratar la Prosperitat.</td></tr>
+<tr><td>Arxiu Històric de Roquetes-Nou Barris</td><td>Conserven el fons de Josep Antón Cordoncillo, però després de molts anys de la seva pèrdua encara no li han sabut donar sortida, i mai no s'han relacionat ni han contactat amb 9 Barris Imatge.</td></tr>
+<tr><td><em>Pendents de documentar:</em> Juan Manuel Rodríguez «Morocho», Antonio Silva, Eva Orti, Carlos Navas, Arnaldo Gil Albacete, Rafael Juncadella…</td><td>—</td></tr>
+</tbody>
+</table>
+<h3>L'ecosistema fotogràfic de Nou Barris</h3>
+<ul>
+<li><strong><a href="https://www.canbaste.com/que-es-lespai-fotografic-can-baste/" target="_blank" rel="noopener">Centre Cívic Can Basté</a></strong> — equipament especialitzat en fotografia i referent indiscutible de la fotografia dins de Barcelona; alguns membres de 9 Barris Imatge hi han <strong>estudiat i exposat</strong>. Seu del <a href="https://www.canbaste.com/" target="_blank" rel="noopener">Fòrum Fotogràfic</a> (19a edició, 2026).</li>
+<li><strong>Humberto Rivas</strong> (1937–2009) — figura clau de la fotografia a Espanya. <em>Pendent de confirmar-ne el pas per Can Basté i l'homenatge al districte.</em></li>
+<li><strong>Taula rodona MACBA «Fotògrafs a la perifèria»</strong> (2024): Bach, Civera, Secanella i Rosselló.</li>
+</ul>
+<p>Les entrades marcades com a <em>pendents de documentar</em> no tenen encara cap font verificable; si en coneixes alguna, <a href="{{< rel "/contacte/" >}}">escriu-nos</a>.</p>
 </section>
 </div>
