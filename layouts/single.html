@@ -1,6 +1,6 @@
 {{- define "main" }}
 
-<article class="post-single">
+<article class="post-single{{- with .Params.page_bg }} has-page-bg{{- end }}"{{- with .Params.page_bg }} style="--page-bg-url: url('{{ strings.TrimPrefix "/" . | relURL }}')"{{- end }}>
   {{- $headerImg := .Params.header_image }}
   <header class="post-header{{ with $headerImg }} post-header--photo{{ end }}">
     {{ partial "breadcrumbs.html" . }}

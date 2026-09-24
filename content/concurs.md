@@ -4,9 +4,7 @@ description: "El concurs fotogràfic Josep Antón Cordoncillo de 9 Barris Imatge
 url: "/concurs/"
 visualTitle: "Concurs fotogràfic<br>Josep Antón Cordoncillo"
 visualDescription: "El concurs fotogràfic Josep Antón Cordoncillo de 9 Barris Imatge organitzat conjuntament al [Casal de Barri de Prosperitat](https://casalprospe.org/)"
-header_image: "/images/concurs/josep-anton-cordoncillo.jpg"
-header_image_alt: "Josep Antón Cordoncillo, fotògraf fundador de 9 Barris Imatge"
-header_image_caption: "Josep Antón Cordoncillo. *Fotografia: Manel «Ulls» Sala*"
+page_bg: "/images/concurs/concurs-bg.webp"
 ---
 
 El **Concurs Fotogràfic Josep Antón Cordoncillo** és el concurs anual de fotografia que organitza 9 Barris Imatge amb l'objectiu de promoure la mirada fotogràfica sobre el barri, la seva gent i la seva vida.
@@ -54,7 +52,7 @@ de 9 Barris Imatge
 <span class="cal-label">Fi de l'exposició</span>
 </li>
 </ol>
-<p class="concurs-cats"><strong>Categories:</strong> Color · Blanc i negre · Tema <em>(pendent)</em></p>
+<p class="concurs-cats"><strong>Categories:</strong> Color · Blanc i negre · Premi Cordoncillo — tema <em>Arran de terra</em></p>
 <div class="concurs-tabs">
 <input type="radio" name="concurs-tab" id="concurs-tab-bases" class="concurs-tab-radio" checked>
 <input type="radio" name="concurs-tab" id="concurs-tab-participar" class="concurs-tab-radio">
@@ -79,12 +77,20 @@ de 9 Barris Imatge
 <li>L'assumpte del correu ha de ser «<strong>CONCURS DE FOTOGRAFIA CORDONCILLO 2026</strong>» i el correu ha d'incloure les dades personals del/de la participant: nom complet, telèfon de contacte, correu electrònic i adreça postal.</li>
 <li>El nom del fitxer ha de contenir el nom del/de la participant i la categoria a la qual es presenta; per exemple, <code>pere_color.jpg</code>.</li>
 </ol>
-<h4>Categories</h4>
-<ul>
-<li><strong>A.</strong> Fotografia en color, tema lliure.</li>
-<li><strong>B.</strong> Fotografia en blanc i negre, tema lliure.</li>
-<li><strong>C.</strong> Premi Josep Antón Cordoncillo (color i blanc i negre). Tema: <em>pendent</em>.</li>
-</ul>
+<div class="concurs-cat-cards">
+<div class="concurs-cat-card">
+<span class="concurs-cat-letter">A</span>
+<div class="concurs-cat-info"><strong>Color</strong><span>Tema lliure</span></div>
+</div>
+<div class="concurs-cat-card">
+<span class="concurs-cat-letter">B</span>
+<div class="concurs-cat-info"><strong>Blanc i negre</strong><span>Tema lliure</span></div>
+</div>
+<div class="concurs-cat-card concurs-cat-card--special">
+<span class="concurs-cat-letter">C</span>
+<div class="concurs-cat-info"><strong>Premi Josep Antón Cordoncillo</strong><span>Tema: <em>Arran de terra</em></span></div>
+</div>
+</div>
 <h4>Premis</h4>
 <ul>
 <li>Premi del jurat: <strong>100 €</strong> per a cadascuna de les categories A, B i C.</li>
@@ -278,7 +284,7 @@ de 9 Barris Imatge
 <tr><td>2023</td><td>XXXIII</td><td>Petó</td><td>23 participants i 52 fotografies presentades.</td></tr>
 <tr><td>2024</td><td>XXXIV</td><td>Mirades</td><td>Concert de Jo Solana Trio; homenatge a Cordoncillo.</td></tr>
 <tr><td>2025</td><td>XXXV</td><td>Peus</td><td>Bases digitals (JPEG ≥ 4 MB, RAW de verificació) i prohibició d'imatges generades amb IA.</td></tr>
-<tr><td>2026</td><td>XXXVI</td><td><em>pendent</em></td><td>Edició en curs.</td></tr>
+<tr><td>2026</td><td>XXXVI</td><td><em>Arran de terra</em></td><td>Edició en curs.</td></tr>
 </tbody>
 </table>
 <p class="concurs-note">Les edicions II a XVIII (1991–2007) estan pendents de documentar. En tres edicions (2012, 2013 i 2015) el número publicat al web no coincideix amb la seqüència real; ho deixem anotat com a incidència documental, sense corregir-lo.</p>
