@@ -70,6 +70,11 @@ def connect(cfg):
             "SELECT 1 FROM sqlite_master WHERE type='table' AND name='edicions'"
     ).fetchone() is None:
         inietit(conn)
+    else:
+        schema = os.path.join(MODULE_DIR, "schema.sql")
+        with open(schema, encoding="utf-8") as f:
+            conn.executescript(f.read())
+        conn.commit()
     return conn
 
 
@@ -165,7 +170,12 @@ def page_html(title, body, lang):
             "<style>body{font-family:system-ui,sans-serif;max-width:40rem;margin:2rem auto;padding:0 1rem;line-height:1.5}"
             "h1{font-size:1.4rem}select{font-size:1.1rem;padding:.4rem}button{font-size:1.05rem;padding:.5rem 1.2rem;cursor:pointer}"
             ".msg{padding:.8rem;border-radius:6px;margin:1rem 0}.ok{background:#e6f4e6}.err{background:#fdecec}"
-            "a{color:#2a6db5}</style></head><body>%s</body></html>" % (
+            "a{color:#2a6db5}"
+            ".note{color:#555;background:#f3f6fa;border-left:4px solid #2a6db5;padding:.6rem .8rem;border-radius:4px;font-size:.95rem}"
+            ".conditions{border:1px solid #d8d5d0;border-radius:8px;padding:1rem 1.2rem;margin-bottom:1.2rem}"
+            ".conditions h2{font-size:1.1rem;margin:.2rem 0 .6rem}"
+            ".conditions ul{margin:.2rem 0;padding-left:1.2rem}"
+            "</style></head><body>%s</body></html>" % (
                 html.escape(lang), html.escape(title), body))
 
 
@@ -257,7 +267,8 @@ def h_radix(token):
     return html.escape(token)
 
 
-def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js):
+def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js,
+                   note="", conditions=""):
     i18n = get_i18n(lang)
     options = "".join(
         "<option value=\"%d\">%s</option>" % (
@@ -267,8 +278,13 @@ def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js):
     geo_js_block = ""
     if include_geo and geo_js:
         geo_js_block = geo_js
+    extra = ""
+    if conditions:
+        extra += "<div class=\"conditions\">%s</div>" % conditions
+    if note:
+        extra += "<p class=\"note\">%s</p>" % html.escape(note)
     form = (
-        "<h1>%s</h1><p>%s</p>"
+        "<h1>%s</h1><p>%s</p>%s"
         "<form method=\"post\" action=\"/v/%s\" id=\"vf\">"
         "<input type=\"hidden\" name=\"csrft\" value=\"%s\">"
         "<label for=\"obra\">%s</label> "
@@ -278,7 +294,7 @@ def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js):
         "</form>%s"
         "<script>%s</script>")
     return form % (
-        html.escape(ed["nom"]), i18n.get("vote_intro", ""),
+        html.escape(ed["nom"]), i18n.get("vote_intro", ""), extra,
         h_radix(vot_token), html.escape(csrf),
         i18n.get("select_prompt", "Obra"), options,
         i18n.get("btn_vote", "Vota"), geo_js_block, geo_js)
@@ -326,7 +342,16 @@ def vote_page(environ, start_response, token):
                                      "<p>%s</p>" % html.escape(i18n.get("msg_no_works", "")), lang))
         device = get_device_id(environ, cfg)
         csrf = csrf_token(secret_key(cfg), device)
-        body = make_vote_form(ed, works, lang, token, csrf, include_geo, geo_js)
+        conn.execute(
+            "INSERT INTO visites (edicio_id, dispositiu_hash, ts) VALUES (?,?,?)",
+            (ed["id"], device_hash(secret_key(cfg), device), int(time.time())))
+        conn.commit()
+        note = i18n.get("vote_note_mbl", "")
+        conditions = ""
+        if cfg.getboolean("edicio", "mostrar_condicions", fallback=False):
+            conditions = i18n.get("vote_conditions", "")
+        body = make_vote_form(ed, works, lang, token, csrf, include_geo, geo_js,
+                              note=note, conditions=conditions)
         return respond(environ, start_response, "200 OK",
                        page_html(i18n.get("vote_header", "Vot"),
                                  body, lang),
@@ -412,8 +437,8 @@ def submit_vote(environ, start_response, token):
                 geo_estat = "none"
         if ed["mode_geo"] == "hard" and geo_estat != "ok":
             return respond(environ, start_response, "403 Forbidden",
-                           page_html(i18n.get("geo_error_no_pos", ""),
-                                     "<p>%s</p>" % html.escape(i18n.get("geo_error_no_pos", "")), lang))
+                           page_html(i18n.get("geo_error_hard", ""),
+                                     "<p>%s</p>" % html.escape(i18n.get("geo_error_hard", "")), lang))
         devhash = device_hash(secret_key(cfg), device)
         vot_limit = ed["vot_limit"] or 0
         if vot_limit > 0:
@@ -472,6 +497,10 @@ def admin_handle(environ, start_response, sub=""):
                        admin_login_form(lang))
     conn = connect(cfg)
     try:
+        ed_id = None
+        row = conn.execute("SELECT id FROM edicions ORDER BY id LIMIT 1").fetchone()
+        if row is not None:
+            ed_id = row["id"]
         if sub == "stat":
             rows = conn.execute(
                 "SELECT o.numero,o.titol,COUNT(v.id) AS v "
@@ -485,6 +514,27 @@ def admin_handle(environ, start_response, sub=""):
                 body += "<tr><td>%d %s</td><td>%d</td></tr>" % (
                     r["numero"], html.escape(r["titol"] or ""), r["v"])
             body += "</table><p><a href=\"/admin/\">↩ back</a></p>"
+            return respond(environ, start_response, "200 OK", page_html("admin", body, lang))
+        if sub == "visites":
+            total = conn.execute(
+                "SELECT COUNT(*) AS n FROM visites WHERE edicio_id=?", (ed_id,)).fetchone()["n"]
+            unics = conn.execute(
+                "SELECT COUNT(DISTINCT dispositiu_hash) AS n FROM visites WHERE edicio_id=?",
+                (ed_id,)).fetchone()["n"]
+            rows = conn.execute(
+                "SELECT datetime(ts,'unixepoch','localtime') AS d, COUNT(*) AS n "
+                "FROM visites WHERE edicio_id=? GROUP BY strftime('%Y-%m-%d', datetime(ts,'unixepoch','localtime')) "
+                "ORDER BY d DESC LIMIT 30", (ed_id,)).fetchall()
+            body = ("<h1>%s</h1><p>%s: <b>%d</b> · %s: <b>%d</b></p>"
+                    "<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\"><tr><th>%s</th><th>%s</th></tr>"
+                    % (html.escape(i18n.get("admin_visits_title", "Visites via QR")),
+                       html.escape(i18n.get("admin_visits_total", "Visites")), total,
+                       html.escape(i18n.get("admin_visits_uniq", "Dispositius únics")), unics,
+                       html.escape(i18n.get("admin_visits_day", "Dia")),
+                       html.escape(i18n.get("admin_visits_count", "Visites"))))
+            for r in rows:
+                body += "<tr><td>%s</td><td>%d</td></tr>" % (html.escape(r["d"]), r["n"])
+            body += "</table><p><a href=\"/admin/\">↩</a></p>"
             return respond(environ, start_response, "200 OK", page_html("admin", body, lang))
         if sub == "tancar" and environ.get("REQUEST_METHOD") == "POST":
             conn.execute("UPDATE edicions SET tancada=1, tancada_a=datetime('now')")
@@ -513,12 +563,14 @@ def admin_handle(environ, start_response, sub=""):
         body = (
             "<h1>%s</h1>"
             "<p><a href=\"/admin/stat\">%s</a> · "
+            "<a href=\"/admin/visites\">%s</a> · "
             "<a href=\"/admin/export\">%s (CSV)</a></p>"
             "<form method=\"post\" action=\"/admin/tancar\">"
             "<button type=\"submit\" onclick=\"return confirm('%s')\">%s</button></form>"
             "<p><a href=\"/admin/logout\">%s</a></p>"
             % (html.escape(i18n.get("admin_dashboard", "Admin")),
                html.escape(i18n.get("admin_stat", "Recompte en viu")),
+               html.escape(i18n.get("admin_visits_title", "Visites via QR")),
                html.escape(i18n.get("btn_export", "Exporta")),
                html.escape(i18n.get("close_confirm", "Segur que vols tancar la votació?")),
                html.escape(i18n.get("btn_close", "Tanca la votació")),

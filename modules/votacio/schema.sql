@@ -43,3 +43,13 @@ CREATE TABLE IF NOT EXISTS vots (
 CREATE INDEX IF NOT EXISTS idx_vots_edicio ON vots(edicio_id);
 CREATE INDEX IF NOT EXISTS idx_vots_edicio_obra ON vots(edicio_id, obra_id);
 CREATE INDEX IF NOT EXISTS idx_vots_ts ON vots(ts);
+
+CREATE TABLE IF NOT EXISTS visites (
+    id              INTEGER PRIMARY KEY AUTOINCREMENT,
+    edicio_id       INTEGER NOT NULL REFERENCES edicions(id),
+    dispositiu_hash TEXT NOT NULL,
+    ts              INTEGER NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_visites_edicio ON visites(edicio_id);
+CREATE INDEX IF NOT EXISTS idx_visites_ts ON visites(ts);
