@@ -1357,7 +1357,7 @@ h1, h2, h3, h4, h5, h6 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
   gap: 0.75rem;
-  margin: 6rem 0 1.8rem;
+  margin: 4rem 0 1.8rem;
 }
 .concurs-cat-card {
   display: flex;
@@ -1368,6 +1368,16 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--entry, var(--tertiary));
+  transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+.concurs-cat-card:hover {
+  border-color: #e03131;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+@media (prefers-reduced-motion: reduce) {
+  .concurs-cat-card { transition: none; }
+  .concurs-cat-card:hover { transform: none; box-shadow: none; }
 }
 .concurs-cat-card--special {
   border-left: 3px solid #e03131;
