@@ -37,6 +37,8 @@ Hi ha, però, una excepció: per als àlbums de fotos fem servir **[Google Photo
 
 Aquests valors no són només per al web. Són la nostra política en tots els àmbits de la vida comunitària.
 
+Creiem en l'esperit de les llicències **[Creative Commons](https://creativecommons.org/)**: **compartir és bonic**. Les obres guanyen valor quan es difonen, i per això publiquem els nostres continguts amb llicència oberta. Però compartir no vol dir apropiar-se'n: **sempre cal reconèixer l'autoria**. I si algú vol fer-ne un ús comercial, és just que **compensi l'autor/a d'alguna manera** —no necessàriament amb diners: un intercanvi, un reconeixement, una col·laboració... Hi ha moltes formes.
+
 Rebutgem qualsevol postura autoritària, feixista, abusiva i, en general, tota forma d'abús. **Estimem la llibertat i la cultura.**
 
 ## Llicència
