@@ -1549,3 +1549,44 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
   }
 }
+
+/* ---- Foto de capçalera a l'altura del títol (pàgines amb header_image) ---- */
+.post-header--photo {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  column-gap: 1.5rem;
+  align-items: center;
+}
+.post-header--photo .post-header-photo {
+  grid-column: 1;
+  grid-row: span 3;
+  align-self: center;
+  margin: 0;
+  width: min(160px, 30vw);
+}
+.post-header--photo .post-header-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--tertiary);
+}
+.post-header--photo .post-header-photo figcaption {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  text-align: center;
+  opacity: 0.85;
+}
+.post-header--photo .post-title,
+.post-header--photo .post-description,
+.post-header--photo .post-meta {
+  grid-column: 2;
+}
+@media (max-width: 640px) {
+  .post-header--photo { grid-template-columns: 1fr; }
+  .post-header--photo .post-header-photo { grid-row: auto; width: min(200px, 50vw); justify-self: start; }
+  .post-header--photo .post-title,
+  .post-header--photo .post-description,
+  .post-header--photo .post-meta { grid-column: 1; }
+}

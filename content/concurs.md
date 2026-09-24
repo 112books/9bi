@@ -4,6 +4,9 @@ description: "El concurs fotogràfic Josep Antón Cordoncillo de 9 Barris Imatge
 url: "/concurs/"
 visualTitle: "Concurs fotogràfic<br>Josep Antón Cordoncillo"
 visualDescription: "El concurs fotogràfic Josep Antón Cordoncillo de 9 Barris Imatge organitzat conjuntament al [Casal de Barri de Prosperitat](https://casalprospe.org/)"
+header_image: "/images/concurs/josep-anton-cordoncillo.jpg"
+header_image_alt: "Josep Antón Cordoncillo, fotògraf fundador de 9 Barris Imatge"
+header_image_caption: "Josep Antón Cordoncillo. *Fotografia: Manel «Ulls» Sala*"
 ---
 
 El **Concurs Fotogràfic Josep Antón Cordoncillo** és el concurs anual de fotografia que organitza 9 Barris Imatge amb l'objectiu de promoure la mirada fotogràfica sobre el barri, la seva gent i la seva vida.
