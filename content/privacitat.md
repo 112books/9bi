@@ -8,7 +8,7 @@ Aquesta política explica com **9 Barris Imatge** tracta les dades personals que
 
 ## Responsable del tractament
 
-- **Identitat:** Associació 9 Barris Imatge
+- **Identitat:** Col·lectiu 9 Barris Imatge
 - **Adreça:** Casal de Barri de Prosperitat, Plaça d'Ángel Pestaña, s/n, 08016 Barcelona
 - **Correu de contacte:** info@9barrisimatge.org
 
@@ -29,7 +29,7 @@ La base legal és el teu **consentiment** (article 6.1.a del RGPD), que atorgues
 Les dades no se cedeixen a tercers aliens, excepte:
 
 - **FormSubmit** (formsubmit.co), servei que gestiona l'enviament del formulari i que actua com a encarregat del tractament.
-- El **proveïdor de correu electrònic** de l'associació, on s'emmagatzemen els missatges rebuts.
+- El **proveïdor de correu electrònic** del col·lectiu, on s'emmagatzemen els missatges rebuts.
 
 Alguns d'aquests proveïdors poden estar ubicats fora de l'Espai Econòmic Europeu; en aquest cas, el tractament es fa a l'empara de les garanties previstes al RGPD per a les transferències internacionals.
 
