@@ -160,9 +160,25 @@ sync-9bi.sh                        # script de sync/gestió
   3. `curl -sI "https://linuxbcn.codeberg.page/9bi/?v=$RANDOM" | grep -i last-modified` → sempre s'actualitza.
 - **Corol·lari**: el contingut de `pages` i la DNS ja estan comprovats (2026-09-24). Qualsevol «el domini va enrere» = webhook del domini. Point the user to esta secció.
 
+## Sessió 2026-09-24 — MIGRACIÓ DE PRODUCCIÓ a GITHUB PAGES (decisió de l'usuari)
+
+> **Decisió (usuari)**: migrar el lloc de producció a **GitHub Pages**. Codeberg queda com a **backup** (repo `linuxbcn/9bi`). Motiu: la quota de Codeberg (750 MiB) es torna a sobrepassar sovint i bloqueja els deploys; el cicle de demanar augments i fer GC no és sostenible. **No esborrar res de Codeberg.**
+
+- **Repo nou**: `https://github.com/112books/9bi` (públic). Remotes locals: `github` (https://github.com/112books/9bi.git → main) i `origin` (Codeberg, queda com a backup).
+- **Build i deploy**: `.github/workflows/deploy.yml` — `actions/checkout@v4` + `peaceiris/actions-hugo@v3` (0.164.0 extended) + pas opcional `fetch_9bi_analytics.py` si existeix el secret `GOATCOUNTER_API_KEY` (comprobació al shell, no als `if:`) + `hugo --minify --environment production` + `actions/configure-pages@v5` + `actions/upload-pages-artifact@v3` + `actions/deploy-pages@v4`. Trigger: push a `main` + `workflow_dispatch`. Build ~28 s.
+- **Estat verificat (2026-09-24 ~15:45)**: `https://112books.github.io/9bi/` = 200 (Last-Modified fresc = build del push), `/stats/` = 200, `/page/2/` = 200 (miniatures `relURL`). El domini custom `9barrisimatge.org` està configurat al repo (Settings → Pages, via `gh api -X PUT repos/112books/9bi/pages -f cname=9barrisimatge.org`).
+- **PENDENT (acció d'usuari, ~5 min)**: canviar la **DNS** a la registradora — instruccions exactes a `drafts/2026-09-24-migracio-github-pages-dns.md`:
+  - Apex `@` → 4 registres A `185.199.108.153 / .109 / .110 / .111`; **eliminar** l'A de Codeberg `217.197.84.141` i la AAAA.
+  - `www` → CNAME `112books.github.io`; **eliminar** el CNAME a `codeberg.page` i l'A de `www`.
+  - TXT (`_git-pages-repository`, SPF de FormSubmit, google-site-verification) → **conservar**.
+- **Després de canviar la DNS (propagació 5–60 min)**: GitHub emet el certificat TLS automàticament. Verificar amb les 3 comandes de la secció anterior (ara comparar Last-Modified = build de GitHub, no de Codeberg).
+- **Nota de disseny/estat de protecció del domini**: GitHub Pages no demana cap registre TXT extra per al dominio (els A records són la verificació). Si algún dia GitHub marca el dominia com a "protected domain" caldrà un TXT `_github-pages-challenge-...` (no necessari ara).
+- **Procediment publicar ara**: només cal `git push github main` → Actions construeix i publica sol. **Ja no s'usa `sync-9bi.sh deploy` per a producció** (queda com a eina per re-deployar Codeberg si calgués revertir el backup).
+- **GOATCOUNTER_API_KEY**: afegir-la a GitHub → `Settings → Secrets and variables → Actions` perquè `/stats/` es refresquí a cada deploy (ara el pas s'omet perquè no hi és).
+
 ## Problemes coneguts / pendents (verificats)
 
-1. **Quota de git de Codeberg superada** (≈756 MiB vs 750 MiB) → **cap push** (ni a `main` ni a `pages`) funciona fins que s'aprovi la petició `[STORAGE]` (1500 MiB) a `Codeberg-e.V./requests`. **Els commits queden locals i nets** (no es perden). Un cop aprovada: pujar els commits pendents de `main` + 1 deploy. El script ja fa **deploy incremental** perquè no torni a passar. (Vegeu `drafts/2026-09-21-quota-codeberg.md`.)
+1. **Quota de git de Codeberg superada** (≈756 MiB vs 750 MiB) → cap push a `origin` (ni `main` ni `pages`) des de 2026-09-24. **Mitigat per la migració a GitHub Pages**: producció ja no depèn de Codeberg. El repo de Codeberg queda com a **backup read-only** fins que (opcionalment) s'aprovï l'augment de quota a `Codeberg-e.V./requests` (issue #2522, tancada el 2026-09-23 amb GC del servidor sense augment; text de reobertura preparat però no enviat). (Vegeu `drafts/2026-09-21-quota-codeberg.md`.)
 2. **Forgejo Actions activades al repo** però **sense runner disponible** (Codeberg no dona els runners gestionats a usuaris nous: `/actions/approval` → 404). El deploy es fa manualment via branca `pages` + webhook; el workflow no s'ha executat. Idem: el workflow actual no és el canal; el desplegament de producció és `sync-9bi.sh deploy` (incremental, 2026-09-21).
 3. `static/admin/config.yml` amb el Client ID real de l'OAuth2 de Codeberg (`app_id: 0c6b6c51-…`) — **fet i desplegat (2026-09-18, commit `dd36e51e`)**. Pendent: **usuari i permisos** dels col·laboradors (es treuran a membres inactius perquè no editin).
 4. `extend_head.html` apunta a `9barrisimatge.goatcounter.com`: cal crear el lloc al GoatCounter.
