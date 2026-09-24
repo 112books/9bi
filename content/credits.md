@@ -8,7 +8,9 @@ Aquest web no és només una eina: és també una manera de fer. Aquí expliquem
 
 ## Desenvolupament
 
-L'ha desenvolupat **[LinuxBCN](https://linuxbcn.com)**, a partir de la necessitat i la possibilitat que va veure **Joan Linux**, membre de 9 Barris Imatge, de fer en programari lliure el que portàvem massa temps fent a Blogger i amb les limitacions que això comportava: dificultat per publicar els àlbums per a membres amb un perfil poc tècnic, dependència de Blogger i la seva poca flexibilitat, etc. El codi es manté al repositori [`linuxbcn/9bi`](https://codeberg.org/linuxbcn/9bi) de [Codeberg](https://codeberg.org/).
+L'ha desenvolupat **[LinuxBCN](https://linuxbcn.com)**, a partir de la necessitat i la possibilitat que va veure **Joan Linux**, membre de 9 Barris Imatge, de fer en programari lliure el que portàvem massa temps fent a Blogger i amb les limitacions que això comportava: dificultat per publicar els àlbums per a membres amb un perfil poc tècnic, dependència de Blogger i la seva poca flexibilitat, etc.
+
+El **codi font del projecte viu a [Codeberg](https://codeberg.org/)**, una plataforma **100% lliure** (basada en Forgejo), al repositori [`linuxbcn/9bi`](https://codeberg.org/linuxbcn/9bi), que és la **versió de referència**. La publicació en línia del web —el que anomenem «9bi»— es fa, però, des de **[GitHub Pages](https://pages.github.com/)** amb una còpia del repositori allotjada a GitHub. Ho fem per raons de **mida i de practicitat operativa** (capacitat d'emmagatzematge i publicació automàtica), no per preferència: som conscients que GitHub no és programari lliure, i per això la **font del codi sempre és Codeberg**.
 
 ## L'aplicació Taro
 
@@ -19,8 +21,8 @@ Amb el mateix esperit vam crear **[Taro](https://linuxbcn.com/ca/projectes/taro-
 - **[Hugo](https://gohugo.io/)** — generador de llocs estàtics (ràpid, sense base de dades).
 - **[PaperMod](https://github.com/adityatelange/hugo-PaperMod)** — tema del lloc per a Hugo.
 - **[Decap CMS](https://decapcms.org/)** — per editar els continguts.
-- **[Codeberg](https://codeberg.org/)** ([Forgejo](https://forgejo.org/)) — allotjament del codi.
-- **[Codeberg Pages](https://codeberg.page/)** — publicació del lloc.
+- **[Codeberg](https://codeberg.org/)** ([Forgejo](https://forgejo.org/)) — allotjament del codi (font de referència, programari lliure).
+- **[GitHub Pages](https://pages.github.com/)** — publicació del lloc (mirall operatiu per mida i practicitat).
 - **[GoatCounter](https://www.goatcounter.com/)** — estadístiques de visites sense cookies.
 - **[Git](https://git-scm.com/)**, **[Markdown](https://daringfireball.net/projects/markdown/)**, HTML, CSS i JavaScript.
 - **[Python](https://www.python.org/)** — les aplicacions dels mòduls de Taro (formularis, votació, autopublicació).
@@ -49,32 +51,4 @@ Els continguts (textos i fotografies) es publiquen sota la llicència **[Creativ
 
 El **[codi del lloc](https://codeberg.org/linuxbcn/9bi)** és programari lliure.
 
-## Preguntes freqüents sobre les imatges
-
-### Puc fer servir les fotografies del web?
-
-Sí, sempre que respectis la llicència [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca): ús no comercial, amb reconeixement i compartint igual. Si tens dubtes, escriu-nos.
-
-### Com he de citar una fotografia?
-
-Indica l'autor/a, el títol de l'entrada, «9 Barris Imatge», un enllaç a la publicació original i la llicència. Exemple: *Fotografia: [Nom], «[títol]», 9 Barris Imatge, [enllaç], CC BY-NC-SA 4.0.*
-
-### On les puc fer servir?
-
-En webs, xarxes, treballs d'escola, materials d'entitats sense ànim de lucre... Sempre que sigui un ús no comercial i citis correctament.
-
-### I si en vull fer un ús comercial?
-
-Escriu-nos a **[info@9barrisimatge.org](mailto:info@9barrisimatge.org)**. L'ús comercial (publicitat, productes, revistes de pagament...) necessita permís exprés de l'autor/a.
-
-### Les fotos dels àlbums de Google Photos?
-
-Poden tenir condicions diferents de les d'aquesta pàgina. Consulta-ho amb nosaltres.
-
-### Puc fer servir fotografies fetes per tercers?
-
-No les podem cedir: pertanyen als seus autors. Respecta sempre els seus drets.
-
-### He de posar la mateixa llicència a la meva obra?
-
-Si la modifiques o en fas una obra derivada, sí: ha de quedar sota la mateixa llicència **CC BY-NC-SA 4.0**.
+Si tens dubtes sobre l'ús de les fotografies, pots consultar les [preguntes freqüents](/faq/).

@@ -11,8 +11,8 @@ enableRobotsTXT = true
 enableEmoji = true
 
 # Peu de pàgina: llicència Creative Commons.
-# La primera línia (a la plantilla) enllaça a la FAQ «Puc fer servir les fotografies del web?»,
-# que és on hi ha l'enllaç directe a Creative Commons.
+# La primera línia (a la plantilla) enllaça a la pàgina FAQ, que és on hi ha
+# la resposta «Puc fer servir les fotografies del web?» amb l'enllaç a CC.
 # NOTA: confirma la varietat de llicència exacta (ara: CC BY-NC-SA 4.0).
 copyright = 'Contingut sota llicència Creative Commons Reconeixement-NoComercial-CompartirIgual 4.0'
 
@@ -96,7 +96,7 @@ uglyURLs = true
   [[menu.main]]
     identifier = "faq"
     name = "FAQ"
-    url = "/credits/#preguntes-freqüents-sobre-les-imatges"
+    url = "/faq/"
     weight = 5
   [[menu.main]]
     identifier = "search"
