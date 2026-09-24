@@ -127,7 +127,7 @@ uglyURLs = true
   [[menu.footer]]
     identifier = "estadistiques"
     name = "Estadístiques del web"
-    url = "https://9bi.goatcounter.com/"
+    url = "/stats/"
     weight = 4
   [[menu.footer]]
     identifier = "search"

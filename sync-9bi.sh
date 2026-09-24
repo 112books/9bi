@@ -195,6 +195,11 @@ deploy() {
   read -r -p "  Nom d'aquest deploy (p.ex. 'header x2 + graella 4x2'): " label
   [[ -z "$label" ]] && label="deploy $(date '+%Y-%m-%d %H:%M')"
 
+  # Refresca les estadístiques del web (només producció, abans del build)
+  if [[ "$ENV" == "$ENV_PROD" ]]; then
+    refresh_stats
+  fi
+
   BUILD_DIR="$(mktemp -d "${TMPDIR:-/tmp}/9bi-deploy.XXXXXX")"
   print "Build amb l'entorn '${ENV}' a ${BUILD_DIR}..."
   if ! hugo --minify --environment "$ENV" --destination "$BUILD_DIR"; then
@@ -270,12 +275,31 @@ upload() {
   ok "data/popular.json actualitzat."
 }
 
+# ── Estadístiques del web (/stats/) ──────────────────────────────────────
+# Genera static/stats/analytics.json des de GoatCounter per al dashboard
+# estàtic de /stats/. Es crida automàticament al deploy de PRODUCCIÓ (abans
+# del build) i es pot invocar manualment. Se salta (warn) si manca la clau
+# o l'API no respon: mai no ha de bloquejar un deploy.
+refresh_stats() {
+  print "Refresh de static/stats/analytics.json des de GoatCounter..."
+  [[ -z "${GOATCOUNTER_API_KEY:-}" ]] && {
+    warn "Falta GOATCOUNTER_API_KEY → no es refresca /stats/ (es desplega l'últim analytics.json)."
+    return 0
+  }
+  if python3 scripts/fetch_9bi_analytics.py --days 30; then
+    ok "static/stats/analytics.json actualitzat."
+  else
+    warn "Refresh d'estadístiques fallat → es desplega l'últim analytics.json."
+  fi
+}
+
 # ── Modo no interactiu ───────────────────────────────────────────────────
 case "${1:-menu}" in
   status) status; exit 0 ;;
   sync)   sync;   exit 0 ;;
   deploy) deploy "${2:-staging}"; exit 0 ;;
   deploy-prod) deploy "production"; exit 0 ;;
+  stats)  refresh_stats; exit 0 ;;
   build)  build_local; exit 0 ;;
   server) server_local; exit 0 ;;
 esac
@@ -296,6 +320,7 @@ echo " 4) Deploy a producció (build + push a 'pages' → 9barrisimatge.org)"
 echo " 5) Servidor local → localhost:1313"
 echo " 6) Build local (hugo --minify, amb drafts)"
 echo " 7) Refresca els articles més visitats (GoatCounter)"
+echo " 8) Refresca les estadístiques del web (/stats/)"
 echo "───────────────────────────────────────"
 echo " 0) Sortir"
 echo ""
@@ -311,6 +336,7 @@ case "$opt" in
   5) server_local ;;
   6) build_local ;;
   7) upload ;;
+  8) refresh_stats ;;
   0) exit 0 ;;
   *) err "Opció no vàlida: '${opt}'"; exit 1 ;;
 esac

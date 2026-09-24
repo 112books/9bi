@@ -1,0 +1,235 @@
+{
+  "generated": "2026-09-24T06:43:59.131696Z",
+  "period": {
+    "start": "2026-08-25",
+    "end": "2026-09-24"
+  },
+  "total": 40,
+  "total_unique": 0,
+  "hits_by_day": [
+    {
+      "date": "2026-09-23",
+      "count": 40
+    }
+  ],
+  "hits": [
+    {
+      "path": "/index.html",
+      "count": 10
+    },
+    {
+      "path": "/concurs",
+      "count": 5
+    },
+    {
+      "path": "/archive",
+      "count": 4
+    },
+    {
+      "path": "/2026/09/2026-09-19-casal-de-barri-de-prosperitat-tributo-a-amaral.html",
+      "count": 2
+    },
+    {
+      "path": "/credits",
+      "count": 2
+    },
+    {
+      "path": "/2026/09/2026-09-19-festa-major-de-verdum-verdum-punkfest.html",
+      "count": 1
+    },
+    {
+      "path": "/contacte",
+      "count": 1
+    },
+    {
+      "path": "/2016/12/stripats-al-casal-de-barri-de.html",
+      "count": 1
+    },
+    {
+      "path": "/9bi/page/5/index.html",
+      "count": 1
+    },
+    {
+      "path": "/9bi",
+      "count": 1
+    },
+    {
+      "path": "/2026/07/el-esport-peu-de-barriprospe-beach26.html",
+      "count": 1
+    },
+    {
+      "path": "/2026/07/24-festival-de-blues-barcelona-2026_02123423894.html",
+      "count": 1
+    },
+    {
+      "path": "/2012/06/el-casal-es-mostra-festa-fi-de-curs-del.html",
+      "count": 1
+    },
+    {
+      "path": "/qui-som",
+      "count": 1
+    },
+    {
+      "path": "/2011/10/edifici-15-o-una-ocupacio-social.html",
+      "count": 1
+    },
+    {
+      "path": "/9bi/credits",
+      "count": 1
+    },
+    {
+      "path": "/9bi/contacte",
+      "count": 1
+    },
+    {
+      "path": "/9bi/concurs",
+      "count": 1
+    },
+    {
+      "path": "/9bi/qui-som",
+      "count": 1
+    },
+    {
+      "path": "/9bi/index.html",
+      "count": 1
+    },
+    {
+      "path": "/9bi/archive",
+      "count": 1
+    },
+    {
+      "path": "/9bi/tags/index.html",
+      "count": 1
+    }
+  ],
+  "by_lang": {},
+  "by_section": {
+    "inici": 12,
+    "concurs": 6,
+    "archive": 5,
+    "2026": 5,
+    "credits": 3,
+    "contacte": 2,
+    "2016": 1,
+    "page": 1,
+    "2012": 1,
+    "qui-som": 2,
+    "2011": 1,
+    "tags": 1
+  },
+  "browsers": [
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 21
+    },
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 14
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 5
+    }
+  ],
+  "systems": [
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 18
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 13
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 4
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 4
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 1
+    }
+  ],
+  "sizes": [
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 20
+    },
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 17
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 3
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 39
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Directe",
+      "id": "Directe",
+      "count": 14
+    },
+    {
+      "name": "linuxbcn.codeberg.page/9bi",
+      "id": "linuxbcn.codeberg.page/9bi",
+      "count": 3
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 2
+    },
+    {
+      "name": "linuxbcn.codeberg.page/9bi/archive",
+      "id": "linuxbcn.codeberg.page/9bi/archive",
+      "count": 2
+    },
+    {
+      "name": "ig",
+      "id": "ig",
+      "count": 1
+    },
+    {
+      "name": "linuxbcn.codeberg.page/9bi/qui-som",
+      "id": "linuxbcn.codeberg.page/9bi/qui-som",
+      "count": 1
+    },
+    {
+      "name": "linuxbcn.codeberg.page/9bi/concurs",
+      "id": "linuxbcn.codeberg.page/9bi/concurs",
+      "count": 1
+    },
+    {
+      "name": "linuxbcn.codeberg.page/9bi/page/4/index.html",
+      "id": "linuxbcn.codeberg.page/9bi/page/4/index.html",
+      "count": 1
+    }
+  ]
+}
