@@ -289,6 +289,10 @@ de 9 Barris Imatge
 </ul>
 <h3>Josep Antón Cordoncillo, el fotògraf de la Prosperitat</h3>
 <p><strong>Josep Antón Cordoncillo</strong> va ser un fotògraf molt estimat a la Prosperitat; la seva càmera va retratar bona part de l'activitat cultural i social del barri. L'any <strong>2002</strong> va fundar <strong>9 Barris Imatge</strong> juntament amb el Pedro, el Manel Ulls i l'Imma, amb l'objectiu de capturar, com a aficionats, l'activitat veïnal de la Prosperitat i de la resta de Nou Barris.</p>
+<figure class="concurs-portrait">
+<img src="{{< rel "/images/concurs/josep-anton-cordoncillo.jpg" >}}" alt="Josep Antón Cordoncillo, fotògraf fundador de 9 Barris Imatge" loading="lazy" decoding="async">
+<figcaption>Josep Antón Cordoncillo. <em>Fotografia: Manel «Ulls» Sala</em></figcaption>
+</figure>
 <p>Durant els primers dos o tres anys, en Josep Antón era el que cobria gairebé tots els esdeveniments del barri, sobretot els de la Prosperitat i el Casal de Joves. El <strong>2004</strong> ens va deixar, i el grup va quedar «una mica coix»; però al cap d'un any van decidir tirar endavant — «som una mica els fotògrafs del barri», com recorda el Manel Ulls. La seva mort no va acabar amb el col·lectiu: el concurs anual de fotografia, ja un clàssic del veïnat, va ser <strong>batejat amb el seu nom</strong>, un homenatge pòstum que es manté avui (el 2024, amb motiu de l'edició XXXIV, el lliurament de premis va incloure un reconeixement explícit a la seva figura).</p>
 <p>Encara no sabem amb precisió les dates de naixement i mort d'en Josep Antón, ni si es conserva un fons de la seva obra. Si el coneixíeu o en teniu fotografies, <a href="{{< rel "/contacte/" >}}">escriu-nos</a>: volem completar aquesta memòria.</p>
 <p class="concurs-note">Fonts: betevé — «<a href="https://beteve.cat/cultura/lherencia-de-josep-anton-cordoncillo/">L'herència de Josep Antón Cordoncillo</a>» (testimoni del Manel Ulls) i «<a href="https://beteve.cat/societat/album-fotos-prosperitat-9barris-imatge/">Àlbum de la vida i personatges dels darrers 20 anys de la Prosperitat</a>» (testimoni de Joan Martínez «Linux»).</p>

@@ -1299,6 +1299,22 @@ h1, h2, h3, h4, h5, h6 {
   color: #e03131;
   font-weight: 600;
 }
+.concurs-history .concurs-portrait {
+  max-width: 640px;
+  margin: 1.5rem auto;
+}
+.concurs-history .concurs-portrait img {
+  width: 100%;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--tertiary);
+}
+.concurs-history .concurs-portrait figcaption {
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
+  text-align: center;
+  opacity: 0.85;
+}
 .concurs-share {
   margin-top: 2.8rem;
   padding-top: 1.8rem;
