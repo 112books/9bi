@@ -63,7 +63,7 @@ de 9 Barris Imatge
 </div>
 <div class="concurs-cat-card concurs-cat-card--special">
 <span class="concurs-cat-letter">C</span>
-<div class="concurs-cat-info"><strong>Premi J.A.&nbsp;Cordoncillo</strong><span>Tema: <em>Arran de terra</em></span><em class="concurs-cat-prize">100 €</em></div>
+<div class="concurs-cat-info"><strong>Cordoncillo</strong><span>Tema: <em>Arran de terra</em></span><em class="concurs-cat-prize">100 €</em></div>
 </div>
 <div class="concurs-cat-card concurs-cat-card--public">
 <span class="concurs-cat-letter">★</span>
