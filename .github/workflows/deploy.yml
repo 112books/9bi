@@ -28,8 +28,12 @@ jobs:
           extended: true
 
       - name: Refresca les estadístiques del web (si hi ha API key)
-        if: ${{ secrets.GOATCOUNTER_API_KEY != '' }}
-        run: python3 scripts/fetch_9bi_analytics.py
+        run: |
+          if [ -n "$GOATCOUNTER_API_KEY" ]; then
+            python3 scripts/fetch_9bi_analytics.py
+          else
+            echo "GOATCOUNTER_API_KEY no definida; no es refresca /stats/"
+          fi
         env:
           GOATCOUNTER_API_KEY: ${{ secrets.GOATCOUNTER_API_KEY }}
 
