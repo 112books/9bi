@@ -22,6 +22,16 @@ A l'inici de **cada** sessió (OpenCode, Claude o la que sigui), abans de trebal
 2. **Iniciar la gestió d'hores**: activar/enregistrar el temps de la sessió (skill `time-tracker`, `.taques/`).
 3. **Recompte del web**: usuaris (GoatCounter), nombre de posts i números del web (posts · anys · membres).
 
+## Loop de tasques (definit per l'usuari, 2026-09-24)
+
+Quan l'usuari demani «loop de tasques» o «seguim amb les tasques pendents»: treballar la llista de tasques **una a una**:
+
+1. **Llistar** les tasques pendents amb l'estat real verificat (no assumir res).
+2. **Pensar la millor manera** de fer la tasca i **fer-la** (amb aprovació explícita abans de tocar fitxers/disseny).
+3. **Verificar** (build + navegació real + desplegament). **Si no passa la verificació, arreglar-ho** i repetir.
+4. **Si no es pot seguir per faltar una decisió**: **congelar la tasca** (anotar el que falta i per què), **avisar entre tasques**, i passar a la següent.
+5. Repetir fins acabar la llista. Les 5 dictades el 2026-09-21 tenen prioritat.
+
 ## El projecte
 
 Lloc web estàtic de l'Associació fotogràfica 9 Barris Imatge (Barcelona), migrat de Blogger a Hugo + PaperMod, hostatjat a Codeberg Pages.
