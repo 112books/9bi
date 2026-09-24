@@ -1149,6 +1149,43 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.3;
   max-width: 8rem;
 }
+.cal-link {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+.cal-link .cal {
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+.cal-link:hover .cal,
+.cal-link:focus-visible .cal {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.28);
+  border-color: #e03131;
+}
+.cal-link::after {
+  content: attr(data-tip);
+  position: absolute;
+  top: calc(100% + 0.35rem);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--theme);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #e03131;
+  white-space: nowrap;
+  padding: 0.15rem 0.5rem;
+  letter-spacing: 0.03em;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+}
+.cal-link:hover::after,
+.cal-link:focus-visible::after {
+  opacity: 1;
+}
 .concurs-cats {
   margin: 3rem 0;
   font-size: 0.95rem;
@@ -1318,9 +1355,9 @@ h1, h2, h3, h4, h5, h6 {
 /* Categories en cards */
 .concurs-cat-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
   gap: 0.75rem;
-  margin: 1rem 0 1.5rem;
+  margin: 1.2rem 0 1.8rem;
 }
 .concurs-cat-card {
   display: flex;
@@ -1363,6 +1400,22 @@ h1, h2, h3, h4, h5, h6 {
 .concurs-cat-info span {
   font-size: 0.85rem;
   opacity: 0.75;
+}
+.concurs-cat-prize {
+  display: block;
+  font-style: normal;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #e03131;
+  margin-top: 0.25rem;
+}
+.concurs-cat-card--public {
+  border-left: 3px solid #e03131;
+}
+.concurs-cat-card--public .concurs-cat-letter {
+  background: #e03131;
+  color: #fff;
+  font-size: 0.85rem;
 }
 /* Fons de pàgina esmorteïda (front matter: page_bg) */
 .has-page-bg {

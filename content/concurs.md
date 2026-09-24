@@ -32,27 +32,44 @@ de 9 Barris Imatge
 </h2>
 <ol class="concurs-timeline">
 <li class="concurs-step">
-<span class="cal"><span class="cal-month">Set</span><span class="cal-day">25</span></span>
+<a class="cal-link" href="https://www.google.com/calendar/render?action=TEMPLATE&text=Inici+del+36%C3%A8+Concurs+Cordoncillo+2026&dates=20260925%2F20260926&location=Casal+de+Barri+de+Prosperitat%2C+Barcelona" target="_blank" rel="noopener" data-tip="+ Calendari"><span class="cal"><span class="cal-month">Set</span><span class="cal-day">25</span></span></a>
 <span class="cal-label">Inici del concurs</span>
 </li>
 <li class="concurs-step">
-<span class="cal"><span class="cal-month">Nov</span><span class="cal-day">20</span></span>
+<a class="cal-link" href="https://www.google.com/calendar/render?action=TEMPLATE&text=Data+l%C3%ADmit+%C2%B7+Concurs+Cordoncillo+2026&dates=20261120%2F20261121&location=Casal+de+Barri+de+Prosperitat%2C+Barcelona" target="_blank" rel="noopener" data-tip="+ Calendari"><span class="cal"><span class="cal-month">Nov</span><span class="cal-day">20</span></span></a>
 <span class="cal-label">Data límit de presentació</span>
 </li>
 <li class="concurs-step">
-<span class="cal"><span class="cal-month">Des</span><span class="cal-day">01</span></span>
+<a class="cal-link" href="https://www.google.com/calendar/render?action=TEMPLATE&text=Exposici%C3%B3+fotogr%C3%A0fica+%C2%B7+Concurs+Cordoncillo+2026&dates=20261201%2F20261231&location=Casal+de+Barri+de+Prosperitat%2C+Barcelona" target="_blank" rel="noopener" data-tip="+ Calendari"><span class="cal"><span class="cal-month">Des</span><span class="cal-day">01</span></span></a>
 <span class="cal-label">Inici de l'exposició</span>
 </li>
 <li class="concurs-step">
-<span class="cal"><span class="cal-month">Des</span><span class="cal-day">18</span></span>
+<a class="cal-link" href="https://www.google.com/calendar/render?action=TEMPLATE&text=Lliurament+de+premis+%C2%B7+Concurs+Cordoncillo+2026&dates=20261218T180000Z%2F20261218T210000Z&location=Casal+de+Barri+de+Prosperitat%2C+Barcelona" target="_blank" rel="noopener" data-tip="+ Calendari"><span class="cal"><span class="cal-month">Des</span><span class="cal-day">18</span></span></a>
 <span class="cal-label">Lliurament de premis + concert</span>
 </li>
 <li class="concurs-step">
-<span class="cal"><span class="cal-month">Des</span><span class="cal-day">30</span></span>
+<a class="cal-link" href="https://www.google.com/calendar/render?action=TEMPLATE&text=Fi+de+l%27exposici%C3%B3+%C2%B7+Concurs+Cordoncillo+2026&dates=20261230%2F20261231&location=Casal+de+Barri+de+Prosperitat%2C+Barcelona" target="_blank" rel="noopener" data-tip="+ Calendari"><span class="cal"><span class="cal-month">Des</span><span class="cal-day">30</span></span></a>
 <span class="cal-label">Fi de l'exposició</span>
 </li>
 </ol>
-<p class="concurs-cats"><strong>Categories:</strong> Color · Blanc i negre · Premi Cordoncillo — tema <em>Arran de terra</em></p>
+<div class="concurs-cat-cards">
+<div class="concurs-cat-card">
+<span class="concurs-cat-letter">A</span>
+<div class="concurs-cat-info"><strong>Color</strong><span>Tema lliure</span><em class="concurs-cat-prize">100 €</em></div>
+</div>
+<div class="concurs-cat-card">
+<span class="concurs-cat-letter">B</span>
+<div class="concurs-cat-info"><strong>Blanc i negre</strong><span>Tema lliure</span><em class="concurs-cat-prize">100 €</em></div>
+</div>
+<div class="concurs-cat-card concurs-cat-card--special">
+<span class="concurs-cat-letter">C</span>
+<div class="concurs-cat-info"><strong>Premi Josep Antón Cordoncillo</strong><span>Tema: <em>Arran de terra</em></span><em class="concurs-cat-prize">100 €</em></div>
+</div>
+<div class="concurs-cat-card concurs-cat-card--public">
+<span class="concurs-cat-letter">★</span>
+<div class="concurs-cat-info"><strong>Premi del Públic</strong><span>Votació a l'exposició</span><em class="concurs-cat-prize">100 €</em></div>
+</div>
+</div>
 <div class="concurs-tabs">
 <input type="radio" name="concurs-tab" id="concurs-tab-bases" class="concurs-tab-radio" checked>
 <input type="radio" name="concurs-tab" id="concurs-tab-participar" class="concurs-tab-radio">
@@ -77,20 +94,11 @@ de 9 Barris Imatge
 <li>L'assumpte del correu ha de ser «<strong>CONCURS DE FOTOGRAFIA CORDONCILLO 2026</strong>» i el correu ha d'incloure les dades personals del/de la participant: nom complet, telèfon de contacte, correu electrònic i adreça postal.</li>
 <li>El nom del fitxer ha de contenir el nom del/de la participant i la categoria a la qual es presenta; per exemple, <code>pere_color.jpg</code>.</li>
 </ol>
-<div class="concurs-cat-cards">
-<div class="concurs-cat-card">
-<span class="concurs-cat-letter">A</span>
-<div class="concurs-cat-info"><strong>Color</strong><span>Tema lliure</span></div>
-</div>
-<div class="concurs-cat-card">
-<span class="concurs-cat-letter">B</span>
-<div class="concurs-cat-info"><strong>Blanc i negre</strong><span>Tema lliure</span></div>
-</div>
-<div class="concurs-cat-card concurs-cat-card--special">
-<span class="concurs-cat-letter">C</span>
-<div class="concurs-cat-info"><strong>Premi Josep Antón Cordoncillo</strong><span>Tema: <em>Arran de terra</em></span></div>
-</div>
-</div>
+<ul>
+<li><strong>A.</strong> Fotografia en color, tema lliure.</li>
+<li><strong>B.</strong> Fotografia en blanc i negre, tema lliure.</li>
+<li><strong>C.</strong> Premi Josep Antón Cordoncillo (color i blanc i negre). Tema: <em>Arran de terra</em>.</li>
+</ul>
 <h4>Premis</h4>
 <ul>
 <li>Premi del jurat: <strong>100 €</strong> per a cadascuna de les categories A, B i C.</li>
