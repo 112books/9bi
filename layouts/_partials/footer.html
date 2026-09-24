@@ -62,13 +62,13 @@
         </nav>
     </div>
     <div class="footer-stats" aria-label="9 Barris Imatge en xifres">
-        <span class="footer-col-title">9 Barris en números</span>
+        <span class="footer-col-title">9 Barris Imatge en números</span>
         <span class="footer-stats-line">
             <span class="stat-num" data-target="{{ $posts }}">{{ lang.FormatNumber 0 $posts }}</span> posts
             <span class="stat-sep" aria-hidden="true">·</span>
             <span class="stat-num" data-target="{{ $anys }}">{{ $anys }}</span> anys
             <span class="stat-sep" aria-hidden="true">·</span>
-            <span class="stat-num" data-target="{{ $membres }}">{{ $membres }}</span> membres
+            <span class="stat-num" data-target="{{ $membres }}">{{ $membres }}</span> <a href="{{ "qui-som/#qsb-membres" | relURL }}">membres</a>
         </span>
     </div>
     <div class="footer-bottom">
@@ -180,6 +180,20 @@
             }
         });
     });
+
+    // Deep-link a pestanyes de Qui som (radios qsb-*): l'enllaç del peu
+    // «membres» arriba com a /qui-som/#qsb-membres; cal marcar el radio.
+    (function () {
+        var hash = decodeURIComponent(window.location.hash.replace(/^#/, ""));
+        if (!hash) return;
+        var radio = document.getElementById(hash);
+        if (radio && radio.type === "radio") {
+            radio.checked = true;
+            var panelId = hash.replace(/^qsb-/, "qsb-panel-");
+            var panel = document.getElementById(panelId);
+            (panel || radio).scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+        }
+    })();
 
 </script>
 

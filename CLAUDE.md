@@ -135,6 +135,31 @@ sync-9bi.sh                        # script de sync/gestió
   2. **Deploy incremental** a `sync-9bi.sh` (implementat 2026-09-21): clon persistent de `pages` a `~/.cache/9bi-pages`, reset a l'últim publicat, rsync del build, i **push normal** (fast-forward) — només es pugen els objectes que canvien; no es creen orfes. **Ja no hi ha force-push.**
   3. Es deixa anotada l'opció de demanar que Codeberg faci **GC** al servidor (neteja dels orfes antics) un cop hi hagi marge per pushar; amb el deploy incremental el repo ja no creix.
 
+## Sessió 2026-09-24 — DIAGNÒSTIC DEFINITIU del deploy a producció (no tornar-hi)
+
+> El problema «el domini no es refresca» és RECURRENT i queda resolt/descrit aquí d'una vegada.
+> **Quan algú digui que el domini va enrere: llegir aquesta secció i LA SEGUIR, no tornar a investigar.**
+
+- **Dos llocs, dos webhooks SEPARATS** (causa arrel de tots els mals):
+  - `https://linuxbcn.codeberg.page/9bi/` (staging/previsualització) → el publica un webhook del repo amb Target `https://linuxbcn.codeberg.page/9bi/`, Branch filter `pages`.
+  - `https://9barrisimatge.org/` (producció, domini propi) → el publica **UN ALTRE webhook del repo** amb Target `https://9barrisimatge.org/`, Branch filter `pages`. **Sense aquest webhook el domini NO es refresca mai.**
+  - El push a `pages` (el que fa `sync-9bi.sh deploy`) dispara els webhooks; cada un publica només la seva URL. La documentació de Codeberg ho confirma: cal «a webhook for each of them» (per sub/domini).
+- **Estat verificat avui (2026-09-24 ~09:20 CEST)**:
+  - `pages` remota = `60688d207…` (stats, deploy de les 08:52) — **correccigit**, el push arriba bé.
+  - `/9bi/` = **fresc** (Last-Modified 08:53 CEST) → el webhook de staging funciona.
+  - `9barrisimatge.org` = **endarrerit** (contingut de ~01:39 CEST = deploy FAQ 01:40) → **el webhook del domini no ha publicat** el deploy de les 08:52.
+  - DNS **correcta**: `9barrisimatge.org` A → `217.197.84.141`, AAAA → `2a0a:4580:103f:c0de::2`; `www` CNAME `codeberg.page` + A; TXT a `_git-pages-repository.9barrisimatge.org` i `_git-pages-repository.www.9barrisimatge.org` = `"https://codeberg.org/linuxbcn/9bi.git"`. **No és un problema de DNS.**
+- **Per resoldre-ho** (acció d'usuari al panell de Codeberg, repo `linuxbcn/9bi` → **Settings → Webhooks**):
+  1. Comprovar que existeix un webhook Forgejo amb **Target `https://9barrisimatge.org/`** (Branch filter `pages`).
+  2. Si existeix → pestanya **Recent deliveries**: mirar si les darreres (08:52 en endavant) fallen i per què; si Forgejo l'ha posat en estat desactivat després d'entregues fallides → **re-activar-lo (Enabled)**.
+  3. Si **no existeix** → **crear-lo**: tipus Forgejo, Target `http://9barrisimatge.org/` **la primera vegada** (la doc de Codeberg exigeix que el primer deploy vagi per `http://`; després es pot canviar a `https://`), Branch filter `pages`. **No usar «Test delivery»**: falla sempre (és esperat segons la doc).
+  - Font: <https://docs.codeberg.org/codeberg-pages/using-custom-domain>
+- **Verificació ràpida sempre** (còpia de 3 comandes, sense interpretar):
+  1. `git ls-remote origin pages` → ha de coincidir amb l'última entrada de `.deploy-log`.
+  2. `curl -sI "https://9barrisimatge.org/?v=$RANDOM" | grep -i last-modified` → si la data NO és la del darrer deploy, el webhook del domini no ha publicat.
+  3. `curl -sI "https://linuxbcn.codeberg.page/9bi/?v=$RANDOM" | grep -i last-modified` → sempre s'actualitza.
+- **Corol·lari**: el contingut de `pages` i la DNS ja estan comprovats (2026-09-24). Qualsevol «el domini va enrere» = webhook del domini. Point the user to esta secció.
+
 ## Problemes coneguts / pendents (verificats)
 
 1. **Quota de git de Codeberg superada** (≈756 MiB vs 750 MiB) → **cap push** (ni a `main` ni a `pages`) funciona fins que s'aprovi la petició `[STORAGE]` (1500 MiB) a `Codeberg-e.V./requests`. **Els commits queden locals i nets** (no es perden). Un cop aprovada: pujar els commits pendents de `main` + 1 deploy. El script ja fa **deploy incremental** perquè no torni a passar. (Vegeu `drafts/2026-09-21-quota-codeberg.md`.)

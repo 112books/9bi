@@ -16,7 +16,7 @@
       {{- $cover := .Params.cover.image | default "" -}}
       {{- if $cover -}}
       <div class="mosaic-thumb">
-        <img class="mosaic-img" loading="lazy" src="{{ $cover }}" alt="{{ .Title }}" />
+        <img class="mosaic-img" loading="lazy" src="{{ $cover | relURL }}" alt="{{ .Title }}" />
       </div>
       {{- else -}}
       <div class="mosaic-thumb mosaic-placeholder">
@@ -75,7 +75,7 @@
         <p class="efemeride-years">de fa {{ $i }} {{ cond (eq $i 1) "any" "anys" }}</p>
         {{- $cover := $p.Params.cover.image | default "" }}
         {{- if $cover }}
-        <img class="efemeride-img" loading="lazy" src="{{ $cover }}" alt="{{ $p.Title }}" />
+        <img class="efemeride-img" loading="lazy" src="{{ $cover | relURL }}" alt="{{ $p.Title }}" />
         {{- else }}
         <div class="efemeride-img efemeride-placeholder"><span>{{ strings.Truncate 40 $p.Title }}</span></div>
         {{- end }}
