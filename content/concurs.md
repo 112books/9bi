@@ -279,7 +279,7 @@ de 9 Barris Imatge
 <tr><td>2010</td><td>XXI</td><td>Surrealisme</td><td>Jurat a càrrec de l'Agrupació Fotogràfica de Catalunya.</td></tr>
 <tr><td>2011</td><td>XXII</td><td>Moviment Indignats 15M</td><td>El jurat passa a ser 9 Barris Imatge.</td></tr>
 <tr><td>2012</td><td><span class="is-pending">XXIII</span></td><td>Erotisme</td><td>Al web consta com a «XIII» (incidència de numeració). Només fotos inèdites; 24 × 30 cm sobre cartolina.</td></tr>
-<tr><td>2013</td><td><span class="is-pending">XXIV</span></td><td>L'aigua</td><td>Al web consta com a «XIX» (incidència de numeració). Categoria específica de fotografia analògica «retro» (per confirmar).</td></tr>
+<tr><td>2013</td><td><span class="is-pending">XXIV</span></td><td>L'aigua</td><td>Al web consta com a «XIX» (incidència de numeració). Categoria específica de fotografia analògica «retro» (per confirmar). Àlbum: <a href="https://photos.app.goo.gl/Snzr7PpUmCa68ozd7">Entrega de premis 2013</a> (Google Photos).</td></tr>
 <tr><td>2014</td><td>XXV</td><td>—</td><td>Reportatge de l'exposició a càrrec de Manel Villalba.</td></tr>
 <tr><td>2015</td><td><span class="is-pending">XXVI</span></td><td>La llum</td><td>Al web consta com a «XVI» (incidència de numeració).</td></tr>
 <tr><td>2016</td><td>XXVII</td><td>—</td><td>—</td></tr>
@@ -288,7 +288,7 @@ de 9 Barris Imatge
 <tr><td>2019</td><td>XXX</td><td>Jubilats</td><td>100 € per categoria i premi del públic.</td></tr>
 <tr><td>2020</td><td><span class="is-pending">— (per confirmar)</span></td><td>—</td><td>Possible any sense edició; pendent de comprovar.</td></tr>
 <tr><td>2021</td><td>XXXI</td><td>Vacances, temps lliure</td><td>Guanyador del Premi Cordoncillo: Cristian Rodríguez, amb «El despertador».</td></tr>
-<tr><td>2022</td><td>XXXII</td><td>Menjar</td><td>Concert de Daniel Higiénico al lliurament de premis.</td></tr>
+<tr><td>2022</td><td>XXXII</td><td>Menjar</td><td>Concert de Daniel Higiénico al lliurament de premis. Àlbum: <a href="https://photos.app.goo.gl/adGZH2GtQZPgFn6r6">Muntatge de l'exposició</a> (Google Photos).</td></tr>
 <tr><td>2023</td><td>XXXIII</td><td>Petó</td><td>23 participants i 52 fotografies presentades.</td></tr>
 <tr><td>2024</td><td>XXXIV</td><td>Mirades</td><td>Concert de Jo Solana Trio; homenatge a Cordoncillo.</td></tr>
 <tr><td>2025</td><td>XXXV</td><td>Peus</td><td>Bases digitals (JPEG ≥ 4 MB, RAW de verificació) i prohibició d'imatges generades amb IA.</td></tr>
