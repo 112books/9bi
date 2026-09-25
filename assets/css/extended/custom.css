@@ -679,6 +679,35 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0.8rem 0;
 }
 
+/* ---- Pestanyes de la guia ---- */
+
+.guide-tabs {
+  display: flex;
+  gap: 0.4rem;
+  overflow-x: auto;
+  padding-bottom: 0.7rem;
+  margin: 0 0 1.2rem;
+  border-bottom: 1px solid var(--border);
+}
+.guide-tab {
+  white-space: nowrap;
+  padding: 0.45rem 0.95rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: 1px solid var(--border);
+  background: var(--tertiary);
+  color: var(--primary);
+}
+.guide-tab:hover {
+  filter: brightness(0.97);
+}
+.guide-tab.active {
+  background: #e03131;
+  border-color: #e03131;
+  color: #fff;
+}
+
 /* ---- Header: imatge de fons (static/images/header-bg.jpg) ---- */
 
 :root {

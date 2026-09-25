@@ -1,0 +1,23 @@
+{{- $cur := .Page -}}
+{{- $tabs := slice
+  (dict "label" "Guia" "path" "/guia")
+  (dict "label" "Crear compte" "path" "/guia/crear-compte")
+  (dict "label" "Publicar article" "path" "/guia/publicar-article")
+  (dict "label" "Google Photos" "path" "/guia/fotos-google-photos")
+  (dict "label" "Flickr" "path" "/guia/fotos-flickr")
+  (dict "label" "Amazon Photos" "path" "/guia/fotos-amazon-photos")
+  (dict "label" "Apple Fotos" "path" "/guia/fotos-apple-photos")
+  (dict "label" "Recuperar àlbums" "path" "/guia/recuperar-enllacos-d-albums")
+-}}
+<nav class="guide-tabs" aria-label="Guia per publicar a 9bi">
+  {{- range $tabs }}
+    {{- $p := site.GetPage .path }}
+    {{- $url := .path }}
+    {{- $active := false }}
+    {{- if $p }}
+      {{- $url = $p.RelPermalink | strings.TrimSuffix "index.html" }}
+      {{- $active = eq $cur.Permalink $p.Permalink }}
+    {{- end }}
+    <a class="guide-tab{{ if $active }} active{{ end }}"{{ if $active }} aria-current="page"{{ end }} href="{{ $url }}">{{ .label }}</a>
+  {{- end }}
+</nav>

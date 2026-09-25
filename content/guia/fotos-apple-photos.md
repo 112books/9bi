@@ -7,6 +7,8 @@ sitemap:
   disable: true
 ---
 
+{{< guia-tabs >}}
+
 Si les teves fotos estan a **Apple Fotos** (iCloud), segueix aquests passos per publicar-les al bloc.
 
 ## 1. Crea un àlbum compartit

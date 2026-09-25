@@ -764,7 +764,7 @@ collections:
           - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
 
   - name: "guia"
-    label: "Guia (manual per editors)"
+    label: "Guia per publicar"
     label_singular: "Pàgina de la guia"
     folder: "content/guia"
     create: true

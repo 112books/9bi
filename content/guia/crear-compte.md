@@ -8,6 +8,8 @@ sitemap:
 url: "/guia/crear-compte/"
 ---
 
+{{< guia-tabs >}}
+
 Per poder publicar al web, tots els editors entren al **Gestor de continguts** amb el seu **token personal de GitHub**. Això garanteix que només les persones convidades poden publicar i que cada article queda identificat amb el seu autor.
 
 ## Si ets administrador/a del web

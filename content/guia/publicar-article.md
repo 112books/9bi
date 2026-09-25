@@ -7,6 +7,8 @@ sitemap:
   disable: true
 ---
 
+{{< guia-tabs >}}
+
 Al bloc, cada membre publica un article amb **una fotografia principal**, un **enllaç a l'àlbum** i un **text** que contextualitza les imatges. Aquí tens el flux complet.
 
 ## 1. Entra a l'administració

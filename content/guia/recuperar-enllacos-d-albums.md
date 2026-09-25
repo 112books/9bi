@@ -7,6 +7,8 @@ sitemap:
   disable: true
 ---
 
+{{< guia-tabs >}}
+
 Quan el bloc es va crear, les fotos es guardaven a **Picasa**, un servei de Google que ja no existeix. Per això molts enllaços d'àlbums **ja no funcionen**.
 
 Que no et faci por: **no cal tocar res del bloc**. Només has de buscar cada àlbum al teu Google Photos i enganxar-hi l'enllaç nou.

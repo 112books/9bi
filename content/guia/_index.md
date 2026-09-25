@@ -1,11 +1,13 @@
 ---
-title: "Guia"
+title: "Guia per publicar a 9bi"
 description: "Manual per col·laborar al bloc de 9 Barris Imatge"
 robotsNoIndex: true
 hiddenInRss: true
 sitemap:
   disable: true
 ---
+
+{{< guia-tabs >}}
 
 Aquesta guia explica com col·laborar al bloc de **9 Barris Imatge**, pas a pas i en català.
 

@@ -7,6 +7,8 @@ sitemap:
   disable: true
 ---
 
+{{< guia-tabs >}}
+
 Si les teves fotos estan a **Amazon Photos**, segueix aquests passos per publicar-les al bloc.
 
 ## 1. Crea l'àlbum (si encara no el tens)
