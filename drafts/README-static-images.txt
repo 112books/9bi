@@ -1,3 +1,5 @@
+Aquest document descriu el directori static/images/ del repositori. És aquí perquè Hugo copia tot el que hi ha dins de static/ al domini públic i no hi pot haver cap documentació dins.
+
 QUÈ ÉS
 -------
 Totes les imatges del web: portades dels articles, miniatures, logotips,

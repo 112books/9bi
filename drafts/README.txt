@@ -19,6 +19,23 @@ Què hi ha
 2026-09-18-*      Pla de recuperació dels àlbums de fotos perduts.
 altres            Actes, correus, llistes de treball i notes d'infraestructura.
 
+Documentació de directoris que no pot quedar dins la seva carpeta
+-----------------------------------------------------------------
+Hi ha un README.txt a gairebé tots els directoris del repositori, però els
+de la carpeta static/ no poden-hi ser: Hugo copia tot el que hi ha dins
+static/ al domini públic i el document acabaria visible a Internet. Per això
+aquí, amb el nom del directori que descriuen:
+
+README-static.txt            → static/
+README-static-admin.txt      → static/admin/       (gestor de continguts)
+README-static-images.txt     → static/images/      (fotografies i logotips)
+README-static-fonts.txt      → static/fonts/       (tipografies del web)
+README-static-stats.txt      → static/stats/       (tauler de visites)
+
+Els README.txt que sí que estan dins la seva carpeta no es publiquen: la
+configuració de Hugo els ignora (vegeu ignoreFiles a config/_default/hugo.toml,
+que cal conservar si mai es treu de contextual).
+
 Per què serveix
 ---------------
 Deixa escrit per què es prenen les decisions i on quedava cada cosa, per

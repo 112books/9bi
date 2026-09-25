@@ -1,3 +1,5 @@
+Aquest document descriu el directori static/fonts/ del repositori. És aquí perquè Hugo copia tot el que hi ha dins de static/ al domini públic i no hi pot haver cap documentació dins.
+
 QUÈ ÉS
 -------
 Les tipografies pròpies del web, servides des del nostre propi servidor.

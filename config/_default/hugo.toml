@@ -19,6 +19,12 @@ copyright = 'Contingut sota llicència Creative Commons Reconeixement-NoComercia
 # Preservem les URL .html de Blogger (/2026/07/slug.html)
 uglyURLs = true
 
+# Els README.txt expliquen què hi ha a cada directori per a qui hi treballa
+# (o hi accedeix des del panell de hosting). No són contingut del web: si no
+# s'ignoressin, Hugo els tractaria com a dades o com a pàgines i fins i tot
+# es publicarien al domini.
+ignoreFiles = ["README.txt"]
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 

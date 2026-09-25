@@ -1,3 +1,5 @@
+Aquest document descriu el directori static/admin/ del repositori. És aquí perquè Hugo copia tot el que hi ha dins de static/ al domini públic i no hi pot haver cap documentació dins.
+
 QUÈ ÉS
 -------
 El gestor de continguts (CMS) del web: l'eina amb què els membres del
