@@ -1,0 +1,51 @@
+{{- if ne .RelPermalink "/concurs/" -}}
+{{- $logo := resources.Get "images/logo-header.jpg" -}}
+<div class="avis-concurs" id="avis-concurs" hidden>
+  <a class="avis-concurs-body" href="{{ "/concurs/" | relURL }}">
+    {{- with $logo }}
+    <img class="avis-concurs-logo" src="{{ .RelPermalink }}" width="138" height="229" alt="9 Barris Imatge" loading="lazy" decoding="async">
+    {{- end }}
+    <span class="avis-concurs-text">
+      <span class="avis-concurs-kicker">36a edició</span>
+      <strong class="avis-concurs-title">Concurs fotogràfic<br>Josep Antón Cordoncillo</strong>
+      <span class="avis-concurs-dates">Del 25 de setembre al 20 de novembre</span>
+      <span class="avis-concurs-cta">Participa-hi!</span>
+    </span>
+  </a>
+  <button class="avis-concurs-close" type="button" aria-label="Tanca l'avís del concurs">&times;</button>
+</div>
+<script>
+  (function () {
+    var box = document.getElementById("avis-concurs");
+    if (!box) return;
+    var key = "9bi:avis-concurs";
+    var seen = false;
+    try { seen = sessionStorage.getItem(key) === "1"; } catch (e) {}
+    if (seen) return;
+    try { sessionStorage.setItem(key, "1"); } catch (e) {}
+    var timer = null;
+    var close = function () {
+      if (timer) { window.clearTimeout(timer); timer = null; }
+      box.classList.add("is-closed");
+    };
+    var arm = function () {
+      if (timer) { window.clearTimeout(timer); timer = null; }
+      timer = window.setTimeout(close, 5000);
+    };
+    box.querySelector(".avis-concurs-close").addEventListener("click", function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      close();
+    });
+    box.addEventListener("mouseenter", function () {
+      if (timer) { window.clearTimeout(timer); timer = null; }
+    });
+    box.addEventListener("mouseleave", arm);
+    window.setTimeout(function () {
+      box.hidden = false;
+      requestAnimationFrame(function () { box.classList.add("is-open"); });
+      arm();
+    }, 1200);
+  })();
+</script>
+{{- end -}}
