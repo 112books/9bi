@@ -1,6 +1,4 @@
-# A git NOMÉS hi van els config.example.ini i config.example.ini (públics).
+# A git NOMÉS hi van els config.example.ini (públics).
 # Els config.ini REALS de cada submòdul (secrets) NO entren mai a git.
 config.ini
-config.example.ini
 */config.ini
-*/config.example.ini
