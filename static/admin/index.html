@@ -157,8 +157,8 @@
       color: var(--cms-accent);
       font-weight: 700;
     }
-    #nc-root aside {
-      display: none;
+    #nc-root .primary-sidebar {
+      display: none !important;
     }
     #nc-root main {
       padding-left: 0;
@@ -346,7 +346,9 @@
   </footer>
 
   <script>
-    const CMS_ALBUMS = {};
+    const CMS_ALBUMS = {
+      "112books": { collection: "recuperacio-joan-linux", label: "Joan Linux" },
+    };
 
     const cmsYears = document.querySelector(".cms-years");
     const cmsYearLabel = document.querySelector("[data-cms-year]");
@@ -407,6 +409,25 @@
         else cmsSyncAlbums();
       }, 3000);
       window.addEventListener("storage", cmsSyncAlbums);
+    }
+
+    const cmsRoot = document.getElementById("nc-root");
+
+    function cmsHideNativeSidebar() {
+      if (!cmsRoot) return;
+      const sidebar = cmsRoot.querySelector(".primary-sidebar");
+      if (!sidebar) return;
+      let el = sidebar;
+      while (el && el.id !== "page-container") {
+        el.style.display = "none";
+        el = el.parentElement;
+        if (!el) break;
+      }
+    }
+
+    if (cmsRoot) {
+      cmsHideNativeSidebar();
+      new MutationObserver(cmsHideNativeSidebar).observe(cmsRoot, { childList: true, subtree: true });
     }
   </script>
 
