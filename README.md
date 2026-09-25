@@ -22,7 +22,7 @@ Cada membre publica un article amb una fotografia principal, un enllaç a l'àlb
 config/                     Configuració de Hugo per entorn
 content/posts/YYYY/         Articles, agrupats per any
 content/guia/               Guia d'editors, publicada sense indexar
-layouts/                    Plantilles del lloc
+layouts/                    Plantilles del lloc, inclosa la 404
 assets/css/extended/        Estils personalitzats
 static/admin/               Sveltia CMS autoallotjat
 static/images/              Imatges
@@ -96,6 +96,12 @@ Les pàgines viuen a `content/guia/` i es construeixen amb:
 - enllaç «Guia al web» al capçalera del CMS
 
 La documentació de manteniment més àmplia, l'estat real, el backlog i les decisions es mantenen a `CLAUDE.md`.
+
+## Pàgina 404
+
+`layouts/404.html` genera la resposta personalitzada que GitHub Pages mostra per a qualsevol ruta inexistent. Inclou el missatge «Aquesta pàgina no s'ha trobat», cerca directa amb el mateix índex Fuse de `/search/` i enllaços a Portada, Arxiu i Contacte.
+
+La pàgina conserva HTTP 404, inclou `noindex, nofollow` i no depèn d'una il·lustració externa. Les rutes de l'índex de cerca es construeixen amb `relURL`, de manera que la funcionalitat també és base-aware en entorns desplegats sota un subdirectori.
 
 ## Estadístiques
 
