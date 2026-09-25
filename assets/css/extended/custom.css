@@ -1878,6 +1878,119 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     padding: 0;
   }
+  #cartell-vot,
+  #cartell-vot * {
+    visibility: visible !important;
+  }
+  #cartell-vot {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0;
+  }
+  body:has(#cartell-vot) #header,
+  body:has(#cartell-vot) .footer,
+  body:has(#cartell-vot) .post-header,
+  body:has(#cartell-vot) .post-footer {
+    display: none !important;
+  }
+  .cartell-actions,
+  .cartell-note {
+    display: none !important;
+  }
+}
+
+/* ---- Cartell del vot del públic (pàgina imprimible) ---- */
+.cartell {
+  max-width: 34rem;
+  margin: 2rem auto;
+  padding: 2.2rem 1.8rem;
+  border: 1px solid var(--border);
+  border-top: 4px solid #e03131;
+  border-radius: var(--radius);
+  text-align: center;
+}
+.cartell-eyebrow {
+  margin: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--secondary);
+}
+.cartell-title {
+  margin: 0.4rem 0 0;
+  font-family: "Gillius ADF";
+  font-size: 2.1rem;
+  line-height: 1.15;
+}
+.cartell-prize {
+  margin: 0.2rem 0 1.4rem;
+  font-family: "Gillius ADF";
+  font-size: 1.7rem;
+  color: #e03131;
+}
+.cartell-qr {
+  width: 13rem;
+  height: 13rem;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed var(--border);
+  border-radius: var(--radius);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  color: var(--secondary);
+}
+.cartell-qr img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.cartell-lead {
+  margin: 0 0 1.2rem;
+  font-family: "Montserrat";
+  font-size: 1.05rem;
+}
+.cartell-steps {
+  margin: 0 auto 1.4rem;
+  max-width: 24rem;
+  text-align: left;
+  font-family: "Montserrat";
+}
+.cartell-steps li {
+  margin-bottom: 0.45rem;
+}
+.cartell-foot {
+  margin: 0;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--border);
+  font-family: "Montserrat";
+  font-size: 0.9rem;
+  color: var(--secondary);
+}
+.cartell-actions {
+  margin: 1.6rem 0 0;
+}
+.cartell-actions .concurs-print {
+  margin-left: auto;
+  margin-right: auto;
+}
+.cartell-note {
+  margin: 1.2rem 0 0;
+  font-family: "Montserrat";
+  font-size: 0.8rem;
+  color: var(--secondary);
+}
+@media (max-width: 480px) {
+  .cartell {
+    padding: 1.5rem 1.1rem;
+  }
+  .cartell-qr {
+    width: 11rem;
+    height: 11rem;
+  }
 }
 
 /* ---- Foto de capçalera a tot l'ample (pàgines amb header_image) ---- */

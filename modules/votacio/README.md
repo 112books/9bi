@@ -12,9 +12,13 @@ per a edicions que ho requereixin.
 
 ## Decisions de configuració (edició 2026)
 
-- Geofencing: `soft` (radi 500 m al voltant del Casal de Barri de
-  Prosperitat). En `soft` un vot llunyà **s'accepta però es marca `geo=out`**;
-  en `hard` es rebutja (`403`). `off` sense geolocalització.
+- Geofencing: `hard` (radi 500 m al voltant del Casal de Barri de
+  Prosperitat). En `hard` un vot llunyà **es rebutja** (`403`) i el missatge
+  recorda d'activar la ubicació; en `soft` s'accepta però es marca `geo=out`.
+  `off` sense geolocalització.
+- L'obra es tria **escrivint el número** imprès al costat de la fotografia,
+  no amb un desplegable: el servidor valida el número contra la llista
+  d'obres (`msg_invalid_obra`).
 - Sense mòbil? **Vot en paper**: urna física + comptatge amb
   `python3 tools/tally.py --paper vots_paper.csv`.
 - Dades personals: `collect_data = none` (no es demana res; les

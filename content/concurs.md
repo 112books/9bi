@@ -152,6 +152,7 @@ de 9 Barris Imatge
 </ul>
 <h3>Premi del públic</h3>
 <p>El premi del públic serà de <strong>100 €</strong>, amb la votació oberta durant l'exposició de desembre de 2026. La fotografia més votada el recollirà al lliurament de premis del <strong>18 de desembre</strong>.</p>
+<p class="concurs-print-link"><a href="{{< rel "/concurs/votacio/" >}}">Cartell amb el codi QR per a l'exposició</a></p>
 </section>
 <section class="concurs-view concurs-guanyadors" id="concurs-guanyadors">
 <h2>Guanyadors del concurs</h2>

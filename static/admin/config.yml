@@ -762,6 +762,14 @@ collections:
           - { label: "Fora de l'RSS", name: "hiddenInRss", widget: "hidden" }
           - { label: "URL (no tocar)", name: "url", widget: "hidden" }
           - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+      - name: "votacio"
+        label: "Cartell del vot del públic"
+        file: "content/votacio.md"
+        fields:
+          - { label: "Títol", name: "title", widget: "string" }
+          - { label: "Fora de l'RSS", name: "hiddenInRss", widget: "hidden" }
+          - { label: "URL (no tocar)", name: "url", widget: "hidden" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
 
   - name: "guia"
     label: "Guia per publicar"

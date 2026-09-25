@@ -295,11 +295,7 @@ def h_radix(token):
 def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js,
                    note="", conditions=""):
     i18n = get_i18n(lang)
-    options = "".join(
-        "<option value=\"%d\">%s</option>" % (
-            w["numero"],
-            html.escape(w["titol"] or "Obra %d" % w["numero"]))
-        for w in works)
+    max_num = max((w["numero"] for w in works), default=0)
     extra = ""
     if conditions:
         extra += "<div class=\"conditions\">%s</div>" % conditions
@@ -310,7 +306,8 @@ def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js,
         "<form method=\"post\" action=\"/v/%s\" id=\"vf\">"
         "<input type=\"hidden\" name=\"csrft\" value=\"%s\">"
         "<label for=\"obra\">%s</label> "
-        "<select id=\"obra\" name=\"obra\" required>%s</select><br><br>"
+        "<input id=\"obra\" name=\"obra\" type=\"number\" inputmode=\"numeric\""
+        " min=\"1\" max=\"%d\" step=\"1\" required>"
         "<input type=\"hidden\" name=\"geo\" id=\"geo\" value=\"none\">"
         "<button type=\"submit\">%s</button>"
         "</form>"
@@ -318,7 +315,7 @@ def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js,
     return form % (
         html.escape(ed["nom"]), i18n.get("vote_intro", ""), extra,
         h_radix(vot_token), html.escape(csrf),
-        i18n.get("select_prompt", "Obra"), options,
+        i18n.get("select_prompt", "Obra"), max_num,
         i18n.get("btn_vote", "Vota"), geo_js)
 
 
