@@ -4,31 +4,39 @@
 App WSGI en Python pur (sense dependencies) compatible amb Passenger
 (Phusion/Python), gunicorn/waitress i el servidor de desenvolupament WSGI.
 
-Rep els POST dels formularis del web (contacte, incorpora-te) que fins ara
-enviàvem per FormSubmit (formsubmit.co) i els reenvia per correu via SMTP
-de Dinahosting (SMTPS 465 o STARTTLS 587), de manera que no depenem de cap
-servei de tercers.
+Rep els POST dels formularis del web (contacte, incorpora-te) i els reenvia per
+correu via SMTP del hosting (SMTPS 465 o STARTTLS 587), de manera que no
+depeneixem de cap servei de tercers com FormSubmit.
 
-Config: config.ini (exemple a config.example.ini). Variables d'entorn:
-  FORMULARIS_CONFIG, FORMULARIS_SECRET.
+Es desplega a https://formularis.linuxbcn.com (subdomini del hosting
+DINAHOSTING-2248 → linuxbcn.com; el domini 9barrisimatge.org és només correu
+i el web és a GitHub Pages).
+
+Config: config.ini (exemple a config.example.ini). Variable d'entorn:
+  FORMULARIS_CONFIG.
 
 Routes:
   GET  /health                  -> estat del servei
   POST /envia/<formulari>       -> rep els camps i els envia per correu
 
 Seguretat:
+  - Origen: el POST ha d'arribar des d'un dels orígens de la llista
+    [general] allowed_origins (capçalera Origin; si no hi és, el Referer).
+    Un formulari estàtic de Hugo no pot signar capçaleres, de manera que
+    l'origen declarat és la dada de què es pot servir, i és suficient per
+    rebutjar enviaments des de pàgines que no són nostres.
   - Honeypot: camp ocult `_honey`; si ve ple, es descarta en silenci.
   - Rate limit per IP (en memòria, finestra de 60 s).
-  - CSRF: HMAC del secret + id de dispositiu (cookie), compare_digest.
   - Whitelist de camps per formulari: res del que no esperem s'hi envia.
+  - Els camps es netegen de caràcters de control; el Reply-To només s'afegeix
+    si l'adreça és vàlida (evita injecció de capçaleres).
   - Longitud màxima de camp (2 kB) i de la petició (64 kB).
+  - Els errors de SMTP no s'ensenyen al navegador: van al registre del servidor.
 """
 import configparser
-import hmac
 import html as htmlmod
 import os
 import re
-import secrets
 import smtplib
 import ssl as sslmod
 import sys
@@ -64,11 +72,6 @@ def load_config():
     cfg = configparser.ConfigParser()
     cfg.read(CONFIG_PATH, encoding="utf-8")
     return cfg
-
-
-def secret_key(cfg):
-    return os.environ.get(
-        "FORMULARIS_SECRET", cfg.get("general", "secret", fallback="CHANGE-ME"))
 
 
 def get_i18n(lang):
@@ -149,50 +152,97 @@ def rate_limited(environ, cfg):
     return False
 
 
-def hmac_sig(cfg_secret, parts):
-    msg = "|".join(str(p) for p in parts).encode("utf-8")
-    return hmac.new(cfg_secret.encode("utf-8"), msg, "sha256").hexdigest()
+# ------------------------------------------------- origen (anti-CSRF/open-redirect)
+
+DEFAULT_PORTS = {"http": "80", "https": "443"}
 
 
-def device_id(environ):
-    cookies = {}
-    for part in (environ.get("HTTP_COOKIE") or "").split(";"):
-        if "=" in part:
-            k, v = part.strip().split("=", 1)
-            cookies[k] = v
-    c = cookies.get("fid")
-    if c and len(c) == 64 and all(x in "0123456789abcdef" for x in c):
-        return c
-    return secrets.token_hex(32)
+def origin_of(environ):
+    """Origen declarat del POST, normalitzat a esquema://host[:port] sense port per defecte."""
+    val = (environ.get("HTTP_ORIGIN") or "").strip()
+    if not val or val == "null":
+        ref = (environ.get("HTTP_REFERER") or "").strip()
+        if ref:
+            val = ref
+    if not val or val == "null":
+        return ""
+    try:
+        parts = urllib.parse.urlsplit(val)
+    except ValueError:
+        return ""
+    scheme = parts.scheme.lower()
+    host = parts.netloc.lower()
+    if not scheme or not host:
+        return ""
+    if ":" in host and host.rsplit(":", 1)[1] == DEFAULT_PORTS.get(scheme):
+        host = host.rsplit(":", 1)[0]
+    return "%s://%s" % (scheme, host)
 
 
-def csrf_ok(environ, cfg, given):
-    sec = secret_key(cfg)
-    dev = device_id(environ)
-    expect = hmac_sig(sec, ("csrf", dev, environ.get("REMOTE_ADDR", "")))
-    return given and hmac.compare_digest(given, expect)
+def allowed_origins(cfg):
+    raw = cfg.get("general", "allowed_origins", fallback="")
+    out = set()
+    for item in raw.replace(";", ",").split(","):
+        item = item.strip().rstrip("/").lower()
+        if item.startswith("http://") or item.startswith("https://"):
+            out.add(item)
+    return out
+
+
+def origin_ok(environ, cfg):
+    allowed = allowed_origins(cfg)
+    got = origin_of(environ)
+    return bool(allowed) and bool(got) and got in allowed
+
+
+# ------------------------------------------------------- neteja de valors
+
+_CONTROL_RE = re.compile(r"[\x00-\x08\x0a-\x1f\x7f]")
+_EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s.]+(\.[^@\s.]+)+$")
+
+
+def clean_value(v, limit=MAX_CAMP):
+    """Treu caràcters de control (evita injecció de capçaleres) i retalla."""
+    return _CONTROL_RE.sub(" ", v).strip()[:limit]
+
+
+def valid_email(v):
+    return bool(v) and len(v) <= 254 and bool(_EMAIL_RE.match(v))
 
 
 # ----------------------------------------------------------------- smtp
 
-def send_mail(cfg, to_addr, subject, cos, lang):
+def smtp_ready(cfg):
+    host = cfg.get("smtp", "host", fallback="").strip()
+    user = cfg.get("smtp", "user", fallback="").strip()
+    passw = cfg.get("smtp", "password", fallback="")
+    if not passw:
+        passw = os.environ.get("FORMULARIS_SMTP_PASSWORD", "")
+    return bool(host) and "@" in user and bool(passw)
+
+
+def send_mail(cfg, to_addr, subject, cos, reply_to=None):
     """Envia el correu per SMTP (SMTPS 465 o STARTTLS 587). Torna (ok, detall)."""
     host = cfg.get("smtp", "host", fallback="")
     port = cfg.getint("smtp", "port", fallback=465)
     use_ssl = cfg.getboolean("smtp", "ssl", fallback=True)
     user = cfg.get("smtp", "user", fallback="")
     passw = cfg.get("smtp", "password", fallback="")
+    if not passw:
+        passw = os.environ.get("FORMULARIS_SMTP_PASSWORD", "")
     from_addr = cfg.get("smtp", "from", fallback=user)
     from_name = cfg.get("smtp", "from_name", fallback="9 Barris Imatge — web")
 
     if not (user and passw and "@" in user):
-        return False, "SMTP sense credencials (usuari/contrasenya buits a config.ini)"
+        return False, "SMTP sense credencials (usuari/contrasenya)"
 
     msg = EmailMessage()
     msg["Subject"] = subject
     msg["From"] = formataddr((from_name, from_addr))
-    msg["To"] = formataddr(("", to_addr))
+    msg["To"] = to_addr
     msg["Message-ID"] = make_msgid(domain=from_addr.split("@")[-1])
+    if reply_to and valid_email(reply_to):
+        msg["Reply-To"] = reply_to
     msg.set_content(cos, subtype="plain")
 
     try:
@@ -269,12 +319,12 @@ def form_post(environ, start_response, form):
                                  "<p>%s</p>" % htmlmod.escape(
                                      i18n.get("msg_ok", ""))))
 
-    # CSRF
-    if not csrf_ok(environ, cfg, fields.get("_csrf", "")):
+    # Origen: només s'accepten POST des dels orígens configurats
+    if not origin_ok(environ, cfg):
         return respond(environ, start_response, "403 Forbidden",
                        page_html(lang, i18n.get("title_error", ""),
                                  "<p>%s</p>" % htmlmod.escape(
-                                     i18n.get("msg_csrf", ""))))
+                                     i18n.get("msg_origin", ""))))
 
     # Whitelist + neteja de camps
     camps = {}
@@ -282,7 +332,7 @@ def form_post(environ, start_response, form):
     for k, v in fields.items():
         if k not in allow:
             continue
-        v = v.strip()[:MAX_CAMP]
+        v = clean_value(v)
         if v:
             camps[k] = v
 
@@ -305,18 +355,33 @@ def form_post(environ, start_response, form):
     if form == "contacte" and camps.get("assumpte"):
         subject = "%s — %s" % (camps["assumpte"], subject)
 
+    site_url = cfg.get("general", "site_url",
+                       fallback="https://9barrisimatge.org/").rstrip("/")
     taula = "\n".join("%s: %s" % (k, v) for k, v in camps.items())
-    ok, detall = send_mail(cfg, dest, subject, taula, lang)
+    cos = "%s\n\n--\n%s\n%s" % (
+        taula,
+        i18n.get("mail_footer", "Enviat des del formulari del web 9 Barris Imatge"),
+        site_url)
+
+    if not smtp_ready(cfg):
+        print("formularis: config.ini sense credencials SMTP", file=sys.stderr)
+        return respond(environ, start_response, "503 Service Unavailable",
+                       page_html(lang, i18n.get("title_error", ""),
+                                 "<p>%s</p>" % htmlmod.escape(
+                                     i18n.get("msg_unavailable", ""))))
+
+    ok, detall = send_mail(cfg, dest, subject, cos,
+                           camps.get("email") if valid_email(camps.get("email", "")) else None)
     if ok:
         return respond(environ, start_response, "200 OK",
                        page_html(lang, i18n.get("title_ok", ""),
                                  "<p>%s</p>" % htmlmod.escape(
                                      i18n.get("msg_ok", ""))))
+    print("formularis: error en enviar (%s): %s" % (form, detall), file=sys.stderr)
     return respond(environ, start_response, "500 Internal Server Error",
                    page_html(lang, i18n.get("title_error", ""),
-                             "<p>%s <code>%s</code></p>"
-                             % (htmlmod.escape(i18n.get("msg_error", "")),
-                                htmlmod.escape(detall))))
+                             "<p>%s</p>" % htmlmod.escape(
+                                 i18n.get("msg_error", ""))))
 
 
 def health(environ, start_response):
