@@ -14,7 +14,6 @@
       --cms-accent: #e03131;
       --cms-width: 1024px;
       --cms-gap: 20px;
-      --cms-logo-width: 138px;
     }
     * { box-sizing: border-box; }
     html, body {
@@ -88,6 +87,58 @@
       border-color: transparent;
       background: transparent;
     }
+    .cms-years {
+      position: relative;
+    }
+    .cms-years > summary {
+      list-style: none;
+      cursor: pointer;
+      color: var(--cms-primary);
+      font-size: 0.9rem;
+      padding: 0.4rem 0.8rem;
+      border-radius: 5px;
+      border: 1px solid var(--cms-border);
+      background: #202023;
+    }
+    .cms-years > summary::-webkit-details-marker {
+      display: none;
+    }
+    .cms-years > summary::after {
+      content: " ▾";
+      color: var(--cms-secondary);
+    }
+    .cms-years[open] > summary {
+      border-color: var(--cms-accent);
+    }
+    .cms-years-menu {
+      position: absolute;
+      top: calc(100% + 0.4rem);
+      right: 0;
+      z-index: 20;
+      display: flex;
+      flex-direction: column;
+      min-width: 11rem;
+      max-height: 70vh;
+      overflow-y: auto;
+      padding: 0.3rem;
+      border-radius: 6px;
+      border: 1px solid var(--cms-border);
+      background: #161618;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
+    }
+    .cms-years-menu a {
+      border: 0;
+      background: transparent;
+      text-align: left;
+      white-space: nowrap;
+    }
+    .cms-years-menu a[aria-current="true"] {
+      color: var(--cms-accent);
+      font-weight: 700;
+    }
+    @media (max-width: 700px) {
+      .cms-years-menu { right: auto; left: 0; }
+    }
 
     /* ---- Cos (aplicació Sveltia) ---- */
     .cms-app {
@@ -113,66 +164,6 @@
     .cms-footer-band {
       height: 4px;
       background: var(--cms-accent);
-    }
-    .cms-footer-cols {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: var(--cms-gap);
-      align-items: start;
-      text-align: left;
-      max-width: var(--cms-width);
-      margin: auto;
-      padding: 2.5rem var(--cms-gap) 1rem;
-    }
-    .cms-footer-title {
-      display: block;
-      margin-bottom: 0.6rem;
-      font-size: 0.95rem;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      color: var(--cms-secondary);
-      font-weight: 700;
-    }
-    .cms-footer-list {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      gap: 0.35rem;
-      font-size: 0.9rem;
-    }
-    .cms-footer-list a {
-      color: var(--cms-secondary);
-      text-decoration: none;
-    }
-    .cms-footer-list a:hover {
-      color: var(--cms-primary);
-      text-decoration: underline;
-    }
-    .cms-footer-logo a {
-      display: inline-block;
-    }
-    .cms-footer-logo img {
-      width: var(--cms-logo-width);
-      height: auto;
-      max-width: 100%;
-      border-radius: 3px;
-    }
-    .cms-footer-logo a:hover img {
-      animation: cms-logo-wiggle 0.7s ease-in-out;
-    }
-    @keyframes cms-logo-wiggle {
-      0%   { transform: rotate(0deg) scale(1); }
-      25%  { transform: rotate(-5deg) scale(1.04); }
-      50%  { transform: rotate(4deg) scale(1.04); }
-      75%  { transform: rotate(-2deg) scale(1.04); }
-      100% { transform: rotate(0deg) scale(1); }
-    }
-    .cms-stats .cms-footer-list { font-variant-numeric: tabular-nums; }
-    .cms-stats .cms-stat-num {
-      font-weight: 700;
-      color: var(--cms-accent);
     }
     .cms-footer-bottom {
       position: relative;
@@ -240,43 +231,8 @@
       max-height: 1.6em;
       opacity: 1;
     }
-    @media (max-width: 1024px) {
-      .cms-footer-cols { grid-template-columns: repeat(3, 1fr); }
-      .cms-footer-empty { display: none; }
-    }
     @media (max-width: 900px) {
       #nc-root { min-height: 60vh; }
-    }
-    @media (max-width: 700px) {
-      .cms-footer-cols { grid-template-columns: 1fr 1fr; }
-    }
-    @media (max-width: 480px) {
-      .cms-footer-cols {
-        grid-template-columns: auto minmax(0, 1fr);
-        grid-template-areas:
-          "logo web"
-          "legal legal"
-          "stats stats";
-        align-items: center;
-      }
-      .cms-footer-logo { grid-area: logo; }
-      .cms-footer-web { grid-area: web; }
-      .cms-footer-legal { grid-area: legal; }
-      .cms-footer-stats { grid-area: stats; }
-      .cms-footer-legal .cms-footer-list,
-      .cms-footer-stats .cms-footer-list {
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: baseline;
-        gap: 0 0.55rem;
-      }
-      .cms-footer-legal { text-align: center; }
-      .cms-footer-legal .cms-footer-list { justify-content: center; }
-      .cms-footer-legal .cms-footer-list li + li::before,
-      .cms-footer-stats .cms-footer-list li + li::before {
-        content: "·";
-        margin-right: 0.55rem;
-      }
     }
   </style>
 </head>
@@ -288,10 +244,34 @@
       <strong>9 Barris Imatge<small>Gestor de continguts</small></strong>
     </a>
     <nav class="cms-nav" aria-label="Navegació del gestor">
-      <a href="#/collections/guia">Guia i manual</a>
-      <a href="../guia/">Guia al web</a>
-      <a href="#/collections/posts-2026">Articles · 2026</a>
+      <details class="cms-years">
+        <summary>Articles · 2026</summary>
+        <div class="cms-years-menu">
+          <a href="#/collections/posts-2026" aria-current="true">Articles · 2026</a>
+          <a href="#/collections/posts-2025">Articles · 2025</a>
+          <a href="#/collections/posts-2024">Articles · 2024</a>
+          <a href="#/collections/posts-2023">Articles · 2023</a>
+          <a href="#/collections/posts-2022">Articles · 2022</a>
+          <a href="#/collections/posts-2021">Articles · 2021</a>
+          <a href="#/collections/posts-2020">Articles · 2020</a>
+          <a href="#/collections/posts-2019">Articles · 2019</a>
+          <a href="#/collections/posts-2018">Articles · 2018</a>
+          <a href="#/collections/posts-2017">Articles · 2017</a>
+          <a href="#/collections/posts-2016">Articles · 2016</a>
+          <a href="#/collections/posts-2015">Articles · 2015</a>
+          <a href="#/collections/posts-2014">Articles · 2014</a>
+          <a href="#/collections/posts-2013">Articles · 2013</a>
+          <a href="#/collections/posts-2012">Articles · 2012</a>
+          <a href="#/collections/posts-2011">Articles · 2011</a>
+          <a href="#/collections/posts-2010">Articles · 2010</a>
+          <a href="#/collections/posts-2009">Articles · 2009</a>
+          <a href="#/collections/posts-2008">Articles · 2008</a>
+        </div>
+      </details>
+      <a href="#/collections/web-pages">Pàgines del web</a>
       <a href="#/collections/membres">Membres</a>
+      <a href="../guia/" target="_blank" rel="noopener">Llegir la guia</a>
+      <a href="#/collections/guia">Editar la guia</a>
       <a class="cms-nav--back" href="../">Torna al web</a>
     </nav>
   </header>
@@ -303,53 +283,29 @@
 
   <footer class="cms-footer">
     <div class="cms-footer-band" aria-hidden="true"></div>
-    <div class="cms-footer-cols">
-      <div class="cms-footer-logo">
-        <a href="../" aria-label="9 Barris Imatge (inici)">
-          <img src="../images/logo-header.jpg" alt="9 Barris Imatge" width="138" height="229" loading="lazy" />
-        </a>
-      </div>
-      <div class="cms-footer-empty" aria-hidden="true"></div>
-      <nav class="cms-footer-web" aria-label="Navegació del web">
-        <span class="cms-footer-title">El web</span>
-        <ul class="cms-footer-list">
-          <li><a href="../archive/">Arxiu 9bi</a></li>
-          <li><a href="../tags/">Etiquetes / Tags</a></li>
-          <li><a href="../mes-visitats/">Més visitats</a></li>
-          <li><a href="https://9barrisimatge.goatcounter.com/" target="_blank" rel="noopener">Estadístiques del web</a></li>
-          <li><a href="../search/">Cerca</a></li>
-          <li><a href="../index.xml">RSS</a></li>
-        </ul>
-      </nav>
-      <nav class="cms-footer-legal" aria-label="Enllaços legals">
-        <span class="cms-footer-title">Legal</span>
-        <ul class="cms-footer-list">
-          <li><a href="../avis-legal/">Avís legal</a></li>
-          <li><a href="../privacitat/">Privacitat</a></li>
-          <li><a href="../cookies/">Cookies</a></li>
-          <li><a href="../credits/">Crèdits del web</a></li>
-        </ul>
-      </nav>
-      <div class="cms-footer-stats" aria-label="9 Barris Imatge en xifres">
-        <span class="cms-footer-title">9 Barris en números</span>
-        <ul class="cms-footer-list">
-          <li><span class="cms-stat-num">3.006</span> posts</li>
-          <li><span class="cms-stat-num">24</span> anys</li>
-          <li><span class="cms-stat-num">12</span> membres</li>
-        </ul>
-      </div>
-    </div>
     <div class="cms-footer-bottom">
       <span class="cms-copyright">
         <img class="cms-cc-badge" src="../images/cc-by-nc-sa.svg" alt="" aria-hidden="true" width="88" height="31" loading="lazy" />
         <span class="cms-copyright-text">
-          <a class="cms-copyright-license" href="../credits/#puc-fer-servir-les-fotografies-del-web">Llicència Creative Commons BY-NC-SA 4.0</a><br>
-          <span>Contingut sota llicència <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca" target="_blank" rel="noopener">Creative Commons Reconeixement-NoComercial-CompartirIgual 4.0</a></span>
+          <a class="cms-copyright-license" href="../credits/#puc-fer-servir-les-fotografies-del-web">Llicència Creative Commons BY-NC-SA 4.0</a>
         </span>
       </span>
       <span class="cms-powered">Powered by <a class="cms-powered-link" href="https://linuxbcn.com" rel="noopener" target="_blank">LinuxBCN</a> with <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &amp; <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a><span class="cms-powered-reveal">Consultoria | Desenvolupament | Allotjament | Disseny</span></span>
     </div>
   </footer>
+
+  <script>
+    const cmsYears = document.querySelector(".cms-years");
+    if (cmsYears) {
+      cmsYears.addEventListener("click", (e) => {
+        if (e.target.closest(".cms-years-menu a")) cmsYears.open = false;
+      });
+      document.addEventListener("click", (e) => {
+        if (cmsYears.open && !cmsYears.contains(e.target)) cmsYears.open = false;
+      });
+      window.addEventListener("hashchange", () => { cmsYears.open = false; });
+    }
+  </script>
 
   <!-- Sveltia CMS (succeeix Decap/Netlify CMS); defer perquè trobi el contenidor #nc-root -->
   <!-- Autoallotjat (2026-09-23): sense CDN tercer (RGPD) i sense risc de cadena de

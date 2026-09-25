@@ -643,6 +643,126 @@ collections:
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
       - { label: "Descripció (opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista d'articles i al RSS." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
+  - name: "web-pages"
+    label: "Pàgines del web (pàgines fixes)"
+    files:
+      - name: "qui-som"
+        label: "Qui som"
+        file: "content/qui-som.md"
+        fields:
+          - { label: "Títol", name: "title", widget: "string" }
+          - { label: "Descripció", name: "description", widget: "text", required: false }
+          - { label: "URL (no tocar)", name: "url", widget: "hidden" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+      - name: "concurs"
+        label: "El concurs"
+        file: "content/concurs.md"
+        fields:
+          - { label: "Títol", name: "title", widget: "string" }
+          - { label: "Títol visual (amb <br> opcional)", name: "visualTitle", widget: "string", required: false }
+          - { label: "Subtítol visual (Markdown)", name: "visualDescription", widget: "markdown", required: false }
+          - { label: "Descripció (per als motors de cerca)", name: "description", widget: "text", required: false }
+          - { label: "Fons de la pàgina", name: "page_bg", widget: "hidden" }
+          - { label: "URL (no tocar)", name: "url", widget: "hidden" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+      - name: "contacte"
+        label: "Contacte"
+        file: "content/contacte.md"
+        fields:
+          - { label: "Títol", name: "title", widget: "string" }
+          - { label: "Descripció", name: "description", widget: "text", required: false }
+          - { label: "URL (no tocar)", name: "url", widget: "hidden" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+      - name: "faq"
+        label: "Preguntes freqüents"
+        file: "content/faq.md"
+        fields:
+          - { label: "Títol", name: "title", widget: "string" }
+          - { label: "Descripció", name: "description", widget: "text", required: false }
+          - { label: "URL (no tocar)", name: "url", widget: "hidden" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+      - name: "subvencions"
+        label: "Subvencions públiques"
+        file: "content/subvencions.md"
+        fields:
+          - { label: "Títol", name: "title", widget: "string" }
+          - { label: "Descripció", name: "description", widget: "text", required: false }
+          - { label: "URL (no tocar)", name: "url", widget: "hidden" }
+          - { label: "URLs antigues (no tocar)", name: "aliases", widget: "list", required: false }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+      - name: "incorpora-te"
+        label: "Incorpora't"
+        file: "content/incorpora-te.md"
+        fields:
+          - { label: "Títol", name: "title", widget: "string" }
+          - { label: "Descripció", name: "description", widget: "text", required: false }
+          - { label: "URL (no tocar)", name: "url", widget: "hidden" }
+          - { label: "Fora de l'RSS", name: "hiddenInRss", widget: "hidden" }
+          - label: "Ordre de construcció"
+            name: "build"
+            widget: "object"
+            fields:
+              - { label: "list", name: "list", widget: "string", required: false }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+      - name: "credits"
+        label: "Crèdits"
+        file: "content/credits.md"
+        fields:
+          - { label: "Títol", name: "title", widget: "string" }
+          - { label: "Descripció", name: "description", widget: "text", required: false }
+          - { label: "URL (no tocar)", name: "url", widget: "hidden" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+      - name: "avis-legal"
+        label: "Avís legal"
+        file: "content/avis-legal.md"
+        fields:
+          - { label: "Títol", name: "title", widget: "string" }
+          - { label: "Descripció", name: "description", widget: "text", required: false }
+          - { label: "URL (no tocar)", name: "url", widget: "hidden" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+      - name: "privacitat"
+        label: "Privacitat"
+        file: "content/privacitat.md"
+        fields:
+          - { label: "Títol", name: "title", widget: "string" }
+          - { label: "Descripció", name: "description", widget: "text", required: false }
+          - { label: "URL (no tocar)", name: "url", widget: "hidden" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+      - name: "cookies"
+        label: "Cookies"
+        file: "content/cookies.md"
+        fields:
+          - { label: "Títol", name: "title", widget: "string" }
+          - { label: "Descripció", name: "description", widget: "text", required: false }
+          - { label: "URL (no tocar)", name: "url", widget: "hidden" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+      - name: "archive"
+        label: "Arxiu"
+        file: "content/archive.md"
+        fields:
+          - { label: "Títol", name: "title", widget: "string" }
+          - { label: "Plantilla", name: "layout", widget: "hidden" }
+          - { label: "URL (no tocar)", name: "url", widget: "hidden" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+      - name: "search"
+        label: "Cerca"
+        file: "content/search.md"
+        fields:
+          - { label: "Títol", name: "title", widget: "string" }
+          - { label: "Descripció", name: "description", widget: "text", required: false }
+          - { label: "Plantilla", name: "layout", widget: "hidden" }
+          - { label: "URL (no tocar)", name: "url", widget: "hidden" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+      - name: "mes-visitats"
+        label: "Més visitats"
+        file: "content/mes-visitats.md"
+        fields:
+          - { label: "Títol", name: "title", widget: "string" }
+          - { label: "Plantilla", name: "layout", widget: "hidden" }
+          - { label: "Fora de l'RSS", name: "hiddenInRss", widget: "hidden" }
+          - { label: "URL (no tocar)", name: "url", widget: "hidden" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+
   - name: "guia"
     label: "Guia (manual per editors)"
     label_singular: "Pàgina de la guia"

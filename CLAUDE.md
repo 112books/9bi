@@ -118,7 +118,10 @@ sync-9bi.sh                        # script de sync/gestió
 
 - Backend `github`: repo `112books/9bi`, `branch main`; entrada actual amb PAT classic (`repo`) via «Sign In with Token»
 - `media_folder: static/images` · `public_folder: /images`; script de l'aplicació autoallotjat a `static/admin/sveltia-cms.js`
-- 23 col·leccions: 19 d'articles per any (`posts-2026`…`posts-2008`, una per subcarpeta `content/posts/YYYY/` amb `sortable_fields` per data desc; camps: title, date, year [hidden, default l'any], slug, author [select], cover.image, album_url, tags, description, body), més `guia`, `actes` (title, date, lloc, persones_reunides, convidat, ordre_del_dia, draft, body), `concurs` (title, tipo[select], date, draft, body) i `membres` (vegeu "Sessió 2026-09-18 (v6)"). La llista d'autors es reutilitza amb un ancoratge YAML (`x-autors: &autors`).
+- 32 col·leccions: 19 d'articles per any (`posts-2026`…`posts-2008`, una per subcarpeta `content/posts/YYYY/` amb `sortable_fields` per data desc; camps: title, date, year [hidden, default l'any], slug, author [select], cover.image, album_url, tags, description, body), la col·lecció de fitxers **`web-pages` «Pàgines del web»** (les 13 pàgines fixes de `content/*.md`; camps tècnics `url`, `layout`, `hiddenInRss`, `page_bg`, `aliases`, `build` com a **hidden** perquè no es perdi'n cap en desar), `guia`, `actes` (title, date, lloc, persones_reunides, convidat, ordre_del_dia, draft, body), `concurs` (title, tipo[select], date, draft, body), `membres` (vegeu "Sessió 2026-09-18 (v6)") i 8 col·leccions **«Àlbums per arreglar · <autor>»** (`recuperacio/<autor>/`, llistes de treball per recuperar enllaços d'àlbum Picasa morts; ~1.188 registres). La llista d'autors es reutilitza amb un ancoratge YAML (`x-autors: &autors`).
+- Per veure **qualsevol article** s'usa la **cerca immediata del propi Sveltia** (indexa tot el web); **no** hi ha cap col·lecció «Tots els articles» perquè els 3.008 posts feien trigar molt el carregament (decisió de l'usuari, 2026-09-25).
+- Capçalera del CMS (`static/admin/index.html`): «Articles · 2026» és un **desplegable d'anys** (2026→2008, 2026 marcat; es tanca en triar, en fer clic fora i en canviar el hash), seguit de «Pàgines del web», «Membres», «Llegir la guia» (→ `/guia/`, pestanya nova) i «Editar la guia» (→ col·lecció `guia`). El rail propi d'anys de la v8 es va perdre en canviar Decap→Sveltia (`d7cdb3b00`).
+- Peu del CMS: **només** filet vermell + llicència CC + «Powered by LinuxBCN with Hugo & PaperMod» (logo, columnes El web/Legal i 9 Barris en números eliminats el 2026-09-25 per decisió de l'usuari; el peu del **web** no s'ha tocat).
 
 ## CI/CD (`.github/workflows/deploy.yml`)
 
@@ -219,6 +222,16 @@ sync-9bi.sh                        # script de sync/gestió
 - **Validació i deploy**: build de producció net (6.442 pàgines); prova local amb cerca «Cordoncillo» -> 44 resultats; proves desktop i mòbil; GitHub Actions run `36115053496` completat amb èxit i verificació live de la 404 amb cerca, `noindex` i resposta 404.
 - **Avisos no bloquejants del workflow**: GitHub Actions avisa que `actions/checkout@v4`, `actions/configure-pages@v5` i `actions/upload-artifact@v4` usen Node.js 20, que està obsolet, i que `ubuntu-latest` migrarà a Ubuntu 26 a partir del 19 d'octubre de 2026. L'actualització/SHA-pin de les accions continua pendent.
 - **Tancament i sincronització**: GitHub és el repositori de producció i queda net i sincronitzat. Codeberg continua read-only i desfasat per la quota; no s'hi fa push ni reset. El fitxer de temps local queda registrat a `.taques/9arrisimatge.org/2026-09-25.md`.
+
+## Sessió 2026-09-25 (v4) — CMS: miniatures, pàgines fixes i capçalera
+
+- **Miniatures al CMS (FET, commit `a04d62d56`, Actions `36128375734`)**: els 2.911 valors `cover.image` eren relatius (`images/covers/…`) i Sveltia els resolia contra `public_folder` (`/images`) → `/images/images/…` (404). Normalitzats a `/images/covers/…`; els 19 valors http(s) i els 78 sense portada es van deixar com estan. Confirmat en viu per l'usuari: «Ja es veuen les miniatures!».
+- **Col·lecció «Pàgines del web» (FET, sense commit encara)**: nova col·lecció de fitxers `web-pages` amb les 13 pàgines fixes de `content/*.md`, perquè l'editor principal les pugui veure i editar des del CMS. `title`, `description` i cos editables; els camps tècnics (`url`, `layout`, `hiddenInRss`, `page_bg`, `aliases`, `build`) com a **hidden**, de manera que en cap cas es perden en desar. A `concurs.md`, `visualTitle`/`visualDescription` són editables (títol i subtítol visuals amb `<br>` i Markdown).
+- **Peu del CMS reduït (decisió de l'usuari)**: només el filet vermell + llicència CC (badge + enllaç a la FAQ de crèdits) + «Powered by LinuxBCN with Hugo & PaperMod». S'han eliminat el logo, les columnes «El web» / «Legal» / «9 Barris en números» i el CSS mort associat. **El peu del web (`layouts/_partials/footer.html`) no s'ha tocat.**
+- **Capçalera del CMS (FET)**: «Articles · 2026» ara és un desplegable (`<details>`) amb els 19 anys 2026→2008, 2026 marcat amb `aria-current`; es tanca en triar un any, en fer clic fora i en canviar el hash (JS mínim al final de `static/admin/index.html`). El resta d'enllaços: «Pàgines del web» (→ `web-pages`), «Membres», «Llegir la guia» (→ `/guia/`, pestanya nova) i «Editar la guia» (→ col·lecció `guia») — abans tots dos es deien «Guia i manual» / «Guia al web» i no es distingien prou.
+- **Veure qualsevol article**: cap col·lecció nova; s'usa la **cerca immediata del Sveltia** (indexa tot el web) i els 19 anys per publicar o retocar els darrers posts. Decisió de l'usuari, 2026-09-25: es rebutja «Tots els articles» perquè els 3.008 posts feien trigar molt el carregament.
+- **«Àlbums per arreglar»**: segueixen sent 8 col·leccions a `recuperacio/<autor>/` (~1.188 registres) accessibles pel llistat de col·leccions del Sveltia; no s'afegeixen al desplegable d'anys.
+- Build `hugo --minify` net; YAML de `config.yml` validat (32 col·leccions, 13 pàgines, cap camp ocult absent del front matter). **Pendent**: commit + push a `origin/main` (no demanat encara).
 
 ## Problemes coneguts / pendents (verificats)
 
@@ -524,7 +537,7 @@ sync-9bi.sh                        # script de sync/gestió
 ## Tasques pendents (backlog curt)
 
 > **Anotat 2026-09-21 — 5 pendents dictats per l'usuari (per no oblidar-los; cap acció feta, només registre):**
-> 1. **Revisar i arreglar que surtin les imatges en miniatura al backend**.
+> 1. ~~**Revisar i arreglar que surtin les imatges en miniatura al backend**~~ — **FET 2026-09-25** (commit `a04d62d56`; confirmat en viu per l'usuari).
 > 2. **Revisar si ja algú ha iniciat el procès de creació del seu usuari**.
 > 3. **Revisar que els que no son ADMIN (Tots menys jo i els que diré) només puguin veure els seus posts**.
 > 4. **Migrar ja al domini de prodicció (9barrisimatge.org)**: Canviar DNS, revisar que tot es veurà bé, revisar que les URL actuals de blogger es redireccionen on pertoca i finalment desactivar el blogger.
@@ -570,7 +583,7 @@ sync-9bi.sh                        # script de sync/gestió
 
 ## Properes sessions
 
-- **Muntar el CMS**: backend GitHub + entrada amb PAT **fets**. **Articles per anys fet (v7/v8)**: camp `year`, col·leccions en subcarpetes físiques per any (`sortable_fields` desc) + rail propi. **Chrome del CMS fet**: capçalera i peu propis, enllaç a la guia editable i enllaç a la guia pública. Pendent: **convidar editors com a col·laboradors amb Write** i comprovar permisos reals; els membres inactius no reben accés. Queden pendents les altres demandes del llistat (miniatures, normalització de títols en majúscules, etc.).
+- **Muntar el CMS**: backend GitHub + entrada amb PAT **fets**. **Articles per anys fet (v7/v8)**: camp `year`, col·leccions en subcarpetes físiques per any (`sortable_fields` desc) + desplegable d'anys a la capçalera (v4). **Chrome del CMS fet**: capçalera amb desplegable d'anys, «Pàgines del web» i «Llegir la guia» / «Editar la guia»; peu reduït al filet vermell + CC + Powered by. Pendent: **convidar editors com a col·laboradors amb Write** i comprovar permisos reals; els membres inactius no reben accés. Queden pendents les altres demandes del llistat (normalització de títols en majúscules, etc.).
 - **Control de fitxers del Concurs Cordoncillo** (bases, històric, etc.).
 - **Secció per fer i gestionar les reunions** del col·lectiu.
 
