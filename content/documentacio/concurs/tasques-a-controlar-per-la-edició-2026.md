@@ -1,5 +1,5 @@
 ---
-title: Tasques a controlar per la edició 2026
+title: Tasques a controlar per la edició 2026 - Grup per la entrega de premis
 tipo: Grup de música
 date: 2026-09-25T13:49:00
 draft: true
