@@ -1,14 +1,14 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-{{- if and (ne .Params.robotsNoIndex true) (ne .Kind "404") (or (hugo.IsProduction) (eq site.Params.env "production")) }}
-<meta name="robots" content="index, follow">
-{{- else }}
+{{- $noindex := or (eq .Kind "404") (eq .Params.robotsNoIndex true) (and .IsSection (eq .Section "posts")) (not (or (hugo.IsProduction) (eq site.Params.env "production"))) }}{{ if in (slice "home" "section" "taxonomy" "term") .Kind }}{{ $noindex = or $noindex (gt .Paginator.PageNumber 1) }}{{ end }}{{ if $noindex }}
 <meta name="robots" content="noindex, nofollow">
+{{- else }}
+<meta name="robots" content="index, follow">
 {{- end }}
 
 {{- /* Title */}}
-<title>{{ if .IsHome }}{{ else }}{{ if .Title }}{{ .Title }} | {{ end }}{{ end }}{{ site.Title }}</title>
+<title>{{ if .IsHome }}{{ else }}{{ if eq .Kind "taxonomy" }}{{ if eq .Data.Singular "author" }}Autors | {{ else }}{{ .Title }} | {{ end }}{{ else if .Title }}{{ .Title }} | {{ end }}{{ end }}{{ site.Title }}</title>
 
 {{- /* Meta */}}
 {{- if .IsHome }}
@@ -18,8 +18,17 @@
     {{- range $i, $e := .Params.keywords }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} {{- else }}
     {{- range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} {{- end -}}">
 {{- end }}
-<meta name="description" content="{{- with .Description }}{{ . }}{{- else }}{{- if or .IsPage .IsSection}}
-    {{- .Summary | default (printf "%s - %s" .Title  site.Title) }}{{- else }}
+<meta name="description" content="{{- with .Description }}{{ . }}{{- else }}{{- if eq .Kind "term" }}
+    {{- $n := len .Pages }}{{ if eq .Data.Singular "author" -}}
+    Articles i fotografies de {{ .Title }} al blog del col·lectiu 9 Barris Imatge: {{ $n }} entrades.
+    {{- else -}}
+    Articles sobre «{{ .Title }}» al blog del col·lectiu 9 Barris Imatge: {{ $n }} entrades.
+    {{- end }}
+    {{- else if or .IsPage .IsSection}}
+    {{- $sum := trim (replaceRE `[\s\p{Zs}]+` " " (plainify (htmlUnescape .Summary))) " " }}{{ if $sum }}{{ $sum | truncate 155 }}{{ else }}{{ printf "%s - %s" .Title site.Title | truncate 155 }}{{ end }}{{- else if eq .Kind "taxonomy" }}
+    {{- if eq .Data.Singular "author" }}Tots els autors i autores que publiquen al blog del col·lectiu fotogràfic 9 Barris Imatge.
+    {{- else }}Totes les etiquetes i temes dels articles publicats al blog del col·lectiu fotogràfic 9 Barris Imatge.{{ end }}
+    {{- else }}
     {{- with site.Params.description }}{{ . }}{{- end }}{{- end }}{{- end -}}">
 <meta name="author" content="{{ (partial "author.html" . ) }}">
 <link rel="canonical" href="{{ if .Params.canonicalURL -}} {{ trim .Params.canonicalURL " " }} {{- else -}} {{ .Permalink }} {{- end }}">
