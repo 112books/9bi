@@ -75,9 +75,26 @@ Per als formularis de la web (contacte, incorporació de socis), en lloc de Form
 
 | Comprovació | Estat |
 |---|---|
-| `linuxbcn.com` i `www.linuxbcn.com` | resolen a `82.98.166.123` (servidor HTTP de Dinahosting) |
-| `formularis.linuxbcn.com` | **Creat el 2026-09-25** a la carpeta `www/formularis`; resol a `82.98.166.123` |
-| `vot-cordoncillo.linuxbcn.com` | **NXDOMAIN** — encara no creat |
+| `linuxbcn.com` i `www.linuxbcn.com` | resolen a `82.98.166.123` (servidor HTTP de Dinahosting) · certificat vàlid `CN=linuxbcn.com` (Let's Encrypt, des del 2026-08-13) |
+| `formularis.linuxbcn.com` | **Creat el 2026-09-25** a la carpeta `www/formularis`; resol a `82.98.166.123` · **certificat pendent**: serveix el de per defecte (`CN=*.dinaserver.com`) |
+| `vots-cordoncillo.linuxbcn.com` | **Creat el 2026-09-25** a la carpeta `www/vots-cordoncillo`; resol a `82.98.166.123` · **certificat pendent**: serveix el de per defecte (`CN=*.dinaserver.com`) |
+
+### Per què el certificat dels subdominis és bloquejant per als dos
+
+Verificat el 2026-09-25 amb `openssl s_client`: els subdominis de Dinahosting
+serveixen el certificat genèric de l'hostatger, `CN=*.dinaserver.com`, que no
+inclou el nom del subdomini. El navegador, doncs, no considera l'origen «segur»:
+
+- mostra un avís de seguretat a pantalla completa;
+- **`navigator.geolocation` queda deshabilitada** i, en conseqüència, qualsevol
+  funcionalitat que depengui de la ubicació deixa de funcionar;
+- les cookies amb `Secure` hi són iguals, però l'avís pot fer que l'usuari no contin.
+
+Per als formularis només hi ha l'avís. Per a la votació del concurs és
+**bloquejant**: el mode geogràfic dur (500 m del Casal) rebutja tot vot sense
+ubicació, de manera que cap vot es podria registrar fins que el certificat del
+subdomini sigui correcte. Cal activar el Let's Encrypt del subdomini abans de
+provar res.
 
 Passos per deixar el servei engegant (els ha de fer la persona a la que correspon el panell):
 
