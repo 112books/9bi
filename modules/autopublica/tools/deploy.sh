@@ -25,5 +25,10 @@ cd /tmp/pages-deploy
 git init -q -b pages
 git add -A
 git commit -qm "autopublica: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-git push -f "${AUTOPUBLICA_PUSH_URL:-ssh://git@codeberg.org/linuxbcn/9bi.git}" HEAD:pages
+PUSH_URL="${AUTOPUBLICA_PUSH_URL:-ssh://git@codeberg.org/linuxbcn/9bi.git}"
+if printf '%s' "$PUSH_URL" | grep -qE '^https?://[^/]*:[^@]*@'; then
+  echo "[deploy] ERROR: AUTOPUBLICA_PUSH_URL no pot dur credencials dins la URL"
+  exit 1
+fi
+git push -f "$PUSH_URL" HEAD:pages
 echo "[deploy] OK"

@@ -25,6 +25,7 @@ import hmac
 import hashlib
 import json
 import os
+import re
 import subprocess
 import threading
 import time
@@ -57,6 +58,16 @@ def verify_signature(payload, signature, secret):
     return hmac.compare_digest(expected, signature)
 
 
+def redact(text):
+    """Elimina credencials del text que es retorna per HTTP."""
+    out = text or ""
+    push_url = os.environ.get("AUTOPUBLICA_PUSH_URL", "")
+    if push_url:
+        out = out.replace(push_url, "[push-url redacted]")
+    out = re.sub(r"(https?://)[^/\s:@]+:[^@\s]+@", r"\1[redacted]@", out)
+    return out
+
+
 def run_deploy(cfg, branch):
     """Executa el desplegament real (build + push a pages)."""
     log = []
@@ -79,9 +90,9 @@ def run_deploy(cfg, branch):
         env=env, capture_output=True, text=True, cwd=cfg_get(cfg, "repo", "workdir", MODULE_DIR))
     log.append("exit=%s" % p.returncode)
     if p.stdout:
-        log.append(p.stdout.strip())
+        log.append(redact(p.stdout.strip()))
     if p.stderr:
-        log.append(p.stderr.strip())
+        log.append(redact(p.stderr.strip()))
     return p.returncode == 0, "\n".join(log)
 
 
