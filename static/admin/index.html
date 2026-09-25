@@ -419,9 +419,9 @@
       if (!sidebar) return;
       let el = sidebar;
       while (el && el.id !== "page-container") {
+        if (el.querySelector("main")) break;
         el.style.display = "none";
         el = el.parentElement;
-        if (!el) break;
       }
     }
 
