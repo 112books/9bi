@@ -16,6 +16,12 @@ El **codi font del projecte viu a [Codeberg](https://codeberg.org/)**, una plata
 
 Amb el mateix esperit vam crear **[Taro](https://linuxbcn.com/ca/projectes/taro-photo-app/)**, l'aplicació de programari lliure per a associacions fotogràfiques que les ajuda en la **gestió i l'exhibició de les seves fotografies**. La versió definitiva es presentarà a **[LinuxBCN.com](https://linuxbcn.com/ca/projectes/taro-photo-app/)**, on es concentraran la descripció, la llicència, les funcionalitats i el codi font. Ara mateix encara està en **fase de beta**: qualsevol suggeriment serà benvingut, especialment per part dels membres del col·lectiu de 9 Barris Imatge.
 
+### Per què l'aplicació es diu Taro?
+
+El nom **Taro** és un petit homenatge a **[Gerda Taro](https://www.enciclopedia.cat/gran-enciclopedia-catalana/gerda-taro)** (1910–1937), fotoperiodista i companya de Robert Capa. Van signar reportatges a primera línia de la Guerra Civil espanyola i, cada cop, sembla més clar que va ser autora d'algunes de les millores fotografies d'aquell duo tan icònic del fotoperiodisme.
+
+Va morir el **26 de juliol de 1937**, als 26 anys, durant la Guerra Civil espanyola: en la retirada del front de Brunete va caure de l'estribo d'un cotxe amb l'aviació enemiga per sobre i un tanc republicà que retrocedia la va atropellar. El seu cos es va traslladar a París, on descansa al **cementiri del Père-Lachaise**.
+
 ## Amb què està fet
 
 - **[Hugo](https://gohugo.io/)** — generador de llocs estàtics (ràpid, sense base de dades).
