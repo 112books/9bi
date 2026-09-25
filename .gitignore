@@ -27,3 +27,11 @@ __pycache__/
 *.swp
 .idea/
 .vscode/
+
+# Secrets i credencials (mai al repo; auditoria 2026-09-25)
+/.tokens/
+.env
+*.pem
+*.key
+*.p12
+credentials*.json

@@ -48,11 +48,17 @@ def load_config():
 
 
 def secret_key(cfg):
-    return os.environ.get("VOTACIO_SECRET", cfg.get("general", "secret", fallback="CHANGE-ME"))
+    s = os.environ.get("VOTACIO_SECRET") or cfg.get("general", "secret", fallback="")
+    if not s or s in ("CHANGE-ME", "CANVIA-ME", "CANVIA-ME-TOKEN"):
+        raise SystemExit("votacio: cal configurar general.secret (config.ini o VOTACIO_SECRET)")
+    return s
 
 
 def admin_key(cfg):
-    return os.environ.get("VOTACIO_ADMIN", cfg.get("general", "admin_secret", fallback="CHANGE-ME"))
+    s = os.environ.get("VOTACIO_ADMIN") or cfg.get("general", "admin_secret", fallback="")
+    if not s or s in ("CHANGE-ME", "CANVIA-ME", "CANVIA-ME-ADMIN"):
+        raise SystemExit("votacio: cal configurar general.admin_secret (config.ini o VOTACIO_ADMIN)")
+    return s
 
 
 def db_path(cfg):
