@@ -1,7 +1,10 @@
 ---
 title: "Com arreglar els àlbums de fotos antics"
 description: "Pas a pas perquè cada autor repari els seus enllaços d'àlbum (Picasa → Google Photos)"
-draft: true
+robotsNoIndex: true
+hiddenInRss: true
+sitemap:
+  disable: true
 ---
 
 Quan el bloc es va crear, les fotos es guardaven a **Picasa**, un servei de Google que ja no existeix. Per això molts enllaços d'àlbums **ja no funcionen**.

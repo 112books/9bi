@@ -1,14 +1,17 @@
 ---
 title: "Com publicar un article"
-description: "El flux complet per publicar una entrada al bloc amb Decap CMS"
-draft: true
+description: "El flux complet per publicar una entrada al web amb el CMS (Sveltia)"
+robotsNoIndex: true
+hiddenInRss: true
+sitemap:
+  disable: true
 ---
 
 Al bloc, cada membre publica un article amb **una fotografia principal**, un **enllaç a l'àlbum** i un **text** que contextualitza les imatges. Aquí tens el flux complet.
 
 ## 1. Entra a l'administració
 
-- Ves a **https://9barrisimatge.org/admin/** i fes login amb el teu compte de **Codeberg**.
+- Ves a **https://9barrisimatge.org/admin/**, fes clic a **"Sign In with Token"** i utilitza el token personal de GitHub creat segons la [guia per crear un compte d'editor](/guia/crear-compte/).
 
 ## 2. Crea un article nou
 

@@ -1,4 +1,6 @@
-# Mail: crea el teu usuari de Codeberg
+# Històric: mail per crear un usuari de Codeberg
+
+> **OBSOLET.** Aquest missatge es va enviar el 2026-09-22, abans de migrar el CMS a GitHub. No l'has de reutilitzar. El correu vigent per a nous editors és **«Accés al gestor de continguts de 9 Barris Imatge»** a `drafts/emails-usuaris.md`, amb GitHub i token personal.
 
 Estat: **ENVIAT** (2026-09-22) als membres de 9 Barris Imatge des de info@9barrisimatge.org amb camp genèric.
 

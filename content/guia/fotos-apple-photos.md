@@ -1,7 +1,10 @@
 ---
 title: "Publicar fotos amb Apple Fotos"
 description: "Pas a pas: comparteix un àlbum compartit d'Apple Fotos al bloc"
-draft: true
+robotsNoIndex: true
+hiddenInRss: true
+sitemap:
+  disable: true
 ---
 
 Si les teves fotos estan a **Apple Fotos** (iCloud), segueix aquests passos per publicar-les al bloc.

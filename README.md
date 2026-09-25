@@ -1,116 +1,127 @@
 # 9 Barris Imatge
 
-Llocs web de l'**Associació fotogràfica 9 Barris Imatge** de Barcelona, migrat de Blogger a un lloc estàtic 100% lliure.
+Web del **Col·lectiu 9 Barris Imatge** de Barcelona, migrat de Blogger a un lloc estàtic construït amb Hugo i publicat a GitHub Pages.
 
-Cada membre del col·lectiu publica un article amb una fotografia principal, l'enllaç a l'àlbum de fotos (Google Photos o similar) i un text que contextualitza les imatges.
+Cada membre publica un article amb una fotografia principal, un enllaç a l'àlbum de fotos i un text que contextualitza les imatges.
 
-## Stack
+## Pila tecnològica
 
-| Component | Tecnologia | Cost |
-|---|---|---|
-| Generador de llocs estàtics | **Hugo** (extended) | 0 € |
-| Repositori de codi | **Codeberg** (Forgejo) | 0 € |
-| Hosting estàtic + domini | **Codeberg Pages** | 0 € |
-| CMS pels editors | **Decap CMS** (backend Forgejo) | 0 € |
-| CI/CD | **Forgejo Actions** | 0 € |
-| Estadístiques | **GoatCounter** | 0 € (<2.000 pàgines/mes) |
+| Component | Tecnologia |
+|---|---|
+| Generador | Hugo 0.164.0 extended |
+| Tema | PaperMod, versionat dins del repositori |
+| Producció i CMS | GitHub `112books/9bi` + Sveltia CMS 0.217.0 |
+| Hosting | GitHub Pages a `https://9barrisimatge.org/` |
+| CI/CD | GitHub Actions |
+| Backup | Codeberg `linuxbcn/9bi` |
+| Estadístiques | GoatCounter |
 
-## Estructura de directoris
+## Estructura principal
 
-```
-.
-├── hugo.toml                    # Configuració de Hugo
-├── content/
-│   ├── posts/                   # Articles (un fitxer Markdown per article)
-│   ├── search.md                # Pàgina de cerca
-│   ├── archive.md               # Arxiu històric
-│   └── mes-visitats.md          # Articles més visitats
-├── layouts/
-│   ├── _partials/
-│   │   ├── extend_head.html     # Snippet de GoatCounter
-│   │   └── extend_post_content.html  # Botó "Veure tot l'àlbum"
-│   └── _default/popular.html    # Layout de la pàgina d'estadístiques
-├── static/
-│   ├── admin/                   # Decap CMS (config.yml + index.html)
-│   └── images/                  # Imatges pujades pels editors
-├── data/popular.json            # Top d'articles (generable via script)
-├── scripts/
-│   ├── migrate_blogger.py       # Migració Blogger XML → Markdown
-│   └── goatcounter_popular.py   # Genera data/popular.json des de l'API
-└── .forgejo/workflows/deploy.yml  # CI/CD a Codeberg Pages
+```text
+config/                     Configuració de Hugo per entorn
+content/posts/YYYY/         Articles, agrupats per any
+content/guia/               Guia d'editors, publicada sense indexar
+layouts/                    Plantilles del lloc
+assets/css/extended/        Estils personalitzats
+static/admin/               Sveltia CMS autoallotjat
+static/images/              Imatges
+static/stats/               Dashboard d'estadístiques
+data/membres/               Fitxer de dades per membre
+modules/                    Aplicacions WSGI independents del web estàtic
+scripts/                    Migració i obtenció d'estadístiques
+.github/workflows/          Desplegament a GitHub Pages
 ```
 
 ## Desenvolupament local
 
 ```bash
 hugo server -D
-# → http://localhost:1313
 ```
+
+El lloc queda disponible a `http://localhost:1313`.
 
 Build de producció:
 
 ```bash
-hugo --minify
-# → public/
+hugo --minify --environment production
 ```
 
-## Publicació a Codeberg
+El resultat es genera a `public/`.
 
-1. Creeu el repositori a Codeberg (p. ex. `9barrisimatge`) i afegiu-lo com a `origin`.
-2. Activeu **Forgejo Actions** al repositori (cal demanar accés al CI de Codeberg si teniu un compte nou).
-3. Feu push a `main`. El workflow `.forgejo/workflows/deploy.yml` construeix Hugo i publica a Codeberg Pages.
-4. Domini personalitzat: afegiu al DNS un CNAME de `9barrisimatge.org` a `linuxbcn.codeberg.page` (o el que indiqui Codeberg Pages) i configureu el domini des de **Codeberg → Repo → Settings → Pages**.
+## Publicació
 
-> El deploy amb domini propi fa servir `server: codeberg.page`, que resol el bucle de certificat TLS (documentat per Codeberg).
-
-## Decap CMS (editors)
-
-1. A Codeberg: **Settings → Applications → Create new OAuth2 Application**.
-   - Nom: `9barrisimatge CMS`
-   - Redirect URI: `https://9barrisimatge.org/admin/`
-   - Desmarcar "Confidential client"
-2. Copieu el **Client ID** a `static/admin/config.yml` (camp `app_id`).
-3. L'editor entra a **https://9barrisimatge.org/admin/**, fa login amb el seu compte Codeberg i publica.
-
-### Rols
-- **Admin**: accés total al repositori i al CMS; gestiona usuaris, theme i configuració.
-- **Editor**: crea i edita els seus propis articles (títol, foto, àlbum, tags, text). Cal que tingui accés *push* al repositori; l'admin el convida des de Codeberg → Repo → Settings → Collaborators.
-
-## Migració des de Blogger
-
-1. Blogger → **Settings → Other → Back up content** (descarrega un XML).
-2. Deseu el XML a `exports/`.
-3. Executeu la migració:
+La branca `main` local segueix el remot `github`:
 
 ```bash
-python3 -m venv .venv-migracio
-source .venv-migracio/bin/activate
-pip install markdownify pyyaml
-
-python3 scripts/migrate_blogger.py --input exports/blog-EXPORT.xml
-# (opcional) --download-images per baixar les fotos a static/images/posts/
+git push github main
 ```
 
-Genera un fitxer per article a `content/posts/` amb front matter (títol, data, autor, tags, slug, `cover.image`, `album_url`) i el cos en Markdown. Les URL es conserven (`/2026/07/slug.html`).
+GitHub Actions construeix el lloc i el publica a `https://9barrisimatge.org/`. Cal comprovar el deploy i les pàgines affectedes abans de considerar la feina tancada.
 
-> Si voleu que la llista de més visitats es refresqui sola amb cada deploy, descomenteu al workflow les passes que criden `goatcounter_popular.py` i afegiu el secret `GOATCOUNTER_API_KEY` a Codeberg → Repo → Settings → Actions → Secrets.
+`origin` apunta al backup de Codeberg. No hi ha cap push habitual fins que la quota permeti sincronitzar-lo de nou. **No s'ha d'esborrar ni reinicialitzar cap dels dos repositoris**: GitHub és producció i Codeberg conserva l'historial de reserva.
 
-## Estadístiques (GoatCounter)
+## CMS dels editors
 
-1. Creeu un lloc nou a **GoatCounter** amb nom `9barrisimatge` (o ajusteu el subdomini a `layouts/_partials/extend_head.html`).
-2. El contador s'envia automàticament a cada pàgina.
-3. Per refrescar els articles més visitats:
+El gestor és a `https://9barrisimatge.org/admin/` i fa servir el backend GitHub.
+
+### Donar accés a un editor
+
+1. Obrir el repositori `112books/9bi` a GitHub.
+2. Anar a **Settings → Collaborators → Add people**.
+3. Convidar la persona amb accés **Write**.
+4. La persona accepta la invitació i crea el seu propi token.
+
+### Entrar al gestor
+
+1. La persona crea un token a **GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)**.
+2. Ha de marcar l'àmbit `repo`.
+3. A `https://9barrisimatge.org/admin/` fa clic a **Sign In with Token** i enganxa el token.
+
+Els tokens no s'inclouen als correus ni es desen al repositori. Si un token es filtra, cal revocar-lo immediatament.
+
+La guia pública per als editors és `https://9barrisimatge.org/guia/`, amb `robotsNoIndex` i fora del menú públic.
+
+### Límits actuals de permisos
+
+El backend del CMS utilitza els permisos del repositori. Una persona amb accés Write pot llegir i escriure al repositori sencer; el gestor actual no aplica una ACL que limiti cada editor a verificar només els seus propis articles. Cal revisar aquests permisos abans d'obrir l'accés a tots els membres.
+
+## Guia d'editors
+
+Les pàgines viuen a `content/guia/` i es construeixen amb:
+
+- `robotsNoIndex: true`
+- `hiddenInRss: true`
+- `sitemap.disable: true`
+- enllaç «Guia al web» al capçalera del CMS
+
+La documentació de manteniment més àmplia, l'estat real, el backlog i les decisions es mantenen a `CLAUDE.md`.
+
+## Estadístiques
+
+El lloc `9bi.goatcounter.com` registra les visites sense cookies. El secret `GOATCOUNTER_API_KEY` està a GitHub Actions i el dashboard de `/stats/` es refresca durant cada desplegament.
+
+Per generar localment la llista d'articles més visitats:
 
 ```bash
-export GOATCOUNTER_API_KEY="..."   # GoatCounter → Settings → API keys
+export GOATCOUNTER_API_KEY="..."
 python3 scripts/goatcounter_popular.py --days 30
-hugo
 ```
 
-## Enllaços útils
+## Migració de Blogger
 
-- Repositori: `ssh://git@codeberg.org/linuxbcn/9bi.git`
+La migració dels 3.006 articles originals s'ha completat. Els fitxers viuen a `content/posts/YYYY/`; els permisos, enllaços especials, autors i altres correccions s'han aplicat després de la migració.
+
+Scripts relacionats:
+
+- `scripts/migrate_blogger.py`
+- `scripts/migrate_live.py`
+
+## Enllaços principals
+
+- Producció: `https://9barrisimatge.org/`
 - CMS: `https://9barrisimatge.org/admin/`
-- RSS: `https://9barrisimatge.org/index.xml`
+- Guia: `https://9barrisimatge.org/guia/`
 - Cerca: `https://9barrisimatge.org/search/`
 - Arxiu: `https://9barrisimatge.org/archive/`
+- RSS: `https://9barrisimatge.org/index.xml`

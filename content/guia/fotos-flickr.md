@@ -1,7 +1,10 @@
 ---
 title: "Publicar fotos amb Flickr"
 description: "Pas a pas: comparteix un àlbum de Flickr al bloc"
-draft: true
+robotsNoIndex: true
+hiddenInRss: true
+sitemap:
+  disable: true
 ---
 
 Si les teves fotos estan a **Flickr**, segueix aquests passos per publicar-les al bloc.

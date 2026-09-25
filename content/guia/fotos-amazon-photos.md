@@ -1,7 +1,10 @@
 ---
 title: "Publicar fotos amb Amazon Photos"
 description: "Pas a pas: comparteix un àlbum d'Amazon Photos al bloc"
-draft: true
+robotsNoIndex: true
+hiddenInRss: true
+sitemap:
+  disable: true
 ---
 
 Si les teves fotos estan a **Amazon Photos**, segueix aquests passos per publicar-les al bloc.

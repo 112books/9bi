@@ -7,26 +7,26 @@ build:
   list: 'never'
 ---
 
-Benvinguda i benvingut a **9 Barris Imatge**. Perquè puguis publicar les teves fotos i reportatges al web, necessites dues coses: un compte a **Codeberg** (on s'allotja el web) i que t'activem l'accés. Aquí t'expliquem com fer-ho, pas a pas.
+Benvinguda i benvingut a **9 Barris Imatge**. Perquè puguis publicar les teves fotos i reportatges al web, necessites dues coses: un compte a **GitHub** (on es conserva el contingut del web) i que t'activem l'accés. Aquí t'expliquem com fer-ho, pas a pas.
 
 ---
 
-## Pas 1 — Crea el teu compte a Codeberg
+## Pas 1 — Crea el teu compte a GitHub
 
-**Codeberg** és la plataforma on guardem tots els continguts del web. És gratuïta, sense publicitat i de codi obert.
+**GitHub** és la plataforma on es conserva el contingut del web i el seu historial de versions. El compte serveix per identificar els articles que publiques.
 
-1. Ves a **[codeberg.org](https://codeberg.org)** i fes clic a **«Register»** (a dalt a la dreta).
-2. Tria un **nom d'usuari**. Pot ser el que vulguis —el teu nom, el teu malnom fotogràfic, etc. Un cop triat no es pot canviar fàcilment, pensa-hi una mica.
+1. Ves a **[github.com/signup](https://github.com/signup)** i completa el formulari de registre.
+2. Tria un **nom d'usuari**. Pot ser el que vulguis: el teu nom, el teu malnom fotogràfic o una altra identificació clara. Un cop triat no es pot canviar fàcilment, pensa-hi una mica.
 3. Omple el **correu electrònic** i tria una **contrasenya** segura.
-4. Marca la casella «I agree to the Terms of Service» i fes clic a **«Register Account»**.
-5. Obre el correu que t'arribarà de Codeberg i fes clic a l'**enllaç de confirmació**.
-6. Ja tens el compte! Ara anota el teu **nom d'usuari** i continua al Pas 2.
+4. Completa la verificació que et demani GitHub.
+5. Obre el correu que t'arribarà de GitHub, si n'has rebut, i confirma l'adreça.
+6. Ja tens el compte. Anota el teu **nom d'usuari** i continua al Pas 2.
 
 ---
 
 ## Pas 2 — Envia'ns les teves dades
 
-Omple el formulari de sota amb el teu nom d'usuari de Codeberg i les teves dades. Ens servirà per activar-te l'accés i per tenir el teu perfil al web ben actualitzat.
+Omple el formulari de sota amb el teu nom d'usuari de GitHub i les teves dades. Ens servirà per convidar-te al repositori, activar-te l'accés i tenir el teu perfil al web ben actualitzat.
 
 <form class="contact-form" action="https://formsubmit.co/info@9barrisimatge.org" method="POST">
   <input type="hidden" name="_subject" value="Alta de membre — 9 Barris Imatge">
@@ -39,8 +39,8 @@ Omple el formulari de sota amb el teu nom d'usuari de Codeberg i les teves dades
   <label for="nom-artistic">Nom artístic o malnom (com vols que aparegui al web)</label>
   <input id="nom-artistic" type="text" name="nom_artistic" autocomplete="nickname" placeholder="Joan Linux, Ulls, Pedro Click… o deixa-ho en blanc si vols el nom real">
 
-  <label for="usuari-codeberg">Nom d'usuari de Codeberg <span aria-hidden="true">*</span></label>
-  <input id="usuari-codeberg" type="text" name="usuari_codeberg" required placeholder="el que has triat al Pas 1">
+  <label for="usuari-github">Nom d'usuari de GitHub <span aria-hidden="true">*</span></label>
+  <input id="usuari-github" type="text" name="usuari_github" required placeholder="el que has triat al Pas 1">
 
   <label for="email">Adreça electrònica <span aria-hidden="true">*</span></label>
   <input id="email" type="email" name="email" required autocomplete="email" placeholder="nom@exemple.cat">
@@ -71,6 +71,6 @@ Omple el formulari de sota amb el teu nom d'usuari de Codeberg i les teves dades
 
 ## Pas 3 — Espera la confirmació
 
-Un cop rebem el formulari, et donarem accés al **gestor de continguts** del web. T'enviarem un correu quan estigui llest.
+Un cop rebem el formulari, et donarem accés al **gestor de continguts** del web. T'enviarem un correu quan estigui llest; el correu explicarà com crear el teu token personal i accedir al gestor.
 
 Si tens cap dubte, escriu-nos a [info@9barrisimatge.org](mailto:info@9barrisimatge.org) o comenta-ho al grup.

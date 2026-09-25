@@ -3,7 +3,7 @@
 #
 # Nota (2026-09-24): backend "github" (GitHub). Producció ja és a github.com/112books/9bi.
 # Sveltia llegeix direccions amb l'arbre recursiu amb paginació i per problemes d'una carpeta
-# gran (3.006 posts + data/membres) això funciona a GitHub. Els camps "sortable_fields" i
+# gran (3.008 posts + data/membres) això funciona a GitHub. Els camps "sortable_fields" i
 # "thumbnail" estan adaptats al format d'Sveltia (compatible amb Static CMS).
 #
 # Entrada: des de la pantalla d'accés de l'admin pots usar:

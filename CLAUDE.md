@@ -34,13 +34,13 @@ Quan l'usuari demani «loop de tasques» o «seguim amb les tasques pendents»: 
 
 ## El projecte
 
-Lloc web estàtic de l'Associació fotogràfica 9 Barris Imatge (Barcelona), migrat de Blogger a Hugo + PaperMod, hostatjat a Codeberg Pages.
+Lloc web estàtic del **Col·lectiu 9 Barris Imatge** (Barcelona), migrat de Blogger a Hugo + PaperMod i publicat a GitHub Pages.
 
-## Estat real (verificat el 2026-09-17)
+## Estat real (verificat el 2026-09-25)
 
-- Repo local: branca `main`, primer commit `feb0ba8` pujat a **Codeberg `linuxbcn/9bi`** (SSH `ssh://git@codeberg.org/linuxbcn/9bi.git`).
-- **Forgejo Actions NO actives** al repo (`has_actions: false`): el workflow de deploy encara no s'ha executat; el lloc viu no existeix.
-- Web en desenvolupament: `https://linuxbcn.codeberg.page/9bi/` (Codeberg Pages de projecte). Quan el domini estigui connectat, revertir `baseURL` i el `site` del workflow a `9barrisimatge.org`.
+- Producció: `https://9barrisimatge.org/`, desplegada per `.github/workflows/deploy.yml` des del push a `main`.
+- Repositori de producció i CMS: **GitHub `112books/9bi`** (`main`). Publicació local: `git push github main`.
+- **Codeberg `linuxbcn/9bi`** es conserva com a backup amb historial; el push està bloquejat per quota i no participa en producció.
 - Tema PaperMod vendored a `themes/PaperMod/`.
 
 ## Comandes
@@ -49,34 +49,34 @@ Lloc web estàtic de l'Associació fotogràfica 9 Barris Imatge (Barcelona), mig
 - Build: `hugo --minify` → `public/`
 - Migració Blogger (requereix `.venv-migracio` amb `markdownify` + `pyyaml`):
   `source .venv-migracio/bin/activate && python3 scripts/migrate_blogger.py --input exports/blog-EXPORT.xml`
-- Més visitats: `python3 scripts/goatcounter_popular.py --days 30` (requereix `GOATCOUNTER_API_KEY`, usa `requests`)
+- Més visitats: `python3 scripts/goatcounter_popular.py --days 30` (requereix `GOATCOUNTER_API_KEY`, usa `urllib` de la biblioteca estàndard)
 
 ## Versions (verificades)
 
-- Hugo **0.164.0 extended** (fixada a `.forgejo/workflows/deploy.yml`)
-- Decap CMS **^3.0.0** (càrrega via unpkg a `static/admin/index.html`)
+- Hugo **0.164.0 extended** (fixada a `.github/workflows/deploy.yml`)
+- Sveltia CMS **0.217.0** (autoallotjat a `static/admin/sveltia-cms.js`)
 
 ## Configuració actual (`hugo.toml`)
 
-- `baseURL` **https://linuxbcn.codeberg.page/9bi/** (FASE DESENVOLUPAMENT; revertir a https://9barrisimatge.org/ quan el domini apunti al Codeberg) · title "9 Barris Imatge" · `locale ca` · `timeZone Europe/Madrid` · `enableRobotsTXT = true`
+- `baseURL` **https://9barrisimatge.org/** (producció; `config/production/hugo.toml`) · `config/staging/hugo.toml` apunta a Codeberg Pages i `config/development/hugo.toml` serveix el lloc local · title "9 Barris Imatge" · `locale ca` · `timeZone Europe/Madrid` · `enableRobotsTXT = true`
 - `uglyURLs = true` (preserva les URL `.html` de Blogger)
 - `[permalinks] posts = "/:year/:month/:slug"`
 - `[markup.goldmark.renderer] unsafe = true` i `[markup.goldmark.parser.attribute] block = true`
 - Taxonomies: `tag` → `tags`, `category` → `categories`, `author` → `author` · `paginate = 24`
 - `params`: `defaultTheme = "dark"`, description, ShowPostAuthors=true, ShowBreadCrumbs=false, ShowReadingTime=false, ShowShareButtons=false, ShowPostNavLinks=true, ShowCodeCopyButtons=true, ShowWordCount=false, comments=false; `homeInfoParams` (Title + Content)
-- `menu.main`: Inici(/), Arxiu(/archive/), Qui som(/qui-som/), El Concurs(/concurs/), **Cerca(/search/)**, Contacte(/contacte/) — **la Guia NO hi és** (és interna, s'accedeix des del CMS)
-- `menu.footer` (columnes «El web» del peu): **Arxiu 9bi**(/archive/), **Etiquetes / Tags**(/tags/), Més visitats(/mes-visitats/), **Estadístiques del web**(goatcounter), Cerca(/search/), RSS(/index.xml)
+- `menu.main`: Inici(/), Arxiu(/archive/), Qui som(/qui-som/), El Concurs(/concurs/), FAQ(/faq/), **Cerca(/search/)**, Contacte(/contacte/) — **la Guia NO hi és** al menú públic; és interna, es publica a `/guia/` amb `noindex` i s'accedeix des del chrome del CMS
+- `menu.footer` (columnes «El web» del peu): **Arxiu 9bi**(/archive/), **Etiquetes / Tags**(/tags/), Més visitats(/mes-visitats/), **Estadístiques del web**(/stats/), Cerca(/search/)
 
 ## Estructura de fitxers (verificada)
 
 ```
 content/
-├── posts/YYYY/                     # 3.006 posts migrats de Blogger, en subcarpetes per any (2008…2026); les URL no depenen del path (permalinks `/:year/:month/:slug` del front matter)
+├── posts/YYYY/                     # 3.008 posts actuals (3.006 migrats de Blogger + 2 articles nous), en subcarpetes per any (2008…2026); les URL no depenen del path (permalinks `/:year/:month/:slug` del front matter)
 ├── qui-som.md, concurs.md, contacte.md, privacitat.md, avis-legal.md, cookies.md, credits.md   # pàgines estàtiques (amb `url` explícita)
 ├── subvencions.md                 # pàgina filla de «Qui som» (`url: /qui-som/subvencions/`, amb alias de l'antic URL del post)
 ├── search.md (layout "search"), archive.md (layout "archives")
 ├── mes-visitats.md (layout "popular" + hiddenInRss: true)
-├── guia/                          # _index.md + 6 subpàgines — TOTES amb `draft: true`
+├── guia/                          # _index.md + 7 subpàgines — `robotsNoIndex`, `hiddenInRss` i `sitemap.disable`; accessibles al web, sense indexar i sense enllaçar des del menú públic
 └── documentacio/                  # interna (draft): actes/ (acta 2026-09-10) + concurs/
 layouts/
 ├── baseof.html                    # SOBREESCRIT: clau de caché del footer (condició de «números»)
@@ -92,16 +92,16 @@ layouts/
 └── _partials/
     ├── header.html                # SOBREESCRIT: icones de menú per .Identifier + JS .scrolled (sticky)
     ├── footer.html                # SOBREESCRIT: banda accent + 5 columnes (logo, buida, web, legal, números) + CC + count-up + reveal
-    ├── extend_head.html           # preload de fonts + GoatCounter → 9barrisimatge.goatcounter.com
+    ├── extend_head.html           # preload de fonts + GoatCounter → 9bi.goatcounter.com
     ├── extend_footer.html         # BUIT (el contingut del peu s'ha mogut a footer.html)
     └── extend_post_content.html   # botó "Veure tot l'àlbum de fotos" (si album_url)
 assets/css/extended/custom.css     # estils: mosaic, botó àlbum, tipografies (@font-face), peu (footer-band/-cols/-bottom), formulari, membres, footer-stats
-static/admin/{config.yml,index.html}  # Decap CMS
+static/admin/{config.yml,index.html,sveltia-cms.js}  # Sveltia CMS autoallotjat
 static/images/                     # imatges (media_folder del CMS)
 scripts/{migrate_blogger.py,migrate_live.py,goatcounter_popular.py}
 data/popular.json                    # top visites (exemple)
 data/membres/                        # un fitxer per membre (autor, nom, malnom, web, instagram, actiu)
-.forgejo/workflows/deploy.yml      # CI/CD
+.github/workflows/deploy.yml      # CI/CD de producció a GitHub Pages
 archetypes/default.md              # front matter per defecte
 sync-9bi.sh                        # script de sync/gestió
 ```
@@ -110,25 +110,22 @@ sync-9bi.sh                        # script de sync/gestió
 
 - **Posts**: `title`, `date` (ISO), `year` (any, afegit 2026-09-18 per al filtratge del CMS), `author`, `slug`, `tags` (llista), `cover.image` (opcional), `album_url` (opcional), `description` (opcional)
 - **Pàgines**: `title`, `description`, `url` (ruta final explícita)
-- **Guia i documentació**: `draft: true` (internes, només des del CMS; no surten a `public/`)
+- **Guia**: `robotsNoIndex: true` + `hiddenInRss: true` + `sitemap.disable: true`, publicada a `/guia/` i accessible només des de l'editor/CMS
+- **Documentació**: `draft: true` (interna; no surt a `public/`)
 - **search.md**: `layout: "search"` · **archive.md**: `layout: "archives"` · **mes-visitats.md**: `layout: "popular"` + `hiddenInRss: true`
 
-## Decap CMS (`static/admin/config.yml`)
+## Sveltia CMS (`static/admin/config.yml`)
 
-- Backend `forgejo`: repo `linuxbcn/9bi`, `branch main`, `api_root` https://codeberg.org/api/v1
-- `media_folder: static/images` · `public_folder: /images`
+- Backend `github`: repo `112books/9bi`, `branch main`; entrada actual amb PAT classic (`repo`) via «Sign In with Token»
+- `media_folder: static/images` · `public_folder: /images`; script de l'aplicació autoallotjat a `static/admin/sveltia-cms.js`
 - 23 col·leccions: 19 d'articles per any (`posts-2026`…`posts-2008`, una per subcarpeta `content/posts/YYYY/` amb `sortable_fields` per data desc; camps: title, date, year [hidden, default l'any], slug, author [select], cover.image, album_url, tags, description, body), més `guia`, `actes` (title, date, lloc, persones_reunides, convidat, ordre_del_dia, draft, body), `concurs` (title, tipo[select], date, draft, body) i `membres` (vegeu "Sessió 2026-09-18 (v6)"). La llista d'autors es reutilitza amb un ancoratge YAML (`x-autors: &autors`).
 
-## CI/CD (`.forgejo/workflows/deploy.yml`)
+## CI/CD (`.github/workflows/deploy.yml`)
 
 - Trigger: **push a `main`** + `workflow_dispatch`
-- Steps: checkout → Hugo 0.164.0 extended (`hugo --minify --environment staging`) → deploy a Codeberg Pages (`https://codeberg.org/git-pages/action@v2` amb `token: ${{ forge.token }}` i `server: codeberg.page`)
-- `site: https://linuxbcn.codeberg.page/9bi/` (FASE DESENVOLUPAMENT; revertir a https://9barrisimatge.org/ quan el domini apunti)
-- **PERÒ DIA 2026-09-17**: Codeberg ja NO ofereix l'antic pages server als usuaris nous i els runners gestionats no estan disponibles (`/actions/approval` → 404). El workflow queda en "Waiting for a runner". El desplegament real es fa **sense Actions**:
-  1. Build local: `hugo --minify --environment staging --destination /tmp/pages-deploy`
-  2. Push a la branca `pages`: `cd /tmp/pages-deploy && git init -q -b pages && git add -A && git commit -qm x && git push -f ssh://git@codeberg.org/linuxbcn/9bi.git HEAD:pages`
-  3. **Webhook configurat al repo** (Settings → Webhooks → Forgejo, Target `https://linuxbcn.codeberg.page/9bi/`, Branch filter `pages`) — és el que publica el lloc (sense ell, 400).
-- Nota: en el workflow hi ha un pas comentat per refrescar `data/popular.json` amb GoatCounter (secret `GOATCOUNTER_API_KEY`)
+- Steps: checkout → Hugo 0.164.0 extended → refresc opcional de GoatCounter → `hugo --minify --environment production` → configure/upload/deploy GitHub Pages
+- Producció: **https://9barrisimatge.org/**; el domini apunta als registres A de GitHub Pages i el TLS el provisiona GitHub
+- Publicació: `git push github main`; Codeberg `linuxbcn/9bi` queda com a backup i no participa en el desplegament de producció
 
 ## Sessió 2026-09-21 — Quota de Codeberg: diagnòstic, petició i deploy incremental
 
@@ -184,7 +181,7 @@ sync-9bi.sh                        # script de sync/gestió
 - **Després de canviar la DNS (propagació 5–60 min)**: GitHub emet el certificat TLS automàticament. Verificar amb les 3 comandes de la secció anterior (ara comparar Last-Modified = build de GitHub, no de Codeberg).
 - **Nota de disseny/estat de protecció del domini**: GitHub Pages no demana cap registre TXT extra per al dominio (els A records són la verificació). Si algún dia GitHub marca el dominia com a "protected domain" caldrà un TXT `_github-pages-challenge-...` (no necessari ara).
 - **Procediment publicar ara**: només cal `git push github main` → Actions construeix i publica sol. **Ja no s'usa `sync-9bi.sh deploy` per a producció** (queda com a eina per re-deployar Codeberg si calgués revertir el backup).
-- **GOATCOUNTER_API_KEY**: afegir-la a GitHub → `Settings → Secrets and variables → Actions` perquè `/stats/` es refresquí a cada deploy (ara el pas s'omet perquè no hi és).
+- **GOATCOUNTER_API_KEY**: afegida a GitHub → `Settings → Secrets and variables → Actions`; `/stats/` es refresca a cada deploy.
 
 ## Sessió 2026-09-25 — CMS a GitHub, concurs, «col·lectiu», audit de seguretat i cert TLS
 
@@ -203,12 +200,23 @@ sync-9bi.sh                        # script de sync/gestió
 - **Cert TLS de 9barrisimatge.org (RESOLT)**: GitHub no emetia el cert (12+ h, `*.github.io` amb SAN mismatch). Fix: **treure i tornar a posar el domini al panell** (Settings → Pages; «DNS Check in Progress») — el cert s'ha emès després (un sol cert amb SAN per apex i www, verificat). **Enforce HTTPS ACTIU (2026-09-25, via panell)**: https 200 · http→https 301 · www→apex 301 · API `https_enforced: true`. Nota: el re-PUT via API no va disparar el provisionament; el cicle del panell sí.
 - **Vídeos no indexats (Search Console) — diagnòstic**: els 122 vídeos «no està en una pàgina de visualització» són gairebé segur **dades del blog vell** (el web nou té ~1 embed de vídeo; verificat amb grep d'iframes). Congelat pendent de confirmar quina propietat de Search Console es mira. **Sitemap**: es regenera sol a cada deploy (verificat: Last-Modified fresc, robots.txt correcte) — només cal re-enviar-lo a Search Console si cal.
 
+## Sessió 2026-09-25 (v2) — documentació d' editors, missatge i sincronització
+
+- **Guia d' editors publicada sense indexar**: els 8 fitxers de `content/guia/` (`_index.md` + 7 pàgines) han passat de `draft: true` a `robotsNoIndex: true` + `hiddenInRss: true` + `sitemap.disable: true`. PaperMod genera `<meta name="robots" content="noindex, nofollow">` per a aquestes pàgines; `hiddenInRss` impedeix que les pàgines de la guia apareguin als feeds i `sitemap.disable` les exclou del sitemap. La guia continua fora del menú públic, però ja es pot obrir a `/guia/`.
+- **Guia actualitzada al backend real**: `content/guia/crear-compte.md` documenta GitHub + PAT classic (`repo`) + «Sign In with Token»; `content/guia/publicar-article.md` ja no parla de Codeberg. `content/incorpora-te.md` (formulari d'alta pública) també demana el nom d'usuari de GitHub. El chrome del CMS (`static/admin/index.html`) enllaça «Guia al web» a `../guia/`, a més de la col·lecció «Guia i manual» del CMS.
+- **Correu d'invitació redactat** a `drafts/emails-usuaris.md`: s'ha d'enviar individualment, sense cap token al missatge; l'editor crea el seu propi PAT. Inclou acceptació de la invitació, entrada al gestor, enllaç a la guia i advertiment de seguretat.
+- **Recompte real del repositori (2026-09-25)**: **3.008 posts** (`content/posts/`, 19 carpetes d'anys 2008–2026), **24 anys** de col·lectiu (2002–2026) i **24 fitxers de membre**. El peu del CMS encara mostra els números estàtics antics (3.006 / 24 / 12); el peu del web els calcula. GoatCounter retorna `total_unique: 0`, per tant el recompte d'usuaris únics no és utilitzable amb el dashboard actual.
+- **Sincronització segura, sense reset**: `main` local coincideix amb `github/main`; Codeberg `main` i `pages` estan endarrerits i el push hi continua bloquejat per quota. **No esborra ni GitHub ni Codeberg ni facis un repositori de zero**: GitHub Pages és producció i Codeberg és backup amb historial. El procediment correcte és commit → `git push github main` → verificar Actions i `/guia/`; Codeberg només es sincronitza si torna a haver quota.
+- **Tasques no implementades encara**:
+  - **Pàgina 404 catxonda amb cerca directa** (demanada el 2026-09-25): disseny, text i il·lustració pendents d'aprovació explícita; la funcionalitat mínima és poder cercar directament al web des de la 404.
+  - **Test real de votació pública**: l'usuari proporcionarà un fitxer `numero - títol - categoria` i farà un vot fictici des del telèfon. Abans del tancament cal comprovar la pàgina pública de votació, instruccions, avís legal i resultats finals quan la votació es tanca a la data i hora indicades.
+
 ## Problemes coneguts / pendents (verificats)
 
 1. **Quota de git de Codeberg superada** (≈756 MiB vs 750 MiB) → cap push a `origin` (ni `main` ni `pages`) des de 2026-09-24. **Mitigat per la migració a GitHub Pages**: producció ja no depèn de Codeberg. El repo de Codeberg queda com a **backup read-only** fins que (opcionalment) s'aprovï l'augment de quota a `Codeberg-e.V./requests` (issue #2522, tancada el 2026-09-23 amb GC del servidor sense augment; text de reobertura preparat però no enviat). (Vegeu `drafts/2026-09-21-quota-codeberg.md`.)
-2. **Forgejo Actions activades al repo** però **sense runner disponible** (Codeberg no dona els runners gestionats a usuaris nous: `/actions/approval` → 404). El deploy es fa manualment via branca `pages` + webhook; el workflow no s'ha executat. Idem: el workflow actual no és el canal; el desplegament de producció és `sync-9bi.sh deploy` (incremental, 2026-09-21).
-3. `static/admin/config.yml` amb el Client ID real de l'OAuth2 de Codeberg (`app_id: 0c6b6c51-…`) — **fet i desplegat (2026-09-18, commit `dd36e51e`)**. Pendent: **usuari i permisos** dels col·laboradors (es treuran a membres inactius perquè no editin).
-4. `extend_head.html` apunta a `9barrisimatge.goatcounter.com`: cal crear el lloc al GoatCounter.
+2. **Codeberg ja no participa en el desplegament de producció**: el workflow canònic és `.github/workflows/deploy.yml`; `sync-9bi.sh` i la branca `pages` només es conserven com a eines/backups antigues de Codeberg. No hi ha runner útil de Forgejo Actions.
+3. `static/admin/config.yml` ja usa el backend `github` (repo `112books/9bi`) i entrada amb PAT; queda pendent convidar els editors com a col·laboradors amb accés de **Write** i comprovar els permisos reals.
+4. GoatCounter està creat a `9bi.goatcounter.com` i el secret `GOATCOUNTER_API_KEY` refresca `/stats/` a cada deploy.
 
 ## Blog real (verificat el 2026-09-17)
 
@@ -515,20 +523,22 @@ sync-9bi.sh                        # script de sync/gestió
 
 > **Anotat 2026-09-24 — futures features no prioritàries:**
 > 6. **Cerca per autor a la pàgina de l'autor** (baixa prioritat): a `/author/<slug>.html`, afegir un camp de cerca que filtra només els posts d'aquell autor. Ha de quedar clar a l'usuari que la cerca és limitada a l'autor. Implementació probable: Pagefind amb filtre de metadades per autor, o un camp `<input>` amb JS que filtra el llistat actual.
-> 7. **/stats — indicar clarament des de quan es recullen les estadístiques** i el **total que teníem a Blogger** fins al canvi de Blogger a Taro Photo App.
+> 7. **/stats — indicar clarament des de quan es recullen les estadístiques** i el **total que teníem a Blogger** fins al canvi de Blogger a Taro Photo App. **FET el 2026-09-25.**
+> 8. **Pàgina 404 catxonda amb cerca directa**: implementar només després d'aprovar explícitament el text, la il·lustració i l'estil. La funcionalitat mínima és oferir una cerca directa al web des de la pàgina d'error.
+> 9. **Test real de votació pública**: l'usuari proporcionarà `numero - títol - categoria` i farà un vot des del telèfon. Cal verificar la pàgina de vot, les instruccions, l'avís legal i els resultats finals quan la votació es tanqui a la data i hora indicades.
 
 - **Pàgina de Crèdits (`content/credits.md`) — FET (2026-09-21)**: títol «Crèdits d'aquest projecte»; secció «Desenvolupament» reescrita (LinuxBCN a partir de la necessitat vista per **Joan Linux**, membre de 9 Barris Imatge: fer en programari lliure el que es portava a Blogger amb les seves limitacions — publicar àlbums per a perfils poc tècnics, dependència i poca flexibilitat de Blogger —; enllaç al repo `linuxbcn/9bi`); secció nova **«L'aplicació Taro»** (programari lliure per a associacions fotogràfiques: gestió i exhibició de fotografies; versió definitiva a LinuxBCN.com, ara en fase beta, suggeriments benvinguts especialment dels membres de 9bi); Python actualitzat a «les aplicacions dels mòduls de Taro (formularis, votació, autopublicació)»; **blog → web** a les FAQ («Puc fer servir les fotografies del web?», «En webs, xarxes…»).
 - **Logo Taro al peu — FET (2026-09-21)**: fons blanc arrodonit (`<rect rx="230">`) dins `taro-logo-text.svg` (arrel + `assets/images/`) perquè es vegi en tema fosc (la flor és negra); el text «Taro» ja porta contorn negre (stroke) que l'aguanta sobre el blanc. `layouts/_partials/footer.html`: `a.taro-mark` amb el logo 69×70 + `<span class="taro-app-name">Photo App</span>` a sota. `custom.css`: flex columna, alineat esquerra, font «Helvetica Neue», color `var(--primary)` (fosc en clar / clar en fosc).
 - **Formulari (`content/contacte.md`)**: **fet (2026-09-19)** — camp nou `entitat` ("A quina entitat de Nou Barris pertanys o representes (opcionalment)", input opcional, patró `assumpte`), entre `assumpte` i `missatge`.
 - **Membres (`layouts/_shortcodes/membres.html`)**: **fet (2026-09-19)** — els membres sense `web` enllacen a «Posts al blog» (`/author/<slug>.html`) en lloc de «—».
-- **`content/privacitat.md`**: **fet (2026-09-18)** — adreça real (Casal de Barri de Prosperitat) i **sense NIF** (l'associació no en té); sense placeholders. (El correu ja hi és: info@9barrisimatge.org.)
-- **Peu / legal**: peu de **5 columnes** fet (logo · buida · «El web» · «Legal» · «9 Barris en números»). `avis-legal.md` i `privacitat.md` fets (2026-09-18). Pendent: contingut real d'`cookies.md` i la resta d'adequació RGPD.
-- **Auditoria de seguretat** (encarregada 2026-09-17, pendent).
+- **`content/privacitat.md`**: **fet (2026-09-18)** — adreça real (Casal de Barri de Prosperitat) i **sense NIF** (el col·lectiu no en té); sense placeholders. (El correu ja hi és: info@9barrisimatge.org.)
+- **Peu / legal**: peu de **5 columnes** fet (logo · buida · «El web» · «Legal» · «9 Barris en números»). `avis-legal.md`, `privacitat.md` i `cookies.md` tenen contingut publicat. Pendent: revisió jurídica final de la resta d'adequació RGPD.
+- **Auditoria de seguretat**: **fet (2026-09-25)**; informe a `~/Desktop/cyber-neo-report-9arrisimatge.org-2026-09-25.md`, quick wins i correccions de la votació aplicats. Queden pendents els SHA-pin de CI/CD, la sortida de credencials de `deploy.sh`, 11 fitxers `.dl-*` i revisar `modules/taro/.gitignore`.
 - **Enllaços d'àlbums trencats (Picasa Web → Google Photos)** (proposada 2026-09-18): quan Google va capturar/tanar Picasa Web, van quedar **llocs a enllaços d'àlbums morts a molts posts**. El camp `album_url` (extret per `migrate_live.py` del primer enllaç al voltant de la imatge) apunta a rels URLs de Picasa. Tasca fosca: **detectar quins `album_url` (i enllaços de Google Photos/Picasa dins dels posts) no funcionen** i **refer-los** o bé apuntar-los a l'àlbum equivalent de Google Photos si s'ha reconstruit. Nota de l'usuari: ell (Joan "Linux") va fixar els seus a mà, però **la resta d'autors no ho van fer** → cal revisar per autor. Estratègia proposada: revisar `content/posts/` per patrons `<a href="https://picasaweb.google.com/…">` (i variants) i valorar-ne la resposta HTTP, després decidir com refer-los (buscar a Google Photos pel títol/àlbum, o eliminar l'enllaç si no es recupera). Pot anar lligat al pipeline de votació/àlbums del Concurs.
 - **Auditoria d'accessibilitat** (encarregada 2026-09-17, pendent).
 - **Auditoria de SEO i IA** (encarregada 2026-09-18): deixar el web **ben preparat per a motors de cerca i agents d'IA** (metadades, dades estructurades, sitemap/robots, OpenGraph, etc.).
 - **Document d'URLs de Blogger (SEO/redireccions)** (encarregat 2026-09-18): recull de **totes les URL actuals del blog Blogger** per comprovar que coincideixen amb les entrades actuals del web (l'estructura `/:year/:month/:slug.html` + `uglyURLs = true` ho preserva) o fer una **redirecció a la nova URL** — tema cercadors i SEO.
-- **`content/qui-som.md`** (secció «Membres»): **implementat**. Shortcode `{{< membres >}}` itera `data/membres/` (23 fitxers: 12 actius + 11 veterans + Cordoncillo). Pendent: completar els **Instagram** que falten i treure l'accés d'escriptura a Codeberg als membres inactius.
+- **`content/qui-som.md`** (secció «Membres»): **implementat**. Shortcode `{{< membres >}}` itera `data/membres/` (24 fitxers: 12 actius + 11 veterans + Cordoncillo). Pendent: completar els **Instagram** que falten i no donar accés d'escriptura als membres inactius.
 - **Comentaris al web**: implementar un sistema de comentaris amb **fort control d'spam** (pendent d'escollir la solució/proveïdor).
 - **Compartir a xarxes**: botons per compartir fàcilment a **Instagram** i les xarxes que es portin ara (pendent).
 - **Tipografies**: **implementat (2026-09-18)** — cos **Montserrat** (woff2 400/700/800) + títols **Gillius ADF** (OTF 400/700), autoallotjades a `static/fonts/`, `@font-face` i overrides a `custom.css` (urls `../../fonts/…`) i `preload` a `extend_head.html`. **Sense cap CDN** (RGPD). Pendent opcional: convertir els OTF de Gillius a woff2.
@@ -543,7 +553,7 @@ sync-9bi.sh                        # script de sync/gestió
 
 ## Infraestructura i comunicació (pendent)
 
-- **Butlletí**: cal tenir un butlletí (newsletter) per a l'associació.
+- **Butlletí**: cal tenir un butlletí (newsletter) per al col·lectiu.
 - **DNS i correu**: repensar què fer amb els DNS; es vol **correu gratuït i lliure per a cada membre** i un de **genèric** de l'entitat.
 - **Grup de correu**: llista/grup per enviar un correu a tots els membres.
 - **Telegram**: grup **privat** i **públic** (aquest darrer unidireccional, on s'envien els posts quan es publiquen). **Tasca (2026-09-18)**: muntar un **bot** (token de @BotFather), afegir-lo al grup, obtenir el `chat_id` i crear `scripts/telegram.py` que enviï missatges llegint `TELEGRAM_BOT_TOKEN` i `TELEGRAM_CHAT_ID` de l'entorn (mai al repo).
@@ -551,23 +561,23 @@ sync-9bi.sh                        # script de sync/gestió
 
 ## Properes sessions
 
-- **Muntar el CMS**: OAuth2 de Codeberg **fet** (Client ID `0c6b6c51-…`, desplegat). **Articles per anys fet (v7/v8)**: camp `year`, primer com a col·leccions filtrades i, en veure que filtraven llistant tot igualment, **posts movent-se a subcarpetes físiques per any** (carpeta per any al config, `sortable_fields` desc) + **rail propi** substituint la sidebar de Decap. **Chrome del CMS fet (v7)**: header amb logo + «9 Barris Imatge - Gestor de continguts» + enllaços a la Guia, footer del web replicat. Pendent: **usuaris i permisos** dels col·laboradors (membres actius amb escriptura; inactius sense) i la resta de demandes del llistat (miniatures, títols en majúscules, normalitzar títols...).
+- **Muntar el CMS**: backend GitHub + entrada amb PAT **fets**. **Articles per anys fet (v7/v8)**: camp `year`, col·leccions en subcarpetes físiques per any (`sortable_fields` desc) + rail propi. **Chrome del CMS fet**: capçalera i peu propis, enllaç a la guia editable i enllaç a la guia pública. Pendent: **convidar editors com a col·laboradors amb Write** i comprovar permisos reals; els membres inactius no reben accés. Queden pendents les altres demandes del llistat (miniatures, normalització de títols en majúscules, etc.).
 - **Control de fitxers del Concurs Cordoncillo** (bases, històric, etc.).
-- **Secció per fer i gestionar les reunions** de l'associació.
+- **Secció per fer i gestionar les reunions** del col·lectiu.
 
 ## Decisions pendents per a la migració real (2026-09-17)
 
 - **Etiquetes**: al blog original són molt incompletes (moltes entrades sense tag o amb tags inconsistents). No fer còpia cega amb `migrate_blogger.py` — caldrà revisar/curar les etiquetes, no assumir que el que hi ha al Blogger és la taxonomia final.
-- **Autors**: **439/473 resolts (2026-09-20)**. 34 posts irresolubles (comptes eliminats) queden com «9 Barris Imatge» — documentats a `drafts/autors-no-resolts.md`. El CMS ja té tots els autors al select (24 opcions). Pendent: crear comptes Codeberg per als membres actuals.
+- **Autors**: **439/473 resolts (2026-09-20)**. 34 posts irresolubles (comptes eliminats) queden com «9 Barris Imatge» — documentats a `drafts/autors-no-resolts.md`. El CMS ja té tots els autors al select (24 opcions). Pendent: crear comptes GitHub i convidar els editors actius com a col·laboradors amb Write.
 
 ## El que encara no existeix (per no assumir)
 
-- Migració de Blogger: **feta** (3.006/3.006 posts a `content/posts/`). Pendent: curar etiquetes i autors. No cal l'export XML oficial: `scripts/migrate_live.py` llegeix el feed Atom en directe.
-- ~~OAuth2 Application creada ni Client ID.~~ **FET (2026-09-18)** — Client ID `0c6b6c51-…` desplegat.
+- Migració de Blogger: **feta** (3.006/3.006 posts migrats; 3.008 fitxers actuals després dels articles nous). No cal l'export XML oficial: `scripts/migrate_live.py` llegeix el feed Atom en directe.
+- ~~OAuth2 de Codeberg~~ **obsolet**: el CMS actual usa el backend GitHub i PAT classic; l'OAuth App de GitHub continua sent opcional.
 - ~~Pàgina de privacitat amb placeholders.~~ **FET (2026-09-18)** — adreça real, sense placeholders.
-- Lloc GoatCounter creat ni API key.
+- ~~Lloc GoatCounter i API key.~~ **FET (2026-09-25)** — `9bi.goatcounter.com`; secret disponible a GitHub Actions.
 - Confirmació que `info@9barrisimatge.org` rep correus (FormSubmit).
-- DNS / CNAME cap a Codeberg Pages (el lloc de producció serà 9barrisimatge.org).
-- Contingut real d'`cookies.md` i la resta d'adequació RGPD.
+- ~~DNS cap a Codeberg Pages.~~ **FET** — producció a GitHub Pages; Codeberg és només backup.
+- ~~Contingut real de `cookies.md`.~~ **FET** — política publicada; pendent només la revisió jurídica final de la resta d'adequació RGPD.
 - Configuració SEO/IA per a tot el web (metadades, dades estructurades, etc.).
 - Suport Python/Passenger al panell de Dinahosting sense confirmar (per al desplegament de `modules/votacio/`).

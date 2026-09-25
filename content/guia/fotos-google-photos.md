@@ -1,7 +1,10 @@
 ---
 title: "Publicar fotos amb Google Photos"
 description: "Pas a pas: comparteix un àlbum de Google Photos al bloc"
-draft: true
+robotsNoIndex: true
+hiddenInRss: true
+sitemap:
+  disable: true
 ---
 
 Si les teves fotos estan a **Google Photos**, segueix aquests passos per publicar-les al bloc.
