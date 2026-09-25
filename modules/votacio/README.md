@@ -48,6 +48,11 @@ tools/audit.py       # verifica signatura HMAC i duplicats
 4. Servidor de prova: `python3 app.py 8010` → http://127.0.0.1:8010
 5. Producció (Dinahosting/cPanel amb Passenger): apunta el teu domini al
    directori del mòdul; `passenger_wsgi.py` s'hi carrega sol.
+6. També es pot instal·lar en una **subcarpeta** del domini
+   (`www/app/taro/votacio/`). Passenger posa `SCRIPT_NAME` amb el prefix i
+   l'aplicació construeix tots els enllaços a partir d'ell (`/v/…`,
+   `/admin/…`, redireccions i galeta del dispositiu), de manera que les rutes
+   funcionen igual a l'arrel del domini o sota el prefix.
 
 La BD (SQLite) es crea al camí de `[db]`. Fes còpies de seguretat periòdiques.
 
