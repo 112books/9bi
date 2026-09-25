@@ -242,9 +242,10 @@ def edition_open(cfg, row):
 _rate = {}
 
 
-def rate_limited(environ, cfg):
-    limit = cfg.getint("general", "rate_limit", fallback=40)
-    ip = environ.get("REMOTE_ADDR", "?")
+def rate_limited(environ, cfg, limit=None, bucket=""):
+    if limit is None:
+        limit = cfg.getint("general", "rate_limit", fallback=40)
+    ip = bucket + environ.get("REMOTE_ADDR", "?")
     now = time.time()
     arr = _rate.setdefault(ip, [])
     arr = [t for t in arr if now - t < 60]
@@ -253,6 +254,24 @@ def rate_limited(environ, cfg):
         return True
     arr.append(now)
     return False
+
+
+# ---------------------------------------------------------------- body
+
+MAX_BODY = 64 * 1024
+
+
+def read_body(environ):
+    """Llegeix el cos de la petició amb un cap de mida (None = massa gran)."""
+    try:
+        n = int(environ.get("CONTENT_LENGTH", 0) or 0)
+    except ValueError:
+        n = 0
+    if n <= 0:
+        return b""
+    if n > MAX_BODY:
+        return None
+    return environ["wsgi.input"].read(n)
 
 
 # ---------------------------------------------------------------- app ui
@@ -281,9 +300,6 @@ def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js,
             w["numero"],
             html.escape(w["titol"] or "Obra %d" % w["numero"]))
         for w in works)
-    geo_js_block = ""
-    if include_geo and geo_js:
-        geo_js_block = geo_js
     extra = ""
     if conditions:
         extra += "<div class=\"conditions\">%s</div>" % conditions
@@ -297,13 +313,13 @@ def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js,
         "<select id=\"obra\" name=\"obra\" required>%s</select><br><br>"
         "<input type=\"hidden\" name=\"geo\" id=\"geo\" value=\"none\">"
         "<button type=\"submit\">%s</button>"
-        "</form>%s"
+        "</form>"
         "<script>%s</script>")
     return form % (
         html.escape(ed["nom"]), i18n.get("vote_intro", ""), extra,
         h_radix(vot_token), html.escape(csrf),
         i18n.get("select_prompt", "Obra"), options,
-        i18n.get("btn_vote", "Vota"), geo_js_block, geo_js)
+        i18n.get("btn_vote", "Vota"), geo_js)
 
 
 GEO_JS = """
@@ -379,7 +395,7 @@ def get_device_id(environ, cfg):
 def set_device_cookie(cfg, device_id):
     name = cfg.get("general", "cookie_name", fallback="vid")
     maxage = 60 * 60 * 24 * 30
-    secure = "; Secure" if cfg.getboolean("general", "ssl", fallback=False) else ""
+    secure = "; Secure" if cfg.getboolean("general", "ssl", fallback=True) else ""
     return ("Set-Cookie", "%s=%s; Path=/; HttpOnly; SameSite=Lax; Max-Age=%d%s"
             % (name, device_id, maxage, secure))
 
@@ -408,7 +424,10 @@ def submit_vote(environ, start_response, token):
             return respond(environ, start_response, "400 Bad Request",
                            page_html(i18n.get("msg_edition_inactive", ""),
                                      "<p>%s</p>" % html.escape(i18n.get("msg_edition_inactive", "")), lang))
-        body = environ["wsgi.input"].read(environ.get("CONTENT_LENGTH", 0) and int(environ.get("CONTENT_LENGTH", 0)) or 0)
+        body = read_body(environ)
+        if body is None:
+            return respond(environ, start_response, "413 Payload Too Large", "413",
+                           content_type="text/plain")
         fields = urllib.parse.parse_qs(body.decode("utf-8", "replace"))
         obra_s = fields.get("obra", [""])[0]
         csrf_s = fields.get("csrft", [""])[0]
@@ -473,13 +492,37 @@ def submit_vote(environ, start_response, token):
 
 # -------------------------------------------------------------- admin
 
+ADMIN_SESSION_TTL = 60 * 60 * 4  # 4 h (també validat server-side)
+
+
+def make_admin_session(cfg):
+    """Cookie de sessió: HMAC(key, ("admin", ts)) + timestamp, amb caducitat server-side."""
+    ts = int(time.time())
+    sig = hmac_sig(admin_key(cfg), ("admin", ts))
+    return "%s:%d" % (sig, ts)
+
+
+def admin_session_valid(cfg, value):
+    if not value or ":" not in value:
+        return False
+    sig, _, ts_s = value.rpartition(":")
+    try:
+        ts = int(ts_s)
+    except ValueError:
+        return False
+    expect = hmac_sig(admin_key(cfg), ("admin", ts))
+    if not hmac.compare_digest(sig, expect):
+        return False
+    return 0 <= time.time() - ts <= ADMIN_SESSION_TTL
+
+
+def admin_csrf_token(cfg, session_value):
+    return hmac_sig(admin_key(cfg), ("admin-csrf", session_value))
+
+
 def admin_ok(environ, cfg):
     cookies = parse_cookies(environ.get("HTTP_COOKIE", ""))
-    adm = cookies.get("admin")
-    if not adm:
-        return False
-    expect = hmac_sig(admin_key(cfg), ("admin",))
-    return hmac.compare_digest(adm, expect)
+    return admin_session_valid(cfg, cookies.get("admin", ""))
 
 
 def admin_login_form(lang):
@@ -543,6 +586,16 @@ def admin_handle(environ, start_response, sub=""):
             body += "</table><p><a href=\"/admin/\">↩</a></p>"
             return respond(environ, start_response, "200 OK", page_html("admin", body, lang))
         if sub == "tancar" and environ.get("REQUEST_METHOD") == "POST":
+            cookies = parse_cookies(environ.get("HTTP_COOKIE", ""))
+            body = read_body(environ)
+            if body is None:
+                return respond(environ, start_response, "413 Payload Too Large", "413",
+                               content_type="text/plain")
+            fields = urllib.parse.parse_qs(body.decode("utf-8", "replace"))
+            if not hmac.compare_digest(fields.get("csrft", [""])[0],
+                                       admin_csrf_token(cfg, cookies.get("admin", ""))):
+                return respond(environ, start_response, "403 Forbidden",
+                               page_html("403", "<p>403</p>", lang))
             conn.execute("UPDATE edicions SET tancada=1, tancada_a=datetime('now')")
             conn.commit()
             body = "<p>%s</p><p><a href=\"/admin/\">↩</a></p>" % html.escape(
@@ -572,12 +625,15 @@ def admin_handle(environ, start_response, sub=""):
             "<a href=\"/admin/visites\">%s</a> · "
             "<a href=\"/admin/export\">%s (CSV)</a></p>"
             "<form method=\"post\" action=\"/admin/tancar\">"
+            "<input type=\"hidden\" name=\"csrft\" value=\"%s\">"
             "<button type=\"submit\" onclick=\"return confirm('%s')\">%s</button></form>"
             "<p><a href=\"/admin/logout\">%s</a></p>"
             % (html.escape(i18n.get("admin_dashboard", "Admin")),
                html.escape(i18n.get("admin_stat", "Recompte en viu")),
                html.escape(i18n.get("admin_visits_title", "Visites via QR")),
                html.escape(i18n.get("btn_export", "Exporta")),
+               html.escape(admin_csrf_token(cfg, parse_cookies(
+                   environ.get("HTTP_COOKIE", "")).get("admin", ""))),
                html.escape(i18n.get("close_confirm", "Segur que vols tancar la votació?")),
                html.escape(i18n.get("btn_close", "Tanca la votació")),
                html.escape(i18n.get("btn_logout", "Surt"))))
@@ -591,12 +647,19 @@ def admin_login(environ, start_response):
     lang = pick_lang(environ)
     i18n = get_i18n(lang)
     if environ.get("REQUEST_METHOD") == "POST":
-        body = environ["wsgi.input"].read(environ.get("CONTENT_LENGTH", 0) and int(environ.get("CONTENT_LENGTH", 0)) or 0)
+        if rate_limited(environ, cfg, limit=10, bucket="admin:"):
+            return respond(environ, start_response, "429 Too Many Requests",
+                           page_html(i18n.get("msg_rate_limited", ""),
+                                     "<p>%s</p>" % html.escape(i18n.get("msg_rate_limited", "")), lang))
+        body = read_body(environ)
+        if body is None:
+            return respond(environ, start_response, "413 Payload Too Large", "413",
+                           content_type="text/plain")
         fields = urllib.parse.parse_qs(body.decode("utf-8", "replace"))
         if hmac.compare_digest(fields.get("pass", [""])[0], admin_key(cfg)):
-            tok = hmac_sig(admin_key(cfg), ("admin",))
-            exp = 60 * 60 * 4
-            secure = "; Secure" if cfg.getboolean("general", "ssl", fallback=False) else ""
+            tok = make_admin_session(cfg)
+            exp = ADMIN_SESSION_TTL
+            secure = "; Secure" if cfg.getboolean("general", "ssl", fallback=True) else ""
             return respond(environ, start_response, "302 Found", "",
                            extra_headers=[
                                ("Location", "/admin/"),
