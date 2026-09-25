@@ -14,38 +14,60 @@
   </a>
   <button class="avis-concurs-close" type="button" aria-label="Tanca l'avís del concurs">&times;</button>
 </div>
+<button class="avis-concurs-tab" id="avis-concurs-tab" type="button" aria-label="Mostra l'avís del concurs fotogràfic" hidden>
+  {{- with $logo }}
+  <img class="avis-concurs-tab-logo" src="{{ .RelPermalink }}" width="138" height="229" alt="" loading="lazy" decoding="async">
+  {{- end }}
+  <span class="avis-concurs-tab-label">Concurs</span>
+</button>
 <script>
   (function () {
     var box = document.getElementById("avis-concurs");
-    if (!box) return;
+    var tab = document.getElementById("avis-concurs-tab");
+    if (!box || !tab) return;
     var key = "9bi:avis-concurs";
     var seen = false;
     try { seen = sessionStorage.getItem(key) === "1"; } catch (e) {}
     if (seen) return;
     try { sessionStorage.setItem(key, "1"); } catch (e) {}
     var timer = null;
-    var close = function () {
+    var delay = 300;
+    var disarm = function () {
       if (timer) { window.clearTimeout(timer); timer = null; }
-      box.classList.add("is-closed");
+    };
+    var close = function () {
+      disarm();
+      box.classList.remove("is-open");
+      box.classList.add("is-out");
+      window.setTimeout(function () {
+        box.hidden = true;
+        box.classList.remove("is-out");
+        tab.hidden = false;
+        requestAnimationFrame(function () { tab.classList.add("is-open"); });
+      }, delay);
     };
     var arm = function () {
-      if (timer) { window.clearTimeout(timer); timer = null; }
+      disarm();
       timer = window.setTimeout(close, 5000);
+    };
+    var show = function () {
+      box.hidden = false;
+      requestAnimationFrame(function () { box.classList.add("is-open"); });
+      arm();
     };
     box.querySelector(".avis-concurs-close").addEventListener("click", function (e) {
       e.preventDefault();
       e.stopPropagation();
       close();
     });
-    box.addEventListener("mouseenter", function () {
-      if (timer) { window.clearTimeout(timer); timer = null; }
-    });
+    box.addEventListener("mouseenter", disarm);
     box.addEventListener("mouseleave", arm);
-    window.setTimeout(function () {
-      box.hidden = false;
-      requestAnimationFrame(function () { box.classList.add("is-open"); });
-      arm();
-    }, 1200);
+    tab.addEventListener("click", function () {
+      tab.classList.remove("is-open");
+      window.setTimeout(function () { tab.hidden = true; }, delay);
+      show();
+    });
+    window.setTimeout(show, 1200);
   })();
 </script>
 {{- end -}}

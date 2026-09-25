@@ -727,18 +727,18 @@ h1, h2, h3, h4, h5, h6 {
   bottom: max(1rem, env(safe-area-inset-bottom));
   z-index: 100;
   width: min(560px, calc(100vw - 1.6rem));
-  transform: translate(-50%, 150%);
+  transform: translate(calc(-50% - 105vw), 0);
   opacity: 0;
   visibility: hidden;
-  transition: transform 0.3s ease, opacity 0.3s ease, visibility 0.3s;
+  transition: transform 0.35s ease, opacity 0.35s ease, visibility 0.35s;
 }
 .avis-concurs.is-open {
   transform: translate(-50%, 0);
   opacity: 1;
   visibility: visible;
 }
-.avis-concurs.is-closed {
-  transform: translate(-50%, 150%);
+.avis-concurs.is-out {
+  transform: translate(calc(-50% + 105vw), 0);
   opacity: 0;
   visibility: hidden;
 }
@@ -756,7 +756,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .avis-concurs-logo {
   flex: none;
-  width: 46px;
+  width: 56px;
   height: auto;
 }
 .avis-concurs-text {
@@ -809,13 +809,47 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--primary);
   background: var(--tertiary);
 }
+.avis-concurs-tab {
+  position: fixed;
+  left: 0;
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 0.9rem;
+  border: 1px solid var(--border);
+  border-left: 4px solid #e03131;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  background: var(--entry);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transform: translateX(-110%);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.avis-concurs-tab.is-open {
+  transform: translateX(0);
+  opacity: 1;
+}
+.avis-concurs-tab:hover {
+  color: #e03131;
+}
+.avis-concurs-tab-logo {
+  flex: none;
+  width: 24px;
+  height: auto;
+}
 @media (max-width: 480px) {
   .avis-concurs-body {
     gap: 0.75rem;
     padding: 0.75rem 2.4rem 0.75rem 0.8rem;
   }
   .avis-concurs-logo {
-    width: 34px;
+    width: 41px;
   }
   .avis-concurs-title {
     font-size: 1rem;
@@ -823,14 +857,27 @@ h1, h2, h3, h4, h5, h6 {
   .avis-concurs-dates {
     font-size: 0.82rem;
   }
+  .avis-concurs-tab {
+    gap: 0.4rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.85rem;
+  }
+  .avis-concurs-tab-logo {
+    width: 20px;
+  }
 }
 @media (prefers-reduced-motion: reduce) {
   .avis-concurs {
     transition: opacity 0.2s linear, visibility 0.2s;
     transform: translate(-50%, 0);
   }
-  .avis-concurs.is-closed {
+  .avis-concurs.is-out {
     transform: translate(-50%, 0);
+  }
+  .avis-concurs-tab,
+  .avis-concurs-tab.is-open {
+    transform: none;
+    transition: opacity 0.2s linear;
   }
 }
 
