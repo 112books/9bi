@@ -1,0 +1,21 @@
+{{- /* Schema FAQPage: només a la pàgina /faq/, extret de les preguntes H3 del mateix document */ -}}
+{{- if eq .RelPermalink "/faq/" -}}
+{{- $chunks := split .RawContent "### " -}}
+{{- $items := slice -}}
+{{- range $i, $chunk := $chunks -}}
+{{- if gt $i 0 -}}
+{{- $lines := split (trim $chunk "\n") "\n" -}}
+{{- if gt (len $lines) 1 -}}
+{{- $q := trim (index $lines 0) " " -}}
+{{- $a := trim (replaceRE `\s+` " " (delimit (after 1 $lines) " ")) " " -}}
+{{- $a = replaceRE `\[([^\]]*)\]\([^)]*\)` "$1" $a -}}
+{{- $a = trim (replaceRE `\*` "" $a) " " -}}
+{{- $items = $items | append (dict "@type" "Question" "name" $q "acceptedAnswer" (dict "@type" "Answer" "text" $a)) -}}
+{{- end -}}
+{{- end -}}
+{{- end -}}
+{{- if gt (len $items) 0 -}}
+{{- $schema := dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $items -}}
+<script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
+{{- end -}}
+{{- end -}}
