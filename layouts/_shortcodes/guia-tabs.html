@@ -1,23 +1,55 @@
 {{- $cur := .Page -}}
-{{- $tabs := slice
+{{- $primary := slice
   (dict "label" "Guia" "path" "/guia")
   (dict "label" "Crear compte" "path" "/guia/crear-compte")
-  (dict "label" "Publicar article" "path" "/guia/publicar-article")
-  (dict "label" "Google Photos" "path" "/guia/fotos-google-photos")
-  (dict "label" "Flickr" "path" "/guia/fotos-flickr")
-  (dict "label" "Amazon Photos" "path" "/guia/fotos-amazon-photos")
-  (dict "label" "Apple Fotos" "path" "/guia/fotos-apple-photos")
+  (dict "label" "Publicar una entrada" "path" "/guia/publicar-article" "group" "publicar")
   (dict "label" "Recuperar àlbums" "path" "/guia/recuperar-enllacos-d-albums")
 -}}
+{{- $secondary := slice
+  (dict "label" "Google Photos" "path" "/guia/fotos-google-photos" "group" "publicar")
+  (dict "label" "Flickr" "path" "/guia/fotos-flickr" "group" "publicar")
+  (dict "label" "Amazon Photos" "path" "/guia/fotos-amazon-photos" "group" "publicar")
+  (dict "label" "Apple Fotos" "path" "/guia/fotos-apple-photos" "group" "publicar")
+-}}
+{{- $curGroup := "" -}}
+{{- range $secondary -}}
+  {{- $p := site.GetPage .path -}}
+  {{- if and $p (eq $cur.Permalink $p.Permalink) -}}
+    {{- $curGroup = .group -}}
+  {{- end -}}
+{{- end -}}
 <nav class="guide-tabs" aria-label="Guia per publicar a 9bi">
-  {{- range $tabs }}
+  {{- range $primary }}
     {{- $p := site.GetPage .path }}
     {{- $url := .path }}
     {{- $active := false }}
+    {{- $here := false }}
     {{- if $p }}
       {{- $url = $p.RelPermalink | strings.TrimSuffix "index.html" }}
-      {{- $active = eq $cur.Permalink $p.Permalink }}
+      {{- $here = eq $cur.Permalink $p.Permalink }}
+      {{- $active = or $here (and (ne .group "") (eq .group $curGroup)) }}
     {{- end }}
-    <a class="guide-tab{{ if $active }} active{{ end }}"{{ if $active }} aria-current="page"{{ end }} href="{{ $url }}">{{ .label }}</a>
+    <a class="guide-tab{{ if $active }} active{{ end }}"{{ if $here }} aria-current="page"{{ end }} href="{{ $url }}">{{ .label }}</a>
   {{- end }}
 </nav>
+{{- $showSub := eq $curGroup "publicar" -}}
+{{- if not $showSub -}}
+  {{- $p := site.GetPage "/guia/publicar-article" -}}
+  {{- if and $p (eq $cur.Permalink $p.Permalink) -}}
+    {{- $showSub = true -}}
+  {{- end -}}
+{{- end -}}
+{{- if $showSub }}
+<nav class="guide-tabs guide-tabs-sub" aria-label="Plataformes d'àlbums">
+  {{- range $secondary }}
+    {{- $p := site.GetPage .path }}
+    {{- $url := .path }}
+    {{- $here := false }}
+    {{- if $p }}
+      {{- $url = $p.RelPermalink | strings.TrimSuffix "index.html" }}
+      {{- $here = eq $cur.Permalink $p.Permalink }}
+    {{- end }}
+    <a class="guide-tab guide-tab-sub{{ if $here }} active{{ end }}"{{ if $here }} aria-current="page"{{ end }} href="{{ $url }}">{{ .label }}</a>
+  {{- end }}
+</nav>
+{{- end }}

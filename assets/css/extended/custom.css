@@ -707,6 +707,17 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #e03131;
   color: #fff;
 }
+.guide-tabs-sub {
+  margin-top: -0.7rem;
+  padding-top: 0.7rem;
+  border-bottom: 0;
+}
+.guide-tab-sub {
+  padding: 0.3rem 0.75rem;
+  font-size: 0.88rem;
+  font-weight: 500;
+  background: transparent;
+}
 
 /* ---- Avís del concurs (banner inferior) ---- */
 
