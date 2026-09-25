@@ -1,0 +1,22 @@
+{{- define "main" }}
+<article class="error-404">
+    <header class="page-header error-404-header">
+        <p class="error-404-code" aria-hidden="true">404</p>
+        <h1>Aquesta pàgina no s’ha trobat</h1>
+        <p class="error-404-message">L’adreça pot ser incorrecta, el contingut s’ha mogut o l’enllaç ja no existeix. Prova de buscar el que necessites al bloc.</p>
+    </header>
+
+    <div id="searchbox" class="searchbox error-404-search">
+        <label for="searchInput">Cerca al bloc</label>
+        <input id="searchInput" disabled data-index-url="{{ "index.json" | relURL }}"
+            type="search" autocomplete="off" maxlength="64">
+        <ul id="searchResults" class="searchResults" aria-label="Resultats de la cerca"></ul>
+    </div>
+
+    <nav class="error-404-links" aria-label="Pàgines principals">
+        <a href="{{ "/" | relURL }}">Portada</a>
+        <a href="{{ "/archive/" | relURL }}">Arxiu</a>
+        <a href="{{ "/contacte/" | relURL }}">Contacte</a>
+    </nav>
+</article>
+{{- end }}

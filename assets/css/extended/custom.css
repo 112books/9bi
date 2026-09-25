@@ -1697,3 +1697,65 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   opacity: 0.85;
 }
+
+.error-404 {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: clamp(2rem, 6vw, 4rem) 0;
+}
+.error-404-header {
+  text-align: center;
+}
+.error-404-code {
+  margin: 0;
+  color: #e03131;
+  font-size: clamp(3.5rem, 12vw, 6.5rem);
+  font-weight: 800;
+  line-height: 1;
+}
+.error-404-header h1 {
+  margin: 0.6rem 0 1rem;
+}
+.error-404-message {
+  max-width: 36rem;
+  margin: 0 auto;
+}
+.error-404-search {
+  margin: 2rem 0 1.5rem;
+}
+.error-404-search label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+.error-404-search input {
+  min-height: 2.75rem;
+}
+.error-404-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.7rem;
+}
+.error-404-links a {
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--entry);
+  font-weight: 600;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+.error-404-links a:hover,
+.error-404-links a:focus-visible {
+  border-color: var(--tertiary);
+  transform: translateY(-2px);
+}
+@media (prefers-reduced-motion: reduce) {
+  .error-404-links a {
+    transition: none;
+  }
+  .error-404-links a:hover,
+  .error-404-links a:focus-visible {
+    transform: none;
+  }
+}

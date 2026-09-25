@@ -132,7 +132,7 @@ const initSearch = async () => {
     sInput.focus();
 
     try {
-        const response = await fetch('../index.json');
+        const response = await fetch(sInput?.dataset.indexUrl || '../index.json');
         if (!response.ok) {
             throw new Error(`Search index load failed: ${response.status}`);
         }
