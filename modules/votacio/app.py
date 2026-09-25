@@ -292,8 +292,12 @@ def h_radix(token):
     return html.escape(token)
 
 
+def app_base(environ):
+    return (environ.get("SCRIPT_NAME", "") or "").rstrip("/")
+
+
 def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js,
-                   note="", conditions=""):
+                   note="", conditions="", base=""):
     i18n = get_i18n(lang)
     max_num = max((w["numero"] for w in works), default=0)
     extra = ""
@@ -303,7 +307,7 @@ def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js,
         extra += "<p class=\"note\">%s</p>" % html.escape(note)
     form = (
         "<h1>%s</h1><p>%s</p>%s"
-        "<form method=\"post\" action=\"/v/%s\" id=\"vf\">"
+        "<form method=\"post\" action=\"%s/v/%s\" id=\"vf\">"
         "<input type=\"hidden\" name=\"csrft\" value=\"%s\">"
         "<label for=\"obra\">%s</label> "
         "<input id=\"obra\" name=\"obra\" type=\"number\" inputmode=\"numeric\""
@@ -314,7 +318,7 @@ def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js,
         "<script>%s</script>")
     return form % (
         html.escape(ed["nom"]), i18n.get("vote_intro", ""), extra,
-        h_radix(vot_token), html.escape(csrf),
+        html.escape(base, quote=True), h_radix(vot_token), html.escape(csrf),
         i18n.get("select_prompt", "Obra"), max_num,
         i18n.get("btn_vote", "Vota"), geo_js)
 
@@ -334,7 +338,7 @@ GEO_JS = """
 """
 
 
-def vote_page(environ, start_response, token):
+def vote_page(environ, start_response, token, base=""):
     cfg = load_config()
     conn = connect(cfg)
     try:
@@ -370,11 +374,11 @@ def vote_page(environ, start_response, token):
         if cfg.getboolean("edicio", "mostrar_condicions", fallback=False):
             conditions = i18n.get("vote_conditions", "")
         body = make_vote_form(ed, works, lang, token, csrf, include_geo, geo_js,
-                              note=note, conditions=conditions)
+                              note=note, conditions=conditions, base=base)
         return respond(environ, start_response, "200 OK",
                        page_html(i18n.get("vote_header", "Vot"),
                                  body, lang),
-                       extra_headers=[set_device_cookie(cfg, device)])
+                       extra_headers=[set_device_cookie(cfg, device, (base or "") + "/")])
     finally:
         conn.close()
 
@@ -389,12 +393,12 @@ def get_device_id(environ, cfg):
     return dev
 
 
-def set_device_cookie(cfg, device_id):
+def set_device_cookie(cfg, device_id, path="/"):
     name = cfg.get("general", "cookie_name", fallback="vid")
     maxage = 60 * 60 * 24 * 30
     secure = "; Secure" if cfg.getboolean("general", "ssl", fallback=True) else ""
-    return ("Set-Cookie", "%s=%s; Path=/; HttpOnly; SameSite=Lax; Max-Age=%d%s"
-            % (name, device_id, maxage, secure))
+    return ("Set-Cookie", "%s=%s; Path=%s; HttpOnly; SameSite=Lax; Max-Age=%d%s"
+            % (name, device_id, path, maxage, secure))
 
 
 def parse_cookies(s):
@@ -478,7 +482,7 @@ def submit_vote(environ, start_response, token):
             " VALUES (?,?,?,?,?,?,0)",
             (ed["id"], obra["id"], devhash, geo_estat, sig, ts))
         conn.commit()
-        cookies = [set_device_cookie(cfg, device)]
+        cookies = [set_device_cookie(cfg, device, (app_base(environ) or "") + "/")]
         return respond(environ, start_response, "200 OK",
                        page_html(i18n.get("msg_vote_ok", ""),
                                  "<p>%s</p>" % html.escape(i18n.get("msg_vote_ok", "")), lang),
@@ -522,25 +526,26 @@ def admin_ok(environ, cfg):
     return admin_session_valid(cfg, cookies.get("admin", ""))
 
 
-def admin_login_form(lang):
+def admin_login_form(lang, base=""):
     i18n = get_i18n(lang)
     body = ("<h1>%s</h1>"
-            "<form method=\"post\" action=\"/admin/login\">"
+            "<form method=\"post\" action=\"%s/admin/login\">"
             "<label>%s</label> <input type=\"password\" name=\"pass\" autocomplete=\"current-password\">"
             "<button type=\"submit\">%s</button>"
             "</form>" % (html.escape(i18n.get("app_name", "Admin")),
+                         html.escape(base, quote=True),
                          html.escape(i18n.get("admin_pass", "Contrasenya")),
                          html.escape(i18n.get("btn_login", "Entra"))))
     return page_html(i18n.get("app_name", "Admin"), body, lang)
 
 
-def admin_handle(environ, start_response, sub=""):
+def admin_handle(environ, start_response, sub="", base=""):
     cfg = load_config()
     lang = pick_lang(environ)
     i18n = get_i18n(lang)
     if not admin_ok(environ, cfg):
         return respond(environ, start_response, "401 Unauthorized",
-                       admin_login_form(lang))
+                       admin_login_form(lang, base))
     conn = connect(cfg)
     try:
         ed_id = None
@@ -559,7 +564,7 @@ def admin_handle(environ, start_response, sub=""):
             for r in rows:
                 body += "<tr><td>%d %s</td><td>%d</td></tr>" % (
                     r["numero"], html.escape(r["titol"] or ""), r["v"])
-            body += "</table><p><a href=\"/admin/\">↩ back</a></p>"
+            body += "</table><p><a href=\"%s/admin/\">↩ back</a></p>" % html.escape(base, quote=True)
             return respond(environ, start_response, "200 OK", page_html("admin", body, lang))
         if sub == "visites":
             total = conn.execute(
@@ -580,7 +585,7 @@ def admin_handle(environ, start_response, sub=""):
                        html.escape(i18n.get("admin_visits_count", "Visites"))))
             for r in rows:
                 body += "<tr><td>%s</td><td>%d</td></tr>" % (html.escape(r["d"]), r["n"])
-            body += "</table><p><a href=\"/admin/\">↩</a></p>"
+            body += "</table><p><a href=\"%s/admin/\">↩</a></p>" % html.escape(base, quote=True)
             return respond(environ, start_response, "200 OK", page_html("admin", body, lang))
         if sub == "tancar" and environ.get("REQUEST_METHOD") == "POST":
             cookies = parse_cookies(environ.get("HTTP_COOKIE", ""))
@@ -595,8 +600,9 @@ def admin_handle(environ, start_response, sub=""):
                                page_html("403", "<p>403</p>", lang))
             conn.execute("UPDATE edicions SET tancada=1, tancada_a=datetime('now')")
             conn.commit()
-            body = "<p>%s</p><p><a href=\"/admin/\">↩</a></p>" % html.escape(
-                i18n.get("admin_closed", "Votació tancada"))
+            body = "<p>%s</p><p><a href=\"%s/admin/\">↩</a></p>" % (
+                html.escape(i18n.get("admin_closed", "Votació tancada")),
+                html.escape(base, quote=True))
             return respond(environ, start_response, "200 OK", page_html("admin", body, lang))
         if sub == "export":
             rows = conn.execute(
@@ -618,28 +624,33 @@ def admin_handle(environ, start_response, sub=""):
                                ("X-Content-SHA256", digest)])
         body = (
             "<h1>%s</h1>"
-            "<p><a href=\"/admin/stat\">%s</a> · "
-            "<a href=\"/admin/visites\">%s</a> · "
-            "<a href=\"/admin/export\">%s (CSV)</a></p>"
-            "<form method=\"post\" action=\"/admin/tancar\">"
+            "<p><a href=\"%s/admin/stat\">%s</a> · "
+            "<a href=\"%s/admin/visites\">%s</a> · "
+            "<a href=\"%s/admin/export\">%s (CSV)</a></p>"
+            "<form method=\"post\" action=\"%s/admin/tancar\">"
             "<input type=\"hidden\" name=\"csrft\" value=\"%s\">"
             "<button type=\"submit\" onclick=\"return confirm('%s')\">%s</button></form>"
-            "<p><a href=\"/admin/logout\">%s</a></p>"
+            "<p><a href=\"%s/admin/logout\">%s</a></p>"
             % (html.escape(i18n.get("admin_dashboard", "Admin")),
+               html.escape(base, quote=True),
                html.escape(i18n.get("admin_stat", "Recompte en viu")),
+               html.escape(base, quote=True),
                html.escape(i18n.get("admin_visits_title", "Visites via QR")),
+               html.escape(base, quote=True),
                html.escape(i18n.get("btn_export", "Exporta")),
+               html.escape(base, quote=True),
                html.escape(admin_csrf_token(cfg, parse_cookies(
                    environ.get("HTTP_COOKIE", "")).get("admin", ""))),
                html.escape(i18n.get("close_confirm", "Segur que vols tancar la votació?")),
                html.escape(i18n.get("btn_close", "Tanca la votació")),
+               html.escape(base, quote=True),
                html.escape(i18n.get("btn_logout", "Surt"))))
         return respond(environ, start_response, "200 OK", page_html("admin", body, lang))
     finally:
         conn.close()
 
 
-def admin_login(environ, start_response):
+def admin_login(environ, start_response, base=""):
     cfg = load_config()
     lang = pick_lang(environ)
     i18n = get_i18n(lang)
@@ -659,15 +670,15 @@ def admin_login(environ, start_response):
             secure = "; Secure" if cfg.getboolean("general", "ssl", fallback=True) else ""
             return respond(environ, start_response, "302 Found", "",
                            extra_headers=[
-                               ("Location", "/admin/"),
+                                ("Location", base + "/admin/"),
                                ("Set-Cookie", "admin=%s; Path=/; HttpOnly; SameSite=Lax; Max-Age=%d%s" % (tok, exp, secure))])
-        return respond(environ, start_response, "401 Unauthorized", admin_login_form(lang))
-    return respond(environ, start_response, "200 OK", admin_login_form(lang))
+        return respond(environ, start_response, "401 Unauthorized", admin_login_form(lang, base))
+    return respond(environ, start_response, "200 OK", admin_login_form(lang, base))
 
 
-def admin_logout(environ, start_response):
+def admin_logout(environ, start_response, base=""):
     return respond(environ, start_response, "302 Found", "",
-                   extra_headers=[("Location", "/admin/"),
+                   extra_headers=[("Location", base + "/admin/"),
                                   ("Set-Cookie", "admin=; Path=/; Max-Age=0")])
 
 
@@ -676,22 +687,23 @@ def admin_logout(environ, start_response):
 def application(environ, start_response):
     path = environ.get("PATH_INFO", "/")
     method = environ.get("REQUEST_METHOD", "GET")
+    base = app_base(environ)
     if path.startswith("/v/"):
         token = path[3:]
         if method == "GET":
-            return vote_page(environ, start_response, token)
+            return vote_page(environ, start_response, token, base)
         if method == "POST":
             return submit_vote(environ, start_response, token)
         return respond(environ, start_response, "405 Method Not Allowed", "405")
     if path == "/admin/login":
-        return admin_login(environ, start_response)
+        return admin_login(environ, start_response, base)
     if path == "/admin/logout":
-        return admin_logout(environ, start_response)
+        return admin_logout(environ, start_response, base)
     if path.startswith("/admin/"):
         sub = path[len("/admin/"):]
-        return admin_handle(environ, start_response, sub)
+        return admin_handle(environ, start_response, sub, base)
     if path == "/admin" or path == "/admin/":
-        return admin_handle(environ, start_response, "")
+        return admin_handle(environ, start_response, "", base)
     if path == "/health":
         return respond(environ, start_response, "200 OK", "ok", content_type="text/plain")
     return respond(environ, start_response, "404 Not Found", "404")
