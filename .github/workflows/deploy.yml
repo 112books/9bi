@@ -37,6 +37,17 @@ jobs:
         env:
           GOATCOUNTER_API_KEY: ${{ secrets.GOATCOUNTER_API_KEY }}
 
+      - name: Refresca els articles més visitats (si hi ha API key)
+        run: |
+          if [ -n "$GOATCOUNTER_API_KEY" ]; then
+            python3 scripts/goatcounter_popular.py --days 30 || \
+              echo "AVÍS: no s'ha pogut refrescar /mes-visitats/; es publica amb les dades del repositori"
+          else
+            echo "GOATCOUNTER_API_KEY no definida; /mes-visitats/ es queda amb les dades del repositori"
+          fi
+        env:
+          GOATCOUNTER_API_KEY: ${{ secrets.GOATCOUNTER_API_KEY }}
+
       - name: Build amb Hugo (producció)
         run: hugo --minify --environment production
 
