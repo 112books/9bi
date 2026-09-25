@@ -9,7 +9,7 @@ tags:
 - flamenco
 - rumba
 cover:
-  image: images/covers/6c506119d5e4f28a.webp
+  image: /images/covers/6c506119d5e4f28a.webp
 album_url: https://picasaweb.google.com/Perdo.Garcia/UltimaImportacion04?feat=embedwebsite
 ---
 

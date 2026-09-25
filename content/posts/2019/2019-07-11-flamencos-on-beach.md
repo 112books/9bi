@@ -9,7 +9,7 @@ tags:
 - flamenc
 - beach
 cover:
-  image: images/covers/37b2ece118de065f.webp
+  image: /images/covers/37b2ece118de065f.webp
 album_url: https://photos.app.goo.gl/pCMz9HSAnrVJibu8A
 ---
 

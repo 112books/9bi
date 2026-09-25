@@ -13,7 +13,7 @@ tags:
 - red drum
 - vídeo
 cover:
-  image: images/covers/be25161ce9cdde2a.webp
+  image: /images/covers/be25161ce9cdde2a.webp
 album_url: https://photos.app.goo.gl/F5cpAStwGecdqz8t6
 ---
 

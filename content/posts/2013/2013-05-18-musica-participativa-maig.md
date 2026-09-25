@@ -8,7 +8,7 @@ tags:
 - Casal de barri Prosperitat
 - música participativa
 cover:
-  image: images/covers/5409f4551371c3c5.webp
+  image: /images/covers/5409f4551371c3c5.webp
 album_url: https://picasaweb.google.com/103138221614479310970/MusicaParticipativaMaig?authuser=0&feat=embedwebsite
 ---
 

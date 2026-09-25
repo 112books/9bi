@@ -7,7 +7,7 @@ slug: conciertos
 tags:
 - música
 cover:
-  image: images/covers/2db3ddeae492fb0a.webp
+  image: /images/covers/2db3ddeae492fb0a.webp
 album_url: https://photos.google.com/share/AF1QipMkg82yEmjWUJY3fUNaZNk0abiQz7BueyFRAW_3SuRjHHMeX9w7Lp82AZEaoNLldg?key=U01PODdpbTdRRkowOHVIamJ0QU1vSHdhTDEwa1d3
 ---
 

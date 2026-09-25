@@ -9,7 +9,7 @@ tags:
 - joan.linuxbcn.com
 - tallers
 cover:
-  image: images/covers/90056d8c9f3710ee.webp
+  image: /images/covers/90056d8c9f3710ee.webp
 album_url: https://picasaweb.google.com/103138221614479310970/TallersCasalDeProsperitat2013?authuser=0&feat=embedwebsite
 ---
 

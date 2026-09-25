@@ -10,7 +10,7 @@ tags:
 - bcn
 - festa major prospe
 cover:
-  image: images/covers/462907cfcd7b822d.webp
+  image: /images/covers/462907cfcd7b822d.webp
 album_url: https://picasaweb.google.com/115791131166530059320/PasabaresProspe13?authuser=0&feat=embedwebsite
 ---
 

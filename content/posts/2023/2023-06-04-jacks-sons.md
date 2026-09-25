@@ -7,7 +7,7 @@ slug: jacks-sons
 tags:
 - música
 cover:
-  image: images/covers/6b2e5a0499e2adf8.webp
+  image: /images/covers/6b2e5a0499e2adf8.webp
 album_url: https://photos.app.goo.gl/Hptas5UKeKUW4tNm9
 ---
 

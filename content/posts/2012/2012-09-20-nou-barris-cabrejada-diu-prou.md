@@ -11,7 +11,7 @@ tags:
 - manifest
 - barri
 cover:
-  image: images/covers/275a9915c064f027.webp
+  image: /images/covers/275a9915c064f027.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

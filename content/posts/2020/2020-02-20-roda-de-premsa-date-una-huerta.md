@@ -9,7 +9,7 @@ tags:
 - roda de premsa
 - huerta
 cover:
-  image: images/covers/2c7209a88d762a70.webp
+  image: /images/covers/2c7209a88d762a70.webp
 album_url: https://photos.app.goo.gl/46Ghtzjw7NqG63Lf8
 ---
 

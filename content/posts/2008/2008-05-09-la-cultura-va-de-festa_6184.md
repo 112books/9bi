@@ -9,7 +9,7 @@ tags:
 - gent
 - jocs
 cover:
-  image: images/covers/d8c47fb9792e386d.webp
+  image: /images/covers/d8c47fb9792e386d.webp
 album_url: http://picasaweb.google.es/Perdo.Garcia/LaCulturaVaDeFesta
 ---
 

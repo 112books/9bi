@@ -15,7 +15,7 @@ tags:
 - ruta
 - Torrellobeta i Vilapicina
 cover:
-  image: images/covers/ac80c962172512be.webp
+  image: /images/covers/ac80c962172512be.webp
 ---
 
 ## Ruta:

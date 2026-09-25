@@ -14,7 +14,7 @@ tags:
 - The Beatroots
 - Vin-Out
 cover:
-  image: images/covers/e5ef3888c3aa2ecb.webp
+  image: /images/covers/e5ef3888c3aa2ecb.webp
 album_url: https://picasaweb.google.com/103138221614479310970/9BinBlackAteneuPopular9BarrisCombosEscolaBluesVinOutMarinaBBfaceTheBeatroots?authuser=0&feat=embedwebsite
 ---
 

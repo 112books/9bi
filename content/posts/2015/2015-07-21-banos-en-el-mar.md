@@ -7,7 +7,7 @@ slug: banos-en-el-mar
 tags:
 - mar
 cover:
-  image: images/covers/e940f44b6300e051.webp
+  image: /images/covers/e940f44b6300e051.webp
 album_url: https://picasaweb.google.com/115452009915421757608/BANOSENELMAR?authuser=0&feat=embedwebsite
 ---
 

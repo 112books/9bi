@@ -7,7 +7,7 @@ slug: veins-flor-de-neumarvin-sala
 tags:
 - veïns Flor de Neu
 cover:
-  image: images/covers/e54a452bbaebcd67.webp
+  image: /images/covers/e54a452bbaebcd67.webp
 album_url: https://photos.app.goo.gl/sEnY2673WKjawqNs7
 ---
 

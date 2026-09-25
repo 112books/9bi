@@ -7,7 +7,7 @@ slug: 9binblack-divendres-al-casal-de
 tags:
 - 9binblack
 cover:
-  image: images/covers/2d5fd554bb01db51.webp
+  image: /images/covers/2d5fd554bb01db51.webp
 album_url: https://picasaweb.google.com/103138221614479310970/9binblackDivendresAlCasalDeProsperitat?authuser=0&feat=embedwebsite
 ---
 

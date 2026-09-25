@@ -9,7 +9,7 @@ tags:
 - casal barri prosperitat
 - vermouthsical
 cover:
-  image: images/covers/d1353f45a4224a3f.webp
+  image: /images/covers/d1353f45a4224a3f.webp
 album_url: https://photos.google.com/share/AF1QipMFdpFJhZVqMUVm0Q0HtuGc6PY78xut1s0hoY1GcQ97xgKX7DoIc4bqB1lH3Mz7Hw?key=cUl3bmtrMEc1R2xhNUxsSFBVNnhIeFdXUzRyLW13
 ---
 

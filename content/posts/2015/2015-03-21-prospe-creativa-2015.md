@@ -9,7 +9,7 @@ tags:
 - prospe
 - Felipe
 cover:
-  image: images/covers/4dd38de80fda9aa5.webp
+  image: /images/covers/4dd38de80fda9aa5.webp
 album_url: ' https://picasaweb.google.com/116805523004990742624/ProspeCreativa2015?authuser=0&authkey=Gv1sRgCIyOsMb2ocvbFA&feat=embedwebsite '
 ---
 

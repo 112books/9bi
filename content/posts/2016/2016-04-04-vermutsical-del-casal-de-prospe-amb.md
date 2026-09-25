@@ -11,7 +11,7 @@ tags:
 - CASAL
 - osca
 cover:
-  image: images/covers/c321a1fdf853dd0a.webp
+  image: /images/covers/c321a1fdf853dd0a.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutSicalDelCasalDeProspeAmbOscarboles?authuser=0&feat=embedwebsite
 ---
 

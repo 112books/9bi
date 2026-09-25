@@ -11,7 +11,7 @@ tags:
 - roquetes
 - festes
 cover:
-  image: images/covers/067b446c1c38c580.webp
+  image: /images/covers/067b446c1c38c580.webp
 album_url: https://photos.app.goo.gl/iKzqBK37pLWBCFXa8
 ---
 

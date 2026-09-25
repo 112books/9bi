@@ -8,7 +8,7 @@ tags:
 - 9barris acull
 - Festival de sopas del mon
 cover:
-  image: images/covers/03932e49f55dbf7f.webp
+  image: /images/covers/03932e49f55dbf7f.webp
 album_url: https://picasaweb.google.com/115791131166530059320/12FESTIVALDESOPASDELMON?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - presentació Premsa
 - tattoo
 cover:
-  image: images/covers/aac557cbd01e1dab.webp
+  image: /images/covers/aac557cbd01e1dab.webp
 album_url: https://photos.app.goo.gl/3FkJojzogoawmfYm6
 ---
 

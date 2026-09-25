@@ -11,7 +11,7 @@ tags:
 - veïns
 - avv
 cover:
-  image: images/covers/02d3b8166b3ec9ef.webp
+  image: /images/covers/02d3b8166b3ec9ef.webp
 album_url: https://photos.app.goo.gl/9uCypMBUxRTT4GyN9
 ---
 

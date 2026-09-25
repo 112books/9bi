@@ -8,7 +8,7 @@ tags:
 - backstage festival blues barcelona 2010
 - manel sala ulls
 cover:
-  image: images/covers/ef429270023f7a1c.webp
+  image: /images/covers/ef429270023f7a1c.webp
 album_url: http://picasaweb.google.com/ulls2006/BackstageLliuramentDePremis8eFestivalDeBluesDeBarcelona?feat=embedwebsite
 ---
 

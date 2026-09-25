@@ -9,7 +9,7 @@ tags:
 - entitats
 - prospe
 cover:
-  image: images/covers/0c90dabe8e11ca65.webp
+  image: /images/covers/0c90dabe8e11ca65.webp
 album_url: https://picasaweb.google.com/110015855395179205688/FESTIVALDEPROSPECAPACIMASCONMENOS?authuser=0&feat=embedwebsite
 ---
 

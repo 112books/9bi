@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - guitarra
 cover:
-  image: images/covers/3288285ac8cd058a.webp
+  image: /images/covers/3288285ac8cd058a.webp
 album_url: https://photos.app.goo.gl/b6AJu5G9NkLMSJmVA
 ---
 

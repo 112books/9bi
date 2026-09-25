@@ -12,7 +12,7 @@ tags:
 - teatro
 - rescat
 cover:
-  image: images/covers/abd591f2a288af7e.webp
+  image: /images/covers/abd591f2a288af7e.webp
 album_url: https://photos.app.goo.gl/Yk6mLLUTiBTBY6fGA
 ---
 

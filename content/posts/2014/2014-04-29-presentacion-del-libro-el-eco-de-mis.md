@@ -11,7 +11,7 @@ tags:
 - libro
 - Mario
 cover:
-  image: images/covers/b0aad121009ac836.webp
+  image: /images/covers/b0aad121009ac836.webp
 album_url: https://picasaweb.google.com/100268695753733554853/PresentacionDelLibroElEcoDeMisPasosDeMarioOrtiz?authuser=0&amp;feat=embedwebsite
 ---
 

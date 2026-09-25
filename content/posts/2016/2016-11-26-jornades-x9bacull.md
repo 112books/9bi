@@ -8,7 +8,7 @@ tags:
 - 9bacull
 - 9barris
 cover:
-  image: images/covers/d42ec08a8c335d52.webp
+  image: /images/covers/d42ec08a8c335d52.webp
 album_url: https://goo.gl/photos/c3qjjyULYTfsHr5o6
 ---
 

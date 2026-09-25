@@ -11,7 +11,7 @@ tags:
 - nou barris
 - Seu del districte Nou Barris
 cover:
-  image: images/covers/2214ddf321d0a1a4.webp
+  image: /images/covers/2214ddf321d0a1a4.webp
 album_url: https://photos.app.goo.gl/BgRXScsiJJ3QrMkN6
 ---
 

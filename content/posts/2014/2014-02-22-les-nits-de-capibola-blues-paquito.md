@@ -10,7 +10,7 @@ tags:
 - paquito groove band
 - Ráfagas de Swing
 cover:
-  image: images/covers/31426cd448078586.webp
+  image: /images/covers/31426cd448078586.webp
 album_url: https://picasaweb.google.com/lh/photo/9Ovyh4gyZoAKIRSTPze6xtMTjNZETYmyPJy0liipFm0?feat=embedwebsite
 ---
 

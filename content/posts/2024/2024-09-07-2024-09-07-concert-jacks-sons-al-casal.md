@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - jam session
 cover:
-  image: images/covers/d44e73b8d181f085.webp
+  image: /images/covers/d44e73b8d181f085.webp
 album_url: https://photos.app.goo.gl/9HbjuU21kyXkWjJx5
 ---
 

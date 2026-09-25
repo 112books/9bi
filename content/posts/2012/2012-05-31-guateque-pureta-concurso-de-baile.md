@@ -9,7 +9,7 @@ tags:
 - guateque puretas
 - risas
 cover:
-  image: images/covers/3b05621ad8485005.webp
+  image: /images/covers/3b05621ad8485005.webp
 album_url: https://picasaweb.google.com/115791131166530059320/GUATEQUEPURETAS?authuser=0&feat=embedwebsite
 ---
 

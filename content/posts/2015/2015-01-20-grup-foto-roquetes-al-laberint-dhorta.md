@@ -11,7 +11,7 @@ tags:
 - roquetes
 - diumenge
 cover:
-  image: images/covers/7362d359ca396dad.webp
+  image: /images/covers/7362d359ca396dad.webp
 album_url: https://picasaweb.google.com/110015855395179205688/PassejadaPelLaberint?authuser=0&feat=embedwebsite
 ---
 

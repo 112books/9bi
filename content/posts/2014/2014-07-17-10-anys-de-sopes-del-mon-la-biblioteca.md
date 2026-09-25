@@ -11,7 +11,7 @@ tags:
 - xarxa 9 barris ac
 - 9barris imatge
 cover:
-  image: images/covers/0ad0767876877131.webp
+  image: /images/covers/0ad0767876877131.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ExposicioFotograficaDe10AnysDeSopesDelMon?authuser=0&feat=embedwebsite
 ---
 

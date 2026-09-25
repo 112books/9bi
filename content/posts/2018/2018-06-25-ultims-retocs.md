@@ -8,7 +8,7 @@ tags:
 - ball
 - STA
 cover:
-  image: images/covers/fb52a689ed4dc353.webp
+  image: /images/covers/fb52a689ed4dc353.webp
 album_url: https://photos.app.goo.gl/yfgDLhiSyoLd5Lvm6
 ---
 

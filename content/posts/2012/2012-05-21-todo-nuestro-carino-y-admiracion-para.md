@@ -11,7 +11,7 @@ tags:
 - art
 - mar
 cover:
-  image: images/covers/97ff045617adb59e.webp
+  image: /images/covers/97ff045617adb59e.webp
 album_url: https://picasaweb.google.com/115791131166530059320/MARUJA?authuser=0&feat=embedwebs
 ---
 

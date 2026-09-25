@@ -9,7 +9,7 @@ tags:
 - manifestació
 - passeig Valldaura
 cover:
-  image: images/covers/248d19864468d48c.webp
+  image: /images/covers/248d19864468d48c.webp
 album_url: https://picasaweb.google.com/linuxbcn/NOAlTancamentDelCAPGuinaueta?authuser=0&feat=embedwebsite
 ---
 

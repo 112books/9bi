@@ -8,7 +8,7 @@ tags:
 - bad music blues
 - Capibola blues
 cover:
-  image: images/covers/7e8817e5dff37534.webp
+  image: /images/covers/7e8817e5dff37534.webp
 album_url: https://photos.app.goo.gl/ZSyNGrUE53ZhAySQA
 ---
 

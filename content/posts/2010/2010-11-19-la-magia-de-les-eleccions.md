@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - Ángel Pesstaña
 cover:
-  image: images/covers/4710f1145e12de2d.webp
+  image: /images/covers/4710f1145e12de2d.webp
 album_url: https://photos.app.goo.gl/XyVubHWpBBZe5VCf7
 ---
 

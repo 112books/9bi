@@ -11,7 +11,7 @@ tags:
 - hangzou
 - pekin
 cover:
-  image: images/covers/fe31c5b713f3b60e.webp
+  image: /images/covers/fe31c5b713f3b60e.webp
 album_url: https://picasaweb.google.com/Perdo.Garcia/TransportesChina?authuser=0&feat=embedwebsite
 ---
 

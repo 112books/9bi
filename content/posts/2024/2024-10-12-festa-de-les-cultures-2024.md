@@ -11,7 +11,7 @@ tags:
 - concert
 - trobada
 cover:
-  image: images/covers/a0d9fa894dd3a47a.webp
+  image: /images/covers/a0d9fa894dd3a47a.webp
 album_url: https://photos.app.goo.gl/RmWp56vq7PACAETQ6
 ---
 

@@ -10,7 +10,7 @@ tags:
 - CASAL
 - casa
 cover:
-  image: images/covers/05133ac8ea69d866.webp
+  image: /images/covers/05133ac8ea69d866.webp
 album_url: https://picasaweb.google.com/115791131166530059320/25aniversari?authuser=0&feat=embedwebsite
 ---
 

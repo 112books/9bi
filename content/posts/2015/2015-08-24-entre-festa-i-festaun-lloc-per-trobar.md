@@ -11,7 +11,7 @@ tags:
 - FESTA
 - rafi
 cover:
-  image: images/covers/d962442966ef7876.webp
+  image: /images/covers/d962442966ef7876.webp
 album_url: https://picasaweb.google.com/110015855395179205688/MonastirDePedralbes?authuser=0&feat=embedwebsite
 ---
 

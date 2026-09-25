@@ -4,7 +4,7 @@ date: 2026-09-20T14:49:00.000+02:00
 year: "2026"
 author: Joan "Linux" Martínez i Serres
 cover:
-  image: images/covers/39c8012fb7e84592.webp
+  image: /images/covers/39c8012fb7e84592.webp
 tags:
   - Festa Major de Verdum
   - Verdum PunkFest

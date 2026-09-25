@@ -11,7 +11,7 @@ tags:
 - dansa
 - CASAL
 cover:
-  image: images/covers/c8dde8a7f9ceb3ba.webp
+  image: /images/covers/c8dde8a7f9ceb3ba.webp
 album_url: https://goo.gl/photos/KnWxXKYyw5M9bxUVA
 ---
 

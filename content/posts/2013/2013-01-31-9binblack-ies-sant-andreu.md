@@ -9,7 +9,7 @@ tags:
 - Chino and The Big Bet
 - IES Sant Andreu
 cover:
-  image: images/covers/fd11d530bcf2e3f4.webp
+  image: /images/covers/fd11d530bcf2e3f4.webp
 album_url: https://picasaweb.google.com/103138221614479310970/9binblackIESSantAndreu?authuser=0&feat=embedwebsite
 ---
 

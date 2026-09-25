@@ -7,7 +7,7 @@ slug: vermutsical-amb-alma-de-boqueron
 tags:
 - vermutsical
 cover:
-  image: images/covers/e281dc7278a3cdef.webp
+  image: /images/covers/e281dc7278a3cdef.webp
 album_url: https://photos.app.goo.gl/jLQq3rF8oSAjU4WX9
 ---
 

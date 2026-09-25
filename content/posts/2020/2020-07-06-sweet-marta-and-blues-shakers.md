@@ -10,7 +10,7 @@ tags:
 - art
 - mar
 cover:
-  image: images/covers/42737866a4cd702a.webp
+  image: /images/covers/42737866a4cd702a.webp
 album_url: https://photos.google.com/share/AF1QipMnLDnXR5rmyNLZbxXSBKwUV8AOCkCrY36F6jIjkn-LbnylzffEGxDswdXHjHBjFQ?key=MHo4WC1ZOVlVLWgtbGd4S19uQ0dMa0QwX2ZTZXd3
 ---
 

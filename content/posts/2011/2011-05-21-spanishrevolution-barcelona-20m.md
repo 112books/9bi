@@ -7,7 +7,7 @@ slug: spanishrevolution-barcelona-20m
 tags:
 - manel sala ulls
 cover:
-  image: images/covers/348789bd1be897f0.webp
+  image: /images/covers/348789bd1be897f0.webp
 album_url: https://picasaweb.google.com/ulls2006/SpanishrevolutionBarcelona20M?feat=embedwebsite
 ---
 

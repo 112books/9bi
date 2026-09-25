@@ -7,7 +7,7 @@ slug: one-hour-one-km-one-roll
 tags:
 - fotografia
 cover:
-  image: images/covers/71b90639f8fdd628.webp
+  image: /images/covers/71b90639f8fdd628.webp
 album_url: https://photos.app.goo.gl/yhhbfUozo3cXnbRUA
 ---
 

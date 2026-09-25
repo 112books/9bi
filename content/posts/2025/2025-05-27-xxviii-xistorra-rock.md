@@ -8,7 +8,7 @@ tags:
 - festes de prospe
 - xistorra rock
 cover:
-  image: images/covers/c0ce16f2e30f1b1d.webp
+  image: /images/covers/c0ce16f2e30f1b1d.webp
 album_url: https://photos.app.goo.gl/gwBEhC7yGoBysgur9
 ---
 

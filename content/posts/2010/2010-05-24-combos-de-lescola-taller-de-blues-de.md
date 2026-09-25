@@ -9,7 +9,7 @@ tags:
 - escola-taller de blues de Barcelona
 - linuxbcn
 cover:
-  image: images/covers/37d8be54ab3b9117.webp
+  image: /images/covers/37d8be54ab3b9117.webp
 album_url: https://photos.app.goo.gl/59wS4qRiqmzPExPXA
 ---
 

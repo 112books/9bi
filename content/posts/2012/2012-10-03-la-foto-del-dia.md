@@ -7,7 +7,7 @@ slug: la-foto-del-dia
 tags:
 - pepa plana
 cover:
-  image: images/covers/7fd9e182144fbca2.webp
+  image: /images/covers/7fd9e182144fbca2.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

@@ -9,7 +9,7 @@ tags:
 - linuxbcn
 - palestina
 cover:
-  image: images/covers/e44a01909775a6f5.webp
+  image: /images/covers/e44a01909775a6f5.webp
 album_url: https://picasaweb.google.com/linuxbcn/JornadaSolidariaNouBarrisAmbPalestina?feat=embedwebsite
 ---
 

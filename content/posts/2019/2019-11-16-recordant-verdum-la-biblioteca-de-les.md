@@ -11,7 +11,7 @@ tags:
 - llibre
 - verdum
 cover:
-  image: images/covers/9d191a8eafa23fc9.webp
+  image: /images/covers/9d191a8eafa23fc9.webp
 album_url: https://photos.app.goo.gl/RwSFPvenY5cjes3Z8
 ---
 

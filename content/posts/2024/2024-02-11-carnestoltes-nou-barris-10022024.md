@@ -9,7 +9,7 @@ tags:
 - nou barris
 - barri
 cover:
-  image: images/covers/2f711347a61f9444.webp
+  image: /images/covers/2f711347a61f9444.webp
 album_url: https://photos.app.goo.gl/2sE8oW1eyauVE4wH8
 ---
 

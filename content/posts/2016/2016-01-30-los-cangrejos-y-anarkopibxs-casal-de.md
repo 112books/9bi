@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - prospe
 cover:
-  image: images/covers/eb9a5587b3afb898.webp
+  image: /images/covers/eb9a5587b3afb898.webp
 album_url: https://picasaweb.google.com/103138221614479310970/LosCangrejosYAnarkopibxsCasalDeJovesDeProsperitat?authuser=0&feat=embedwebsite
 ---
 

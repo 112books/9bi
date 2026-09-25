@@ -11,7 +11,7 @@ tags:
 - Carlos
 - punk
 cover:
-  image: images/covers/436011e0a9583c95.webp
+  image: /images/covers/436011e0a9583c95.webp
 album_url: https://photos.app.goo.gl/AqiVAby1TWeEofKr5
 ---
 

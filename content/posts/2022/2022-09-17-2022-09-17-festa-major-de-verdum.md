@@ -11,7 +11,7 @@ tags:
 - festes
 - verdum
 cover:
-  image: images/covers/a8d99d4633628d7e.webp
+  image: /images/covers/a8d99d4633628d7e.webp
 album_url: https://photos.app.goo.gl/ZQUkeC6xRrfFaiZc8
 ---
 

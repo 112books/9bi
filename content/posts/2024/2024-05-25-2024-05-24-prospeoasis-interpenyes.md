@@ -11,7 +11,7 @@ tags:
 - prospeoasis
 - prospe
 cover:
-  image: images/covers/f5e394e7524d1e7a.webp
+  image: /images/covers/f5e394e7524d1e7a.webp
 album_url: https://photos.app.goo.gl/H6rWDjMfqXjkaJLo8
 ---
 

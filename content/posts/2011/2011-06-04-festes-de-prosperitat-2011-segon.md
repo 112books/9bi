@@ -7,7 +7,7 @@ slug: festes-de-prosperitat-2011-segon
 tags:
 - festes de prospe
 cover:
-  image: images/covers/363575d79a6e045d.webp
+  image: /images/covers/363575d79a6e045d.webp
 album_url: https://picasaweb.google.com/linuxbcn/FestesDeProsperitatDivendresSegon?feat=embedwebsite
 ---
 

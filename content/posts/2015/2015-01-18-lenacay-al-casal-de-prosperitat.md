@@ -11,7 +11,7 @@ tags:
 - prospe
 - CASAL
 cover:
-  image: images/covers/48642522ae0ad9ed.webp
+  image: /images/covers/48642522ae0ad9ed.webp
 album_url: https://picasaweb.google.com/103138221614479310970/LenacayAlCasalDeProsperitat?authuser=0&feat=embedwebsite
 ---
 

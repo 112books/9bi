@@ -7,7 +7,7 @@ slug: tortillada-kalimotxada-festa-major
 tags:
 - festa major prospe
 cover:
-  image: images/covers/9848d7e95f0b897d.webp
+  image: /images/covers/9848d7e95f0b897d.webp
 album_url: http://picasaweb.google.com/ulls2006/TortilladaKalimotxadaFestaMajorProspe2010?feat=embedwebsite
 ---
 

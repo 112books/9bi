@@ -11,7 +11,7 @@ tags:
 - titelles
 - diumenge
 cover:
-  image: images/covers/2dc38bdcf3e63a99.webp
+  image: /images/covers/2dc38bdcf3e63a99.webp
 album_url: https://photos.app.goo.gl/qoanCh2EXfA56dnF6
 ---
 

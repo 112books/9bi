@@ -13,7 +13,7 @@ tags:
 - Lille
 - manel sala ulls
 cover:
-  image: images/covers/7e84c0fd1ee53129.webp
+  image: /images/covers/7e84c0fd1ee53129.webp
 album_url: http://picasaweb.google.es/ulls1963/Lille?feat=embedwebsite
 ---
 

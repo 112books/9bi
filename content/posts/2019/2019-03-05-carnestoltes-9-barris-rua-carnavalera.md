@@ -9,7 +9,7 @@ tags:
 - carnestoltes 2019
 - rua carnaval
 cover:
-  image: images/covers/7771915832f7bb57.webp
+  image: /images/covers/7771915832f7bb57.webp
 album_url: https://photos.google.com/share/AF1QipNh7KPQZG02gOIHqnTuaA0MI03PBsAX8rz0EofBSud85Vnj3jnYB06uO_vFXCNOXw?key=UGc5elZpLXBNY3ZaZnh3aENab3VGQmhpNHBySUFn
 ---
 

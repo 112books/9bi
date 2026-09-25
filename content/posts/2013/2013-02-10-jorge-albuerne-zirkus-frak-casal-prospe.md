@@ -11,7 +11,7 @@ tags:
 - prospe
 - Chino
 cover:
-  image: images/covers/f4f4387dc1235826.webp
+  image: /images/covers/f4f4387dc1235826.webp
 album_url: https://picasaweb.google.com/100268695753733554853/JorgeAlbuerneZirkusFrakCasalProspeCarnaval2013?authuser=0&amp;feat=embedwebsite
 ---
 

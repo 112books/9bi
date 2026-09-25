@@ -18,7 +18,7 @@ tags:
 - plaça Santa Engràcia
 - pocallum
 cover:
-  image: images/covers/9f9abb312f59489d.webp
+  image: /images/covers/9f9abb312f59489d.webp
 album_url: https://photos.app.goo.gl/9u5Az6yo4A4a95Ge9
 ---
 

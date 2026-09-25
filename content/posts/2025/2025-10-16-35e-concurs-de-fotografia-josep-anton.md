@@ -11,7 +11,7 @@ tags:
 - presentació
 - fotografia
 cover:
-  image: images/covers/04c29572dd468eb9.webp
+  image: /images/covers/04c29572dd468eb9.webp
 album_url: https://www.casalprospe.org/35e-concurs-de-fotografia-josep-anton-cordoncillo/
 ---
 

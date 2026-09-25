@@ -8,7 +8,7 @@ tags:
 - vermutsical
 - art
 cover:
-  image: images/covers/9393014b023140ab.webp
+  image: /images/covers/9393014b023140ab.webp
 album_url: https://https://picasaweb.google.com/115791131166530059320/VERMUTSICAL03?authuser=0&feat=embedwebsite
 ---
 

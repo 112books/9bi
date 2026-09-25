@@ -11,7 +11,7 @@ tags:
 - Homenatge
 - 9 barris
 cover:
-  image: images/covers/3cb1d22853528049.webp
+  image: /images/covers/3cb1d22853528049.webp
 album_url: https://picasaweb.google.com/100268695753733554853/HomenatgeAlCanastoVoladorExpo?authuser=0&amp;feat=embedwebsite
 ---
 

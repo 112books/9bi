@@ -11,7 +11,7 @@ tags:
 - casal barri prosperitat
 - manel sala ulls
 cover:
-  image: images/covers/1d72d772f5e89dd3.webp
+  image: /images/covers/1d72d772f5e89dd3.webp
 album_url: http://picasaweb.google.es/ulls1963/RecitalDePoesiaDeMarioOrtizIRiotUberAlles?feat=embedwebsite
 ---
 

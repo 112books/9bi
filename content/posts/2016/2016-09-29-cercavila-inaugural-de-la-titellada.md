@@ -7,7 +7,7 @@ slug: cercavila-inaugural-de-la-titellada
 tags:
 - associació de titellaires de Roquetes
 cover:
-  image: images/covers/299b0e0276a291c6.webp
+  image: /images/covers/299b0e0276a291c6.webp
 album_url: https://goo.gl/photos/AgrnGXYZQsrAR5PG7
 ---
 

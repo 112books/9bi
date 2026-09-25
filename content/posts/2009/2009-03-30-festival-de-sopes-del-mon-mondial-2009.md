@@ -13,7 +13,7 @@ tags:
 - Lille
 - manel sala ulls
 cover:
-  image: images/covers/602e1869bb10ab34.webp
+  image: /images/covers/602e1869bb10ab34.webp
 album_url: http://picasaweb.google.es/ulls1963/SOPESDELMON?authkey=Gv1sRgCIeSquyUrb-1IA&amp;feat=embedwebsite
 ---
 

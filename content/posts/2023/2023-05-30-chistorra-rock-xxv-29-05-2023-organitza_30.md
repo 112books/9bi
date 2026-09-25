@@ -10,7 +10,7 @@ tags:
 - rock
 - mar
 cover:
-  image: images/covers/b2b552f375510e62.webp
+  image: /images/covers/b2b552f375510e62.webp
 album_url: https://photos.app.goo.gl/fhvVSJ2bLpdnZ6xr7
 ---
 

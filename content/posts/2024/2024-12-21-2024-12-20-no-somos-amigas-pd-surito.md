@@ -18,7 +18,7 @@ tags:
 - queer
 - sexualitats
 cover:
-  image: images/covers/17d9120212590925.webp
+  image: /images/covers/17d9120212590925.webp
 album_url: https://photos.app.goo.gl/sKKNecQYHhxjyt1s5
 ---
 

@@ -10,7 +10,7 @@ tags:
 - mar
 - Montseny nevat
 cover:
-  image: images/covers/e9e2137bf455d314.webp
+  image: /images/covers/e9e2137bf455d314.webp
 album_url: http://picasaweb.google.es/ulls1963/BarcelonaDesdeElMar1101200902?feat=embedwebsite
 ---
 

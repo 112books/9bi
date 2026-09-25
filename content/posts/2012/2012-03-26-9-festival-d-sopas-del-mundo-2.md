@@ -8,7 +8,7 @@ tags:
 - convivència
 - SOPAS
 cover:
-  image: images/covers/adcbc9576ba20afb.webp
+  image: /images/covers/adcbc9576ba20afb.webp
 album_url: https://picasaweb.google.com/Perdo.Garcia/FESTIVALDESOPAS02?authuser=0&feat=embedwebsite
 ---
 

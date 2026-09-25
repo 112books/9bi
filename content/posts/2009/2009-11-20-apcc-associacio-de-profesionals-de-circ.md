@@ -10,7 +10,7 @@ tags:
 - la central del circ
 - manel sala ulls
 cover:
-  image: images/covers/4a096f86a1068129.webp
+  image: /images/covers/4a096f86a1068129.webp
 album_url: http://picasaweb.google.es/ulls2006/APCCASSOCIACIODEPROFESIONALSDECIRCDECATALUNYA?feat=embedwebsite
 ---
 

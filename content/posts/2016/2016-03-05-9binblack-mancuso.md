@@ -8,7 +8,7 @@ tags:
 - 9binblack
 - 9bi
 cover:
-  image: images/covers/a7f8191274fb3cbf.webp
+  image: /images/covers/a7f8191274fb3cbf.webp
 album_url: https://picasaweb.google.com/103138221614479310970/9BinBlackMancuso?authuser=0&feat=embedwebsite
 ---
 

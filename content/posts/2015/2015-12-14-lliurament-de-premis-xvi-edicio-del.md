@@ -11,7 +11,7 @@ tags:
 - Mamen gargallo
 - Prosperitat
 cover:
-  image: images/covers/158a4261d6a46e2f.webp
+  image: /images/covers/158a4261d6a46e2f.webp
 album_url: https://picasaweb.google.com/100268695753733554853/LliuramentDePremisXVIEdicioDelConcursFotograficJosepAntonCordoncillo?authuser=0&amp;feat=embedwebsite
 ---
 

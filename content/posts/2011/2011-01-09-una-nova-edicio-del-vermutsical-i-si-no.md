@@ -9,7 +9,7 @@ tags:
 - vermut sical
 - vermuth
 cover:
-  image: images/covers/8798f8a03843125b.webp
+  image: /images/covers/8798f8a03843125b.webp
 album_url: http://picasaweb.google.com/linuxbcn/VermutsicalISiNoCalTambe?feat=embedwebsite
 ---
 

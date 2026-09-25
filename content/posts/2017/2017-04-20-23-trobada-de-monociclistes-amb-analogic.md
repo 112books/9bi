@@ -8,7 +8,7 @@ tags:
 - monociclistes
 - trobada
 cover:
-  image: images/covers/245764e504f92932.webp
+  image: /images/covers/245764e504f92932.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

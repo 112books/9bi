@@ -7,7 +7,7 @@ slug: espectacle-de-magia-i-mentalisme-per
 tags:
 - teatre
 cover:
-  image: images/covers/b233c66447c20ce3.webp
+  image: /images/covers/b233c66447c20ce3.webp
 ---
 
 

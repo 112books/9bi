@@ -9,7 +9,7 @@ tags:
 - circ
 - STA
 cover:
-  image: images/covers/7853158054d5ed93.webp
+  image: /images/covers/7853158054d5ed93.webp
 album_url: https://picasaweb.google.com/100268695753733554853/EscolaDeCircRogelioRivelCurtcirckit2012?authuser=0&amp;feat=embedwebsite
 ---
 

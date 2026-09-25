@@ -9,7 +9,7 @@ tags:
 - hot train trio
 - les nits de Capibila
 cover:
-  image: images/covers/daf72a1be873a167.webp
+  image: /images/covers/daf72a1be873a167.webp
 album_url: https://photos.app.goo.gl/TtunpTnU3D7WBV7g9
 ---
 

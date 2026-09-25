@@ -10,7 +10,7 @@ tags:
 - barri
 - mar
 cover:
-  image: images/covers/8dcfddfd6c7a4177.webp
+  image: /images/covers/8dcfddfd6c7a4177.webp
 album_url: https://picasaweb.google.com/103138221614479310970/PresentacioA9barrisDeLaMarxaDeLaDignitat?authuser=0&feat=embedwebsite
 ---
 

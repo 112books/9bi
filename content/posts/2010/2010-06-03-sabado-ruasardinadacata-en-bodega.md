@@ -8,7 +8,7 @@ tags:
 - festa major prospe
 - festes de prospe
 cover:
-  image: images/covers/3ce9623b879dda80.webp
+  image: /images/covers/3ce9623b879dda80.webp
 album_url: http://picasaweb.google.com/Perdo.Garcia/Prospe?feat=embedwebsite
 ---
 

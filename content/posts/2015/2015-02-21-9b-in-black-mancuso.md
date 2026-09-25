@@ -8,7 +8,7 @@ tags:
 - blues
 - música
 cover:
-  image: images/covers/f6e8766216c09970.webp
+  image: /images/covers/f6e8766216c09970.webp
 album_url: ' https://picasaweb.google.com/116805523004990742624/9BInBlackMancuso?authuser=0&authkey=Gv1sRgCL-sr8nd0bGdkwE&feat=embedwebsite '
 ---
 

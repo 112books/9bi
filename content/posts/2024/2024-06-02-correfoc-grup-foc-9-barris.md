@@ -10,7 +10,7 @@ tags:
 - barri
 - foc
 cover:
-  image: images/covers/a7f2310bcc51a54f.webp
+  image: /images/covers/a7f2310bcc51a54f.webp
 album_url: https://photos.app.goo.gl/ZTyscWDM8giDrneW8
 ---
 

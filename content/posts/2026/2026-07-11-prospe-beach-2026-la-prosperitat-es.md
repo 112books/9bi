@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - fotografies
 cover:
-  image: images/covers/cf5dcc48db9155f9.webp
+  image: /images/covers/cf5dcc48db9155f9.webp
 album_url: https://blog.pocallum.cat/2026/07/11/2026-07-11-prospe-beach-again/
 ---
 

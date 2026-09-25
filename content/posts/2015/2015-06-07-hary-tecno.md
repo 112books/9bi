@@ -7,7 +7,7 @@ slug: hary-tecno
 tags:
 - música
 cover:
-  image: images/covers/6b64c92807268350.webp
+  image: /images/covers/6b64c92807268350.webp
 album_url: https://picasaweb.google.com/115791131166530059320/HARYTECNO?authuser=0&feat=embedwebsite
 ---
 

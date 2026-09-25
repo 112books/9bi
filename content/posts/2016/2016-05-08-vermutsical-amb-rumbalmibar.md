@@ -8,7 +8,7 @@ tags:
 - vermutsical
 - rumba
 cover:
-  image: images/covers/a36cfeeb9d05dc67.webp
+  image: /images/covers/a36cfeeb9d05dc67.webp
 album_url: https://picasaweb.google.com/103138221614479310970/6282221504344042513?authuser=0&feat=embedwebsite
 ---
 

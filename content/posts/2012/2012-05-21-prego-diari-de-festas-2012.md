@@ -11,7 +11,7 @@ tags:
 - diari
 - STA
 cover:
-  image: images/covers/0c7f68d021899ec1.webp
+  image: /images/covers/0c7f68d021899ec1.webp
 album_url: https://picasaweb.google.com/115791131166530059320/21DeMayoDe201202?authuser=0&feat=embedwebsite
 ---
 

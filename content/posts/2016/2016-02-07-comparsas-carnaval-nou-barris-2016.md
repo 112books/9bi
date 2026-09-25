@@ -10,7 +10,7 @@ tags:
 - carnaval
 - barri
 cover:
-  image: images/covers/3484a451caa22097.webp
+  image: /images/covers/3484a451caa22097.webp
 album_url: https://picasaweb.google.com/102149297277529522464/LasComparsasDel2016?authuser=0&feat=embedwebsite
 ---
 

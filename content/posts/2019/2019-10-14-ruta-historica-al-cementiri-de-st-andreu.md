@@ -11,7 +11,7 @@ tags:
 - ignasi
 - barri
 cover:
-  image: images/covers/2f07a983e290c184.webp
+  image: /images/covers/2f07a983e290c184.webp
 album_url: https://photos.app.goo.gl/myDNa7NCAAKa7eqS6
 ---
 

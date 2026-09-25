@@ -11,7 +11,7 @@ tags:
 - exposició
 - llibre
 cover:
-  image: images/covers/c111dcaad9af30c3.webp
+  image: /images/covers/c111dcaad9af30c3.webp
 album_url: https://photos.app.goo.gl/yavrOVZGtotIecJk2
 ---
 

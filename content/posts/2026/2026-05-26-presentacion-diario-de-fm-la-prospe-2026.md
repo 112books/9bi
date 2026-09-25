@@ -11,7 +11,7 @@ tags:
 - presentació
 - Las Rudas
 cover:
-  image: images/covers/3513b4e11f409df9.webp
+  image: /images/covers/3513b4e11f409df9.webp
 album_url: https://photos.google.com/u/0/album/AF1QipP3sD6VxJvQmMlx9nLho8jDKBNOVB8u8EugFCf2?hl=es
 ---
 

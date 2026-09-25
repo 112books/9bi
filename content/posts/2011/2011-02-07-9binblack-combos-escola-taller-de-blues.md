@@ -12,7 +12,7 @@ tags:
 - fotografia
 - linuxbcn
 cover:
-  image: images/covers/fa04c4318f361fdf.webp
+  image: /images/covers/fa04c4318f361fdf.webp
 album_url: https://picasaweb.google.com/linuxbcn/9binblackCombosEscolaTallerDeBluesDeBarcelona?authkey=Gv1sRgCN7yktXQ466xswE&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - FESTA
 - rock
 cover:
-  image: images/covers/87ddf923fd517ace.webp
+  image: /images/covers/87ddf923fd517ace.webp
 album_url: https://photos.google.com/share/AF1QipPkGnQtjxiKfqVf5jMit0Hkbx9csXsLzeW3PlXNDzOwZWViPL7In0pCZM9hDciz9Q?key=cEdxeW9hQ1FhS21hTFNHSnI5aGdwXzNVZjg2eVhn
 ---
 

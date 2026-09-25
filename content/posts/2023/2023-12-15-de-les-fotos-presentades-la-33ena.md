@@ -11,7 +11,7 @@ tags:
 - fotos
 - art
 cover:
-  image: images/covers/c18e4c8d203d5387.webp
+  image: /images/covers/c18e4c8d203d5387.webp
 album_url: https://photos.app.goo.gl/m8wfFyqRnxa1Wdd18
 ---
 

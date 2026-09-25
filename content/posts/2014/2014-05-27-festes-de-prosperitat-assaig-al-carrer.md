@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - prospe
 cover:
-  image: images/covers/b4b6a6b3b3cdd11c.webp
+  image: /images/covers/b4b6a6b3b3cdd11c.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestesDeProsperitatAssaigAlCarrer?authuser=0&feat=embedwebsite
 ---
 

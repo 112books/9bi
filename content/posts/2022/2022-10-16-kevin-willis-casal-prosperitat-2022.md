@@ -10,7 +10,7 @@ tags:
 - música
 - Rock Fisión
 cover:
-  image: images/covers/83a6380afba7a2d6.webp
+  image: /images/covers/83a6380afba7a2d6.webp
 album_url: https://photos.app.goo.gl/2hvATqPBvuYV6Fbx9
 ---
 

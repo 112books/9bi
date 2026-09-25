@@ -10,7 +10,7 @@ tags:
 - rock
 - pop
 cover:
-  image: images/covers/f26aae12dbcf7d99.webp
+  image: /images/covers/f26aae12dbcf7d99.webp
 album_url: https://picasaweb.google.com/115791131166530059320/VERMUSICAL?authuser=0&feat=embedwebsite
 ---
 

@@ -8,7 +8,7 @@ tags:
 - espuma
 - festes de prospe 2017
 cover:
-  image: images/covers/39c4ecf46cea3370.webp
+  image: /images/covers/39c4ecf46cea3370.webp
 album_url: https://goo.gl/photos/ZtcGf98HU3qFRdKY7
 ---
 

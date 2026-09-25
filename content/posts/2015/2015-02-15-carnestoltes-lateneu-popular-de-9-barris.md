@@ -11,7 +11,7 @@ tags:
 - popular
 - barri
 cover:
-  image: images/covers/243cf666ed22e013.webp
+  image: /images/covers/243cf666ed22e013.webp
 album_url: https://picasaweb.google.com/103138221614479310970/CarnestoltesALAteneuPopularDe9Barris?authuser=0&feat=embedwebsite
 ---
 

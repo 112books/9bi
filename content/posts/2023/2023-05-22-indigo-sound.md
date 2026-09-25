@@ -10,7 +10,7 @@ tags:
 - FESTA
 - diari
 cover:
-  image: images/covers/a31af980cc1b0c36.webp
+  image: /images/covers/a31af980cc1b0c36.webp
 album_url: https://photos.app.goo.gl/QCKjfG7FPVNS6zHx6
 ---
 

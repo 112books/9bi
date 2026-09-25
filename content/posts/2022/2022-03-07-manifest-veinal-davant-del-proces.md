@@ -9,7 +9,7 @@ tags:
 - Associació de Veïnes i Veïns de Prosperitat
 - ideal plàstica flor
 cover:
-  image: images/covers/df32fa3f62ac8661.webp
+  image: /images/covers/df32fa3f62ac8661.webp
 album_url: https://photos.app.goo.gl/Tj4t8MbHaA5469M16
 ---
 

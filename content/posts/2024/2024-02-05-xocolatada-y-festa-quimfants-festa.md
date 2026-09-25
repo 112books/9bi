@@ -12,7 +12,7 @@ tags:
 - infantil
 - tallers
 cover:
-  image: images/covers/bc5c083f14aa18b5.webp
+  image: /images/covers/bc5c083f14aa18b5.webp
 album_url: https://photos.app.goo.gl/WF2zZP5LKP8pzCZV8
 ---
 

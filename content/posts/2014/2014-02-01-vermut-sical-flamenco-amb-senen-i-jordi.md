@@ -9,7 +9,7 @@ tags:
 - flamenco
 - flamenc
 cover:
-  image: images/covers/735a71cd7c0afdfd.webp
+  image: /images/covers/735a71cd7c0afdfd.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutSicalFlamencoAmbSenenIJordiGuerrero?authuser=0&feat=embedwebsite
 ---
 

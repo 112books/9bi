@@ -9,7 +9,7 @@ tags:
 - concert
 - festes
 cover:
-  image: images/covers/6d8e5ba1c1bcaca6.webp
+  image: /images/covers/6d8e5ba1c1bcaca6.webp
 album_url: https://photos.app.goo.gl/jjWpAa42d3xJur4LA
 ---
 

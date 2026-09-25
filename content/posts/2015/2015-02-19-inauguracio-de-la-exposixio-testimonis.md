@@ -12,7 +12,7 @@ tags:
 - prospe
 - barri
 cover:
-  image: images/covers/df5acf43437c8306.webp
+  image: /images/covers/df5acf43437c8306.webp
 album_url: https://picasaweb.google.com/103138221614479310970/InauguracioDeLaExposixioTestimonisDUnBarriDeCasetesIHortetsAlCasalDeProsperitat?authuser=0&feat=embedwebsite
 ---
 

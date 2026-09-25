@@ -9,7 +9,7 @@ tags:
 - dishows
 - El Chaquetilla i Txus Molina
 cover:
-  image: images/covers/498f630482e4bd6b.webp
+  image: /images/covers/498f630482e4bd6b.webp
 album_url: https://picasaweb.google.com/103138221614479310970/DiShowsAmbElChaquetillaITxusMolina?authuser=0&amp;feat=embedwebsite
 ---
 

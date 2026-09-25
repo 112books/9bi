@@ -9,7 +9,7 @@ tags:
 - música
 - musica 2025
 cover:
-  image: images/covers/315ff9f1909e9334.webp
+  image: /images/covers/315ff9f1909e9334.webp
 album_url: https://photos.app.goo.gl/wzKwpNL6BWDwiYXF8
 ---
 

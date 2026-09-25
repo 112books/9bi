@@ -9,7 +9,7 @@ tags:
 - exposició fotogràfica
 - grup foto roquetes
 cover:
-  image: images/covers/fbb9e2cd7d66ba07.webp
+  image: /images/covers/fbb9e2cd7d66ba07.webp
 album_url: https://photos.google.com/share/AF1QipNk2jCksb2rF-VDLV4hwFYrYiqjdxzID1WKiHfQPnwKFq2W5dOFkhtxxrQg42PXdA?key=dFZuTUwyQ25lUXNjUzRqenRTTGpFQnhvR241MF93
 ---
 

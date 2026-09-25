@@ -9,7 +9,7 @@ tags:
 - castanyada
 - STA
 cover:
-  image: images/covers/64e5c9ea6a5cf42b.webp
+  image: /images/covers/64e5c9ea6a5cf42b.webp
 album_url: https://picasaweb.google.com/115452009915421757608/CastanyadaICelebracioAniversaris?authuser=0&feat=embedwebsite
 ---
 

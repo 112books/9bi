@@ -10,7 +10,7 @@ tags:
 - cursa9barris
 - running
 cover:
-  image: images/covers/4e172fb8ada88597.webp
+  image: /images/covers/4e172fb8ada88597.webp
 album_url: https://photos.app.goo.gl/oeNQgPjghWJTBxZFA
 ---
 

@@ -10,7 +10,7 @@ tags:
 - noubarris
 - Sierra de la culebra
 cover:
-  image: images/covers/ac97c714de6e366c.webp
+  image: /images/covers/ac97c714de6e366c.webp
 album_url: https://photos.app.goo.gl/xkaeeqgig43qmhAJ7
 ---
 

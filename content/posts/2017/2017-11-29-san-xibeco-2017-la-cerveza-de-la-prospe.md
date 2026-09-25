@@ -9,7 +9,7 @@ tags:
 - Prosperitat
 - sanxibeco2017
 cover:
-  image: images/covers/6410317de03a20bf.webp
+  image: /images/covers/6410317de03a20bf.webp
 album_url: https://photos.app.goo.gl/dVjdbT4jTx2c5Lcf1
 ---
 

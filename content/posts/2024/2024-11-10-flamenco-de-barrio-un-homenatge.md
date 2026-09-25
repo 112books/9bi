@@ -18,7 +18,7 @@ tags:
 - nou barris
 - Omega
 cover:
-  image: images/covers/962a6b92273a63a3.webp
+  image: /images/covers/962a6b92273a63a3.webp
 album_url: https://photos.app.goo.gl/icCcw7jDzSutrWb17
 ---
 

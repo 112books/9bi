@@ -9,7 +9,7 @@ tags:
 - Can Peguera
 - circ
 cover:
-  image: images/covers/7c2eb8f788dd71bf.webp
+  image: /images/covers/7c2eb8f788dd71bf.webp
 album_url: https://picasaweb.google.com/116805523004990742624/DesastrosusCircusEnCanPeguera?authuser=0&authkey=Gv1sRgCJOxyOrUlLK4sgE&feat=embedwebsite
 ---
 

@@ -14,7 +14,7 @@ tags:
 - las furias
 - Mojitos
 cover:
-  image: images/covers/bbfc551c3693e8a0.webp
+  image: /images/covers/bbfc551c3693e8a0.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestesDeProsperitatDiumenge02?authuser=0&feat=embedwebsite
 ---
 

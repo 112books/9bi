@@ -12,7 +12,7 @@ tags:
 - Barcelona
 - música
 cover:
-  image: images/covers/ea4bbf0a25ab0737.webp
+  image: /images/covers/ea4bbf0a25ab0737.webp
 album_url: https://photos.app.goo.gl/ugQeqCZY7vvR696eA
 ---
 

@@ -11,7 +11,7 @@ tags:
 - facebook
 - formació
 cover:
-  image: images/covers/8cf83fabf3d8ac0c.webp
+  image: /images/covers/8cf83fabf3d8ac0c.webp
 album_url: https://goo.gl/photos/BRrjD9C9A34MuoEo9
 ---
 

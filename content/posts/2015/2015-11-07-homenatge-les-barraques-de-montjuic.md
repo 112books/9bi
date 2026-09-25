@@ -7,7 +7,7 @@ slug: homenatge-les-barraques-de-montjuic
 tags:
 - Homenatge
 cover:
-  image: images/covers/01d217eef3c0f408.webp
+  image: /images/covers/01d217eef3c0f408.webp
 album_url: https://picasaweb.google.com/103138221614479310970/HomenatgeALesBarraquesDeMontjuic?authuser=0&feat=embedwebsite
 ---
 

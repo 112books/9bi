@@ -17,7 +17,7 @@ tags:
 - Musicoterapia
 - pigmeos
 cover:
-  image: images/covers/e972a790853bc070.webp
+  image: /images/covers/e972a790853bc070.webp
 album_url: https://picasaweb.google.com/linuxbcn/ResALaNeveraPerQueEsPassaGanaSiEsLlencaElMenjar?feat=embedwebsite
 ---
 

@@ -7,7 +7,7 @@ slug: pren-laire-espectacle-de-teatre
 tags:
 - teatre
 cover:
-  image: images/covers/fa8f114081aa556d.webp
+  image: /images/covers/fa8f114081aa556d.webp
 album_url: https://picasaweb.google.com/103138221614479310970/PrenLAireEspectacleDeTeatre?authuser=0&feat=embedwebsite
 ---
 

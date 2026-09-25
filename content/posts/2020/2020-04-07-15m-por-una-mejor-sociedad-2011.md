@@ -8,7 +8,7 @@ tags:
 - reflexió
 - art
 cover:
-  image: images/covers/7799af176ff2abfd.webp
+  image: /images/covers/7799af176ff2abfd.webp
 album_url: https://photos.app.goo.gl/TGMVB2QfxgyzwyBA6
 ---
 

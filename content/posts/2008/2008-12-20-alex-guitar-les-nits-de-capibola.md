@@ -12,7 +12,7 @@ tags:
 - les nits de Capibila
 - vídeo
 cover:
-  image: images/covers/d17127453955bbb6.webp
+  image: /images/covers/d17127453955bbb6.webp
 album_url: https://photos.app.goo.gl/qLoifyiJUY5JgduMA
 ---
 

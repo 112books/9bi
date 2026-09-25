@@ -11,7 +11,7 @@ tags:
 - vermutsical
 - prospe
 cover:
-  image: images/covers/84ff2a04b8551ee5.webp
+  image: /images/covers/84ff2a04b8551ee5.webp
 album_url: https://photos.app.goo.gl/CGchA43uWFqprqht8
 ---
 

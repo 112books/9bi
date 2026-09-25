@@ -11,7 +11,7 @@ tags:
 - circ
 - dia de la música
 cover:
-  image: images/covers/e83604b81c502249.webp
+  image: /images/covers/e83604b81c502249.webp
 album_url: http://picasaweb.google.es/ulls2006/CabaretQuinaBarra02?feat=embedwebsite
 ---
 

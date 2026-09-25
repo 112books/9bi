@@ -9,7 +9,7 @@ tags:
 - Centre Ton i Guida
 - PlaDeBarris
 cover:
-  image: images/covers/bf7a8fd5d0790589.webp
+  image: /images/covers/bf7a8fd5d0790589.webp
 ---
 
 **Inaguració 7 de Novembre - 19.30h

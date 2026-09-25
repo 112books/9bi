@@ -13,7 +13,7 @@ tags:
 - Dani Nel·lo
 - Parc Central de Nou Barris
 cover:
-  image: images/covers/ba2eae45da46a0bd.webp
+  image: /images/covers/ba2eae45da46a0bd.webp
 album_url: https://picasaweb.google.com/103138221614479310970/11eFestivalDeBluesDeBarcelonaDaniNelLoBarcelonaBigBluesBandBarbaraClifford?authuser=0&feat=embedwebsite
 ---
 

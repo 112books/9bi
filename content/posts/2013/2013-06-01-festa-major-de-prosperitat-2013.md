@@ -10,7 +10,7 @@ tags:
 - prospe
 - FESTA
 cover:
-  image: images/covers/3c7aede68ad8919c.webp
+  image: /images/covers/3c7aede68ad8919c.webp
 album_url: https://picasaweb.google.com/nico9barrisimarge/FestaMajorDeProsperitat2013Cercavila?authuser=0&feat=embedwebsite
 ---
 

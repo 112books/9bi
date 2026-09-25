@@ -11,7 +11,7 @@ tags:
 - barri
 - casa
 cover:
-  image: images/covers/6bd474341adc2632.webp
+  image: /images/covers/6bd474341adc2632.webp
 album_url: https://photos.app.goo.gl/DGMKQtpqi9k6ZAm02
 ---
 

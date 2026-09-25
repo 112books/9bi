@@ -7,7 +7,7 @@ slug: dani-nello-los-saxofonistas-salvajes
 tags:
 - STA
 cover:
-  image: images/covers/683437a5a3eb156f.webp
+  image: /images/covers/683437a5a3eb156f.webp
 album_url: https://photos.app.goo.gl/PF5DfMjvoFtXhFbp8
 ---
 

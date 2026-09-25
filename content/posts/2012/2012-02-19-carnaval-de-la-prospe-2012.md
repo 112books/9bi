@@ -11,7 +11,7 @@ tags:
 - prospe
 - fotos
 cover:
-  image: images/covers/7cabb3edef9cf246.webp
+  image: /images/covers/7cabb3edef9cf246.webp
 album_url: https://picasaweb.google.com/nico9barrisimarge/Carnaval2012?authuser=0&feat=embedwebsite
 ---
 

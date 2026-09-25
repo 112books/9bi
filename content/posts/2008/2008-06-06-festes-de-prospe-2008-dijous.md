@@ -12,7 +12,7 @@ tags:
 - vídeo
 - xarnecs de la Prospe
 cover:
-  image: images/covers/472a38137b22ebee.webp
+  image: /images/covers/472a38137b22ebee.webp
 album_url: https://photos.app.goo.gl/urskSJKDK4crGauB6
 ---
 

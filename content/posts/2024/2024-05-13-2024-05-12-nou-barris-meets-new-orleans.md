@@ -9,7 +9,7 @@ tags:
 - Brass Band
 - NouBarrisMeetsNewOrleans
 cover:
-  image: images/covers/c9c7785b1466365a.webp
+  image: /images/covers/c9c7785b1466365a.webp
 album_url: https://photos.google.com/share/AF1QipP2nEqEEpp87td2RVqthcckdT8sN0y_ddXABI6OlwskB8vv31pJauBGQRRp2czpNw?key=SE9ka0xUUlJDcWZyeFpWRndXOF82Y0xUVEN6cFh3
 ---
 

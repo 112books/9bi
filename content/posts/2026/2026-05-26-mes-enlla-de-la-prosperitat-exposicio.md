@@ -9,7 +9,7 @@ tags:
 - exposició
 - més enllà de la prosperitat
 cover:
-  image: images/covers/03132ca0161014d9.webp
+  image: /images/covers/03132ca0161014d9.webp
 ---
 
 #

@@ -11,7 +11,7 @@ tags:
 - prospe
 - llibre
 cover:
-  image: images/covers/623ea9e0bc0a40f3.webp
+  image: /images/covers/623ea9e0bc0a40f3.webp
 album_url: https://photos.app.goo.gl/aX6B6WWosnFj6Bz1A
 ---
 

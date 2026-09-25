@@ -11,7 +11,7 @@ tags:
 - menjar
 - ruta
 cover:
-  image: images/covers/b67e4073530e328d.webp
+  image: /images/covers/b67e4073530e328d.webp
 album_url: https://photos.app.goo.gl/NkGT4orTuhrrPPXo9
 ---
 

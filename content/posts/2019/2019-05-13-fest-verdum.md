@@ -11,7 +11,7 @@ tags:
 - dissabte
 - concert
 cover:
-  image: images/covers/20afa3905d7e9674.webp
+  image: /images/covers/20afa3905d7e9674.webp
 album_url: https://photos.app.goo.gl/gLTHnf7b9f2asVvr9
 ---
 

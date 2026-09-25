@@ -10,7 +10,7 @@ tags:
 - hip hop
 - manel sala ulls
 cover:
-  image: images/covers/014c1bfa746453fa.webp
+  image: /images/covers/014c1bfa746453fa.webp
 album_url: http://picasaweb.google.com/ulls2006/HipHopGraffitiAteneuPopular9BarrisAniversarioZuluNationHipHopAniversario?feat=embedwebsite
 ---
 

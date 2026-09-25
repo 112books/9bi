@@ -11,7 +11,7 @@ tags:
 - barri
 - rafi
 cover:
-  image: images/covers/c516c09bdb81d443.webp
+  image: /images/covers/c516c09bdb81d443.webp
 album_url: https://photos.app.goo.gl/aAcuymmhhkC8MKfX6
 ---
 

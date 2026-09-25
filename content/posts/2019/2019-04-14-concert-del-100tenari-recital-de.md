@@ -11,7 +11,7 @@ tags:
 - recital
 - ball
 cover:
-  image: images/covers/43b42281f7a9d0f4.webp
+  image: /images/covers/43b42281f7a9d0f4.webp
 album_url: https://photos.app.goo.gl/b2cuN1EqfQ49QECc6
 ---
 

@@ -9,7 +9,7 @@ tags:
 - Casal de barri Prosperitat
 - teatre
 cover:
-  image: images/covers/6c46e50b81aec6d5.webp
+  image: /images/covers/6c46e50b81aec6d5.webp
 album_url: https://picasaweb.google.com/103138221614479310970/TeatreAiMareQuinaNit?authuser=0&feat=embedwebsite
 ---
 

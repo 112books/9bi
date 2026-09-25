@@ -11,7 +11,7 @@ tags:
 - improviciados
 - Prosperitat
 cover:
-  image: images/covers/9530dbcd93288295.webp
+  image: /images/covers/9530dbcd93288295.webp
 album_url: https://photos.app.goo.gl/4bcvH46hR1AtVFT66
 ---
 

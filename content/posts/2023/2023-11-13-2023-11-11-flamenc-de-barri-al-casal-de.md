@@ -10,7 +10,7 @@ tags:
 - flamenco
 - flamenco de barrio
 cover:
-  image: images/covers/eab185f2205ddac5.webp
+  image: /images/covers/eab185f2205ddac5.webp
 album_url: https://photos.app.goo.gl/4AoaUEMi17sgeFEw8
 ---
 

@@ -11,7 +11,7 @@ tags:
 - casa
 - avis
 cover:
-  image: images/covers/48334c27e39a8142.webp
+  image: /images/covers/48334c27e39a8142.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ESPAISALUTROQUETES?authuser=0&feat=embedwebsite
 ---
 

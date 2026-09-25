@@ -8,7 +8,7 @@ tags:
 - dissabte
 - festes de prospe
 cover:
-  image: images/covers/69920ab0419b78bd.webp
+  image: /images/covers/69920ab0419b78bd.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestesDeProspe2013Dissabte?authuser=0&feat=embedwebsite
 ---
 

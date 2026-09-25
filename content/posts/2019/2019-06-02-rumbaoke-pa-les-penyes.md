@@ -8,7 +8,7 @@ tags:
 - festes de prospe 2019
 - rumbaoke
 cover:
-  image: images/covers/11df829ac9d04cf9.webp
+  image: /images/covers/11df829ac9d04cf9.webp
 album_url: https://photos.app.goo.gl/iZQ2Midh3XxHHqcs8
 ---
 

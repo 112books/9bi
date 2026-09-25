@@ -8,7 +8,7 @@ tags:
 - ruta
 - STA
 cover:
-  image: images/covers/881fdba54f7d8c7d.webp
+  image: /images/covers/881fdba54f7d8c7d.webp
 album_url: https://picasaweb.google.com/110015855395179205688/MercatModernista?authuser=0&feat=embedwebsite
 ---
 

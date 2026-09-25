@@ -7,7 +7,7 @@ slug: correfoc-i-piromusical
 tags:
 - festes de prospe 2018
 cover:
-  image: images/covers/57ed9b863eb1fe49.webp
+  image: /images/covers/57ed9b863eb1fe49.webp
 album_url: https://photos.app.goo.gl/lJzHOedmRkfthfBE2
 ---
 

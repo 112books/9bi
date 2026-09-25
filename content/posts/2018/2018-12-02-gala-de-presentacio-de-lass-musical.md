@@ -10,7 +10,7 @@ tags:
 - música
 - barri
 cover:
-  image: images/covers/e5197dcd6672e9ad.webp
+  image: /images/covers/e5197dcd6672e9ad.webp
 album_url: https://photos.app.goo.gl/zFrCkvnCEkJmEtgN9
 ---
 

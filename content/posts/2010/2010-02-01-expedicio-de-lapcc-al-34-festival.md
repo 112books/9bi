@@ -10,7 +10,7 @@ tags:
 - festival circ montecarlo
 - manel sala ulls
 cover:
-  image: images/covers/603003af0486a12c.webp
+  image: /images/covers/603003af0486a12c.webp
 album_url: http://picasaweb.google.com/ulls2006/34FestivalInternacionalDuCirqueDeMonteCarlo?feat=embedwebsite
 ---
 

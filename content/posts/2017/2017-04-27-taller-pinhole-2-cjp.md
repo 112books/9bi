@@ -8,7 +8,7 @@ tags:
 - pinhole
 - cjp
 cover:
-  image: images/covers/ee1c9e0665b650f1.webp
+  image: /images/covers/ee1c9e0665b650f1.webp
 album_url: https://goo.gl/photos/BCZLYMgraSwwpdpz8
 ---
 

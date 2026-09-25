@@ -11,7 +11,7 @@ tags:
 - Penyes
 - xibeco
 cover:
-  image: images/covers/6c372691cb44f61d.webp
+  image: /images/covers/6c372691cb44f61d.webp
 album_url: https://photos.app.goo.gl/xzi9VzURY1j8aoQw6
 ---
 

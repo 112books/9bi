@@ -11,7 +11,7 @@ tags:
 - 9 barris
 - jornades
 cover:
-  image: images/covers/a093ee056979ef1d.webp
+  image: /images/covers/a093ee056979ef1d.webp
 album_url: https://photos.app.goo.gl/sQBFnWzjtWpVUPUe8
 ---
 

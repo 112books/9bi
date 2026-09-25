@@ -7,7 +7,7 @@ slug: 2022-04-08-concert-kilometre-0-frank
 tags:
 - concert
 cover:
-  image: images/covers/849a2b2e2afe1d5a.webp
+  image: /images/covers/849a2b2e2afe1d5a.webp
 album_url: https://photos.app.goo.gl/SSWt6iv5nYMmqGUF9
 ---
 

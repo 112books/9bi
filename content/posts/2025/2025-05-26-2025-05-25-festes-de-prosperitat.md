@@ -11,7 +11,7 @@ tags:
 - ambient festiu
 - Prosperitat
 cover:
-  image: images/covers/e1d0f6464cebf27f.webp
+  image: /images/covers/e1d0f6464cebf27f.webp
 album_url: https://photos.app.goo.gl/1mcQrm1MAM6DWwJ3A
 ---
 

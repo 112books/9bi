@@ -11,7 +11,7 @@ tags:
 - preparació
 - districte
 cover:
-  image: images/covers/bdd156c30981c4e3.webp
+  image: /images/covers/bdd156c30981c4e3.webp
 album_url: https://goo.gl/photos/uZZNhGtxoqp4v7od7
 ---
 

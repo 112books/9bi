@@ -14,7 +14,7 @@ tags:
 - Prosperitat
 - transmarató
 cover:
-  image: images/covers/3efc68f0d5b0f948.webp
+  image: /images/covers/3efc68f0d5b0f948.webp
 album_url: https://photos.app.goo.gl/iHkRxWpivQ9zkm76A
 ---
 

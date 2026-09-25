@@ -10,7 +10,7 @@ tags:
 - blues
 - manel sala ulls
 cover:
-  image: images/covers/09f4df5055c03284.webp
+  image: /images/covers/09f4df5055c03284.webp
 album_url: http://picasaweb.google.es/ulls2006/MasterClassPerePuertasLoneRhinoClub?feat=embedwebsite
 ---
 

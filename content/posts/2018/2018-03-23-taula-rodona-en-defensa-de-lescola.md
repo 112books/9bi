@@ -7,7 +7,7 @@ slug: taula-rodona-en-defensa-de-lescola
 tags:
 - activitats
 cover:
-  image: images/covers/59d72ff43ae1f549.webp
+  image: /images/covers/59d72ff43ae1f549.webp
 album_url: https://photos.app.goo.gl/Fd6TLduzUi9ccijY2
 ---
 

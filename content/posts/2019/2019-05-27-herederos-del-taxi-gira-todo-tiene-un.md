@@ -8,7 +8,7 @@ tags:
 - festa prospe 2019
 - Herederos del Taxi
 cover:
-  image: images/covers/d170fa8cb431994e.webp
+  image: /images/covers/d170fa8cb431994e.webp
 album_url: https://photos.google.com/share/AF1QipMtOVAtd_HmcDgHZkWgAXlKeT4QdQgE9E2qKCsviekXLkGlHaTKvFHdR-U02FwSag?key=VXlvZWJUM2lsUmlKVUk4X3V6RjlfSWpTVE1TWnBn
 ---
 

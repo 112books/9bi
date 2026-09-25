@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - Luz
 cover:
-  image: images/covers/92622092489ee2ad.webp
+  image: /images/covers/92622092489ee2ad.webp
 album_url: https://photos.app.goo.gl/dowJ3YRCpU1eZE3T6
 ---
 

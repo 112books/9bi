@@ -10,7 +10,7 @@ tags:
 - barri
 - BLUE
 cover:
-  image: images/covers/b07a55b097aba6cf.webp
+  image: /images/covers/b07a55b097aba6cf.webp
 album_url: https://photos.app.goo.gl/onaWBTQW9UoiEC867
 ---
 

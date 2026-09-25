@@ -11,7 +11,7 @@ tags:
 - districte
 - trobada
 cover:
-  image: images/covers/901c9ab2258b7624.webp
+  image: /images/covers/901c9ab2258b7624.webp
 album_url: https://photos.app.goo.gl/7DadXoGgFAwdJDPz2
 ---
 

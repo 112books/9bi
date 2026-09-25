@@ -8,7 +8,7 @@ tags:
 - El Arbusto
 - arbusto
 cover:
-  image: images/covers/432ae12f2ef106b6.webp
+  image: /images/covers/432ae12f2ef106b6.webp
 album_url: https://picasaweb.google.com/103138221614479310970/XAniversariElArbustoDivendres?authuser=0&feat=embedwebsite
 ---
 

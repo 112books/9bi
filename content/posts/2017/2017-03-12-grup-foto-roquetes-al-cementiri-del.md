@@ -10,7 +10,7 @@ tags:
 - mur
 - ciu
 cover:
-  image: images/covers/2275a9a7fd1d070c.webp
+  image: /images/covers/2275a9a7fd1d070c.webp
 album_url: https://goo.gl/photos/c7WzeyKoKe5amPkQ9
 ---
 

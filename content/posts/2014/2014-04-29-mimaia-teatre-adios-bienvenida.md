@@ -10,7 +10,7 @@ tags:
 - prospe
 - CASAL
 cover:
-  image: images/covers/020b066d76cf4fc9.webp
+  image: /images/covers/020b066d76cf4fc9.webp
 album_url: https://picasaweb.google.com/100268695753733554853/MimaiaTeatreADIOSBIENVENIDA?authuser=0&amp;feat=embedwebsite
 ---
 

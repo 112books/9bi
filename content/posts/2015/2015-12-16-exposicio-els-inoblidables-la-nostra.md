@@ -8,7 +8,7 @@ tags:
 - exposició
 - expo
 cover:
-  image: images/covers/4b5f5e96626197fd.webp
+  image: /images/covers/4b5f5e96626197fd.webp
 album_url: https://picasaweb.google.com/115791131166530059320/ExposicionVellaTerra?authuser=0&feat=embedwebsite
 ---
 

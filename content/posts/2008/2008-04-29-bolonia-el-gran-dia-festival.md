@@ -12,7 +12,7 @@ tags:
 - fotografia
 - linuxbcn
 cover:
-  image: images/covers/bb15ba95ceeedd3c.webp
+  image: /images/covers/bb15ba95ceeedd3c.webp
 album_url: https://photos.app.goo.gl/ayfPhKjwu6gGaUu97
 ---
 

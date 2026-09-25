@@ -9,7 +9,7 @@ tags:
 - llibre
 - barri
 cover:
-  image: images/covers/95f7f7375dbad89a.webp
+  image: /images/covers/95f7f7375dbad89a.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

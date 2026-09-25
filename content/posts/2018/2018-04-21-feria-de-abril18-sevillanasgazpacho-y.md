@@ -9,7 +9,7 @@ tags:
 - plaza angel pestaña
 - sevillanas
 cover:
-  image: images/covers/24658e5aee4be381.webp
+  image: /images/covers/24658e5aee4be381.webp
 album_url: https://photos.app.goo.gl/1hGLtwDNczpYFfAm1
 ---
 

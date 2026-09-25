@@ -11,7 +11,7 @@ tags:
 - africa
 - fotos
 cover:
-  image: images/covers/58f3ea63a92ea727.webp
+  image: /images/covers/58f3ea63a92ea727.webp
 album_url: https://photos.app.goo.gl/3CgvxNAx4eXFEwUu8
 ---
 

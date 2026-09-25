@@ -11,7 +11,7 @@ tags:
 - 9 barris
 - prospe
 cover:
-  image: images/covers/67db7e4e7812938c.webp
+  image: /images/covers/67db7e4e7812938c.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

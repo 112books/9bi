@@ -7,7 +7,7 @@ slug: salvemos-nuestros-centros-de-salud
 tags:
 - SAP_muntanya
 cover:
-  image: images/covers/f6c7e6ce67a0c1f5.webp
+  image: /images/covers/f6c7e6ce67a0c1f5.webp
 album_url: https://photos.google.com/share/AF1QipMg_TNiFUVKsVI3JdX7o9JR0WjyoldEsjW-ohHzQCzpRXAZ4wvWyZ8jp5LD622b4A?key=UGg3UVNxUnphZC1zXzByV0Q0Yko4TkRKbWQyUXlB
 ---
 

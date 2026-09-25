@@ -8,7 +8,7 @@ tags:
 - cjp
 - mar
 cover:
-  image: images/covers/c78abf35de03badf.webp
+  image: /images/covers/c78abf35de03badf.webp
 album_url: https://photos.app.goo.gl/AkvN5PCtxU7PwqE28
 ---
 

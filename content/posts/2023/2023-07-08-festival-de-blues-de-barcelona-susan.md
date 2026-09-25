@@ -7,7 +7,7 @@ slug: festival-de-blues-de-barcelona-susan
 tags:
 - 21Festival de Blues de Barcelona
 cover:
-  image: images/covers/6bcc8a943419a288.webp
+  image: /images/covers/6bcc8a943419a288.webp
 album_url: https://photos.app.goo.gl/Pp7ybMfcrGRAXEVv9
 ---
 

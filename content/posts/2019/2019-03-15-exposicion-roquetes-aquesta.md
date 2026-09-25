@@ -11,7 +11,7 @@ tags:
 - barri
 - expo
 cover:
-  image: images/covers/5217f3ddd36a040b.webp
+  image: /images/covers/5217f3ddd36a040b.webp
 album_url: https://photos.google.com/share/AF1QipPvA0HEaXmH87RHAl8VqmiaO6IHDMg6hkFSBynFh4e-uq0pmowrJzMaKgUK0LtgnA?key=MVZjdnZESWxPYWJPWm5SMFBnYUdIblhXNFlYaWFB
 ---
 

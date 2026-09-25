@@ -10,7 +10,7 @@ tags:
 - casa
 - art
 cover:
-  image: images/covers/a206658283928aca.webp
+  image: /images/covers/a206658283928aca.webp
 album_url: https://goo.gl/photos/TQsEULb4oN9FSaar8
 ---
 

@@ -11,7 +11,7 @@ tags:
 - mar
 - STA
 cover:
-  image: images/covers/64859f53cb9ba700.webp
+  image: /images/covers/64859f53cb9ba700.webp
 album_url: https://picasaweb.google.com/ulls2006/UnPasseigEnVelerPerLaCostaDeLaCiutatDeBarcelona?feat=embedwebsite
 ---
 

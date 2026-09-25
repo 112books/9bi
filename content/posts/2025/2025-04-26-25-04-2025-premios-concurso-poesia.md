@@ -12,7 +12,7 @@ tags:
 - música
 - poesía
 cover:
-  image: images/covers/c6dbb4d6aff2db5d.webp
+  image: /images/covers/c6dbb4d6aff2db5d.webp
 album_url: https://photos.app.goo.gl/Ew2ZwZ4oMUoUtoS87
 ---
 

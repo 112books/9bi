@@ -7,7 +7,7 @@ slug: ovidi3-un-temps-una-estima-una-idea
 tags:
 - música
 cover:
-  image: images/covers/f464d974db695333.webp
+  image: /images/covers/f464d974db695333.webp
 album_url: https://picasaweb.google.com/103138221614479310970/OVIDI3UnTempsUnaEstimaUnaIdea?authuser=0&feat=embedwebsite
 ---
 

@@ -8,7 +8,7 @@ tags:
 - torneig
 - futbol
 cover:
-  image: images/covers/98805b2e88bfc1a4.webp
+  image: /images/covers/98805b2e88bfc1a4.webp
 album_url: https://picasaweb.google.com/102149297277529522464/IIITORNEIGDEFUTBOLBANC15?authuser=0&feat=embedwebsite
 ---
 

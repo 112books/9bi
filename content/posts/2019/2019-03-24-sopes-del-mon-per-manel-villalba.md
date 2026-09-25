@@ -11,7 +11,7 @@ tags:
 - sopes
 - art
 cover:
-  image: images/covers/c7a8c34adb5147f3.webp
+  image: /images/covers/c7a8c34adb5147f3.webp
 album_url: https://photos.app.goo.gl/6sTdN4U35Y7xh2eX6
 ---
 

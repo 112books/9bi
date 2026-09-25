@@ -7,7 +7,7 @@ slug: futbol-banco-1-part
 tags:
 - Festes de Prosperitat 2016
 cover:
-  image: images/covers/aa258404c2b86c98.webp
+  image: /images/covers/aa258404c2b86c98.webp
 album_url: https://picasaweb.google.com/111964096227458093905/6292331827831294017?authuser=0&feat=embedwebsite
 ---
 

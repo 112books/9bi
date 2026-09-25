@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - sant xibeco
 cover:
-  image: images/covers/8b3b1b3df8a58492.webp
+  image: /images/covers/8b3b1b3df8a58492.webp
 album_url: http://picasawebhttps://photos.app.goo.gl/sY7c3zFUHyUsiz9o7.google.com/linuxbcn/SantXibeco2008
 ---
 

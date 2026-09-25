@@ -11,7 +11,7 @@ tags:
 - República
 - cirkonita
 cover:
-  image: images/covers/59bd392a0275c738.webp
+  image: /images/covers/59bd392a0275c738.webp
 album_url: https://picasaweb.google.com/100268695753733554853/GranGalaSolidariaDeCircAteneuPopular9Barris?authuser=0&amp;feat=embedwebsite
 ---
 

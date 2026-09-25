@@ -11,7 +11,7 @@ tags:
 - maquetes
 - arbusto
 cover:
-  image: images/covers/2fa3a12eee3fdb7c.webp
+  image: /images/covers/2fa3a12eee3fdb7c.webp
 album_url: https://picasaweb.google.com/104199960646572363843/ConcursoArbusto2011Sabado?authuser=0&feat=embedwebsite
 ---
 

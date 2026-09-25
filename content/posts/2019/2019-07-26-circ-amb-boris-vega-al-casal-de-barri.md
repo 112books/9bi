@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - NICARAGUA
 cover:
-  image: images/covers/2258815d132b3286.webp
+  image: /images/covers/2258815d132b3286.webp
 album_url: https://photos.app.goo.gl/Jp6yzFMFBfBknesAA
 ---
 

@@ -11,7 +11,7 @@ tags:
 - CASAL
 - expo
 cover:
-  image: images/covers/799e969846b232f5.webp
+  image: /images/covers/799e969846b232f5.webp
 album_url: https://photos.app.goo.gl/FT5EJoQSVerm8dpU7
 ---
 

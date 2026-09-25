@@ -7,7 +7,7 @@ slug: la-xixa-teatre-proyecto-imagining
 tags:
 - teatre
 cover:
-  image: images/covers/8218be45ca2af3f9.webp
+  image: /images/covers/8218be45ca2af3f9.webp
 album_url: https://photos.app.goo.gl/3SAK6JWYp5okaMZ1A
 ---
 

@@ -9,7 +9,7 @@ tags:
 - locura
 - rua carnaval via julia
 cover:
-  image: images/covers/edcc413fc3e01207.webp
+  image: /images/covers/edcc413fc3e01207.webp
 album_url: https://photos.app.goo.gl/kbcYn8Fi5k55mtw86
 ---
 

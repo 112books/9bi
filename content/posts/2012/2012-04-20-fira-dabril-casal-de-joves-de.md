@@ -9,7 +9,7 @@ tags:
 - feria d'abril
 - Fira d'abril
 cover:
-  image: images/covers/c73872ee9a85c00b.webp
+  image: /images/covers/c73872ee9a85c00b.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FiraDAbrilDivendresCasalDeJovesDeProsperitat?authuser=0&authkey=Gv1sRgCIvWrbTyiOypRA&feat=embedwebsite
 ---
 

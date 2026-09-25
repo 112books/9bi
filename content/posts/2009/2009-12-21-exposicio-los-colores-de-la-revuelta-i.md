@@ -11,7 +11,7 @@ tags:
 - juanito piquete
 - manel sala ulls
 cover:
-  image: images/covers/c60b88ab85bf1c02.webp
+  image: /images/covers/c60b88ab85bf1c02.webp
 album_url: http://picasaweb.google.es/ulls2006/ExpoRevueltaIConcertJauanitoPiquete?feat=embedwebsite
 ---
 

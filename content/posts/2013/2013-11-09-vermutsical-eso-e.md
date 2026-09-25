@@ -9,7 +9,7 @@ tags:
 - Eso é!
 - vermutsical
 cover:
-  image: images/covers/20a959f62b4bb9f6.webp
+  image: /images/covers/20a959f62b4bb9f6.webp
 album_url: https://picasaweb.google.com/114858497713897843587/EsoEVermutsical?authuser=0&feat=embedwebsite
 ---
 

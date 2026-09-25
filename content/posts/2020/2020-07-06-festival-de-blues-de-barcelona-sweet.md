@@ -11,7 +11,7 @@ tags:
 - música
 - blues
 cover:
-  image: images/covers/d1500850761e7e18.webp
+  image: /images/covers/d1500850761e7e18.webp
 album_url: https://photos.app.goo.gl/SpiY87DYZve7poWk6
 ---
 

@@ -12,7 +12,7 @@ tags:
 - pocallum
 - the sustanciados
 cover:
-  image: images/covers/e693f2afc540d7e0.webp
+  image: /images/covers/e693f2afc540d7e0.webp
 album_url: https://picasaweb.google.com/linuxbcn/InauguracioDeLaRevistaALesBarriades?feat=embedwebsite
 ---
 

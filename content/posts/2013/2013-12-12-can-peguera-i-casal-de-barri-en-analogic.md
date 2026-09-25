@@ -8,7 +8,7 @@ tags:
 - Can Peguera
 - Casal de Barri en analògic
 cover:
-  image: images/covers/a6bd0d5b09e0a8a1.webp
+  image: /images/covers/a6bd0d5b09e0a8a1.webp
 album_url: https://picasaweb.google.com/103138221614479310970/6355SprocketRocketCN800?authuser=0&feat=embedwebsite
 ---
 

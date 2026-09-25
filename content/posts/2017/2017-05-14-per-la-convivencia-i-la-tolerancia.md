@@ -8,7 +8,7 @@ tags:
 - convivència
 - fotos
 cover:
-  image: images/covers/8ec7fb510ae55d4d.webp
+  image: /images/covers/8ec7fb510ae55d4d.webp
 album_url: https://goo.gl/photos/RgJwKpBUvKuSmHZy5
 ---
 

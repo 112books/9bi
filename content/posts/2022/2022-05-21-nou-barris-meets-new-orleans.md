@@ -11,7 +11,7 @@ tags:
 - membres
 - música
 cover:
-  image: images/covers/4f9a738f38e634a5.webp
+  image: /images/covers/4f9a738f38e634a5.webp
 album_url: https://photos.app.goo.gl/XX6ZwfUsE19uopnX7
 ---
 

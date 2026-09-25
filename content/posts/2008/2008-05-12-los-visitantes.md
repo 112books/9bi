@@ -11,7 +11,7 @@ tags:
 - barri
 - gente
 cover:
-  image: images/covers/d21d262a63b6c183.webp
+  image: /images/covers/d21d262a63b6c183.webp
 album_url: http://picasaweb.google.es/jaime14bf/HEREUENLAPLAZA/
 ---
 

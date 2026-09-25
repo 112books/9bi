@@ -11,7 +11,7 @@ tags:
 - cadena humana
 - trinitat nova
 cover:
-  image: images/covers/76942e3e4d090677.webp
+  image: /images/covers/76942e3e4d090677.webp
 album_url: https://photos.app.goo.gl/HEonAB7ncPstq5VT9
 ---
 

@@ -8,7 +8,7 @@ tags:
 - Feria de Abril
 - sevillanas
 cover:
-  image: images/covers/ce02b463ab267297.webp
+  image: /images/covers/ce02b463ab267297.webp
 album_url: https://picasaweb.google.com/Perdo.Garcia/FeriaDeAbril?authkey=Gv1sRgCJXkjYnwiti6DQ&feat=embedwebsite
 ---
 

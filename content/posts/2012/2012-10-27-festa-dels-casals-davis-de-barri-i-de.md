@@ -12,7 +12,7 @@ tags:
 - casal de joves de prosperitat
 - Prosperitat
 cover:
-  image: images/covers/6016b136896906a3.webp
+  image: /images/covers/6016b136896906a3.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestaDelsCasalsDAvisDeBarriIDeJovesDeProsperitatCasalMixVolumen1?authuser=0&amp;feat=embedwebsite
 ---
 

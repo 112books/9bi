@@ -7,7 +7,7 @@ slug: autoconfinament-amb-noon-pinhole-612
 tags:
 - pinhole
 cover:
-  image: images/covers/f277ae2ecd80065f.webp
+  image: /images/covers/f277ae2ecd80065f.webp
 album_url: https://photos.app.goo.gl/qBksce8ypvNr9JX89
 ---
 

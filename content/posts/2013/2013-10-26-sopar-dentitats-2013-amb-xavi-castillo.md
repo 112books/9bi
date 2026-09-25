@@ -9,7 +9,7 @@ tags:
 - sopar d'entitats
 - Xavi Castillo
 cover:
-  image: images/covers/be0d5fdb3df3b383.webp
+  image: /images/covers/be0d5fdb3df3b383.webp
 album_url: https://picasaweb.google.com/103138221614479310970/SoparDEntitats2013AmbXaviCastillo?authuser=0&feat=embedwebsite
 ---
 

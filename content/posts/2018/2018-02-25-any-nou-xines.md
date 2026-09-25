@@ -8,7 +8,7 @@ tags:
 - 1ª FESTA ANY NOU XINÈS
 - 9 barris acull
 cover:
-  image: images/covers/cfacc2fc821078ab.webp
+  image: /images/covers/cfacc2fc821078ab.webp
 album_url: https://photos.app.goo.gl/XhFVa14kvavcHvuz1
 ---
 

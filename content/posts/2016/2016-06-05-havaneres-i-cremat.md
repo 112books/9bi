@@ -7,7 +7,7 @@ slug: havaneres-i-cremat
 tags:
 - Festes de Prosperitat 2016
 cover:
-  image: images/covers/e58fa400c3fc9cb2.webp
+  image: /images/covers/e58fa400c3fc9cb2.webp
 album_url: https://picasaweb.google.com/111964096227458093905/6292716896990100161?authuser=0&feat=embedwebsite
 ---
 

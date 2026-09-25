@@ -7,7 +7,7 @@ slug: el-germa-de-joan
 tags:
 - fotografia
 cover:
-  image: images/covers/99c56b810b1cfa42.webp
+  image: /images/covers/99c56b810b1cfa42.webp
 album_url: https://picasaweb.google.com/lh/photo/vIyzSHkEdnSRQnBPKVa1EQ?feat=embedwebsite
 ---
 

@@ -10,7 +10,7 @@ tags:
 - prospe
 - veïns
 cover:
-  image: images/covers/6181e09f4111f36e.webp
+  image: /images/covers/6181e09f4111f36e.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

@@ -11,7 +11,7 @@ tags:
 - rudas cooperativa
 - casal de barri
 cover:
-  image: images/covers/6da9017113f38ac4.webp
+  image: /images/covers/6da9017113f38ac4.webp
 album_url: https://photos.app.goo.gl/zVE9J1gH6mkgDjPR6
 ---
 

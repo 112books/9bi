@@ -11,7 +11,7 @@ tags:
 - institut del teatre
 - ARTS ESCÈNIQUES
 cover:
-  image: images/covers/cab694d0ea4b49f5.webp
+  image: /images/covers/cab694d0ea4b49f5.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

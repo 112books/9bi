@@ -8,7 +8,7 @@ tags:
 - prospeoasis
 - prospe
 cover:
-  image: images/covers/cb93a9cff0d82590.webp
+  image: /images/covers/cb93a9cff0d82590.webp
 album_url: https://photos.app.goo.gl/uUYF7fSS4Mc2UiqU8
 ---
 

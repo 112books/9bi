@@ -8,7 +8,7 @@ tags:
 - diari de festes
 - nico
 cover:
-  image: images/covers/fa4fe83b33f409a8.webp
+  image: /images/covers/fa4fe83b33f409a8.webp
 album_url: https://picasaweb.google.com/nico9barrisimarge/FestesProspe2013PallassosInfantilCarreFlordeneu?authuser=0&feat=embedwebsite
 ---
 

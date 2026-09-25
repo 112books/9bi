@@ -10,7 +10,7 @@ tags:
 - música
 - penya Clan MC
 cover:
-  image: images/covers/52ab28ce15bb0839.webp
+  image: /images/covers/52ab28ce15bb0839.webp
 album_url: https://photos.app.goo.gl/wpy8wRsALoLgfyCW7
 ---
 

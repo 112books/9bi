@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - vermut sical
 cover:
-  image: images/covers/0a8355f3315b4d74.webp
+  image: /images/covers/0a8355f3315b4d74.webp
 album_url: https://picasaweb.google.com/linuxbcn/VermutSiCalAmbKaori?feat=embedwebsite
 ---
 

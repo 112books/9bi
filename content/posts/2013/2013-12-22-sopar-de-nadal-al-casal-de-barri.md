@@ -8,7 +8,7 @@ tags:
 - casal barri prosperitat
 - sopar de nadal
 cover:
-  image: images/covers/3b1874147229d653.webp
+  image: /images/covers/3b1874147229d653.webp
 album_url: https://picasaweb.google.com/103138221614479310970/SoparDeNadalAlCasalDeBarri?authuser=0&feat=embedwebsite
 ---
 

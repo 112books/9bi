@@ -8,7 +8,7 @@ tags:
 - festes de prospe
 - linuxbcn
 cover:
-  image: images/covers/9cd6d5b8a93e107a.webp
+  image: /images/covers/9cd6d5b8a93e107a.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestesDeProspe2013Dissabte02?authuser=0&feat=embedwebsite
 ---
 

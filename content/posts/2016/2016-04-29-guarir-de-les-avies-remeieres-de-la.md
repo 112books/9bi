@@ -11,7 +11,7 @@ tags:
 - llibre
 - STA
 cover:
-  image: images/covers/5aec9e3e3657337b.webp
+  image: /images/covers/5aec9e3e3657337b.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6278727655590196561?authuser=0&feat=embedwebsite
 ---
 

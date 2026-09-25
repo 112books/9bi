@@ -11,7 +11,7 @@ tags:
 - torre baró
 - Barcelona
 cover:
-  image: images/covers/9ef0f5d3852e49ff.webp
+  image: /images/covers/9ef0f5d3852e49ff.webp
 album_url: https://photos.app.goo.gl/R79K1wDCniXkFMk17
 ---
 

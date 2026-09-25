@@ -10,7 +10,7 @@ tags:
 - formació
 - 9barris
 cover:
-  image: images/covers/416a59ae686dd13e.webp
+  image: /images/covers/416a59ae686dd13e.webp
 album_url: https://picasaweb.google.com/pedro.cervera/Assemblea9barrris1juny?authkey=Gv1sRgCK7PjfbXlt-CMQ&feat=embedwebsite
 ---
 

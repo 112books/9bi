@@ -8,7 +8,7 @@ tags:
 - dia de la música
 - parc de la guineueta
 cover:
-  image: images/covers/0c5b0258aacbedb9.webp
+  image: /images/covers/0c5b0258aacbedb9.webp
 album_url: https://picasaweb.google.com/linuxbcn/DiaDeLaMusicaAlParcDeLaGuineueta02?feat=embedwebsite
 ---
 

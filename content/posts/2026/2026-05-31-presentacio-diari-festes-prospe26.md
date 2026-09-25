@@ -10,7 +10,7 @@ tags:
 - festes
 - diari
 cover:
-  image: images/covers/db215f21328c2dd9.webp
+  image: /images/covers/db215f21328c2dd9.webp
 album_url: https://photos.app.goo.gl/ubcVP7wRKMSjDPsA6
 ---
 

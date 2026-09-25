@@ -11,7 +11,7 @@ tags:
 - menjar
 - platja
 cover:
-  image: images/covers/8cf8e2af3388e43e.webp
+  image: /images/covers/8cf8e2af3388e43e.webp
 album_url: https://photos.app.goo.gl/KfUfLgZd9gTE9Dhv6
 ---
 

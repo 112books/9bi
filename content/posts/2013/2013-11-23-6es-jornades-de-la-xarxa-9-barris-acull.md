@@ -9,7 +9,7 @@ tags:
 - ateneu popular 9 barris
 - jornades
 cover:
-  image: images/covers/2f7177740688840a.webp
+  image: /images/covers/2f7177740688840a.webp
 album_url: https://picasaweb.google.com/103138221614479310970/6esJornadesDeLaXarxa9BarrisAcullEnLluitaPelsDretsSocials?authuser=0&amp;feat=embedwebsite
 ---
 

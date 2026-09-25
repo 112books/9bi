@@ -14,7 +14,7 @@ tags:
 - Prosperitat
 - Tv Nou Barris
 cover:
-  image: images/covers/b32dfb8e34ff0999.webp
+  image: /images/covers/b32dfb8e34ff0999.webp
 album_url: https://picasaweb.google.com/linuxbcn/Innaguracio9BarrisAcullArxiuDeRoquetesITvNouBarris?feat=embedwebsite
 ---
 

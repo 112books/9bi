@@ -7,7 +7,7 @@ slug: feria-de-la-tapa-tast-bcn-2013
 tags:
 - bcn
 cover:
-  image: images/covers/565cd466cc444d64.webp
+  image: /images/covers/565cd466cc444d64.webp
 album_url: https://picasaweb.google.com/104199960646572363843/TastBcn2013?authuser=0&feat=embedwebsite
 ---
 

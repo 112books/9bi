@@ -11,7 +11,7 @@ tags:
 - sanitat
 - Xerrada
 cover:
-  image: images/covers/46e98b6d5be87a7f.webp
+  image: /images/covers/46e98b6d5be87a7f.webp
 album_url: https://picasaweb.google.com/114858497713897843587/XERRADASANITATPUBLICAALAMARQUESINA?authuser=0&feat=embedwebsite
 ---
 

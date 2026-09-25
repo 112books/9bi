@@ -11,7 +11,7 @@ tags:
 - festes de prospe
 - PASBARES
 cover:
-  image: images/covers/92e1f2785c290e84.webp
+  image: /images/covers/92e1f2785c290e84.webp
 album_url: https://picasaweb.google.com/115791131166530059320/PASABARES?authuser=0&feat=embedwebsite
 ---
 

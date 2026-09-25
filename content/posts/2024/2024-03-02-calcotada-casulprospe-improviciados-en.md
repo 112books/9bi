@@ -11,7 +11,7 @@ tags:
 - prospe
 - STA
 cover:
-  image: images/covers/48a7fa6c32827b36.webp
+  image: /images/covers/48a7fa6c32827b36.webp
 album_url: https://photos.app.goo.gl/tWj2SwNSX2Zyhs1f9
 ---
 

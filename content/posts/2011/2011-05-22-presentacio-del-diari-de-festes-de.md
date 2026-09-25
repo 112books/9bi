@@ -9,7 +9,7 @@ tags:
 - presentació
 - prospe
 cover:
-  image: images/covers/17486ce733fca41b.webp
+  image: /images/covers/17486ce733fca41b.webp
 album_url: https://picasaweb.google.com/linuxbcn/PresentacioDelDiariDeFestesDeProspe2011?authkey=Gv1sRgCOeHoaf3lfTGkQE&feat=embedwebsite
 ---
 

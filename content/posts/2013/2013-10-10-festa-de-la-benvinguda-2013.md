@@ -8,7 +8,7 @@ tags:
 - casal barri prosperitat
 - festa de benvinguda
 cover:
-  image: images/covers/a6b311cb8b119375.webp
+  image: /images/covers/a6b311cb8b119375.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestaDeLaBenvinguda2013?authuser=0&feat=embedwebsite
 ---
 

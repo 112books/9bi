@@ -10,7 +10,7 @@ tags:
 - ruta
 - món
 cover:
-  image: images/covers/e4f6f2b1083c5018.webp
+  image: /images/covers/e4f6f2b1083c5018.webp
 album_url: https://picasaweb.google.com/110015855395179205688/SetmanaDelLlibreEnCatala2015?authuser=0&feat=embedwebsite
 ---
 

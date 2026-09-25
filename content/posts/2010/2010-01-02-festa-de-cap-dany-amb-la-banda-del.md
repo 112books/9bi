@@ -10,7 +10,7 @@ tags:
 - la banda del coche rojo
 - manel sala ulls
 cover:
-  image: images/covers/6ad2e8849f3ef97f.webp
+  image: /images/covers/6ad2e8849f3ef97f.webp
 album_url: http://picasaweb.google.com/ulls2006/CapDAnyProspe?feat=embedwebsite
 ---
 

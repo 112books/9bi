@@ -9,7 +9,7 @@ tags:
 - linuxbcn
 - Prospe Beach
 cover:
-  image: images/covers/e59e3457856bc4c0.webp
+  image: /images/covers/e59e3457856bc4c0.webp
 album_url: https://photos.app.goo.gl/s7dpwENsNa8QJ4fG9
 ---
 

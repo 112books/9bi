@@ -7,7 +7,7 @@ slug: ephemeral-paradox-golden-grahams
 tags:
 - música
 cover:
-  image: images/covers/fe671509bf89e777.webp
+  image: /images/covers/fe671509bf89e777.webp
 album_url: https://photos.app.goo.gl/mRXlXVtDdiT92tYG3
 ---
 

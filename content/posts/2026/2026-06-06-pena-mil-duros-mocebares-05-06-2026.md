@@ -10,7 +10,7 @@ tags:
 - Peña Mil Duros
 - prospe
 cover:
-  image: images/covers/c1320cdec9002992.webp
+  image: /images/covers/c1320cdec9002992.webp
 album_url: https://photos.app.goo.gl/GkVbBtoeLa4k4JVU6
 ---
 

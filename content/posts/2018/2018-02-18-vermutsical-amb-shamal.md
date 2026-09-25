@@ -7,7 +7,7 @@ slug: vermutsical-amb-shamal
 tags:
 - vermutsical
 cover:
-  image: images/covers/aa8bfb2abe51f36b.webp
+  image: /images/covers/aa8bfb2abe51f36b.webp
 album_url: https://photos.app.goo.gl/PyuN6jqWuLBUjLaG3
 ---
 

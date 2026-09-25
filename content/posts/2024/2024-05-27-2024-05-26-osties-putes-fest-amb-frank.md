@@ -11,7 +11,7 @@ tags:
 - FESTA
 - barri
 cover:
-  image: images/covers/89a277199e0a202a.webp
+  image: /images/covers/89a277199e0a202a.webp
 album_url: https://photos.app.goo.gl/w2g4PQ81wDgCLpaZ8
 ---
 

@@ -8,7 +8,7 @@ tags:
 - activitats
 - reis
 cover:
-  image: images/covers/c3cdf379796320d7.webp
+  image: /images/covers/c3cdf379796320d7.webp
 album_url: https://photos.google.com/share/AF1QipPgO4q1Fd1Mt9e45MwmPk3UOHDXeQajTQpjDwRbYnpa96vOQDgtgETi7a9e6uDthg?hl=es&amp;key=MHFDTHl0bWZGTHdnUlZvUy1zVnY1bFBBMm5aZ2JB
 ---
 

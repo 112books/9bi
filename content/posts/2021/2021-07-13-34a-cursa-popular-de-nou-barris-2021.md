@@ -10,7 +10,7 @@ tags:
 - cursa popular
 - nou barris
 cover:
-  image: images/covers/325496eaf241e09b.webp
+  image: /images/covers/325496eaf241e09b.webp
 album_url: https://photos.app.goo.gl/ckY2UZyaTUeanzmT7
 ---
 

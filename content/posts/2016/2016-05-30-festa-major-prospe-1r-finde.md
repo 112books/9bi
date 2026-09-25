@@ -11,7 +11,7 @@ tags:
 - prospe
 - FESTA
 cover:
-  image: images/covers/c48420e4e5760793.webp
+  image: /images/covers/c48420e4e5760793.webp
 album_url: https://picasaweb.google.com/114858497713897843587/6290440329125589345?authuser=0&feat=embedwebsite
 ---
 

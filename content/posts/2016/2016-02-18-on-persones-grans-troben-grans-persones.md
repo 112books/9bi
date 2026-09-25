@@ -11,7 +11,7 @@ tags:
 - infantil
 - formació
 cover:
-  image: images/covers/d1a9912073cc81c8.webp
+  image: /images/covers/d1a9912073cc81c8.webp
 album_url: https://picasaweb.google.com/110015855395179205688/SOMGRANS?authuser=0&feat=embedwebsite
 ---
 

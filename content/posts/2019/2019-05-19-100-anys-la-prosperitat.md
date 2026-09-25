@@ -9,7 +9,7 @@ tags:
 - Prosperitat
 - prospe
 cover:
-  image: images/covers/84db1339a22fd46b.webp
+  image: /images/covers/84db1339a22fd46b.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

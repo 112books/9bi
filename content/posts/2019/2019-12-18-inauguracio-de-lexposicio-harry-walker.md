@@ -8,7 +8,7 @@ slug: inauguracio-de-lexposicio-harry-walker
 tags:
 - CENTENARI DE LA PROSPERITAT
 cover:
-  image: images/covers/086cd2bfe06dcca4.webp
+  image: /images/covers/086cd2bfe06dcca4.webp
 album_url: https://photos.app.goo.gl/XzjzH4o3LRHDa1f77
 ---
 

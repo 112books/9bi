@@ -8,7 +8,7 @@ tags:
 - casal barri prosperitat
 - flamenco de barrio
 cover:
-  image: images/covers/59fe8f4670c1f61c.webp
+  image: /images/covers/59fe8f4670c1f61c.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FlamencoDeBarrio2013?authuser=0&feat=embedwebsite
 ---
 

@@ -8,7 +8,7 @@ tags:
 - prospe creativa
 - prospe
 cover:
-  image: images/covers/4e05dce6f2c5bcfe.webp
+  image: /images/covers/4e05dce6f2c5bcfe.webp
 album_url: https://picasaweb.google.com/103138221614479310970/ProspeCreativa2016?authuser=0&feat=embedwebsite
 ---
 

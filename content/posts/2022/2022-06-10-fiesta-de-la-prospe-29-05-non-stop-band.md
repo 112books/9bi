@@ -9,7 +9,7 @@ tags:
 - prospe
 - STA
 cover:
-  image: images/covers/4bca4dda37a5b9cc.webp
+  image: /images/covers/4bca4dda37a5b9cc.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

@@ -10,7 +10,7 @@ tags:
 - nou barris
 - Prosperitat
 cover:
-  image: images/covers/2d2a9df2f05de42c.webp
+  image: /images/covers/2d2a9df2f05de42c.webp
 album_url: https://picasaweb.google.com/114858497713897843587/OcupacioEdificiAProsperitatNouBarris?authuser=0&feat=embedwebsite
 ---
 

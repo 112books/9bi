@@ -10,7 +10,7 @@ tags:
 - casa
 - mur
 cover:
-  image: images/covers/fdbde36840d564c3.webp
+  image: /images/covers/fdbde36840d564c3.webp
 album_url: https://photos.app.goo.gl/eKq2u39CuWbPESUq6
 ---
 

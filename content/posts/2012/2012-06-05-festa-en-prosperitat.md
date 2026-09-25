@@ -8,7 +8,7 @@ tags:
 - FESTA
 - festes populars
 cover:
-  image: images/covers/a89dcef0f59f8a28.webp
+  image: /images/covers/a89dcef0f59f8a28.webp
 album_url: https://picasaweb.google.com/115791131166530059320/ProseFesta?authuser=0&feat=embedwebsite
 ---
 

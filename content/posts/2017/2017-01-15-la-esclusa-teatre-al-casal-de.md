@@ -11,7 +11,7 @@ tags:
 - teatre
 - prospe
 cover:
-  image: images/covers/6a86c811a859ca0f.webp
+  image: /images/covers/6a86c811a859ca0f.webp
 album_url: https://goo.gl/photos/s1QkGmNzxxpJFdoq6
 ---
 

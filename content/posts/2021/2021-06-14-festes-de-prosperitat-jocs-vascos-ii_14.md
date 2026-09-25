@@ -11,7 +11,7 @@ tags:
 - prospe
 - festes
 cover:
-  image: images/covers/ed0eaee2e32947e0.webp
+  image: /images/covers/ed0eaee2e32947e0.webp
 album_url: https://photos.app.goo.gl/KRqP8Y7PvQBwyngd6
 ---
 

@@ -11,7 +11,7 @@ tags:
 - roquetes
 - formació
 cover:
-  image: images/covers/a5589215331992db.webp
+  image: /images/covers/a5589215331992db.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6307947262029445041?authuser=0&feat=embedwebsite
 ---
 

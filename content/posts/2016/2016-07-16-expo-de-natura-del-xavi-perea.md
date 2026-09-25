@@ -11,7 +11,7 @@ tags:
 - expo
 - veu
 cover:
-  image: images/covers/3409b65c3917ecd0.webp
+  image: /images/covers/3409b65c3917ecd0.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6307938240457331521?authuser=0&feat=embedwebsite
 ---
 

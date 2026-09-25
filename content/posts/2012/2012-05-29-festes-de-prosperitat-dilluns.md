@@ -10,7 +10,7 @@ tags:
 - festa major
 - Festes de prosperitat
 cover:
-  image: images/covers/1c51d3218f15f704.webp
+  image: /images/covers/1c51d3218f15f704.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestesDeProsperitatDilluns?authuser=0&feat=embedwebsite
 ---
 

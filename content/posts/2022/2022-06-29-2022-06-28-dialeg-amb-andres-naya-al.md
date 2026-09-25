@@ -11,7 +11,7 @@ tags:
 - Andrés Naya
 - prospe
 cover:
-  image: images/covers/bed0496ff77d8ffa.webp
+  image: /images/covers/bed0496ff77d8ffa.webp
 album_url: https://photos.app.goo.gl/5xjUXLm6HnyodwrWA
 ---
 

@@ -7,7 +7,7 @@ slug: festival-de-sopas-1
 tags:
 - SOPAS
 cover:
-  image: images/covers/fe2c0dd8c17e80cc.webp
+  image: /images/covers/fe2c0dd8c17e80cc.webp
 album_url: https:///picasaweb.google.com/Perdo.Garcia/FESTIVALDESOPAS?authuser=0&feat=embedwebsite
 ---
 

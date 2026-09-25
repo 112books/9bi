@@ -9,7 +9,7 @@ tags:
 - fotografia
 - verdum
 cover:
-  image: images/covers/3bf84dea53479d62.webp
+  image: /images/covers/3bf84dea53479d62.webp
 album_url: https://photos.app.goo.gl/4B3f3aK2ooo34PRM6
 ---
 

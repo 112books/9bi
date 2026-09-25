@@ -7,7 +7,7 @@ slug: feria-dabril-b
 tags:
 - Feria de Abril
 cover:
-  image: images/covers/be00ea793f06fe4e.webp
+  image: /images/covers/be00ea793f06fe4e.webp
 album_url: https://photos.app.goo.gl/oZyHQkTSZjERVF7W7
 ---
 

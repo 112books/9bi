@@ -11,7 +11,7 @@ tags:
 - 9 barris
 - jornades
 cover:
-  image: images/covers/8b18d369a11e0352.webp
+  image: /images/covers/8b18d369a11e0352.webp
 album_url: https://picasaweb.google.com/102149297277529522464/J0TAMBESOC9BARRISACULL?authuser=0&feat=embedwebsite
 ---
 

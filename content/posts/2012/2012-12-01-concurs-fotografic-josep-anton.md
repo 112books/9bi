@@ -9,7 +9,7 @@ tags:
 - casal barri prosperitat
 - Concurs Fotogràfic Josep Antón Cordoncillo
 cover:
-  image: images/covers/f3712a7d02a70f12.webp
+  image: /images/covers/f3712a7d02a70f12.webp
 album_url: https://picasaweb.google.com/103138221614479310970/ConcursFotograficJosepAntonCordoncillo2012?authuser=0&feat=embedwebsite
 ---
 

@@ -7,7 +7,7 @@ slug: dishows-gabriel-cordoba
 tags:
 - dishows
 cover:
-  image: images/covers/e9d6413548d05c6b.webp
+  image: /images/covers/e9d6413548d05c6b.webp
 album_url: https://picasaweb.google.com/103138221614479310970/DishowsGabrielCordoba?authuser=0&feat=embedwebsite
 ---
 

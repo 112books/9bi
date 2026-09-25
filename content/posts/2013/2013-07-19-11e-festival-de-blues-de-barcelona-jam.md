@@ -10,7 +10,7 @@ tags:
 - jam session
 - tota blues
 cover:
-  image: images/covers/6b8eaa664b998068.webp
+  image: /images/covers/6b8eaa664b998068.webp
 album_url: https://picasaweb.google.com/103138221614479310970/11eFestivalDeBluesDeBarcelonaJamSession?authuser=0&feat=embedwebsite
 ---
 

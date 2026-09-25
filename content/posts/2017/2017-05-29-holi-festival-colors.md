@@ -9,7 +9,7 @@ tags:
 - música
 - ruta
 cover:
-  image: images/covers/e94c5eaa89ef370e.webp
+  image: /images/covers/e94c5eaa89ef370e.webp
 album_url: https://goo.gl/photos/qKkC2p6SbWx4TqNt6
 ---
 

@@ -7,7 +7,7 @@ slug: taller-de-ball-amb-kalalu
 tags:
 - activitats
 cover:
-  image: images/covers/947e209f732c524d.webp
+  image: /images/covers/947e209f732c524d.webp
 album_url: https://goo.gl/photos/r2SiesqzWtGDtBev8
 ---
 

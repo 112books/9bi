@@ -8,7 +8,7 @@ tags:
 - nico
 - yeye
 cover:
-  image: images/covers/88f1eca03a8d81ce.webp
+  image: /images/covers/88f1eca03a8d81ce.webp
 album_url: https://picasaweb.google.com/103138221614479310970/TallerFamiliarDeGaletesIPizzesNicoYeye?authuser=0&feat=embedwebsite
 ---
 

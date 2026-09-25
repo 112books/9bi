@@ -8,7 +8,7 @@ tags:
 - can basté
 - districte
 cover:
-  image: images/covers/3ee8208aae9a5b20.webp
+  image: /images/covers/3ee8208aae9a5b20.webp
 album_url: https://photos.app.goo.gl/syq0tdwD2dWE1IB73
 ---
 

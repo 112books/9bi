@@ -7,7 +7,7 @@ slug: la-taskita-entre-amigos-2017
 tags:
 - fotos
 cover:
-  image: images/covers/1e4645654250040e.webp
+  image: /images/covers/1e4645654250040e.webp
 album_url: https://photos.google.com/share/AF1QipMwJz-rffmA01PBDUocFizmLGfmiTsCkFmDtgQNyMjubeR5EMNkGuh-AJrGp8KD0g?key=cHhyUURKLVhva3F2U1RfM3JzNnBsbXYyYUNXOWpR
 ---
 

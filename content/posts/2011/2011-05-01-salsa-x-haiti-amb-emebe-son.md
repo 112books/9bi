@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - Ángel Pestanya
 cover:
-  image: images/covers/8a7c93b245e8d4f6.webp
+  image: /images/covers/8a7c93b245e8d4f6.webp
 album_url: https://picasaweb.google.com/linuxbcn/SalsaXHaitiAmbEmebeSon?feat=embedwebsite
 ---
 

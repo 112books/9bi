@@ -11,7 +11,7 @@ tags:
 - ione
 - STA
 cover:
-  image: images/covers/5bf1b7142c363114.webp
+  image: /images/covers/5bf1b7142c363114.webp
 album_url: http://picasaweb.google.es/pdro.gracias/FestivalSopasDelMundo?feat=embedwebsite
 ---
 

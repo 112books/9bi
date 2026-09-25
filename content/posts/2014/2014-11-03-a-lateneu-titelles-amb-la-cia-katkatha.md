@@ -11,7 +11,7 @@ tags:
 - música
 - ruta
 cover:
-  image: images/covers/694d061b749cdc00.webp
+  image: /images/covers/694d061b749cdc00.webp
 album_url: https://picasaweb.google.com/110015855395179205688/CIATHEKATKATHAPUPPETALATENEU?authuser=0&feat=embedwebsite
 ---
 

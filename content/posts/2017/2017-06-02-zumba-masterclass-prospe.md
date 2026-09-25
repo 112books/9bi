@@ -9,7 +9,7 @@ tags:
 - masterclass
 - Zumba
 cover:
-  image: images/covers/1f50995be8497366.webp
+  image: /images/covers/1f50995be8497366.webp
 album_url: https://goo.gl/photos/ZVEUQ5LupF7Dtsic7
 ---
 

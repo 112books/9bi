@@ -7,7 +7,7 @@ slug: amigos-de-de-la-sevillanas
 tags:
 - sevillanas
 cover:
-  image: images/covers/c8143f1f0f167715.webp
+  image: /images/covers/c8143f1f0f167715.webp
 album_url: https://photos.app.goo.gl/CmGJoks6B2e2oB366
 ---
 

@@ -9,7 +9,7 @@ tags:
 - melón maguilaz
 - muchachito
 cover:
-  image: images/covers/161fc60a349b4e3d.webp
+  image: /images/covers/161fc60a349b4e3d.webp
 album_url: https://photos.app.goo.gl/2VrB11fTPEkRZQCx6
 ---
 

@@ -11,7 +11,7 @@ tags:
 - manel sala ulls
 - pallassa
 cover:
-  image: images/covers/f18aa3f767a3b26c.webp
+  image: /images/covers/f18aa3f767a3b26c.webp
 album_url: http://picasaweb.google.es/ulls2006/DianaGadish?feat=embedwebsite
 ---
 

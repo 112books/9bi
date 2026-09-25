@@ -21,7 +21,7 @@ tags:
 - vermut musical
 - vermutsical
 cover:
-  image: images/covers/7b34011710b821c5.webp
+  image: /images/covers/7b34011710b821c5.webp
 album_url: https://photos.app.goo.gl/ULgPfgqRcWrNij4LA
 ---
 

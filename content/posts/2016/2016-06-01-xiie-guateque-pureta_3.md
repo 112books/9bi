@@ -7,7 +7,7 @@ slug: xiie-guateque-pureta_3
 tags:
 - Festes de Prosperitat 2016
 cover:
-  image: images/covers/32206da2f15aaf54.webp
+  image: /images/covers/32206da2f15aaf54.webp
 album_url: https://picasaweb.google.com/111964096227458093905/6291354264996904705?authuser=0&feat=embedwebsite
 ---
 

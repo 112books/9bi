@@ -11,7 +11,7 @@ tags:
 - improvització
 - tallers
 cover:
-  image: images/covers/c75afe0ca813e9d7.webp
+  image: /images/covers/c75afe0ca813e9d7.webp
 album_url: https://picasaweb.google.com/103138221614479310970/DishowsDeTapesIDestapesAmbElsAlumnesDelTallerDelCasalTeatreDImprovisacio?authuser=0&feat=embedwebsite
 ---
 

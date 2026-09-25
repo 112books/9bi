@@ -9,7 +9,7 @@ tags:
 - james harman
 - manel sala ulls
 cover:
-  image: images/covers/a202229e13885b7a.webp
+  image: /images/covers/a202229e13885b7a.webp
 album_url: http://picasaweb.google.com/ulls2006/JamesHarman8eFestivalDeBluesDeBarcelona2010?feat=embedwebsite
 ---
 

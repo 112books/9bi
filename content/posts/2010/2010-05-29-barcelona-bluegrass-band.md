@@ -10,7 +10,7 @@ tags:
 - les basses
 - les nits de Capibila
 cover:
-  image: images/covers/3aa14a1df1f50742.webp
+  image: /images/covers/3aa14a1df1f50742.webp
 album_url: https://photos.app.goo.gl/5HDCGCFVJbuwzudE9
 ---
 

@@ -12,7 +12,7 @@ tags:
 - roquetes
 - llibre
 cover:
-  image: images/covers/2e31fa34cc482503.webp
+  image: /images/covers/2e31fa34cc482503.webp
 album_url: https://goo.gl/photos/ofsAQe32pgawJ4Sj6
 ---
 

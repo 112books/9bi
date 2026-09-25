@@ -8,7 +8,7 @@ tags:
 - blues
 - BLUE
 cover:
-  image: images/covers/b8398d1aee117e73.webp
+  image: /images/covers/b8398d1aee117e73.webp
 album_url: https://picasaweb.google.com/103138221614479310970/PicnicDeBlues2014?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - graffiti
 - directa
 cover:
-  image: images/covers/129cb9cb523b710c.webp
+  image: /images/covers/129cb9cb523b710c.webp
 album_url: https://picasaweb.google.com/110015855395179205688/OpenwallsConference2015ARoquetes?authuser=0&feat=embedwebsite
 ---
 

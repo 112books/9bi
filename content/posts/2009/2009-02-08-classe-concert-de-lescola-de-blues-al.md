@@ -10,7 +10,7 @@ tags:
 - escola-taller de blues de Barcelona
 - fotografia
 cover:
-  image: images/covers/5e0aba8201372a88.webp
+  image: /images/covers/5e0aba8201372a88.webp
 album_url: https://photos.app.goo.gl/dsF2siWmW68c11oF7
 ---
 

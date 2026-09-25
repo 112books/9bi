@@ -9,7 +9,7 @@ tags:
 - manel sala ulls
 - sax gordon
 cover:
-  image: images/covers/9f6ec9512f5f570b.webp
+  image: /images/covers/9f6ec9512f5f570b.webp
 album_url: http://picasaweb.google.com/ulls2006/SaxGordon8eFestivalDeBluesDeBarcelona2010?feat=embedwebsite
 ---
 

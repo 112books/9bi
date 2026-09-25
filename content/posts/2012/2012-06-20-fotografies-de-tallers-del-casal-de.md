@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - tallers
 cover:
-  image: images/covers/a66ed8ad96d48dca.webp
+  image: /images/covers/a66ed8ad96d48dca.webp
 ---
 
 Fotografies de tallers del Casal de Barri de Prosperitat, curs 20011/2012:

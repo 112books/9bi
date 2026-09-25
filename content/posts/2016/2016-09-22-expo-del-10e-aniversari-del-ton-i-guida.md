@@ -9,7 +9,7 @@ tags:
 - roquetes
 - rumors
 cover:
-  image: images/covers/62370403d851590c.webp
+  image: /images/covers/62370403d851590c.webp
 album_url: https://goo.gl/photos/e8XGkDfA7gj6g6em9
 ---
 

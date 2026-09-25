@@ -11,7 +11,7 @@ tags:
 - senegal
 - teatre
 cover:
-  image: images/covers/2e757ef2fd50cf88.webp
+  image: /images/covers/2e757ef2fd50cf88.webp
 album_url: https://picasaweb.google.com/110015855395179205688/LANITDESANTJOAN?authuser=0&feat=embedwebsite
 ---
 

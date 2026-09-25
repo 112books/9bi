@@ -7,7 +7,7 @@ slug: carnaval-2016-la-residencia-i-centre-de
 tags:
 - carnaval
 cover:
-  image: images/covers/97b8e5f80fcc5f63.webp
+  image: /images/covers/97b8e5f80fcc5f63.webp
 album_url: https://picasaweb.google.com/115452009915421757608/Carnaval2016ALaResidenciaICentreDeDiaPorta?authuser=0&feat=embedwebsite
 ---
 

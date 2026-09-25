@@ -10,7 +10,7 @@ tags:
 - Negra
 - 9bi
 cover:
-  image: images/covers/057102186acc401b.webp
+  image: /images/covers/057102186acc401b.webp
 album_url: https://picasaweb.google.com/103138221614479310970/9BinBlackLaCocteleraNegraLeilaDjNassin?authuser=0&feat=embedwebsite
 ---
 

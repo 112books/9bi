@@ -11,7 +11,7 @@ tags:
 - xistorra rock
 - fotografies
 cover:
-  image: images/covers/2e5606e90ed25beb.webp
+  image: /images/covers/2e5606e90ed25beb.webp
 album_url: https://photos.app.goo.gl/yvEktE4BjWWs8xa6A
 ---
 

@@ -8,7 +8,7 @@ tags:
 - Prospe Beach
 - Prosperitat
 cover:
-  image: images/covers/afe1f45136118333.webp
+  image: /images/covers/afe1f45136118333.webp
 album_url: https://picasaweb.google.com/lh/photo/hSQDbFWcezf3lMhvPZ1EY9MTjNZETYmyPJy0liipFm0?feat=embedwebsite
 ---
 

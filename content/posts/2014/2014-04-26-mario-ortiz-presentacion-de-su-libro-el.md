@@ -13,7 +13,7 @@ tags:
 - Mario Ortiz
 - presentacion
 cover:
-  image: images/covers/3511221a6b7dda8d.webp
+  image: /images/covers/3511221a6b7dda8d.webp
 album_url: https://picasaweb.google.com/115791131166530059320/MARIO?authuser=0&feat=embedwebsite
 ---
 

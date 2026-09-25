@@ -12,7 +12,7 @@ tags:
 - ARTS ESCÈNIQUES
 - Barcelona
 cover:
-  image: images/covers/0b4e486d1c6732a8.webp
+  image: /images/covers/0b4e486d1c6732a8.webp
 album_url: https://picasaweb.google.com/ulls2006/ExposicioFotograficaCIRCLaSumaDeTotesLesArtsEsceniques?authuser=0&feat=embedwebsite
 ---
 

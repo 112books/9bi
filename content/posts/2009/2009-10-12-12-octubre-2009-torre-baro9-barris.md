@@ -12,7 +12,7 @@ tags:
 - Prosperitat
 - torre baró
 cover:
-  image: images/covers/819ffc027b2ff9c7.webp
+  image: /images/covers/819ffc027b2ff9c7.webp
 album_url: http://picasaweb.google.es/ulls1963/TorreBaro12Octubre?feat=embedwebsite
 ---
 

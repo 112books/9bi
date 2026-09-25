@@ -10,7 +10,7 @@ tags:
 - MIGUEL HERNANDEZ
 - POEIA
 cover:
-  image: images/covers/87349b091fb6d2f8.webp
+  image: /images/covers/87349b091fb6d2f8.webp
 album_url: http://picasaweb.google.es/pdro.gracias/Poesia?feat=embedwebsite
 ---
 

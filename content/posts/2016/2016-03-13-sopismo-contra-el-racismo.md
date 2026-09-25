@@ -11,7 +11,7 @@ tags:
 - 9barris acull
 - nou barris
 cover:
-  image: images/covers/9f46e2e01a52d8fe.webp
+  image: /images/covers/9f46e2e01a52d8fe.webp
 album_url: https://picasaweb.google.com/114858497713897843587/SOPISMOCONTRAELRACISMO?authuser=0&feat=embedwebsite
 ---
 

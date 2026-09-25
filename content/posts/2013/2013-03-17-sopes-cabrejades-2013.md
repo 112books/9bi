@@ -9,7 +9,7 @@ tags:
 - STA
 - món
 cover:
-  image: images/covers/2d4d4d698448acc8.webp
+  image: /images/covers/2d4d4d698448acc8.webp
 album_url: https://picasaweb.google.com/114858497713897843587/SopesCabrejades2013?authuser=0&feat=embedwebsite
 ---
 

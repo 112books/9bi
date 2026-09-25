@@ -11,7 +11,7 @@ tags:
 - jaco Abel
 - jordi bonell
 cover:
-  image: images/covers/697740171fad3735.webp
+  image: /images/covers/697740171fad3735.webp
 album_url: https://picasaweb.google.com/103138221614479310970/ConcertDeFlamencFusioJacoAbelJordiBonell?authuser=0&feat=embedwebsite
 ---
 

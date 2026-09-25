@@ -8,7 +8,7 @@ tags:
 - concert
 - jazz
 cover:
-  image: images/covers/348d2a2c7a43f2e0.webp
+  image: /images/covers/348d2a2c7a43f2e0.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

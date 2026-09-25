@@ -10,7 +10,7 @@ tags:
 - fotos
 - vaga
 cover:
-  image: images/covers/bb08031baac93310.webp
+  image: /images/covers/bb08031baac93310.webp
 album_url: https://picasaweb.google.com/100268695753733554853/22MaigVagaALEnsenyament?authuser=0&amp;feat=embedwebsite
 ---
 

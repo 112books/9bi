@@ -17,7 +17,7 @@ tags:
 - salsa choke
 - sentimiento cimarrón
 cover:
-  image: images/covers/882a9c52e9f601eb.webp
+  image: /images/covers/882a9c52e9f601eb.webp
 album_url: https://photos.app.goo.gl/8c4knwUWLs9eMYPfA
 ---
 

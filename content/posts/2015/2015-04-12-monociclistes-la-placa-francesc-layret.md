@@ -7,7 +7,7 @@ slug: monociclistes-la-placa-francesc-layret
 tags:
 - monociclistes
 cover:
-  image: images/covers/1fb89a0e72e8cca0.webp
+  image: /images/covers/1fb89a0e72e8cca0.webp
 album_url: https://picasaweb.google.com/lh/photo/Afb2ozw9sNbooaPGpCPW29MTjNZETYmyPJy0liipFm0?feat=embedwebsite
 ---
 

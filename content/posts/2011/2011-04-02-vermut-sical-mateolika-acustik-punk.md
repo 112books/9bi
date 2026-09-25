@@ -12,7 +12,7 @@ tags:
 - mateolika
 - vermut sical
 cover:
-  image: images/covers/f073fe7afbd61ea6.webp
+  image: /images/covers/f073fe7afbd61ea6.webp
 album_url: https://picasaweb.google.com/linuxbcn/VermutSicalMateolikaAcustikPunk020411?feat=embedwebsite
 ---
 

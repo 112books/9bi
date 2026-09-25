@@ -10,7 +10,7 @@ tags:
 - ajuntament
 - barri
 cover:
-  image: images/covers/c9b9c2a8ab5496f8.webp
+  image: /images/covers/c9b9c2a8ab5496f8.webp
 album_url: https://picasaweb.google.com/103138221614479310970/ConsellDeBarriALAjuntamentDeNouBarris?authuser=0&feat=embedwebsite
 ---
 

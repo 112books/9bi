@@ -11,7 +11,7 @@ tags:
 - ARTS ESCÈNIQUES
 - Prosperitat
 cover:
-  image: images/covers/f4d465612626aefd.webp
+  image: /images/covers/f4d465612626aefd.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

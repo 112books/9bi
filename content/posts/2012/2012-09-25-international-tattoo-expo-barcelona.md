@@ -11,7 +11,7 @@ tags:
 - expo
 - ione
 cover:
-  image: images/covers/2cff693698ace315.webp
+  image: /images/covers/2cff693698ace315.webp
 album_url: https://picasaweb.google.com/100268695753733554853/INTERNATIONALTATTOOEXPOBARCELONA?authuser=0&amp;feat=embedwebsite
 ---
 

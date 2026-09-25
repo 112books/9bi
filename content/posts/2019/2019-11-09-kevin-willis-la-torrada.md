@@ -7,7 +7,7 @@ slug: kevin-willis-la-torrada
 tags:
 - la torrada
 cover:
-  image: images/covers/3fb7d34a23773e94.webp
+  image: /images/covers/3fb7d34a23773e94.webp
 album_url: https://photos.app.goo.gl/qYbLHR87kWD1UNvb6
 ---
 

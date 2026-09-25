@@ -10,7 +10,7 @@ tags:
 - Cultura va de festa
 - fiesta
 cover:
-  image: images/covers/344106bdfde50262.webp
+  image: /images/covers/344106bdfde50262.webp
 album_url: https://photos.google.com/share/AF1QipMLaPEX54SfB8KSoqri-NHBBUxjnMcvlZ3DlCmDJupyBaWNlWDcxmSk1Y3g-4uwOw?hl=es&key=X0tpN3k3MU1JcDFSNlJUS1VCZkYtYS1oVWR0S25n
 ---
 

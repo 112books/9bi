@@ -10,7 +10,7 @@ tags:
 - dia de la mujer 2014
 - dona dia de la mujer
 cover:
-  image: images/covers/561a6bf371c055f7.webp
+  image: /images/covers/561a6bf371c055f7.webp
 album_url: https://picasaweb.google.com/115791131166530059320/DIADELADONAPILAR?authuser=0&amp;feat=embedwebsite
 ---
 

@@ -10,7 +10,7 @@ tags:
 - la montañesa
 - peña hueco
 cover:
-  image: images/covers/259ed48b25b90113.webp
+  image: /images/covers/259ed48b25b90113.webp
 album_url: https://picasaweb.google.com/pdro.gracias/MONTANESAPENAHUECO?feat=embedwebsite
 ---
 

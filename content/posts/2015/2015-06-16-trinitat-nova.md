@@ -11,7 +11,7 @@ tags:
 - barri
 - veïns
 cover:
-  image: images/covers/b180e360d7ba883e.webp
+  image: /images/covers/b180e360d7ba883e.webp
 album_url: https://picasaweb.google.com/110015855395179205688/TRINITATNOVA?authuser=0&feat=embedwebsite
 ---
 

@@ -9,7 +9,7 @@ tags:
 - festamajor prospe
 - festes
 cover:
-  image: images/covers/4e5ee43f6985710e.webp
+  image: /images/covers/4e5ee43f6985710e.webp
 album_url: https://photos.app.goo.gl/jBabsL5ds6n5FSEo8
 ---
 

@@ -9,7 +9,7 @@ tags:
 - barri
 - mar
 cover:
-  image: images/covers/9b2bfdf636963865.webp
+  image: /images/covers/9b2bfdf636963865.webp
 album_url: https://picasaweb.google.com/pedro.cervera/2303201102?feat=embedwebsite
 ---
 

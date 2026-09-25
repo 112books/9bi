@@ -10,7 +10,7 @@ tags:
 - diana gadish
 - dishows
 cover:
-  image: images/covers/1bb709599c81f5aa.webp
+  image: /images/covers/1bb709599c81f5aa.webp
 album_url: https://picasaweb.google.com/103138221614479310970/DiShowsNumerosNaturalesEnterosEIrracionalesDeDianaGadishAndColectivoAmeno?authuser=0&feat=embedwebsite
 ---
 

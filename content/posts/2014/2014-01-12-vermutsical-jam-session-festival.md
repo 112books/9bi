@@ -9,7 +9,7 @@ tags:
 - jam session
 - vermutsical
 cover:
-  image: images/covers/56220b000f9d3bf9.webp
+  image: /images/covers/56220b000f9d3bf9.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutsicalJamSessionFestival02?authuser=0&feat=embedwebsite
 ---
 

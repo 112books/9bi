@@ -14,7 +14,7 @@ tags:
 - Prosperitat
 - retallades
 cover:
-  image: images/covers/0edf3eb3f23dd805.webp
+  image: /images/covers/0edf3eb3f23dd805.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestaMajorDelDistricteDeNouBarrisSensePrego?authuser=0&feat=embedwebsite
 ---
 

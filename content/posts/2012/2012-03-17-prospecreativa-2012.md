@@ -11,7 +11,7 @@ tags:
 - barri
 - mar
 cover:
-  image: images/covers/cecd70f951f2b489.webp
+  image: /images/covers/cecd70f951f2b489.webp
 album_url: https://picasaweb.google.com/104199960646572363843/ProspeCreativa2012?authuser=0&feat=embedwebsite
 ---
 

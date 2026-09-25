@@ -9,7 +9,7 @@ tags:
 - fotografia
 - Prosperitat
 cover:
-  image: images/covers/7080eeb7f1300df3.webp
+  image: /images/covers/7080eeb7f1300df3.webp
 album_url: https://picasaweb.google.com/linuxbcn/Acampada9Barris?feat=embedwebsite
 ---
 

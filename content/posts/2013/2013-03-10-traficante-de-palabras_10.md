@@ -11,7 +11,7 @@ tags:
 - poesía
 - cante
 cover:
-  image: images/covers/3803e8a68de3a539.webp
+  image: /images/covers/3803e8a68de3a539.webp
 album_url: https://picasaweb.google.com/100268695753733554853/TraficanteDePalabras?authuser=0&amp;feat=embedwebsite
 ---
 

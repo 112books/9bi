@@ -8,7 +8,7 @@ tags:
 - macro fotografia
 - taula bodegó
 cover:
-  image: images/covers/e774c7ae24cf48f9.webp
+  image: /images/covers/e774c7ae24cf48f9.webp
 album_url: https://picasaweb.google.com/103138221614479310970/TaulaMacroBodego?authuser=0&feat=embedwebsite
 ---
 

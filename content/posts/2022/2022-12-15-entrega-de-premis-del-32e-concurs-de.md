@@ -12,7 +12,7 @@ tags:
 - fotografia
 - 9 barris
 cover:
-  image: images/covers/a28d29701dccaafc.webp
+  image: /images/covers/a28d29701dccaafc.webp
 album_url: https://www.casalprospe.org/esdeveniments/concurs-de-fotografia-josep-antón-cordoncillo-entrega-de-premis-concert
 ---
 

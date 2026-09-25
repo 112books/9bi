@@ -12,7 +12,7 @@ tags:
 - Nathan James
 - The Midnight Rockets
 cover:
-  image: images/covers/bb97a11e068de744.webp
+  image: /images/covers/bb97a11e068de744.webp
 album_url: https://photos.app.goo.gl/XWWmZANsdKogKURY7
 ---
 

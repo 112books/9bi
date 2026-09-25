@@ -10,7 +10,7 @@ tags:
 - ruta
 - art
 cover:
-  image: images/covers/b68df217f4a404b3.webp
+  image: /images/covers/b68df217f4a404b3.webp
 album_url: https://photos.app.goo.gl/DaPwRsHShvikc27n7
 ---
 

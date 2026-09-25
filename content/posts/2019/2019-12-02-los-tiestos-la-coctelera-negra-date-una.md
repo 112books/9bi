@@ -10,7 +10,7 @@ tags:
 - huerta
 - Negra
 cover:
-  image: images/covers/ab565c5f6a3837e1.webp
+  image: /images/covers/ab565c5f6a3837e1.webp
 album_url: https://photos.app.goo.gl/F2pgwQNhnzpTpi549
 ---
 

@@ -8,7 +8,7 @@ tags:
 - jazz
 - jordi lapedra
 cover:
-  image: images/covers/93d4203f9de844c6.webp
+  image: /images/covers/93d4203f9de844c6.webp
 album_url: https://photos.app.goo.gl/jcpMsx15ytv3wPrb8
 ---
 

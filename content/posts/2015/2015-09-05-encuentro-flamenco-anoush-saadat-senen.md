@@ -8,7 +8,7 @@ tags:
 - flamenco
 - flamenc
 cover:
-  image: images/covers/3d0dd2a815791fa7.webp
+  image: /images/covers/3d0dd2a815791fa7.webp
 album_url: https://picasaweb.google.com/103138221614479310970/EncuentroFlamencoAnoushSaadatSenenSentioIRemiNormand?authuser=0&feat=embedwebsite
 ---
 

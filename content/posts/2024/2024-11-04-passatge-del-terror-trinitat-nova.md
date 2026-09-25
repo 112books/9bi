@@ -8,7 +8,7 @@ tags:
 - passatge del terror
 - trinitat nova
 cover:
-  image: images/covers/0fc2a6440fb91ae4.webp
+  image: /images/covers/0fc2a6440fb91ae4.webp
 album_url: https://photos.app.goo.gl/E7mPZchkjWXpNQw77
 ---
 

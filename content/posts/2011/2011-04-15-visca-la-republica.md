@@ -9,7 +9,7 @@ tags:
 - linuxbcn
 - República
 cover:
-  image: images/covers/7e7bc0488ca19da5.webp
+  image: /images/covers/7e7bc0488ca19da5.webp
 ---
 
 |  |

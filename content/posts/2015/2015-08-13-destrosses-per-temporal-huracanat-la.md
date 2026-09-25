@@ -11,7 +11,7 @@ tags:
 - vent
 - neu
 cover:
-  image: images/covers/f6b7584d71ef6d4e.webp
+  image: /images/covers/f6b7584d71ef6d4e.webp
 album_url: https://picasaweb.google.com/114858497713897843587/RESTESDELHURACAALAGUINEUETA?authuser=0&feat=embedwebsite
 ---
 

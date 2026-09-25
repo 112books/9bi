@@ -11,7 +11,7 @@ tags:
 - fotos
 - ruta
 cover:
-  image: images/covers/969e416b4c7179ef.webp
+  image: /images/covers/969e416b4c7179ef.webp
 album_url: https://picasaweb.google.com/110015855395179205688/GrupFotoRoquetesAPedralbes?authuser=0&feat=embedwebsite
 ---
 

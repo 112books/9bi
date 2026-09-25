@@ -8,7 +8,7 @@ tags:
 - festival de sopes del món
 - vía júlia
 cover:
-  image: images/covers/c776e8ff1486247c.webp
+  image: /images/covers/c776e8ff1486247c.webp
 album_url: https://photos.google.com/share/AF1QipOQM6tPkO3yRGzPwtIFnM9R8ddiOL3OmZFK6w-z4vVbUXzsXivI59utggPJ8rl6hg?key=MG50ZWlSekxabUxoRWN3RUtTR2t0dDJnYm1adWdn
 ---
 

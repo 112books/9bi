@@ -8,7 +8,7 @@ tags:
 - Sol Homar Ensamble
 - mar
 cover:
-  image: images/covers/fee961a2265580f9.webp
+  image: /images/covers/fee961a2265580f9.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

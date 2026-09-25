@@ -11,7 +11,7 @@ tags:
 - ruta
 - quim
 cover:
-  image: images/covers/182129bf19eff673.webp
+  image: /images/covers/182129bf19eff673.webp
 album_url: https://photos.app.goo.gl/685CY9RRhJ1ThNKB6
 ---
 

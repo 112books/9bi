@@ -9,7 +9,7 @@ tags:
 - Herederos del Taxi
 - juegos peñas
 cover:
-  image: images/covers/06673d2005457d24.webp
+  image: /images/covers/06673d2005457d24.webp
 album_url: https://photos.google.com/share/AF1QipOhonGaR0CKedE890p2r99nV1erIOg0hG60vBtADnl9vTinjZgHVX3RxBNJdAVUyw?key=RHZqNmFKSHoyZ1RxR3I2RlIyTDdJWFRpLVFLYkdB
 ---
 

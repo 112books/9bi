@@ -10,7 +10,7 @@ tags:
 - peña tetrinké
 - tetrinké
 cover:
-  image: images/covers/dff2b0010064ee3d.webp
+  image: /images/covers/dff2b0010064ee3d.webp
 album_url: https://photos.app.goo.gl/JjXR63r73brKhbt39
 ---
 

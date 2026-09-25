@@ -11,7 +11,7 @@ tags:
 - futbol
 - FESTA
 cover:
-  image: images/covers/fe581fc75d591025.webp
+  image: /images/covers/fe581fc75d591025.webp
 album_url: http://picasaweb.google.es/Perdo.Garcia/Afs?feat=embedwebsite
 ---
 

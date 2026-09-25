@@ -11,7 +11,7 @@ tags:
 - Xerrada
 - llibre
 cover:
-  image: images/covers/ba5c22e7ad8d5dd8.webp
+  image: /images/covers/ba5c22e7ad8d5dd8.webp
 album_url: https://photos.app.goo.gl/MCV8MryTsSXZtj8T7
 ---
 

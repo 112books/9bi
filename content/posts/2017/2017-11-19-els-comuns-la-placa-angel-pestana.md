@@ -8,7 +8,7 @@ tags:
 - Angel Pestaña
 - STA
 cover:
-  image: images/covers/4c7636482b7cb6f8.webp
+  image: /images/covers/4c7636482b7cb6f8.webp
 album_url: https://photos.app.goo.gl/Tca3utGJpL1KVBoU2
 ---
 

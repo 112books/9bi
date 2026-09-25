@@ -7,7 +7,7 @@ slug: festa-major-prosperitat-dissabte
 tags:
 - Pasacalles Festa Major Prosperitat
 cover:
-  image: images/covers/e7ba80566b005816.webp
+  image: /images/covers/e7ba80566b005816.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestaMajorProsperitatDissabte?authuser=0&feat=embedwebsite
 ---
 

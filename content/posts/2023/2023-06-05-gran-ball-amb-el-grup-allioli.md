@@ -7,7 +7,7 @@ slug: gran-ball-amb-el-grup-allioli
 tags:
 - ball
 cover:
-  image: images/covers/e868b2d28e80c461.webp
+  image: /images/covers/e868b2d28e80c461.webp
 album_url: https://photos.app.goo.gl/XabiP1b45wHmwJqB6
 ---
 

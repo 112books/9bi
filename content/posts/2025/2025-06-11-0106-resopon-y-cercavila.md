@@ -7,7 +7,7 @@ slug: 0106-resopon-y-cercavila
 tags:
 - cercavila
 cover:
-  image: images/covers/e1ec456f6845a321.webp
+  image: /images/covers/e1ec456f6845a321.webp
 album_url: https://photos.app.goo.gl/9bwtSjcXEaLdrqkC7
 ---
 

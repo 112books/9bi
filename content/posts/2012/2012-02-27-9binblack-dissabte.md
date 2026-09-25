@@ -7,7 +7,7 @@ slug: 9binblack-dissabte
 tags:
 - 9binblack
 cover:
-  image: images/covers/e6770b6e8eaceffd.webp
+  image: /images/covers/e6770b6e8eaceffd.webp
 album_url: https://picasaweb.google.com/103138221614479310970/9binblackDissabte?authuser=0&feat=embedwebsite
 ---
 

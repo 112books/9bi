@@ -9,7 +9,7 @@ tags:
 - fiesta
 - rua carnaval via julia
 cover:
-  image: images/covers/28594bc12b241254.webp
+  image: /images/covers/28594bc12b241254.webp
 album_url: https://photos.app.goo.gl/DeufVMYzKdAGoGAR7
 ---
 

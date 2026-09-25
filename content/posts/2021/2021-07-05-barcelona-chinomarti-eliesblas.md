@@ -12,7 +12,7 @@ tags:
 - Chino
 - art
 cover:
-  image: images/covers/89157d388671899f.webp
+  image: /images/covers/89157d388671899f.webp
 album_url: https://photos.app.goo.gl/pDYiTi8MPu8z7N7E7
 ---
 

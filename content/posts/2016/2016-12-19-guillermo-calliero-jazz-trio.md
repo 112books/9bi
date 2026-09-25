@@ -7,7 +7,7 @@ slug: guillermo-calliero-jazz-trio
 tags:
 - jazz
 cover:
-  image: images/covers/ccea113ace4853b2.webp
+  image: /images/covers/ccea113ace4853b2.webp
 album_url: https://photos.google.com/share/AF1QipMlM2UpJ43JE7qQKzm6_VVu_4d1u5ejzIsIyqYI_njomGhHitIdvZovvQeOqixb5w?hl=es&key=NG0zdXUwZ00wQTQ5dEU4LWhuN0dzUFkzN3NNQVN3
 ---
 

@@ -9,7 +9,7 @@ tags:
 - CASAL
 - casa
 cover:
-  image: images/covers/a03e1a29ea04628b.webp
+  image: /images/covers/a03e1a29ea04628b.webp
 album_url: https://picasaweb.google.com/103138221614479310970/DiShowsDelCasalMonolegReflexiuAmbCANDIDOCRATICOELCANDIDATODEMOCRATICO?authuser=0&feat=embedwebsite
 ---
 

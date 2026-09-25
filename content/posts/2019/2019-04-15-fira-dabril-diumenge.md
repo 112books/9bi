@@ -7,7 +7,7 @@ slug: fira-dabril-diumenge
 tags:
 - diumenge
 cover:
-  image: images/covers/2e9a35463409a966.webp
+  image: /images/covers/2e9a35463409a966.webp
 album_url: https://photos.app.goo.gl/yei2FzrRFZsX4RPk9
 ---
 

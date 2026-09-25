@@ -11,7 +11,7 @@ tags:
 - BLUE
 - STA
 cover:
-  image: images/covers/05169ff6d09e7221.webp
+  image: /images/covers/05169ff6d09e7221.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FBBFestaFiDeCursDeLEscolaTallerDeBluesDeBaracelona?authuser=0&feat=embedwebsite
 ---
 

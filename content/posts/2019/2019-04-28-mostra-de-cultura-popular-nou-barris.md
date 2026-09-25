@@ -8,7 +8,7 @@ tags:
 - activitats
 - cultura
 cover:
-  image: images/covers/4bab1e6122fc23a2.webp
+  image: /images/covers/4bab1e6122fc23a2.webp
 album_url: https://photos.google.com/share/AF1QipMQCB1-tYDUmxeQ5QVLbbyCsod3elJcrX3Yx04RKYwkyMj_h4u3nRtz_-JBagATnQ?key=WHA0RzQ3dFlfQk0taHZvWW5BSTgwV2tYOXBJcm5R
 ---
 

@@ -11,7 +11,7 @@ tags:
 - barri
 - CASAL
 cover:
-  image: images/covers/6728956365047ebd.webp
+  image: /images/covers/6728956365047ebd.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6286516484086698913?authuser=0&feat=embedwebsite
 ---
 

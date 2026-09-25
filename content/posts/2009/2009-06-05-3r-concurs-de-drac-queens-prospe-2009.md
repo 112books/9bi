@@ -9,7 +9,7 @@ tags:
 - DRAG QUEEN PROSPE FESTA 08
 - manel sala ulls
 cover:
-  image: images/covers/3396f3ea95683a25.webp
+  image: /images/covers/3396f3ea95683a25.webp
 album_url: http://picasaweb.google.es/ulls1963/ConcursDeDragQueens?feat=embedwebsite
 ---
 

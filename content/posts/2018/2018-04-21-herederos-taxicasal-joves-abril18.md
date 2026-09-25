@@ -9,7 +9,7 @@ tags:
 - casal de joves de prosperitat
 - Herederos del Taxi
 cover:
-  image: images/covers/877f7919edd7cf07.webp
+  image: /images/covers/877f7919edd7cf07.webp
 album_url: https://photos.app.goo.gl/AbF8ULo8N7ONQPhu2
 ---
 

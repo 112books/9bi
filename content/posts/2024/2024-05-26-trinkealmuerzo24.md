@@ -7,7 +7,7 @@ slug: trinkealmuerzo24
 tags:
 - música
 cover:
-  image: images/covers/60e3040af0170bf7.webp
+  image: /images/covers/60e3040af0170bf7.webp
 album_url: https://photos.app.goo.gl/6LSmjAA58YfY9KrH7
 ---
 

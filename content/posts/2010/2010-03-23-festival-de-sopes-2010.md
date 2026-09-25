@@ -11,7 +11,7 @@ tags:
 - manel sala ulls
 - sopes
 cover:
-  image: images/covers/dbe39269f5ae9c09.webp
+  image: /images/covers/dbe39269f5ae9c09.webp
 album_url: http://picasaweb.google.es/ulls2006/FestivalDeSopes2010?feat=embedwebsite
 ---
 

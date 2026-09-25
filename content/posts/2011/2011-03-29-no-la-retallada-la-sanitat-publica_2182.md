@@ -8,7 +8,7 @@ tags:
 - sanitat publica
 - sanitat
 cover:
-  image: images/covers/b2bd01b57ee0d78a.webp
+  image: /images/covers/b2bd01b57ee0d78a.webp
 album_url: https://picasaweb.google.com/ulls2006/NOALaRetalladaALaSanitatPublica?feat=embedwebsite
 ---
 

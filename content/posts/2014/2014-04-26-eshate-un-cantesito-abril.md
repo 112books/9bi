@@ -7,7 +7,7 @@ slug: eshate-un-cantesito-abril
 tags:
 - cante
 cover:
-  image: images/covers/db0078e2cab27d24.webp
+  image: /images/covers/db0078e2cab27d24.webp
 album_url: https://picasaweb.google.com/101546608348756835393/EshateUnCantesitoAbril?authuser=0&feat=embedwebsite
 ---
 

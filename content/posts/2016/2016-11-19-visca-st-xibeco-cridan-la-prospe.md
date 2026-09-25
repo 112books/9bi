@@ -9,7 +9,7 @@ tags:
 - Casal Joves Prosperitat
 - san xibeco
 cover:
-  image: images/covers/748592c751ef02e0.webp
+  image: /images/covers/748592c751ef02e0.webp
 album_url: https://goo.gl/photos/dN8WkXCCL33zKGzE7
 ---
 

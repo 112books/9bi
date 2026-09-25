@@ -7,7 +7,7 @@ slug: solidaridad-sierra-de-la-culebra-kevin
 tags:
 - Sierra de la culebra
 cover:
-  image: images/covers/e9dc85cbe1fa3740.webp
+  image: /images/covers/e9dc85cbe1fa3740.webp
 album_url: https://photos.app.goo.gl/cqw3DnmQfhkSV8yd7
 ---
 

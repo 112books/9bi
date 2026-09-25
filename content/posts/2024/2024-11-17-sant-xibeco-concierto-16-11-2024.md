@@ -11,7 +11,7 @@ tags:
 - concerts
 - concert
 cover:
-  image: images/covers/f7dcb40b77566b49.webp
+  image: /images/covers/f7dcb40b77566b49.webp
 album_url: https://photos.app.goo.gl/CBmP82PxmXWmpBBC7
 ---
 

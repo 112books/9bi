@@ -8,7 +8,7 @@ tags:
 - plaça de la República
 - República
 cover:
-  image: images/covers/bfc9cbf9e3c8772b.webp
+  image: /images/covers/bfc9cbf9e3c8772b.webp
 album_url: ' https://picasaweb.google.com/116805523004990742624/DelsBorbonsALaRepublica2014?authuser=0&authkey=Gv1sRgCM7-0eudlNiUigE&feat=embedwebsite '
 ---
 

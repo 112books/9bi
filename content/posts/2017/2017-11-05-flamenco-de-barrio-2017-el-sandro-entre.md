@@ -10,7 +10,7 @@ tags:
 - flamenc
 - barri
 cover:
-  image: images/covers/81d04963f232c6cd.webp
+  image: /images/covers/81d04963f232c6cd.webp
 album_url: https://photos.app.goo.gl/WGruVrmOX8XxyqX43
 ---
 

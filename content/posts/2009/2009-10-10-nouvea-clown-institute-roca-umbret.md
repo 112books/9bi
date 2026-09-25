@@ -10,7 +10,7 @@ tags:
 - granollers
 - manel sala ulls
 cover:
-  image: images/covers/8ab36566d5b819f2.webp
+  image: /images/covers/8ab36566d5b819f2.webp
 album_url: http://picasaweb.google.com/ulls1963/ClownInstituteGranollers?feat=embedwebsite
 ---
 

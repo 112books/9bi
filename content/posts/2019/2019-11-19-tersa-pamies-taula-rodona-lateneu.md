@@ -11,7 +11,7 @@ tags:
 - Xerrada
 - popular
 cover:
-  image: images/covers/7999782b8a6ffd41.webp
+  image: /images/covers/7999782b8a6ffd41.webp
 album_url: https://photos.app.goo.gl/GdrdoSqMVaE4Kmmw7
 ---
 

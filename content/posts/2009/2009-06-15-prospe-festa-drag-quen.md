@@ -10,7 +10,7 @@ tags:
 - FESTA
 - STA
 cover:
-  image: images/covers/8c1a7083ffeb0580.webp
+  image: /images/covers/8c1a7083ffeb0580.webp
 album_url: http://picasaweb.google.es/Perdo.Garcia/DragQuen?feat=embedwebsite
 ---
 

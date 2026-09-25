@@ -7,7 +7,7 @@ slug: 21e-festival-de-blues-de-barcelona
 tags:
 - festival de bluesl de barcelona
 cover:
-  image: images/covers/e3d86918f99a0415.webp
+  image: /images/covers/e3d86918f99a0415.webp
 ---
 
 \* la imatge és merament ilustrativa, no te enllaç ;)

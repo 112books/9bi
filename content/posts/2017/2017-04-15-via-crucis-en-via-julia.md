@@ -11,7 +11,7 @@ tags:
 - roquetes
 - prospe
 cover:
-  image: images/covers/1ca5070eb138bc07.webp
+  image: /images/covers/1ca5070eb138bc07.webp
 album_url: https://goo.gl/photos/PxF3e6PNQxmwxiHB8
 ---
 

@@ -11,7 +11,7 @@ tags:
 - festes
 - baile
 cover:
-  image: images/covers/b77980c2b1311883.webp
+  image: /images/covers/b77980c2b1311883.webp
 album_url: https://photos.app.goo.gl/vMcXH245j2c957BR9
 ---
 

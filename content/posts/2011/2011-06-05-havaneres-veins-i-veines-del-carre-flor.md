@@ -8,7 +8,7 @@ tags:
 - havaneres
 - neu
 cover:
-  image: images/covers/656b93df0be18ab9.webp
+  image: /images/covers/656b93df0be18ab9.webp
 album_url: https://picasaweb.google.com/nico9barrisimarge/HavaneresVeinsIVeinesDelCarreFlorDeNeu?authkey=Gv1sRgCMTfr-7Il9XusgE&feat=embedwebsite
 ---
 

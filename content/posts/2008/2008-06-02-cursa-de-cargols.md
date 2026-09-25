@@ -10,7 +10,7 @@ tags:
 - correr
 - STA
 cover:
-  image: images/covers/2e07fd1f948a337e.webp
+  image: /images/covers/2e07fd1f948a337e.webp
 album_url: http://picasaweb.google.es/jaime14bf/CARRERACARGOLS
 ---
 

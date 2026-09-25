@@ -8,7 +8,7 @@ tags:
 - activitats
 - fotografia
 cover:
-  image: images/covers/184c48b944e41694.webp
+  image: /images/covers/184c48b944e41694.webp
 ---
 
 

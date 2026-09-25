@@ -10,7 +10,7 @@ tags:
 - expo
 - STA
 cover:
-  image: images/covers/1986de23462df8dd.webp
+  image: /images/covers/1986de23462df8dd.webp
 album_url: https://photos.app.goo.gl/GBT8iEYaHPbyFQq86
 ---
 

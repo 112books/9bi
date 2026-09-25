@@ -11,7 +11,7 @@ tags:
 - 9 barris
 - malacara
 cover:
-  image: images/covers/c2c0178c2a3f311f.webp
+  image: /images/covers/c2c0178c2a3f311f.webp
 album_url: https://photos.app.goo.gl/92RXpbEihgR95Yp7A
 ---
 

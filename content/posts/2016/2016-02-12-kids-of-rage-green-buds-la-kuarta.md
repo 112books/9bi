@@ -7,7 +7,7 @@ slug: kids-of-rage-green-buds-la-kuarta
 tags:
 - art
 cover:
-  image: images/covers/415894059385600b.webp
+  image: /images/covers/415894059385600b.webp
 album_url: https://picasaweb.google.com/103138221614479310970/KidsOfRageGreenBudsLaKuarta?authuser=0&feat=embedwebsite
 ---
 

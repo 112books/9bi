@@ -9,7 +9,7 @@ tags:
 - pasabares
 - prospe
 cover:
-  image: images/covers/1bcaa531b48fd50e.webp
+  image: /images/covers/1bcaa531b48fd50e.webp
 album_url: https://photos.app.goo.gl/oLGELaemQgioJAst9
 ---
 

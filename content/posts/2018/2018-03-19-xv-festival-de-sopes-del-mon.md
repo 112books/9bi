@@ -7,7 +7,7 @@ slug: xv-festival-de-sopes-del-mon
 tags:
 - festival de sopes del món
 cover:
-  image: images/covers/5d2382f1bdef1e6e.webp
+  image: /images/covers/5d2382f1bdef1e6e.webp
 album_url: https://photos.app.goo.gl/rDkdcsrUKjvYkpaT2
 ---
 

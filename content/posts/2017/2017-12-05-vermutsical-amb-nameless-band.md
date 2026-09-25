@@ -7,7 +7,7 @@ slug: vermutsical-amb-nameless-band
 tags:
 - vermutsical
 cover:
-  image: images/covers/4c1e7b4fb010dbf8.webp
+  image: /images/covers/4c1e7b4fb010dbf8.webp
 album_url: https://photos.app.goo.gl/aOVBhXdl60qcvSP43
 ---
 

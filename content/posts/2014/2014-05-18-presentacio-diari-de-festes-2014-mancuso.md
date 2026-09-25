@@ -10,7 +10,7 @@ tags:
 - festes
 - diari
 cover:
-  image: images/covers/488964c6cf510ffd.webp
+  image: /images/covers/488964c6cf510ffd.webp
 album_url: https://picasaweb.google.com/103138221614479310970/PresentacioDiariDeFestes2014Mancuso?authuser=0&feat=embedwebsite
 ---
 

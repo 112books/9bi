@@ -7,7 +7,7 @@ slug: navidad-en-la-residencia-porta_13
 tags:
 - avis
 cover:
-  image: images/covers/b9b66b80aa640b3a.webp
+  image: /images/covers/b9b66b80aa640b3a.webp
 album_url: https://picasaweb.google.com/115452009915421757608/NavidadEnLaResidenciaPorta?authuser=0&feat=embedwebsite
 ---
 

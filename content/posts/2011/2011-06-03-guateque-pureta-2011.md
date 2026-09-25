@@ -8,7 +8,7 @@ tags:
 - guateque puretas
 - música
 cover:
-  image: images/covers/7f0a721c6de80667.webp
+  image: /images/covers/7f0a721c6de80667.webp
 album_url: https://picasaweb.google.com/Perdo.Garcia/Gtqq?feat=embedwebsite
 ---
 

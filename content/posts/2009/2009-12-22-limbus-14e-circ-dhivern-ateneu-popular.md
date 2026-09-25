@@ -13,7 +13,7 @@ tags:
 - limbus
 - manel sala ulls
 cover:
-  image: images/covers/9a3105d80cd70b98.webp
+  image: /images/covers/9a3105d80cd70b98.webp
 album_url: http://picasaweb.google.es/ulls2006/Limbus14eCircDHivern?feat=embedwebsite
 ---
 

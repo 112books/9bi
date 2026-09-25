@@ -10,7 +10,7 @@ tags:
 - Lo Petit Comité
 - Vin-Out
 cover:
-  image: images/covers/77970bfc618b40e3.webp
+  image: /images/covers/77970bfc618b40e3.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VinOutLoPetitComite?authuser=0&authkey=Gv1sRgCKT1grWAn-6X7AE&feat=embedwebsite
 ---
 

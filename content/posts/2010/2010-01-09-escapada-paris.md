@@ -10,7 +10,7 @@ tags:
 - Paris mon amour
 - viajes
 cover:
-  image: images/covers/bbf6f53c669ff59f.webp
+  image: /images/covers/bbf6f53c669ff59f.webp
 album_url: http://picasaweb.google.es/pdro.gracias/Paris2?feat=embedwebsite
 ---
 

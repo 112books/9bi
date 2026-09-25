@@ -10,7 +10,7 @@ tags:
 - yeye
 - neu
 cover:
-  image: images/covers/e9143598a4afb181.webp
+  image: /images/covers/e9143598a4afb181.webp
 album_url: https://picasaweb.google.com/103138221614479310970/HabaneresCarreFlorDeNeuNIcoYeye?authuser=0&feat=embedwebsite
 ---
 

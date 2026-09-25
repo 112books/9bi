@@ -9,7 +9,7 @@ tags:
 - habitatge
 - manifestació
 cover:
-  image: images/covers/bbae0c62fe9b3b0c.webp
+  image: /images/covers/bbae0c62fe9b3b0c.webp
 album_url: https://photos.app.goo.gl/13iDmqmzWZBDYL9E7
 ---
 

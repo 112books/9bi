@@ -7,7 +7,7 @@ slug: sortim-beteve
 tags:
 - fotografia
 cover:
-  image: images/covers/111d1e5daa94e776.webp
+  image: /images/covers/111d1e5daa94e776.webp
 album_url: https://beteve.cat/societat/album-fotos-prosperitat-9barris-imatge/
 ---
 

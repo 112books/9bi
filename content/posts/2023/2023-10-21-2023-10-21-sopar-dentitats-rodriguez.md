@@ -11,7 +11,7 @@ tags:
 - guitarra
 - entitats
 cover:
-  image: images/covers/2ea95a9d8c9957e0.webp
+  image: /images/covers/2ea95a9d8c9957e0.webp
 album_url: https://photos.app.goo.gl/G2jDfschsBJaPgJF9
 ---
 

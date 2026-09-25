@@ -7,7 +7,7 @@ slug: teixidores-de-nou-barris
 tags:
 - veïns
 cover:
-  image: images/covers/7f76f9d5e2da25b0.webp
+  image: /images/covers/7f76f9d5e2da25b0.webp
 album_url: https://photos.app.goo.gl/W82Gzab9hffQzQQZ6
 ---
 

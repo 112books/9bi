@@ -11,7 +11,7 @@ tags:
 - castanyes
 - sanitat
 cover:
-  image: images/covers/bfc8ef112acfd85f.webp
+  image: /images/covers/bfc8ef112acfd85f.webp
 album_url: https://picasaweb.google.com/110015855395179205688/CastanyadaAlTonIGuida?authuser=0&feat=embedwebsite
 ---
 

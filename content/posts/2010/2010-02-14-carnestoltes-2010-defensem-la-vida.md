@@ -8,7 +8,7 @@ tags:
 - 9 barris imatge
 - carnestoltes 2010
 cover:
-  image: images/covers/caf6282b6b7ac15a.webp
+  image: /images/covers/caf6282b6b7ac15a.webp
 album_url: http://picasaweb.google.com/ulls2006/CARNESTOLTES2010DEFENSEMLaVIDAASSOCIATIVAANOUBARRISPROU?feat=embedwebsite
 ---
 

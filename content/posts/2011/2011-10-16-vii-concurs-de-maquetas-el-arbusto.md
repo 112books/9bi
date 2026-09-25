@@ -10,7 +10,7 @@ tags:
 - fotografia
 - joan.linuxbcn.com
 cover:
-  image: images/covers/f5f1ed5f3c94ea68.webp
+  image: /images/covers/f5f1ed5f3c94ea68.webp
 album_url: https://photos.app.goo.gl/HUvWgik6c2c3XhAy7
 ---
 

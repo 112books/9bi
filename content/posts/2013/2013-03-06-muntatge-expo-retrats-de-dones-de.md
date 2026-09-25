@@ -10,7 +10,7 @@ tags:
 - making off
 - retrats de dones de prosperitat
 cover:
-  image: images/covers/a9bb21fafaaedf07.webp
+  image: /images/covers/a9bb21fafaaedf07.webp
 album_url: https://picasaweb.google.com/103138221614479310970/MuntatgeExpoRetratsDeDonesDeProsperitat?authuser=0&feat=embedwebsite
 ---
 

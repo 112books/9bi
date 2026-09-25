@@ -15,7 +15,7 @@ tags:
 - nou barris
 - trinitat nova
 cover:
-  image: images/covers/65f88cf8b7802304.webp
+  image: /images/covers/65f88cf8b7802304.webp
 album_url: https://photos.app.goo.gl/R2WghmvtM9BCeyUPA
 ---
 

@@ -7,7 +7,7 @@ slug: tallers-de-reparacio-de-bicicletes
 tags:
 - tallers
 cover:
-  image: images/covers/0f8a40442bddfe90.webp
+  image: /images/covers/0f8a40442bddfe90.webp
 album_url: https://photos.app.goo.gl/S4eWSULi8pNxAiwi6
 ---
 

@@ -10,7 +10,7 @@ tags:
 - STA
 - veu
 cover:
-  image: images/covers/1936024f62bc057f.webp
+  image: /images/covers/1936024f62bc057f.webp
 album_url: https://picasaweb.google.com/110015855395179205688/Eclipse?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - música
 - jazz
 cover:
-  image: images/covers/d30da5bddc58a8c4.webp
+  image: /images/covers/d30da5bddc58a8c4.webp
 album_url: https://photos.app.goo.gl/gj9PFpcUZiwzFAyU7
 ---
 

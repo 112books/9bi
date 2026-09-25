@@ -8,7 +8,7 @@ tags:
 - fotografia
 - pinhole
 cover:
-  image: images/covers/a0da610ff67aa311.webp
+  image: /images/covers/a0da610ff67aa311.webp
 album_url: http://linuxbcn.homeip.net/canon-eos-4d-pinhole-how-to
 ---
 

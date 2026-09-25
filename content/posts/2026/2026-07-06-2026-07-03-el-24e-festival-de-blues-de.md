@@ -12,7 +12,7 @@ tags:
 - participació
 - nou barris
 cover:
-  image: images/covers/cf860de955c1f60e.webp
+  image: /images/covers/cf860de955c1f60e.webp
 album_url: https://blog.pocallum.cat/2026/07/06/2026-07-03a05-24-festival-de-blues-de-barcelona/
 ---
 

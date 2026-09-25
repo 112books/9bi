@@ -11,7 +11,7 @@ tags:
 - vía júlia
 - prospe
 cover:
-  image: images/covers/07a9f6d8670f1b3a.webp
+  image: /images/covers/07a9f6d8670f1b3a.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6287647417567924801?authuser=0&feat=embedwebsite
 ---
 

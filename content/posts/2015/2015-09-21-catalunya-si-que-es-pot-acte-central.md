@@ -9,7 +9,7 @@ tags:
 - catalunya
 - barri
 cover:
-  image: images/covers/e6aa4a028a9b14b6.webp
+  image: /images/covers/e6aa4a028a9b14b6.webp
 album_url: ' https://picasaweb.google.com/116805523004990742624/CSQSP?authuser=0&authkey=Gv1sRgCN7TnoTmgITrIw&feat=embedwebsite '
 ---
 

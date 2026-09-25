@@ -10,7 +10,7 @@ tags:
 - FESTA
 - STA
 cover:
-  image: images/covers/6ac7f42ee797844f.webp
+  image: /images/covers/6ac7f42ee797844f.webp
 album_url: https://picasaweb.google.com/115791131166530059320/22DeSeptiembreDe2013?authuser=0&feat=embedwebsite
 ---
 

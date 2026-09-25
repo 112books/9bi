@@ -11,7 +11,7 @@ tags:
 - residència fantasma
 - Visita turística
 cover:
-  image: images/covers/20e83688eb03deec.webp
+  image: /images/covers/20e83688eb03deec.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VisitaTuristicaGuiadaALaResidenciaFantasmaDelCarrerMoli?authuser=0&amp;feat=embedwebsite
 ---
 

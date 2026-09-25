@@ -9,7 +9,7 @@ tags:
 - casa
 - STA
 cover:
-  image: images/covers/7805ad66356d7447.webp
+  image: /images/covers/7805ad66356d7447.webp
 album_url: https://picasaweb.google.com/115791131166530059320/PITICOLLONS?authuser=0&feat=embedwebsite
 ---
 

@@ -9,7 +9,7 @@ tags:
 - llibre
 - nico
 cover:
-  image: images/covers/27c545eec3a02c3d.webp
+  image: /images/covers/27c545eec3a02c3d.webp
 album_url: https://picasaweb.google.com/103138221614479310970/DanielHigienicoALaLlibreriaEnSuTinta?authuser=0&feat=embedwebsite
 ---
 

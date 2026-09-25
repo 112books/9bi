@@ -7,7 +7,7 @@ slug: silvia-tomas-trio
 tags:
 - música
 cover:
-  image: images/covers/d3ae311d1fd2bda7.webp
+  image: /images/covers/d3ae311d1fd2bda7.webp
 album_url: https://photos.app.goo.gl/ttpWFwJiF0IuGn842
 ---
 

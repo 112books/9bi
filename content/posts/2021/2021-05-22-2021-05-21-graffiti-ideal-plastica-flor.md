@@ -7,7 +7,7 @@ slug: 2021-05-21-graffiti-ideal-plastica-flor
 tags:
 - graffiti
 cover:
-  image: images/covers/13ecaa42338a9c56.webp
+  image: /images/covers/13ecaa42338a9c56.webp
 album_url: https://photos.app.goo.gl/jgmKBGBLz7kqdAFA7
 ---
 

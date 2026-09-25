@@ -10,7 +10,7 @@ tags:
 - jazz
 - linuxbcn
 cover:
-  image: images/covers/6f68d270da658dff.webp
+  image: /images/covers/6f68d270da658dff.webp
 album_url: https://photos.app.goo.gl/PzrchJa6S6acxT8GA
 ---
 

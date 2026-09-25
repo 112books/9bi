@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - presentació
 cover:
-  image: images/covers/27e60364dc297955.webp
+  image: /images/covers/27e60364dc297955.webp
 album_url: https://picasaweb.google.com/100268695753733554853/PresentacioDelLLibreELULTIMOARAGONESVIVO?authuser=0&amp;feat=embedwebsite
 ---
 

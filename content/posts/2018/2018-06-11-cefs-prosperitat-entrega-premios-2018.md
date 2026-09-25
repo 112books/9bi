@@ -9,7 +9,7 @@ tags:
 - futbol-sala
 - trofeos
 cover:
-  image: images/covers/a8c82f6f34d01800.webp
+  image: /images/covers/a8c82f6f34d01800.webp
 album_url: https://photos.google.com/share/AF1QipMXhEAhSRVkqxdOf7qzuIedrO02c1LAdWwV5JEo_mWZuqG7LpbltAMrdAuCTnYdGw?key=dUcwb1haakRRRUZsdUl1YnlZOGZlQjhTdGd6bk1B
 ---
 

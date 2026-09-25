@@ -8,7 +8,7 @@ tags:
 - vermutsical
 - batucada
 cover:
-  image: images/covers/805b1a737b9eddb5.webp
+  image: /images/covers/805b1a737b9eddb5.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutsicalBatucada?authuser=0&authkey=Gv1sRgCInc9OH7_YPrNg&feat=embedwebsite
 ---
 

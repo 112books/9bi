@@ -8,7 +8,7 @@ tags:
 - diumenge
 - festes de prospe
 cover:
-  image: images/covers/152b0283c85b05ef.webp
+  image: /images/covers/152b0283c85b05ef.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestesDeProspe2013DiumengeFiDeFestes?authuser=0&feat=embedwebsite
 ---
 

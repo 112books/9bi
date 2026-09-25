@@ -9,7 +9,7 @@ tags:
 - Festa fi del Remadà
 - manel sala ulls
 cover:
-  image: images/covers/37876f1ebd31b3bf.webp
+  image: /images/covers/37876f1ebd31b3bf.webp
 album_url: http://picasaweb.google.com/ulls2006/FestaFiDelRemada?feat=embedwebsite
 ---
 

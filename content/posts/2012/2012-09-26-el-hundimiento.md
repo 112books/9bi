@@ -7,7 +7,7 @@ slug: el-hundimiento
 tags:
 - fotografia
 cover:
-  image: images/covers/73f4056bf05142f1.webp
+  image: /images/covers/73f4056bf05142f1.webp
 ---
 
 

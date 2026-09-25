@@ -9,7 +9,7 @@ tags:
 - el casal es mostra
 - joan.linuxbcn.com
 cover:
-  image: images/covers/efb619293e6552df.webp
+  image: /images/covers/efb619293e6552df.webp
 album_url: https://picasaweb.google.com/103138221614479310970/ElCasalEsMostra2013?authuser=0&feat=embedwebsite
 ---
 

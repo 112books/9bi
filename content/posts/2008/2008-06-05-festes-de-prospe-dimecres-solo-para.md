@@ -9,7 +9,7 @@ tags:
 - festes de prospe
 - solo para cortos
 cover:
-  image: images/covers/09ae93dc6c2294ca.webp
+  image: /images/covers/09ae93dc6c2294ca.webp
 album_url: https://photos.app.goo.gl/heTdeqDeL4DVRLTY8
 ---
 

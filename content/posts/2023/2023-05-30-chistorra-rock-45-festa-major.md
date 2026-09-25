@@ -8,7 +8,7 @@ tags:
 - chistorra rock
 - festa major prospe 2023
 cover:
-  image: images/covers/adc7841369ed0ae1.webp
+  image: /images/covers/adc7841369ed0ae1.webp
 album_url: https://photos.app.goo.gl/cwiN2v2LhTiwV1yx6
 ---
 

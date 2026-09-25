@@ -8,7 +8,7 @@ tags:
 - fotografia
 - VISA Pour l'Image
 cover:
-  image: images/covers/6c8092d9c1aa0726.webp
+  image: /images/covers/6c8092d9c1aa0726.webp
 album_url: https://photos.app.goo.gl/SfR8NdHmf6hj35ES9
 ---
 

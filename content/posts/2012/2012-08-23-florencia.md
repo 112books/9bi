@@ -12,7 +12,7 @@ tags:
 - monalisa
 - toscana
 cover:
-  image: images/covers/eb27fbf49f3faf74.webp
+  image: /images/covers/eb27fbf49f3faf74.webp
 album_url: https://picasaweb.google.com/115791131166530059320/Florencia?authuser=0&feat=embedwebsite
 ---
 

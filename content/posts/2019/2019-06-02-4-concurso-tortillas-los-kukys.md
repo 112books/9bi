@@ -8,7 +8,7 @@ tags:
 - concurso tortilla 2019
 - festes de prospe 2019
 cover:
-  image: images/covers/3cdfc4e21f0ac5a2.webp
+  image: /images/covers/3cdfc4e21f0ac5a2.webp
 album_url: https://photos.app.goo.gl/7KiJx2nvxoKk9tC8A
 ---
 

@@ -11,7 +11,7 @@ tags:
 - activitats
 - FESTA
 cover:
-  image: images/covers/367d1ddb3419b04d.webp
+  image: /images/covers/367d1ddb3419b04d.webp
 album_url: https://photos.app.goo.gl/G72ALcjz7qrdKxP43
 ---
 

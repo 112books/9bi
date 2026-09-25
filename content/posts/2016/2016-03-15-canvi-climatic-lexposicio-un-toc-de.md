@@ -11,7 +11,7 @@ tags:
 - barri
 - sopes
 cover:
-  image: images/covers/b6d6ccf5de936e68.webp
+  image: /images/covers/b6d6ccf5de936e68.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ElCambioClimaticoGrodema?authuser=0&feat=embedwebsite
 ---
 

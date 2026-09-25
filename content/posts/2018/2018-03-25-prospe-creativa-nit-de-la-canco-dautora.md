@@ -11,7 +11,7 @@ tags:
 - rumba
 - Mateo
 cover:
-  image: images/covers/1fa74342ea79b646.webp
+  image: /images/covers/1fa74342ea79b646.webp
 album_url: https://photos.google.com/share/AF1QipMnDF4rZS2zSle1tEpLPW4k4PtAgf1icRoGCuQr9yyUhhn8oTpHiMJPFK_PZMbXWg?hl=es&key=SFhPSzlaV1NhSVMzTzlHV2VFSncwVDJtSlZFdFJn
 ---
 

@@ -11,7 +11,7 @@ tags:
 - Zoom Roquetes
 - nou barris
 cover:
-  image: images/covers/8eabd4299276ebb9.webp
+  image: /images/covers/8eabd4299276ebb9.webp
 album_url: https://photos.app.goo.gl/46a4a8VdVLCZsmmD8
 ---
 

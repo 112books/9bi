@@ -7,7 +7,7 @@ slug: 2025-10-25-julio-ruiz-la-familia
 tags:
 - ateneu popular 9 barris
 cover:
-  image: images/covers/08f5c0270cfbfbe2.webp
+  image: /images/covers/08f5c0270cfbfbe2.webp
 album_url: https://blog.pocallum.cat/2025/10/26/2025-10-25-julio-ruiz-la-familia/
 ---
 

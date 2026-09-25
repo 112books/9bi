@@ -11,7 +11,7 @@ tags:
 - diumenge
 - cultura
 cover:
-  image: images/covers/c458ea82725da86c.webp
+  image: /images/covers/c458ea82725da86c.webp
 album_url: https://photos.app.goo.gl/Tf7ZH3pTCetx1J5N8
 ---
 

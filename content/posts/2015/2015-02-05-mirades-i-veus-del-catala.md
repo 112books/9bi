@@ -11,7 +11,7 @@ tags:
 - STA
 - veu
 cover:
-  image: images/covers/d537726058a3a073.webp
+  image: /images/covers/d537726058a3a073.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ExposicioAlTiG?authuser=0&feat=embedwebsite
 ---
 

@@ -15,7 +15,7 @@ tags:
 - Pastanaga Bros
 - STA
 cover:
-  image: images/covers/bfa9e3eb408811a3.webp
+  image: /images/covers/bfa9e3eb408811a3.webp
 album_url: https://photos.app.goo.gl/NoHXFqFJ6b4L3SUm7
 ---
 

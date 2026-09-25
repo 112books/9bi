@@ -11,7 +11,7 @@ tags:
 - França
 - circ
 cover:
-  image: images/covers/8007d85eeb16413c.webp
+  image: /images/covers/8007d85eeb16413c.webp
 album_url: https://picasaweb.google.com/100268695753733554853/MarkinsRussia1erFestivalInternacionalDelCircCastellDeFigueres2012?authuser=0&feat=embedwebsite
 ---
 

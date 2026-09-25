@@ -8,7 +8,7 @@ tags:
 - nou barris
 - Nou Barris cabrejada
 cover:
-  image: images/covers/c636603b7c8cbba8.webp
+  image: /images/covers/c636603b7c8cbba8.webp
 album_url: https://picasaweb.google.com/114858497713897843587/NouBarrisAPlacaSantJaume?authuser=0&feat=embedwebsite
 ---
 

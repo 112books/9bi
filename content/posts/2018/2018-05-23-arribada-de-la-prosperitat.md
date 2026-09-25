@@ -7,7 +7,7 @@ slug: arribada-de-la-prosperitat
 tags:
 - festes de prospe
 cover:
-  image: images/covers/2f1f99aeffd2f372.webp
+  image: /images/covers/2f1f99aeffd2f372.webp
 album_url: https://photos.app.goo.gl/FpUu2PUXpTmqDAU12
 ---
 

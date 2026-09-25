@@ -8,7 +8,7 @@ tags:
 - Festa major de prospe
 - venta de xarnessa primasa.
 cover:
-  image: images/covers/2663f73d1af30445.webp
+  image: /images/covers/2663f73d1af30445.webp
 album_url: https://picasaweb.google.com/108654039305170515016/XarnecsPrimasa?authuser=0&feat=embedwebsite
 ---
 

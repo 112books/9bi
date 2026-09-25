@@ -9,7 +9,7 @@ tags:
 - Barcelona
 - barri
 cover:
-  image: images/covers/2c04643c65233188.webp
+  image: /images/covers/2c04643c65233188.webp
 album_url: ' https://picasaweb.google.com/116805523004990742624/BarcelonaEnComuNouBarris?authuser=0&authkey=Gv1sRgCMHc58i1gduY_AE&feat=embedwebsite'
 ---
 

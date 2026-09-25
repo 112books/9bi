@@ -10,7 +10,7 @@ tags:
 - dissabte
 - mar
 cover:
-  image: images/covers/b118355f5b5f54ce.webp
+  image: /images/covers/b118355f5b5f54ce.webp
 album_url: https://picasaweb.google.com/104199960646572363843/RuaCarnaval2011?feat=embedwebsite
 ---
 

@@ -8,7 +8,7 @@ tags:
 - 100tenari La Prosperitat
 - Brossa al carrer
 cover:
-  image: images/covers/4b3526a664efe5f6.webp
+  image: /images/covers/4b3526a664efe5f6.webp
 album_url: https://photos.app.goo.gl/bRt6utPy7ggWz2rE9
 ---
 

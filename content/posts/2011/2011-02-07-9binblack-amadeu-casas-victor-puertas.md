@@ -13,7 +13,7 @@ tags:
 - linuxbcn
 - Víctor Puertas
 cover:
-  image: images/covers/a804c03bf5fc7701.webp
+  image: /images/covers/a804c03bf5fc7701.webp
 album_url: https://picasaweb.google.com/linuxbcn/9binblackAmadeuCasasVictorPuertas?feat=embedwebsite
 ---
 

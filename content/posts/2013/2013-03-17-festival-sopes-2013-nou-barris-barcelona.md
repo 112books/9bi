@@ -11,7 +11,7 @@ tags:
 - barri
 - sopes
 cover:
-  image: images/covers/fd5489ba55b23d33.webp
+  image: /images/covers/fd5489ba55b23d33.webp
 album_url: https://picasaweb.google.com/100268695753733554853/FestivalSopes2013NouBarrisBarcelona?authuser=0&amp;feat=embedwebsite
 ---
 

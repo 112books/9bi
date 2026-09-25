@@ -9,7 +9,7 @@ tags:
 - dia de la dona
 - retrats
 cover:
-  image: images/covers/78f05c70058c9728.webp
+  image: /images/covers/78f05c70058c9728.webp
 ---
 
 

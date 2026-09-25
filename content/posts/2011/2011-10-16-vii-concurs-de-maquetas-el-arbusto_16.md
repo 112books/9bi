@@ -9,7 +9,7 @@ tags:
 - concurs de maquetes
 - El Arbusto
 cover:
-  image: images/covers/f2ac03d294e7e265.webp
+  image: /images/covers/f2ac03d294e7e265.webp
 album_url: https://photos.app.goo.gl/ceQryvUXRj6DoXJo6
 ---
 

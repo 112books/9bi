@@ -10,7 +10,7 @@ tags:
 - habaneres
 - rom cremat
 cover:
-  image: images/covers/ccb7f1ae2413d3dd.webp
+  image: /images/covers/ccb7f1ae2413d3dd.webp
 album_url: https://photos.app.goo.gl/K1KVHMc27xvm8REq8
 ---
 

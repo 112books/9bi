@@ -11,7 +11,7 @@ tags:
 - Casal de barri Prosperitat
 - presentació llibre
 cover:
-  image: images/covers/e82ac761ff855b7a.webp
+  image: /images/covers/e82ac761ff855b7a.webp
 album_url: https://photos.app.goo.gl/1Jh2w3gsb2VF6urXA
 ---
 

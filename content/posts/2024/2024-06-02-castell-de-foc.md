@@ -7,7 +7,7 @@ slug: castell-de-foc
 tags:
 - foc
 cover:
-  image: images/covers/d0612e75280bcc2f.webp
+  image: /images/covers/d0612e75280bcc2f.webp
 album_url: https://photos.app.goo.gl/kZWdEJDy8jRdZaEK6
 ---
 

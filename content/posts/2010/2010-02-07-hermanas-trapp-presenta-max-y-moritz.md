@@ -12,7 +12,7 @@ tags:
 - Max Moritz
 - titelles
 cover:
-  image: images/covers/0a453217f220699a.webp
+  image: /images/covers/0a453217f220699a.webp
 album_url: https://photos.app.goo.gl/Xx3TcMeKH91VjSDEA
 ---
 

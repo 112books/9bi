@@ -12,7 +12,7 @@ tags:
 - marató tv3
 - zirkolika
 cover:
-  image: images/covers/e4b50eb2083985f5.webp
+  image: /images/covers/e4b50eb2083985f5.webp
 album_url: http://picasaweb.google.es/ulls2006/AssajosObertsDeCircLaMaratoTv3?feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - nou barris
 - Barcelona
 cover:
-  image: images/covers/b5bf718a6cf94745.webp
+  image: /images/covers/b5bf718a6cf94745.webp
 album_url: https://goo.gl/photos/fZzP87WWwysNv8cU9
 ---
 

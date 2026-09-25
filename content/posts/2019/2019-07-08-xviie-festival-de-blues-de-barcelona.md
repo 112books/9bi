@@ -11,7 +11,7 @@ tags:
 - Barcelona
 - capibola
 cover:
-  image: images/covers/950fe1c10d6f6bba.webp
+  image: /images/covers/950fe1c10d6f6bba.webp
 album_url: https://photos.app.goo.gl/YKka35KPgFqUKrxC8
 ---
 

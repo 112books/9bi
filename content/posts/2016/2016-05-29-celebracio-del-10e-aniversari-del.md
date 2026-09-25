@@ -11,7 +11,7 @@ tags:
 - havaneres
 - roquetes
 cover:
-  image: images/covers/3c070c61aae2a1bf.webp
+  image: /images/covers/3c070c61aae2a1bf.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6290173758299501473?authuser=0&feat=embedwebsite
 ---
 

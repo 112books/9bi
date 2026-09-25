@@ -13,7 +13,7 @@ tags:
 - societat de blues de barcelona
 - Txus Blues and Jose Bluefingers
 cover:
-  image: images/covers/57d0401b7ee91e77.webp
+  image: /images/covers/57d0401b7ee91e77.webp
 album_url: https://photos.app.goo.gl/ULAqLFQpiRKvPXze7
 ---
 

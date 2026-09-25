@@ -11,7 +11,7 @@ tags:
 - barri
 - CASAL
 cover:
-  image: images/covers/5b47e69ae761ea51.webp
+  image: /images/covers/5b47e69ae761ea51.webp
 album_url: https://picasaweb.google.com/110015855395179205688/TallerDeRisoterapia?authuser=0&feat=embedwebsite
 ---
 

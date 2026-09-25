@@ -9,7 +9,7 @@ tags:
 - CASAL
 - casa
 cover:
-  image: images/covers/b01132f3365ad59c.webp
+  image: /images/covers/b01132f3365ad59c.webp
 album_url: https://picasaweb.google.com/103138221614479310970/SoparDeNadalAlCasal?authuser=0&feat=embedwebsite
 ---
 

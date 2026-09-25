@@ -8,7 +8,7 @@ tags:
 - superbebientes
 - prospe
 cover:
-  image: images/covers/62f10ae27d40937e.webp
+  image: /images/covers/62f10ae27d40937e.webp
 album_url: https://picasaweb.google.com/115791131166530059320/16DeMayoDe2012?authuser=0&feat=embedwebsite
 ---
 

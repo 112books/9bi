@@ -7,7 +7,7 @@ slug: combo-sen-noma-al-tig
 tags:
 - Centre Ton i Guida
 cover:
-  image: images/covers/7b033c45a18e7c35.webp
+  image: /images/covers/7b033c45a18e7c35.webp
 album_url: https://goo.gl/photos/wZWa4x8Vpm5K3Pi77
 ---
 

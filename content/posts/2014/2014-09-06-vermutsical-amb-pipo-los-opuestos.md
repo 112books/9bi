@@ -7,7 +7,7 @@ slug: vermutsical-amb-pipo-los-opuestos
 tags:
 - vermutsical
 cover:
-  image: images/covers/7ca49e254261aa29.webp
+  image: /images/covers/7ca49e254261aa29.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutsicalAmbPIPOLOSOPUESTOS?authuser=0&feat=embedwebsite
 ---
 

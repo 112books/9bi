@@ -10,7 +10,7 @@ tags:
 - plaça Àngel Pestaña
 - VermutSical Simfònic
 cover:
-  image: images/covers/8663656c356a4419.webp
+  image: /images/covers/8663656c356a4419.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutSicalSimfonicBandaSimfonicaRoquetes?authuser=0&feat=embedwebsite
 ---
 

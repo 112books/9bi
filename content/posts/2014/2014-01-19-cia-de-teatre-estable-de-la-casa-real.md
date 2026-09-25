@@ -9,7 +9,7 @@ tags:
 - pit i collons
 - teatre
 cover:
-  image: images/covers/0621748f4ff3d1f9.webp
+  image: /images/covers/0621748f4ff3d1f9.webp
 album_url: https://picasaweb.google.com/103138221614479310970/CiaDeTeatreEstableDeLaCasaRealPresentaPitICollons?authuser=0&amp;feat=embedwebsite
 ---
 

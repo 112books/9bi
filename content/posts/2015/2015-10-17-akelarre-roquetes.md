@@ -11,7 +11,7 @@ tags:
 - comunitari
 - llibertat
 cover:
-  image: images/covers/29366dc04952c4fb.webp
+  image: /images/covers/29366dc04952c4fb.webp
 album_url: https://picasaweb.google.com/110015855395179205688/AKELARRETITELLADA2015?authuser=0&feat=embedwebsite
 ---
 

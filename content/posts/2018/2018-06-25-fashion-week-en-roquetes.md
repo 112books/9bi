@@ -9,7 +9,7 @@ tags:
 - roquetes
 - ruta
 cover:
-  image: images/covers/1b9b168ad4c14fa2.webp
+  image: /images/covers/1b9b168ad4c14fa2.webp
 album_url: https://photos.app.goo.gl/9Q1RSWtZgzu6dVoN9
 ---
 

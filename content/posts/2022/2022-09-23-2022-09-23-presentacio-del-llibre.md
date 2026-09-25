@@ -12,7 +12,7 @@ tags:
 - Prosperitat
 - presentació
 cover:
-  image: images/covers/eab715ca9caaf2cb.webp
+  image: /images/covers/eab715ca9caaf2cb.webp
 album_url: https://photos.app.goo.gl/L8uWECSk2MHerBQ97
 ---
 

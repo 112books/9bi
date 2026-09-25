@@ -10,7 +10,7 @@ tags:
 - Feria de Abril
 - plaça Àngel Pestaña
 cover:
-  image: images/covers/0b1673ad087bab5f.webp
+  image: /images/covers/0b1673ad087bab5f.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FeriaDeAbril2013Dissabte?authuser=0&authkey=Gv1sRgCLqpppDUyYalEA&feat=embedwebsite
 ---
 

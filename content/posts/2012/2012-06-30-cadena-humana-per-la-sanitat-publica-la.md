@@ -12,7 +12,7 @@ tags:
 - retallades
 - sanitat
 cover:
-  image: images/covers/cc2b848b939d9ece.webp
+  image: /images/covers/cc2b848b939d9ece.webp
 album_url: https://picasaweb.google.com/103138221614479310970/CadenaHumanaPerLaSanitatPublicaALaVallDHebron?authuser=0&authkey=Gv1sRgCNe8u9zWxYTqGg&feat=embedwebsite
 ---
 

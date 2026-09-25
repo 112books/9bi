@@ -9,7 +9,7 @@ tags:
 - trobada
 - ciu
 cover:
-  image: images/covers/71ce2583f8e1d301.webp
+  image: /images/covers/71ce2583f8e1d301.webp
 album_url: https://photos.app.goo.gl/mQjdiYJLmBz55ppU6
 ---
 

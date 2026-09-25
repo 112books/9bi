@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - guitarra
 cover:
-  image: images/covers/b8869876caff8f93.webp
+  image: /images/covers/b8869876caff8f93.webp
 album_url: https://picasaweb.google.com/103138221614479310970/HALCasalDeBarriDeProsperitat?authuser=0&feat=embedwebsite
 ---
 

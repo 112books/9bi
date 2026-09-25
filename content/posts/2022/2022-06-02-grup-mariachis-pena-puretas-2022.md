@@ -8,7 +8,7 @@ tags:
 - puretas
 - mar
 cover:
-  image: images/covers/5f3dd468e529c7c0.webp
+  image: /images/covers/5f3dd468e529c7c0.webp
 album_url: https://photos.app.goo.gl/zg1kgihxKSqeQAcZ8
 ---
 

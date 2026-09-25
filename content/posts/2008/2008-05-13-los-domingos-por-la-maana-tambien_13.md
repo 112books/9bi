@@ -11,7 +11,7 @@ tags:
 - presentació
 - personajes
 cover:
-  image: images/covers/e83d23499e1a532c.webp
+  image: /images/covers/e83d23499e1a532c.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

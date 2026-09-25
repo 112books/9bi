@@ -11,7 +11,7 @@ tags:
 - prospe
 - festes
 cover:
-  image: images/covers/fe13dffbe5560be6.webp
+  image: /images/covers/fe13dffbe5560be6.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestesDeProsperitatLosMoussakis?authuser=0&feat=embedwebsite
 ---
 

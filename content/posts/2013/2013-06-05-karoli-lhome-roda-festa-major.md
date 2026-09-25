@@ -11,7 +11,7 @@ tags:
 - festa major
 - prospe
 cover:
-  image: images/covers/9cd4b06661d9a169.webp
+  image: /images/covers/9cd4b06661d9a169.webp
 album_url: https://picasaweb.google.com/100268695753733554853/KaroliLHomeRodaFestaMajorProsperitat2013?authuser=0&amp;feat=embedwebsite
 ---
 

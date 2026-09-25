@@ -9,7 +9,7 @@ tags:
 - cimentra
 - montcada
 cover:
-  image: images/covers/d395efbe13ec14d8.webp
+  image: /images/covers/d395efbe13ec14d8.webp
 album_url: https://picasaweb.google.com/103138221614479310970/CampanyaVeinalJudicialacimentera?authuser=0&feat=embedwebsite
 ---
 

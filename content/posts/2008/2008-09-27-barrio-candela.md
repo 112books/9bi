@@ -9,7 +9,7 @@ tags:
 - Casal de barri Prosperitat
 - linuxbcn
 cover:
-  image: images/covers/1a5940c79eeb0ab4.webp
+  image: /images/covers/1a5940c79eeb0ab4.webp
 album_url: https://photos.app.goo.gl/5h9AA5RfmYjzJsHj6
 ---
 

@@ -11,7 +11,7 @@ tags:
 - concurs
 - prospe
 cover:
-  image: images/covers/19943483f712c43f.webp
+  image: /images/covers/19943483f712c43f.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

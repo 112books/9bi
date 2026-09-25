@@ -11,7 +11,7 @@ tags:
 - manel sala ulls
 - teatro circo albacete
 cover:
-  image: images/covers/735fe66c041b59e0.webp
+  image: /images/covers/735fe66c041b59e0.webp
 album_url: http://picasaweb.google.es/ulls2006/FrancoiseRochaisMalabarista?feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - rock’n’roll
 cover:
-  image: images/covers/f6f2c541ee6e915d.webp
+  image: /images/covers/f6f2c541ee6e915d.webp
 album_url: https://photos.google.com/u/0/share/AF1QipPIX5mBKXNrNn-bsed0oyOO2GB0RTiMaJcsMLKPz90yI3YqiJGB3dPiROnqQbvSEA?key=UEJiQXQzaUpRQmdaVThfOWMyZFZFUHN4OWJ0dkln
 ---
 

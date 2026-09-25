@@ -10,7 +10,7 @@ tags:
 - pregó
 - STA
 cover:
-  image: images/covers/1e5e5dc1c0bfb758.webp
+  image: /images/covers/1e5e5dc1c0bfb758.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

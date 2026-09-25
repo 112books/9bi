@@ -11,7 +11,7 @@ tags:
 - flamenc
 - cante
 cover:
-  image: images/covers/7af023bd545ded67.webp
+  image: /images/covers/7af023bd545ded67.webp
 album_url: https://photos.app.goo.gl/kNoBasvzaJKryHyE6
 ---
 

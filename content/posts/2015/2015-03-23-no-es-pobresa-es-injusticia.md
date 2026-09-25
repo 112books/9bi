@@ -11,7 +11,7 @@ tags:
 - 9 barris
 - Xerrada
 cover:
-  image: images/covers/4c413e8256d11de2.webp
+  image: /images/covers/4c413e8256d11de2.webp
 album_url: https://picasaweb.google.com/110015855395179205688/XerradaAlTiG?authuser=0&feat=embedwebsite
 ---
 

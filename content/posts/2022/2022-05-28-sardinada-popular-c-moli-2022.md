@@ -10,7 +10,7 @@ tags:
 - popular
 - pop
 cover:
-  image: images/covers/5e3d67a48ed18f80.webp
+  image: /images/covers/5e3d67a48ed18f80.webp
 album_url: https://photos.app.goo.gl/L3TZZNDGkxaRuhZh9
 ---
 

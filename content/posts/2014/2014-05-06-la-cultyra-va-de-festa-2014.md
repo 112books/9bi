@@ -11,7 +11,7 @@ tags:
 - FESTA
 - STA
 cover:
-  image: images/covers/de63c430af28f5fa.webp
+  image: /images/covers/de63c430af28f5fa.webp
 album_url: https://picasaweb.google.com/115791131166530059320/LACLACULTURAVADEFESTA2014?authuser=0&feat=embedwebsite
 ---
 

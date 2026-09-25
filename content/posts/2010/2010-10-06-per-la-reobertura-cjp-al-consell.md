@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - Seu del districte Nou Barris
 cover:
-  image: images/covers/b333d888015f1ad9.webp
+  image: /images/covers/b333d888015f1ad9.webp
 album_url: https://photos.app.goo.gl/5mctMrVuGFQeAwBF7
 ---
 

@@ -11,7 +11,7 @@ tags:
 - exposició
 - barri
 cover:
-  image: images/covers/ca9fb664011ddc69.webp
+  image: /images/covers/ca9fb664011ddc69.webp
 album_url: https://picasaweb.google.com/110015855395179205688/CapacitatsAsendiNB?authuser=0&amp;feat=embedwebsite
 ---
 

@@ -9,7 +9,7 @@ tags:
 - ramadà
 - religió
 cover:
-  image: images/covers/0cf1073804e29421.webp
+  image: /images/covers/0cf1073804e29421.webp
 album_url: https://photos.app.goo.gl/7rGPbsPchWUrYD6d6
 ---
 

@@ -11,7 +11,7 @@ tags:
 - cante
 - CASAL
 cover:
-  image: images/covers/21f67141ecfc83eb.webp
+  image: /images/covers/21f67141ecfc83eb.webp
 album_url: https://picasaweb.google.com/100268695753733554853/ElPaQueYPorqueDeEsharnosUnCantecitoYUnBailesito06?authuser=0&amp;feat=embedwebsite
 ---
 

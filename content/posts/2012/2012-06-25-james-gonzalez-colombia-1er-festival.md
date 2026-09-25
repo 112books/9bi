@@ -11,7 +11,7 @@ tags:
 - mexic
 - circ
 cover:
-  image: images/covers/777a53ead52f66df.webp
+  image: /images/covers/777a53ead52f66df.webp
 album_url: https://picasaweb.google.com/100268695753733554853/JamesGonzalezColombia1erFestivalInternacionalDelCircCastellDeFigueresPremiDePlata?authuser=0&amp;feat=embedwebsite
 ---
 

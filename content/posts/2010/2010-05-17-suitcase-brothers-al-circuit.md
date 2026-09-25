@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - the suitcase brothers
 cover:
-  image: images/covers/fb8716bab65cbdcf.webp
+  image: /images/covers/fb8716bab65cbdcf.webp
 album_url: https://photos.app.goo.gl/nJH4u3kPZydNivcUA
 ---
 

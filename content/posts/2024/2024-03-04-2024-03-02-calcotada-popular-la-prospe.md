@@ -9,7 +9,7 @@ tags:
 - prospe
 - pop
 cover:
-  image: images/covers/90a52829f752a667.webp
+  image: /images/covers/90a52829f752a667.webp
 album_url: https://photos.app.goo.gl/Mnyp2rN34iPT5n3F7
 ---
 

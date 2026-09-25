@@ -11,7 +11,7 @@ tags:
 - nou barris
 - democràcia
 cover:
-  image: images/covers/567035cf76f91d30.webp
+  image: /images/covers/567035cf76f91d30.webp
 album_url: https://photos.app.goo.gl/sZBqSkaiZWMWxWGZ8
 ---
 

@@ -12,7 +12,7 @@ tags:
 - Mojitos
 - paella pigmentos revoltosos
 cover:
-  image: images/covers/29cb3d886ef22bb4.webp
+  image: /images/covers/29cb3d886ef22bb4.webp
 album_url: https://picasaweb.google.com/linuxbcn/FestesDeProsperitat2011Diumenge?authkey=Gv1sRgCLaxkJnQouLuMQ&feat=embedwebsite
 ---
 

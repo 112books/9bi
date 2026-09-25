@@ -11,7 +11,7 @@ tags:
 - música
 - FESTA
 cover:
-  image: images/covers/6912c17ffb2d345a.webp
+  image: /images/covers/6912c17ffb2d345a.webp
 album_url: https://photos.app.goo.gl/rQ2yxiBNKULjDwin8
 ---
 

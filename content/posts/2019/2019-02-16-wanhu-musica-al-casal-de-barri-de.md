@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - música
 cover:
-  image: images/covers/7fd52762e6ab073c.webp
+  image: /images/covers/7fd52762e6ab073c.webp
 album_url: https://photos.app.goo.gl/HDp9LhQ8ZcjuZmkY7
 ---
 

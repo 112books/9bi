@@ -7,7 +7,7 @@ slug: foliada-2017-dissabte
 tags:
 - dissabte
 cover:
-  image: images/covers/ec32973ac609974a.webp
+  image: /images/covers/ec32973ac609974a.webp
 album_url: https://photos.app.goo.gl/ZCq6l2Hx6A9oZjGo2
 ---
 

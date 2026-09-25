@@ -17,7 +17,7 @@ tags:
 - Prosperitat
 - Reocupació
 cover:
-  image: images/covers/87891061bd9513f2.webp
+  image: /images/covers/87891061bd9513f2.webp
 ---
 
 Doncs sí senyora veïna! El projecte ***Date una Huerta*** torna a ser una realitat al barri de la Prosperitat! Aquest passat diumenge, el solar del carrer Joaquim Valls, 79, ha estat reocupat per la comunitat després de mesos d’inactivitat i abandonament.

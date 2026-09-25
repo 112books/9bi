@@ -11,7 +11,7 @@ tags:
 - sidecar
 - vídeo
 cover:
-  image: images/covers/e1ebf104fdde3804.webp
+  image: /images/covers/e1ebf104fdde3804.webp
 album_url: https://photos.app.goo.gl/iZA7riZEfJ82QT8q7
 ---
 

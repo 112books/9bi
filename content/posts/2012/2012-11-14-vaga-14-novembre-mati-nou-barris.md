@@ -9,7 +9,7 @@ tags:
 - Barcelona
 - Vaga General 2012
 cover:
-  image: images/covers/6f25bbd5f3dd345c.webp
+  image: /images/covers/6f25bbd5f3dd345c.webp
 album_url: https://picasaweb.google.com/116805523004990742624/1211VagaGeneral14N2012?authuser=0&authkey=Gv1sRgCKDx1-irxJmHAg&feat=embedwebsite
 ---
 

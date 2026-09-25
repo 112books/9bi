@@ -10,7 +10,7 @@ tags:
 - fotogrfia teatral
 - teatro
 cover:
-  image: images/covers/e46e3c91adb81ca6.webp
+  image: /images/covers/e46e3c91adb81ca6.webp
 album_url: http://picasaweb.google.es/lh/photo/8nq3LXu8RVNV3L_1N2Mq-Q?feat=embedwebsite
 ---
 

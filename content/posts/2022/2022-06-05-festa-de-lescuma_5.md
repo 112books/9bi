@@ -8,7 +8,7 @@ tags:
 - FESTA
 - STA
 cover:
-  image: images/covers/91a3063998fd82ff.webp
+  image: /images/covers/91a3063998fd82ff.webp
 album_url: https://photos.app.goo.gl/zTce6RS91NwJnQkG8
 ---
 

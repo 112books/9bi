@@ -7,7 +7,7 @@ slug: any-nou-xines
 tags:
 - any nou
 cover:
-  image: images/covers/6e63a4f31d237af2.webp
+  image: /images/covers/6e63a4f31d237af2.webp
 album_url: https://photos.app.goo.gl/FnsUjfN7KPj4LJ9i7
 ---
 

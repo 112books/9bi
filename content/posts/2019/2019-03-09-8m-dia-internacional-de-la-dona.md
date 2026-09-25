@@ -10,7 +10,7 @@ tags:
 - 8M
 - dia de la dona
 cover:
-  image: images/covers/2c9f860e456de8cf.webp
+  image: /images/covers/2c9f860e456de8cf.webp
 album_url: https://photos.app.goo.gl/a7DeqZsc9QP8qcKc8
 ---
 

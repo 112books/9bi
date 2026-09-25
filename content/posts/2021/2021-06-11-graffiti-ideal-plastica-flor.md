@@ -7,7 +7,7 @@ slug: graffiti-ideal-plastica-flor
 tags:
 - graffiti
 cover:
-  image: images/covers/beac52f9751ce722.webp
+  image: /images/covers/beac52f9751ce722.webp
 album_url: https://photos.app.goo.gl/8ejbz7onAYFfJ7qX9
 ---
 

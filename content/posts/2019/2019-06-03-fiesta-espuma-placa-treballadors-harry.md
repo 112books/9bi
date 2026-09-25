@@ -8,7 +8,7 @@ tags:
 - festes de prospe 2019
 - fiesta espuma
 cover:
-  image: images/covers/5db61b1ba1066a0f.webp
+  image: /images/covers/5db61b1ba1066a0f.webp
 album_url: https://photos.app.goo.gl/nbw46cpTx3JhcAdD9
 ---
 

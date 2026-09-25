@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - jam session
 cover:
-  image: images/covers/e1531e84e1f73136.webp
+  image: /images/covers/e1531e84e1f73136.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FBBJamSessionAlCasalDeBarriDeProsperitat?authuser=0&feat=embedwebsite
 ---
 

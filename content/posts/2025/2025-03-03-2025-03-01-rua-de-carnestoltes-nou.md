@@ -11,7 +11,7 @@ tags:
 - nou barris
 - carnaval
 cover:
-  image: images/covers/c04c8ad908bcb699.webp
+  image: /images/covers/c04c8ad908bcb699.webp
 album_url: https://photos.app.goo.gl/fsDhk8ihwuB4HbWE6
 ---
 

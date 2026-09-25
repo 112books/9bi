@@ -11,7 +11,7 @@ tags:
 - cultura
 - juliol
 cover:
-  image: images/covers/88241ba9090ce746.webp
+  image: /images/covers/88241ba9090ce746.webp
 album_url: https://photos.app.goo.gl/NZC8PpDM6rSXgdh87
 ---
 

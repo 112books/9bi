@@ -9,7 +9,7 @@ tags:
 - Gumbo
 - manel sala ulls
 cover:
-  image: images/covers/96faedb200d7b4d7.webp
+  image: /images/covers/96faedb200d7b4d7.webp
 album_url: http://picasaweb.google.com/ulls2006/Gumbo8eFestivalDeBluesDeBarcelona2010?feat=embedwebsite
 ---
 

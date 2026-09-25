@@ -8,7 +8,7 @@ tags:
 - festival sopes 2011
 - manel sala ulls
 cover:
-  image: images/covers/51207ac6cb2a0de7.webp
+  image: /images/covers/51207ac6cb2a0de7.webp
 album_url: https://picasaweb.google.com/ulls2006/FestivalDeSopesDelMonMundial2011?feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - Barcelona
 - directa
 cover:
-  image: images/covers/abded944be6b024a.webp
+  image: /images/covers/abded944be6b024a.webp
 album_url: https://photos.app.goo.gl/pcsbEUNuUQQLxwTp6
 ---
 

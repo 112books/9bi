@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - tetes
 cover:
-  image: images/covers/534cbd2012052c1e.webp
+  image: /images/covers/534cbd2012052c1e.webp
 album_url: https://photos.app.goo.gl/EzApoGFtMRqwftZm9
 ---
 

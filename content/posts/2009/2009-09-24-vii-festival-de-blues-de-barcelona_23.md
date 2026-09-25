@@ -14,7 +14,7 @@ tags:
 - Ricky Nye
 - VII Festival de Blues de Barcelona
 cover:
-  image: images/covers/476cfbe2244aec3c.webp
+  image: /images/covers/476cfbe2244aec3c.webp
 album_url: https://photos.app.goo.gl/2m3DMFdJCyk2pbqNA
 ---
 

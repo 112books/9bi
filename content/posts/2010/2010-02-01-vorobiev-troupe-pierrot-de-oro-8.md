@@ -10,7 +10,7 @@ tags:
 - festival circ budapest
 - vorobiev troupe
 cover:
-  image: images/covers/fd42e1b8e51c75ba.webp
+  image: /images/covers/fd42e1b8e51c75ba.webp
 album_url: http://picasaweb.google.es/ulls2006/VorobievTroupe?feat=embedwebsite
 ---
 

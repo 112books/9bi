@@ -7,7 +7,7 @@ slug: primer-encierro-dunicorns
 tags:
 - nico
 cover:
-  image: images/covers/5b7de61e5e8f16fb.webp
+  image: /images/covers/5b7de61e5e8f16fb.webp
 album_url: https://photos.app.goo.gl/K3gFhWx2LATKHJp6A
 ---
 

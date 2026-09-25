@@ -9,7 +9,7 @@ tags:
 - federalisme
 - República
 cover:
-  image: images/covers/98901617ca69ddcd.webp
+  image: /images/covers/98901617ca69ddcd.webp
 album_url: https://picasaweb.google.com/103138221614479310970/RepublicaIFederalismeXerrada?authuser=0&amp;feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - metal
 - mur
 cover:
-  image: images/covers/6ab85f7d81e165e0.webp
+  image: /images/covers/6ab85f7d81e165e0.webp
 album_url: http://picasaweb.google.es/inmalcario/HermanosMasQuintosEnRoquetas
 ---
 

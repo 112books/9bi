@@ -11,7 +11,7 @@ tags:
 - racisme
 - barri
 cover:
-  image: images/covers/c8aca8fed984cb1b.webp
+  image: /images/covers/c8aca8fed984cb1b.webp
 album_url: https://photos.app.goo.gl/zpHuSis9CPPtsjgX6
 ---
 

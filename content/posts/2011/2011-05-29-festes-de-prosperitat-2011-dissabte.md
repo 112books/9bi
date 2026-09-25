@@ -7,7 +7,7 @@ slug: festes-de-prosperitat-2011-dissabte
 tags:
 - festes de prospe
 cover:
-  image: images/covers/3c17e8c98907bccc.webp
+  image: /images/covers/3c17e8c98907bccc.webp
 album_url: https://picasaweb.google.com/linuxbcn/FestesDeProsperitat2011Dissabte?feat=embedwebsite
 ---
 

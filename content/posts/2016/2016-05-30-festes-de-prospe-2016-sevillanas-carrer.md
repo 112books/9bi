@@ -11,7 +11,7 @@ tags:
 - festes
 - nico
 cover:
-  image: images/covers/7dc5bf688f447e62.webp
+  image: /images/covers/7dc5bf688f447e62.webp
 album_url: https://picasaweb.google.com/103138221614479310970/6290455244992842961?authuser=0&feat=embedwebsite
 ---
 

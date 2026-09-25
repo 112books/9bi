@@ -11,7 +11,7 @@ tags:
 - prospe
 - CASAL
 cover:
-  image: images/covers/18de6865c1d20d23.webp
+  image: /images/covers/18de6865c1d20d23.webp
 album_url: https://picasaweb.google.com/115791131166530059320/20121207?authuser=0&feat=embedwebsite
 ---
 

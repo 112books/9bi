@@ -7,7 +7,7 @@ slug: autoconfinament-amb-holga-wpc-612
 tags:
 - fotografia
 cover:
-  image: images/covers/e35791bc60644c33.webp
+  image: /images/covers/e35791bc60644c33.webp
 album_url: https://photos.app.goo.gl/D91SXwUPuAUkKJnm6
 ---
 

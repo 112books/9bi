@@ -11,7 +11,7 @@ tags:
 - FESTA
 - obres
 cover:
-  image: images/covers/e54b602cf7874d41.webp
+  image: /images/covers/e54b602cf7874d41.webp
 album_url: https://picasaweb.google.com/103138221614479310970/ManifestacioNoEsPobresaEsInjusticiaAPlacaSantJaume?authuser=0&feat=embedwebsite
 ---
 

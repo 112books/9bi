@@ -8,7 +8,7 @@ tags:
 - clown
 - circ
 cover:
-  image: images/covers/a56ad57468f2d548.webp
+  image: /images/covers/a56ad57468f2d548.webp
 album_url: https://photos.app.goo.gl/EefecSQaRPc4ABjm6
 ---
 

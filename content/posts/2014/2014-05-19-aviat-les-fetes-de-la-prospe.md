@@ -8,7 +8,7 @@ tags:
 - prospe
 - diari
 cover:
-  image: images/covers/dc98727c1142e289.webp
+  image: /images/covers/dc98727c1142e289.webp
 album_url: https://picasaweb.google.com/110015855395179205688/JaTenimElDiari02?authuser=0&feat=embedwebsite
 ---
 

@@ -10,7 +10,7 @@ tags:
 - pasabares
 - tetrinké
 cover:
-  image: images/covers/a5dfd71dd075e328.webp
+  image: /images/covers/a5dfd71dd075e328.webp
 album_url: https://goo.gl/photos/nWh9WxkMgxpY46tC8
 ---
 

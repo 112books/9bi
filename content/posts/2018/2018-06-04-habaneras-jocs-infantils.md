@@ -9,7 +9,7 @@ tags:
 - puretas
 - jocs
 cover:
-  image: images/covers/18bed4a80b2dda1d.webp
+  image: /images/covers/18bed4a80b2dda1d.webp
 album_url: https://photos.google.com/share/AF1QipMB2tD6UQxXc9WBLcJXcmWgnAg4Mg1aLdEypjCStLS94R45ELtCH_ABBev98dK5MQ?key=SDFodFltU1h1dDlSNWlZUnh0WjZIcHRGWHFWRDNn
 ---
 

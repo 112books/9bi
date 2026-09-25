@@ -11,7 +11,7 @@ tags:
 - Barcelona
 - exposició
 cover:
-  image: images/covers/1a6805da4195fd9f.webp
+  image: /images/covers/1a6805da4195fd9f.webp
 album_url: https://goo.gl/photos/EhWUc3WwUqMzUpBq8
 ---
 

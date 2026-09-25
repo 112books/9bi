@@ -7,7 +7,7 @@ slug: acampadabcn-yeswecamp-nonosvamos_20
 tags:
 - linuxbcn
 cover:
-  image: images/covers/76add1c7d97544be.webp
+  image: /images/covers/76add1c7d97544be.webp
 album_url: https://picasaweb.google.com/linuxbcn/AcampadabcnYeswecampNonosvamosSpanishrevolution20M?authkey=Gv1sRgCKr6iuKx8tTRtAE&feat=embedwebsite
 ---
 

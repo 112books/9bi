@@ -7,7 +7,7 @@ slug: 7esjornades-xarxa-9-barris-acull
 tags:
 - 9bacull
 cover:
-  image: images/covers/372dafc6b3437492.webp
+  image: /images/covers/372dafc6b3437492.webp
 album_url: https://picasaweb.google.com/111964096227458093905/7esJORNADESXARXA9BARRISACULL20N?authuser=0&feat=embedwebsite
 ---
 

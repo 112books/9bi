@@ -10,7 +10,7 @@ tags:
 - Morosito
 - tradició
 cover:
-  image: images/covers/6605da776b6be78c.webp
+  image: /images/covers/6605da776b6be78c.webp
 album_url: https://photos.app.goo.gl/xPGMyoNim9iZs3Q56
 ---
 

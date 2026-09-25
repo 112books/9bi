@@ -11,7 +11,7 @@ tags:
 - rafi
 - llum
 cover:
-  image: images/covers/7b6c2fa4185f2846.webp
+  image: /images/covers/7b6c2fa4185f2846.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ESPECTACLELLUMINOS?authuser=0&feat=embedwebsite
 ---
 

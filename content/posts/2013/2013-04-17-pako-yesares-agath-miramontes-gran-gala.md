@@ -11,7 +11,7 @@ tags:
 - barri
 - ramon
 cover:
-  image: images/covers/3d7479bde36a234a.webp
+  image: /images/covers/3d7479bde36a234a.webp
 album_url: https://picasaweb.google.com/100268695753733554853/PakoYesaresAgathMiramontesGranGalaSolidariaDeCirc?authuser=0&amp;feat=embedwebsite
 ---
 

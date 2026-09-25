@@ -9,7 +9,7 @@ tags:
 - Herederos del Taxi
 - rumbaoke
 cover:
-  image: images/covers/dc149f3f7f9ce946.webp
+  image: /images/covers/dc149f3f7f9ce946.webp
 album_url: https://photos.google.com/share/AF1QipM0OyKVCyiLe36dSOtkQ216PYolWf9TNMTyIYRbeRoKxc7oxY05g7e7GgG1vrTuZQ?key=WVBNbm9XNUV3LXJ1djlVVTMwYlo3X1BnTG9UZHNB
 ---
 

@@ -7,7 +7,7 @@ slug: vermutsical-amb-ivalva
 tags:
 - vermutsical
 cover:
-  image: images/covers/497af8e140e6d406.webp
+  image: /images/covers/497af8e140e6d406.webp
 album_url: https://picasaweb.google.com/103138221614479310970/6279672355438301761?authuser=0&feat=embedwebsite
 ---
 

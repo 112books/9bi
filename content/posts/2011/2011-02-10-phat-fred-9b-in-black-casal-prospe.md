@@ -8,7 +8,7 @@ tags:
 - manel sala ulls
 - Phat Fred. 9b in black Casal Prospe
 cover:
-  image: images/covers/06eba484c5fbf967.webp
+  image: /images/covers/06eba484c5fbf967.webp
 album_url: https://picasaweb.google.com/ulls2006/PhatFred9bInBlackCasalProspe?feat=embedwebsite
 ---
 

@@ -7,7 +7,7 @@ slug: breackdance-carre-flor-de-neu
 tags:
 - neu
 cover:
-  image: images/covers/1cea5bcdd5762c88.webp
+  image: /images/covers/1cea5bcdd5762c88.webp
 album_url: https://picasaweb.google.com/115791131166530059320/BREACKDANCECARREFLORDENEU?authuser=0&feat=embedwebsite
 ---
 

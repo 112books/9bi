@@ -7,7 +7,7 @@ slug: cercavila
 tags:
 - cercavila
 cover:
-  image: images/covers/72e0c472217bcc3a.webp
+  image: /images/covers/72e0c472217bcc3a.webp
 album_url: https://photos.app.goo.gl/MCmacE9stcPNjpTr7
 ---
 

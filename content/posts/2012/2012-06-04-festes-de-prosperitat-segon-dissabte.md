@@ -8,7 +8,7 @@ tags:
 - festa major
 - festes de prospe
 cover:
-  image: images/covers/f020b6a9c984201c.webp
+  image: /images/covers/f020b6a9c984201c.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestesDeProsperitatSegonDissabte?authuser=0&feat=embedwebsite
 ---
 

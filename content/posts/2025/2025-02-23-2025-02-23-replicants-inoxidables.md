@@ -7,7 +7,7 @@ slug: 2025-02-23-replicants-inoxidables
 tags:
 - música
 cover:
-  image: images/covers/40bff6a90b5eec6a.webp
+  image: /images/covers/40bff6a90b5eec6a.webp
 album_url: https://photos.app.goo.gl/KqKuEgsNuu1nyUGZ9
 ---
 

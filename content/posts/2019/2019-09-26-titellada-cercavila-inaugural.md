@@ -7,7 +7,7 @@ slug: titellada-cercavila-inaugural
 tags:
 - cercavila
 cover:
-  image: images/covers/1448a4e10e335816.webp
+  image: /images/covers/1448a4e10e335816.webp
 album_url: 'https://photos.app.goo.gl/HRzPoTKJFDz5FKmv8
 
   '

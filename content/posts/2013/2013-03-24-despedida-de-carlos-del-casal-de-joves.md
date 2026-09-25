@@ -9,7 +9,7 @@ tags:
 - casal de joves de prosperitat
 - despedida
 cover:
-  image: images/covers/3ce7e4be21bba653.webp
+  image: /images/covers/3ce7e4be21bba653.webp
 album_url: https://picasaweb.google.com/103138221614479310970/DespedidaDeCarlosDelCasalDeJovesDeProsperitat?authuser=0&feat=embedwebsite
 ---
 

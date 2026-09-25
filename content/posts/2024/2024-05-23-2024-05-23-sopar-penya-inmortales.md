@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - inmortales
 cover:
-  image: images/covers/eeb7e06707c1d1e3.webp
+  image: /images/covers/eeb7e06707c1d1e3.webp
 album_url: https://photos.app.goo.gl/kdA7Pw54wKckCzfy8
 ---
 

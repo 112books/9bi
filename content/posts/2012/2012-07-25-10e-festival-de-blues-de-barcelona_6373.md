@@ -10,7 +10,7 @@ tags:
 - festival de blues de barcelona
 - música
 cover:
-  image: images/covers/ca78437d50d4099f.webp
+  image: /images/covers/ca78437d50d4099f.webp
 album_url: https://picasaweb.google.com/103138221614479310970/10eFestivalDeBluesDeBarcelonaFestaAniversariSBB?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - fotos
 - barri
 cover:
-  image: images/covers/d25139aa8026240b.webp
+  image: /images/covers/d25139aa8026240b.webp
 album_url: https://www.flickr.com/photos/50985562@N08/albums/72157682399405895
 ---
 

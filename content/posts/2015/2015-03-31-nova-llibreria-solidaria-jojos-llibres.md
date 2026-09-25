@@ -11,7 +11,7 @@ tags:
 - presentació
 - activitats
 cover:
-  image: images/covers/c66c95304e9c7541.webp
+  image: /images/covers/c66c95304e9c7541.webp
 album_url: https://picasaweb.google.com/110015855395179205688/JOJOSLLIBRES?authuser=0&feat=embedwebsite
 ---
 

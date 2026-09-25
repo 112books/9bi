@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - mikelo
 cover:
-  image: images/covers/e90dcccc01659a1a.webp
+  image: /images/covers/e90dcccc01659a1a.webp
 album_url: https://picasaweb.google.com/103138221614479310970/DishowsMaigMikelo?authuser=0&feat=embedwebsite
 ---
 

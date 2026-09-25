@@ -10,7 +10,7 @@ tags:
 - festival sopes
 - vía júlia
 cover:
-  image: images/covers/5eb1c9359d18a5fe.webp
+  image: /images/covers/5eb1c9359d18a5fe.webp
 album_url: https://picasaweb.google.com/103138221614479310970/9eFestivalDeSopesDelMon?authuser=0&feat=embedwebsite
 ---
 

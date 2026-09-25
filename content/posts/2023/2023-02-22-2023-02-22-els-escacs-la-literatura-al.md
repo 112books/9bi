@@ -12,7 +12,7 @@ tags:
 - literatura
 - llibre
 cover:
-  image: images/covers/ec13cabbb4a2edf8.webp
+  image: /images/covers/ec13cabbb4a2edf8.webp
 album_url: https://photos.app.goo.gl/xbM8gAwFTNYP917m6
 ---
 

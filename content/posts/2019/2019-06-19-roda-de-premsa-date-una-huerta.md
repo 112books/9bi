@@ -8,7 +8,7 @@ tags:
 - desnonaments
 - Hort
 cover:
-  image: images/covers/0622aa031d076081.webp
+  image: /images/covers/0622aa031d076081.webp
 album_url: https://photos.app.goo.gl/uxpLyc7QG6rzU33e6
 ---
 

@@ -9,7 +9,7 @@ tags:
 - linuxbcn
 - musica classica
 cover:
-  image: images/covers/5baa694e49c640f5.webp
+  image: /images/covers/5baa694e49c640f5.webp
 album_url: https://picasaweb.google.com/103138221614479310970/ConcertDeMusicaClassicaAlCasalDeBarriDeProsperitat?authuser=0&feat=embedwebsite
 ---
 

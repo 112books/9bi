@@ -10,7 +10,7 @@ tags:
 - desnonaments
 - nou barris
 cover:
-  image: images/covers/58b77470c6ddd91a.webp
+  image: /images/covers/58b77470c6ddd91a.webp
 album_url: https://picasaweb.google.com/114858497713897843587/DesnonamentAturatANouBarris220114?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - Xerrada
 - barri
 cover:
-  image: images/covers/f9350481b5974b63.webp
+  image: /images/covers/f9350481b5974b63.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ASENDINB?authuser=0&feat=embedwebsite
 ---
 

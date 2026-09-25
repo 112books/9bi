@@ -9,7 +9,7 @@ tags:
 - Enrico trio Jazz
 - vermut sical
 cover:
-  image: images/covers/9b1d779008b321af.webp
+  image: /images/covers/9b1d779008b321af.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutsicalAlCasalEnricoTrioJazz?authuser=0&feat=embedwebsite
 ---
 

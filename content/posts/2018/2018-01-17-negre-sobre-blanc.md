@@ -7,7 +7,7 @@ slug: negre-sobre-blanc
 tags:
 - expo
 cover:
-  image: images/covers/b9633ea01153f567.webp
+  image: /images/covers/b9633ea01153f567.webp
 album_url: https://photos.app.goo.gl/pnKt0f8x1yNgZyYH2
 ---
 

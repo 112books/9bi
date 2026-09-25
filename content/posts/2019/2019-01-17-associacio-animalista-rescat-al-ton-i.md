@@ -11,7 +11,7 @@ tags:
 - barri
 - llits
 cover:
-  image: images/covers/1fc9044ca8477282.webp
+  image: /images/covers/1fc9044ca8477282.webp
 album_url: https://photos.app.goo.gl/54mj4mA8b5avYkL27
 ---
 

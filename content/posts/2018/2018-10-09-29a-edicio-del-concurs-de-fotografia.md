@@ -7,7 +7,7 @@ slug: 29a-edicio-del-concurs-de-fotografia
 tags:
 - concurs
 cover:
-  image: images/covers/aaedccd0262d4d19.webp
+  image: /images/covers/aaedccd0262d4d19.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

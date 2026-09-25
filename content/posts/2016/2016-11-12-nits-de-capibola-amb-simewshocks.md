@@ -7,7 +7,7 @@ slug: nits-de-capibola-amb-simewshocks
 tags:
 - capibola
 cover:
-  image: images/covers/80a64102c447631e.webp
+  image: /images/covers/80a64102c447631e.webp
 album_url: https://goo.gl/photos/4vFPLtwaZRUjbsh56
 ---
 

@@ -11,7 +11,7 @@ tags:
 - roquetes
 - titelles
 cover:
-  image: images/covers/785d8e186fc03ca4.webp
+  image: /images/covers/785d8e186fc03ca4.webp
 album_url: https://photos.app.goo.gl/xHUHTjqVGTK76FpR7
 ---
 

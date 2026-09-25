@@ -11,7 +11,7 @@ tags:
 - rom cremat
 - Barcelona
 cover:
-  image: images/covers/4f7c2270ce9377ab.webp
+  image: /images/covers/4f7c2270ce9377ab.webp
 album_url: https://goo.gl/photos/pheKNaLasLeBw3Vm8
 ---
 

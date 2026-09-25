@@ -10,7 +10,7 @@ tags:
 - reunió
 - barri
 cover:
-  image: images/covers/d6919172b7cecb0a.webp
+  image: /images/covers/d6919172b7cecb0a.webp
 album_url: https://picasaweb.google.com/103138221614479310970/9BarrisImatgeOrgReunio?authuser=0&feat=embedwebsite
 ---
 

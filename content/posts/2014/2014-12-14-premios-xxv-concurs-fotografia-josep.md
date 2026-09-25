@@ -11,7 +11,7 @@ tags:
 - rafi
 - art
 cover:
-  image: images/covers/0a5cb273d2008957.webp
+  image: /images/covers/0a5cb273d2008957.webp
 album_url: https://picasaweb.google.com/115791131166530059320/ConcursFotografia?authuser=0&feat=embedwebsite
 ---
 

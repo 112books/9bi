@@ -10,7 +10,7 @@ tags:
 - música
 - veu
 cover:
-  image: images/covers/29235d7a0654f50c.webp
+  image: /images/covers/29235d7a0654f50c.webp
 album_url: https://picasaweb.google.com/115791131166530059320/VeusYMusicaPerLaIntegracio?authuser=0&feat=embedwebsite
 ---
 

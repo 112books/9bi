@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - vídeo
 cover:
-  image: images/covers/46a64ec25f3f3d10.webp
+  image: /images/covers/46a64ec25f3f3d10.webp
 album_url: https://photos.app.goo.gl/SaqewJJtKwiFm4xt7
 ---
 

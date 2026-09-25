@@ -11,7 +11,7 @@ tags:
 - maquillatge
 - concert
 cover:
-  image: images/covers/b8e1d42a6717e2e6.webp
+  image: /images/covers/b8e1d42a6717e2e6.webp
 album_url: https://photos.app.goo.gl/XjH1XhJrdChPGwYH8
 ---
 

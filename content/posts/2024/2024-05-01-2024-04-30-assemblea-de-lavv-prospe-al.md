@@ -11,7 +11,7 @@ tags:
 - Casal de Joves
 - la prosperitat
 cover:
-  image: images/covers/66e6fd6ac129a29c.webp
+  image: /images/covers/66e6fd6ac129a29c.webp
 album_url: https://photos.app.goo.gl/2GGEEHyjmjePZX9Y9
 ---
 

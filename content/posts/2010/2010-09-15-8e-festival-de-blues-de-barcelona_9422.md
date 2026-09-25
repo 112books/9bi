@@ -14,7 +14,7 @@ tags:
 - ramon
 - Víctor Puertas
 cover:
-  image: images/covers/72065e86bbc5a145.webp
+  image: /images/covers/72065e86bbc5a145.webp
 album_url: https://photos.app.goo.gl/brGr773a6spX3TdCA
 ---
 

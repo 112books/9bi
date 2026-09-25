@@ -11,7 +11,7 @@ tags:
 - integracio
 - Barcelona
 cover:
-  image: images/covers/fe314828b548588f.webp
+  image: /images/covers/fe314828b548588f.webp
 album_url: https://photos.google.com/share/AF1QipPvfmNc-KOJe9HUxQcPcdUFoZxLmP6WB3SmQtPlcy_7oFZCuQvP2bC4wNiuzvhQ1Q?key=b1Z2OXRzSlA5TldTTkF4MC00VHRLUlg5dVp1TldR
 ---
 

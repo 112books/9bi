@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - vermut sical
 cover:
-  image: images/covers/2995f8450d083ce3.webp
+  image: /images/covers/2995f8450d083ce3.webp
 album_url: https://picasaweb.google.com/linuxbcn/VermutSiCalAmbElsCombosDeLEscolaTallerDeBluesDeBarcelona?feat=embedwebsite
 ---
 

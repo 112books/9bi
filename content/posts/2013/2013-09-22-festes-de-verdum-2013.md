@@ -13,7 +13,7 @@ tags:
 - verdum
 - vía júlia
 cover:
-  image: images/covers/7d6bddae81d39e0a.webp
+  image: /images/covers/7d6bddae81d39e0a.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestesDeVerdum2013?authuser=0&authkey=Gv1sRgCJLXhNLr9bKgWg&feat=embedwebsite
 ---
 

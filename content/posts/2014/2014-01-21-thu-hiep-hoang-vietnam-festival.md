@@ -10,7 +10,7 @@ tags:
 - circ
 - ciu
 cover:
-  image: images/covers/b3a76d7d4ed46100.webp
+  image: /images/covers/b3a76d7d4ed46100.webp
 album_url: https://picasaweb.google.com/100268695753733554853/ThuHiepAnHoangVietnamFestivalInternacionalDelCircCiutatDeFigueres2013?authuser=0&amp;feat=embedwebsite
 ---
 

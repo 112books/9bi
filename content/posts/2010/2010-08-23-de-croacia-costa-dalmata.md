@@ -10,7 +10,7 @@ tags:
 - DALMACIA CROATA
 - viajes
 cover:
-  image: images/covers/7150345d336a6ec5.webp
+  image: /images/covers/7150345d336a6ec5.webp
 album_url: http://picasaweb.google.com/pdro.gracias/CroaciaCostaDalmata?feat=embedwebsite
 ---
 

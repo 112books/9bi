@@ -11,7 +11,7 @@ tags:
 - fotografia
 - Barcelona
 cover:
-  image: images/covers/a8b35781db30de56.webp
+  image: /images/covers/a8b35781db30de56.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

@@ -9,7 +9,7 @@ tags:
 - cultura
 - danza
 cover:
-  image: images/covers/ca7f83e9d68b322a.webp
+  image: /images/covers/ca7f83e9d68b322a.webp
 album_url: https://photos.google.com/share/AF1QipNC4BUS7o_TBODCNEFAcv9i8gITxHUHOP3thRB711Sn5v6pVHseQsBfRjTtgdP7Rw?key=Q0lOWkIxNWxRZmhsUDhvaE5YQ3pyaG9WZDNYT3pn
 ---
 

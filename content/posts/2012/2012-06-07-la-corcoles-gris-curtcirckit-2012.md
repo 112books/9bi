@@ -11,7 +11,7 @@ tags:
 - música
 - vídeo
 cover:
-  image: images/covers/590cf2da00d753f3.webp
+  image: /images/covers/590cf2da00d753f3.webp
 album_url: https://picasaweb.google.com/100268695753733554853/LaCorcolesGrisCurtcirckit2012Montgat?authuser=0&amp;feat=embedwebsite
 ---
 

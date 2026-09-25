@@ -11,7 +11,7 @@ tags:
 - la modelo
 - linuxbcn
 cover:
-  image: images/covers/40c50d8232e07970.webp
+  image: /images/covers/40c50d8232e07970.webp
 album_url: https://photos.app.goo.gl/AzWj2ZNLuVu9h1tS7
 ---
 

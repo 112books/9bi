@@ -7,7 +7,7 @@ slug: escape-room-dia-de-la-dona_10
 tags:
 - dia de la dona
 cover:
-  image: images/covers/07813a4a21542820.webp
+  image: /images/covers/07813a4a21542820.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

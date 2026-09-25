@@ -11,7 +11,7 @@ tags:
 - Hort
 - veu
 cover:
-  image: images/covers/cd208d76cba53c6a.webp
+  image: /images/covers/cd208d76cba53c6a.webp
 album_url: https://picasaweb.google.com/110015855395179205688/AdeuAlsHortsComunitarisDeRoquetes?authuser=0&feat=embedwebsite
 ---
 

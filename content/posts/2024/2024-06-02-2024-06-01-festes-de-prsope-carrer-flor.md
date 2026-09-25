@@ -11,7 +11,7 @@ tags:
 - neu
 - art
 cover:
-  image: images/covers/951e5e370ec7cb08.webp
+  image: /images/covers/951e5e370ec7cb08.webp
 album_url: https://photos.app.goo.gl/h5ffksUQbTSsbJ118
 ---
 

@@ -14,7 +14,7 @@ tags:
 - Plaça de la Prosperitat
 - Woolfi
 cover:
-  image: images/covers/8875b61875811c8c.webp
+  image: /images/covers/8875b61875811c8c.webp
 album_url: https://picasaweb.google.com/115837747848659272017/6290241209071115761#
 ---
 

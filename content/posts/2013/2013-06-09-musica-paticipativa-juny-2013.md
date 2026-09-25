@@ -8,7 +8,7 @@ tags:
 - casal barri prosperitat
 - música participativa
 cover:
-  image: images/covers/bcb29a5ab97292d8.webp
+  image: /images/covers/bcb29a5ab97292d8.webp
 album_url: https://picasaweb.google.com/103138221614479310970/MusicaPaticipativaJuny2013?authuser=0&feat=embedwebsite
 ---
 

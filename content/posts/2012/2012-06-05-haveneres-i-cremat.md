@@ -11,7 +11,7 @@ tags:
 - havaneres
 - prospe
 cover:
-  image: images/covers/64c07c72c4a92354.webp
+  image: /images/covers/64c07c72c4a92354.webp
 album_url: https://plus.google.com/photos/111964096227458093905/albums/5750317970084577777?banner=pwa
 ---
 

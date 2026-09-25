@@ -12,7 +12,7 @@ tags:
 - ny
 - nyc
 cover:
-  image: images/covers/376834b81ff02db5.webp
+  image: /images/covers/376834b81ff02db5.webp
 album_url: http://picasaweb.google.es/lh/photo/sk65I1rybtbJK1cW81yYDw?feat=embedwebsite
 ---
 

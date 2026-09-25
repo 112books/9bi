@@ -7,7 +7,7 @@ slug: 11-de-septiembre-cadena-human
 tags:
 - cadena humana
 cover:
-  image: images/covers/099598e44cfe0c1c.webp
+  image: /images/covers/099598e44cfe0c1c.webp
 album_url: https://picasaweb.google.com/115791131166530059320/11DESEPTIEMBRECADENAHUMANA?authuser=0&feat=embedwebsite
 ---
 

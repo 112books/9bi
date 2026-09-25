@@ -11,7 +11,7 @@ tags:
 - ruta
 - veu
 cover:
-  image: images/covers/8ad3444a70145673.webp
+  image: /images/covers/8ad3444a70145673.webp
 album_url: https://picasaweb.google.com/110015855395179205688/CASTELLDETORREBARO?authuser=0&feat=embedwebsite
 ---
 

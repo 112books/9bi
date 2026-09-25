@@ -9,7 +9,7 @@ tags:
 - casal barri prosperitat
 - manel sala ulls
 cover:
-  image: images/covers/2a5c23057c504434.webp
+  image: /images/covers/2a5c23057c504434.webp
 album_url: http://picasaweb.google.es/ulls1963/BarcaTresDeTresCopaLligaIChampions?feat=embedwebsite
 ---
 

@@ -8,7 +8,7 @@ tags:
 - festa holi
 - Festa major de prospe
 cover:
-  image: images/covers/ffa595b14a485d31.webp
+  image: /images/covers/ffa595b14a485d31.webp
 album_url: https://photos.app.goo.gl/XKNldWU7m6PJjEe83
 ---
 

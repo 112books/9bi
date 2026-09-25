@@ -7,7 +7,7 @@ slug: vermut-salsa-batxata_1
 tags:
 - Salsa
 cover:
-  image: images/covers/d361e936649c483f.webp
+  image: /images/covers/d361e936649c483f.webp
 album_url: https://photos.app.goo.gl/XPLaNbQD87Gx3ByPA
 ---
 

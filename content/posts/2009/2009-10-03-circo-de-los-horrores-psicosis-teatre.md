@@ -11,7 +11,7 @@ tags:
 - teatre victòria
 - zirkolika
 cover:
-  image: images/covers/c1303afda35805cf.webp
+  image: /images/covers/c1303afda35805cf.webp
 album_url: http://picasaweb.google.es/ulls1963/CircoDeLosHorroresPsicosisTeatreVictoriaDel1Al18Octubre?feat=embedwebsite
 ---
 

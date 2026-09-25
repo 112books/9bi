@@ -10,7 +10,7 @@ tags:
 - CASAL
 - casa
 cover:
-  image: images/covers/fab598b456a89e66.webp
+  image: /images/covers/fab598b456a89e66.webp
 album_url: https://picasaweb.google.com/100268695753733554853/FeriaDeAbrilProspera2014?authuser=0&amp;feat=embedwebsite
 ---
 

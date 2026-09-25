@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - tiki phantoms
 cover:
-  image: images/covers/b864d98eeb01459b.webp
+  image: /images/covers/b864d98eeb01459b.webp
 album_url: https://photos.app.goo.gl/f5RYDaJ2if2VLzXJ9
 ---
 

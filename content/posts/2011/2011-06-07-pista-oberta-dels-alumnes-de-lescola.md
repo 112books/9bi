@@ -7,7 +7,7 @@ slug: pista-oberta-dels-alumnes-de-lescola
 tags:
 - manel sala ulls
 cover:
-  image: images/covers/e99338065b612de3.webp
+  image: /images/covers/e99338065b612de3.webp
 album_url: https://picasaweb.google.com/ulls2006/PistaObertaDelsAlumnesDeLEscolaRogelioRivelCurtcirckit2011?feat=embedwebsite
 ---
 

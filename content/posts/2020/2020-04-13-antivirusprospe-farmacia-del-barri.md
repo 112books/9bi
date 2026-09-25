@@ -8,7 +8,7 @@ tags:
 - covid-19
 - solidaritat
 cover:
-  image: images/covers/c1a8688c2f779fd5.webp
+  image: /images/covers/c1a8688c2f779fd5.webp
 album_url: https://photos.app.goo.gl/JgEBGa3RxPoXVzyi7
 ---
 

@@ -11,7 +11,7 @@ tags:
 - patato
 - vermut sical
 cover:
-  image: images/covers/a03a155ceb0d4c8b.webp
+  image: /images/covers/a03a155ceb0d4c8b.webp
 album_url: https://picasaweb.google.com/linuxbcn/VermutsicalISiNoCalTambePatato?feat=embedwebsite
 ---
 

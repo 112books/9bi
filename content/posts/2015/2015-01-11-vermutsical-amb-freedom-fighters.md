@@ -7,7 +7,7 @@ slug: vermutsical-amb-freedom-fighters
 tags:
 - vermutsical
 cover:
-  image: images/covers/8b1389e9bfb7444d.webp
+  image: /images/covers/8b1389e9bfb7444d.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutSicalAmbTHEFREEDOMFIGHTERS?authuser=0&feat=embedwebsite
 ---
 

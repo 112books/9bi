@@ -11,7 +11,7 @@ tags:
 - formació
 - concert
 cover:
-  image: images/covers/f6a7a0e339cf7734.webp
+  image: /images/covers/f6a7a0e339cf7734.webp
 album_url: https://photos.app.goo.gl/QCZjqtzfKtdixeoZA
 ---
 

@@ -11,7 +11,7 @@ tags:
 - BLUE
 - art
 cover:
-  image: images/covers/a812e93ec61307eb.webp
+  image: /images/covers/a812e93ec61307eb.webp
 album_url: https://picasaweb.google.com/103138221614479310970/LesNitsDeCapibolaBluesAmbTestapazza?authuser=0&feat=embedwebsite
 ---
 

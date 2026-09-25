@@ -9,7 +9,7 @@ tags:
 - jazz
 - hal
 cover:
-  image: images/covers/64c075abe9ec84ff.webp
+  image: /images/covers/64c075abe9ec84ff.webp
 album_url: https://photos.app.goo.gl/LmJZNLMMTG4xXkKR7
 ---
 

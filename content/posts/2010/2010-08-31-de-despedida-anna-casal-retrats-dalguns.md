@@ -9,7 +9,7 @@ tags:
 - casal barri prosperitat
 - linuxbcn
 cover:
-  image: images/covers/11af477c694a214d.webp
+  image: /images/covers/11af477c694a214d.webp
 album_url: http://picasaweb.google.com/linuxbcn/DespedidaAnnaCasal?feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - prospe
 - obres
 cover:
-  image: images/covers/4e406edaa09bdaa7.webp
+  image: /images/covers/4e406edaa09bdaa7.webp
 album_url: https://photos.app.goo.gl/qaX8HS1hsHcgDxYS7
 ---
 

@@ -10,7 +10,7 @@ tags:
 - FESTA
 - STA
 cover:
-  image: images/covers/52b6e8d855eaf13e.webp
+  image: /images/covers/52b6e8d855eaf13e.webp
 album_url: https://picasaweb.google.com/115791131166530059320/Habanerasprospe?authuser=0&feat=embedwebsite
 ---
 

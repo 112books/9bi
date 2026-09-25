@@ -11,7 +11,7 @@ tags:
 - casal de prospe
 - Prosperitat
 cover:
-  image: images/covers/dbd9a9a66de08616.webp
+  image: /images/covers/dbd9a9a66de08616.webp
 album_url: https://photos.app.goo.gl/VDsa4jqfrkoJqZb2A
 ---
 

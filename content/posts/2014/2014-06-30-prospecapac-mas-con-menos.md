@@ -8,7 +8,7 @@ tags:
 - prospe
 - art
 cover:
-  image: images/covers/48f60b073eb346cd.webp
+  image: /images/covers/48f60b073eb346cd.webp
 album_url: https://picasaweb.google.com/lh/photo/bU8X2jrnGv0UkIkXF7tbUtMTjNZETYmyPJy0liipFm0?feat=embedwebsite
 ---
 

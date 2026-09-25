@@ -7,7 +7,7 @@ slug: festes-de-prosperitat-2011-dilluns
 tags:
 - festes de prospe
 cover:
-  image: images/covers/3ba76f964c67f6e5.webp
+  image: /images/covers/3ba76f964c67f6e5.webp
 album_url: https://picasaweb.google.com/linuxbcn/FestesDeProsperitat2011Dilluns?feat=embedwebsite
 ---
 

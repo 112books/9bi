@@ -10,7 +10,7 @@ tags:
 - dissabte
 - barri
 cover:
-  image: images/covers/b00c5cb892d42d41.webp
+  image: /images/covers/b00c5cb892d42d41.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FBBDIssabteAlParcCentralDe9Barris?authuser=0&feat=embedwebsite
 ---
 

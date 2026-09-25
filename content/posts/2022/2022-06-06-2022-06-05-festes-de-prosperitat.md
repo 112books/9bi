@@ -11,7 +11,7 @@ tags:
 - diumenge
 - prospe
 cover:
-  image: images/covers/5e3b805b1e56238d.webp
+  image: /images/covers/5e3b805b1e56238d.webp
 album_url: https://photos.app.goo.gl/71AwUjaSfad9qUGh7
 ---
 

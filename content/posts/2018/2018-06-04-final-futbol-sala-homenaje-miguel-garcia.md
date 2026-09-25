@@ -8,7 +8,7 @@ tags:
 - futbol sala
 - futbol
 cover:
-  image: images/covers/67fc14f8c05945bc.webp
+  image: /images/covers/67fc14f8c05945bc.webp
 album_url: https://photos.google.com/share/AF1QipMEICmC6Le_gfY1wnZbIFBRINws1bu2yK_QG9OONMkkfzTz79xdY9gN3J-qw9Q-Xg?key=VVg1SnFwWlNtZHZjNm91a1QwNlZ1cXJnZmxHZ0hB
 ---
 

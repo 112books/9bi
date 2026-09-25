@@ -11,7 +11,7 @@ tags:
 - fotos
 - gineueta
 cover:
-  image: images/covers/d508d8439b649dd3.webp
+  image: /images/covers/d508d8439b649dd3.webp
 album_url: https://photos.app.goo.gl/C4N1rGpHNK5zxpoVA
 ---
 

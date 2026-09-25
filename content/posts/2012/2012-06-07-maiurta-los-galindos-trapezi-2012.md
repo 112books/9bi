@@ -11,7 +11,7 @@ tags:
 - trapezi
 - música
 cover:
-  image: images/covers/7e0b280c60be8b69.webp
+  image: /images/covers/7e0b280c60be8b69.webp
 album_url: https://picasaweb.google.com/100268695753733554853/MaiurtaLosGalindosTrapezi2012?authuser=0&amp;feat=embedwebsite
 ---
 

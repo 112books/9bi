@@ -12,7 +12,7 @@ tags:
 - transformador
 - trinitat nova
 cover:
-  image: images/covers/34ce0b7d6594f7c8.webp
+  image: /images/covers/34ce0b7d6594f7c8.webp
 album_url: https://photos.app.goo.gl/WpisSVFoTzRvuqJJ9
 ---
 

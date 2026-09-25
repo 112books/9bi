@@ -11,7 +11,7 @@ tags:
 - masterclass
 - VII Festival de Blues de Barcelona
 cover:
-  image: images/covers/2ea470533e696e12.webp
+  image: /images/covers/2ea470533e696e12.webp
 album_url: https://photos.app.goo.gl/Bfg4XJb91bNZxjJR9
 ---
 

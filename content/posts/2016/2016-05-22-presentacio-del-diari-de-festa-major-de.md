@@ -7,7 +7,7 @@ slug: presentacio-del-diari-de-festa-major-de
 tags:
 - festes de prospe
 cover:
-  image: images/covers/6a4b749c434e1899.webp
+  image: /images/covers/6a4b749c434e1899.webp
 album_url: https://picasaweb.google.com/111964096227458093905/6287274596408882689?authuser=0&feat=embedwebsite
 ---
 

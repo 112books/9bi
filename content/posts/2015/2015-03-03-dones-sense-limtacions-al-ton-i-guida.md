@@ -11,7 +11,7 @@ tags:
 - STA
 - veu
 cover:
-  image: images/covers/6029efc9f05c13b5.webp
+  image: /images/covers/6029efc9f05c13b5.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ASENDI?authuser=0&feat=embedwebsite
 ---
 

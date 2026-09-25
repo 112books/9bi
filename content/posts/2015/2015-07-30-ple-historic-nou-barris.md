@@ -10,7 +10,7 @@ tags:
 - nou barris
 - ple noubarris
 cover:
-  image: images/covers/db29384d2aed36bc.webp
+  image: /images/covers/db29384d2aed36bc.webp
 album_url: https://picasaweb.google.com/114858497713897843587/PLENOUBARRISFAHISTORIA?authuser=0&feat=embedwebsite
 ---
 

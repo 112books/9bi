@@ -8,7 +8,7 @@ tags:
 - barri prosperitat
 - sant xibeco
 cover:
-  image: images/covers/cf9cdf28718a6ac3.webp
+  image: /images/covers/cf9cdf28718a6ac3.webp
 album_url: https://photos.app.goo.gl/5uEDhMSCJ99KVrKZA
 ---
 

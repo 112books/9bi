@@ -9,7 +9,7 @@ tags:
 - castanyada
 - nit d'ànimes
 cover:
-  image: images/covers/2d4e4554c3578056.webp
+  image: /images/covers/2d4e4554c3578056.webp
 album_url: https://picasaweb.google.com/103138221614479310970/NitDAnimesCeltaAlCasalDeBarri?authuser=0&feat=embedwebsite
 ---
 

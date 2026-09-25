@@ -7,7 +7,7 @@ slug: preparant-els-carrersha-arrivat-la
 tags:
 - Festa Major de Gràcia 2015
 cover:
-  image: images/covers/8e0ff4fb8449c430.webp
+  image: /images/covers/8e0ff4fb8449c430.webp
 album_url: https://picasaweb.google.com/110015855395179205688/FestaMajorDeGracia2015?authuser=0&feat=embedwebsite
 ---
 

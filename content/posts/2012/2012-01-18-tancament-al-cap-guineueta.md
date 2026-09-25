@@ -8,7 +8,7 @@ tags:
 - sanitat publica
 - urgencies CAP Guineueta
 cover:
-  image: images/covers/66396dcfda0e41d5.webp
+  image: /images/covers/66396dcfda0e41d5.webp
 album_url: https://picasaweb.google.com/pedro.cervera/TancamentAUrgenciesCAPGuineueta?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - verdum
 - FESTA
 cover:
-  image: images/covers/eef260a9d424955e.webp
+  image: /images/covers/eef260a9d424955e.webp
 album_url: https://photos.app.goo.gl/q6fPwGNTJzCU69e16
 ---
 

@@ -12,7 +12,7 @@ tags:
 - vídeo
 - wad-ras
 cover:
-  image: images/covers/8c4965f49fac00c3.webp
+  image: /images/covers/8c4965f49fac00c3.webp
 album_url: https://photos.app.goo.gl/xkDGnd4TaF8Pnroo9
 ---
 

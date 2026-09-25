@@ -8,7 +8,7 @@ tags:
 - la cultura va de festa
 - parc de la guineueta
 cover:
-  image: images/covers/c40fc8aa53d147a2.webp
+  image: /images/covers/c40fc8aa53d147a2.webp
 album_url: https://picasaweb.google.com/103138221614479310970/LaCulturaVaDeFestaAlParcDeLaGuineueta?authuser=0&feat=embedwebsite
 ---
 

@@ -12,7 +12,7 @@ tags:
 - barri de Prosperitat
 - casal de barri
 cover:
-  image: images/covers/40bf7de81daf7cb5.webp
+  image: /images/covers/40bf7de81daf7cb5.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

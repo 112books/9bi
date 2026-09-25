@@ -9,7 +9,7 @@ tags:
 - sopas del mon
 - SOPAS
 cover:
-  image: images/covers/b377160b4f736d48.webp
+  image: /images/covers/b377160b4f736d48.webp
 album_url: https://photos.app.goo.gl/mcmqcasrSCFAkR1KA
 ---
 

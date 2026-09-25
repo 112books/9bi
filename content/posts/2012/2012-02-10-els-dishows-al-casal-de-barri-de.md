@@ -9,7 +9,7 @@ tags:
 - joan.linuxbcn.com
 - magia
 cover:
-  image: images/covers/997dbbb464284999.webp
+  image: /images/covers/997dbbb464284999.webp
 album_url: https://picasaweb.google.com/103138221614479310970/ElsDishowsAlCasalDeBarriDeProsperitat?authuser=0&feat=embedwebsite
 ---
 

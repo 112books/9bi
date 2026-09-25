@@ -8,7 +8,7 @@ tags:
 - ateneu popular 9 barris
 - dança vertical
 cover:
-  image: images/covers/d7acbae1a538193c.webp
+  image: /images/covers/d7acbae1a538193c.webp
 album_url: https://picasaweb.google.com/103138221614479310970/DancaVerticalSobreGraffitiALAteneuPopularDe9Barris?authuser=0&amp;feat=embedwebsite
 ---
 

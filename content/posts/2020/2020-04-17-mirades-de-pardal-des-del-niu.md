@@ -11,7 +11,7 @@ tags:
 - 9 barris
 - formació
 cover:
-  image: images/covers/488752c0c7f9ddfe.webp
+  image: /images/covers/488752c0c7f9ddfe.webp
 album_url: https://photos.app.goo.gl/7e4WMQvQKMEtuVwJ7
 ---
 

@@ -9,7 +9,7 @@ tags:
 - Pedro
 - expo
 cover:
-  image: images/covers/285e3aeadd687fda.webp
+  image: /images/covers/285e3aeadd687fda.webp
 album_url: https://picasaweb.google.com/103138221614479310970/MuntatgeDeLExposicioElsInoblidablesLaNostraMemoria?authuser=0&feat=embedwebsite
 ---
 

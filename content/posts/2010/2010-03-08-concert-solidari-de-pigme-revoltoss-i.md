@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - pigmeos
 cover:
-  image: images/covers/a6f3a61e1a77c8e2.webp
+  image: /images/covers/a6f3a61e1a77c8e2.webp
 album_url: https://photos.app.goo.gl/4S8iUR3B2G3bF5Cr9
 ---
 

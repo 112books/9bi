@@ -7,7 +7,7 @@ slug: vermutsical-amb-dany-bernal
 tags:
 - vermutsical
 cover:
-  image: images/covers/4851e36c270515d8.webp
+  image: /images/covers/4851e36c270515d8.webp
 album_url: https://goo.gl/photos/WscsbbKKwXsRdxRN9
 ---
 

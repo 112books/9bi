@@ -8,7 +8,7 @@ tags:
 - joan.linuxbcn.com
 - torre baró
 cover:
-  image: images/covers/3d7b4e5801be47ee.webp
+  image: /images/covers/3d7b4e5801be47ee.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VistesDeBarcelonaATorreBaro?authuser=0&feat=embedwebsite
 ---
 

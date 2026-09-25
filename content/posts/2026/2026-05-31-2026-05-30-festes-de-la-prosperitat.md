@@ -18,7 +18,7 @@ tags:
 - pocallum
 - Prosperitat
 cover:
-  image: images/covers/b589f974c40941d1.webp
+  image: /images/covers/b589f974c40941d1.webp
 album_url: https://photos.app.goo.gl/rfG5FP859F4QS4uT9
 ---
 

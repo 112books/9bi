@@ -11,7 +11,7 @@ tags:
 - gent
 - ciu
 cover:
-  image: images/covers/7a777679be4d79e5.webp
+  image: /images/covers/7a777679be4d79e5.webp
 album_url: https://picasaweb.google.com/100268695753733554853/HectorCarrozoArgentinaFestivalInternacionalDelCircCiutatDeFigueres2013?authuser=0&amp;feat=embedwebsite
 ---
 

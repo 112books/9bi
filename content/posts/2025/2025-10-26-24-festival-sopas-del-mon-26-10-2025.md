@@ -11,7 +11,7 @@ tags:
 - SOPAS
 - barri
 cover:
-  image: images/covers/380ca681a0055049.webp
+  image: /images/covers/380ca681a0055049.webp
 album_url: https://photos.app.goo.gl/ZUPRJXe5qWXpKHXR6
 ---
 

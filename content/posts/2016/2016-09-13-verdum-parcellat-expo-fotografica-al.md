@@ -7,7 +7,7 @@ slug: verdum-parcellat-expo-fotografica-al
 tags:
 - verdum
 cover:
-  image: images/covers/5832dd2968a30de9.webp
+  image: /images/covers/5832dd2968a30de9.webp
 album_url: https://goo.gl/photos/iuR7QGotoXqdRB3D7
 ---
 

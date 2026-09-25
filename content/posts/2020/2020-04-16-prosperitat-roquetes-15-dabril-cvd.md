@@ -11,7 +11,7 @@ tags:
 - casa
 - llum
 cover:
-  image: images/covers/e27be0f7e2048d50.webp
+  image: /images/covers/e27be0f7e2048d50.webp
 album_url: https://photos.app.goo.gl/dv7CHKxSHQ43DWVW6
 ---
 

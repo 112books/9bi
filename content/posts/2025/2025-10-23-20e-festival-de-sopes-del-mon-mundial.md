@@ -7,7 +7,7 @@ slug: 20e-festival-de-sopes-del-mon-mundial
 tags:
 - Festival de sopas del mon
 cover:
-  image: images/covers/e1ec3dd5729dd283.webp
+  image: /images/covers/e1ec3dd5729dd283.webp
 ---
 
 ![](/images/covers/91db2cd6dc1e043d.webp)

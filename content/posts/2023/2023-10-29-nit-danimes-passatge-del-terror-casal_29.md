@@ -9,7 +9,7 @@ tags:
 - casal barri prosperitat
 - nit d'ànimes
 cover:
-  image: images/covers/d20cb110ce8698ca.webp
+  image: /images/covers/d20cb110ce8698ca.webp
 album_url: https://photos.app.goo.gl/othGbTpaEDFv26fy5
 ---
 

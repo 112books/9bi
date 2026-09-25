@@ -11,7 +11,7 @@ tags:
 - nit d'ànimes
 - Prosperitat
 cover:
-  image: images/covers/2e29465954bc2adc.webp
+  image: /images/covers/2e29465954bc2adc.webp
 album_url: https://picasaweb.google.com/103138221614479310970/5629CisinaCX2NitDAnimesAlCasalDeBarriDeProsperitat?authuser=0&feat=embedwebsite
 ---
 

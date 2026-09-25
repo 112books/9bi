@@ -11,7 +11,7 @@ tags:
 - Mario
 - mar
 cover:
-  image: images/covers/4ee4a296261548bc.webp
+  image: /images/covers/4ee4a296261548bc.webp
 album_url: https://photos.google.com/share/AF1QipMPMUCQTM-aDA7zHQ0KDogAleZPjdd6SYLHYTo3ZQGA3ij1Slx4HyjcVdzyrikuhQ?hl=es&key=Ty1yblpuWW1lektRSDJPYUlhaTlTYjB5TmpscXZB
 ---
 

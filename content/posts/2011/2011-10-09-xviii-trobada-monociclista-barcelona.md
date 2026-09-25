@@ -11,7 +11,7 @@ tags:
 - monociclistes
 - trobada
 cover:
-  image: images/covers/1396a58c3a6c3fed.webp
+  image: /images/covers/1396a58c3a6c3fed.webp
 album_url: https://photos.app.goo.gl/vyG8W9XbY9a7UqBm7
 ---
 

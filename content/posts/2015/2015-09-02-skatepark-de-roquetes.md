@@ -9,7 +9,7 @@ tags:
 - roquetes
 - skate
 cover:
-  image: images/covers/eb36166a16de8339.webp
+  image: /images/covers/eb36166a16de8339.webp
 album_url: https://picasaweb.google.com/103138221614479310970/SkateParkDeRoquetes?authuser=0&feat=embedwebsite
 ---
 

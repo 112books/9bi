@@ -11,7 +11,7 @@ tags:
 - barri
 - veïns
 cover:
-  image: images/covers/c58db38620c328ef.webp
+  image: /images/covers/c58db38620c328ef.webp
 album_url: ' https://picasaweb.google.com/116805523004990742624/UNEDACanPeguera?authuser=0&authkey=Gv1sRgCKSX-Ky2hd-y3AE&feat=embedwebsite '
 ---
 

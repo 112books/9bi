@@ -8,7 +8,7 @@ tags:
 - Fira d'abril
 - prospritat
 cover:
-  image: images/covers/9dadde4651839c8e.webp
+  image: /images/covers/9dadde4651839c8e.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FiraDAbrilDeProsperitatDiumenge?authuser=0&feat=embedwebsite
 ---
 

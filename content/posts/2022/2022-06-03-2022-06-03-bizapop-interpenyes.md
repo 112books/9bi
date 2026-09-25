@@ -8,7 +8,7 @@ tags:
 - Penyes
 - pop
 cover:
-  image: images/covers/1a7d19d5226a6404.webp
+  image: /images/covers/1a7d19d5226a6404.webp
 album_url: https://photos.app.goo.gl/gbGaJuSxLbsCwUes5
 ---
 

@@ -8,7 +8,7 @@ tags:
 - prospe
 - nico
 cover:
-  image: images/covers/249ec81e46aa6d40.webp
+  image: /images/covers/249ec81e46aa6d40.webp
 album_url: https://photos.app.goo.gl/D6J5Qa6BNTXQPhAx9
 ---
 

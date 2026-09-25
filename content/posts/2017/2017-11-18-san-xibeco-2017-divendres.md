@@ -9,7 +9,7 @@ tags:
 - san xibeco
 - xibeco
 cover:
-  image: images/covers/ed8ba5c0e5f1018b.webp
+  image: /images/covers/ed8ba5c0e5f1018b.webp
 album_url: https://photos.app.goo.gl/czsptpkjbFHwjfUp1
 ---
 

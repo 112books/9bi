@@ -11,7 +11,7 @@ tags:
 - CASAL
 - casa
 cover:
-  image: images/covers/a972accdb728ab43.webp
+  image: /images/covers/a972accdb728ab43.webp
 album_url: https://picasaweb.google.com/104199960646572363843/ROJOCANCIONEROYBANDERASROTAS?authuser=0&feat=embedwebsit
 ---
 

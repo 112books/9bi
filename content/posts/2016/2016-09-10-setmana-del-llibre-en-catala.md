@@ -11,7 +11,7 @@ tags:
 - art
 - STA
 cover:
-  image: images/covers/04c8146068498060.webp
+  image: /images/covers/04c8146068498060.webp
 album_url: https://goo.gl/photos/R7LeLRDLoQfsCXKB7
 ---
 

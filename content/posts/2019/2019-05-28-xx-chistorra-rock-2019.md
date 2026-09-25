@@ -11,7 +11,7 @@ tags:
 - prospe
 - rock
 cover:
-  image: images/covers/a75122cef05c018d.webp
+  image: /images/covers/a75122cef05c018d.webp
 album_url: https://photos.app.goo.gl/N6SqNWs7vs6CDeNbA
 ---
 

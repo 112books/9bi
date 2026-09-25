@@ -7,7 +7,7 @@ slug: actuacions-modernistes
 tags:
 - activitats
 cover:
-  image: images/covers/fb2ff90e2b5ce1bb.webp
+  image: /images/covers/fb2ff90e2b5ce1bb.webp
 album_url: https://photos.app.goo.gl/JT3v3FLpTn6iSPzR2
 ---
 

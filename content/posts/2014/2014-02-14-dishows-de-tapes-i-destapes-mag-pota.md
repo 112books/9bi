@@ -10,7 +10,7 @@ tags:
 - Mag Pota
 - magia
 cover:
-  image: images/covers/8aa2286de9e87a57.webp
+  image: /images/covers/8aa2286de9e87a57.webp
 album_url: https://picasaweb.google.com/103138221614479310970/DiShowsDeTapesIDesTapesMagPota?authuser=0&feat=embedwebsite
 ---
 

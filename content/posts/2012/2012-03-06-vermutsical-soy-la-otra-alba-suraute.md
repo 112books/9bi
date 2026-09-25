@@ -7,7 +7,7 @@ slug: vermutsical-soy-la-otra-alba-suraute
 tags:
 - vermut sical
 cover:
-  image: images/covers/bce067090b758c9d.webp
+  image: /images/covers/bce067090b758c9d.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutsicalSoyLaOtraAlbaSuraute?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - carnestoltes
 - fiesta
 cover:
-  image: images/covers/e29e6daa401d587f.webp
+  image: /images/covers/e29e6daa401d587f.webp
 album_url: https://photos.app.goo.gl/F7zP122obvTt9b147
 ---
 

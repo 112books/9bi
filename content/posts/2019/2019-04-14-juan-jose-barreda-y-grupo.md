@@ -11,7 +11,7 @@ tags:
 - la prosperitat
 - Prosperitat
 cover:
-  image: images/covers/0dfb080b638094ca.webp
+  image: /images/covers/0dfb080b638094ca.webp
 album_url: https://photos.app.goo.gl/p13hTZDkVVHeUGBLA
 ---
 

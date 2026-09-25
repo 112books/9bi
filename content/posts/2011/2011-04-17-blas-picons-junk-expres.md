@@ -9,7 +9,7 @@ tags:
 - Les Nits de Capibola blues; Blas Picón's Junk Exprés
 - linuxbcn
 cover:
-  image: images/covers/cdf3394b918ebe84.webp
+  image: /images/covers/cdf3394b918ebe84.webp
 album_url: https://picasaweb.google.com/linuxbcn/BlasPiconSJunkExpres150411?feat=embedwebsite
 ---
 

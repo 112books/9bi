@@ -11,7 +11,7 @@ tags:
 - presentació
 - activitats
 cover:
-  image: images/covers/b959a96a3232b9eb.webp
+  image: /images/covers/b959a96a3232b9eb.webp
 album_url: https://photos.app.goo.gl/6ERaBh7hCeq9kLrg8
 ---
 

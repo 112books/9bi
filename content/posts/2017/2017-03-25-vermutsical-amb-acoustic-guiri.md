@@ -7,7 +7,7 @@ slug: vermutsical-amb-acoustic-guiri
 tags:
 - vermutsical
 cover:
-  image: images/covers/8db1d8b8591c0127.webp
+  image: /images/covers/8db1d8b8591c0127.webp
 album_url: https://goo.gl/photos/YrCbXXEhkZfPqaNa6
 ---
 

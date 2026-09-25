@@ -12,7 +12,7 @@ tags:
 - rafi
 - llum
 cover:
-  image: images/covers/c3f369a721968686.webp
+  image: /images/covers/c3f369a721968686.webp
 album_url: https://picasaweb.google.com/100268695753733554853/DuoLyricalLyraEstatsUnits1erFestivalInternacionalDelCircCastellDeFigueres2012?authuser=0&amp;feat=embedwebsite
 ---
 

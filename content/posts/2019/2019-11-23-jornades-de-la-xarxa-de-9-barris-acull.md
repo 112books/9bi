@@ -12,7 +12,7 @@ tags:
 - jornades
 - barri
 cover:
-  image: images/covers/55188599e4a96ad3.webp
+  image: /images/covers/55188599e4a96ad3.webp
 album_url: https://photos.app.goo.gl/A7RJEhGo5i2vdNRy7
 ---
 

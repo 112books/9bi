@@ -15,7 +15,7 @@ tags:
 - Slim Bay Seals
 - vídeo
 cover:
-  image: images/covers/45424ad919423a03.webp
+  image: /images/covers/45424ad919423a03.webp
 album_url: https://photos.app.goo.gl/9E8hYpzTpJkbCFKs9
 ---
 

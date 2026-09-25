@@ -11,7 +11,7 @@ tags:
 - Barcelona
 - llibre
 cover:
-  image: images/covers/69281b8f1799de0a.webp
+  image: /images/covers/69281b8f1799de0a.webp
 album_url: https://picasaweb.google.com/103138221614479310970/6282223667866460641?authuser=0&feat=embedwebsite
 ---
 

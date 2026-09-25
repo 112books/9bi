@@ -11,7 +11,7 @@ tags:
 - nou barris
 - vía júlia
 cover:
-  image: images/covers/4192b6d2285af7c8.webp
+  image: /images/covers/4192b6d2285af7c8.webp
 album_url: https://photos.app.goo.gl/R7NVEwZENVZL25FE9
 ---
 

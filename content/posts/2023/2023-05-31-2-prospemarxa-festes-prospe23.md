@@ -9,7 +9,7 @@ tags:
 - festes
 - mar
 cover:
-  image: images/covers/8e0b93f3c5276923.webp
+  image: /images/covers/8e0b93f3c5276923.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

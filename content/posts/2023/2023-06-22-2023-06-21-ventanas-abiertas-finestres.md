@@ -12,7 +12,7 @@ tags:
 - barri
 - veïns
 cover:
-  image: images/covers/3c520b8d85c050d3.webp
+  image: /images/covers/3c520b8d85c050d3.webp
 album_url: https://photos.app.goo.gl/jMotStznZhnfLAhF6
 ---
 

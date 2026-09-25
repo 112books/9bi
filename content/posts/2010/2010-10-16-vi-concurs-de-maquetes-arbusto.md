@@ -15,7 +15,7 @@ tags:
 - linuxbcn
 - Van Tard
 cover:
-  image: images/covers/9eef1f2668636f06.webp
+  image: /images/covers/9eef1f2668636f06.webp
 album_url: https://photos.app.goo.gl/1SFzqEs5fi9pPp547
 ---
 

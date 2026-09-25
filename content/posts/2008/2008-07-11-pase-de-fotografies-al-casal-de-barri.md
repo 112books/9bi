@@ -11,7 +11,7 @@ tags:
 - Prospe Beach
 - Prosperitat
 cover:
-  image: images/covers/a9ec48e0d886b7fd.webp
+  image: /images/covers/a9ec48e0d886b7fd.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

@@ -11,7 +11,7 @@ tags:
 - vídeo
 - STA
 cover:
-  image: images/covers/6b4e350f16239226.webp
+  image: /images/covers/6b4e350f16239226.webp
 album_url: https://picasaweb.google.com/lh/photo/k-38KQi8UcwTb6i3B5rB6NMTjNZETYmyPJy0liipFm0?feat=embedwebsite
 ---
 

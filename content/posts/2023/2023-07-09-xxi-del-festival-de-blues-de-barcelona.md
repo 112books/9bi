@@ -8,7 +8,7 @@ tags:
 - blues
 - XXI del Festival de Blues de Barcelona
 cover:
-  image: images/covers/d34a7c3514f70758.webp
+  image: /images/covers/d34a7c3514f70758.webp
 album_url: https://photos.app.goo.gl/Yq93Enznc5KEFoFP6
 ---
 

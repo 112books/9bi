@@ -7,7 +7,7 @@ slug: casal-mix-vol-5
 tags:
 - Casal Joves Prosperitat
 cover:
-  image: images/covers/9c351bee5d0c508c.webp
+  image: /images/covers/9c351bee5d0c508c.webp
 album_url: https://goo.gl/photos/QpekT6y3UqGUimvC8
 ---
 

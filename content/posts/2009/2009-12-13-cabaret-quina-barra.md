@@ -11,7 +11,7 @@ tags:
 - manel sala ulls
 - música
 cover:
-  image: images/covers/6e880053ef39a220.webp
+  image: /images/covers/6e880053ef39a220.webp
 album_url: http://picasaweb.google.es/ulls2006/CabaretQuinaBarra?feat=embedwebsite
 ---
 

@@ -13,7 +13,7 @@ tags:
 - Seu del disctricte de Nou Barris
 - The Big Sounds
 cover:
-  image: images/covers/41e97d315faf632d.webp
+  image: /images/covers/41e97d315faf632d.webp
 album_url: https://photos.app.goo.gl/mtsQgRm4dahKdAqz5
 ---
 

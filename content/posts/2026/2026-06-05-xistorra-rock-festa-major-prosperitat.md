@@ -8,7 +8,7 @@ tags:
 - Festa major de prospe
 - xistorra rock
 cover:
-  image: images/covers/4be71c2145fc647d.webp
+  image: /images/covers/4be71c2145fc647d.webp
 album_url: https://photos.app.goo.gl/xJ2j9wtGkuN1KuTS7
 ---
 

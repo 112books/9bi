@@ -10,7 +10,7 @@ tags:
 - casa
 - rafi
 cover:
-  image: images/covers/1d78d8974f8ab57a.webp
+  image: /images/covers/1d78d8974f8ab57a.webp
 album_url: https://photos.app.goo.gl/DUUjSyVxfXi1sKMp6
 ---
 

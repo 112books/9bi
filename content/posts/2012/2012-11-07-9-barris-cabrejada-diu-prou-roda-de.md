@@ -9,7 +9,7 @@ tags:
 - favb
 - roda de premsa
 cover:
-  image: images/covers/be7a1df97e28c9dc.webp
+  image: /images/covers/be7a1df97e28c9dc.webp
 album_url: https://picasaweb.google.com/103138221614479310970/9BarrisCabrejadaDiuProuRodaDePremsa?authuser=0&amp;feat=embedwebsite
 ---
 

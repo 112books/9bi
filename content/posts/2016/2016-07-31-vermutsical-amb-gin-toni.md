@@ -7,7 +7,7 @@ slug: vermutsical-amb-gin-toni
 tags:
 - vermutsical
 cover:
-  image: images/covers/aa282be011e04757.webp
+  image: /images/covers/aa282be011e04757.webp
 album_url: https://picasaweb.google.com/103138221614479310970/6313401670681002641?authuser=0&feat=embedwebsite
 ---
 

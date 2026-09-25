@@ -9,7 +9,7 @@ tags:
 - pregó
 - Prosperitat
 cover:
-  image: images/covers/83287444d1bc0d94.webp
+  image: /images/covers/83287444d1bc0d94.webp
 album_url: https://photos.app.goo.gl/x7cm6tbz1p45hyp47
 ---
 

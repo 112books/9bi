@@ -9,7 +9,7 @@ tags:
 - desallotjament
 - fotos
 cover:
-  image: images/covers/3079982faccf5a61.webp
+  image: /images/covers/3079982faccf5a61.webp
 album_url: https://photos.app.goo.gl/YAec3yvKX9xDwrnP6
 ---
 

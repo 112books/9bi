@@ -8,7 +8,7 @@ tags:
 - exposició
 - Prosperitat
 cover:
-  image: images/covers/1b4a100b95fa4909.webp
+  image: /images/covers/1b4a100b95fa4909.webp
 album_url: https://picasaweb.google.com/111964096227458093905/6287289163217320545?authuser=0&feat=embedwebsite
 ---
 

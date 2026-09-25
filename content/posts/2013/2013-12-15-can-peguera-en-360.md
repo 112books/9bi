@@ -8,7 +8,7 @@ tags:
 - Can Peguera
 - spinner 360
 cover:
-  image: images/covers/82873dd9be1a7e80.webp
+  image: /images/covers/82873dd9be1a7e80.webp
 album_url: https://picasaweb.google.com/103138221614479310970/6354Spinner360FujicolorC200?authuser=0&feat=embedwebsite
 ---
 

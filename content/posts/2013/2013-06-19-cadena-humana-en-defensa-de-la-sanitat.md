@@ -8,7 +8,7 @@ tags:
 - cadena humana
 - Hospital Vall d'Hebrón
 cover:
-  image: images/covers/ee49e02c359fb80d.webp
+  image: /images/covers/ee49e02c359fb80d.webp
 album_url: https://picasaweb.google.com/103138221614479310970/CadenaHumanaEnDefensaDeLaSanitatPublicaALHospitalVallHebron?authuser=0&feat=embedwebsite
 ---
 

@@ -10,7 +10,7 @@ tags:
 - jocs
 - gent
 cover:
-  image: images/covers/0d08f0e7af27e34f.webp
+  image: /images/covers/0d08f0e7af27e34f.webp
 album_url: https://goo.gl/photos/JQzKo9hpfr99bApL6
 ---
 

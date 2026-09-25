@@ -9,7 +9,7 @@ tags:
 - plaça catalunya
 - República
 cover:
-  image: images/covers/25e68c869f818ac8.webp
+  image: /images/covers/25e68c869f818ac8.webp
 album_url: https://picasaweb.google.com/103138221614479310970/ConcentracioEnDefensaDelsDretsILlibertatsCivilsDiaDeLaRepublica?authuser=0&authkey=Gv1sRgCPD09aSrir7pUw&feat=embedwebsite
 ---
 

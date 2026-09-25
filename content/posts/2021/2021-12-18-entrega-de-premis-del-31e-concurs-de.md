@@ -11,7 +11,7 @@ tags:
 - premis
 - rafi
 cover:
-  image: images/covers/c40c936330303c6f.webp
+  image: /images/covers/c40c936330303c6f.webp
 album_url: https://photos.app.goo.gl/mV2ZctXtW28Eg98K6
 ---
 

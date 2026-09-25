@@ -12,7 +12,7 @@ tags:
 - jam session
 - fotografies
 cover:
-  image: images/covers/602e7d998c518a7a.webp
+  image: /images/covers/602e7d998c518a7a.webp
 album_url: https://blog.pocallum.cat/2026/07/06/2026-07-05-24e-festival-de-blues-de-barcelona-jam-session-de-clausura/
 ---
 

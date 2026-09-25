@@ -9,7 +9,7 @@ tags:
 - cinema a la feresca
 - joan.linuxbcn.com
 cover:
-  image: images/covers/c107e5ae0defc7e6.webp
+  image: /images/covers/c107e5ae0defc7e6.webp
 album_url: https://picasaweb.google.com/lh/photo/scnK1N2lVi7PIskfuqGyctMTjNZETYmyPJy0liipFm0?feat=embedwebsite
 ---
 

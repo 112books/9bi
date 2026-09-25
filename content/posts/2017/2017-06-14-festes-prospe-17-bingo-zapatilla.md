@@ -10,7 +10,7 @@ tags:
 - festes
 - Bingo
 cover:
-  image: images/covers/06fd898e70d7cf02.webp
+  image: /images/covers/06fd898e70d7cf02.webp
 album_url: https://flic.kr/s/aHsm2xdsF2
 ---
 

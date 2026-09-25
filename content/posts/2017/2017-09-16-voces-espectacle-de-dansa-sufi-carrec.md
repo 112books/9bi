@@ -7,7 +7,7 @@ slug: voces-espectacle-de-dansa-sufi-carrec
 tags:
 - dansa
 cover:
-  image: images/covers/dfd411a1e167b071.webp
+  image: /images/covers/dfd411a1e167b071.webp
 album_url: https://photos.app.goo.gl/aIkIfbAbHDw3Zgyk1
 ---
 

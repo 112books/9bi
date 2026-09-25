@@ -9,7 +9,7 @@ tags:
 - cuina
 - dones
 cover:
-  image: images/covers/508b885f07a0aea3.webp
+  image: /images/covers/508b885f07a0aea3.webp
 album_url: https://photos.app.goo.gl/YvT4bKELpJkkod33A
 ---
 

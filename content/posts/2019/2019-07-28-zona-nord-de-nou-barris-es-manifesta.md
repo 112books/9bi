@@ -11,7 +11,7 @@ tags:
 - nou barris
 - torre baró
 cover:
-  image: images/covers/c34153875cbc55f2.webp
+  image: /images/covers/c34153875cbc55f2.webp
 album_url: https://photos.app.goo.gl/cp3ex5hreBBgtknk7
 ---
 

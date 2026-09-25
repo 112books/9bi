@@ -11,7 +11,7 @@ tags:
 - activitats
 - Barcelona
 cover:
-  image: images/covers/fd3cd93b3ddbc76f.webp
+  image: /images/covers/fd3cd93b3ddbc76f.webp
 album_url: https://photos.app.goo.gl/ZXX3kmJkqtDqhHBb6
 ---
 

@@ -11,7 +11,7 @@ tags:
 - França
 - Lille
 cover:
-  image: images/covers/afd75303d0795ae6.webp
+  image: /images/covers/afd75303d0795ae6.webp
 album_url: https://photos.app.goo.gl/LweUXVaGu9oKHrzY8
 ---
 

@@ -11,7 +11,7 @@ tags:
 - girona
 - barri
 cover:
-  image: images/covers/a948cd3da7d1397a.webp
+  image: /images/covers/a948cd3da7d1397a.webp
 album_url: https://photos.app.goo.gl/qCp0LrxjMn5lfMwM2
 ---
 

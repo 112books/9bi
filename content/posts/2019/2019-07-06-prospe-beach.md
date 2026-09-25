@@ -9,7 +9,7 @@ tags:
 - prospe
 - beach
 cover:
-  image: images/covers/57f2a18326a1d5cc.webp
+  image: /images/covers/57f2a18326a1d5cc.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

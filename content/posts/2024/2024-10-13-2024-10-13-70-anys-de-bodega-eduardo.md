@@ -11,7 +11,7 @@ tags:
 - prospe
 - quim
 cover:
-  image: images/covers/d38ba5db6f37a5af.webp
+  image: /images/covers/d38ba5db6f37a5af.webp
 album_url: https://photos.app.goo.gl/K7vpqs7Ptuc4TqBN6
 ---
 

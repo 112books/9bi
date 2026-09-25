@@ -8,7 +8,7 @@ tags:
 - date una huerta
 - huerta
 cover:
-  image: images/covers/a5832e5a1e04469a.webp
+  image: /images/covers/a5832e5a1e04469a.webp
 album_url: https://photos.app.goo.gl/cUyfZAyRdYyHwv4w5
 ---
 

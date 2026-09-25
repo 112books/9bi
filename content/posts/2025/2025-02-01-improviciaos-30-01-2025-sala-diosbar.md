@@ -8,7 +8,7 @@ tags:
 - Barcelona
 - art
 cover:
-  image: images/covers/d89e6560f48d54ad.webp
+  image: /images/covers/d89e6560f48d54ad.webp
 album_url: https://photos.app.goo.gl/hbm9kwfeDt9G37ZPA
 ---
 

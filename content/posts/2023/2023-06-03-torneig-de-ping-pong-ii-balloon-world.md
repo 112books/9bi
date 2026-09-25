@@ -11,7 +11,7 @@ tags:
 - Salsa
 - ball
 cover:
-  image: images/covers/c3a1d9d2577abc68.webp
+  image: /images/covers/c3a1d9d2577abc68.webp
 album_url: https://photos.app.goo.gl/vXaY6L447NxWh4FZ7
 ---
 

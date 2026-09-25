@@ -11,7 +11,7 @@ tags:
 - diumenge
 - prospe
 cover:
-  image: images/covers/8c737423c85cc95b.webp
+  image: /images/covers/8c737423c85cc95b.webp
 album_url: https://picasaweb.google.com/110015855395179205688/UNDIUMENGEPLEDACTIVITATSALBARRI?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - prospe
 - enllaç
 cover:
-  image: images/covers/2c0a6e3d7c0ed8ad.webp
+  image: /images/covers/2c0a6e3d7c0ed8ad.webp
 album_url: https://photos.app.goo.gl/tGEUV79ADRrfEbEy8
 ---
 

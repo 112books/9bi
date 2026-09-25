@@ -10,7 +10,7 @@ tags:
 - FESTA
 - STA
 cover:
-  image: images/covers/a3ef68d77b1719b7.webp
+  image: /images/covers/a3ef68d77b1719b7.webp
 album_url: https://picasaweb.google.com/115791131166530059320/SanXibeco14?authuser=0&feat=embedwebsite
 ---
 

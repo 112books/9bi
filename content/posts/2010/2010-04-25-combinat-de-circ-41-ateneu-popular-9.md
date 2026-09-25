@@ -9,7 +9,7 @@ tags:
 - combinat de circ
 - manel sala ulls
 cover:
-  image: images/covers/8c019e1774612d25.webp
+  image: /images/covers/8c019e1774612d25.webp
 album_url: http://picasaweb.google.es/ulls2006/CombinatDeCirc41AteneuPopular9Barris?feat=embedwebsite
 ---
 

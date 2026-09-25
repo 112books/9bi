@@ -7,7 +7,7 @@ slug: vermutsical-amb-el-grup-fuego-lento
 tags:
 - música
 cover:
-  image: images/covers/c332e336776b1da7.webp
+  image: /images/covers/c332e336776b1da7.webp
 album_url: https://photos.app.goo.gl/USc7esjcF8A2bz7K8
 ---
 

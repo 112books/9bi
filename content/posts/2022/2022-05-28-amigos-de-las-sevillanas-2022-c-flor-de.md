@@ -8,7 +8,7 @@ tags:
 - sevillanas
 - neu
 cover:
-  image: images/covers/fe3713995731fbee.webp
+  image: /images/covers/fe3713995731fbee.webp
 album_url: https://photos.app.goo.gl/LyUVvN3TLM2xhbzW7
 ---
 

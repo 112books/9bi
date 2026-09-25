@@ -8,7 +8,7 @@ tags:
 - activitats
 - fotografia
 cover:
-  image: images/covers/dbcf075d610fcad9.webp
+  image: /images/covers/dbcf075d610fcad9.webp
 album_url: https://photos.app.goo.gl/jtAvXpg6dTWJ1LHB6
 ---
 

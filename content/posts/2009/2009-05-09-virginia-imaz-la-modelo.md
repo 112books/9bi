@@ -13,7 +13,7 @@ tags:
 - payasa
 - virginia imaz
 cover:
-  image: images/covers/105cd4882b7b5b36.webp
+  image: /images/covers/105cd4882b7b5b36.webp
 album_url: http://picasaweb.google.es/ulls1963/VirginiaImazLaModeloClowntrapublicitariaAlmazenBarcelona?feat=embedwebsite
 ---
 

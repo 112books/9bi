@@ -8,7 +8,7 @@ tags:
 - 9barris imatge
 - manel sala ulls
 cover:
-  image: images/covers/0719bc708b729f12.webp
+  image: /images/covers/0719bc708b729f12.webp
 album_url: http://picasaweb.google.es/ulls1963/Prospeoasis?feat=embedwebsite
 ---
 

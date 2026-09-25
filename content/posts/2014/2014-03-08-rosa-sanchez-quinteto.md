@@ -7,7 +7,7 @@ slug: rosa-sanchez-quinteto
 tags:
 - música
 cover:
-  image: images/covers/97fd1ef3bd201841.webp
+  image: /images/covers/97fd1ef3bd201841.webp
 album_url: https://photos.app.goo.gl/rhhsvue2XFA8Y6An8
 ---
 

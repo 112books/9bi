@@ -12,7 +12,7 @@ tags:
 - soroll
 - Telefónica
 cover:
-  image: images/covers/37624858c79c6fda.webp
+  image: /images/covers/37624858c79c6fda.webp
 album_url: https://picasaweb.google.com/linuxbcn/ElsFumsDeTelefonicaAProsperitat?authuser=0&authkey=Gv1sRgCKTXi-Oe4ZS6tgE&feat=embedwebsite
 ---
 

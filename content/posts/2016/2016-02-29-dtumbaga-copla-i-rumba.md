@@ -11,7 +11,7 @@ tags:
 - can basté
 - 9 barris
 cover:
-  image: images/covers/e3c1af4a2841c4e6.webp
+  image: /images/covers/e3c1af4a2841c4e6.webp
 album_url: https://picasaweb.google.com/115791131166530059320/DTUMBAGACoplaIRumba?authuser=0&feat=embedwebsite
 ---
 

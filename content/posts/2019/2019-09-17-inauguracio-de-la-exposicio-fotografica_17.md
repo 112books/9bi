@@ -11,7 +11,7 @@ tags:
 - expo
 - nou barris
 cover:
-  image: images/covers/119df18daabc6f17.webp
+  image: /images/covers/119df18daabc6f17.webp
 album_url: https://photos.google.com/share/AF1QipOqcFp_shLh3QOzPHR8eZMNFXZ8kqX7aKSZzBOoygUtMzrAb-MGEaVzJeWTqD3wQQ?key=N3REYkx2TUVYdThHTjFRTU9YRkRzdm91b1hSWnl3
 ---
 

@@ -7,7 +7,7 @@ slug: bon-cop-de-truita-roquetes
 tags:
 - Centre Ton i Guida
 cover:
-  image: images/covers/7fdf4e3ac0612fb6.webp
+  image: /images/covers/7fdf4e3ac0612fb6.webp
 album_url: https://goo.gl/photos/hFXoyNrBTomogd6b8
 ---
 

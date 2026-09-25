@@ -11,7 +11,7 @@ tags:
 - tota blues
 - Barcelona
 cover:
-  image: images/covers/fa1f150637ab6eec.webp
+  image: /images/covers/fa1f150637ab6eec.webp
 album_url: https://picasaweb.google.com/115791131166530059320/20DeJulioDe2013?authuser=0&feat=embedwebsite
 ---
 

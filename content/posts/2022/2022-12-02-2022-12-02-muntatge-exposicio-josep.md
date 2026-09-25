@@ -12,7 +12,7 @@ tags:
 - Daniel Higiénico
 - casal de barri
 cover:
-  image: images/covers/00aa8bc0749c6c70.webp
+  image: /images/covers/00aa8bc0749c6c70.webp
 album_url: https://photos.app.goo.gl/adGZH2GtQZPgFn6r6
 ---
 

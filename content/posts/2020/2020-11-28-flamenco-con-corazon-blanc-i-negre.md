@@ -9,7 +9,7 @@ tags:
 - flamenc
 - fotos
 cover:
-  image: images/covers/c76c7a9926a2d042.webp
+  image: /images/covers/c76c7a9926a2d042.webp
 album_url: https://photos.app.goo.gl/YUfwf3DHMsfsseCF6
 ---
 

@@ -7,7 +7,7 @@ slug: festival-de-blues-de-barcelona
 tags:
 - barcelona blues
 cover:
-  image: images/covers/416b0bc7b09e4251.webp
+  image: /images/covers/416b0bc7b09e4251.webp
 album_url: http://picasaweb.google.com/Perdo.Garcia/FESTIVALDEBLUESDEBARCELONA?authkey=Gv1sRgCKzX5crRr-b89QE&amp;feat=embedwebsite
 ---
 

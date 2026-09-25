@@ -8,7 +8,7 @@ tags:
 - baix empordà
 - mar
 cover:
-  image: images/covers/943bdc70bb21f460.webp
+  image: /images/covers/943bdc70bb21f460.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

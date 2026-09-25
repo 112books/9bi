@@ -11,7 +11,7 @@ tags:
 - Batuprospe
 - Barcelona
 cover:
-  image: images/covers/3c43185a08cde81f.webp
+  image: /images/covers/3c43185a08cde81f.webp
 album_url: https://photos.app.goo.gl/ygoWTsrQLAQ6hrzeA
 ---
 

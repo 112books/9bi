@@ -7,7 +7,7 @@ slug: futbolsala-pares-ampa
 tags:
 - futbol
 cover:
-  image: images/covers/e1fc4f0168460bf1.webp
+  image: /images/covers/e1fc4f0168460bf1.webp
 album_url: https://picasaweb.google.com/115791131166530059320/7DeJunioDe201502?authuser=0&feat=embedwebsite
 ---
 

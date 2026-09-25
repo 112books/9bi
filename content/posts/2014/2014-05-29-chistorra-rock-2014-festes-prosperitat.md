@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - prospe
 cover:
-  image: images/covers/b1973e4439a3f209.webp
+  image: /images/covers/b1973e4439a3f209.webp
 album_url: https://picasaweb.google.com/100268695753733554853/ChistorraRock2014FestesProsperitat?authuser=0&amp;feat=embedwebsite
 ---
 

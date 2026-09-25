@@ -7,7 +7,7 @@ slug: trobada-de-puntaires
 tags:
 - trobada
 cover:
-  image: images/covers/2f59975cef9f7843.webp
+  image: /images/covers/2f59975cef9f7843.webp
 album_url: https://photos.app.goo.gl/LS4f7Q4iaj62BbBN7
 ---
 

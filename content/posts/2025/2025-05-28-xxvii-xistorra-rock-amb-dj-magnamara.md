@@ -11,7 +11,7 @@ tags:
 - inmortales
 - Motorhits
 cover:
-  image: images/covers/db9642f3e68f6f17.webp
+  image: /images/covers/db9642f3e68f6f17.webp
 album_url: https://photos.app.goo.gl/VRdbNnbPHEMXfdCc7
 ---
 

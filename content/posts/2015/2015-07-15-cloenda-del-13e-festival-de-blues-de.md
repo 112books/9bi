@@ -11,7 +11,7 @@ tags:
 - blues
 - BLUE
 cover:
-  image: images/covers/f38e1d423fa277b0.webp
+  image: /images/covers/f38e1d423fa277b0.webp
 album_url: https://picasaweb.google.com/103138221614479310970/CloendaDel13eFestivalDeBluesDeBarcelonaATorreBaro?authuser=0&feat=embedwebsite
 ---
 

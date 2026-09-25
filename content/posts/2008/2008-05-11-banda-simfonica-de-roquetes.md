@@ -11,7 +11,7 @@ tags:
 - barri
 - CASAL
 cover:
-  image: images/covers/5896ed0d6258fbf5.webp
+  image: /images/covers/5896ed0d6258fbf5.webp
 album_url: http://picasaweb.google.com/pedro.cervera/BandaSimfonicaDeRoquetes/photo#5199132967948869362
 ---
 

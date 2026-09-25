@@ -11,7 +11,7 @@ tags:
 - formació
 - 9barris
 cover:
-  image: images/covers/e72ee0af6f333fe1.webp
+  image: /images/covers/e72ee0af6f333fe1.webp
 album_url: https://photos.app.goo.gl/b7XZt9pXWT2fMZNG7
 ---
 

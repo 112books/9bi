@@ -8,7 +8,7 @@ tags:
 - carnaval
 - carnestoltes
 cover:
-  image: images/covers/0fd1c887ffcdbb83.webp
+  image: /images/covers/0fd1c887ffcdbb83.webp
 album_url: https://picasaweb.google.com/103138221614479310970/CercavilaIPregoDeCarnestoltes?authuser=0&authkey=Gv1sRgCPnf69zwju_N8QE&feat=embedwebsite
 ---
 

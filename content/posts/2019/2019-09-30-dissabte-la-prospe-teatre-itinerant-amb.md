@@ -12,7 +12,7 @@ tags:
 - rock
 - 35mm
 cover:
-  image: images/covers/9f56bfc0346fa867.webp
+  image: /images/covers/9f56bfc0346fa867.webp
 album_url: https://photos.app.goo.gl/mHe6hVMZcrpzfULg9
 ---
 

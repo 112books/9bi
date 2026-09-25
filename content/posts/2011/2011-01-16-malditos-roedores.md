@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - malditos roedores
 cover:
-  image: images/covers/20ed085b5ca025d3.webp
+  image: /images/covers/20ed085b5ca025d3.webp
 album_url: http://picasaweb.google.com/linuxbcn/MalditosRoedores?feat=embedwebsite
 ---
 

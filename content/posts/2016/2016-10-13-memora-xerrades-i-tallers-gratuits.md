@@ -11,7 +11,7 @@ tags:
 - HOSPITAL
 - concert
 cover:
-  image: images/covers/833625352360a0c6.webp
+  image: /images/covers/833625352360a0c6.webp
 album_url: https://goo.gl/photos/Hi9cXQm3vcJw1ZUb8
 ---
 

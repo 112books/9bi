@@ -8,7 +8,7 @@ tags:
 - tetes
 - STA
 cover:
-  image: images/covers/8d32aa921d407ae7.webp
+  image: /images/covers/8d32aa921d407ae7.webp
 album_url: https://picasaweb.google.com/102149297277529522464/FESTETESALASPLACASWUALKERIPESTANA?authuser=0&feat=embedwebsite
 ---
 

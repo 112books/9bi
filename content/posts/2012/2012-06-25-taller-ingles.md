@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - fotografies
 cover:
-  image: images/covers/4a65b122f7bb2433.webp
+  image: /images/covers/4a65b122f7bb2433.webp
 album_url: https://picasaweb.google.com/115791131166530059320/25DeJunioDe201204?authuser=0&feat=embedwebsite
 ---
 

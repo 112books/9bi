@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - prospe
 cover:
-  image: images/covers/f5e9b6ef483fd290.webp
+  image: /images/covers/f5e9b6ef483fd290.webp
 album_url: https://photos.app.goo.gl/BhS5kXyUtCeyStRQ7
 ---
 

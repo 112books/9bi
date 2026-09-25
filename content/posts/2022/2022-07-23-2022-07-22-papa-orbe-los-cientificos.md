@@ -8,7 +8,7 @@ tags:
 - jazz
 - veu
 cover:
-  image: images/covers/5436c703b2433e6e.webp
+  image: /images/covers/5436c703b2433e6e.webp
 album_url: https://photos.app.goo.gl/LNK6Ei8SGXUbsgrb7
 ---
 

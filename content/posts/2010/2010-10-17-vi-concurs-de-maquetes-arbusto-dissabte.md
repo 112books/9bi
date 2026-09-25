@@ -16,7 +16,7 @@ tags:
 - No Soma
 - Thy Omen
 cover:
-  image: images/covers/1509bea5ead4ddb8.webp
+  image: /images/covers/1509bea5ead4ddb8.webp
 album_url: https://photos.app.goo.gl/LXM2a6nDm1a361RH7
 ---
 

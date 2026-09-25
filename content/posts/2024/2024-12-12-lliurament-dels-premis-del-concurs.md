@@ -11,7 +11,7 @@ tags:
 - barri de Prosperitat
 - Concurs Fotogràfic
 cover:
-  image: images/covers/92e48381849359b0.webp
+  image: /images/covers/92e48381849359b0.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

@@ -10,7 +10,7 @@ tags:
 - fotos
 - barri
 cover:
-  image: images/covers/0d298bf60299f21a.webp
+  image: /images/covers/0d298bf60299f21a.webp
 album_url: https://photos.app.goo.gl/qoMn7tfBtVLaBgWKA
 ---
 

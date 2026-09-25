@@ -9,7 +9,7 @@ tags:
 - ideal plàstica flor
 - reunió
 cover:
-  image: images/covers/93bf8d1628cdedda.webp
+  image: /images/covers/93bf8d1628cdedda.webp
 album_url: https://photos.google.com/share/AF1QipODCaFRMwLyCYu0yjctFT1bXUuqtYA_7E6SQ-eyTthPmwXYExb4D1IVPg88G5yVPQ?key=d3F0bmJrN2xlV1JNWkJKOTdMbER0MjVOdzBIWlBR
 ---
 

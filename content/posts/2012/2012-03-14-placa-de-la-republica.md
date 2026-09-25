@@ -10,7 +10,7 @@ tags:
 - nou barris
 - plaça de la República
 cover:
-  image: images/covers/6f5f83f0d6712a9c.webp
+  image: /images/covers/6f5f83f0d6712a9c.webp
 ---
 
 També coneguda com a Plaça Llucmajor ;)

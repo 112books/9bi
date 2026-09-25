@@ -9,7 +9,7 @@ tags:
 - música
 - art
 cover:
-  image: images/covers/0f66f4b0f619bc03.webp
+  image: /images/covers/0f66f4b0f619bc03.webp
 album_url: https://picasaweb.google.com/lh/sredir?uname=115791131166530059320&target=ALBUM&id=5853703712049919473&feat=embedwebsite
 ---
 

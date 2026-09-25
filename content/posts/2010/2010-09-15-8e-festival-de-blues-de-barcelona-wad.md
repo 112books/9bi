@@ -14,7 +14,7 @@ tags:
 - Víctor Puertas
 - wad-ras
 cover:
-  image: images/covers/f4b9c7ac751848c9.webp
+  image: /images/covers/f4b9c7ac751848c9.webp
 album_url: https://photos.app.goo.gl/VJB6LuNHWdWnqyGC6
 ---
 

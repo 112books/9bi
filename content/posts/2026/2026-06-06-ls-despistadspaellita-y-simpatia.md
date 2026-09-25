@@ -7,7 +7,7 @@ slug: ls-despistadspaellita-y-simpatia
 tags:
 - STA
 cover:
-  image: images/covers/8cf178c610baa9fd.webp
+  image: /images/covers/8cf178c610baa9fd.webp
 album_url: https://photos.app.goo.gl/AQAjGMMvs2KfDvWW7
 ---
 

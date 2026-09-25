@@ -11,7 +11,7 @@ tags:
 - casa
 - avis
 cover:
-  image: images/covers/48e1ac4a95b3a9fc.webp
+  image: /images/covers/48e1ac4a95b3a9fc.webp
 album_url: https://picasaweb.google.com/110015855395179205688/CinemaAlTIG?authuser=0&feat=embedwebsite
 ---
 

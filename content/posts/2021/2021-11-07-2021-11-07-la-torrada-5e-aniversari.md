@@ -7,7 +7,7 @@ slug: 2021-11-07-la-torrada-5e-aniversari
 tags:
 - la torrada
 cover:
-  image: images/covers/2ce259a1159b5ef7.webp
+  image: /images/covers/2ce259a1159b5ef7.webp
 album_url: https://photos.app.goo.gl/C4g3hXfsf9MYHt5k6
 ---
 

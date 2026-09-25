@@ -16,7 +16,7 @@ tags:
 - Josep Antón Cordoncillo
 - pocallum
 cover:
-  image: images/covers/5ee74e7f156c505f.webp
+  image: /images/covers/5ee74e7f156c505f.webp
 album_url: https://photos.app.goo.gl/CK8foCZ9aQ2nT8dCA
 ---
 

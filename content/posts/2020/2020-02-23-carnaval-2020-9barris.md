@@ -11,7 +11,7 @@ tags:
 - carnaval 2020
 - rua carnaval via julia
 cover:
-  image: images/covers/b76faecb62a88dd4.webp
+  image: /images/covers/b76faecb62a88dd4.webp
 album_url: https://photos.google.com/share/AF1QipO2TlGk9Yw5DgtIG5MXFDcjeBVToxB4SZh3qCigdYhU8p_UHbFjZKKOIObLGLXQBw?key=RVJKWHBNQ3MzUHliUXJqSFBSVTZjaVhvOTEta01B
 ---
 

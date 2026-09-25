@@ -11,7 +11,7 @@ tags:
 - 9barris
 - fiesta
 cover:
-  image: images/covers/df67f8e2bfc49dbb.webp
+  image: /images/covers/df67f8e2bfc49dbb.webp
 album_url: https://photos.app.goo.gl/jJVE7SXdc6nV7uWk6
 ---
 

@@ -14,7 +14,7 @@ tags:
 - milduros
 - Prospe Oasis
 cover:
-  image: images/covers/ed38bb1d0fe724d8.webp
+  image: /images/covers/ed38bb1d0fe724d8.webp
 album_url: https://photos.app.goo.gl/bF18EfSEQCmQqak69
 ---
 

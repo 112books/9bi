@@ -8,7 +8,7 @@ tags:
 - chistorra rock
 - festes de prospe. chistorra rock
 cover:
-  image: images/covers/61db3dfa6d744ce9.webp
+  image: /images/covers/61db3dfa6d744ce9.webp
 album_url: https://photos.app.goo.gl/EY7e4MfAnagZa3KQ8
 ---
 

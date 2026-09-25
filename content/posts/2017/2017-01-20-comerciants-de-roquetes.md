@@ -8,7 +8,7 @@ tags:
 - Centre Ton i Guida
 - grup foto roquetes
 cover:
-  image: images/covers/b510bb5de9990461.webp
+  image: /images/covers/b510bb5de9990461.webp
 album_url: https://goo.gl/photos/MuWgzzK2NCezjKUT7
 ---
 

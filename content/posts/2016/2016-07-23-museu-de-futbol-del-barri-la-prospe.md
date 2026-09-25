@@ -11,7 +11,7 @@ tags:
 - prospe
 - futbol
 cover:
-  image: images/covers/c2e2b23eeebb3471.webp
+  image: /images/covers/c2e2b23eeebb3471.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6310547298053308945?authuser=0&feat=embedwebsite
 ---
 

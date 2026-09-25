@@ -12,7 +12,7 @@ tags:
 - lomography
 - pinhole
 cover:
-  image: images/covers/9a6c5f945cc4f3bb.webp
+  image: /images/covers/9a6c5f945cc4f3bb.webp
 album_url: http://9banalogic.posterous.com/
 ---
 

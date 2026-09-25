@@ -11,7 +11,7 @@ tags:
 - blues
 - BLUE
 cover:
-  image: images/covers/4808b467ed6eb505.webp
+  image: /images/covers/4808b467ed6eb505.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

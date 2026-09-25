@@ -12,7 +12,7 @@ tags:
 - Irma Rognoni
 - regesa
 cover:
-  image: images/covers/6ee6963faf8a8e55.webp
+  image: /images/covers/6ee6963faf8a8e55.webp
 album_url: https://picasaweb.google.com/114858497713897843587/NouBarrisCabrejadaDenunciaLEscandolDeLaVendaDHabitatgePublic?authuser=0&feat=embedwebsite
 ---
 

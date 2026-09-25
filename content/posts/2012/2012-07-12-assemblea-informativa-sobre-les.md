@@ -12,7 +12,7 @@ tags:
 - participacions preferents
 - preferents
 cover:
-  image: images/covers/529177a7dcf1bb4a.webp
+  image: /images/covers/529177a7dcf1bb4a.webp
 album_url: https://picasaweb.google.com/103138221614479310970/AssembleaInformativaSobreLesParticipacionsPreferents?authuser=0&feat=embedwebsite
 ---
 

@@ -10,7 +10,7 @@ tags:
 - CASAL
 - casa
 cover:
-  image: images/covers/aeed784ddf1214c6.webp
+  image: /images/covers/aeed784ddf1214c6.webp
 album_url: https://picasaweb.google.com/linuxbcn/ElCasalEsMostra2011?feat=embedwebsite
 ---
 

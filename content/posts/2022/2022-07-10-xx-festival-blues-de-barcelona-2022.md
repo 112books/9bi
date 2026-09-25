@@ -11,7 +11,7 @@ tags:
 - blues
 - ruta
 cover:
-  image: images/covers/daade25da5137a8a.webp
+  image: /images/covers/daade25da5137a8a.webp
 album_url: https://photos.app.goo.gl/Ttpx6Xsyu9ibnDXn6
 ---
 

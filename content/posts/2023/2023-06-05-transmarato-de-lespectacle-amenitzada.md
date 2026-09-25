@@ -10,7 +10,7 @@ tags:
 - circ
 - mar
 cover:
-  image: images/covers/b9b31feab0fafe69.webp
+  image: /images/covers/b9b31feab0fafe69.webp
 album_url: https://photos.app.goo.gl/yFjLp2gaREGqxYt89
 ---
 

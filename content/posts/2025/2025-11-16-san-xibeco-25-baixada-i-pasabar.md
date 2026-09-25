@@ -11,7 +11,7 @@ tags:
 - san xibeco
 - prospe
 cover:
-  image: images/covers/4343ab4cb7f4511e.webp
+  image: /images/covers/4343ab4cb7f4511e.webp
 album_url: https://photos.app.goo.gl/1nwi5a3EBFjNqdzj7
 ---
 

@@ -8,7 +8,7 @@ tags:
 - La prospe amb Haití
 - manel sala ulls
 cover:
-  image: images/covers/b3eea79c2201b38c.webp
+  image: /images/covers/b3eea79c2201b38c.webp
 album_url: https://picasaweb.google.com/ulls2006/LaProspeAmbHaiti?feat=embedwebsite
 ---
 

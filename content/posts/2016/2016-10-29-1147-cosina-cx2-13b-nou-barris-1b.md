@@ -10,7 +10,7 @@ tags:
 - 9barris
 - barri
 cover:
-  image: images/covers/9120bbd241b0934b.webp
+  image: /images/covers/9120bbd241b0934b.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

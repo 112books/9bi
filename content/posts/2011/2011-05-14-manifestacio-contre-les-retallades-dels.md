@@ -10,7 +10,7 @@ tags:
 - manfestació
 - tetallades
 cover:
-  image: images/covers/6c2e8e5ae6ef90a6.webp
+  image: /images/covers/6c2e8e5ae6ef90a6.webp
 album_url: https://picasaweb.google.com/linuxbcn/ManifestacioContreLesRetalladesDelsServeisPublics140511?authkey=Gv1sRgCNG4_6yP0bTSMQ&feat=embedwebsite
 ---
 

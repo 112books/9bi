@@ -10,7 +10,7 @@ tags:
 - sanitat publica
 - urgencies
 cover:
-  image: images/covers/e461188a18d26dc4.webp
+  image: /images/covers/e461188a18d26dc4.webp
 album_url: https://picasaweb.google.com/pedro.cervera/NOALTANCAMENTURGENCIESCAPGUINEUETA?authuser=0&feat=embedwebsite
 ---
 

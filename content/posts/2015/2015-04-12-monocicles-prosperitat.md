@@ -8,7 +8,7 @@ tags:
 - Prosperitat
 - prospe
 cover:
-  image: images/covers/c28d3d98d4635a82.webp
+  image: /images/covers/c28d3d98d4635a82.webp
 album_url: https://picasaweb.google.com/103138221614479310970/MonociclesAProsperitat?authuser=0&feat=embedwebsite
 ---
 

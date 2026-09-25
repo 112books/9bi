@@ -7,7 +7,7 @@ slug: pasacalles-festa-major-prosperitat
 tags:
 - Pasacalles Festa Major Prosperitat
 cover:
-  image: images/covers/ca0032b1bf9241ad.webp
+  image: /images/covers/ca0032b1bf9241ad.webp
 album_url: https://picasaweb.google.com/nico9barrisimarge/PasacallesFestaMajoProsperitat?feat=embedwebsite
 ---
 

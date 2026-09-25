@@ -11,7 +11,7 @@ tags:
 - cultura
 - música
 cover:
-  image: images/covers/ebf6ea1d6ac2c513.webp
+  image: /images/covers/ebf6ea1d6ac2c513.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6306170669762262881?authuser=0&feat=embedwebsite
 ---
 

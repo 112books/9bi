@@ -11,7 +11,7 @@ tags:
 - barri
 - gent
 cover:
-  image: images/covers/fa0c2d3e5c9392a8.webp
+  image: /images/covers/fa0c2d3e5c9392a8.webp
 album_url: https://picasaweb.google.com/110015855395179205688/CadenaHumanaAlVallDHebronPerUnaSanitat100x100Publica?authuser=0&feat=embedwebsite
 ---
 

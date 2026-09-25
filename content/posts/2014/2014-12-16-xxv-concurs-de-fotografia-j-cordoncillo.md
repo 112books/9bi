@@ -11,7 +11,7 @@ tags:
 - concurs
 - fotos
 cover:
-  image: images/covers/b399c7b0ed7c59a7.webp
+  image: /images/covers/b399c7b0ed7c59a7.webp
 album_url: https://picasaweb.google.com/110015855395179205688/XVConcursFotograficJACordoncillo?authuser=0&feat=embedwebsite
 ---
 

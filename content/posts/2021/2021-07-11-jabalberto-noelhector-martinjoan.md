@@ -8,7 +8,7 @@ tags:
 - art
 - mar
 cover:
-  image: images/covers/ee7467366d8cd689.webp
+  image: /images/covers/ee7467366d8cd689.webp
 album_url: https://photos.app.goo.gl/saA18Gd69T2n62Fs7
 ---
 

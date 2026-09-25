@@ -8,7 +8,7 @@ tags:
 - nou barris
 - República
 cover:
-  image: images/covers/8496db58bd6b9d88.webp
+  image: /images/covers/8496db58bd6b9d88.webp
 album_url: https://picasaweb.google.com/114858497713897843587/DiaDeLaRepublica2013?authuser=0&feat=embedwebsite
 ---
 

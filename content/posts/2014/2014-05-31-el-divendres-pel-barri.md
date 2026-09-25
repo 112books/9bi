@@ -8,7 +8,7 @@ tags:
 - barri
 - ball
 cover:
-  image: images/covers/6ee0aec63cf32862.webp
+  image: /images/covers/6ee0aec63cf32862.webp
 album_url: https://picasaweb.google.com/102149297277529522464/EscoltemHabanerasMengemEcologicIBallemUnaMiqueta?authuser=0&feat=embedwebsite
 ---
 

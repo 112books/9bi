@@ -12,7 +12,7 @@ tags:
 - parc central
 - nou barris
 cover:
-  image: images/covers/162d9317689ba005.webp
+  image: /images/covers/162d9317689ba005.webp
 album_url: https://goo.gl/photos/Xy5mC4Ms7RQRtLe2A
 ---
 

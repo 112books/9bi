@@ -9,7 +9,7 @@ tags:
 - República
 - barri
 cover:
-  image: images/covers/cf87d4428605d0c6.webp
+  image: /images/covers/cf87d4428605d0c6.webp
 album_url: https://picasaweb.google.com/100268695753733554853/DiaDeLaRepublicaNouBarris?authuser=0&amp;feat=embedwebsite
 ---
 

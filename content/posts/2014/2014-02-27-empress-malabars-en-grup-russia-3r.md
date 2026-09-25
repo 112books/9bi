@@ -9,7 +9,7 @@ tags:
 - circ
 - ciu
 cover:
-  image: images/covers/8900f1e359e2ca81.webp
+  image: /images/covers/8900f1e359e2ca81.webp
 album_url: https://picasaweb.google.com/100268695753733554853/EmpressMalabarsEnGrupRussia3rFestivalInternacionalDelCircCiutatDeFigueres2014?authuser=0&amp;feat=embedwebsite
 ---
 

@@ -10,7 +10,7 @@ tags:
 - música
 - the suitcase brothers
 cover:
-  image: images/covers/c0ecdead0fad033d.webp
+  image: /images/covers/c0ecdead0fad033d.webp
 album_url: https://photos.app.goo.gl/RWfxXrtumNTQbUck7
 ---
 

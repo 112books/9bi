@@ -10,7 +10,7 @@ tags:
 - prospe
 - casa
 cover:
-  image: images/covers/b0a8ea6317f534af.webp
+  image: /images/covers/b0a8ea6317f534af.webp
 album_url: https://photos.app.goo.gl/wR7CnvGX1179TpDQ7
 ---
 

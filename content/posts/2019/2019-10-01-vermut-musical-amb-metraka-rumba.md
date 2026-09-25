@@ -10,7 +10,7 @@ tags:
 - música
 - rumba
 cover:
-  image: images/covers/ad6024c2ebc97243.webp
+  image: /images/covers/ad6024c2ebc97243.webp
 album_url: https://photos.app.goo.gl/FJd5XSwd2n4nt9kh7
 ---
 

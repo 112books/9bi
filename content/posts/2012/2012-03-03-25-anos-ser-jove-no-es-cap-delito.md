@@ -7,7 +7,7 @@ slug: 25-anos-ser-jove-no-es-cap-delito
 tags:
 - fotografia
 cover:
-  image: images/covers/729db15ddbfe0704.webp
+  image: /images/covers/729db15ddbfe0704.webp
 album_url: https://picasaweb.google.com/Perdo.Garcia/25Anos?authuser=0&feat=embedwebsite
 ---
 

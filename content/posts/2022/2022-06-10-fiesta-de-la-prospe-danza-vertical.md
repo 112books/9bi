@@ -10,7 +10,7 @@ tags:
 - danza
 - STA
 cover:
-  image: images/covers/31830e36214c0315.webp
+  image: /images/covers/31830e36214c0315.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

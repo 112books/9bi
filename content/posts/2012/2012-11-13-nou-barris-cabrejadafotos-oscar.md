@@ -11,7 +11,7 @@ tags:
 - manifest
 - vídeo
 cover:
-  image: images/covers/7e34df6f9b902e5e.webp
+  image: /images/covers/7e34df6f9b902e5e.webp
 album_url: https://picasaweb.google.com/115791131166530059320/13DeNoviembreDe2012?authuser=0&feat=embedwebsite
 ---
 

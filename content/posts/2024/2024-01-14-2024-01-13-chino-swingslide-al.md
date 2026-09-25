@@ -11,7 +11,7 @@ tags:
 - música
 - prospe
 cover:
-  image: images/covers/6b461573ee5df270.webp
+  image: /images/covers/6b461573ee5df270.webp
 album_url: https://photos.app.goo.gl/HdzzmEoPgm6z2pLW7
 ---
 

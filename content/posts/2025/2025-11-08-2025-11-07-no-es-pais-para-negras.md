@@ -15,7 +15,7 @@ tags:
 - Sílvia Albert
 - teatre
 cover:
-  image: images/covers/79bc657129fe875d.webp
+  image: /images/covers/79bc657129fe875d.webp
 album_url: https://photos.app.goo.gl/wr6Q3wKmRAFYKM5b8
 ---
 

@@ -7,7 +7,7 @@ slug: acte-solidari-pallapupes-i-espectacle
 tags:
 - solidaritat
 cover:
-  image: images/covers/032f6c33071b7954.webp
+  image: /images/covers/032f6c33071b7954.webp
 ---
 
 

@@ -7,7 +7,7 @@ slug: 2023-05-26-feta-major-de-prosperitat
 tags:
 - festa major prospe 2023
 cover:
-  image: images/covers/fcfc0cdfced34a8a.webp
+  image: /images/covers/fcfc0cdfced34a8a.webp
 album_url: https://photos.app.goo.gl/gjbC9JGEdCb2imUaA
 ---
 

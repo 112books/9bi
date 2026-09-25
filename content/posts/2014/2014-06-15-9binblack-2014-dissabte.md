@@ -9,7 +9,7 @@ tags:
 - dissabte
 - 9bi
 cover:
-  image: images/covers/aaefc1defe1b91a6.webp
+  image: /images/covers/aaefc1defe1b91a6.webp
 album_url: https://picasaweb.google.com/103138221614479310970/9BinBlack2014Dissabte?authuser=0&feat=embedwebsite
 ---
 

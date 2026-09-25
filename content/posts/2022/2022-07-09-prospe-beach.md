@@ -9,7 +9,7 @@ tags:
 - prospe
 - beach
 cover:
-  image: images/covers/8950d4b1a5b1c47f.webp
+  image: /images/covers/8950d4b1a5b1c47f.webp
 album_url: https://photos.app.goo.gl/eLuMrgYZVPAsw5Wn6
 ---
 

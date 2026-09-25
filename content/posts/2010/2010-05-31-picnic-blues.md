@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - picnic i blues
 cover:
-  image: images/covers/658843752429b52a.webp
+  image: /images/covers/658843752429b52a.webp
 album_url: https://photos.app.goo.gl/TJB2zBFvRotjCrwK8
 ---
 

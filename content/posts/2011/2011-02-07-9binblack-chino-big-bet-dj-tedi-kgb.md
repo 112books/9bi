@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - The Big Bet
 cover:
-  image: images/covers/51fcd4d83d754396.webp
+  image: /images/covers/51fcd4d83d754396.webp
 album_url: https://picasaweb.google.com/linuxbcn/9binblackChinoTheBigBet?feat=embedwebsite
 ---
 

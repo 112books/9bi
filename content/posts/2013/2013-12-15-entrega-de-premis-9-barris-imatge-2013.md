@@ -8,7 +8,7 @@ tags:
 - 9 barris imatge
 - premis
 cover:
-  image: images/covers/728d711ed16b8404.webp
+  image: /images/covers/728d711ed16b8404.webp
 album_url: https://picasaweb.google.com/103138221614479310970/EntregaDePremis9BarrisImatge2013?authuser=0&feat=embedwebsite
 ---
 

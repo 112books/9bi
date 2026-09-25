@@ -11,7 +11,7 @@ tags:
 - preparació
 - exposició
 cover:
-  image: images/covers/c0c22435d41d2365.webp
+  image: /images/covers/c0c22435d41d2365.webp
 album_url: https://photos.app.goo.gl/UdiS5Eo2Tczhf3VWA
 ---
 

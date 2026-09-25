@@ -9,7 +9,7 @@ tags:
 - huelga general
 - trabajo
 cover:
-  image: images/covers/fba752fe41d459e1.webp
+  image: /images/covers/fba752fe41d459e1.webp
 album_url: http://picasaweb.google.com/Perdo.Garcia/UltimaImportacion02?feat=embedwebsite
 ---
 

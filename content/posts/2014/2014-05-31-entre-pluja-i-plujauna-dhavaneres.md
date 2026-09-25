@@ -11,7 +11,7 @@ tags:
 - neu
 - mar
 cover:
-  image: images/covers/12f3fe81fb086a5e.webp
+  image: /images/covers/12f3fe81fb086a5e.webp
 album_url: https://picasaweb.google.com/110015855395179205688/HAVANERESENFLORDENEU?authuser=0&feat=embedwebsite
 ---
 

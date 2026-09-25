@@ -14,7 +14,7 @@ tags:
 - fotografia
 - FOTOGRAFIA DIGITAL
 cover:
-  image: images/covers/cbd9410e5e977cbf.webp
+  image: /images/covers/cbd9410e5e977cbf.webp
 album_url: https://picasaweb.google.com/115791131166530059320/18DeMarzoDe2013?authuser=0&feat=embedwebsite
 ---
 

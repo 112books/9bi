@@ -8,7 +8,7 @@ tags:
 - havaneres
 - prospe
 cover:
-  image: images/covers/6fe108c4e9e3d6e8.webp
+  image: /images/covers/6fe108c4e9e3d6e8.webp
 album_url: https://picasaweb.google.com/Perdo.Garcia/Havaneres?feat=embedwebsitee
 ---
 

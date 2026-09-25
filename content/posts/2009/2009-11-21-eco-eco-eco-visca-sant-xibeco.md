@@ -13,7 +13,7 @@ tags:
 - san xibeco
 - sant xibeco
 cover:
-  image: images/covers/4365253d15d8f315.webp
+  image: /images/covers/4365253d15d8f315.webp
 album_url: https://photos.app.goo.gl/nVGzp3iUkPHhtTxG9
 ---
 

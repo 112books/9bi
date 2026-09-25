@@ -9,7 +9,7 @@ tags:
 - festival de sopes del món
 - preparació
 cover:
-  image: images/covers/cee52ff1dcf25cb8.webp
+  image: /images/covers/cee52ff1dcf25cb8.webp
 album_url: https://picasaweb.google.com/103138221614479310970/PreparacioFestivalDeSopesDelMon2013?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - CENTENARI
 - prospe
 cover:
-  image: images/covers/ff93818f73605382.webp
+  image: /images/covers/ff93818f73605382.webp
 album_url: https://photos.app.goo.gl/SCema3uDmxqnjVv57
 ---
 

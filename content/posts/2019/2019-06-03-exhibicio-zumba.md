@@ -8,7 +8,7 @@ tags:
 - prospe
 - Zumba
 cover:
-  image: images/covers/1827834b7085306b.webp
+  image: /images/covers/1827834b7085306b.webp
 album_url: https://photos.app.goo.gl/pm5DoUfFJZrNzPXx8
 ---
 

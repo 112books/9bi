@@ -11,7 +11,7 @@ tags:
 - exposició
 - festival sopes
 cover:
-  image: images/covers/1f84e72f47167a85.webp
+  image: /images/covers/1f84e72f47167a85.webp
 album_url: https://picasaweb.google.com/103138221614479310970/DiaDInauguracioDExposicionsA9Barris?authuser=0&feat=embedwebsite
 ---
 

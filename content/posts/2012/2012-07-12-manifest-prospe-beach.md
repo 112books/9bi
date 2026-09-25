@@ -11,7 +11,7 @@ tags:
 - participació
 - Prosperitat
 cover:
-  image: images/covers/e7e09baf233ccbb6.webp
+  image: /images/covers/e7e09baf233ccbb6.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

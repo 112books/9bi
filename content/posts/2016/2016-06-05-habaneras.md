@@ -8,7 +8,7 @@ tags:
 - habaneres
 - música
 cover:
-  image: images/covers/46057645389664dd.webp
+  image: /images/covers/46057645389664dd.webp
 album_url: https://picasaweb.google.com/115791131166530059320/6292671358981621265?authuser=0&feat=embedwebsite
 ---
 

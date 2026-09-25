@@ -9,7 +9,7 @@ tags:
 - quim
 - vermut sical
 cover:
-  image: images/covers/c5d1ff7fede9bb16.webp
+  image: /images/covers/c5d1ff7fede9bb16.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutsicalJamSessionFestival?authuser=0&feat=embedwebsite
 ---
 

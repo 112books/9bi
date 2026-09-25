@@ -8,7 +8,7 @@ tags:
 - crisis
 - diari
 cover:
-  image: images/covers/0e96cd267e219b6f.webp
+  image: /images/covers/0e96cd267e219b6f.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

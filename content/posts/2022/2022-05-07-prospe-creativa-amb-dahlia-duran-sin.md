@@ -9,7 +9,7 @@ tags:
 - Sin Frenos
 - prospe
 cover:
-  image: images/covers/a61136d2358d0f20.webp
+  image: /images/covers/a61136d2358d0f20.webp
 album_url: https://photos.app.goo.gl/g56W4G4Gfc8jFmhWA
 ---
 

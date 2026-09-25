@@ -11,7 +11,7 @@ tags:
 - 9 barris
 - prospe
 cover:
-  image: images/covers/32a42a0413041d4a.webp
+  image: /images/covers/32a42a0413041d4a.webp
 album_url: https://picasaweb.google.com/100268695753733554853/6305629511442106289?authuser=0&amp;feat=embedwebsite
 ---
 

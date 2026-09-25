@@ -9,7 +9,7 @@ tags:
 - habaneres
 - prospe
 cover:
-  image: images/covers/4bfd45543763245e.webp
+  image: /images/covers/4bfd45543763245e.webp
 album_url: https://picasaweb.google.com/115791131166530059320/Habaneras?authuser=0&feat=embedwebsite
 ---
 

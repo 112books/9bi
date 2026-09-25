@@ -11,7 +11,7 @@ tags:
 - 9barris
 - concurs
 cover:
-  image: images/covers/2ed65f0a552f9746.webp
+  image: /images/covers/2ed65f0a552f9746.webp
 album_url: https://photos.app.goo.gl/TTHYhjEujUIESivJ3
 ---
 

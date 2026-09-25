@@ -10,7 +10,7 @@ tags:
 - la caixa
 - veïns
 cover:
-  image: images/covers/d842fe2d672f51cc.webp
+  image: /images/covers/d842fe2d672f51cc.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VeinsContraLEstafaDeLesPreferentsDeLaCaixa?authuser=0&feat=embedwebsite
 ---
 

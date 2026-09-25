@@ -11,7 +11,7 @@ tags:
 - barri
 - neu
 cover:
-  image: images/covers/3d70418a02b52b6d.webp
+  image: /images/covers/3d70418a02b52b6d.webp
 album_url: https://goo.gl/photos/GVd2TtnfX1g47cRBA
 ---
 

@@ -11,7 +11,7 @@ tags:
 - veïns
 - arte
 cover:
-  image: images/covers/06ec7ac00124733d.webp
+  image: /images/covers/06ec7ac00124733d.webp
 album_url: https://photos.app.goo.gl/YqpaCDKybwX9zB043
 ---
 

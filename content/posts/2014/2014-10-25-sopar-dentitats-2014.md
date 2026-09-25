@@ -8,7 +8,7 @@ tags:
 - sopar d'entitats
 - entitats
 cover:
-  image: images/covers/2a1ec5cdda92f060.webp
+  image: /images/covers/2a1ec5cdda92f060.webp
 album_url: https://picasaweb.google.com/103138221614479310970/SoparDEntitats2014?authuser=0&feat=embedwebsite
 ---
 

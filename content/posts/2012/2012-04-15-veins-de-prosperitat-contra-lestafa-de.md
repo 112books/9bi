@@ -11,7 +11,7 @@ tags:
 - preferents
 - veïns
 cover:
-  image: images/covers/198ae8c35aa26a3f.webp
+  image: /images/covers/198ae8c35aa26a3f.webp
 ---
 
 Ara resulta que els usuaris afectats per les Preferents son preilosos i cal identificarlos. No entenc com la policía que hauria de detenir els lladres els defença i criminalitza una protesta pacífica i més que llegítima.

@@ -7,7 +7,7 @@ slug: flamenco-de-barrio-2016-casal
 tags:
 - flamenco
 cover:
-  image: images/covers/2ea04612119b4336.webp
+  image: /images/covers/2ea04612119b4336.webp
 album_url: https://goo.gl/photos/UJFbG5EcBjzPp6oHA
 ---
 

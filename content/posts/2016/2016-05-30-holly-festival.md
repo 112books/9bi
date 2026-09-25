@@ -7,7 +7,7 @@ slug: holly-festival
 tags:
 - Festa major de prospe
 cover:
-  image: images/covers/87a1e53203e4045f.webp
+  image: /images/covers/87a1e53203e4045f.webp
 album_url: https://picasaweb.google.com/111964096227458093905/6290234560138114865?authuser=0&feat=embedwebsite
 ---
 

@@ -7,7 +7,7 @@ slug: asilah-marruecos
 tags:
 - mar
 cover:
-  image: images/covers/56048569e03806cb.webp
+  image: /images/covers/56048569e03806cb.webp
 album_url: https://picasaweb.google.com/115791131166530059320/Asilah?authuser=0&feat=embedwebsite
 ---
 

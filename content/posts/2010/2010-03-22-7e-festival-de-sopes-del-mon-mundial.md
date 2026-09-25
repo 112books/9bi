@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - Prosperitat
 cover:
-  image: images/covers/ed1b67c3de6fe4cd.webp
+  image: /images/covers/ed1b67c3de6fe4cd.webp
 album_url: https://photos.app.goo.gl/hG6izkKU4sAU4QdV7
 ---
 

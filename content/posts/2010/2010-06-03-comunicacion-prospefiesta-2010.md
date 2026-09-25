@@ -10,7 +10,7 @@ tags:
 - osca
 - STA
 cover:
-  image: images/covers/8513e8b236056a80.webp
+  image: /images/covers/8513e8b236056a80.webp
 album_url: http://picasaweb.google.com/Perdo.Garcia/Ninoscantores?feat=embedwebsite
 ---
 

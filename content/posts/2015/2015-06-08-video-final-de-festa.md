@@ -11,7 +11,7 @@ tags:
 - FESTA
 - STA
 cover:
-  image: images/covers/dd748b3c0d85a945.webp
+  image: /images/covers/dd748b3c0d85a945.webp
 album_url: https://picasaweb.google.com/111964096227458093905/VIDEOFINALDEFESTESDELAPROSPE?authuser=0&amp;feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - sala muntaner
 - teatre
 cover:
-  image: images/covers/a600058074553696.webp
+  image: /images/covers/a600058074553696.webp
 album_url: https://goo.gl/photos/53Guzth5phmAaRie9
 ---
 

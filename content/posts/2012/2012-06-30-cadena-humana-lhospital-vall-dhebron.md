@@ -9,7 +9,7 @@ tags:
 - Hospital Vall d'Hebrón
 - sanitat publica
 cover:
-  image: images/covers/607589e570c0c431.webp
+  image: /images/covers/607589e570c0c431.webp
 album_url: https://picasaweb.google.com/pedro.cervera/CadenaHumanaHospitalVallDHebron?authuser=0&feat=embedwebsite
 ---
 

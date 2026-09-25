@@ -11,7 +11,7 @@ tags:
 - casa
 - avis
 cover:
-  image: images/covers/6a0f92078bbc000f.webp
+  image: /images/covers/6a0f92078bbc000f.webp
 album_url: https://picasaweb.google.com/110015855395179205688/EclipseTeatro?authuser=0&feat=embedwebsite
 ---
 

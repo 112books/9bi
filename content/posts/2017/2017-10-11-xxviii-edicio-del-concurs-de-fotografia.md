@@ -9,7 +9,7 @@ tags:
 - concurs
 - rafi
 cover:
-  image: images/covers/bae8ebc29b93a548.webp
+  image: /images/covers/bae8ebc29b93a548.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

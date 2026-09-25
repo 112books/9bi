@@ -11,7 +11,7 @@ tags:
 - barri
 - ruta
 cover:
-  image: images/covers/ab80cfeae7ed8c6c.webp
+  image: /images/covers/ab80cfeae7ed8c6c.webp
 album_url: https://picasaweb.google.com/110015855395179205688/CONCURSDETRUITESALTIG?authuser=0&feat=embedwebsite
 ---
 

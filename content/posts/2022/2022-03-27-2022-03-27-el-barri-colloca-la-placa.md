@@ -9,7 +9,7 @@ tags:
 - harry walker
 - barri
 cover:
-  image: images/covers/1fa84654dbf69899.webp
+  image: /images/covers/1fa84654dbf69899.webp
 album_url: https://photos.app.goo.gl/RX8RzCGxFbHL1aoS6
 ---
 

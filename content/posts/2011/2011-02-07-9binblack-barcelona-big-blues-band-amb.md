@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - Mark Tortorici
 cover:
-  image: images/covers/ef2fea55fd2478c6.webp
+  image: /images/covers/ef2fea55fd2478c6.webp
 album_url: https://picasaweb.google.com/linuxbcn/9binblackBarcelonaBigBluesBandAmbMarkTortorici?feat=embedwebsite
 ---
 

@@ -10,7 +10,7 @@ tags:
 - carnaval2013
 - casnaval
 cover:
-  image: images/covers/70cea26bb322e784.webp
+  image: /images/covers/70cea26bb322e784.webp
 album_url: https://picasaweb.google.com/115791131166530059320/CARNAVALPLAZAANGELPESTANA?authuser=0&feat=embedwebsite
 ---
 

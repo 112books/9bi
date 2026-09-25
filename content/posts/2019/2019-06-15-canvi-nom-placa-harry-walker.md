@@ -8,7 +8,7 @@ tags:
 - CENTENARI
 - harry walker
 cover:
-  image: images/covers/468c5cc545bd10fa.webp
+  image: /images/covers/468c5cc545bd10fa.webp
 album_url: https://photos.app.goo.gl/mxTZeXEXry56Vk558
 ---
 

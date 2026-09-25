@@ -11,7 +11,7 @@ tags:
 - exposició
 - roquetes
 cover:
-  image: images/covers/cc8593f5c4d11cf5.webp
+  image: /images/covers/cc8593f5c4d11cf5.webp
 album_url: https://picasaweb.google.com/lh/photo/UpEyLtGxy25S-DcNRrjeH9MTjNZETYmyPJy0liipFm0?feat=embedwebsite
 ---
 

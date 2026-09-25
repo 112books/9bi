@@ -11,7 +11,7 @@ tags:
 - dones
 - expo
 cover:
-  image: images/covers/1c32f1a4a629a447.webp
+  image: /images/covers/1c32f1a4a629a447.webp
 album_url: https://photos.app.goo.gl/oTcPjijMKQgs4o7a6
 ---
 

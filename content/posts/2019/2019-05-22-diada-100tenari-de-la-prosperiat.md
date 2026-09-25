@@ -11,7 +11,7 @@ tags:
 - dinar popular
 - Prosperitat
 cover:
-  image: images/covers/c62375175966bdc6.webp
+  image: /images/covers/c62375175966bdc6.webp
 album_url: https://photos.app.goo.gl/T3D5S7um6ef7pA67A
 ---
 

@@ -9,7 +9,7 @@ tags:
 - Esoé
 - morositos
 cover:
-  image: images/covers/48020681772b5f51.webp
+  image: /images/covers/48020681772b5f51.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutsicalEsoeMorositos?authuser=0&feat=embedwebsite
 ---
 

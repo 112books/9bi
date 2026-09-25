@@ -11,7 +11,7 @@ tags:
 - roquetes
 - 9barris
 cover:
-  image: images/covers/5f031097e653c7d5.webp
+  image: /images/covers/5f031097e653c7d5.webp
 album_url: https://picasaweb.google.com/110015855395179205688/GrupFotoRoquetesLlumsDeNadal?authuser=0&feat=embedwebsite
 ---
 

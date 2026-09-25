@@ -10,7 +10,7 @@ tags:
 - ball
 - casa
 cover:
-  image: images/covers/fdb3a732662959fc.webp
+  image: /images/covers/fdb3a732662959fc.webp
 album_url: https://photos.app.goo.gl/27d8uccz8LRPgbts8
 ---
 

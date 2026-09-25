@@ -9,7 +9,7 @@ tags:
 - Pedro
 - expo
 cover:
-  image: images/covers/88121b3c55107335.webp
+  image: /images/covers/88121b3c55107335.webp
 album_url: https://photos.app.goo.gl/XLkqXScseyP6RrKw7
 ---
 

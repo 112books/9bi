@@ -10,7 +10,7 @@ tags:
 - FESTA
 - STA
 cover:
-  image: images/covers/382f112a159245d2.webp
+  image: /images/covers/382f112a159245d2.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestaDeLaBenvinguda2013Dissabte?authuser=0&feat=embedwebsite
 ---
 

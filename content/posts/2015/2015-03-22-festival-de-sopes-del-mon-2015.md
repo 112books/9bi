@@ -11,7 +11,7 @@ tags:
 - 9barris
 - música
 cover:
-  image: images/covers/db43a059c6b0b1dd.webp
+  image: /images/covers/db43a059c6b0b1dd.webp
 album_url: https://picasaweb.google.com/110015855395179205688/FestivalDeSopes2015?authuser=0&feat=embedwebsite
 ---
 

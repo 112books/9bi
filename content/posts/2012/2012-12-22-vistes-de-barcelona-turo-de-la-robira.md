@@ -12,7 +12,7 @@ tags:
 - turó de la robira
 - vistes
 cover:
-  image: images/covers/c97d37ee2a057af0.webp
+  image: /images/covers/c97d37ee2a057af0.webp
 album_url: https://picasaweb.google.com/103138221614479310970/0258SprocketRocket?authuser=0&feat=embedwebsite
 ---
 

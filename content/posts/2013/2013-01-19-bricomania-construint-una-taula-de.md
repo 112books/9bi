@@ -9,7 +9,7 @@ tags:
 - bricomania
 - macro
 cover:
-  image: images/covers/d6a653e19ad7b12e.webp
+  image: /images/covers/d6a653e19ad7b12e.webp
 album_url: https://picasaweb.google.com/103138221614479310970/BricomaniaConstruintUnaTaulaDeRetratMacro?authuser=0&feat=embedwebsite
 ---
 

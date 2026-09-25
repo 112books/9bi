@@ -11,7 +11,7 @@ tags:
 - poemes
 - expo
 cover:
-  image: images/covers/98084a8c4189621e.webp
+  image: /images/covers/98084a8c4189621e.webp
 album_url: https://picasaweb.google.com/110015855395179205688/AnesthesieMargaridaRey?authuser=0&feat=embedwebsite
 ---
 

@@ -8,7 +8,7 @@ tags:
 - casal cosa nostra
 - nit d'ànimes
 cover:
-  image: images/covers/05e6962f9381f0a5.webp
+  image: /images/covers/05e6962f9381f0a5.webp
 album_url: https://picasaweb.google.com/116805523004990742624/NitDAnimes2011CanPeguera?authkey=Gv1sRgCLfeuajX_bCu1gE
 ---
 

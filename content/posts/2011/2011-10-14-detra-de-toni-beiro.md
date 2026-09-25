@@ -7,7 +7,7 @@ slug: detra-de-toni-beiro
 tags:
 - Toni Beiro
 cover:
-  image: images/covers/acafac474174443f.webp
+  image: /images/covers/acafac474174443f.webp
 album_url: https://picasaweb.google.com/Perdo.Garcia/14DeOctubreDe201102?authuser=0&feat=embedwebsite
 ---
 

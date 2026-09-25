@@ -11,7 +11,7 @@ tags:
 - gent
 - art
 cover:
-  image: images/covers/c67e456f56b1df25.webp
+  image: /images/covers/c67e456f56b1df25.webp
 album_url: https://picasaweb.google.com/110015855395179205688/TORNEIGDEFUTBOLBANCIPASSABARS?authuser=0&feat=embedwebsite
 ---
 

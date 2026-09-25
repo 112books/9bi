@@ -8,7 +8,7 @@ tags:
 - nou barris
 - barri
 cover:
-  image: images/covers/abd5a6c0e3d40b85.webp
+  image: /images/covers/abd5a6c0e3d40b85.webp
 album_url: https://picasaweb.google.com/100268695753733554853/SiSePuedeAcampadaNouBarris?authuser=0&amp;feat=embedwebsite
 ---
 

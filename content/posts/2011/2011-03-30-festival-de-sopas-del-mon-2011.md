@@ -9,7 +9,7 @@ tags:
 - nou barris
 - SOPAS
 cover:
-  image: images/covers/954ea42ed93028d9.webp
+  image: /images/covers/954ea42ed93028d9.webp
 album_url: https://picasaweb.google.com/Perdo.Garcia/SOPASDELMON2011?authkey=Gv1sRgCMGE4vz28K3GlwE&feat=embedwebsite
 ---
 

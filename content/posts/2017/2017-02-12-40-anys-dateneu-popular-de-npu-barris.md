@@ -10,7 +10,7 @@ tags:
 - neu
 - pop
 cover:
-  image: images/covers/98ed35de4e9dfe88.webp
+  image: /images/covers/98ed35de4e9dfe88.webp
 album_url: https://goo.gl/photos/MN3tEBZAQQiJ5iFw5
 ---
 

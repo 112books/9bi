@@ -11,7 +11,7 @@ tags:
 - luna
 - mar
 cover:
-  image: images/covers/89d07cd0c49e3b1c.webp
+  image: /images/covers/89d07cd0c49e3b1c.webp
 album_url: ' https://picasaweb.google.com/116805523004990742624/1ConcursoDeMonologosCanBaste?authuser=0&authkey=Gv1sRgCIX68-OO2tS0qQE&feat=embedwebsite '
 ---
 

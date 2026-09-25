@@ -9,7 +9,7 @@ tags:
 - Boni
 - circ
 cover:
-  image: images/covers/3b3bf7ad2771c50d.webp
+  image: /images/covers/3b3bf7ad2771c50d.webp
 album_url: http://picasaweb.google.es/ulls2006/BoniBackstage?feat=embedwebsite
 ---
 

@@ -8,7 +8,7 @@ tags:
 - Fira d'abril
 - prospe
 cover:
-  image: images/covers/ddaad989efa38ed3.webp
+  image: /images/covers/ddaad989efa38ed3.webp
 album_url: https://photos.app.goo.gl/CQdmPLJtD3hX6ENBA
 ---
 

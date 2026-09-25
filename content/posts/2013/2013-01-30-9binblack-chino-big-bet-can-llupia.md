@@ -9,7 +9,7 @@ tags:
 - Can Llupià
 - Chino and The Big Bet
 cover:
-  image: images/covers/681ae2c485fab2fd.webp
+  image: /images/covers/681ae2c485fab2fd.webp
 album_url: https://picasaweb.google.com/103138221614479310970/9BinBlackChinoTheBigBetACanLlupia?authuser=0&feat=embedwebsite
 ---
 

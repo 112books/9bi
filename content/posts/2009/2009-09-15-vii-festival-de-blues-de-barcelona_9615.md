@@ -10,7 +10,7 @@ tags:
 - master class
 - Víctor Puertas
 cover:
-  image: images/covers/5dcd9f15db0c024d.webp
+  image: /images/covers/5dcd9f15db0c024d.webp
 album_url: https://photos.app.goo.gl/wdkddBy5ZkBwavM27
 ---
 

@@ -12,7 +12,7 @@ tags:
 - les nits de Capibila
 - little jordi
 cover:
-  image: images/covers/398157e2e0dc7775.webp
+  image: /images/covers/398157e2e0dc7775.webp
 album_url: https://picasaweb.google.com/linuxbcn/LesNitsDeCapibolaBluesJohnnyPerezBluesTrio060511?feat=embedwebsite
 ---
 

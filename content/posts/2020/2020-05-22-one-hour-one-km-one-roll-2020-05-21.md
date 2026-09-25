@@ -7,7 +7,7 @@ slug: one-hour-one-km-one-roll-2020-05-21
 tags:
 - fotografia
 cover:
-  image: images/covers/aea76dc546512c3c.webp
+  image: /images/covers/aea76dc546512c3c.webp
 album_url: https://photos.app.goo.gl/w4hneCtX1n8rsRUZA
 ---
 

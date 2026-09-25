@@ -11,7 +11,7 @@ tags:
 - concurs
 - popular
 cover:
-  image: images/covers/d12ad44b0f931140.webp
+  image: /images/covers/d12ad44b0f931140.webp
 album_url: https://picasaweb.google.com/100268695753733554853/CompagnieMorosof?authuser=0&amp;feat=embedwebsite
 ---
 

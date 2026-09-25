@@ -10,7 +10,7 @@ tags:
 - concert
 - teatre
 cover:
-  image: images/covers/7eb29c3b23f49f23.webp
+  image: /images/covers/7eb29c3b23f49f23.webp
 album_url: https://photos.app.goo.gl/NyhGNRwSPfZ2Af2R9
 ---
 

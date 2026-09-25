@@ -11,7 +11,7 @@ tags:
 - festa major prospe
 - Prosperitat 2016
 cover:
-  image: images/covers/3811fb96d6843904.webp
+  image: /images/covers/3811fb96d6843904.webp
 album_url: https://picasaweb.google.com/100268695753733554853/6291713306327788481?authuser=0&amp;feat=embedwebsite
 ---
 

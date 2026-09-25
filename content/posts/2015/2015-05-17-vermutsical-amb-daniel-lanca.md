@@ -7,7 +7,7 @@ slug: vermutsical-amb-daniel-lanca
 tags:
 - vermutsical
 cover:
-  image: images/covers/e12a297e9a6fc197.webp
+  image: /images/covers/e12a297e9a6fc197.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutsicalAmbDanielLanca?authuser=0&feat=embedwebsite
 ---
 

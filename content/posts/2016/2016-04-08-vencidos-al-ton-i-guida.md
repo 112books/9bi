@@ -10,7 +10,7 @@ tags:
 - República
 - projecció
 cover:
-  image: images/covers/58d7063ad8d0b348.webp
+  image: /images/covers/58d7063ad8d0b348.webp
 album_url: https://picasaweb.google.com/110015855395179205688/Vencidos?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - nadal
 - neu
 cover:
-  image: images/covers/98305ae59ca84132.webp
+  image: /images/covers/98305ae59ca84132.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6282324329678752881?authuser=0&feat=embedwebsite
 ---
 

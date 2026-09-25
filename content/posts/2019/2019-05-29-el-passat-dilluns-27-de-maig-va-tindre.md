@@ -11,7 +11,7 @@ tags:
 - gent
 - art
 cover:
-  image: images/covers/b41922a0953c1626.webp
+  image: /images/covers/b41922a0953c1626.webp
 album_url: https://photos.app.goo.gl/sEW6XLaap7jTJVRZA
 ---
 

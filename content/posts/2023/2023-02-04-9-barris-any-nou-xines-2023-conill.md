@@ -11,7 +11,7 @@ tags:
 - barri
 - xinès
 cover:
-  image: images/covers/a288d957d14f1367.webp
+  image: /images/covers/a288d957d14f1367.webp
 album_url: https://photos.app.goo.gl/biNx66aFZ6w8QVhF7
 ---
 

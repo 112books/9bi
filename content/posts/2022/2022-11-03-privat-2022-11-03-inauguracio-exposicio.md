@@ -10,7 +10,7 @@ tags:
 - exposició
 - prospe
 cover:
-  image: images/covers/f02a1473a404c349.webp
+  image: /images/covers/f02a1473a404c349.webp
 album_url: https://photos.app.goo.gl/Mqshkro7tKYzsxdu8
 ---
 

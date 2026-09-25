@@ -11,7 +11,7 @@ tags:
 - fotos
 - rafi
 cover:
-  image: images/covers/cdeb1716670a01ce.webp
+  image: /images/covers/cdeb1716670a01ce.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6295431813096466833?authuser=0&feat=embedwebsite
 ---
 

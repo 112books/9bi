@@ -8,7 +8,7 @@ tags:
 - Prosperitat
 - prospe
 cover:
-  image: images/covers/913d211c0ef2bbff.webp
+  image: /images/covers/913d211c0ef2bbff.webp
 album_url: https://photos.app.goo.gl/d7RxiDcTTBVNHtMX9
 ---
 

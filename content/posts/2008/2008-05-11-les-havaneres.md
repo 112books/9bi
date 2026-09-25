@@ -11,7 +11,7 @@ tags:
 - havaneres
 - prospe
 cover:
-  image: images/covers/e8b815237d02a621.webp
+  image: /images/covers/e8b815237d02a621.webp
 album_url: http://picasaweb.google.com/pedro.cervera/Havaneres2008/photo#5199087368281087602
 ---
 

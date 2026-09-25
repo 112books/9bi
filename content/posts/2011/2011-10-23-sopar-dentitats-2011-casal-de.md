@@ -8,7 +8,7 @@ tags:
 - casal barri prosperitat
 - sopar entitats
 cover:
-  image: images/covers/3dab90bf64d1ca12.webp
+  image: /images/covers/3dab90bf64d1ca12.webp
 album_url: https://photos.app.goo.gl/gSomMzHsndNvobwx6
 ---
 

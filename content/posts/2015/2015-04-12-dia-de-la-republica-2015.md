@@ -7,7 +7,7 @@ slug: dia-de-la-republica-2015
 tags:
 - República
 cover:
-  image: images/covers/cd052c0ebfedfaed.webp
+  image: /images/covers/cd052c0ebfedfaed.webp
 album_url: ' https://picasaweb.google.com/116805523004990742624/DiaDeLaRepublica2015?authuser=0&authkey=Gv1sRgCPHE68DpyMTylAE&feat=embedwebsite '
 ---
 

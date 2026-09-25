@@ -11,7 +11,7 @@ tags:
 - sant xibeco
 - taller biciosos
 cover:
-  image: images/covers/84fbc045550bffcc.webp
+  image: /images/covers/84fbc045550bffcc.webp
 album_url: https://photos.app.goo.gl/cMuhyfCg77WrvC5b6
 ---
 

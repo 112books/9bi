@@ -11,7 +11,7 @@ tags:
 - Barcelona
 - teatre
 cover:
-  image: images/covers/b65e520ad83a655b.webp
+  image: /images/covers/b65e520ad83a655b.webp
 album_url: https://picasaweb.google.com/lh/photo/vSkkZSOMsIFkjFj-1WIr5tMTjNZETYmyPJy0liipFm0?feat=embedwebsite
 ---
 

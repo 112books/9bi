@@ -10,7 +10,7 @@ tags:
 - ball
 - quim
 cover:
-  image: images/covers/8de83389d501fdd3.webp
+  image: /images/covers/8de83389d501fdd3.webp
 album_url: https://goo.gl/photos/GcuLEqhsfG4PPV167
 ---
 

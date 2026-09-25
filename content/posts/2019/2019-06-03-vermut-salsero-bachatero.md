@@ -9,7 +9,7 @@ tags:
 - festes de prospe 2019
 - Salsa
 cover:
-  image: images/covers/3b1be22e8cc13152.webp
+  image: /images/covers/3b1be22e8cc13152.webp
 album_url: https://photos.app.goo.gl/LMhqfTPve3nYQfR68
 ---
 

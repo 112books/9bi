@@ -10,7 +10,7 @@ tags:
 - morositos
 - vermut sical
 cover:
-  image: images/covers/409eba8c0a52e2d0.webp
+  image: /images/covers/409eba8c0a52e2d0.webp
 album_url: https://photos.app.goo.gl/857rjsxbRtzFCPYs8
 ---
 

@@ -11,7 +11,7 @@ tags:
 - 9barris
 - barri
 cover:
-  image: images/covers/e9f1cb618708f1a6.webp
+  image: /images/covers/e9f1cb618708f1a6.webp
 album_url: https://photos.app.goo.gl/otxkwkBBsnLW4N2r6
 ---
 

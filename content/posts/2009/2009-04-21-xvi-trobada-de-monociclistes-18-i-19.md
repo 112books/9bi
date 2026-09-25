@@ -11,7 +11,7 @@ tags:
 - ateneu popular 9barris
 - monociclistes
 cover:
-  image: images/covers/fc409f71aa03649d.webp
+  image: /images/covers/fc409f71aa03649d.webp
 album_url: http://picasaweb.google.es/ulls1963/XVITrobadaDeMonociclistes18I19DAbril2009Brcelona?feat=embedwebsite
 ---
 

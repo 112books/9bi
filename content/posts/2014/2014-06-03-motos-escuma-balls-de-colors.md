@@ -11,7 +11,7 @@ tags:
 - nou barris
 - vía júlia
 cover:
-  image: images/covers/33072878e7f766ff.webp
+  image: /images/covers/33072878e7f766ff.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ULTIMDIADEFESTA?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - STA
 - veu
 cover:
-  image: images/covers/a396bb8eb2a331b8.webp
+  image: /images/covers/a396bb8eb2a331b8.webp
 album_url: https://photos.app.goo.gl/nyLuD95qrkDDKyDGA
 ---
 

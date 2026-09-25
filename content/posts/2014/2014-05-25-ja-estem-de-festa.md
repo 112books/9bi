@@ -11,7 +11,7 @@ tags:
 - barri
 - STA
 cover:
-  image: images/covers/993736044828333f.webp
+  image: /images/covers/993736044828333f.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ComencaLaFESTAMAJORDeLaPROSPE?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - 9 barris
 cover:
-  image: images/covers/c55cff2dc8f12e65.webp
+  image: /images/covers/c55cff2dc8f12e65.webp
 album_url: https://photos.app.goo.gl/oufCBTqTnixZL9GHA
 ---
 

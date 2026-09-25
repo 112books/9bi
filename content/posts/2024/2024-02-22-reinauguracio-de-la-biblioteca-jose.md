@@ -10,7 +10,7 @@ tags:
 - veïns
 - STA
 cover:
-  image: images/covers/8c82a95b7b105686.webp
+  image: /images/covers/8c82a95b7b105686.webp
 album_url: https://photos.app.goo.gl/zeaVWwm2iAp8iATA8
 ---
 

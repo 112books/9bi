@@ -11,7 +11,7 @@ tags:
 - raggae
 - sound system
 cover:
-  image: images/covers/0d516bad0e6ea59d.webp
+  image: /images/covers/0d516bad0e6ea59d.webp
 album_url: https://photos.app.goo.gl/MHvxtzr3ZXZhizSPA
 ---
 

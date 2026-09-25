@@ -10,7 +10,7 @@ tags:
 - dia de la mujer 2014
 - mujer
 cover:
-  image: images/covers/dd8cde9613df01eb.webp
+  image: /images/covers/dd8cde9613df01eb.webp
 album_url: https://picasaweb.google.com/115791131166530059320/DIADELADONA9BARRIS2014?authuser=0&feat=embedwebsite
 ---
 

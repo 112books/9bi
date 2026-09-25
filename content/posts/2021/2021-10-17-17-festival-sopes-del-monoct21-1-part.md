@@ -11,7 +11,7 @@ tags:
 - art
 - món
 cover:
-  image: images/covers/792a391d15ebb13d.webp
+  image: /images/covers/792a391d15ebb13d.webp
 album_url: https://photos.app.goo.gl/T6HWomu9n3SV7wYK6
 ---
 

@@ -7,7 +7,7 @@ slug: espectacle-musica-i-circ-amb-ciclidus
 tags:
 - circ
 cover:
-  image: images/covers/51ae21b567f5df0d.webp
+  image: /images/covers/51ae21b567f5df0d.webp
 album_url: https://picasaweb.google.com/nico9barrisimarge/EspectacleMusicaICircAmbCiclidus?feat=embedwebsite
 ---
 

@@ -7,7 +7,7 @@ slug: primer-aniversari-de-la-torrada-amb
 tags:
 - la torrada
 cover:
-  image: images/covers/e1b7aee553c4f6f7.webp
+  image: /images/covers/e1b7aee553c4f6f7.webp
 album_url: https://photos.app.goo.gl/nb10r4ip73C6bg7F3
 ---
 

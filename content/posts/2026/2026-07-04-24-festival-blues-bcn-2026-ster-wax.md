@@ -11,7 +11,7 @@ tags:
 - BLUE
 - bcn
 cover:
-  image: images/covers/68ba49654a9c65ed.webp
+  image: /images/covers/68ba49654a9c65ed.webp
 album_url: https://photos.app.goo.gl/b9NqVPdrpfE195HS6
 ---
 

@@ -11,7 +11,7 @@ tags:
 - Canço
 - mar
 cover:
-  image: images/covers/afe335239137f727.webp
+  image: /images/covers/afe335239137f727.webp
 album_url: https://photos.app.goo.gl/cGhT7kzMXLzGHVraA
 ---
 

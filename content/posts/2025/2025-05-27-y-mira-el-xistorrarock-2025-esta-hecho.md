@@ -10,7 +10,7 @@ tags:
 - rock
 - ruta
 cover:
-  image: images/covers/3fb2e7eba776ffd4.webp
+  image: /images/covers/3fb2e7eba776ffd4.webp
 album_url: https://photos.app.goo.gl/5zUaWKDeRUY99ZuU9
 ---
 

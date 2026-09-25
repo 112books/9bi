@@ -9,7 +9,7 @@ tags:
 - nico
 - pasacalles
 cover:
-  image: images/covers/8dff6bc0764d8baf.webp
+  image: /images/covers/8dff6bc0764d8baf.webp
 album_url: http://picasaweb.google.com/nico9barrisimarge/FiestasDeProsperitat?feat=embedwebsite
 ---
 

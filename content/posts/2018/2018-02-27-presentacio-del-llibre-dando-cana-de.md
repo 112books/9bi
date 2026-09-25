@@ -10,7 +10,7 @@ tags:
 - llibre
 - Pedro
 cover:
-  image: images/covers/d11717a03c000ef3.webp
+  image: /images/covers/d11717a03c000ef3.webp
 album_url: https://photos.app.goo.gl/duCajZCTmmhVpKCH2
 ---
 

@@ -9,7 +9,7 @@ tags:
 - carnestoltes 2010
 - linuxbcn
 cover:
-  image: images/covers/1a6fc1fce9aee480.webp
+  image: /images/covers/1a6fc1fce9aee480.webp
 album_url: https://photos.app.goo.gl/dodLipDrYNtamGYY9
 ---
 

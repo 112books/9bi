@@ -11,7 +11,7 @@ tags:
 - casal de barri
 - Prosperitat
 cover:
-  image: images/covers/d09aa7b6a80a1d86.webp
+  image: /images/covers/d09aa7b6a80a1d86.webp
 album_url: https://picasaweb.google.com/103138221614479310970/SoparDEntitatsAlCasalDeBarriDeProsperitat02?authuser=0&feat=embedwebsite
 ---
 

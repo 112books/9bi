@@ -8,7 +8,7 @@ tags:
 - 9barrisimatge
 - festa major prospe
 cover:
-  image: images/covers/9003cb9d3233dd9b.webp
+  image: /images/covers/9003cb9d3233dd9b.webp
 album_url: https://photos.app.goo.gl/DVuxz4e8MgX1tBTp6
 ---
 

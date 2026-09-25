@@ -11,7 +11,7 @@ tags:
 - Barcelona
 - canyelles
 cover:
-  image: images/covers/1a91496e72cb684b.webp
+  image: /images/covers/1a91496e72cb684b.webp
 album_url: https://picasaweb.google.com/110015855395179205688/PereCanovasMestreVitraller?authuser=0&feat=embedwebsite
 ---
 

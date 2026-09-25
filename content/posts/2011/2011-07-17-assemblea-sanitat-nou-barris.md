@@ -7,7 +7,7 @@ slug: assemblea-sanitat-nou-barris
 tags:
 - sanitat nou barris assemblea
 cover:
-  image: images/covers/8b6ad12a3331607f.webp
+  image: /images/covers/8b6ad12a3331607f.webp
 album_url: https://picasaweb.google.com/pedro.cervera/AssembleaSanitat9barris15Juliol?authuser=0&feat=embedwebsite
 ---
 

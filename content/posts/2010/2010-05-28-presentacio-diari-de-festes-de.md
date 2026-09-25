@@ -9,7 +9,7 @@ tags:
 - festes de prospe
 - linuxbcn
 cover:
-  image: images/covers/21b626d63a377f1d.webp
+  image: /images/covers/21b626d63a377f1d.webp
 album_url: https://photos.app.goo.gl/xjhQ4GvnSr4EzVCV7
 ---
 

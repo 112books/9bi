@@ -12,7 +12,7 @@ tags:
 - roquetes
 - fotos
 cover:
-  image: images/covers/0612bfe981e0b403.webp
+  image: /images/covers/0612bfe981e0b403.webp
 album_url: https://photos.app.goo.gl/wdb6Fewv7H1zU6EE6
 ---
 

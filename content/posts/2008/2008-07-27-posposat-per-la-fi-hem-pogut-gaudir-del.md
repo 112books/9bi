@@ -12,7 +12,7 @@ tags:
 - The Acoustic Blues Company
 - The David Giocelli Trio
 cover:
-  image: images/covers/6a281cbccd6f868e.webp
+  image: /images/covers/6a281cbccd6f868e.webp
 album_url: https://photos.app.goo.gl/gPST7vezzUc1pbdP9
 ---
 

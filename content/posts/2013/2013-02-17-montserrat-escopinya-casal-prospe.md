@@ -10,7 +10,7 @@ tags:
 - CASAL
 - casa
 cover:
-  image: images/covers/4305a9851231652f.webp
+  image: /images/covers/4305a9851231652f.webp
 album_url: https://picasaweb.google.com/100268695753733554853/MontserratEscopinyaCasalProspe?authuser=0&amp;feat=embedwebsite
 ---
 

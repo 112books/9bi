@@ -10,7 +10,7 @@ tags:
 - luna
 - STA
 cover:
-  image: images/covers/c15ae0eb376761ae.webp
+  image: /images/covers/c15ae0eb376761ae.webp
 album_url: https://photos.app.goo.gl/u7mrk6JUpH8QdFix7
 ---
 

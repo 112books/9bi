@@ -11,7 +11,7 @@ tags:
 - barri
 - expo
 cover:
-  image: images/covers/dbb2c74ec1f9da68.webp
+  image: /images/covers/dbb2c74ec1f9da68.webp
 album_url: https://picasaweb.google.com/110015855395179205688/RoquetesALaBiblioteca?authuser=0&feat=embedwebsite
 ---
 

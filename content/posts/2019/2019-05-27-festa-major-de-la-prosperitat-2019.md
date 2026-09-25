@@ -11,7 +11,7 @@ tags:
 - festa major
 - prospe
 cover:
-  image: images/covers/b91e1aaa41a9f344.webp
+  image: /images/covers/b91e1aaa41a9f344.webp
 album_url: https://photos.app.goo.gl/xhjrJX837ZG4VeMD9
 ---
 

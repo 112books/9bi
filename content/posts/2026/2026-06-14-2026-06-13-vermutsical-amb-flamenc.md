@@ -8,7 +8,7 @@ tags:
 - Entre palmes
 - guitarra i zapateado
 cover:
-  image: images/covers/55a5583280c19bcb.webp
+  image: /images/covers/55a5583280c19bcb.webp
 album_url: https://blog.pocallum.cat/2026/06/13/2026-06-13-vermutsical-amb-flamenc-a-carrec-de-la-pena-flamenca-del-poble-sec/
 ---
 

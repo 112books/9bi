@@ -11,7 +11,7 @@ tags:
 - fotos
 - barri
 cover:
-  image: images/covers/8c95be9d2ad8c7c7.webp
+  image: /images/covers/8c95be9d2ad8c7c7.webp
 album_url: https://picasaweb.google.com/115791131166530059320/Carnavalmanel?authuser=0&feat=embedwebsite
 ---
 

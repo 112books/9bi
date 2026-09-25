@@ -11,7 +11,7 @@ tags:
 - fotografies
 - presentació
 cover:
-  image: images/covers/667f5bbabee960c3.webp
+  image: /images/covers/667f5bbabee960c3.webp
 album_url: https://photos.app.goo.gl/duo9VbwobjzDK8AaA
 ---
 

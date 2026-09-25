@@ -8,7 +8,7 @@ tags:
 - veïns
 - memòria històrica
 cover:
-  image: images/covers/15edc3d5f19ef9c1.webp
+  image: /images/covers/15edc3d5f19ef9c1.webp
 album_url: https://picasaweb.google.com/111964096227458093905/SALVADORPUIGANTICH?authuser=0&feat=embedwebsite
 ---
 

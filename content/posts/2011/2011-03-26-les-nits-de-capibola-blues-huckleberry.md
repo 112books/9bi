@@ -10,7 +10,7 @@ tags:
 - blues
 - BLUE
 cover:
-  image: images/covers/a33e5734f080ab8a.webp
+  image: /images/covers/a33e5734f080ab8a.webp
 album_url: https://picasaweb.google.com/linuxbcn/LesNitsDeCapibolaBluesHuckleberryFinn250311?feat=embedwebsite
 ---
 

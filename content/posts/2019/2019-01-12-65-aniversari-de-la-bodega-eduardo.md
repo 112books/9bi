@@ -7,7 +7,7 @@ slug: 65-aniversari-de-la-bodega-eduardo
 tags:
 - veïns
 cover:
-  image: images/covers/818f5a93cb8978f4.webp
+  image: /images/covers/818f5a93cb8978f4.webp
 album_url: https://photos.app.goo.gl/J79mdUAjNNfP2XAG6
 ---
 

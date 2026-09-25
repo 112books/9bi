@@ -11,7 +11,7 @@ tags:
 - catalunya
 - barri
 cover:
-  image: images/covers/3547a218c97c6837.webp
+  image: /images/covers/3547a218c97c6837.webp
 album_url: https://picasaweb.google.com/110015855395179205688/DiaDeLaSalutMental2015?authuser=0&feat=embedwebsite
 ---
 

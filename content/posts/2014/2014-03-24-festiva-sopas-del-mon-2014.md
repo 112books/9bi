@@ -8,7 +8,7 @@ tags:
 - Festival de sopas del mon
 - SOPAS
 cover:
-  image: images/covers/287289a301b35169.webp
+  image: /images/covers/287289a301b35169.webp
 album_url: https://picasaweb.google.com/115791131166530059320/SOPASDELMON2014?authuser=0&feat=embedwebsite
 ---
 

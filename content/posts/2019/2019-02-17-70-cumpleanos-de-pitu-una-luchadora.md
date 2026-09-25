@@ -7,7 +7,7 @@ slug: 70-cumpleanos-de-pitu-una-luchadora
 tags:
 - prospe
 cover:
-  image: images/covers/cd27de3946c1001d.webp
+  image: /images/covers/cd27de3946c1001d.webp
 album_url: https://photos.google.com/share/AF1QipNBXhRlNMrgoqAwgxaQg8chNuGEm6rdHx1WXAJzhrq9D17bj4RdIHDU0VCClLXQhA?hl=es&key=NDY5aGdSdDdjZEtXdWpFV21zNjZ0am9lVUJ3RkV3
 ---
 

@@ -7,7 +7,7 @@ slug: torre-baro-al-capvespre
 tags:
 - torre baró
 cover:
-  image: images/covers/3615a16ba20f990a.webp
+  image: /images/covers/3615a16ba20f990a.webp
 album_url: https://picasaweb.google.com/103138221614479310970/TorreBaroAlCapvespre?authuser=0&feat=embedwebsite
 ---
 

@@ -9,7 +9,7 @@ tags:
 - CASAL
 - casa
 cover:
-  image: images/covers/1799275436d3a42e.webp
+  image: /images/covers/1799275436d3a42e.webp
 album_url: https://picasaweb.google.com/103138221614479310970/ElsDiShowsDelCasalSoloni?authuser=0&feat=embedwebsite
 ---
 

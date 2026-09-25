@@ -11,7 +11,7 @@ tags:
 - concert
 - cultura
 cover:
-  image: images/covers/ab197565d602de36.webp
+  image: /images/covers/ab197565d602de36.webp
 album_url: https://photos.app.goo.gl/EhedBkKNniLqjo85A
 ---
 

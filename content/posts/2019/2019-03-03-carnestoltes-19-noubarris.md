@@ -9,7 +9,7 @@ tags:
 - noubarris
 - barri
 cover:
-  image: images/covers/51201af975827ebd.webp
+  image: /images/covers/51201af975827ebd.webp
 album_url: https://photos.google.com/share/AF1QipO2EJwWokJsIANfMZvWAGjyKwN32HEBYYNpOq6hRRY7AHoA984odmu8EJhIcDqHDw?hl=es&key=aHdZWEpSVVpqaHotX29idU52YjFjUDRSSFZncC1B
 ---
 

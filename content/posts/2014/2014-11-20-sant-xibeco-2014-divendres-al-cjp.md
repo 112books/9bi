@@ -9,7 +9,7 @@ tags:
 - xibeco
 - cjp
 cover:
-  image: images/covers/d35775827550be61.webp
+  image: /images/covers/d35775827550be61.webp
 album_url: https://picasaweb.google.com/103138221614479310970/SantXibeco2014DivendresAlCJP?authuser=0&feat=embedwebsite
 ---
 

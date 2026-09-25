@@ -8,7 +8,7 @@ tags:
 - concert
 - jazz
 cover:
-  image: images/covers/558b5892d8ab7fe9.webp
+  image: /images/covers/558b5892d8ab7fe9.webp
 album_url: https://photos.app.goo.gl/85M617C6M3GtF4DM7
 ---
 

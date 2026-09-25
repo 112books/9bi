@@ -11,7 +11,7 @@ tags:
 - CASAL
 - casa
 cover:
-  image: images/covers/c7b2cfdcfbe8041d.webp
+  image: /images/covers/c7b2cfdcfbe8041d.webp
 album_url: https://photos.app.goo.gl/ZreaC4uRQPAMFYSr8
 ---
 

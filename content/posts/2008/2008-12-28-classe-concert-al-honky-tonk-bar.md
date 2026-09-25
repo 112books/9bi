@@ -11,7 +11,7 @@ tags:
 - fotografia
 - linuxbcn
 cover:
-  image: images/covers/decf7685222a5dad.webp
+  image: /images/covers/decf7685222a5dad.webp
 album_url: https://photos.app.goo.gl/MohmixaWxzQRYMWa9
 ---
 

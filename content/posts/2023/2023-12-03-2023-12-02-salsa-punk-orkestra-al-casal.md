@@ -13,7 +13,7 @@ tags:
 - punk
 - Salsa
 cover:
-  image: images/covers/b1c31dd87c12fc84.webp
+  image: /images/covers/b1c31dd87c12fc84.webp
 album_url: https://photos.app.goo.gl/Tc7ckMcXxMakHpCk9
 ---
 

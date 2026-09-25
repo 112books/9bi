@@ -7,7 +7,7 @@ slug: las-xl-abandonate-mucho
 tags:
 - música
 cover:
-  image: images/covers/e25a795770255376.webp
+  image: /images/covers/e25a795770255376.webp
 album_url: https://picasaweb.google.com/103138221614479310970/LasXLAbandonateMucho?authuser=0&feat=embedwebsite
 ---
 

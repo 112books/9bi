@@ -9,7 +9,7 @@ tags:
 - George Bedard
 - manel sala ulls
 cover:
-  image: images/covers/e6c402ad1e8aa07c.webp
+  image: /images/covers/e6c402ad1e8aa07c.webp
 album_url: http://picasaweb.google.com/ulls2006/GeorgeBedard8eFestivalDeBluesDeBarcelona2010?feat=embedwebsite
 ---
 

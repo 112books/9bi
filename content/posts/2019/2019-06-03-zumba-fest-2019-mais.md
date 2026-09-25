@@ -10,7 +10,7 @@ tags:
 - vía júlia
 - Zumba
 cover:
-  image: images/covers/de4463a1e335fcf3.webp
+  image: /images/covers/de4463a1e335fcf3.webp
 album_url: https://photos.app.goo.gl/U2e8DCDCnGMStm3Y7
 ---
 

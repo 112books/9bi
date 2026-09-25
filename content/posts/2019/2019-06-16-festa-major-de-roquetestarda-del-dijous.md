@@ -11,7 +11,7 @@ tags:
 - festes
 - fotos
 cover:
-  image: images/covers/62b91c475ac9d879.webp
+  image: /images/covers/62b91c475ac9d879.webp
 album_url: https://photos.app.goo.gl/g9NE1vFCfDWfuSXN9
 ---
 

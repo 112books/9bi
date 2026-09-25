@@ -9,7 +9,7 @@ tags:
 - joan linux
 - llibre
 cover:
-  image: images/covers/c0c6ce6fb3df195a.webp
+  image: /images/covers/c0c6ce6fb3df195a.webp
 album_url: https://photos.app.goo.gl/JYTkMP1VCvq8VJQW9
 ---
 

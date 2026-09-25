@@ -9,7 +9,7 @@ tags:
 - Mocebares
 - música
 cover:
-  image: images/covers/c628ca18347c4415.webp
+  image: /images/covers/c628ca18347c4415.webp
 album_url: https://photos.app.goo.gl/RU11A6Hi1i33JCTs8
 ---
 

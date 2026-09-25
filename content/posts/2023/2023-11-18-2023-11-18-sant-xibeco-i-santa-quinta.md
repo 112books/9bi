@@ -11,7 +11,7 @@ tags:
 - sant xibeco
 - santa quinta
 cover:
-  image: images/covers/2fdc7528b04e0896.webp
+  image: /images/covers/2fdc7528b04e0896.webp
 album_url: https://photos.app.goo.gl/4s3EKc7wm4ZgC2AX7
 ---
 

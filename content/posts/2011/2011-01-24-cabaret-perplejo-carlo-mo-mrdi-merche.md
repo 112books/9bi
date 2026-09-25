@@ -10,7 +10,7 @@ tags:
 - clown
 - manel sala ulls
 cover:
-  image: images/covers/6864ecf9bca7effa.webp
+  image: /images/covers/6864ecf9bca7effa.webp
 album_url: http://picasaweb.google.com/ulls2006/CabaretPerplejoCarloMoMrDiMerche8aYCristiGarboAlmazen?feat=embedwebsite
 ---
 

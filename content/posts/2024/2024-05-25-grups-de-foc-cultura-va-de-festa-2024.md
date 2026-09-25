@@ -11,7 +11,7 @@ tags:
 - STA
 - foc
 cover:
-  image: images/covers/04fd7bdcf9d0b845.webp
+  image: /images/covers/04fd7bdcf9d0b845.webp
 album_url: https://photos.app.goo.gl/ZGJEPNfrKizgGeBs5
 ---
 

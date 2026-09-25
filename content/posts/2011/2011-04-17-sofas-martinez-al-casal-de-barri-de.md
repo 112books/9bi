@@ -9,7 +9,7 @@ tags:
 - linuxbcn
 - sofas martinez
 cover:
-  image: images/covers/87ab3fc89c0cf9d2.webp
+  image: /images/covers/87ab3fc89c0cf9d2.webp
 album_url: https://picasaweb.google.com/linuxbcn/SofasMartinez150411?feat=embedwebsite
 ---
 

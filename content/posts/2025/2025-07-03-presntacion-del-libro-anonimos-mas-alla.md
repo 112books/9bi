@@ -11,7 +11,7 @@ tags:
 - Mario
 - art
 cover:
-  image: images/covers/a183e849df5d6e70.webp
+  image: /images/covers/a183e849df5d6e70.webp
 album_url: https://photos.app.goo.gl/EUPXJZTTdrycHbsDA
 ---
 

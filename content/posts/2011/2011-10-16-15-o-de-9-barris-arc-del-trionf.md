@@ -8,7 +8,7 @@ tags:
 - 9 barris
 - barelona festival blues barcelona
 cover:
-  image: images/covers/2de04c74d8a08171.webp
+  image: /images/covers/2de04c74d8a08171.webp
 album_url: https://photos.app.goo.gl/yxTJLx8gX1bjUb6d6
 ---
 

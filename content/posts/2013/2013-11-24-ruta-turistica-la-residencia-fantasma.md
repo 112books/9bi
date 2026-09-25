@@ -8,7 +8,7 @@ tags:
 - residència fantasma
 - ruta
 cover:
-  image: images/covers/9fb8daf6492dae71.webp
+  image: /images/covers/9fb8daf6492dae71.webp
 album_url: https://picasaweb.google.com/111964096227458093905/SANXIBECODIA3
 ---
 

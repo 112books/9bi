@@ -8,7 +8,7 @@ tags:
 - fiesta
 - STA
 cover:
-  image: images/covers/4f18047d0e3a7330.webp
+  image: /images/covers/4f18047d0e3a7330.webp
 album_url: https://photos.google.com/share/AF1QipPiuNJ8jzkM5NHySrSYzlYZpNdzkO1atWYPLhLmkirHyFvRtVehZ66WR5LNjHY8cQ?hl=es&key=VnRTYTNXMkc2RXRNTWVxVlAxOWx2cFpOTVc2YnB3
 ---
 

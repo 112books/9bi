@@ -11,7 +11,7 @@ tags:
 - la prosperitat
 - harry walker
 cover:
-  image: images/covers/f7944a9a9b0a9460.webp
+  image: /images/covers/f7944a9a9b0a9460.webp
 album_url: https://photos.app.goo.gl/aLJSkXiqjQQe2Fp69
 ---
 

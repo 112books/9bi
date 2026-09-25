@@ -7,7 +7,7 @@ slug: the-flat-pack
 tags:
 - música
 cover:
-  image: images/covers/c64ec9d349eba4d7.webp
+  image: /images/covers/c64ec9d349eba4d7.webp
 album_url: https://photos.app.goo.gl/cLpqJsfgcZNiiYCp2
 ---
 

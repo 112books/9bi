@@ -7,7 +7,7 @@ slug: sopar-dentitats_57
 tags:
 - entitats
 cover:
-  image: images/covers/9ab4e1971bc189f7.webp
+  image: /images/covers/9ab4e1971bc189f7.webp
 album_url: https://photos.app.goo.gl/B2xNcjLXhTrMCK9H7
 ---
 

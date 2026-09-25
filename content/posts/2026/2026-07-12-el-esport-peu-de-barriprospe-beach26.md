@@ -8,7 +8,7 @@ tags:
 - plaça Àngel Pestaña
 - Prospebeach
 cover:
-  image: images/covers/534b58adb5bd9ce3.webp
+  image: /images/covers/534b58adb5bd9ce3.webp
 album_url: https://photos.app.goo.gl/xJFTom4DuQweAd929
 ---
 

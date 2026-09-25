@@ -11,7 +11,7 @@ tags:
 - arbres
 - fotos
 cover:
-  image: images/covers/b2da85c236824e06.webp
+  image: /images/covers/b2da85c236824e06.webp
 album_url: https://picasaweb.google.com/111964096227458093905/ArbresGuarnitsPerLaFestaMajor?authuser=0&amp;feat=embedwebsite
 ---
 

@@ -7,7 +7,7 @@ slug: 11-aniversari-de-la-residencia-porta
 tags:
 - avis
 cover:
-  image: images/covers/e9f0dd9b6a476507.webp
+  image: /images/covers/e9f0dd9b6a476507.webp
 album_url: https://picasaweb.google.com/115452009915421757608/11AniversariDeLaResidenciaPorta?authuser=0&feat=embedwebsite
 ---
 

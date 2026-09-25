@@ -7,7 +7,7 @@ slug: tortilla-kalimontxada-la-noche
 tags:
 - música
 cover:
-  image: images/covers/d50e9c596e416fb9.webp
+  image: /images/covers/d50e9c596e416fb9.webp
 album_url: https://photos.app.goo.gl/cdVTmV2oT1JKNfby9
 ---
 

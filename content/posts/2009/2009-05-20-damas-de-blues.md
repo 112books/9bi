@@ -10,7 +10,7 @@ tags:
 - DOAN
 - IMAGEN BLUE
 cover:
-  image: images/covers/45f7d693108be1fa.webp
+  image: /images/covers/45f7d693108be1fa.webp
 album_url: http://picasaweb.google.es/Perdo.Garcia/LATEORIADELTABURETE?feat=embedwebsite
 ---
 

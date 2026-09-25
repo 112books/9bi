@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - Pepe Camacho
 cover:
-  image: images/covers/3eecbe6f865bc787.webp
+  image: /images/covers/3eecbe6f865bc787.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutSicalAmbIzaPepeCamacho?authuser=0&feat=embedwebsite
 ---
 

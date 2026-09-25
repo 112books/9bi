@@ -10,7 +10,7 @@ tags:
 - fotografia
 - teatre
 cover:
-  image: images/covers/e3ca6f6f4e17cbfb.webp
+  image: /images/covers/e3ca6f6f4e17cbfb.webp
 album_url: https://photos.app.goo.gl/RaDp2FpyEh76tateA
 ---
 

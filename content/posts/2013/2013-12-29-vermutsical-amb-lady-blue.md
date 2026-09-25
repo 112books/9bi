@@ -9,7 +9,7 @@ tags:
 - lady blues
 - vermut sical
 cover:
-  image: images/covers/a25bc0fb437a6c8a.webp
+  image: /images/covers/a25bc0fb437a6c8a.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutSicalAmbLadyBlue?authuser=0&feat=embedwebsite
 ---
 

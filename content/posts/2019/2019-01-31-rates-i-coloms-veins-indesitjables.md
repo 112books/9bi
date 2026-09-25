@@ -11,7 +11,7 @@ tags:
 - Reocupació
 - Ocupació
 cover:
-  image: images/covers/424855f73e611224.webp
+  image: /images/covers/424855f73e611224.webp
 album_url: https://photos.app.goo.gl/GhMCbFT1r1rbGyy27
 ---
 

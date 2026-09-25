@@ -7,7 +7,7 @@ slug: arriba-el-periodico-de-les-festes
 tags:
 - FESTA
 cover:
-  image: images/covers/a280bcb779f95161.webp
+  image: /images/covers/a280bcb779f95161.webp
 album_url: https://picasaweb.google.com/111964096227458093905/6286836137266593425?authuser=0&feat=embedwebsite
 ---
 

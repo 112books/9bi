@@ -11,7 +11,7 @@ tags:
 - exposició
 - roquetes
 cover:
-  image: images/covers/58c704c5ce8f02e5.webp
+  image: /images/covers/58c704c5ce8f02e5.webp
 album_url: https://picasaweb.google.com/110015855395179205688/EXPOSICIOFOTOGRAFICANOUBARRISENFESTES?authuser=0&feat=embedwebsite
 ---
 

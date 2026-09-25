@@ -8,7 +8,7 @@ tags:
 - Escalabirras
 - nico
 cover:
-  image: images/covers/c54ce938aced0ac5.webp
+  image: /images/covers/c54ce938aced0ac5.webp
 album_url: https://photos.app.goo.gl/Wha8gptG83Jcyn2cA
 ---
 

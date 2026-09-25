@@ -7,7 +7,7 @@ slug: pren-laire
 tags:
 - fotografia
 cover:
-  image: images/covers/7302a76e58534d83.webp
+  image: /images/covers/7302a76e58534d83.webp
 album_url: https://picasaweb.google.com/115791131166530059320/PRENLAIRE?authuser=0&feat=embedwebsite
 ---
 

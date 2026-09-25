@@ -11,7 +11,7 @@ tags:
 - nico
 - STA
 cover:
-  image: images/covers/d880c9ec005974d6.webp
+  image: /images/covers/d880c9ec005974d6.webp
 album_url: https://goo.gl/photos/KG2CpTeYC2nBPNa67
 ---
 

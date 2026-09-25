@@ -11,7 +11,7 @@ tags:
 - Xerrada
 - prospe
 cover:
-  image: images/covers/d27019a46787f10e.webp
+  image: /images/covers/d27019a46787f10e.webp
 album_url: https://photos.app.goo.gl/MAqODhLTKjlf3VID3
 ---
 

@@ -10,7 +10,7 @@ tags:
 - beach
 - prospe beach 2017
 cover:
-  image: images/covers/4bbb541850c6fa3d.webp
+  image: /images/covers/4bbb541850c6fa3d.webp
 album_url: https://goo.gl/photos/wAnQ7xf4tdvQLiYeA
 ---
 

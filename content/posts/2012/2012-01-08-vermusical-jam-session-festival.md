@@ -9,7 +9,7 @@ tags:
 - joan.linuxbcn.com
 - vermut sical
 cover:
-  image: images/covers/6d81b2af923ec3b1.webp
+  image: /images/covers/6d81b2af923ec3b1.webp
 album_url: https://picasaweb.google.com/linuxbcn/VermusicalJamSessionFestival?authuser=0&feat=embedwebsite
 ---
 

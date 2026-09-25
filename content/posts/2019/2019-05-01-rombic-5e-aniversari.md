@@ -11,7 +11,7 @@ tags:
 - activitats
 - roquetes
 cover:
-  image: images/covers/9fae4aab1f4253df.webp
+  image: /images/covers/9fae4aab1f4253df.webp
 album_url: https://photos.app.goo.gl/bwrX4M3EfiRvtTVj7
 ---
 

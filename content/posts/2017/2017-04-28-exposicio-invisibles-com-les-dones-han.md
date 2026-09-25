@@ -11,7 +11,7 @@ tags:
 - entitats
 - vistes
 cover:
-  image: images/covers/2e206832868ee4c1.webp
+  image: /images/covers/2e206832868ee4c1.webp
 album_url: https://goo.gl/photos/D8ymXLaWdiDeYN8R9
 ---
 

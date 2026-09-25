@@ -7,7 +7,7 @@ slug: 25-aniversaro-ser-jove-no-es-cap
 tags:
 - Casal de barri Prosperitat
 cover:
-  image: images/covers/a277723e92e16eb4.webp
+  image: /images/covers/a277723e92e16eb4.webp
 album_url: https://picasaweb.google.com/103138221614479310970/25AniversaroSerJoveNoEsCapDelicte?authuser=0&feat=embedwebsite
 ---
 

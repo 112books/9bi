@@ -7,7 +7,7 @@ slug: passejada-fotografica-per-roquetes
 tags:
 - grup foto roquetes
 cover:
-  image: images/covers/d16ecdcd98e029e4.webp
+  image: /images/covers/d16ecdcd98e029e4.webp
 album_url: https://picasaweb.google.com/110015855395179205688/FOTOWALKPERROQUETES2015?authuser=0&feat=embedwebsite
 ---
 

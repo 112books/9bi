@@ -7,7 +7,7 @@ slug: al-formentera
 tags:
 - fotografia
 cover:
-  image: images/covers/d48a273257458c16.webp
+  image: /images/covers/d48a273257458c16.webp
 album_url: https://photos.app.goo.gl/B9ijgSj7hAEf3Dvk8
 ---
 

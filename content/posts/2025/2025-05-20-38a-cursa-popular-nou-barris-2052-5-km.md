@@ -11,7 +11,7 @@ tags:
 - barri
 - pop
 cover:
-  image: images/covers/56cc9d509944a94f.webp
+  image: /images/covers/56cc9d509944a94f.webp
 album_url: https://photos.app.goo.gl/Zyu5tg9dFyUXgFZh9
 ---
 

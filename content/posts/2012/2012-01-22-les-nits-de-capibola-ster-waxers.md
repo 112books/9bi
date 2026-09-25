@@ -9,7 +9,7 @@ tags:
 - les nits de Capibila
 - Ster and The Waxers
 cover:
-  image: images/covers/fad074b6dd8346f9.webp
+  image: /images/covers/fad074b6dd8346f9.webp
 album_url: https://picasaweb.google.com/linuxbcn/LesNitsDeCapibolaSterTheWaxers?authuser=0&feat=embedwebsite
 ---
 

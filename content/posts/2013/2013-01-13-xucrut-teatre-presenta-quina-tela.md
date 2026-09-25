@@ -11,7 +11,7 @@ tags:
 - teatre
 - Xucrut Teatre
 cover:
-  image: images/covers/26427da256aca684.webp
+  image: /images/covers/26427da256aca684.webp
 album_url: https://picasaweb.google.com/103138221614479310970/XucrutTeatrePresentaQuinaTela?authuser=0&feat=embedwebsite
 ---
 

@@ -9,7 +9,7 @@ tags:
 - joan.linuxbcn.com
 - Stoned by Truckers
 cover:
-  image: images/covers/0c00de261d0abd21.webp
+  image: /images/covers/0c00de261d0abd21.webp
 album_url: https://picasaweb.google.com/103138221614479310970/StonedByTruckers?authuser=0&feat=embedwebsite
 ---
 

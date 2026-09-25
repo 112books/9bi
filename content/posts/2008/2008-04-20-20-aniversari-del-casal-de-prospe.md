@@ -12,7 +12,7 @@ tags:
 - música
 - Ángel Pestanya
 cover:
-  image: images/covers/e677ca551898fb99.webp
+  image: /images/covers/e677ca551898fb99.webp
 album_url: https://photos.app.goo.gl/VFDyrhqBpuyHUJ9p8
 ---
 

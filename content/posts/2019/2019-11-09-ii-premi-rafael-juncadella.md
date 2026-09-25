@@ -8,7 +8,7 @@ tags:
 - escola_antaviana
 - Òmnium Cultural Nou Barris
 cover:
-  image: images/covers/016d58f723dacec2.webp
+  image: /images/covers/016d58f723dacec2.webp
 album_url: https://photos.google.com/share/AF1QipPoHHaVoUgVm_8LqDpezhdfV1TgZKtA2OVwXdYkl1Ze2I4__rx3LYeBkhjiFJXItg?key=N2ZrLTd5Mjd1WWU2SzY1ZU9sUVpoS0NWQ2dsb2NR
 ---
 

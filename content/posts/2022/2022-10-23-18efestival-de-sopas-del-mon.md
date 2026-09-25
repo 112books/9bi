@@ -9,7 +9,7 @@ tags:
 - Festival de sopas del mon
 - sopes
 cover:
-  image: images/covers/5b9c98c82e63f9a3.webp
+  image: /images/covers/5b9c98c82e63f9a3.webp
 album_url: https://photos.app.goo.gl/4xUHuc7bYMtC42s59
 ---
 

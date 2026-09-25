@@ -10,7 +10,7 @@ tags:
 - nit d'ànimes
 - terrror
 cover:
-  image: images/covers/ada822f31de9af00.webp
+  image: /images/covers/ada822f31de9af00.webp
 album_url: https://photos.app.goo.gl/xAoQ8mN8mUw78ckW8
 ---
 

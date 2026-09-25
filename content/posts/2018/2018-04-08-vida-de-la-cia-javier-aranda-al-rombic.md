@@ -11,7 +11,7 @@ tags:
 - popular
 - fotos
 cover:
-  image: images/covers/53a33e82868d5d41.webp
+  image: /images/covers/53a33e82868d5d41.webp
 album_url: https://photos.app.goo.gl/9oM8FgQgHsxgfzR52
 ---
 

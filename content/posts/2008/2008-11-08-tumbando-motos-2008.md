@@ -9,7 +9,7 @@ tags:
 - linuxbcn
 - radio linea 4
 cover:
-  image: images/covers/f5a65b166b4641ca.webp
+  image: /images/covers/f5a65b166b4641ca.webp
 album_url: https://photos.app.goo.gl/LVm9qhfCNUX4TA1g7
 ---
 

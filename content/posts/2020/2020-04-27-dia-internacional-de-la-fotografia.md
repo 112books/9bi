@@ -11,7 +11,7 @@ tags:
 - pinhole
 - inuxbcn
 cover:
-  image: images/covers/c2ad811be7c76bc5.webp
+  image: /images/covers/c2ad811be7c76bc5.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

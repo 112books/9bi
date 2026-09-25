@@ -8,7 +8,7 @@ tags:
 - festes de prospe
 - prospefesta16
 cover:
-  image: images/covers/00964ed10e56754a.webp
+  image: /images/covers/00964ed10e56754a.webp
 album_url: https://picasaweb.google.com/115791131166530059320/6290459382051449553?authuser=0&feat=embedwebsite
 ---
 

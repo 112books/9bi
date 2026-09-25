@@ -11,7 +11,7 @@ tags:
 - arbusto
 - concurs
 cover:
-  image: images/covers/1dc68a544af88227.webp
+  image: /images/covers/1dc68a544af88227.webp
 album_url: https://picasaweb.google.com/103138221614479310970/ElArtustoConcursDeMaquetesDivendres?authuser=0&feat=embedwebsite
 ---
 

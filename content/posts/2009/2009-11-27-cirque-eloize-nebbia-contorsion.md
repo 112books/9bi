@@ -12,7 +12,7 @@ tags:
 - temporada alta
 - zirkolika revista de circ
 cover:
-  image: images/covers/0912f2e4238ff1b1.webp
+  image: /images/covers/0912f2e4238ff1b1.webp
 album_url: http://picasaweb.google.es/ulls2006/CirqueEloizeNebbiaContorsion?feat=embedwebsite
 ---
 

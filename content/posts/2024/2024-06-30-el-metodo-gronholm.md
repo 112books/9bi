@@ -8,7 +8,7 @@ tags:
 - música
 - fotografia
 cover:
-  image: images/covers/52e619b6711cc0dd.webp
+  image: /images/covers/52e619b6711cc0dd.webp
 album_url: https://photos.app.goo.gl/yQxqstQqcEs3nqnw8
 ---
 

@@ -9,7 +9,7 @@ tags:
 - ball
 - STA
 cover:
-  image: images/covers/b27ad6cfd21f3def.webp
+  image: /images/covers/b27ad6cfd21f3def.webp
 album_url: https://picasaweb.google.com/102149297277529522464/PETITSMALAVARISTASGRANSBALLARINS03?authuser=0&feat=embedwebsite
 ---
 

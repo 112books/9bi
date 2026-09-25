@@ -9,7 +9,7 @@ tags:
 - Barcelona
 - Can Peguera
 cover:
-  image: images/covers/6487b5b47f28de0f.webp
+  image: /images/covers/6487b5b47f28de0f.webp
 album_url: https://picasaweb.google.com/103138221614479310970/CanPegueraDesDelCel?authuser=0&feat=embedwebsite
 ---
 

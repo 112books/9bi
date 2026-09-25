@@ -11,7 +11,7 @@ tags:
 - Lluís Coloma
 - masterclass
 cover:
-  image: images/covers/2ffb205bfb9bd82f.webp
+  image: /images/covers/2ffb205bfb9bd82f.webp
 album_url: https://photos.app.goo.gl/k8M4S4xdrPB8JipT9
 ---
 

@@ -11,7 +11,7 @@ tags:
 - incendi
 - nou barris
 cover:
-  image: images/covers/24b926d2efd903e2.webp
+  image: /images/covers/24b926d2efd903e2.webp
 album_url: https://photos.app.goo.gl/F1DGxEKVn34J37CeA
 ---
 

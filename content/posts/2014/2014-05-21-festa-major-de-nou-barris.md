@@ -11,7 +11,7 @@ tags:
 - FESTA
 - barri
 cover:
-  image: images/covers/d78cecab6fc3ec09.webp
+  image: /images/covers/d78cecab6fc3ec09.webp
 album_url: https://picasaweb.google.com/102149297277529522464/DEFESTESPELBARRI?authuser=0&feat=embedwebsite
 ---
 

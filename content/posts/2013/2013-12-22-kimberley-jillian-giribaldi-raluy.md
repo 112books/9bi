@@ -10,7 +10,7 @@ tags:
 - circ
 - bcn
 cover:
-  image: images/covers/ccebdc364ae6c59a.webp
+  image: /images/covers/ccebdc364ae6c59a.webp
 album_url: https://picasaweb.google.com/100268695753733554853/KimberleyJillianGiribaldiRaluy?authuser=0&amp;feat=embedwebsite
 ---
 

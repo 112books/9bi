@@ -11,7 +11,7 @@ tags:
 - STA
 - foc
 cover:
-  image: images/covers/4844ceed6ff61969.webp
+  image: /images/covers/4844ceed6ff61969.webp
 album_url: https://picasaweb.google.com/102149297277529522464/ELFOCDEFIDEFESTA?authuser=0&feat=embedwebsite
 ---
 

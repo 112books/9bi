@@ -10,7 +10,7 @@ tags:
 - Festival blues
 - música
 cover:
-  image: images/covers/f9a7a900e10528f2.webp
+  image: /images/covers/f9a7a900e10528f2.webp
 album_url: https://photos.app.goo.gl/mACnKN2xpNuCjAzA8
 ---
 

@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - maquetes
 cover:
-  image: images/covers/e7d8c8753cfb9e83.webp
+  image: /images/covers/e7d8c8753cfb9e83.webp
 album_url: https://photos.app.goo.gl/9uoizy8JNacbUJLSA
 ---
 

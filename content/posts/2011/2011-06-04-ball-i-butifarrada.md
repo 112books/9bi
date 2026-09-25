@@ -9,7 +9,7 @@ tags:
 - ball
 - butifarrada
 cover:
-  image: images/covers/2c67d164a5b1d22b.webp
+  image: /images/covers/2c67d164a5b1d22b.webp
 album_url: https://picasaweb.google.com/Perdo.Garcia/BotifarradaIBall?feat=embedwebsite
 ---
 

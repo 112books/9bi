@@ -12,7 +12,7 @@ tags:
 - jam session
 - linuxbcn
 cover:
-  image: images/covers/bed251c12773d2a5.webp
+  image: /images/covers/bed251c12773d2a5.webp
 album_url: https://photos.app.goo.gl/6t5mcmyMQa6LVUTe6
 ---
 

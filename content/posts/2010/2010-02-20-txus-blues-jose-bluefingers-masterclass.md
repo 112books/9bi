@@ -11,7 +11,7 @@ tags:
 - les nits de Capibila
 - linuxbcn
 cover:
-  image: images/covers/1daa78a53003351e.webp
+  image: /images/covers/1daa78a53003351e.webp
 album_url: https://photos.app.goo.gl/cSUhMqF34MAQWyqx8
 ---
 

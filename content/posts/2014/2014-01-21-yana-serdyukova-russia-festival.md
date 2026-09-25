@@ -10,7 +10,7 @@ tags:
 - circ
 - ciu
 cover:
-  image: images/covers/56da1723725b70bf.webp
+  image: /images/covers/56da1723725b70bf.webp
 album_url: https://picasaweb.google.com/100268695753733554853/YanaSerdyukovaRussiaFestivalInternacionalDelCircCiutatDeFigueres2013?authuser=0&amp;feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - 9barris acull
 - participació
 cover:
-  image: images/covers/a2e84afee1a2f7d3.webp
+  image: /images/covers/a2e84afee1a2f7d3.webp
 album_url: https://photos.app.goo.gl/j146rr9VQokWms2t8
 ---
 

@@ -8,7 +8,7 @@ tags:
 - 9 barris acull
 - festival de sopes del món
 cover:
-  image: images/covers/1bab18a8df577b39.webp
+  image: /images/covers/1bab18a8df577b39.webp
 album_url: https://picasaweb.google.com/116805523004990742624/FestivalSopes2014?authuser=0&authkey=Gv1sRgCMi-9siR-vLlHQ&feat=embedwebsite
 ---
 

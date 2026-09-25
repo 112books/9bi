@@ -11,7 +11,7 @@ tags:
 - casal de barri
 - 9barrisimatge
 cover:
-  image: images/covers/d5d0a455b2949771.webp
+  image: /images/covers/d5d0a455b2949771.webp
 album_url: https://photos.app.goo.gl/tz5ufjmeVAR1YC6v9
 ---
 

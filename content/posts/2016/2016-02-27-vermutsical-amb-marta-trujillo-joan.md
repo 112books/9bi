@@ -9,7 +9,7 @@ tags:
 - art
 - mar
 cover:
-  image: images/covers/b9b10f3152d6d8fc.webp
+  image: /images/covers/b9b10f3152d6d8fc.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutsicalAmbMartaTrujilloJoanUrpinell?authuser=0&feat=embedwebsite
 ---
 

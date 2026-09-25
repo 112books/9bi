@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - castanyada
 cover:
-  image: images/covers/5b788565a53e5da4.webp
+  image: /images/covers/5b788565a53e5da4.webp
 album_url: https://goo.gl/photos/ijKYZGqzLUo3xmpA7
 ---
 

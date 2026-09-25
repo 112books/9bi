@@ -9,7 +9,7 @@ tags:
 - festes
 - paella
 cover:
-  image: images/covers/b6b8dc3f7876b7af.webp
+  image: /images/covers/b6b8dc3f7876b7af.webp
 album_url: https://flic.kr/s/aHsm2p4DwY
 ---
 

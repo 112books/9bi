@@ -10,7 +10,7 @@ tags:
 - nico
 - STA
 cover:
-  image: images/covers/1ad2f584fbec221c.webp
+  image: /images/covers/1ad2f584fbec221c.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

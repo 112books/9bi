@@ -11,7 +11,7 @@ tags:
 - exposició
 - Homenatge
 cover:
-  image: images/covers/340ce9ca2194ced5.webp
+  image: /images/covers/340ce9ca2194ced5.webp
 album_url: https://photos.app.goo.gl/HtBhnaQkrjytyQD16
 ---
 

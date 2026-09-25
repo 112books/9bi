@@ -7,7 +7,7 @@ slug: masterclass-amb-fulvio-paredes
 tags:
 - masterclass
 cover:
-  image: images/covers/8bbb37d5e652c54d.webp
+  image: /images/covers/8bbb37d5e652c54d.webp
 album_url: https://photos.app.goo.gl/tzWCEeJQqYYZeZfy6
 ---
 

@@ -9,7 +9,7 @@ tags:
 - ball
 - ruta
 cover:
-  image: images/covers/a36d319e776ce482.webp
+  image: /images/covers/a36d319e776ce482.webp
 album_url: https://picasaweb.google.com/110015855395179205688/TARDADECIRCIBALL?authuser=0&feat=embedwebsite
 ---
 

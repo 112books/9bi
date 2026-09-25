@@ -11,7 +11,7 @@ tags:
 - festes
 - diari
 cover:
-  image: images/covers/738bf458a5010bd2.webp
+  image: /images/covers/738bf458a5010bd2.webp
 album_url: https://picasaweb.google.com/103138221614479310970/PresentacioDiariDeFestesAmbMocebares?authuser=0&feat=embedwebsite
 ---
 

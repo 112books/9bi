@@ -11,7 +11,7 @@ tags:
 - expo
 - mar
 cover:
-  image: images/covers/5ffbad502418b3b5.webp
+  image: /images/covers/5ffbad502418b3b5.webp
 album_url: https://photos.app.goo.gl/XdkXwNPy0jur06682
 ---
 

@@ -10,7 +10,7 @@ tags:
 - festes de prospe
 - inmortales
 cover:
-  image: images/covers/b3edf24b982d76cd.webp
+  image: /images/covers/b3edf24b982d76cd.webp
 album_url: https://photos.app.goo.gl/A6Pd6gPkMRu7MoV78
 ---
 

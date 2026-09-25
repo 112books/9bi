@@ -8,7 +8,7 @@ tags:
 - fiesta
 - fin de ramadan
 cover:
-  image: images/covers/19fa1938bd64c3af.webp
+  image: /images/covers/19fa1938bd64c3af.webp
 album_url: http://picasaweb.google.com/Perdo.Garcia/UltimaImportacion?feat=embedwebsit
 ---
 

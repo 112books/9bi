@@ -9,7 +9,7 @@ tags:
 - música
 - art
 cover:
-  image: images/covers/b7c9afab00ff0322.webp
+  image: /images/covers/b7c9afab00ff0322.webp
 album_url: https://picasaweb.google.com/103138221614479310970/MusicaParticipativaSetembre2014?authuser=0&feat=embedwebsite
 ---
 

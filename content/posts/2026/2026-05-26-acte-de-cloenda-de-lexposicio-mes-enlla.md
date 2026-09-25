@@ -11,7 +11,7 @@ tags:
 - la prosperitat
 - Prosperitat
 cover:
-  image: images/covers/35ecae82061f55d4.webp
+  image: /images/covers/35ecae82061f55d4.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

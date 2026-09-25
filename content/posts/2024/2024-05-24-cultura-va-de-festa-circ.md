@@ -11,7 +11,7 @@ tags:
 - circ
 - STA
 cover:
-  image: images/covers/524196a8edc0b170.webp
+  image: /images/covers/524196a8edc0b170.webp
 album_url: https://photos.app.goo.gl/fKBu8xP5RPfpEypG6
 ---
 

@@ -10,7 +10,7 @@ tags:
 - Sala Apolo
 - Tarantula
 cover:
-  image: images/covers/2974a93186e4f447.webp
+  image: /images/covers/2974a93186e4f447.webp
 album_url: https://photos.app.goo.gl/vjr96rgi4u7oqHyKA
 ---
 

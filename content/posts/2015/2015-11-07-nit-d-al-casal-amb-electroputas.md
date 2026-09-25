@@ -8,7 +8,7 @@ tags:
 - CASAL
 - casa
 cover:
-  image: images/covers/424134807eb38e0b.webp
+  image: /images/covers/424134807eb38e0b.webp
 album_url: https://picasaweb.google.com/103138221614479310970/NitDAnimesAlCasalAmbElectroPutas?authuser=0&feat=embedwebsite
 ---
 

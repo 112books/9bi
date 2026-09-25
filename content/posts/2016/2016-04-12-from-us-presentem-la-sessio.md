@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - fotografies
 cover:
-  image: images/covers/ddcfa0c9d287a56f.webp
+  image: /images/covers/ddcfa0c9d287a56f.webp
 album_url: https://picasaweb.google.com/115837747848659272017/DishowsTeatre07042016?authuser=0&amp;feat=embedwebsite
 ---
 

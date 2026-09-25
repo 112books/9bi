@@ -8,7 +8,7 @@ tags:
 - dishows
 - cabaret
 cover:
-  image: images/covers/bcb2596a625118b4.webp
+  image: /images/covers/bcb2596a625118b4.webp
 album_url: https://picasaweb.google.com/103138221614479310970/DiShowsCabaretJinYang?authuser=0&feat=embedwebsite
 ---
 

@@ -8,7 +8,7 @@ tags:
 - ABSURDO
 - teatro
 cover:
-  image: images/covers/c0bd2e6a4c443e17.webp
+  image: /images/covers/c0bd2e6a4c443e17.webp
 album_url: https://picasaweb.google.com/Perdo.Garcia/CiaDelirium?authuser=0&feat=embedwebsite
 ---
 

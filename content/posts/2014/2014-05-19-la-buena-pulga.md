@@ -11,7 +11,7 @@ tags:
 - inspirate
 - rescat
 cover:
-  image: images/covers/542a4c698efed211.webp
+  image: /images/covers/542a4c698efed211.webp
 album_url: https://picasaweb.google.com/115791131166530059320/LABUENAPULGA?authuser=0&feat=embedwebsite
 ---
 

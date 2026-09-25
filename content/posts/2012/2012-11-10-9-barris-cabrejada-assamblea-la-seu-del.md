@@ -8,7 +8,7 @@ tags:
 - Seu del disctricte de Nou Barris
 - veïns
 cover:
-  image: images/covers/8e4974b80085fc8c.webp
+  image: /images/covers/8e4974b80085fc8c.webp
 album_url: https://picasaweb.google.com/103138221614479310970/9BarrisCabrejadaAssambleaALaSeuDelDistricteDe9Barris?authuser=0&amp;feat=embedwebsite
 ---
 

@@ -8,7 +8,7 @@ tags:
 - 9barris acull
 - fin de ramadan
 cover:
-  image: images/covers/45defeb52afc063c.webp
+  image: /images/covers/45defeb52afc063c.webp
 album_url: http://picasaweb.google.es/Perdo.Garcia/FiestaFinDelRamadan?feat=embedwebsite
 ---
 

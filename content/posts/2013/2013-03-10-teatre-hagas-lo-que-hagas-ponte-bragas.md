@@ -10,7 +10,7 @@ tags:
 - joan.linuxbcn.com
 - teatre
 cover:
-  image: images/covers/050edc66dcb34089.webp
+  image: /images/covers/050edc66dcb34089.webp
 album_url: https://picasaweb.google.com/103138221614479310970/HagasLoQueHagasPonteBragas?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - gente
 - rock
 cover:
-  image: images/covers/966b93aec2cea367.webp
+  image: /images/covers/966b93aec2cea367.webp
 album_url: https://photos.app.goo.gl/UrNEXWSMSUTtrB3g8
 ---
 

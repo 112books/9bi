@@ -10,7 +10,7 @@ tags:
 - ball
 - art
 cover:
-  image: images/covers/b4867f64270e1aad.webp
+  image: /images/covers/b4867f64270e1aad.webp
 album_url: https://photos.app.goo.gl/Z2k4SSWqC8xoeJN28
 ---
 

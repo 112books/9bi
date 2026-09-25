@@ -9,7 +9,7 @@ tags:
 - festa major
 - Prosperitat
 cover:
-  image: images/covers/2299714973d20990.webp
+  image: /images/covers/2299714973d20990.webp
 album_url: http://picasaweb.google.es/ulls1963/StoyKeTrino/photo#5207283260470838962
 ---
 

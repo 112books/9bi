@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - Barcelona
 cover:
-  image: images/covers/31641c51077478fc.webp
+  image: /images/covers/31641c51077478fc.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestesDeProsperitatBigBandDeLEscolaTallerDeBluesDeBarcelona?authuser=0&feat=embedwebsite
 ---
 

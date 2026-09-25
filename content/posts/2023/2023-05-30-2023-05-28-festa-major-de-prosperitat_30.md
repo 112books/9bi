@@ -10,7 +10,7 @@ tags:
 - inmortales
 - rock
 cover:
-  image: images/covers/f1382b36dc330dbc.webp
+  image: /images/covers/f1382b36dc330dbc.webp
 album_url: https://photos.app.goo.gl/QVf8QsLqaNHtDrdy6
 ---
 

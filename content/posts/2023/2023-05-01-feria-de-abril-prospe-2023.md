@@ -8,7 +8,7 @@ tags:
 - Feria de Abril
 - prospe
 cover:
-  image: images/covers/c6444e7e7a245e29.webp
+  image: /images/covers/c6444e7e7a245e29.webp
 album_url: https://photos.app.goo.gl/W3Z1gVapUVcgaLLu7
 ---
 

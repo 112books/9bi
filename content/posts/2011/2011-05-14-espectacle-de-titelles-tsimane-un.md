@@ -9,7 +9,7 @@ tags:
 - linuxbcn
 - titelles
 cover:
-  image: images/covers/fbe8ef744a7b4383.webp
+  image: /images/covers/fbe8ef744a7b4383.webp
 album_url: https://picasaweb.google.com/linuxbcn/EspectacleDeTitellesTsimaneUnViatgeALAmazonia?authkey=Gv1sRgCM3ey92tnbGLIg&feat=embedwebsite
 ---
 

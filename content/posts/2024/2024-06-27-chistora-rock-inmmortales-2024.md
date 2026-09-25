@@ -7,7 +7,7 @@ slug: chistora-rock-inmmortales-2024
 tags:
 - rock
 cover:
-  image: images/covers/cf93b92259abe200.webp
+  image: /images/covers/cf93b92259abe200.webp
 album_url: https://photos.app.goo.gl/wuUCgiGZ4r1ebpgdA
 ---
 

@@ -13,7 +13,7 @@ tags:
 - promosalut
 - Prosperitat
 cover:
-  image: images/covers/f445f67738d10c43.webp
+  image: /images/covers/f445f67738d10c43.webp
 album_url: https://photos.app.goo.gl/cnuXpNpDk5pf92Cx5
 ---
 

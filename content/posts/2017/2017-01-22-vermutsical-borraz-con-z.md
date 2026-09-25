@@ -7,7 +7,7 @@ slug: vermutsical-borraz-con-z
 tags:
 - vermutsical
 cover:
-  image: images/covers/6b0b3206d24bf789.webp
+  image: /images/covers/6b0b3206d24bf789.webp
 album_url: https://goo.gl/photos/6Hy2tLq69DNwF53dA
 ---
 

@@ -12,7 +12,7 @@ tags:
 - africa
 - dansa
 cover:
-  image: images/covers/90f371fda81c3382.webp
+  image: /images/covers/90f371fda81c3382.webp
 album_url: https://picasaweb.google.com/100268695753733554853/RichMetikuEtiopia1erFestivalInternacionalDelCircCastellDeFigueres2012PremiDeBronze?authuser=0&amp;feat=embedwebsite
 ---
 

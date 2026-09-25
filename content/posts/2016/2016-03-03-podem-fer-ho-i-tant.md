@@ -10,7 +10,7 @@ tags:
 - expo
 - STA
 cover:
-  image: images/covers/d5f512d69d3749d7.webp
+  image: /images/covers/d5f512d69d3749d7.webp
 album_url: https://picasaweb.google.com/110015855395179205688/PodemFerHo?authuser=0&feat=embedwebsite
 ---
 

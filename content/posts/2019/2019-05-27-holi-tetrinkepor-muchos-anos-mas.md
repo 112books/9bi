@@ -8,7 +8,7 @@ tags:
 - festa holi
 - festa prospe 2019
 cover:
-  image: images/covers/0f1c25240503a12c.webp
+  image: /images/covers/0f1c25240503a12c.webp
 album_url: https://photos.google.com/share/AF1QipNksD3KIVSt66Rv_c23w2Qg4idUav5Rb6Ld6DB9Si71cfP61fVSlBVwPdQAX3k2NA?key=WmdDVHFNdnpoaDJDWXNnSHJ6Q1FYQVQxaGFyY0l3
 ---
 

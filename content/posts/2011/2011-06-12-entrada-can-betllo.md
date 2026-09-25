@@ -10,7 +10,7 @@ tags:
 - labordeta
 - sants
 cover:
-  image: images/covers/e5396d32a967d058.webp
+  image: /images/covers/e5396d32a967d058.webp
 album_url: https://picasaweb.google.com/linuxbcn/EntremACanBatllo?feat=embedwebsite
 ---
 

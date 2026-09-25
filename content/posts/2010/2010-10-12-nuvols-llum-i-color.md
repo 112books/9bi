@@ -9,7 +9,7 @@ tags:
 - manel sala ulls
 - núvols
 cover:
-  image: images/covers/b004fc7cf2e3fd0c.webp
+  image: /images/covers/b004fc7cf2e3fd0c.webp
 album_url: http://picasaweb.google.com/ulls2006/NuvolsLlumIColor?feat=embedwebsite
 ---
 

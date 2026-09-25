@@ -7,7 +7,7 @@ slug: festa-sorpresa-per-la-yoyi
 tags:
 - ateneu popular 9barris
 cover:
-  image: images/covers/1ea2a5b97a20a01c.webp
+  image: /images/covers/1ea2a5b97a20a01c.webp
 album_url: https://photos.google.com/share/AF1QipP5KN4sI3jF69cimEMnQ5okB1CqvULuDbIfr0VPgH-XEL1VGDyZKZ2YMa8PUTe6hw?key=bmthV0ZjQTdCSWZUQThxMTUyRUtSdlhXMXlpN0F3
 ---
 

@@ -8,7 +8,7 @@ tags:
 - festival de sopes
 - festival de sopes del món
 cover:
-  image: images/covers/137add55d2a026ad.webp
+  image: /images/covers/137add55d2a026ad.webp
 album_url: ' https://picasaweb.google.com/116805523004990742624/FestivalDeSopes2015?authuser=0&authkey=Gv1sRgCNqOn8f-_Jn0Pg&feat=embedwebsite '
 ---
 

@@ -9,7 +9,7 @@ tags:
 - Concurs Fotogràfic
 - Zoom Roquetes
 cover:
-  image: images/covers/e37fbcf0a847bef1.webp
+  image: /images/covers/e37fbcf0a847bef1.webp
 album_url: https://goo.gl/photos/eP4y1gMs6RRSCHPT9
 ---
 

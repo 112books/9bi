@@ -11,7 +11,7 @@ tags:
 - verdum
 - juliol
 cover:
-  image: images/covers/66b1c60eed69e4a6.webp
+  image: /images/covers/66b1c60eed69e4a6.webp
 album_url: https://photos.app.goo.gl/QXECntTtmWAiLw8x5
 ---
 

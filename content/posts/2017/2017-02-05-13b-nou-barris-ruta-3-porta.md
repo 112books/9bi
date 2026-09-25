@@ -9,7 +9,7 @@ tags:
 - barri
 - ruta
 cover:
-  image: images/covers/cb7ebd89586fab54.webp
+  image: /images/covers/cb7ebd89586fab54.webp
 album_url: https://goo.gl/photos/Qk4fe97ojyVdYTdQ7
 ---
 

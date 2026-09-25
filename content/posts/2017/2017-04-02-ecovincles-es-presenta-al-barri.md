@@ -8,7 +8,7 @@ tags:
 - casl joves prospe
 - Hort
 cover:
-  image: images/covers/8a8dc795e54a1303.webp
+  image: /images/covers/8a8dc795e54a1303.webp
 album_url: https://goo.gl/photos/UCoNjg3VojvdFF1QA
 ---
 

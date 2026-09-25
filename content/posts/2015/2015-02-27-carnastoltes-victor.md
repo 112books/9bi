@@ -9,7 +9,7 @@ tags:
 - fotografia
 - rafi
 cover:
-  image: images/covers/81be3cb5dcdf8a9e.webp
+  image: /images/covers/81be3cb5dcdf8a9e.webp
 album_url: https://picasaweb.google.com/115791131166530059320/CARNSTOLTES15VICTOR?authuser=0&feat=embedwebsite
 ---
 

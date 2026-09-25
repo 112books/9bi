@@ -10,7 +10,7 @@ tags:
 - fotografia
 - grup foto roquetes
 cover:
-  image: images/covers/f49746556d43404e.webp
+  image: /images/covers/f49746556d43404e.webp
 album_url: https://photos.google.com/share/AF1QipOmSPwzH2W81eTDWamKssl4sceG3kbx4saNMN4w5Jo3u7xD06T9RQj985Y4E9JksA?key=RWNpQXRpaXE4bmd0WUIybWNkYWVvS3I5ajZKaS1B
 ---
 

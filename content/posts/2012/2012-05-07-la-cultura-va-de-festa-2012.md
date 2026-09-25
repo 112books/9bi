@@ -11,7 +11,7 @@ tags:
 - cultura popular
 - guineueta
 cover:
-  image: images/covers/8add0bdff776fb3b.webp
+  image: /images/covers/8add0bdff776fb3b.webp
 album_url: https://picasaweb.google.com/103138221614479310970/LaCulturaVaDeFesta2012?authuser=0&feat=embedwebsite
 ---
 

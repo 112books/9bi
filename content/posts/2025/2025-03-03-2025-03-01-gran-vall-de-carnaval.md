@@ -16,7 +16,7 @@ tags:
 - Orquesta Mitjanit
 - pocallum
 cover:
-  image: images/covers/8387603e2064cc2a.webp
+  image: /images/covers/8387603e2064cc2a.webp
 album_url: https://photos.app.goo.gl/bqBAQr2B42TkdSSq8
 ---
 

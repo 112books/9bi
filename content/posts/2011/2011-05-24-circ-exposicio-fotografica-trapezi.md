@@ -10,7 +10,7 @@ tags:
 - manel sala ulls
 - Trapezi Vilanova i la Geltrú
 cover:
-  image: images/covers/9a32949d3db4a1c6.webp
+  image: /images/covers/9a32949d3db4a1c6.webp
 album_url: https://picasaweb.google.com/lh/photo/VsShv3RgrppjttkDGaLxbA?feat=embedwebsite
 ---
 

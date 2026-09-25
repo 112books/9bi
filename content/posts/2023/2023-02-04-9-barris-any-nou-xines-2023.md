@@ -11,7 +11,7 @@ tags:
 - any nou
 - barri
 cover:
-  image: images/covers/b24b116fa94d054c.webp
+  image: /images/covers/b24b116fa94d054c.webp
 album_url: https://photos.app.goo.gl/jvd2nEndSgKFxjgx9
 ---
 

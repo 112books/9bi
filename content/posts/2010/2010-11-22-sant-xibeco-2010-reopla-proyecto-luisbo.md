@@ -11,7 +11,7 @@ tags:
 - reopla
 - sant xibeco
 cover:
-  image: images/covers/7be80bd8ecf1c086.webp
+  image: /images/covers/7be80bd8ecf1c086.webp
 album_url: https://photos.app.goo.gl/w755VEyCGyBncyJK9
 ---
 

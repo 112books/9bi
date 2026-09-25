@@ -11,7 +11,7 @@ tags:
 - prospe
 - festes
 cover:
-  image: images/covers/a6c3b61cd70386f1.webp
+  image: /images/covers/a6c3b61cd70386f1.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestesDeProsperitatDivendres02?authuser=0&feat=embedwebsite
 ---
 

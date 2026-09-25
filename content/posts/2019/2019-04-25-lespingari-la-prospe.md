@@ -9,7 +9,7 @@ tags:
 - CENTENARI
 - havaneres
 cover:
-  image: images/covers/3d1e500a6e04d3e2.webp
+  image: /images/covers/3d1e500a6e04d3e2.webp
 album_url: https://photos.app.goo.gl/hUmkFmRSy1D3S9cp6
 ---
 

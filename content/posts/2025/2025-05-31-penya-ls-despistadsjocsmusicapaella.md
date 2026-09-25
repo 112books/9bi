@@ -10,7 +10,7 @@ tags:
 - jocs
 - STA
 cover:
-  image: images/covers/e6090918011f555e.webp
+  image: /images/covers/e6090918011f555e.webp
 album_url: https://photos.app.goo.gl/EmJhms7GEvduGuZs7
 ---
 

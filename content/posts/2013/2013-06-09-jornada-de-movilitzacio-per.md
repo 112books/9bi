@@ -8,7 +8,7 @@ tags:
 - 9 barris
 - ensenyament publica
 cover:
-  image: images/covers/ae11f3e10c68bb00.webp
+  image: /images/covers/ae11f3e10c68bb00.webp
 album_url: https://picasaweb.google.com/103138221614479310970/JornadaDeMovilitzacioPerLEnsenyamentPublicIDeQualitatA9Barris?authuser=0&feat=embedwebsite
 ---
 

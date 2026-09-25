@@ -8,7 +8,7 @@ tags:
 - escola de circ rogelio rivel
 - circ
 cover:
-  image: images/covers/883643fb0ee448fc.webp
+  image: /images/covers/883643fb0ee448fc.webp
 album_url: https://picasaweb.google.com/103138221614479310970/DishousEscolaDeCircRogelioRivel?authuser=0&amp;feat=embedwebsite
 ---
 

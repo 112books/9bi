@@ -11,7 +11,7 @@ tags:
 - sound system
 - Prosperitat
 cover:
-  image: images/covers/25e8599bb7eb2cea.webp
+  image: /images/covers/25e8599bb7eb2cea.webp
 album_url: https://photos.app.goo.gl/sUjHo795irLrzKdu7
 ---
 

@@ -7,7 +7,7 @@ slug: festes-de-prospe-2013-dimarts
 tags:
 - festes de prospe
 cover:
-  image: images/covers/c94c9f663c91ab2b.webp
+  image: /images/covers/c94c9f663c91ab2b.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestesDeProspe2013Dimarts?authuser=0&feat=embedwebsite
 ---
 

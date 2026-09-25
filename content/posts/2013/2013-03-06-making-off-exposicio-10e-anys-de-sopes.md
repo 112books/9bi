@@ -11,7 +11,7 @@ tags:
 - exposició
 - making off
 cover:
-  image: images/covers/2f6be3d35299e37c.webp
+  image: /images/covers/2f6be3d35299e37c.webp
 album_url: https://picasaweb.google.com/103138221614479310970/MakingOffExposicio10eAnysDeSopesDelMon?authuser=0&feat=embedwebsite
 ---
 

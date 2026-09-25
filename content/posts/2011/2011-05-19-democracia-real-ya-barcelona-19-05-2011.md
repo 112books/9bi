@@ -9,7 +9,7 @@ tags:
 - Democracia Real Ya
 - Indignados
 cover:
-  image: images/covers/478e115b95f0542a.webp
+  image: /images/covers/478e115b95f0542a.webp
 album_url: https://picasaweb.google.com/ulls2006/DEMOCRACIAREALYABarcelona19052011?feat=embedwebsite
 ---
 

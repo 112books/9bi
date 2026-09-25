@@ -10,7 +10,7 @@ tags:
 - fotografia
 - manifest
 cover:
-  image: images/covers/e27a9aeeecf58d32.webp
+  image: /images/covers/e27a9aeeecf58d32.webp
 album_url: https://photos.app.goo.gl/4ZTH2anjmScuM5BN8
 ---
 

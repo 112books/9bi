@@ -10,7 +10,7 @@ tags:
 - Pedro
 - STA
 cover:
-  image: images/covers/ff780b724b40af0c.webp
+  image: /images/covers/ff780b724b40af0c.webp
 album_url: https://goo.gl/photos/gjTm5tXGEx1sghLeA
 ---
 

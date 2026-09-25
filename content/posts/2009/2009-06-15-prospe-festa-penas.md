@@ -10,7 +10,7 @@ tags:
 - FESTA
 - STA
 cover:
-  image: images/covers/0b7b23d2b7f17ba6.webp
+  image: /images/covers/0b7b23d2b7f17ba6.webp
 album_url: http://picasaweb.google.es/Perdo.Garcia/Penas?feat=embedwebsite
 ---
 

@@ -9,7 +9,7 @@ tags:
 - documental
 - mar
 cover:
-  image: images/covers/d7ac70229fc0aeec.webp
+  image: /images/covers/d7ac70229fc0aeec.webp
 album_url: https://picasaweb.google.com/lh/photo/3Vwxp35iBoLDHQsNBKYXtNMTjNZETYmyPJy0liipFm0?feat=embedwebsite
 ---
 

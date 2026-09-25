@@ -11,7 +11,7 @@ tags:
 - paella
 - CASAL
 cover:
-  image: images/covers/c0f4bba252ef263c.webp
+  image: /images/covers/c0f4bba252ef263c.webp
 album_url: https://photos.app.goo.gl/V3EwQio9mJ1e2XbB6
 ---
 

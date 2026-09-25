@@ -7,7 +7,7 @@ slug: feria-dabril-la-prospe-nits
 tags:
 - prospe
 cover:
-  image: images/covers/af6123d4c19c759a.webp
+  image: /images/covers/af6123d4c19c759a.webp
 album_url: https://photos.app.goo.gl/ccgw6VRXKT6vCV6k1
 ---
 

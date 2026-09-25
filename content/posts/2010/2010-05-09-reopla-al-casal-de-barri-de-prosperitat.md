@@ -11,7 +11,7 @@ tags:
 - música
 - reopla
 cover:
-  image: images/covers/0c43e02f907d8641.webp
+  image: /images/covers/0c43e02f907d8641.webp
 album_url: https://photos.app.goo.gl/K4giU5WPZsvKgxvk8
 ---
 

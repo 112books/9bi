@@ -8,7 +8,7 @@ tags:
 - blues
 - Festival Blues Barcelona 2015
 cover:
-  image: images/covers/93fc11f1747a1545.webp
+  image: /images/covers/93fc11f1747a1545.webp
 album_url: https://picasaweb.google.com/115791131166530059320/FESTIVALDEBLUESDEBARCELONA2015?authuser=0&feat=embedwebsite
 ---
 

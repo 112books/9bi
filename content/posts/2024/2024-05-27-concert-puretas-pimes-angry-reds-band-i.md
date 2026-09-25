@@ -8,7 +8,7 @@ tags:
 - concert
 - puretas
 cover:
-  image: images/covers/6ac8960934967ca4.webp
+  image: /images/covers/6ac8960934967ca4.webp
 album_url: https://photos.app.goo.gl/mVqNkX2PCwUQoGA26
 ---
 

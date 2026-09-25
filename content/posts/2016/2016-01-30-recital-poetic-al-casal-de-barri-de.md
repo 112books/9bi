@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - recital
 cover:
-  image: images/covers/62accea4cd9fcf5e.webp
+  image: /images/covers/62accea4cd9fcf5e.webp
 album_url: https://picasaweb.google.com/103138221614479310970/RecitalPoeticAlCasalDeBarriDeProsperitat?authuser=0&feat=embedwebsite
 ---
 

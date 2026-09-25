@@ -11,7 +11,7 @@ tags:
 - FESTA
 - STA
 cover:
-  image: images/covers/b21ffa19dc30176f.webp
+  image: /images/covers/b21ffa19dc30176f.webp
 album_url: http://picasaweb.google.es/Perdo.Garcia/LaCulturaVaDeFesta02?feat=embedwebsite
 ---
 

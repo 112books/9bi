@@ -11,7 +11,7 @@ tags:
 - ione
 - asia
 cover:
-  image: images/covers/95ac2cad1ee761a6.webp
+  image: /images/covers/95ac2cad1ee761a6.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

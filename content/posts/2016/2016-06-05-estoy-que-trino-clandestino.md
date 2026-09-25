@@ -7,7 +7,7 @@ slug: estoy-que-trino-clandestino
 tags:
 - música
 cover:
-  image: images/covers/21ec5fb87250b68e.webp
+  image: /images/covers/21ec5fb87250b68e.webp
 album_url: https://picasaweb.google.com/115791131166530059320/6292662701233667905?authuser=0&feat=embedwebsite
 ---
 

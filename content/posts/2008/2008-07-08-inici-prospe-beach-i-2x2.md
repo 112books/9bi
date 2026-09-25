@@ -11,7 +11,7 @@ tags:
 - plaça Àngel Pestaña
 - prospe
 cover:
-  image: images/covers/d55988bec8049bd3.webp
+  image: /images/covers/d55988bec8049bd3.webp
 album_url: http://picasaweb.google.es/pedro.cervera/Prospebeach08/photo#5220398728582436834
 ---
 

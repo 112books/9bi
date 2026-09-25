@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - pink funkers
 cover:
-  image: images/covers/e9e911fc44c02f8a.webp
+  image: /images/covers/e9e911fc44c02f8a.webp
 album_url: https://photos.app.goo.gl/dUFnPNRaDhBCcEFs5
 ---
 

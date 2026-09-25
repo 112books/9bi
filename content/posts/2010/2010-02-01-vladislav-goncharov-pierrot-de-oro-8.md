@@ -10,7 +10,7 @@ tags:
 - festival circo budapest
 - vladislav goncharov
 cover:
-  image: images/covers/aff4c685b7ac537d.webp
+  image: /images/covers/aff4c685b7ac537d.webp
 album_url: http://picasaweb.google.es/ulls2006/VladislavGoncharov?feat=embedwebsite
 ---
 

@@ -8,7 +8,7 @@ tags:
 - fotografies
 - grup foto roquetes
 cover:
-  image: images/covers/8add1f5afe55c35d.webp
+  image: /images/covers/8add1f5afe55c35d.webp
 album_url: https://photos.google.com/share/AF1QipPH8g3JVV0g2DUHD4GMUZSwu2zJFV3VVS9canC_tFVI3USCsNC8sAqR42xyhxszbw?key=YUs3TmNLaTUzY0FpTTZteWdFQnhqbmJJcFBQSGpR
 ---
 

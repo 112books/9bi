@@ -10,7 +10,7 @@ tags:
 - fiesta
 - barri
 cover:
-  image: images/covers/2a67d70b7538a88b.webp
+  image: /images/covers/2a67d70b7538a88b.webp
 album_url: https://photos.app.goo.gl/QLzUi32tHEbQSKbe8
 ---
 

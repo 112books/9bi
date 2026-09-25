@@ -9,7 +9,7 @@ tags:
 - Festes de prosperitat
 - Prospe Oasis
 cover:
-  image: images/covers/c2270be855b89f26.webp
+  image: /images/covers/c2270be855b89f26.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestesDeProsperitatProspeoasis?authuser=0&feat=embedwebsite
 ---
 

@@ -8,7 +8,7 @@ tags:
 - Feria de Abril
 - Sandra Carcasona
 cover:
-  image: images/covers/a2756726d4607398.webp
+  image: /images/covers/a2756726d4607398.webp
 album_url: http://picasaweb.google.com/101546608348756835393/FeriaDeAbril9Barris2010?feat=embedwebsite
 ---
 

@@ -10,7 +10,7 @@ tags:
 - Xerrada
 - premis
 cover:
-  image: images/covers/075db9ef98c1e04d.webp
+  image: /images/covers/075db9ef98c1e04d.webp
 album_url: https://picasaweb.google.com/110015855395179205688/LaMestraRepublicana?authuser=0&feat=embedwebsite
 ---
 

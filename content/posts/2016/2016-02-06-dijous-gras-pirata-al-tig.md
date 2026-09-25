@@ -10,7 +10,7 @@ tags:
 - STA
 - món
 cover:
-  image: images/covers/4c9b58f69d18f6a2.webp
+  image: /images/covers/4c9b58f69d18f6a2.webp
 album_url: https://picasaweb.google.com/110015855395179205688/DijousGrasPirataAlTiG?authuser=0&feat=embedwebsite
 ---
 

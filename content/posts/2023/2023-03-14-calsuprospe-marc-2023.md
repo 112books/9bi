@@ -8,7 +8,7 @@ tags:
 - prospe
 - mar
 cover:
-  image: images/covers/507315d6e2d3b576.webp
+  image: /images/covers/507315d6e2d3b576.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

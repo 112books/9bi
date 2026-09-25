@@ -8,7 +8,7 @@ tags:
 - sopas del mon
 - SOPAS
 cover:
-  image: images/covers/3f0c95db963176a4.webp
+  image: /images/covers/3f0c95db963176a4.webp
 album_url: https://picasaweb.google.com/115791131166530059320/Festivasopas2014?authuser=0&feat=embedwebsite
 ---
 

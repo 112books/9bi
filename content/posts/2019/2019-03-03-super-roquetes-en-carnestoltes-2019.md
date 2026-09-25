@@ -11,7 +11,7 @@ tags:
 - barri
 - ball
 cover:
-  image: images/covers/72d27631a9529805.webp
+  image: /images/covers/72d27631a9529805.webp
 album_url: https://photos.app.goo.gl/RDW8gRNR852waRqB7
 ---
 

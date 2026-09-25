@@ -11,7 +11,7 @@ tags:
 - Festes de prosperitat
 - festes de prospe
 cover:
-  image: images/covers/4e90258f0549e8d0.webp
+  image: /images/covers/4e90258f0549e8d0.webp
 album_url: https://picasaweb.google.com/103138221614479310970/6291241294041770897?authuser=0&feat=embedwebsite
 ---
 

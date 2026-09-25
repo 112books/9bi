@@ -11,7 +11,7 @@ tags:
 - dissabte
 - blues
 cover:
-  image: images/covers/d24483a269431f3f.webp
+  image: /images/covers/d24483a269431f3f.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestivalDeBluesDeBarcelonaDissabteAlParcCentral?authuser=0&feat=embedwebsite
 ---
 

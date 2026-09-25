@@ -10,7 +10,7 @@ tags:
 - Zona verda
 - Ángel Pestanya
 cover:
-  image: images/covers/1ad61e8ba4210bf0.webp
+  image: /images/covers/1ad61e8ba4210bf0.webp
 album_url: https://photos.app.goo.gl/B2a4S3miY3sgLJoRA
 ---
 

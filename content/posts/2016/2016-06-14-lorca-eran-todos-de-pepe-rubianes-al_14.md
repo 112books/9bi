@@ -11,7 +11,7 @@ tags:
 - festes
 - Lorca
 cover:
-  image: images/covers/017d8799c1ac05b5.webp
+  image: /images/covers/017d8799c1ac05b5.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6295782122448935185?authuser=0&feat=embedwebsite
 ---
 

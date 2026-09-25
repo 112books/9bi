@@ -8,7 +8,7 @@ tags:
 - ball
 - Sopar i ball gent gran
 cover:
-  image: images/covers/2c31ddcf9730b9fe.webp
+  image: /images/covers/2c31ddcf9730b9fe.webp
 album_url: https://picasaweb.google.com/115791131166530059320/BallGentGran?authuser=0&feat=embedwebsite
 ---
 

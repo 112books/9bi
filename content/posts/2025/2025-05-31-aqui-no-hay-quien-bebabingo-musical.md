@@ -11,7 +11,7 @@ tags:
 - Bingo
 - rock
 cover:
-  image: images/covers/7e531a38a31d7e76.webp
+  image: /images/covers/7e531a38a31d7e76.webp
 album_url: https://photos.app.goo.gl/eCGcJJtu9qaVmkab9
 ---
 

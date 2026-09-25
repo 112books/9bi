@@ -11,7 +11,7 @@ tags:
 - graffiti
 - linuxbcn
 cover:
-  image: images/covers/6f70c9fc9ca21c97.webp
+  image: /images/covers/6f70c9fc9ca21c97.webp
 album_url: https://picasaweb.google.com/linuxbcn/NouGraffitiALAteneuPopularDe9Barris?authkey=Gv1sRgCI6Z08T18ITiTA&feat=embedwebsite
 ---
 

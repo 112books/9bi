@@ -12,7 +12,7 @@ tags:
 - filferrista
 - molly saudek
 cover:
-  image: images/covers/4cf6ec7b480d07b3.webp
+  image: /images/covers/4cf6ec7b480d07b3.webp
 album_url: http://picasaweb.google.es/ulls2006/MollySaudek?feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - jam session
 - linuxbcn
 cover:
-  image: images/covers/68bc87d93bc785b5.webp
+  image: /images/covers/68bc87d93bc785b5.webp
 album_url: https://picasaweb.google.com/103138221614479310970/EscolaTallerDeBluesDeBarcelonaFinalDeCurs?authuser=0&feat=embedwebsite
 ---
 

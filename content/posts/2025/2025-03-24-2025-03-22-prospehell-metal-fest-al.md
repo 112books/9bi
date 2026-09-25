@@ -18,7 +18,7 @@ tags:
 - rock’n’roll
 - Vlad Black Speed
 cover:
-  image: images/covers/c596412157d85190.webp
+  image: /images/covers/c596412157d85190.webp
 album_url: https://photos.app.goo.gl/DYkXzwXFGRoUeG9u7
 ---
 

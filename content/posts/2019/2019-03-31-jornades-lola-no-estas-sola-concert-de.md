@@ -8,7 +8,7 @@ tags:
 - jornades
 - concert
 cover:
-  image: images/covers/fa445ccf86289902.webp
+  image: /images/covers/fa445ccf86289902.webp
 album_url: https://photos.app.goo.gl/CTPa3czvzejcPEPF6
 ---
 

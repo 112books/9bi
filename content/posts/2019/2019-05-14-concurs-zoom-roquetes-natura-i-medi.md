@@ -11,7 +11,7 @@ tags:
 - diumenge
 - concurs
 cover:
-  image: images/covers/eda233e8cf64d34d.webp
+  image: /images/covers/eda233e8cf64d34d.webp
 album_url: https://photos.app.goo.gl/sPmdjcWBxzaqdPkA7
 ---
 

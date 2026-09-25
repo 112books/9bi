@@ -11,7 +11,7 @@ tags:
 - fotografies
 - gastronomia
 cover:
-  image: images/covers/504952e9424c2975.webp
+  image: /images/covers/504952e9424c2975.webp
 album_url: https://photos.app.goo.gl/8wkVpZXvgKGteFNp7
 ---
 

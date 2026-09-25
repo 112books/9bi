@@ -11,7 +11,7 @@ tags:
 - Espai Alliberat
 - casal de barri
 cover:
-  image: images/covers/3022c554a42c6af6.webp
+  image: /images/covers/3022c554a42c6af6.webp
 album_url: https://photos.app.goo.gl/MQfqEkWijkvGmg118
 ---
 

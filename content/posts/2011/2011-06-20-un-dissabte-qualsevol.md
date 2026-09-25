@@ -9,7 +9,7 @@ tags:
 - Masquintos Band
 - Tosko
 cover:
-  image: images/covers/c76af21f40584e51.webp
+  image: /images/covers/c76af21f40584e51.webp
 album_url: https://picasaweb.google.com/danigcaballero/DissabteALaPlaca?feat=embedwebsite
 ---
 

@@ -9,7 +9,7 @@ tags:
 - Dani Perez Organic Trio
 - manel sala ulls
 cover:
-  image: images/covers/95ccdc715fcd94c3.webp
+  image: /images/covers/95ccdc715fcd94c3.webp
 album_url: http://picasaweb.google.com/ulls2006/DaniPerezOrganicTrioMasterClassDeBallMouLEsqueleteARitmeDeBlues?feat=embedwebsite
 ---
 

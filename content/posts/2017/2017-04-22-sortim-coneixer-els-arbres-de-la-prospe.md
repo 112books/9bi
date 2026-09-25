@@ -7,7 +7,7 @@ slug: sortim-coneixer-els-arbres-de-la-prospe
 tags:
 - Prosperitat
 cover:
-  image: images/covers/04fc2c1d6038ed0f.webp
+  image: /images/covers/04fc2c1d6038ed0f.webp
 album_url: https://goo.gl/photos/ycs9EA8E275sg2bJ7
 ---
 

@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - fotografies
 cover:
-  image: images/covers/1b71f84662e52520.webp
+  image: /images/covers/1b71f84662e52520.webp
 album_url: https://photos.app.goo.gl/ytcgU2KqgSnDH41DA
 ---
 

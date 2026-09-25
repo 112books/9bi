@@ -8,7 +8,7 @@ tags:
 - Fira d'abril
 - cjp
 cover:
-  image: images/covers/37ce3fab9e4fd0e8.webp
+  image: /images/covers/37ce3fab9e4fd0e8.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FiraDAbrilCJPDivendres?authuser=0&authkey=Gv1sRgCJyp34zBvpf4mQE&feat=embedwebsite
 ---
 

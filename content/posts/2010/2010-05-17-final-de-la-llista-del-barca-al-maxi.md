@@ -10,7 +10,7 @@ tags:
 - lliga
 - Maxi Mas
 cover:
-  image: images/covers/465273a198462f42.webp
+  image: /images/covers/465273a198462f42.webp
 album_url: https://photos.app.goo.gl/D48uC2ArBW68E2vz6
 ---
 

@@ -11,7 +11,7 @@ tags:
 - Mario Ortiz
 - poemes
 cover:
-  image: images/covers/4f8d22b5da8140b1.webp
+  image: /images/covers/4f8d22b5da8140b1.webp
 album_url: http://picasaweb.google.com/linuxbcn/MarioElPoetaMalditoDeProspe?feat=embedwebsite
 ---
 

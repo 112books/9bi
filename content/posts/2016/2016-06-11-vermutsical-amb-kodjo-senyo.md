@@ -8,7 +8,7 @@ tags:
 - vermutsical
 - veu
 cover:
-  image: images/covers/019ae5f6d075ca05.webp
+  image: /images/covers/019ae5f6d075ca05.webp
 album_url: https://picasaweb.google.com/103138221614479310970/6295001469699877729?authuser=0&feat=embedwebsite
 ---
 

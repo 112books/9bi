@@ -11,7 +11,7 @@ tags:
 - pesebre
 - plaça Àngel Pestaña
 cover:
-  image: images/covers/0e2ffa554ee26d1f.webp
+  image: /images/covers/0e2ffa554ee26d1f.webp
 album_url: https://picasaweb.google.com/103138221614479310970/PesebreProsperenc?authuser=0&feat=embedwebsite
 ---
 

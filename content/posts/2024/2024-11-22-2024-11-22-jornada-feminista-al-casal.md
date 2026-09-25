@@ -21,7 +21,7 @@ tags:
 - ReflexióSocial
 - ViolènciesDeGènere
 cover:
-  image: images/covers/cbe91378d9ae32a3.webp
+  image: /images/covers/cbe91378d9ae32a3.webp
 album_url: https://photos.app.goo.gl/vCZWGZEBuhb2aMk89
 ---
 

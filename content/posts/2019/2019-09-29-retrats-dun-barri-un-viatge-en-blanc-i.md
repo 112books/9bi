@@ -11,7 +11,7 @@ tags:
 - retrats
 - verdum
 cover:
-  image: images/covers/7162c719c3d44d4c.webp
+  image: /images/covers/7162c719c3d44d4c.webp
 album_url: https://photos.app.goo.gl/nQdWmk8pNGz8zgHv5
 ---
 

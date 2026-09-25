@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - Retrat
 cover:
-  image: images/covers/e1570a8cbd7580bd.webp
+  image: /images/covers/e1570a8cbd7580bd.webp
 album_url: https://photos.google.com/share/AF1QipPzkwMq56zhA_Lr0sHIGEc9uIjEdo3r-3RzjnPGMtj4vPAiHe3WfkWNonA60lru_Q?hl=ca&key=Q2xFOVQ4VkNvcUR0OXJmV2FJNlZzazhiUGEzV3Rn
 ---
 

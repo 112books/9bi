@@ -10,7 +10,7 @@ tags:
 - blues
 - BLUE
 cover:
-  image: images/covers/26074c8991ad4a7b.webp
+  image: /images/covers/26074c8991ad4a7b.webp
 album_url: https://photos.app.goo.gl/Egsq3HHDoEhDM3Xr8
 ---
 

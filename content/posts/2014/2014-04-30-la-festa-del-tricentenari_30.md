@@ -11,7 +11,7 @@ tags:
 - barri
 - STA
 cover:
-  image: images/covers/f41c25df972e6f59.webp
+  image: /images/covers/f41c25df972e6f59.webp
 album_url: https://picasaweb.google.com/102149297277529522464/Aplec2014ANouBarris02?authuser=0&feat=embedwebsite
 ---
 

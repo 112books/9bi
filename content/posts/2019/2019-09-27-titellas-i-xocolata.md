@@ -7,7 +7,7 @@ slug: titellas-i-xocolata
 tags:
 - teatre
 cover:
-  image: images/covers/b4b228dd73a2d6da.webp
+  image: /images/covers/b4b228dd73a2d6da.webp
 album_url: 'https://photos.app.goo.gl/MGXskgqArxwRmno7A
 
   '

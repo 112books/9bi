@@ -9,7 +9,7 @@ tags:
 - protestes
 - transport públic
 cover:
-  image: images/covers/0ed31e264fcbe192.webp
+  image: /images/covers/0ed31e264fcbe192.webp
 album_url: https://picasaweb.google.com/114858497713897843587/NOUBARRISENLALLUITAPELTRANSPORTPUBLIC?authuser=0&feat=embedwebsite
 ---
 

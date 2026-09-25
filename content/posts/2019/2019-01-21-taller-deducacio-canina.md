@@ -11,7 +11,7 @@ tags:
 - barri
 - veïns
 cover:
-  image: images/covers/b615f32ca078ad63.webp
+  image: /images/covers/b615f32ca078ad63.webp
 album_url: https://photos.app.goo.gl/G41MGi6esNn2uFqu7
 ---
 

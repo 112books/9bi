@@ -8,7 +8,7 @@ tags:
 - vermutsical
 - música
 cover:
-  image: images/covers/95534291089716f8.webp
+  image: /images/covers/95534291089716f8.webp
 album_url: https://photos.app.goo.gl/dw7Rse2jkrmQQaNF9
 ---
 

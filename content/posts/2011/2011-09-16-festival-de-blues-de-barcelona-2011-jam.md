@@ -10,7 +10,7 @@ tags:
 - jam session
 - joan.linuxbcn.com
 cover:
-  image: images/covers/988e443ab1e7de94.webp
+  image: /images/covers/988e443ab1e7de94.webp
 album_url: https://photos.app.goo.gl/MumfvmwNh1LyT8ZS9
 ---
 

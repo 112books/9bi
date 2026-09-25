@@ -13,7 +13,7 @@ tags:
 - expo
 - toni pagès
 cover:
-  image: images/covers/fd2e9090752710d6.webp
+  image: /images/covers/fd2e9090752710d6.webp
 album_url: https://picasaweb.google.com/103138221614479310970/ExposicioCaricaturasPorLaJetaDelPagesConcertDeElPlacerDeEstarSinTi?authuser=0&feat=embedwebsite
 ---
 

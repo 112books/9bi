@@ -10,7 +10,7 @@ tags:
 - ideal plàstica flor
 - manel sala ulls
 cover:
-  image: images/covers/df45f9084f296501.webp
+  image: /images/covers/df45f9084f296501.webp
 album_url: http://picasaweb.google.es/ulls2006/IdealPlasticaFlorPerElBarri?feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - rock
 - STA
 cover:
-  image: images/covers/4ca13b443475cabd.webp
+  image: /images/covers/4ca13b443475cabd.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

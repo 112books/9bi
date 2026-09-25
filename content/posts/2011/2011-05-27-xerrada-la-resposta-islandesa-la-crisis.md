@@ -8,7 +8,7 @@ tags:
 - fotografia
 - joan.linuxbcn.com
 cover:
-  image: images/covers/d2964d0796c4b11d.webp
+  image: /images/covers/d2964d0796c4b11d.webp
 album_url: https://picasaweb.google.com/linuxbcn/XerradaLaRespostaIslandesaALaCrisisALAteneuPopularDe9Barris?authkey=Gv1sRgCJqFrKrxnOLlxgE&feat=embedwebsite
 ---
 

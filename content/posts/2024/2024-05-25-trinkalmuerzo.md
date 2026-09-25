@@ -7,7 +7,7 @@ slug: trinkalmuerzo
 tags:
 - música
 cover:
-  image: images/covers/2ca6b9a0d92b2174.webp
+  image: /images/covers/2ca6b9a0d92b2174.webp
 album_url: https://photos.app.goo.gl/WPThZdaNYL5yCbWEA
 ---
 

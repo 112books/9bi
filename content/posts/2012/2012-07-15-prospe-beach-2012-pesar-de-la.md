@@ -9,7 +9,7 @@ tags:
 - Prospe Beach
 - Prosperitat
 cover:
-  image: images/covers/21b71eba96ea49a8.webp
+  image: /images/covers/21b71eba96ea49a8.webp
 album_url: https://picasaweb.google.com/103138221614479310970/ProspeBeach2012APesarDeLaIncompetenciaDelDistricteDeNouBarris?authuser=0&feat=embedwebsite
 ---
 

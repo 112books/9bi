@@ -8,7 +8,7 @@ tags:
 - danza
 - teatre
 cover:
-  image: images/covers/9caf8a0bb269a0a8.webp
+  image: /images/covers/9caf8a0bb269a0a8.webp
 album_url: https:/picasaweb.google.com/Perdo.Garcia/DanzaTeatro?feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - popular
 - música
 cover:
-  image: images/covers/029fd45739e547de.webp
+  image: /images/covers/029fd45739e547de.webp
 album_url: https://photos.app.goo.gl/3aiWkXtL3Lxn3dPm8
 ---
 

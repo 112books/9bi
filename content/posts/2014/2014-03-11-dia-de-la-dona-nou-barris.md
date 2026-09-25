@@ -11,7 +11,7 @@ tags:
 - fotos
 - barri
 cover:
-  image: images/covers/cc6e8f5545593e88.webp
+  image: /images/covers/cc6e8f5545593e88.webp
 album_url: https://picasaweb.google.com/115791131166530059320/DiaDeLaDonaV?authuser=0&feat=embedwebsite
 ---
 

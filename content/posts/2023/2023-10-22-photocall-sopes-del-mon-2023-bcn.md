@@ -10,7 +10,7 @@ tags:
 - bcn
 - món
 cover:
-  image: images/covers/c916563eabe47363.webp
+  image: /images/covers/c916563eabe47363.webp
 album_url: https://photos.app.goo.gl/U9vXsiqvGuX82H9Q6
 ---
 

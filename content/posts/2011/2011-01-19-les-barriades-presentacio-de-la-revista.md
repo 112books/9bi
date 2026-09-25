@@ -8,7 +8,7 @@ tags:
 - a les barriades
 - manel sala ulls
 cover:
-  image: images/covers/64b8a8a58733b59f.webp
+  image: /images/covers/64b8a8a58733b59f.webp
 album_url: http://picasaweb.google.com/ulls2006/ALesBarriades?feat=embedwebsite
 ---
 

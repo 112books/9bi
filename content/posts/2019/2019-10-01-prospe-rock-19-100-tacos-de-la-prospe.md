@@ -11,7 +11,7 @@ tags:
 - CASAL
 - rock
 cover:
-  image: images/covers/666f72406316373f.webp
+  image: /images/covers/666f72406316373f.webp
 album_url: https://photos.app.goo.gl/xbgF7irbjNLwfAiY7
 ---
 

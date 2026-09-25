@@ -10,7 +10,7 @@ tags:
 - barri
 - Hort
 cover:
-  image: images/covers/295218c3613611f2.webp
+  image: /images/covers/295218c3613611f2.webp
 album_url: https://photos.app.goo.gl/ua5AxW9xrYW6D9g3A
 ---
 

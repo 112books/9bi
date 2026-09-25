@@ -10,7 +10,7 @@ tags:
 - barri
 - ball
 cover:
-  image: images/covers/9a5dab42b86c0594.webp
+  image: /images/covers/9a5dab42b86c0594.webp
 album_url: https://picasaweb.google.com/110015855395179205688/2TrobadaGeganteraANouBarris?authuser=0&feat=embedwebsite
 ---
 

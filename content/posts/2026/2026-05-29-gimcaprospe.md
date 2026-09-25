@@ -7,7 +7,7 @@ slug: gimcaprospe
 tags:
 - prospe
 cover:
-  image: images/covers/7f0425c508ab0703.webp
+  image: /images/covers/7f0425c508ab0703.webp
 album_url: https://photos.app.goo.gl/Qtf8XQdeCiu9nDY36
 ---
 

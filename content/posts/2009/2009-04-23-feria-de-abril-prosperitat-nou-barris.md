@@ -12,7 +12,7 @@ tags:
 - flamenco
 - manel sala ulls
 cover:
-  image: images/covers/8e0e92decdc16d0f.webp
+  image: /images/covers/8e0e92decdc16d0f.webp
 album_url: http://picasaweb.google.es/ulls1963/FeriaDeAbrilProsperitat2009KayokoNakataStudioJapon?feat=embedwebsite
 ---
 

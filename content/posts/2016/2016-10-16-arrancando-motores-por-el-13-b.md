@@ -7,7 +7,7 @@ slug: arrancando-motores-por-el-13-b
 tags:
 - Torre Llobeta-Vilapiscina
 cover:
-  image: images/covers/7f9c8fd3e6fd52e6.webp
+  image: /images/covers/7f9c8fd3e6fd52e6.webp
 album_url: https://goo.gl/photos/SyyUUx847rasEznF8
 ---
 

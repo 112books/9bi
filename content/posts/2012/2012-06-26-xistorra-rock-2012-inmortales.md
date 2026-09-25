@@ -9,7 +9,7 @@ tags:
 - inmortales
 - rock
 cover:
-  image: images/covers/2ef59df53b46aa2f.webp
+  image: /images/covers/2ef59df53b46aa2f.webp
 album_url: https://picasaweb.google.com/100268695753733554853/XistorraRock2012Inmortales?authuser=0&feat=embedwebsite
 ---
 

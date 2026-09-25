@@ -19,7 +19,7 @@ tags:
 - Pigmeos Revoltosas
 - Tosko and Honey
 cover:
-  image: images/covers/afb19bca03f385a4.webp
+  image: /images/covers/afb19bca03f385a4.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestivalPigmeSRevoltosSCapAUnNomModelSocialIEconomic?authuser=0&amp;feat=embedwebsite
 ---
 

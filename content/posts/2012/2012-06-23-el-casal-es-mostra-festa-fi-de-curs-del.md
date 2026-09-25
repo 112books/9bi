@@ -9,7 +9,7 @@ tags:
 - el casal es mostra
 - tallers
 cover:
-  image: images/covers/5c75864af1721364.webp
+  image: /images/covers/5c75864af1721364.webp
 album_url: https://picasaweb.google.com/103138221614479310970/ElCasalEsMostraFestaFiDeCursDelCasalDeBarriDeProsperitat?authuser=0&feat=embedwebsite
 ---
 

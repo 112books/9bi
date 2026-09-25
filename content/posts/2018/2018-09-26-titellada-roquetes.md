@@ -11,7 +11,7 @@ tags:
 - membres
 - barri
 cover:
-  image: images/covers/845195dd2171dd9c.webp
+  image: /images/covers/845195dd2171dd9c.webp
 album_url: https://photos.app.goo.gl/aqfrTxgZqbHsDaxbA
 ---
 

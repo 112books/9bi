@@ -11,7 +11,7 @@ tags:
 - participació
 - Prosperitat
 cover:
-  image: images/covers/4366d60042d72271.webp
+  image: /images/covers/4366d60042d72271.webp
 album_url: https://photos.app.goo.gl/ZzZn6sVNNojsPpFv5
 ---
 

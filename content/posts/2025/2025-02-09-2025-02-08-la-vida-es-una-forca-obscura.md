@@ -16,7 +16,7 @@ tags:
 - teatre contemporani
 - teatre polític
 cover:
-  image: images/covers/a2d211f6d4c0a1dc.webp
+  image: /images/covers/a2d211f6d4c0a1dc.webp
 album_url: https://photos.app.goo.gl/x2M6NyhNbRRGMyS3A
 ---
 

@@ -12,7 +12,7 @@ tags:
 - Barcelona
 - concert
 cover:
-  image: images/covers/b3bb9803bd2ae267.webp
+  image: /images/covers/b3bb9803bd2ae267.webp
 album_url: https://goo.gl/photos/Rm89yGaQ8rQQvc5g6
 ---
 

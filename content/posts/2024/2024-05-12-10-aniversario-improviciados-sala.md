@@ -11,7 +11,7 @@ tags:
 - prospe
 - art
 cover:
-  image: images/covers/4c3d4c10e6dfe9a1.webp
+  image: /images/covers/4c3d4c10e6dfe9a1.webp
 album_url: https://photos.app.goo.gl/VGTXanL8X4PsqGbj7
 ---
 

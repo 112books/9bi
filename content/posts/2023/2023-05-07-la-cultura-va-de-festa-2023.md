@@ -7,7 +7,7 @@ slug: la-cultura-va-de-festa-2023
 tags:
 - la cultura va de festa
 cover:
-  image: images/covers/0463a208fdc57de2.webp
+  image: /images/covers/0463a208fdc57de2.webp
 album_url: https://photos.app.goo.gl/GDKQjAph97th9LEg8
 ---
 

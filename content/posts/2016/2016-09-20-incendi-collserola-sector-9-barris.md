@@ -13,7 +13,7 @@ tags:
 - incendio
 - manel sala ulls
 cover:
-  image: images/covers/d27d58de3c618971.webp
+  image: /images/covers/d27d58de3c618971.webp
 album_url: https://goo.gl/photos/3QcxNFVQfruzUCkb6
 ---
 

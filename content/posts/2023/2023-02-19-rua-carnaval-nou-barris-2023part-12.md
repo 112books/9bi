@@ -8,7 +8,7 @@ tags:
 - Carnaval 2023
 - rua carnaval via julia
 cover:
-  image: images/covers/f1d78fd9826ebf75.webp
+  image: /images/covers/f1d78fd9826ebf75.webp
 album_url: https://photos.app.goo.gl/Cb2Ev6PPib1Z5o1f6
 ---
 

@@ -11,7 +11,7 @@ tags:
 - art
 - mar
 cover:
-  image: images/covers/7b2b6b12ff1923a0.webp
+  image: /images/covers/7b2b6b12ff1923a0.webp
 album_url: https://picasaweb.google.com/103138221614479310970/6305606356854936737?authuser=0&feat=embedwebsite
 ---
 

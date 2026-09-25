@@ -11,7 +11,7 @@ tags:
 - fotografies
 - nou barris
 cover:
-  image: images/covers/7349aba604104289.webp
+  image: /images/covers/7349aba604104289.webp
 album_url: https://photos.app.goo.gl/ogrqxyD3PPzBh59s7
 ---
 

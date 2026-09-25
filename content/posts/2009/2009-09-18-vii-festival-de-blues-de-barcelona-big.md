@@ -14,7 +14,7 @@ tags:
 - inuxbcn
 - Manolo Germán
 cover:
-  image: images/covers/89f6616dacd4a1d6.webp
+  image: /images/covers/89f6616dacd4a1d6.webp
 album_url: https://photos.app.goo.gl/yBM4QUM1BUjGtjQk9
 ---
 

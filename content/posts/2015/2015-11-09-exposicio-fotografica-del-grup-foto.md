@@ -11,7 +11,7 @@ tags:
 - exposició
 - roquetes
 cover:
-  image: images/covers/2c6ca04ff07246b2.webp
+  image: /images/covers/2c6ca04ff07246b2.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ExposicioFotograficaDelGrupFotoRoquetesAlTonIGuida?authuser=0&feat=embedwebsite
 ---
 

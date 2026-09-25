@@ -10,7 +10,7 @@ tags:
 - casal de joves de prosperitat
 - casal mix
 cover:
-  image: images/covers/867a4c6ad1fe11ff.webp
+  image: /images/covers/867a4c6ad1fe11ff.webp
 album_url: https://picasaweb.google.com/103138221614479310970/CasalMixVol2?authuser=0&feat=embedwebsite
 ---
 

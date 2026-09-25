@@ -11,7 +11,7 @@ tags:
 - linuxbcn
 - mur
 cover:
-  image: images/covers/2c9955a539d53c20.webp
+  image: /images/covers/2c9955a539d53c20.webp
 album_url: https://picasaweb.google.com/103138221614479310970/25eAniversariCasalDeBarriEngantxadaDeCartells?authuser=0&authkey=Gv1sRgCOjM7d6foL-oRg&feat=embedwebsite
 ---
 

@@ -8,7 +8,7 @@ tags:
 - plaça de la República
 - República
 cover:
-  image: images/covers/42f25d1a25980d98.webp
+  image: /images/covers/42f25d1a25980d98.webp
 album_url: https://picasaweb.google.com/103138221614479310970/DiaDeLaRepublicaALaPlacaDeLaRepublica?authuser=0&feat=embedwebsite
 ---
 

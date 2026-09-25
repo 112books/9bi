@@ -9,7 +9,7 @@ tags:
 - casal barri prosperitat
 - vermut sical
 cover:
-  image: images/covers/a31e37b80e234719.webp
+  image: /images/covers/a31e37b80e234719.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermusicalBiancoERosso?authuser=0&amp;feat=embedwebsite
 ---
 

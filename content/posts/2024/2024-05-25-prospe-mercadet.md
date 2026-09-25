@@ -7,7 +7,7 @@ slug: prospe-mercadet
 tags:
 - prospe
 cover:
-  image: images/covers/67cdb232a8b48623.webp
+  image: /images/covers/67cdb232a8b48623.webp
 album_url: https://photos.app.goo.gl/7FWatPyniof6PSsj9
 ---
 

@@ -11,7 +11,7 @@ tags:
 - teatre
 - verdum
 cover:
-  image: images/covers/3edfad2c5e936bf3.webp
+  image: /images/covers/3edfad2c5e936bf3.webp
 album_url: https://photos.app.goo.gl/rNIRxTIcayqM1WZA3
 ---
 

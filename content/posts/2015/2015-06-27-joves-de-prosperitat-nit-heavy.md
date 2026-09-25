@@ -9,7 +9,7 @@ tags:
 - prospe
 - heavy
 cover:
-  image: images/covers/9fde139e12ad60f1.webp
+  image: /images/covers/9fde139e12ad60f1.webp
 album_url: https://picasaweb.google.com/103138221614479310970/JovesDeProsperitatNitHeavy?authuser=0&feat=embedwebsite
 ---
 

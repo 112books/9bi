@@ -10,7 +10,7 @@ tags:
 - teatre
 - STA
 cover:
-  image: images/covers/c7fd9a8aae879f32.webp
+  image: /images/covers/c7fd9a8aae879f32.webp
 album_url: https://goo.gl/photos/FpFc3qkqB5TK75pS8
 ---
 

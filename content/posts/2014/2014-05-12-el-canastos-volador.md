@@ -9,7 +9,7 @@ tags:
 - gente
 - personajes
 cover:
-  image: images/covers/f285f12338c49928.webp
+  image: /images/covers/f285f12338c49928.webp
 album_url: https://picasaweb.google.com/115791131166530059320/CANASTOS?authuser=0&feat=embedwebsite
 ---
 

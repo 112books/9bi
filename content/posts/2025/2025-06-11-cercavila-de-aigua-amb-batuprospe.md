@@ -9,7 +9,7 @@ tags:
 - cercavila
 - prospe
 cover:
-  image: images/covers/6eddfb392ae8525a.webp
+  image: /images/covers/6eddfb392ae8525a.webp
 album_url: https://photos.app.goo.gl/NiHNzFxsUEsNrmMU7
 ---
 

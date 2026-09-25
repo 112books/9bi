@@ -10,7 +10,7 @@ tags:
 - barri
 - rua
 cover:
-  image: images/covers/4552a20395179037.webp
+  image: /images/covers/4552a20395179037.webp
 album_url: https://picasaweb.google.com/110015855395179205688/PiratesDeRoquetesALaRua?authuser=0&feat=embedwebsite
 ---
 

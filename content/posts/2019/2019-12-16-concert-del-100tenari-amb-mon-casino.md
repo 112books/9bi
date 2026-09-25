@@ -8,7 +8,7 @@ tags:
 - concert
 - casa
 cover:
-  image: images/covers/916f5c08aedf0cb5.webp
+  image: /images/covers/916f5c08aedf0cb5.webp
 album_url: https://photos.app.goo.gl/yXzTULF9NfyhhMXcA
 ---
 

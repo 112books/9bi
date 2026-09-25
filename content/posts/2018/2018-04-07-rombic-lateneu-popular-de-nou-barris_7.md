@@ -11,7 +11,7 @@ tags:
 - titelles
 - dissabte
 cover:
-  image: images/covers/2de257d4c652d5e2.webp
+  image: /images/covers/2de257d4c652d5e2.webp
 album_url: https://photos.app.goo.gl/lVFPFNlZn4glVvtj2
 ---
 

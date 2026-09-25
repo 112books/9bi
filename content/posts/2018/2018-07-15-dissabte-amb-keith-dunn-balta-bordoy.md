@@ -8,7 +8,7 @@ slug: dissabte-amb-keith-dunn-balta-bordoy
 tags:
 - dissabte
 cover:
-  image: images/covers/ad120fab382d3b3a.webp
+  image: /images/covers/ad120fab382d3b3a.webp
 album_url: https://photos.app.goo.gl/cvBieNDvfQXAvGhE7
 ---
 

@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - nou barris
 cover:
-  image: images/covers/363dc8531b0281d2.webp
+  image: /images/covers/363dc8531b0281d2.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

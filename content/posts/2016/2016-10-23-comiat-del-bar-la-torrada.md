@@ -11,7 +11,7 @@ tags:
 - la torrada
 - prospe
 cover:
-  image: images/covers/7c620219f707123e.webp
+  image: /images/covers/7c620219f707123e.webp
 album_url: https://goo.gl/photos/prf8QRjCJfsqtvxj6
 ---
 

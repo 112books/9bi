@@ -10,7 +10,7 @@ tags:
 - CASAL
 - casa
 cover:
-  image: images/covers/a682d3568f99411c.webp
+  image: /images/covers/a682d3568f99411c.webp
 album_url: http://picasaweb.google.es/inmalcario/Carnaval2009CasalDeJovesSOMOSLOSGALOS#
 ---
 

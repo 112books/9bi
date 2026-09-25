@@ -9,7 +9,7 @@ tags:
 - barri
 - metro
 cover:
-  image: images/covers/e33b0c8ab23b20a3.webp
+  image: /images/covers/e33b0c8ab23b20a3.webp
 album_url: https://photos.app.goo.gl/uYQyZe2Q6WeGUyRN7
 ---
 

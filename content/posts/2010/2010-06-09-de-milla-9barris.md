@@ -8,7 +8,7 @@ tags:
 - 9barris
 - barri
 cover:
-  image: images/covers/f16855e71418cd62.webp
+  image: /images/covers/f16855e71418cd62.webp
 album_url: http://picasaweb.google.es/Perdo.Garcia/Milla9Barris?feat=embedwebsite
 ---
 

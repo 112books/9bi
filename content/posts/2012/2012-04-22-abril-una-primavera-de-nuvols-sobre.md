@@ -11,7 +11,7 @@ tags:
 - Barcelona
 - 9 barris
 cover:
-  image: images/covers/f7cd202ed617e26a.webp
+  image: /images/covers/f7cd202ed617e26a.webp
 album_url: https://picasaweb.google.com/100268695753733554853/AbrilUnaPrimaveraDeNuvolsSobreBarcelona?authuser=0&amp;feat=embedwebsite
 ---
 

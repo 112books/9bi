@@ -11,7 +11,7 @@ tags:
 - barri de Prosperitat
 - a les barriades
 cover:
-  image: images/covers/919c39b52f1d02a9.webp
+  image: /images/covers/919c39b52f1d02a9.webp
 album_url: https://photos.app.goo.gl/U6MwzriH3hW5CbD46
 ---
 

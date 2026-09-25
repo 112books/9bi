@@ -8,7 +8,7 @@ tags:
 - 9binblack
 - Barcelona Big Blues Band
 cover:
-  image: images/covers/54f7b076a1ee285c.webp
+  image: /images/covers/54f7b076a1ee285c.webp
 album_url: https://picasaweb.google.com/103138221614479310970/9BinBlackDiumengeAmbLaBarcelonaBigBluesBand?authuser=0&feat=embedwebsite
 ---
 

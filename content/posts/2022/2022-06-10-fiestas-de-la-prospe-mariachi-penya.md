@@ -10,7 +10,7 @@ tags:
 - mar
 - STA
 cover:
-  image: images/covers/9fdb0c9d9bbdd560.webp
+  image: /images/covers/9fdb0c9d9bbdd560.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

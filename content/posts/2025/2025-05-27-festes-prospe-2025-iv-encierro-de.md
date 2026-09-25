@@ -10,7 +10,7 @@ tags:
 - nico
 - ruta
 cover:
-  image: images/covers/bf785cfe228f618a.webp
+  image: /images/covers/bf785cfe228f618a.webp
 album_url: https://photos.app.goo.gl/UbTd5dA66mjJeKHt8
 ---
 

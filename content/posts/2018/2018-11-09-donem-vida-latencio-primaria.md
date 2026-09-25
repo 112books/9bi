@@ -7,7 +7,7 @@ slug: donem-vida-latencio-primaria
 tags:
 - Centre Ton i Guida
 cover:
-  image: images/covers/070f3b808d6fed36.webp
+  image: /images/covers/070f3b808d6fed36.webp
 album_url: https://photos.google.com/share/AF1QipN1hOXU9FTT80dHjAa7vYnUeT5Wf0re5MoczEWF9nE9ieUJWBW2kgl0s4BU-5JBVA?key=dExIYTkyTTNQOFNLTFVSSnExU3RpMTFPM0xSLXBR
 ---
 

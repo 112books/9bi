@@ -11,7 +11,7 @@ tags:
 - cultura
 - popular
 cover:
-  image: images/covers/cd6c4e99fa18586e.webp
+  image: /images/covers/cd6c4e99fa18586e.webp
 album_url: https://goo.gl/photos/ukcv4A99rbZvLgRn9
 ---
 

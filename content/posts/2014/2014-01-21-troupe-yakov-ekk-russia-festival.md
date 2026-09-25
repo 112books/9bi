@@ -10,7 +10,7 @@ tags:
 - ciu
 - foc
 cover:
-  image: images/covers/20ff259007556d85.webp
+  image: /images/covers/20ff259007556d85.webp
 album_url: https://picasaweb.google.com/100268695753733554853/TroupeYakovEkkRussiaFestivalInternacionalDelCircCiutatDeFigueres2013?authuser=0&amp;feat=embedwebsite
 ---
 

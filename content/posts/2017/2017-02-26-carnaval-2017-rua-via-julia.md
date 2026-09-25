@@ -8,7 +8,7 @@ tags:
 - 9 barris imatge
 - carnaval 2017
 cover:
-  image: images/covers/fc47ac475ea9cf12.webp
+  image: /images/covers/fc47ac475ea9cf12.webp
 album_url: https://goo.gl/photos/nonrm4dLxxxrbiw78
 ---
 

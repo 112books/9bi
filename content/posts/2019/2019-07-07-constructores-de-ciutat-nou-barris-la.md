@@ -11,7 +11,7 @@ tags:
 - Feminisme
 - districte
 cover:
-  image: images/covers/7382ef59295c3a20.webp
+  image: /images/covers/7382ef59295c3a20.webp
 album_url: https://photos.app.goo.gl/8ffHcXkZhYHWrc5YA
 ---
 

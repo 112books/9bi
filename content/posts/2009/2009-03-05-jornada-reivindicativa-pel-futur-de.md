@@ -9,7 +9,7 @@ tags:
 - avv prosperitat
 - linuxbcn
 cover:
-  image: images/covers/d5e15e9d0064bdbc.webp
+  image: /images/covers/d5e15e9d0064bdbc.webp
 album_url: https://photos.app.goo.gl/1VDaCASDkudiSYqW9
 ---
 

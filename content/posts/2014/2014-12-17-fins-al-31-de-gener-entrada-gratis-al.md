@@ -11,7 +11,7 @@ tags:
 - expo
 - art
 cover:
-  image: images/covers/f58963fa8e68e24f.webp
+  image: /images/covers/f58963fa8e68e24f.webp
 album_url: https://picasaweb.google.com/110015855395179205688/MUSEUDELDISSENY?authuser=0&feat=embedwebsite
 ---
 

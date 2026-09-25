@@ -8,7 +8,7 @@ tags:
 - coctelera negra
 - Negra
 cover:
-  image: images/covers/1e1ce0448266b00e.webp
+  image: /images/covers/1e1ce0448266b00e.webp
 album_url: https://photos.google.com/share/AF1QipMaWad_kqHIGxj2xQ7cmu1Qy4tbK1Ci8RWpmzbigsZO7RbMvijl8E6bPZXpXpGMZQ?key=UERWWFJDSk9oVGpIc09SbWlRdG1ySm03Q3NRWWpn
 ---
 

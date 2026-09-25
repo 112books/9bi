@@ -8,7 +8,7 @@ tags:
 - guateque puretas
 - música
 cover:
-  image: images/covers/c633b36fb178b48b.webp
+  image: /images/covers/c633b36fb178b48b.webp
 album_url: https://picasaweb.google.com/115791131166530059320/6291631391385488193?authuser=0&feat=embedwebsite
 ---
 

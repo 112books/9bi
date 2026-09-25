@@ -9,7 +9,7 @@ tags:
 - cercavila
 - rock
 cover:
-  image: images/covers/6ccaa98133228530.webp
+  image: /images/covers/6ccaa98133228530.webp
 album_url: https://photos.app.goo.gl/5eeKLByiJkSf3VQf7
 ---
 

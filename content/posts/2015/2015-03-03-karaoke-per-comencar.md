@@ -11,7 +11,7 @@ tags:
 - dones
 - casa
 cover:
-  image: images/covers/7ce015a9a19754b5.webp
+  image: /images/covers/7ce015a9a19754b5.webp
 album_url: https://picasaweb.google.com/110015855395179205688/SETMANADELADONA?authuser=0&feat=embedwebsite
 ---
 

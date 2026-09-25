@@ -11,7 +11,7 @@ tags:
 - blues
 - BLUE
 cover:
-  image: images/covers/98321e34ba2780a5.webp
+  image: /images/covers/98321e34ba2780a5.webp
 album_url: https://photos.app.goo.gl/9o78sBtxgCJXRJJd7
 ---
 

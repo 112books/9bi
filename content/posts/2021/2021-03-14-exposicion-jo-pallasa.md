@@ -10,7 +10,7 @@ tags:
 - desastrosus circus
 - pallasa
 cover:
-  image: images/covers/f557f65595e1a7f0.webp
+  image: /images/covers/f557f65595e1a7f0.webp
 album_url: https://photos.google.com/share/AF1QipNUWrlqCn5clYHCZYh2MPzVp-ENnRAkHa0yKKo_j8UffgjCE0A_yHdDQWqifXbA0A?key=bHltZFRqZm9COUpaVUhrc1I0ZW5QNWpvcmVLRDJB
 ---
 

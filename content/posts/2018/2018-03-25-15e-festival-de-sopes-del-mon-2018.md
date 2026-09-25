@@ -11,7 +11,7 @@ tags:
 - Barcelona
 - 9 barris
 cover:
-  image: images/covers/27e32ffcdaf24022.webp
+  image: /images/covers/27e32ffcdaf24022.webp
 album_url: https://photos.app.goo.gl/9C9TOTbt1wY7l2D23
 ---
 

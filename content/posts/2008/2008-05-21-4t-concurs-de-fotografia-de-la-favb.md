@@ -7,7 +7,7 @@ slug: 4t-concurs-de-fotografia-de-la-favb
 tags:
 - Concurs Fotogràfic
 cover:
-  image: images/covers/26a96e5100027b76.webp
+  image: /images/covers/26a96e5100027b76.webp
 ---
 
 Doncs si. S'ha presentat per quarta vegada el concurs de fotografia de la Favb ([favb.cat](http://favb.cat "Federació d'Associacions de Veïns i Veïnes de Barcelona").

@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - Three-Time Losers
 cover:
-  image: images/covers/71880fd1e2e5ba73.webp
+  image: /images/covers/71880fd1e2e5ba73.webp
 album_url: https://photos.app.goo.gl/pkZLH55EfGVsghtt5
 ---
 

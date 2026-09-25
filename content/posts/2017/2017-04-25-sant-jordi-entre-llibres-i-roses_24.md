@@ -11,7 +11,7 @@ tags:
 - retallades
 - sant jordi
 cover:
-  image: images/covers/c3adecfafbf297c8.webp
+  image: /images/covers/c3adecfafbf297c8.webp
 album_url: https://goo.gl/photos/DJ1JstKrKLmeXt9R7
 ---
 

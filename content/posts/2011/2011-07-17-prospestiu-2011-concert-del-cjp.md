@@ -8,7 +8,7 @@ tags:
 - casal de joves de prosperitat
 - joan.linuxbcn.com
 cover:
-  image: images/covers/0f8e300a56db4338.webp
+  image: /images/covers/0f8e300a56db4338.webp
 album_url: https://picasaweb.google.com/linuxbcn/ConcertCJP?authuser=0&authkey=Gv1sRgCJOji9mLo-XQyAE&feat=embedwebsite
 ---
 

@@ -9,7 +9,7 @@ tags:
 - 8 març
 - mar
 cover:
-  image: images/covers/041d3ba5d79adbdd.webp
+  image: /images/covers/041d3ba5d79adbdd.webp
 album_url: https://photos.app.goo.gl/JCwYnCiirxkXTgzr8
 ---
 

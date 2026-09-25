@@ -7,7 +7,7 @@ slug: vermutsical-amb-tomba-tomba-soundsystem
 tags:
 - vermutsical
 cover:
-  image: images/covers/edfcdbd31b7418d7.webp
+  image: /images/covers/edfcdbd31b7418d7.webp
 album_url: https://photos.app.goo.gl/nZbacGTYDywoyl393
 ---
 

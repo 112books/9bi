@@ -9,7 +9,7 @@ tags:
 - BLUE
 - STA
 cover:
-  image: images/covers/3f6200d52b28f357.webp
+  image: /images/covers/3f6200d52b28f357.webp
 album_url: https://photos.app.goo.gl/RN7MThYuHPaVztLC9
 ---
 

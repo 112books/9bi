@@ -11,7 +11,7 @@ tags:
 - iIdeal Plasitca Flor
 - Prosperitat
 cover:
-  image: images/covers/860a180b3828306e.webp
+  image: /images/covers/860a180b3828306e.webp
 album_url: https://photos.app.goo.gl/JSLB4V1TAcqGbDoN8
 ---
 

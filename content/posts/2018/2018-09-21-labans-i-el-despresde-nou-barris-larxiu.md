@@ -10,7 +10,7 @@ tags:
 - roquetes
 - barri
 cover:
-  image: images/covers/79a5616200f78042.webp
+  image: /images/covers/79a5616200f78042.webp
 album_url: https://photos.app.goo.gl/b87wevmTq17MB9YBA
 ---
 

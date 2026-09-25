@@ -9,7 +9,7 @@ tags:
 - dinamització
 - nit d'ànimes
 cover:
-  image: images/covers/12922cc46f0f5c4c.webp
+  image: /images/covers/12922cc46f0f5c4c.webp
 album_url: https://picasaweb.google.com/103138221614479310970/EquipDeDinamitzacioDelCasalDeProsperitat?authuser=0&feat=embedwebsite
 ---
 

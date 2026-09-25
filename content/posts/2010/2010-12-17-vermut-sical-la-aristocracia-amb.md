@@ -9,7 +9,7 @@ tags:
 - manel sala ulls
 - vermut sical
 cover:
-  image: images/covers/e1ba4f1038eae5b4.webp
+  image: /images/covers/e1ba4f1038eae5b4.webp
 album_url: http://picasaweb.google.com/ulls2006/VermutSicalLaAristocraciaAmbVersionsDeSerrat?feat=embedwebsite
 ---
 

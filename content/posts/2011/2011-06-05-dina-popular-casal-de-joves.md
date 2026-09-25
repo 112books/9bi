@@ -11,7 +11,7 @@ tags:
 - casa
 - pop
 cover:
-  image: images/covers/e73ffdc10ce31f1c.webp
+  image: /images/covers/e73ffdc10ce31f1c.webp
 album_url: https://picasaweb.google.com/nico9barrisimarge/DinaPopularCasalDeJoves?feat=embedwebsite
 ---
 

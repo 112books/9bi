@@ -11,7 +11,7 @@ tags:
 - fotografia
 - la cultura va de festa. linuxbcn
 cover:
-  image: images/covers/fca9c6dd3313b072.webp
+  image: /images/covers/fca9c6dd3313b072.webp
 album_url: https://picasaweb.google.com/linuxbcn/Carnestoltes1011Prego?feat=embedwebsite
 ---
 

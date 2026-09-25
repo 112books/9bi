@@ -9,7 +9,7 @@ tags:
 - inmortales
 - karaoke
 cover:
-  image: images/covers/e201b97730b6113a.webp
+  image: /images/covers/e201b97730b6113a.webp
 album_url: https://photos.app.goo.gl/qs2473tmmUJWFBpr7
 ---
 

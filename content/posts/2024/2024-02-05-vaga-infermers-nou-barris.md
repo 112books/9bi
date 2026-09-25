@@ -9,7 +9,7 @@ tags:
 - barri
 - vaga
 cover:
-  image: images/covers/d317cb6b302819ef.webp
+  image: /images/covers/d317cb6b302819ef.webp
 album_url: https://photos.app.goo.gl/c5bLkFx6ToEuvj8o6
 ---
 

@@ -11,7 +11,7 @@ tags:
 - prospe
 - baile
 cover:
-  image: images/covers/8ffa2dec43ee238b.webp
+  image: /images/covers/8ffa2dec43ee238b.webp
 album_url: https://photos.app.goo.gl/RFHp4Tn5Dh1NzbdMA
 ---
 

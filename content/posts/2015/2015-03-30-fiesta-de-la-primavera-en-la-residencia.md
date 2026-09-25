@@ -8,7 +8,7 @@ tags:
 - fiesta
 - STA
 cover:
-  image: images/covers/632469660b4e65fa.webp
+  image: /images/covers/632469660b4e65fa.webp
 album_url: https://picasaweb.google.com/115452009915421757608/FiestaDeLaPrimaveraEnLaResidenciaPorta?authuser=0&feat=embedwebsite
 ---
 

@@ -7,7 +7,7 @@ slug: v-encierro-de-unicornios
 tags:
 - nico
 cover:
-  image: images/covers/718fa738e5324199.webp
+  image: /images/covers/718fa738e5324199.webp
 album_url: https://photos.app.goo.gl/KCZbDbVV3cnaw5c9A
 ---
 

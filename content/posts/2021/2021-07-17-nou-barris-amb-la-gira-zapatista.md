@@ -9,7 +9,7 @@ tags:
 - barri
 - STA
 cover:
-  image: images/covers/fe317132f4e63d41.webp
+  image: /images/covers/fe317132f4e63d41.webp
 album_url: https://photos.app.goo.gl/2FUsAzZmah1ZTv7n9
 ---
 

@@ -9,7 +9,7 @@ tags:
 - prospe
 - festes
 cover:
-  image: images/covers/9b146ecada50696e.webp
+  image: /images/covers/9b146ecada50696e.webp
 album_url: https://picasaweb.google.com/103138221614479310970/6292273391554715201?authuser=0&feat=embedwebsite
 ---
 

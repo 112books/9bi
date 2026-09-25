@@ -7,7 +7,7 @@ slug: festes-de-prosperitat-2013-dilluns
 tags:
 - festes de prospe
 cover:
-  image: images/covers/9c14faa4e12e3eba.webp
+  image: /images/covers/9c14faa4e12e3eba.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestesDeProsperitat2013Dilluns?authuser=0&feat=embedwebsite
 ---
 

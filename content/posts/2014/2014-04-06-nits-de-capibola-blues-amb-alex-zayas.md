@@ -10,7 +10,7 @@ tags:
 - blues
 - BLUE
 cover:
-  image: images/covers/8fa2b467117c9005.webp
+  image: /images/covers/8fa2b467117c9005.webp
 album_url: https://picasaweb.google.com/103138221614479310970/NitsDeCapibolaBluesAmbAlexZayas?authuser=0&feat=embedwebsite
 ---
 

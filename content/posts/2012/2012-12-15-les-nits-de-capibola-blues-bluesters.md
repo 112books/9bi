@@ -9,7 +9,7 @@ tags:
 - les nits de Capibila
 - the bluesters
 cover:
-  image: images/covers/3e12a4abd78297d5.webp
+  image: /images/covers/3e12a4abd78297d5.webp
 album_url: https://picasaweb.google.com/103138221614479310970/LesNitsDeCapibolaBluesTheBluesters?authuser=0&feat=embedwebsite
 ---
 

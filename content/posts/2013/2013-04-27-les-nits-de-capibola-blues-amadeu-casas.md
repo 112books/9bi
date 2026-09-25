@@ -11,7 +11,7 @@ tags:
 - les nits de Capibila
 - Xavier Maureta
 cover:
-  image: images/covers/0197d115c29f9f0a.webp
+  image: /images/covers/0197d115c29f9f0a.webp
 album_url: https://picasaweb.google.com/103138221614479310970/LesNitsDeCapibolaBluesAmadeuCasasIAugustTharratsXavierMaureta?authuser=0&feat=embedwebsite
 ---
 

@@ -12,7 +12,7 @@ tags:
 - masterclass
 - The Walking Stick Man Blues Band
 cover:
-  image: images/covers/2279c095e500a44b.webp
+  image: /images/covers/2279c095e500a44b.webp
 album_url: https://photos.app.goo.gl/seobgLL5cnaJPUFc9
 ---
 

@@ -11,7 +11,7 @@ tags:
 - diables
 - ignasi
 cover:
-  image: images/covers/2112cb17d7b3baf5.webp
+  image: /images/covers/2112cb17d7b3baf5.webp
 album_url: http://picasaweb.google.com/Ignasi9b/Calcotada09Diables9BarrisLaSerraDAlmosAteneuDe9Barris?feat=embedwebsite
 ---
 

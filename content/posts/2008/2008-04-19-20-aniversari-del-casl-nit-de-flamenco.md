@@ -12,7 +12,7 @@ tags:
 - Monsul
 - potato
 cover:
-  image: images/covers/7c621faec4ef5881.webp
+  image: /images/covers/7c621faec4ef5881.webp
 album_url: https://photos.app.goo.gl/MUAQUCibhjn8KQcZ6
 ---
 

@@ -11,7 +11,7 @@ tags:
 - dissabte
 - formació
 cover:
-  image: images/covers/1c601955e0cdd991.webp
+  image: /images/covers/1c601955e0cdd991.webp
 album_url: https://goo.gl/photos/MEFABrew44ALB6oaA
 ---
 

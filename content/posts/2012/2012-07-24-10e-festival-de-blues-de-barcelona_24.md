@@ -8,7 +8,7 @@ tags:
 - graffiti
 - nbq
 cover:
-  image: images/covers/0541c24ca25b4367.webp
+  image: /images/covers/0541c24ca25b4367.webp
 album_url: https://picasaweb.google.com/103138221614479310970/10eFestivalDeBluesDeBarcelonaGraffitiNBQFinal?authuser=0&feat=embedwebsite
 ---
 

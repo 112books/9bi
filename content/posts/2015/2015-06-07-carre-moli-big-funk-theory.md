@@ -8,7 +8,7 @@ tags:
 - blues
 - música
 cover:
-  image: images/covers/d05075ba6398edc1.webp
+  image: /images/covers/d05075ba6398edc1.webp
 album_url: https://picasaweb.google.com/115791131166530059320/CARREMOLIBIGFUNKTHEORY?authuser=0&feat=embedwebsite
 ---
 

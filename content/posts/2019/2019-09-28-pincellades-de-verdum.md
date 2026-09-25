@@ -11,7 +11,7 @@ tags:
 - entitats
 - verdum
 cover:
-  image: images/covers/1082177ec877a44a.webp
+  image: /images/covers/1082177ec877a44a.webp
 album_url: https://photos.app.goo.gl/7MRYECaUNmLfWsvY7
 ---
 

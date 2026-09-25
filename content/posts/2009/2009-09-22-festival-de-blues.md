@@ -8,7 +8,7 @@ tags:
 - Amar Sundy Blues Reunion
 - barcelona blues
 cover:
-  image: images/covers/1753fd3b586d3733.webp
+  image: /images/covers/1753fd3b586d3733.webp
 album_url: http://picasaweb.google.es/Perdo.Garcia/BluesBlues?feat=embedwebsite
 ---
 

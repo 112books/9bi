@@ -9,7 +9,7 @@ tags:
 - la cultura va de festa
 - linuxbcn
 cover:
-  image: images/covers/a71af238211bb136.webp
+  image: /images/covers/a71af238211bb136.webp
 album_url: https://photos.app.goo.gl/ET4YTN7uHEG1Uaku5
 ---
 

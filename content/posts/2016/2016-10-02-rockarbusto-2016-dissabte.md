@@ -9,7 +9,7 @@ tags:
 - arbusto
 - rock
 cover:
-  image: images/covers/fdcd75913a2c4665.webp
+  image: /images/covers/fdcd75913a2c4665.webp
 album_url: https://goo.gl/photos/98TSb9i5yco8pQDE9
 ---
 

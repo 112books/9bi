@@ -9,7 +9,7 @@ tags:
 - prospe
 - expo
 cover:
-  image: images/covers/5651bca37cff45e4.webp
+  image: /images/covers/5651bca37cff45e4.webp
 album_url: https://photos.app.goo.gl/nyoVQu96JycSQTFg6
 ---
 

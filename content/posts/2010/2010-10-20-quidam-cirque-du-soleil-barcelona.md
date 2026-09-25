@@ -8,7 +8,7 @@ tags:
 - cirque du soleil
 - manel sala ulls
 cover:
-  image: images/covers/18cccda54f33cad1.webp
+  image: /images/covers/18cccda54f33cad1.webp
 album_url: http://picasaweb.google.com/ulls2006/QuidamCirqueDuSoleilBarcelona10092008?feat=embedwebsite
 ---
 

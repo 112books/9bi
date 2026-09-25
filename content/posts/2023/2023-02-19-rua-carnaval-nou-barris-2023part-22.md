@@ -9,7 +9,7 @@ tags:
 - Carnestoltes 2023
 - rua carnaval via julia
 cover:
-  image: images/covers/cf0623d75cc23675.webp
+  image: /images/covers/cf0623d75cc23675.webp
 album_url: https://photos.app.goo.gl/yEE8VukGu8M7D2R27
 ---
 

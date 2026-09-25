@@ -12,7 +12,7 @@ tags:
 - Hermanowar
 - concert
 cover:
-  image: images/covers/6fd6215094728fbe.webp
+  image: /images/covers/6fd6215094728fbe.webp
 album_url: https://photos.app.goo.gl/PkRC4sEVhJemQRE1A
 ---
 

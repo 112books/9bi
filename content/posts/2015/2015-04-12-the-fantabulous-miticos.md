@@ -7,7 +7,7 @@ slug: the-fantabulous-miticos
 tags:
 - música
 cover:
-  image: images/covers/be69dca3f1e80a90.webp
+  image: /images/covers/be69dca3f1e80a90.webp
 album_url: https://picasaweb.google.com/103138221614479310970/TheFantabulousMiticos?authuser=0&feat=embedwebsite
 ---
 

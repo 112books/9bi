@@ -10,7 +10,7 @@ tags:
 - manel sala ulls
 - nou barris
 cover:
-  image: images/covers/d3aab91c1c78f932.webp
+  image: /images/covers/d3aab91c1c78f932.webp
 album_url: http://picasaweb.google.es/ulls1963/ChistorraRock?feat=embedwebsite
 ---
 

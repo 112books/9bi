@@ -9,7 +9,7 @@ tags:
 - beso
 - paseo
 cover:
-  image: images/covers/26a5049966aff602.webp
+  image: /images/covers/26a5049966aff602.webp
 album_url: https://photos.google.com/share/AF1QipMg2Hw12jfjGLLSxKFRHbFdvMpxotGzk9hREJkf0yuPRY_mNOk14P5TLqlaKhOBzA?key=QWpCT2VGalVhY21QejJmNklYSXRha2VQU2RjQXN3
 ---
 

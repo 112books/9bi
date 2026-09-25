@@ -7,7 +7,7 @@ slug: expo-efemerides-25-documents-basics
 tags:
 - CENTENARI
 cover:
-  image: images/covers/4c0d3684180c230b.webp
+  image: /images/covers/4c0d3684180c230b.webp
 album_url: https://photos.app.goo.gl/RoTcSiUdEpH5dfoN7
 ---
 

@@ -8,7 +8,7 @@ tags:
 - avis
 - gent gran
 cover:
-  image: images/covers/f83d24cda027c8bc.webp
+  image: /images/covers/f83d24cda027c8bc.webp
 album_url: https://picasaweb.google.com/115452009915421757608/10AniversariDeLaResidenciaICentreDeDiaPorta?authuser=0&feat=embedwebsite
 ---
 

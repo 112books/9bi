@@ -8,7 +8,7 @@ tags:
 - festes de prospe
 - joan.linuxbcn.com
 cover:
-  image: images/covers/174095a965ff37db.webp
+  image: /images/covers/174095a965ff37db.webp
 album_url: https://picasaweb.google.com/linuxbcn/FestesDeProsperitatDiumenge5?feat=embedwebsite
 ---
 

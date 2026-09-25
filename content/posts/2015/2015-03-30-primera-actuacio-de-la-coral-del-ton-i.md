@@ -11,7 +11,7 @@ tags:
 - jazz
 - arte
 cover:
-  image: images/covers/ec329837771a050b.webp
+  image: /images/covers/ec329837771a050b.webp
 album_url: https://picasaweb.google.com/110015855395179205688/LACORALDELTONIGUIDA?authuser=0&feat=embedwebsite
 ---
 

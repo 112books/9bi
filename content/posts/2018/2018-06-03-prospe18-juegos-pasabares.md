@@ -8,7 +8,7 @@ tags:
 - festes de prospe 2018
 - pasabares
 cover:
-  image: images/covers/3d25c1ce4c13a825.webp
+  image: /images/covers/3d25c1ce4c13a825.webp
 album_url: https://photos.google.com/share/AF1QipPF4vZdYU94c2WRoYXoSdsFA3fWoBMY3QIsUMaVA1Eh8ewjRBLADnct5AGlwP99eg?key=SVY3cjU4a0lPVGZaVkhzLU02ZEdyRHZNTDFNR1NR
 ---
 

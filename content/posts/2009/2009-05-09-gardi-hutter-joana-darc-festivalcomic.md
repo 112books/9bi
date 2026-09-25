@@ -12,7 +12,7 @@ tags:
 - pallassa
 - payasa
 cover:
-  image: images/covers/22a833740fad22e7.webp
+  image: /images/covers/22a833740fad22e7.webp
 album_url: http://picasaweb.google.es/ulls1963/GardiHutterJoanaDArcFestivalComicDeFigueres?feat=embedwebsite
 ---
 

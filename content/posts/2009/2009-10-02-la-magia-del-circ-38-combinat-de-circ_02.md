@@ -9,7 +9,7 @@ tags:
 - circ
 - manel sala ulls
 cover:
-  image: images/covers/0144a25b5bd52ad2.webp
+  image: /images/covers/0144a25b5bd52ad2.webp
 album_url: http://picasaweb.google.es/ulls1963/LaMagiaDelCirc?feat=embedwebsite
 ---
 

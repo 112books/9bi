@@ -12,7 +12,7 @@ tags:
 - diari de festes
 - Prosperitat
 cover:
-  image: images/covers/58000b06063dfe64.webp
+  image: /images/covers/58000b06063dfe64.webp
 album_url: https://photos.app.goo.gl/W8RnZ3bpiAgxvuCN9
 ---
 

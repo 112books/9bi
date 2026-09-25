@@ -9,7 +9,7 @@ tags:
 - fotos
 - bcn
 cover:
-  image: images/covers/3cbdd46dda92b500.webp
+  image: /images/covers/3cbdd46dda92b500.webp
 album_url: https://picasaweb.google.com/100268695753733554853/12MSURTALCARRERBCN?authuser=0&amp;feat=embedwebsite
 ---
 

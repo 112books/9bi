@@ -9,7 +9,7 @@ tags:
 - esposició
 - fotografica
 cover:
-  image: images/covers/8dcc918908ffce63.webp
+  image: /images/covers/8dcc918908ffce63.webp
 ---
 
 Aquest proper 1 de Juliol a les 20h s'ignaugura la exposició StreetWorld; exposicio fotogràfica del gruo "La Ginesta". La podreu visitar fins al 29 de juliol al Casal de barri de Prosperitat.

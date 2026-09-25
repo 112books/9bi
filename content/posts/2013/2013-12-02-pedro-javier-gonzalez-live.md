@@ -9,7 +9,7 @@ tags:
 - casal d'avis de prosperitat
 - Pedro Javier Gonzalez Trio
 cover:
-  image: images/covers/09bca67e545731d2.webp
+  image: /images/covers/09bca67e545731d2.webp
 album_url: https://picasaweb.google.com/111777199791376723749/PedroJavierGonzalezLive02?authuser=0&authkey=Gv1sRgCNeH9onp7JfzVA&feat=embedwebsite
 ---
 

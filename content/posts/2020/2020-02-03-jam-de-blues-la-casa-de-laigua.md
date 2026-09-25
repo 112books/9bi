@@ -11,7 +11,7 @@ tags:
 - casa
 - BLUE
 cover:
-  image: images/covers/4608a2069dad2fcd.webp
+  image: /images/covers/4608a2069dad2fcd.webp
 album_url: https://photos.app.goo.gl/NksWef7UpYiA3f4i7
 ---
 

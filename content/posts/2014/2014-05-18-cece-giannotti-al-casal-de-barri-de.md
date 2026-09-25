@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - prospe
 cover:
-  image: images/covers/318b252693c4d7a2.webp
+  image: /images/covers/318b252693c4d7a2.webp
 album_url: https://picasaweb.google.com/103138221614479310970/CeceGiannottiAlCasalDeBarriDeProsperitat?authuser=0&feat=embedwebsite
 ---
 

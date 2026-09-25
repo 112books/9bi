@@ -10,7 +10,7 @@ tags:
 - casa
 - avis
 cover:
-  image: images/covers/0c9e37ed0d025208.webp
+  image: /images/covers/0c9e37ed0d025208.webp
 album_url: https://picasaweb.google.com/110015855395179205688/DOLORCRONIC02?authuser=0&feat=embedwebsite
 ---
 

@@ -8,7 +8,7 @@ tags:
 - Daniel Higiénico
 - nico
 cover:
-  image: images/covers/688682cc74c37cc4.webp
+  image: /images/covers/688682cc74c37cc4.webp
 album_url: https://photos.app.goo.gl/ymvBnor9kqBWpHbz7
 ---
 

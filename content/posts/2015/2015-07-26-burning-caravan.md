@@ -8,7 +8,7 @@ tags:
 - blues
 - música
 cover:
-  image: images/covers/6ad5d503b501bd83.webp
+  image: /images/covers/6ad5d503b501bd83.webp
 album_url: https://picasaweb.google.com/103138221614479310970/BurningCaravan?authuser=0&feat=embedwebsite
 ---
 

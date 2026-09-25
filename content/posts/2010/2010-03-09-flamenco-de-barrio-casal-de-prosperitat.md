@@ -10,7 +10,7 @@ tags:
 - manel sala ulls
 - música
 cover:
-  image: images/covers/dd9b8620348c1983.webp
+  image: /images/covers/dd9b8620348c1983.webp
 album_url: http://picasaweb.google.es/ulls2006/FlamencoDeBarrioCasalProsperitat?feat=embedwebsite
 ---
 

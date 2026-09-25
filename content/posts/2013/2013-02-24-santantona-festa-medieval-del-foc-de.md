@@ -11,7 +11,7 @@ tags:
 - fiesta
 - FESTA
 cover:
-  image: images/covers/352a893b708ffa8d.webp
+  image: /images/covers/352a893b708ffa8d.webp
 album_url: https://picasaweb.google.com/115791131166530059320/24DeFebreroDe2013?authuser=0&feat=embedwebsite
 ---
 

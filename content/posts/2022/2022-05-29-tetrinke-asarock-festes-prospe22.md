@@ -11,7 +11,7 @@ tags:
 - festa major
 - tetrinké
 cover:
-  image: images/covers/3a0beba0e32597d9.webp
+  image: /images/covers/3a0beba0e32597d9.webp
 album_url: https://photos.app.goo.gl/yoRUigrC2v5Kj9mq7
 ---
 

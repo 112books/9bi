@@ -7,7 +7,7 @@ slug: havaneres-i-cremat
 tags:
 - Festa major de prospe
 cover:
-  image: images/covers/6041380f33424e2a.webp
+  image: /images/covers/6041380f33424e2a.webp
 album_url: https://photos.app.goo.gl/TjXmhnr9prqCCMV73
 ---
 

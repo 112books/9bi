@@ -11,7 +11,7 @@ tags:
 - Boni
 - STA
 cover:
-  image: images/covers/7b76ddda5708236a.webp
+  image: /images/covers/7b76ddda5708236a.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

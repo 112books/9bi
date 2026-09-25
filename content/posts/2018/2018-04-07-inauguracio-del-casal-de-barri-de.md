@@ -11,7 +11,7 @@ tags:
 - exposició
 - entitats
 cover:
-  image: images/covers/70b2ddca8a780b62.webp
+  image: /images/covers/70b2ddca8a780b62.webp
 album_url: https://photos.app.goo.gl/SQfP8Q171Tg7kWpM2
 ---
 

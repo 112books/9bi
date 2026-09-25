@@ -13,7 +13,7 @@ tags:
 - reis
 - solidaritat
 cover:
-  image: images/covers/6f87421fb40a9e30.webp
+  image: /images/covers/6f87421fb40a9e30.webp
 album_url: https://picasaweb.google.com/103138221614479310970/CampanyaDeRecollidaDeJoguinesAProsperitat?authuser=0&feat=embedwebsite
 ---
 

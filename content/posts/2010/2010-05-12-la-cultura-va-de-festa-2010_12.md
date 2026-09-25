@@ -8,7 +8,7 @@ tags:
 - cultura
 - nou barris
 cover:
-  image: images/covers/502968861792f3ad.webp
+  image: /images/covers/502968861792f3ad.webp
 album_url: http://picasaweb.google.com/Perdo.Garcia/09052010?feat=embedwebsite
 ---
 

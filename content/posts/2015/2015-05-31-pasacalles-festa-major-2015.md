@@ -11,7 +11,7 @@ tags:
 - nico
 - yeye
 cover:
-  image: images/covers/314fdaac88c614da.webp
+  image: /images/covers/314fdaac88c614da.webp
 album_url: https://picasaweb.google.com/103138221614479310970/PasacallesFestaMajor2015?authuser=0&feat=embedwebsite
 ---
 

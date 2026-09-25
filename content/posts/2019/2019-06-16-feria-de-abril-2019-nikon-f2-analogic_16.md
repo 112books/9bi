@@ -9,7 +9,7 @@ tags:
 - analogic
 - niko
 cover:
-  image: images/covers/93305a4b2341d8ab.webp
+  image: /images/covers/93305a4b2341d8ab.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

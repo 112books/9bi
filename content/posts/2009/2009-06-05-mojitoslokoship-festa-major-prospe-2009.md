@@ -9,7 +9,7 @@ tags:
 - manel sala ulls
 - nou barris
 cover:
-  image: images/covers/49b6e563f742c684.webp
+  image: /images/covers/49b6e563f742c684.webp
 album_url: http://picasaweb.google.es/ulls1963/Mojitos?feat=embedwebsite
 ---
 

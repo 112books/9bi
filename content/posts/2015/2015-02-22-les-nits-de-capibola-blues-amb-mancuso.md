@@ -10,7 +10,7 @@ tags:
 - blues
 - BLUE
 cover:
-  image: images/covers/cade88124235b73b.webp
+  image: /images/covers/cade88124235b73b.webp
 album_url: https://picasaweb.google.com/103138221614479310970/LesNitsDeCapibolaBluesAmbMancuso?authuser=0&feat=embedwebsite
 ---
 

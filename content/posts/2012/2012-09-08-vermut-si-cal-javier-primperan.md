@@ -10,7 +10,7 @@ tags:
 - javier pprimperan
 - vermut sical
 cover:
-  image: images/covers/e499b9e97cf709cb.webp
+  image: /images/covers/e499b9e97cf709cb.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutSiCalJavierPrimperan?authuser=0&feat=embedwebsite
 ---
 

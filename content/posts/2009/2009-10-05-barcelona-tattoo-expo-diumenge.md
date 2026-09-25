@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - tattoo
 cover:
-  image: images/covers/fc720d6c4ee99175.webp
+  image: /images/covers/fc720d6c4ee99175.webp
 album_url: https://photos.app.goo.gl/1HTF9cwieWNXGbfu6
 ---
 

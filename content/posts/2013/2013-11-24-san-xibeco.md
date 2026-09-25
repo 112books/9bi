@@ -8,7 +8,7 @@ tags:
 - san xibeco
 - xibeco
 cover:
-  image: images/covers/84f8795778f5038b.webp
+  image: /images/covers/84f8795778f5038b.webp
 album_url: https://picasaweb.google.com/115791131166530059320/24DeNoviembreDe2013?authuser=0&feat=embedwebsite
 ---
 

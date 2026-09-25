@@ -12,7 +12,7 @@ tags:
 - Barcelona
 - blues
 cover:
-  image: images/covers/f817e2108ed9673f.webp
+  image: /images/covers/f817e2108ed9673f.webp
 album_url: https://photos.app.goo.gl/VaKrjs1NafY1brbz8
 ---
 

@@ -11,7 +11,7 @@ tags:
 - convivència
 - nou barris
 cover:
-  image: images/covers/a3341111a748f97e.webp
+  image: /images/covers/a3341111a748f97e.webp
 album_url: https://photos.google.com/share/AF1QipMQ9WG7PJfnPaWxPNUbPJ338qPhrsrwV6EScqPVsoG70Hk6hiyjrEzY8kzX6kKFDg?hl=es&key=TjhSNzZ1NC05QTlzODVidjBCY2JVTEVLdkdpLV9R
 ---
 

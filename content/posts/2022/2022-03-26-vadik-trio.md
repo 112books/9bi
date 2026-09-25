@@ -7,7 +7,7 @@ slug: vadik-trio
 tags:
 - música
 cover:
-  image: images/covers/960a8474059be882.webp
+  image: /images/covers/960a8474059be882.webp
 album_url: https://photos.app.goo.gl/kaukKMPJHMcQWStP6
 ---
 

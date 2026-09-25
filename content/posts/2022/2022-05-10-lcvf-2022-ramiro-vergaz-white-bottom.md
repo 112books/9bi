@@ -11,7 +11,7 @@ tags:
 - nico
 - vaga
 cover:
-  image: images/covers/22971c122bc63e65.webp
+  image: /images/covers/22971c122bc63e65.webp
 album_url: https://photos.app.goo.gl/wN17q3MvEwH1S2K79
 ---
 

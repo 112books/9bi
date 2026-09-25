@@ -9,7 +9,7 @@ tags:
 - Prosperitat
 - vía júlia
 cover:
-  image: images/covers/7e4db4c99f96e9ea.webp
+  image: /images/covers/7e4db4c99f96e9ea.webp
 album_url: https://picasaweb.google.com/103138221614479310970/DiaDeLaMusicaAViaJuliaProsperitat?authuser=0&feat=embedwebsite
 ---
 

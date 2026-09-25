@@ -11,7 +11,7 @@ tags:
 - exposició
 - entitats
 cover:
-  image: images/covers/07dd512af4082064.webp
+  image: /images/covers/07dd512af4082064.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

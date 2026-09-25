@@ -14,7 +14,7 @@ tags:
 - taxistas
 - vaga  sanitat
 cover:
-  image: images/covers/31ab20693cc57e71.webp
+  image: /images/covers/31ab20693cc57e71.webp
 album_url: https://photos.app.goo.gl/Rc2ZdHREozMAUSkR7
 ---
 

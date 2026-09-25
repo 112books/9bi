@@ -7,7 +7,7 @@ slug: ruta-per-la-prosperitat
 tags:
 - Prosperitat
 cover:
-  image: images/covers/dae25d4f2840569e.webp
+  image: /images/covers/dae25d4f2840569e.webp
 album_url: https://picasaweb.google.com/111964096227458093905/6287177730820730673?authuser=0&feat=embedwebsite
 ---
 

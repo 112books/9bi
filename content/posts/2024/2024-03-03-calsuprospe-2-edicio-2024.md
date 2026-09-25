@@ -10,7 +10,7 @@ tags:
 - prospe
 - art
 cover:
-  image: images/covers/f753939823c44864.webp
+  image: /images/covers/f753939823c44864.webp
 album_url: https://photos.app.goo.gl/caPeQ5m7rCHZ2hmXA
 ---
 

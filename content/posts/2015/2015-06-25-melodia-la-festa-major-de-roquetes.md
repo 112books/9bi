@@ -11,7 +11,7 @@ tags:
 - concert
 - música
 cover:
-  image: images/covers/6b283ff9bd837317.webp
+  image: /images/covers/6b283ff9bd837317.webp
 album_url: https://picasaweb.google.com/110015855395179205688/ConcertALaFresca02?authuser=0&feat=embedwebsite
 ---
 

@@ -7,7 +7,7 @@ slug: la-banda-municipal-de-barcelona-daniel
 tags:
 - Barcelona
 cover:
-  image: images/covers/b2b6993aafbb4e14.webp
+  image: /images/covers/b2b6993aafbb4e14.webp
 album_url: https://photos.app.goo.gl/G1YX32EuKjSgoWAe9
 ---
 

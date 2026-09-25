@@ -8,7 +8,7 @@ tags:
 - festes de prospe
 - nico
 cover:
-  image: images/covers/56f39d2a411d1858.webp
+  image: /images/covers/56f39d2a411d1858.webp
 album_url: https://picasaweb.google.com/nico9barrisimarge/FestesDeProspe2013HavaneresCarreFlordeneu?authuser=0&feat=embedwebsite
 ---
 

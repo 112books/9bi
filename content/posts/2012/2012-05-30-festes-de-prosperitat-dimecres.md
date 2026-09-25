@@ -13,7 +13,7 @@ tags:
 - popular
 - puretas
 cover:
-  image: images/covers/af6905caad9b29c1.webp
+  image: /images/covers/af6905caad9b29c1.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestesDeProsperitatDimecres?authuser=0&feat=embedwebsite
 ---
 

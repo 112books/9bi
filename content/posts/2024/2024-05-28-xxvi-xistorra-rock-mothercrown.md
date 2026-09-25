@@ -8,7 +8,7 @@ tags:
 - chistorra rock
 - festesprospe2024
 cover:
-  image: images/covers/d148ac71a41f8a5b.webp
+  image: /images/covers/d148ac71a41f8a5b.webp
 album_url: https://photos.app.goo.gl/sVXgwLyntnDmefdXA
 ---
 

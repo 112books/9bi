@@ -19,7 +19,7 @@ tags:
 - SantXibeco
 - TradicioCatalana
 cover:
-  image: images/covers/b8640ceb76e03aa3.webp
+  image: /images/covers/b8640ceb76e03aa3.webp
 album_url: https://photos.app.goo.gl/h9KAGDtnL7hEjUVy9
 ---
 

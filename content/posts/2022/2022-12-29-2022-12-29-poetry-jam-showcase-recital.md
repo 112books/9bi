@@ -7,7 +7,7 @@ slug: 2022-12-29-poetry-jam-showcase-recital
 tags:
 - recital
 cover:
-  image: images/covers/cf69e0ebad047952.webp
+  image: /images/covers/cf69e0ebad047952.webp
 album_url: https://photos.app.goo.gl/JHA391bv28PkUzCS7
 ---
 

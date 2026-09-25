@@ -11,7 +11,7 @@ tags:
 - barri
 - ruta
 cover:
-  image: images/covers/ed24f7004628a068.webp
+  image: /images/covers/ed24f7004628a068.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6277090319539057745?authuser=0&feat=embedwebsite
 ---
 

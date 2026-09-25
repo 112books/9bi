@@ -10,7 +10,7 @@ tags:
 - prospe
 - festes
 cover:
-  image: images/covers/944f8b66911519e6.webp
+  image: /images/covers/944f8b66911519e6.webp
 album_url: https://picasaweb.google.com/111964096227458093905/FESTESPROSPERITATKARAOKE?authuser=0&amp;feat=embedwebsite
 ---
 

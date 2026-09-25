@@ -10,7 +10,7 @@ tags:
 - pop
 - rock
 cover:
-  image: images/covers/2a94416a81db0fe3.webp
+  image: /images/covers/2a94416a81db0fe3.webp
 album_url: https://picasaweb.google.com/lh/photo/MPccu3VyfXKCcAYZfOyxz9MTjNZETYmyPJy0liipFm0?feat=embedwebsite
 ---
 

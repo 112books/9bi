@@ -10,7 +10,7 @@ tags:
 - prospefesta penya
 - prospefesta26
 cover:
-  image: images/covers/4938532892468051.webp
+  image: /images/covers/4938532892468051.webp
 album_url: https://photos.app.goo.gl/3WweaY63T6gFMznQA
 ---
 

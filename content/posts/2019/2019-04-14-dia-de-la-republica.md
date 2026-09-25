@@ -10,7 +10,7 @@ tags:
 - 9 barris
 - barri
 cover:
-  image: images/covers/3b9c7cbd22e8898e.webp
+  image: /images/covers/3b9c7cbd22e8898e.webp
 album_url: https://photos.app.goo.gl/4z1iZ7tgXaDZz8247
 ---
 

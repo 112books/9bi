@@ -9,7 +9,7 @@ tags:
 - carnestoltes 2020
 - carnestoltes 9 barris 2020
 cover:
-  image: images/covers/66f89c597b89fa70.webp
+  image: /images/covers/66f89c597b89fa70.webp
 album_url: https://photos.app.goo.gl/BK9SDqh8qdpHUWTt5
 ---
 

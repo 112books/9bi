@@ -8,7 +8,7 @@ tags:
 - festes de prospe
 - nico
 cover:
-  image: images/covers/caf02364ebfe9f22.webp
+  image: /images/covers/caf02364ebfe9f22.webp
 album_url: https://picasaweb.google.com/nico9barrisimarge/FestesDeProsperitatKaraokePaLesPenyes?authuser=0&feat=embedwebsite
 ---
 

@@ -7,7 +7,7 @@ slug: lliurament-de-signatures-al-parlament
 tags:
 - sanitat
 cover:
-  image: images/covers/c4177227988d8c1a.webp
+  image: /images/covers/c4177227988d8c1a.webp
 album_url: https://photos.app.goo.gl/YZQZ7JXnQu4WSTbc6
 ---
 

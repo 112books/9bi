@@ -11,7 +11,7 @@ tags:
 - neu
 - mar
 cover:
-  image: images/covers/f7882e7ba9e87d89.webp
+  image: /images/covers/f7882e7ba9e87d89.webp
 album_url: https://photos.app.goo.gl/cTiStpQg1VCVPkkN8
 ---
 

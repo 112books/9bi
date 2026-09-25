@@ -8,7 +8,7 @@ tags:
 - concurs
 - premis
 cover:
-  image: images/covers/ee3b74ec18693299.webp
+  image: /images/covers/ee3b74ec18693299.webp
 album_url: https://photos.app.goo.gl/Ka9Muy5RSZLhXEPPA
 ---
 

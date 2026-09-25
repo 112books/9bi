@@ -11,7 +11,7 @@ tags:
 - FESTA
 - STA
 cover:
-  image: images/covers/729eb239ae1dd1a4.webp
+  image: /images/covers/729eb239ae1dd1a4.webp
 album_url: https://picasaweb.google.com/115791131166530059320/Cultura12?authuser=0&feat=embedwebsite
 ---
 

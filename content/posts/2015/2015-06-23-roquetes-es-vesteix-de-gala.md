@@ -11,7 +11,7 @@ tags:
 - entitats
 - tallers
 cover:
-  image: images/covers/ce060cd055b53bfd.webp
+  image: /images/covers/ce060cd055b53bfd.webp
 album_url: https://picasaweb.google.com/110015855395179205688/FASHIONWEEK2015?authuser=0&feat=embedwebsite
 ---
 

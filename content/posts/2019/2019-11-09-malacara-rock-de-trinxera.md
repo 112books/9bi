@@ -9,7 +9,7 @@ tags:
 - música
 - rock
 cover:
-  image: images/covers/5985abd0087fd8ee.webp
+  image: /images/covers/5985abd0087fd8ee.webp
 album_url: https://photos.google.com/share/AF1QipNaNvIhXNE86Zcc-YxdDaHwbEyGPdPd3NQVOdfWLx1aNAMPti-vawplagAHP4oLTA?key=NTQ4Rk9ZRU1oM3dOOXdLekdSLU5UMkdHQ0VJSk5B
 ---
 

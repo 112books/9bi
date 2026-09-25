@@ -8,7 +8,7 @@ tags:
 - Prosperitat
 - sant xibeco
 cover:
-  image: images/covers/5d070f197356f651.webp
+  image: /images/covers/5d070f197356f651.webp
 album_url: https://photos.app.goo.gl/9A3RDsjPzNsgwwA57
 ---
 

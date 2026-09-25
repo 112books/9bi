@@ -10,7 +10,7 @@ tags:
 - Bang
 - BLUE
 cover:
-  image: images/covers/4353517024395475.webp
+  image: /images/covers/4353517024395475.webp
 album_url: https://photos.app.goo.gl/ZPzU5quFPRfwZ2mZ6
 ---
 

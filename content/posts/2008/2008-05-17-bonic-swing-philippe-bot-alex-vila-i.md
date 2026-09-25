@@ -16,7 +16,7 @@ tags:
 - Philippe Bot
 - vídeo
 cover:
-  image: images/covers/a382b4e9244741bc.webp
+  image: /images/covers/a382b4e9244741bc.webp
 album_url: https://photos.app.goo.gl/rRqKC8ynKzZ8jKSV7
 ---
 

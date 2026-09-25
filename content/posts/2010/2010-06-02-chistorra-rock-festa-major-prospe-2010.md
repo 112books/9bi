@@ -7,7 +7,7 @@ slug: chistorra-rock-festa-major-prospe-2010
 tags:
 - festes de prospe. chistorra rock
 cover:
-  image: images/covers/d178101f2355c576.webp
+  image: /images/covers/d178101f2355c576.webp
 album_url: http://picasaweb.google.com/ulls2006/ChistorraRockFestaMajorProspe2010?authkey=Gv1sRgCOSpsPTt1vWTOw&feat=embedwebsite
 ---
 

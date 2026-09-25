@@ -11,7 +11,7 @@ tags:
 - cultura
 - música
 cover:
-  image: images/covers/1112644a7ad439a7.webp
+  image: /images/covers/1112644a7ad439a7.webp
 album_url: https://photos.app.goo.gl/PH8DRFwrfmXDTW5b9
 ---
 

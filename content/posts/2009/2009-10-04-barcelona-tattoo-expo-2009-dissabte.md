@@ -8,7 +8,7 @@ tags:
 - Barcelona Tattoo Expo
 - linuxbcn
 cover:
-  image: images/covers/dcbe6ef193f13c93.webp
+  image: /images/covers/dcbe6ef193f13c93.webp
 album_url: https://photos.app.goo.gl/G6t3zNpUAe7rqfad7
 ---
 

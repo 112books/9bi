@@ -10,7 +10,7 @@ tags:
 - 9 barris imatge
 - festival de sopes
 cover:
-  image: images/covers/1a6ec62d266a0064.webp
+  image: /images/covers/1a6ec62d266a0064.webp
 album_url: https://photos.app.goo.gl/jJxv4U6EhHv23HJs5
 ---
 

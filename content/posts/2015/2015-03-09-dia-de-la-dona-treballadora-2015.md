@@ -8,7 +8,7 @@ tags:
 - Can Peguera
 - dia de la dona
 cover:
-  image: images/covers/5f8e046ad15067c6.webp
+  image: /images/covers/5f8e046ad15067c6.webp
 album_url: ' https://picasaweb.google.com/116805523004990742624/DiaDeLaDonaTreballadora?authuser=0&authkey=Gv1sRgCIKPloqU05aAswE&feat=embedwebsite '
 ---
 

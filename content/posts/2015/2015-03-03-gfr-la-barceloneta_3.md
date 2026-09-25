@@ -11,7 +11,7 @@ tags:
 - fotowalk
 - diumenge
 cover:
-  image: images/covers/e286e208d72e80eb.webp
+  image: /images/covers/e286e208d72e80eb.webp
 album_url: https://picasaweb.google.com/110015855395179205688/FOTOWALKGRUPFOTOROQUETES?authuser=0&feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - desahucios
 - desnonaments
 cover:
-  image: images/covers/22bb6ccc5d59b67f.webp
+  image: /images/covers/22bb6ccc5d59b67f.webp
 album_url: https://picasaweb.google.com/114858497713897843587/DesnonamentsAturats?authuser=0&feat=embedwebsite
 ---
 

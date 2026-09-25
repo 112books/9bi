@@ -9,7 +9,7 @@ tags:
 - roquetes
 - STA
 cover:
-  image: images/covers/e3d5cf6a6356d45f.webp
+  image: /images/covers/e3d5cf6a6356d45f.webp
 album_url: https://picasaweb.google.com/110015855395179205688/GastroRimes?authuser=0&feat=embedwebsite
 ---
 

@@ -10,7 +10,7 @@ tags:
 - linuxbcn
 - prospeoasis
 cover:
-  image: images/covers/92b9f98da460e4fc.webp
+  image: /images/covers/92b9f98da460e4fc.webp
 album_url: https://photos.app.goo.gl/jEzdshimpvPkkYud6
 ---
 

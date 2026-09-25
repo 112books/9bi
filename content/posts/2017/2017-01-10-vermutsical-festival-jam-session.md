@@ -8,7 +8,7 @@ tags:
 - jam session
 - vermutsical
 cover:
-  image: images/covers/6f0ec10265d198e2.webp
+  image: /images/covers/6f0ec10265d198e2.webp
 album_url: https://goo.gl/photos/cUd781Y8Ts9NLjHN8
 ---
 

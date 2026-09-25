@@ -9,7 +9,7 @@ tags:
 - Penyes
 - Ángel Pesstaña
 cover:
-  image: images/covers/5d270b251a4373fb.webp
+  image: /images/covers/5d270b251a4373fb.webp
 album_url: https://photos.app.goo.gl/hk7Bvf8tFJ8ZFCB79
 ---
 

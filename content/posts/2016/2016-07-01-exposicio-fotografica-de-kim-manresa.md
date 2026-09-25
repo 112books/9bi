@@ -11,7 +11,7 @@ tags:
 - nou barris
 - exposició
 cover:
-  image: images/covers/02d34151e9a6cfd9.webp
+  image: /images/covers/02d34151e9a6cfd9.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

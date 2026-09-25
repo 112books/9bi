@@ -8,7 +8,7 @@ tags:
 - casal barri prosperitat
 - passatge del terror
 cover:
-  image: images/covers/5e895250b4a8a5f9.webp
+  image: /images/covers/5e895250b4a8a5f9.webp
 album_url: https://photos.app.goo.gl/Nv3H9BSfBhgeXVjJ9
 ---
 

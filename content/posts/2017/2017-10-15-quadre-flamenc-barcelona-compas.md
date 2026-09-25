@@ -8,7 +8,7 @@ tags:
 - Barcelona
 - flamenc
 cover:
-  image: images/covers/4a0813e054a027bd.webp
+  image: /images/covers/4a0813e054a027bd.webp
 album_url: https://photos.app.goo.gl/iqVBQS85qK1VlLk12
 ---
 

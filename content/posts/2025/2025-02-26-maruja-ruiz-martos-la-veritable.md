@@ -8,7 +8,7 @@ tags:
 - memòria històrica
 - veïns
 cover:
-  image: images/covers/0bca50a6107c5f68.webp
+  image: /images/covers/0bca50a6107c5f68.webp
 album_url: https://photos.app.goo.gl/p6jm9hk5BonvgnTE7
 ---
 

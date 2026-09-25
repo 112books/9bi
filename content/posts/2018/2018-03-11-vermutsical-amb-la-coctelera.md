@@ -7,7 +7,7 @@ slug: vermutsical-amb-la-coctelera
 tags:
 - vermutsical
 cover:
-  image: images/covers/95a22175f096470a.webp
+  image: /images/covers/95a22175f096470a.webp
 album_url: https://photos.app.goo.gl/MW3gOtXwXqgjXQAN2
 ---
 

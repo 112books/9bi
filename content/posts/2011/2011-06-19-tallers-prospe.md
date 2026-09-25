@@ -8,7 +8,7 @@ tags:
 - tallers
 - prospe
 cover:
-  image: images/covers/4f4c1436881585c4.webp
+  image: /images/covers/4f4c1436881585c4.webp
 album_url: https://picasaweb.google.com/Perdo.Garcia/Talleress?feat=embedwebsite
 ---
 

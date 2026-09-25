@@ -8,7 +8,7 @@ tags:
 - vermutsical
 - mar
 cover:
-  image: images/covers/77b2b28ed49139ad.webp
+  image: /images/covers/77b2b28ed49139ad.webp
 album_url: https://goo.gl/photos/xZKrWzW79ovxk6Px8
 ---
 

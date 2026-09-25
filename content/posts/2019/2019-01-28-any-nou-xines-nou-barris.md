@@ -7,7 +7,7 @@ slug: any-nou-xines-nou-barris
 tags:
 - ANY NOU XINÈS
 cover:
-  image: images/covers/bcc18375b97ef886.webp
+  image: /images/covers/bcc18375b97ef886.webp
 album_url: https://photos.app.goo.gl/aYcjNDzscAsqK5CG7
 ---
 

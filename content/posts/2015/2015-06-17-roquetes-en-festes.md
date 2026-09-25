@@ -11,7 +11,7 @@ tags:
 - festes
 - FESTA
 cover:
-  image: images/covers/4026a5cdd65280f3.webp
+  image: /images/covers/4026a5cdd65280f3.webp
 album_url: https://picasaweb.google.com/110015855395179205688/FESTAMAJORROQUETES2015?authuser=0&feat=embedwebsite
 ---
 

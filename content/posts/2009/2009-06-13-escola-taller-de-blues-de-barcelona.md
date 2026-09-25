@@ -10,7 +10,7 @@ tags:
 - les basses
 - linuxbcn
 cover:
-  image: images/covers/36dad862439ba50e.webp
+  image: /images/covers/36dad862439ba50e.webp
 album_url: https://photos.app.goo.gl/632JK7ADA1zxwz5p6
 ---
 

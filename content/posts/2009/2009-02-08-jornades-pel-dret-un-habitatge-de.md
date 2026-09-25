@@ -8,7 +8,7 @@ tags:
 - habitatge
 - jornades
 cover:
-  image: images/covers/5a872a61c5337cf0.webp
+  image: /images/covers/5a872a61c5337cf0.webp
 album_url: http://picasaweb.google.es/14birras/HABITATGE?feat=embedwebsite
 ---
 

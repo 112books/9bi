@@ -10,7 +10,7 @@ tags:
 - prospe
 - Prospe Beach 2009
 cover:
-  image: images/covers/d5d62042c3cad599.webp
+  image: /images/covers/d5d62042c3cad599.webp
 album_url: https://photos.app.goo.gl/yr73nCLidEBN7y6S7
 ---
 

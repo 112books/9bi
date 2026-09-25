@@ -10,7 +10,7 @@ tags:
 - toscana
 - voterra
 cover:
-  image: images/covers/c6992fc28366aa37.webp
+  image: /images/covers/c6992fc28366aa37.webp
 album_url: https://picasaweb.google.com/115791131166530059320/TOSCANAlll?authuser=0&feat=embedwebsite
 ---
 

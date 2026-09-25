@@ -16,7 +16,7 @@ tags:
 - música i fotografia
 - Nou Barris Imatge
 cover:
-  image: images/covers/8d035c84fe980995.webp
+  image: /images/covers/8d035c84fe980995.webp
 album_url: https://photos.app.goo.gl/2Syt9E1ifrc5q4uD8
 ---
 

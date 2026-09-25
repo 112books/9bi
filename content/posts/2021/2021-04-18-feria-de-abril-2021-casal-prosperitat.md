@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - cultura
 cover:
-  image: images/covers/5e96b35e505f0f12.webp
+  image: /images/covers/5e96b35e505f0f12.webp
 album_url: https://photos.google.com/share/AF1QipMV_0PsuDktq9UiDrTOItUyg9JzzzICkyv2SBhFdP71ZnnaALCX0iN-ys9Q6BDXMA?key=QTBZbk5TR1ViLVJGSU9XYzRiMWxxN3RKeVo5a2p3
 ---
 

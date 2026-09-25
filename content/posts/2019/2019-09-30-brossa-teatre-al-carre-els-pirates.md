@@ -7,7 +7,7 @@ slug: brossa-teatre-al-carre-els-pirates
 tags:
 - teatre
 cover:
-  image: images/covers/e3c8a7c75a1fc0df.webp
+  image: /images/covers/e3c8a7c75a1fc0df.webp
 album_url: https://photos.google.com/share/AF1QipPGKYWxd9jlD1w3ZxqQFSX3hh_JD-KMPjoAQydKX7ExJtpq9YkcTEOwMsYenPe8KA?key=Uk5PN2FRWExPXzRfTzZMMGFrN2dBejBwZ3ZZVVR3
 ---
 

@@ -11,7 +11,7 @@ tags:
 - 9 barris
 - barri
 cover:
-  image: images/covers/aaf7fd9143136d2e.webp
+  image: /images/covers/aaf7fd9143136d2e.webp
 album_url: https://photos.app.goo.gl/6Rsfr8Q97HcxGoQM9
 ---
 

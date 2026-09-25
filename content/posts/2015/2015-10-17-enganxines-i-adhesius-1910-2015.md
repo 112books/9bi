@@ -8,7 +8,7 @@ tags:
 - casal barri prosperitat
 - exposició
 cover:
-  image: images/covers/b789592a63acb850.webp
+  image: /images/covers/b789592a63acb850.webp
 album_url: https://picasaweb.google.com/111964096227458093905/EXPOSICIODENGANXINESIADHESIUS19102015?authuser=0&feat=embedwebsite
 ---
 

@@ -7,7 +7,7 @@ slug: any-nou-xines-porc
 tags:
 - any nou
 cover:
-  image: images/covers/664b9527d0521ae2.webp
+  image: /images/covers/664b9527d0521ae2.webp
 album_url: https://photos.google.com/share/AF1QipPfAMy0ufFCEvXlZ8T5dKXu-wSporjSBzZS-R8nqO3ovI0ng013curbbgnKSY-dFg?hl=es&key=OURlM0piYlRDOHFsb3NEamx4WU14TXpBbTRsWk5B
 ---
 

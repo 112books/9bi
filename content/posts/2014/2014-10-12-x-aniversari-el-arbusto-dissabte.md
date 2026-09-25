@@ -11,7 +11,7 @@ tags:
 - art
 - mar
 cover:
-  image: images/covers/74ada7f855bcd444.webp
+  image: /images/covers/74ada7f855bcd444.webp
 album_url: https://picasaweb.google.com/103138221614479310970/XAniversariElArbustoDissabte?authuser=0&feat=embedwebsite
 ---
 

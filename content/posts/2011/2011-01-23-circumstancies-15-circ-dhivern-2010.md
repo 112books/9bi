@@ -9,7 +9,7 @@ tags:
 - circ d´hivern
 - manel sala ulls
 cover:
-  image: images/covers/5623d5671ff9e620.webp
+  image: /images/covers/5623d5671ff9e620.webp
 album_url: https://photos.app.goo.gl/FWv11QfySgvCvz2Q8
 ---
 

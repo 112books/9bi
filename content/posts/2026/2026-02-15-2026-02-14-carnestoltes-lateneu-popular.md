@@ -11,7 +11,7 @@ tags:
 - nou barris
 - Comunitat
 cover:
-  image: images/covers/bd2f32845d5ce318.webp
+  image: /images/covers/bd2f32845d5ce318.webp
 album_url: https://photos.app.goo.gl/kiMkMdXDbix1cyR29
 ---
 

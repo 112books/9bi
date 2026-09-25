@@ -10,7 +10,7 @@ tags:
 - huerta
 - Hort
 cover:
-  image: images/covers/149b742dba14cbfe.webp
+  image: /images/covers/149b742dba14cbfe.webp
 album_url: https://photos.app.goo.gl/zaBv7lC0m64oAwQG2
 ---
 

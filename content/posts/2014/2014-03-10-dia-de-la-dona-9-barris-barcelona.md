@@ -11,7 +11,7 @@ tags:
 - República
 - 9 barris
 cover:
-  image: images/covers/3915d729a573ff60.webp
+  image: /images/covers/3915d729a573ff60.webp
 album_url: https://picasaweb.google.com/100268695753733554853/DiaDeLaDona9BarrisBarcelona?authuser=0&amp;feat=embedwebsite
 ---
 

@@ -7,7 +7,7 @@ slug: cercavila-la-penya-dels-4-gats
 tags:
 - cercavila
 cover:
-  image: images/covers/b6743139e23026b4.webp
+  image: /images/covers/b6743139e23026b4.webp
 album_url: https://photos.app.goo.gl/2MbM58rz8QigHxeh9
 ---
 

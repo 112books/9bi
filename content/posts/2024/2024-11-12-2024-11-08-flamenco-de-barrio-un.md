@@ -22,7 +22,7 @@ tags:
 - recital
 - violí
 cover:
-  image: images/covers/4bed0f0e6f10e70b.webp
+  image: /images/covers/4bed0f0e6f10e70b.webp
 album_url: https://photos.app.goo.gl/7zonUQwmXrjjv2sz5
 ---
 

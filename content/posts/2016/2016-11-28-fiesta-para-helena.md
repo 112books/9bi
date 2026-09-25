@@ -7,7 +7,7 @@ slug: fiesta-para-helena
 tags:
 - FIESTA HELENA
 cover:
-  image: images/covers/efaf86020209204e.webp
+  image: /images/covers/efaf86020209204e.webp
 album_url: https://photos.google.com/share/AF1QipM7LIR6IoX_eLZUr8srbm3ZSCEtnudUaNwj-hLgrmO1VPwX5eDeOhd-BkW6l3j7SA?hl=es&key=SU5nVDRfUm1aN3JqdkJZdTYwWF9ScUlHRHo2Vk5n
 ---
 

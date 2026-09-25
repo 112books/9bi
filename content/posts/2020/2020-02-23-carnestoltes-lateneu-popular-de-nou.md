@@ -11,7 +11,7 @@ tags:
 - popular
 - barri
 cover:
-  image: images/covers/66036b26d371ddf0.webp
+  image: /images/covers/66036b26d371ddf0.webp
 album_url: https://photos.app.goo.gl/tdhq28JQ24ES77yP8
 ---
 

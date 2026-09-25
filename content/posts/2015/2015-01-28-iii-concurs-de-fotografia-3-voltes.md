@@ -11,7 +11,7 @@ tags:
 - nou barris
 - districte
 cover:
-  image: images/covers/a6eecca218206752.webp
+  image: /images/covers/a6eecca218206752.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

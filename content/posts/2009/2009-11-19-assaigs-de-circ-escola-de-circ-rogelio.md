@@ -10,7 +10,7 @@ tags:
 - escola de circ rogelio rivel
 - manel sala ulls
 cover:
-  image: images/covers/e2c62b68ef3e1eda.webp
+  image: /images/covers/e2c62b68ef3e1eda.webp
 album_url: http://picasaweb.google.es/ulls2006/EscolaDeCircRogelioRivel?feat=embedwebsite
 ---
 

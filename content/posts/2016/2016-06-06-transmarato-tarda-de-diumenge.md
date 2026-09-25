@@ -7,7 +7,7 @@ slug: transmarato-tarda-de-diumenge
 tags:
 - Festes de Prosperitat 2016
 cover:
-  image: images/covers/534bcffadc17de8b.webp
+  image: /images/covers/534bcffadc17de8b.webp
 album_url: https://picasaweb.google.com/111964096227458093905/6292849925917612609?authuser=0&feat=embedwebsite
 ---
 

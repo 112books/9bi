@@ -11,7 +11,7 @@ tags:
 - barri
 - rock
 cover:
-  image: images/covers/7738caae3a7cf5eb.webp
+  image: /images/covers/7738caae3a7cf5eb.webp
 album_url: https://photos.app.goo.gl/6kDidcuJCu5pnh9D8
 ---
 

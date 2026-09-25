@@ -7,7 +7,7 @@ slug: vermutsical-amb-rutwailer-by-alfonso-de
 tags:
 - vermutsical
 cover:
-  image: images/covers/df6255b12428eef1.webp
+  image: /images/covers/df6255b12428eef1.webp
 album_url: https://photos.app.goo.gl/bb68uXkt9KNSbZ9x6
 ---
 

@@ -11,7 +11,7 @@ tags:
 - tallers
 - vídeo
 cover:
-  image: images/covers/d2bdc9ff74ae2bec.webp
+  image: /images/covers/d2bdc9ff74ae2bec.webp
 album_url: https://photos.app.goo.gl/K1NZ1GG2dNCijfZo9
 ---
 

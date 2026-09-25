@@ -8,7 +8,7 @@ tags:
 - blues
 - música
 cover:
-  image: images/covers/52eaa3adce8eba2f.webp
+  image: /images/covers/52eaa3adce8eba2f.webp
 album_url: https://picasaweb.google.com/ulls2006/BBBBBarcelonaBigBluesBandAmbMarkTortoriciAteneu9Barris?feat=embedwebsite
 ---
 

@@ -11,7 +11,7 @@ tags:
 - arte
 - art
 cover:
-  image: images/covers/477abc58bc1bd148.webp
+  image: /images/covers/477abc58bc1bd148.webp
 album_url: https://photos.app.goo.gl/cxnj21bZ5Jsk5SD59
 ---
 

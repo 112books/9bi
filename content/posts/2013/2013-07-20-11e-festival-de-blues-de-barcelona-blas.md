@@ -11,7 +11,7 @@ tags:
 - Capibola blues
 - Lorenzo Thompson & Tota Blues
 cover:
-  image: images/covers/725929cd4810591e.webp
+  image: /images/covers/725929cd4810591e.webp
 album_url: https://picasaweb.google.com/103138221614479310970/11eFestivalDeBluesDeBarcelonaDivendres?authuser=0&feat=embedwebsite
 ---
 

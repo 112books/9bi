@@ -7,7 +7,7 @@ slug: nameless-al-vermusical
 tags:
 - vermutsical
 cover:
-  image: images/covers/156d9af504620405.webp
+  image: /images/covers/156d9af504620405.webp
 album_url: https://photos.app.goo.gl/vUILiuHepPSrse6r2
 ---
 

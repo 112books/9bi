@@ -11,7 +11,7 @@ tags:
 - paella
 - CASAL
 cover:
-  image: images/covers/dc5fabbc7932b313.webp
+  image: /images/covers/dc5fabbc7932b313.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

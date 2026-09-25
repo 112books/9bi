@@ -11,7 +11,7 @@ tags:
 - veïns
 - Marc
 cover:
-  image: images/covers/be22cacaa5ad5e9e.webp
+  image: /images/covers/be22cacaa5ad5e9e.webp
 album_url: https://photos.app.goo.gl/qWSirNl9GXZDVXyo1
 ---
 

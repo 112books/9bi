@@ -8,7 +8,7 @@ tags:
 - carnestoltes 2026
 - rua carnaval via julia
 cover:
-  image: images/covers/79ab8711994a9e63.webp
+  image: /images/covers/79ab8711994a9e63.webp
 album_url: https://photos.app.goo.gl/G3Cw3FGwwBqt2NyD7
 ---
 

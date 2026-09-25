@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - formació
 cover:
-  image: images/covers/f5dd385428ab83f7.webp
+  image: /images/covers/f5dd385428ab83f7.webp
 album_url: https://photos.app.goo.gl/2YywfcE92JGmaawb8
 ---
 

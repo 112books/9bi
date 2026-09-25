@@ -11,7 +11,7 @@ tags:
 - casal de barri
 - esdeveniments
 cover:
-  image: images/covers/6ad929c1e43763d4.webp
+  image: /images/covers/6ad929c1e43763d4.webp
 album_url: https://photos.app.goo.gl/Ltu19LjBGVwo7rQs7
 ---
 

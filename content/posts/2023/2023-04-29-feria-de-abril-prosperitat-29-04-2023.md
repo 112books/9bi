@@ -10,7 +10,7 @@ tags:
 - Feria de Abril 2023
 - Prosperitat
 cover:
-  image: images/covers/0f5561e4cd449234.webp
+  image: /images/covers/0f5561e4cd449234.webp
 album_url: https://photos.google.com/share/AF1QipMRQMII9snnu5yWSO8DZtdH445cyhfFYck9ow8lBLOst6akRLjrLcj9wtf2hPtSUw?key=WXppaG9NalFsSHpyV3J4V0s2MmstME9tSEZCcERB
 ---
 

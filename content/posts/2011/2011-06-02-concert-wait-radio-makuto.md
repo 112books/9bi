@@ -8,7 +8,7 @@ tags:
 - concert
 - radio
 cover:
-  image: images/covers/3f3e750fc9c6fb9c.webp
+  image: /images/covers/3f3e750fc9c6fb9c.webp
 album_url: https://picasaweb.google.com/104199960646572363843/ConcertTheWaitRadioMakuto?feat=embedwebsite
 ---
 

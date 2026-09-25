@@ -7,7 +7,7 @@ slug: vermutsical-amb-rutwailer
 tags:
 - vermutsical
 cover:
-  image: images/covers/b0545dd43c239a63.webp
+  image: /images/covers/b0545dd43c239a63.webp
 album_url: https://photos.app.goo.gl/87XMRqasQN12sFxG8
 ---
 

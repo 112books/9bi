@@ -7,7 +7,7 @@ slug: circus-amb-xocolatada
 tags:
 - associació de titellaires de Roquetes
 cover:
-  image: images/covers/5e9cab76e8477538.webp
+  image: /images/covers/5e9cab76e8477538.webp
 album_url: https://goo.gl/photos/PA3MTu3mgaWpyeTi6
 ---
 

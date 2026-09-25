@@ -10,7 +10,7 @@ tags:
 - infantil
 - pç harry wolker
 cover:
-  image: images/covers/f6d1fc75b9d72571.webp
+  image: /images/covers/f6d1fc75b9d72571.webp
 album_url: https://picasaweb.google.com/linuxbcn/CarnestoltesInfantil?feat=embedwebsite
 ---
 

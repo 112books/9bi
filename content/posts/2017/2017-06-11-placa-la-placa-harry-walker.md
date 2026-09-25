@@ -11,7 +11,7 @@ tags:
 - ball
 - vaga
 cover:
-  image: images/covers/943145c0e911d48c.webp
+  image: /images/covers/943145c0e911d48c.webp
 album_url: https://goo.gl/photos/orQLQ58YnRG56X8M6
 ---
 

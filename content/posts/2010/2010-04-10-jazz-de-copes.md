@@ -10,7 +10,7 @@ tags:
 - jazz de copes
 - linuxbcn
 cover:
-  image: images/covers/04303d10d3224a4f.webp
+  image: /images/covers/04303d10d3224a4f.webp
 album_url: https://photos.app.goo.gl/u2o2uE18MEZcMB5Y6
 ---
 

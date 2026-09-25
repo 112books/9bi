@@ -9,7 +9,7 @@ tags:
 - ateneu popular 9 barris
 - les nits de Capibila
 cover:
-  image: images/covers/c952876567ae7fd7.webp
+  image: /images/covers/c952876567ae7fd7.webp
 album_url: https://picasaweb.google.com/103138221614479310970/LesNitsDeCapibolaBluesAContraBlues?authuser=0&authkey=Gv1sRgCJCd8IuJ5vOVsAE&feat=embedwebsite
 ---
 

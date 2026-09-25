@@ -14,7 +14,7 @@ tags:
 - Las Fellini + Yogurinha Borova
 - manel sala ulls
 cover:
-  image: images/covers/187136269562e0a8.webp
+  image: /images/covers/187136269562e0a8.webp
 album_url: http://picasaweb.google.es/ulls2006/DiscoDarlingJetteMansfieldLasFelliniYogurinhaBorovaHardTonHidroboyDjDivatlantique?feat=embedwebsite
 ---
 

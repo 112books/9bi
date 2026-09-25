@@ -11,7 +11,7 @@ tags:
 - joan.linuxbcn.com
 - teatre
 cover:
-  image: images/covers/7dbe94e2fccc6da6.webp
+  image: /images/covers/7dbe94e2fccc6da6.webp
 album_url: https://picasaweb.google.com/103138221614479310970/CiaTactoPresentaGranjaDePinguins?authuser=0&amp;feat=embedwebsite
 ---
 

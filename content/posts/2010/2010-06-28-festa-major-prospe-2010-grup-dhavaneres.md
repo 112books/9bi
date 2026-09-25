@@ -8,7 +8,7 @@ tags:
 - festa major prospe
 - havaneres
 cover:
-  image: images/covers/b084039af9afa19a.webp
+  image: /images/covers/b084039af9afa19a.webp
 album_url: http://picasaweb.google.com/ulls2006/FestaMajorProspe2010GrupDHavaneresMontjuic?feat=embedwebsite
 ---
 

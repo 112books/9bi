@@ -8,7 +8,7 @@ tags:
 - sopes
 - món
 cover:
-  image: images/covers/dcd7d5013efe355f.webp
+  image: /images/covers/dcd7d5013efe355f.webp
 album_url: https://photos.app.goo.gl/vqBxcqJSjFWvrX986
 ---
 

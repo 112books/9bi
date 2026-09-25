@@ -7,7 +7,7 @@ slug: polis-la-festa-major-de-la-prospe
 tags:
 - Festa major de prospe
 cover:
-  image: images/covers/d27cbb6ddbb1aeed.webp
+  image: /images/covers/d27cbb6ddbb1aeed.webp
 album_url: https://picasaweb.google.com/111964096227458093905/6290232873687805409?authuser=0&feat=embedwebsite
 ---
 

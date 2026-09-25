@@ -9,7 +9,7 @@ tags:
 - jam session
 - Rocky Lawrence
 cover:
-  image: images/covers/4896e4d11bf7bcfe.webp
+  image: /images/covers/4896e4d11bf7bcfe.webp
 album_url: https://picasaweb.google.com/103138221614479310970/10eFestivalDeBluesDeBarcelonaJamSession?authuser=0&feat=embedwebsite
 ---
 

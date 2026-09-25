@@ -10,7 +10,7 @@ tags:
 - vídeo
 - avv
 cover:
-  image: images/covers/3ea4de347917229e.webp
+  image: /images/covers/3ea4de347917229e.webp
 album_url: https://photos.app.goo.gl/NPtrrUP6i7ZsWEtD8
 ---
 

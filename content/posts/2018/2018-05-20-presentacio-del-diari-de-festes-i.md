@@ -11,7 +11,7 @@ tags:
 - festes
 - barri
 cover:
-  image: images/covers/fc132500b957a7ce.webp
+  image: /images/covers/fc132500b957a7ce.webp
 album_url: https://photos.app.goo.gl/evRwdgrSXJJMd5t53
 ---
 

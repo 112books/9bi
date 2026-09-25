@@ -7,7 +7,7 @@ slug: presentacio-del-diari-de-la-39a-festa
 tags:
 - Festa major de prospe
 cover:
-  image: images/covers/bb171b309009e504.webp
+  image: /images/covers/bb171b309009e504.webp
 album_url: https://goo.gl/photos/qmb16bqsxj7TwTiFA
 ---
 

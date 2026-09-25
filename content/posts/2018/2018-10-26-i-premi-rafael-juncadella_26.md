@@ -9,7 +9,7 @@ tags:
 - XIC9barris
 - Òmnium Cultural Nou Barris
 cover:
-  image: images/covers/8b38a32ed8e5310b.webp
+  image: /images/covers/8b38a32ed8e5310b.webp
 album_url: https://photos.google.com/share/AF1QipMu3j-zbzMKs2lr5HGaIFYnoqCVf6D_ZEkH6mEGtgbNYoMdKZzeEB8UQHC4lKuNfg?key=amdSTTlWWk5MQm51S0NMRXoyN1BSWk9Ba2paXzRR
 ---
 

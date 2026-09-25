@@ -10,7 +10,7 @@ tags:
 - fotografia
 - Prosperitat
 cover:
-  image: images/covers/0a10f2dcf12ca427.webp
+  image: /images/covers/0a10f2dcf12ca427.webp
 album_url: https://picasaweb.google.com/linuxbcn/19JUnaJornadaHistorica?feat=embedwebsite
 ---
 

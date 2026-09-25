@@ -8,7 +8,7 @@ tags:
 - democràcia
 - llibertat
 cover:
-  image: images/covers/16a404ea26d2581d.webp
+  image: /images/covers/16a404ea26d2581d.webp
 album_url: https://photos.app.goo.gl/Ps4CQ8w2sU949rZc6
 ---
 

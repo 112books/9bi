@@ -8,7 +8,7 @@ tags:
 - dia de la dona
 - mar
 cover:
-  image: images/covers/571130a0af927c23.webp
+  image: /images/covers/571130a0af927c23.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

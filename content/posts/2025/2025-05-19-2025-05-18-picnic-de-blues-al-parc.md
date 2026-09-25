@@ -11,7 +11,7 @@ tags:
 - Capibola blues
 - música en viu
 cover:
-  image: images/covers/8e01205a4dcd8ed5.webp
+  image: /images/covers/8e01205a4dcd8ed5.webp
 album_url: https://photos.app.goo.gl/WqoqPhBwKGpuKmEf7
 ---
 

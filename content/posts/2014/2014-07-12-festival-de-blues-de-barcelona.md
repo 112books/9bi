@@ -11,7 +11,7 @@ tags:
 - blues
 - BLUE
 cover:
-  image: images/covers/86419a3ec9126068.webp
+  image: /images/covers/86419a3ec9126068.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestivalDeBluesDeBarcelonaDivendresAlParcCentral?authuser=0&feat=embedwebsite
 ---
 

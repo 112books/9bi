@@ -10,7 +10,7 @@ tags:
 - makadam kanibal
 - trapezi
 cover:
-  image: images/covers/59574bc09d026788.webp
+  image: /images/covers/59574bc09d026788.webp
 album_url: http://picasaweb.google.es/ulls2006/MakadamKanibalGavaloKanibal?feat=embedwebsite
 ---
 

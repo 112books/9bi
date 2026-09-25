@@ -10,7 +10,7 @@ tags:
 - barri
 - expo
 cover:
-  image: images/covers/73595d28a5e4da91.webp
+  image: /images/covers/73595d28a5e4da91.webp
 album_url: https://picasaweb.google.com/103138221614479310970/6302629760460308785?authuser=0&feat=embedwebsite
 ---
 

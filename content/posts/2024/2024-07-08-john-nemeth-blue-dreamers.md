@@ -7,7 +7,7 @@ slug: john-nemeth-blue-dreamers
 tags:
 - BLUE
 cover:
-  image: images/covers/27f94f8d94a38026.webp
+  image: /images/covers/27f94f8d94a38026.webp
 album_url: https://photos.app.goo.gl/mWPL5J26ibEzT1Sb7
 ---
 

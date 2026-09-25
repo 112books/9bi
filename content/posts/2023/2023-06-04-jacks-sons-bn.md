@@ -7,7 +7,7 @@ slug: jacks-sons-bn
 tags:
 - música
 cover:
-  image: images/covers/732dc3306e609022.webp
+  image: /images/covers/732dc3306e609022.webp
 album_url: https://photos.app.goo.gl/tJUa4chgN2XtTQNy9
 ---
 

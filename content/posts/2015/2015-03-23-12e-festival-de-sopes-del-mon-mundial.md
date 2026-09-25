@@ -11,7 +11,7 @@ tags:
 - 9bacull
 - sopes
 cover:
-  image: images/covers/ddae2efdf1efe9f3.webp
+  image: /images/covers/ddae2efdf1efe9f3.webp
 album_url: https://picasaweb.google.com/100268695753733554853/12eFestivalDeSopesDelMonMundial2015?authuser=0&amp;feat=embedwebsite
 ---
 

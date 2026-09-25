@@ -9,7 +9,7 @@ tags:
 - prospebeach2018
 - voleyplaya
 cover:
-  image: images/covers/37c1da4079df0075.webp
+  image: /images/covers/37c1da4079df0075.webp
 album_url: https://photos.google.com/share/AF1QipOm-ec3rHtBLROtjFzeBRExMU1aKoJefuLqtzxZUiGTzteMO4HN8opeEDiO1u7pVw?key=aHhWNE10Z1NENHNrZzF3UUVoMnF1TkZMOXAzQVh3
 ---
 

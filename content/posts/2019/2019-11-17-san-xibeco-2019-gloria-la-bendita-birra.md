@@ -7,7 +7,7 @@ slug: san-xibeco-2019-gloria-la-bendita-birra
 tags:
 - san xibeco
 cover:
-  image: images/covers/bdf00413669fda89.webp
+  image: /images/covers/bdf00413669fda89.webp
 album_url: https://photos.app.goo.gl/VZYbKanhPfSFpdxB6
 ---
 

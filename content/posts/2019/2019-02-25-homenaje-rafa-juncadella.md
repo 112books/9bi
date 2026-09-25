@@ -9,7 +9,7 @@ tags:
 - arte
 - art
 cover:
-  image: images/covers/3d9e0bf5695a55e9.webp
+  image: /images/covers/3d9e0bf5695a55e9.webp
 album_url: https://photos.google.com/share/AF1QipPLg5Rn0WhpIY8x8mrwKx9QhpObzX3u7u7R9mXrBwPzoC3SItGoo60ugUnt-KRq2A?hl=es&key=dE1oelRHanNONm5Cei02WHgzOFBSeFBRWGRiYUxB
 ---
 

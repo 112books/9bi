@@ -10,7 +10,7 @@ tags:
 - barri
 - rua
 cover:
-  image: images/covers/bfc89b521638089d.webp
+  image: /images/covers/bfc89b521638089d.webp
 album_url: https://photos.app.goo.gl/EWEiBseNZiyGjm6j6
 ---
 

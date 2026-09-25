@@ -11,7 +11,7 @@ tags:
 - Prosperitat
 - prospe
 cover:
-  image: images/covers/47f4681bc1b086b1.webp
+  image: /images/covers/47f4681bc1b086b1.webp
 album_url: https://picasaweb.google.com/103138221614479310970/FestesDeProsperitatChistorraRock02?authuser=0&feat=embedwebsite
 ---
 

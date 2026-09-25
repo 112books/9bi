@@ -10,7 +10,7 @@ tags:
 - les nits de Capibila
 - Ráfagas de Swing
 cover:
-  image: images/covers/d3668eeb97744cb8.webp
+  image: /images/covers/d3668eeb97744cb8.webp
 album_url: https://picasaweb.google.com/103138221614479310970/LesNitsDeCapibolaBluesRafeguesDeSwingLaTeoriaDelTaburete?authuser=0&feat=embedwebsite
 ---
 

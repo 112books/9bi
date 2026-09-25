@@ -11,7 +11,7 @@ tags:
 - carnaval
 - fotos
 cover:
-  image: images/covers/c398e4cbc1fac23e.webp
+  image: /images/covers/c398e4cbc1fac23e.webp
 album_url: https://picasaweb.google.com/100268695753733554853/Carnaval20129Barris?authuser=0&feat=embedwebsite
 ---
 

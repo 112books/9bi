@@ -19,7 +19,7 @@ tags:
 - punk rock
 - Retorçada Realitat
 cover:
-  image: images/covers/15c908919dfeab4a.webp
+  image: /images/covers/15c908919dfeab4a.webp
 album_url: https://photos.app.goo.gl/E4JNQifkgjwajYth6
 ---
 

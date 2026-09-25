@@ -11,7 +11,7 @@ tags:
 - concert
 - barri
 cover:
-  image: images/covers/a321deaa440c1f63.webp
+  image: /images/covers/a321deaa440c1f63.webp
 album_url: https://goo.gl/photos/pRkmQnCPnCqnRb4aA
 ---
 

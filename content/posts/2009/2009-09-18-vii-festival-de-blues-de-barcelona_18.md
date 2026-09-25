@@ -13,7 +13,7 @@ tags:
 - Luz de Gas
 - presentació disc
 cover:
-  image: images/covers/6ec17d89cbe80391.webp
+  image: /images/covers/6ec17d89cbe80391.webp
 album_url: https://photos.app.goo.gl/wxAnEk4crf8Y8FbEA
 ---
 

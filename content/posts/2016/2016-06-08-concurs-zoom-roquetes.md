@@ -11,7 +11,7 @@ tags:
 - concurs
 - popular
 cover:
-  image: images/covers/562d73c4c6c7e817.webp
+  image: /images/covers/562d73c4c6c7e817.webp
 album_url: https://picasaweb.google.com/110015855395179205688/6293583451218032001?authuser=0&feat=embedwebsite
 ---
 

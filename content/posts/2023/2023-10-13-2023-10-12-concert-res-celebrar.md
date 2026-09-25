@@ -10,7 +10,7 @@ tags:
 - punk
 - casa
 cover:
-  image: images/covers/cdce346b73b96c83.webp
+  image: /images/covers/cdce346b73b96c83.webp
 album_url: https://photos.app.goo.gl/yvGHVKAYG7DRudA39
 ---
 

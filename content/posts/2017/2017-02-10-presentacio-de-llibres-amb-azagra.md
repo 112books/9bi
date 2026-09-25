@@ -8,7 +8,7 @@ tags:
 - presentació
 - llibre
 cover:
-  image: images/covers/4e1277fb7041e47f.webp
+  image: /images/covers/4e1277fb7041e47f.webp
 album_url: https://goo.gl/photos/5vxp95av8z5GmQ9CA
 ---
 

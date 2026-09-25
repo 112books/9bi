@@ -9,7 +9,7 @@ tags:
 - mateolika
 - Mateo
 cover:
-  image: images/covers/cf1cd24b2df815ea.webp
+  image: /images/covers/cf1cd24b2df815ea.webp
 album_url: https://photos.app.goo.gl/4sVCs9JkmQhpzmxf8
 ---
 

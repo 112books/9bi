@@ -9,7 +9,7 @@ tags:
 - voala project
 - voalá
 cover:
-  image: images/covers/8308a609579f288b.webp
+  image: /images/covers/8308a609579f288b.webp
 album_url: http://picasaweb.google.com/ulls2006/VoalaProjectVoalaFestesDeLaMerce2010Barcelona?feat=embedwebsite
 ---
 

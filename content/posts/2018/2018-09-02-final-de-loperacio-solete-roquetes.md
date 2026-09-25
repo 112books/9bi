@@ -11,7 +11,7 @@ tags:
 - popular
 - teatre
 cover:
-  image: images/covers/6740edea5d37789d.webp
+  image: /images/covers/6740edea5d37789d.webp
 album_url: https://photos.app.goo.gl/hvMX72FoU6HZj6SR8
 ---
 

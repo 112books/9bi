@@ -9,7 +9,7 @@ tags:
 - vent
 - STA
 cover:
-  image: images/covers/181f0f671012261b.webp
+  image: /images/covers/181f0f671012261b.webp
 album_url: https://picasaweb.google.com/lh/photo/ojSepUrFxJsoc5c-L81qtQ?feat=embedwebsite
 ---
 

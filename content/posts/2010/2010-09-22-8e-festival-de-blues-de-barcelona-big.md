@@ -12,7 +12,7 @@ tags:
 - Luz de Gas
 - vídeo
 cover:
-  image: images/covers/7462498f33824b93.webp
+  image: /images/covers/7462498f33824b93.webp
 album_url: https://photos.app.goo.gl/3CJGCSPjLe3JuXsX7
 ---
 

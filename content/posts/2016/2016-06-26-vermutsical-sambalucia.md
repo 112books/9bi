@@ -7,7 +7,7 @@ slug: vermutsical-sambalucia
 tags:
 - vermutsical
 cover:
-  image: images/covers/bad0e55fab677827.webp
+  image: /images/covers/bad0e55fab677827.webp
 album_url: https://picasaweb.google.com/103138221614479310970/6300538648741724865?authuser=0&feat=embedwebsite
 ---
 

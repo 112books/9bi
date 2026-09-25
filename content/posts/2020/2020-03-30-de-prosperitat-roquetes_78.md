@@ -9,7 +9,7 @@ tags:
 - roquetes
 - prospe
 cover:
-  image: images/covers/39ae2646b0d27b09.webp
+  image: /images/covers/39ae2646b0d27b09.webp
 album_url: https://photos.app.goo.gl/7ycyXtd5VvfooTzRA
 ---
 

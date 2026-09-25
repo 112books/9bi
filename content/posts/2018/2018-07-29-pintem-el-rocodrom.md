@@ -11,7 +11,7 @@ tags:
 - ruta
 - art
 cover:
-  image: images/covers/2c6c59cc45dd0a62.webp
+  image: /images/covers/2c6c59cc45dd0a62.webp
 album_url: https://photos.app.goo.gl/biT9gv45zQo5smsF9
 ---
 

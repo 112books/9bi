@@ -8,7 +8,7 @@ tags:
 - trinitat nova
 - festes
 cover:
-  image: images/covers/9e2b5e2e2434a840.webp
+  image: /images/covers/9e2b5e2e2434a840.webp
 album_url: https://photos.app.goo.gl/AvTsbKQexadS9bgN6
 ---
 

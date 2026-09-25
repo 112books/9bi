@@ -9,7 +9,7 @@ tags:
 - punk
 - art
 cover:
-  image: images/covers/8b2a99860d911c5b.webp
+  image: /images/covers/8b2a99860d911c5b.webp
 album_url: https://photos.app.goo.gl/kJRSPaE9fqD3rAbV6
 ---
 

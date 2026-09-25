@@ -9,7 +9,7 @@ tags:
 - Daniel Higiénico
 - vermouthsical
 cover:
-  image: images/covers/cb4eafc5a26f3ce9.webp
+  image: /images/covers/cb4eafc5a26f3ce9.webp
 album_url: https://photos.app.goo.gl/5LuJ1noE52sNXQtn2
 ---
 

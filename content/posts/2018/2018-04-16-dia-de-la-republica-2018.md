@@ -7,7 +7,7 @@ slug: dia-de-la-republica-2018
 tags:
 - República
 cover:
-  image: images/covers/38bbafea33da99e1.webp
+  image: /images/covers/38bbafea33da99e1.webp
 album_url: https://photos.app.goo.gl/VIaxoNOkCITvlXz23
 ---
 

@@ -9,7 +9,7 @@ tags:
 - puretas
 - STA
 cover:
-  image: images/covers/ba6a510d6fffa564.webp
+  image: /images/covers/ba6a510d6fffa564.webp
 album_url: https://photos.app.goo.gl/RZT7kcnPeANff8yu6
 ---
 

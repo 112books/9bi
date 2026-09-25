@@ -10,7 +10,7 @@ tags:
 - Skatepark
 - skt
 cover:
-  image: images/covers/bfc0cd601d71a0ae.webp
+  image: /images/covers/bfc0cd601d71a0ae.webp
 album_url: https://photos.app.goo.gl/jhYNn98gUsHnGKCm9
 ---
 

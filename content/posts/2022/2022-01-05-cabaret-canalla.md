@@ -7,7 +7,7 @@ slug: cabaret-canalla
 tags:
 - cabaret
 cover:
-  image: images/covers/71e262708398f47a.webp
+  image: /images/covers/71e262708398f47a.webp
 album_url: https://photos.app.goo.gl/VjeP3Vr1x9Ztsf4X7
 ---
 

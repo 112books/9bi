@@ -7,7 +7,7 @@ slug: vermutsical-las-hijas-del-baron-canalla
 tags:
 - vermutsical
 cover:
-  image: images/covers/5153e4e53af8ea74.webp
+  image: /images/covers/5153e4e53af8ea74.webp
 album_url: https://picasaweb.google.com/103138221614479310970/VermutsicalLasHIjasDelBaronCanalla?authuser=0&feat=embedwebsite
 ---
 

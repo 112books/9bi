@@ -11,7 +11,7 @@ tags:
 - nou barris
 - literatura
 cover:
-  image: images/covers/a9e308a06137f0cb.webp
+  image: /images/covers/a9e308a06137f0cb.webp
 album_url: https://photos.app.goo.gl/w1pu9DMd4wJ35fMg6
 ---
 

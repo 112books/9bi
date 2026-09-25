@@ -10,7 +10,7 @@ tags:
 - fiesta
 - prospe
 cover:
-  image: images/covers/d23ee2ec0fb36991.webp
+  image: /images/covers/d23ee2ec0fb36991.webp
 album_url: http://picasaweb.google.es/jaime14bf/PRESENTACIONPERIODICODELASFIESTAS
 ---
 

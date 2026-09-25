@@ -7,7 +7,7 @@ slug: vermutsical-amb-red-rombo
 tags:
 - vermutsical
 cover:
-  image: images/covers/08acd517bc634320.webp
+  image: /images/covers/08acd517bc634320.webp
 album_url: https://photos.app.goo.gl/A2nncfmD7otFX8Ek7
 ---
 

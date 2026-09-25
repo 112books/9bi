@@ -7,7 +7,7 @@ slug: valentina-la-titellada
 tags:
 - associació de titellaires de Roquetes
 cover:
-  image: images/covers/a85087009c5e8f85.webp
+  image: /images/covers/a85087009c5e8f85.webp
 album_url: https://goo.gl/photos/mLRCXA3XMnzgrr6XA
 ---
 

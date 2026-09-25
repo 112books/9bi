@@ -8,7 +8,7 @@ tags:
 - desastrosus circus
 - circ
 cover:
-  image: images/covers/678dca06d0722c18.webp
+  image: /images/covers/678dca06d0722c18.webp
 album_url: https://picasaweb.google.com/nico9barrisimarge/TallerDeCircIExhibicioAmbDesastrosusCircus?feat=embedwebsite
 ---
 

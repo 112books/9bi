@@ -11,7 +11,7 @@ tags:
 - teatre
 - Teatre pa'tothom
 cover:
-  image: images/covers/f06f8d225dcb4597.webp
+  image: /images/covers/f06f8d225dcb4597.webp
 album_url: https://picasaweb.google.com/103138221614479310970/TeatreMustaphaEsAlRepla?authuser=0&feat=embedwebsite
 ---
 

@@ -14,7 +14,7 @@ tags:
 - tabalada de diables
 - transmarató de teatre al carrer
 cover:
-  image: images/covers/9cc22516a3547d03.webp
+  image: /images/covers/9cc22516a3547d03.webp
 album_url: https://photos.app.goo.gl/fGNSBrenoUQ2WkWG9
 ---
 

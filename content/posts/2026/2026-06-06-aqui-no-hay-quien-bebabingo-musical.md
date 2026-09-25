@@ -8,7 +8,7 @@ tags:
 - música
 - Bingo
 cover:
-  image: images/covers/accda6673af92b9d.webp
+  image: /images/covers/accda6673af92b9d.webp
 album_url: https://photos.app.goo.gl/czbEvEc1UrukuJWS9
 ---
 

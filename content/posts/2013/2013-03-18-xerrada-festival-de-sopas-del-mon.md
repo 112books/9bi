@@ -8,7 +8,7 @@ tags:
 - 9barris acull
 - Festival de sopas del mon
 cover:
-  image: images/covers/33b409d09e751073.webp
+  image: /images/covers/33b409d09e751073.webp
 album_url: https://picasaweb.google.com/115791131166530059320/XerradaFestivalDeSopas?authuser=0&feat=embedwebsite
 ---
 

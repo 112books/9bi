@@ -9,7 +9,7 @@ tags:
 - somos los que somos
 - vermut sical
 cover:
-  image: images/covers/13dcdee2096d0aa8.webp
+  image: /images/covers/13dcdee2096d0aa8.webp
 album_url: https://photos.app.goo.gl/wgrHWsRScr89hf5j6
 ---
 
