@@ -1,0 +1,141 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//9 Barris Imatge//Calendari concurs Cordoncillo 2026//CAT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Concurs Cordoncillo 2026 — 9 Barris Imatge
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VEVENT
+UID:9bi-2026-concurs-obertura@9barrisimatge.org
+DTSTAMP:20260926T073000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:[Concurs 2026] Obertura de la convocatòria
+DESCRIPTION:Data oficial publicada a la pàgina del concurs. Ja ha passat\; es deixa com a referència.
+END:VEVENT
+BEGIN:VEVENT
+UID:9bi-2026-concurs-limit@9barrisimatge.org
+DTSTAMP:20260926T073000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:[Concurs 2026] Data límit de presentació de fotografies
+DESCRIPTION:Data límit oficial per enviar les fotografies a dinamitzacio@casalprospe.org amb l'assumpte «CONCURS DE FOTOGRAFIA CORDONCILLO 2026» i les dades personals (nom\, telèfon\, correu electrònic i adreça postal).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Demà és l'últim dia per presentar fotografies
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:Falten 2 hores per tancar la presentació
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9bi-2026-exposicio-inici@9barrisimatge.org
+DTSTAMP:20260926T073000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:[Concurs 2026] Exposició i obertura de la votació del públic
+DESCRIPTION:Inici de l'exposició (del 1 al 30 de desembre). Aquest mateix dia s'obre la votació del públic\, de l'1 al 15 de desembre\, amb el codi QR de l'exposició.
+LOCATION:Casal de Barri de Prosperitat\, Plaça d'Àngel Pestanya\, 08016 Barcelona
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Demà s'obre l'exposició i la votació del públic
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Comprovar que la votació s'ha obert
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9bi-2026-votacio-tancament@9barrisimatge.org
+DTSTAMP:20260926T073000Z
+DTSTART:20261215T235900
+DTEND:20261215T235900
+SUMMARY:[Concurs 2026] Tancament de la votació del públic
+DESCRIPTION:La votació es tanca sola a les 23:59 per rellotge: no cal fer res. Aquesta entrada serveix per no oblidar-la.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Demà es tanca la votació del públic
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9bi-2026-resultats@9barrisimatge.org
+DTSTAMP:20260926T073000Z
+DTSTART:20261216T100000
+DTEND:20261216T100000
+SUMMARY:[9bi · votació] Exportar resultats i verificar el recompte
+DESCRIPTION:Després del tancament: exportar el recompte oficial (CSV signat) i verificar que el resultat és coherent abans d'anunciar el guanyador del premi del públic de 100 €.
+END:VEVENT
+BEGIN:VEVENT
+UID:9bi-2026-premis@9barrisimatge.org
+DTSTAMP:20260926T073000Z
+DTSTART:20261218T190000
+DTEND:20261218T190000
+SUMMARY:[Concurs 2026] Lliurament de premis i concert
+DESCRIPTION:Lliurament de premis i concert\, divendres 18 de desembre a les 19 h. L'assistència és obligatòria per recollir el premi\; si no s'hi pot anar\, cal delegar una persona autoritzada.
+LOCATION:Casal de Barri de Prosperitat\, Plaça d'Àngel Pestanya\, 08016 Barcelona
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Demà és el lliurament de premis i el concert
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9bi-2026-exposicio-fi@9barrisimatge.org
+DTSTAMP:20260926T073000Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:[Concurs 2026] Fi de l'exposició
+DESCRIPTION:Últim dia de l'exposició a la sala del Casal.
+END:VEVENT
+BEGIN:VEVENT
+UID:9bi-2026-obres@9barrisimatge.org
+DTSTAMP:20260926T073000Z
+DTSTART:20261130T090000
+DTEND:20261130T090000
+SUMMARY:[9bi · votació] Carregar la llista definitiva d'obres
+DESCRIPTION:TASCA OBLIGATÒRIA. Les obres del concurs només es carreguen quan es crea la base de dades\, de manera que cal: 1) inserir la llista definitiva (número\, títol\, autor i categoria)\, 2) esborrar les 100 obres de prova i els 5 vots de prova. Si no es fa\, a l'exposició es votaran fotos que no són del concurs.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Demà cal carregar la llista definitiva d'obres
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Avui s'ha de deixar la llista d'obres carregada
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9bi-2026-comprovacio@9barrisimatge.org
+DTSTAMP:20260926T073000Z
+DTSTART:20261201T110000
+DTEND:20261201T110000
+SUMMARY:[9bi · votació] Comprovar l'obertura de la votació al Casal
+DESCRIPTION:Al Casal\, amb telèfon i xarxa mòbil: obrir el codi QR i fer un vot real. Comprovar: (1) que la votació accepta vots\; (2) que el geofence rebutja fora del radi de 500 m\; (3) que des del mateix dispositiu no es pot tornar a votar la mateixa obra\; (4) que en un segon dispositiu sí que es pot.
+LOCATION:Casal de Barri de Prosperitat\, Plaça d'Àngel Pestanya\, 08016 Barcelona
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P2D
+DESCRIPTION:Falten 2 dies per la comprovació d'obertura
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:Anar al Casal per comprovar la votació
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9bi-2026-certificat@9barrisimatge.org
+DTSTAMP:20260926T073000Z
+DTSTART:20261222T100000
+DTEND:20261222T100000
+SUMMARY:[9bi · tècnic] Renovar el certificat dels subdominis
+DESCRIPTION:TÈCNIC. El certificat del subdomini de votació i el de formularis caduca el 24 de desembre de 2026. No afecta la votació\, que acaba el 15\, però cal renovar-lo abans: a la configuració SSL d'Apache del servidor de LinuxBCN (vl28359.dinaserver.com).
+END:VEVENT
+END:VCALENDAR

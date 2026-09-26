@@ -42,7 +42,11 @@ SUPPORTED_LANGS = ("ca", "es", "en")
 # ---------------------------------------------------------------- helpers
 
 def load_config():
-    cfg = configparser.ConfigParser()
+    # interpolation=None: sense això configparser tracta '%' com a sintaxi i
+    # petaria amb títols que en portin ('50% de descompte') o amb la plantilla
+    # del rang d'obres ('Obra %03d'). Els secrets tenen valors per defecte
+    # explícits, no per interpolació, aix que es pot desactivar sense risc.
+    cfg = configparser.ConfigParser(interpolation=None)
     cfg.read(CONFIG_PATH, encoding="utf-8")
     return cfg
 
@@ -80,9 +84,10 @@ def connect(cfg):
         schema = os.path.join(MODULE_DIR, "schema.sql")
         with open(schema, encoding="utf-8") as f:
             conn.executescript(f.read())
+        afegeix_columnes(conn)
         conn.commit()
     # el config.ini és la font de veritat dels ajustos de l'edició: així un
-    # canvi de lat/lon/radi/finestra s'aplica en reiniciar, sense esborrar la BD
+    # canvi de mode/lloc/dates/geofence s'aplica en reiniciar, sense esborrar la BD
     e = cfg["edicio"] if cfg.has_section("edicio") else {}
     row = conn.execute("SELECT id FROM edicions WHERE secret_token=?",
                        (e.get("secret_token", ""),)).fetchone()
@@ -91,55 +96,140 @@ def connect(cfg):
     return conn
 
 
+# Columnes que s'han anat afegint a 'edicions' després de la creació. Una base
+# existent no es recrea, així que s'afegeixen si falten (operació idempotent).
+COLUMNES_EDICIONS = {
+    "mode": "TEXT NOT NULL DEFAULT 'votacio'",
+    "lloc": "TEXT NOT NULL DEFAULT ''",
+    "adreca": "TEXT NOT NULL DEFAULT ''",
+}
+
+
+def afegeix_columnes(conn):
+    """Afegeix a la taula edicions les columnes noves que hi faltin."""
+    existents = {r["name"] for r in conn.execute("PRAGMA table_info(edicions)")}
+    for nom, tipus in COLUMNES_EDICIONS.items():
+        if nom not in existents:
+            conn.execute("ALTER TABLE edicions ADD COLUMN %s %s" % (nom, tipus))
+
+
+def mode_config(cfg, e=None):
+    """Mode de l'edicio: 'proves' (sense limit de vots) o 'votacio' (un vot per
+    obra i dispositiu). Es llegeix de [edicio] mode; si no hi es, es dedueix de
+    vot_limit perquè els fitxers de configuració antics segueixin fent el que feien."""
+    e = e if e is not None else (cfg["edicio"] if cfg.has_section("edicio") else {})
+    m = (e.get("mode") or "").strip().lower()
+    if m in ("proves", "prova", "test"):
+        return "proves"
+    if m in ("votacio", "real", "oficial"):
+        return "votacio"
+    return "proves" if try_int(e.get("vot_limit", "1")) == 0 else "votacio"
+
+
+def limit_del_mode(mode):
+    """vot_limit efectiu: mode proves = 0 (sense limit), mode votacio = 1."""
+    return 0 if mode == "proves" else 1
+
+
+def obres_del_config(cfg):
+    """Llista d'obres del [obres] del config.
+
+    Dues formes, que es poden barrejar:
+      - línia per obra:  '12 = Titol | Autor | Categoria'
+      - rang automàtic:  'rang = 1..100' o 'rang = 1..80, 90..100 | Obra %03d'
+    El rang serveix per no escriure 100 línies a mà quan encara no hi ha títols
+    (proves, o entitats que distribueixen el sistema i potser no saben el nombre final
+    d'obres fins al dia del concurs). Les línies explícites tenen prioritat sobre
+    el rang.
+    """
+    obres = {}
+    if not cfg.has_section("obres"):
+        return obres
+    for clau, valor in cfg.items("obres"):
+        if clau.strip().lower() in ("rang", "range", "numeros", "números"):
+            trossos, _, plantilla = valor.partition("|")
+            plantilla = plantilla.strip()
+            for tros in trossos.replace(",", " ").split():
+                nums = parse_rang(tros)
+                for n in nums:
+                    obres[n] = (plantilla % n if "%" in plantilla else plantilla, "", "")
+            continue
+        numero = try_int(clau)
+        if not numero:
+            continue
+        parts = [p.strip() for p in valor.split("|")]
+        obres[numero] = (parts[0] if len(parts) > 0 else "",
+                         parts[1] if len(parts) > 1 else "",
+                         parts[2] if len(parts) > 2 else "")
+    return obres
+
+
+def parse_rang(tros):
+    """'1..100' o '1-100' -> llista de numeros. Ignora el que no s'entengui."""
+    tros = tros.strip().replace("..", "-")
+    if "-" in tros:
+        a, _, b = tros.partition("-")
+        ini, fi = try_int(a), try_int(b)
+    else:
+        ini = fi = try_int(tros)
+    if not ini or not fi:
+        return []
+    if ini > fi:
+        ini, fi = fi, ini
+    if fi - ini > 5000:      # salvaguarda: un rang de 100.000 obres seria un error
+        return []
+    return list(range(ini, fi + 1))
+
+
 def inietit(conn):
     """Crea l'esquema si cal i carrega l'edicio/obres de la config a la BD."""
     schema = os.path.join(MODULE_DIR, "schema.sql")
     with open(schema, encoding="utf-8") as f:
         conn.executescript(f.read())
+    afegeix_columnes(conn)
     conn.commit()
     cfg = load_config()
     e = cfg["edicio"]
     token = e.get("secret_token", "")
+    mode = mode_config(cfg, e)
     cur = conn.execute("SELECT id FROM edicions WHERE secret_token=?", (token,))
     row = cur.fetchone()
     if row is None:
         cur = conn.execute(
-            "INSERT INTO edicions (nom,data_inici,data_fi,secret_token,mode_geo,lat,lon,radi,collect_data,vot_limit,activa)"
-            " VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+            "INSERT INTO edicions (nom,data_inici,data_fi,secret_token,mode_geo,lat,lon,"
+            "radi,collect_data,vot_limit,activa,mode,lloc,adreca)"
+            " VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
             (e.get("nom", ""), e.get("data_inici", ""), e.get("data_fi", ""),
              token, e.get("mode_geo", "off"),
              try_float(e.get("lat")), try_float(e.get("lon")),
              try_int(e.get("radi")), e.get("collect_data", "none"),
-             try_int(e.get("vot_limit", "1")), try_int(e.get("activa", "0"))))
+             limit_del_mode(mode), try_int(e.get("activa", "0")),
+             mode, e.get("lloc", ""), e.get("adreca", "")))
         ed_id = cur.lastrowid
         conn.commit()
     else:
         ed_id = row["id"]
-    if cfg.has_section("obres"):
-        cur.execute("SELECT COUNT(*) AS n FROM obres WHERE edicio_id=?", (ed_id,))
-        if cur.fetchone()["n"] == 0:
-            for line in cfg.items("obres"):
-                numero = try_int(line[0])
-                if not numero:
-                    continue
-                parts = [p.strip() for p in line[1].split("|")]
-                titol = parts[0] if len(parts) > 0 else ""
-                autor = parts[1] if len(parts) > 1 else ""
-                cat = parts[2] if len(parts) > 2 else ""
-                cur.execute(
-                    "INSERT INTO obres (edicio_id,numero,titol,autor,categoria) VALUES (?,?,?,?,?)",
-                    (ed_id, numero, titol, autor, cat))
-            conn.commit()
+    # Les obres només es carreguen en la creació de la base (o si es buida). Per
+    # canviar la llista d'obres d'una edició ja_created cal esborrar la base o
+    # inserir-les a mà: així els vots ja registrats no es queden penjats.
+    cur.execute("SELECT COUNT(*) AS n FROM obres WHERE edicio_id=?", (ed_id,))
+    if cur.fetchone()["n"] == 0:
+        for numero, (titol, autor, cat) in sorted(obres_del_config(cfg).items()):
+            cur.execute(
+                "INSERT INTO obres (edicio_id,numero,titol,autor,categoria) VALUES (?,?,?,?,?)",
+                (ed_id, numero, titol, autor, cat))
+        conn.commit()
 
 
 def sync_edicio(conn, ed_id, e):
     """Aplica al registre de l'edició els camps de configuració.
 
-    Sense això, canviar lat/lon/radi/finestra al config.ini no tindria cap
+    Sense això, canviar mode/lloc/dates/geofence al config.ini no tindria cap
     efecte en una base ja creada (l'edició es va INSERTAR només el primer cop)
     i caldria esborrar data.db. Només es toquen els camps de configuració: ni
     les obres ni els vots.
     """
+    mode = mode_config(None, e)
     wanted = {
         "nom": e.get("nom", ""),
         "data_inici": e.get("data_inici", ""),
@@ -149,8 +239,11 @@ def sync_edicio(conn, ed_id, e):
         "lon": try_float(e.get("lon")),
         "radi": try_int(e.get("radi")),
         "collect_data": e.get("collect_data", "none"),
-        "vot_limit": try_int(e.get("vot_limit", "1")),
+        "vot_limit": limit_del_mode(mode),
         "activa": try_int(e.get("activa", "0")),
+        "mode": mode,
+        "lloc": e.get("lloc", ""),
+        "adreca": e.get("adreca", ""),
     }
     row = conn.execute("SELECT * FROM edicions WHERE id=?", (ed_id,)).fetchone()
     canvis = {k: v for k, v in wanted.items() if row[k] != v}
@@ -283,6 +376,50 @@ input[type=password]{font-family:inherit;font-size:1rem;padding:.5rem .6rem;colo
 .foot{margin-top:2.4rem;padding-top:1rem;border-top:1px solid var(--border);
   font-size:.8rem;color:var(--secondary)}
 @media (max-width:420px){ body{font-size:16px} input#obra{font-size:1.9rem} }
+.sum{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.6rem;margin:0 0 1.3rem}
+.sum div{background:var(--entry);border:1px solid var(--border);border-radius:var(--radius);padding:.7rem .85rem}
+.sum b{display:block;font-family:"Gillius ADF","Montserrat",serif;font-size:1.45rem;
+  font-weight:700;color:var(--primary);line-height:1.25;word-break:break-word}
+.sum span{display:block;font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--secondary)}
+table.tally{width:100%;border-collapse:collapse;font-size:.95rem;table-layout:fixed}
+table.tally th{text-align:left;font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--secondary);border-bottom:1px solid var(--tertiary);padding:.5rem .35rem}
+table.tally td{padding:.6rem .35rem;border-bottom:1px solid var(--border);vertical-align:top;
+  word-wrap:break-word}
+table.tally th.c-v,table.tally td.c-v{text-align:right;white-space:nowrap;width:4.5rem}
+table.tally th.c-n,table.tally td.c-n{width:5.5rem;color:var(--secondary)}
+table.tally td.c-v{font-family:"Gillius ADF","Montserrat",serif;font-size:1.25rem;font-weight:700}
+table.tally tr.lead{background:rgba(224,49,49,.16)}
+table.tally tr.lead td{color:var(--primary)}
+.t-aut{display:block;font-size:.78rem;color:var(--secondary);font-weight:400}
+.bar{display:block;height:5px;background:var(--tertiary);border-radius:3px;margin-top:.35rem;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent)}
+.tag{display:inline-block;font-size:.62rem;letter-spacing:.05em;text-transform:uppercase;
+  background:var(--accent);color:#fff;border-radius:3px;padding:.12rem .3rem;margin-left:.25rem;
+  vertical-align:.15em;font-weight:700}
+p.toplink{margin:0 0 1.2rem;font-size:.9rem}
+p.home{margin:1.5rem 0 0}
+p.home{display:flex;flex-wrap:wrap;gap:.5rem;margin:1.6rem 0 0}
+p.home a{display:inline-block;padding:.65rem 1.1rem;background:var(--entry);
+  border:1px solid var(--tertiary);border-radius:var(--radius);color:var(--primary);
+  text-decoration:none;font-size:.92rem;font-weight:700}
+p.home a:hover,p.home a:focus-visible{border-color:var(--accent);color:var(--primary)}
+.banner-test{background:rgba(224,49,49,.16);border:1px solid var(--accent);
+  border-left:4px solid var(--accent);border-radius:var(--radius);padding:.8rem 1rem;
+  margin:0 0 1.2rem;color:var(--primary);font-size:.92rem}
+.banner-test strong{display:block;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--accent);margin-bottom:.2rem}
+p.where{background:var(--entry);border:1px solid var(--border);border-radius:var(--radius);
+  padding:.7rem .9rem;margin:0 0 1.2rem;font-size:.92rem;color:var(--content)}
+p.where b{color:var(--primary)}
+@media print{
+  .band,.brand,.foot,.toplink,.banner-test,.note,button{display:none !important}
+  body{background:#fff;color:#000;font-size:12pt}
+  .vwrap{max-width:none;padding:0}
+  table.tally td,table.tally th{border-color:#999;color:#000}
+  table.tally thead{display:table-header-group}
+  tr{page-break-inside:avoid}
+}
 """
 
 
@@ -297,11 +434,16 @@ def page_html(title, body, lang):
             "<div class=\"brand\"><strong>9 Barris Imatge</strong>"
             "<span>36è Concurs fotogràfic Josep Antón Cordoncillo</span></div>"
             "<main>%s</main>"
+            "<p class=\"home\">"
+            "<a href=\"https://9barrisimatge.org/concurs/\">%s</a>"
+            "<a href=\"https://9barrisimatge.org/\">%s</a></p>"
             "<p class=\"foot\">"
-            "<a href=\"https://9barrisimatge.org/privacitat/\">Protecció de dades</a>"
-            " · <a href=\"https://9barrisimatge.org/\">9barrisimatge.org</a></p>"
+            "<a href=\"https://9barrisimatge.org/privacitat/\">%s</a></p>"
             "</div></body></html>" % (
-                html.escape(lang), html.escape(title), PAGE_CSS, body))
+                html.escape(lang), html.escape(title), PAGE_CSS, body,
+                html.escape(get_i18n(lang).get("link_concurs", "Torna al concurs")),
+                html.escape(get_i18n(lang).get("link_home", "Web de 9 Barris Imatge")),
+                html.escape(get_i18n(lang).get("link_privacy", "Protecció de dades"))))
 
 
 def respond(environ, start_response, status, body, content_type="text/html; charset=utf-8",
@@ -428,6 +570,22 @@ def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js,
                    note="", conditions="", base=""):
     i18n = get_i18n(lang)
     extra = ""
+    # Avís de mode proves: mentre sigui així els vots NO compten per al concurs.
+    # És la xarxa de seguretat perquè ningú no confongui una votació de prova amb
+    # la votació real de l'exposició.
+    if ed["mode"] == "proves":
+        extra += ("<p class=\"banner-test\"><strong>%s</strong> %s</p>" % (
+            html.escape(i18n.get("mode_test_tag", "MODE PROVES")),
+            html.escape(i18n.get("mode_test_banner",
+                                 "Aquest formulari és de proves: es pot votar tantes "
+                                 "voltes com vulguis i els vots no compten per al concurs."))))
+    # Lloc de votació: es mostra el nom i l'adreça del punt on s'ha de estar.
+    # En Taro, cada entitat hi posa el seu propi lloc.
+    if ed["mode_geo"] != "off" and (ed["lloc"] or ed["adreca"]):
+        extra += "<p class=\"where\">%s%s%s</p>" % (
+            html.escape(i18n.get("vote_where", "Només es pot votar a l'exposició, al")),
+            " <b>%s</b>" % html.escape(ed["lloc"]) if ed["lloc"] else "",
+            "<br>%s" % html.escape(ed["adreca"]) if ed["adreca"] else "")
     if conditions:
         extra += "<div class=\"conditions\">%s</div>" % conditions
     if note:
@@ -675,9 +833,12 @@ def submit_vote(environ, start_response, token):
         # i dispositiu per tota l'edició. S'utilitza només per a les proves.
         revote_min = cfg.getint("edicio", "revote_minutes", fallback=0)
         prev = conn.execute(
-            "SELECT COUNT(*) AS n FROM vots WHERE edicio_id=? AND obra_id=? AND dispositiu_hash=?",
-            (ed["id"], obra["id"], devhash)).fetchone()["n"]
-        repetit = prev > 0
+            "SELECT COUNT(*) AS n, MAX(ts) AS t FROM vots "
+            "WHERE edicio_id=? AND obra_id=? AND dispositiu_hash=?",
+            (ed["id"], obra["id"], devhash)).fetchone()
+        repetit = prev["n"] > 0
+        prev_txt = "" if not prev["t"] else time.strftime(
+            "%d/%m/%Y a les %H:%M", time.localtime(prev["t"]))
         if vot_limit > 0:
             if revote_min > 0:
                 cutoff = int(time.time()) - revote_min * 60
@@ -691,9 +852,19 @@ def submit_vote(environ, start_response, token):
                                    page_html(i18n.get("msg_vote_repeat", ""),
                                              "<p>%s</p>" % html.escape(wait), lang))
             elif repetit:
+                # Mode exposicio (vot_limit = 1): s'explica quan va fer el vot
+                # i que la mateixa obra no es pot tornar a votar des d'aquest
+                # dispositiu, en comptes de deixar un missatge sense mes informacio.
+                cos = ("<p>%s</p><p>%s</p><p class=\"note\">%s</p>" % (
+                    html.escape(i18n.get("msg_vote_repeat", "")),
+                    html.escape(i18n.get("msg_vote_at",
+                                         "El teu vot d'aquesta obra és del %s.") % prev_txt)
+                    if prev_txt else "",
+                    html.escape(i18n.get("msg_vote_only_once",
+                                         "No es pot tornar a votar la mateixa obra "
+                                         "des d'aquest dispositiu."))))
                 return respond(environ, start_response, "200 OK",
-                               page_html(i18n.get("msg_vote_repeat", ""),
-                                         "<p>%s</p>" % html.escape(i18n.get("msg_vote_repeat", "")), lang))
+                               page_html(i18n.get("msg_vote_repeat", ""), cos, lang))
         ts = int(time.time())
         sig = hmac_sig(secret_key(cfg), (ed["id"], obra["id"], devhash, ts))
         # INSERT OR REPLACE: amb vot_limit = 0 (mode obert de proves) es pot
@@ -780,24 +951,111 @@ def admin_handle(environ, start_response, sub="", base=""):
                        admin_login_form(lang, base))
     conn = connect(cfg)
     try:
-        ed_id = None
-        row = conn.execute("SELECT id FROM edicions ORDER BY id LIMIT 1").fetchone()
-        if row is not None:
-            ed_id = row["id"]
+        ed = conn.execute("SELECT * FROM edicions ORDER BY id LIMIT 1").fetchone()
+        ed_id = ed["id"] if ed is not None else None
         if sub == "stat":
+            # Recompte privat. Cap dada publica: nomes l'administrador hi accedeix
+            # (admin_ok) i, a mesura que la votacio esta oberta, el resultat no es
+            # publica enlloc per no condicionar la votacio de la resta.
+            rows = conn.execute(
+                "SELECT o.numero,o.titol,o.autor,COUNT(v.id) AS v "
+                "FROM obres o LEFT JOIN vots v ON v.obra_id=o.id "
+                "WHERE o.edicio_id=? "
+                "GROUP BY o.id ORDER BY v DESC, o.numero", (ed_id,)).fetchall()
+            total = sum(r["v"] for r in rows)
+            amb_vots = sum(1 for r in rows if r["v"] > 0)
+            maxv = rows[0]["v"] if rows else 0
+            darrer = conn.execute(
+                "SELECT MAX(ts) AS t FROM vots WHERE edicio_id=?", (ed_id,)).fetchone()["t"]
+            darrer_txt = "—" if not darrer else time.strftime(
+                "%d/%m/%Y %H:%M", time.localtime(darrer))
+            if ed is not None and ed["tancada"]:
+                estat = i18n.get("admin_state_closed", "Votació tancada")
+            elif ed is not None and edition_open(cfg, ed):
+                estat = i18n.get("admin_state_open", "Votació oberta")
+            else:
+                estat = i18n.get("admin_state_out", "Fora de termini")
+            if estat == i18n.get("admin_state_closed", "Votació tancada"):
+                body_estat = ("<p class=\"note\">%s</p>" % html.escape(estat))
+            else:
+                body_estat = ""
+            enllaç = "<p class=\"toplink\"><a href=\"%s/admin/\">&#8592; %s</a></p>" % (
+                html.escape(base, quote=True), html.escape(i18n.get("btn_back", "Torna")))
+            resument = [("sum", [(str(total), i18n.get("admin_sum_total", "Vots registrats")),
+                                 ("%d/%d" % (amb_vots, len(rows)),
+                                  i18n.get("admin_sum_works", "Obres amb vots")),
+                                 (str(len(rows) - amb_vots), i18n.get("admin_sum_zero", "Sense vots")),
+                                 (darrer_txt, i18n.get("admin_sum_last", "Darrer vot")),
+                                 (i18n.get("mode_" + (ed["mode"] if ed is not None else "votacio"),
+                                           "Mode"), i18n.get("admin_sum_mode", "Mode"))])]
+            body = ["<h1>%s</h1>" % html.escape(i18n.get("admin_stat_title", "Recompte")), enllaç]
+            body.append("<div class=\"sum\">" + "".join(
+                "<div><b>%s</b><span>%s</span></div>" % (html.escape(v), html.escape(l))
+                for v, l in resument[0][1]) + "</div>")
+            if total == 0:
+                body.append("<p class=\"note\">%s</p>"
+                            % html.escape(i18n.get("admin_no_votes", "Encara no hi ha cap vot.")))
+            elif maxv > 0:
+                caps = [r for r in rows if r["v"] == maxv]
+                if len(caps) > 1:
+                    body.append("<p class=\"note\">%s</p>" % html.escape(
+                        i18n.get("admin_tie_fmt",
+                                 "Empaten %d obres amb %d vots: cal decidir com es resol l'empat.")
+                        % (len(caps), maxv)))
+            body.append("<table class=\"tally\"><thead><tr><th class=\"c-n\">%s</th>"
+                        "<th>%s</th><th class=\"c-v\">%s</th></tr></thead><tbody>" % (
+                            html.escape(i18n.get("admin_num", "Núm.")),
+                            html.escape(i18n.get("admin_obra", "Obra")),
+                            html.escape(i18n.get("admin_count", "Vots"))))
+            for r in rows:
+                pct = 0 if maxv <= 0 else int(round(100.0 * r["v"] / maxv))
+                lead = maxv > 0 and r["v"] == maxv
+                body.append(
+                    "<tr%s><td class=\"c-n\">%d%s</td><td>%s<span class=\"t-aut\">%s</span>"
+                    "<span class=\"bar\"><i style=\"width:%d%%\"></i></span></td>"
+                    "<td class=\"c-v\">%d</td></tr>" % (
+                        " class=\"lead\"" if lead else "", r["numero"],
+                        ("<span class=\"tag\">%s</span>" % html.escape(
+                            i18n.get("admin_lead", "més votada"))) if lead else "",
+                        html.escape(r["titol"] or ""),
+                        html.escape(r["autor"] or ""), pct, r["v"]))
+            body.append("</tbody></table>" + body_estat)
+            body.append("<p class=\"toplink\"><a href=\"%s/admin/\">&#8592; %s</a></p>" % (
+                html.escape(base, quote=True), html.escape(i18n.get("btn_back", "Torna"))))
+            return respond(environ, start_response, "200 OK",
+                           page_html("admin", "".join(body), lang))
+        if sub == "obres":
+            # Catàleg privat: número i títol de cada obra, per posar-los al costat
+            # de les fotografies a l'exposició i poder-los imprimir. L'AUTOR no
+            # apareix aquí: és anònim fins a l'entrega de premis. L'únic lloc on
+            # surt és el CSV del jurat (/admin/export).
             rows = conn.execute(
                 "SELECT o.numero,o.titol,COUNT(v.id) AS v "
                 "FROM obres o LEFT JOIN vots v ON v.obra_id=o.id "
-                "GROUP BY o.id ORDER BY o.numero").fetchall()
-            body = "<h1>%s</h1><table border=\"1\" cellpadding=\"6\" cellspacing=\"0\"><tr><th>%s</th><th>%s</th></tr>" % (
-                html.escape(i18n.get("admin_stat_title", "Recompte")),
-                html.escape(i18n.get("admin_obra", "Obra")),
-                html.escape(i18n.get("admin_count", "Vots")))
+                "WHERE o.edicio_id=? GROUP BY o.id ORDER BY o.numero", (ed_id,)).fetchall()
+            body = ["<h1>%s</h1>" % html.escape(i18n.get("admin_obres_title", "Llista d'obres")),
+                    "<p class=\"toplink\"><a href=\"%s/admin/\">&#8592; %s</a></p>" % (
+                        html.escape(base, quote=True), html.escape(i18n.get("btn_back", "Torna"))),
+                    "<p class=\"note\">%s</p>" % html.escape(i18n.get(
+                        "admin_obres_note",
+                        "L'autor de cada fotografia no apareix en aquesta llista ni al "
+                        "formulari de votació: és anònim fins a l'entrega de premis. "
+                        "El CSV del jurat sí que l'inclou.")),
+                    "<p><button type=\"button\" onclick=\"window.print()\">%s</button></p>"
+                    % html.escape(i18n.get("btn_print", "Imprimeix la llista")),
+                    "<table class=\"tally\"><thead><tr><th class=\"c-n\">%s</th><th>%s</th>"
+                    "<th class=\"c-v\">%s</th></tr></thead><tbody>" % (
+                        html.escape(i18n.get("admin_num", "Núm.")),
+                        html.escape(i18n.get("admin_obra", "Obra")),
+                        html.escape(i18n.get("admin_count", "Vots")))]
             for r in rows:
-                body += "<tr><td>%d %s</td><td>%d</td></tr>" % (
-                    r["numero"], html.escape(r["titol"] or ""), r["v"])
-            body += "</table><p><a href=\"%s/admin/\">↩ back</a></p>" % html.escape(base, quote=True)
-            return respond(environ, start_response, "200 OK", page_html("admin", body, lang))
+                body.append("<tr><td class=\"c-n\">%d</td><td>%s</td><td class=\"c-v\">%d</td></tr>"
+                            % (r["numero"], html.escape(r["titol"] or ""), r["v"]))
+            body.append("</tbody></table>" + body_estat)
+            body.append("<p class=\"toplink\"><a href=\"%s/admin/\">&#8592; %s</a></p>" % (
+                html.escape(base, quote=True), html.escape(i18n.get("btn_back", "Torna"))))
+            return respond(environ, start_response, "200 OK",
+                           page_html("admin", "".join(body), lang))
         if sub == "visites":
             total = conn.execute(
                 "SELECT COUNT(*) AS n FROM visites WHERE edicio_id=?", (ed_id,)).fetchone()["n"]
@@ -854,18 +1112,28 @@ def admin_handle(environ, start_response, sub="", base=""):
                            extra_headers=[
                                ("Content-Disposition", 'attachment; filename="vots.csv"'),
                                ("X-Content-SHA256", digest)])
+        mode = ed["mode"] if ed is not None else "votacio"
+        recordatori = ("<p class=\"banner-test\"><strong>%s</strong> %s</p>" % (
+            html.escape(i18n.get("mode_test_tag", "MODE PROVES")),
+            html.escape(i18n.get("mode_test_admin",
+                                 "Ara mateix el formulari és de proves. Abans del dia "
+                                 "de la votació posa mode = votacio al config i reinicia.")))
+            if mode == "proves" else "")
         body = (
-            "<h1>%s</h1>"
+            "<h1>%s</h1>%s"
             "<p><a href=\"%s/admin/stat\">%s</a> · "
+            "<a href=\"%s/admin/obres\">%s</a> · "
             "<a href=\"%s/admin/visites\">%s</a> · "
             "<a href=\"%s/admin/export\">%s (CSV)</a></p>"
             "<form method=\"post\" action=\"%s/admin/tancar\">"
             "<input type=\"hidden\" name=\"csrft\" value=\"%s\">"
             "<button type=\"submit\" onclick=\"return confirm('%s')\">%s</button></form>"
             "<p><a href=\"%s/admin/logout\">%s</a></p>"
-            % (html.escape(i18n.get("admin_dashboard", "Admin")),
+            % (html.escape(i18n.get("admin_dashboard", "Admin")), recordatori,
                html.escape(base, quote=True),
                html.escape(i18n.get("admin_stat", "Recompte en viu")),
+               html.escape(base, quote=True),
+               html.escape(i18n.get("admin_obres_title", "Llista d'obres")),
                html.escape(base, quote=True),
                html.escape(i18n.get("admin_visits_title", "Visites via QR")),
                html.escape(base, quote=True),

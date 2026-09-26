@@ -1924,12 +1924,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2.1rem;
   line-height: 1.15;
 }
-.cartell-prize {
-  margin: 0.2rem 0 1.4rem;
-  font-family: "Gillius ADF";
-  font-size: 1.7rem;
-  color: #e03131;
-}
 .cartell-qr {
   width: 13rem;
   height: 13rem;
@@ -1943,10 +1937,37 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.08em;
   color: var(--secondary);
 }
+.cartell-qr {
+  border: 0;
+}
 .cartell-qr img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  display: block;
+}
+/* Fons blanc i marge blanc al voltant del QR: en tema fosc els mÃ³duls negres
+   han de quedar sobre paper blanc perquÃ¨ el llector de la cÃ mera els vegi. */
+.cartell-qr {
+  background: #fff;
+  padding: 0.7rem;
+  width: 14rem;
+  height: 14rem;
+}
+.cartell-url {
+  margin: -0.8rem 0 1.4rem;
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+}
+.cartell-url a {
+  color: var(--secondary);
+  word-break: break-all;
+}
+@media print {
+  .cartell-url a {
+    color: #000;
+  }
 }
 .cartell-lead {
   margin: 0 0 1.2rem;

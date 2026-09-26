@@ -13,6 +13,9 @@ CREATE TABLE IF NOT EXISTS edicions (
     collect_data  TEXT NOT NULL DEFAULT 'none',
     vot_limit     INTEGER NOT NULL DEFAULT 1,
     activa        INTEGER NOT NULL DEFAULT 0,
+    mode          TEXT NOT NULL DEFAULT 'votacio',
+    lloc          TEXT NOT NULL DEFAULT '',
+    adreca        TEXT NOT NULL DEFAULT '',
     tancada       INTEGER NOT NULL DEFAULT 0,
     creada        TEXT NOT NULL DEFAULT (datetime('now')),
     tancada_a     TEXT

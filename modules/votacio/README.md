@@ -24,15 +24,32 @@ per a edicions que ho requereixin.
 - Dades personals: `collect_data = none` (no es demana res; les
   coordenades **mai** es desen, només una etiqueta `ok|out|none`).
 - Un sol vot per obra i dispositiu (`vot_limit = 1`) per tota l'edició.
-  `revote_minutes` (per defecte `0`) obre una finestra de re-vot en minuts:
-  passats N minuts es pot tornar a votar la mateixa obra i la votació anterior
-  **se substitueix** (la taula té `UNIQUE (edicio_id, obra_id, dispositiu_hash)`).
-  Només per a proves: a l'exposició ha de ser `0`.
+  `vot_limit = 0` = **mode obert**: sense límit de vots per obra i
+  dispositiu (per a proves); la votació anterior de la mateixa obra se substitueix
+  (`INSERT OR REPLACE`, perquè la taula té
+  `UNIQUE (edicio_id, obra_id, dispositiu_hash)`). Després de votar s'informa
+  dels vots del mateix dispositiu.
+  `revote_minutes` (per defecte `0`) obre una finestra de re-vot en minuts
+  quan `vot_limit > 0`: passats N minuts es pot tornar a votar la mateixa obra.
+- **Coordenades verificades, no inventades**: el 2026-09-26 es va detectar
+  que `lat`/`lon` apuntaven a 5,2 km del casal i totes les votes es rebutjaven.
+  El punt correcte és el **Casal de Barri de Prosperitat, Plaça d'Àngel
+  Pestanya (08016 Barcelona): `41.441623` / `2.179794`**, confirmat amb
+  Nominatim, Photon i geocodi invers. Abans de cada edició, **comprovar el
+  punt amb una font**.
+- `connect()` aplica els camps de configuració de l'edició (`nom`, dates,
+  `mode_geo`, `lat`, `lon`, `radi`, `collect_data`, `vot_limit`, `activa`) en
+  cada arrencada i en deixa registre al log. Canviar-los al `config.ini` sí que
+  té efecte en reiniciar, sense haver d'esborrar `data.db`. **No toca les
+  obres ni els vots**: la llista d'obres només es carrega en la creació de la
+  base.
 - La ubicació es demanda automàticament en carregar el formulari, però alguns
   navegadors (iOS) només mostren el permís després d'un toc de l'usuari: per
   això hi ha el botó **«Activar la ubicació»**, que torna a demanar-la i
-  s'amaga quan s'aconsegueix. Si el permís està bloquejat, la pàgina ho diu i
-  el botó permet reintentar després de canviar els permisos del lloc.
+  s'amaga quan s'aconsegueix. La pàgina calcula la distància al punt del
+  concurs i la mostra; si la precisió és de més de 250 m avisa que cal activar
+  l'«ubicació precisa» del telèfon; si es rebutja el vot, el missatge diu la
+  distància real.
 - Idiomes: ca (per defecte), es, en — seleccionats per l'Accept-Language.
 
 ## Estructura

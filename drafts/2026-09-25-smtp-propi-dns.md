@@ -9,7 +9,7 @@
 | Servidor MX | `10 mail.9barrisimatge.org` |
 | Adreça A de `mail.9barrisimatge.org` | `82.98.166.123` (Dinahosting) |
 | PTR invers (`82.98.166.123`) | `vl28359.dinaserver.com` |
-| SPF | `v=spf1 a mx include:formsubmit.co ~all` — funcional via `mx` |
+| SPF | **Revisit 2026-09-26: `v=spf1 ip4:82.98.166.123 -all`.** Ja NO inclou `formsubmit.co`. |
 | DKIM | **Cap registre publicat** (s'han provat 22 selectors habituals). L'usuari generarà el registre des del panell; cal el selector i el valor TXT |
 | DMARC | `v=DMARC1; p=none; rua=mailto:info@9barrisimatge.org` |
 | MTA-STS / TLS-RPT / BIMI | **No publicats** (baixa prioritat: el web és a GitHub Pages i no hi pot penjar el fitxer `.well-known/mta-sts.txt`) |
@@ -20,15 +20,19 @@
 
 ## 2. Registres DNS finals (a aplicar des del panell, NO a mà)
 
-### 2.1 SPF — netejar quan el formulari passi al servidor propi
+### 2.1 SPF — **ja aplicat i endureit (2026-09-26)**
 
-Actualment inclou `include:formsubmit.co`, que autoritza FormSubmit a enviar en nom del domini. Quan els formularis deixin d'usar FormSubmit, aquesta autorització ja no cal:
+L'sSPF actual és `v=spf1 ip4:82.98.166.123 -all` (verificat per DNS el 2026-09-26).
+Aquesta és la causa directa que els dos formularis del web (que fins aleshores
+passaven per FormSubmit) **no arribin a `info@9barrisimatge.org`**: FormSubmit
+envia des de les seves pròpies IP i l'`-all` les rebutja com a no autoritzades.
+Per això els formularis s'han de moure al servei propi a
+`formularis.linuxbcn.com` (que surt per la mateixa IP autoritzada).
 
-```
-v=spf1 mx ~all
-```
-
-Es manté `mx` perquè `mail.9barrisimatge.org` és l'únic servidor autoritzat a enviar. El `~all` (soft fail) és preferible a `-all` fins que hi hagi DKIM publicat; quan el DKIM sigui actiu, passar a `-all` perquè qualsevol altre servidor que intenti enviar quedi rebutjat.
+Aquesta situació **val la pena** perquè, un cop els formularis deixin
+FormSubmit, l'sSPF endureit és exactament el que volem: només el nostre
+servidor pot enviar com a `@9barrisimatge.org`, i ningú altre s'hi pot
+colar. Es manté tal qual; no cal tocar-lo.
 
 ### 2.2 DKIM — **pendent del selector**
 
