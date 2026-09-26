@@ -1,15 +1,25 @@
 ---
-title: "Concurs Cordoncillo (organització interna)"
-description: "Bases, convocatòria, categories, música i dates del concurs (intern)"
+title: "Concurs Cordoncillo — Administració"
+description: "Documentació interna per organitzar i administrar el Concurs de Fotografia Josep Antón Cordoncillo"
 draft: true
 ---
 
-Espai intern per organitzar el **Concurs de Fotografia Josep Anton Cordoncillo**. Aquí hi aniran:
+Documentació interna del **Concurs de Fotografia Josep Antón Cordoncillo**. Consulta els documents d'aquesta secció per gestionar qualsevol aspecte del concurs sense haver de recordar on és cada cosa.
 
-- **Bases del concurs** (document vigent).
-- **Convocatòria actual** (qui pot participar, límits, lliurament).
-- **Categories** de l'edició en curs.
-- **Grup de música** i acte de lliurament de premis.
-- **Dates i calendari** (rellotge del concurs i de l'exposició).
+## Documents d'aquesta secció
 
-Cada document es crea i s'edita des del panell d'administració (`/admin/`), secció «Concurs Cordoncillo». Aquesta carpeta no es publica al web.
+| Document | Contingut |
+|---|---|
+| **URLs i recursos** | Totes les adreces del concurs: web, votació, admin, CMS, GitHub |
+| **Sistema de votació** | Com funciona el sistema de vot digital, servidor SSH, configuració i recompte |
+| **Procediments del concurs** | Pas a pas: abans de l'exposició, el dia del vot i el tancament |
+| **Tasques edició 2026** | Tasques i seguiment de l'edició en curs |
+
+## Resum ràpid
+
+- **Web públic del concurs:** `https://9barrisimatge.org/concurs/`
+- **Cartell QR per imprimir:** `https://9barrisimatge.org/concurs/votacio/`
+- **Formulari de vot (públic):** `https://vots-cordoncillo.linuxbcn.com/v/cordoncillo-2026`
+- **Panell admin de la votació:** `https://vots-cordoncillo.linuxbcn.com/admin/`
+- **Servidor (SSH):** `linuxbcn0@vl28359.dinaserver.com`
+- **Configuració al servidor:** `~/apps/vots-cordoncillo/config.ini`
