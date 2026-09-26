@@ -37,6 +37,11 @@ passenger_wsgi.py    # punt d'entrada per a Phusion Passenger
 tools/qr.py          # genera el QR de la votació per al cartell
 tools/tally.py       # recompte (digitals + paper opcional)
 tools/audit.py       # verifica signatura HMAC i duplicats
+serve.py             # servidor WSGI filat (stdlib), per a producció sense pip
+deploy/start.sh      # arrenca el procés amb pidfile i log
+deploy/stop.sh       # l'atura
+deploy/watchdog.sh   # el reinicia si ha mort (cridat pel cron)
+deploy/htaccess      # proxy del docroot del subdomini → 127.0.0.1:8301
 ```
 
 ## Desplegament ràpid
@@ -46,13 +51,34 @@ tools/audit.py       # verifica signatura HMAC i duplicats
 2. Genera secrets: `python3 -c "import secrets;print(secrets.token_urlsafe(24))"`.
 3. Creaciona la BD i carrega obres: `python3 -c "import app;c=app.connect(app.load_config());app.inietit(c);c.close()"`.
 4. Servidor de prova: `python3 app.py 8010` → http://127.0.0.1:8010
-5. Producció (Dinahosting/cPanel amb Passenger): apunta el teu domini al
-   directori del mòdul; `passenger_wsgi.py` s'hi carrega sol.
-6. També es pot instal·lar en una **subcarpeta** del domini
-   (`www/app/taro/votacio/`). Passenger posa `SCRIPT_NAME` amb el prefix i
-   l'aplicació construeix tots els enllaços a partir d'ell (`/v/…`,
-   `/admin/…`, redireccions i galeta del dispositiu), de manera que les rutes
-   funcionen igual a l'arrel del domini o sota el prefix.
+5. **Desplegament real (Dinahosting, verificat el 2026-09-26)**. Aquest host
+   **no té Passenger** ni CGI utilitzable; el patró que funciona és
+   **procés d'usuari + proxy** (el mateix que altres apps del mateix host):
+
+   - Codi a `~/apps/vots-cordoncillo/` (fora del docroot).
+   - `deploy/start.sh` engega `python3 serve.py 8301` (filat, només stdlib)
+     amb pidfile i log (`serve.log`) al mateix directori.
+   - Docroot `~/www/vots-cordoncillo/` amb només el `.htaccess` de
+     `deploy/htaccess`: redirigeix l'arrel al formulari, deixa passar
+     `/.well-known/` (renovació Let's Encrypt) i fa proxy de tot a
+     `127.0.0.1:8301`.
+   - Cron (`crontab -e`): `@reboot` + cada 5 min `deploy/watchdog.sh`.
+   - **Atenció**: Dinahosting termina el TLS davant d'Apache; Apache creu
+     que és HTTP. Per això el redirect de l'arrel és HTTPS explícit i el
+     proxy envia `X-Forwarded-Proto: https` (konsento-ho fa igual).
+   - Amb el proxy, `REMOTE_ADDR` és 127.0.0.1 per a tots: el límit de
+     peticions actua com a límit global del lloc (configurat a 120/min
+     al `config.ini`); les defenses reals són CSRF + testimoni HMAC +
+     geofence. El límit de login d'admin (10/min) és global, també.
+   - Fitxers sensibles: `config.ini` a 600 amb secrets reals; el cron i els
+     scripts, a 755. `umask 077` al `start.sh` perquè `data.db` i els logs
+     neixin amb 600.
+   - Abans de l'exposició: posar la llista d'obres real a `[obres]`, la
+     finestra `data_inici`/`data_fi` reals i esborrar `data.db` (es re-crea
+     amb la configuració nova al primer trànsit).
+6. Per provar: `curl https://vots-cordoncillo.linuxbcn.com/health` → `ok`;
+   el formulari a `/v/cordoncillo-2026`; l'admin a `/admin/` (login a
+   `/admin/login` amb `admin_secret`).
 
 La BD (SQLite) es crea al camí de `[db]`. Fes còpies de seguretat periòdiques.
 

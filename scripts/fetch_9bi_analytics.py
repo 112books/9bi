@@ -160,6 +160,10 @@ def main():
         return 1
 
     data = fetch_analytics(token, days=args.days)
+    if not (data["total"] > 0 and data["hits_by_day"]):
+        print("AVÍS: GoatCounter no ha retornat dades; es conserva "
+              f"{args.output} tal com estava.", file=sys.stderr)
+        return 0
     os.makedirs(os.path.dirname(args.output) or ".", exist_ok=True)
     with open(args.output, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)

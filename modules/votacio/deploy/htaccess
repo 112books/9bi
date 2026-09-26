@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^$ https://vots-cordoncillo.linuxbcn.com/v/cordoncillo-2026 [R=302,L]
+  RewriteRule ^\.well-known/ - [L]
+  RewriteRule ^(.*)$ http://127.0.0.1:8301/$1 [P,QSA,L]
+</IfModule>
+<IfModule mod_headers.c>
+  RequestHeader set Host expr=%{HTTP_HOST}
+  RequestHeader set X-Forwarded-Proto "https"
+</IfModule>

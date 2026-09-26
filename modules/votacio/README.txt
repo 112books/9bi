@@ -30,10 +30,14 @@ tools/audit.py         Verifica que no hi hagi vots duplicats ni manipulats.
 
 Estat
 -----
-El mòdul està escrit i provat, però la votació encara NO està
-desplegada: cal l'hospedatge (un subdomini del compte linuxbcn.com amb
-Python), el fitxer config.ini amb les dates reals i el token del QR, i
-el llistat definitiu d'obres (número - títol - categoria).
+La votació està funcionant al subdomini
+https://vots-cordoncillo.linuxbcn.com/ (desplegada el 2026-09-26):
+procés d'usuari al port 8301 + proxy al docroot + vigilant al cron.
+Vegeu README.md per al detall complet. Pendent abans de l'exposició:
+llistat definitiu d'obres i finestra temporal reals al config.ini, i
+esborrar data.db perquè es re-crei amb la configuració nova. L'import
+de formularis.linuxbcn.com continua pendent de desplegar (el docroot
+està buit).
 
 Si el directori desapareix del servidor, el web no es trenca (el vot és
 un enllaç extern), però es perd el recompte de la votació.

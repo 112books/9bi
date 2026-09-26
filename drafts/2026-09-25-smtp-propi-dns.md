@@ -76,37 +76,43 @@ Per als formularis de la web (contacte, incorporació de socis), en lloc de Form
 | Comprovació | Estat |
 |---|---|
 | `linuxbcn.com` i `www.linuxbcn.com` | resolen a `82.98.166.123` (servidor HTTP de Dinahosting) · certificat vàlid `CN=linuxbcn.com` (Let's Encrypt, des del 2026-08-13) |
-| `formularis.linuxbcn.com` | **Creat el 2026-09-25** a la carpeta `www/formularis`; resol a `82.98.166.123` · **certificat pendent**: serveix el de per defecte (`CN=*.dinaserver.com`) |
-| `vots-cordoncillo.linuxbcn.com` | **Creat el 2026-09-25** a la carpeta `www/vots-cordoncillo`; resol a `82.98.166.123` · **certificat pendent**: serveix el de per defecte (`CN=*.dinaserver.com`) |
+| `formularis.linuxbcn.com` | **Creat el 2026-09-25** a la carpeta `www/formularis`; resol a `82.98.166.123` · **certificat correcte des del 2026-09-25 22:45** (SAN amb el subdomini, vàlid fins al 2026-12-24) · **servei pendent**: el docroot és buit → 404 amb formulari PHP sense puja |
+| `vots-cordoncillo.linuxbcn.com` | **Creat el 2026-09-25** a la carpeta `www/vots-cordoncillo`; resol a `82.98.166.123` · **certificat correcte des del 2026-09-25 22:45** (mateix cert SAN) · **SERVEI DESPLEGAT I FUNCIONANT el 2026-09-26** (procés d'usuari + proxy + cron; vegeu README.md del mòdul) |
 
-### Per què el certificat dels subdominis és bloquejant per als dos
+### Certificat dels subdominis: RESOLT (2026-09-25 22:45)
 
-Verificat el 2026-09-25 amb `openssl s_client`: els subdominis de Dinahosting
-serveixen el certificat genèric de l'hostatger, `CN=*.dinaserver.com`, que no
-inclou el nom del subdomini. El navegador, doncs, no considera l'origen «segur»:
+El bloqueig del certificat genèric queda resolt: els dos subdominis tenen un
+certificat Let's Encrypt amb SAN propi (mateix certificat que renova
+`linuxbcn.com`), vàlid fins al 2026-12-24. Sense aquest pas ni el formulari
+de contacte ni la geolocalització dels vots haguessin pogut funcionar.
 
-- mostra un avís de seguretat a pantalla completa;
-- **`navigator.geolocation` queda deshabilitada** i, en conseqüència, qualsevol
-  funcionalitat que depengui de la ubicació deixa de funcionar;
-- les cookies amb `Secure` hi són iguals, però l'avís pot fer que l'usuari no contin.
+### Descobertes fetes a SSH durant el desplegament (2026-09-25/26)
 
-Per als formularis només hi ha l'avís. Per a la votació del concurs és
-**bloquejant**: el mode geogràfic dur (500 m del Casal) rebutja tot vot sense
-ubicació, de manera que cap vot es podria registrar fins que el certificat del
-subdomini sigui correcte. Cal activar el Let's Encrypt del subdomini abans de
-provar res.
+- Al compte Dinahosting, **Passenger no hi és** i el CGI està desactivat:
+  el patró que funciona és **procés d'usuari + proxy** (el mateix que fa
+  `konsento` al compte `naubostik`, que no s'ha tocat). Cal via ssh amb
+  l'usuari **linuxbcn0** (clau `id_ed25519`). No fer servir la combinació
+  per `naubostik`: és un compte diferent amb altres llocs.
+- Dinahosting termina el TLS davant d'Apache: el vhost es veu a si mateix
+  com HTTP (`php sapi=fpm-fcgi` com a `linuxbcn0`). Per tant qualsevol
+  redirecció relativa des de l'`.htaccess` genera l'URL amb `http://` — per
+  això el redirect de l'arrel és HTTPS explícit (fet a
+  `modules/votacio/deploy/htaccess`).
+- `formularis.linuxbcn.com` no tenia res al docroot el 2026-09-25/26
+  (carpeta `~/www/formularis/` buida) i les probes de l'app de formularis
+  estaven a `~/apps/formularis/`, per això retornava 404.
 
-Passos per deixar el servei engegant (els ha de fer la persona a la que correspon el panell):
+Passos per deixar el servei engegant **quan s'arregli el formulari** (avui encara no està desplegat; el docroot de formularis és buit i el subdomini retorna 404):
 
-1. Pujar el contingut de `modules/formularis/` a la carpeta `www/formularis` del servidor (README.txt, app.py, passenger_wsgi.py, config.example.ini, i18n/).
-2. Activar el certificat Let's Encrypt del subdomini. Requisit: `linuxbcn.com` ja ha de tenir un certificat Let's Encrypt activat, altrament el subdomini no el podrà obtenir.
+1. Pujar el contingut de `modules/formularis/` a `~/apps/formularis/` (codi fora del docroot).
+2. Docroot `~/www/formularis/` amb només el `.htaccess` de proxy (mateix patró que `modules/votacio/deploy/htaccess`) → un port local lliure.
 3. Crear `config.ini` al servidor a partir de `config.example.ini`, amb `[smtp] user`, `[smtp] password` i, **obligatori**, `[general] allowed_origins = https://9barrisimatge.org`. Sense aquesta línia el servei rebutja tots els enviaments amb 403.
-4. Registrar l'aplicació Python al panell (**Servidores → Otras aplicaciones**, només en Hosting Avanzado): versió de Python, arrel de l'aplicació (per exemple `www`) i ruta de l'executable WSGI (`www/formularis/passenger_wsgi.py`).
+4. Arrencar el procés amb `start.sh` i afegir el `watchdog.sh` al crontab (mateix patró que el mòdul de votació).
 5. Comprovar `https://formularis.linuxbcn.com/health` → ha de retornar `ok`.
 6. Provar un enviament real (vegeu `modules/formularis/README.txt`) i confirmar que arriba a `info@9barrisimatge.org`.
 7. **Només quan el servei funcioni**, canviar els dos formularis del web (`content/contacte.md` i `content/incorpora-te.md`) perquè enviïn al servei, i corregir els textos legals que esmenten FormSubmit.
 
-Si el pla de hosting no té la secció d'aplicacions Python, l'alternativa és un script PHP amb `fsockopen` (STARTTLS + AUTH LOGIN) servit des de la mateixa carpeta del subdomini.
+Nota: el Passenger descrit en versions antigues d'aquest document no existeix en aquest host (comprovat 2026-09-25); el mètode és procés d'usuari + proxy + cron.
 
 ## 5. Decisions preses (2026-09-25)
 
@@ -114,7 +120,7 @@ Si el pla de hosting no té la secció d'aplicacions Python, l'alternativa és u
 2. **Protecció dels enviaments**: en lloc del token CSRF signat (que un formulari estàtic de Hugo no pot calcular), es valida la capçalera `Origin` (i, si no hi és, el `Referer`) contra la llista `allowed_origins`, a més del honeypot i el límit de peticions per IP. **Decidit per l'usuari.**
 3. **Textos legals**: autoritzat corregir els tres blocs que esmenten FormSubmit (`content/contacte.md`, `content/incorpora-te.md`, `content/privacitat.md`). **Decidit per l'usuari; pendent d'executar un cop el servei funcioni.**
 4. **Contrasenya**: a `config.ini` al servidor (mai al repositori, `.gitignore` a `modules/formularis/`), amb la variable d'entorn `FORMULARIS_SMTP_PASSWORD` com a alternativa. Cap opció exposa el secret al repositori.
-5. **Pla Dinahosting**: cal confirmar si el compte `linuxbcn.com` té la secció **Servidores → Otras aplicaciones** (Python/Passenger). Si no, alternativa PHP.
+5. **Mètode de desplegament a Dinahosting**: Passenger no hi és; cal **procés d'usuari + proxy al docroot + vigilant al cron** (verificat el 2026-09-25/26 amb el mòdul de votació, que ja està funcionant a `vots-cordoncillo.linuxbcn.com`).
 
 Altres decisions tècniques aplicades al mòdul:
 
