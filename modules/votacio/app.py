@@ -81,6 +81,13 @@ def connect(cfg):
         with open(schema, encoding="utf-8") as f:
             conn.executescript(f.read())
         conn.commit()
+    # el config.ini és la font de veritat dels ajustos de l'edició: així un
+    # canvi de lat/lon/radi/finestra s'aplica en reiniciar, sense esborrar la BD
+    e = cfg["edicio"] if cfg.has_section("edicio") else {}
+    row = conn.execute("SELECT id FROM edicions WHERE secret_token=?",
+                       (e.get("secret_token", ""),)).fetchone()
+    if row is not None:
+        sync_edicio(conn, row["id"], e)
     return conn
 
 
@@ -123,6 +130,37 @@ def inietit(conn):
                     "INSERT INTO obres (edicio_id,numero,titol,autor,categoria) VALUES (?,?,?,?,?)",
                     (ed_id, numero, titol, autor, cat))
             conn.commit()
+
+
+def sync_edicio(conn, ed_id, e):
+    """Aplica al registre de l'edició els camps de configuració.
+
+    Sense això, canviar lat/lon/radi/finestra al config.ini no tindria cap
+    efecte en una base ja creada (l'edició es va INSERTAR només el primer cop)
+    i caldria esborrar data.db. Només es toquen els camps de configuració: ni
+    les obres ni els vots.
+    """
+    wanted = {
+        "nom": e.get("nom", ""),
+        "data_inici": e.get("data_inici", ""),
+        "data_fi": e.get("data_fi", ""),
+        "mode_geo": e.get("mode_geo", "off"),
+        "lat": try_float(e.get("lat")),
+        "lon": try_float(e.get("lon")),
+        "radi": try_int(e.get("radi")),
+        "collect_data": e.get("collect_data", "none"),
+        "vot_limit": try_int(e.get("vot_limit", "1")),
+        "activa": try_int(e.get("activa", "0")),
+    }
+    row = conn.execute("SELECT * FROM edicions WHERE id=?", (ed_id,)).fetchone()
+    canvis = {k: v for k, v in wanted.items() if row[k] != v}
+    if canvis:
+        sets = ",".join("%s=?" % k for k in canvis)
+        conn.execute("UPDATE edicions SET %s WHERE id=?" % sets,
+                     list(canvis.values()) + [ed_id])
+        conn.commit()
+        print("[votacio] edicio actualitzada des del config.ini: %s"
+              % ", ".join(canvis))
 
 
 def try_int(v):
@@ -224,6 +262,7 @@ input#obra:focus{outline:none;border-color:var(--accent)}
 .geo-status{margin:.2rem 0 0;font-size:.9rem;min-height:1.2em;color:var(--secondary)}
 .geo-status--wait{color:var(--secondary)}
 .geo-status--warn{color:#ffb3b3}
+.geo-status--ok{color:#9ce9b0}
 button{margin-top:.9rem;padding:.9rem 1.2rem;font-family:"Montserrat",sans-serif;font-size:1rem;
   font-weight:700;color:#fff;background:var(--accent);border:0;border-radius:var(--radius);cursor:pointer}
 button:hover{filter:brightness(1.08)}
@@ -376,10 +415,18 @@ def app_base(environ):
     return (environ.get("SCRIPT_NAME", "") or "").rstrip("/")
 
 
+def fmt_dist(m):
+    """Distància en text llegible: '340 m' o '1,2 km'."""
+    if m is None:
+        return "?"
+    if m < 1000:
+        return "%d m" % round(m)
+    return ("%.1f" % (m / 1000.0)).replace(".", ",") + " km"
+
+
 def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js,
                    note="", conditions="", base=""):
     i18n = get_i18n(lang)
-    max_num = max((w["numero"] for w in works), default=0)
     extra = ""
     if conditions:
         extra += "<div class=\"conditions\">%s</div>" % conditions
@@ -387,7 +434,8 @@ def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js,
         extra += "<p class=\"note\">%s</p>" % html.escape(note)
     form = (
         "<h1>%s</h1><p class=\"lead\">%s</p>%s"
-        "<form method=\"post\" action=\"%s/v/%s\" id=\"vf\">"
+        "<form method=\"post\" action=\"%s/v/%s\" id=\"vf\""
+        " data-lat=\"%s\" data-lon=\"%s\" data-radi=\"%s\">"
         "<input type=\"hidden\" name=\"csrft\" value=\"%s\">"
         "<label for=\"obra\">%s</label>"
         "<input id=\"obra\" name=\"obra\" type=\"text\" inputmode=\"numeric\""
@@ -396,7 +444,8 @@ def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js,
         "<p class=\"hint\">%s</p>"
         "<input type=\"hidden\" name=\"geo\" id=\"geo\" value=\"none\">"
         "<p class=\"geo-status\" id=\"geo-status\" data-denied=\"%s\""
-        " data-unavailable=\"%s\" data-timeout=\"%s\" data-insecure=\"%s\">%s</p>"
+        " data-unavailable=\"%s\" data-timeout=\"%s\" data-insecure=\"%s\""
+        " data-wait=\"%s\" data-ok=\"%s\" data-far=\"%s\" data-imprecis=\"%s\">%s</p>"
         "<button type=\"button\" class=\"geo-btn\" id=\"geo-btn\">%s</button>"
         "<button type=\"submit\">%s</button>"
         "</form>"
@@ -404,14 +453,22 @@ def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js,
         "<script>%s</script>")
     return form % (
         html.escape(ed["nom"]), i18n.get("vote_intro", ""), extra,
-        html.escape(base, quote=True), h_radix(vot_token), html.escape(csrf),
+        html.escape(base, quote=True), h_radix(vot_token),
+        html.escape(str(ed["lat"] or ""), quote=True),
+        html.escape(str(ed["lon"] or ""), quote=True),
+        html.escape(str(ed["radi"] or ""), quote=True),
+        html.escape(csrf),
         i18n.get("select_prompt", "Obra"),
         html.escape(i18n.get("vote_hint_num", ""), quote=True),
         html.escape(i18n.get("geo_msg_denied", ""), quote=True),
         html.escape(i18n.get("geo_msg_unavailable", ""), quote=True),
         html.escape(i18n.get("geo_msg_timeout", ""), quote=True),
         html.escape(i18n.get("geo_msg_insecure", ""), quote=True),
-        html.escape(i18n.get("geo_requesting", "")),
+        html.escape(i18n.get("geo_wait", ""), quote=True),
+        html.escape(i18n.get("geo_ok_fmt", ""), quote=True),
+        html.escape(i18n.get("geo_far_fmt", "").replace("%d", "%s"), quote=True),
+        html.escape(i18n.get("geo_imprecis_fmt", "").replace("%d", "%s"), quote=True),
+        html.escape(i18n.get("geo_wait", "")),
         html.escape(i18n.get("geo_btn", "")),
         i18n.get("btn_vote", "Vota"),
         html.escape(i18n.get("vote_privacy_note", "")),
@@ -420,23 +477,47 @@ def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js,
 
 GEO_JS = """
 (function(){
+  var form=document.getElementById('vf');
   var geo=document.getElementById('geo');
   var st=document.getElementById('geo-status');
   var btn=document.getElementById('geo-btn');
   if(!geo) return;
-  function warn(msg){ if(st){ st.textContent=msg||''; st.className='geo-status geo-status--warn'; } }
+  var CFG={lat:parseFloat(form.getAttribute('data-lat')),
+           lon:parseFloat(form.getAttribute('data-lon')),
+           radi:parseFloat(form.getAttribute('data-radi'))};
+  function dist(a,b){
+    var R=6371000, toR=Math.PI/180, dLa=(b.lat-a.lat)*toR, dLo=(b.lon-a.lon)*toR;
+    var h=Math.sin(dLa/2)*Math.sin(dLa/2)+Math.cos(a.lat*toR)*Math.cos(b.lat*toR)*
+          Math.sin(dLo/2)*Math.sin(dLo/2);
+    return 2*R*Math.asin(Math.sqrt(h));
+  }
+  function fmt(m){
+    if(m<1000) return Math.round(m)+' m';
+    return (m/1000).toFixed(1).replace('.',',')+' km';
+  }
+  function say(msg,kind){ if(st){ st.textContent=msg||''; st.className='geo-status'+(kind?' geo-status--'+kind:''); } }
+  function warn(msg){ say(msg,'warn'); }
   function ask(){
     if(window.isSecureContext===false || !navigator.geolocation){
       geo.value='insecure';
       warn(st && st.getAttribute('data-insecure'));
       return;
     }
-    if(st) st.className='geo-status geo-status--wait';
+    say(st && st.getAttribute('data-wait'),'wait');
     navigator.geolocation.getCurrentPosition(
       function(pos){
         if(!pos.coords) return;
-        geo.value='ok;'+(pos.coords.latitude)+';'+(pos.coords.longitude);
-        if(st){ st.textContent=''; st.className='geo-status'; }
+        var c=pos.coords, acc=Math.round(c.accuracy||0);
+        geo.value='ok;'+c.latitude+';'+c.longitude+(acc?';'+acc:'');
+        var d=dist(CFG, {lat:c.latitude, lon:c.longitude});
+        if(!(d<=CFG.radi)){
+          warn(st.getAttribute('data-far').replace('%s', fmt(d)).replace('%s', fmt(CFG.radi)));
+        }else if(acc>250){
+          say(st.getAttribute('data-ok').replace('%s', fmt(d))+' '+
+              st.getAttribute('data-imprecis').replace('%s', fmt(acc)),'warn');
+        }else{
+          say(st.getAttribute('data-ok').replace('%s', fmt(d)),'ok');
+        }
         if(btn) btn.style.display='none';
       },
       function(err){
@@ -447,7 +528,7 @@ GEO_JS = """
         else if(err.code===3) m=st.getAttribute('data-timeout');
         warn(m);
       },
-      { enableHighAccuracy:true, timeout:10000, maximumAge:60000 }
+      { enableHighAccuracy:true, timeout:10000, maximumAge:0 }
     );
   }
   if(btn){ btn.addEventListener('click', ask); }
@@ -565,29 +646,38 @@ def submit_vote(environ, start_response, token):
                            page_html(i18n.get("msg_invalid_obra", ""),
                                      "<p>%s</p>" % html.escape(i18n.get("msg_invalid_obra", "")), lang))
         geo_estat = "none"
+        geo_dist = None
         if ed["mode_geo"] != "off":
             if geo_s.startswith("ok;"):
+                parts = geo_s.split(";")
                 try:
-                    _, lat_s, lon_s = geo_s.split(";")
-                    lat, lon = float(lat_s), float(lon_s)
-                except ValueError:
+                    lat, lon = float(parts[1]), float(parts[2])
+                except (IndexError, ValueError):
                     lat = lon = None
                 if lat is not None and ed["lat"] and ed["lon"] and ed["radi"]:
-                    dist = haversine_m(lat, lon, ed["lat"], ed["lon"])
-                    geo_estat = "ok" if dist <= ed["radi"] else "out"
+                    geo_dist = haversine_m(lat, lon, ed["lat"], ed["lon"])
+                    geo_estat = "ok" if geo_dist <= ed["radi"] else "out"
                 else:
                     geo_estat = "out"
             else:
                 geo_estat = "none"
         if ed["mode_geo"] == "hard" and geo_estat != "ok":
+            if geo_dist is not None:
+                msg = i18n.get("geo_error_hard_fmt", "") % (ed["radi"], fmt_dist(geo_dist))
+            else:
+                msg = i18n.get("geo_error_hard", "")
             return respond(environ, start_response, "403 Forbidden",
-                           page_html(i18n.get("geo_error_hard", ""),
-                                     "<p>%s</p>" % html.escape(i18n.get("geo_error_hard", "")), lang))
+                           page_html(i18n.get("msg_geo_blocked", ""),
+                                     "<p>%s</p>" % html.escape(msg), lang))
         devhash = device_hash(secret_key(cfg), device)
         vot_limit = ed["vot_limit"] or 0
         # finestra de re-vot en minuts; 0 (per defecte) = un sol vot per obra
         # i dispositiu per tota l'edició. S'utilitza només per a les proves.
         revote_min = cfg.getint("edicio", "revote_minutes", fallback=0)
+        prev = conn.execute(
+            "SELECT COUNT(*) AS n FROM vots WHERE edicio_id=? AND obra_id=? AND dispositiu_hash=?",
+            (ed["id"], obra["id"], devhash)).fetchone()["n"]
+        repetit = prev > 0
         if vot_limit > 0:
             if revote_min > 0:
                 cutoff = int(time.time()) - revote_min * 60
@@ -600,30 +690,34 @@ def submit_vote(environ, start_response, token):
                     return respond(environ, start_response, "200 OK",
                                    page_html(i18n.get("msg_vote_repeat", ""),
                                              "<p>%s</p>" % html.escape(wait), lang))
-                # la votació anterior es substitueix (la taula té UNIQUE per
-                # edició + obra + dispositiu)
-                conn.execute(
-                    "DELETE FROM vots WHERE edicio_id=? AND obra_id=? AND dispositiu_hash=?",
-                    (ed["id"], obra["id"], devhash))
-            else:
-                cur = conn.execute(
-                    "SELECT COUNT(*) AS n FROM vots WHERE edicio_id=? AND obra_id=? AND dispositiu_hash=?",
-                    (ed["id"], obra["id"], devhash))
-                if cur.fetchone()["n"] > 0:
-                    return respond(environ, start_response, "200 OK",
-                                   page_html(i18n.get("msg_vote_repeat", ""),
-                                             "<p>%s</p>" % html.escape(i18n.get("msg_vote_repeat", "")), lang))
+            elif repetit:
+                return respond(environ, start_response, "200 OK",
+                               page_html(i18n.get("msg_vote_repeat", ""),
+                                         "<p>%s</p>" % html.escape(i18n.get("msg_vote_repeat", "")), lang))
         ts = int(time.time())
         sig = hmac_sig(secret_key(cfg), (ed["id"], obra["id"], devhash, ts))
+        # INSERT OR REPLACE: amb vot_limit = 0 (mode obert de proves) es pot
+        # tornar a votar la mateixa obra i el registre anterior se substitueix,
+        # en lloc de xocar amb la restricció UNIQUE de la taula.
         conn.execute(
-            "INSERT INTO vots (edicio_id,obra_id,dispositiu_hash,geo_estat,signatura,ts,paper)"
+            "INSERT OR REPLACE INTO vots (edicio_id,obra_id,dispositiu_hash,geo_estat,signatura,ts,paper)"
             " VALUES (?,?,?,?,?,?,0)",
             (ed["id"], obra["id"], devhash, geo_estat, sig, ts))
         conn.commit()
+        # recompte de vots d'aquest dispositiu en aquesta edició
+        n = conn.execute(
+            "SELECT COUNT(*) AS n FROM vots WHERE edicio_id=? AND dispositiu_hash=?",
+            (ed["id"], devhash)).fetchone()["n"]
+        if vot_limit == 0 and repetit:
+            missatge = i18n.get("msg_vote_again", "")
+        else:
+            missatge = i18n.get("msg_vote_ok", "")
+        cos = "<p>%s</p><p class=\"note\">%s</p>" % (
+            html.escape(missatge),
+            html.escape(i18n.get("msg_vote_count_one" if n == 1 else "msg_vote_count", "") % n))
         cookies = [set_device_cookie(cfg, device, (app_base(environ) or "") + "/")]
         return respond(environ, start_response, "200 OK",
-                       page_html(i18n.get("msg_vote_ok", ""),
-                                 "<p>%s</p>" % html.escape(i18n.get("msg_vote_ok", "")), lang),
+                       page_html(missatge, cos, lang),
                        extra_headers=cookies)
     finally:
         conn.close()
