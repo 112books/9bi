@@ -244,7 +244,7 @@ sync-9bi.sh                        # script de sync/gestió
 ## Sessió 2026-09-25 (v6) — Votació desplegada al subdomini `vots-cordoncillo.linuxbcn.com`
 
 - **Accés SSH correcte**: el compte Dinahosting de `linuxbcn.com` és **`linuxbcn0`** (key `id_ed25519`, ja autoritzada al servidor). **`konsento`/`naubostik` és un compte diferent i PF a altres llocs — no tocar-lo mai.** Decisió de l'usuari (2026-09-25/26), a recordar sempre.
-- **Host**: `vl28359.dinaserver.com` (82.98.166.123). Dinahosting **no té Passenger** ni CGI functional a aquest host: el patró que funciona és **procés d'usuari + proxy al docroot + crontab watchdog**, el mateix que fa l'app `konsento` del compte veí (només-inspeccionada, no modificada). Dinahosting termina el TLS davant d'Apache: el vhost es veu com HTTP (`X-Forwarded-Proto: https` cal posar-lo des de l'`.htaccess`, i els redirects relatius hi sortirien `http://`); per això el redirect de l'arrel és HTTPS explícit.
+- **Host**: `vl28359.dinaserver.com` (82.98.166.123). Dinahosting **no té Passenger** ni CGI functional a aquest host: el patró que funciona és **procés d'usuari + proxy al docroot + crontab watchdog**, el mateix que fa l'app `konsento` del compte veí (només-inspeccionada, no modificada). Dinahosting acaba el TLS davant d'Apache i **envia `X-Forwarded-Proto`** (sonda verificada el 2026-09-26: `https` per https, `http` per http, i `HTTPS=on` només a https). Per això els redirects han de ser explícits i en absolut. **No usar `%{HTTPS}`** per redirigir: provoca un bucle de 301.
 - **Certificat del subdomini**: emès el 2026-09-25 22:45 (SAN amb `vots-cordoncillo` i `formularis`, vàlid fins al 2026-12-24). Abans dels vots caldrà renovació automàtica; avui està dins del període de l'exposició.
 - **Desplegament real (documentat a `modules/votacio/README.md`)**: codi a `~/apps/vots-cordoncillo/` (fora del docroot), procés a 127.0.0.1:8301 amb `deploy/start.sh` (`umask 077`), watchdog cada 5 min + `@reboot` al crontab de `linuxbcn0`, docroot `~/www/vots-cordoncillo/` amb només `deploy/htaccess` (redirect arrel → formulari, `.well-known` passa, proxy `[P,QSA,L]`). Còpia primera del docroot anterior a `apps/vots-cordoncillo/COPIA-docroot-20260925.tgz`.
 - **Estat del servei**: `/health` → `ok`; `/v/cordoncillo-2026` → formulari; `/admin/login` → 302 amb `admin_secret`; export CSV signat; geofence `hard` a 500 m del Casal verificat (dins admet, fora rebutja 403); sense geo = 403. BD creada amb **0 vots** a l'hora de la posada.
@@ -252,6 +252,21 @@ sync-9bi.sh                        # script de sync/gestió
 - **Formularis**: `formularis.linuxbcn.com` té el certificat correcte però el servei **encara no està desplegat** (docroot buit; 404). Quan s'hi posi, mateix mètode (procés + proxy + cron), i re-escriure el README.de formularis.
 - **Carpeta remota lliure**: `~/www/app/taro/votacio/` (buida) per a la fase 2 del projecte Taro (tot sota `taro.linuxbcn.com`).
 - **Pendent sens dubte**: prova del vot real des del telèfon al Casal (l'usuari la farà); abans del tancament, verificar recompte i export finals per la finestra real.
+
+## Sessió 2026-09-26 — Mode de proves de la votació (re-vot, botó d'ubicació, privacitat)
+
+- **Diagnòstic del «no em demana la ubicació»**: la pàgina també es servia per `http://` sense redirigir. En un origen no segur el navegador **no ofereix geolocalització** (`navigator.geolocation` no hi és) i, amb `mode_geo=hard`, el vot es rebutjava sense demanar permís. Ara l'`.htaccess` redirigeix **totes** les rutes `http`→`https` amb 301, conservant ruta i query, i l'`.well-known` i `/fonts/` queden fora del proxy.
+- **Mode de proves (decidit per l'usuari)**: `revote_minutes = 10` a la `[edicio]` del `config.ini` del servidor. Es pot tornar a votar la mateixa obra passats 10 min; la votació anterior **se substitueix** perquè la taula té `UNIQUE (edicio_id, obra_id, dispositiu_hash)`. `0` (per defecte i valor de l'exposició) = un sol vot per obra i dispositiu per tota l'edició.
+- **Botó «Activar la ubicació»**: la petició automàtica no sempre mostra el permís (iOS exigeix un toc de l'usuari). El botó torna a demanar-la, serveix per reintentar si el permís estava bloquejat i **s'amaga quan la ubicació s'aconsegueix**.
+- **Privacitat**: nota al formulari (vots anònims, no es demana nom ni correu, **no es desen les coordenades**; només un codi aleatori del dispositiu — cookie `vid` HttpOnly, no és una empremta digital — i si la ubicació era dins del radi) i enllaç «Protecció de dades» a `https://9barrisimatge.org/privacitat/` al peu de totes les pàgines.
+- **Estat verificat**: vot registre, repetit rebutjat, 0 errors de consola, 0 peticions fallides; base del servidor amb **0 vots** (esboren els de prova); commits `60dda04f47` (disseny + redirecció) i `7db44dbc15` (re-vot + botó + privacitat).
+- **Abans del dia de votació (llista de tasques)**:
+  1. `revote_minutes = 0` a `~/apps/vots-cordoncillo/config.ini` i reiniciar (`deploy/stop.sh` + `deploy/start.sh`).
+  2. Dates reals: `data_inici = 2026-12-01T00:00:00`, `data_fi = 2026-12-15T23:59:59`.
+  3. Substituir les 3 `[obres]` de prova per la llista definitiva (número, títol, categoria).
+  4. Aturar el servei i **esborrar `data.db`** perquè el recompte comenci a zero.
+  5. Integrar el QR real a `content/votacio.md` (el lloc reservat és el `<div class="cartell-qr">`, amb la nota de developer ja convertida en comentari HTML).
+  6. Comprovar la renovació del certificat (vàlid fins al 2026-12-24, dins del període de l'exposició).
 
 ## Problemes coneguts / pendents (verificats)
 

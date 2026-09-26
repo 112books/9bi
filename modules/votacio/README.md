@@ -23,6 +23,16 @@ per a edicions que ho requereixin.
   `python3 tools/tally.py --paper vots_paper.csv`.
 - Dades personals: `collect_data = none` (no es demana res; les
   coordenades **mai** es desen, només una etiqueta `ok|out|none`).
+- Un sol vot per obra i dispositiu (`vot_limit = 1`) per tota l'edició.
+  `revote_minutes` (per defecte `0`) obre una finestra de re-vot en minuts:
+  passats N minuts es pot tornar a votar la mateixa obra i la votació anterior
+  **se substitueix** (la taula té `UNIQUE (edicio_id, obra_id, dispositiu_hash)`).
+  Només per a proves: a l'exposició ha de ser `0`.
+- La ubicació es demanda automàticament en carregar el formulari, però alguns
+  navegadors (iOS) només mostren el permís després d'un toc de l'usuari: per
+  això hi ha el botó **«Activar la ubicació»**, que torna a demanar-la i
+  s'amaga quan s'aconsegueix. Si el permís està bloquejat, la pàgina ho diu i
+  el botó permet reintentar després de canviar els permisos del lloc.
 - Idiomes: ca (per defecte), es, en — seleccionats per l'Accept-Language.
 
 ## Estructura
