@@ -6,12 +6,10 @@ url: "/contacte/"
 
 Si vols contactar amb **9 Barris Imatge** —per participar, col·laborar o qualsevol altra consulta—, omple el formulari i et respondrem tan aviat com puguem.
 
-El formulari envia el missatge al correu del col·lectiu. Abans que funcioni per primera vegada, algú de l'equip ha de **confirmar l'activació** de l'adreça (us arribarà un primer correu de verificació automàticament).
+El formulari envia el missatge directament al correu del col·lectiu, sense intermediaris ni serveis externs. En sortir de la pàgina veuràs un missatge de confirmació.
 {.guide-note}
 
-<form class="contact-form" action="https://formsubmit.co/info@9barrisimatge.org" method="POST">
-  <input type="hidden" name="_subject" value="Missatge des del web 9 Barris Imatge">
-  <input type="hidden" name="_template" value="table">
+<form class="contact-form" action="https://formularis.linuxbcn.com/envia/contacte" method="POST">
   <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" class="contact-honeypot">
   <label for="nom">Nom</label>
   <input id="nom" type="text" name="nom" required autocomplete="name">
@@ -31,7 +29,7 @@ El formulari envia el missatge al correu del col·lectiu. Abans que funcioni per
 </form>
 
 <div class="contact-after">
-  <p>Responsable del tractament: <strong>9 Barris Imatge</strong>. Finalitat: atendre i respondre la teva consulta. Legitimació: el teu consentiment. Destinataris: FormSubmit (servei d'enviament del formulari) i el proveïdor de correu del col·lectiu; no es fan altres cessions. Drets: pots exercir els drets d'accés, rectificació, supressió, oposició, limitació i portabilitat escrivint a info@9barrisimatge.org, i reclamar davant l'AEPD. Més informació a la <a href="{{< relref \"privacitat.md\" >}}">política de privacitat</a>.</p>
+  <p>Responsable del tractament: <strong>9 Barris Imatge</strong>. Finalitat: atendre i respondre la teva consulta. Legitimació: el teu consentiment. Destinataris: el servidor del col·lectiu (LinuxBCN), on es processa el formulari, i el proveïdor de correu electrònic del col·lectiu, on s'emmagatzemen els missatges rebuts; no es fan altres cessions. Drets: pots exercir els drets d'accés, rectificació, supressió, oposició, limitació i portabilitat escrivint a info@9barrisimatge.org, i reclamar davant l'AEPD. Més informació a la <a href="{{< relref \"privacitat.md\" >}}">política de privacitat</a>.</p>
   <p class="contact-alt">També pots escriure'ns directament a <a href="mailto:info@9barrisimatge.org">info@9barrisimatge.org</a>.</p>
 </div>
 

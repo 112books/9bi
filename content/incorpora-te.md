@@ -28,9 +28,7 @@ Benvinguda i benvingut a **9 Barris Imatge**. Perquè puguis publicar les teves 
 
 Omple el formulari de sota amb el teu nom d'usuari de GitHub i les teves dades. Ens servirà per convidar-te al repositori, activar-te l'accés i tenir el teu perfil al web ben actualitzat.
 
-<form class="contact-form" action="https://formsubmit.co/info@9barrisimatge.org" method="POST">
-  <input type="hidden" name="_subject" value="Alta de membre — 9 Barris Imatge">
-  <input type="hidden" name="_template" value="table">
+<form class="contact-form" action="https://formularis.linuxbcn.com/envia/incorpora-te" method="POST">
   <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" class="contact-honeypot">
 
   <label for="nom-complet">Nom complet <span aria-hidden="true">*</span></label>
@@ -63,7 +61,7 @@ Omple el formulari de sota amb el teu nom d'usuari de GitHub i les teves dades. 
 </form>
 
 <div class="contact-after">
-  <p>Responsable: <strong>9 Barris Imatge</strong>. Finalitat: gestionar el teu perfil de membre i l'accés al gestor de continguts. Legitimació: el teu consentiment. Destinataris: FormSubmit (enviament del formulari) i el proveïdor de correu del col·lectiu; no es fan altres cessions. Drets: pots exercir els drets d'accés, rectificació, supressió, oposició, limitació i portabilitat escrivint a <a href="mailto:info@9barrisimatge.org">info@9barrisimatge.org</a>.</p>
+  <p>Responsable: <strong>9 Barris Imatge</strong>. Finalitat: gestionar el teu perfil de membre i l'accés al gestor de continguts. Legitimació: el teu consentiment. Destinataris: el servidor del col·lectiu (LinuxBCN), on es processa el formulari, i el proveïdor de correu electrònic del col·lectiu, on s'emmagatzemen les dades; no es fan altres cessions. Drets: pots exercir els drets d'accés, rectificació, supressió, oposició, limitació i portabilitat escrivint a <a href="mailto:info@9barrisimatge.org">info@9barrisimatge.org</a>.</p>
   <p class="contact-alt">Si prefereixes, pots enviar-nos les dades directament per correu a <a href="mailto:info@9barrisimatge.org">info@9barrisimatge.org</a>.</p>
 </div>
 

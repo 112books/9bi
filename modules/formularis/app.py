@@ -57,7 +57,7 @@ SUPPORTED_LANGS = ("ca", "es", "en")
 KNOWN_FORMS = {
     "contacte": ("nom", "email", "assumpte", "entitat", "missatge",
                  "consentiment"),
-    "incorpora-te": ("nom_complet", "nom_artistic", "usuari_codeberg",
+    "incorpora-te": ("nom_complet", "nom_artistic", "usuari_github",
                      "email", "web", "instagram", "galeries",
                      "consentiment"),
 }
@@ -69,7 +69,10 @@ MAX_COS = 64 * 1024    # mida màxima del cos de la petició
 # ---------------------------------------------------------------- helpers
 
 def load_config():
-    cfg = configparser.ConfigParser()
+    # interpolation=None: sense això configparser tracta '%' com a sintaxi i
+    # peta amb contrasenyes que en portin (aquestes acaben en %). Els secrets
+    # tenen valors per defecte explícits, no per interpolació.
+    cfg = configparser.ConfigParser(interpolation=None)
     cfg.read(CONFIG_PATH, encoding="utf-8")
     return cfg
 
@@ -212,12 +215,25 @@ def valid_email(v):
 
 # ----------------------------------------------------------------- smtp
 
+def smtp_password(cfg):
+    """Contrasenya SMTP, del config o de l'entorn. Preferim l'entorn.
+
+    Nota: es llegeix amb el valor 'crud' de configparser i cap tipus d'escape,
+    perquè una contrasenya pot contenir '%' (que és el caràcter de substitufacció
+    de ConfigParser i, amb interpolació activada, provoca InterpolationSyntaxError
+    i un 500 al navegador). Amb interpolation=None a load_config() això no
+    passa, però el valor es returned tal qual, sense processar-lo.
+    """
+    v = cfg.get("smtp", "password", fallback="", raw=True)
+    if not v:
+        v = os.environ.get("FORMULARIS_SMTP_PASSWORD", "")
+    return v
+
+
 def smtp_ready(cfg):
     host = cfg.get("smtp", "host", fallback="").strip()
     user = cfg.get("smtp", "user", fallback="").strip()
-    passw = cfg.get("smtp", "password", fallback="")
-    if not passw:
-        passw = os.environ.get("FORMULARIS_SMTP_PASSWORD", "")
+    passw = smtp_password(cfg)
     return bool(host) and "@" in user and bool(passw)
 
 
@@ -227,9 +243,7 @@ def send_mail(cfg, to_addr, subject, cos, reply_to=None):
     port = cfg.getint("smtp", "port", fallback=465)
     use_ssl = cfg.getboolean("smtp", "ssl", fallback=True)
     user = cfg.get("smtp", "user", fallback="")
-    passw = cfg.get("smtp", "password", fallback="")
-    if not passw:
-        passw = os.environ.get("FORMULARIS_SMTP_PASSWORD", "")
+    passw = smtp_password(cfg)
     from_addr = cfg.get("smtp", "from", fallback=user)
     from_name = cfg.get("smtp", "from_name", fallback="9 Barris Imatge — web")
 
@@ -264,21 +278,99 @@ def send_mail(cfg, to_addr, subject, cos, reply_to=None):
         return False, "%s: %s" % (type(e).__name__, e)
 
 
+# ------------------------------------------------------- bloc legal (RGPD)
+
+# Text extret de la politica de privacitat publicada (content/privacitat.md),
+# de manera que el correu i el web diuen el mateix. Always in Catalan because
+# the recipient of these emails is always the collective itself, not the visitor.
+# Cubreix elsarticles 13 i 14 del RGPD: responsable, dades, finalitat, base
+# legal, destinataris, conservacio, drets, reclamacio, caracter opcional dels
+# camps i absencia de decisions automatitzades.
+LEGAL_RESPONSABLE = (
+    "Responsable del tractament: Col·lectiu 9 Barris Imatge\n"
+    "Adreça: Casal de Barri de Prosperitat, Plaça d'Ángel Pestaña, s/n, 08016 Barcelona\n"
+    "Correu de contacte: info@9barrisimatge.org"
+)
+
+LEGAL_DADES = "Dades tractades: les que has enviat en aquest formulari."
+
+LEGAL_FINALITAT = {
+    "contacte": ("Finalitat: atendre i respondre la teva consulta, i les gestions "
+                 "internes que se'n derivin."),
+    "incorpora-te": ("Finalitat: gestionar el teu perfil de membre i l'accés "
+                     "al gestor de continguts del web."),
+}
+
+LEGAL_BASE = (
+    "Base legal: el teu consentiment (article 6.1.a del RGPD), atorgat en marcar "
+    "la casella de consentiment abans d'enviar el formulari. El pots retirar en "
+    "qualsevol moment escrivint-nos, sense que aix\u00f2 afecti la licitud del "
+    "tractament previ."
+)
+
+LEGAL_DESTINATARIS = (
+    "Destinataris: el servei de formularis del col·lectiu (LinuxBCN) i el "
+    "proveïdor de correu electrònic del col·lectiu (Dinahosting), on "
+    "s'emmagatzemen els missatges. No es cedeixen dades a tercers aliens."
+)
+
+LEGAL_CONSERVACIO = (
+    "Conservacio: es conserven mentre es tramita la consulta i, després, durant "
+    "el temps necessari per complir les obligacions legals aplicables. Quan no "
+    "calguin, se suprimeixen de manera segura."
+)
+
+LEGAL_DRETS = (
+    "Drets: pots exercir els drets d'accés, rectificació, supressió, oposició, "
+    "limitació i portabilitat escrivint a info@9barrisimatge.org, indicant el "
+    "dret que vols exercir i adjuntant un document que acrediti la teva "
+    "identitat. També pots presentar una reclamació davant l'Agència Espanyola "
+    "de Protecció de Dades (aepd.es)."
+)
+
+LEGAL_OPCIONAL = (
+    "Camps opcionals: els camps marcats com a opcionals no són necessaris: si no els "
+    "emplenes, no els "
+    "tractarem."
+)
+
+LEGAL_AUTOMATITZAT = (
+    "Decisions automatitzades: no hi ha cap decisió automatitzada ni perfilació que pugui produir efectes "
+    "jurídics sobre les teves dades."
+)
+
+
+def legal_block(form, site_url):
+    """Bloc d'informacio GDPR que s'adjunta a cada correu del formulari."""
+    parts = [
+        "Informació sobre el tractament de dades (RGPD i LOPDGDD)",
+        LEGAL_RESPONSABLE,
+        LEGAL_DADES,
+        LEGAL_FINALITAT.get(form, ""),
+        LEGAL_BASE,
+        LEGAL_DESTINATARIS,
+        LEGAL_CONSERVACIO,
+        LEGAL_DRETS,
+        LEGAL_OPCIONAL,
+        LEGAL_AUTOMATITZAT,
+        "Més informació a la política de privacitat: %s/privacitat/" % site_url,
+    ]
+    return "\n".join(x for x in parts if x)
+
+
 # ------------------------------------------------------------ app (routes)
 
-def page_form_ok(lang, i18n, camps):
-    taula = "".join(
-        "<tr><th>%s</th><td>%s</td></tr>"
-        % (htmlmod.escape(k), htmlmod.escape(str(v)))
-        for k, v in camps.items())
-    cos = ("<h1>%s</h1><p>%s</p>"
-           "<table>%s</table>"
-           "<p><a href=\"/\">%s</a></p>"
-           % (htmlmod.escape(i18n.get("title_ok", "Rebut")),
-              htmlmod.escape(i18n.get("msg_ok", "")),
-              taula,
-              htmlmod.escape(i18n.get("link_back", "Torna a l'inici"))))
-    return page_html(lang, i18n.get("title_ok", ""), cos)
+def page_ok(lang, i18n, form=""):
+    """Pàgina de confirmació d'un enviament correcte.
+
+    Torna a la portada del web del col·lectiu: l'arrel del servei
+    (formularis.linuxbcn.com/) és una pàgina sense utilitat per a qui escriu.
+    """
+    return page_html(
+        lang, i18n.get("title_ok", ""),
+        "<p>%s</p><p><a href=\"https://9barrisimatge.org/\">%s</a></p>"
+        % (htmlmod.escape(i18n.get("msg_ok", "")),
+           htmlmod.escape(i18n.get("link_back", "Torna a l'inici"))))
 
 
 def form_post(environ, start_response, form):
@@ -313,11 +405,7 @@ def form_post(environ, start_response, form):
 
     # Honeypot: si el camp ocult ve ple, descartem en silenci
     if fields.get("_honey"):
-        return respond(environ, start_response,
-                       "200 OK",
-                       page_html(lang, i18n.get("title_ok", ""),
-                                 "<p>%s</p>" % htmlmod.escape(
-                                     i18n.get("msg_ok", ""))))
+        return respond(environ, start_response, "200 OK", page_ok(lang, i18n))
 
     # Origen: només s'accepten POST des dels orígens configurats
     if not origin_ok(environ, cfg):
@@ -358,10 +446,11 @@ def form_post(environ, start_response, form):
     site_url = cfg.get("general", "site_url",
                        fallback="https://9barrisimatge.org/").rstrip("/")
     taula = "\n".join("%s: %s" % (k, v) for k, v in camps.items())
-    cos = "%s\n\n--\n%s\n%s" % (
+    cos = "%s\n\n--\n%s\n%s\n\n--\n%s" % (
         taula,
         i18n.get("mail_footer", "Enviat des del formulari del web 9 Barris Imatge"),
-        site_url)
+        site_url,
+        legal_block(form, site_url))
 
     if not smtp_ready(cfg):
         print("formularis: config.ini sense credencials SMTP", file=sys.stderr)
@@ -373,10 +462,7 @@ def form_post(environ, start_response, form):
     ok, detall = send_mail(cfg, dest, subject, cos,
                            camps.get("email") if valid_email(camps.get("email", "")) else None)
     if ok:
-        return respond(environ, start_response, "200 OK",
-                       page_html(lang, i18n.get("title_ok", ""),
-                                 "<p>%s</p>" % htmlmod.escape(
-                                     i18n.get("msg_ok", ""))))
+        return respond(environ, start_response, "200 OK", page_ok(lang, i18n))
     print("formularis: error en enviar (%s): %s" % (form, detall), file=sys.stderr)
     return respond(environ, start_response, "500 Internal Server Error",
                    page_html(lang, i18n.get("title_error", ""),

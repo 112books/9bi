@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # El repòtex del certificat (Let's Encrypt) ha de poder passar per http
+  RewriteRule ^\.well-known/ - [L]
+  # Sense https no hi ha enviament segur; a més el frontal (Dinahosting) acaba el TLS
+  # i Apache el veu com http, de manera que mana el capçalera X-Forwarded-Proto
+  # (verificat 2026-09-26 amb una sonda al servidor de la votació).
+  RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+  RewriteRule ^(.*)$ https://formularis.linuxbcn.com/$1 [R=301,L,QSA]
+  RewriteRule ^(.*)$ http://127.0.0.1:8302/$1 [P,QSA,L]
+</IfModule>
