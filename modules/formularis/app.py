@@ -237,8 +237,13 @@ def smtp_ready(cfg):
     return bool(host) and "@" in user and bool(passw)
 
 
-def send_mail(cfg, to_addr, subject, cos, reply_to=None):
-    """Envia el correu per SMTP (SMTPS 465 o STARTTLS 587). Torna (ok, detall)."""
+def send_mail(cfg, to_addr, subject, cos, reply_to=None, html=None):
+    """Envia el correu per SMTP (SMTPS 465 o STARTTLS 587). Torna (ok, detall).
+
+    Si hi ha 'html', el correu s'envia multipart/alternative: el text pla és
+    el que mostren els clients que no tenen HTML activat, i l'HTML el que
+    permet fer el peu legal en lletra petita amb les etiquetes en negreta.
+    """
     host = cfg.get("smtp", "host", fallback="")
     port = cfg.getint("smtp", "port", fallback=465)
     use_ssl = cfg.getboolean("smtp", "ssl", fallback=True)
@@ -258,6 +263,8 @@ def send_mail(cfg, to_addr, subject, cos, reply_to=None):
     if reply_to and valid_email(reply_to):
         msg["Reply-To"] = reply_to
     msg.set_content(cos, subtype="plain")
+    if html:
+        msg.add_alternative(html, subtype="html")
 
     try:
         if use_ssl:
@@ -280,82 +287,111 @@ def send_mail(cfg, to_addr, subject, cos, reply_to=None):
 
 # ------------------------------------------------------- bloc legal (RGPD)
 
-# Text extret de la politica de privacitat publicada (content/privacitat.md),
-# de manera que el correu i el web diuen el mateix. Always in Catalan because
-# the recipient of these emails is always the collective itself, not the visitor.
-# Cubreix elsarticles 13 i 14 del RGPD: responsable, dades, finalitat, base
-# legal, destinataris, conservacio, drets, reclamacio, caracter opcional dels
-# camps i absencia de decisions automatitzades.
-LEGAL_RESPONSABLE = (
-    "Responsable del tractament: Col·lectiu 9 Barris Imatge\n"
-    "Adreça: Casal de Barri de Prosperitat, Plaça d'Ángel Pestaña, s/n, 08016 Barcelona\n"
-    "Correu de contacte: info@9barrisimatge.org"
-)
-
-LEGAL_DADES = "Dades tractades: les que has enviat en aquest formulari."
+# Articles 13 i 14 del RGPD. El text va lligat amb la politica de privacitat
+# publicada (content/privacitat.md). Always in Catalan because the recipient of
+# these emails is always the collective itself, not the visitor.
+#
+# Cada apartat es una parella (etiqueta, text). Aquesta es l'unica font: el
+# correu en text pla i el correu en HTML es construeixen tots dos a partir
+# d'aqui, de manera que no es poden desincronitzar.
+LEGAL_HEADING = "Informació sobre el tractament de dades (RGPD i LOPDGDD)"
 
 LEGAL_FINALITAT = {
-    "contacte": ("Finalitat: atendre i respondre la teva consulta, i les gestions "
+    "contacte": ("atendre i respondre la teva consulta, i les gestions "
                  "internes que se'n derivin."),
-    "incorpora-te": ("Finalitat: gestionar el teu perfil de membre i l'accés "
+    "incorpora-te": ("gestionar el teu perfil de membre i l'accés "
                      "al gestor de continguts del web."),
 }
 
-LEGAL_BASE = (
-    "Base legal: el teu consentiment (article 6.1.a del RGPD), atorgat en marcar "
-    "la casella de consentiment abans d'enviar el formulari. El pots retirar en "
-    "qualsevol moment escrivint-nos, sense que aix\u00f2 afecti la licitud del "
-    "tractament previ."
-)
 
-LEGAL_DESTINATARIS = (
-    "Destinataris: el servei de formularis del col·lectiu (LinuxBCN) i el "
-    "proveïdor de correu electrònic del col·lectiu (Dinahosting), on "
-    "s'emmagatzemen els missatges. No es cedeixen dades a tercers aliens."
-)
-
-LEGAL_CONSERVACIO = (
-    "Conservacio: es conserven mentre es tramita la consulta i, després, durant "
-    "el temps necessari per complir les obligacions legals aplicables. Quan no "
-    "calguin, se suprimeixen de manera segura."
-)
-
-LEGAL_DRETS = (
-    "Drets: pots exercir els drets d'accés, rectificació, supressió, oposició, "
-    "limitació i portabilitat escrivint a info@9barrisimatge.org, indicant el "
-    "dret que vols exercir i adjuntant un document que acrediti la teva "
-    "identitat. També pots presentar una reclamació davant l'Agència Espanyola "
-    "de Protecció de Dades (aepd.es)."
-)
-
-LEGAL_OPCIONAL = (
-    "Camps opcionals: els camps marcats com a opcionals no són necessaris: si no els "
-    "emplenes, no els "
-    "tractarem."
-)
-
-LEGAL_AUTOMATITZAT = (
-    "Decisions automatitzades: no hi ha cap decisió automatitzada ni perfilació que pugui produir efectes "
-    "jurídics sobre les teves dades."
-)
+def legal_sections(form):
+    """Apartats del peu legal com a llista de (etiqueta, text)."""
+    return [
+        ("Responsable del tractament", "Col·lectiu 9 Barris Imatge"),
+        ("Adreça", "Casal de Barri de Prosperitat, Plaça d'Ángel Pestaña, s/n, "
+                    "08016 Barcelona"),
+        ("Correu de contacte", "info@9barrisimatge.org"),
+        ("Dades tractades", "les que has enviat en aquest formulari."),
+        ("Finalitat", LEGAL_FINALITAT.get(form, "")),
+        ("Base legal", "el teu consentiment (article 6.1.a del RGPD), atorgat en "
+                       "marcar la casella de consentiment abans d'enviar el "
+                       "formulari. El pots retirar en qualsevol moment "
+                       "escrivint-nos, sense que això afecti la licitud del "
+                       "tractament previ."),
+        ("Destinataris", "el servei de formularis del col·lectiu "
+                         "(9barrisimatge.org) i el proveïdor de correu "
+                         "electrònic del col·lectiu (LinuxBCN.com), on "
+                         "s'emmagatzemen els missatges. No es cedeixen dades a "
+                         "tercers aliens."),
+        ("Conservacio", "es conserven mentre es tramita la consulta i, després, "
+                        "durant el temps necessari per complir les obligacions "
+                        "legals aplicables. Quan no calguin, se suprimeixen de "
+                        "manera segura."),
+        ("Drets", "pots exercir els drets d'accés, rectificació, supressió, "
+                  "oposició, limitació i portabilitat escrivint a "
+                  "info@9barrisimatge.org, indicant el dret que vols exercir i "
+                  "adjuntant un document que acrediti la teva identitat. També "
+                  "pots presentar una reclamació davant l'Agència Espanyola de "
+                  "Protecció de Dades (aepd.es)."),
+        ("Camps opcionals", "els camps marcats com a opcionals no són "
+                            "necessaris: si no els emplenes, no els "
+                            "tractarem."),
+        ("Decisions automatitzades", "no hi ha cap decisió automatitzada ni "
+                                     "perfilació que pugui produir efectes "
+                                     "jurídics sobre les teves dades."),
+    ]
 
 
 def legal_block(form, site_url):
-    """Bloc d'informacio GDPR que s'adjunta a cada correu del formulari."""
-    parts = [
-        "Informació sobre el tractament de dades (RGPD i LOPDGDD)",
-        LEGAL_RESPONSABLE,
-        LEGAL_DADES,
-        LEGAL_FINALITAT.get(form, ""),
-        LEGAL_BASE,
-        LEGAL_DESTINATARIS,
-        LEGAL_CONSERVACIO,
-        LEGAL_DRETS,
-        LEGAL_OPCIONAL,
-        LEGAL_AUTOMATITZAT,
-        "Més informació a la política de privacitat: %s/privacitat/" % site_url,
-    ]
-    return "\n".join(x for x in parts if x)
+    """Bloc d'informació GDPR en text pla, per al correu que no llegeix HTML."""
+    parts = [LEGAL_HEADING]
+    parts += ["%s: %s" % (et, txt) for et, txt in legal_sections(form) if txt]
+    parts.append("Més informació a la política de privacitat: %s/privacitat/"
+                 % site_url)
+    return "\n".join(parts)
+
+
+
+# ------------------------------------------------------ correu en HTML
+
+# El peu legal ha de quedar ben separat del missatge i el més petit possible:
+# és una obligació legal, no part del contingut que ha llegit qui escriu.
+# Els estils van a l'etiqueta style (i no a un <style> del capçal) perquè
+# molts clients de correu netegen el capçal i deixarien el correu sense format.
+MAIL_HTML = """<!DOCTYPE html>
+<html lang="ca"><head><meta charset="utf-8"></head>
+<body style="margin:0;padding:0;background:#ffffff;">
+<div style="font-family:Helvetica,Arial,sans-serif;font-size:14px;color:#222;
+            line-height:1.5;">
+__CAMPOS__
+</div>
+<hr style="border:none;border-top:1px solid #d5d5d5;margin:30px 0 14px 0;">
+<div style="font-family:Helvetica,Arial,sans-serif;font-size:11px;color:#666;
+            line-height:1.5;">
+<p style="margin:0 0 10px 0;"><b style="color:#333;">__HEADING__</b></p>
+__LEGAL__
+<p style="margin:10px 0 0 0;">Més informació a la política de privacitat:<br>
+<a href="__URL__/privacitat/" style="color:#666;">__URL__/privacitat/</a></p>
+</div>
+</body></html>"""
+
+
+def mail_html(camps, form, site_url):
+    """Cos del correu en HTML: missatge llegible + peu legal a 11 px."""
+    esc = htmlmod.escape
+    files = "".join(
+        '<p style="margin:0 0 4px 0;"><b>%s:</b> %s</p>'
+        % (esc(str(k)), esc(str(v)).replace("\n", "<br>"))
+        for k, v in camps.items())
+    legal = "".join(
+        '<p style="margin:0 0 6px 0;"><b style="color:#333;">%s:</b> %s</p>'
+        % (esc(et), esc(txt))
+        for et, txt in legal_sections(form) if txt)
+    return (MAIL_HTML
+            .replace("__CAMPOS__", files)
+            .replace("__LEGAL__", legal)
+            .replace("__HEADING__", esc(LEGAL_HEADING))
+            .replace("__URL__", esc(site_url)))
 
 
 # ------------------------------------------------------------ app (routes)
@@ -446,11 +482,13 @@ def form_post(environ, start_response, form):
     site_url = cfg.get("general", "site_url",
                        fallback="https://9barrisimatge.org/").rstrip("/")
     taula = "\n".join("%s: %s" % (k, v) for k, v in camps.items())
-    cos = "%s\n\n--\n%s\n%s\n\n--\n%s" % (
-        taula,
-        i18n.get("mail_footer", "Enviat des del formulari del web 9 Barris Imatge"),
-        site_url,
-        legal_block(form, site_url))
+    # Separació ampla abans del peu legal: en text pla, línia de guions
+    # emmarcada i línies en blanc; en HTML, un fil i marge de 30 px.
+    sep = "\n\n" + "-" * 60 + "\n\n\n"
+    peu_middle = (i18n.get(
+        "mail_footer", "Enviat des del formulari del web 9 Barris Imatge")
+        + "\n" + site_url)
+    cos = taula + sep + peu_middle + sep + legal_block(form, site_url)
 
     if not smtp_ready(cfg):
         print("formularis: config.ini sense credencials SMTP", file=sys.stderr)
@@ -460,7 +498,8 @@ def form_post(environ, start_response, form):
                                      i18n.get("msg_unavailable", ""))))
 
     ok, detall = send_mail(cfg, dest, subject, cos,
-                           camps.get("email") if valid_email(camps.get("email", "")) else None)
+                           camps.get("email") if valid_email(camps.get("email", "")) else None,
+                           html=mail_html(camps, form, site_url))
     if ok:
         return respond(environ, start_response, "200 OK", page_ok(lang, i18n))
     print("formularis: error en enviar (%s): %s" % (form, detall), file=sys.stderr)
