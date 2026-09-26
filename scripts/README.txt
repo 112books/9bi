@@ -28,6 +28,45 @@ fetch_9bi_analytics.py
 add_year.py          Va afegir el camp year al front matter dels articles,
                      necessari per a les col·leccions per any del CMS.
 
+auto_tags.py         Genera etiquetes automàtiques per als posts que
+                     tenen el comentari <!-- tags auto-generades... -->.
+                     Utilitza Claude Haiku (API d'Anthropic, model barat).
+                     Requisit: pip install anthropic
+                               export ANTHROPIC_API_KEY=sk-ant-...
+                     1.697 posts a processar (juny 2026).
+
+                     INSTRUCCIONS PER EXECUTAR (amb OpenCode o manualment):
+                     ---------------------------------------------------------
+                     # 0. Instal·la la llibreria si no la tens:
+                     pip install anthropic
+
+                     # 1. Prova amb els primers 5 posts (dry-run, no escriu):
+                     python3 scripts/auto_tags.py --dry-run --limit 5
+
+                     # 2. Prova real amb còpia de seguretat (escriu .bak):
+                     python3 scripts/auto_tags.py --limit 20
+
+                     # 3. Si el resultat és bo, processa tots:
+                     python3 scripts/auto_tags.py
+
+                     # 4. Revisa l'informe generat:
+                     cat auto_tags_report.txt
+
+                     # 5. Si algun post ha quedat malament, restaura el .bak:
+                     cp content/posts/2013/post-exemple.md.bak \
+                        content/posts/2013/post-exemple.md
+
+                     # 6. Esborra els .bak un cop satisfet:
+                     find content/posts -name "*.bak" -delete
+
+                     # 7. Comprova el build:
+                     hugo --minify
+
+                     # 8. Commit i push:
+                     git add content/posts/
+                     git commit -m "Tags: etiquetes auto-generades revisades (Claude Haiku)"
+                     git push github main
+
 Nota
 ----
 Aquest directori NO s'ha d'executar sense mirar abans què fa el script
