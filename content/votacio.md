@@ -19,14 +19,19 @@ sitemap:
 <p class="cartell-lead">Escaneja aquest codi i vota la fotografia que més t'agradi.</p>
 
 <ol class="cartell-steps">
-<li>Escaneja el codi amb la càmera del mòbil.</li>
-<li>Escriu el número de la fotografia, el que té al costat.</li>
-<li>Envia el vot.</li>
+<li><strong>Escaneja el codi</strong> amb la càmera del telèfon. S'obrirà la pàgina de votació.</li>
+<li><strong>Permet la ubicació</strong> quan el navegador ho demani. Cal per poder votar: el vot només es pot fer a l'exposició.</li>
+<li><strong>Escriu el número</strong> de la fotografia, el que té al costat a l'exposició.</li>
+<li><strong>Prem «Envia el vot»</strong> i ja està. Et sortirà un avís de confirmació.</li>
 </ol>
 
-<p class="cartell-foot">Només es pot votar a l'exposició del Casal de Barri de Prosperitat, de l'1 al 15 de desembre de 2026. Un vot per obra i per telèfon. Els vots són anònims i no es poden canviar.</p>
+<p class="cartell-foot">Només es pot votar a l'exposició del Casal de Barri de Prosperitat, de l'1 al 15 de desembre de 2026. Cal un telèfon o una tauleta. Un vot per obra i per telèfon: un cop enviat, no es pot canviar. Els vots són anònims.</p>
 
 <p class="cartell-actions"><button type="button" class="concurs-print" data-concurs-print>Imprimir el cartell</button></p>
-<p class="cartell-note">Requadre reservat per al codi QR. Quan la votació estigui publicada enlloc, genera el codi amb <code>python3 tools/qr.py --url</code> i substitueix el requadre per la imatge del QR.</p>
+<!--
+Requadre reservat per al codi QR. Quan la votació estigui publicada enlloc,
+genera el codi amb `python3 tools/qr.py --url` i substitueix el requadre per
+la imatge del QR.
+-->
 
 </div>

@@ -169,20 +169,95 @@ def pick_lang(environ):
     return DEFAULT_LANG
 
 
+# Disseny: els mateixos tipus de lletra, colors i mesures que
+# 9barrisimatge.org (tema fosc per defecte, accent #e03131, Montserrat +
+# Gillius ADF). Els tipus de lletra són els mateixos fitxers que servir el
+# web, còpiats a /fonts/ del docroot del subdomini.
+PAGE_CSS = """
+@font-face{font-family:"Montserrat";font-style:normal;font-weight:400;font-display:swap;
+  src:url(/fonts/montserrat/montserrat-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Montserrat";font-style:normal;font-weight:700;font-display:swap;
+  src:url(/fonts/montserrat/montserrat-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"Gillius ADF";font-style:normal;font-weight:400;font-display:swap;
+  src:url(/fonts/gillius/GilliusADF-Regular.otf) format("opentype")}
+@font-face{font-family:"Gillius ADF";font-style:normal;font-weight:700;font-display:swap;
+  src:url(/fonts/gillius/GilliusADF-Bold.otf) format("opentype")}
+:root{
+  --theme:#1d1e20; --entry:#2e2e33; --primary:#dadadb; --secondary:#9b9c9d;
+  --tertiary:#414244; --content:#c4c4c5; --border:#333; --accent:#e03131;
+  --gap:24px; --radius:8px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--theme); color:var(--primary);
+  font-family:"Montserrat",system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:17px; line-height:1.6;
+}
+.vwrap{max-width:720px;margin:0 auto;padding:0 var(--gap) 3rem}
+.band{height:4px;background:var(--accent)}
+.brand{display:flex;flex-wrap:wrap;gap:.35rem .8rem;align-items:baseline;
+  justify-content:space-between;padding:1rem 0 .9rem;border-bottom:1px solid var(--border);
+  font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;color:var(--secondary)}
+.brand a{color:var(--secondary);text-decoration:none}
+.brand a:hover,.brand a:focus-visible{color:var(--primary)}
+.brand strong{font-weight:700;color:var(--primary);letter-spacing:.02em;text-transform:none;font-size:.95rem}
+main{padding-top:1.6rem}
+h1,h2{font-family:"Gillius ADF","Montserrat",serif;font-weight:700;line-height:1.25}
+h1{font-size:1.85rem;margin:0 0 .5rem}
+.lead{color:var(--content);margin:0 0 1.4rem}
+.conditions{background:var(--entry);border:1px solid var(--border);border-left:4px solid var(--accent);
+  border-radius:var(--radius);padding:1rem 1.2rem;margin:0 0 1.6rem}
+.conditions h2{font-size:1.1rem;margin:0 0 .5rem}
+.conditions ul{margin:.2rem 0;padding-left:1.1rem}
+.conditions li{margin:.3rem 0}
+.note{background:var(--entry);border-left:4px solid var(--accent);border-radius:4px;
+  padding:.7rem .9rem;margin:0 0 1.4rem;color:var(--content);font-size:.92rem}
+form{display:flex;flex-direction:column;gap:.55rem}
+label{font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--secondary)}
+input#obra{width:100%;padding:.7rem .9rem;font-family:"Montserrat",sans-serif;font-size:2.1rem;
+  font-weight:700;text-align:center;color:var(--primary);background:var(--entry);
+  border:2px solid var(--tertiary);border-radius:var(--radius);-moz-appearance:textfield}
+input#obra::-webkit-outer-spin-button,input#obra::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+input#obra:focus{outline:none;border-color:var(--accent)}
+.hint{margin:.1rem 0 0;font-size:.85rem;color:var(--secondary)}
+.geo-status{margin:.2rem 0 0;font-size:.9rem;min-height:1.2em;color:var(--secondary)}
+.geo-status--wait{color:var(--secondary)}
+.geo-status--warn{color:#ffb3b3}
+button{margin-top:.9rem;padding:.9rem 1.2rem;font-family:"Montserrat",sans-serif;font-size:1rem;
+  font-weight:700;color:#fff;background:var(--accent);border:0;border-radius:var(--radius);cursor:pointer}
+button:hover{filter:brightness(1.08)}
+button:focus-visible{outline:3px solid var(--primary);outline-offset:2px}
+.msg{background:var(--entry);border:1px solid var(--border);border-left:4px solid var(--secondary);
+  border-radius:var(--radius);padding:1rem 1.2rem;margin:0 0 1.4rem}
+.msg.ok{border-left-color:#2f9e44}
+.msg.err{border-left-color:var(--accent)}
+a{color:#ff8787}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.92rem}
+th,td{border:1px solid var(--border);padding:.4rem .5rem;text-align:left}
+th{color:var(--secondary);font-weight:700}
+input[type=password]{font-family:inherit;font-size:1rem;padding:.5rem .6rem;color:var(--primary);
+  background:var(--entry);border:2px solid var(--tertiary);border-radius:var(--radius);width:100%}
+.foot{margin-top:2.4rem;padding-top:1rem;border-top:1px solid var(--border);
+  font-size:.8rem;color:var(--secondary)}
+@media (max-width:420px){ body{font-size:16px} input#obra{font-size:1.9rem} }
+"""
+
+
 def page_html(title, body, lang):
     return ("<!doctype html><html lang=\"%s\"><head><meta charset=\"utf-8\">"
             "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">"
+            "<meta name=\"robots\" content=\"noindex,nofollow\">"
             "<title>%s</title>"
-            "<style>body{font-family:system-ui,sans-serif;max-width:40rem;margin:2rem auto;padding:0 1rem;line-height:1.5}"
-            "h1{font-size:1.4rem}select{font-size:1.1rem;padding:.4rem}button{font-size:1.05rem;padding:.5rem 1.2rem;cursor:pointer}"
-            ".msg{padding:.8rem;border-radius:6px;margin:1rem 0}.ok{background:#e6f4e6}.err{background:#fdecec}"
-            "a{color:#2a6db5}"
-            ".note{color:#555;background:#f3f6fa;border-left:4px solid #2a6db5;padding:.6rem .8rem;border-radius:4px;font-size:.95rem}"
-            ".conditions{border:1px solid #d8d5d0;border-radius:8px;padding:1rem 1.2rem;margin-bottom:1.2rem}"
-            ".conditions h2{font-size:1.1rem;margin:.2rem 0 .6rem}"
-            ".conditions ul{margin:.2rem 0;padding-left:1.2rem}"
-            "</style></head><body>%s</body></html>" % (
-                html.escape(lang), html.escape(title), body))
+            "<style>%s</style></head><body>"
+            "<div class=\"band\"></div>"
+            "<div class=\"vwrap\">"
+            "<div class=\"brand\"><strong>9 Barris Imatge</strong>"
+            "<span>36è Concurs fotogràfic Josep Antón Cordoncillo</span></div>"
+            "<main>%s</main>"
+            "<p class=\"foot\"><a href=\"https://9barrisimatge.org/\">9barrisimatge.org</a></p>"
+            "</div></body></html>" % (
+                html.escape(lang), html.escape(title), PAGE_CSS, body))
 
 
 def respond(environ, start_response, status, body, content_type="text/html; charset=utf-8",
@@ -306,34 +381,58 @@ def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js,
     if note:
         extra += "<p class=\"note\">%s</p>" % html.escape(note)
     form = (
-        "<h1>%s</h1><p>%s</p>%s"
+        "<h1>%s</h1><p class=\"lead\">%s</p>%s"
         "<form method=\"post\" action=\"%s/v/%s\" id=\"vf\">"
         "<input type=\"hidden\" name=\"csrft\" value=\"%s\">"
-        "<label for=\"obra\">%s</label> "
-        "<input id=\"obra\" name=\"obra\" type=\"number\" inputmode=\"numeric\""
-        " min=\"1\" max=\"%d\" step=\"1\" required>"
+        "<label for=\"obra\">%s</label>"
+        "<input id=\"obra\" name=\"obra\" type=\"text\" inputmode=\"numeric\""
+        " pattern=\"[0-9]*\" autocomplete=\"off\" autocapitalize=\"off\""
+        " spellcheck=\"false\" enterkeyhint=\"go\" required>"
+        "<p class=\"hint\">%s</p>"
         "<input type=\"hidden\" name=\"geo\" id=\"geo\" value=\"none\">"
+        "<p class=\"geo-status\" id=\"geo-status\" data-denied=\"%s\""
+        " data-unavailable=\"%s\" data-timeout=\"%s\" data-insecure=\"%s\">%s</p>"
         "<button type=\"submit\">%s</button>"
         "</form>"
         "<script>%s</script>")
     return form % (
         html.escape(ed["nom"]), i18n.get("vote_intro", ""), extra,
         html.escape(base, quote=True), h_radix(vot_token), html.escape(csrf),
-        i18n.get("select_prompt", "Obra"), max_num,
+        i18n.get("select_prompt", "Obra"),
+        html.escape(i18n.get("vote_hint_num", ""), quote=True),
+        html.escape(i18n.get("geo_msg_denied", ""), quote=True),
+        html.escape(i18n.get("geo_msg_unavailable", ""), quote=True),
+        html.escape(i18n.get("geo_msg_timeout", ""), quote=True),
+        html.escape(i18n.get("geo_msg_insecure", ""), quote=True),
+        html.escape(i18n.get("geo_requesting", "")),
         i18n.get("btn_vote", "Vota"), geo_js)
 
 
 GEO_JS = """
 (function(){
   var geo=document.getElementById('geo');
+  var st=document.getElementById('geo-status');
   if(!geo) return;
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(
-      function(pos){ if(pos.coords){ geo.value='ok;'+(pos.coords.latitude)+';'+(pos.coords.longitude);} },
-      function(){ /* es deixa vot; registrem geo:none */ },
-      { enableHighAccuracy:true, timeout:8000, maximumAge:60000 }
-    );
+  function say(msg){ if(st&&msg){ st.textContent=msg; st.className='geo-status geo-status--warn'; } }
+  if (window.isSecureContext===false || !navigator.geolocation) {
+    geo.value='insecure';
+    if(st){ st.textContent=st.getAttribute('data-insecure')||''; st.className='geo-status geo-status--warn'; }
+    return;
   }
+  if(st) st.className='geo-status geo-status--wait';
+  navigator.geolocation.getCurrentPosition(
+    function(pos){ if(pos.coords){ geo.value='ok;'+(pos.coords.latitude)+';'+(pos.coords.longitude);
+      if(st){ st.textContent=''; st.className='geo-status'; } } },
+    function(err){
+      geo.value='none';
+      if(!st||!err) return;
+      var m=st.getAttribute('data-denied');
+      if(err.code===2) m=st.getAttribute('data-unavailable');
+      else if(err.code===3) m=st.getAttribute('data-timeout');
+      say(m);
+    },
+    { enableHighAccuracy:true, timeout:8000, maximumAge:60000 }
+  );
 })();
 """
 

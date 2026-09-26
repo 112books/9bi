@@ -1,10 +1,15 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  RewriteRule ^$ https://vots-cordoncillo.linuxbcn.com/v/cordoncillo-2026 [R=302,L]
+  # El repòtex del certificat (Let's Encrypt) ha de poder passar per http
   RewriteRule ^\.well-known/ - [L]
+  # Els tipus de lletra del web, servits com a fitxers estàtics
+  RewriteRule ^fonts/ - [L]
+  # Sense https no hi ha geolocalització (origen no segur) i el vot es rebutja.
+  # Dinahosting acaba el TLS: Apache el veu com http, de manera que el que
+  # mana és el capçalera X-Forwarded-Proto que posa el frontal (verificat
+  # 2026-09-26 amb una sonda: per https arriba "https" i per http "http").
+  RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+  RewriteRule ^(.*)$ https://vots-cordoncillo.linuxbcn.com/$1 [R=301,L,QSA]
+  RewriteRule ^$ https://vots-cordoncillo.linuxbcn.com/v/cordoncillo-2026 [R=302,L]
   RewriteRule ^(.*)$ http://127.0.0.1:8301/$1 [P,QSA,L]
-</IfModule>
-<IfModule mod_headers.c>
-  RequestHeader set Host expr=%{HTTP_HOST}
-  RequestHeader set X-Forwarded-Proto "https"
 </IfModule>

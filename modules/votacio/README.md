@@ -63,9 +63,18 @@ deploy/htaccess      # proxy del docroot del subdomini → 127.0.0.1:8301
      `/.well-known/` (renovació Let's Encrypt) i fa proxy de tot a
      `127.0.0.1:8301`.
    - Cron (`crontab -e`): `@reboot` + cada 5 min `deploy/watchdog.sh`.
-   - **Atenció**: Dinahosting termina el TLS davant d'Apache; Apache creu
-     que és HTTP. Per això el redirect de l'arrel és HTTPS explícit i el
-     proxy envia `X-Forwarded-Proto: https` (konsento-ho fa igual).
+   - **Atenció**: Dinahosting acaba el TLS davant d'Apache; Apache creu
+     que és HTTP. Per això el redirect de l'arrel és HTTPS explícit i **el
+     proxy ha d'enviar `X-Forwarded-Proto: https`** (konsento-ho fa igual).
+   - **Redirecció http → https**: no es pot fer servir `%{HTTPS}` (no reflecteix
+     el TLS, que acaba el frontal). S'ha comprovat amb una sonda al servidor
+     (2026-09-26) que el frontal posa `X-Forwarded-Proto: https` per https i
+     `http` per http, i que `HTTPS=on` només hi és a https. La condició que
+     funciona és `RewriteCond %{HTTP:X-Forwarded-Proto} !=https` amb
+     `[R=301,L,QSA]`, conservant ruta i paràmetres. Amb `%{HTTPS}` es
+     produïa un bucle de 301.
+   - **Tipus de lletra**: `@font-face` apunta a `/fonts/…` (els mateixos
+     fitxers que serveix el web, còpiats al docroot per rsync).
    - Amb el proxy, `REMOTE_ADDR` és 127.0.0.1 per a tots: el límit de
      peticions actua com a límit global del lloc (configurat a 120/min
      al `config.ini`); les defenses reals són CSRF + testimoni HMAC +
