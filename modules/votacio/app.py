@@ -228,6 +228,9 @@ button{margin-top:.9rem;padding:.9rem 1.2rem;font-family:"Montserrat",sans-serif
   font-weight:700;color:#fff;background:var(--accent);border:0;border-radius:var(--radius);cursor:pointer}
 button:hover{filter:brightness(1.08)}
 button:focus-visible{outline:3px solid var(--primary);outline-offset:2px}
+.geo-btn{display:block;width:100%;margin-top:.6rem;padding:.6rem 1rem;font-size:.92rem;
+  font-weight:700;color:var(--primary);background:transparent;border:2px solid var(--tertiary)}
+.geo-btn:hover{border-color:var(--accent);filter:none}
 .msg{background:var(--entry);border:1px solid var(--border);border-left:4px solid var(--secondary);
   border-radius:var(--radius);padding:1rem 1.2rem;margin:0 0 1.4rem}
 .msg.ok{border-left-color:#2f9e44}
@@ -255,7 +258,9 @@ def page_html(title, body, lang):
             "<div class=\"brand\"><strong>9 Barris Imatge</strong>"
             "<span>36è Concurs fotogràfic Josep Antón Cordoncillo</span></div>"
             "<main>%s</main>"
-            "<p class=\"foot\"><a href=\"https://9barrisimatge.org/\">9barrisimatge.org</a></p>"
+            "<p class=\"foot\">"
+            "<a href=\"https://9barrisimatge.org/privacitat/\">Protecció de dades</a>"
+            " · <a href=\"https://9barrisimatge.org/\">9barrisimatge.org</a></p>"
             "</div></body></html>" % (
                 html.escape(lang), html.escape(title), PAGE_CSS, body))
 
@@ -392,8 +397,10 @@ def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js,
         "<input type=\"hidden\" name=\"geo\" id=\"geo\" value=\"none\">"
         "<p class=\"geo-status\" id=\"geo-status\" data-denied=\"%s\""
         " data-unavailable=\"%s\" data-timeout=\"%s\" data-insecure=\"%s\">%s</p>"
+        "<button type=\"button\" class=\"geo-btn\" id=\"geo-btn\">%s</button>"
         "<button type=\"submit\">%s</button>"
         "</form>"
+        "<p class=\"note\">%s</p>"
         "<script>%s</script>")
     return form % (
         html.escape(ed["nom"]), i18n.get("vote_intro", ""), extra,
@@ -405,34 +412,46 @@ def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js,
         html.escape(i18n.get("geo_msg_timeout", ""), quote=True),
         html.escape(i18n.get("geo_msg_insecure", ""), quote=True),
         html.escape(i18n.get("geo_requesting", "")),
-        i18n.get("btn_vote", "Vota"), geo_js)
+        html.escape(i18n.get("geo_btn", "")),
+        i18n.get("btn_vote", "Vota"),
+        html.escape(i18n.get("vote_privacy_note", "")),
+        geo_js)
 
 
 GEO_JS = """
 (function(){
   var geo=document.getElementById('geo');
   var st=document.getElementById('geo-status');
+  var btn=document.getElementById('geo-btn');
   if(!geo) return;
-  function say(msg){ if(st&&msg){ st.textContent=msg; st.className='geo-status geo-status--warn'; } }
-  if (window.isSecureContext===false || !navigator.geolocation) {
-    geo.value='insecure';
-    if(st){ st.textContent=st.getAttribute('data-insecure')||''; st.className='geo-status geo-status--warn'; }
-    return;
+  function warn(msg){ if(st){ st.textContent=msg||''; st.className='geo-status geo-status--warn'; } }
+  function ask(){
+    if(window.isSecureContext===false || !navigator.geolocation){
+      geo.value='insecure';
+      warn(st && st.getAttribute('data-insecure'));
+      return;
+    }
+    if(st) st.className='geo-status geo-status--wait';
+    navigator.geolocation.getCurrentPosition(
+      function(pos){
+        if(!pos.coords) return;
+        geo.value='ok;'+(pos.coords.latitude)+';'+(pos.coords.longitude);
+        if(st){ st.textContent=''; st.className='geo-status'; }
+        if(btn) btn.style.display='none';
+      },
+      function(err){
+        geo.value='none';
+        if(!st||!err) return;
+        var m=st.getAttribute('data-denied');
+        if(err.code===2) m=st.getAttribute('data-unavailable');
+        else if(err.code===3) m=st.getAttribute('data-timeout');
+        warn(m);
+      },
+      { enableHighAccuracy:true, timeout:10000, maximumAge:60000 }
+    );
   }
-  if(st) st.className='geo-status geo-status--wait';
-  navigator.geolocation.getCurrentPosition(
-    function(pos){ if(pos.coords){ geo.value='ok;'+(pos.coords.latitude)+';'+(pos.coords.longitude);
-      if(st){ st.textContent=''; st.className='geo-status'; } } },
-    function(err){
-      geo.value='none';
-      if(!st||!err) return;
-      var m=st.getAttribute('data-denied');
-      if(err.code===2) m=st.getAttribute('data-unavailable');
-      else if(err.code===3) m=st.getAttribute('data-timeout');
-      say(m);
-    },
-    { enableHighAccuracy:true, timeout:8000, maximumAge:60000 }
-  );
+  if(btn){ btn.addEventListener('click', ask); }
+  ask();
 })();
 """
 
@@ -566,14 +585,34 @@ def submit_vote(environ, start_response, token):
                                      "<p>%s</p>" % html.escape(i18n.get("geo_error_hard", "")), lang))
         devhash = device_hash(secret_key(cfg), device)
         vot_limit = ed["vot_limit"] or 0
+        # finestra de re-vot en minuts; 0 (per defecte) = un sol vot per obra
+        # i dispositiu per tota l'edició. S'utilitza només per a les proves.
+        revote_min = cfg.getint("edicio", "revote_minutes", fallback=0)
         if vot_limit > 0:
-            cur = conn.execute(
-                "SELECT COUNT(*) AS n FROM vots WHERE edicio_id=? AND obra_id=? AND dispositiu_hash=?",
-                (ed["id"], obra["id"], devhash))
-            if cur.fetchone()["n"] > 0:
-                return respond(environ, start_response, "200 OK",
-                               page_html(i18n.get("msg_vote_repeat", ""),
-                                         "<p>%s</p>" % html.escape(i18n.get("msg_vote_repeat", "")), lang))
+            if revote_min > 0:
+                cutoff = int(time.time()) - revote_min * 60
+                recent = conn.execute(
+                    "SELECT COUNT(*) AS n FROM vots WHERE edicio_id=? AND obra_id=?"
+                    " AND dispositiu_hash=? AND ts>?",
+                    (ed["id"], obra["id"], devhash, cutoff)).fetchone()["n"]
+                if recent > 0:
+                    wait = i18n.get("msg_vote_repeat_wait", "") % revote_min
+                    return respond(environ, start_response, "200 OK",
+                                   page_html(i18n.get("msg_vote_repeat", ""),
+                                             "<p>%s</p>" % html.escape(wait), lang))
+                # la votació anterior es substitueix (la taula té UNIQUE per
+                # edició + obra + dispositiu)
+                conn.execute(
+                    "DELETE FROM vots WHERE edicio_id=? AND obra_id=? AND dispositiu_hash=?",
+                    (ed["id"], obra["id"], devhash))
+            else:
+                cur = conn.execute(
+                    "SELECT COUNT(*) AS n FROM vots WHERE edicio_id=? AND obra_id=? AND dispositiu_hash=?",
+                    (ed["id"], obra["id"], devhash))
+                if cur.fetchone()["n"] > 0:
+                    return respond(environ, start_response, "200 OK",
+                                   page_html(i18n.get("msg_vote_repeat", ""),
+                                             "<p>%s</p>" % html.escape(i18n.get("msg_vote_repeat", "")), lang))
         ts = int(time.time())
         sig = hmac_sig(secret_key(cfg), (ed["id"], obra["id"], devhash, ts))
         conn.execute(
