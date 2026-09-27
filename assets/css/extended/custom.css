@@ -1722,7 +1722,8 @@ h1, h2, h3, h4, h5, h6 {
 #qsb-com:checked ~ .qsb-viewlist [for="qsb-com"],
 #qsb-membres:checked ~ .qsb-viewlist [for="qsb-membres"],
 #qsb-relacions:checked ~ .qsb-viewlist [for="qsb-relacions"],
-#qsb-fotografs:checked ~ .qsb-viewlist [for="qsb-fotografs"] {
+#qsb-fotografs:checked ~ .qsb-viewlist [for="qsb-fotografs"],
+#qsb-mitjans:checked ~ .qsb-viewlist [for="qsb-mitjans"] {
   background: #e03131;
   border-color: #e03131;
   color: #fff;
@@ -1731,7 +1732,8 @@ h1, h2, h3, h4, h5, h6 {
 #qsb-com:checked ~ #qsb-panel-com,
 #qsb-membres:checked ~ #qsb-panel-membres,
 #qsb-relacions:checked ~ #qsb-panel-relacions,
-#qsb-fotografs:checked ~ #qsb-panel-fotografs {
+#qsb-fotografs:checked ~ #qsb-panel-fotografs,
+#qsb-mitjans:checked ~ #qsb-panel-mitjans {
   display: block;
 }
 .qsb-view h2:first-child {
