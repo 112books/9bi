@@ -14,7 +14,7 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | ID | P | Tasca | Alta | Termini | Estat / notes |
 |---|---|---|---|---|---|
-| T-01 | 🔴 | **Llista definitiva d'obres de la votació** (número, títol, autor, categoria) a `[obres]` del `config.ini` del servidor; després esborrar `data.db` i reiniciar | 27/09 | **30/11** | Bloquejada: encara no tenim la llista. La votació s'obre sola l'01/12 |
+| T-01 | 🔴 | **Llista definitiva d'obres de la votació** (número, títol, autor, categoria) a `[obres]` del `config.ini` del servidor; després esborrar `data.db` i reiniciar | 27/09 | **30/11** | Bloquejada: encara no tenim la llista. La votació s'obre sola l'01/12. **Preparat (27/09)**: omplir `drafts/obres-concurs-2026-plantilla.csv` → `python3 modules/votacio/tools/obres.py llista.csv -o obres.ini` (valida números repetits, `|`, categories A/B/C) → substituir **sencera** la secció `[obres]` del `config.ini` del servidor (treure la línia `rang = …`, si no les 100 obres de prova continuen) → aturar, esborrar `data.db`, arrencar i comprovar `/admin/obres` |
 | T-03 | 🔴 | Consentiment RGPD obligatori **al servidor** dels formularis | 27/09 | — | Codi fet i provat (27/09). **Falta pujar-lo al servidor**: `scp modules/formularis/app.py` i `i18n/*.ini` a `~/apps/formularis/`, després `deploy/stop.sh && deploy/start.sh` i `/health` |
 | T-04 | 🟠 | Certificat SSL de `vots-cordoncillo` i `formularis` (Let's Encrypt, caduca 24/12 20:47) | 27/09 | 26/11 | Avís al calendari: `drafts/avis-certificat-votacio-2026-12-24.ics` (26/11 comprovar, 17/12 urgent) |
 | T-06 | 🟡 | Desactivar Blogger | 21/09 | — | En espera, decisió de l'usuari: **de moment no s'apaga**. DNS ja apunten a 9barrisimatge.org |
