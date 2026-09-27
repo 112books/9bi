@@ -15,7 +15,7 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 | ID | P | Tasca | Alta | Termini | Estat / notes |
 |---|---|---|---|---|---|
 | T-01 | 🔴 | **Llista definitiva d'obres de la votació** (número, títol, autor, categoria) a `[obres]` del `config.ini` del servidor; després esborrar `data.db` i reiniciar | 27/09 | **30/11** | Bloquejada: encara no tenim la llista. La votació s'obre sola l'01/12 |
-| T-03 | 🔴 | Consentiment RGPD obligatori **al servidor** dels formularis | 27/09 | — | Codi fet i provat (27/09). **Falta pujar-lo al servidor** (`app.py` + `i18n/`) i reiniciar |
+| T-03 | 🔴 | Consentiment RGPD obligatori **al servidor** dels formularis | 27/09 | — | Codi fet i provat (27/09). **Falta pujar-lo al servidor**: `scp modules/formularis/app.py` i `i18n/*.ini` a `~/apps/formularis/`, després `deploy/stop.sh && deploy/start.sh` i `/health` |
 | T-04 | 🟠 | Certificat SSL de `vots-cordoncillo` i `formularis` (Let's Encrypt, caduca 24/12 20:47) | 27/09 | 26/11 | Avís al calendari: `drafts/avis-certificat-votacio-2026-12-24.ics` (26/11 comprovar, 17/12 urgent) |
 | T-06 | 🟡 | Desactivar Blogger | 21/09 | — | En espera, decisió de l'usuari: **de moment no s'apaga**. DNS ja apunten a 9barrisimatge.org |
 | T-07 | 🟡 | Editors al CMS: convidar col·laboradors amb Write, comprovar que els no-admin només veuen els seus posts i si algú ja ha iniciat el seu usuari | 21/09 | — | Quan puguem |
@@ -82,7 +82,7 @@ Els dies anteriors al 25/09 només tenen el total al registre diari (el detall h
 
 | Data | Temps | Registre |
 |---|---|---|
-| 27/09 | ~4 h 55 min + sessió 3 (~35 min) | [2026-09-27.md](2026-09-27.md) |
+| 27/09 | ~5 h 11 min (sessió 2 ~4 h 55 min + sessió 3 16 min) | [2026-09-27.md](2026-09-27.md) |
 | 25/09 | ≥ 2 h 10 min (3 tasques sense tancar) | [2026-09-25.md](2026-09-25.md) |
 | 22/09 | ~5 h (amb pauses) | [2026-09-22.md](2026-09-22.md) |
 | 20/09 | ~1 h 17 min | [2026-09-20.md](2026-09-20.md) |
