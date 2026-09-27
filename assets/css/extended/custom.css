@@ -2123,3 +2123,39 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--secondary);
   white-space: nowrap;
 }
+
+/* Pàgines de gràcies dels formularis (/contacte/gracies/, /incorpora-te/gracies/):
+   mateixa composició que la 404, amb una marca de validació en lloc del codi. */
+.gracies {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: clamp(2rem, 6vw, 4rem) 0;
+}
+.gracies-header {
+  text-align: center;
+}
+.gracies-icon {
+  margin: 0 auto;
+  width: clamp(4rem, 12vw, 5.5rem);
+  color: #e03131;
+  line-height: 0;
+}
+.gracies-icon svg {
+  width: 100%;
+  height: auto;
+}
+.gracies-header h1 {
+  margin: 0.8rem 0 1rem;
+}
+.gracies-lead {
+  max-width: 36rem;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+.gracies-content {
+  max-width: 36rem;
+  margin: 2rem auto 1.5rem;
+}
+.gracies-links {
+  margin-top: 2rem;
+}

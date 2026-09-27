@@ -400,16 +400,29 @@ def mail_html(camps, form, site_url):
 # ------------------------------------------------------------ app (routes)
 
 def page_ok(lang, i18n, form=""):
-    """Pàgina de confirmació d'un enviament correcte.
-
-    Torna a la portada del web del col·lectiu: l'arrel del servei
-    (formularis.linuxbcn.com/) és una pàgina sense utilitat per a qui escriu.
-    """
+    """Pàgina de confirmació d'un enviament correcte (només si no hi ha
+    pàgina de gràcies al web; vegeu redirect_ok)."""
     return page_html(
         lang, i18n.get("title_ok", ""),
         "<p>%s</p><p><a href=\"https://9barrisimatge.org/\">%s</a></p>"
         % (htmlmod.escape(i18n.get("msg_ok", "")),
            htmlmod.escape(i18n.get("link_back", "Torna a l'inici"))))
+
+
+def redirect_ok(environ, start_response, cfg, lang, i18n, form):
+    """Enviament correcte: 303 a la pàgina de gràcies del web, amb el disseny
+    del web (/<formulari>/gracies/). Amb [general] pagina_gracies buit es
+    mostra la pàgina senzilla del servei."""
+    plantilla = cfg.get("general", "pagina_gracies", fallback="/{form}/gracies/")
+    if not plantilla.strip():
+        return respond(environ, start_response, "200 OK", page_ok(lang, i18n, form))
+    site_url = cfg.get("general", "site_url",
+                       fallback="https://9barrisimatge.org/").rstrip("/")
+    desti = plantilla.strip().replace("{form}", form)
+    if desti.startswith("/"):
+        desti = site_url + desti
+    return respond(environ, start_response, "303 See Other", "",
+                   extra_headers=[("Location", desti)])
 
 
 def form_post(environ, start_response, form):
@@ -444,7 +457,7 @@ def form_post(environ, start_response, form):
 
     # Honeypot: si el camp ocult ve ple, descartem en silenci
     if fields.get("_honey"):
-        return respond(environ, start_response, "200 OK", page_ok(lang, i18n))
+        return redirect_ok(environ, start_response, cfg, lang, i18n, form)
 
     # Origen: només s'accepten POST des dels orígens configurats
     if not origin_ok(environ, cfg):
@@ -512,7 +525,7 @@ def form_post(environ, start_response, form):
                            camps.get("email") if valid_email(camps.get("email", "")) else None,
                            html=mail_html(camps, form, site_url))
     if ok:
-        return respond(environ, start_response, "200 OK", page_ok(lang, i18n))
+        return redirect_ok(environ, start_response, cfg, lang, i18n, form)
     print("formularis: error en enviar (%s): %s" % (form, detall), file=sys.stderr)
     return respond(environ, start_response, "500 Internal Server Error",
                    page_html(lang, i18n.get("title_error", ""),

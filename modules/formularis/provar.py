@@ -30,6 +30,16 @@ class Quiet(WSGIRequestHandler):
         pass
 
 
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, *a, **k):
+        return None
+
+
+# L'èxit és un 303 cap a la pàgina de gràcies del web; post() el compta com a
+# 200 si la Location acaba en /gracies/, així les expectatives no canvien.
+NO_REDIRECT = urllib.request.build_opener(_NoRedirect)
+
+
 def post(path, fields, headers=None, method="POST", consent=True):
     if consent:
         fields = dict(fields, consentiment="sí")
@@ -38,9 +48,11 @@ def post(path, fields, headers=None, method="POST", consent=True):
     for k, v in (headers or {}).items():
         req.add_header(k, v)
     try:
-        with urllib.request.urlopen(req) as r:
+        with NO_REDIRECT.open(req) as r:
             return r.status, r.read().decode()
     except urllib.error.HTTPError as e:
+        if e.code == 303:
+            return 200 if e.headers.get("Location", "").endswith("/gracies/") else 303, ""
         return e.code, e.read().decode()
 
 

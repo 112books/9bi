@@ -1,0 +1,29 @@
+{{- define "main" }}
+<article class="gracies">
+    <header class="page-header gracies-header">
+        <p class="gracies-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="7.5 12.5 10.5 15.5 16.5 9"></polyline>
+            </svg>
+        </p>
+        <h1>{{ .Title }}</h1>
+        {{- with .Params.lead }}
+        <p class="gracies-lead">{{ . | markdownify }}</p>
+        {{- end }}
+    </header>
+
+    {{- with .Content }}
+    <div class="post-content gracies-content">
+        {{ . }}
+    </div>
+    {{- end }}
+
+    <nav class="error-404-links gracies-links" aria-label="Continua pel web">
+        {{- range .Params.enllacos }}
+        <a href="{{ .url | relURL }}">{{ .text }}</a>
+        {{- end }}
+    </nav>
+</article>
+{{- end }}
