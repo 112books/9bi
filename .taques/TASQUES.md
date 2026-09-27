@@ -51,6 +51,8 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | Data | ID | Tasca | Temps | Commit |
 |---|---|---|---|---|
+| 27/09 | — | `/mes-visitats/` amb el top 10 real: l'script cridava un endpoint de GoatCounter que no existeix (400) i es publicaven dades velles | ~10 min | `428593971` |
+| 27/09 | — | Pàgines de gràcies dels formularis amb el disseny del web (`/contacte/gracies/`, `/incorpora-te/gracies/`) i redirecció 303 des del servidor, desplegada | ~15 min | `b1e399dd8` |
 | 27/09 | T-05 | Cartell de `/concurs/votacio/` amb el text propi del 36è concurs (fora la còpia de «demostració Taro») | ~5 min | `e6346bcef` |
 | 27/09 | T-04 | Avís de calendari `.ics` per a la caducitat del certificat | ~5 min | `e6346bcef` |
 | 27/09 | T-03 | Consentiment RGPD al servidor (codi + proves, 9bi i Taro; proves de 9bi reparades). **Desplegat 19:20**: POST sense casella → 400 en viu | ~15 min | `e6346bcef` |

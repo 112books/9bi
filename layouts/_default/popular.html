@@ -18,7 +18,7 @@
     <li>
       {{- with $page -}}
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      <span class="popular-count">({{ $itemCount }} visites)</span>
+      <span class="popular-count">({{ $itemCount }} {{ cond (eq (int $itemCount) 1) "visita" "visites" }})</span>
       {{- else -}}
       <span class="popular-missing">{{ $itemPath }}</span>
       {{- end -}}
