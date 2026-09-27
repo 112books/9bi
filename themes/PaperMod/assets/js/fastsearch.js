@@ -76,7 +76,19 @@ const renderResults = (results) => {
 
     for (const result of results) {
         const li = document.createElement('li');
-        const titleText = document.createTextNode(result.item.title);
+        const head = document.createElement('span');
+        head.className = 'entry-head';
+        head.appendChild(document.createTextNode(result.item.title));
+
+        // Data de publicació: molts articles comparteixen títol (o no en tenen),
+        // així que la data és el que permet distingir-los al resultat.
+        if (result.item.date) {
+            const dateText = document.createElement('span');
+            dateText.className = 'entry-date';
+            dateText.textContent = result.item.date;
+            head.appendChild(dateText);
+        }
+
         const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
         svg.setAttribute('width', '24');
         svg.setAttribute('height', '24');
@@ -95,7 +107,7 @@ const renderResults = (results) => {
         link.href = result.item.permalink;
         link.setAttribute('aria-label', result.item.title);
 
-        li.appendChild(titleText);
+        li.appendChild(head);
         li.appendChild(svg);
         li.appendChild(link);
         fragment.appendChild(li);

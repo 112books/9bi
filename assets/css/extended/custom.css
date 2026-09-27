@@ -2100,3 +2100,26 @@ h1, h2, h3, h4, h5, h6 {
     transform: none;
   }
 }
+
+/* Cerca (/search/ i 404): títol i data del resultat agrupats a l'esquerra;
+   la flecha continua a la dreta gràcies al justify-content: space-between
+   de la regla del tema (.searchResults li). */
+.searchResults .entry-head {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.6rem;
+  min-width: 0;
+}
+
+.searchResults li > svg {
+  flex: 0 0 auto;
+}
+
+.searchResults .entry-date {
+  flex: 0 0 auto;
+  font-size: 0.82rem;
+  font-weight: 400;
+  color: var(--secondary);
+  white-space: nowrap;
+}

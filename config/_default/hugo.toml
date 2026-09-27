@@ -79,6 +79,14 @@ ignoreFiles = ["README.txt"]
     Text = ""
     appendFilePath = false
 
+  # Cerca del web (/search/ i la del 404).
+  # sense límit, Fuse tornava gairebé totes les pàgines com a resultat perquè
+  # qualsevol paraula que aparegués dins del text d'un article comptava com a
+  # coincidència exacta; el resultat eren milers d'entrades amb títols repetits.
+  [params.fuseOpts]
+    limit = 100
+    threshold = 0.3
+
 [[menu.main]]
     identifier = "home"
     name = "Inici"
