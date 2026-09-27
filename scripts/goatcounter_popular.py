@@ -18,8 +18,6 @@ desplegament del web continuï igual.
 """
 
 import argparse
-import csv
-import io
 import json
 import os
 import re
@@ -34,35 +32,41 @@ API = "https://9bi.goatcounter.com/api/v0/stats"
 ARTICLE_RE = re.compile(r"^\d{4}/\d{2}/.*\.html$")
 
 
-def fetch_top_pages(days: int, api_key: str, site: str = "9barrisimatge"):
-    since = date.today() - timedelta(days=days)
-    url = (f"{API}/pages?as=csv&from={since.isoformat()}"
-           f"&tz=Europe/Madrid&site={site}&limit=100")
-    req = urllib.request.Request(url, headers={
-        "Authorization": f"Bearer {api_key}",
-        "Accept": "text/csv",
-    })
-    with urllib.request.urlopen(req, timeout=60) as r:
-        data = r.read().decode("utf-8")
-    rows = []
-    # El títol pot contenir comes i cometes, de manera que cal el mòdul csv
-    # i no partir la línia a sac: path, title, count, percent
-    reader = csv.reader(io.StringIO(data))
-    next(reader, None)
-    for parts in reader:
-        if len(parts) < 3:
-            continue
-        path = parts[0].strip()
-        count = parts[2].strip()
-        if not path or not count.isdigit():
-            continue
+def parse_hits(hits, top=10):
+    """Articles (/AAAA/MM/slug.html) de la resposta de /stats/hits, ordenats
+    per visites. Les rutes antigues de Codeberg (/9bi/...) es compten com la
+    mateixa pàgina."""
+    totals = {}
+    for item in hits:
+        path = (item.get("path") or "").strip().lstrip("/")
+        if path.startswith("9bi/"):
+            path = path[len("9bi/"):]
         if not ARTICLE_RE.match(path):
             continue  # només articles, no pàgines internes
-        if int(count) == 0:
-            continue  # sense visites no és un article "més visitat"
-        rows.append({"path": "/" + path.lstrip("/"), "count": int(count)})
-    rows.sort(key=lambda r: r["count"], reverse=True)
-    return rows[:10]
+        count = item.get("count")
+        if not isinstance(count, int):
+            count = sum(s.get("daily", 0) for s in item.get("stats", []))
+        if count > 0:
+            totals["/" + path] = totals.get("/" + path, 0) + count
+    rows = [{"path": k, "count": v} for k, v in totals.items()]
+    rows.sort(key=lambda r: (-r["count"], r["path"]))
+    return rows[:top]
+
+
+def fetch_top_pages(days: int, api_key: str, top: int = 10):
+    """Mateix endpoint JSON que scripts/fetch_9bi_analytics.py (el que funciona
+    per a /stats/). L'antic /stats/pages?as=csv no existeix i donava 400."""
+    end = date.today()
+    start = date.today() - timedelta(days=days)
+    url = (f"{API}/hits?start={start.isoformat()}&end={end.isoformat()}"
+           f"&limit=100")
+    req = urllib.request.Request(url, headers={
+        "Authorization": f"Bearer {api_key}",
+        "Accept": "application/json",
+    })
+    with urllib.request.urlopen(req, timeout=60) as r:
+        data = json.loads(r.read().decode("utf-8"))
+    return parse_hits(data.get("hits", []), top)
 
 
 def main():
