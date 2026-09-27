@@ -83,7 +83,7 @@ Els dies anteriors al 25/09 només tenen el total al registre diari (el detall h
 
 | Data | Temps | Registre |
 |---|---|---|
-| 27/09 | ~5 h 11 min (sessió 2 ~4 h 55 min + sessió 3 16 min) | [2026-09-27.md](2026-09-27.md) |
+| 27/09 | ~5 h 41 min (sessió 2 ~4 h 55 min + sessió 3 46 min) | [2026-09-27.md](2026-09-27.md) |
 | 25/09 | ≥ 2 h 10 min (3 tasques sense tancar) | [2026-09-25.md](2026-09-25.md) |
 | 22/09 | ~5 h (amb pauses) | [2026-09-22.md](2026-09-22.md) |
 | 20/09 | ~1 h 17 min | [2026-09-20.md](2026-09-20.md) |
