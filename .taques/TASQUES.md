@@ -52,10 +52,10 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | Data | ID | Tasca | Temps | Commit |
 |---|---|---|---|---|
-| 27/09 | T-05 | Cartell de `/concurs/votacio/` amb el text propi del 36è concurs (fora la còpia de «demostració Taro») | ~5 min | *(aquest commit)* |
-| 27/09 | T-04 | Avís de calendari `.ics` per a la caducitat del certificat | ~5 min | *(aquest commit)* |
-| 27/09 | T-03 | Consentiment RGPD al servidor (codi + proves, 9bi i Taro); proves de 9bi reparades (ja petaven abans) | ~10 min | *(aquest commit)* — falta desplegar |
-| 27/09 | — | Registre de tasques fora del `CLAUDE.md` (aquest fitxer) | ~10 min | *(aquest commit)* |
+| 27/09 | T-05 | Cartell de `/concurs/votacio/` amb el text propi del 36è concurs (fora la còpia de «demostració Taro») | ~5 min | `e6346bcef` |
+| 27/09 | T-04 | Avís de calendari `.ics` per a la caducitat del certificat | ~5 min | `e6346bcef` |
+| 27/09 | T-03 | Consentiment RGPD al servidor (codi + proves, 9bi i Taro); proves de 9bi reparades (ja petaven abans) | ~10 min | `e6346bcef` — falta desplegar |
+| 27/09 | — | Registre de tasques fora del `CLAUDE.md` (aquest fitxer) | ~10 min | `e6346bcef` |
 | 27/09 | — | Data d'activació de la votació (01/12–15/12) i verificació del QR | 7 min | `c244a17bd` |
 | 27/09 | — | Documentació, registre d'hores i sincronització | 12 min | `42c8f6c84` |
 | 27/09 | — | Desplegament de la votació al servidor (BBDD buida, `/admin/obres` 200) | 8 min | `42c8f6c84` |
