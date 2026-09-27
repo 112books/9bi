@@ -69,7 +69,7 @@
             <span class="stat-sep" aria-hidden="true">·</span>
             <span class="stat-num" data-target="{{ $anys }}">{{ $anys }}</span> anys
             <span class="stat-sep" aria-hidden="true">·</span>
-            <span class="stat-num" data-target="{{ $membres }}">{{ $membres }}</span> <a href="{{ "qui-som/#qsb-membres" | relURL }}">membres</a>
+            <span class="stat-num" data-target="{{ $membres }}">{{ $membres }}</span> <a href="{{ "qui-som/#membres" | relURL }}">membres</a>
         </span>
     </div>
     <div class="footer-bottom">
@@ -182,18 +182,54 @@
         });
     });
 
-    // Deep-link a pestanyes de Qui som (radios qsb-*): l'enllaç del peu
-    // «membres» arriba com a /qui-som/#qsb-membres; cal marcar el radio.
+    // Pestanyes de «Qui som»: cada etiqueta té un id llegible, de manera que
+    // l'enllaç per compartir una pestanya és /qui-som/#membres,
+    // /qui-som/#9barrisimatgealsmitjans… En obrir-lo s'activa la pestanya, i en
+    // clicar una pestanya l'adreça es queda enllaçable (replaceState, per no
+    // omplir l'historial del navegador de passos). També s'accepten els ids
+    // tècnics antics (#qsb-membres) per als enllaços que ja s'havien difós.
     (function () {
-        var hash = decodeURIComponent(window.location.hash.replace(/^#/, ""));
-        if (!hash) return;
-        var radio = document.getElementById(hash);
-        if (radio && radio.type === "radio") {
-            radio.checked = true;
-            var panelId = hash.replace(/^qsb-/, "qsb-panel-");
-            var panel = document.getElementById(panelId);
-            (panel || radio).scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
-        }
+        var etiquetes = document.querySelectorAll(".qsb-viewlist .qsb-viewtab");
+        if (!etiquetes.length) return;
+
+        var normalitza = function (t) {
+            return t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]/g, "");
+        };
+
+        var obre = function () {
+            var fragment = decodeURIComponent(window.location.hash.replace(/^#/, ""));
+            if (!fragment) return;
+            var buscant = normalitza(fragment);
+            for (var i = 0; i < etiquetes.length; i++) {
+                var etiqueta = etiquetes[i];
+                if (normalitza(etiqueta.id) !== buscant && normalitza(etiqueta.htmlFor) !== buscant) continue;
+                var radio = document.getElementById(etiqueta.htmlFor);
+                if (radio && !radio.checked) radio.checked = true;
+                // L'enllaç pot apuntar al radio invisible (ids antics #qsb-*),
+                // i com que és position:absolute sense top, el salt del
+                // navegador l'endina en un punt unpredictable. Per això el
+                // reposicionem nosaltres a l'etiqueta, que sí que es veu.
+                // Sense fragment a l'URL no es fa cap salt: qui obre /qui-som/
+                // ha de trobar la pàgina on era, sense que es mogui res.
+                etiqueta.scrollIntoView({ block: "start" });
+                return;
+            }
+        };
+
+        obre();
+        // El navegador posa el salt del fragment al final, quan resol la URL:
+        // si es corregís només al principi, aquest últim salt el desfaria.
+        window.addEventListener("load", obre);
+        window.addEventListener("hashchange", obre);
+
+        // S'escolta el clic de l'etiqueta i no el canvi del radio: així també
+        // s'enllaça la pestanya que ja estava activa, on el navegador no
+        // llança cap esdeveniment perquè el radio no canvia de valor.
+        etiquetes.forEach(function (etiqueta) {
+            etiqueta.addEventListener("click", function () {
+                if (etiqueta.id) history.replaceState(null, null, "#" + etiqueta.id);
+            });
+        });
     })();
 
 </script>
