@@ -34,7 +34,9 @@ class Quiet(WSGIRequestHandler):
         pass
 
 
-def post(path, fields, headers=None, method="POST"):
+def post(path, fields, headers=None, method="POST", consent=True):
+    if consent:
+        fields = dict(fields, consentiment="sí")
     data = urllib.parse.urlencode(fields).encode()
     req = urllib.request.Request(BASE + path, data=data, method=method)
     for k, v in (headers or {}).items():
@@ -94,8 +96,14 @@ s, _ = post("/envia/inventat", {"nom": "Prova"},
             {"Origin": ORIGIN})
 print("formulari desconegut", s, "(esperat 404)")
 
-s, _ = post("/envia/contacte", {"_honey": ""}, {"Origin": ORIGIN})
+s, _ = post("/envia/contacte", {"_honey": ""}, {"Origin": ORIGIN}, consent=False)
 print("sense camps     ", s, "(esperat 400)")
+
+n = len(SMTP_RECEIVED)
+s, _ = post("/envia/contacte", {"nom": "Prova", "missatge": "x"},
+            {"Origin": ORIGIN}, consent=False)
+print("sense consentiment", s, "(esperat 400 i cap correu)")
+ok &= s == 400 and len(SMTP_RECEIVED) == n
 
 s, _ = post("/envia/contacte", {"nom": "Prova", "email": "no-es-un-correu",
                                 "missatge": "x", "camp_inventat": "surt?"},

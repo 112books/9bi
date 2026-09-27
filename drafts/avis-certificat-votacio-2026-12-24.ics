@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//9 Barris Imatge//Avisos//CA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:9 Barris Imatge — avisos tècnics
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+BEGIN:STANDARD
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cert-check-20261126@9barrisimatge.org
+DTSTAMP:20260927T170000Z
+DTSTART;TZID=Europe/Madrid:20261126T100000
+DTEND;TZID=Europe/Madrid:20261126T101500
+SUMMARY:Comprovar renovació del certificat SSL (votació i formularis)
+DESCRIPTION:Let's Encrypt hauria d'haver renovat el certificat ja (uns 30 d
+ ies abans de caducar).\n\nCertificat Let's Encrypt compartit per vots-cord
+ oncillo.linuxbcn.com i formularis.linuxbcn.com. Emès el 25/09/2026\, cadu
+ ca el 24/12/2026 a les 20:47 (hora de Barcelona)\, en plena exposició del
+  concurs.\n\nComprovació (notAfter ha de ser posterior a 24/12/2026):\nec
+ ho | openssl s_client -connect vots-cordoncillo.linuxbcn.com:443 -serverna
+ me vots-cordoncillo.linuxbcn.com 2>/dev/null | openssl x509 -noout -dates\
+ n\nSi no s'ha renovat: panell del hosting de linuxbcn.com > SSL > renovar 
+ el certificat dels dos subdominis.
+URL:https://vots-cordoncillo.linuxbcn.com/health
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Comprovar renovació del certificat SSL (votació i formularis)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Comprovar renovació del certificat SSL (votació i formularis)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cert-urgent-20261217@9barrisimatge.org
+DTSTAMP:20260927T170000Z
+DTSTART;TZID=Europe/Madrid:20261217T100000
+DTEND;TZID=Europe/Madrid:20261217T101500
+SUMMARY:URGENT: el certificat SSL de la votació caduca el 24/12
+DESCRIPTION:Si encara diu notAfter 24/12/2026\, la renovació automàtica N
+ O ha funcionat: renovar-lo avui. Sense certificat\, la votació i els form
+ ularis deixen de funcionar.\n\nCertificat Let's Encrypt compartit per vots
+ -cordoncillo.linuxbcn.com i formularis.linuxbcn.com. Emès el 25/09/2026\,
+  caduca el 24/12/2026 a les 20:47 (hora de Barcelona)\, en plena exposici
+ ó del concurs.\n\nComprovació (notAfter ha de ser posterior a 24/12/2026
+ ):\necho | openssl s_client -connect vots-cordoncillo.linuxbcn.com:443 -se
+ rvername vots-cordoncillo.linuxbcn.com 2>/dev/null | openssl x509 -noout -
+ dates\n\nSi no s'ha renovat: panell del hosting de linuxbcn.com > SSL > re
+ novar el certificat dels dos subdominis.
+URL:https://vots-cordoncillo.linuxbcn.com/health
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:URGENT: el certificat SSL de la votació caduca el 24/12
+TRIGGER:PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:URGENT: el certificat SSL de la votació caduca el 24/12
+TRIGGER:PT4H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

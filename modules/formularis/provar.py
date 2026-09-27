@@ -16,7 +16,7 @@ BASE = "http://127.0.0.1:%d" % PORT
 SMTP_RECEIVED = []
 
 
-def fake_send_mail(cfg, to_addr, subject, cos, reply_to=None):
+def fake_send_mail(cfg, to_addr, subject, cos, reply_to=None, **kw):
     SMTP_RECEIVED.append({"to": to_addr, "subject": subject, "body": cos,
                           "reply_to": reply_to})
     return True, ""
@@ -30,7 +30,9 @@ class Quiet(WSGIRequestHandler):
         pass
 
 
-def post(path, fields, headers=None, method="POST"):
+def post(path, fields, headers=None, method="POST", consent=True):
+    if consent:
+        fields = dict(fields, consentiment="sí")
     data = urllib.parse.urlencode(fields).encode()
     req = urllib.request.Request(BASE + path, data=data, method=method)
     for k, v in (headers or {}).items():
@@ -85,8 +87,15 @@ s, _ = post("/envia/inventat", {"nom": "Prova"},
             {"Origin": "https://9barrisimatge.org"})
 print("formulari desconegut", s, "(esperat 404)")
 
-s, _ = post("/envia/contacte", {"_honey": ""}, {"Origin": "https://9barrisimatge.org"})
+s, _ = post("/envia/contacte", {"_honey": ""}, {"Origin": "https://9barrisimatge.org"},
+            consent=False)
 print("sense camps     ", s, "(esperat 400)")
+
+n = len(SMTP_RECEIVED)
+s, _ = post("/envia/contacte", {"nom": "Prova", "missatge": "x"},
+            {"Origin": "https://9barrisimatge.org"}, consent=False)
+print("sense consentiment", s, "(esperat 400 i cap correu)")
+ok &= s == 400 and len(SMTP_RECEIVED) == n
 
 s, _ = post("/envia/contacte", {"nom": "Prova", "email": "no-es-un-correu",
                                 "missatge": "x", "camp_inventat": "surt?"},
@@ -104,8 +113,11 @@ ok &= s == 200 and "\r" not in SMTP_RECEIVED[-1]["body"] and "evil@example.org" 
 
 s, _ = post("/envia/contacte", {"nom": "Prova", "missatge": "x" * 3000},
             {"Origin": "https://9barrisimatge.org"})
-print("camp massa llarg", s, "| longitud del camp:", len(SMTP_RECEIVED[-1]["body"]))
-ok &= s == 200 and len(SMTP_RECEIVED[-1]["body"]) < 2200
+# Es mesura el camp dins del cos, no el cos sencer (porta el peu legal).
+valor = SMTP_RECEIVED[-1]["body"].split("missatge: ", 1)[1].split("\n", 1)[0]
+print("camp massa llarg", s, "| longitud del camp:", len(valor),
+      "(tope %d)" % m.MAX_CAMP)
+ok &= s == 200 and len(valor) <= m.MAX_CAMP
 
 s, _ = post("/envia/contacte", {"nom": "Prova", "missatge": "x"},
             {"Origin": "https://9barrisimatge.org", "Referer": "https://www.9barrisimatge.org/contacte/"})

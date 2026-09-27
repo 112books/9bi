@@ -26,7 +26,7 @@ A l'inici de **cada** sessió (OpenCode, Claude o la que sigui), abans de trebal
 
 Quan l'usuari demani «loop de tasques» o «seguim amb les tasques pendents»: treballar la llista de tasques **una a una**:
 
-1. **Llistar** les tasques pendents amb l'estat real verificat (no assumir res).
+1. **Llistar** les tasques pendents de `.taques/TASQUES.md` amb l'estat real verificat (no assumir res). En tancar-ne una, moure-la a «Fetes» amb data, temps i commit.
 2. **Pensar la millor manera** de fer la tasca i **fer-la** (amb aprovació explícita abans de tocar fitxers/disseny).
 3. **Verificar** (build + navegació real + desplegament). **Si no passa la verificació, arreglar-ho** i repetir.
 4. **Si no es pot seguir per faltar una decisió**: **congelar la tasca** (anotar el que falta i per què), **avisar entre tasques**, i passar a la següent.
@@ -279,12 +279,8 @@ sync-9bi.sh                        # script de sync/gestió
 2. **Codeberg ja no participa en el desplegament de producció**: el workflow canònic és `.github/workflows/deploy.yml`; `sync-9bi.sh` i la branca `pages` només es conserven com a eines/backups antigues de Codeberg. No hi ha runner útil de Forgejo Actions.
 3. `static/admin/config.yml` ja usa el backend `github` (repo `112books/9bi`) i entrada amb PAT; queda pendent convidar els editors com a col·laboradors amb accés de **Write** i comprovar els permisos reals.
 4. GoatCounter està creat a `9bi.goatcounter.com` i el secret `GOATCOUNTER_API_KEY` refresca `/stats/` a cada deploy.
-5. **Votació: la llista definitiva d'obres encara no existeix** (2026-09-27). La BBDD del servidor té les 100 obres de prova i la votació s'obrirà sola el 01/12/2026. Cal posar la llista a `[obres]` del `config.ini` i esborrar `data.db` **abans del 30 de novembre**.
-6. **`admin_secret` de la votació predictible** (el nom del concurs + l'any, sensecrets, i com que fins i tot va quedar anotat en aquest fiti cal considerarlo **compromès**): canviar-lo per un valor aleatori abans del dia. `secret` (HMAC) també ha aparegut a la sortida d'eines d'aquesta sessió: **rotar els dos**. Cap dels dos valors no s'escriu mai en aquest `CLAUDE.md` ni en cap document versionat.
-7. **Consentiment dels formularis només al client** (2026-09-27): `modules/formularis/app.py` filtra els camps per una whitelist però **no exigeix `consentiment`**; un POST directe sense la casella s'envia igual. Cal una comprovació al servidor.
-8. **Certificat del subdomini de votació** (`vots-cordoncillo.linuxbcn.com`): emès el 2026-09-25, **caduca el 2026-12-24**, dins del període de l'exposició. Verificar la renovació automàtica o renewing manual.
-9. **QR de la votació sense posar**: `content/votacio.md` té el `<div class="cartell-qr">` buit; cal generar-lo i pujar-lo a `static/images/`.
-10. **Publicar al canal de Telegram**: no lligat. `modules/autopublica/` publica el web (webhook de push → build), no xarxes. Cal token de `@BotFather` + `chat_id` (accions de l'usuari) i un script nou.
+
+> **Pendents: vegeu [`.taques/TASQUES.md`](.taques/TASQUES.md)** (font única des del 2026-09-27; no afegir-ne aquí).
 
 ## Blog real (verificat el 2026-09-17)
 
@@ -606,61 +602,9 @@ sync-9bi.sh                        # script de sync/gestió
 
 - **Telegram: NO està lligat** (comprovat el 2026-09-27). `modules/autopublica/` **no** publica a xarxes: rep el webhook de push del repositori i fa `git pull` → build → push del build, és a dir, publica el web sol. Les úniques mencions de Telegram són text (backlog, `concurs.md`, `contacte.md`). Per muntar-lo cal token d'un bot de `@BotFather` + `chat_id` del canal (accions de l'usuari) i un script nou que publiqui l'entrada nova; el punt d'enganx natural és just després del build.
 
-## Tasques pendents (backlog curt)
+## Tasques pendents
 
-> **Anotat 2026-09-21 — 5 pendents dictats per l'usuari (per no oblidar-los; cap acció feta, només registre):**
-> 1. ~~**Revisar i arreglar que surtin les imatges en miniatura al backend**~~ — **FET 2026-09-25** (commit `a04d62d56`; confirmat en viu per l'usuari).
-> 2. **Revisar si ja algú ha iniciat el procès de creació del seu usuari**.
-> 3. **Revisar que els que no son ADMIN (Tots menys jo i els que diré) només puguin veure els seus posts**.
-> 4. **Migrar ja al domini de prodicció (9barrisimatge.org)**: Canviar DNS, revisar que tot es veurà bé, revisar que les URL actuals de blogger es redireccionen on pertoca i finalment desactivar el blogger.
-> 5. **Ordenar a l'apartat de cerca les etiquetes per les que apareixen més a les que apareixen menys**.
-
-> **Anotat 2026-09-24 — futures features no prioritàries:**
-> 6. **Cerca per autor a la pàgina de l'autor** (baixa prioritat): a `/author/<slug>.html`, afegir un camp de cerca que filtra només els posts d'aquell autor. Ha de quedar clar a l'usuari que la cerca és limitada a l'autor. Implementació probable: Pagefind amb filtre de metadades per autor, o un camp `<input>` amb JS que filtra el llistat actual.
-> 7. **/stats — indicar clarament des de quan es recullen les estadístiques** i el **total que teníem a Blogger** fins al canvi de Blogger a Taro Photo App. **FET el 2026-09-25.**
-> 8. **Pàgina 404 amb cerca directa — FET (2026-09-25)**: `layouts/404.html` publica el missatge aprovat, cerca Fuse directa i enllaços a Portada, Arxiu i Contacte; resposta HTTP 404 real, `noindex` i validació responsive. Commit `70f4f626f9`, Actions `36115053496`.
-> 9. **Test real de votació pública**: l'usuari proporcionarà `numero - títol - categoria` i farà un vot des del telèfon. Cal verificar la pàgina de vot, les instruccions, l'avís legal i els resultats finals quan la votació es tanqui a la data i hora indicades.
-
-> **Anotat 2026-09-27 — incidència dictada per l'usuari:**
-> 10. ~~**A les cerces es repeteixen resultats**~~ — **RESOLT (2026-09-27, commit `bf7f1ba127`, verificat en producció)**. Era la cerca del web (`/search/` i la del 404, mateix índex i mateix `fastsearch.js`). Diagnòstic: **la cerca no filtrava res** — amb `threshold: 0.4` + `ignoreLocation: true` + el camp `content` a les claus, qualsevol paraula que aparegués en qualsevol punt d'un article puntuava com a coincidència exacta («barris» sola o «gat» retornaven les 3.026 pàgines). No hi havia límit de resultats, i a l'índex hi havia 50 grups de títols repetits (pitjor: «Sense títol» ×21), que és el que semblava «la mateixa entrada 5 cops». **Cap permalink duplicat a `index.json`; no hi havia bug d'acumulació de DOM.** Correcció aprovada per l'usuari i aplicada a 4 fitxers:
->   - `config/_default/hugo.toml`: nou `[params.fuseOpts]` amb `limit = 100` i `threshold = 0.3` (el JS del tema ja els suportava: `params.fuseOpts.limit` i `params.fuseOpts.threshold`).
->   - `themes/PaperMod/layouts/index.json`: s'afegeix `"date"` (`.Date | time.Format ":date_medium"` → «21 de maig 2013» en català, immune als fusos horaris del navegador) només si la data no és zero (3.008 amb data, 18 pàgines estàtiques sense).
->   - `themes/PaperMod/assets/js/fastsearch.js`: `renderResults()` agrupa títol + data en un `span.entry-head` (preserva el layout `space-between` del tema i la navegació per teclat, que usa `.entry-link` i `parentElement`).
->   - `assets/css/extended/custom.css`: `.entry-head` (inline-flex, baseline, gap 0.6rem), `svg { flex: 0 0 auto }` i `.entry-date` (0.82rem, secondary, nowrap).
->   - Mesurats abans/després (consulta «9 barris imatge»): 3.026→100 resultats, títols repetits 50 grups→0, «gat» 3.026→76, «reunió» 143→34. Top-5 idèntic amb i sense límit. QA local + producció: 100 resultats, data visible, 0 errors de consola, sense overflow a 375px.
->   - **Pendent de contingut** (decisió de l'usuari: tractar els títols a part): 21 posts «Sense títol» + ~33 grups amb el mateix títol. Amb la data al resultat ja són distingibles visualment.
-
-- **Pàgina de Crèdits (`content/credits.md`) — FET (2026-09-21)**: títol «Crèdits d'aquest projecte»; secció «Desenvolupament» reescrita (LinuxBCN a partir de la necessitat vista per **Joan Linux**, membre de 9 Barris Imatge: fer en programari lliure el que es portava a Blogger amb les seves limitacions — publicar àlbums per a perfils poc tècnics, dependència i poca flexibilitat de Blogger —; enllaç al repo `linuxbcn/9bi`); secció nova **«L'aplicació Taro»** (programari lliure per a associacions fotogràfiques: gestió i exhibició de fotografies; versió definitiva a LinuxBCN.com, ara en fase beta, suggeriments benvinguts especialment dels membres de 9bi); Python actualitzat a «les aplicacions dels mòduls de Taro (formularis, votació, autopublicació)»; **blog → web** a les FAQ («Puc fer servir les fotografies del web?», «En webs, xarxes…»).
-- **Logo Taro al peu — FET (2026-09-21)**: fons blanc arrodonit (`<rect rx="230">`) dins `taro-logo-text.svg` (arrel + `assets/images/`) perquè es vegi en tema fosc (la flor és negra); el text «Taro» ja porta contorn negre (stroke) que l'aguanta sobre el blanc. `layouts/_partials/footer.html`: `a.taro-mark` amb el logo 69×70 + `<span class="taro-app-name">Photo App</span>` a sota. `custom.css`: flex columna, alineat esquerra, font «Helvetica Neue», color `var(--primary)` (fosc en clar / clar en fosc).
-- **Formulari (`content/contacte.md`)**: **fet (2026-09-19)** — camp nou `entitat` ("A quina entitat de Nou Barris pertanys o representes (opcionalment)", input opcional, patró `assumpte`), entre `assumpte` i `missatge`.
-- **Membres (`layouts/_shortcodes/membres.html`)**: **fet (2026-09-19)** — els membres sense `web` enllacen a «Posts al blog» (`/author/<slug>.html`) en lloc de «—».
-- **`content/privacitat.md`**: **fet (2026-09-18)** — adreça real (Casal de Barri de Prosperitat) i **sense NIF** (el col·lectiu no en té); sense placeholders. (El correu ja hi és: info@9barrisimatge.org.)
-- **Peu / legal**: peu de **5 columnes** fet (logo · buida · «El web» · «Legal» · «9 Barris en números»). `avis-legal.md`, `privacitat.md` i `cookies.md` tenen contingut publicat. Pendent: revisió jurídica final de la resta d'adequació RGPD.
-- **Auditoria de seguretat**: **fet (2026-09-25)**; informe a `~/Desktop/cyber-neo-report-9arrisimatge.org-2026-09-25.md`, quick wins i correccions de la votació aplicats. Queden pendents els SHA-pin de CI/CD, la sortida de credencials de `deploy.sh`, 11 fitxers `.dl-*` i revisar `modules/taro/.gitignore`.
-- **Enllaços d'àlbums trencats (Picasa Web → Google Photos)** (proposada 2026-09-18): quan Google va capturar/tanar Picasa Web, van quedar **llocs a enllaços d'àlbums morts a molts posts**. El camp `album_url` (extret per `migrate_live.py` del primer enllaç al voltant de la imatge) apunta a rels URLs de Picasa. Tasca fosca: **detectar quins `album_url` (i enllaços de Google Photos/Picasa dins dels posts) no funcionen** i **refer-los** o bé apuntar-los a l'àlbum equivalent de Google Photos si s'ha reconstruit. Nota de l'usuari: ell (Joan "Linux") va fixar els seus a mà, però **la resta d'autors no ho van fer** → cal revisar per autor. Estratègia proposada: revisar `content/posts/` per patrons `<a href="https://picasaweb.google.com/…">` (i variants) i valorar-ne la resposta HTTP, després decidir com refer-los (buscar a Google Photos pel títol/àlbum, o eliminar l'enllaç si no es recupera). Pot anar lligat al pipeline de votació/àlbums del Concurs.
-- **Auditoria d'accessibilitat** (encarregada 2026-09-17, pendent).
-- **Auditoria de SEO i IA** (encarregada 2026-09-18): deixar el web **ben preparat per a motors de cerca i agents d'IA** (metadades, dades estructurades, sitemap/robots, OpenGraph, etc.).
-- **Document d'URLs de Blogger (SEO/redireccions)** (encarregat 2026-09-18): recull de **totes les URL actuals del blog Blogger** per comprovar que coincideixen amb les entrades actuals del web (l'estructura `/:year/:month/:slug.html` + `uglyURLs = true` ho preserva) o fer una **redirecció a la nova URL** — tema cercadors i SEO.
-- **`content/qui-som.md`** (secció «Membres»): **implementat**. Shortcode `{{< membres >}}` itera `data/membres/` (24 fitxers: 12 actius + 11 veterans + Cordoncillo). Pendent: completar els **Instagram** que falten i no donar accés d'escriptura als membres inactius.
-- **Comentaris al web**: implementar un sistema de comentaris amb **fort control d'spam** (pendent d'escollir la solució/proveïdor).
-- **Compartir a xarxes**: botons per compartir fàcilment a **Instagram** i les xarxes que es portin ara (pendent).
-- **Tipografies**: **implementat (2026-09-18)** — cos **Montserrat** (woff2 400/700/800) + títols **Gillius ADF** (OTF 400/700), autoallotjades a `static/fonts/`, `@font-face` i overrides a `custom.css` (urls `../../fonts/…`) i `preload` a `extend_head.html`. **Sense cap CDN** (RGPD). Pendent opcional: convertir els OTF de Gillius a woff2.
-- **Votació popular per QR** (concurs): **`modules/votacio/` (M1) fet i testejat (2026-09-19)** — app WSGI stdlib (0 deps en producció): `/v/<token>`, admin recompte/export/tancar, CSRF, rate-limit, geofencing off/soft/hard, i18n ca/es/en. **Decisions 2026-09-19**: geo **soft** (radi 500 m Casal Prospe), sense mòbil → **vot en paper** (`tally --paper`), `collect_data=none`, allotjament **Dinahosting compartit (Passenger)** primer (VPS Lite ~34 €/mes només si falla). **Pendent**: confirmar Python/Passenger al panell de Dinahosting → desplegar (1–15 des 2026, secrets reals, `ssl=1`); confirmar **AGPL-3.0** i repo `9bi-apps`. Vegeu la sessió 2026-09-19 (v1).
-
-- **Pestanyes a «Qui som»** (aplicat 2026-09-18): **4 pestanyes fetes** — Qui som (Història) · Com funcionem (Reunions + Com funcionem + subvencions) · Membres (`{{< membres >}}`) · Relacions (entitats + links amics) — amb el patró CSS pur del Concurs (radios `name="qsb-view"`, classes `.qsb-*` a `custom.css`). **Pendent: 5a pestanya «Història de la fotografia a Nou Barris»** (contingut de la recerca, sessió separada).
-- **Història de la fotografia a Nou Barris** (aprovat: incloure a la pestanya nova): genealogia ~1960–2026 amb 4 categories (A fotògrafs de Nou Barris · B que l'han documentat · C fotografia comunitària/de barri · D ecosistema Can Basté) i columna «per què és conegut?»; noms sense font es marquen «pendent de verificar».
-- **Núvol d'etiquetes a la Cerca** (`/search/`): **implementat (2026-09-18)**. La **depuració d'etiquetes** ja està **aplicada** (sessió v6). **2026-09-19 (v2)**: anys com a tag eliminats (excepte `1972`) i els **125 articles sense tag** curats — vegeu la sessió v2.
-- **Responsive header**: **fix fet i desplegat (2026-09-18)** — mides base de `.menu-icon`/`.menu-icon svg` fora del media query; icones a 17 px al mòbil.
-- **Footer «amb lògica»**: **implementat (2026-09-18)** — amplada igual a la del header (`--nav-width`) arreu; versió de telèfon: **Logo + «El web»** · **«Legal»** amb tots els links en una sola línia · **«9 Barris en números»** amb totes les dades en una sola línia.
-- **Concurs Cordoncillo (investigació pròpia)**: biografia de Cordoncillo, origen documentat (1990), cronologia i 35 anys de guanyadors; incidències de numeració a l'arxiu.
-
-## Infraestructura i comunicació (pendent)
-
-- **Butlletí**: cal tenir un butlletí (newsletter) per al col·lectiu.
-- **DNS i correu**: repensar què fer amb els DNS; es vol **correu gratuït i lliure per a cada membre** i un de **genèric** de l'entitat.
-- **Grup de correu**: llista/grup per enviar un correu a tots els membres.
-- **Telegram**: grup **privat** i **públic** (aquest darrer unidireccional, on s'envien els posts quan es publiquen). **Tasca (2026-09-18)**: muntar un **bot** (token de @BotFather), afegir-lo al grup, obtenir el `chat_id` i crear `scripts/telegram.py` que enviï missatges llegint `TELEGRAM_BOT_TOKEN` i `TELEGRAM_CHAT_ID` de l'entorn (mai al repo).
-- **Xarxes socials (Instagram i Facebook)** (2026-09-18): posar links a l'**Instagram** i al **Grup de Facebook** al web, i dissenyar una **eina automàtica** perquè cada post nou es publiqui automàticament a IG i FB (mateix patró que el bot de Telegram pendent).
+> **Pendents: vegeu [`.taques/TASQUES.md`](.taques/TASQUES.md)** (font única des del 2026-09-27; no afegir-ne aquí).
 
 ## Properes sessions
 

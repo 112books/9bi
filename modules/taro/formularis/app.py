@@ -552,6 +552,14 @@ def form_post(environ, start_response, form):
                                  "<p>%s</p>" % htmlmod.escape(
                                      i18n.get("msg_empty", ""))))
 
+    # Consentiment RGPD: la casella és obligatòria també al servidor, no només
+    # al navegador (un POST directe sense la casella no s'ha d'enviar).
+    if "consentiment" in allow and not camps.get("consentiment"):
+        return respond(environ, start_response, "400 Bad Request",
+                       page_html(lang, i18n.get("title_error", ""),
+                                 "<p>%s</p>" % htmlmod.escape(
+                                     i18n.get("msg_consent", ""))))
+
     dest = cfg.get("destinataris", form,
                    fallback=cfg.get("general", "destinatari", fallback=""))
     if not dest or "@" not in dest:
