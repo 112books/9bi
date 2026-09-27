@@ -57,6 +57,26 @@ Els continguts (textos i fotografies) es publiquen sota la llicència **[Creativ
 - **NoComercial (NC):** no pots fer servir el material per guanyar diners.
 - **CompartirIgual (SA):** si el modifiques o en fas una obra derivada, l'has de publicar amb la mateixa llicència.
 
-El **[codi del lloc](https://codeberg.org/linuxbcn/9bi)** és programari lliure.
+### El codi, que és una altra cosa
+
+El codi del lloc i dels mòduls que hi treballen al darrere (votació, formularis,
+publicació automàtica) **no** és del col·lectiu cap sol: es publica sota la
+**[GNU Affero General Public License 3.0](https://www.gnu.org/licenses/agpl-3.0.html)**, amb el
+text sencer al repositori.
+
+Què vol dir, en català clar:
+
+- **Pots fer-ne el que vulguis**, també per a un col·lectiu teu, sempre que
+  comparteixis les millores.
+- **Si el fas servir per Internet** —com nosaltres amb aquest web— i el
+  modifiques, també has d'oferir el codi modificat. Aquesta és la diferència
+  entre l'AGPL i la GPL, i és a propòsit: volem que el programari continuï
+  sent de tothom, també quan ja està en marxa.
+- **Sense cap garantia**: es lliura tal qual, i el manteniment no és nostre
+  obligació.
+
+El codi viu a [github.com/112books/9bi](https://github.com/112books/9bi) i la
+versió per a col·lectius, el **Taro Photo App**, a
+[linuxbcn.com/ca/projectes/taro-photo-app/](https://linuxbcn.com/ca/projectes/taro-photo-app/).
 
 Si tens dubtes sobre l'ús de les fotografies, pots consultar les [preguntes freqüents](/faq/).

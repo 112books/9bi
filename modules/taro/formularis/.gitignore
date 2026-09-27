@@ -1,0 +1,4 @@
+# config i dades locals (mai al repositori)
+config.ini
+__pycache__/
+*.pyc

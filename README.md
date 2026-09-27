@@ -51,15 +51,18 @@ El resultat es genera a `public/`.
 
 ## Publicació
 
-La branca `main` local segueix el remot `github`:
+`origin` apunta al repositori de GitHub, que és producció; `codeberg` apunta al
+mirall de reserva:
 
 ```bash
-git push github main
+git push origin main
 ```
 
-GitHub Actions construeix el lloc i el publica a `https://9barrisimatge.org/`. Cal comprovar el deploy i les pàgines affectedes abans de considerar la feina tancada.
+GitHub Actions construeix el lloc i el publica a `https://9barrisimatge.org/`. Cal comprovar el deploy i les pàgines afectes abans de considerar la feina tancada.
 
-`origin` apunta al backup de Codeberg. No hi ha cap push habitual fins que la quota permeti sincronitzar-lo de nou. **No s'ha d'esborrar ni reinicialitzar cap dels dos repositoris**: GitHub és producció i Codeberg conserva l'historial de reserva.
+No hi ha cap push a `codeberg` fins que la quota del compte permeti
+sincronitzar-lo de nou. **No s'ha d'esborrar ni reinicialitzar cap dels dos
+repositoris**: GitHub és producció i Codeberg conserva l'historial de reserva.
 
 ## CMS dels editors
 
@@ -96,6 +99,37 @@ Les pàgines viuen a `content/guia/` i es construeixen amb:
 - enllaç «Guia al web» al capçalera del CMS
 
 La documentació de manteniment més àmplia, l'estat real, el backlog i les decisions es mantenen a `CLAUDE.md`.
+
+## Llicència
+
+El codi d'aquest repositori —plantilles del lloc, guions de migració i
+manteniment, i els mòduls en Python— és del **Col·lectiu 9 Barris Imatge** i es
+publica sota la **GNU Affero General Public License versió 3.0**:
+
+> Copyright (C) 2026 Col·lectiu 9 Barris Imatge
+>
+> Aquest programari és programari lliure: el podeu redistribuir i modificar
+> sota les condicions de la Llicència Pública General Affero de GNU versió 3, tal
+> com és publicada per la Free Software Foundation.
+>
+> Aquest programari es distribueix amb l'esperança que sigui útil, però SENSE
+> CAP GARANTIA; ni tan sols amb la garantia implícita de COMERCIALITZACIÓ o
+> ADEQUACIÓ A UN FI DETERMINAT. Vegeu la Llicència Pública General Affero de
+> GNU per a més detalls.
+
+El text complet és el fitxer [`LICENSE`](LICENSE). L' Affero és el que fa que
+l'obligació de compartir el codi s'apliqui també quan el web es fa servir per
+donar un servei per Internet, que és precisament el cas d'un col·lectiu que
+vol oferir el seu web a la seva comunitat.
+
+Els **continguts** —textos i fotografies dels articles— tenen una llicència
+different: **CC BY-NC-SA 4.0**, declarada a la pàgina de crèdits del web
+(`/credits/`). El codi i el contingut no es barregen: la llicència del codi no
+s'aplica a les fotografies dels membres, ni a la inversa.
+
+Els components de tercers que s'inclouen al repositori (PaperMod, Sveltia CMS i
+les tipografies) conserven la seva pròpia llicència, amb els textos a
+[`LICENSES/`](LICENSES/README.md).
 
 ## Pàgina 404
 

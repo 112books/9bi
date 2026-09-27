@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Copyright (C) 2026 Col·lectiu 9 Barris Imatge
+# Llicència i avisos (fitxer LICENSE a l'arrel del repositori)
 """
-modules/taro/app.py — Router WSGI del bundle «taro» (9 Barris Imatge)
-=====================================================================
-Monta 3 aplicacions Passatger existents sota un sol punt de muntatge,
-sota /taro/:
+modules/taro/app.py — Router WSGI del bundle «taro»
+====================================================
+Monta les 3 aplicacions sota un sol punt de muntatge, sota /taro/:
 
     /taro/health           → health NET del router (sense cap app)
     /taro/autopublica/…    → dispatch a modules/taro/autopublica/app.py
@@ -12,27 +14,46 @@ sota /taro/:
 
 Cada submòdul llegeix el SEU config.ini de la SEVA carpeta, exactament
 com quan funcionen sols: el router només encamina (PATH_INFO) i reenvia
-SCRIPT_NAME perquè cada app sàpiga on és.
+SCRIPT_NAME perquè cada app sàpiga on és. Per això cada submòdul ha de
+poder instal·lar-se separat i sense res del router al voltant.
 """
 
+import importlib.util
 import os
 import sys
 
 MODULE_DIR = os.path.dirname(os.path.abspath(__file__))
 
+_APPS = {}
+
+
+def load_app(name):
+    """carrega el submòdul des del camí del fitxer i en torna el callable.
+
+    Els tres submòduls es diuen app.py, així que NO es poden importar pel
+    nom: el segon i el tercer retornarien el primer de sys.modules i tots
+    acabarien servint la mateixa aplicació. Els carreguem per camí, amb un
+    nom propi a sys.modules, i els desem a la memòria per no tornar a
+    executar-los a cada petició."""
+    if name in _APPS:
+        return _APPS[name]
+    path = os.path.join(MODULE_DIR, name, "app.py")
+    mod_name = "taro_app_" + name
+    spec = importlib.util.spec_from_file_location(mod_name, path)
+    if spec is None or spec.loader is None:
+        raise ImportError("no s'ha pogut carregar " + path)
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[mod_name] = module
+    spec.loader.exec_module(module)
+    _APPS[name] = getattr(module, "application")
+    return _APPS[name]
+
 
 def dispatch(app_dir, environ, start_response):
     """carrega l'aplicació del submòdul i li delega la petició (amb el
     PATH_INFO ja reescrit: uns vindran com /taro/autopublica/… i d'altres
-    com /autopublica/… segons com configuri Passenger el SCRIPT_NAME/PATH_INFO)"""
-    path = os.path.join(MODULE_DIR, app_dir)
-    if path not in sys.path:
-        sys.path.insert(0, path)
-    app = getattr(__import__("app"), "application", None)
-    if app is None:
-        app = getattr(__import__("app"), "app")
-    # en alguns app.py el callable es diu "application", en d'altres "app"
-    return app(environ, start_response)
+    com /autopublica/… segons com configuri el SCRIPT_NAME/PATH_INFO)"""
+    return load_app(app_dir)(environ, start_response)
 
 
 def application(environ, start_response):

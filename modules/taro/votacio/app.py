@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Copyright (C) 2026 Col·lectiu 9 Barris Imatge
+# Llicència i avisos (fitxer LICENSE a l'arrel del repositori)
 """Votacio - vot public d'un concurs fotografic. M1 (stdlib nomes).
 
 App WSGI en Python pur (sense dependencies) compatible amb Passenger,
@@ -42,17 +45,27 @@ SUPPORTED_LANGS = ("ca", "es", "en")
 # ---------------------------------------------------------------- helpers
 
 def load_config():
-    cfg = configparser.ConfigParser()
+    # interpolation=None: sense això configparser tracta '%' com a sintaxi i
+    # petaria amb títols que en portin ('50% de descompte') o amb la plantilla
+    # del rang d'obres ('Obra %03d'). Els secrets tenen valors per defecte
+    # explícits, no per interpolació, aix que es pot desactivar sense risc.
+    cfg = configparser.ConfigParser(interpolation=None)
     cfg.read(CONFIG_PATH, encoding="utf-8")
     return cfg
 
 
 def secret_key(cfg):
-    return os.environ.get("VOTACIO_SECRET", cfg.get("general", "secret", fallback="CHANGE-ME"))
+    s = os.environ.get("VOTACIO_SECRET") or cfg.get("general", "secret", fallback="")
+    if not s or s in ("CHANGE-ME", "CANVIA-ME", "CANVIA-ME-TOKEN"):
+        raise SystemExit("votacio: cal configurar general.secret (config.ini o VOTACIO_SECRET)")
+    return s
 
 
 def admin_key(cfg):
-    return os.environ.get("VOTACIO_ADMIN", cfg.get("general", "admin_secret", fallback="CHANGE-ME"))
+    s = os.environ.get("VOTACIO_ADMIN") or cfg.get("general", "admin_secret", fallback="")
+    if not s or s in ("CHANGE-ME", "CANVIA-ME", "CANVIA-ME-ADMIN"):
+        raise SystemExit("votacio: cal configurar general.admin_secret (config.ini o VOTACIO_ADMIN)")
+    return s
 
 
 def db_path(cfg):
@@ -70,7 +83,105 @@ def connect(cfg):
             "SELECT 1 FROM sqlite_master WHERE type='table' AND name='edicions'"
     ).fetchone() is None:
         inietit(conn)
+    else:
+        schema = os.path.join(MODULE_DIR, "schema.sql")
+        with open(schema, encoding="utf-8") as f:
+            conn.executescript(f.read())
+        afegeix_columnes(conn)
+        conn.commit()
+    # el config.ini és la font de veritat dels ajustos de l'edició: així un
+    # canvi de mode/lloc/dates/geofence s'aplica en reiniciar, sense esborrar la BD
+    e = cfg["edicio"] if cfg.has_section("edicio") else {}
+    row = conn.execute("SELECT id FROM edicions WHERE secret_token=?",
+                       (e.get("secret_token", ""),)).fetchone()
+    if row is not None:
+        sync_edicio(conn, row["id"], e)
     return conn
+
+
+# Columnes que s'han anat afegint a 'edicions' després de la creació. Una base
+# existent no es recrea, així que s'afegeixen si falten (operació idempotent).
+COLUMNES_EDICIONS = {
+    "mode": "TEXT NOT NULL DEFAULT 'votacio'",
+    "lloc": "TEXT NOT NULL DEFAULT ''",
+    "adreca": "TEXT NOT NULL DEFAULT ''",
+}
+
+
+def afegeix_columnes(conn):
+    """Afegeix a la taula edicions les columnes noves que hi faltin."""
+    existents = {r["name"] for r in conn.execute("PRAGMA table_info(edicions)")}
+    for nom, tipus in COLUMNES_EDICIONS.items():
+        if nom not in existents:
+            conn.execute("ALTER TABLE edicions ADD COLUMN %s %s" % (nom, tipus))
+
+
+def mode_config(cfg, e=None):
+    """Mode de l'edicio: 'proves' (sense limit de vots) o 'votacio' (un vot per
+    obra i dispositiu). Es llegeix de [edicio] mode; si no hi es, es dedueix de
+    vot_limit perquè els fitxers de configuració antics segueixin fent el que feien."""
+    e = e if e is not None else (cfg["edicio"] if cfg.has_section("edicio") else {})
+    m = (e.get("mode") or "").strip().lower()
+    if m in ("proves", "prova", "test"):
+        return "proves"
+    if m in ("votacio", "real", "oficial"):
+        return "votacio"
+    return "proves" if try_int(e.get("vot_limit", "1")) == 0 else "votacio"
+
+
+def limit_del_mode(mode):
+    """vot_limit efectiu: mode proves = 0 (sense limit), mode votacio = 1."""
+    return 0 if mode == "proves" else 1
+
+
+def obres_del_config(cfg):
+    """Llista d'obres del [obres] del config.
+
+    Dues formes, que es poden barrejar:
+      - línia per obra:  '12 = Titol | Autor | Categoria'
+      - rang automàtic:  'rang = 1..100' o 'rang = 1..80, 90..100 | Obra %03d'
+    El rang serveix per no escriure 100 línies a mà quan encara no hi ha títols
+    (proves, o entitats que distribueixen el sistema i potser no saben el nombre final
+    d'obres fins al dia del concurs). Les línies explícites tenen prioritat sobre
+    el rang.
+    """
+    obres = {}
+    if not cfg.has_section("obres"):
+        return obres
+    for clau, valor in cfg.items("obres"):
+        if clau.strip().lower() in ("rang", "range", "numeros", "números"):
+            trossos, _, plantilla = valor.partition("|")
+            plantilla = plantilla.strip()
+            for tros in trossos.replace(",", " ").split():
+                nums = parse_rang(tros)
+                for n in nums:
+                    obres[n] = (plantilla % n if "%" in plantilla else plantilla, "", "")
+            continue
+        numero = try_int(clau)
+        if not numero:
+            continue
+        parts = [p.strip() for p in valor.split("|")]
+        obres[numero] = (parts[0] if len(parts) > 0 else "",
+                         parts[1] if len(parts) > 1 else "",
+                         parts[2] if len(parts) > 2 else "")
+    return obres
+
+
+def parse_rang(tros):
+    """'1..100' o '1-100' -> llista de numeros. Ignora el que no s'entengui."""
+    tros = tros.strip().replace("..", "-")
+    if "-" in tros:
+        a, _, b = tros.partition("-")
+        ini, fi = try_int(a), try_int(b)
+    else:
+        ini = fi = try_int(tros)
+    if not ini or not fi:
+        return []
+    if ini > fi:
+        ini, fi = fi, ini
+    if fi - ini > 5000:      # salvaguarda: un rang de 100.000 obres seria un error
+        return []
+    return list(range(ini, fi + 1))
 
 
 def inietit(conn):
@@ -78,40 +189,74 @@ def inietit(conn):
     schema = os.path.join(MODULE_DIR, "schema.sql")
     with open(schema, encoding="utf-8") as f:
         conn.executescript(f.read())
+    afegeix_columnes(conn)
     conn.commit()
     cfg = load_config()
     e = cfg["edicio"]
     token = e.get("secret_token", "")
+    mode = mode_config(cfg, e)
     cur = conn.execute("SELECT id FROM edicions WHERE secret_token=?", (token,))
     row = cur.fetchone()
     if row is None:
         cur = conn.execute(
-            "INSERT INTO edicions (nom,data_inici,data_fi,secret_token,mode_geo,lat,lon,radi,collect_data,vot_limit,activa)"
-            " VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+            "INSERT INTO edicions (nom,data_inici,data_fi,secret_token,mode_geo,lat,lon,"
+            "radi,collect_data,vot_limit,activa,mode,lloc,adreca)"
+            " VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
             (e.get("nom", ""), e.get("data_inici", ""), e.get("data_fi", ""),
              token, e.get("mode_geo", "off"),
              try_float(e.get("lat")), try_float(e.get("lon")),
              try_int(e.get("radi")), e.get("collect_data", "none"),
-             try_int(e.get("vot_limit", "1")), try_int(e.get("activa", "0"))))
+             limit_del_mode(mode), try_int(e.get("activa", "0")),
+             mode, e.get("lloc", ""), e.get("adreca", "")))
         ed_id = cur.lastrowid
         conn.commit()
     else:
         ed_id = row["id"]
-    if cfg.has_section("obres"):
-        cur.execute("SELECT COUNT(*) AS n FROM obres WHERE edicio_id=?", (ed_id,))
-        if cur.fetchone()["n"] == 0:
-            for line in cfg.items("obres"):
-                numero = try_int(line[0])
-                if not numero:
-                    continue
-                parts = [p.strip() for p in line[1].split("|")]
-                titol = parts[0] if len(parts) > 0 else ""
-                autor = parts[1] if len(parts) > 1 else ""
-                cat = parts[2] if len(parts) > 2 else ""
-                cur.execute(
-                    "INSERT INTO obres (edicio_id,numero,titol,autor,categoria) VALUES (?,?,?,?,?)",
-                    (ed_id, numero, titol, autor, cat))
-            conn.commit()
+    # Les obres només es carreguen en la creació de la base (o si es buida). Per
+    # canviar la llista d'obres d'una edició ja_created cal esborrar la base o
+    # inserir-les a mà: així els vots ja registrats no es queden penjats.
+    cur.execute("SELECT COUNT(*) AS n FROM obres WHERE edicio_id=?", (ed_id,))
+    if cur.fetchone()["n"] == 0:
+        for numero, (titol, autor, cat) in sorted(obres_del_config(cfg).items()):
+            cur.execute(
+                "INSERT INTO obres (edicio_id,numero,titol,autor,categoria) VALUES (?,?,?,?,?)",
+                (ed_id, numero, titol, autor, cat))
+        conn.commit()
+
+
+def sync_edicio(conn, ed_id, e):
+    """Aplica al registre de l'edició els camps de configuració.
+
+    Sense això, canviar mode/lloc/dates/geofence al config.ini no tindria cap
+    efecte en una base ja creada (l'edició es va INSERTAR només el primer cop)
+    i caldria esborrar data.db. Només es toquen els camps de configuració: ni
+    les obres ni els vots.
+    """
+    mode = mode_config(None, e)
+    wanted = {
+        "nom": e.get("nom", ""),
+        "data_inici": e.get("data_inici", ""),
+        "data_fi": e.get("data_fi", ""),
+        "mode_geo": e.get("mode_geo", "off"),
+        "lat": try_float(e.get("lat")),
+        "lon": try_float(e.get("lon")),
+        "radi": try_int(e.get("radi")),
+        "collect_data": e.get("collect_data", "none"),
+        "vot_limit": limit_del_mode(mode),
+        "activa": try_int(e.get("activa", "0")),
+        "mode": mode,
+        "lloc": e.get("lloc", ""),
+        "adreca": e.get("adreca", ""),
+    }
+    row = conn.execute("SELECT * FROM edicions WHERE id=?", (ed_id,)).fetchone()
+    canvis = {k: v for k, v in wanted.items() if row[k] != v}
+    if canvis:
+        sets = ",".join("%s=?" % k for k in canvis)
+        conn.execute("UPDATE edicions SET %s WHERE id=?" % sets,
+                     list(canvis.values()) + [ed_id])
+        conn.commit()
+        print("[votacio] edicio actualitzada des del config.ini: %s"
+              % ", ".join(canvis))
 
 
 def try_int(v):
@@ -158,15 +303,199 @@ def pick_lang(environ):
     return DEFAULT_LANG
 
 
+# Disseny: tipus de lletra, colors i mesures d'un web de col·lectiu fotogràfic
+# (tema fosc per defecte, accent vermell, Montserrat + Gillius ADF). Els tipus de
+# lletra són woff2/otf servits pel docroot del subdomini (/fonts/).
+PAGE_CSS = """
+@font-face{font-family:"Montserrat";font-style:normal;font-weight:400;font-display:swap;
+  src:url(/fonts/montserrat/montserrat-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Montserrat";font-style:normal;font-weight:700;font-display:swap;
+  src:url(/fonts/montserrat/montserrat-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"Gillius ADF";font-style:normal;font-weight:400;font-display:swap;
+  src:url(/fonts/gillius/GilliusADF-Regular.otf) format("opentype")}
+@font-face{font-family:"Gillius ADF";font-style:normal;font-weight:700;font-display:swap;
+  src:url(/fonts/gillius/GilliusADF-Bold.otf) format("opentype")}
+:root{
+  --theme:#1d1e20; --entry:#2e2e33; --primary:#dadadb; --secondary:#9b9c9d;
+  --tertiary:#414244; --content:#c4c4c5; --border:#333; --accent:#e03131;
+  --gap:24px; --radius:8px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--theme); color:var(--primary);
+  font-family:"Montserrat",system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:17px; line-height:1.6;
+}
+.vwrap{max-width:720px;margin:0 auto;padding:0 var(--gap) 3rem}
+.band{height:4px;background:var(--accent)}
+.brand{display:flex;flex-wrap:wrap;gap:.35rem .8rem;align-items:baseline;
+  justify-content:space-between;padding:1rem 0 .9rem;border-bottom:1px solid var(--border);
+  font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;color:var(--secondary)}
+.brand a{color:var(--secondary);text-decoration:none}
+.brand a:hover,.brand a:focus-visible{color:var(--primary)}
+.brand strong{font-weight:700;color:var(--primary);letter-spacing:.02em;text-transform:none;font-size:.95rem}
+main{padding-top:1.6rem}
+h1,h2{font-family:"Gillius ADF","Montserrat",serif;font-weight:700;line-height:1.25}
+h1{font-size:1.85rem;margin:0 0 .5rem}
+.lead{color:var(--content);margin:0 0 1.4rem}
+.conditions{background:var(--entry);border:1px solid var(--border);border-left:4px solid var(--accent);
+  border-radius:var(--radius);padding:1rem 1.2rem;margin:0 0 1.6rem}
+.conditions h2{font-size:1.1rem;margin:0 0 .5rem}
+.conditions ul{margin:.2rem 0;padding-left:1.1rem}
+.conditions li{margin:.3rem 0}
+.note{background:var(--entry);border-left:4px solid var(--accent);border-radius:4px;
+  padding:.7rem .9rem;margin:0 0 1.4rem;color:var(--content);font-size:.92rem}
+form{display:flex;flex-direction:column;gap:.55rem}
+label{font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--secondary)}
+input#obra{width:100%;padding:.7rem .9rem;font-family:"Montserrat",sans-serif;font-size:2.1rem;
+  font-weight:700;text-align:center;color:var(--primary);background:var(--entry);
+  border:2px solid var(--tertiary);border-radius:var(--radius);-moz-appearance:textfield}
+input#obra::-webkit-outer-spin-button,input#obra::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+input#obra:focus{outline:none;border-color:var(--accent)}
+.hint{margin:.1rem 0 0;font-size:.85rem;color:var(--secondary)}
+.geo-status{margin:.2rem 0 0;font-size:.9rem;min-height:1.2em;color:var(--secondary)}
+.geo-status--wait{color:var(--secondary)}
+.geo-status--warn{color:#ffb3b3}
+.geo-status--ok{color:#9ce9b0}
+button{margin-top:.9rem;padding:.9rem 1.2rem;font-family:"Montserrat",sans-serif;font-size:1rem;
+  font-weight:700;color:#fff;background:var(--accent);border:0;border-radius:var(--radius);cursor:pointer}
+button:hover{filter:brightness(1.08)}
+button:focus-visible{outline:3px solid var(--primary);outline-offset:2px}
+.geo-btn{display:block;width:100%;margin-top:.6rem;padding:.6rem 1rem;font-size:.92rem;
+  font-weight:700;color:var(--primary);background:transparent;border:2px solid var(--tertiary)}
+.geo-btn:hover{border-color:var(--accent);filter:none}
+.msg{background:var(--entry);border:1px solid var(--border);border-left:4px solid var(--secondary);
+  border-radius:var(--radius);padding:1rem 1.2rem;margin:0 0 1.4rem}
+.msg.ok{border-left-color:#2f9e44}
+.msg.err{border-left-color:var(--accent)}
+a{color:#ff8787}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.92rem}
+th,td{border:1px solid var(--border);padding:.4rem .5rem;text-align:left}
+th{color:var(--secondary);font-weight:700}
+input[type=password]{font-family:inherit;font-size:1rem;padding:.5rem .6rem;color:var(--primary);
+  background:var(--entry);border:2px solid var(--tertiary);border-radius:var(--radius);width:100%}
+.foot{margin-top:2.4rem;padding-top:1rem;border-top:1px solid var(--border);
+  font-size:.8rem;color:var(--secondary)}
+@media (max-width:420px){ body{font-size:16px} input#obra{font-size:1.9rem} }
+.sum{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.6rem;margin:0 0 1.3rem}
+.sum div{background:var(--entry);border:1px solid var(--border);border-radius:var(--radius);padding:.7rem .85rem}
+.sum b{display:block;font-family:"Gillius ADF","Montserrat",serif;font-size:1.45rem;
+  font-weight:700;color:var(--primary);line-height:1.25;word-break:break-word}
+.sum span{display:block;font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--secondary)}
+table.tally{width:100%;border-collapse:collapse;font-size:.95rem;table-layout:fixed}
+table.tally th{text-align:left;font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--secondary);border-bottom:1px solid var(--tertiary);padding:.5rem .35rem}
+table.tally td{padding:.6rem .35rem;border-bottom:1px solid var(--border);vertical-align:top;
+  word-wrap:break-word}
+table.tally th.c-v,table.tally td.c-v{text-align:right;white-space:nowrap;width:4.5rem}
+table.tally th.c-n,table.tally td.c-n{width:5.5rem;color:var(--secondary)}
+table.tally td.c-v{font-family:"Gillius ADF","Montserrat",serif;font-size:1.25rem;font-weight:700}
+table.tally tr.lead{background:rgba(224,49,49,.16)}
+table.tally tr.lead td{color:var(--primary)}
+.t-aut{display:block;font-size:.78rem;color:var(--secondary);font-weight:400}
+.bar{display:block;height:5px;background:var(--tertiary);border-radius:3px;margin-top:.35rem;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent)}
+.tag{display:inline-block;font-size:.62rem;letter-spacing:.05em;text-transform:uppercase;
+  background:var(--accent);color:#fff;border-radius:3px;padding:.12rem .3rem;margin-left:.25rem;
+  vertical-align:.15em;font-weight:700}
+p.toplink{margin:0 0 1.2rem;font-size:.9rem}
+p.home{margin:1.5rem 0 0}
+p.home{display:flex;flex-wrap:wrap;gap:.5rem;margin:1.6rem 0 0}
+p.home a{display:inline-block;padding:.65rem 1.1rem;background:var(--entry);
+  border:1px solid var(--tertiary);border-radius:var(--radius);color:var(--primary);
+  text-decoration:none;font-size:.92rem;font-weight:700}
+p.home a:hover,p.home a:focus-visible{border-color:var(--accent);color:var(--primary)}
+.banner-test{background:rgba(224,49,49,.16);border:1px solid var(--accent);
+  border-left:4px solid var(--accent);border-radius:var(--radius);padding:.8rem 1rem;
+  margin:0 0 1.2rem;color:var(--primary);font-size:.92rem}
+.banner-test strong{display:block;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--accent);margin-bottom:.2rem}
+p.where{background:var(--entry);border:1px solid var(--border);border-radius:var(--radius);
+  padding:.7rem .9rem;margin:0 0 1.2rem;font-size:.92rem;color:var(--content)}
+p.where b{color:var(--primary)}
+@media print{
+  .band,.brand,.foot,.toplink,.banner-test,.note,button{display:none !important}
+  body{background:#fff;color:#000;font-size:12pt}
+  .vwrap{max-width:none;padding:0}
+  table.tally td,table.tally th{border-color:#999;color:#000}
+  table.tally thead{display:table-header-group}
+  tr{page-break-inside:avoid}
+}
+"""
+
+
+def cfg_str(cfg, section, key, fallback=""):
+    """valor de configuració en text, amb valor per defecte si no hi és."""
+    try:
+        v = cfg.get(section, key, fallback=fallback)
+    except Exception:
+        return fallback
+    v = (v or "").strip()
+    return v or fallback
+
+
+def lloc_votacio(cfg=None, i18n=None):
+    """nom del lloc on es fa la votació: [edicio] lloc_votacio de la config,
+    o el text genèric de la traducció si no se n'ha posat cap."""
+    i18n = i18n or get_i18n(DEFAULT_LANG)
+    defecte = i18n.get("lloc_desconegut", "l'espai on es fa la votació")
+    if cfg is None:
+        return defecte
+    return cfg_str(cfg, "edicio", "lloc_votacio", defecte)
+
+
+def fmt2(text, a, b):
+    """text amb dos marcadors (%d, %s). Si la traducció no els porta, es
+    deixa tal qual enlloc de petar: és text d'una traducció, no codi."""
+    try:
+        return text % (a, b)
+    except (TypeError, ValueError):
+        return text
+
+
+def html_link(url, label):
+    """Enllaç del peu. Sense URL configurada no imprimeix res: així no hi ha
+    ni un enllaç mort ni text sense destí quan qui l'instal·la no vol posar
+    cap URL (és el cas del config.example.ini, que les deixa buides)."""
+    if not url:
+        return ""
+    return '<a href="%s">%s</a>' % (html.escape(url, quote=True), html.escape(label))
+
+
 def page_html(title, body, lang):
+    # La marca i els enllaços del peu surten de la configuració, de manera que
+    # el mòdul no porti el nom ni les URL de ningú: els posa qui l'instal·la
+    # ([general] entitat, subtitol, url_home, url_edicio, url_privacitat).
+    cfg = load_config()
+    i18n = get_i18n(lang)
+    entitat = cfg_str(cfg, "general", "entitat")
+    subtitol = cfg_str(cfg, "general", "subtitol")
+    marca = ""
+    if entitat:
+        marca = '<div class="brand"><strong>%s</strong>%s</div>' % (
+            html.escape(entitat),
+            '<span>%s</span>' % html.escape(subtitol) if subtitol else "")
+    enllaços = (html_link(cfg_str(cfg, "general", "url_edicio"),
+                         i18n.get("link_concurs", "Torna al concurs"))
+                + html_link(cfg_str(cfg, "general", "url_home"),
+                            i18n.get("link_home", "Web")))
+    peu_priv = html_link(cfg_str(cfg, "general", "url_privacitat"),
+                         i18n.get("link_privacy", "Protecció de dades"))
     return ("<!doctype html><html lang=\"%s\"><head><meta charset=\"utf-8\">"
             "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">"
+            "<meta name=\"robots\" content=\"noindex,nofollow\">"
             "<title>%s</title>"
-            "<style>body{font-family:system-ui,sans-serif;max-width:40rem;margin:2rem auto;padding:0 1rem;line-height:1.5}"
-            "h1{font-size:1.4rem}select{font-size:1.1rem;padding:.4rem}button{font-size:1.05rem;padding:.5rem 1.2rem;cursor:pointer}"
-            ".msg{padding:.8rem;border-radius:6px;margin:1rem 0}.ok{background:#e6f4e6}.err{background:#fdecec}"
-            "a{color:#2a6db5}</style></head><body>%s</body></html>" % (
-                html.escape(lang), html.escape(title), body))
+            "<style>%s</style></head><body>"
+            "<div class=\"band\"></div>"
+            "<div class=\"vwrap\">"
+            "%s"
+            "<main>%s</main>"
+            "%s%s"
+            "</div></body></html>" % (
+                html.escape(lang), html.escape(title), PAGE_CSS, marca, body,
+                ('<p class="home">%s</p>' % enllaços) if enllaços else "",
+                ('<p class="foot">%s</p>' % peu_priv) if peu_priv else ""))
 
 
 def respond(environ, start_response, status, body, content_type="text/html; charset=utf-8",
@@ -226,9 +555,10 @@ def edition_open(cfg, row):
 _rate = {}
 
 
-def rate_limited(environ, cfg):
-    limit = cfg.getint("general", "rate_limit", fallback=40)
-    ip = environ.get("REMOTE_ADDR", "?")
+def rate_limited(environ, cfg, limit=None, bucket=""):
+    if limit is None:
+        limit = cfg.getint("general", "rate_limit", fallback=40)
+    ip = bucket + environ.get("REMOTE_ADDR", "?")
     now = time.time()
     arr = _rate.setdefault(ip, [])
     arr = [t for t in arr if now - t < 60]
@@ -239,12 +569,32 @@ def rate_limited(environ, cfg):
     return False
 
 
+# ---------------------------------------------------------------- body
+
+MAX_BODY = 64 * 1024
+
+
+def read_body(environ):
+    """Llegeix el cos de la petició amb un cap de mida (None = massa gran)."""
+    try:
+        n = int(environ.get("CONTENT_LENGTH", 0) or 0)
+    except ValueError:
+        n = 0
+    if n <= 0:
+        return b""
+    if n > MAX_BODY:
+        return None
+    return environ["wsgi.input"].read(n)
+
+
 # ---------------------------------------------------------------- app ui
 
 def get_edition_and_works(conn, token):
+    # SELECT * i no una llista de columnes: el row es fa servir a la pàgina de
+    # vot (mode, lloc, adreça…) i una llista acoblada fa que afegir una columna
+    # a la taula oblidi llegir-la aquí i peti amb IndexError.
     row = conn.execute(
-        "SELECT id,nom,secret_token,mode_geo,lat,lon,radi,vot_limit,activa,tancada,data_inici,data_fi"
-        " FROM edicions WHERE secret_token=?", (token,)).fetchone()
+        "SELECT * FROM edicions WHERE secret_token=?", (token,)).fetchone()
     if row is None:
         return None, None
     works = conn.execute(
@@ -257,49 +607,149 @@ def h_radix(token):
     return html.escape(token)
 
 
-def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js):
+def app_base(environ):
+    return (environ.get("SCRIPT_NAME", "") or "").rstrip("/")
+
+
+def fmt_dist(m):
+    """Distància en text llegible: '340 m' o '1,2 km'."""
+    if m is None:
+        return "?"
+    if m < 1000:
+        return "%d m" % round(m)
+    return ("%.1f" % (m / 1000.0)).replace(".", ",") + " km"
+
+
+def make_vote_form(ed, works, lang, vot_token, csrf, include_geo, geo_js,
+                   note="", conditions="", base=""):
     i18n = get_i18n(lang)
-    options = "".join(
-        "<option value=\"%d\">%s</option>" % (
-            w["numero"],
-            html.escape(w["titol"] or "Obra %d" % w["numero"]))
-        for w in works)
-    geo_js_block = ""
-    if include_geo and geo_js:
-        geo_js_block = geo_js
+    extra = ""
+    # Avís de mode proves: mentre sigui així els vots NO compten per al concurs.
+    # És la xarxa de seguretat perquè ningú no confongui una votació de prova amb
+    # la votació real de l'exposició.
+    if ed["mode"] == "proves":
+        extra += ("<p class=\"banner-test\"><strong>%s</strong> %s</p>" % (
+            html.escape(i18n.get("mode_test_tag", "MODE PROVES")),
+            html.escape(i18n.get("mode_test_banner",
+                                 "Aquest formulari és de proves: es pot votar tantes "
+                                 "voltes com vulguis i els vots no compten per al concurs."))))
+    # Lloc de votació: es mostra el nom i l'adreça del punt on s'ha de estar.
+    # En Taro, cada entitat hi posa el seu propi lloc.
+    if ed["mode_geo"] != "off" and (ed["lloc"] or ed["adreca"]):
+        extra += "<p class=\"where\">%s%s%s</p>" % (
+            html.escape(i18n.get("vote_where", "Només es pot votar a l'exposició, al")),
+            " <b>%s</b>" % html.escape(ed["lloc"]) if ed["lloc"] else "",
+            "<br>%s" % html.escape(ed["adreca"]) if ed["adreca"] else "")
+    if conditions:
+        extra += "<div class=\"conditions\">%s</div>" % conditions
+    if note:
+        extra += "<p class=\"note\">%s</p>" % html.escape(note)
     form = (
-        "<h1>%s</h1><p>%s</p>"
-        "<form method=\"post\" action=\"/v/%s\" id=\"vf\">"
+        "<h1>%s</h1><p class=\"lead\">%s</p>%s"
+        "<form method=\"post\" action=\"%s/v/%s\" id=\"vf\""
+        " data-lat=\"%s\" data-lon=\"%s\" data-radi=\"%s\">"
         "<input type=\"hidden\" name=\"csrft\" value=\"%s\">"
-        "<label for=\"obra\">%s</label> "
-        "<select id=\"obra\" name=\"obra\" required>%s</select><br><br>"
+        "<label for=\"obra\">%s</label>"
+        "<input id=\"obra\" name=\"obra\" type=\"text\" inputmode=\"numeric\""
+        " pattern=\"[0-9]*\" autocomplete=\"off\" autocapitalize=\"off\""
+        " spellcheck=\"false\" enterkeyhint=\"go\" required>"
+        "<p class=\"hint\">%s</p>"
         "<input type=\"hidden\" name=\"geo\" id=\"geo\" value=\"none\">"
+        "<p class=\"geo-status\" id=\"geo-status\" data-denied=\"%s\""
+        " data-unavailable=\"%s\" data-timeout=\"%s\" data-insecure=\"%s\""
+        " data-wait=\"%s\" data-ok=\"%s\" data-far=\"%s\" data-imprecis=\"%s\">%s</p>"
+        "<button type=\"button\" class=\"geo-btn\" id=\"geo-btn\">%s</button>"
         "<button type=\"submit\">%s</button>"
-        "</form>%s"
+        "</form>"
+        "<p class=\"note\">%s</p>"
         "<script>%s</script>")
     return form % (
-        html.escape(ed["nom"]), i18n.get("vote_intro", ""),
-        h_radix(vot_token), html.escape(csrf),
-        i18n.get("select_prompt", "Obra"), options,
-        i18n.get("btn_vote", "Vota"), geo_js_block, geo_js)
+        html.escape(ed["nom"]), i18n.get("vote_intro", ""), extra,
+        html.escape(base, quote=True), h_radix(vot_token),
+        html.escape(str(ed["lat"] or ""), quote=True),
+        html.escape(str(ed["lon"] or ""), quote=True),
+        html.escape(str(ed["radi"] or ""), quote=True),
+        html.escape(csrf),
+        i18n.get("select_prompt", "Obra"),
+        html.escape(i18n.get("vote_hint_num", ""), quote=True),
+        html.escape(i18n.get("geo_msg_denied", ""), quote=True),
+        html.escape(i18n.get("geo_msg_unavailable", ""), quote=True),
+        html.escape(i18n.get("geo_msg_timeout", ""), quote=True),
+        html.escape(i18n.get("geo_msg_insecure", ""), quote=True),
+        html.escape(i18n.get("geo_wait", ""), quote=True),
+        html.escape(i18n.get("geo_ok_fmt", ""), quote=True),
+        html.escape(i18n.get("geo_far_fmt", "").replace("%d", "%s"), quote=True),
+        html.escape(i18n.get("geo_imprecis_fmt", "").replace("%d", "%s"), quote=True),
+        html.escape(i18n.get("geo_wait", "")),
+        html.escape(i18n.get("geo_btn", "")),
+        i18n.get("btn_vote", "Vota"),
+        html.escape(i18n.get("vote_privacy_note", "")),
+        geo_js)
 
 
 GEO_JS = """
 (function(){
+  var form=document.getElementById('vf');
   var geo=document.getElementById('geo');
+  var st=document.getElementById('geo-status');
+  var btn=document.getElementById('geo-btn');
   if(!geo) return;
-  if (navigator.geolocation) {
+  var CFG={lat:parseFloat(form.getAttribute('data-lat')),
+           lon:parseFloat(form.getAttribute('data-lon')),
+           radi:parseFloat(form.getAttribute('data-radi'))};
+  function dist(a,b){
+    var R=6371000, toR=Math.PI/180, dLa=(b.lat-a.lat)*toR, dLo=(b.lon-a.lon)*toR;
+    var h=Math.sin(dLa/2)*Math.sin(dLa/2)+Math.cos(a.lat*toR)*Math.cos(b.lat*toR)*
+          Math.sin(dLo/2)*Math.sin(dLo/2);
+    return 2*R*Math.asin(Math.sqrt(h));
+  }
+  function fmt(m){
+    if(m<1000) return Math.round(m)+' m';
+    return (m/1000).toFixed(1).replace('.',',')+' km';
+  }
+  function say(msg,kind){ if(st){ st.textContent=msg||''; st.className='geo-status'+(kind?' geo-status--'+kind:''); } }
+  function warn(msg){ say(msg,'warn'); }
+  function ask(){
+    if(window.isSecureContext===false || !navigator.geolocation){
+      geo.value='insecure';
+      warn(st && st.getAttribute('data-insecure'));
+      return;
+    }
+    say(st && st.getAttribute('data-wait'),'wait');
     navigator.geolocation.getCurrentPosition(
-      function(pos){ if(pos.coords){ geo.value='ok;'+(pos.coords.latitude)+';'+(pos.coords.longitude);} },
-      function(){ /* es deixa vot; registrem geo:none */ },
-      { enableHighAccuracy:true, timeout:8000, maximumAge:60000 }
+      function(pos){
+        if(!pos.coords) return;
+        var c=pos.coords, acc=Math.round(c.accuracy||0);
+        geo.value='ok;'+c.latitude+';'+c.longitude+(acc?';'+acc:'');
+        var d=dist(CFG, {lat:c.latitude, lon:c.longitude});
+        if(!(d<=CFG.radi)){
+          warn(st.getAttribute('data-far').replace('%s', fmt(d)).replace('%s', fmt(CFG.radi)));
+        }else if(acc>250){
+          say(st.getAttribute('data-ok').replace('%s', fmt(d))+' '+
+              st.getAttribute('data-imprecis').replace('%s', fmt(acc)),'warn');
+        }else{
+          say(st.getAttribute('data-ok').replace('%s', fmt(d)),'ok');
+        }
+        if(btn) btn.style.display='none';
+      },
+      function(err){
+        geo.value='none';
+        if(!st||!err) return;
+        var m=st.getAttribute('data-denied');
+        if(err.code===2) m=st.getAttribute('data-unavailable');
+        else if(err.code===3) m=st.getAttribute('data-timeout');
+        warn(m);
+      },
+      { enableHighAccuracy:true, timeout:10000, maximumAge:0 }
     );
   }
+  if(btn){ btn.addEventListener('click', ask); }
+  ask();
 })();
 """
 
 
-def vote_page(environ, start_response, token):
+def vote_page(environ, start_response, token, base=""):
     cfg = load_config()
     conn = connect(cfg)
     try:
@@ -326,11 +776,21 @@ def vote_page(environ, start_response, token):
                                      "<p>%s</p>" % html.escape(i18n.get("msg_no_works", "")), lang))
         device = get_device_id(environ, cfg)
         csrf = csrf_token(secret_key(cfg), device)
-        body = make_vote_form(ed, works, lang, token, csrf, include_geo, geo_js)
+        conn.execute(
+            "INSERT INTO visites (edicio_id, dispositiu_hash, ts) VALUES (?,?,?)",
+            (ed["id"], device_hash(secret_key(cfg), device), int(time.time())))
+        conn.commit()
+        note = i18n.get("vote_note_mbl", "")
+        conditions = ""
+        if cfg.getboolean("edicio", "mostrar_condicions", fallback=False):
+            conditions = fmt2(i18n.get("vote_conditions", ""), ed["radi"] or 0,
+                              lloc_votacio(cfg, i18n))
+        body = make_vote_form(ed, works, lang, token, csrf, include_geo, geo_js,
+                              note=note, conditions=conditions, base=base)
         return respond(environ, start_response, "200 OK",
                        page_html(i18n.get("vote_header", "Vot"),
                                  body, lang),
-                       extra_headers=[set_device_cookie(cfg, device)])
+                       extra_headers=[set_device_cookie(cfg, device, (base or "") + "/")])
     finally:
         conn.close()
 
@@ -345,12 +805,12 @@ def get_device_id(environ, cfg):
     return dev
 
 
-def set_device_cookie(cfg, device_id):
+def set_device_cookie(cfg, device_id, path="/"):
     name = cfg.get("general", "cookie_name", fallback="vid")
     maxage = 60 * 60 * 24 * 30
-    secure = "; Secure" if cfg.getboolean("general", "ssl", fallback=False) else ""
-    return ("Set-Cookie", "%s=%s; Path=/; HttpOnly; SameSite=Lax; Max-Age=%d%s"
-            % (name, device_id, maxage, secure))
+    secure = "; Secure" if cfg.getboolean("general", "ssl", fallback=True) else ""
+    return ("Set-Cookie", "%s=%s; Path=%s; HttpOnly; SameSite=Lax; Max-Age=%d%s"
+            % (name, device_id, path, maxage, secure))
 
 
 def parse_cookies(s):
@@ -377,7 +837,10 @@ def submit_vote(environ, start_response, token):
             return respond(environ, start_response, "400 Bad Request",
                            page_html(i18n.get("msg_edition_inactive", ""),
                                      "<p>%s</p>" % html.escape(i18n.get("msg_edition_inactive", "")), lang))
-        body = environ["wsgi.input"].read(environ.get("CONTENT_LENGTH", 0) and int(environ.get("CONTENT_LENGTH", 0)) or 0)
+        body = read_body(environ)
+        if body is None:
+            return respond(environ, start_response, "413 Payload Too Large", "413",
+                           content_type="text/plain")
         fields = urllib.parse.parse_qs(body.decode("utf-8", "replace"))
         obra_s = fields.get("obra", [""])[0]
         csrf_s = fields.get("csrft", [""])[0]
@@ -396,45 +859,92 @@ def submit_vote(environ, start_response, token):
                            page_html(i18n.get("msg_invalid_obra", ""),
                                      "<p>%s</p>" % html.escape(i18n.get("msg_invalid_obra", "")), lang))
         geo_estat = "none"
+        geo_dist = None
         if ed["mode_geo"] != "off":
             if geo_s.startswith("ok;"):
+                parts = geo_s.split(";")
                 try:
-                    _, lat_s, lon_s = geo_s.split(";")
-                    lat, lon = float(lat_s), float(lon_s)
-                except ValueError:
+                    lat, lon = float(parts[1]), float(parts[2])
+                except (IndexError, ValueError):
                     lat = lon = None
                 if lat is not None and ed["lat"] and ed["lon"] and ed["radi"]:
-                    dist = haversine_m(lat, lon, ed["lat"], ed["lon"])
-                    geo_estat = "ok" if dist <= ed["radi"] else "out"
+                    geo_dist = haversine_m(lat, lon, ed["lat"], ed["lon"])
+                    geo_estat = "ok" if geo_dist <= ed["radi"] else "out"
                 else:
                     geo_estat = "out"
             else:
                 geo_estat = "none"
         if ed["mode_geo"] == "hard" and geo_estat != "ok":
+            if geo_dist is not None:
+                msg = i18n.get("geo_error_hard_fmt", "") % (ed["radi"], fmt_dist(geo_dist))
+            else:
+                msg = fmt2(i18n.get("geo_error_hard", ""), ed["radi"] or 0,
+                           lloc_votacio(i18n=i18n))
             return respond(environ, start_response, "403 Forbidden",
-                           page_html(i18n.get("geo_error_no_pos", ""),
-                                     "<p>%s</p>" % html.escape(i18n.get("geo_error_no_pos", "")), lang))
+                           page_html(i18n.get("msg_geo_blocked", ""),
+                                     "<p>%s</p>" % html.escape(msg), lang))
         devhash = device_hash(secret_key(cfg), device)
         vot_limit = ed["vot_limit"] or 0
+        # finestra de re-vot en minuts; 0 (per defecte) = un sol vot per obra
+        # i dispositiu per tota l'edició. S'utilitza només per a les proves.
+        revote_min = cfg.getint("edicio", "revote_minutes", fallback=0)
+        prev = conn.execute(
+            "SELECT COUNT(*) AS n, MAX(ts) AS t FROM vots "
+            "WHERE edicio_id=? AND obra_id=? AND dispositiu_hash=?",
+            (ed["id"], obra["id"], devhash)).fetchone()
+        repetit = prev["n"] > 0
+        prev_txt = "" if not prev["t"] else time.strftime(
+            "%d/%m/%Y a les %H:%M", time.localtime(prev["t"]))
         if vot_limit > 0:
-            cur = conn.execute(
-                "SELECT COUNT(*) AS n FROM vots WHERE edicio_id=? AND obra_id=? AND dispositiu_hash=?",
-                (ed["id"], obra["id"], devhash))
-            if cur.fetchone()["n"] > 0:
+            if revote_min > 0:
+                cutoff = int(time.time()) - revote_min * 60
+                recent = conn.execute(
+                    "SELECT COUNT(*) AS n FROM vots WHERE edicio_id=? AND obra_id=?"
+                    " AND dispositiu_hash=? AND ts>?",
+                    (ed["id"], obra["id"], devhash, cutoff)).fetchone()["n"]
+                if recent > 0:
+                    wait = i18n.get("msg_vote_repeat_wait", "") % revote_min
+                    return respond(environ, start_response, "200 OK",
+                                   page_html(i18n.get("msg_vote_repeat", ""),
+                                             "<p>%s</p>" % html.escape(wait), lang))
+            elif repetit:
+                # Mode exposicio (vot_limit = 1): s'explica quan va fer el vot
+                # i que la mateixa obra no es pot tornar a votar des d'aquest
+                # dispositiu, en comptes de deixar un missatge sense mes informacio.
+                cos = ("<p>%s</p><p>%s</p><p class=\"note\">%s</p>" % (
+                    html.escape(i18n.get("msg_vote_repeat", "")),
+                    html.escape(i18n.get("msg_vote_at",
+                                         "El teu vot d'aquesta obra és del %s.") % prev_txt)
+                    if prev_txt else "",
+                    html.escape(i18n.get("msg_vote_only_once",
+                                         "No es pot tornar a votar la mateixa obra "
+                                         "des d'aquest dispositiu."))))
                 return respond(environ, start_response, "200 OK",
-                               page_html(i18n.get("msg_vote_repeat", ""),
-                                         "<p>%s</p>" % html.escape(i18n.get("msg_vote_repeat", "")), lang))
+                               page_html(i18n.get("msg_vote_repeat", ""), cos, lang))
         ts = int(time.time())
         sig = hmac_sig(secret_key(cfg), (ed["id"], obra["id"], devhash, ts))
+        # INSERT OR REPLACE: amb vot_limit = 0 (mode obert de proves) es pot
+        # tornar a votar la mateixa obra i el registre anterior se substitueix,
+        # en lloc de xocar amb la restricció UNIQUE de la taula.
         conn.execute(
-            "INSERT INTO vots (edicio_id,obra_id,dispositiu_hash,geo_estat,signatura,ts,paper)"
+            "INSERT OR REPLACE INTO vots (edicio_id,obra_id,dispositiu_hash,geo_estat,signatura,ts,paper)"
             " VALUES (?,?,?,?,?,?,0)",
             (ed["id"], obra["id"], devhash, geo_estat, sig, ts))
         conn.commit()
-        cookies = [set_device_cookie(cfg, device)]
+        # recompte de vots d'aquest dispositiu en aquesta edició
+        n = conn.execute(
+            "SELECT COUNT(*) AS n FROM vots WHERE edicio_id=? AND dispositiu_hash=?",
+            (ed["id"], devhash)).fetchone()["n"]
+        if vot_limit == 0 and repetit:
+            missatge = i18n.get("msg_vote_again", "")
+        else:
+            missatge = i18n.get("msg_vote_ok", "")
+        cos = "<p>%s</p><p class=\"note\">%s</p>" % (
+            html.escape(missatge),
+            html.escape(i18n.get("msg_vote_count_one" if n == 1 else "msg_vote_count", "") % n))
+        cookies = [set_device_cookie(cfg, device, (app_base(environ) or "") + "/")]
         return respond(environ, start_response, "200 OK",
-                       page_html(i18n.get("msg_vote_ok", ""),
-                                 "<p>%s</p>" % html.escape(i18n.get("msg_vote_ok", "")), lang),
+                       page_html(missatge, cos, lang),
                        extra_headers=cookies)
     finally:
         conn.close()
@@ -442,55 +952,203 @@ def submit_vote(environ, start_response, token):
 
 # -------------------------------------------------------------- admin
 
+ADMIN_SESSION_TTL = 60 * 60 * 4  # 4 h (també validat server-side)
+
+
+def make_admin_session(cfg):
+    """Cookie de sessió: HMAC(key, ("admin", ts)) + timestamp, amb caducitat server-side."""
+    ts = int(time.time())
+    sig = hmac_sig(admin_key(cfg), ("admin", ts))
+    return "%s:%d" % (sig, ts)
+
+
+def admin_session_valid(cfg, value):
+    if not value or ":" not in value:
+        return False
+    sig, _, ts_s = value.rpartition(":")
+    try:
+        ts = int(ts_s)
+    except ValueError:
+        return False
+    expect = hmac_sig(admin_key(cfg), ("admin", ts))
+    if not hmac.compare_digest(sig, expect):
+        return False
+    return 0 <= time.time() - ts <= ADMIN_SESSION_TTL
+
+
+def admin_csrf_token(cfg, session_value):
+    return hmac_sig(admin_key(cfg), ("admin-csrf", session_value))
+
+
 def admin_ok(environ, cfg):
     cookies = parse_cookies(environ.get("HTTP_COOKIE", ""))
-    adm = cookies.get("admin")
-    if not adm:
-        return False
-    expect = hmac_sig(admin_key(cfg), ("admin",))
-    return hmac.compare_digest(adm, expect)
+    return admin_session_valid(cfg, cookies.get("admin", ""))
 
 
-def admin_login_form(lang):
+def admin_login_form(lang, base=""):
     i18n = get_i18n(lang)
     body = ("<h1>%s</h1>"
-            "<form method=\"post\" action=\"/admin/login\">"
+            "<form method=\"post\" action=\"%s/admin/login\">"
             "<label>%s</label> <input type=\"password\" name=\"pass\" autocomplete=\"current-password\">"
             "<button type=\"submit\">%s</button>"
             "</form>" % (html.escape(i18n.get("app_name", "Admin")),
+                         html.escape(base, quote=True),
                          html.escape(i18n.get("admin_pass", "Contrasenya")),
                          html.escape(i18n.get("btn_login", "Entra"))))
     return page_html(i18n.get("app_name", "Admin"), body, lang)
 
 
-def admin_handle(environ, start_response, sub=""):
+def admin_handle(environ, start_response, sub="", base=""):
     cfg = load_config()
     lang = pick_lang(environ)
     i18n = get_i18n(lang)
     if not admin_ok(environ, cfg):
         return respond(environ, start_response, "401 Unauthorized",
-                       admin_login_form(lang))
+                       admin_login_form(lang, base))
     conn = connect(cfg)
     try:
+        ed = conn.execute("SELECT * FROM edicions ORDER BY id LIMIT 1").fetchone()
+        ed_id = ed["id"] if ed is not None else None
         if sub == "stat":
+            # Recompte privat. Cap dada publica: nomes l'administrador hi accedeix
+            # (admin_ok) i, a mesura que la votacio esta oberta, el resultat no es
+            # publica enlloc per no condicionar la votacio de la resta.
+            rows = conn.execute(
+                "SELECT o.numero,o.titol,o.autor,COUNT(v.id) AS v "
+                "FROM obres o LEFT JOIN vots v ON v.obra_id=o.id "
+                "WHERE o.edicio_id=? "
+                "GROUP BY o.id ORDER BY v DESC, o.numero", (ed_id,)).fetchall()
+            total = sum(r["v"] for r in rows)
+            amb_vots = sum(1 for r in rows if r["v"] > 0)
+            maxv = rows[0]["v"] if rows else 0
+            darrer = conn.execute(
+                "SELECT MAX(ts) AS t FROM vots WHERE edicio_id=?", (ed_id,)).fetchone()["t"]
+            darrer_txt = "—" if not darrer else time.strftime(
+                "%d/%m/%Y %H:%M", time.localtime(darrer))
+            if ed is not None and ed["tancada"]:
+                estat = i18n.get("admin_state_closed", "Votació tancada")
+            elif ed is not None and edition_open(cfg, ed):
+                estat = i18n.get("admin_state_open", "Votació oberta")
+            else:
+                estat = i18n.get("admin_state_out", "Fora de termini")
+            if estat == i18n.get("admin_state_closed", "Votació tancada"):
+                body_estat = ("<p class=\"note\">%s</p>" % html.escape(estat))
+            else:
+                body_estat = ""
+            enllaç = "<p class=\"toplink\"><a href=\"%s/admin/\">&#8592; %s</a></p>" % (
+                html.escape(base, quote=True), html.escape(i18n.get("btn_back", "Torna")))
+            resument = [("sum", [(str(total), i18n.get("admin_sum_total", "Vots registrats")),
+                                 ("%d/%d" % (amb_vots, len(rows)),
+                                  i18n.get("admin_sum_works", "Obres amb vots")),
+                                 (str(len(rows) - amb_vots), i18n.get("admin_sum_zero", "Sense vots")),
+                                 (darrer_txt, i18n.get("admin_sum_last", "Darrer vot")),
+                                 (i18n.get("mode_" + (ed["mode"] if ed is not None else "votacio"),
+                                           "Mode"), i18n.get("admin_sum_mode", "Mode"))])]
+            body = ["<h1>%s</h1>" % html.escape(i18n.get("admin_stat_title", "Recompte")), enllaç]
+            body.append("<div class=\"sum\">" + "".join(
+                "<div><b>%s</b><span>%s</span></div>" % (html.escape(v), html.escape(l))
+                for v, l in resument[0][1]) + "</div>")
+            if total == 0:
+                body.append("<p class=\"note\">%s</p>"
+                            % html.escape(i18n.get("admin_no_votes", "Encara no hi ha cap vot.")))
+            elif maxv > 0:
+                caps = [r for r in rows if r["v"] == maxv]
+                if len(caps) > 1:
+                    body.append("<p class=\"note\">%s</p>" % html.escape(
+                        i18n.get("admin_tie_fmt",
+                                 "Empaten %d obres amb %d vots: cal decidir com es resol l'empat.")
+                        % (len(caps), maxv)))
+            body.append("<table class=\"tally\"><thead><tr><th class=\"c-n\">%s</th>"
+                        "<th>%s</th><th class=\"c-v\">%s</th></tr></thead><tbody>" % (
+                            html.escape(i18n.get("admin_num", "Núm.")),
+                            html.escape(i18n.get("admin_obra", "Obra")),
+                            html.escape(i18n.get("admin_count", "Vots"))))
+            for r in rows:
+                pct = 0 if maxv <= 0 else int(round(100.0 * r["v"] / maxv))
+                lead = maxv > 0 and r["v"] == maxv
+                body.append(
+                    "<tr%s><td class=\"c-n\">%d%s</td><td>%s<span class=\"t-aut\">%s</span>"
+                    "<span class=\"bar\"><i style=\"width:%d%%\"></i></span></td>"
+                    "<td class=\"c-v\">%d</td></tr>" % (
+                        " class=\"lead\"" if lead else "", r["numero"],
+                        ("<span class=\"tag\">%s</span>" % html.escape(
+                            i18n.get("admin_lead", "més votada"))) if lead else "",
+                        html.escape(r["titol"] or ""),
+                        html.escape(r["autor"] or ""), pct, r["v"]))
+            body.append("</tbody></table>" + body_estat)
+            body.append("<p class=\"toplink\"><a href=\"%s/admin/\">&#8592; %s</a></p>" % (
+                html.escape(base, quote=True), html.escape(i18n.get("btn_back", "Torna"))))
+            return respond(environ, start_response, "200 OK",
+                           page_html("admin", "".join(body), lang))
+        if sub == "obres":
+            # Catàleg privat: número i títol de cada obra, per posar-los al costat
+            # de les fotografies a l'exposició i poder-los imprimir. L'AUTOR no
+            # apareix aquí: és anònim fins a l'entrega de premis. L'únic lloc on
+            # surt és el CSV del jurat (/admin/export).
             rows = conn.execute(
                 "SELECT o.numero,o.titol,COUNT(v.id) AS v "
                 "FROM obres o LEFT JOIN vots v ON v.obra_id=o.id "
-                "GROUP BY o.id ORDER BY o.numero").fetchall()
-            body = "<h1>%s</h1><table border=\"1\" cellpadding=\"6\" cellspacing=\"0\"><tr><th>%s</th><th>%s</th></tr>" % (
-                html.escape(i18n.get("admin_stat_title", "Recompte")),
-                html.escape(i18n.get("admin_obra", "Obra")),
-                html.escape(i18n.get("admin_count", "Vots")))
+                "WHERE o.edicio_id=? GROUP BY o.id ORDER BY o.numero", (ed_id,)).fetchall()
+            body = ["<h1>%s</h1>" % html.escape(i18n.get("admin_obres_title", "Llista d'obres")),
+                    "<p class=\"toplink\"><a href=\"%s/admin/\">&#8592; %s</a></p>" % (
+                        html.escape(base, quote=True), html.escape(i18n.get("btn_back", "Torna"))),
+                    "<p class=\"note\">%s</p>" % html.escape(i18n.get(
+                        "admin_obres_note",
+                        "L'autor de cada fotografia no apareix en aquesta llista ni al "
+                        "formulari de votació: és anònim fins a l'entrega de premis. "
+                        "El CSV del jurat sí que l'inclou.")),
+                    "<p><button type=\"button\" onclick=\"window.print()\">%s</button></p>"
+                    % html.escape(i18n.get("btn_print", "Imprimeix la llista")),
+                    "<table class=\"tally\"><thead><tr><th class=\"c-n\">%s</th><th>%s</th>"
+                    "<th class=\"c-v\">%s</th></tr></thead><tbody>" % (
+                        html.escape(i18n.get("admin_num", "Núm.")),
+                        html.escape(i18n.get("admin_obra", "Obra")),
+                        html.escape(i18n.get("admin_count", "Vots")))]
             for r in rows:
-                body += "<tr><td>%d %s</td><td>%d</td></tr>" % (
-                    r["numero"], html.escape(r["titol"] or ""), r["v"])
-            body += "</table><p><a href=\"/admin/\">↩ back</a></p>"
+                body.append("<tr><td class=\"c-n\">%d</td><td>%s</td><td class=\"c-v\">%d</td></tr>"
+                            % (r["numero"], html.escape(r["titol"] or ""), r["v"]))
+            body.append("</tbody></table>")
+            body.append("<p class=\"toplink\"><a href=\"%s/admin/\">&#8592; %s</a></p>" % (
+                html.escape(base, quote=True), html.escape(i18n.get("btn_back", "Torna"))))
+            return respond(environ, start_response, "200 OK",
+                           page_html("admin", "".join(body), lang))
+        if sub == "visites":
+            total = conn.execute(
+                "SELECT COUNT(*) AS n FROM visites WHERE edicio_id=?", (ed_id,)).fetchone()["n"]
+            unics = conn.execute(
+                "SELECT COUNT(DISTINCT dispositiu_hash) AS n FROM visites WHERE edicio_id=?",
+                (ed_id,)).fetchone()["n"]
+            rows = conn.execute(
+                "SELECT datetime(ts,'unixepoch','localtime') AS d, COUNT(*) AS n "
+                "FROM visites WHERE edicio_id=? GROUP BY strftime('%Y-%m-%d', datetime(ts,'unixepoch','localtime')) "
+                "ORDER BY d DESC LIMIT 30", (ed_id,)).fetchall()
+            body = ("<h1>%s</h1><p>%s: <b>%d</b> · %s: <b>%d</b></p>"
+                    "<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\"><tr><th>%s</th><th>%s</th></tr>"
+                    % (html.escape(i18n.get("admin_visits_title", "Visites via QR")),
+                       html.escape(i18n.get("admin_visits_total", "Visites")), total,
+                       html.escape(i18n.get("admin_visits_uniq", "Dispositius únics")), unics,
+                       html.escape(i18n.get("admin_visits_day", "Dia")),
+                       html.escape(i18n.get("admin_visits_count", "Visites"))))
+            for r in rows:
+                body += "<tr><td>%s</td><td>%d</td></tr>" % (html.escape(r["d"]), r["n"])
+            body += "</table><p><a href=\"%s/admin/\">↩</a></p>" % html.escape(base, quote=True)
             return respond(environ, start_response, "200 OK", page_html("admin", body, lang))
         if sub == "tancar" and environ.get("REQUEST_METHOD") == "POST":
+            cookies = parse_cookies(environ.get("HTTP_COOKIE", ""))
+            body = read_body(environ)
+            if body is None:
+                return respond(environ, start_response, "413 Payload Too Large", "413",
+                               content_type="text/plain")
+            fields = urllib.parse.parse_qs(body.decode("utf-8", "replace"))
+            if not hmac.compare_digest(fields.get("csrft", [""])[0],
+                                       admin_csrf_token(cfg, cookies.get("admin", ""))):
+                return respond(environ, start_response, "403 Forbidden",
+                               page_html("403", "<p>403</p>", lang))
             conn.execute("UPDATE edicions SET tancada=1, tancada_a=datetime('now')")
             conn.commit()
-            body = "<p>%s</p><p><a href=\"/admin/\">↩</a></p>" % html.escape(
-                i18n.get("admin_closed", "Votació tancada"))
+            body = "<p>%s</p><p><a href=\"%s/admin/\">↩</a></p>" % (
+                html.escape(i18n.get("admin_closed", "Votació tancada")),
+                html.escape(base, quote=True))
             return respond(environ, start_response, "200 OK", page_html("admin", body, lang))
         if sub == "export":
             rows = conn.execute(
@@ -510,46 +1168,73 @@ def admin_handle(environ, start_response, sub=""):
                            extra_headers=[
                                ("Content-Disposition", 'attachment; filename="vots.csv"'),
                                ("X-Content-SHA256", digest)])
+        mode = ed["mode"] if ed is not None else "votacio"
+        recordatori = ("<p class=\"banner-test\"><strong>%s</strong> %s</p>" % (
+            html.escape(i18n.get("mode_test_tag", "MODE PROVES")),
+            html.escape(i18n.get("mode_test_admin",
+                                 "Ara mateix el formulari és de proves. Abans del dia "
+                                 "de la votació posa mode = votacio al config i reinicia.")))
+            if mode == "proves" else "")
         body = (
-            "<h1>%s</h1>"
-            "<p><a href=\"/admin/stat\">%s</a> · "
-            "<a href=\"/admin/export\">%s (CSV)</a></p>"
-            "<form method=\"post\" action=\"/admin/tancar\">"
+            "<h1>%s</h1>%s"
+            "<p><a href=\"%s/admin/stat\">%s</a> · "
+            "<a href=\"%s/admin/obres\">%s</a> · "
+            "<a href=\"%s/admin/visites\">%s</a> · "
+            "<a href=\"%s/admin/export\">%s (CSV)</a></p>"
+            "<form method=\"post\" action=\"%s/admin/tancar\">"
+            "<input type=\"hidden\" name=\"csrft\" value=\"%s\">"
             "<button type=\"submit\" onclick=\"return confirm('%s')\">%s</button></form>"
-            "<p><a href=\"/admin/logout\">%s</a></p>"
-            % (html.escape(i18n.get("admin_dashboard", "Admin")),
+            "<p><a href=\"%s/admin/logout\">%s</a></p>"
+            % (html.escape(i18n.get("admin_dashboard", "Admin")), recordatori,
+               html.escape(base, quote=True),
                html.escape(i18n.get("admin_stat", "Recompte en viu")),
+               html.escape(base, quote=True),
+               html.escape(i18n.get("admin_obres_title", "Llista d'obres")),
+               html.escape(base, quote=True),
+               html.escape(i18n.get("admin_visits_title", "Visites via QR")),
+               html.escape(base, quote=True),
                html.escape(i18n.get("btn_export", "Exporta")),
+               html.escape(base, quote=True),
+               html.escape(admin_csrf_token(cfg, parse_cookies(
+                   environ.get("HTTP_COOKIE", "")).get("admin", ""))),
                html.escape(i18n.get("close_confirm", "Segur que vols tancar la votació?")),
                html.escape(i18n.get("btn_close", "Tanca la votació")),
+               html.escape(base, quote=True),
                html.escape(i18n.get("btn_logout", "Surt"))))
         return respond(environ, start_response, "200 OK", page_html("admin", body, lang))
     finally:
         conn.close()
 
 
-def admin_login(environ, start_response):
+def admin_login(environ, start_response, base=""):
     cfg = load_config()
     lang = pick_lang(environ)
     i18n = get_i18n(lang)
     if environ.get("REQUEST_METHOD") == "POST":
-        body = environ["wsgi.input"].read(environ.get("CONTENT_LENGTH", 0) and int(environ.get("CONTENT_LENGTH", 0)) or 0)
+        if rate_limited(environ, cfg, limit=10, bucket="admin:"):
+            return respond(environ, start_response, "429 Too Many Requests",
+                           page_html(i18n.get("msg_rate_limited", ""),
+                                     "<p>%s</p>" % html.escape(i18n.get("msg_rate_limited", "")), lang))
+        body = read_body(environ)
+        if body is None:
+            return respond(environ, start_response, "413 Payload Too Large", "413",
+                           content_type="text/plain")
         fields = urllib.parse.parse_qs(body.decode("utf-8", "replace"))
         if hmac.compare_digest(fields.get("pass", [""])[0], admin_key(cfg)):
-            tok = hmac_sig(admin_key(cfg), ("admin",))
-            exp = 60 * 60 * 4
-            secure = "; Secure" if cfg.getboolean("general", "ssl", fallback=False) else ""
+            tok = make_admin_session(cfg)
+            exp = ADMIN_SESSION_TTL
+            secure = "; Secure" if cfg.getboolean("general", "ssl", fallback=True) else ""
             return respond(environ, start_response, "302 Found", "",
                            extra_headers=[
-                               ("Location", "/admin/"),
+                                ("Location", base + "/admin/"),
                                ("Set-Cookie", "admin=%s; Path=/; HttpOnly; SameSite=Lax; Max-Age=%d%s" % (tok, exp, secure))])
-        return respond(environ, start_response, "401 Unauthorized", admin_login_form(lang))
-    return respond(environ, start_response, "200 OK", admin_login_form(lang))
+        return respond(environ, start_response, "401 Unauthorized", admin_login_form(lang, base))
+    return respond(environ, start_response, "200 OK", admin_login_form(lang, base))
 
 
-def admin_logout(environ, start_response):
+def admin_logout(environ, start_response, base=""):
     return respond(environ, start_response, "302 Found", "",
-                   extra_headers=[("Location", "/admin/"),
+                   extra_headers=[("Location", base + "/admin/"),
                                   ("Set-Cookie", "admin=; Path=/; Max-Age=0")])
 
 
@@ -558,22 +1243,23 @@ def admin_logout(environ, start_response):
 def application(environ, start_response):
     path = environ.get("PATH_INFO", "/")
     method = environ.get("REQUEST_METHOD", "GET")
+    base = app_base(environ)
     if path.startswith("/v/"):
         token = path[3:]
         if method == "GET":
-            return vote_page(environ, start_response, token)
+            return vote_page(environ, start_response, token, base)
         if method == "POST":
             return submit_vote(environ, start_response, token)
         return respond(environ, start_response, "405 Method Not Allowed", "405")
     if path == "/admin/login":
-        return admin_login(environ, start_response)
+        return admin_login(environ, start_response, base)
     if path == "/admin/logout":
-        return admin_logout(environ, start_response)
+        return admin_logout(environ, start_response, base)
     if path.startswith("/admin/"):
         sub = path[len("/admin/"):]
-        return admin_handle(environ, start_response, sub)
+        return admin_handle(environ, start_response, sub, base)
     if path == "/admin" or path == "/admin/":
-        return admin_handle(environ, start_response, "")
+        return admin_handle(environ, start_response, "", base)
     if path == "/health":
         return respond(environ, start_response, "200 OK", "ok", content_type="text/plain")
     return respond(environ, start_response, "404 Not Found", "404")

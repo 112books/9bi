@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Copyright (C) 2026 Col·lectiu 9 Barris Imatge
 """Punt d'entrada Phusion Passenger per al bundle «taro» (modules/taro/).
 Passenger espera un WSGI callable anomenat «application» en aquest mòdul.
-El router és app.py de la MATEIXA carpeta — exactament el mateix patró
-que ja fan els passenger_wsgi.py de modules/autopublica, modules/votacio
-i modules/formularis (que funcionen en producció).
+El router és app.py de la MATEIXA carpeta — el mateix patró que fan els
+passenger_wsgi.py de cada mòdul individual (autopublica, votacio,
+formularis), que es poden instal·lar per separat.
 
 IMPORTANT — Passenger carrega AQUEST fitxer i executa el codi que hi ha.
-Passenger PASSARÀ DE PASSAR el PATH_INFO que els arriba (passant per
+Passenger pot PASSAR DE PASSAR el PATH_INFO que li arriba (passant per
 /taro/… gairebé segur, perquè el mòdul Passenger s'ha de configurar per
-aquest punt de muntatge a Dinahosting). El router assumeix que el prefix
-«/taro» ja l'ha tret Passenger; si algun dia no el treu, ho veuràs en
-els logs de Passenger i ho ajustem.
+a aquest punt de muntatge). El router assumeix que el prefix «/taro» ja
+l'ha tret Passenger; si algun dia no el treu, ho veuràs als logs de
+Passenger i cal Adjustar-ho.
 """
 import os
 import sys

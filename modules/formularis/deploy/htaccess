@@ -5,6 +5,11 @@
   # Sense https no hi ha enviament segur; a més el frontal (Dinahosting) acaba el TLS
   # i Apache el veu com http, de manera que mana el capçalera X-Forwarded-Proto
   # (verificat 2026-09-26 amb una sonda al servidor de la votació).
+  # Les DUES condicions han de ser certes per redirigir: així funciona
+  # sigui on acabi el TLS (frontal o Apache) i no hi ha bucle de 301.
+  # Avui el frontal acaba el TLS i envia X-Forwarded-Proto; la segona línia
+  # cobreix el cas en què el TLS arribi directe a Apache.
+  RewriteCond %{HTTPS} !=on
   RewriteCond %{HTTP:X-Forwarded-Proto} !=https
   RewriteRule ^(.*)$ https://formularis.linuxbcn.com/$1 [R=301,L,QSA]
   RewriteRule ^(.*)$ http://127.0.0.1:8302/$1 [P,QSA,L]

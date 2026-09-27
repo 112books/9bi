@@ -783,8 +783,8 @@ collections:
       - { label: "Contingut", name: "body", widget: "markdown" }
 
   - name: "actes"
-    label: "Documentació · Actes de les assemblees"
-    label_singular: "Acta de reunió"
+    label: "Reunions (assamblees)"
+    label_singular: "Acta de la reunió"
     folder: "content/documentacio/actes"
     create: true
     slug: "acta-{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -794,9 +794,23 @@ collections:
       - { label: "Lloc", name: "lloc", widget: "string", required: false }
       - { label: "Persones reunides", name: "persones_reunides", widget: "list" }
       - { label: "Convidats", name: "convidat", widget: "string", required: false }
-      - { label: "Ordre del dia", name: "ordre_del_dia", widget: "list", required: false }
+      - label: "Ordre del dia"
+        name: "ordre_del_dia"
+        widget: "list"
+        required: false
+        hint: "Un punt per línia, en l'ordre en què es tracta."
+      - label: "Decisions acordades"
+        name: "decisions"
+        widget: "list"
+        required: false
+        hint: "Una decisió per línia, redactada perquè es pugui llegir d'aquí anys. Si es vota, deixa-ho a Votacions."
+      - label: "Votacions"
+        name: "votacions"
+        widget: "list"
+        required: false
+        hint: "Una votació per línia amb el resultat, per exemple: Proposta, 12 a favor, 3 en contra, 0 abstencions, aprovada."
       - { label: "Esborrany (no visible públicament)", name: "draft", widget: "boolean", default: true }
-      - { label: "Contingut", name: "body", widget: "markdown" }
+      - { label: "Contingut", name: "body", widget: "markdown", hint: "El text llarg de l'acta. El que s'ha decidit de veritat va als camps de dalt." }
 
   - name: "concurs"
     label: "Documentació · Concurs Cordoncillo"

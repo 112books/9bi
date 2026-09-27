@@ -1,0 +1,56 @@
+Llicència de les tipografies Gillius ADF
+=======================================
+
+Copyright: 1998-2019 Hirwen Harendal, Arkandis Digital Foundry
+Llicència: GPL-2.0-or-later WITH Font-exception-2.0 (SPDX: GPL-2+FE)
+Text de la llicència: LICENSES/GPL-2.0.txt
+Aplicada a: static/fonts/gillius/GilliusADF-Regular.otf i
+            static/fonts/gillius/GilliusADF-Bold.otf
+
+Per què importa aquest excepció
+--------------------------------
+L'excepció de font és el que permet que el web del col·lectiu estigui
+publicat sota l'AGPL-3.0 sense que la pròpia font quedi subjecta al
+GPL: sense aquestes línies, un document que embagui Gillius podria
+considerar-se cobert pel GPL. Per això el fitxer ha d'acompanyar sempre
+els fitxers de font, i no es pot eliminar en redistribuir-los.
+
+
+Text de l'excepció (tal com el publica Arkandis Digital Foundry)
+----------------------------------------------------------------
+This collection consists of fonts made by Arkandis Digital Foundry
+(ADF), collectively known as the "Program".
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or any
+later version, with font exception.
+
+As a special exception, if you create a document which uses Gillius
+font, and embed this font or unaltered portions of this font into the
+document, this font does not by itself cause the resulting document to
+be covered by the GNU General Public License. This exception does not
+however invalidate any other reasons why the document might be covered
+by the GNU General Public License. If you modify this font, you may
+extend this exception to your version of the font, but you are not
+obligated to do so. If you do not wish to do so, delete this exception
+statement from your version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+MA 02110-1301, USA.
+
+
+Referència
+----------
+El text anterior prové del fitxer de copyright del paquet Debian
+fonts-adf (https://tracker.debian.org/pkg/fonts-adf), que recull la
+llicència original d'Arkandis Digital Foundry. Els fitxers de font
+d'aquest repositori porten la mateixa llicència dins les seves
+metadades (nameID 0 i 13).

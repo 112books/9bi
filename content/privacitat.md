@@ -29,7 +29,7 @@ La base legal és el teu **consentiment** (article 6.1.a del RGPD), que atorgues
 Les dades no se cedeixen a tercers aliens, excepte:
 
 - El **servei de formularis del col·lectiu** (LinuxBCN), que rep les dades del formulari i les envia al correu electrònic del col·lectiu. No hi ha cap servei extern de tercers (com FormSubmit ni similars).
-- El **proveïdor de correu electrònic** del col·lectiu (Dinahosting), on s'emmagatzemen els missatges rebuts.
+- El **proveïdor de correu electrònic** del col·lectiu (LinuxBCN), on s'emmagatzemen els missatges rebuts.
 
 Alguns d'aquests proveïdors poden estar ubicats fora de l'Espai Econòmic Europeu; en aquest cas, el tractament es fa a l'empara de les garanties previstes al RGPD per a les transferències internacionals.
 

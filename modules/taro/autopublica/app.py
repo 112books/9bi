@@ -1,19 +1,23 @@
 #!/usr/bin/env python3
-"""Autopublica — publicació automàtica del web quan hi ha push a main des del CMS.
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Copyright (C) 2026 Col·lectiu 9 Barris Imatge
+# Llicència i avisos (fitxer LICENSE a l'arrel del repositori)
+"""Autopublica — publica el web automàticament en arribar un push al repositori.
 
 App WSGI en Python pur (només stdlib, zero dependències en producció),
-compatible amb Phusion Passenger (Dinahosting), waitress i el servidor WSGI
-de desenvolupament.
+compatible amb Phusion Passenger, waitress i el servidor WSGI de desenvolupament.
 
-Flux: el CMS (Decap) commiteja i fa push a `main` al Codeberg. Un webhook
-de Codeberg/Forgejo (tipus "push") fa un POST a /hook amb capçalera
-`X-Codeberg-Signature` (HMAC-SHA256 del cos amb el secret compartit).
+Flux: el CMS (Sveltia, Decap, el que facis servir) commiteja i fa push a la
+branca del web. Un webhook del repositori (Forgejo, Gitea, GitLab…) fa un POST
+a /hook amb capçalera de signatura HMAC-SHA256 del cos i el secret compartit.
 Aquesta app:
   1. Verifica la signatura HMAC per acceptar només webhooks legítims.
   2. Agafa un lock de build (per evitar builds concurrents).
-  3. Executa el desplegament configurat a `config.ini` → base de dades no,
-     directament `tools/deploy.sh`: git pull + hugo build + push a `pages`.
+  3. Executa `tools/deploy.sh` (pull + build + push del build).
   4. Respon 200 (o 500 si el build falla).
+
+Si el teu web es publica amb integració contínua (GitHub Actions, GitLab CI…),
+no necessites aquest mòdul: engega el push i deixa que el CI publiqui.
 
 Routes:
     GET  /health    → 200 "ok" (monitorització)
@@ -25,6 +29,7 @@ import hmac
 import hashlib
 import json
 import os
+import re
 import subprocess
 import threading
 import time
@@ -50,11 +55,26 @@ def cfg_get(cfg, section, key, default=""):
 
 
 def verify_signature(payload, signature, secret):
-    """Verifica X-Codeberg-Signature: HMAC-SHA256 hex del cos."""
+    """Verifica la signatura del webhook: HMAC-SHA256 en hexadecimal del cos.
+
+    S'accepten els capçaleres que envien Forgejo i Gitea (X-Forgejo-Signature,
+    X-Gitea-Signature i X-Codeberg-Signature, que és el mateix). Els altres
+    forjats poden usar una capçalera equivalent. GitLab, en canvi, envia un
+    token pla en comptes d'una signatura, i això no és el mateix protocol."""
     if not secret or not signature:
         return False
     expected = hmac.new(secret.encode("utf-8"), payload, hashlib.sha256).hexdigest()
     return hmac.compare_digest(expected, signature)
+
+
+def redact(text):
+    """Elimina credencials del text que es retorna per HTTP."""
+    out = text or ""
+    push_url = os.environ.get("AUTOPUBLICA_PUSH_URL", "")
+    if push_url:
+        out = out.replace(push_url, "[push-url redacted]")
+    out = re.sub(r"(https?://)[^/\s:@]+:[^@\s]+@", r"\1[redacted]@", out)
+    return out
 
 
 def run_deploy(cfg, branch):
@@ -79,9 +99,9 @@ def run_deploy(cfg, branch):
         env=env, capture_output=True, text=True, cwd=cfg_get(cfg, "repo", "workdir", MODULE_DIR))
     log.append("exit=%s" % p.returncode)
     if p.stdout:
-        log.append(p.stdout.strip())
+        log.append(redact(p.stdout.strip()))
     if p.stderr:
-        log.append(p.stderr.strip())
+        log.append(redact(p.stderr.strip()))
     return p.returncode == 0, "\n".join(log)
 
 
@@ -141,7 +161,8 @@ def application(environ, start_response):
                                 ("Content-Length", str(len(body)))])
         return [body]
 
-    body = ("autopublica: POST /hook amb X-Codeberg-Signature, o GET /health\n").encode("utf-8")
+    body = ("autopublica: POST /hook amb la signatura del webhook, "
+            "o GET /health\n").encode("utf-8")
     start_response("200 OK", [("Content-Type", "text/plain; charset=utf-8"),
                               ("Content-Length", str(len(body)))])
     return [body]

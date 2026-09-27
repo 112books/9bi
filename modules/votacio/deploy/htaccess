@@ -8,6 +8,11 @@
   # Dinahosting acaba el TLS: Apache el veu com http, de manera que el que
   # mana és el capçalera X-Forwarded-Proto que posa el frontal (verificat
   # 2026-09-26 amb una sonda: per https arriba "https" i per http "http").
+  # Les DUES condicions han de ser certes per redirigir: així funciona
+  # sigui on acabi el TLS (frontal o Apache) i no hi ha bucle de 301.
+  # Avui el frontal acaba el TLS i envia X-Forwarded-Proto; la segona línia
+  # cobreix el cas en què el TLS arribi directe a Apache.
+  RewriteCond %{HTTPS} !=on
   RewriteCond %{HTTP:X-Forwarded-Proto} !=https
   RewriteRule ^(.*)$ https://vots-cordoncillo.linuxbcn.com/$1 [R=301,L,QSA]
   RewriteRule ^$ https://vots-cordoncillo.linuxbcn.com/v/cordoncillo-2026 [R=302,L]

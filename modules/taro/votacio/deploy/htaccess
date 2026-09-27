@@ -1,0 +1,29 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # El repòtex del certificat (Let's Encrypt) ha de poder passar per http
+  RewriteRule ^\.well-known/ - [L]
+  # Els tipus de lletra, servits com a fitxers estàtics
+  RewriteRule ^fonts/ - [L]
+
+  # ⚠ Tria'ls abans de pujar-ho: substitueix exemple.org pel teu domini,
+  #   /v/el-meu-token pel token secret del QR (config.ini → secret_token)
+  #   i 8301 pel port on escolta serve.py (deploy/start.sh).
+  #
+  # Sense https no hi ha geolocalització (l'origen ha de ser segur) i, amb
+  # mode_geo = hard, el vot es rebutja.
+  #
+  # ⚠ Les DUES condicions han de ser certes per redirigir, i això és el que
+  #   evita el bucle de 301, segons on acabi el TLS:
+  #     · TLS a Apache      → %{HTTPS} és on           → no redirigeix
+  #     · TLS al frontal    → X-Forwarded-Proto: https → no redirigeix
+  #     · http de debon      → les dues amb http        → redirigeix
+  #   Amb una sola condició, en un hosting on Apache rep el TLS directament,
+  #   el %{HTTPS} sol no hi és i el bucle és garantit.
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+  RewriteRule ^(.*)$ https://exemple.org/$1 [R=301,L,QSA]
+  RewriteRule ^$ https://exemple.org/v/el-meu-token [R=302,L]
+
+  # Tot el reste va al procés Python
+  RewriteRule ^(.*)$ http://127.0.0.1:8301/$1 [P,QSA,L]
+</IfModule>

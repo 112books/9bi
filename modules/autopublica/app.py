@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Copyright (C) 2026 Col·lectiu 9 Barris Imatge
+# Llicència i avisos (fitxer LICENSE a l'arrel del repositori)
 """Autopublica — publicació automàtica del web quan hi ha push a main des del CMS.
 
 App WSGI en Python pur (només stdlib, zero dependències en producció),

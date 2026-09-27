@@ -157,6 +157,15 @@
       color: var(--cms-accent);
       font-weight: 700;
     }
+    .cms-rail-note {
+      margin: 1.2rem 0 0;
+      padding: 0.6rem 0.8rem;
+      border: 1px solid var(--cms-border);
+      border-radius: 5px;
+      font-size: 0.75rem;
+      line-height: 1.4;
+      color: var(--cms-secondary);
+    }
     #nc-root .primary-sidebar {
       display: none !important;
     }
@@ -320,13 +329,14 @@
           <a href="#/collections/posts-2008">2008</a>
         </div>
       </details>
-      <a href="#/collections/actes">Documentació · Actes</a>
-      <a href="#/collections/concurs">Documentació · Concurs</a>
+      <a data-cms-collection="actes" href="#/collections/actes">Reunions (assamblees)</a>
+      <a data-cms-collection="concurs" href="#/collections/concurs">Documentació · Concurs</a>
       <a data-cms-albums hidden>Àlbums per arreglar</a>
-      <span class="cms-rail-group">Administració</span>
-      <a href="#/collections/web-pages">Pàgines del web</a>
-      <a href="#/collections/membres">Membres</a>
-      <a href="#/collections/guia">Editar la guia</a>
+      <span class="cms-rail-group" data-cms-group="admin">Administració</span>
+      <a data-cms-collection="web-pages" href="#/collections/web-pages">Pàgines del web</a>
+      <a data-cms-collection="membres" href="#/collections/membres">Membres</a>
+      <a data-cms-collection="guia" href="#/collections/guia">Editar la guia</a>
+      <p class="cms-rail-note" data-cms-access-note hidden>Estàs veient només les seccions que et toquen. El que no apareix aquí tampoc t'hauria de tocar: si et cal editar alguna altra secció, parla amb qui administra el col·lectiu.</p>
     </aside>
     <!-- Sveltia monta tota la interfície (amb la seva pròpia barra lateral) dins d'aquest contenidor -->
     <div id="nc-root"></div>
@@ -412,6 +422,66 @@
     }
 
     const cmsRoot = document.getElementById("nc-root");
+
+    const CMS_ACCESS = {
+      "112books": { years: ["*"], collections: ["*"] },
+    };
+
+    const cmsAccessNote = document.querySelector("[data-cms-access-note]");
+
+    function cmsAccessAllowed(list, value) {
+      return !list || list.indexOf("*") !== -1 || list.indexOf(value) !== -1;
+    }
+
+    function cmsCollectionOf(el) {
+      const href = el.getAttribute("href") || "";
+      return href.split("/").pop();
+    }
+
+    function cmsApplyAccess() {
+      const access = CMS_ACCESS[cmsLogin()];
+      if (!access) return;
+      let yearsLeft = 0;
+      let hidden = 0;
+      document.querySelectorAll(".cms-years-menu a").forEach((a) => {
+        const allowed = cmsAccessAllowed(access.years, cmsCollectionOf(a));
+        a.hidden = !allowed;
+        if (allowed) yearsLeft += 1;
+        else hidden += 1;
+      });
+      if (cmsYears) {
+        cmsYears.hidden = yearsLeft === 0;
+        if (yearsLeft === 0) hidden += 1;
+      }
+      document.querySelectorAll("[data-cms-collection]").forEach((a) => {
+        a.hidden = !cmsAccessAllowed(access.collections, a.dataset.cmsCollection);
+        if (a.hidden) hidden += 1;
+      });
+      document.querySelectorAll("[data-cms-group]").forEach((group) => {
+        let any = false;
+        let el = group.nextElementSibling;
+        while (el && !el.hasAttribute("data-cms-group")) {
+          if (el.hasAttribute("data-cms-collection") && !el.hidden) any = true;
+          el = el.nextElementSibling;
+        }
+        group.hidden = !any;
+      });
+      if (cmsAccessNote) cmsAccessNote.hidden = hidden === 0;
+    }
+
+    let cmsAccessDone = false;
+    const cmsAccessTimer = setInterval(() => {
+      if (cmsAccessDone) {
+        clearInterval(cmsAccessTimer);
+        return;
+      }
+      if (CMS_ACCESS[cmsLogin()]) {
+        cmsApplyAccess();
+        cmsAccessDone = true;
+        clearInterval(cmsAccessTimer);
+      }
+    }, 3000);
+    window.addEventListener("storage", cmsApplyAccess);
 
     function cmsHideNativeSidebar() {
       if (!cmsRoot) return;

@@ -39,7 +39,7 @@ Lloc web estàtic del **Col·lectiu 9 Barris Imatge** (Barcelona), migrat de Blo
 ## Estat real (verificat el 2026-09-25)
 
 - Producció: `https://9barrisimatge.org/`, desplegada per `.github/workflows/deploy.yml` des del push a `main`.
-- Repositori de producció i CMS: **GitHub `112books/9bi`** (`main`). Publicació local: `git push github main`.
+- Repositori de producció i CMS: **GitHub `112books/9bi`** (`main`). Publicació local: `git push origin main` (el remote de GitHub es diu `origin`; el de Codeberg, `codeberg`).
 - **Codeberg `linuxbcn/9bi`** es conserva com a backup amb historial; el push està bloquejat per quota i no participa en producció.
 - Tema PaperMod vendored a `themes/PaperMod/`.
 
@@ -129,7 +129,7 @@ sync-9bi.sh                        # script de sync/gestió
 - Trigger: **push a `main`** + `workflow_dispatch`
 - Steps: checkout → Hugo 0.164.0 extended → refresc opcional de GoatCounter → `hugo --minify --environment production` → configure/upload/deploy GitHub Pages
 - Producció: **https://9barrisimatge.org/**; el domini apunta als registres A de GitHub Pages i el TLS el provisiona GitHub
-- Publicació: `git push github main`; Codeberg `linuxbcn/9bi` queda com a backup i no participa en el desplegament de producció
+- Publicació: `git push origin main`; Codeberg `linuxbcn/9bi` queda com a backup i no participa en el desplegament de producció
 
 ## Sessió 2026-09-21 — Quota de Codeberg: diagnòstic, petició i deploy incremental
 
@@ -184,7 +184,7 @@ sync-9bi.sh                        # script de sync/gestió
   - TXT (`_git-pages-repository`, SPF de FormSubmit, google-site-verification) → **conservar**.
 - **Després de canviar la DNS (propagació 5–60 min)**: GitHub emet el certificat TLS automàticament. Verificar amb les 3 comandes de la secció anterior (ara comparar Last-Modified = build de GitHub, no de Codeberg).
 - **Nota de disseny/estat de protecció del domini**: GitHub Pages no demana cap registre TXT extra per al dominio (els A records són la verificació). Si algún dia GitHub marca el dominia com a "protected domain" caldrà un TXT `_github-pages-challenge-...` (no necessari ara).
-- **Procediment publicar ara**: només cal `git push github main` → Actions construeix i publica sol. **Ja no s'usa `sync-9bi.sh deploy` per a producció** (queda com a eina per re-deployar Codeberg si calgués revertir el backup).
+- **Procediment publicar ara**: només cal `git push origin main` → Actions construeix i publica sol. **Ja no s'usa `sync-9bi.sh deploy` per a producció** (queda com a eina per re-deployar Codeberg si calgués revertir el backup).
 - **GOATCOUNTER_API_KEY**: afegida a GitHub → `Settings → Secrets and variables → Actions`; `/stats/` es refresca a cada deploy.
 
 ## Sessió 2026-09-25 — CMS a GitHub, concurs, «col·lectiu», audit de seguretat i cert TLS
@@ -210,7 +210,7 @@ sync-9bi.sh                        # script de sync/gestió
 - **Guia actualitzada al backend real**: `content/guia/crear-compte.md` documenta GitHub + PAT classic (`repo`) + «Sign In with Token»; `content/guia/publicar-article.md` ja no parla de Codeberg. `content/incorpora-te.md` (formulari d'alta pública) també demana el nom d'usuari de GitHub. El chrome del CMS (`static/admin/index.html`) enllaça «Guia al web» a `../guia/`, a més de la col·lecció «Guia i manual» del CMS.
 - **Correu d'invitació redactat** a `drafts/emails-usuaris.md`: s'ha d'enviar individualment, sense cap token al missatge; l'editor crea el seu propi PAT. Inclou acceptació de la invitació, entrada al gestor, enllaç a la guia i advertiment de seguretat.
 - **Recompte real del repositori (2026-09-25)**: **3.008 posts** (`content/posts/`, 19 carpetes d'anys 2008–2026), **24 anys** de col·lectiu (2002–2026) i **24 fitxers de membre**. El peu del CMS encara mostra els números estàtics antics (3.006 / 24 / 12); el peu del web els calcula. GoatCounter retorna `total_unique: 0`, per tant el recompte d'usuaris únics no és utilitzable amb el dashboard actual.
-- **Sincronització segura, sense reset**: `main` local coincideix amb `github/main`; Codeberg `main` i `pages` estan endarrerits i el push hi continua bloquejat per quota. **No esborra ni GitHub ni Codeberg ni facis un repositori de zero**: GitHub Pages és producció i Codeberg és backup amb historial. El procediment correcte és commit → `git push github main` → verificar Actions i les pàgines afectades; Codeberg només es sincronitza si torna a haver quota.
+- **Sincronització segura, sense reset**: `main` local coincideix amb `origin/main`; Codeberg `main` i `pages` estan endarrerits i el push hi continua bloquejat per quota. **No esborra ni GitHub ni Codeberg ni facis un repositori de zero**: GitHub Pages és producció i Codeberg és backup amb historial. El procediment correcte és commit → `git push origin main` → verificar Actions i les pàgines afectades; Codeberg només es sincronitza si torna a haver quota.
 - **Encara pendents**:
   - **Test real de votació pública**: l'usuari proporcionarà un fitxer `numero - títol - categoria` i farà un vot fictici des del telèfon. Abans del tancament cal comprovar la pàgina pública de votació, instruccions, avís legal i resultats finals quan la votació es tanca a la data i hora indicades.
 
@@ -279,6 +279,12 @@ sync-9bi.sh                        # script de sync/gestió
 2. **Codeberg ja no participa en el desplegament de producció**: el workflow canònic és `.github/workflows/deploy.yml`; `sync-9bi.sh` i la branca `pages` només es conserven com a eines/backups antigues de Codeberg. No hi ha runner útil de Forgejo Actions.
 3. `static/admin/config.yml` ja usa el backend `github` (repo `112books/9bi`) i entrada amb PAT; queda pendent convidar els editors com a col·laboradors amb accés de **Write** i comprovar els permisos reals.
 4. GoatCounter està creat a `9bi.goatcounter.com` i el secret `GOATCOUNTER_API_KEY` refresca `/stats/` a cada deploy.
+5. **Votació: la llista definitiva d'obres encara no existeix** (2026-09-27). La BBDD del servidor té les 100 obres de prova i la votació s'obrirà sola el 01/12/2026. Cal posar la llista a `[obres]` del `config.ini` i esborrar `data.db` **abans del 30 de novembre**.
+6. **`admin_secret` de la votació predictible** (el nom del concurs + l'any, sensecrets, i com que fins i tot va quedar anotat en aquest fiti cal considerarlo **compromès**): canviar-lo per un valor aleatori abans del dia. `secret` (HMAC) també ha aparegut a la sortida d'eines d'aquesta sessió: **rotar els dos**. Cap dels dos valors no s'escriu mai en aquest `CLAUDE.md` ni en cap document versionat.
+7. **Consentiment dels formularis només al client** (2026-09-27): `modules/formularis/app.py` filtra els camps per una whitelist però **no exigeix `consentiment`**; un POST directe sense la casella s'envia igual. Cal una comprovació al servidor.
+8. **Certificat del subdomini de votació** (`vots-cordoncillo.linuxbcn.com`): emès el 2026-09-25, **caduca el 2026-12-24**, dins del període de l'exposició. Verificar la renovació automàtica o renewing manual.
+9. **QR de la votació sense posar**: `content/votacio.md` té el `<div class="cartell-qr">` buit; cal generar-lo i pujar-lo a `static/images/`.
+10. **Publicar al canal de Telegram**: no lligat. `modules/autopublica/` publica el web (webhook de push → build), no xarxes. Cal token de `@BotFather` + `chat_id` (accions de l'usuari) i un script nou.
 
 ## Blog real (verificat el 2026-09-17)
 
@@ -579,6 +585,26 @@ sync-9bi.sh                        # script de sync/gestió
 - **Enllaços directes a cada pestanya de `/qui-som/`** (FET, commit `c8360f4b5a`, GitHub Actions `success`, producció verificada): ids llegibles a les etiquetes (`#quisom`, `#comfuncionem`, `#membres`, `#relacions`, `#historiafotografia`, `#9barrisimatgealsmitjans`), JS a `layouts/_partials/footer.html` que actualitza la URL amb `history.replaceState` i obre la pestanya des del fragment (tolerància a majúscules/accents; compatibles els antics `#qsb-*`), i `scroll-margin-top: 5rem` a `.qsb-viewtab` perquè la barra no quedi sota la capçalera sticky. L'enllaç del peu a membres usa ara `qui-som/#membres`. La galeria `historia-galeria` s'ha retirat de la pàgina (fitxers d'imatge i CSS conservats).
 - **Cerca del web corregida** (FET, commit `bf7f1ba127`, Actions `36311968665` success, producció verificada en viu): límícia completa a l'entrada 10 del backlog. En resum: `index.json` ara porta `date`, `[params.fuseOpts] limit=100 threshold=0.3`, i cada resultat mostra la data de publicació (distingeix els 50 títols repetits).
 - **Sincronització en barrera**: abans del push hi havia el commit remot `ab52a905c1` («Update Membre manel-sala-ulls-circ», fet des del CMS per l'usuari, toca `data/membres/manel-sala-ulls-circ.yml`). Integrat amb `git rebase github/main` sense cap conflicte; cap push manual a Codeberg (restà, com sempre, sense tocar per quota).
+
+## Sessió 2026-09-27 (v2) — paquet distribuïble Taro, llicències, proveïdor únic i votació armada per al 01/12
+
+- **Estat dels remotes (canviat, actualitzat aquí)**: `origin` = **GitHub** (`git@github.com:112books/9bi.git`, és producció) i `codeberg` = **Codeberg** (`git@codeberg.org:linuxbcn/9bi.git`, backup, push bloquejat per quota). **Ja no existeix cap remote anomenat `github`**: el `git fetch github` falla. A la sessió del 2026-09-27 (v1) encara es feia `git rebase github/main`; avui `origin/main` i el HEAD local eren idèntics (`d8a7cf4c7`) i Codeberg estava **79 commits enrere**.
+
+- **Regla del proveïdor (decisió de l'usuari, 2026-09-27)**: **cap document ni el paquet distribuïble ha de dir mai «Dinahosting»**. LinuxBCN **ofereix** l'allotjament i el ven com a servei propi (som *resellers* del proveïdor). Aplicat a `drafts/2026-09-27-taro-photo-app.md` («l'hosting que ofereix LinuxBCN») i als 4 llocs de `modules/taro/`, on la formulació és **neutra** («hostings compartits») perquè el client l'instal·la al seu servidor. A `content/privacitat.md` (pàgina **pública**) el proveïdor de correu passa a ser LinuxBCN, per decisió de l'usuari. **La documentació interna sí que en conserva el nom** (`CLAUDE.md`, `sync-9bi.sh`, `content/documentacio/concurs/procediments-concurs.md`, drafts): són les dades operatives per mantenir el servidor i renovar el certificat. Zero mencions al document i al paquet, verificat amb grep.
+
+- **Quatre bugs reals trobats i corregits** (tots al paquet i als mòduls reals): (1) `SELECT *` a `get_edition_and_works()` trencava amb la versió nova de SQLite → columnes explícites; (2) **`/admin/obres` retornava 500** per `UnboundLocalError: body_estat` (copiat del recompte, mai assignat) — **corregit i verificat en producció (200)**; (3) `modules/taro/autopublica/tools/deploy.sh` reutilitzava `/tmp/pages-deploy` i el `.git` vell, podia publicar HTML obsolet → `mktemp -d` + `trap`; (4) el peu de la votació genèrica imprimia text mort amb el config d'exemple → `html_link()` no imprimeix res si no hi ha URL.
+
+- **Protecció del TLS als quatre `.htaccess`** (`modules/{taro/,}{votacio,formularis}/deploy/htaccess`): només miraven `X-Forwarded-Proto`; en un hosting on Apache rep el TLS directament, `%{HTTPS}` sol no hi és i sortia un **bucle de 301**. Ara hi ha les **dues** condicions (`%{HTTPS} !=on` **i** `X-Forwarded-Proto !=https`); taula de veritat dels 4 casos comprovada, cap bucle possible.
+
+- **Llicències**: `LICENSE` = AGPL-3.0 (text oficial) + carpeta `LICENSES/` amb els avisos de tercers. **Corregit un error meu**: Sveltia **no** és GPL-3.0, és **MIT** (verificat a l'API de GitHub). Avisos SPDX als 13 fitxers Python de `modules/taro/`.
+
+- **Desplegament al servidor (2026-09-27 ~17:45)**: el servidor portava un `app.py` **273 línies més antic** (li falten `interpolation=None`, les columnes `mode`/`llot`/`adreça`, el botó d'ubicació, la distància al concurs i els dos bugs d'aquesta sessió). Pujats `app.py` + `schema.sql` de la votació, `app.py` dels formularis i els dos `.htaccess`. Còpies de seguretat: `~/apps/*/COPIA-pre-deploy-20260927-1744.tgz`, `~/apps/vots-cordoncillo/data.db-pre-deploy-20260927-1744.bak`, `config.ini-pre-data-20260927-1810.bak` i els `.htaccess` del docroot. **BBDD buida** (aturat, esborrat `data.db` amb els 8 vots de proves, arrencat). Verificat: http→https 301 sense bucle als dos subdominis, `/health` 200, arrel 302 al QR, login admin amb cookie `Secure`, `/admin/obres` **200**, export CSV `text/csv` (0 vots), formulari amb origen dolent 403 i honeypot 200 silenciós. `config.ini` i `data.db` en 600, sense secrets llegibles.
+
+- **Data d'activació (decisió de l'usuari, 2026-09-27)**: la votació s'obre el **01/12/2026 a les 00:00**, dia de la **inauguració de l'exposició**, i es tanca sola el **15/12/2026 a les 23:59:59**. Aplicat a `~/apps/vots-cordoncillo/config.ini` amb `activa = 1` + les dates noves. **Com funciona la porta** (`edition_open()`, `modules/votacio/app.py:491`): cal **els dos** — `activa = 1` **i** l'hora del servidor dins de `[data_inici, data_fi]` (i `tancada = 0`). Avui (27/09) la pàgina diu «no està activa en aquest moment» i un POST és rebutjat: **la finestra de dates és la que fa de porta**, no cal ningú a casa per obrir-la. Es tanca permanentment amb el botó de l'administració (`tancada = 1` a la BBDD), que és l'única cosa que no es pot reobrir amb `activa = 1`.
+
+- **PENDENT CRÍTIC, la llista d'obres**: la BBDD encara conté les **100 obres de prova**. Les obres **només es carreguen quan la BBDD es crea buida** (comentari al `config.ini`), i la finestra s'obre sola. Abans del 30 de novembre cal: (1) posar la llista definitiva a `[obres]` (número, títol, autor, categoria) i (2) esborrar `data.db` i reiniciar. Si el dia 1 s'arriba amb les obres de prova, el recompte del públic no serveix.
+
+- **Telegram: NO està lligat** (comprovat el 2026-09-27). `modules/autopublica/` **no** publica a xarxes: rep el webhook de push del repositori i fa `git pull` → build → push del build, és a dir, publica el web sol. Les úniques mencions de Telegram són text (backlog, `concurs.md`, `contacte.md`). Per muntar-lo cal token d'un bot de `@BotFather` + `chat_id` del canal (accions de l'usuari) i un script nou que publiqui l'entrada nova; el punt d'enganx natural és just després del build.
 
 ## Tasques pendents (backlog curt)
 

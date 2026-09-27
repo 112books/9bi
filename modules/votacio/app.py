@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Copyright (C) 2026 Col·lectiu 9 Barris Imatge
+# Llicència i avisos (fitxer LICENSE a l'arrel del repositori)
 """Votacio - vot public d'un concurs fotografic. M1 (stdlib nomes).
 
 App WSGI en Python pur (sense dependencies) compatible amb Passenger,
@@ -538,9 +541,11 @@ def read_body(environ):
 # ---------------------------------------------------------------- app ui
 
 def get_edition_and_works(conn, token):
+    # SELECT * i no una llista de columnes: el row es fa servir a la pàgina de
+    # vot (mode, lloc, adreça…) i una llista acoblada fa que afegir una columna
+    # a la taula oblidi llegir-la aquí i peti amb IndexError.
     row = conn.execute(
-        "SELECT id,nom,secret_token,mode_geo,lat,lon,radi,vot_limit,activa,tancada,data_inici,data_fi"
-        " FROM edicions WHERE secret_token=?", (token,)).fetchone()
+        "SELECT * FROM edicions WHERE secret_token=?", (token,)).fetchone()
     if row is None:
         return None, None
     works = conn.execute(
@@ -1051,7 +1056,7 @@ def admin_handle(environ, start_response, sub="", base=""):
             for r in rows:
                 body.append("<tr><td class=\"c-n\">%d</td><td>%s</td><td class=\"c-v\">%d</td></tr>"
                             % (r["numero"], html.escape(r["titol"] or ""), r["v"]))
-            body.append("</tbody></table>" + body_estat)
+            body.append("</tbody></table>")
             body.append("<p class=\"toplink\"><a href=\"%s/admin/\">&#8592; %s</a></p>" % (
                 html.escape(base, quote=True), html.escape(i18n.get("btn_back", "Torna"))))
             return respond(environ, start_response, "200 OK",
