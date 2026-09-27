@@ -1,0 +1,105 @@
+{{- /*
+  Metadades socials que PaperMod no genera. Motiu: en compartir un enllaç
+  (WhatsApp, Facebook, Telegram) el client social només mostra la imatge i el
+  text que trobi a les metadades, i el tema no hi posava la imatge de les
+  pàgines de llista ni el text alternatiu de la imatge.
+
+  Regla decidida per l'usuari (2026-09-27): la imatge que es mostra en
+  compartir una pàgina és la portada de l'últim article publicat que hi apareix.
+  Així es manté sola, sense haver-hi d'actualitzar res, i la imatge és sempre
+  del tema que es comparteix. Si la pàgina no té cap imatge real, no se'n posa
+  cap de genèrica: millor sense imatge que amb una imatge que no hi tingui
+  res a veure.
+
+  Aquesta plantilla NO substitueix el tema, l'hi afegeix el que hi falta:
+    - og:image:alt    (el tema no el posava a cap pàgina)
+    - og:image        a les pàgines que el tema no en posa cap: les de llista
+                      (etiquetes, autors, arxiu, pàgines de la portada) i les
+                      pàgines sense portada al front matter
+    - article:autor   (el <meta name="author"> del tema és un altre camp)
+
+  El tema ja posa, i aquí no es toquen: og:url, og:title, og:description,
+  og:locale, og:type, og:image dels articles amb portada, article:section/
+  published_time/modified_time/tag i tots els twitter:*.
+*/ -}}
+
+{{- $image := "" -}}
+{{- $alt := "" -}}
+{{- /* Cert si la imatge ja la posa el tema, i llavors no s'hi afegeix cap. */ -}}
+{{- $delTema := false -}}
+
+{{- /* ---- 1. Imatge, per ordre de preferència ------------------------------ */ -}}
+
+{{- /* a) Article amb portada. És el cas que el tema ja resol. */ -}}
+{{- if .IsPage -}}
+  {{- with .Params.cover.image -}}
+    {{- $image = . -}}
+    {{- $alt = $.Title | plainify -}}
+    {{- $delTema = true -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* b) Sense portada: la imatge declarada al front matter o la primera
+       imatge del contingut, que és el que sap llegir el tema. */ -}}
+{{- if and (not $delTema) .IsPage -}}
+  {{- with partial "templates/_funcs/get-page-images" . -}}
+    {{- with index . 0 -}}
+      {{- $image = .Permalink -}}
+      {{- $delTema = true -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if $delTema -}}
+    {{- $alt = .Title | plainify -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* c) Pàgina de llista (etiquetes, autors, arxiu, pàgines de la portada):
+       la portada de l'últim article de la llista. Es recorre del més nou al
+       més antic i es queda amb el primer que en té.
+       A la portada no es pot fer servir .Pages perquè és buida: els articles
+       són a content/posts/, secció apart, així que s'usen els RegularPages. */ -}}
+{{- if and (not $image) (or .IsHome .IsNode) -}}
+  {{- $llista := .Pages -}}
+  {{- if .IsHome -}}
+    {{- $llista = where site.RegularPages "Section" "posts" -}}
+  {{- end -}}
+  {{- range $llista.ByDate.Reverse -}}
+    {{- if and (not $image) .Params.cover.image -}}
+      {{- $image = .Params.cover.image -}}
+      {{- $alt = .Title | plainify -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* d) Article sense portada i sense imatge al front matter: es pren la
+       primera imatge del seu propi contingut. Es limita a .IsPage perquè en
+       una pàgina de llista el contingut és la llista mateixa i la imatge
+       seria arbitrària. */ -}}
+{{- if and (not $image) .IsPage -}}
+  {{- range findRE "<img[^>]+src=[\"']([^\"']+)[\"']" .Content -}}
+    {{- if not $image -}}
+      {{- $image = replaceRE `^.*src=["']([^"']+)["'].*$` "$1" . -}}
+      {{- $alt = $.Title | plainify -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* ---- 2. Sortida -------------------------------------------------------- */ -}}
+
+{{- /* L'URL ha de ser absoluta i sense espais: alguns clients socials rebutgen
+       els espais. */ -}}
+{{- with $image -}}
+  {{- $url := cond (or (hasPrefix . "http://") (hasPrefix . "https://")) . (. | absURL) -}}
+  {{- $url = replaceRE `\s+` "%20" $url -}}
+  {{- if not $delTema }}
+<meta property="og:image" content="{{ $url }}">
+  {{- end }}
+<meta property="og:image:alt" content="{{ $alt }}">
+{{- end -}}
+
+{{- /* ---- 3. Autor de l'article (OpenGraph Article) ----------------------- */ -}}
+{{- if .IsPage -}}
+  {{- with .Params.author -}}
+<meta property="article:author" content="{{ partial "autordisplay.html" . }}">
+  {{- end -}}
+{{- end -}}

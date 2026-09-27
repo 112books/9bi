@@ -1,0 +1,136 @@
+{{- /*
+  JSON-LD del lloc. SUBSTITUEIX el del tema
+  (themes/PaperMod/layouts/_partials/templates/schema_json.html).
+
+  Motiu de la substitució (decidit per l'usuari el 2026-09-27):
+  el tema generava un BreadcrumbList amb JSON invàlid ("itemListElement": [, {...}],
+  una coma solta) al 79,7% de les pàgines, de manera que els motors de cerca
+  ignoraven el bloc sencer. A més era insòlit: el lloc no mostra cap ruta de
+  migues (ShowBreadCrombs=false) i les URLs del blog són /:year/:month/:slug,
+  sense jerarquia real, així que la "miga de pa" hauria estat mentida.
+  Es manté el BlogPosting, que sí que era vàlid, i s'hi afegeix el que faltava.
+
+  Aquesta versió construeix l'objecte amb dicts i jsonify en lloc de concatenar
+  cadenes, de manera que el JSON sempre és vàlid per construcció.
+  ATENCIÓ: en actualitzar PaperMod, aquest fitxer continua tenint prioritat.
+*/ -}}
+
+{{- $favicon := site.Params.assets.favicon | default "favicon.ico" -}}
+
+{{- /* Imatge principal de la pàgina: la portada del post, si n'hi ha;
+       si no, la primera imatge del contingut. */ -}}
+{{- $image := "" -}}
+{{- with .Params.cover.image -}}
+  {{- $image = . | absURL -}}
+{{- else -}}
+  {{- with partial "templates/_funcs/get-page-images" . -}}
+    {{- with index . 0 -}}{{- $image = .Permalink -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Descripció: mateixa precedència que el <meta name=description> i
+       l'og:description del tema, perquè tot el text coincideixi. */ -}}
+{{- $desc := "" -}}
+{{- with .Description -}}
+  {{- $desc = . -}}
+{{- else -}}
+  {{- with .Summary -}}{{- $desc = . -}}{{- else -}}{{- $desc = site.Params.description -}}{{- end -}}
+{{- end -}}
+{{- $desc = $desc | plainify | htmlUnescape | chomp -}}
+
+{{- /* Autors: es resol el nom de visualització (malnom si n'hi ha a
+       data/membres) i s'hi afegeix l'enllaç a la pàgina de l'autor. */ -}}
+{{- $authors := slice -}}
+{{- with .Params.author -}}
+  {{- $raw := . -}}
+  {{- if reflect.IsSlice $raw -}}
+    {{- range $raw -}}
+      {{- $authors = $authors | append (dict
+            "@type" "Person"
+            "name" (partial "autordisplay.html" .)
+            "url" (printf "author/%s.html" (. | urlize) | absURL)) -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $authors = $authors | append (dict
+          "@type" "Person"
+          "name" (partial "autordisplay.html" $raw)
+          "url" (printf "author/%s.html" ($raw | urlize) | absURL)) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $publisher := dict
+      "@type" (site.Params.schema.publisherType | default "Organization" | title)
+      "name" site.Title
+      "url" site.Home.Permalink
+      "logo" (dict "@type" "ImageObject" "url" ($favicon | absURL)) -}}
+
+{{- /* A la portada només a la pàgina 1: les paginades (/page/N/) també tenen
+       .IsHome i declaraven el WebSite 379 vegades. */ -}}
+{{- $isHome := false -}}
+{{- if .IsHome -}}
+  {{- $isHome = true -}}
+  {{- with .Paginator -}}
+    {{- if gt .PageNumber 1 -}}{{- $isHome = false -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if $isHome -}}
+  {{- /* Portada: el lloc (WebSite) i, com a editor, el col·lectiu. */ -}}
+  {{- $schema := dict
+        "@context" "https://schema.org"
+        "@type" "WebSite"
+        "name" site.Title
+        "alternateName" (site.Params.homeInfoParams.Title | default site.Title)
+        "url" site.Home.Permalink
+        "description" ($desc | plainify | truncate 180)
+        "inLanguage" (site.Language.Lang | default "ca")
+        "publisher" $publisher -}}
+  <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
+
+{{- else if and .IsPage (eq .Section "posts") -}}
+  {{- /* Articles del blog. */ -}}
+  {{- $schema := dict
+        "@context" "https://schema.org"
+        "@type" "BlogPosting"
+        "headline" (.Title | plainify)
+        "name" (.Title | plainify)
+        "description" ($desc | truncate 300)
+        "url" .Permalink
+        "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+        "inLanguage" (.Language.Lang | default "ca")
+        "datePublished" (.PublishDate.Format "2006-01-02T15:04:05Z07:00")
+        "wordCount" .WordCount
+        "isAccessibleForFree" true
+        "publisher" $publisher -}}
+  {{- with $image -}}{{- $schema = merge $schema (dict "image" .) -}}{{- end -}}
+  {{- with .Lastmod -}}
+    {{- $schema = merge $schema (dict "dateModified" (.Format "2006-01-02T15:04:05Z07:00")) -}}
+  {{- end -}}
+  {{- with .Params.tags -}}
+    {{- $schema = merge $schema (dict "keywords" .) -}}
+  {{- end -}}
+  {{- with $authors -}}
+    {{- $schema = merge $schema (dict "author" (cond (gt (len .) 1) . (index . 0))) -}}
+  {{- end -}}
+  <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
+
+{{- else if .IsPage -}}
+  {{- /* Pàgines fixes (Qui som, Concurs, Contacte, FAQ, Avis legal…):
+         són pàgines web, no articles del blog. */ -}}
+  {{- $schema := dict
+        "@context" "https://schema.org"
+        "@type" "WebPage"
+        "name" (.Title | plainify)
+        "url" .Permalink
+        "description" ($desc | truncate 300)
+        "inLanguage" (.Language.Lang | default "ca")
+        "isPartOf" (dict "@type" "WebSite" "name" site.Title "url" site.Home.Permalink) -}}
+  {{- with .Lastmod -}}
+    {{- $schema = merge $schema (dict "dateModified" (.Format "2006-01-02T15:04:05Z07:00")) -}}
+  {{- end -}}
+  {{- with $image -}}{{- $schema = merge $schema (dict "image" .) -}}{{- end -}}
+  {{- with $authors -}}
+    {{- $schema = merge $schema (dict "author" (cond (gt (len .) 1) . (index . 0))) -}}
+  {{- end -}}
+  <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
+{{- end -}}
