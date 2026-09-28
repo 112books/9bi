@@ -15,10 +15,9 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 | ID | P | Tasca | Alta | Termini | Estat / notes |
 |---|---|---|---|---|---|
 | T-01 | 🔴 | **Llista definitiva d'obres de la votació** (número, títol, autor, categoria) a `[obres]` del `config.ini` del servidor; després esborrar `data.db` i reiniciar | 27/09 | **30/11** | Bloquejada: el concurs acaba de començar (25/09) i les fotos es presenten fins al **20/11** → finestra real **21/11–30/11**. La votació s'obre sola l'01/12. **Preparat (27/09)**: omplir `drafts/obres-concurs-2026-plantilla.csv` → `python3 modules/votacio/tools/obres.py llista.csv -o obres.ini` (valida números repetits, `|`, categories A/B/C) → substituir **sencera** la secció `[obres]` del `config.ini` del servidor (treure la línia `rang = …`, si no les 100 obres de prova continuen) → aturar, esborrar `data.db`, arrencar i comprovar `/admin/obres` |
-| T-04 | 🟠 | Certificat SSL de `vots-cordoncillo` i `formularis` (Let's Encrypt, caduca 24/12 20:47) | 27/09 | 26/11 | Avís al calendari: `drafts/avis-certificat-votacio-2026-12-24.ics` (26/11 comprovar, 17/12 urgent) |
 | T-06 | 🟡 | Desactivar Blogger | 21/09 | — | En espera, decisió de l'usuari: **de moment no s'apaga**. DNS ja apunten a 9barrisimatge.org |
 | T-07 | 🟡 | Editors al CMS: convidar col·laboradors amb Write, comprovar que els no-admin només veuen els seus posts i si algú ja ha iniciat el seu usuari | 21/09 | — | Quan puguem |
-| T-08 | 🟡 | Títols repetits: 21 posts «Sense títol» + ~33 grups amb el mateix títol | 27/09 | — | Quan puguem |
+| T-08 | 🟡 | Títols repetits: **21 posts «Sense títol» + 63 grups amb el mateix títol (131 posts)**, verificat el 28/09 | 27/09 | — | Pla proposat: pàgina de revisió (com la T-25) amb el títol proposat per a cada cas; només es toca el camp `title` (les URL no canvien) |
 | T-09 | 🟡 | Enllaços d'àlbums morts (Picasa → Google Photos), autor per autor | 18/09 | — | Quan puguem. Eines a `scripts/albums_fix.py`, fitxes a `data/recuperacio/` |
 | T-10 | ⚪ | Cerca: etiquetes ordenades de més a menys freqüents | 21/09 | — | |
 | T-11 | ⚪ | Cerca limitada a l'autor a `/author/<slug>.html` | 24/09 | — | Baixa prioritat |
@@ -32,7 +31,7 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 | T-23 | ⚪ | Revisió jurídica final de l'adequació RGPD | 18/09 | — | |
 | T-24 | ⚪ | Tipografia Gillius: OTF → woff2 | 18/09 | — | Opcional |
 | T-26 | ⚪ | Control de fitxers del Concurs Cordoncillo (bases, històric…) | 18/09 | — | |
-| T-28 | 🟡 | Staging a Codeberg (`https://linuxbcn.codeberg.page/9bi/`): els CSS es veuen trencats | 28/09 | — | Anotada per l'usuari. Probablement rutes absolutes que no tenen en compte el subdirectori `/9bi/` (cal revisar `config/staging/hugo.toml` i els recursos amb `/` inicial) |
+| T-28 | 🟡 | Staging a Codeberg (`https://linuxbcn.codeberg.page/9bi/`): els CSS es veuen trencats | 28/09 | — | **Diagnosticat (28/09)**: l'staging serveix el build vell del 24/09 fet amb l'`baseURL` de producció; l'enllaç surt `/assets/...` (sense `/9bi/`) → 404. Queda lligat a T-29 (el distribuïble nou substituirà aquest staging) |
 | T-29 | 🟡 | **Publicar la versió distribuïble de Taro a Codeberg** (`linuxbcn/9bi` → `main`): la plantilla ja està feta i verificada a la branca local `distribucio` (`90ebcc6379`, `af8a537d6f`). Bloquejat pel **GC de Codeberg** (issue #2522, comentari enviat el 28/09 20:17; el compte encara marca 752,7 MiB). Quan passi: `git push origin distribucio:main` | 28/09 | — | Pla B si Codeberg no es desencalla: publicar la mateixa branca en un repo nou a GitHub |
 | T-27 | ⚪ | Secció per preparar i gestionar les reunions del col·lectiu | 18/09 | — | |
 
@@ -49,6 +48,7 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | Data | ID | Tasca | Temps | Commit |
 |---|---|---|---|---|
+| 28/09 | T-04 | Certificat SSL: **renovat el 28/09** (automàtic), vàlid fins al **27/12/2026**, SAN per `vots-cordoncillo`, `formularis`, `linuxbcn.com` i `www`; `/health` 200 als dos serveis | ~10 min | — |
 | 28/09 | — | **Versió distribuïble de Taro** (branca local `distribucio`): contingut del 9bi eliminat, plantilla amb marcadors `[POSA-HI: …]`, logo de l'aplicació i README de personalització. Build net | ~1 h 30 min | `90ebcc6379`, `af8a537d6f` |
 | 28/09 | — | **Codeberg**: esborrada la branca `pages` (el build vell); el compte queda a l'espera del GC. GC demanat a l'issue #2522 | ~5 min | — |
 | 28/09 | — | **GoatCounter**: `/stats/` usa el total oficial de `/stats/total` (159 → 166 en viu). Documentat que l'API no exposa usuaris únics | ~20 min | `16bdec539` |
