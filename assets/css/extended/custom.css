@@ -2165,3 +2165,72 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   font-size: 0.85rem;
 }
+
+/* ---- T-17: compartir l'entrada (discret, només icones) ---- */
+
+.post-share {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 2rem 0 0.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+.post-share-label {
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--secondary);
+  margin-right: 0.3rem;
+}
+.post-share-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--secondary);
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: none;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.post-share-btn[hidden] {
+  display: none;
+}
+.post-share-btn:hover,
+.post-share-btn:focus-visible {
+  color: #e03131;
+  border-color: #e03131;
+}
+.post-share-btn:focus-visible {
+  outline: 2px solid #e03131;
+  outline-offset: 2px;
+}
+.post-share-btn svg {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+.post-share-ico,
+.post-share-ok {
+  display: inline-flex;
+}
+.post-share-ico[hidden],
+.post-share-ok[hidden] {
+  display: none;
+}
+.post-share-status {
+  font-size: 0.78rem;
+  color: var(--secondary);
+}
+@media (prefers-reduced-motion: reduce) {
+  .post-share-btn {
+    transition: none;
+  }
+}

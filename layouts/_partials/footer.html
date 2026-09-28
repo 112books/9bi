@@ -340,6 +340,35 @@
             });
         });
 
+        // T-17: compartir l'entrada (layouts/_partials/post-share.html)
+        document.querySelectorAll("[data-post-share]").forEach(function (btn) {
+            var kind = btn.getAttribute("data-post-share");
+            if (kind === "native") {
+                if (navigator.share) btn.hidden = false;
+                btn.addEventListener("click", function () {
+                    navigator.share({ title: document.title, url: window.location.href }).catch(function () {});
+                });
+                return;
+            }
+            if (kind === "copy") {
+                var status = btn.parentNode.querySelector(".post-share-status");
+                var ico = btn.querySelector(".post-share-ico");
+                var ok = btn.querySelector(".post-share-ok");
+                btn.addEventListener("click", function () {
+                    var url = btn.getAttribute("data-url") || window.location.href;
+                    if (!navigator.clipboard) return;
+                    navigator.clipboard.writeText(url).then(function () {
+                        ico.hidden = true; ok.hidden = false;
+                        if (status) status.textContent = "Enllaç copiat";
+                        setTimeout(function () {
+                            ico.hidden = false; ok.hidden = true;
+                            if (status) status.textContent = "";
+                        }, 2000);
+                    });
+                });
+            }
+        });
+
         document.querySelectorAll("[data-share]").forEach(function (btn) {
             btn.addEventListener("click", function () {
                 var url = encodeURIComponent(window.location.href);
@@ -347,9 +376,11 @@
                 var kind = btn.getAttribute("data-share");
                 if (kind === "copy") {
                     var done = function () {
-                        var old = btn.textContent;
-                        btn.textContent = "Copiat!";
-                        setTimeout(function () { btn.textContent = old; }, 2000);
+                        var label = btn.querySelector("span");
+                        if (!label) return;
+                        var old = label.textContent;
+                        label.textContent = "Copiat!";
+                        setTimeout(function () { label.textContent = old; }, 2000);
                     };
                     if (navigator.clipboard) {
                         navigator.clipboard.writeText(window.location.href).then(done);
