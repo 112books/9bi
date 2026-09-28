@@ -1,5 +1,5 @@
 ---
-title: 10 ANYS  FENT PINYA A ROQUETES AMB EL PLÀ COMUNITARI  !!!
+title: 10 Anys  fent pinya a Roquetes amb el Plà comunitari  !!!
 date: 2014-10-19T01:56:00+0200
 year: 2014
 author: Pili E. G.

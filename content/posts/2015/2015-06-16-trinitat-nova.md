@@ -1,5 +1,5 @@
 ---
-title: PASSEJANT PER LA TRINITAT NOVA !!!
+title: Passejant per la Trinitat Nova !!!
 date: 2015-06-16T01:14:00+0200
 year: 2015
 author: Pili E. G.

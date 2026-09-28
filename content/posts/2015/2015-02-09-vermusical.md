@@ -1,5 +1,5 @@
 ---
-title: VERMUSICAL
+title: Vermusical
 date: 2015-02-09T11:04:00+0100
 year: 2015
 author: Pedro Click

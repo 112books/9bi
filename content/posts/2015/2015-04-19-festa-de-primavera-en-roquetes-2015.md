@@ -1,5 +1,5 @@
 ---
-title: FESTA DE PRIMAVERA EN ROQUETES 2015.
+title: Festa de primavera en Roquetes 2015.
 date: 2015-04-19T21:55:00+0200
 year: 2015
 author: Pili E. G.

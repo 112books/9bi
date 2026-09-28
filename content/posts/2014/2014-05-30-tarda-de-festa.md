@@ -1,5 +1,5 @@
 ---
-title: TARDA DE FESTA
+title: Tarda de Festa
 date: 2014-05-30T13:26:00+0200
 year: 2014
 author: Manel Villalba

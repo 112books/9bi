@@ -1,5 +1,5 @@
 ---
-title: FERIA DE ABRIL 2015 PROSPERITAT
+title: Feria de abril 2015 Prosperitat
 date: 2015-04-19T11:26:00+0200
 year: 2015
 author: Pedro Click

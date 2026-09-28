@@ -1,5 +1,5 @@
 ---
-title: TROBADA CELTA EN CAN BASTÉ !!!
+title: Trobada celta en Can Basté !!!
 date: 2014-08-01T01:32:00+0200
 year: 2014
 author: Pili E. G.

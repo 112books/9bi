@@ -1,5 +1,5 @@
 ---
-title: VADIK TRIO
+title: Vadik Trio
 date: 2022-03-26T10:38:00+0100
 year: 2022
 author: Pedro Click

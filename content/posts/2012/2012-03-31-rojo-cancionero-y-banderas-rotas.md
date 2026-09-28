@@ -1,5 +1,5 @@
 ---
-title: ROJO CANCIONERO Y BANDERAS ROTAS
+title: Rojo cancionero y banderas rotas
 date: 2012-03-31T01:52:00+0200
 year: 2012
 author: A.Sedano

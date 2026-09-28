@@ -1,5 +1,5 @@
 ---
-title: DETRAS DE TONI BEIRO
+title: Detras de Toni Beiro
 date: 2011-10-14T13:05:00+0200
 year: 2011
 author: Pedro Click

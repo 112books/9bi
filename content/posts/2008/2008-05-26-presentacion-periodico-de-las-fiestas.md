@@ -1,5 +1,5 @@
 ---
-title: PRESENTACION PERIODICO DE LAS FIESTAS DE PROSPE 2008
+title: Presentacion Periodico de las Fiestas de Prospe 2008
 date: 2008-05-26T18:35:00+0200
 year: 2008
 author: petxina

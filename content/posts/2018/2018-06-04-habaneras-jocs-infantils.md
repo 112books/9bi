@@ -1,5 +1,5 @@
 ---
-title: HABANERAS-JOCS INFANTILS-CENA PURETAS
+title: Habaneras-Jocs infantils-cena Puretas
 date: 2018-06-04T11:29:00+0200
 year: 2018
 author: Pedro Click

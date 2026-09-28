@@ -1,5 +1,5 @@
 ---
-title: 'PLE HISTÒRIC A NOU BARRIS '
+title: Ple Històric a Nou Barris
 date: 2015-07-30T23:03:00+0200
 year: 2015
 author: Pedro "Casal" Cervera

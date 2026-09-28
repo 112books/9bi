@@ -1,5 +1,5 @@
 ---
-title: PRIMER FOTO WALK DEL GRUP FOTO ROQUETES !!!
+title: Primer Foto walk del Grup Foto Roquetes !!!
 date: 2014-11-17T22:19:00+0100
 year: 2014
 author: Pili E. G.

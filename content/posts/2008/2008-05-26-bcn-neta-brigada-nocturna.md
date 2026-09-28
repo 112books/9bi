@@ -1,5 +1,5 @@
 ---
-title: BCN NETA  BRIGADA NOCTURNA
+title: Bcn neta  brigada nocturna
 date: 2008-05-26T19:40:00+0200
 year: 2008
 author: petxina

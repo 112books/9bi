@@ -1,5 +1,5 @@
 ---
-title: CONCURS FOTOGRÀFIC  !!!
+title: Concurs fotogràfic  !!!
 date: 2015-05-09T21:01:00+0200
 year: 2015
 author: Pili E. G.

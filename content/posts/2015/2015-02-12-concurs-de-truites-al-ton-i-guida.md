@@ -1,5 +1,5 @@
 ---
-title: CONCURS DE TRUITES AL TON I GUIDA !!!
+title: Concurs de truites al Ton i Guida !!!
 date: 2015-02-12T23:47:00+0100
 year: 2015
 author: Pili E. G.

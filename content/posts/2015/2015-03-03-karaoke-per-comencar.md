@@ -1,5 +1,5 @@
 ---
-title: KARAOKE PER COMENÇAR !!!
+title: Karaoke per començar !!!
 date: 2015-03-03T01:42:00+0100
 year: 2015
 author: Pili E. G.

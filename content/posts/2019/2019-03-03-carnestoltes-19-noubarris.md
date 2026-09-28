@@ -1,5 +1,5 @@
 ---
-title: CARNESTOLTES 19 A NOUBARRIS
+title: Carnestoltes 19 a Noubarris
 date: 2019-03-03T15:01:00+0100
 year: 2019
 author: Pedro Click

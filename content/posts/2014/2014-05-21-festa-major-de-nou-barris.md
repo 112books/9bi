@@ -1,5 +1,5 @@
 ---
-title: FESTA MAJOR DE NOU BARRIS
+title: Festa major de Nou Barris
 date: 2014-05-21T16:15:00+0200
 year: 2014
 author: Manel Villalba

@@ -1,5 +1,5 @@
 ---
-title: SANT JORDI EN LA RESIDÈNCIA I CENTRE DE DIA PORTA PORTA
+title: Sant Jordi en la Residència i centre de Dia Porta Porta
 date: 2015-04-24T13:56:00+0200
 year: 2015
 author: 9 Barris Imatge

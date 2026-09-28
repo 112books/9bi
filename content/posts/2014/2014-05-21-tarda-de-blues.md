@@ -1,5 +1,5 @@
 ---
-title: TARDA DE BLUES
+title: Tarda de Blues
 date: 2014-05-21T16:48:00+0200
 year: 2014
 author: Manel Villalba

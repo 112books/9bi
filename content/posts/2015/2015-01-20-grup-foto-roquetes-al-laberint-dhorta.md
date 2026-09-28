@@ -1,5 +1,5 @@
 ---
-title: GRUP FOTO ROQUETES AL LABERINT D'HORTA.
+title: Grup Foto Roquetes al laberint d'horta.
 date: 2015-01-20T01:43:00+0100
 year: 2015
 author: Pili E. G.

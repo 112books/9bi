@@ -1,5 +1,5 @@
 ---
-title: LA PETITA CAPMANY
+title: La petita capmany
 date: 2019-09-30T17:55:00+0200
 year: 2019
 author: Manel Villalba

@@ -1,5 +1,5 @@
 ---
-title: 25 ANIVERSARIO CASAL PROSPERITAT
+title: 25 Aniversario Casal Prosperitat
 date: 2013-09-30T16:40:00+0200
 year: 2013
 author: Pedro Click

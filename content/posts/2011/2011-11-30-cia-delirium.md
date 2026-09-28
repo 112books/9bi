@@ -1,5 +1,5 @@
 ---
-title: CIA. DELIRIUM
+title: Cia. Delirium
 date: 2011-11-30T18:12:00+0100
 year: 2011
 author: Pedro Click

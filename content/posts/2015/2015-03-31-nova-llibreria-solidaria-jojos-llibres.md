@@ -1,5 +1,5 @@
 ---
-title: 'NOVA LLIBRERIA SOLIDARIA : JOJOS LLIBRES .'
+title: 'Nova llibreria solidaria : jojos llibres .'
 date: 2015-03-31T21:33:00+0200
 year: 2015
 author: Pili E. G.

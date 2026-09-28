@@ -1,5 +1,5 @@
 ---
-title: FESTA SAN XIBECO NIT
+title: Festa San Xibeco Nit
 date: 2014-11-16T11:46:00+0100
 year: 2014
 author: Pedro Click

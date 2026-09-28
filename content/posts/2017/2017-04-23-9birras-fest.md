@@ -1,5 +1,5 @@
 ---
-title: 9BIRRAS FEST !!!
+title: 9Birras Fest !!!
 date: 2017-04-23T21:44:00+0200
 year: 2017
 author: Pili E. G.

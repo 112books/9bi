@@ -1,5 +1,5 @@
 ---
-title: BAÑOS EN EL MAR
+title: Baños en el mar
 date: 2015-07-21T13:30:00+0200
 year: 2015
 author: 9 Barris Imatge

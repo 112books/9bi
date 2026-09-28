@@ -1,5 +1,5 @@
 ---
-title: LA BUENA PULGA
+title: La buena pulga
 date: 2014-05-19T12:53:00+0200
 year: 2014
 author: Pedro Click

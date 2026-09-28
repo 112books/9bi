@@ -1,5 +1,5 @@
 ---
-title: GRUP MARIACHIS PEÑA PURETAS 2022
+title: Grup mariachis Peña Puretas 2022
 date: 2022-06-02T14:09:00+0200
 year: 2022
 author: Pedro Click

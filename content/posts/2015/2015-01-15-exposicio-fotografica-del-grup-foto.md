@@ -1,5 +1,5 @@
 ---
-title: EXPOSICIÓ FOTOGRÀFICA DEL GRUP FOTO ROQUETES AL TON I GUIDA !!!
+title: Exposició fotogràfica del Grup Foto Roquetes al Ton i Guida !!!
 date: 2015-01-15T23:01:00+0100
 year: 2015
 author: Pili E. G.

@@ -1,5 +1,5 @@
 ---
-title: 'III CONCURS DE FOTOGRAFIA 3 VOLTES REBEL: "NO ÉS POBRESA, ÉS INJUSTICIA"!'
+title: 'III Concurs de fotografia 3 Voltes Rebel: "no és pobresa, és injusticia"!'
 date: 2015-01-28T23:35:00+0100
 year: 2015
 author: Joan "Linux" Martínez i Serres

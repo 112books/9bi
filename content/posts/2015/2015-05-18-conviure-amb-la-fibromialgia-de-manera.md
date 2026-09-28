@@ -1,5 +1,5 @@
 ---
-title: CONVIURE AMB LA FIBROMIALGIA DE MANERA POSITIVA !!!
+title: Conviure amb la fibromialgia de manera positiva !!!
 date: 2015-05-18T01:02:00+0200
 year: 2015
 author: Pili E. G.

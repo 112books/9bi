@@ -1,5 +1,5 @@
 ---
-title: PARLEM AMB...JAVIER PÉREZ ANDÚJAR A LA BIBLIOTECA LES ROQUETES.
+title: Parlem amb...Javier Pérez andújar a la Biblioteca les Roquetes.
 date: 2015-04-28T00:48:00+0200
 year: 2015
 author: Pili E. G.

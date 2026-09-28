@@ -1,5 +1,5 @@
 ---
-title: TU BANDA ME SUENA
+title: Tu Banda me suena
 date: 2019-06-23T20:30:00+0200
 year: 2019
 author: Pedro Click

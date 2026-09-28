@@ -1,5 +1,5 @@
 ---
-title: ' JORNADA 2  XARXA 9 BARRIS ACULL'
+title: Jornada 2  Xarxa 9 Barris Acull
 date: 2013-11-25T18:55:00+0100
 year: 2013
 author: Alberto Sanagustín

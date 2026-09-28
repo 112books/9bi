@@ -1,5 +1,5 @@
 ---
-title: DONES SENSE LIMIT...ACIONS AL TON I GUIDA.
+title: Dones Sense limit...acions al Ton i Guida.
 date: 2015-03-03T00:28:00+0100
 year: 2015
 author: Pili E. G.

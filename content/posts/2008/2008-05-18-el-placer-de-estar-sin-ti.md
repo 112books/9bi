@@ -1,5 +1,5 @@
 ---
-title: EL PLACER DE ESTAR SIN TI
+title: '"El Placer de estar sin ti"'
 date: 2008-05-18T13:34:00+0200
 year: 2008
 author: petxina

@@ -1,5 +1,5 @@
 ---
-title: PEÑA LOS DE SIEMPRE
+title: Peña los de siempre
 date: 2014-06-02T17:48:00+0200
 year: 2014
 author: Manel Villalba

@@ -1,5 +1,5 @@
 ---
-title: POESIA
+title: Poesia
 date: 2010-04-25T19:16:00+0200
 year: 2010
 author: Pedro Click

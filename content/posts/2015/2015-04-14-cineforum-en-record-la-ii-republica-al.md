@@ -1,5 +1,5 @@
 ---
-title: CINEFORUM AL TONI I GUIDA.
+title: Cineforum al toni i Guida.
 date: 2015-04-14T18:18:00+0200
 year: 2015
 author: Pili E. G.

@@ -1,5 +1,5 @@
 ---
-title: EXPO CENTENARI DE BROSSA
+title: Expo Centenari de Brossa
 date: 2019-09-21T13:47:00+0200
 year: 2019
 author: Alberto Sanagustín

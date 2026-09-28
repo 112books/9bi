@@ -1,5 +1,5 @@
 ---
-title: CIA. ESTABLE DE LA CASA REAL - PIT I COLLONS
+title: Cia. Estable de la casa real - pit i collons
 date: 2014-01-19T20:25:00+0100
 year: 2014
 author: Pedro Click

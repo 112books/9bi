@@ -1,5 +1,5 @@
 ---
-title: '" 10 ANYS DE SOPES DEL MÓN " A LA BIBLIOTECA LES ROQUETES !!!'
+title: '" 10 Anys de Sopes del Món " a la Biblioteca les Roquetes !!!'
 date: 2014-07-17T20:14:00+0200
 year: 2014
 author: Pili E. G.

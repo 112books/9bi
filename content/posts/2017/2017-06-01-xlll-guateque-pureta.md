@@ -1,5 +1,5 @@
 ---
-title: Xlll GUATEQUE PURETA
+title: Xlll Guateque Pureta
 date: 2017-06-01T22:16:00+0200
 year: 2017
 author: Pedro Click

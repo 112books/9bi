@@ -1,5 +1,5 @@
 ---
-title: 'ROQUETES : ESCUMA AMB CÍA MÉS TOMÀQUET !!!'
+title: 'Roquetes : escuma amb Cía Més tomàquet !!!'
 date: 2014-06-29T22:48:00+0200
 year: 2014
 author: Pili E. G.

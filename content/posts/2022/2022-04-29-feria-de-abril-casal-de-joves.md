@@ -1,5 +1,5 @@
 ---
-title: FERIA DE ABRIL CASAL DE JOVES PROSPERITAT 2022
+title: Feria de abril Casal de Joves Prosperitat 2022
 date: 2022-04-29T16:34:00+0200
 year: 2022
 author: Pedro Click

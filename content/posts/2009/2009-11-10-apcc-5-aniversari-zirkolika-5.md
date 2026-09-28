@@ -1,5 +1,5 @@
 ---
-title: APCC 5º ANIVERSARI .. ZIRKOLIKA 5º ANIVERSARI  .. 07-11-2009 .. LA CENTRAL
+title: Apcc 5º aniversari .. Zirkolika 5º aniversari  .. 07-11-2009 .. La Central
   DEL CIRC
 date: 2009-11-10T01:38:00+0100
 year: 2009

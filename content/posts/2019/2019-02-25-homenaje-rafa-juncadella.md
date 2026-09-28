@@ -1,5 +1,5 @@
 ---
-title: HOMENAJE A RAFA JUNCADELLA
+title: Homenaje a Rafa Juncadella
 date: 2019-02-25T11:55:00+0100
 year: 2019
 author: Pedro Click

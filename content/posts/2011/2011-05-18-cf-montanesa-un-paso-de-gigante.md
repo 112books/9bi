@@ -1,5 +1,5 @@
 ---
-title: CF MONTAÑESA, UN  PASO DE GIGANTE
+title: Cf Montañesa, un  paso de gigante
 date: 2011-05-18T00:21:00+0200
 year: 2011
 author: Pedro Click

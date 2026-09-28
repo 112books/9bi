@@ -1,5 +1,5 @@
 ---
-title: '"LOS DE SIEMPRE" I ALGÚNS MÉS...!!!'
+title: '"Los de siempre" i algúns Més...!!!'
 date: 2014-06-01T01:09:00+0200
 year: 2014
 author: Pili E. G.

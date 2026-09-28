@@ -1,5 +1,5 @@
 ---
-title: VOCES PARA LA INTEGRACION BY NICO
+title: VOCES para la integracion by Nico
 date: 2017-06-04T12:27:00+0200
 year: 2017
 author: Pedro Click

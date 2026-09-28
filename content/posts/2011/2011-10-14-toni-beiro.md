@@ -1,5 +1,5 @@
 ---
-title: TONI BEIRO
+title: Toni Beiro
 date: 2011-10-14T13:01:00+0200
 year: 2011
 author: Pedro Click

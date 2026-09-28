@@ -1,5 +1,5 @@
 ---
-title: SUPERBEBIENTES
+title: Superbebientes
 date: 2012-05-17T19:43:00+0200
 year: 2012
 author: Pedro Click

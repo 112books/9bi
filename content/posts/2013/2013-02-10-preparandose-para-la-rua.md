@@ -1,5 +1,5 @@
 ---
-title: PREPARANDOSE PARA LA RUA
+title: Preparandose para la Rua
 date: 2013-02-10T19:52:00+0100
 year: 2013
 author: Pedro Click

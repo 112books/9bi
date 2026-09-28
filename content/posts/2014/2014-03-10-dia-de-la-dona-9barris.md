@@ -1,5 +1,5 @@
 ---
-title: DIA DE LA DONA 9BARRIS
+title: Dia de la dona 9Barris
 date: 2014-03-10T11:05:00+0100
 year: 2014
 author: Pedro Click

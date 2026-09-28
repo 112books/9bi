@@ -1,5 +1,5 @@
 ---
-title: A L'ATENEU, TITELLES AMB LA CÍA " THE KATKATHA PUPPET" DE NOVA DELHI .
+title: A l'Ateneu, titelles amb la Cía " The katkatha puppet" de Nova delhi .
 date: 2014-11-03T01:04:00+0100
 year: 2014
 author: Pili E. G.

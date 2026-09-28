@@ -1,5 +1,5 @@
 ---
-title: PROSPE FESTA DRAG QUEN
+title: Prospe Festa Drag Quen
 date: 2009-06-15T11:41:00+0200
 year: 2009
 author: Pedro Click

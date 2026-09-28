@@ -1,5 +1,5 @@
 ---
-title: DIA DE LA DONA NOU BARRIS
+title: Dia de la dona Nou Barris
 date: 2014-03-11T20:15:00+0100
 year: 2014
 author: Pedro Click

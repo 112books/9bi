@@ -1,5 +1,5 @@
 ---
-title: EL GERMA DE JOAN?
+title: El germa de Joan?
 date: 2011-06-04T01:10:00+0200
 year: 2011
 author: Pedro Click

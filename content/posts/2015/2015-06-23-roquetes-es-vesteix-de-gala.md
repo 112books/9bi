@@ -1,5 +1,5 @@
 ---
-title: ROQUETES ES VESTEIX DE GALA !!!
+title: Roquetes es vesteix de Gala !!!
 date: 2015-06-23T21:57:00+0200
 year: 2015
 author: Pili E. G.
