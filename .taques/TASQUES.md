@@ -28,11 +28,12 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 | T-19 | ⚪ | 5a pestanya de «Qui som»: Història de la fotografia a Nou Barris | 18/09 | — | Recerca feta, galeria en suspens |
 | T-20 | ⚪ | Membres: completar els Instagram que falten | 18/09 | — | |
 | T-21 | ⚪ | Seguretat CI/CD: SHA-pin de les accions, credencials fora de `deploy.sh`, 11 fitxers `.dl-*`, `modules/taro/.gitignore` | 25/09 | — | De l'auditoria del 25/09 |
-| T-22 | ⚪ | Reobrir l'issue #2522 de Codeberg (quota) | 21/09 | — | Text a `drafts/2026-09-27-codeberg-issue-2522-reobrir.md`, no enviat |
+| T-22 | ⚪ | Reobrir l'issue #2522 de Codeberg (quota) | 21/09 | — | **Comentari de petició de GC enviat el 28/09 20:17** (branca `pages` esborrada abans). Pendent de resposta. Text a `drafts/2026-09-27-codeberg-issue-2522-reobrir.md` |
 | T-23 | ⚪ | Revisió jurídica final de l'adequació RGPD | 18/09 | — | |
 | T-24 | ⚪ | Tipografia Gillius: OTF → woff2 | 18/09 | — | Opcional |
 | T-26 | ⚪ | Control de fitxers del Concurs Cordoncillo (bases, històric…) | 18/09 | — | |
 | T-28 | 🟡 | Staging a Codeberg (`https://linuxbcn.codeberg.page/9bi/`): els CSS es veuen trencats | 28/09 | — | Anotada per l'usuari. Probablement rutes absolutes que no tenen en compte el subdirectori `/9bi/` (cal revisar `config/staging/hugo.toml` i els recursos amb `/` inicial) |
+| T-29 | 🟡 | **Publicar la versió distribuïble de Taro a Codeberg** (`linuxbcn/9bi` → `main`): la plantilla ja està feta i verificada a la branca local `distribucio` (`90ebcc6379`, `af8a537d6f`). Bloquejat pel **GC de Codeberg** (issue #2522, comentari enviat el 28/09 20:17; el compte encara marca 752,7 MiB). Quan passi: `git push origin distribucio:main` | 28/09 | — | Pla B si Codeberg no es desencalla: publicar la mateixa branca en un repo nou a GitHub |
 | T-27 | ⚪ | Secció per preparar i gestionar les reunions del col·lectiu | 18/09 | — | |
 
 ### Tancades sense fer
@@ -48,6 +49,9 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | Data | ID | Tasca | Temps | Commit |
 |---|---|---|---|---|
+| 28/09 | — | **Versió distribuïble de Taro** (branca local `distribucio`): contingut del 9bi eliminat, plantilla amb marcadors `[POSA-HI: …]`, logo de l'aplicació i README de personalització. Build net | ~1 h 30 min | `90ebcc6379`, `af8a537d6f` |
+| 28/09 | — | **Codeberg**: esborrada la branca `pages` (el build vell); el compte queda a l'espera del GC. GC demanat a l'issue #2522 | ~5 min | — |
+| 28/09 | — | **GoatCounter**: `/stats/` usa el total oficial de `/stats/total` (159 → 166 en viu). Documentat que l'API no exposa usuaris únics | ~20 min | `16bdec539` |
 | 28/09 | — | Qui som (història): enllaços a Eva Orti, Elena Bulet i Humberto Rivas, Joan «Linux» a Nou Barris9, Mónica Rosselló treta de la taula | ~20 min | `b9cd90bd1`, `2a44e715b` |
 | 28/09 | T-16 | Comentaris a les entrades amb moderació prèvia (mòdul `formularis`: avís a info@, revisió signada, publicació via l'API de GitHub) + pàgina de revisió amb l'aspecte del 9bi + paràgraf a `/privacitat/`. Desplegat al servidor i provat en real: formulari → correu → «Descarta» OK. **«Publica» pendent de provar amb el primer comentari real** | ~1 h | `d4b7c6a45`, `f4cb6d8c1` |
 | 28/09 | T-25 | 399 títols en majúscules normalitzats: l'usuari els va triar un per un en una pàgina de revisió (382 propostes, 17 de propis). Només el camp `title`; les 8.708 pàgines HTML tenen les mateixes URL abans i després | ~35 min | `969076cc4` |

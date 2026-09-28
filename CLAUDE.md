@@ -626,6 +626,14 @@ Sessió al núvol (Claude Code), ~08:35–11:40. Tots els canvis per PR a `main`
 - **Nova tasca T-28**: CSS trencats a l'staging de Codeberg (`https://linuxbcn.codeberg.page/9bi/`).
 - **Eina útil al núvol**: Hugo 0.164.0 extended s'instal·la amb `pip install hugo==0.164.0` (paquet `hugo-python-distributions`) quan no hi ha accés a GitHub Releases.
 
+## Sessió 2026-09-28 (v3) — Versió distribuïble de Taro a Codeberg i GoatCounter
+
+- **Objectiu (usuari)**: Codeberg ha de tenir la **versió distribuïble de Taro**, buida de contingut però funcional, amb els textos que marquin què ha de personalitzar qui la instal·li. Producció del web continua a GitHub.
+- **Codeberg**: esborrada la branca `pages` (el build vell) amb `git push origin --delete pages`. El compte encara marca **752,7 MiB** (>750) perquè cal el **GC**; el push de `distribucio:main` va ser rebutjat (`Forgejo: Quota exceeded`). Petició de GC comentada a l'issue #2522 el 28/09 20:17 (sense resposta encara).
+- **Branca `distribucio`** (local, 2 commits sobre `main`: `90ebcc6379` + `af8a537d6f`): contingut del 9bi eliminat (posts, pàgines, guia, documentació, membres, stats i 2.988 imatges), `[params.taro]` (fundació, Telegram, Instagram), baseURL de producció/staging d'exemple, capçal i peu amb `taro-logo-text.svg`, marcadors `[POSA-HI: …]` a `contacte`/`privacitat`/`votacio`, avís flotant del concurs tret, GoatCounter del 9bi comentat i README amb «Què cal personalitzar». Build `hugo --minify --environment staging` net (18 pàgines). **No publicada** (bloqueig de quota).
+- **GoatCounter (FET, producció, `16bdec539`)**: `/stats/` sumava `/stats/hits?limit=50` (paginat) i quedava curt (159 vs >200 del tauler). Ara usa el camp `total` de `/stats/total`. Verificat a l'OpenAPI de GoatCounter: `total_unique` **no existeix** a l'API (per això sempre era 0). Desplegat (run #110) i verificat en viu: **166** per al període 29/08–28/09.
+- **Pendent de revisar a producció**: vegeu `TASQUES.md`; els crítics són T-01 (llista d'obres de la votació, 30/11), T-04 (certificat SSL, 26/11), T-12 (prova de vot real) i T-16 («Publica» d'un comentari).
+
 ## Tasques pendents
 
 > **Pendents: vegeu [`.taques/TASQUES.md`](.taques/TASQUES.md)** (font única des del 2026-09-27; no afegir-ne aquí).
