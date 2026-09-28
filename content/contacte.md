@@ -42,4 +42,4 @@ Rep cada post nou del blog sense haver de venir-lo a buscar. Dos canals unidirec
   <span>Obre el canal de Telegram <strong>@NouBarrisImatge</strong> i prem «Unir-se». Cada post nou, al teu mòbil.</span>
 </a>
 
-Si prefereixes llegir-ho des del teu lector de feeds, subscriu-te al [RSS del blog](/index.xml).
+Si prefereixes llegir-ho des del teu lector de feeds, subscriu-te al [RSS del blog](/posts/index.xml).
