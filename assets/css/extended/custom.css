@@ -2234,3 +2234,78 @@ h1, h2, h3, h4, h5, h6 {
     transition: none;
   }
 }
+
+/* ---- T-16: comentaris de l'entrada ---- */
+
+.post-comments {
+  margin: 2.5rem 0 1rem;
+}
+.post-comments h2 {
+  font-size: 1.15rem;
+  margin: 0 0 1rem;
+}
+.post-comments-count {
+  color: var(--secondary);
+  font-weight: 400;
+}
+.post-comments-sent {
+  display: none;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--border);
+  border-left: 3px solid #e03131;
+  border-radius: 6px;
+  background: var(--entry);
+}
+.post-comments-sent:target {
+  display: block;
+  margin-bottom: 1.2rem;
+}
+.post-comments-list {
+  list-style: none;
+  margin: 0 0 1.5rem;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+.post-comments-list li {
+  margin: 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+.post-comment-meta {
+  margin: 0 0 0.35rem;
+  font-size: 0.88rem;
+  color: var(--secondary);
+}
+.post-comment-meta strong {
+  color: var(--primary);
+}
+.post-comment-text {
+  overflow-wrap: anywhere;
+}
+.post-comments-form summary {
+  display: inline-block;
+  width: fit-content;
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-weight: 600;
+  list-style: none;
+}
+.post-comments-form summary::-webkit-details-marker {
+  display: none;
+}
+.post-comments-form summary:hover,
+.post-comments-form summary:focus-visible {
+  border-color: #e03131;
+  color: #e03131;
+}
+.post-comments-form[open] summary {
+  margin-bottom: 0.4rem;
+}
+.post-comments-note {
+  font-size: 0.85rem;
+  color: var(--secondary);
+}

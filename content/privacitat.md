@@ -33,6 +33,10 @@ Les dades no se cedeixen a tercers aliens, excepte:
 
 Alguns d'aquests proveïdors poden estar ubicats fora de l'Espai Econòmic Europeu; en aquest cas, el tractament es fa a l'empara de les garanties previstes al RGPD per a les transferències internacionals.
 
+## Comentaris a les entrades
+
+Si deixes un comentari, tractem el nom, el text i, si l'indiques, el correu electrònic. El nom i el text es publiquen a l'entrada un cop revisats; el correu no es publica mai i només el fem servir per respondre't si cal. Base legal: el teu consentiment. Pots demanar que retirem un comentari escrivint a info@9barrisimatge.org.
+
 ## Quant de temps les conservem
 
 Conservem les dades mentre es tramita la consulta i, després, durant el temps necessari per complir les obligacions legals aplicables. Quan ja no siguin necessàries, se suprimiran de manera segura.

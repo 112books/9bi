@@ -136,6 +136,51 @@ finalitat, base legal, destinataris, conservació, drets i AEPD), que és
 el que demana la LOPDGDD.
 
 
+COMENTARIS DE LES ENTRADES (T-16, 2026-09-28)
+--------------------------------------------
+El mateix servei rep els comentaris del formulari que hi ha al final de
+cada entrada (layouts/_partials/post-comments.html). Codi a comentaris.py.
+
+Com funciona:
+  1. Algú envia un comentari: POST /envia/comentari. Es valida com els
+     altres formularis (origen, honeypot, límit, consentiment) i queda
+     PENDENT a ~/apps/formularis/comentaris/pendents/<id>.json (600).
+     La persona torna a l'entrada i veu «Hem rebut el teu comentari».
+  2. Arriba un correu a info@9barrisimatge.org amb el text i un enllaç
+     signat. Si ha posat correu, el Reply-To és el seu (per respondre-li).
+  3. L'enllaç obre una pàgina amb «Publica» i «Descarta». Obrir l'enllaç
+     no fa res: els filtres antispam dels correus obren els enllaços sols.
+  4. «Publica» crea data/comentaris/<entrada>/<id>.json al repositori amb
+     l'API de GitHub (només nom, text i data; el correu mai). El commit a
+     main dispara el build i en un parell de minuts surt al web.
+     «Descarta» l'esborra. En tots dos casos s'esborra el fitxer pendent.
+  Si el text porta enllaços, el correu i la pàgina de revisió ho avisen.
+
+Configuració ([comentaris] del config.ini, vegeu config.example.ini):
+  moderador     = info@9barrisimatge.org
+  base_url      = https://formularis.linuxbcn.com
+  secret        = 64 caràcters aleatoris (signa els enllaços de revisió)
+                  python3 -c "import secrets; print(secrets.token_hex(32))"
+  github_token  = token fine-grained de GitHub, NOMÉS per al repositori
+                  112books/9bi i NOMÉS amb el permís «Contents: Read and
+                  write». Es crea a GitHub → Settings → Developer settings
+                  → Fine-grained tokens. Posa-li una caducitat i apunta-la.
+Sense secret o sense token, el formulari de comentaris respon 503 i no
+es desa res.
+
+Desplegament (el primer cop):
+  1. scp app.py comentaris.py al servidor (~/apps/formularis/).
+  2. Afegir la secció [comentaris] al config.ini del servidor.
+  3. ~/apps/formularis/deploy/stop.sh && ~/apps/formularis/deploy/start.sh
+  4. Provar: el formulari d'una entrada → correu → «Publica» → el
+     comentari surt a l'entrada després del build.
+  El formulari del web NO s'ha de publicar (merge a main) abans que el
+  servidor estigui actualitzat: si no, els comentaris donarien error.
+
+Per esborrar un comentari ja publicat: esborrar el seu fitxer de
+data/comentaris/ al repositori (des de GitHub o amb git; no és al CMS).
+
+
 SI MAI ES VOL ESBORRAR AQUEST MÒDUL
 -----------------------------------
 Cal tornar primer els dos formularis del web a un servei que funcioni, o

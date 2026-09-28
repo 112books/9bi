@@ -21,6 +21,9 @@ Config: config.ini (exemple a config.example.ini). Variable d'entorn:
 Routes:
   GET  /health                  -> estat del servei
   POST /envia/<formulari>       -> rep els camps i els envia per correu
+  POST /envia/comentari         -> comentari d'una entrada, queda pendent
+  GET  /comentari/<id>?sig=...  -> pàgina de revisió (no canvia res)
+  POST /comentari/<id>          -> publica o descarta (vegeu comentaris.py)
 
 Seguretat:
   - Origen: el POST ha d'arribar des d'un dels orígens de la llista
@@ -49,6 +52,8 @@ from email.message import EmailMessage
 from email.utils import formataddr, make_msgid
 from wsgiref.simple_server import make_server
 
+import comentaris
+
 MODULE_DIR = os.path.dirname(os.path.abspath(__file__))
 CONFIG_PATH = os.environ.get(
     "FORMULARIS_CONFIG", os.path.join(MODULE_DIR, "config.ini"))
@@ -63,6 +68,9 @@ KNOWN_FORMS = {
     "incorpora-te": ("nom_complet", "nom_artistic", "usuari_github",
                      "email", "web", "instagram", "galeries",
                      "consentiment"),
+    # Comentaris de les entrades: camps validats a comentaris.build_item()
+    "comentari": ("entrada", "pagina", "nom", "email", "comentari",
+                  "consentiment"),
 }
 
 MAX_CAMP = 2000        # caràcters per camp
@@ -457,6 +465,11 @@ def form_post(environ, start_response, form):
 
     # Honeypot: si el camp ocult ve ple, descartem en silenci
     if fields.get("_honey"):
+        if form == "comentari":
+            return respond(environ, start_response, "303 See Other", "",
+                           extra_headers=[("Location", cfg.get(
+                               "general", "site_url",
+                               fallback="https://9barrisimatge.org/"))])
         return redirect_ok(environ, start_response, cfg, lang, i18n, form)
 
     # Origen: només s'accepten POST des dels orígens configurats
@@ -465,6 +478,9 @@ def form_post(environ, start_response, form):
                        page_html(lang, i18n.get("title_error", ""),
                                  "<p>%s</p>" % htmlmod.escape(
                                      i18n.get("msg_origin", ""))))
+
+    if form == "comentari":
+        return comentari_post(environ, start_response, cfg, lang, i18n, fields)
 
     # Whitelist + neteja de camps
     camps = {}
@@ -533,6 +549,100 @@ def form_post(environ, start_response, form):
                                  i18n.get("msg_error", ""))))
 
 
+# ------------------------------------------------------------ comentaris
+
+def error_page(environ, start_response, status, lang, text):
+    return respond(environ, start_response, status,
+                   page_html(lang, "Error", "<p>%s</p>" % htmlmod.escape(text)))
+
+
+def comentari_post(environ, start_response, cfg, lang, i18n, fields):
+    site_url = cfg.get("general", "site_url",
+                       fallback="https://9barrisimatge.org/").rstrip("/")
+    item, err = comentaris.build_item(fields, site_url, clean_value)
+    if err:
+        text = {
+            "msg_comentari_entrada": "El comentari no indica a quina entrada va.",
+            "msg_empty": "Cal posar el nom i el comentari.",
+            "msg_consent": "Cal acceptar la política de privacitat.",
+        }[err]
+        return error_page(environ, start_response, "400 Bad Request", lang,
+                          i18n.get(err) or text)
+    if not (smtp_ready(cfg) and comentaris.ready(cfg)):
+        comentaris.log("config.ini sense SMTP, secret o github_token")
+        return error_page(environ, start_response, "503 Service Unavailable",
+                          lang, i18n.get("msg_unavailable") or
+                          "El servei de comentaris no està disponible ara mateix.")
+    try:
+        comentaris.save_pending(cfg, MODULE_DIR, item)
+    except OSError as e:
+        comentaris.log("no s'ha pogut desar: %s" % e)
+        return error_page(environ, start_response, "500 Internal Server Error",
+                          lang, "No s'ha pogut desar el comentari.")
+    dest = cfg.get("comentaris", "moderador",
+                   fallback=cfg.get("general", "destinatari",
+                                    fallback="info@9barrisimatge.org"))
+    ok, detall = send_mail(
+        cfg, dest, "Comentari pendent — %s" % item["nom"],
+        comentaris.mail_text(cfg, item),
+        item["email"] if valid_email(item["email"]) else None)
+    if not ok:
+        comentaris.log("error en enviar l'avís: %s" % detall)
+    return respond(environ, start_response, "303 See Other", "",
+                   extra_headers=[("Location",
+                                   item["pagina"] + "#comentari-enviat")])
+
+
+def comentari_review(environ, start_response, cid):
+    cfg = load_config()
+    method = environ.get("REQUEST_METHOD", "GET")
+    if method == "POST":
+        length = int(environ.get("CONTENT_LENGTH") or 0)
+        if length > MAX_COS:
+            return error_page(environ, start_response,
+                              "413 Payload Too Large", "ca", "Petició massa gran.")
+        raw = environ["wsgi.input"].read(length) if length else b""
+        f = {k: v[0] for k, v in urllib.parse.parse_qs(
+            raw.decode("utf-8", "replace")).items()}
+    else:
+        f = {k: v[0] for k, v in urllib.parse.parse_qs(
+            environ.get("QUERY_STRING", "")).items()}
+    sig = f.get("sig", "")
+    if not comentaris.sig_ok(cfg, cid, sig):
+        return error_page(environ, start_response, "403 Forbidden", "ca",
+                          "Enllaç de revisió no vàlid.")
+    item = comentaris.load_pending(cfg, MODULE_DIR, cid)
+    if not item:
+        return respond(environ, start_response, "410 Gone", page_html(
+            "ca", "Comentari", "<p>Aquest comentari ja s'ha revisat "
+            "(publicat o descartat).</p>"))
+    if method != "POST":
+        return respond(environ, start_response, "200 OK", page_html(
+            "ca", "Comentari pendent", comentaris.review_page(cfg, item, sig)),
+            extra_headers=[("X-Robots-Tag", "noindex")])
+    accio = f.get("accio")
+    if accio == "publica":
+        ok, detall = comentaris.publish(cfg, item)
+        if not ok:
+            comentaris.log("error en publicar %s: %s" % (cid, detall))
+            return error_page(environ, start_response, "502 Bad Gateway", "ca",
+                              "No s'ha pogut publicar (GitHub). Torna-ho a "
+                              "provar d'aquí a una estona; el comentari "
+                              "continua pendent.")
+        comentaris.drop_pending(cfg, MODULE_DIR, cid)
+        msg = ("Publicat. Sortirà a <a href=\"%s#comentaris\">l'entrada</a> "
+               "en el pròxim build (un parell de minuts)."
+               % htmlmod.escape(item["pagina"]))
+    elif accio == "descarta":
+        comentaris.drop_pending(cfg, MODULE_DIR, cid)
+        msg = "Descartat. No es publicarà i s'ha esborrat del servidor."
+    else:
+        return error_page(environ, start_response, "400 Bad Request", "ca",
+                          "Acció desconeguda.")
+    return respond(environ, start_response, "200 OK", page_html(
+        "ca", "Comentari", '<p class="msg ok">%s</p>' % msg))
+
+
 def health(environ, start_response):
     return respond(environ, start_response, "200 OK", "ok",
                    content_type="text/plain; charset=utf-8")
@@ -543,6 +653,9 @@ def application(environ, start_response):
     method = environ.get("REQUEST_METHOD", "GET")
     if path == "/health":
         return health(environ, start_response)
+    if path.startswith("/comentari/") and method in ("GET", "POST"):
+        return comentari_review(environ, start_response,
+                                path[len("/comentari/"):].strip("/"))
     if path.startswith("/envia/") and method == "POST":
         form = path[len("/envia/"):].strip("/")
         return form_post(environ, start_response, form)
