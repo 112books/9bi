@@ -602,6 +602,14 @@ sync-9bi.sh                        # script de sync/gestió
 
 - **Telegram: NO està lligat** (comprovat el 2026-09-27). `modules/autopublica/` **no** publica a xarxes: rep el webhook de push del repositori i fa `git pull` → build → push del build, és a dir, publica el web sol. Les úniques mencions de Telegram són text (backlog, `concurs.md`, `contacte.md`). Per muntar-lo cal token d'un bot de `@BotFather` + `chat_id` del canal (accions de l'usuari) i un script nou que publiqui l'entrada nova; el punt d'enganx natural és just després del build.
 
+## Sessió 2026-09-28 — Menys protagonisme a l'Arxiu Històric i canvi de «Membres veterans»
+
+- **`/qui-som/` — Arxiu Històric de Roquetes-Nou Barris** (FET, commit `72a18d3db8`): l'arxiu ha demanat no tenir gaire protagonisme ni cap enllaç (els tres enllaços ja es van retirar el 2026-09-27, commit `e59c71ac20`). S'ha escurçat la frase del panell «Qui som» sobre el fons del fundador i la fila pròpia de l'Arxiu a la taula de «Fotografia comunitària i de barri» (es treu l'estadística de 48.000 fotos, la llista de donants —ja consten a les seves pròpies files— i la frase de retret per manca de contacte).
+- **`#9barrisimatgealsmitjans`** (mateix commit `72a18d3db8`): corregit el castellanisme «se esmenta» → «s'esmenta» (Barnanews), marcada com a pendent de localitzar la font de Barnanews, reordenades cronològicament les dues entrades de Betevé, i escurçat el paràgraf de resum final (redundant amb el contingut de dalt).
+- **«Membres veterans» → «Antics membres»** (decisió de l'usuari, 2026-09-28, revisant la decisió anterior del 2026-09-20): el terme «veterans» no encaixava amb el grup real (11 persones que ja no participen per motius molt diferents entre si: desconnexió, algun cas d'expulsió, o defunció). Canviat el text visible a `layouts/_shortcodes/membres.html` (capçalera `<h2>`) i a `data/membres/README.txt`. Les variables internes de Hugo (`$veterans`, `$tots_veterans`) no s'han tocat: és codi, no contingut visible.
+- **Pendent de decidir, no aplicat**: reformular a `/faq/` la pregunta «Les fotos dels àlbums de Google Photos?» perquè segueixi el patró interrogatiu («Puc...», «Com he de...») de la resta de preguntes.
+- **Discrepància trobada als remots (a verificar la propera sessió)**: en aquesta sessió, via el bridge al Mac (`~/mnt/9arrisimatge.org`), els remots són com **abans** de la sessió 2026-09-27(v2) — `github` → GitHub (funciona, `git fetch github` OK), `origin` → Codeberg per SSH (bloquejat per la xarxa restringida del sandbox, 403) — i no com diu aquell registre («origin = GitHub, ja no existeix cap remot anomenat github»). No s'ha tocat la configuració dels remots; només s'hi deixa constància.
+
 ## Tasques pendents
 
 > **Pendents: vegeu [`.taques/TASQUES.md`](.taques/TASQUES.md)** (font única des del 2026-09-27; no afegir-ne aquí).

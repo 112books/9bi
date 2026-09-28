@@ -18,8 +18,8 @@ web         Adreça del seu web o perfil. Si no en té, el web hi posa
 instagram   Perfil d'Instagram. Hi ha alguns membres que encara no en
             tenen enllocat: és una tasca pendent, no un error.
 actiu       true = membre actual (surt a la llista de membres actius de
-            /qui-som/ amb el seu enllaç); false = membre històric
-            (surt a sota, al grup de membres veterans).
+            /qui-som/ amb el seu enllaç); false = ja no participa
+            activament (surt a sota, al grup d'antics membres).
 
 On s'editar
 ------------
