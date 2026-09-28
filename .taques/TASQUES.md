@@ -24,7 +24,6 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 | T-11 | ⚪ | Cerca limitada a l'autor a `/author/<slug>.html` | 24/09 | — | Baixa prioritat |
 | T-12 | ⚪ | Test real de vot des del telèfon (número, títol, categoria, avís legal, resultats) | 24/09 | abans de l'01/12 | Depèn de T-01 |
 | T-14 | ⚪ | Publicació automàtica a Instagram i Facebook + enllaços al web | 18/09 | — | Mateix patró que T-13 (`modules/telegram/`: RSS de `/posts/` + `state.json` + cron) |
-| T-16 | ⚪ | Comentaris amb control d'spam fort | 18/09 | — | **Solució aprovada (28/09)**: mòdul propi basat en `formularis/` amb moderació prèvia per correu; en aprovar, el comentari entra al repositori i surt al build. Pendent: moderador/correu, abast (totes les entrades o noves) i camps |
 | T-18 | ⚪ | Auditoria d'accessibilitat | 17/09 | — | |
 | T-19 | ⚪ | 5a pestanya de «Qui som»: Història de la fotografia a Nou Barris | 18/09 | — | Recerca feta, galeria en suspens |
 | T-20 | ⚪ | Membres: completar els Instagram que falten | 18/09 | — | |
@@ -49,6 +48,7 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | Data | ID | Tasca | Temps | Commit |
 |---|---|---|---|---|
+| 28/09 | T-16 | Comentaris a les entrades amb moderació prèvia (mòdul `formularis`: avís a info@, revisió signada, publicació via l'API de GitHub) + pàgina de revisió amb l'aspecte del 9bi + paràgraf a `/privacitat/`. Desplegat al servidor i provat en real: formulari → correu → «Descarta» OK. **«Publica» pendent de provar amb el primer comentari real** | no registrat | `d4b7c6a45` + aquest PR |
 | 28/09 | T-25 | 399 títols en majúscules normalitzats: l'usuari els va triar un per un en una pàgina de revisió (382 propostes, 17 de propis). Només el camp `title`; les 8.708 pàgines HTML tenen les mateixes URL abans i després | no registrat | aquest PR |
 | 28/09 | T-17 | Botons discrets per compartir cada entrada (WhatsApp, Telegram, Facebook, correu, copia, menú del sistema al mòbil) + correcció del botó «Copia» del concurs | no registrat | `7e5406ec6` |
 | 28/09 | — | Enllaços RSS del web al feed de les entrades (`/posts/index.xml`) | ~5 min | `0cbbed841` |
