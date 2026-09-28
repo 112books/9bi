@@ -15,6 +15,12 @@ Lògica:
 Instal·lació al servidor:
   1. Copia aquest fitxer i config.ini a ~/apps/telegram/
   2. Omple config.ini amb el token i el chat_id
+     (rss_url ha de ser el feed de /posts/: /index.xml inclou pàgines fixes)
+  2b. Primera instal·lació: marca les entrades existents com a publicades,
+      o es publicaria tot l'arxiu del més antic al més nou:
+        python3 -c "import json, telegram_post as t; i = t.parse_rss(t.fetch_rss(
+          'https://9barrisimatge.org/posts/index.xml')); json.dump({'posted': [x['guid']
+          for x in i]}, open('state.json', 'w'))"
   3. Afegeix al crontab: */15 * * * * python3 ~/apps/telegram/telegram_post.py
 """
 
@@ -98,11 +104,11 @@ def main():
     cfg     = load_config(args.config)
     token   = cfg.get('telegram', 'token')
     chat_id = cfg.get('telegram', 'chat_id')
-    rss_url = cfg.get('blog', 'rss_url', fallback='https://9barrisimatge.org/index.xml')
+    rss_url = cfg.get('blog', 'rss_url', fallback='https://9barrisimatge.org/posts/index.xml')
     delay_h = cfg.getint('telegram', 'delay_hours',  fallback=1)
     max_run = cfg.getint('telegram', 'max_per_run',  fallback=3)
 
-    if token == 'POSA_AQUI_EL_TOKEN':
+    if not token or token.startswith('POSA_AQUI'):
         print('Error: cal configurar el token a config.ini', file=sys.stderr)
         sys.exit(1)
 
