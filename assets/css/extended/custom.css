@@ -2159,3 +2159,8 @@ h1, h2, h3, h4, h5, h6 {
 .gracies-links {
   margin-top: 2rem;
 }
+
+.md-content figure>figcaption {
+  font-weight: normal;
+  font-style: italic;
+}

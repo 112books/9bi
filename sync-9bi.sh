@@ -30,12 +30,12 @@
 set -euo pipefail
 
 # ── Variables ────────────────────────────────────────────────────────────
-REMOTE="origin"
+REMOTE="github"
 BRANCH_DEPLOY="main"          # branca de codi font
-BRANCH_PAGES="pages"          # branca que serveix Codeberg Pages (via webhook)
+BRANCH_PAGES="pages"          # branca llegada de Codeberg Pages (legacy, no s'usa)
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-REPO_CODEBERG="linuxbcn/9bi"
-REPO_SSH="ssh://git@codeberg.org/${REPO_CODEBERG}.git"
+REPO_GITHUB="112books/9bi"
+REPO_SSH="https://github.com/${REPO_GITHUB}.git"
 DEPLOY_LOG="${REPO_DIR}/.deploy-log"
 
 # Entorns de desplegament (build `hugo --environment <env>` → baseURL).
@@ -123,8 +123,8 @@ sync() {
   if ! has_remote; then
     err "No hi ha cap remote configurat ('$REMOTE')."
     echo ""
-    echo "  Crea el repositori a Codeberg i executa:"
-    echo "    git remote add origin ${REPO_SSH}"
+    echo "  Afegeix el remote de GitHub:"
+    echo "    git remote add github ${REPO_SSH}"
     echo ""
     exit 1
   fi
@@ -152,105 +152,21 @@ sync() {
   ok "Sync complet → ${REMOTE}/${CURRENT}"
 
   if [[ "$CURRENT" == "$BRANCH_DEPLOY" ]]; then
-    warn "Això puja el codi font, però NO publica el lloc."
-    warn "Per publicar els canvis, executa: ./sync-9bi.sh deploy"
+    ok "GitHub Actions construeix i publica el lloc automàticament."
   fi
 }
 
-# ── Deploy real (build → branca 'pages'), per entorn ────────────────────
-# Ús: deploy [staging|production]  — entorn per defecte: staging
-# Deploy INCREMENTAL (canvi 2026-09-21, motiu quota de Codeberg):
-# ANTES es feia 'git init' + force-push d'un snapshot complet del build
-# (~160 MiB) a cada deploy; els snapshots anteriors quedaven com a objectes
-# orfes al servidor i feien créixer la quota fins a superar els 750 MiB.
-# ARA es manté un CLON persistent de la branca 'pages' a ~/.cache/9bi-pages,
-# es reseteja a l'últim publicat i s'hi sincronitza el build: el push és
-# NORMAL (fast-forward) i només es pugen els objectes que realment canvien.
-# Els blobs que no canvien es reutilitzen (mateix hash) → creixement mínim.
+# ── Deploy (desactivat — producció via GitHub Actions) ───────────────────
+# Des del 2026-09-24 producció = GitHub Pages. Un push a 'github main' dispara
+# .github/workflows/deploy.yml que construeix i publica sol.
+# El deploy incremental a Codeberg (branca 'pages') queda suspès fins que
+# la quota de Codeberg es resolgui (issue #2522).
 deploy() {
-  local ENV="${1:-$ENV_STAGING}"
-  case "$ENV" in
-    "$ENV_STAGING"|"$ENV_PROD") ;;
-    *) err "Entorn desconegut: '$ENV'. Usa 'staging' o 'production'."; exit 1 ;;
-  esac
-  local SITE_URL; SITE_URL="$(env_url "$ENV")"
-
-  if [[ -n "$(git status --short)" ]]; then
-    warn "Hi ha canvis sense commitejar/pujar a '${BRANCH_DEPLOY}'."
-    warn "El deploy publica el que hi ha ARA als fitxers locals, encara que no estigui pujat a main."
-    read -r -p "  Continuar igualment? (s/N) " cont
-    [[ "$cont" != "s" && "$cont" != "S" ]] && { dim "Deploy cancel·lat."; return 0; }
-    echo ""
-  fi
-
-  PAGES_CACHE="${HOME}/.cache/9bi-pages"
-  if [[ ! -d "$PAGES_CACHE/.git" ]]; then
-    print "Primera vegada: clonant la branca '${BRANCH_PAGES}' a ${PAGES_CACHE}..."
-    git clone -q --branch "$BRANCH_PAGES" --single-branch "$REPO_SSH" "$PAGES_CACHE" || {
-      err "No s'ha pogut clonar ${REPO_SSH}. Revisa quota/connexió."
-      exit 1
-    }
-  fi
-
-  read -r -p "  Nom d'aquest deploy (p.ex. 'header x2 + graella 4x2'): " label
-  [[ -z "$label" ]] && label="deploy $(date '+%Y-%m-%d %H:%M')"
-
-  # Refresca les estadístiques del web (només producció, abans del build)
-  if [[ "$ENV" == "$ENV_PROD" ]]; then
-    refresh_stats
-  fi
-
-  BUILD_DIR="$(mktemp -d "${TMPDIR:-/tmp}/9bi-deploy.XXXXXX")"
-  print "Build amb l'entorn '${ENV}' a ${BUILD_DIR}..."
-  if ! hugo --minify --environment "$ENV" --destination "$BUILD_DIR"; then
-    err "Build fallat. Deploy avortat, cap canvi remot."
-    rm -rf "$BUILD_DIR"
-    exit 1
-  fi
-  ok "Build correcte (${ENV}) → ${SITE_URL}"
-
-  echo ""
-  warn "Es farà un deploy incremental (només els fitxers que canvien) a la branca '${BRANCH_PAGES}'."
-  warn "El clon persistent es resetejarà a l'últim publicat abans de sincronitzar-hi el build."
-  read -r -p "  Confirmes el deploy \"${label}\" a '${ENV}'? (s/N) " confirm
-  if [[ "$confirm" != "s" && "$confirm" != "S" ]]; then
-    dim "Deploy cancel·lat."
-    rm -rf "$BUILD_DIR"
-    return 0
-  fi
-
-  print "Sincronitzant el clon de '${BRANCH_PAGES}' amb el remot..."
-  git -C "$PAGES_CACHE" fetch -q origin "$BRANCH_PAGES"
-  git -C "$PAGES_CACHE" reset -q --hard "origin/${BRANCH_PAGES}"
-  git -C "$PAGES_CACHE" clean -qfd
-
-  print "Copiant el build al clon (eliminant fitxers que ja no hi són)..."
-  rsync -a --delete --exclude='.git/' "$BUILD_DIR"/ "$PAGES_CACHE"/
-
-  USER_NAME="$(git config user.name || echo "9bi")"
-  USER_EMAIL="$(git config user.email || echo "noreply@9barrisimatge.org")"
-
-  (
-    git -C "$PAGES_CACHE" add -A
-    git -C "$PAGES_CACHE" -c user.name="$USER_NAME" -c user.email="$USER_EMAIL" \
-      commit -qm "$label"
-  ) || { err "Commit al clon fallat."; exit 1; }
-
-  print "Push incremental a '${BRANCH_PAGES}'..."
-  git -C "$PAGES_CACHE" push origin "$BRANCH_PAGES" || {
-    err "Push a '${BRANCH_PAGES}' fallat. Si és per quota de Codeberg, cal tenir"
-    err "aprovada la petició '[STORAGE]' a Codeberg-e.V./requests (vegeu drafts/2026-09-21-quota-codeberg.md)."
-    exit 1
-  }
-
-  rm -rf "$BUILD_DIR"
-  echo "$(date '+%Y-%m-%d %H:%M')  [${ENV}] ${label}  (font: $(git rev-parse --short HEAD))" >> "$DEPLOY_LOG"
-  ok "Deploy complet: \"${label}\" → ${SITE_URL}"
-  dim "El webhook de Forgejo publica el lloc en pocs segons."
+  warn "El deploy a Codeberg està desactivat (quota bloquejada)."
+  warn "Per publicar: git push github main → GitHub Actions construeix i publica."
 }
 
-# Alias shortcuts
-deploy-prod() { deploy "$ENV_PROD"; }
+deploy-prod() { deploy; }
 
 server_local() {
   print "Arrancant servidor local (http://localhost:1313)..."
@@ -315,8 +231,8 @@ echo -e " Branca: ${YLW}${CURRENT}${RST}"
 echo ""
 echo " 1) Status (local + remot, no modifica res)"
 echo " 2) Sync codi font (commit + pull --rebase + push a main)"
-echo " 3) Deploy a staging (build + push a 'pages' → linuxbcn.codeberg.page/9bi/)"
-echo " 4) Deploy a producció (build + push a 'pages' → 9barrisimatge.org)"
+echo " 3) Deploy a staging  [desactivat — Codeberg quota bloquejada]"
+echo " 4) Deploy a producció [desactivat — usa: git push github main]"
 echo " 5) Servidor local → localhost:1313"
 echo " 6) Build local (hugo --minify, amb drafts)"
 echo " 7) Refresca els articles més visitats (GoatCounter)"
