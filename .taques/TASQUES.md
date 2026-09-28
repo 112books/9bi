@@ -48,11 +48,12 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | Data | ID | Tasca | Temps | Commit |
 |---|---|---|---|---|
-| 28/09 | T-16 | Comentaris a les entrades amb moderació prèvia (mòdul `formularis`: avís a info@, revisió signada, publicació via l'API de GitHub) + pàgina de revisió amb l'aspecte del 9bi + paràgraf a `/privacitat/`. Desplegat al servidor i provat en real: formulari → correu → «Descarta» OK. **«Publica» pendent de provar amb el primer comentari real** | no registrat | `d4b7c6a45` + aquest PR |
-| 28/09 | T-25 | 399 títols en majúscules normalitzats: l'usuari els va triar un per un en una pàgina de revisió (382 propostes, 17 de propis). Només el camp `title`; les 8.708 pàgines HTML tenen les mateixes URL abans i després | no registrat | aquest PR |
-| 28/09 | T-17 | Botons discrets per compartir cada entrada (WhatsApp, Telegram, Facebook, correu, copia, menú del sistema al mòbil) + correcció del botó «Copia» del concurs | no registrat | `7e5406ec6` |
+| 28/09 | — | Qui som (història): enllaços a Eva Orti, Elena Bulet i Humberto Rivas, Joan «Linux» a Nou Barris9, Mónica Rosselló treta de la taula | ~20 min | `b9cd90bd1`, `2a44e715b` |
+| 28/09 | T-16 | Comentaris a les entrades amb moderació prèvia (mòdul `formularis`: avís a info@, revisió signada, publicació via l'API de GitHub) + pàgina de revisió amb l'aspecte del 9bi + paràgraf a `/privacitat/`. Desplegat al servidor i provat en real: formulari → correu → «Descarta» OK. **«Publica» pendent de provar amb el primer comentari real** | ~1 h | `d4b7c6a45`, `f4cb6d8c1` |
+| 28/09 | T-25 | 399 títols en majúscules normalitzats: l'usuari els va triar un per un en una pàgina de revisió (382 propostes, 17 de propis). Només el camp `title`; les 8.708 pàgines HTML tenen les mateixes URL abans i després | ~35 min | `969076cc4` |
+| 28/09 | T-17 | Botons discrets per compartir cada entrada (WhatsApp, Telegram, Facebook, correu, copia, menú del sistema al mòbil) + correcció del botó «Copia» del concurs | ~24 min | `7e5406ec6` |
 | 28/09 | — | Enllaços RSS del web al feed de les entrades (`/posts/index.xml`) | ~5 min | `0cbbed841` |
-| 28/09 | T-13 | Autopublicació al canal de Telegram @NouBarrisImatge: script al servidor, feed de `/posts/`, arxiu (3.008 entrades) marcat com a publicat, cron cada 30 min, prova real OK. Docs a `modules/telegram/README.txt` | no registrat | `33d5a437d` + docs |
+| 28/09 | T-13 | Autopublicació al canal de Telegram @NouBarrisImatge: script al servidor, feed de `/posts/`, arxiu (3.008 entrades) marcat com a publicat, cron cada 30 min, prova real OK. Docs a `modules/telegram/README.txt` | ~33 min | `33d5a437d` + docs |
 | 27/09 | — | `/mes-visitats/` amb el top 10 real: l'script cridava un endpoint de GoatCounter que no existeix (400) i es publicaven dades velles | ~10 min | `428593971` |
 | 27/09 | — | Pàgines de gràcies dels formularis amb el disseny del web (`/contacte/gracies/`, `/incorpora-te/gracies/`) i redirecció 303 des del servidor, desplegada | ~15 min | `b1e399dd8` |
 | 27/09 | T-05 | Cartell de `/concurs/votacio/` amb el text propi del 36è concurs (fora la còpia de «demostració Taro») | ~5 min | `e6346bcef` |
@@ -85,7 +86,7 @@ Els dies anteriors al 25/09 només tenen el total al registre diari (el detall h
 
 | Data | Temps | Registre |
 |---|---|---|
-| 28/09 | no registrat (Telegram) | [2026-09-28.md](2026-09-28.md) |
+| 28/09 | ~3 h 05 min (sessió al núvol, 08:35–11:40, inici estimat) | [2026-09-28.md](2026-09-28.md) |
 | 27/09 | ~5 h 41 min (sessió 2 ~4 h 55 min + sessió 3 46 min) | [2026-09-27.md](2026-09-27.md) |
 | 25/09 | ≥ 2 h 10 min (3 tasques sense tancar) | [2026-09-25.md](2026-09-25.md) |
 | 22/09 | ~5 h (amb pauses) | [2026-09-22.md](2026-09-22.md) |
