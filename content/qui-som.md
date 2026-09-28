@@ -30,6 +30,10 @@ url: "/qui-som/"
 </figure>
 <p>El blog que ara ja es consolida com a pàgina web ha estat sempre un espai obert i autogestionat on cada membre publica els seus reportatges, amb la fotografia com a protagonista i el text com a acompanyament.</p>
 <figure>
+<img src="{{< rel "/images/membres-de-9barrisimatge.jpg" >}}" alt="Més membres del col·lectiu: Pili E.G, Pedro Click, Quique, Joan Linux, Francesc Barbé, Alberto Sanagustín, Manel Sala Ulls i Ismael Utrilla" loading="lazy" decoding="async">
+<figcaption>Més membres del col·lectiu: Pili E.G, Pedro Click, Quique, Joan Linux, Francesc Barbé, Alberto Sanagustín, Manel Sala «Ulls» i Ismael Utrilla.</figcaption>
+</figure>
+<figure>
 <img src="{{< rel "/images/Membres-casalL1300396.jpg" >}}" alt="Alguns dels membres actuals del col·lectiu: Joan Linux, Francesc Barbé, Pedro Click i Manel Ulls" loading="lazy" decoding="async">
 <figcaption>Alguns dels membres actuals del col·lectiu: Joan Linux, Francesc Barbé, Pedro Click i Manel «Ulls».</figcaption>
 </figure>
@@ -150,7 +154,7 @@ url: "/qui-som/"
 <h3>Betevé (Televisió de Barcelona)</h3>
 <p>Betevé és un dels mitjans que ha cobert el col·lectiu de manera més recurrent.</p>
 <ul>
-<li><strong>L'herència de Josep Anton Cordoncillo</strong> (2010) — Peça en què el fotògraf Manel Sala reivindica la figura del fundador i la continuïtat del grup:<br>
+<li><strong><a href="https://beteve.cat/cultura/lherencia-de-Josep-Anton-Cordoncillo/" target="_blank" rel="noopener">L'herència de Josep Anton Cordoncillo</a></strong> (2010) — Peça en què el fotògraf Manel Sala reivindica la figura del fundador i la continuïtat del grup:<br>
 <em>«Sóc fotògraf de 9Barris Imatge, que es va fundar l'any 2002. El fundador va ser Josep Anton Cordoncillo… Som una mica els fotògrafs del barri».</em></li>
 <li><a href="https://beteve.cat/societat/album-fotos-prosperitat-9barris-imatge/" target="_blank" rel="noopener">Àlbum de la vida i personatges dels darrers 20 anys de la Prosperitat</a> (2019) — Reportatge sobre l'exposició del 20è aniversari del grup al Casal de Barri Prosperitat. Recull declaracions de Joan Martínez «Linux» que expliquen la fundació del col·lectiu per part de Josep Anton Cordoncillo, Pedro, Manel «Ulls» i Imma, i com el blog, estrenat el 2002, s'ha convertit en un fons documental de consulta per a veïns i entitats. <em>També ho vam recountar al nostre <a href="{{< rel "/2019/11/sortim-beteve.html" >}}">blog</a>.</em></li>
 </ul>
@@ -166,12 +170,10 @@ url: "/qui-som/"
 <ul>
 <li><strong>Alberto Sanagustín</strong>, que hi apareix com a autor de fotografies, entre elles a <a href="https://carrer.cat/article/la-sociedad-civil-planta-cara-al-amianto/" target="_blank" rel="noopener">La sociedad civil planta cara al amianto</a> i <a href="https://carrer.cat/article/un-culebron-llamado-casal-de-joves-de-prosperitat/" target="_blank" rel="noopener">Un culebrón llamado Casal de Joves de Prosperitat</a>. La mateixa revista el registra amb l'etiqueta «Alberto Sanagustín - 9 Barris Imatge».</li>
 <li><strong>Pedro Click</strong>, que també hi té publicacions.</li>
-<li><strong>Joan «Linux» Martínez</strong>, amb articles publicats sota la seva signatura com a membre de 9 Barris Imatge.</li>
+<li><strong><a href="https://carrer.cat/fot_graf/joan-linux-2/" target="_blank" rel="noopener">Joan «Linux» Martínez</a></strong>, amb articles publicats sota la seva signatura com a membre de 9 Barris Imatge.</li>
 </ul>
 <h3>Altres mitjans i publicacions</h3>
 <ul>
-<li><strong>La Vanguardia</strong> — Tot i que no n'hem localitzat un article directe, en un butlletí de l'Associació de Veïns de Prosperitat es reprodueix una fotografia d'Alberto Sanagustín amb el crèdit «9 Barris Imatge»: la nostra obra gràfica també s'ha utilitzat en mitjans d'abast general.</li>
-<li><strong>Barnanews</strong> — En un article sobre el districte de Nou Barris s'esmenta el col·lectiu com una de les entitats que utilitzen el numeral «9» en el seu nom. <em>Font pendent de localitzar i enllaçar.</em></li>
 <li><strong><a href="https://blog.pocallum.cat/" target="_blank" rel="noopener">Pocallum</a></strong> — El blog personal de Joan «Linux», membre actiu del col·lectiu, on hi ha nombroses entrades que documenten la participació de 9 Barris Imatge en actes i projectes del barri.</li>
 </ul>
 <h3>Altres referències institutionals</h3>
