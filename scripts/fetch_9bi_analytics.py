@@ -131,10 +131,17 @@ def fetch_analytics(token, days=30):
     except Exception as exc:
         print(f"WARN: /stats/total failed: {exc}", file=sys.stderr)
 
+    # Total "oficial" de GoatCounter per al període. Sense això, el total era
+    # la suma de les pàgines retornades per /stats/hits (límit 50) i quedava
+    # per sota del que mostra el tauler (159 vs >200).
+    total_oficial = total_data.get("total")
+    if not isinstance(total_oficial, int) or total_oficial <= 0:
+        total_oficial = total
+
     return {
         "generated": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "period": {"start": start, "end": end},
-        "total": total,
+        "total": total_oficial,
         "total_unique": total_data.get("total_unique", 0),
         "hits_by_day": hits_by_day_list,
         "hits": hits_top,
