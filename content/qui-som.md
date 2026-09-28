@@ -115,7 +115,6 @@ url: "/qui-som/"
 <thead><tr><th>Fotògraf/a</th><th>Per què és conegut</th></tr></thead>
 <tbody>
 <tr><td>Arnau Bach i Myriam Meloni</td><td>Coautors de «<strong>Linde</strong>» (2020), un retrat fotogràfic i sociològic dels barris de Canyelles, Torre Baró, Vallbona i Ciutat Meridiana.</td></tr>
-<tr><td>Mónica Rosselló</td><td>Projecte «16 barris, 1000 ciutats» (li va tocar La Verneda i La Pau).</td></tr>
 <tr><td>Gregori Civera i Carmen Secanella</td><td>Exposició «<a href="https://www.macba.cat/ca/exposicions/una-ciutat-desconeguda-sota-la-boira-noves-imatges-de-la-barcelona-dels-barris" target="_blank" rel="noopener">Una ciutat desconeguda sota la boira</a>» (MACBA, 2024–2025).</td></tr>
 <tr><td><a href="http://arxiuhistoric.blogspot.com/2014_10_01_archive.html" target="_blank" rel="noopener">Eva Orti</a></td><td>Periodista gràfica de la revista <strong>Nou Barris9</strong> (1991–1992), amb reportatges fotogràfics sobre el districte. Va cedir a l'Arxiu Històric de Roquetes-Nou Barris unes <strong>4.000 imatges en negatiu</strong>.</td></tr>
 <tr><td><a href="https://elenabulet.com/" target="_blank" rel="noopener">Elena Bulet</a> (Barcelona, 1997)</td><td>El projecte <strong>«<a href="https://www.canbaste.com/events/la-balsa-elena-bulet/" target="_blank" rel="noopener">La balsa</a>»</strong> és fruit de la residència a l'Espai Fotogràfic Can Basté (2025): parteix d'arxius familiars per explorar la memòria col·lectiva, els lligams familiars i la migració, prenent com a punt de partida el Turó de la Peira.</td></tr>
