@@ -120,21 +120,58 @@ def pick_lang(environ):
     return DEFAULT_LANG
 
 
+# Pàgines del servei (revisió de comentaris, errors) amb l'aspecte del web:
+# colors del tema (fosc per defecte, clar si el sistema ho demana), banda
+# vermella, Montserrat i logo servits des de 9barrisimatge.org.
+PAGE_CSS = (
+    "@font-face{font-family:Montserrat;font-weight:400;font-display:swap;"
+    "src:url(https://9barrisimatge.org/fonts/montserrat/montserrat-latin-400-normal.woff2) format('woff2')}"
+    "@font-face{font-family:Montserrat;font-weight:700;font-display:swap;"
+    "src:url(https://9barrisimatge.org/fonts/montserrat/montserrat-latin-700-normal.woff2) format('woff2')}"
+    ":root{--theme:#1d1e20;--entry:#2e2e33;--primary:#dadadb;--secondary:#9b9c9d;"
+    "--content:#c4c4c5;--border:#333;--accent:#e03131;--ok:#2f9e44;color-scheme:dark}"
+    "@media (prefers-color-scheme:light){:root{--theme:#fff;--entry:#f6f6f6;--primary:#1e1e1e;"
+    "--secondary:#6c6c6c;--content:#1f1f1f;--border:#eee;color-scheme:light}}"
+    "*{box-sizing:border-box}"
+    "body{margin:0;background:var(--theme);color:var(--content);"
+    "font-family:Montserrat,system-ui,-apple-system,'Segoe UI',sans-serif;line-height:1.6}"
+    ".band{height:4px;background:var(--accent)}"
+    ".head{max-width:44rem;margin:0 auto;padding:1.1rem 1rem;display:flex;align-items:center;"
+    "gap:.7rem;border-bottom:1px solid var(--border)}"
+    ".head img{height:40px;width:auto;border-radius:4px}"
+    ".head a{color:var(--primary);font-weight:700;text-decoration:none}"
+    "main{max-width:44rem;margin:0 auto;padding:1.5rem 1rem 3rem}"
+    "h1{color:var(--primary);font-size:1.4rem;margin:.2rem 0 1rem}"
+    "a{color:var(--primary)}"
+    ".msg{padding:.9rem 1rem;border-radius:6px;margin:1.2rem 0;border:1px solid var(--border);"
+    "background:var(--entry)}"
+    ".ok{border-left:3px solid var(--ok)}.err{border-left:3px solid var(--accent)}"
+    "table{border-collapse:collapse;margin:1rem 0;width:100%}"
+    "td,th{border-bottom:1px solid var(--border);padding:.55rem .6rem;text-align:left;"
+    "vertical-align:top;font-size:.95rem}"
+    "th{color:var(--secondary);font-weight:400;width:7rem;white-space:nowrap}"
+    "button{font:inherit;font-weight:700;padding:.65rem 1.4rem;border-radius:6px;cursor:pointer;"
+    "border:1px solid var(--border);background:transparent;color:var(--primary)}"
+    "button[value=publica]{background:var(--primary);color:var(--theme);border-color:var(--primary)}"
+    "button:hover,button:focus-visible{border-color:var(--accent)}"
+    "button[value=descarta]:hover,button[value=descarta]:focus-visible{color:var(--accent)}"
+    "button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}"
+    "small{color:var(--secondary)}"
+)
+
+
 def page_html(lang, title, body):
     return (
         "<!doctype html><html lang=\"%s\"><head><meta charset=\"utf-8\">"
         "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">"
-        "<title>%s</title>"
-        "<style>body{font-family:system-ui,sans-serif;max-width:38rem;margin:2rem auto;"
-        "padding:0 1rem;line-height:1.55}h1{font-size:1.35rem}a{color:#2a6db5}"
-        ".msg{padding:.9rem 1rem;border-radius:8px;margin:1.2rem 0;border:1px solid}"
-        ".ok{background:#eaf6ea;border-color:#9ccc9c}.err{background:#fdecec}"
-        ".err{border-color:#f0b4b4}"
-        "table{border-collapse:collapse;margin:1rem 0}td,th{border:1px solid #ddd;"
-        "padding:.35rem .6rem;text-align:left;vertical-align:top;font-size:.95rem}"
-        "th{background:#f4f4f4}"
-        "</style></head><body>%s</body></html>" % (
-            htmlmod.escape(lang), htmlmod.escape(title), body))
+        "<meta name=\"robots\" content=\"noindex\">"
+        "<title>%s · 9 Barris Imatge</title><style>%s</style></head><body>"
+        "<div class=\"band\"></div>"
+        "<header class=\"head\"><img src=\"https://9barrisimatge.org/images/logo-header.jpg\" "
+        "alt=\"\" width=\"40\" height=\"40\">"
+        "<a href=\"https://9barrisimatge.org/\">9 Barris Imatge</a></header>"
+        "<main>%s</main></body></html>" % (
+            htmlmod.escape(lang), htmlmod.escape(title), PAGE_CSS, body))
 
 
 def respond(environ, start_response, status, body,
