@@ -600,7 +600,7 @@ sync-9bi.sh                        # script de sync/gestió
 
 - **PENDENT CRÍTIC, la llista d'obres**: la BBDD encara conté les **100 obres de prova**. Les obres **només es carreguen quan la BBDD es crea buida** (comentari al `config.ini`), i la finestra s'obre sola. Abans del 30 de novembre cal: (1) posar la llista definitiva a `[obres]` (número, títol, autor, categoria) i (2) esborrar `data.db` i reiniciar. Si el dia 1 s'arriba amb les obres de prova, el recompte del públic no serveix.
 
-- **Telegram: NO està lligat** (comprovat el 2026-09-27). `modules/autopublica/` **no** publica a xarxes: rep el webhook de push del repositori i fa `git pull` → build → push del build, és a dir, publica el web sol. Les úniques mencions de Telegram són text (backlog, `concurs.md`, `contacte.md`). Per muntar-lo cal token d'un bot de `@BotFather` + `chat_id` del canal (accions de l'usuari) i un script nou que publiqui l'entrada nova; el punt d'enganx natural és just després del build.
+- **Telegram: NO està lligat** (comprovat el 2026-09-27; **superat el 2026-09-28**, vegeu la sessió d'aquell dia). `modules/autopublica/` **no** publica a xarxes: rep el webhook de push del repositori i fa `git pull` → build → push del build, és a dir, publica el web sol. Les úniques mencions de Telegram són text (backlog, `concurs.md`, `contacte.md`). Per muntar-lo cal token d'un bot de `@BotFather` + `chat_id` del canal (accions de l'usuari) i un script nou que publiqui l'entrada nova; el punt d'enganx natural és just després del build.
 
 ## Sessió 2026-09-28 — Menys protagonisme a l'Arxiu Històric i canvi de «Membres veterans»
 
@@ -638,3 +638,4 @@ sync-9bi.sh                        # script de sync/gestió
 - ~~Contingut real de `cookies.md`.~~ **FET** — política publicada; pendent només la revisió jurídica final de la resta d'adequació RGPD.
 - Configuració SEO/IA per a tot el web (metadades, dades estructurades, etc.).
 - Suport Python/Passenger al panell de Dinahosting sense confirmar (per al desplegament de `modules/votacio/`).
+- **Autopublicació a Telegram (FET, T-13)**: `modules/telegram/telegram_post.py` al servidor (`~/apps/telegram/`), cron cada 30 min, publica al canal @NouBarrisImatge les entrades noves de `https://9barrisimatge.org/posts/index.xml` amb 1 h de marge i màxim 3 per execució. **No** està lligat al build ni a `autopublica/`: llegeix el RSS públic. `state.json` té els 3.008 guids de l'arxiu marcats com a publicats — no s'ha de tocar ni esborrar (republicaria tot). Token només al `config.ini` del servidor (600). Correccions: avís de token buit i feed de `/posts/` per defecte (PR #1, `33d5a437d`). Manual: `modules/telegram/README.txt`.

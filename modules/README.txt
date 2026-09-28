@@ -21,6 +21,10 @@ votacio/      Vot del públic del Concurs Cordoncillo per codi QR al
 autopublica/  Publica el web sol quan hi ha un push al repositori
               (ja no cal per a la publicació real: el web es publica amb
               GitHub Actions, que fa el build i el desplegament).
+telegram/     Publica cada entrada nova del web al canal públic de
+              Telegram @NouBarrisImatge (cron cada 30 min, 1 h de
+              marge). No és una aplicació web: és un script al
+              servidor (~/apps/telegram).
 taro/         Taro Photo App, el programa de gestió i exposició de
               fotografies, amb còpies dels tres mòduls anteriors. És la
               versió que es distribueix a altres col·leccions: no hi ha

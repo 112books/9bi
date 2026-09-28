@@ -23,8 +23,7 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 | T-10 | ⚪ | Cerca: etiquetes ordenades de més a menys freqüents | 21/09 | — | |
 | T-11 | ⚪ | Cerca limitada a l'autor a `/author/<slug>.html` | 24/09 | — | Baixa prioritat |
 | T-12 | ⚪ | Test real de vot des del telèfon (número, títol, categoria, avís legal, resultats) | 24/09 | abans de l'01/12 | Depèn de T-01 |
-| T-13 | ⚪ | Telegram: canal públic unidireccional amb els posts nous | 18/09 | — | Cal token de @BotFather + `chat_id` (usuari) i un script després del build |
-| T-14 | ⚪ | Publicació automàtica a Instagram i Facebook + enllaços al web | 18/09 | — | Mateix patró que T-13 |
+| T-14 | ⚪ | Publicació automàtica a Instagram i Facebook + enllaços al web | 18/09 | — | Mateix patró que T-13 (`modules/telegram/`: RSS de `/posts/` + `state.json` + cron) |
 | T-15 | ⚪ | Butlletí, correu per a cada membre + genèric, i grup de correu | 18/09 | — | Cal repensar DNS i correu |
 | T-16 | ⚪ | Comentaris amb control d'spam fort | 18/09 | — | Solució per triar |
 | T-17 | ⚪ | Botons per compartir a xarxes | 18/09 | — | |
@@ -51,6 +50,7 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | Data | ID | Tasca | Temps | Commit |
 |---|---|---|---|---|
+| 28/09 | T-13 | Autopublicació al canal de Telegram @NouBarrisImatge: script al servidor, feed de `/posts/`, arxiu (3.008 entrades) marcat com a publicat, cron cada 30 min, prova real OK. Docs a `modules/telegram/README.txt` | no registrat | `33d5a437d` + docs |
 | 27/09 | — | `/mes-visitats/` amb el top 10 real: l'script cridava un endpoint de GoatCounter que no existeix (400) i es publicaven dades velles | ~10 min | `428593971` |
 | 27/09 | — | Pàgines de gràcies dels formularis amb el disseny del web (`/contacte/gracies/`, `/incorpora-te/gracies/`) i redirecció 303 des del servidor, desplegada | ~15 min | `b1e399dd8` |
 | 27/09 | T-05 | Cartell de `/concurs/votacio/` amb el text propi del 36è concurs (fora la còpia de «demostració Taro») | ~5 min | `e6346bcef` |
@@ -83,6 +83,7 @@ Els dies anteriors al 25/09 només tenen el total al registre diari (el detall h
 
 | Data | Temps | Registre |
 |---|---|---|
+| 28/09 | no registrat (Telegram) | [2026-09-28.md](2026-09-28.md) |
 | 27/09 | ~5 h 41 min (sessió 2 ~4 h 55 min + sessió 3 46 min) | [2026-09-27.md](2026-09-27.md) |
 | 25/09 | ≥ 2 h 10 min (3 tasques sense tancar) | [2026-09-25.md](2026-09-25.md) |
 | 22/09 | ~5 h (amb pauses) | [2026-09-22.md](2026-09-22.md) |

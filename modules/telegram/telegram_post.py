@@ -10,7 +10,7 @@ Lògica:
   - Per cada entrada nova (no publicada encara) amb més de `delay_hours` d'antiguitat,
     envia un missatge al canal de Telegram
   - Desa l'estat a state.json per no tornar a publicar el mateix
-  - Cron recomanat: cada 15 min (*/15 * * * *)
+  - Cron en producció: cada 30 min (vegeu README.txt)
 
 Instal·lació al servidor:
   1. Copia aquest fitxer i config.ini a ~/apps/telegram/
@@ -21,7 +21,10 @@ Instal·lació al servidor:
         python3 -c "import json, telegram_post as t; i = t.parse_rss(t.fetch_rss(
           'https://9barrisimatge.org/posts/index.xml')); json.dump({'posted': [x['guid']
           for x in i]}, open('state.json', 'w'))"
-  3. Afegeix al crontab: */15 * * * * python3 ~/apps/telegram/telegram_post.py
+  3. Afegeix al crontab:
+     */30 * * * * cd ~/apps/telegram && python3 telegram_post.py >> telegram.log 2>&1
+
+Documentació completa: README.txt d'aquest directori.
 """
 
 import argparse
