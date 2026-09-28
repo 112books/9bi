@@ -17,7 +17,6 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 | T-01 | 🔴 | **Llista definitiva d'obres de la votació** (número, títol, autor, categoria) a `[obres]` del `config.ini` del servidor; després esborrar `data.db` i reiniciar | 27/09 | **30/11** | Bloquejada: el concurs acaba de començar (25/09) i les fotos es presenten fins al **20/11** → finestra real **21/11–30/11**. La votació s'obre sola l'01/12. **Preparat (27/09)**: omplir `drafts/obres-concurs-2026-plantilla.csv` → `python3 modules/votacio/tools/obres.py llista.csv -o obres.ini` (valida números repetits, `|`, categories A/B/C) → substituir **sencera** la secció `[obres]` del `config.ini` del servidor (treure la línia `rang = …`, si no les 100 obres de prova continuen) → aturar, esborrar `data.db`, arrencar i comprovar `/admin/obres` |
 | T-06 | 🟡 | Desactivar Blogger | 21/09 | — | En espera, decisió de l'usuari: **de moment no s'apaga**. DNS ja apunten a 9barrisimatge.org |
 | T-07 | 🟡 | Editors al CMS: convidar col·laboradors amb Write, comprovar que els no-admin només veuen els seus posts i si algú ja ha iniciat el seu usuari | 21/09 | — | Quan puguem |
-| T-30 | ⚪ | Repassar 6 títols massa llargs/truncats de la T-08 (acaben amb «a», «Aque», «Entrega», «part», «habilidade», «especial») | 28/09 | — | Són primers paràgrafs sencers; l'usuari els va aprovar, però caldria escurçar-los |
 | T-09 | 🟡 | Enllaços d'àlbums morts (Picasa → Google Photos), autor per autor | 18/09 | — | Quan puguem. Eines a `scripts/albums_fix.py`, fitxes a `data/recuperacio/` |
 | T-10 | ⚪ | Cerca: etiquetes ordenades de més a menys freqüents | 21/09 | — | |
 | T-11 | ⚪ | Cerca limitada a l'autor a `/author/<slug>.html` | 24/09 | — | Baixa prioritat |
@@ -47,6 +46,8 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | Data | ID | Tasca | Temps | Commit |
 |---|---|---|---|---|
+| 28/09 | T-30 | 6 títols llargs escurçats (T-08) i convenció de Joan Linux `any-mes-dia - títol` aplicada als 26 posts seus del lot | ~25 min | `d2cc9eacf9`, `d6cd104746` |
+| 28/09 | — | **Estadístiques**: `hits_by_day` es construeix amb els dies de `/stats/total` (abans la suma del top-50 no quadrava: 159 vs 166). Verificat en viu: total 166 = suma dels dies. Etiqueta «total any» → «total període» | ~30 min | `27d4b914ff` |
 | 28/09 | T-08 | Títols: 20 posts que eren «Sense títol» + 75 títols repetits desambiguats (95 posts en total) i esborrat el post buit del 2008. Només el camp `title`; URL intactes. Build: 8.707 pàgines | ~1 h 20 min | `699e52a1b5` |
 | 28/09 | T-12 | Proves de vot fetes per l'usuari des del telèfon; **el sistema va bé** (queda la prova final amb la llista definitiva, lligada a T-01) | — | — |
 | 28/09 | T-04 | Certificat SSL: **renovat el 28/09** (automàtic), vàlid fins al **27/12/2026**, SAN per `vots-cordoncillo`, `formularis`, `linuxbcn.com` i `www`; `/health` 200 als dos serveis | ~10 min | — |
