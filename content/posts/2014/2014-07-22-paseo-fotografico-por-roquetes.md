@@ -1,5 +1,5 @@
 ---
-title: PASEO FOTOGRÁFICO POR ROQUETES !!!
+title: Paseo fotográfico por Roquetes !!!
 date: 2014-07-22T21:14:00+0200
 year: 2014
 author: Pili E. G.

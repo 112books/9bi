@@ -1,5 +1,5 @@
 ---
-title: 19FESTIVAL DE BLUES BARCELONA
+title: 19Festival de Blues Barcelona
 date: 2021-07-10T10:22:00+0200
 year: 2021
 author: Pedro Click

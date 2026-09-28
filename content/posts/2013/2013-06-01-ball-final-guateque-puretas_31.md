@@ -1,5 +1,5 @@
 ---
-title: BALL FINAL GUATEQUE PURETAS
+title: Ball final Guateque Puretas
 date: 2013-06-01T01:12:00+0200
 year: 2013
 author: Alberto Sanagustín

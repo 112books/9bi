@@ -1,5 +1,5 @@
 ---
-title: SENYALS DE FUM
+title: Senyals de fum
 date: 2017-06-05T10:41:00+0200
 year: 2017
 author: Pedro Click

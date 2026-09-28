@@ -1,5 +1,5 @@
 ---
-title: VEUS I MUSICA PER LA INTEGRACIO
+title: Veus i Musica per la integracio
 date: 2012-05-31T18:56:00+0200
 year: 2012
 author: Pedro Click

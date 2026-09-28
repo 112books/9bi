@@ -1,5 +1,5 @@
 ---
-title: HOLI FESTIVAL - ASSAIG AL CARRER
+title: Holi Festival - Assaig al carrer
 date: 2019-05-26T23:59:00+0200
 year: 2019
 author: Pedro Click

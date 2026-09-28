@@ -1,5 +1,5 @@
 ---
-title: NOU BARRIS NO ES DESNONA
+title: Nou Barris no es desnona
 date: 2014-11-03T16:21:00+0100
 year: 2014
 author: Pedro "Casal" Cervera

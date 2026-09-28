@@ -1,5 +1,5 @@
 ---
-title: JORNADES PEL DRET A UN HABITATGE DE LLOGUER PROTEGIT
+title: Jornades pel dret a un habitatge de lloguer protegit
 date: 2009-02-08T17:55:00+0100
 year: 2009
 author: petxina

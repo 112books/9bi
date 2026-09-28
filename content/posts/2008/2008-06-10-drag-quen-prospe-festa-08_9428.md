@@ -1,5 +1,5 @@
 ---
-title: DRAG QUEN PROSPE FESTA 08
+title: Drag Quen Prospe Festa 08
 date: 2008-06-10T00:10:00+0200
 year: 2008
 author: Pedro Click

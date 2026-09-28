@@ -1,5 +1,5 @@
 ---
-title: GEGANTS AL BARRI !!!
+title: Gegants al barri !!!
 date: 2014-05-21T23:38:00+0200
 year: 2014
 author: Pili E. G.

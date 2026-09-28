@@ -1,5 +1,5 @@
 ---
-title: LLIBRES I ROSES A NOU BARRIS .
+title: Llibres i roses a Nou Barris .
 date: 2015-04-24T01:09:00+0200
 year: 2015
 author: Pili E. G.

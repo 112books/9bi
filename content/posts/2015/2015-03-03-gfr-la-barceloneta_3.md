@@ -1,5 +1,5 @@
 ---
-title: GFR A LA BARCELONETA !!!
+title: Gfr a la barceloneta !!!
 date: 2015-03-03T17:24:00+0100
 year: 2015
 author: Pili E. G.

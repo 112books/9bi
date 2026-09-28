@@ -1,5 +1,5 @@
 ---
-title: ALWAYS DRINKING PRODUCTIONS presenta CABARET QUINA BARRA . LA VELA . VILANOVA
+title: Always drinking productions presenta Cabaret quina barra . La vela . Vilanova
   i la GELTRÚ
 date: 2010-01-05T14:33:00+0100
 year: 2010

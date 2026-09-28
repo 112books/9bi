@@ -1,5 +1,5 @@
 ---
-title: JOCS TRADICIONALS DE FESTA MAJOR 2018
+title: Jocs tradicionals de Festa major 2018
 date: 2018-05-31T01:38:00+0200
 year: 2018
 author: Alberto Sanagustín

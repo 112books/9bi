@@ -1,5 +1,5 @@
 ---
-title: BURNING CARAVAN
+title: Burning caravan
 date: 2015-07-27T12:18:00+0200
 year: 2015
 author: Pedro Click

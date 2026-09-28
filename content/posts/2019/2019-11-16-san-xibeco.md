@@ -1,5 +1,5 @@
 ---
-title: SAN XIBECO 2019
+title: San Xibeco 2019
 date: 2019-11-16T20:53:00+0100
 year: 2019
 author: Pedro Click

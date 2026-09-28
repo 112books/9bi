@@ -1,5 +1,5 @@
 ---
-title: APCC . ASSOCIACIÓ  DE PROFESIONALS  DE CIRC DE CATALUNYA
+title: Apcc . Associació  de profesionals  de Circ de Catalunya
 date: 2009-11-20T19:50:00+0100
 year: 2009
 author: Manel Sala "Ulls" Circ

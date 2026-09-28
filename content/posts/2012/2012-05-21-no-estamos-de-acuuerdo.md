@@ -1,5 +1,5 @@
 ---
-title: '!NO ESTAMOS DE ACUERDO!'
+title: '!No estamos de acuerdo!'
 date: 2012-05-21T10:49:00+0200
 year: 2012
 author: Pedro Click

@@ -1,5 +1,5 @@
 ---
-title: EL BALL DELS DIABLES
+title: El ball dels diables
 date: 2015-06-08T16:22:00+0200
 year: 2015
 author: Manel Villalba

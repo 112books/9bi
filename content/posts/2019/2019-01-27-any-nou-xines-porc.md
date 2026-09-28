@@ -1,5 +1,5 @@
 ---
-title: ANY NOU XINES (PORC)
+title: Any Nou xines (porc)
 date: 2019-01-27T13:25:00+0100
 year: 2019
 author: Pedro Click

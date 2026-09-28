@@ -1,5 +1,5 @@
 ---
-title: HABANERAS -PEÑA PURETAS
+title: Habaneras -Peña Puretas
 date: 2015-06-07T22:16:00+0200
 year: 2015
 author: Pedro Click

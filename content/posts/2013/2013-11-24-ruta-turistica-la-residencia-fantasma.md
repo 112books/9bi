@@ -1,5 +1,5 @@
 ---
-title: RUTA TURÍSTICA A  LA RESIDÈNCIA FANTASMA
+title: Ruta turística a  la Residència fantasma
 date: 2013-11-24T16:01:00+0100
 year: 2013
 author: Alberto Sanagustín

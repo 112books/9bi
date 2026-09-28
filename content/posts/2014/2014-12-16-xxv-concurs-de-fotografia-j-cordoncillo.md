@@ -1,5 +1,5 @@
 ---
-title: XXV CONCURS FOTOGRÀFIC J. A. CORDONCILLO.
+title: Xxv Concurs fotogràfic j. A. Cordoncillo.
 date: 2014-12-16T16:32:00+0100
 year: 2014
 author: Pili E. G.

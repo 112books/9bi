@@ -1,5 +1,5 @@
 ---
-title: A NOU BARRIS ES LLUITA PER LA SANITAT PÚBLICA GRATUITA !!!
+title: A Nou Barris es lluita per la Sanitat pública gratuita !!!
 date: 2015-01-22T22:15:00+0100
 year: 2015
 author: Pili E. G.

@@ -1,5 +1,5 @@
 ---
-title: EL DIVENDRES PEL BARRI
+title: El Divendres pel barri
 date: 2014-05-31T08:33:00+0200
 year: 2014
 author: Manel Villalba

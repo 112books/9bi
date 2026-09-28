@@ -1,5 +1,5 @@
 ---
-title: ROQUETES FASHION WEEK !!!
+title: Roquetes Fashion Week !!!
 date: 2014-06-28T01:53:00+0200
 year: 2014
 author: Pili E. G.

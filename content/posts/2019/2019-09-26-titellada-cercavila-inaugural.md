@@ -1,5 +1,5 @@
 ---
-title: TITELLADA CERCAVILA INAUGURAL
+title: Titellada Cercavila inaugural
 date: 2019-09-26T15:54:00+0200
 year: 2019
 author: Manel Villalba

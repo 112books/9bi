@@ -1,5 +1,5 @@
 ---
-title: CABARET DE MARIONETAS
+title: Cabaret de marionetas
 date: 2019-09-28T20:30:00+0200
 year: 2019
 author: Manel Villalba

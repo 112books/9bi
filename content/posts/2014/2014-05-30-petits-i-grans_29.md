@@ -1,5 +1,5 @@
 ---
-title: PETITS I GRANS !!!
+title: Petits i grans !!!
 date: 2014-05-30T01:05:00+0200
 year: 2014
 author: Pili E. G.

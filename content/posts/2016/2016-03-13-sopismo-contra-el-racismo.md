@@ -1,5 +1,5 @@
 ---
-title: SOPISMO CONTRA EL RACISMO
+title: Sopismo contra el racismo
 date: 2016-03-13T18:23:00+0100
 year: 2016
 author: Pedro "Casal" Cervera

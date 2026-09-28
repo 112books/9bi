@@ -1,5 +1,5 @@
 ---
-title: AKELARRE 2024 TRINITAT NOVA
+title: Akelarre 2024 Trinitat Nova
 date: 2024-04-28T22:45:00+0200
 year: 2024
 author: Iozsef Kiss

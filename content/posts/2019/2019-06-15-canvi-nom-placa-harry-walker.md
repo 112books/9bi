@@ -1,5 +1,5 @@
 ---
-title: CANVI NOM PLAÇA HARRY WALKER
+title: Canvi nom Plaça Harry Walker
 date: 2019-06-15T19:32:00+0200
 year: 2019
 author: Alberto Sanagustín

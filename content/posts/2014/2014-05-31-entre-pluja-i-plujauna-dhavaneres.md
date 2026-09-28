@@ -1,5 +1,5 @@
 ---
-title: ENTRE PLUJA I PLUJA...UNA D'HAVANERES !!!
+title: Entre pluja i pluja... una d'Havaneres !!!
 date: 2014-05-31T00:26:00+0200
 year: 2014
 author: Pili E. G.

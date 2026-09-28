@@ -1,5 +1,5 @@
 ---
-title: LA CURSA DEL BARRI
+title: La Cursa del barri
 date: 2014-05-21T16:34:00+0200
 year: 2014
 author: Manel Villalba

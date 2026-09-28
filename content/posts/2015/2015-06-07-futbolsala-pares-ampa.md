@@ -1,5 +1,5 @@
 ---
-title: FUTBOLSALA PARES AMPA
+title: Futbolsala pares ampa
 date: 2015-06-07T21:58:00+0200
 year: 2015
 author: Pedro Click

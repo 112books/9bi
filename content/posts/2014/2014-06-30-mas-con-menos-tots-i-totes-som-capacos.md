@@ -1,5 +1,5 @@
 ---
-title: MÁS CON MENOS, TOTS I TOTES SOM CAPAÇOS !!!
+title: Más con menos, tots i totes som capaços !!!
 date: 2014-06-30T19:03:00+0200
 year: 2014
 author: Pili E. G.

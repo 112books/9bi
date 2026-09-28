@@ -1,5 +1,5 @@
 ---
-title: ACTUACIONS I SOPAR PER ACABAR EL CURS AL TON I GUIDA !!!
+title: Actuacions i Sopar per acabar el curs al Ton i Guida !!!
 date: 2015-06-22T23:44:00+0200
 year: 2015
 author: Pili E. G.

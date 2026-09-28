@@ -1,5 +1,5 @@
 ---
-title: PROSPEOASIS. UNIVERSAL ROCKERS. CHE SUDAKA. COLOR HUMANO.
+title: Prospeoasis. Universal rockers. Che sudaka. Color humano.
 date: 2009-06-14T22:07:00+0200
 year: 2009
 author: Manel Sala "Ulls" Circ

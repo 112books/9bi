@@ -1,5 +1,5 @@
 ---
-title: LA ULTIMA Y NOS VAMOS...
+title: La ultima y nos vamos...
 date: 2023-06-05T12:22:00+0200
 year: 2023
 author: Iozsef Kiss

@@ -1,5 +1,5 @@
 ---
-title: XERRADA FESTIVAL DE SOPAS DEL MON
+title: Xerrada Festival de sopas del Mon
 date: 2013-03-18T18:25:00+0100
 year: 2013
 author: Pedro Click

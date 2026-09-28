@@ -1,5 +1,5 @@
 ---
-title: L'ASSOCIACIÓ ASENDI NB AL TON I GUIDA.
+title: L'Associació asendi NB al Ton i Guida.
 date: 2014-10-21T01:52:00+0200
 year: 2014
 author: Pili E. G.

@@ -1,5 +1,5 @@
 ---
-title: FESTIVAL DE SOPES DEL MON 2015 !!!
+title: Festival de Sopes del Mon 2015 !!!
 date: 2015-03-22T20:13:00+0100
 year: 2015
 author: Pili E. G.

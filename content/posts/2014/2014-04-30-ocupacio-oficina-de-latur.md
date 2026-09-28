@@ -1,5 +1,5 @@
 ---
-title: 'OCUPACIO OFICINA DE L''ATUR '
+title: Ocupacio oficina de l'atur
 date: 2014-04-30T15:59:00+0200
 year: 2014
 author: Pedro "Casal" Cervera

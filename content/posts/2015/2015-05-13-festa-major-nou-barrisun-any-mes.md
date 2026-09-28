@@ -1,5 +1,5 @@
 ---
-title: COMENÇA LA FESTA MAJOR A NOU BARRIS 2015 !!!
+title: Comença la Festa major a Nou Barris 2015 !!!
 date: 2015-05-13T22:46:00+0200
 year: 2015
 author: Pili E. G.

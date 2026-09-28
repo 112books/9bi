@@ -1,5 +1,5 @@
 ---
-title: BLUE BIRDS & JAM SESION
+title: Blue Birds & Jam sesion
 date: 2016-07-07T22:29:00+0200
 year: 2016
 author: Pedro Click

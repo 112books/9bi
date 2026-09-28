@@ -1,5 +1,5 @@
 ---
-title: CARRE MOLI-BIG FUNK THEORY
+title: Carre moli-Big funk theory
 date: 2015-06-07T23:13:00+0200
 year: 2015
 author: Pedro Click

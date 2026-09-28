@@ -1,5 +1,5 @@
 ---
-title: ' FIESTA DE EL CANASTOS VOLADOR'
+title: Fiesta de el canastos volador
 date: 2014-05-12T13:50:00+0200
 year: 2014
 author: Pedro Click

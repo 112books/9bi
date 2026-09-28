@@ -1,5 +1,5 @@
 ---
-title: LLUITA PEL TRANSPORT PUBLIC
+title: Lluita pel transport public
 date: 2014-02-20T21:01:00+0100
 year: 2014
 author: Pedro "Casal" Cervera

@@ -1,5 +1,5 @@
 ---
-title: DESTROSSES PER TEMPORAL HURACANAT A LA GUINEUETA
+title: Destrosses per temporal huracanat a la Guineueta
 date: 2015-08-13T21:26:00+0200
 year: 2015
 author: Pedro "Casal" Cervera

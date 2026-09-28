@@ -1,5 +1,5 @@
 ---
-title: JORNADES XARXA 9 BARRIS ACULL
+title: Jornades Xarxa 9 Barris Acull
 date: 2014-11-24T17:26:00+0100
 year: 2014
 author: Manel Villalba

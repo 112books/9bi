@@ -1,5 +1,5 @@
 ---
-title: ELS COMUNS A LA PLAÇA ANGEL PESTAÑA
+title: Els comuns a la Plaça angel Pestaña
 date: 2017-11-19T21:39:00+0100
 year: 2017
 author: Alberto Sanagustín

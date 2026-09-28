@@ -1,5 +1,5 @@
 ---
-title: VAGA INFERMERS NOU BARRIS
+title: Vaga infermers Nou Barris
 date: 2024-02-05T01:07:00+0100
 year: 2024
 author: Iozsef Kiss

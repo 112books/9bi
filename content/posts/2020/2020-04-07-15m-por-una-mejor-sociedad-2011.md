@@ -1,5 +1,5 @@
 ---
-title: 15M POR UNA MEJOR SOCIEDAD 2011
+title: 15M por una mejor sociedad 2011
 date: 2020-04-07T13:49:00+0200
 year: 2020
 author: Pedro Click

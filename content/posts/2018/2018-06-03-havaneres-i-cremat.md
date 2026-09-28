@@ -1,5 +1,5 @@
 ---
-title: HAVANERES I CREMAT
+title: Havaneres i cremat
 date: 2018-06-03T19:36:00+0200
 year: 2018
 author: Alberto Sanagustín

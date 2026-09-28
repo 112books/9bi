@@ -1,5 +1,5 @@
 ---
-title: PROSPE FESTA PEÑAS
+title: Prospe Festa Peñas
 date: 2009-06-15T11:27:00+0200
 year: 2009
 author: Pedro Click

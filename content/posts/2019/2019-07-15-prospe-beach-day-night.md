@@ -1,5 +1,5 @@
 ---
-title: PROSPE BEACH DAY & NIGHT
+title: Prospe Beach day & night
 date: 2019-07-15T18:27:00+0200
 year: 2019
 author: Alberto Sanagustín

@@ -1,5 +1,5 @@
 ---
-title: PROSPE BEACH FOREVER !!!
+title: Prospe Beach forever !!!
 date: 2015-07-25T00:45:00+0200
 year: 2015
 author: Pili E. G.

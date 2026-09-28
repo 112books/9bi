@@ -1,5 +1,5 @@
 ---
-title: EL COMERÇ A NOU BARRIS SURT AL CARRER !!!
+title: El comerç a Nou Barris surt al carrer !!!
 date: 2014-04-08T22:56:00+0200
 year: 2014
 author: Pili E. G.

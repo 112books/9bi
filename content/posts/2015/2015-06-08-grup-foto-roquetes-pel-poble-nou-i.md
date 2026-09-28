@@ -1,5 +1,5 @@
 ---
-title: GRUP FOTO ROQUETES AL POBLE NOU I ...ESPERANT A LA LLUNA !!!
+title: Grup Foto Roquetes al Poble Nou i ...esperant a la lluna !!!
 date: 2015-06-08T17:49:00+0200
 year: 2015
 author: Pili E. G.

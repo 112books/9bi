@@ -1,5 +1,5 @@
 ---
-title: SONRISAS CAPACES AL TON I GUIDA !!!
+title: Sonrisas capaces al Ton i Guida !!!
 date: 2014-10-11T00:23:00+0200
 year: 2014
 author: Pili E. G.
