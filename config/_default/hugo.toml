@@ -25,8 +25,18 @@ uglyURLs = true
 # es publicarien al domini.
 ignoreFiles = ["README.txt"]
 
+# Format de sortida LLMS (llms.txt): índex del web en text pla perquè els
+# agents d'IA puguin llegir l'estructura sense haver de raspar l'HTML.
+# La plantilla ja la porta el tema (themes/PaperMod/layouts/llms.txt) però
+# sense registrar-la aquí Hugo no la generava.
+[outputFormats.LLMS]
+  mediaType = "text/plain"
+  baseName = "llms"
+  isPlainText = true
+  isHTML = false
+
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON", "LLMS"]
 
 [permalinks]
   posts = "/:year/:month/:slug"
