@@ -23,7 +23,7 @@ url: "/qui-som/"
 </div>
 <section class="qsb-view" id="qsb-panel-som">
 <h2>Història</h2>
-<p>El col·lectiu es va fundar l'any <strong>2002</strong> per <strong>Josep Antón Cordoncillo</strong>. Tot el material del fundador es troba a l'Arxiu Històric de Roquetes des de la seva mort, però sembla que encara no hi ha manera de que aquest estigui disponible. Fins a data d'avui ningú d'aquest arxiu ha contactat amb nosaltres.</p>
+<p>El col·lectiu es va fundar l'any <strong>2002</strong> per <strong>Josep Antón Cordoncillo</strong>. Tot el material del fundador es troba dipositat a l'Arxiu Històric de Roquetes.</p>
 <figure>
 <img src="{{< rel "/images/9bi-històrica.jpeg" >}}" alt="Alguns dels primers membres de 9 Barris Imatge; Manel Ulls, Petxina, Cordoncillo, Pedro Click i Albert" loading="lazy" decoding="async">
 <figcaption>Alguns dels primers membres de 9 Barris Imatge; Manel «Ulls», Petxina, Cordoncillo, Pedro Click i Albert.</figcaption>
@@ -125,7 +125,7 @@ url: "/qui-som/"
 <tr><td>9 Barris Imatge</td><td>El nostre col·lectiu (des del 2002). Organitza el <strong>Concurs de Fotografia Josep Antón Cordoncillo</strong>, que el 2026 arriba a la <strong>36a edició</strong>.</td></tr>
 <tr><td>Grup Foto Roquetes</td><td>Fotografia comunitària de Roquetes; hi consten <a href="https://ctoniguida.wixsite.com/toniguida/fotos" target="_blank" rel="noopener">obres dels nostres membres</a> Manel Villalba i Núria Orbaneja.</td></tr>
 <tr><td>Josep Antón Cordoncillo</td><td>Fundador de 9 Barris Imatge; la seva càmera va retratar la Prosperitat.</td></tr>
-<tr><td>Arxiu Històric de Roquetes-Nou Barris</td><td>El principal centre de conservació del patrimoni fotogràfic del districte: més de <strong>48.000 fotografies en paper</strong>, amb donacions com les de Kim Manresa, Eva Orti, Antonio Silva i Carlos Navas. Conserven el fons de Josep Antón Cordoncillo, però després de molts anys de la seva pèrdua encara no li han sabut donar sortida, i mai no s'han relacionat ni han contactat amb 9 Barris Imatge.</td></tr>
+<tr><td>Arxiu Històric de Roquetes-Nou Barris</td><td>Centre de conservació del patrimoni fotogràfic del districte, on hi ha dipositat el fons de diversos fotògrafs de Nou Barris, entre ells Josep Antón Cordoncillo.</td></tr>
 <tr><td>Juan Manuel Rodríguez Coria «Morocho»</td><td>Fotògraf analògic, veí de Roquetes. Nascut a Lugo i resident al barri, on treballava en un taller de fotocromo i d'aquí li va venir l'afició: va començar amb una càmera de manxa i després amb una Zenza Bronica de format mitjà, i va aprendre soltot a fer diapositives. La seva obra documenta la vida social i política de Catalunya i Espanya des de finals dels anys setanta i la dècada dels vuitanta: manifestacions contra l'OTAN, aplecs, la <a href="https://es.wikipedia.org/wiki/Movida_madrilena" target="_blank" rel="noopener">Movida Madrileña</a>, els Sanfermines i la vida festiva del barri. El <strong>2019</strong> va cedir a l'Arxiu Històric de Roquetes-Nou Barris més de <strong>500 diapositives inèdites</strong>, que l'arxiu va digitalitzar i va exposar per primera vegada a l'Espai Via Favència amb el títol «<em>Històries dels 80's a BCN-9 Barris</em>». Una part del material es va malmetre quan es van inundar els baixos on el guardava durant les obres de la Ronda de Dalt, i en va poder recuperar bona part.</td></tr>
 <tr><td>Antonio Silva</td><td>Membre de l'Arxiu Històric de Roquetes-Nou Barris i guia de les rutes de memòria històrica pel barri, com la de Torre Llobeta–Vilapicina (<a href="{{< rel "/2016/10/arrancando-motores-por-el-13-b.html" >}}">la 1a ruta</a>) o la del Turó de la Peira–Can Peguera (<a href="{{< rel "/2016/11/preparant-ruta-turo-de-la-peira-can.html" >}}">la 2a</a>). L'Arxiu en conserva el fons.</td></tr>
 <tr><td>Arnaldo Gil</td><td>Membre de l'Arxiu Històric de Roquetes-Nou Barris i <a href="https://naciodigital.cat/societat/segrest-pellicula-autobus-torre-baro-allo-ara-seria-terrorisme_1977797_102.html" target="_blank" rel="noopener">testimoni oral</a> d'episodes de la història del districte, com l'arribada del primer autobús a Torre Baró el 1978.</td></tr>
@@ -150,9 +150,9 @@ url: "/qui-som/"
 <h3>Betevé (Televisió de Barcelona)</h3>
 <p>Betevé és un dels mitjans que ha cobert el col·lectiu de manera més recurrent.</p>
 <ul>
-<li><a href="https://beteve.cat/societat/album-fotos-prosperitat-9barris-imatge/" target="_blank" rel="noopener">Àlbum de la vida i personatges dels darrers 20 anys de la Prosperitat</a> (2019) — Reportatge sobre l'exposició del 20è aniversari del grup al Casal de Barri Prosperitat. Recull declaracions de Joan Martínez «Linux» que expliquen la fundació del col·lectiu per part de Josep Anton Cordoncillo, Pedro, Manel «Ulls» i Imma, i com el blog, estrenat el 2002, s'ha convertit en un fons documental de consulta per a veïns i entitats. <em>També ho vam recountar al nostre <a href="{{< rel "/2019/11/sortim-beteve.html" >}}">blog</a>.</em></li>
 <li><strong>L'herència de Josep Anton Cordoncillo</strong> (2010) — Peça en què el fotògraf Manel Sala reivindica la figura del fundador i la continuïtat del grup:<br>
 <em>«Sóc fotògraf de 9Barris Imatge, que es va fundar l'any 2002. El fundador va ser Josep Anton Cordoncillo… Som una mica els fotògrafs del barri».</em></li>
+<li><a href="https://beteve.cat/societat/album-fotos-prosperitat-9barris-imatge/" target="_blank" rel="noopener">Àlbum de la vida i personatges dels darrers 20 anys de la Prosperitat</a> (2019) — Reportatge sobre l'exposició del 20è aniversari del grup al Casal de Barri Prosperitat. Recull declaracions de Joan Martínez «Linux» que expliquen la fundació del col·lectiu per part de Josep Anton Cordoncillo, Pedro, Manel «Ulls» i Imma, i com el blog, estrenat el 2002, s'ha convertit en un fons documental de consulta per a veïns i entitats. <em>També ho vam recountar al nostre <a href="{{< rel "/2019/11/sortim-beteve.html" >}}">blog</a>.</em></li>
 </ul>
 <h3>NouBarris.Net</h3>
 <p>Aquest mitjà digital, referent al districte, ha publicat articles sobre les activitats del col·lectiu.</p>
@@ -171,7 +171,7 @@ url: "/qui-som/"
 <h3>Altres mitjans i publicacions</h3>
 <ul>
 <li><strong>La Vanguardia</strong> — Tot i que no n'hem localitzat un article directe, en un butlletí de l'Associació de Veïns de Prosperitat es reprodueix una fotografia d'Alberto Sanagustín amb el crèdit «9 Barris Imatge»: la nostra obra gràfica també s'ha utilitzat en mitjans d'abast general.</li>
-<li><strong>Barnanews</strong> — En un article sobre el districte de Nou Barris se esmenta el col·lectiu com una de les entitats que utilitzen el numeral «9» en el seu nom.</li>
+<li><strong>Barnanews</strong> — En un article sobre el districte de Nou Barris s'esmenta el col·lectiu com una de les entitats que utilitzen el numeral «9» en el seu nom. <em>Font pendent de localitzar i enllaçar.</em></li>
 <li><strong><a href="https://blog.pocallum.cat/" target="_blank" rel="noopener">Pocallum</a></strong> — El blog personal de Joan «Linux», membre actiu del col·lectiu, on hi ha nombroses entrades que documenten la participació de 9 Barris Imatge en actes i projectes del barri.</li>
 </ul>
 <h3>Altres referències institutionals</h3>
@@ -179,6 +179,6 @@ url: "/qui-som/"
 <li><strong>Ajuntament de Barcelona</strong> — El col·lectiu figura al directori d'entitats i equipaments del districte de Nou Barris, amb l'adreça i el web.</li>
 <li><strong>Associació 9 Barris Acull</strong> — En el seu arxiu d'entitats es referencia 9 Barris Imatge com a col·laborador en projectes socials i culturals.</li>
 </ul>
-<p>En resum, <strong>9 Barris Imatge és una font habitual per a mitjans com Betevé i NouBarris.Net</strong>, i la nostra obra gràfica s'ha utilitzat en publicacions com la Revista Carrer o La Vanguardia. Aquesta tasca ens ha consolidat com a referents visuals de la memòria col·lectiva de Nou Barris.</p>
+<p>Aquesta presència constant ens ha consolidat com a referents visuals de la memòria col·lectiva de Nou Barris.</p>
 </section>
 </div>
