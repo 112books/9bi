@@ -1,5 +1,5 @@
 ---
-title: Sense títol
+title: "Croacia, Costa Dalmata"
 date: 2010-08-23T12:46:00+0200
 year: 2010
 author: Pedro Click

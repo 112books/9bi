@@ -1,5 +1,5 @@
 ---
-title: 'La cultura va de festa '
+title: "La cultura va de festa (2024)"
 date: 2024-05-05T18:05:00+0200
 year: 2024
 author: Francesc Barbe

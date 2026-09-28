@@ -1,5 +1,5 @@
 ---
-title: 'Chistorra rock xxv 29-05-2023 Organitza: Peña Inmortales'
+title: "Chistorra rock xxv 29-05-2023 Organitza: Peña Inmortales (30/05/2023)"
 date: 2023-05-30T13:01:00+0200
 year: 2023
 author: Pedro Click

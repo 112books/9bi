@@ -1,5 +1,5 @@
 ---
-title: Colesterock.Penya Asarock
+title: "Colesterock.Penya Asarock (2025)"
 date: 2025-05-25T12:13:00+0200
 year: 2025
 author: Ismael Utrilla

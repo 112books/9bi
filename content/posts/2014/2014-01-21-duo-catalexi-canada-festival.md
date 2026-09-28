@@ -1,5 +1,5 @@
 ---
-title: Duo Catalexi. Canadà. Festival Internacional del Circ Ciutat de Figueres 2013
+title: "Duo Catalexi. Canadà. Festival Internacional del Circ Ciutat de Figueres 2013 (2014)"
 date: 2014-01-21T15:24:00+0100
 year: 2014
 author: Manel Sala "Ulls" Circ

@@ -1,5 +1,5 @@
 ---
-title: Sense títol
+title: "Selecció de les fotos presentades a la 33ena edició del concurs Anton Cordoncillo.Entrega"
 date: 2023-12-15T20:57:00+0100
 year: 2023
 author: Ismael Utrilla

@@ -1,5 +1,5 @@
 ---
-title: La foto del dia
+title: "La foto del dia (2012)"
 date: 2012-10-03T15:52:00+0200
 year: 2012
 author: Manel Sala "Ulls" Circ

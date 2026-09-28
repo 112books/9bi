@@ -1,5 +1,5 @@
 ---
-title: Prospe Beach
+title: "Prospe Beach (2025)"
 date: 2025-07-12T17:14:00+0200
 year: 2025
 author: Francesc Barbe

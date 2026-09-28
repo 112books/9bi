@@ -1,5 +1,5 @@
 ---
-title: FLASH!! +tumacat
+title: "FLASH!! +tumacat (2008)"
 date: 2008-05-11T22:05:00+0200
 year: 2008
 author: Pedro "Casal" Cervera

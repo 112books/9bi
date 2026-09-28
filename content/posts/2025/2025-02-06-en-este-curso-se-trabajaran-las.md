@@ -1,5 +1,5 @@
 ---
-title: Sense títol
+title: "En este curso se trabajaran las diferentes técnicas fotografías y potenciaremos habilidade"
 date: 2025-02-06T12:51:00+0100
 year: 2025
 author: Pedro Click

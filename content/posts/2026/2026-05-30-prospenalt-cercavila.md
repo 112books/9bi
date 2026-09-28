@@ -1,5 +1,5 @@
 ---
-title: ' Cercavila'
+title: "Cercavila (2026)"
 date: 2026-05-30T18:40:10+0200
 year: 2026
 author: Francesc Barbe

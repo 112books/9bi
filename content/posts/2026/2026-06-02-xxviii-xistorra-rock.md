@@ -1,5 +1,5 @@
 ---
-title: XXVIII Xistorra Rock
+title: "XXVIII Xistorra Rock (2026)"
 date: 2026-06-02T08:02:10+0200
 year: 2026
 author: Ismael Utrilla

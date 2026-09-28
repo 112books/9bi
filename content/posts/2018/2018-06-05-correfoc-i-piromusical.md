@@ -1,5 +1,5 @@
 ---
-title: Correfoc i Piromusical
+title: "Correfoc i Piromusical (2018)"
 date: 2018-06-05T23:19:00+0200
 year: 2018
 author: Alberto Sanagustín

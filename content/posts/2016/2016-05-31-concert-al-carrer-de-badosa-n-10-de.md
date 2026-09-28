@@ -1,5 +1,5 @@
 ---
-title: Sense títol
+title: "Concert al carrer de Badosa nº 10 de Rock & Rios Band, a"
 date: 2016-05-31T00:13:00+0200
 year: 2016
 author: Héctor J. Oca

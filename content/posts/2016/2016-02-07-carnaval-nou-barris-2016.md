@@ -1,5 +1,5 @@
 ---
-title: Carnaval Nou Barris 2016
+title: "Carnaval Nou Barris 2016 (07/02/2016)"
 date: 2016-02-07T21:46:00+0100
 year: 2016
 author: Pedro Click

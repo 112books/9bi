@@ -1,5 +1,5 @@
 ---
-title: Exposició de JoanLinux amb The Heeks
+title: "Exposició de JoanLinux amb The Heeks (2024)"
 date: 2024-06-28T19:54:00+0200
 year: 2024
 author: Pedro Click

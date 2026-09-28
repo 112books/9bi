@@ -1,5 +1,5 @@
 ---
-title: Sense títol
+title: "Ahir divendres vàrem celebrar la trobada - sopar de les entitats del barri que formem part"
 date: 2024-10-05T09:29:00+0200
 year: 2024
 author: Joan "Linux" Martínez i Serres

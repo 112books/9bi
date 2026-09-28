@@ -1,5 +1,5 @@
 ---
-title: Festes de Prosperitat - divendres
+title: "Festes de Prosperitat - divendres (2012)"
 date: 2012-06-02T18:13:00+0200
 year: 2012
 author: Joan "Linux" Martínez i Serres

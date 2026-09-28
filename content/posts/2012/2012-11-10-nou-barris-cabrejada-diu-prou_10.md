@@ -1,5 +1,5 @@
 ---
-title: Nou Barris cabrejada, diu prou!
+title: "Nou Barris cabrejada, diu prou! (2012)"
 date: 2012-11-10T13:19:00+0100
 year: 2012
 author: Manel Sala "Ulls" Circ

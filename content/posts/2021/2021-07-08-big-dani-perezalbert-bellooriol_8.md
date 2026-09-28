@@ -1,5 +1,5 @@
 ---
-title: Big Dani Pérez,Albert Bello,Oriol Saña,Claudio Lázaro,Camil Motera. 2021
+title: "Big Dani Pérez,Albert Bello,Oriol Saña,Claudio Lázaro,Camil Motera. 2021 (08/07/2021)"
 date: 2021-07-08T16:48:00+0200
 year: 2021
 author: Francesc Barbe

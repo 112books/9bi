@@ -1,5 +1,5 @@
 ---
-title: Desnonament aturat a Nou Barris
+title: "Desnonament aturat a Nou Barris (2014)"
 date: 2014-01-22T12:34:00+0100
 year: 2014
 author: Pedro "Casal" Cervera

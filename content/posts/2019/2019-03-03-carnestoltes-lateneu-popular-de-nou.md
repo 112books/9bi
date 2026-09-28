@@ -1,5 +1,5 @@
 ---
-title: Carnestoltes a l'Ateneu Popular de Nou Barris
+title: "2020-02-23 - Carnestoltes a l'Ateneu Popular de Nou Barris (2019)"
 date: 2019-03-03T13:02:00+0100
 year: 2019
 author: Joan "Linux" Martínez i Serres

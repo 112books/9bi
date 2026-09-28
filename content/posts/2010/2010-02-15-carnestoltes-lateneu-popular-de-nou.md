@@ -1,5 +1,5 @@
 ---
-title: Carnestoltes a l'Ateneu Popular de Nou Barris
+title: "2019-02-15 - Carnestoltes a l'Ateneu Popular de Nou Barris"
 date: 2010-02-15T00:38:00+0100
 year: 2010
 author: Joan "Linux" Martínez i Serres

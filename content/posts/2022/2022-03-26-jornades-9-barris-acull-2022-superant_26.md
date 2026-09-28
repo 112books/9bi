@@ -1,5 +1,5 @@
 ---
-title: 'Jornades 9 Barris Acull 2022 - Superant obstacles: joves, racisme i exclusió'
+title: "Jornades 9 Barris Acull 2022 - Superant obstacles: joves, racisme i exclusió (26/03/2022)"
 date: 2022-03-26T20:39:00+0100
 year: 2022
 author: Pedro Click

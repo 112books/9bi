@@ -1,5 +1,5 @@
 ---
-title: Vermutsical - Jam Session Festival
+title: "Vermutsical - Jam Session Festival (2014)"
 date: 2014-01-12T12:18:00+0100
 year: 2014
 author: Joan "Linux" Martínez i Serres

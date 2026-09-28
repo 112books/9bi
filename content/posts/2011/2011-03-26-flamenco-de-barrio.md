@@ -1,5 +1,5 @@
 ---
-title: Flamenco de Barrio
+title: "Flamenco de Barrio (2011)"
 date: 2011-03-26T20:54:00+0100
 year: 2011
 author: Pedro Click

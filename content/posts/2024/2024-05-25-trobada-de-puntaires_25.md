@@ -1,5 +1,5 @@
 ---
-title: Trobada de puntaires
+title: "Trobada de puntaires (2024)"
 date: 2024-05-25T16:16:00+0200
 year: 2024
 author: Francesc Barbe

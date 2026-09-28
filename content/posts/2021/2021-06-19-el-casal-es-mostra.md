@@ -1,5 +1,5 @@
 ---
-title: El Casal es mostra
+title: "El Casal es mostra (2021)"
 date: 2021-06-19T18:14:00+0200
 year: 2021
 author: Francesc Barbe

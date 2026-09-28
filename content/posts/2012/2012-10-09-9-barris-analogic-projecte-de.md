@@ -1,5 +1,5 @@
 ---
-title: Sense títol
+title: "9 Barris Analògic"
 date: 2012-10-09T07:50:00+0200
 year: 2012
 author: Joan "Linux" Martínez i Serres

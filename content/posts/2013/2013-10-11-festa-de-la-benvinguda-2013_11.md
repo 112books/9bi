@@ -1,5 +1,5 @@
 ---
-title: Festa de la Benvinguda 2013
+title: "Festa de la Benvinguda 2013 (11/10/2013)"
 date: 2013-10-11T23:44:00+0200
 year: 2013
 author: Joan "Linux" Martínez i Serres

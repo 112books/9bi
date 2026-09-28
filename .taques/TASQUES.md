@@ -21,7 +21,6 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 | T-09 | 🟡 | Enllaços d'àlbums morts (Picasa → Google Photos), autor per autor | 18/09 | — | Quan puguem. Eines a `scripts/albums_fix.py`, fitxes a `data/recuperacio/` |
 | T-10 | ⚪ | Cerca: etiquetes ordenades de més a menys freqüents | 21/09 | — | |
 | T-11 | ⚪ | Cerca limitada a l'autor a `/author/<slug>.html` | 24/09 | — | Baixa prioritat |
-| T-12 | ⚪ | Test real de vot des del telèfon (número, títol, categoria, avís legal, resultats) | 24/09 | abans de l'01/12 | Depèn de T-01 |
 | T-14 | ⚪ | Publicació automàtica a Instagram i Facebook + enllaços al web | 18/09 | — | Mateix patró que T-13 (`modules/telegram/`: RSS de `/posts/` + `state.json` + cron) |
 | T-18 | ⚪ | Auditoria d'accessibilitat | 17/09 | — | |
 | T-19 | ⚪ | 5a pestanya de «Qui som»: Història de la fotografia a Nou Barris | 18/09 | — | Recerca feta, galeria en suspens |
@@ -48,6 +47,7 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | Data | ID | Tasca | Temps | Commit |
 |---|---|---|---|---|
+| 28/09 | T-12 | Proves de vot fetes per l'usuari des del telèfon; **el sistema va bé** (queda la prova final amb la llista definitiva, lligada a T-01) | — | — |
 | 28/09 | T-04 | Certificat SSL: **renovat el 28/09** (automàtic), vàlid fins al **27/12/2026**, SAN per `vots-cordoncillo`, `formularis`, `linuxbcn.com` i `www`; `/health` 200 als dos serveis | ~10 min | — |
 | 28/09 | — | **Versió distribuïble de Taro** (branca local `distribucio`): contingut del 9bi eliminat, plantilla amb marcadors `[POSA-HI: …]`, logo de l'aplicació i README de personalització. Build net | ~1 h 30 min | `90ebcc6379`, `af8a537d6f` |
 | 28/09 | — | **Codeberg**: esborrada la branca `pages` (el build vell); el compte queda a l'espera del GC. GC demanat a l'issue #2522 | ~5 min | — |

@@ -1,5 +1,5 @@
 ---
-title: Flamenco de Barrio 2013
+title: "Flamenco de Barrio 2013 (28/07/2013)"
 date: 2013-07-28T19:26:00+0200
 year: 2013
 author: Pedro Click
