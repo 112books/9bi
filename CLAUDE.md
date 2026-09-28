@@ -634,6 +634,15 @@ Sessió al núvol (Claude Code), ~08:35–11:40. Tots els canvis per PR a `main`
 - **GoatCounter (FET, producció, `16bdec539`)**: `/stats/` sumava `/stats/hits?limit=50` (paginat) i quedava curt (159 vs >200 del tauler). Ara usa el camp `total` de `/stats/total`. Verificat a l'OpenAPI de GoatCounter: `total_unique` **no existeix** a l'API (per això sempre era 0). Desplegat (run #110) i verificat en viu: **166** per al període 29/08–28/09.
 - **Pendent de revisar a producció**: vegeu `TASQUES.md`; els crítics són T-01 (llista d'obres de la votació, 30/11), T-04 (certificat SSL, 26/11), T-12 (prova de vot real) i T-16 («Publica» d'un comentari).
 
+## Sessió 2026-09-28 (v4) — Títols (T-08/T-30), certificat, vot i estadístiques
+
+- **T-12 (FET)**: l'usuari confirma que les proves de vot des del telèfon van bé; queda la prova final amb la llista definitiva (lligada a T-01).
+- **T-04 (FET)**: el certificat SSL es va **renovar sol el 28/09** i val fins al **27/12/2026**, amb SAN per `vots-cordoncillo`, `formularis`, `linuxbcn.com` i `www`; `/health` 200 als dos serveis. Ja cobreix tota l'exposició.
+- **T-08 (FET, `699e52a1b5`)**: pàgina de revisió local (`drafts/revisio_titols.py` + HTML) amb 21 «Sense títol» i 66 grups de títols repetits. L'usuari va triar 95 canvis (`drafts/titols-revisats-2026-09-28.json`) i es va esborrar el post buit `content/posts/2008/2008-04-08-blog-post.md`. Només el camp `title`; URL intactes. Build: 8.707 pàgines, 3.007 posts.
+- **T-30 (FET, `d2cc9eacf9`, `d6cd104746`)**: 6 títols llargs escurçats i **convenció de Joan Linux `any-mes-dia - títol`** aplicada als 26 posts seus del lot. El de Ciutat Flamenco porta la data de l'acte (25/10), no la de publicació.
+- **Estadístiques (FET, `27d4b914ff`)**: el dashboard calculava els dies sumant `/stats/hits` (limitat a 50 pàgines) i no quadrava amb el total (159 vs 166). Ara `hits_by_day` surt del camp `stats` de `/stats/total` (tot el web). Verificat en viu: **total 166 = suma dels dies**. Etiqueta «total any» → «total període». Confirmat a l'OpenAPI que l'API v0 no exposa visitants únics.
+- **Pendent principal**: **T-29** publicar el distribuïble a Codeberg, bloquejat pel GC (l'issue #2522 no té resposta; la quota continua a 752,7 MiB).
+
 ## Tasques pendents
 
 > **Pendents: vegeu [`.taques/TASQUES.md`](.taques/TASQUES.md)** (font única des del 2026-09-27; no afegir-ne aquí).
