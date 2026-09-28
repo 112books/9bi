@@ -1,0 +1,43 @@
+{{- /* T-16: comentaris de l'entrada, amb moderació prèvia.
+     Els aprovats són a data/comentaris/<nom del fitxer de l'entrada>/<id>.json
+     (els hi posa modules/formularis/comentaris.py en publicar-los).
+     El formulari va al servei de formularis, com el de contacte. */ -}}
+{{- $key := .File.ContentBaseName -}}
+{{- $all := index site.Data "comentaris" -}}
+{{- $mine := slice -}}
+{{- with $all }}{{ with index . $key }}{{ range $id, $c := . }}{{ $mine = $mine | append $c }}{{ end }}{{ end }}{{ end -}}
+{{- $mine = sort $mine "data" -}}
+<section class="post-comments" id="comentaris" aria-labelledby="comentaris-titol">
+  <h2 id="comentaris-titol">Comentaris{{ with len $mine }} <span class="post-comments-count">({{ . }})</span>{{ end }}</h2>
+  <p class="post-comments-sent" id="comentari-enviat" role="status">Gràcies! Hem rebut el teu comentari. Sortirà aquí quan l'haguem revisat.</p>
+  {{- with $mine }}
+  <ol class="post-comments-list">
+    {{- range . }}
+    <li>
+      <p class="post-comment-meta"><strong>{{ .nom }}</strong> · <time datetime="{{ .data }}">{{ time.AsTime .data | time.Format ":date_long" }}</time></p>
+      <div class="post-comment-text">{{ .text | htmlEscape | replaceRE "\n" "<br>" | safeHTML }}</div>
+    </li>
+    {{- end }}
+  </ol>
+  {{- end }}
+  <details class="post-comments-form">
+    <summary>Deixa un comentari</summary>
+    <form class="contact-form" action="https://formularis.linuxbcn.com/envia/comentari" method="POST">
+      <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" class="contact-honeypot">
+      <input type="hidden" name="entrada" value="{{ $key }}">
+      <input type="hidden" name="pagina" value="{{ .Permalink }}">
+      <label for="comentari-nom">Nom</label>
+      <input id="comentari-nom" type="text" name="nom" required maxlength="80" autocomplete="name">
+      <label for="comentari-email">Adreça electrònica (opcional, no es publica)</label>
+      <input id="comentari-email" type="email" name="email" maxlength="254" autocomplete="email">
+      <label for="comentari-text">Comentari</label>
+      <textarea id="comentari-text" name="comentari" required maxlength="2000"></textarea>
+      <div class="contact-consent">
+        <input id="comentari-consentiment" type="checkbox" name="consentiment" value="sí" required>
+        <label for="comentari-consentiment">He llegit i accepto la <a href="{{ "privacitat/" | relURL }}">política de privacitat</a> i que el meu nom i el comentari es publiquin en aquesta entrada.</label>
+      </div>
+      <button type="submit">Envia el comentari</button>
+      <p class="post-comments-note">Revisem tots els comentaris abans de publicar-los. El correu només el fem servir per respondre't si cal.</p>
+    </form>
+  </details>
+</section>

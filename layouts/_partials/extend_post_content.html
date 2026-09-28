@@ -8,3 +8,6 @@
 {{- if eq .Section "posts" }}
 {{ partial "post-share.html" . }}
 {{- end -}}
+{{- if eq .Section "posts" }}
+{{ partial "post-comments.html" . }}
+{{- end -}}

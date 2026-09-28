@@ -154,3 +154,100 @@ ok &= s == 503
 
 srv.shutdown()
 print("RESULTAT:", "OK" if ok else "HI HA FALLADES")
+
+# ------------------------------------------------------------ comentaris
+import json as _json
+import tempfile
+
+m._rate.clear()
+cfg.set("smtp", "password", "prova")
+if not cfg.has_section("comentaris"):
+    cfg.add_section("comentaris")
+cfg.set("comentaris", "secret", "x" * 64)
+cfg.set("comentaris", "github_token", "fals")
+cfg.set("comentaris", "dir", tempfile.mkdtemp())
+if not cfg.has_option("general", "site_url"):
+    cfg.set("general", "site_url", "https://9barrisimatge.org/")
+PUBLICATS = []
+srv.server_close()
+m.comentaris.publish = lambda c, item: (PUBLICATS.append(item) or True, "")
+srv = make_server("127.0.0.1", PORT, m.application, handler_class=Quiet)
+threading.Thread(target=srv.serve_forever, daemon=True).start()
+ORIG = {"Origin": "https://9barrisimatge.org"}
+PAG = "https://9barrisimatge.org/2026/09/prova.html"
+BASE_C = {"entrada": "2026-09-20-prova_3", "pagina": PAG,
+          "nom": "Veïna", "email": "veina@example.org",
+          "comentari": "Molt bones fotos!\r\nGràcies."}
+
+
+def post_loc(path, fields, headers=None):
+    req = urllib.request.Request(BASE + path, method="POST",
+                                 data=urllib.parse.urlencode(fields).encode())
+    for k, v in (headers or {}).items():
+        req.add_header(k, v)
+    try:
+        with NO_REDIRECT.open(req) as r:
+            return r.status, "", r.read().decode()
+    except urllib.error.HTTPError as e:
+        return e.code, e.headers.get("Location", ""), e.read().decode()
+
+
+n = len(SMTP_RECEIVED)
+s, loc, _ = post_loc("/envia/comentari", dict(BASE_C, consentiment="sí"), ORIG)
+pend = os.listdir(os.path.join(cfg.get("comentaris", "dir"), "pendents"))
+print("comentari vàlid ", s, loc, "| pendents:", len(pend), "| correus nous:", len(SMTP_RECEIVED) - n)
+ok &= s == 303 and loc == PAG + "#comentari-enviat" and len(pend) == 1 and len(SMTP_RECEIVED) == n + 1
+cid = pend[0][:-5]
+mail = SMTP_RECEIVED[-1]
+ok &= mail["reply_to"] == "veina@example.org" and "/comentari/%s?sig=" % cid in mail["body"]
+saved = _json.load(open(os.path.join(cfg.get("comentaris", "dir"), "pendents", pend[0])))
+ok &= saved["text"] == "Molt bones fotos!\nGràcies."
+print("salts de línia conservats:", saved["text"] == "Molt bones fotos!\nGràcies.")
+
+s, _, _ = post_loc("/envia/comentari", dict(BASE_C), ORIG)
+print("sense consentiment", s, "(esperat 400)")
+ok &= s == 400
+s, _, _ = post_loc("/envia/comentari", dict(BASE_C, consentiment="sí", pagina="https://dolent.example/"), ORIG)
+print("pàgina d'un altre web", s, "(esperat 400: no hi ha redirecció oberta)")
+ok &= s == 400
+s, _, _ = post_loc("/envia/comentari", dict(BASE_C, consentiment="sí", entrada="../../etc"), ORIG)
+print("entrada amb ../   ", s, "(esperat 400)")
+ok &= s == 400
+s, _, _ = post_loc("/envia/comentari", dict(BASE_C, consentiment="sí"))
+print("sense origen      ", s, "(esperat 403)")
+ok &= s == 403
+before = len(os.listdir(os.path.join(cfg.get("comentaris", "dir"), "pendents")))
+s, loc, _ = post_loc("/envia/comentari", dict(BASE_C, consentiment="sí", _honey="spam"), ORIG)
+after = len(os.listdir(os.path.join(cfg.get("comentaris", "dir"), "pendents")))
+print("honeypot          ", s, loc, "| pendents nous:", after - before, "(esperat 0)")
+ok &= s == 303 and after == before
+
+sig = m.comentaris.sign(cfg, cid)
+s, body = get("/comentari/%s?sig=%s" % (cid, "0" * 64))
+print("revisió signatura dolenta", s, "(esperat 403)")
+ok &= s == 403
+s, body = get("/comentari/%s?sig=%s" % (cid, sig))
+print("revisió GET       ", s, "| no publica res:", len(PUBLICATS) == 0, "| mostra el text:", "Molt bones fotos!" in body)
+ok &= s == 200 and not PUBLICATS and "Molt bones fotos!" in body
+s, _, body = post_loc("/comentari/" + cid, {"sig": sig, "accio": "publica"})
+print("publica           ", s, "| publicats:", len(PUBLICATS), "| sense correu al repo:", "email" not in _json.dumps({k: PUBLICATS[0][k] for k in ("nom", "text", "data")}) if PUBLICATS else None)
+ok &= s == 200 and len(PUBLICATS) == 1
+s, _, _ = post_loc("/comentari/" + cid, {"sig": sig, "accio": "publica"})
+print("publica dues vegades", s, "(esperat 410)")
+ok &= s == 410
+
+s, loc, _ = post_loc("/envia/comentari", dict(BASE_C, consentiment="sí", comentari="Compra a www.spam.example"), ORIG)
+cid2 = [f for f in os.listdir(os.path.join(cfg.get("comentaris", "dir"), "pendents"))][0][:-5]
+print("avís d'enllaços al correu:", "enllaç" in SMTP_RECEIVED[-1]["body"])
+ok &= "enllaç" in SMTP_RECEIVED[-1]["body"]
+s, _, _ = post_loc("/comentari/" + cid2, {"sig": m.comentaris.sign(cfg, cid2), "accio": "descarta"})
+print("descarta          ", s, "| pendents:", len(os.listdir(os.path.join(cfg.get("comentaris", "dir"), "pendents"))), "| publicats:", len(PUBLICATS))
+ok &= s == 200 and len(PUBLICATS) == 1
+
+cfg.set("comentaris", "secret", "CANVIA-ME")
+s, _, _ = post_loc("/envia/comentari", dict(BASE_C, consentiment="sí"), ORIG)
+print("secret per defecte", s, "(esperat 503)")
+ok &= s == 503
+
+srv.shutdown()
+print("RESULTAT COMENTARIS:", "OK" if ok else "HI HA FALLADES")
