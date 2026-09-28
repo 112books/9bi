@@ -138,12 +138,25 @@ def fetch_analytics(token, days=30):
     if not isinstance(total_oficial, int) or total_oficial <= 0:
         total_oficial = total
 
+    # Dies amb dades: /stats/total els dona per a TOT el web. Amb /stats/hits
+    # (limitat a 50 pàgines) la suma per dia quedava curta i no quadrava amb
+    # el total (159 vs 166). Si el total endpoint falla, emprem la dels hits.
+    dies_total = []
+    for stat in total_data.get("stats", []):
+        d = (stat.get("day") or "")[:10]
+        c = stat.get("daily", 0)
+        if d and c:
+            dies_total.append({"date": d, "count": c})
+    dies_total.sort(key=lambda x: x["date"])
+    if not dies_total:
+        dies_total = hits_by_day_list
+
     return {
         "generated": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "period": {"start": start, "end": end},
         "total": total_oficial,
         "total_unique": total_data.get("total_unique", 0),
-        "hits_by_day": hits_by_day_list,
+        "hits_by_day": dies_total,
         "hits": hits_top,
         "by_lang": by_lang,
         "by_section": by_section,
