@@ -1,5 +1,5 @@
 ---
-title: BUBBLE FUTBOL
+title: Bubble futbol
 date: 2017-06-01T22:18:00+0200
 year: 2017
 author: Pedro Click

@@ -1,5 +1,5 @@
 ---
-title: CONCIERTO CASAL DE JOVES DE PROSPE
+title: Concierto Casal de Joves de Prospe
 date: 2010-02-10T15:31:00+0100
 year: 2010
 author: inma

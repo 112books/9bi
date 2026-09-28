@@ -1,5 +1,5 @@
 ---
-title: FESTIVAL DE BLUES DE BARCELONA 2015
+title: Festival de Blues de Barcelona 2015
 date: 2015-07-14T17:01:00+0200
 year: 2015
 author: Pedro Click

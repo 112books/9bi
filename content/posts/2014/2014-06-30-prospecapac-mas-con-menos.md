@@ -1,5 +1,5 @@
 ---
-title: PROSPECAPAÇ - MAS CON MENOS
+title: Prospecapaç - mas con menos
 date: 2014-06-30T11:27:00+0200
 year: 2014
 author: Pedro Click

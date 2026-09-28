@@ -1,5 +1,5 @@
 ---
-title: TELEFONICA 19 ANYS SENSE TELEFONICA
+title: Telefonica 19 anys Sense telefonica
 date: 2024-01-26T09:20:00+0100
 year: 2024
 author: Iozsef Kiss

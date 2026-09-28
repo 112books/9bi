@@ -1,5 +1,5 @@
 ---
-title: EXCURSIÓ A LA  BARCELONETA DE LA RESIDÈNCIA PORTA
+title: Excursió a la  barceloneta de la Residència Porta
 date: 2015-06-08T13:27:00+0200
 year: 2015
 author: 9 Barris Imatge

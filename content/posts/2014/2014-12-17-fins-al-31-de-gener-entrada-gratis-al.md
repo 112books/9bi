@@ -1,5 +1,5 @@
 ---
-title: FINS AL 31 DE GENER ENTRADA GRATIS AL MUSEU DEL DISSENY !!!
+title: Fins al 31 de gener entrada gratis al museu del disseny !!!
 date: 2014-12-17T00:12:00+0100
 year: 2014
 author: Pili E. G.

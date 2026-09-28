@@ -1,5 +1,5 @@
 ---
-title: FESTAS DE VERDUN KARAOKE BAND
+title: Festas de verdun Karaoke Band
 date: 2013-09-22T12:18:00+0200
 year: 2013
 author: Pedro Click

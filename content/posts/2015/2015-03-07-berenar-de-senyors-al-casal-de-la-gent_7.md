@@ -1,5 +1,5 @@
 ---
-title: BERENAR DE SENYORS AL CASAL DE LA GENT GRAN DE ROQUETES !!!
+title: Berenar de senyors al Casal de la gent gran de Roquetes !!!
 date: 2015-03-07T19:31:00+0100
 year: 2015
 author: Pili E. G.

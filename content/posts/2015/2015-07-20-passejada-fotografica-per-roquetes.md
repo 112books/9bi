@@ -1,5 +1,5 @@
 ---
-title: PASSEJADA  FOTOGRÀFICA PER ROQUETES !!!
+title: Passejada  fotogràfica per Roquetes !!!
 date: 2015-07-20T01:03:00+0200
 year: 2015
 author: Pili E. G.

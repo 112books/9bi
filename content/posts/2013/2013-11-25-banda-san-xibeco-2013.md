@@ -1,5 +1,5 @@
 ---
-title: BANDA A SAN XIBECO 2013
+title: Banda a San Xibeco 2013
 date: 2013-11-25T20:05:00+0100
 year: 2013
 author: Alberto Sanagustín

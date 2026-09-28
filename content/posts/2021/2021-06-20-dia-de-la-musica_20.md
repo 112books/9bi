@@ -1,5 +1,5 @@
 ---
-title: DIA DE LA MUSICA
+title: Dia de la Musica
 date: 2021-06-20T20:19:00+0200
 year: 2021
 author: Pedro Click

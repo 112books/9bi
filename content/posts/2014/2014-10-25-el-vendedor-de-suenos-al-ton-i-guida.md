@@ -1,5 +1,5 @@
 ---
-title: '"EL VENDEDOR DE SUEÑOS"     AL TON I GUIDA.'
+title: '"El vendedor de sueños"     al Ton i Guida.'
 date: 2014-10-25T00:49:00+0200
 year: 2014
 author: Pili E. G.

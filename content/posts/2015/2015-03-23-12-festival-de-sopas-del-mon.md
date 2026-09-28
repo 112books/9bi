@@ -1,5 +1,5 @@
 ---
-title: 12 FESTIVAL DE SOPAS DEL MON
+title: 12 Festival de sopas del Mon
 date: 2015-03-23T21:50:00+0100
 year: 2015
 author: Pedro Click

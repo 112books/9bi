@@ -1,5 +1,5 @@
 ---
-title: PROSPE FESTA GENT GRAN
+title: Prospe Festa gent gran
 date: 2009-06-15T11:44:00+0200
 year: 2009
 author: Pedro Click

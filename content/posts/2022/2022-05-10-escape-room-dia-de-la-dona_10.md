@@ -1,5 +1,5 @@
 ---
-title: ESCAPE ROOM DIA DE LA DONA
+title: Escape room Dia de la dona
 date: 2022-05-10T12:42:00+0200
 year: 2022
 author: Iozsef Kiss

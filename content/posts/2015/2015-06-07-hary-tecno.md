@@ -1,5 +1,5 @@
 ---
-title: HARY-TECNO
+title: Hary-tecno
 date: 2015-06-07T23:28:00+0200
 year: 2015
 author: Pedro Click

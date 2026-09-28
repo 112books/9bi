@@ -1,5 +1,5 @@
 ---
-title: LUDOTECA AL CARRE
+title: Ludoteca al carre
 date: 2012-05-31T18:51:00+0200
 year: 2012
 author: Pedro Click

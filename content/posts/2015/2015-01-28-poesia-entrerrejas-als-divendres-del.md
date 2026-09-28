@@ -1,5 +1,5 @@
 ---
-title: POESIA ENTRERREJAS ALS DIVENDRES DEL TON I GUIDA !!!
+title: Poesia entrerrejas als Divendres del Ton i Guida !!!
 date: 2015-01-28T00:58:00+0100
 year: 2015
 author: Pili E. G.

@@ -1,5 +1,5 @@
 ---
-title: LIBERTAD DE CREACION
+title: Libertad de creacion
 date: 2011-04-08T16:48:00+0200
 year: 2011
 author: Pedro Click

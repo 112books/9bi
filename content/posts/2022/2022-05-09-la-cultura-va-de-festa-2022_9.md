@@ -1,5 +1,5 @@
 ---
-title: LA CULTURA VA DE FESTA 2022
+title: La Cultura va de Festa 2022
 date: 2022-05-09T15:34:00+0200
 year: 2022
 author: Pedro Click

@@ -1,5 +1,5 @@
 ---
-title: TITELLAS I XOCOLATA
+title: Titellas i xocolata
 date: 2019-09-27T14:15:00+0200
 year: 2019
 author: Manel Villalba

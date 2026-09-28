@@ -1,5 +1,5 @@
 ---
-title: 'MÉS RÒMBIC : CABARET TITELLAIRE !!!'
+title: 'Més Ròmbic : Cabaret titellaire !!!'
 date: 2015-03-29T21:35:00+0200
 year: 2015
 author: Pili E. G.

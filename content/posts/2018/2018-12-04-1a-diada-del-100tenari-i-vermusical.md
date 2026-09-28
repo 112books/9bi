@@ -1,5 +1,5 @@
 ---
-title: 1a DIADA DEL 100TENARI i VERMUSICAL
+title: 1A Diada del 100tenari i Vermusical
 date: 2018-12-04T17:06:00+0100
 year: 2018
 author: Alberto Sanagustín

@@ -1,5 +1,5 @@
 ---
-title: JA ESTEM DE FESTA !!!
+title: Ja estem de Festa !!!
 date: 2014-05-25T00:39:00+0200
 year: 2014
 author: Pili E. G.

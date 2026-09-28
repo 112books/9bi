@@ -1,5 +1,5 @@
 ---
-title: HABANERAS Y CENA
+title: Habaneras y cena
 date: 2014-06-06T20:51:00+0200
 year: 2014
 author: Pedro Click

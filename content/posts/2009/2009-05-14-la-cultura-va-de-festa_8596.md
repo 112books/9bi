@@ -1,5 +1,5 @@
 ---
-title: LA CULTURA VA DE FESTA
+title: La Cultura va de Festa
 date: 2009-05-14T23:03:00+0200
 year: 2009
 author: Pedro Click

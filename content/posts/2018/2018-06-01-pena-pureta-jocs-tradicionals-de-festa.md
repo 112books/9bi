@@ -1,5 +1,5 @@
 ---
-title: PEÑA PURETA  JOCS TRADICIONALS DE FESTA MAJOR 2018
+title: Peña Pureta  Jocs tradicionals de Festa major 2018
 date: 2018-06-01T18:58:00+0200
 year: 2018
 author: Pedro Click

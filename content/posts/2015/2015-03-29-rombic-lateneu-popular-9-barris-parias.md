@@ -1,5 +1,5 @@
 ---
-title: 'RÒMBIC A L''ATENEU POPULAR 9 BARRIS : PARIAS.'
+title: 'Ròmbic a l''Ateneu Popular 9 Barris : parias.'
 date: 2015-03-29T20:53:00+0200
 year: 2015
 author: Pili E. G.

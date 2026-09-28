@@ -1,5 +1,5 @@
 ---
-title: 12M SURT AL CARRER ! BCN
+title: 12M surt al carrer ! Bcn
 date: 2012-05-14T19:44:00+0200
 year: 2012
 author: Manel Sala "Ulls" Circ

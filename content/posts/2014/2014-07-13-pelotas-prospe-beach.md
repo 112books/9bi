@@ -1,5 +1,5 @@
 ---
-title: PELOTAS A PROSPE BEACH !!!
+title: Pelotas a Prospe Beach !!!
 date: 2014-07-13T14:46:00+0200
 year: 2014
 author: Pili E. G.

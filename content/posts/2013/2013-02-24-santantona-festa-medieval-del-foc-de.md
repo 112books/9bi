@@ -1,5 +1,5 @@
 ---
-title: 'SANTANTONÀ. FESTA MEDIEVAL DEL FOC DE FORCALL '
+title: Santantonà. Festa medieval del foc de forcall
 date: 2013-02-24T13:50:00+0100
 year: 2013
 author: Pedro Click

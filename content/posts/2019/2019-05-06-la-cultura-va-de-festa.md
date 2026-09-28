@@ -1,5 +1,5 @@
 ---
-title: LA CULTURA VA DE FESTA 2019
+title: La Cultura va de Festa 2019
 date: 2019-05-06T10:49:00+0200
 year: 2019
 author: Pedro Click

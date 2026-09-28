@@ -1,5 +1,5 @@
 ---
-title: '"MOTARD''S & AMERICAN CARS"  en CANYELLES !!!'
+title: '"Motard''s & american cars"  en canyelles !!!'
 date: 2014-05-19T21:23:00+0200
 year: 2014
 author: Pili E. G.

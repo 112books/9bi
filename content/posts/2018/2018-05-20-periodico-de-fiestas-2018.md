@@ -1,5 +1,5 @@
 ---
-title: PERIODICO DE FIESTAS 2018
+title: Periodico de Fiestas 2018
 date: 2018-05-20T14:12:00+0200
 year: 2018
 author: Pedro Click

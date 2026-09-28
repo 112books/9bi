@@ -1,5 +1,5 @@
 ---
-title: EXPO EFEMÈRIDES-25 DOCUMENTS BÀSICS
+title: Expo Efemèrides-25 documents bàsics
 date: 2019-01-19T20:50:00+0100
 year: 2019
 author: Alberto Sanagustín

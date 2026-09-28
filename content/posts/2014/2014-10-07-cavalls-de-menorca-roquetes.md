@@ -1,5 +1,5 @@
 ---
-title: CAVALLS DE MENORCA A ROQUETES !!!
+title: Cavalls de menorca a Roquetes !!!
 date: 2014-10-07T12:51:00+0200
 year: 2014
 author: Pili E. G.

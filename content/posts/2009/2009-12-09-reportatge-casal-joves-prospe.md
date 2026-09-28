@@ -1,5 +1,5 @@
 ---
-title: REPORTATGE CASAL JOVES PROSPE
+title: Reportatge Casal Joves Prospe
 date: 2009-12-09T17:28:00+0100
 year: 2009
 author: inma

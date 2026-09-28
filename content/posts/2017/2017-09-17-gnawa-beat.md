@@ -1,5 +1,5 @@
 ---
-title: GNAWA BEAT
+title: Gnawa Beat
 date: 2017-09-17T13:05:00+0200
 year: 2017
 author: Pedro Click

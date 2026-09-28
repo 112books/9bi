@@ -1,5 +1,5 @@
 ---
-title: FINAL DE FESTA...AMB TRACA FINAL !!!
+title: Final de Festa...amb traca final !!!
 date: 2015-06-25T17:30:00+0200
 year: 2015
 author: Pili E. G.

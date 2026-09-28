@@ -1,5 +1,5 @@
 ---
-title: CURSA DE CARGOLS
+title: Cursa de cargols
 date: 2008-06-02T14:28:00+0200
 year: 2008
 author: petxina

@@ -25,7 +25,6 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 | T-12 | ⚪ | Test real de vot des del telèfon (número, títol, categoria, avís legal, resultats) | 24/09 | abans de l'01/12 | Depèn de T-01 |
 | T-14 | ⚪ | Publicació automàtica a Instagram i Facebook + enllaços al web | 18/09 | — | Mateix patró que T-13 (`modules/telegram/`: RSS de `/posts/` + `state.json` + cron) |
 | T-16 | ⚪ | Comentaris amb control d'spam fort | 18/09 | — | **Solució aprovada (28/09)**: mòdul propi basat en `formularis/` amb moderació prèvia per correu; en aprovar, el comentari entra al repositori i surt al build. Pendent: moderador/correu, abast (totes les entrades o noves) i camps |
-| T-17 | ⚪ | Botons per compartir a xarxes | 18/09 | — | **En revisió (28/09)**: branca `claude/t17-compartir`, captures enviades a l'usuari |
 | T-18 | ⚪ | Auditoria d'accessibilitat | 17/09 | — | |
 | T-19 | ⚪ | 5a pestanya de «Qui som»: Història de la fotografia a Nou Barris | 18/09 | — | Recerca feta, galeria en suspens |
 | T-20 | ⚪ | Membres: completar els Instagram que falten | 18/09 | — | |
@@ -33,8 +32,8 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 | T-22 | ⚪ | Reobrir l'issue #2522 de Codeberg (quota) | 21/09 | — | Text a `drafts/2026-09-27-codeberg-issue-2522-reobrir.md`, no enviat |
 | T-23 | ⚪ | Revisió jurídica final de l'adequació RGPD | 18/09 | — | |
 | T-24 | ⚪ | Tipografia Gillius: OTF → woff2 | 18/09 | — | Opcional |
-| T-25 | ⚪ | CMS: normalització de títols en majúscules | 18/09 | — | **En revisió (28/09)**: 399 títols; l'usuari tria un per un en una pàgina de revisió; després s'aplica només al camp `title` (tots tenen `slug`, les URL no canvien) |
 | T-26 | ⚪ | Control de fitxers del Concurs Cordoncillo (bases, històric…) | 18/09 | — | |
+| T-28 | 🟡 | Staging a Codeberg (`https://linuxbcn.codeberg.page/9bi/`): els CSS es veuen trencats | 28/09 | — | Anotada per l'usuari. Probablement rutes absolutes que no tenen en compte el subdirectori `/9bi/` (cal revisar `config/staging/hugo.toml` i els recursos amb `/` inicial) |
 | T-27 | ⚪ | Secció per preparar i gestionar les reunions del col·lectiu | 18/09 | — | |
 
 ### Tancades sense fer
@@ -50,6 +49,9 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | Data | ID | Tasca | Temps | Commit |
 |---|---|---|---|---|
+| 28/09 | T-25 | 399 títols en majúscules normalitzats: l'usuari els va triar un per un en una pàgina de revisió (382 propostes, 17 de propis). Només el camp `title`; les 8.708 pàgines HTML tenen les mateixes URL abans i després | no registrat | aquest PR |
+| 28/09 | T-17 | Botons discrets per compartir cada entrada (WhatsApp, Telegram, Facebook, correu, copia, menú del sistema al mòbil) + correcció del botó «Copia» del concurs | no registrat | `7e5406ec6` |
+| 28/09 | — | Enllaços RSS del web al feed de les entrades (`/posts/index.xml`) | ~5 min | `0cbbed841` |
 | 28/09 | T-13 | Autopublicació al canal de Telegram @NouBarrisImatge: script al servidor, feed de `/posts/`, arxiu (3.008 entrades) marcat com a publicat, cron cada 30 min, prova real OK. Docs a `modules/telegram/README.txt` | no registrat | `33d5a437d` + docs |
 | 27/09 | — | `/mes-visitats/` amb el top 10 real: l'script cridava un endpoint de GoatCounter que no existeix (400) i es publicaven dades velles | ~10 min | `428593971` |
 | 27/09 | — | Pàgines de gràcies dels formularis amb el disseny del web (`/contacte/gracies/`, `/incorpora-te/gracies/`) i redirecció 303 des del servidor, desplegada | ~15 min | `b1e399dd8` |

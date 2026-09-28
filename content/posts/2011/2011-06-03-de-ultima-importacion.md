@@ -1,5 +1,5 @@
 ---
-title: DOMINGO 29-BIGBAND
+title: Domingo 29-bigband
 date: 2011-06-03T18:53:00+0200
 year: 2011
 author: Pedro Click

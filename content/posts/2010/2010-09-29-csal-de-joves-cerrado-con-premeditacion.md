@@ -1,5 +1,5 @@
 ---
-title: CASAL DE JOVES, CERRADO CON PREMEDITACION Y ALEVOSIA
+title: Casal de Joves, cerrado con premeditacion y alevosia
 date: 2010-09-29T23:42:00+0200
 year: 2010
 author: Pedro Click

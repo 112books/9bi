@@ -1,5 +1,5 @@
 ---
-title: FEM SALUT AL CASAL D'AVIS DE ROQUETES !!!
+title: Fem salut al Casal d'avis de Roquetes !!!
 date: 2015-01-29T20:39:00+0100
 year: 2015
 author: Pili E. G.

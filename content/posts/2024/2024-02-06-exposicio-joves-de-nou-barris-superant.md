@@ -1,5 +1,5 @@
 ---
-title: EXPOSICIÓ JOVES DE NOU BARRIS SUPERANT OBSTACLES
+title: Exposició Joves de Nou Barris Superant obstacles
 date: 2024-02-06T09:45:00+0100
 year: 2024
 author: Iozsef Kiss

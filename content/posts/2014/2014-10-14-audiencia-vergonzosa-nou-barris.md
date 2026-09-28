@@ -1,5 +1,5 @@
 ---
-title: AUDIENCIA PUBLICA? A NOU BARRIS. VERGONYA!!!
+title: Audiencia Publica? A Nou Barris. Vergonya!!!
 date: 2014-10-14T00:36:00+0200
 year: 2014
 author: Pedro "Casal" Cervera

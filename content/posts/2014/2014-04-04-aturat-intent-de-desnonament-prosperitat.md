@@ -1,5 +1,5 @@
 ---
-title: DESNONAMENT ATURAT A PROSPERITAT
+title: Desnonament aturat a Prosperitat
 date: 2014-04-04T12:43:00+0200
 year: 2014
 author: Pedro "Casal" Cervera

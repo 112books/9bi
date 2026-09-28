@@ -1,5 +1,5 @@
 ---
-title: EL CASAL DE JOVES SURT AL CARRER
+title: El Casal de Joves surt al carrer
 date: 2009-11-14T14:21:00+0100
 year: 2009
 author: inma

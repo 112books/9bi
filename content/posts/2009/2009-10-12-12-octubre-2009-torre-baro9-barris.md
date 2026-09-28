@@ -1,5 +1,5 @@
 ---
-title: BARCELONA.. 12 OCTUBRE 2009.. TORRE BARÓ.. 9 BARRIS.. BANDERA ESPAÑOLA...
+title: Barcelona.. 12 octubre 2009.. Torre Baró.. 9 Barris.. Bandera española...
 date: 2009-10-12T23:04:00+0200
 year: 2009
 author: Manel Sala "Ulls" Circ

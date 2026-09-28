@@ -1,5 +1,5 @@
 ---
-title: EL RETORNO DE LOS HERMANOS MAS QUINTOS
+title: El retorno de los Hermanos Mas Quintos
 date: 2008-07-12T11:39:00+0200
 year: 2008
 author: inma

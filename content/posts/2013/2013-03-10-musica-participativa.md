@@ -1,5 +1,5 @@
 ---
-title: MUSICA PARTICIPATIVA
+title: Musica participativa
 date: 2013-03-10T14:28:00+0100
 year: 2013
 author: Pedro Click

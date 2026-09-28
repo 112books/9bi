@@ -1,5 +1,5 @@
 ---
-title: PRIMERA ACTUACIÓ DE LA CORAL DEL TON I GUIDA !!!
+title: Primera actuació de la coral del Ton i Guida !!!
 date: 2015-03-30T22:29:00+0200
 year: 2015
 author: Pili E. G.

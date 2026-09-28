@@ -1,5 +1,5 @@
 ---
-title: LA COCTELERA NEGRA
+title: La Coctelera Negra
 date: 2019-03-31T21:15:00+0200
 year: 2019
 author: Pedro Click

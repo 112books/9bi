@@ -1,5 +1,5 @@
 ---
-title: FESTIVAL DE BLUES DE BARCELONA
+title: Festival de Blues de Barcelona
 date: 2010-09-27T20:18:00+0200
 year: 2010
 author: Pedro Click

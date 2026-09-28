@@ -1,5 +1,5 @@
 ---
-title: PROSPEFESTA 2022 PASACALLES
+title: Prospefesta 2022 Pasacalles
 date: 2022-05-28T17:17:00+0200
 year: 2022
 author: Pedro Click

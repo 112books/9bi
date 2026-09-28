@@ -1,5 +1,5 @@
 ---
-title: PRESENTACION DEL LIBRO ENCRUCIJADAS DE MAMEN GARGALLO
+title: Presentacion del libro encrucijadas de Mamen gargallo
 date: 2016-05-08T15:18:00+0200
 year: 2016
 author: Pedro Click

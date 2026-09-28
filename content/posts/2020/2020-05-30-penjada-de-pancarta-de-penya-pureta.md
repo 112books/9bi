@@ -1,5 +1,5 @@
 ---
-title: PENJADA DE PANCARTA DE PENYA PURETA
+title: Penjada de pancarta de Penya Pureta
 date: 2020-05-30T16:14:00+0200
 year: 2020
 author: Alberto Sanagustín

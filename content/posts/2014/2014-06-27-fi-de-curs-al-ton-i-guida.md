@@ -1,5 +1,5 @@
 ---
-title: FÍ DE CURS AL TON I GUIDA !!!
+title: Fí de curs al Ton i Guida !!!
 date: 2014-06-27T00:10:00+0200
 year: 2014
 author: Pili E. G.

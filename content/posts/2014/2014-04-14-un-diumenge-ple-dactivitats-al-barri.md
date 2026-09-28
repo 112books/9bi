@@ -1,5 +1,5 @@
 ---
-title: UN DIUMENGE PLÉ D'ACTIVITATS AL BARRI !!!
+title: Un diumenge plé d'activitats al barri !!!
 date: 2014-04-14T00:03:00+0200
 year: 2014
 author: Pili E. G.

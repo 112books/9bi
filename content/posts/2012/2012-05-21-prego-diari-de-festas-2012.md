@@ -1,5 +1,5 @@
 ---
-title: DIARI DE FESTAS 2012 PROSPERITAT
+title: Diari de festas 2012 Prosperitat
 date: 2012-05-21T12:24:00+0200
 year: 2012
 author: Pedro Click

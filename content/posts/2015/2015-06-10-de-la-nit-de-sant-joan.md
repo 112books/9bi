@@ -1,5 +1,5 @@
 ---
-title: TEATRE FORUM AL TON I GUIDA !!!
+title: Teatre forum al Ton i Guida !!!
 date: 2015-06-10T00:11:00+0200
 year: 2015
 author: Pili E. G.

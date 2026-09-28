@@ -1,5 +1,5 @@
 ---
-title: HUELGA GENERAL
+title: Huelga general
 date: 2010-09-30T00:01:00+0200
 year: 2010
 author: Pedro Click

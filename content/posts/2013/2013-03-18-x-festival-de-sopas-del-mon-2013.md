@@ -1,5 +1,5 @@
 ---
-title: X FESTIVAL DE SOPAS DEL MON 2013
+title: X Festival de sopas del Mon 2013
 date: 2013-03-18T20:49:00+0100
 year: 2013
 author: Pedro Click

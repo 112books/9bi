@@ -1,5 +1,5 @@
 ---
-title: VERMUTSICAL
+title: Vermutsical
 date: 2014-05-06T20:51:00+0200
 year: 2014
 author: Pedro Click

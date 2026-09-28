@@ -1,5 +1,5 @@
 ---
-title: HUESCA, FIESTAS DE SAN LORENZO
+title: Huesca, Fiestas de San Lorenzo
 date: 2013-08-13T17:26:00+0200
 year: 2013
 author: Pedro Click

@@ -1,5 +1,5 @@
 ---
-title: EL ESPECTÁCULO DEBE CONTINUAR !!!
+title: El espectáculo debe continuar !!!
 date: 2014-06-30T01:40:00+0200
 year: 2014
 author: Pili E. G.

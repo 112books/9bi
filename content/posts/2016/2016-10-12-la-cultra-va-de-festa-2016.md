@@ -1,5 +1,5 @@
 ---
-title: LA CULTURA VA DE FESTA 2016
+title: La Cultura va de Festa 2016
 date: 2016-10-12T17:55:00+0200
 year: 2016
 author: Pedro Click

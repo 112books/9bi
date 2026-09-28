@@ -1,5 +1,5 @@
 ---
-title: PROSPEFESTA16
+title: Prospefesta16
 date: 2016-05-30T14:39:00+0200
 year: 2016
 author: Pedro Click

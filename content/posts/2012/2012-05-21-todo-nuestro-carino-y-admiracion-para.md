@@ -1,5 +1,5 @@
 ---
-title: TODO NUESTRO CARIÑO Y ADMIRACIÓN PARA MARUJA
+title: Todo nuestro cariño y admiración para Maruja
 date: 2012-05-21T13:02:00+0200
 year: 2012
 author: Pedro Click

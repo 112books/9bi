@@ -1,5 +1,5 @@
 ---
-title: PASABARES,TORRADA4/6/11
+title: Pasabares, Torrada 4/6/11
 date: 2011-06-12T14:00:00+0200
 year: 2011
 author: Pedro Click

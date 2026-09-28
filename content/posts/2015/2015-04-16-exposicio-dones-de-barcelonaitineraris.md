@@ -1,5 +1,5 @@
 ---
-title: 'EXPOSICIÓ : "DONES DE BARCELONA. ITINERARIS HISTÒRICS."'
+title: 'Exposició : "dones de Barcelona. Itineraris històrics."'
 date: 2015-04-16T21:01:00+0200
 year: 2015
 author: Pili E. G.
