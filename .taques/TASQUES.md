@@ -24,9 +24,8 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 | T-11 | ⚪ | Cerca limitada a l'autor a `/author/<slug>.html` | 24/09 | — | Baixa prioritat |
 | T-12 | ⚪ | Test real de vot des del telèfon (número, títol, categoria, avís legal, resultats) | 24/09 | abans de l'01/12 | Depèn de T-01 |
 | T-14 | ⚪ | Publicació automàtica a Instagram i Facebook + enllaços al web | 18/09 | — | Mateix patró que T-13 (`modules/telegram/`: RSS de `/posts/` + `state.json` + cron) |
-| T-15 | ⚪ | Butlletí, correu per a cada membre + genèric, i grup de correu | 18/09 | — | Cal repensar DNS i correu |
-| T-16 | ⚪ | Comentaris amb control d'spam fort | 18/09 | — | Solució per triar |
-| T-17 | ⚪ | Botons per compartir a xarxes | 18/09 | — | |
+| T-16 | ⚪ | Comentaris amb control d'spam fort | 18/09 | — | **Solució aprovada (28/09)**: mòdul propi basat en `formularis/` amb moderació prèvia per correu; en aprovar, el comentari entra al repositori i surt al build. Pendent: moderador/correu, abast (totes les entrades o noves) i camps |
+| T-17 | ⚪ | Botons per compartir a xarxes | 18/09 | — | **En revisió (28/09)**: branca `claude/t17-compartir`, captures enviades a l'usuari |
 | T-18 | ⚪ | Auditoria d'accessibilitat | 17/09 | — | |
 | T-19 | ⚪ | 5a pestanya de «Qui som»: Història de la fotografia a Nou Barris | 18/09 | — | Recerca feta, galeria en suspens |
 | T-20 | ⚪ | Membres: completar els Instagram que falten | 18/09 | — | |
@@ -34,7 +33,7 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 | T-22 | ⚪ | Reobrir l'issue #2522 de Codeberg (quota) | 21/09 | — | Text a `drafts/2026-09-27-codeberg-issue-2522-reobrir.md`, no enviat |
 | T-23 | ⚪ | Revisió jurídica final de l'adequació RGPD | 18/09 | — | |
 | T-24 | ⚪ | Tipografia Gillius: OTF → woff2 | 18/09 | — | Opcional |
-| T-25 | ⚪ | CMS: normalització de títols en majúscules | 18/09 | — | |
+| T-25 | ⚪ | CMS: normalització de títols en majúscules | 18/09 | — | **En revisió (28/09)**: 399 títols; l'usuari tria un per un en una pàgina de revisió; després s'aplica només al camp `title` (tots tenen `slug`, les URL no canvien) |
 | T-26 | ⚪ | Control de fitxers del Concurs Cordoncillo (bases, històric…) | 18/09 | — | |
 | T-27 | ⚪ | Secció per preparar i gestionar les reunions del col·lectiu | 18/09 | — | |
 
@@ -43,6 +42,7 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 | ID | Tasca | Data | Motiu |
 |---|---|---|---|
 | T-02 | Rotar `admin_secret` i `secret` de la votació | 27/09 | Decisió de l'usuari: risc acceptat, no es rota |
+| T-15 | Butlletí, correu per a cada membre + genèric, i grup de correu | 28/09 | Decisió de l'usuari: el pla de correu només permet 10 comptes. Cada membre fa servir el seu correu personal i el col·lectiu es comunica (i vota) pel grup privat de Telegram. El butlletí queda aparcat: les novetats ja surten al canal públic de Telegram |
 
 ## Fetes
 
