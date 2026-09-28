@@ -1,5 +1,5 @@
 ---
-title: "Festes de Prospe 2013 - Dissabte (02/06/2013)"
+title: "2013-06-02 - Festes de Prospe 2013 - Dissabte (02/06/2013)"
 date: 2013-06-02T18:22:00+0200
 year: 2013
 author: Joan "Linux" Martínez i Serres

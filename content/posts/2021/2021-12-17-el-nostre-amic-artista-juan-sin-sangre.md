@@ -1,5 +1,5 @@
 ---
-title: "El nostre amic artísta Juan \"sin sangre\" posant amb les escultures trofeus d'enguany. Aque"
+title: "2021-12-17 - El nostre amic artísta Juan «sin sangre» posant amb les escultures trofeus d'enguany"
 date: 2021-12-17T09:19:00+0100
 year: 2021
 author: Joan "Linux" Martínez i Serres

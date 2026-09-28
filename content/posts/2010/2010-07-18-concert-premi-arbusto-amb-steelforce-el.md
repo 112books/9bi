@@ -1,5 +1,5 @@
 ---
-title: "Concert Premi Arbusto amb Steelforce + El punto devil"
+title: "2010-07-18 - Concert Premi Arbusto amb Steelforce + El punto devil"
 date: 2010-07-18T04:35:00+0200
 year: 2010
 author: Joan "Linux" Martínez i Serres

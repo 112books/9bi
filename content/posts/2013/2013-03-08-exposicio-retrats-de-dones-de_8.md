@@ -1,5 +1,5 @@
 ---
-title: "Exposició \"Retrats de dones de Prosperitat\" (2013)"
+title: "2013-03-08 - Exposició \\\"Retrats de dones de Prosperitat\\\" (2013)"
 date: 2013-03-08T10:58:00+0100
 year: 2013
 author: Joan "Linux" Martínez i Serres

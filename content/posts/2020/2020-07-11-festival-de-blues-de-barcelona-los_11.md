@@ -1,5 +1,5 @@
 ---
-title: "Festival de Blues de Barcelona – Los Brillantes amb Chino Swingslide, Albert Bello, Ivan Kovasevic i Bernat Font (2020)"
+title: "2020-07-11 - Festival de Blues de Barcelona – Los Brillantes amb Chino Swingslide, Albert Bello, Ivan Kovasevic i Bernat Font (2020)"
 date: 2020-07-11T14:13:00+0200
 year: 2020
 author: Joan "Linux" Martínez i Serres

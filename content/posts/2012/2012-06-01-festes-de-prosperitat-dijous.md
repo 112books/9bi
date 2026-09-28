@@ -1,5 +1,5 @@
 ---
-title: "Festes de Prosperitat - Dijous (2012)"
+title: "2012-06-01 - Festes de Prosperitat - Dijous (2012)"
 date: 2012-06-01T14:42:00+0200
 year: 2012
 author: Joan "Linux" Martínez i Serres

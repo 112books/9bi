@@ -1,5 +1,5 @@
 ---
-title: "Festes de Prosperitat - Diumenge (2014)"
+title: "2014-06-02 - Festes de Prosperitat - Diumenge (2014)"
 date: 2014-06-02T09:40:00+0200
 year: 2014
 author: Joan "Linux" Martínez i Serres
