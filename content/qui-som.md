@@ -37,7 +37,7 @@ url: "/qui-som/"
 <img src="{{< rel "/images/Membres-casalL1300396.jpg" >}}" alt="Alguns dels membres actuals del col·lectiu: Joan Linux, Francesc Barbé, Pedro Click i Manel Ulls" loading="lazy" decoding="async">
 <figcaption>Alguns dels membres actuals del col·lectiu: Joan Linux, Francesc Barbé, Pedro Click i Manel «Ulls».</figcaption>
 </figure>
-<p>El logotip que tenim des dels inicis és obra de l'artista de Nou Barris <strong>Toni Pagès</strong>.</p>
+<p>El logotip que tenim des dels inicis, dissenyat el 2002, és obra de l'artista de Nou Barris <strong>Toni Pagès</strong>.</p>
 </section>
 <section class="qsb-view" id="qsb-panel-com">
 <h2>Reunions</h2>
