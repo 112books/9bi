@@ -366,7 +366,7 @@ de 9 Barris Imatge
 <p><img src="{{< rel "/images/juan-sinsangre-trofeus_DSF5756.jpg" >}}" alt="Trofeus d'aire futurista fets per Juan Sin Sangre" loading="lazy" decoding="async"></p>
 <p>Fins fa dues edicions, el veí i artista <strong>Juan Sin Sangre</strong> feia cada any, de manera totalment artesanal i sense regles ni mesures (peces úniques), els famosos trofeus d'aire futurista. Malauradament, ja no viu al barri i li és impossible continuar-los fent. El relleu l'ha pres en <strong>Carlitos</strong>, un altre dels grans artistes del barri, que ja ha dissenyat els nous trofeus.</p>
 <p>Al blog de Pocallum hi trobem dos reportatges sobre aquests trofeus: <a href="https://blog.pocallum.cat/2019/10/25/un-mati-amb-el-ferrer-juan-sin-sangre/">«Un matí amb el ferrer Juan "sin Sangre"»</a> (2019) i <a href="https://blog.pocallum.cat/2021/12/17/2021-12-16-trofeus-juan-sin-sangre-per-9-barris-imatge/">«Trofeus Juan Sin Sangre per 9 barris imatge»</a> (2021).</p>
-<p><img src="{{< rel "/images/trofeus-9bi-carlitos.jpg" >}}" alt="Els nous trofeus del concurs Josep Antón Cordoncillo, fets per l'artista del barri Carlitos" loading="lazy" decoding="async"></p>
+<p><img class="concurs-trofeus-img" src="{{< rel "/images/trofeus-9bi-carlitos.jpg" >}}" alt="Els nous trofeus del concurs Josep Antón Cordoncillo, fets per l'artista del barri Carlitos" loading="lazy" decoding="async"></p>
 </section>
 </div>
 

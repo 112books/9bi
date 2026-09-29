@@ -1554,6 +1554,12 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   opacity: 0.85;
 }
+.concurs-trofeus-img {
+  display: block;
+  max-width: 50%;
+  height: auto;
+  margin: 1rem auto;
+}
 /* Categories en cards */
 .concurs-cat-cards {
   display: grid;
