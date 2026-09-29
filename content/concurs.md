@@ -319,26 +319,26 @@ de 9 Barris Imatge
 <tr><th>Any</th><th>Edició</th><th>Tema del Premi Cordoncillo</th><th>Fets destacats</th></tr>
 </thead>
 <tbody>
-<tr><td>1990</td><td><span class="is-pending">I (per confirmar)</span></td><td>—</td><td>Origen deduït de la numeració; pendent de documentar amb una font de l'època.</td></tr>
-<tr><td>2008</td><td>XIX</td><td>20 anys de Casal de Barri</td><td>150 € al primer premi de cada categoria; primera categoria Fotomòbil (enviament per correu).</td></tr>
-<tr><td>2009</td><td>XX</td><td>Surrealisme</td><td>S'incorpora la categoria Infantil (menors de 14 anys).</td></tr>
-<tr><td>2010</td><td>XXI</td><td>Surrealisme</td><td>Jurat a càrrec de l'Agrupació Fotogràfica de Catalunya.</td></tr>
-<tr><td>2011</td><td>XXII</td><td>Moviment Indignats 15M</td><td>El jurat passa a ser 9 Barris Imatge.</td></tr>
-<tr><td>2012</td><td><span class="is-pending">XXIII</span></td><td>Erotisme</td><td>Al web consta com a «XIII» (incidència de numeració). Només fotos inèdites; 24 × 30 cm sobre cartolina.</td></tr>
-<tr><td>2013</td><td><span class="is-pending">XXIV</span></td><td>L'aigua</td><td>Al web consta com a «XIX» (incidència de numeració). Categoria específica de fotografia analògica «retro» (per confirmar). Àlbum: <a href="https://photos.app.goo.gl/Snzr7PpUmCa68ozd7">Entrega de premis 2013</a> (Google Photos).</td></tr>
-<tr><td>2014</td><td>XXV</td><td>—</td><td>Reportatge de l'exposició a càrrec de Manel Villalba.</td></tr>
-<tr><td>2015</td><td><span class="is-pending">XXVI</span></td><td>La llum</td><td>Al web consta com a «XVI» (incidència de numeració).</td></tr>
-<tr><td>2016</td><td>XXVII</td><td>—</td><td>Actuació de cloenda de l'entrega de premis a càrrec del <a href="https://www.9barrisimatge.org/2016/12/guilermo-calliero-jazz-trio.html">Guillermo Calliero Jazz Trio</a>.</td></tr>
-<tr><td>2017</td><td>XXVIII</td><td>Les llibertats</td><td>Exposició de l'1 al 28 de desembre; lliurament de premis el 16 de desembre. <a href="https://photos.app.goo.gl/HEKS3VkTPpeV5Ued2">Muntatge de l'exposició</a> · <a href="https://photos.app.goo.gl/TTHYhjEujUIESivJ3">Lliurament de premis</a>.</td></tr>
-<tr><td>2018</td><td>XXIX</td><td>—</td><td><a href="https://photos.app.goo.gl/Ka9Muy5RSZLhXEPPA">Lliurament de premis</a> (àlbum de fotos).</td></tr>
-<tr><td>2019</td><td>XXX</td><td>Jubilats</td><td>100 € per categoria i premi del públic. Entrega de premis el 23 de desembre. Guanyadora de color: Joanna Chichelnitzky.</td></tr>
-<tr><td>2020</td><td>—</td><td>—</td><td><strong>Sense edició</strong>: el Casal de Barri de Prosperitat va tancar temporalment i el col·lectiu va descartar fer-ne una versió virtual (<a href="https://www.9barrisimatge.org/2020/09/comunicat-concurs-joan-anton.html">comunicat de 9 Barris Imatge</a>, 28 de setembre de 2020).</td></tr>
-<tr><td>2021</td><td>XXXI</td><td>Vacances, temps lliure</td><td>Guanyador del Premi Cordoncillo: Cristian Rodríguez, amb «El despertador».</td></tr>
-<tr><td>2022</td><td>XXXII</td><td>Menjar</td><td>54 fotografies presentades. Concert de Daniel Higiénico al lliurament de premis. Àlbums: <a href="https://photos.app.goo.gl/adGZH2GtQZPgFn6r6">Muntatge de l'exposició</a> · <a href="https://photos.app.goo.gl/7EtUxhY7A2Ba7dhG9">Entrega de premis</a> · <a href="https://photos.app.goo.gl/CMpoQtePpry6RvSE6">Concert</a>.</td></tr>
-<tr><td>2023</td><td>XXXIII</td><td>Petó</td><td>23 participants i 52 fotografies presentades. Actuació de cloenda de Sweet Marta &amp; Johnny Bigstone. Àlbums: <a href="https://photos.app.goo.gl/m8wfFyqRnxa1Wdd18">Selecció de fotografies</a> · <a href="https://photos.app.goo.gl/e8CXHF7gkbVWzwwC6">Concert</a>.</td></tr>
-<tr><td>2024</td><td>XXXIV</td><td>Mirades</td><td>Concert de Jo Solana Trio; homenatge a Cordoncillo. <a href="https://photos.app.goo.gl/CK8foCZ9aQ2nT8dCA">Lliurament de premis</a> (àlbum de fotos).</td></tr>
-<tr><td>2025</td><td>XXXV</td><td>Peus</td><td>Bases digitals (JPEG ≥ 4 MB, RAW de verificació) i prohibició d'imatges generades amb IA. Actuació de cloenda de Dani Roto. Àlbums: <a href="https://photos.app.goo.gl/WfVHs174DpHZCFPd8">Guanyadores</a> · <a href="https://photos.app.goo.gl/n1FHw62sxC7Qx53h6">Entrega de premis i exposició</a> · <a href="https://photos.app.goo.gl/2Syt9E1ifrc5q4uD8">Concert</a>.</td></tr>
 <tr><td>2026</td><td>XXXVI</td><td><em>Arran de terra</em></td><td>Edició en curs.</td></tr>
+<tr><td>2025</td><td>XXXV</td><td>Peus</td><td>Bases digitals (JPEG ≥ 4 MB, RAW de verificació) i prohibició d'imatges generades amb IA. Actuació de cloenda de Dani Roto. Àlbums: <a href="https://photos.app.goo.gl/WfVHs174DpHZCFPd8">Guanyadores</a> · <a href="https://photos.app.goo.gl/n1FHw62sxC7Qx53h6">Entrega de premis i exposició</a> · <a href="https://photos.app.goo.gl/2Syt9E1ifrc5q4uD8">Concert</a>.</td></tr>
+<tr><td>2024</td><td>XXXIV</td><td>Mirades</td><td>Concert de Jo Solana Trio; homenatge a Cordoncillo. <a href="https://photos.app.goo.gl/CK8foCZ9aQ2nT8dCA">Lliurament de premis</a> (àlbum de fotos).</td></tr>
+<tr><td>2023</td><td>XXXIII</td><td>Petó</td><td>23 participants i 52 fotografies presentades. Actuació de cloenda de Sweet Marta &amp; Johnny Bigstone. Àlbums: <a href="https://photos.app.goo.gl/m8wfFyqRnxa1Wdd18">Selecció de fotografies</a> · <a href="https://photos.app.goo.gl/e8CXHF7gkbVWzwwC6">Concert</a>.</td></tr>
+<tr><td>2022</td><td>XXXII</td><td>Menjar</td><td>54 fotografies presentades. Concert de Daniel Higiénico al lliurament de premis. Àlbums: <a href="https://photos.app.goo.gl/adGZH2GtQZPgFn6r6">Muntatge de l'exposició</a> · <a href="https://photos.app.goo.gl/7EtUxhY7A2Ba7dhG9">Entrega de premis</a> · <a href="https://photos.app.goo.gl/CMpoQtePpry6RvSE6">Concert</a>.</td></tr>
+<tr><td>2021</td><td>XXXI</td><td>Vacances, temps lliure</td><td>Guanyador del Premi Cordoncillo: Cristian Rodríguez, amb «El despertador».</td></tr>
+<tr><td>2020</td><td>—</td><td>—</td><td><strong>Sense edició</strong>: el Casal de Barri de Prosperitat va tancar temporalment i el col·lectiu va descartar fer-ne una versió virtual (<a href="https://www.9barrisimatge.org/2020/09/comunicat-concurs-joan-anton.html">comunicat de 9 Barris Imatge</a>, 28 de setembre de 2020).</td></tr>
+<tr><td>2019</td><td>XXX</td><td>Jubilats</td><td>100 € per categoria i premi del públic. Entrega de premis el 23 de desembre. Guanyadora de color: Joanna Chichelnitzky.</td></tr>
+<tr><td>2018</td><td>XXIX</td><td>—</td><td><a href="https://photos.app.goo.gl/Ka9Muy5RSZLhXEPPA">Lliurament de premis</a> (àlbum de fotos).</td></tr>
+<tr><td>2017</td><td>XXVIII</td><td>Les llibertats</td><td>Exposició de l'1 al 28 de desembre; lliurament de premis el 16 de desembre. <a href="https://photos.app.goo.gl/HEKS3VkTPpeV5Ued2">Muntatge de l'exposició</a> · <a href="https://photos.app.goo.gl/TTHYhjEujUIESivJ3">Lliurament de premis</a>.</td></tr>
+<tr><td>2016</td><td>XXVII</td><td>—</td><td>Actuació de cloenda de l'entrega de premis a càrrec del <a href="https://www.9barrisimatge.org/2016/12/guilermo-calliero-jazz-trio.html">Guillermo Calliero Jazz Trio</a>.</td></tr>
+<tr><td>2015</td><td><span class="is-pending">XXVI</span></td><td>La llum</td><td>Al web consta com a «XVI» (incidència de numeració).</td></tr>
+<tr><td>2014</td><td>XXV</td><td>—</td><td>Reportatge de l'exposició a càrrec de Manel Villalba.</td></tr>
+<tr><td>2013</td><td><span class="is-pending">XXIV</span></td><td>L'aigua</td><td>Al web consta com a «XIX» (incidència de numeració). Categoria específica de fotografia analògica «retro» (per confirmar). Àlbum: <a href="https://photos.app.goo.gl/Snzr7PpUmCa68ozd7">Entrega de premis 2013</a> (Google Photos).</td></tr>
+<tr><td>2012</td><td><span class="is-pending">XXIII</span></td><td>Erotisme</td><td>Al web consta com a «XIII» (incidència de numeració). Només fotos inèdites; 24 × 30 cm sobre cartolina.</td></tr>
+<tr><td>2011</td><td>XXII</td><td>Moviment Indignats 15M</td><td>El jurat passa a ser 9 Barris Imatge.</td></tr>
+<tr><td>2010</td><td>XXI</td><td>Surrealisme</td><td>Jurat a càrrec de l'Agrupació Fotogràfica de Catalunya.</td></tr>
+<tr><td>2009</td><td>XX</td><td>Surrealisme</td><td>S'incorpora la categoria Infantil (menors de 14 anys).</td></tr>
+<tr><td>2008</td><td>XIX</td><td>20 anys de Casal de Barri</td><td>150 € al primer premi de cada categoria; primera categoria Fotomòbil (enviament per correu).</td></tr>
+<tr><td>1990</td><td><span class="is-pending">I (per confirmar)</span></td><td>—</td><td>Origen deduït de la numeració; pendent de documentar amb una font de l'època.</td></tr>
 </tbody>
 </table>
 <p class="concurs-note">Les edicions II a XVIII (1991–2007) estan pendents de documentar. En tres edicions (2012, 2013 i 2015) el número publicat al web no coincideix amb la seqüència real; ho deixem anotat com a incidència documental, sense corregir-lo.</p>
