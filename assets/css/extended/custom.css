@@ -1007,20 +1007,26 @@ h1, h2, h3, h4, h5, h6 {
   /* Header fixe amb padding constant: encongir-lo mai altera el layout del
      contingut (adéu al tremolor en fer scroll). */
   body {
-    padding-top: calc(var(--header-height) + 70px);
+    padding-top: var(--header-height);
   }
-  /* Franja d'accent sota la capçalera (només en estat expandit) */
+  /* Franja d'accent dins la capçalera, a mitja alçada (patina) */
   .header-band {
     display: block;
-    position: fixed;
-    top: var(--header-height);
+    position: absolute;
     left: 0;
     right: 0;
+    top: 50%;
+    transform: translateY(-50%);
     height: 70px;
     background: rgba(224, 49, 49, 0.55);
-    z-index: 99;
+    z-index: 0;
+    pointer-events: none;
   }
-  .header.scrolled ~ .header-band {
+  .header .header-nav {
+    position: relative;
+    z-index: 1;
+  }
+  .header.scrolled .header-band {
     display: none;
   }
   .header {
