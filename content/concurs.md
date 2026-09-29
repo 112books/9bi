@@ -253,6 +253,7 @@ de 9 Barris Imatge
 <img src="{{< rel "/images/concurs/2021d.webp" >}}" alt="Fotografia guanyadora del Concurs Josep Antón Cordoncillo 2021" class="portrait" loading="lazy" decoding="async">
 </figure>
 </div>
+<p>Reportatge fotogràfic: <a href="https://blog.pocallum.cat/2021/12/18/entrega-de-premis-del-31e-concurs-de-fotografia-josep-anton-cordoncillo/">Pocallum</a>.</p>
 </div>
 
 <div class="concurs-edicio">
@@ -272,13 +273,13 @@ de 9 Barris Imatge
 <div class="concurs-edicio">
 <h3>2018 · XXIX edició</h3>
 <p class="is-pending">Guanyadors pendents de documentar.</p>
-<p><a href="{{< rel "/2018/12/lliurament-de-premis-de-la-29a-edicio.html" >}}">Lliurament de premis</a> (article del blog).</p>
+<p><a href="{{< rel "/2018/12/lliurament-de-premis-de-la-29a-edicio.html" >}}">Lliurament de premis</a> (article del blog). Reportatge fotogràfic: <a href="https://blog.pocallum.cat/2018/12/15/lliurament-de-premis-de-la-29a-edicio-del-concurs-josep-anton-cordoncillo/">Pocallum</a>.</p>
 </div>
 
 <div class="concurs-edicio">
 <h3>2017 · XXVIII edició</h3>
 <p class="is-pending">Guanyadors pendents de documentar.</p>
-<p>Tema del Premi Cordoncillo: «Les llibertats». <a href="{{< rel "/2017/11/muntatge-concurs-cordoncillo-2017-al.html" >}}">Muntatge de l'exposició</a> · <a href="{{< rel "/2017/12/lliurament-de-premis-del-xxviii-concurs.html" >}}">Lliurament de premis</a>.</p>
+<p>Tema del Premi Cordoncillo: «Les llibertats». <a href="{{< rel "/2017/11/muntatge-concurs-cordoncillo-2017-al.html" >}}">Muntatge de l'exposició</a> · <a href="{{< rel "/2017/12/lliurament-de-premis-del-xxviii-concurs.html" >}}">Lliurament de premis</a>. Reportatge fotogràfic: <a href="https://blog.pocallum.cat/2017/12/16/lliurament-de-premis-del-xxviii-concurs-de-fotografia-josep-anton-cordoncillo/">Pocallum</a>.</p>
 </div>
 
 <div class="concurs-edicio">
@@ -321,14 +322,14 @@ de 9 Barris Imatge
 <tbody>
 <tr><td>2026</td><td>XXXVI</td><td><em>Arran de terra</em></td><td>Edició en curs.</td></tr>
 <tr><td>2025</td><td>XXXV</td><td>Peus</td><td>Bases digitals (JPEG ≥ 4 MB, RAW de verificació) i prohibició d'imatges generades amb IA. Actuació de cloenda de Dani Roto. <a href="{{< rel "/2025/12/35e-concurs-de-fotografia-josep-anton.html" >}}">Guanyadores</a> · <a href="{{< rel "/2025/12/1912202535-concurs-fotografia.html" >}}">Entrega de premis i exposició</a> · <a href="{{< rel "/2025/12/2025-12-19-dani-roto-posa-blues.html" >}}">Concert</a>.</td></tr>
-<tr><td>2024</td><td>XXXIV</td><td>Mirades</td><td>Concert de Jo Solana Trio; homenatge a Cordoncillo. <a href="{{< rel "/2024/12/lliurament-de-premis-del-34e-concurs.html" >}}">Lliurament de premis</a> (article del blog).</td></tr>
+<tr><td>2024</td><td>XXXIV</td><td>Mirades</td><td>Concert de Jo Solana Trio; homenatge a Cordoncillo. <a href="{{< rel "/2024/12/lliurament-de-premis-del-34e-concurs.html" >}}">Lliurament de premis</a> (article del blog). Reportatge fotogràfic: <a href="https://blog.pocallum.cat/2018/12/15/lliurament-de-premis-de-la-29a-edicio-del-concurs-josep-anton-cordoncillo/">Pocallum</a>.</td></tr>
 <tr><td>2023</td><td>XXXIII</td><td>Petó</td><td>23 participants i 52 fotografies presentades. Actuació de cloenda de Sweet Marta &amp; Johnny Bigstone. <a href="{{< rel "/2023/12/de-les-fotos-presentades-la-33ena.html" >}}">Selecció de fotografies</a> · <a href="{{< rel "/2023/12/2023-12-15-concert-sweet-marta-johnny.html" >}}">Concert</a>.</td></tr>
 <tr><td>2022</td><td>XXXII</td><td>Menjar</td><td>54 fotografies presentades. Concert de Daniel Higiénico al lliurament de premis. <a href="{{< rel "/2022/12/2022-12-02-muntatge-exposicio-josep.html" >}}">Muntatge de l'exposició</a> · <a href="{{< rel "/2022/12/premis-32a-edicio-del-concurs-josep.html" >}}">Entrega de premis</a> · <a href="{{< rel "/2022/12/2022-12-16-daniel-higienico-casal-de.html" >}}">Concert</a>.</td></tr>
-<tr><td>2021</td><td>XXXI</td><td>Vacances, temps lliure</td><td>Guanyador del Premi Cordoncillo: Cristian Rodríguez, amb «El despertador».</td></tr>
+<tr><td>2021</td><td>XXXI</td><td>Vacances, temps lliure</td><td>Guanyador del Premi Cordoncillo: Cristian Rodríguez, amb «El despertador». Reportatge fotogràfic: <a href="https://blog.pocallum.cat/2021/12/18/entrega-de-premis-del-31e-concurs-de-fotografia-josep-anton-cordoncillo/">Pocallum</a>.</td></tr>
 <tr><td>2020</td><td>—</td><td>—</td><td><strong>Sense edició</strong>: el Casal de Barri de Prosperitat va tancar temporalment i el col·lectiu va descartar fer-ne una versió virtual (<a href="{{< rel "/2020/09/comunicat-concurs-joan-anton.html" >}}">comunicat de 9 Barris Imatge</a>, 28 de setembre de 2020).</td></tr>
 <tr><td>2019</td><td>XXX</td><td>Jubilats</td><td>100 € per categoria i premi del públic. Entrega de premis el 23 de desembre. Guanyadora de color: Joanna Chichelnitzky.</td></tr>
 <tr><td>2018</td><td>XXIX</td><td>—</td><td><a href="{{< rel "/2018/12/lliurament-de-premis-de-la-29a-edicio.html" >}}">Lliurament de premis</a> (article del blog).</td></tr>
-<tr><td>2017</td><td>XXVIII</td><td>Les llibertats</td><td>Exposició de l'1 al 28 de desembre; lliurament de premis el 16 de desembre. <a href="{{< rel "/2017/11/muntatge-concurs-cordoncillo-2017-al.html" >}}">Muntatge de l'exposició</a> · <a href="{{< rel "/2017/12/lliurament-de-premis-del-xxviii-concurs.html" >}}">Lliurament de premis</a>.</td></tr>
+<tr><td>2017</td><td>XXVIII</td><td>Les llibertats</td><td>Exposició de l'1 al 28 de desembre; lliurament de premis el 16 de desembre. <a href="{{< rel "/2017/11/muntatge-concurs-cordoncillo-2017-al.html" >}}">Muntatge de l'exposició</a> · <a href="{{< rel "/2017/12/lliurament-de-premis-del-xxviii-concurs.html" >}}">Lliurament de premis</a>. Reportatge fotogràfic: <a href="https://blog.pocallum.cat/2017/12/16/lliurament-de-premis-del-xxviii-concurs-de-fotografia-josep-anton-cordoncillo/">Pocallum</a>.</td></tr>
 <tr><td>2016</td><td>XXVII</td><td>—</td><td>Actuació de cloenda de l'entrega de premis a càrrec del <a href="https://www.9barrisimatge.org/2016/12/guilermo-calliero-jazz-trio.html">Guillermo Calliero Jazz Trio</a>.</td></tr>
 <tr><td>2015</td><td><span class="is-pending">XXVI</span></td><td>La llum</td><td>Al web consta com a «XVI» (incidència de numeració).</td></tr>
 <tr><td>2014</td><td>XXV</td><td>—</td><td>Reportatge de l'exposició a càrrec de Manel Villalba.</td></tr>
@@ -364,6 +365,7 @@ de 9 Barris Imatge
 <h2>Els trofeus</h2>
 <p><img src="{{< rel "/images/juan-sinsangre-trofeus_DSF5756.jpg" >}}" alt="Trofeus d'aire futurista fets per Juan Sin Sangre" loading="lazy" decoding="async"></p>
 <p>Fins fa dues edicions, el veí i artista <strong>Juan Sin Sangre</strong> feia cada any, de manera totalment artesanal i sense regles ni mesures (peces úniques), els famosos trofeus d'aire futurista. Malauradament, ja no viu al barri i li és impossible continuar-los fent. El relleu l'ha pres en <strong>Carlitos</strong>, un altre dels grans artistes del barri, que ja ha dissenyat els nous trofeus.</p>
+<p>Al blog de Pocallum hi trobem dos reportatges sobre aquests trofeus: <a href="https://blog.pocallum.cat/2019/10/25/un-mati-amb-el-ferrer-juan-sin-sangre/">«Un matí amb el ferrer Juan "sin Sangre"»</a> (2019) i <a href="https://blog.pocallum.cat/2021/12/17/2021-12-16-trofeus-juan-sin-sangre-per-9-barris-imatge/">«Trofeus Juan Sin Sangre per 9 barris imatge»</a> (2021).</p>
 <p><img src="{{< rel "/images/trofeus-9bi-carlitos.jpg" >}}" alt="Els nous trofeus del concurs Josep Antón Cordoncillo, fets per l'artista del barri Carlitos" loading="lazy" decoding="async"></p>
 </section>
 </div>
