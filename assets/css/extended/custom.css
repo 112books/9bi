@@ -903,11 +903,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 [data-theme="light"] .header,
 .theme--light:root .header {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+  background-image: linear-gradient(rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.94)),
     url("../../images/header-bg.jpg");
 }
 [data-theme="dark"] .header {
-  background-image: linear-gradient(rgba(23, 26, 33, 0.72), rgba(23, 26, 33, 0.72)),
+  background-image: linear-gradient(rgba(23, 26, 33, 0.8), rgba(23, 26, 33, 0.8)),
     url("../../images/header-bg.jpg");
 }
 
@@ -1007,7 +1007,7 @@ h1, h2, h3, h4, h5, h6 {
   /* Header fixe amb padding constant: encongir-lo mai altera el layout del
      contingut (adéu al tremolor en fer scroll). */
   body {
-    padding-top: calc(var(--header-height) + 150px);
+    padding-top: calc(var(--header-height) + 70px);
   }
   /* Franja d'accent sota la capçalera (només en estat expandit) */
   .header-band {
@@ -1016,8 +1016,8 @@ h1, h2, h3, h4, h5, h6 {
     top: var(--header-height);
     left: 0;
     right: 0;
-    height: 150px;
-    background: #e03131;
+    height: 70px;
+    background: rgba(224, 49, 49, 0.55);
     z-index: 99;
   }
   .header.scrolled ~ .header-band {
@@ -1666,7 +1666,7 @@ h1, h2, h3, h4, h5, h6 {
   inset: 0;
   z-index: -1;
   background: var(--page-bg-url) center / cover no-repeat;
-  opacity: 0.14;
+  opacity: 0.10;
   pointer-events: none;
 }
 .concurs-share {
@@ -1997,339 +1997,4 @@ h1, h2, h3, h4, h5, h6 {
   .cartell-url a {
     color: #000;
   }
-}
-.cartell-lead {
-  margin: 0 0 1.2rem;
-  font-family: "Montserrat";
-  font-size: 1.05rem;
-}
-.cartell-steps {
-  margin: 0 auto 1.4rem;
-  max-width: 24rem;
-  text-align: left;
-  font-family: "Montserrat";
-}
-.cartell-steps li {
-  margin-bottom: 0.45rem;
-}
-.cartell-foot {
-  margin: 0;
-  padding-top: 1.1rem;
-  border-top: 1px solid var(--border);
-  font-family: "Montserrat";
-  font-size: 0.9rem;
-  color: var(--secondary);
-}
-.cartell-actions {
-  margin: 1.6rem 0 0;
-}
-.cartell-actions .concurs-print {
-  margin-left: auto;
-  margin-right: auto;
-}
-.cartell-note {
-  margin: 1.2rem 0 0;
-  font-family: "Montserrat";
-  font-size: 0.8rem;
-  color: var(--secondary);
-}
-@media (max-width: 480px) {
-  .cartell {
-    padding: 1.5rem 1.1rem;
-  }
-  .cartell-qr {
-    width: 11rem;
-    height: 11rem;
-  }
-}
-
-/* ---- Foto de capçalera a tot l'ample (pàgines amb header_image) ---- */
-.post-header--photo .post-header-photo {
-  margin: 0 0 1.5rem;
-  width: 100%;
-}
-.post-header--photo .post-header-photo img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: var(--radius);
-  border: 1px solid var(--border);
-  background: var(--tertiary);
-}
-.post-header--photo .post-header-photo figcaption {
-  margin-top: 0.4rem;
-  font-size: 0.85rem;
-  text-align: center;
-  opacity: 0.85;
-}
-
-.error-404 {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: clamp(2rem, 6vw, 4rem) 0;
-}
-.error-404-header {
-  text-align: center;
-}
-.error-404-code {
-  margin: 0;
-  color: #e03131;
-  font-size: clamp(3.5rem, 12vw, 6.5rem);
-  font-weight: 800;
-  line-height: 1;
-}
-.error-404-header h1 {
-  margin: 0.6rem 0 1rem;
-}
-.error-404-message {
-  max-width: 36rem;
-  margin: 0 auto;
-}
-.error-404-search {
-  margin: 2rem 0 1.5rem;
-}
-.error-404-search label {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: 600;
-}
-.error-404-search input {
-  min-height: 2.75rem;
-}
-.error-404-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.7rem;
-}
-.error-404-links a {
-  padding: 0.6rem 1rem;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  background: var(--entry);
-  font-weight: 600;
-  transition: transform 0.2s ease, border-color 0.2s ease;
-}
-.error-404-links a:hover,
-.error-404-links a:focus-visible {
-  border-color: var(--tertiary);
-  transform: translateY(-2px);
-}
-@media (prefers-reduced-motion: reduce) {
-  .error-404-links a {
-    transition: none;
-  }
-  .error-404-links a:hover,
-  .error-404-links a:focus-visible {
-    transform: none;
-  }
-}
-
-/* Cerca (/search/ i 404): títol i data del resultat agrupats a l'esquerra;
-   la flecha continua a la dreta gràcies al justify-content: space-between
-   de la regla del tema (.searchResults li). */
-.searchResults .entry-head {
-  display: inline-flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 0.6rem;
-  min-width: 0;
-}
-
-.searchResults li > svg {
-  flex: 0 0 auto;
-}
-
-.searchResults .entry-date {
-  flex: 0 0 auto;
-  font-size: 0.82rem;
-  font-weight: 400;
-  color: var(--secondary);
-  white-space: nowrap;
-}
-
-/* Pàgines de gràcies dels formularis (/contacte/gracies/, /incorpora-te/gracies/):
-   mateixa composició que la 404, amb una marca de validació en lloc del codi. */
-.gracies {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: clamp(2rem, 6vw, 4rem) 0;
-}
-.gracies-header {
-  text-align: center;
-}
-.gracies-icon {
-  margin: 0 auto;
-  width: clamp(4rem, 12vw, 5.5rem);
-  color: #e03131;
-  line-height: 0;
-}
-.gracies-icon svg {
-  width: 100%;
-  height: auto;
-}
-.gracies-header h1 {
-  margin: 0.8rem 0 1rem;
-}
-.gracies-lead {
-  max-width: 36rem;
-  margin: 0 auto;
-  font-size: 1.1rem;
-}
-.gracies-content {
-  max-width: 36rem;
-  margin: 2rem auto 1.5rem;
-}
-.gracies-links {
-  margin-top: 2rem;
-}
-
-.md-content figure>figcaption {
-  font-weight: normal;
-  font-style: italic;
-  font-size: 0.85rem;
-}
-
-/* ---- T-17: compartir l'entrada (discret, només icones) ---- */
-
-.post-share {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.45rem;
-  margin: 2rem 0 0.5rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--border);
-}
-.post-share-label {
-  font-size: 0.78rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--secondary);
-  margin-right: 0.3rem;
-}
-.post-share-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 34px;
-  height: 34px;
-  padding: 0;
-  border: 1px solid var(--border);
-  border-radius: 50%;
-  background: transparent;
-  color: var(--secondary);
-  cursor: pointer;
-  text-decoration: none;
-  box-shadow: none;
-  transition: color 0.15s ease, border-color 0.15s ease;
-}
-.post-share-btn[hidden] {
-  display: none;
-}
-.post-share-btn:hover,
-.post-share-btn:focus-visible {
-  color: #e03131;
-  border-color: #e03131;
-}
-.post-share-btn:focus-visible {
-  outline: 2px solid #e03131;
-  outline-offset: 2px;
-}
-.post-share-btn svg {
-  width: 16px;
-  height: 16px;
-  display: block;
-}
-.post-share-ico,
-.post-share-ok {
-  display: inline-flex;
-}
-.post-share-ico[hidden],
-.post-share-ok[hidden] {
-  display: none;
-}
-.post-share-status {
-  font-size: 0.78rem;
-  color: var(--secondary);
-}
-@media (prefers-reduced-motion: reduce) {
-  .post-share-btn {
-    transition: none;
-  }
-}
-
-/* ---- T-16: comentaris de l'entrada ---- */
-
-.post-comments {
-  margin: 2.5rem 0 1rem;
-}
-.post-comments h2 {
-  font-size: 1.15rem;
-  margin: 0 0 1rem;
-}
-.post-comments-count {
-  color: var(--secondary);
-  font-weight: 400;
-}
-.post-comments-sent {
-  display: none;
-  padding: 0.8rem 1rem;
-  border: 1px solid var(--border);
-  border-left: 3px solid #e03131;
-  border-radius: 6px;
-  background: var(--entry);
-}
-.post-comments-sent:target {
-  display: block;
-  margin-bottom: 1.2rem;
-}
-.post-comments-list {
-  list-style: none;
-  margin: 0 0 1.5rem;
-  padding: 0;
-  display: grid;
-  gap: 1rem;
-}
-.post-comments-list li {
-  margin: 0;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--border);
-}
-.post-comment-meta {
-  margin: 0 0 0.35rem;
-  font-size: 0.88rem;
-  color: var(--secondary);
-}
-.post-comment-meta strong {
-  color: var(--primary);
-}
-.post-comment-text {
-  overflow-wrap: anywhere;
-}
-.post-comments-form summary {
-  display: inline-block;
-  width: fit-content;
-  font-size: 0.95rem;
-  cursor: pointer;
-  padding: 0.5rem 1rem;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  font-weight: 600;
-  list-style: none;
-}
-.post-comments-form summary::-webkit-details-marker {
-  display: none;
-}
-.post-comments-form summary:hover,
-.post-comments-form summary:focus-visible {
-  border-color: #e03131;
-  color: #e03131;
-}
-.post-comments-form[open] summary {
-  margin-bottom: 0.4rem;
-}
-.post-comments-note {
-  font-size: 0.85rem;
-  color: var(--secondary);
 }
