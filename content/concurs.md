@@ -217,8 +217,15 @@ de 9 Barris Imatge
 </div>
 
 <div class="concurs-edicio">
+<h3>2023 · XXXIII edició</h3>
+<p class="is-pending">Guanyadors pendents de documentar.</p>
+<p>Tema del Premi Cordoncillo: «Petó». Hi van participar 23 persones amb 52 fotografies. Selecció de les fotografies presentades i entrega de premis: <a href="https://photos.app.goo.gl/m8wfFyqRnxa1Wdd18">àlbum de l'edició</a>. Actuació de cloenda: <a href="https://photos.app.goo.gl/e8CXHF7gkbVWzwwC6">Sweet Marta &amp; Johnny Bigstone</a>.</p>
+</div>
+
+<div class="concurs-edicio">
 <h3>2022 · XXXII edició</h3>
 <p class="is-pending">Guanyadors pendents de documentar.</p>
+<p>Tema del Premi Cordoncillo: «Menjar». S'hi van presentar 54 fotografies. <a href="https://photos.app.goo.gl/adGZH2GtQZPgFn6r6">Muntatge de l'exposició</a> · <a href="https://photos.app.goo.gl/7EtUxhY7A2Ba7dhG9">Entrega de premis</a> · <a href="https://photos.app.goo.gl/CMpoQtePpry6RvSE6">Concert de Daniel Higiénico</a>.</p>
 </div>
 
 <div class="concurs-edicio">
@@ -249,6 +256,38 @@ de 9 Barris Imatge
 </div>
 
 <div class="concurs-edicio">
+<h3>2019 · XXX edició</h3>
+<table>
+<thead><tr><th>Categoria</th><th>Guanyador/a</th></tr></thead>
+<tbody>
+<tr><td>Color</td><td>Joanna Chichelnitzky</td></tr>
+<tr><td>Blanc i negre</td><td class="is-pending">Pendent de documentar</td></tr>
+<tr><td>Premi Cordoncillo · tema «Jubilats»</td><td class="is-pending">Pendent de documentar</td></tr>
+<tr><td>Premi del públic</td><td class="is-pending">Pendent de documentar</td></tr>
+</tbody>
+</table>
+<p>L'entrega de premis es va fer el 23 de desembre de 2019 al Casal de Barri de Prosperitat.</p>
+</div>
+
+<div class="concurs-edicio">
+<h3>2018 · XXIX edició</h3>
+<p class="is-pending">Guanyadors pendents de documentar.</p>
+<p><a href="https://photos.app.goo.gl/Ka9Muy5RSZLhXEPPA">Lliurament de premis</a> (àlbum de fotos).</p>
+</div>
+
+<div class="concurs-edicio">
+<h3>2017 · XXVIII edició</h3>
+<p class="is-pending">Guanyadors pendents de documentar.</p>
+<p>Tema del Premi Cordoncillo: «Les llibertats». <a href="https://photos.app.goo.gl/HEKS3VkTPpeV5Ued2">Muntatge de l'exposició</a> · <a href="https://photos.app.goo.gl/TTHYhjEujUIESivJ3">Lliurament de premis</a>.</p>
+</div>
+
+<div class="concurs-edicio">
+<h3>2016 · XXVII edició</h3>
+<p class="is-pending">Guanyadors pendents de documentar.</p>
+<p>L'entrega de premis va comptar amb l'actuació del <a href="https://www.9barrisimatge.org/2016/12/guilermo-calliero-jazz-trio.html">Guillermo Calliero Jazz Trio</a>.</p>
+</div>
+
+<div class="concurs-edicio">
 <h3>2015 · XVI edició</h3>
 <table>
 <thead><tr><th>Categoria</th><th>Obra</th><th>Guanyador/a</th></tr></thead>
@@ -262,7 +301,13 @@ de 9 Barris Imatge
 </table>
 </div>
 
-<p class="concurs-note">Edicions anteriors a 2015 i les de 2022 i 2023: pendents de documentar. Les fotografies guanyadores de 2015 i 2021 estan pendents de validació; les imatges de 2021 provenen de l'anunci de l'edició al blog.</p>
+<div class="concurs-edicio">
+<h3>2014 · XXV edició</h3>
+<p class="is-pending">Guanyadors pendents de documentar.</p>
+<p>Reportatge de l'exposició a càrrec de Manel Villalba. L'àlbum original de Picasa ja no és accessible.</p>
+</div>
+
+<p class="concurs-note">Els guanyadors de 2014, 2016, 2017, 2018 i 2022 resten pendents de documentar; de les fonts consultades només se n'han conservat les fotografies. De 2019 només s'ha pogut documentar la categoria de color. Les fotografies guanyadores de 2015 i 2021 estan pendents de validació; les imatges de 2021 provenen de l'anunci de l'edició al blog.</p>
 </section>
 
 <section class="concurs-view concurs-history" id="concurs-historia">
@@ -283,16 +328,16 @@ de 9 Barris Imatge
 <tr><td>2013</td><td><span class="is-pending">XXIV</span></td><td>L'aigua</td><td>Al web consta com a «XIX» (incidència de numeració). Categoria específica de fotografia analògica «retro» (per confirmar). Àlbum: <a href="https://photos.app.goo.gl/Snzr7PpUmCa68ozd7">Entrega de premis 2013</a> (Google Photos).</td></tr>
 <tr><td>2014</td><td>XXV</td><td>—</td><td>Reportatge de l'exposició a càrrec de Manel Villalba.</td></tr>
 <tr><td>2015</td><td><span class="is-pending">XXVI</span></td><td>La llum</td><td>Al web consta com a «XVI» (incidència de numeració).</td></tr>
-<tr><td>2016</td><td>XXVII</td><td>—</td><td>—</td></tr>
-<tr><td>2017</td><td>XXVIII</td><td>—</td><td>—</td></tr>
-<tr><td>2018</td><td>XXIX</td><td>—</td><td>—</td></tr>
-<tr><td>2019</td><td>XXX</td><td>Jubilats</td><td>100 € per categoria i premi del públic.</td></tr>
-<tr><td>2020</td><td><span class="is-pending">— (per confirmar)</span></td><td>—</td><td>Possible any sense edició; pendent de comprovar.</td></tr>
+<tr><td>2016</td><td>XXVII</td><td>—</td><td>Actuació de cloenda de l'entrega de premis a càrrec del <a href="https://www.9barrisimatge.org/2016/12/guilermo-calliero-jazz-trio.html">Guillermo Calliero Jazz Trio</a>.</td></tr>
+<tr><td>2017</td><td>XXVIII</td><td>Les llibertats</td><td>Exposició de l'1 al 28 de desembre; lliurament de premis el 16 de desembre. <a href="https://photos.app.goo.gl/HEKS3VkTPpeV5Ued2">Muntatge de l'exposició</a> · <a href="https://photos.app.goo.gl/TTHYhjEujUIESivJ3">Lliurament de premis</a>.</td></tr>
+<tr><td>2018</td><td>XXIX</td><td>—</td><td><a href="https://photos.app.goo.gl/Ka9Muy5RSZLhXEPPA">Lliurament de premis</a> (àlbum de fotos).</td></tr>
+<tr><td>2019</td><td>XXX</td><td>Jubilats</td><td>100 € per categoria i premi del públic. Entrega de premis el 23 de desembre. Guanyadora de color: Joanna Chichelnitzky.</td></tr>
+<tr><td>2020</td><td>—</td><td>—</td><td><strong>Sense edició</strong>: el Casal de Barri de Prosperitat va tancar temporalment i el col·lectiu va descartar fer-ne una versió virtual (<a href="https://www.9barrisimatge.org/2020/09/comunicat-concurs-joan-anton.html">comunicat de 9 Barris Imatge</a>, 28 de setembre de 2020).</td></tr>
 <tr><td>2021</td><td>XXXI</td><td>Vacances, temps lliure</td><td>Guanyador del Premi Cordoncillo: Cristian Rodríguez, amb «El despertador».</td></tr>
-<tr><td>2022</td><td>XXXII</td><td>Menjar</td><td>Concert de Daniel Higiénico al lliurament de premis. Àlbum: <a href="https://photos.app.goo.gl/adGZH2GtQZPgFn6r6">Muntatge de l'exposició</a> (Google Photos).</td></tr>
-<tr><td>2023</td><td>XXXIII</td><td>Petó</td><td>23 participants i 52 fotografies presentades.</td></tr>
-<tr><td>2024</td><td>XXXIV</td><td>Mirades</td><td>Concert de Jo Solana Trio; homenatge a Cordoncillo.</td></tr>
-<tr><td>2025</td><td>XXXV</td><td>Peus</td><td>Bases digitals (JPEG ≥ 4 MB, RAW de verificació) i prohibició d'imatges generades amb IA.</td></tr>
+<tr><td>2022</td><td>XXXII</td><td>Menjar</td><td>54 fotografies presentades. Concert de Daniel Higiénico al lliurament de premis. Àlbums: <a href="https://photos.app.goo.gl/adGZH2GtQZPgFn6r6">Muntatge de l'exposició</a> · <a href="https://photos.app.goo.gl/7EtUxhY7A2Ba7dhG9">Entrega de premis</a> · <a href="https://photos.app.goo.gl/CMpoQtePpry6RvSE6">Concert</a>.</td></tr>
+<tr><td>2023</td><td>XXXIII</td><td>Petó</td><td>23 participants i 52 fotografies presentades. Actuació de cloenda de Sweet Marta &amp; Johnny Bigstone. Àlbums: <a href="https://photos.app.goo.gl/m8wfFyqRnxa1Wdd18">Selecció de fotografies</a> · <a href="https://photos.app.goo.gl/e8CXHF7gkbVWzwwC6">Concert</a>.</td></tr>
+<tr><td>2024</td><td>XXXIV</td><td>Mirades</td><td>Concert de Jo Solana Trio; homenatge a Cordoncillo. <a href="https://photos.app.goo.gl/CK8foCZ9aQ2nT8dCA">Lliurament de premis</a> (àlbum de fotos).</td></tr>
+<tr><td>2025</td><td>XXXV</td><td>Peus</td><td>Bases digitals (JPEG ≥ 4 MB, RAW de verificació) i prohibició d'imatges generades amb IA. Actuació de cloenda de Dani Roto. Àlbums: <a href="https://photos.app.goo.gl/WfVHs174DpHZCFPd8">Guanyadores</a> · <a href="https://photos.app.goo.gl/n1FHw62sxC7Qx53h6">Entrega de premis i exposició</a> · <a href="https://photos.app.goo.gl/2Syt9E1ifrc5q4uD8">Concert</a>.</td></tr>
 <tr><td>2026</td><td>XXXVI</td><td><em>Arran de terra</em></td><td>Edició en curs.</td></tr>
 </tbody>
 </table>
