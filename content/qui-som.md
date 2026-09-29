@@ -37,7 +37,7 @@ url: "/qui-som/"
 <img src="{{< rel "/images/Membres-casalL1300396.jpg" >}}" alt="Alguns dels membres actuals del col·lectiu: Joan Linux, Francesc Barbé, Pedro Click i Manel Ulls" loading="lazy" decoding="async">
 <figcaption>Alguns dels membres actuals del col·lectiu: Joan Linux, Francesc Barbé, Pedro Click i Manel «Ulls».</figcaption>
 </figure>
-<p>El logotip que tenim des dels inicis, dissenyat el 2002, és obra de l'artista de Nou Barris <strong><a href="https://www.instagram.com/pages2147/" target="_blank" rel="noopener">Toni Pagès</a></strong>.</p>
+<p>El logotip que tenim des dels inicis, dissenyat el 2002, és obra de l'artista de Nou Barris <strong><a href="https://www.instagram.com/pages2147/" target="_blank" rel="noopener">Toni Pagès</a></strong>, un dels treballadors més veterans del Casal de barri de la Prosperitat i un més que genial il·lustrador.</p>
 </section>
 <section class="qsb-view" id="qsb-panel-com">
 <h2>Reunions</h2>
