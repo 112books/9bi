@@ -643,6 +643,19 @@ Sessió al núvol (Claude Code), ~08:35–11:40. Tots els canvis per PR a `main`
 - **Estadístiques (FET, `27d4b914ff`)**: el dashboard calculava els dies sumant `/stats/hits` (limitat a 50 pàgines) i no quadrava amb el total (159 vs 166). Ara `hits_by_day` surt del camp `stats` de `/stats/total` (tot el web). Verificat en viu: **total 166 = suma dels dies**. Etiqueta «total any» → «total període». Confirmat a l'OpenAPI que l'API v0 no exposa visitants únics.
 - **Pendent principal**: **T-29** publicar el distribuïble a Codeberg, bloquejat pel GC (l'issue #2522 no té resposta; la quota continua a 752,7 MiB).
 
+## Sessió 2026-09-29 — Concurs Cordoncillo: històric, trofeus i enllaços; crèdit del logotip; franja de capçalera
+
+- **Concurs Cordoncillo — històric de guanyadors i muntatges (FET, `c900a64d1a`)**: recerca a `blog.pocallum.cat`, a `9barrisimatge.org`/Blogger (cerca «Cordoncillo», 37 entrades), a les fitxes i memòries del Casal i a la Wayback Machine. A `content/concurs.md`:
+  - **Guanyadors**: afegits 2023, 2022, 2019 (Joanna Chichelnitzky a color), 2018, 2017, 2016 i 2014; es mantenen 2025, 2024, 2021 i 2015.
+  - **Història**: confirmat que el **2020 no hi va haver edició** (comunicat de 9 Barris Imatge, 28/09/2020, pel tancament temporal del Casal); tema de 2017 «Les llibertats»; dades de 2019 (entrega 23/12), 2022 (54 fotos), 2023 (23 participants/52 fotos), 2024 i 2025; i els muntatges i actuacions de cada any.
+  - **Pendent**: no consten en text els noms dels guanyadors de 2022, 2023, la majoria de 2019 i de 2014/2016/2017/2018; les fonts obertes només en guarden imatges/àlbums.
+- **Enllaços del concurs (FET, `2ee33f6af5`, `81e42dab44`)**: substituïts tots els àlbums directes de Google Photos pels **articles del blog** (enllaços interns `{{< rel >}}`) i, on n'hi ha, pels **reportatges de Pocallum** (trofeus de 2019/2021 i galeries de 2017/2018/2021).
+- **Nous trofeus de Carlitos (FET, `2ee33f6af5`, `0e30db4d11`)**: `trofeus-9bi-carlitos.jpg` moguda a `static/images/` i afegida a «Els trofeus», amb la imatge vertical reduïda a la meitat (`.concurs-trofeus-img`, `max-width:50%`).
+- **Ordre de la història (FET, `f83d399461`)**: taula de 1990→2026 reordenada a **2026→1990**.
+- **Crèdit del logotip (FET, `cb21aac09d`, `8ec49e263f`, `7a14830947`)**: `content/qui-som.md` diu que el logotip, **dissenyat el 2002**, és obra de l'artista de Nou Barris **Toni Pagès**, amb enllaç al seu Instagram (`pages2147`) i la descripció «un dels treballadors més veterans del Casal de barri de la Prosperitat i un més que genial il·lustrador».
+- **Franja de capçalera (FET, `bd0129a3a6`, `956899473d`, `f50d73c2b5`)**: capa nova dins `<header>` (a `layouts/_partials/header.html`), `position:absolute; top:50%; translateY(-50%); height:70px; background:rgba(224,49,49,0.55); z-index:0`, amb `.header .header-nav { position:relative; z-index:1 }` perquè el logo i el menú la trepitgin (3 capes). Atenuades la imatge de fons de la capçalera (fosc 0,72→0,8; clar 0,9→0,94) i el fons de pàgina `page_bg` (opacitat 0,14→0,10). Verificat amb Chrome/CDP: franja 95–165px, text del menú 120–139px, nav `z-index:1` sobre la franja `z-index:0`.
+- **Neteja (FET, `bd0129a3a6`)**: tret l'enllaç redundant «Totes les edicions del concurs (arxiu)» del peu del concurs.
+
 ## Tasques pendents
 
 > **Pendents: vegeu [`.taques/TASQUES.md`](.taques/TASQUES.md)** (font única des del 2026-09-27; no afegir-ne aquí).
