@@ -378,7 +378,4 @@ de 9 Barris Imatge
 <button type="button" class="concurs-share-btn" data-share="email"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg><span>Correu</span></button>
 <button type="button" class="concurs-share-btn" data-share="copy"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><span>Copia l'enllaç</span></button>
 </div>
-<ul class="concurs-links">
-<li><a href="{{< rel "/tags/concurs-fotogràfic-josep-antón-cordoncillo.html" >}}">Totes les edicions del concurs (arxiu)</a></li>
-</ul>
 </div>

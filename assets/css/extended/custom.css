@@ -999,11 +999,29 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.header-band {
+  display: none;
+}
+
 @media (min-width: 769px) {
   /* Header fixe amb padding constant: encongir-lo mai altera el layout del
      contingut (adéu al tremolor en fer scroll). */
   body {
-    padding-top: var(--header-height);
+    padding-top: calc(var(--header-height) + 150px);
+  }
+  /* Franja d'accent sota la capçalera (només en estat expandit) */
+  .header-band {
+    display: block;
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    right: 0;
+    height: 150px;
+    background: #e03131;
+    z-index: 99;
+  }
+  .header.scrolled ~ .header-band {
+    display: none;
   }
   .header {
     position: fixed;
