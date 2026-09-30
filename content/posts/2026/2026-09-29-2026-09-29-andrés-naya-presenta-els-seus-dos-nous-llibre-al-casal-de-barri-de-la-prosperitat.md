@@ -1,5 +1,5 @@
 ---
-title: 2026-09-29 - Andrés Naya presenta els seus dos nous llibre al Casal de barri de la Prosperitat
+title: 2026-09-29 - Andrés Naya presenta els seus dos nous llibres al Casal de barri de la Prosperitat
 date: 2026-09-30T01:32:00
 year: '2026'
 slug: ''
