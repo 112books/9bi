@@ -46,6 +46,13 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | Data | ID | Tasca | Temps | Commit |
 |---|---|---|---|---|
+| 30/09 | — | **Redirecció de l'URL del post de Naya** (canvi de títol al CMS) | ~10 min | `e36dc4c8ba` |
+| 30/09 | — | **SEO al CMS**: `seoTitle` + títol SEO automàtic (sense data) i `description` com a meta descripció; plantilles `seo-title`/`head`/`opengraph`/`twitter_cards` | ~20 min | `3af5e5b920` |
+| 30/09 | — | **Autor per defecte segons el login** (`CMS_AUTHORS` + hook `preSave`) | ~10 min | `3af5e5b920` |
+| 30/09 | — | **URLs estables**: `slug` explícit als 4 posts sense slug + hook per als articles nous | ~12 min | `cfbd4d2c3b` |
+| 30/09 | — | **Ajuda planera del camp slug** al CMS | ~4 min | `0d473080fa` |
+| 30/09 | — | **Regressió del slug buidat pel CMS**: restaurat + alias + hook que el recupera | ~8 min | `c1781d476d` |
+| 30/09 | — | Documentació, registre d'hores i sincronització | ~8 min | — |
 | 28/09 | T-30 | 6 títols llargs escurçats (T-08) i convenció de Joan Linux `any-mes-dia - títol` aplicada als 26 posts seus del lot | ~25 min | `d2cc9eacf9`, `d6cd104746` |
 | 28/09 | — | **Estadístiques**: `hits_by_day` es construeix amb els dies de `/stats/total` (abans la suma del top-50 no quadrava: 159 vs 166). Verificat en viu: total 166 = suma dels dies. Etiqueta «total any» → «total període» | ~30 min | `27d4b914ff` |
 | 28/09 | T-08 | Títols: 20 posts que eren «Sense títol» + 75 títols repetits desambiguats (95 posts en total) i esborrat el post buit del 2008. Només el camp `title`; URL intactes. Build: 8.707 pàgines | ~1 h 20 min | `699e52a1b5` |
@@ -92,6 +99,7 @@ Els dies anteriors al 25/09 només tenen el total al registre diari (el detall h
 
 | Data | Temps | Registre |
 |---|---|---|
+| 30/09 | ~1 h 12 min (sessió de matí, ~09:28–10:40) | [2026-09-30.md](2026-09-30.md) |
 | 28/09 | ~3 h 05 min (sessió al núvol, 08:35–11:40, inici estimat) | [2026-09-28.md](2026-09-28.md) |
 | 27/09 | ~5 h 41 min (sessió 2 ~4 h 55 min + sessió 3 46 min) | [2026-09-27.md](2026-09-27.md) |
 | 25/09 | ≥ 2 h 10 min (3 tasques sense tancar) | [2026-09-25.md](2026-09-25.md) |

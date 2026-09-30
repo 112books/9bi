@@ -656,6 +656,18 @@ Sessió al núvol (Claude Code), ~08:35–11:40. Tots els canvis per PR a `main`
 - **Franja de capçalera (FET, `bd0129a3a6`, `956899473d`, `f50d73c2b5`)**: capa nova dins `<header>` (a `layouts/_partials/header.html`), `position:absolute; top:50%; translateY(-50%); height:70px; background:rgba(224,49,49,0.55); z-index:0`, amb `.header .header-nav { position:relative; z-index:1 }` perquè el logo i el menú la trepitgin (3 capes). Atenuades la imatge de fons de la capçalera (fosc 0,72→0,8; clar 0,9→0,94) i el fons de pàgina `page_bg` (opacitat 0,14→0,10). Verificat amb Chrome/CDP: franja 95–165px, text del menú 120–139px, nav `z-index:1` sobre la franja `z-index:0`.
 - **Neteja (FET, `bd0129a3a6`)**: tret l'enllaç redundant «Totes les edicions del concurs (arxiu)» del peu del concurs.
 
+## Sessió 2026-09-30 — Redirecció, SEO al CMS, autor per defecte i slug estable
+
+- **Redirecció de l'URL del post de Naya (FET, `e36dc4c8ba`)**: el canvi de títol al CMS va passar l'URL de `…llibre…` a `…llibres…` i la vella va quedar 404. Afegit `aliases` al post; verificat en viu (200 + `meta refresh` + `canonical`). **Causa**: l'URL depèn del `title` quan el `slug` és buit, i Sveltia només afegeix l'alias automàtic quan canvia el nom del fitxer, no quan canvia el títol.
+- **SEO al CMS (FET, `3af5e5b920`)**: camp opcional `seoTitle` als 19 reculls d'articles; si és buit, s'usa el `title` i als articles se li treu el prefix de data (`2026-09-29 - `). S'aplica a `<title>`, `og:title`, `twitter:title` i schema.org. Plantilles noves: `layouts/_partials/seo-title.html`, `head.html` (sobreescrit), `templates/opengraph.html` i `templates/twitter_cards.html`; `templates/schema_json.html` editat. El camp `description` és (i era) la meta descripció SEO; al CMS s'ha reanomenat «Descripció (SEO, opcional)» i, si és buit, Hugo n'agafa un resum de l'article.
+- **Autor per defecte segons el login (FET, `3af5e5b920`)**: `default` de l'autor = `Joan "Linux" Martínez i Serres` i hook `preSave` a `static/admin/index.html`: en articles nous, si l'autor és buit o és el valor per defecte, es canvia pel nom mapat al login de GitHub (`CMS_AUTHORS`). Cal afegir cada editor nou al mapa.
+- **URLs estables (FET, `cfbd4d2c3b`)**: els 4 posts sense `slug` explícit (Naya, Sietemesion i els dos del 19/09) ja el tenen, sense canviar cap URL; un hook `preSave` omple el `slug` dels articles nous.
+- **Regressió del slug i correcció (FET, `c1781d476d`)**: una edició del títol al CMS va buidar el `slug` del post «Libros mellizos…» i en va canviar la URL (`…sietemesion` → `…sietemesino`). Restaurat el slug, la variant `…sietemesino` queda com a alias i el hook torna a omplir el `slug` si queda buit en qualsevol desada.
+- **Ajuda del camp slug (FET, `0d473080fa`)**: etiqueta «Adreça web de l'article (no tocar)» i ajuda planera que avisa que canviar-la trenca l'enllaç antic (pensada per a editors poc acostumats).
+- **Build CI**: el primer intent va fallar perquè `layouts/README.txt` contenia `<title>` (Hugo 0.164 el parseja com a plantilla); corregit (`6cd5ee98e2`).
+- **Decisió de l'usuari (opció A)**: el camp `slug` queda editable amb l'avís de no tocar-lo; Sveltia no pot generar l'alias automàtic en canviar-lo a mà en aquesta configuració (l'URL depèn del camp `slug`, no del nom del fitxer).
+- **Registre d'hores**: sessió de matí (~09:28–10:40, ~1 h 12 min), detall a [`.taques/2026-09-30.md`](.taques/2026-09-30.md).
+
 ## Tasques pendents
 
 > **Pendents: vegeu [`.taques/TASQUES.md`](.taques/TASQUES.md)** (font única des del 2026-09-27; no afegir-ne aquí).
