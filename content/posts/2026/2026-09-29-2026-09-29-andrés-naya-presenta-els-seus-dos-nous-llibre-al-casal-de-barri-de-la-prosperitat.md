@@ -3,6 +3,8 @@ title: 2026-09-29 - Andrés Naya presenta els seus dos nous llibres al Casal de 
 date: 2026-09-30T01:32:00
 year: '2026'
 slug: ''
+aliases:
+  - /2026/09/2026-09-29-andrés-naya-presenta-els-seus-dos-nous-llibre-al-casal-de-barri-de-la-prosperitat.html
 author: Joan "Linux" Martínez i Serres
 cover:
   image: /images/IMG_3603.jpg
