@@ -668,6 +668,17 @@ Sessió al núvol (Claude Code), ~08:35–11:40. Tots els canvis per PR a `main`
 - **Decisió de l'usuari (opció A)**: el camp `slug` queda editable amb l'avís de no tocar-lo; Sveltia no pot generar l'alias automàtic en canviar-lo a mà en aquesta configuració (l'URL depèn del camp `slug`, no del nom del fitxer).
 - **Registre d'hores**: sessió de matí (~09:28–10:40, ~1 h 12 min), detall a [`.taques/2026-09-30.md`](.taques/2026-09-30.md).
 
+## Sessió 2026-09-30 (v2) — /admin/intern/: actes i tasques al repo privat (Fase 1)
+
+- **El repo `112books/9bi` és públic**: `draft: true` no amaga res a GitHub. Per decisió de l'usuari, la documentació interna (`content/documentacio/`: acta del 10/09 i documents del concurs) s'ha **mogut** al repo **privat `112books/9bi-intern`** (commit `d478254`, carpetes `actes/` i `concurs/`) i s'ha esborrat del públic **sense reescriure l'historial** (hi continua visible a l'historial antic).
+- **Gestor intern** `static/admin/intern/`: segon Sveltia (reutilitza `../sveltia-cms.js`) amb `backend.repo: 112books/9bi-intern`. Sessió compartida amb `/admin/` (mateix `localStorage`); el PAT classic `repo` ja hi serveix, un fine-grained ha d'incloure 9bi-intern. Els estils de `index.html` són **còpia** dels de `../index.html`.
+  - `actes`: title, date, lloc, **assistents** (select múltiple de membres actius, llista `x-membres` a mà: el CMS no pot relacionar amb `data/membres/` d'un altre repo), `persones_reunides` (text lliure per a no-membres), convidat, ordre_del_dia, **acords** `{text, projecte}`, votacions, **tasques** `{id (uuid), text, responsable, termini, projecte, estat: pendent|en curs|feta|descartada}`, **visibilitat** `interna|publica` (per defecte interna), body.
+  - `concurs`: igual que abans.
+- **`/admin/intern/tasques.html`**: llegeix les actes per l'API de GitHub amb el token de la sessió (res es publica), agrega les tasques no tancades (l'acta **més recent** mana, per `id`; sense id, per text), filtres responsable/projecte (també `?responsable=&projecte=`) i botó **«Acta nova amb les tasques obertes»** (crea `actes/acta-YYYY-MM-DD-reunio.md` amb les tasques obertes i els seus id). `js-yaml` 4.1.0 (MIT) autoallotjat.
+- Decisió: les tasques **no** surten a la pàgina pública dels projectes (només a l'admin).
+- Verificat: build net; prova amb navegador i API simulada (filtres, fusió per id, termini vençut, creació d'acta, acta ja existent, 375 px sense desbordament); Sveltia accepta el config intern.
+- **Pendent**: Fase 2 (projectes públics: 13-B i «retrat gegant col·lectiu»).
+
 ## Tasques pendents
 
 > **Pendents: vegeu [`.taques/TASQUES.md`](.taques/TASQUES.md)** (font única des del 2026-09-27; no afegir-ne aquí).
