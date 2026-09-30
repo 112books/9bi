@@ -508,31 +508,48 @@
   <script defer src="sveltia-cms.js"></script>
 
   <script>
-    // Autor per defecte segons l'usuari que ha iniciat sessió al gestor.
-    // Sveltia només exposa el login de GitHub; cal mapar-lo a un nom de la
-    // llista d'autors. Afegiu aquí cada editor nou:
-    //   "login-de-github": "Nom exacte de la llista d'autors",
+    // Valors per defecte d'una entrada nova del gestor:
+    //   1. Autor: segons el login de GitHub de qui ha iniciat sessió. Cal
+    //      mantenir aquest mapa: "login-de-github": "Nom de la llista d'autors".
+    //   2. Slug estable: els articles nous reben un slug explícit perquè l'URL
+    //      no canviï si després es retoca el títol. Es treu del nom del fitxer,
+    //      que Sveltia genera com a YYYY-MM-DD-<títol>.
     const CMS_AUTHORS = {
       "112books": 'Joan "Linux" Martínez i Serres',
     };
     const CMS_AUTHOR_DEFAULT = 'Joan "Linux" Martínez i Serres';
 
-    (function cmsRegisterAuthorDefault() {
+    (function cmsRegisterEntryDefaults() {
       if (!window.CMS || typeof CMS.registerEventListener !== 'function') {
-        setTimeout(cmsRegisterAuthorDefault, 200);
+        setTimeout(cmsRegisterEntryDefaults, 200);
         return;
       }
       CMS.registerEventListener({
         name: 'preSave',
         handler: ({ author, entry }) => {
           if (!entry || typeof entry.get !== 'function' || !entry.get('newRecord')) return;
+          const data = entry.get('data');
+          let updated = data;
+
+          // Autor per defecte segons el login (es pot canviar al formulari)
           const login = String((author && author.login) || '').toLowerCase();
           const mapped = CMS_AUTHORS[login];
-          if (!mapped) return;
-          const current = entry.getIn(['data', 'author']);
-          if (!current || current === CMS_AUTHOR_DEFAULT) {
-            return entry.get('data').set('author', mapped);
+          const currentAuthor = data.get('author');
+          if (mapped && (!currentAuthor || currentAuthor === CMS_AUTHOR_DEFAULT)) {
+            updated = updated.set('author', mapped);
           }
+
+          // Slug explícit perquè l'URL no depengui del títol
+          if (!data.get('slug')) {
+            const basename = String(entry.get('path') || '')
+              .split('/')
+              .pop()
+              .replace(/\.[^.]+$/, '');
+            const slug = basename.replace(/^\d{4}-\d{2}-\d{2}-/, '');
+            if (slug) updated = updated.set('slug', slug);
+          }
+
+          return updated === data ? undefined : updated;
         },
       });
     })();

@@ -2,7 +2,7 @@
 title: 2026-09-29 - Andrés Naya presenta els seus dos nous llibres al Casal de barri de la Prosperitat
 date: 2026-09-30T01:32:00
 year: '2026'
-slug: ''
+slug: '2026-09-29-andrés-naya-presenta-els-seus-dos-nous-llibres-al-casal-de-barri-de-la-prosperitat'
 aliases:
   - /2026/09/2026-09-29-andrés-naya-presenta-els-seus-dos-nous-llibre-al-casal-de-barri-de-la-prosperitat.html
 author: Joan "Linux" Martínez i Serres

@@ -2,6 +2,7 @@
 title: 2026-09-19 - Festa Major de Verdum - Verdum PunkFest
 date: 2026-09-20T14:49:00.000+02:00
 year: "2026"
+slug: '2026-09-19-festa-major-de-verdum-verdum-punkfest'
 author: Joan "Linux" Martínez i Serres
 cover:
   image: /images/covers/39c8012fb7e84592.webp

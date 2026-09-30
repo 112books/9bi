@@ -2,6 +2,7 @@
 title: 2026-09-19 -Casal de barri de Prosperitat - Tributo a Amaral
 date: 2026-09-20T14:08:00.000+02:00
 year: "2026"
+slug: '2026-09-19-casal-de-barri-de-prosperitat-tributo-a-amaral'
 author: Joan "Linux" Martínez i Serres
 cover:
   image: /images/covers/34bafdc987710297.webp
