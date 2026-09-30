@@ -1,0 +1,13 @@
+{{- /*
+  Retorna el títol per a SEO (etiqueta <title>, og:title, twitter:title i
+  schema.org): el camp opcional `seoTitle` si el porta; si no, el títol de
+  l'article o pàgina. Als articles del blog sense `seoTitle` se'ls treu el
+  prefix de data («2026-09-29 - »), que no aporta res als cercadors.
+*/ -}}
+{{- $title := .Title -}}
+{{- if .Params.seoTitle -}}
+  {{- $title = .Params.seoTitle -}}
+{{- else if and (eq .Section "posts") (not .IsHome) -}}
+  {{- $title = replaceRE `^\s*\d{4}-\d{2}-\d{2}\s*[-–—:]?\s*` "" $title -}}
+{{- end -}}
+{{- return $title -}}

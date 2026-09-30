@@ -29,6 +29,10 @@ _partials/           header (icones i capçalera sticky), footer (banda
                      vermella i 5 columnes), extend_head (tipografies i
                      GoatCounter), avís del concurs, autor al final de
                      l'article, botó "Veure tot l'àlbum de fotos".
+                     seo-title (títol SEO: seoTitle o title sense data) i
+                     head (SOBREESCRIT del tema: <title> amb seoTitle).
+_partials/templates/ schema_json (JSON-LD propi), i opengraph i twitter_cards
+                     (SOBREESCRITS: og:title i twitter:title amb seoTitle).
 _shortcodes/         membres (taula de membres), rel (adreça relativa per a
                      HTML escrit a mà), guia-tabs (pestanyes de la guia).
 _markup/             render-image (adreces d'imatge base-aware).

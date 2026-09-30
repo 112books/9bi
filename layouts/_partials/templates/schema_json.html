@@ -92,8 +92,8 @@
   {{- $schema := dict
         "@context" "https://schema.org"
         "@type" "BlogPosting"
-        "headline" (.Title | plainify)
-        "name" (.Title | plainify)
+        "headline" (partial "seo-title.html" . | plainify)
+        "name" (partial "seo-title.html" . | plainify)
         "description" ($desc | truncate 300)
         "url" .Permalink
         "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
@@ -120,7 +120,7 @@
   {{- $schema := dict
         "@context" "https://schema.org"
         "@type" "WebPage"
-        "name" (.Title | plainify)
+        "name" (partial "seo-title.html" . | plainify)
         "url" .Permalink
         "description" ($desc | truncate 300)
         "inLanguage" (.Language.Lang | default "ca")

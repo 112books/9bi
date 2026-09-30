@@ -506,5 +506,36 @@
        subministrament per change a unpkg. Per actualitzar: baixa de
        https://unpkg.com/@sveltia/cms@0.217.0/dist/sveltia-cms.js a static/admin/sveltia-cms.js -->
   <script defer src="sveltia-cms.js"></script>
+
+  <script>
+    // Autor per defecte segons l'usuari que ha iniciat sessió al gestor.
+    // Sveltia només exposa el login de GitHub; cal mapar-lo a un nom de la
+    // llista d'autors. Afegiu aquí cada editor nou:
+    //   "login-de-github": "Nom exacte de la llista d'autors",
+    const CMS_AUTHORS = {
+      "112books": 'Joan "Linux" Martínez i Serres',
+    };
+    const CMS_AUTHOR_DEFAULT = 'Joan "Linux" Martínez i Serres';
+
+    (function cmsRegisterAuthorDefault() {
+      if (!window.CMS || typeof CMS.registerEventListener !== 'function') {
+        setTimeout(cmsRegisterAuthorDefault, 200);
+        return;
+      }
+      CMS.registerEventListener({
+        name: 'preSave',
+        handler: ({ author, entry }) => {
+          if (!entry || typeof entry.get !== 'function' || !entry.get('newRecord')) return;
+          const login = String((author && author.login) || '').toLowerCase();
+          const mapped = CMS_AUTHORS[login];
+          if (!mapped) return;
+          const current = entry.getIn(['data', 'author']);
+          if (!current || current === CMS_AUTHOR_DEFAULT) {
+            return entry.get('data').set('author', mapped);
+          }
+        },
+      });
+    })();
+  </script>
 </body>
 </html>
