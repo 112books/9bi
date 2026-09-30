@@ -527,19 +527,23 @@
       CMS.registerEventListener({
         name: 'preSave',
         handler: ({ author, entry }) => {
-          if (!entry || typeof entry.get !== 'function' || !entry.get('newRecord')) return;
+          if (!entry || typeof entry.get !== 'function') return;
           const data = entry.get('data');
           let updated = data;
 
-          // Autor per defecte segons el login (es pot canviar al formulari)
-          const login = String((author && author.login) || '').toLowerCase();
-          const mapped = CMS_AUTHORS[login];
-          const currentAuthor = data.get('author');
-          if (mapped && (!currentAuthor || currentAuthor === CMS_AUTHOR_DEFAULT)) {
-            updated = updated.set('author', mapped);
+          // Autor per defecte només en crear una entrada
+          if (entry.get('newRecord')) {
+            const login = String((author && author.login) || '').toLowerCase();
+            const mapped = CMS_AUTHORS[login];
+            const currentAuthor = data.get('author');
+            if (mapped && (!currentAuthor || currentAuthor === CMS_AUTHOR_DEFAULT)) {
+              updated = updated.set('author', mapped);
+            }
           }
 
-          // Slug explícit perquè l'URL no depengui del títol
+          // Slug explícit perquè l'URL no depengui del títol. Si el camp ha
+          // quedat buit en desar (el CMS el pot buidar en actualitzar), es
+          // torna a posar a partir del nom del fitxer.
           if (!data.get('slug')) {
             const basename = String(entry.get('path') || '')
               .split('/')
