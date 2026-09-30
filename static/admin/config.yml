@@ -72,7 +72,7 @@ collections:
       - { label: "Títol", name: "title", widget: "string" }
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2026" }
-      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
@@ -104,7 +104,7 @@ collections:
       - { label: "Títol", name: "title", widget: "string" }
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2025" }
-      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
@@ -136,7 +136,7 @@ collections:
       - { label: "Títol", name: "title", widget: "string" }
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2024" }
-      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
@@ -168,7 +168,7 @@ collections:
       - { label: "Títol", name: "title", widget: "string" }
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2023" }
-      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
@@ -200,7 +200,7 @@ collections:
       - { label: "Títol", name: "title", widget: "string" }
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2022" }
-      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
@@ -232,7 +232,7 @@ collections:
       - { label: "Títol", name: "title", widget: "string" }
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2021" }
-      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
@@ -264,7 +264,7 @@ collections:
       - { label: "Títol", name: "title", widget: "string" }
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2020" }
-      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
@@ -296,7 +296,7 @@ collections:
       - { label: "Títol", name: "title", widget: "string" }
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2019" }
-      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
@@ -328,7 +328,7 @@ collections:
       - { label: "Títol", name: "title", widget: "string" }
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2018" }
-      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
@@ -360,7 +360,7 @@ collections:
       - { label: "Títol", name: "title", widget: "string" }
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2017" }
-      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
@@ -392,7 +392,7 @@ collections:
       - { label: "Títol", name: "title", widget: "string" }
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2016" }
-      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
@@ -424,7 +424,7 @@ collections:
       - { label: "Títol", name: "title", widget: "string" }
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2015" }
-      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
@@ -456,7 +456,7 @@ collections:
       - { label: "Títol", name: "title", widget: "string" }
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2014" }
-      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
@@ -488,7 +488,7 @@ collections:
       - { label: "Títol", name: "title", widget: "string" }
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2013" }
-      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
@@ -520,7 +520,7 @@ collections:
       - { label: "Títol", name: "title", widget: "string" }
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2012" }
-      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
@@ -552,7 +552,7 @@ collections:
       - { label: "Títol", name: "title", widget: "string" }
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2011" }
-      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
@@ -584,7 +584,7 @@ collections:
       - { label: "Títol", name: "title", widget: "string" }
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2010" }
-      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
@@ -616,7 +616,7 @@ collections:
       - { label: "Títol", name: "title", widget: "string" }
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2009" }
-      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
@@ -648,7 +648,7 @@ collections:
       - { label: "Títol", name: "title", widget: "string" }
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2008" }
-      - { label: "Slug de l'URL (no tocar normalment)", name: "slug", widget: "string", required: false, hint: "Part final de l'URL. Preserva les URL originals del blog; no el canviïs si no cal." }
+      - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
