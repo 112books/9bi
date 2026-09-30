@@ -1,12 +1,13 @@
 ---
-autor: "Joan \"Linux\" Martínez i Serres"
-album: "9 B Cabrejada No Es Pobresa Es Injusticia"
-any: "2014"
-foto: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwwQ0NWXpqJ6yODXrtDHZO0HuGIsK_7i4aT30vR4-BbW78cRUBuerxRiG3eRV2DoJGJ8nR9ST3Rfj8M0rFIVhinNeqGZ_OiAP0NkY9SlVLS7IBiC-1ipLT_FotmcgIdd3F_ZzhCNFEW_8/s400/IMG_6999.jpg"
-url_antiga: "https://picasaweb.google.com/103138221614479310970/9BCabrejadaNoEsPobresaEsInjusticia"
-url_nova: ""
+url_nova: https://photos.app.goo.gl/Dr9nM7gbj7tANorL8
+autor: Joan "Linux" Martínez i Serres
+album: 9 B Cabrejada No Es Pobresa Es Injusticia
+any: '2014'
+foto: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwwQ0NWXpqJ6yODXrtDHZO0HuGIsK_7i4aT30vR4-BbW78cRUBuerxRiG3eRV2DoJGJ8nR9ST3Rfj8M0rFIVhinNeqGZ_OiAP0NkY9SlVLS7IBiC-1ipLT_FotmcgIdd3F_ZzhCNFEW_8/s400/IMG_6999.jpg
+url_antiga: https://picasaweb.google.com/103138221614479310970/9BCabrejadaNoEsPobresaEsInjusticia
 posts: 2
-exemple: "https://9barrisimatge.org/2014/11/9bcabrejada-no-es-pobresa-es-injusticia.html"
+exemple: https://9barrisimatge.org/2014/11/9bcabrejada-no-es-pobresa-es-injusticia.html
+slug: 9bcabrejadanoespobresaesinjusticia
 ---
 
 **Foto de mostra** (per identificar l'àlbum):
