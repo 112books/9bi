@@ -96,7 +96,7 @@ collections:
         options: ["interna", "publica"]
         default: "interna"
         hint: "Totes les actes viuen al repositori privat. «publica» només marca que es podria publicar més endavant."
-      - { label: "Esborrany (camp antic)", name: "draft", widget: "hidden", required: false }
+      - { label: "Esborrany (camp antic)", name: "draft", widget: "hidden" }
       - { label: "Contingut", name: "body", widget: "markdown", required: false, hint: "El text llarg de l'acta. El que s'ha decidit de veritat va als camps de dalt." }
 
   - name: "concurs"
@@ -108,5 +108,5 @@ collections:
       - { label: "Títol", name: "title", widget: "string" }
       - { label: "Tipus de document", name: "tipo", widget: "select", options: ["Bases del concurs", "Convocatòria", "Categories", "Grup de música", "Dates i calendari", "Altres"] }
       - { label: "Data", name: "date", widget: "datetime", required: false }
-      - { label: "Esborrany (camp antic)", name: "draft", widget: "hidden", required: false }
+      - { label: "Esborrany (camp antic)", name: "draft", widget: "hidden" }
       - { label: "Contingut", name: "body", widget: "markdown" }
