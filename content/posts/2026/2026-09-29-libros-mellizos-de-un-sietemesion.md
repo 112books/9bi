@@ -11,4 +11,4 @@ tags: []
 description: L'Andrés "sietemesino" , com diu ell, presenta els llibres "mellizos" sobre Prosperitat i més,  en un acte molt emotiu, rodejat de família, l’IA (Incondicionals Amics!) i tots els companys de lluita, en un Casal ple de gom a gom!
 ---
 
-Libros mellizos de un sietemesion!
+L'Andrés "sietemesino" , com diu ell, presenta els llibres "mellizos" sobre Prosperitat i més,  en un acte molt emotiu, rodejat de família, l’IA (Incondicionals Amics!) i tots els companys de lluita, en un Casal ple de gom a gom!
