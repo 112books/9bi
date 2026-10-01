@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>9 Barris Imatge · Tasques obertes</title>
+  <style>
+    :root {
+      --t-bg: rgb(29, 30, 32);
+      --t-head: #161618;
+      --t-text: rgb(218, 218, 219);
+      --t-muted: rgb(155, 156, 157);
+      --t-border: rgb(51, 51, 51);
+      --t-accent: #e03131;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: var(--t-bg); color: var(--t-text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    a { color: inherit; }
+    header { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;
+      padding: 0.8rem 16px; background: var(--t-head); border-bottom: 4px solid var(--t-accent); }
+    header strong { font-size: 1.05rem; }
+    header nav { display: flex; gap: 1rem; font-size: 0.9rem; }
+    main { max-width: 1100px; margin: 0 auto; padding: 1.2rem 16px 3rem; }
+    h1 { font-size: 1.4rem; margin: 0 0 0.3rem; }
+    .t-lead { color: var(--t-muted); margin: 0 0 1.2rem; font-size: 0.92rem; }
+    .t-bar { display: flex; flex-wrap: wrap; gap: 0.8rem 1.2rem; align-items: end; margin-bottom: 1rem; }
+    .t-bar label { display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.8rem; color: var(--t-muted); }
+    select, input[type=date], button { font: inherit; font-size: 0.9rem; padding: 0.35rem 0.5rem; border-radius: 4px;
+      border: 1px solid var(--t-border); background: var(--t-head); color: var(--t-text); }
+    button { cursor: pointer; border-color: var(--t-accent); }
+    button:hover, button:focus-visible { background: var(--t-accent); color: #fff; }
+    button[disabled] { opacity: 0.5; cursor: wait; }
+    .t-new { margin-left: auto; display: flex; gap: 0.5rem; align-items: end; }
+    .t-status { min-height: 1.4em; font-size: 0.9rem; color: var(--t-muted); }
+    .t-status.is-error { color: #ff8787; }
+    .t-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+    th, td { text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid var(--t-border); vertical-align: top; }
+    th { color: var(--t-muted); font-weight: 600; white-space: nowrap; }
+    td.t-text { white-space: pre-line; min-width: 16rem; }
+    .is-late { color: #ff8787; font-weight: 600; }
+    .t-empty { color: var(--t-muted); padding: 1rem 0; }
+    @media (max-width: 700px) { .t-new { margin-left: 0; } }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>9 Barris Imatge · Gestor intern</strong>
+    <nav aria-label="Navegació">
+      <a href="./#/collections/actes">Reunions</a>
+      <a href="../">Gestor del web</a>
+      <a href="../../">Torna al web</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Tasques obertes</h1>
+    <p class="t-lead">Tasques pendents o en curs de totes les actes. Si una tasca s'ha portat d'una acta a la següent, compta l'estat de l'acta més recent.</p>
+
+    <div class="t-bar">
+      <label>Responsable
+        <select id="f-resp"><option value="">Tothom</option></select>
+      </label>
+      <label>Projecte
+        <select id="f-proj"><option value="">Tots</option></select>
+      </label>
+      <div class="t-new">
+        <label>Data de la reunió
+          <input type="date" id="new-date" />
+        </label>
+        <button type="button" id="new-acta" disabled>Acta nova amb les tasques obertes</button>
+      </div>
+    </div>
+
+    <p class="t-status" id="status" role="status">Carregant les actes…</p>
+    <div class="t-wrap">
+      <table hidden id="table">
+        <thead>
+          <tr><th>Tasca</th><th>Responsable</th><th>Termini</th><th>Projecte</th><th>Estat</th><th>Acta</th></tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+    <p class="t-empty" id="empty" hidden>No hi ha cap tasca oberta amb aquests filtres.</p>
+  </main>
+
+  <script src="js-yaml.min.js"></script>
+  <script>
+    // Llegeix les actes del repositori PRIVAT via l'API de GitHub amb el token de
+    // la sessió del gestor (el mateix que fa servir el Sveltia). Res d'això es
+    // publica: les dades només arriben al navegador de qui té accés al repo.
+    const REPO = "112books/9bi-intern";
+    const FOLDER = "actes";
+    const API = `https://api.github.com/repos/${REPO}/contents/`;
+    const CLOSED = ["feta", "descartada"];
+    const MONTHS = ["gener", "febrer", "març", "abril", "maig", "juny", "juliol",
+      "agost", "setembre", "octubre", "novembre", "desembre"];
+
+    const $ = (id) => document.getElementById(id);
+    const statusEl = $("status");
+    let openTasks = [];
+
+    function setStatus(msg, isError) {
+      statusEl.textContent = msg;
+      statusEl.classList.toggle("is-error", !!isError);
+    }
+
+    function sessionToken() {
+      try {
+        const user = JSON.parse(localStorage.getItem("sveltia-cms.user") || "null");
+        return user && typeof user.token === "string" ? user.token : null;
+      } catch {
+        return null;
+      }
+    }
+
+    async function api(path, opts = {}) {
+      const headers = {
+        Authorization: `token ${sessionToken()}`,
+        Accept: opts.raw ? "application/vnd.github.raw+json" : "application/vnd.github+json",
+      };
+      if (opts.body) headers["Content-Type"] = "application/json";
+      const res = await fetch(API + path.split("/").map(encodeURIComponent).join("/"), {
+        method: opts.method || "GET",
+        headers,
+        body: opts.body ? JSON.stringify(opts.body) : undefined,
+        cache: "no-store",
+      });
+      return res;
+    }
+
+    // js-yaml converteix les dates sense cometes en objectes Date
+    function localToday() {
+      const d = new Date();
+      return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+    }
+
+    function isoDate(v) {
+      if (v instanceof Date) return v.toISOString().slice(0, 10);
+      return v ? String(v).slice(0, 10) : "";
+    }
+
+    function frontMatter(text) {
+      const m = text.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+      return m ? jsyaml.load(m[1]) || {} : {};
+    }
+
+    function taskKey(t) {
+      return t.id ? `id:${t.id}` : `text:${String(t.text || "").trim().toLowerCase()}`;
+    }
+
+    async function loadActes() {
+      const res = await api(FOLDER);
+      if (res.status === 404) throw new Error("No s'ha trobat el repositori o la carpeta d'actes. Tens accés a " + REPO + "?");
+      if (res.status === 401) throw new Error("El token de la sessió no és vàlid. Torna a entrar al gestor intern.");
+      if (!res.ok) throw new Error(`GitHub ha respost ${res.status}.`);
+      const files = (await res.json()).filter((f) => f.type === "file" && f.name.endsWith(".md") && f.name !== "_index.md");
+      const actes = await Promise.all(files.map(async (f) => {
+        const r = await api(`${FOLDER}/${f.name}`, { raw: true });
+        if (!r.ok) throw new Error(`No s'ha pogut llegir ${f.name} (${r.status}).`);
+        const fm = frontMatter(await r.text());
+        return { slug: f.name.replace(/\.md$/, ""), title: fm.title || f.name, date: isoDate(fm.date), tasques: fm.tasques || [] };
+      }));
+      return actes.sort((a, b) => (a.date + a.slug).localeCompare(b.date + b.slug));
+    }
+
+    function collectOpen(actes) {
+      const latest = new Map();
+      for (const acta of actes) {
+        for (const t of acta.tasques) {
+          if (!t || !t.text) continue;
+          latest.set(taskKey(t), { ...t, termini: isoDate(t.termini), acta });
+        }
+      }
+      return [...latest.values()].filter((t) => !CLOSED.includes(t.estat));
+    }
+
+    function fillSelect(sel, values, emptyLabel) {
+      const current = sel.value;
+      for (const v of values) {
+        const o = document.createElement("option");
+        o.value = v;
+        o.textContent = v || emptyLabel;
+        sel.append(o);
+      }
+      sel.value = current;
+    }
+
+    function readFilters() {
+      const q = new URLSearchParams(location.search);
+      $("f-resp").value = q.get("responsable") || "";
+      $("f-proj").value = q.get("projecte") || "";
+    }
+
+    function writeFilters() {
+      const q = new URLSearchParams();
+      if ($("f-resp").value) q.set("responsable", $("f-resp").value);
+      if ($("f-proj").value) q.set("projecte", $("f-proj").value);
+      history.replaceState(null, "", location.pathname + (q.toString() ? `?${q}` : ""));
+    }
+
+    function render() {
+      const resp = $("f-resp").value;
+      const proj = $("f-proj").value;
+      const today = localToday();
+      const rows = openTasks
+        .filter((t) => !resp || (resp === "—" ? !t.responsable : t.responsable === resp))
+        .filter((t) => !proj || (proj === "—" ? !t.projecte : t.projecte === proj))
+        .sort((a, b) => (a.termini || "9999").localeCompare(b.termini || "9999"));
+      const tbody = $("rows");
+      tbody.replaceChildren();
+      for (const t of rows) {
+        const tr = document.createElement("tr");
+        const cell = (text, cls) => {
+          const td = document.createElement("td");
+          td.textContent = text || "—";
+          if (cls) td.className = cls;
+          tr.append(td);
+          return td;
+        };
+        cell(t.text, "t-text");
+        cell(t.responsable);
+        cell(t.termini, t.termini && t.termini < today ? "is-late" : "");
+        cell(t.projecte);
+        cell(t.estat || "pendent");
+        const td = cell("");
+        const a = document.createElement("a");
+        a.href = `./#/collections/actes/entries/${encodeURIComponent(t.acta.slug)}`;
+        a.textContent = t.acta.date || t.acta.title;
+        td.replaceChildren(a);
+        tbody.append(tr);
+      }
+      $("table").hidden = rows.length === 0;
+      $("empty").hidden = rows.length !== 0;
+    }
+
+    function actaTitle(iso) {
+      const [y, m, d] = iso.split("-").map(Number);
+      const month = MONTHS[m - 1];
+      const de = /^[aeiouàèéíòóú]/.test(month) ? "d'" : "de ";
+      return `Acta de la reunió del ${d} ${de}${month} de ${y}`;
+    }
+
+    function toBase64(str) {
+      const bytes = new TextEncoder().encode(str);
+      let bin = "";
+      for (const b of bytes) bin += String.fromCharCode(b);
+      return btoa(bin);
+    }
+
+    async function createActa() {
+      const date = $("new-date").value;
+      if (!date) return setStatus("Tria la data de la reunió.", true);
+      const slug = `acta-${date}-reunio`;
+      const path = `${FOLDER}/${slug}.md`;
+      const btn = $("new-acta");
+      btn.disabled = true;
+      try {
+        const exists = await api(path);
+        if (exists.ok) throw new Error(`Ja existeix ${slug}.md. Obre-la des de Reunions.`);
+        if (exists.status !== 404) throw new Error(`GitHub ha respost ${exists.status}.`);
+        const tasques = openTasks.map((t) => {
+          const out = { id: t.id || crypto.randomUUID(), text: t.text };
+          if (t.responsable) out.responsable = t.responsable;
+          if (t.termini) out.termini = t.termini;
+          if (t.projecte) out.projecte = t.projecte;
+          out.estat = t.estat || "pendent";
+          return out;
+        });
+        const data = { title: actaTitle(date), date, visibilitat: "interna" };
+        if (tasques.length) data.tasques = tasques;
+        const text = `---\n${jsyaml.dump(data, { lineWidth: -1 })}---\n`;
+        const res = await api(path, {
+          method: "PUT",
+          body: { message: `Acta nova ${date} amb ${tasques.length} tasques obertes`, content: toBase64(text) },
+        });
+        if (!res.ok) throw new Error(`No s'ha pogut crear l'acta (${res.status}).`);
+        setStatus("Acta creada. Obrint-la al gestor…");
+        location.href = `./#/collections/actes/entries/${slug}`;
+      } catch (e) {
+        setStatus(e.message, true);
+        btn.disabled = false;
+      }
+    }
+
+    async function init() {
+      $("new-date").value = localToday();
+      if (!sessionToken()) {
+        setStatus("Cal entrar primer al gestor intern (amb el teu token de GitHub).", true);
+        const a = document.createElement("a");
+        a.href = "./";
+        a.textContent = " Entra-hi aquí.";
+        statusEl.append(a);
+        return;
+      }
+      try {
+        openTasks = collectOpen(await loadActes());
+        const resp = [...new Set(openTasks.map((t) => t.responsable || "—"))].sort();
+        const proj = [...new Set(openTasks.map((t) => t.projecte || "—"))].sort();
+        fillSelect($("f-resp"), resp, "—");
+        fillSelect($("f-proj"), proj, "—");
+        readFilters();
+        render();
+        setStatus(`${openTasks.length} tasques obertes.`);
+        $("new-acta").disabled = false;
+      } catch (e) {
+        setStatus(e.message, true);
+      }
+    }
+
+    $("f-resp").addEventListener("change", () => { writeFilters(); render(); });
+    $("f-proj").addEventListener("change", () => { writeFilters(); render(); });
+    $("new-acta").addEventListener("click", createActa);
+    init();
+  </script>
+</body>
+</html>

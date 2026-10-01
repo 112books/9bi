@@ -18,8 +18,9 @@ posts/AAAA/    Els articles, agrupats per any (2008-2026, uns 3.000).
 guia/          Guia d'editors (8 pàgines). Publicada a /guia/ però
                robotsNoIndex, fora del menú i fora del sitemap: no és per
                visitants, és per a qui escriu al web.
-documentacio/  Actes de reunió i documentació del concurs. Marcats com
-               draft: existeixen al repositori però no es publiquen.
+documentacio/  JA NO EXISTEIX. Les actes i la documentació interna del
+               concurs viuen al repositori PRIVAT 112books/9bi-intern
+               (aquest és públic: draft: true no amaga res a GitHub).
 *.md a l'arrel Pàgines fixes: qui-som.md, concurs.md, contacte.md,
                privacitat.md, avis-legal.md, cookies.md, credits.md,
                subvencions.md, search.md, archive.md, mes-visitats.md,

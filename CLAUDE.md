@@ -80,7 +80,7 @@ content/
 ├── search.md (layout "search"), archive.md (layout "archives")
 ├── mes-visitats.md (layout "popular" + hiddenInRss: true)
 ├── guia/                        # _index.md + 7 subpàgines: robotsNoIndex + hiddenInRss + sitemap.disable
-└── documentacio/                # draft: true (interna)
+└── (documentacio/ ja no hi és: actes i concurs intern al repo PRIVAT 112books/9bi-intern, des del 2026-10-01)
 layouts/
 ├── baseof.html                  # SOBREESCRIT: clau de caché del footer
 ├── single.html                  # SOBREESCRIT: h1 amb visualTitle si el front matter el porta; header_image a tot l'ample
@@ -127,9 +127,10 @@ gestio/RECERCA.md               # recerca: fotògrafs de NB, cronologia concurs 
 
 - Backend `github`: repo `112books/9bi`, branca `main`. Entrada: PAT classic (scope `repo`) via «Sign In with Token».
 - `media_folder: static/images` · `public_folder: /images`
-- **32 col·leccions**: 19 d'articles per any (`posts-YYYY`, carpetes físiques `content/posts/YYYY/`, `sortable_fields: date desc`), `web-pages` (13 pàgines fixes, camps tècnics com a `hidden`), `guia`, `actes`, `concurs`, `membres`, 8 col·leccions «Àlbums per arreglar».
+- **30 col·leccions**: 19 d'articles per any (`posts-YYYY`, carpetes físiques `content/posts/YYYY/`, `sortable_fields: date desc`), `web-pages` (13 pàgines fixes, camps tècnics com a `hidden`), `guia`, `membres`, 8 col·leccions «Àlbums per arreglar».
+- **Gestor intern** `static/admin/intern/` (repo **privat** `112books/9bi-intern`): col·leccions `actes` (assistents, acords, tasques amb `id`/estat, visibilitat) i `concurs`, i `tasques.html` (tasques obertes llegides per l'API de GitHub amb el token de la sessió). Detall a `gestio/SESSIONSLOG.md` (2026-09-30 v2).
 - **Cap col·lecció «Tots els articles»**: els 3.009 posts feien trigar el carregament; s'usa la cerca immediata del Sveltia.
-- **Rail propi** (`static/admin/index.html`): lateral nativa amagada (`#nc-root .primary-sidebar { display:none !important }` + `MutationObserver`); `<aside class="cms-rail">` amb desplegable d'anys 2026→2008, Documentació, Àlbums (per login a `CMS_ALBUMS`), Administració.
+- **Rail propi** (`static/admin/index.html`): lateral nativa amagada (`#nc-root .primary-sidebar { display:none !important }` + `MutationObserver`); `<aside class="cms-rail">` amb desplegable d'anys 2026→2008, «Documentació interna» (→ `/admin/intern/`), Àlbums (per login a `CMS_ALBUMS`), Administració.
 - **`CMS_AUTHORS`**: mapeja login GitHub → nom d'autor (hook `preSave`). Cal afegir cada editor nou.
 - **`CMS_ALBUMS`**: mapeja login → col·lecció de recuperació. Ara: `112books` → `recuperacio-joan-linux`.
 - Peu del CMS: filet vermell + CC + «Powered by LinuxBCN with Hugo & PaperMod».

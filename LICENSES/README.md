@@ -22,6 +22,7 @@ llicència original i el seu text viu aquí.
 | PaperMod (tema de Hugo) | MIT | `themes/PaperMod/LICENSE` |
 | Sveltia CMS | MIT | distribuït dins `static/admin/sveltia-cms.js` (verificat al repositori oficial `sveltia/sveltia-cms`, 2026-09-27) |
 | Hugo (generador) | Apache-2.0 | no s'inclou al repositori, s'instal·la separat |
+| js-yaml 4.1.0 (pàgina de tasques del gestor intern) | MIT | capçalera `@license` dins `static/admin/intern/js-yaml.min.js` (paquet oficial d'npm, sha1 verificat 2026-09-30) |
 | React (dins del paquet del CMS) | MIT | capçalera `@license` dins `static/admin/sveltia-cms.js` |
 | GoatCounter (estadístiques) | Apache-2.0 | servei extern, no s'inclou |
 
