@@ -835,6 +835,7 @@ collections:
       fields: [any, album]
     thumbnail: "foto"
     summary: "{{fields.album}} · {{fields.any}}"
+    filter: { field: url_nova, value: ["", null] }
     fields:
       - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
       - { label: "Autor", name: "autor", widget: "hidden" }
@@ -859,6 +860,7 @@ collections:
       fields: [any, album]
     thumbnail: "foto"
     summary: "{{fields.album}} · {{fields.any}}"
+    filter: { field: url_nova, value: ["", null] }
     fields:
       - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
       - { label: "Autor", name: "autor", widget: "hidden" }
@@ -883,6 +885,7 @@ collections:
       fields: [any, album]
     thumbnail: "foto"
     summary: "{{fields.album}} · {{fields.any}}"
+    filter: { field: url_nova, value: ["", null] }
     fields:
       - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
       - { label: "Autor", name: "autor", widget: "hidden" }
@@ -907,6 +910,7 @@ collections:
       fields: [any, album]
     thumbnail: "foto"
     summary: "{{fields.album}} · {{fields.any}}"
+    filter: { field: url_nova, value: ["", null] }
     fields:
       - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
       - { label: "Autor", name: "autor", widget: "hidden" }
@@ -931,6 +935,7 @@ collections:
       fields: [any, album]
     thumbnail: "foto"
     summary: "{{fields.album}} · {{fields.any}}"
+    filter: { field: url_nova, value: ["", null] }
     fields:
       - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
       - { label: "Autor", name: "autor", widget: "hidden" }
@@ -955,6 +960,7 @@ collections:
       fields: [any, album]
     thumbnail: "foto"
     summary: "{{fields.album}} · {{fields.any}}"
+    filter: { field: url_nova, value: ["", null] }
     fields:
       - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
       - { label: "Autor", name: "autor", widget: "hidden" }
@@ -979,6 +985,7 @@ collections:
       fields: [any, album]
     thumbnail: "foto"
     summary: "{{fields.album}} · {{fields.any}}"
+    filter: { field: url_nova, value: ["", null] }
     fields:
       - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
       - { label: "Autor", name: "autor", widget: "hidden" }
@@ -1003,6 +1010,7 @@ collections:
       fields: [any, album]
     thumbnail: "foto"
     summary: "{{fields.album}} · {{fields.any}}"
+    filter: { field: url_nova, value: ["", null] }
     fields:
       - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
       - { label: "Autor", name: "autor", widget: "hidden" }
