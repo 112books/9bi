@@ -1,12 +1,13 @@
 ---
-autor: "Joan \"Linux\" Martínez i Serres"
-album: "9 B In Black Phat Fred"
-any: "2011"
-foto: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqwXiVzDVJ6NSgRs314R_x-bnqra41YOLZxPH-fit0D6Ar87cpQVvSnDHp0b67pZKFtH3G29dWDeyyS7g66FhAD9DOqIWzRNF-H13YkYxgpp7az-rttxvtVBAuiMQbEQiS5iyu1C_D8EI/s400/IMG_0065.jpg"
-url_antiga: "https://picasaweb.google.com/linuxbcn/9BInBlackPhatFred"
-url_nova: ""
+url_nova: https://photos.app.goo.gl/god7k2PPbQFcY5Fp6
+autor: Joan "Linux" Martínez i Serres
+album: 9 B In Black Phat Fred
+any: '2011'
+foto: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqwXiVzDVJ6NSgRs314R_x-bnqra41YOLZxPH-fit0D6Ar87cpQVvSnDHp0b67pZKFtH3G29dWDeyyS7g66FhAD9DOqIWzRNF-H13YkYxgpp7az-rttxvtVBAuiMQbEQiS5iyu1C_D8EI/s400/IMG_0065.jpg
+url_antiga: https://picasaweb.google.com/linuxbcn/9BInBlackPhatFred
 posts: 2
-exemple: "https://9barrisimatge.org/2011/02/divendres-9binblack-phat-fred.html"
+exemple: https://9barrisimatge.org/2011/02/divendres-9binblack-phat-fred.html
+slug: 9binblackphatfred
 ---
 
 **Foto de mostra** (per identificar l'àlbum):

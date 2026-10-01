@@ -73,7 +73,6 @@ collections:
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2026" }
       - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
-      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
         name: "cover"
@@ -83,7 +82,8 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
+      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
@@ -105,7 +105,6 @@ collections:
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2025" }
       - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
-      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
         name: "cover"
@@ -115,7 +114,8 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
+      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
@@ -137,7 +137,6 @@ collections:
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2024" }
       - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
-      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
         name: "cover"
@@ -147,7 +146,8 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
+      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
@@ -169,7 +169,6 @@ collections:
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2023" }
       - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
-      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
         name: "cover"
@@ -179,7 +178,8 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
+      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
@@ -201,7 +201,6 @@ collections:
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2022" }
       - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
-      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
         name: "cover"
@@ -211,7 +210,8 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
+      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
@@ -233,7 +233,6 @@ collections:
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2021" }
       - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
-      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
         name: "cover"
@@ -243,7 +242,8 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
+      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
@@ -265,7 +265,6 @@ collections:
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2020" }
       - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
-      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
         name: "cover"
@@ -275,7 +274,8 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
+      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
@@ -297,7 +297,6 @@ collections:
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2019" }
       - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
-      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
         name: "cover"
@@ -307,7 +306,8 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
+      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
@@ -329,7 +329,6 @@ collections:
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2018" }
       - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
-      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
         name: "cover"
@@ -339,7 +338,8 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
+      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
@@ -361,7 +361,6 @@ collections:
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2017" }
       - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
-      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
         name: "cover"
@@ -371,7 +370,8 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
+      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
@@ -393,7 +393,6 @@ collections:
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2016" }
       - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
-      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
         name: "cover"
@@ -403,7 +402,8 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
+      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
@@ -425,7 +425,6 @@ collections:
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2015" }
       - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
-      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
         name: "cover"
@@ -435,7 +434,8 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
+      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
@@ -457,7 +457,6 @@ collections:
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2014" }
       - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
-      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
         name: "cover"
@@ -467,7 +466,8 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
+      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
@@ -489,7 +489,6 @@ collections:
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2013" }
       - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
-      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
         name: "cover"
@@ -499,7 +498,8 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
+      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
@@ -521,7 +521,6 @@ collections:
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2012" }
       - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
-      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
         name: "cover"
@@ -531,7 +530,8 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
+      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
@@ -553,7 +553,6 @@ collections:
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2011" }
       - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
-      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
         name: "cover"
@@ -563,7 +562,8 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
+      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
@@ -585,7 +585,6 @@ collections:
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2010" }
       - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
-      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
         name: "cover"
@@ -595,7 +594,8 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
+      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
@@ -617,7 +617,6 @@ collections:
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2009" }
       - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
-      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
         name: "cover"
@@ -627,7 +626,8 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
+      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
@@ -649,7 +649,6 @@ collections:
       - { label: "Data de publicació", name: "date", widget: "datetime" }
       - { label: "Any (el posa el sistema)", name: "year", widget: "hidden", default: "2008" }
       - { label: "Adreça web de l'article (no tocar)", name: "slug", widget: "string", required: false, hint: "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur." }
-      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Autor", name: "author", widget: "select", options: *autors, default: "Joan \"Linux\" Martínez i Serres" }
       - label: "Fotografia principal"
         name: "cover"
@@ -659,7 +658,8 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
+      - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
   - name: "web-pages"

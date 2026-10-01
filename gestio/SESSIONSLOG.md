@@ -1,0 +1,215 @@
+# Historial de sessions — 9 Barris Imatge
+
+Notes detallades de les sessions de treball, des del 2026-09-17.
+Per a l'estat actual i la configuració del projecte, vegeu [`CLAUDE.md`](../CLAUDE.md).
+
+---
+
+## Sessió 2026-10-01 — CMS: millores de camps i fix d'estadístiques
+
+- **CLAUDE.md reduït** (697 → 173 línies): historial de sessions mogut a `gestio/SESSIONSLOG.md`, recerca de fotògrafs i concurs a `gestio/RECERCA.md`.
+- **CMS `config.yml`**: camp `seoTitle` reordenat just a sobre de la descripció en els 19 reculls d'any; hint al camp d'etiquetes aclarint que cal usar Intro o el botó «+» (la coma no divideix etiquetes a Sveltia).
+- **CMS `index.html`**: footer eliminat completament (CSS + HTML, 87 línies). Estava buit de contingut útil i interfereixi amb l'editor del cos de l'article. Commit `cfd0e3ba86`.
+- **Estadístiques (`/stats/` i `/mes-visitats/`)**: `analytics.json` i `popular.json` congelats des del 24/09 i del deploy inicial respectivament. Causa: `GOATCOUNTER_API_KEY` absent de GitHub Actions Secrets. Solucionat: clau posada, `workflow_dispatch` verificat, tots dos scripts actualitzen correctament.
+- **Aclarit**: les «1000 visites» d'Instagram eren impressions del post, no clics al web. GoatCounter compta menys per ad blockers.
+
+---
+
+## Sessió 2026-09-17 — Migració real des de Blogger
+
+- **Migrat**: `scripts/migrate_live.py` — 3.006/3.006 posts des del feed Atom en directe (sense export XML). Mapeig d'autor per `<author><uri>` (taula `AUTHOR_BY_URI`). Vocabulari de tags real agregat per suggerir-ne als posts sense cap (marcats amb comentari HTML `<!-- tags auto-generades... -->`).
+- **Bug corregit**: dedup per URL original (no per slug) — el primer intent en va perdre 118 posts amb slug repetit en mesos diferents.
+- **Advertència**: `album_url` s'extreu del primer enllaç que envolta la primera imatge; si n'hi ha més d'un rellevant, pot no ser el millor (detectat al post Prospe Beach 2026).
+- **Formulari RGPD**: `content/contacte.md` amb consentiment obligatori + honeypot + bloc informatiu. `content/privacitat.md` nou amb adreça real (Casal de Barri de Prosperitat, Plaça d'Ángel Pestaña, s/n, 08016 Barcelona).
+- **Menú del peu reordenat**: Arxiu → Etiquetes → Més visitats → Estadístiques → Cerca → RSS.
+
+### Mapeig d'autors (verificat, comptatge real per `<author><uri>`)
+
+| Posts | Nom Blogger | Membre |
+|---|---|---|
+| 1307 | Joan Martinez i Serres "linuxbcn" | Joan "Linux" Martínez i Serres |
+| 397+11 | PredroClick / pedro click (2 comptes) | Pedro Click |
+| 274 | Manel Sala "Ulls" | Manel Sala "Ulls" Circ |
+| 118 | francesc barbe | Francesc Barbe |
+| 110 | ismaelug | Ismael Utrilla |
+| 86 | Alberto | Alberto Sanagustín |
+| 78 | Iozsef Kiss | Iozsef Kiss |
+| 53 | pedrocasal | Pedro "Casal" Cervera |
+| 29 | núria laura orbaneja | Núria Laura Orbaneja |
+| 27 | manel villalba | Manel Villalba |
+| 26 | Ulls (2n compte) | Manel Sala "Ulls" Circ (verificar) |
+| 12 | Nico YeYe | Nico YeYe |
+| 5 | Gris Medio,casi negro | Juan Carlos Molina (Grismedio Casinegro) |
+| 469+2 | Unknown / Anonymous | "9 Barris Imatge" (genèric) |
+| 2 | Nou Barris Imatge | "9 Barris Imatge" |
+
+---
+
+## Sessió 2026-09-18 — Membres, imatges, peu, legal, subvencions i concurs
+
+- **Membres**: `data/membres/<slug>.yml` (12 fitxers), camps `autor`, `nom`, `malnom`, `web`, `instagram`, `actiu`. Taula al shortcode `membres.html` (actius + «Antics membres»). Pàgina d'autor (`author/term.html`) amb mosaic paginat.
+- **Peu**: 5 columnes (logo · buida · El web · Legal · Números), banda accent `#e03131`, CC badge, reveal de LinuxBCN. Ample = `--nav-width`. Responsive 5→3→2→1.
+- **Taxonomia `author`**: valor = `"author"` (no `"authors"`).
+- **Tema fosc**: `defaultTheme = "dark"`.
+- **Capçalera sticky amb icones SVG**: `layouts/_partials/header.html` sobreescrit; JS afegeix `.scrolled` a >120px; histèresi a 90px (fix tremolor).
+- **Imatges base-aware**: `layouts/_markup/render-image.html` amb `relURL`.
+- **`content/subvencions.md`**: pàgina filla de Qui som (`url: /qui-som/subvencions/`), amb alias de l'antic URL.
+- **Concurs Cordoncillo** (`content/concurs.md`): 4 pestanyes CSS pur (Edició 2026/Vot del públic/Història/Trofeus), calendari, bases, botons de compartir.
+- **Tipografies**: Montserrat (cos) + Gillius ADF (títols), autoallotjades a `static/fonts/`.
+- **CMS Client ID**: `app_id: 0c6b6c51-bea8-4b64-8c1e-96bbf02eef15`.
+- **Depuració de tags**: 430 fitxers modificats, 1.675 tags literals únics (de 1.743). 0 grups de variants. 143 posts amb l'any com a tag: eliminats (excepte `1972`).
+- **Posts en subcarpetes per any** (`content/posts/YYYY/`): les URL no canvien (permalink del front matter). 19 col·leccions al CMS amb `sortable_fields: date desc`.
+- **Chrome del CMS**: `static/admin/index.html` amb capçalera + peu + rail propi (desplegable d'anys 2026→2008, Documentació, Àlbums, Administració). Lateral nativa del Sveltia amagada (`#nc-root .primary-sidebar { display:none !important }` + `MutationObserver`).
+- **`layouts/single.html` sobreescrit**: usa `visualTitle` (si present) com a h1 amb `safeHTML`.
+
+---
+
+## Sessió 2026-09-19 — Votació per QR: pla + mòdul M1
+
+- **`modules/votacio/`** (M1): app WSGI stdlib, sense dependències de tercers en producció. Rutes `/v/<token>` (formulari/vot), `/admin/` (login, recompte, export CSV, tancar, logout), `/health`. Vot per obra i dispositiu (HMAC-cookie), CSRF, rate-limit, geofencing off/soft/hard, i18n ca/es/en.
+- **Decisions**: geofencing `soft` 500m, `collect_data = none`, allotjament Dinahosting compartit.
+- **`drafts/2026-09-19-votacio-pla-desenvolupament.md`**: pla complet de la votació.
+
+---
+
+## Sessió 2026-09-20 — Recuperació d'autors i membres
+
+- **Recuperació d'autors**: 439/473 posts reassignats (93%); Pili E. G. (339 posts) descoberta principal. 34 irresolubles a `drafts/autors-no-resolts.md`. Script `scripts/recupera_autors_blogger.py` v2.
+- **11 membres nous**: fitxers nous a `data/membres/` + opcions al CMS (ara 24).
+- **Josep Anton Cordoncillo**: membre fundador honorífic (`actiu: false`, sense posts). Shortcode reescrit per iterar `data/membres/` com a font primària.
+- **«Antics membres»** (terme definitiu, confirmat 2026-09-28; havia passat per «Membres veterans»).
+
+---
+
+## Sessió 2026-09-21 — Quota de Codeberg: diagnòstic
+
+- **Causa de la mida**: el deploy antic feia `git push -f` a `pages` amb tot el build (~164 MiB); objectes orfes acumulats. Repo local comprimit: ~254 MiB.
+- **Quota**: límit per usuari de 750 MiB. Ús de `linuxbcn`: ≈756 MiB → push rebutjat (`Forgejo: Quota exceeded`).
+- **Deploy incremental** implementat a `sync-9bi.sh`: clon persistent a `~/.cache/9bi-pages`, fast-forward, sense force-push.
+- Context complet: `drafts/2026-09-21-quota-codeberg.md`.
+
+---
+
+## Sessió 2026-09-24 — DIAGNÒSTIC DEL DEPLOY A CODEBERG (historial)
+
+> Ara obsolet per a producció (migrada a GitHub Pages). Es conserva per a entendre el passat.
+
+- Causa arrel: dos llocs (staging + domini) requerien dos webhooks separats a Codeberg.
+- La DNS apuntava a Codeberg (`217.197.84.141`) i el webhook del domini estava desactivat.
+
+---
+
+## Sessió 2026-09-24 — Migració de producció a GitHub Pages
+
+- **Motiu**: quota de Codeberg insostenible.
+- **Repo nou**: `https://github.com/112books/9bi` (públic). Remotes locals: `origin` = GitHub, `codeberg` = Codeberg (backup).
+- **Workflow**: `.github/workflows/deploy.yml` — Hugo 0.164.0 + stats opcionals + deploy Pages.
+- **Producció**: `https://9barrisimatge.org/` → DNS canviada als IPs de GitHub Pages (185.199.108.153/.109/.110/.111). TLS emès per GitHub. `Enforce HTTPS` actiu.
+- **Cert TLS**: va requerir treure i tornar a posar el domini al panell (no via API); fix aplicat el 2026-09-25.
+
+---
+
+## Sessió 2026-09-25 — CMS a GitHub, seguretat, guia i peu
+
+- **CMS ↔ GitHub**: `backend: github`, repo `112books/9bi`, branca `main`. Entrada amb PAT classic (scope `repo`).
+- **Miniatures al CMS** (commit `a04d62d56`): 2.911 valors `cover.image` normalitzats de `images/covers/…` a `/images/covers/…`.
+- **Col·lecció «Pàgines del web»**: 13 pàgines fixes editables al CMS; camps tècnics com a `hidden`.
+- **Rail propi del CMS** (commit `8d98f192f`): lateral nativa amagada; `<aside class="cms-rail">` propi. Articles per any (desplegable), Documentació, Àlbums (per login) i Administració.
+- **Guia publicada sense indexar**: `content/guia/` amb `robotsNoIndex + hiddenInRss + sitemap.disable`.
+- **Auditoria de seguretat** (informe: `~/Desktop/cyber-neo-report-9arrisimatge.org-2026-09-25.md`): Risk Score 49/100. Quick wins aplicats (commit `b700c5bbc4`): `.gitignore`, fail hard als secrets, noindex al CMS. Lot audit votació (commit `ee7769edf5`): cookies Secure, rate limit admin, CSRF POST /admin/tancar, caducitat de sessió, cap de mida 64 KB.
+- **Peu del CMS reduït**: filet vermell + CC + «Powered by LinuxBCN with Hugo & PaperMod».
+- **404 útil** (commit `70f4f626f9`): `layouts/404.html` amb cerca directa, `noindex`, HTTP 404 real.
+- **GOATCOUNTER_API_KEY**: afegida a GitHub Actions secrets. `/stats/` es refresca a cada deploy (cron cada 6 h).
+
+---
+
+## Sessió 2026-09-25 (v2) — Guia, formularis i sincronització
+
+- **Formularis** (commit `57b021ae78`): `modules/formularis/` al servidor (`~/apps/formularis/`, port 8302, htaccess proxy). SMTP directe de Dinahosting: `9barrisimatge-org.correoseguro.dinaserver.com:465`. `config.ini` al servidor (600). Formularis `/contacte/` i `/incorpora-te/` apunten al nou servei. FormSubmit desactivat.
+- **Guia d'editors**: `content/guia/crear-compte.md` amb GitHub + PAT. Correu d'invitació preparat a `drafts/emails-usuaris.md`.
+
+---
+
+## Sessió 2026-09-26 — Mode de proves de la votació
+
+- **Punt del geofence corregit**: Casal de Barri de Prosperitat, Plaça d'Àngel Pestanya (08016): `lat = 41.441623`, `lon = 2.179794`, `radi = 500`. El punt anterior (41.3948/2.1775) era a 5,2 km.
+- **http→https**: `.htaccess` redirigeix totes les rutes `http→https` (sense afectar `.well-known`).
+- **`revote_minutes`**: en mode proves = 10 min; en producció = 0 (1 vot per obra i dispositiu).
+- **Privacitat al formulari**: coordenades no es desen, cookie `vid` HttpOnly.
+- **`connect()` sincronitza config** (nom, dates, geo, etc.) al registre de l'edició en cada arrencada, sense tocar obres ni vots.
+
+---
+
+## Sessió 2026-09-27 — Paquet Taro, llicències i votació
+
+- **Regla del proveïdor**: cap document públic ni el paquet distribuïble ha de dir «Dinahosting». LinuxBCN ofereix l'allotjament com a servei propi.
+- **Quatre bugs corregits**: `SELECT *` amb SQLite nou, `UnboundLocalError body_estat`, `mktemp -d` al deploy, `html_link()` sense URL.
+- **Protecció TLS als `.htaccess`**: condicions `%{HTTPS}` + `X-Forwarded-Proto` per evitar bucles de 301.
+- **Llicències**: AGPL-3.0 + `LICENSES/` amb avisos de tercers. Sveltia és MIT (no GPL-3.0).
+- **Data d'activació definitiva**: votació obre **01/12/2026 00:00**, es tanca **15/12/2026 23:59:59**.
+- **BBDD buida** al servidor (8 vots de proves esborrats). `/admin/obres` 200 verificat.
+- **PENDENT CRÍTIC (T-01)**: la BBDD conté les 100 obres de prova. Cal substituir-les amb la llista real abans del 30/11 i esborrar `data.db`.
+
+---
+
+## Sessió 2026-09-28 — Telegram, compartir, comentaris, títols
+
+- **Autopublicació Telegram** (commit `33d5a437d`): `modules/telegram/telegram_post.py`, feed `/posts/`, cron 30 min, `state.json` amb 3.008 guids marcats. **No tocar `state.json`**.
+- **Botons de compartir** (commit `7e5406ec6`): `layouts/_partials/post-share.html`, icones rodones per post.
+- **Comentaris** (commits `d4b7c6a45`, `f4cb6d8c1`): `modules/formularis/comentaris.py`. Flux: formulari → pendent → correu a info@ → revisió signada (HMAC) → «Publica» crea `data/comentaris/<fitxer-post>/<id>.json` via API GitHub → commit → build. «Descarta» provat OK. **«Publica» pendent de provar amb el primer comentari real.**
+- **399 títols normalitzats** (commit `969076cc4`): només el camp `title`; URL intactes.
+- **RSS**: peu i `/contacte/` apunten a `/posts/index.xml`.
+- **T-15 tancada**: butlletí aparcat; comunicació per Telegram intern.
+- **T-14 (Instagram/Facebook)**: de moment manual. 2.930/3.008 posts tenen portada.
+
+---
+
+## Sessió 2026-09-28 (v2) — GoatCounter i distribuïble Taro
+
+- **GoatCounter** (commit `16bdec539`): `/stats/` usa `total` de `/stats/total` (no la suma de hits limitats a 50 pàgines).
+- **Branca `distribucio`** (local, `90ebcc6379` + `af8a537d6f`): plantilla Taro sense contingut del 9bi, marcadors `[POSA-HI: …]`. **No publicada** (bloquejada per quota de Codeberg).
+- **Codeberg**: branca `pages` esborrada. Compte a 752,7 MiB. GC demanat a issue #2522 (comentari 28/09 20:17).
+
+---
+
+## Sessió 2026-09-28 (v3) — Estadístiques i títols (T-08/T-30)
+
+- **T-08** (commit `699e52a1b5`): 95 canvis de títol (21 «Sense títol» + 75 repetits), esborrat post buit `2008-04-08-blog-post.md`. Build: 8.707 pàgines, 3.007 posts.
+- **T-30** (commits `d2cc9eacf9`, `d6cd104746`): 6 títols llargs escurçats + convenció Joan Linux `any-mes-dia - títol` als 26 posts seus.
+- **Estadístiques** (commit `27d4b914ff`): `hits_by_day` construïda des de `stats` de `/stats/total` (suma quadra). Etiqueta «total any» → «total període».
+
+---
+
+## Sessió 2026-09-29 — Concurs: guanyadors, trofeus, franja de capçalera
+
+- **Guanyadors del concurs** (commit `c900a64d1a`): recerca a `blog.pocallum.cat`, Blogger, Casal i Wayback Machine. Afegits 2023, 2022, 2019, 2018, 2017, 2016 i 2014.
+- **2020 confirmat**: no hi va haver edició (comunicat 28/09/2020 pel tancament del Casal).
+- **Trofeus Carlitos** (commit `2ee33f6af5`): `trofeus-9bi-carlitos.jpg` a «Els trofeus», reduïda al 50%.
+- **Ordre taula**: 2026→1990 (commit `f83d399461`).
+- **Crèdit logotip** (commits `cb21aac09d` etc.): Toni Pagès, 2002, Instagram `pages2147`.
+- **Franja de capçalera** (commits `bd0129a3a6` etc.): capa `position:absolute`, `rgba(224,49,49,0.55)`, `z-index:0` sota el nav (`z-index:1`). Atenuació: fosc 0,72→0,8; clar 0,9→0,94; `page_bg` 0,14→0,10.
+
+---
+
+## Sessió 2026-09-30 — SEO al CMS, autor per defecte, slug estable
+
+- **Redirecció URL post Naya** (commit `e36dc4c8ba`): `aliases` afegit; causa = Sveltia buida el `slug` quan canvia el `title`.
+- **`seoTitle`** (commit `3af5e5b920`): camp opcional als 19 reculls; si buit, usa `title` sense prefix de data. Plantilles: `seo-title.html`, `head.html` (sobreescrit), `opengraph.html`, `twitter_cards.html`, `schema_json.html`.
+- **Autor per defecte** (commit `3af5e5b920`): hook `preSave` al CMS mapeja login GitHub → nom d'autor (`CMS_AUTHORS`). Cal afegir cada editor nou.
+- **URLs estables** (commit `cfbd4d2c3b`): `slug` explícit als 4 posts que no en tenien; hook `preSave` omple `slug` dels articles nous.
+- **Ajuda camp `slug`** (commit `0d473080fa`): etiqueta «Adreça web de l'article (no tocar)» amb avís.
+- **Regressió `slug`** (commit `c1781d476d`): restaurat + alias; hook recupera `slug` si queda buit.
+- **Bug CI**: `layouts/README.txt` contenia `<title>` → Hugo el parsejava com a plantilla. Corregit (`6cd5ee98e2`).
+
+---
+
+## Sessió 2026-09-30 (v2) — /admin/intern/: actes i tasques al repo privat (Fase 1)
+
+- **El repo `112books/9bi` és públic**: `draft: true` no amaga res a GitHub. Per decisió de l'usuari, la documentació interna (`content/documentacio/`: acta del 10/09 i documents del concurs) s'ha **mogut** al repo **privat `112books/9bi-intern`** (commit `d478254`, carpetes `actes/` i `concurs/`) i s'ha esborrat del públic **sense reescriure l'historial** (hi continua visible a l'historial antic).
+- **Gestor intern** `static/admin/intern/`: segon Sveltia (reutilitza `../sveltia-cms.js`) amb `backend.repo: 112books/9bi-intern`. Sessió compartida amb `/admin/` (mateix `localStorage`); el PAT classic `repo` ja hi serveix, un fine-grained ha d'incloure 9bi-intern. Els estils de `index.html` són **còpia** dels de `../index.html`.
+  - `actes`: title, date, lloc, **assistents** (select múltiple de membres actius, llista `x-membres` a mà: el CMS no pot relacionar amb `data/membres/` d'un altre repo), `persones_reunides` (text lliure per a no-membres), convidat, ordre_del_dia, **acords** `{text, projecte}`, votacions, **tasques** `{id (uuid), text, responsable, termini, projecte, estat: pendent|en curs|feta|descartada}`, **visibilitat** `interna|publica` (per defecte interna), body.
+  - `concurs`: igual que abans.
+- **`/admin/intern/tasques.html`**: llegeix les actes per l'API de GitHub amb el token de la sessió (res es publica), agrega les tasques no tancades (l'acta **més recent** mana, per `id`; sense id, per text), filtres responsable/projecte (també `?responsable=&projecte=`) i botó **«Acta nova amb les tasques obertes»** (crea `actes/acta-YYYY-MM-DD-reunio.md` amb les tasques obertes i els seus id). `js-yaml` 4.1.0 (MIT) autoallotjat.
+- Decisió: les tasques **no** surten a la pàgina pública dels projectes (només a l'admin).
+- Verificat: build net; prova amb navegador i API simulada (filtres, fusió per id, termini vençut, creació d'acta, acta ja existent, 375 px sense desbordament); Sveltia accepta el config intern.
+- **Pendent**: Fase 2 (projectes públics: 13-B i «retrat gegant col·lectiu»).
