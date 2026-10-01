@@ -5,6 +5,16 @@ Per a l'estat actual i la configuració del projecte, vegeu [`CLAUDE.md`](../CLA
 
 ---
 
+## Sessió 2026-10-01 — CMS: millores de camps i fix d'estadístiques
+
+- **CLAUDE.md reduït** (697 → 173 línies): historial de sessions mogut a `gestio/SESSIONSLOG.md`, recerca de fotògrafs i concurs a `gestio/RECERCA.md`.
+- **CMS `config.yml`**: camp `seoTitle` reordenat just a sobre de la descripció en els 19 reculls d'any; hint al camp d'etiquetes aclarint que cal usar Intro o el botó «+» (la coma no divideix etiquetes a Sveltia).
+- **CMS `index.html`**: footer eliminat completament (CSS + HTML, 87 línies). Estava buit de contingut útil i interfereixi amb l'editor del cos de l'article. Commit `cfd0e3ba86`.
+- **Estadístiques (`/stats/` i `/mes-visitats/`)**: `analytics.json` i `popular.json` congelats des del 24/09 i del deploy inicial respectivament. Causa: `GOATCOUNTER_API_KEY` absent de GitHub Actions Secrets. Solucionat: clau posada, `workflow_dispatch` verificat, tots dos scripts actualitzen correctament.
+- **Aclarit**: les «1000 visites» d'Instagram eren impressions del post, no clics al web. GoatCounter compta menys per ad blockers.
+
+---
+
 ## Sessió 2026-09-17 — Migració real des de Blogger
 
 - **Migrat**: `scripts/migrate_live.py` — 3.006/3.006 posts des del feed Atom en directe (sense export XML). Mapeig d'autor per `<author><uri>` (taula `AUTHOR_BY_URI`). Vocabulari de tags real agregat per suggerir-ne als posts sense cap (marcats amb comentari HTML `<!-- tags auto-generades... -->`).
