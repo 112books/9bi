@@ -8,10 +8,10 @@ tags:
 - flamenco
 cover:
   image: /images/covers/a33e5e23dfa53156.webp
-album_url: https://picasaweb.google.com/103138221614479310970/AndresDeJerezAmbEdgarPlatonIElRubioDeLaIsla?authuser=0&feat=embedwebsite
+album_url: https://photos.app.goo.gl/K2tEcyup6A8Ked5GA
 ---
 
 |  |
 | --- |
 |  |
-| De [Andrés de Jerez amb Edgar Platón i el Rubio de la Isla](https://picasaweb.google.com/103138221614479310970/AndresDeJerezAmbEdgarPlatonIElRubioDeLaIsla?authuser=0&feat=embedwebsite) |
+| De [Andrés de Jerez amb Edgar Platón i el Rubio de la Isla](https://photos.app.goo.gl/K2tEcyup6A8Ked5GA) |

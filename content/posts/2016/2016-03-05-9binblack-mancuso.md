@@ -9,7 +9,7 @@ tags:
 - 9bi
 cover:
   image: /images/covers/a7f8191274fb3cbf.webp
-album_url: https://picasaweb.google.com/103138221614479310970/9BinBlackMancuso?authuser=0&feat=embedwebsite
+album_url: https://photos.app.goo.gl/ARYKG8Xedq452Ypm6
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->
@@ -17,4 +17,4 @@ album_url: https://picasaweb.google.com/103138221614479310970/9BinBlackMancuso?a
 |  |
 | --- |
 |  |
-| De [9BinBlack - Mancuso](https://picasaweb.google.com/103138221614479310970/9BinBlackMancuso?authuser=0&feat=embedwebsite) |
+| De [9BinBlack - Mancuso](https://photos.app.goo.gl/ARYKG8Xedq452Ypm6) |

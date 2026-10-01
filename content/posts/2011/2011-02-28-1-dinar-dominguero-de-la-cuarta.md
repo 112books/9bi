@@ -16,4 +16,4 @@ album_url: https://picasaweb.google.com/lh/photo/5L2xhqFOVjLzISDDhslqt2FowNUGffR
 |  |
 | --- |
 |  |
-| De [1ª Dinar dominguero de "la Cuarta"!! 27-02-11](https://picasaweb.google.com/linuxbcn/1DinarDomingueroDeLaCuarta270211?authkey=Gv1sRgCN6X5ZTX-pDe4AE&feat=embedwebsite) |
+| De [1ª Dinar dominguero de "la Cuarta"!! 27-02-11](https://photos.app.goo.gl/Evmrz6mSLa8yy5BW9) |

@@ -9,7 +9,7 @@ tags:
 - obres
 cover:
   image: /images/covers/f1a4f4f92b372768.webp
-album_url: https://picasaweb.google.com/103138221614479310970/9BCabrejadaNoEsPobresaEsInjusticia?authuser=0&feat=embedwebsite
+album_url: https://photos.app.goo.gl/Dr9nM7gbj7tANorL8
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->
@@ -17,4 +17,4 @@ album_url: https://picasaweb.google.com/103138221614479310970/9BCabrejadaNoEsPob
 |  |
 | --- |
 |  |
-| De [9BCabrejada - No és pobresa! És injusticia!](https://picasaweb.google.com/103138221614479310970/9BCabrejadaNoEsPobresaEsInjusticia?authuser=0&feat=embedwebsite) |
+| De [9BCabrejada - No és pobresa! És injusticia!](https://photos.app.goo.gl/Dr9nM7gbj7tANorL8) |
