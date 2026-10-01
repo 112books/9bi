@@ -82,7 +82,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Prem Intro o la coma per afegir cada etiqueta. Pots afegir-ne tantes com vulguis." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
@@ -114,7 +114,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Prem Intro o la coma per afegir cada etiqueta. Pots afegir-ne tantes com vulguis." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
@@ -146,7 +146,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Prem Intro o la coma per afegir cada etiqueta. Pots afegir-ne tantes com vulguis." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
@@ -178,7 +178,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Prem Intro o la coma per afegir cada etiqueta. Pots afegir-ne tantes com vulguis." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
@@ -210,7 +210,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Prem Intro o la coma per afegir cada etiqueta. Pots afegir-ne tantes com vulguis." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
@@ -242,7 +242,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Prem Intro o la coma per afegir cada etiqueta. Pots afegir-ne tantes com vulguis." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
@@ -274,7 +274,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Prem Intro o la coma per afegir cada etiqueta. Pots afegir-ne tantes com vulguis." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
@@ -306,7 +306,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Prem Intro o la coma per afegir cada etiqueta. Pots afegir-ne tantes com vulguis." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
@@ -338,7 +338,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Prem Intro o la coma per afegir cada etiqueta. Pots afegir-ne tantes com vulguis." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
@@ -370,7 +370,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Prem Intro o la coma per afegir cada etiqueta. Pots afegir-ne tantes com vulguis." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
@@ -402,7 +402,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Prem Intro o la coma per afegir cada etiqueta. Pots afegir-ne tantes com vulguis." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
@@ -434,7 +434,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Prem Intro o la coma per afegir cada etiqueta. Pots afegir-ne tantes com vulguis." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
@@ -466,7 +466,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Prem Intro o la coma per afegir cada etiqueta. Pots afegir-ne tantes com vulguis." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
@@ -498,7 +498,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Prem Intro o la coma per afegir cada etiqueta. Pots afegir-ne tantes com vulguis." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
@@ -530,7 +530,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Prem Intro o la coma per afegir cada etiqueta. Pots afegir-ne tantes com vulguis." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
@@ -562,7 +562,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Prem Intro o la coma per afegir cada etiqueta. Pots afegir-ne tantes com vulguis." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
@@ -594,7 +594,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Prem Intro o la coma per afegir cada etiqueta. Pots afegir-ne tantes com vulguis." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
@@ -626,7 +626,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Prem Intro o la coma per afegir cada etiqueta. Pots afegir-ne tantes com vulguis." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
@@ -658,7 +658,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Prem Intro o la coma per afegir cada etiqueta. Pots afegir-ne tantes com vulguis." }
+      - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
       - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
