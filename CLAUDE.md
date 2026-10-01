@@ -2,9 +2,12 @@
 
 Documentació per a sessions de Claude. Només fets verificats dels fitxers del projecte.
 
-- **Demanar permís abans d'inventar**: cal demanar permís per vols inventar creativament coses (textos, funcionalitats,
-  disseny, etiquetes…). Quan hem consensuat un pla cal aplicar-lo sense tonteries (sense re-verificar el que ja està
-  verificat i registrat), a no ser que puguis trencar res — en aquest cas aturar i avisar abans.
+> **Historial de sessions**: [`gestio/SESSIONSLOG.md`](gestio/SESSIONSLOG.md)
+> **Recerca** (fotògrafs, concurs Cordoncillo): [`gestio/RECERCA.md`](gestio/RECERCA.md)
+> **Tasques pendents**: [`.taques/TASQUES.md`](.taques/TASQUES.md)
+
+- **Demanar permís abans d'inventar**: cal demanar permís per vols inventar creativament coses (textos, funcionalitats, disseny, etiquetes…). Quan hem consensuat un pla cal aplicar-lo sense tonteries (sense re-verificar el que ja està verificat i registrat), a no ser que puguis trencar res — en aquest cas aturar i avisar abans.
+
 ## REGLA PRIMERA (obligatòria)
 
 - **No implementar mai res pel meu compte.** Ni contingut, ni textos, ni disseny, ni enllaços, ni estructures noves. Els suggeriments són benvinguts, però **cal presentar-los i esperar una aprovació explícita de l'usuari abans de tocar cap fitxer.**
@@ -12,685 +15,159 @@ Documentació per a sessions de Claude. Només fets verificats dels fitxers del 
 - **No canviar el disseny** (colors, bandes, marges, tipografia, ordre, components) sense aprovació explícita, tant per fer canvis nous com per revertir els existents.
 - Si quelcom és ambigu, **preguntar**; no assumir ni improvisar.
 - El rigor per sobre de la velocitat: verificar sempre a `content/` i `layouts/` abans de donar per fet què hi ha.
-- **Serveis externs**: abans de provar un servei extern nou (allotjament, CI/CD, edició de codi, aplicacions…), cal **estudiar-ne bé totes les condicions d'ús**: espai disponible, preus, tipus d'usos permesos, límits i polítiques. Documentar-ho a `gestio/` o `drafts/` abans d'aprovar-ne l'ús (lligó de la quota de Codeberg, 2026-09-21).
+- **Serveis externs**: abans de provar un servei extern nou, cal estudiar-ne totes les condicions d'ús i documentar-ho a `gestio/` o `drafts/` (lligó de la quota de Codeberg, 2026-09-21).
 
 ## Protocol d'inici de sessió (obligatori)
 
-A l'inici de **cada** sessió (OpenCode, Claude o la que sigui), abans de treballar:
+A l'inici de **cada** sessió, abans de treballar:
 
-1. **Sincronitzar els repositoris**: `git fetch origin` i comprovar que `main` (i la branca `pages`) estiguin al dia.
-2. **Iniciar la gestió d'hores**: activar/enregistrar el temps de la sessió (skill `time-tracker`, `.taques/`).
-3. **Recompte del web**: usuaris (GoatCounter), nombre de posts i números del web (posts · anys · membres).
+1. **Sincronitzar els repositoris**: `git fetch origin` i comprovar que `main` estigui al dia.
+2. **Iniciar la gestió d'hores**: activar/enregistrar el temps (skill `time-tracker`, `.taques/`).
+3. **Recompte del web**: nombre de posts i membres (GoatCounter per a usuaris).
 
 ## Loop de tasques (definit per l'usuari, 2026-09-24)
 
-Quan l'usuari demani «loop de tasques» o «seguim amb les tasques pendents»: treballar la llista de tasques **una a una**:
+Quan l'usuari demani «loop de tasques» o «seguim amb les tasques pendents»:
 
 1. **Llistar** les tasques pendents de `.taques/TASQUES.md` amb l'estat real verificat (no assumir res). En tancar-ne una, moure-la a «Fetes» amb data, temps i commit.
 2. **Pensar la millor manera** de fer la tasca i **fer-la** (amb aprovació explícita abans de tocar fitxers/disseny).
 3. **Verificar** (build + navegació real + desplegament). **Si no passa la verificació, arreglar-ho** i repetir.
-4. **Si no es pot seguir per faltar una decisió**: **congelar la tasca** (anotar el que falta i per què), **avisar entre tasques**, i passar a la següent.
-5. Repetir fins acabar la llista. Les 5 dictades el 2026-09-21 tenen prioritat.
+4. **Si no es pot seguir per faltar una decisió**: congelar la tasca (anotar el que falta i per què), avisar, i passar a la següent.
+5. Repetir fins acabar la llista.
 
 ## El projecte
 
 Lloc web estàtic del **Col·lectiu 9 Barris Imatge** (Barcelona), migrat de Blogger a Hugo + PaperMod i publicat a GitHub Pages.
 
-## Estat real (verificat el 2026-09-25)
+## Estat real (verificat el 2026-10-01)
 
 - Producció: `https://9barrisimatge.org/`, desplegada per `.github/workflows/deploy.yml` des del push a `main`.
-- Repositori de producció i CMS: **GitHub `112books/9bi`** (`main`). Publicació local: `git push origin main` (el remote de GitHub es diu `origin`; el de Codeberg, `codeberg`).
-- **Codeberg `linuxbcn/9bi`** es conserva com a backup amb historial; el push està bloquejat per quota i no participa en producció.
+- Repositori de producció i CMS: **GitHub `112books/9bi`** (`main`). Publicació: `git push origin main`.
+- Remotes locals: `origin` = GitHub (`git@github.com:112books/9bi.git`); `codeberg` = Codeberg (backup, push bloquejat per quota).
+- **Codeberg `linuxbcn/9bi`**: backup read-only. GC demanat a issue #2522 (comentari 28/09); sense resposta. Branca `pages` esborrada el 28/09. Compte a 752,7 MiB.
 - Tema PaperMod vendored a `themes/PaperMod/`.
+- **Posts actuals**: 3.009 (3.006 migrats de Blogger + 3 articles nous), 20 carpetes d'anys (2008–2026).
 
 ## Comandes
 
 - Servei local: `hugo server -D` → http://localhost:1313
 - Build: `hugo --minify` → `public/`
-- Migració Blogger (requereix `.venv-migracio` amb `markdownify` + `pyyaml`):
-  `source .venv-migracio/bin/activate && python3 scripts/migrate_blogger.py --input exports/blog-EXPORT.xml`
-- Més visitats: `python3 scripts/goatcounter_popular.py --days 30` (requereix `GOATCOUNTER_API_KEY`, usa `urllib` de la biblioteca estàndard)
+- Stats locals: `python3 scripts/fetch_9bi_analytics.py` (requereix `GOATCOUNTER_API_KEY`)
+- Més visitats: `python3 scripts/goatcounter_popular.py --days 30` (requereix `GOATCOUNTER_API_KEY`)
 
 ## Versions (verificades)
 
 - Hugo **0.164.0 extended** (fixada a `.github/workflows/deploy.yml`)
 - Sveltia CMS **0.217.0** (autoallotjat a `static/admin/sveltia-cms.js`)
 
-## Configuració actual (`hugo.toml`)
+## Configuració (`hugo.toml`)
 
-- `baseURL` **https://9barrisimatge.org/** (producció; `config/production/hugo.toml`) · `config/staging/hugo.toml` apunta a Codeberg Pages i `config/development/hugo.toml` serveix el lloc local · title "9 Barris Imatge" · `locale ca` · `timeZone Europe/Madrid` · `enableRobotsTXT = true`
-- `uglyURLs = true` (preserva les URL `.html` de Blogger)
-- `[permalinks] posts = "/:year/:month/:slug"`
-- `[markup.goldmark.renderer] unsafe = true` i `[markup.goldmark.parser.attribute] block = true`
-- Taxonomies: `tag` → `tags`, `category` → `categories`, `author` → `author` · `paginate = 24`
-- `params`: `defaultTheme = "dark"`, description, ShowPostAuthors=true, ShowBreadCrumbs=false, ShowReadingTime=false, ShowShareButtons=false, ShowPostNavLinks=true, ShowCodeCopyButtons=true, ShowWordCount=false, comments=false; `homeInfoParams` (Title + Content)
-- `menu.main`: Inici(/), Arxiu(/archive/), Qui som(/qui-som/), El Concurs(/concurs/), FAQ(/faq/), **Cerca(/search/)**, Contacte(/contacte/) — **la Guia NO hi és** al menú públic; és interna, es publica a `/guia/` amb `noindex` i s'accedeix des del chrome del CMS
-- `menu.footer` (columnes «El web» del peu): **Arxiu 9bi**(/archive/), **Etiquetes / Tags**(/tags/), Més visitats(/mes-visitats/), **Estadístiques del web**(/stats/), Cerca(/search/)
+- `baseURL` **https://9barrisimatge.org/** (producció) · title "9 Barris Imatge" · `locale ca` · `timeZone Europe/Madrid`
+- `uglyURLs = true` · `[permalinks] posts = "/:year/:month/:slug"` · `paginate = 24`
+- `[markup.goldmark.renderer] unsafe = true` · `[markup.goldmark.parser.attribute] block = true`
+- Taxonomies: `tag → tags`, `category → categories`, `author → author`
+- `params`: `defaultTheme = "dark"`, ShowPostAuthors=true, ShowBreadCrumbs=false, ShowReadingTime=false, ShowShareButtons=false, ShowPostNavLinks=true, ShowCodeCopyButtons=true, ShowWordCount=false, comments=false
+- `menu.main`: Inici(/), Arxiu(/archive/), Qui som(/qui-som/), El Concurs(/concurs/), FAQ(/faq/), Cerca(/search/), Contacte(/contacte/) — **la Guia NO hi és** (interna, a `/guia/`, `noindex`)
+- `menu.footer`: Arxiu 9bi, Etiquetes/Tags, Més visitats, Estadístiques del web, Cerca
 
 ## Estructura de fitxers (verificada)
 
 ```
 content/
-├── posts/YYYY/                     # 3.008 posts actuals (3.006 migrats de Blogger + 2 articles nous), en subcarpetes per any (2008…2026); les URL no depenen del path (permalinks `/:year/:month/:slug` del front matter)
-├── qui-som.md, concurs.md, contacte.md, privacitat.md, avis-legal.md, cookies.md, credits.md   # pàgines estàtiques (amb `url` explícita)
-├── subvencions.md                 # pàgina filla de «Qui som» (`url: /qui-som/subvencions/`, amb alias de l'antic URL del post)
+├── posts/YYYY/                  # posts en subcarpetes per any; URL depèn del front matter (permalinks /:year/:month/:slug)
+├── qui-som.md, concurs.md, contacte.md, privacitat.md, avis-legal.md, cookies.md, credits.md
+├── subvencions.md               # url: /qui-som/subvencions/ (pàgina filla)
 ├── search.md (layout "search"), archive.md (layout "archives")
 ├── mes-visitats.md (layout "popular" + hiddenInRss: true)
-├── guia/                          # _index.md + 7 subpàgines — `robotsNoIndex`, `hiddenInRss` i `sitemap.disable`; accessibles al web, sense indexar i sense enllaçar des del menú públic
-└── documentacio/                  # interna (draft): actes/ (acta 2026-09-10) + concurs/
+├── guia/                        # _index.md + 7 subpàgines: robotsNoIndex + hiddenInRss + sitemap.disable
+└── documentacio/                # draft: true (interna)
 layouts/
-├── baseof.html                    # SOBREESCRIT: clau de caché del footer (condició de «números»)
-├── single.html                    # SOBREESCRIT: h1 amb visualTitle (salt de línia) si el front matter el porta
-├── index.html                     # portada en mosaic (grid de fotos, paginat)
-├── archives.html                  # arxiu + índex d'anys a la dreta (rail)
-├── taxonomy.html                  # SOBREESCRIT: núvol d'etiquetes (/tags/)
-├── author/term.html               # pàgina de posts per autor (mosaic paginat)
-├── _shortcodes/membres.html       # taula de membres (ordenada per nº de posts)
-├── _shortcodes/rel.html           # {{< rel "/ruta" >}} → relURL base-aware (per a HTML cru del markdown)
-├── _default/popular.html          # llista de més visitats (llegeix data/popular.json)
-├── _markup/render-image.html      # reescriu rutes d'imatge que comencen per «/» amb relURL
+├── baseof.html                  # SOBREESCRIT: clau de caché del footer
+├── single.html                  # SOBREESCRIT: h1 amb visualTitle si el front matter el porta; header_image a tot l'ample
+├── index.html                   # portada en mosaic (grid de fotos, paginat)
+├── archives.html                # arxiu + índex d'anys a la dreta
+├── taxonomy.html                # SOBREESCRIT: núvol d'etiquetes (/tags/)
+├── 404.html                     # SOBREESCRIT: 404 útil amb cerca directa
+├── author/term.html             # pàgina de posts per autor (mosaic paginat)
+├── _shortcodes/membres.html     # taula de membres (actius + antics)
+├── _shortcodes/rel.html         # {{< rel "/ruta" >}} → relURL base-aware
+├── _default/popular.html        # llista de més visitats (llegeix data/popular.json)
+├── _markup/render-image.html    # reescriu rutes d'imatge que comencen per «/» amb relURL
 └── _partials/
-    ├── header.html                # SOBREESCRIT: icones de menú per .Identifier + JS .scrolled (sticky)
-    ├── footer.html                # SOBREESCRIT: banda accent + 5 columnes (logo, buida, web, legal, números) + CC + count-up + reveal
-    ├── extend_head.html           # preload de fonts + GoatCounter → 9bi.goatcounter.com
-    ├── extend_footer.html         # BUIT (el contingut del peu s'ha mogut a footer.html)
-    └── extend_post_content.html   # botó "Veure tot l'àlbum de fotos" (si album_url)
-assets/css/extended/custom.css     # estils: mosaic, botó àlbum, tipografies (@font-face), peu (footer-band/-cols/-bottom), formulari, membres, footer-stats
-static/admin/{config.yml,index.html,sveltia-cms.js}  # Sveltia CMS autoallotjat
-static/images/                     # imatges (media_folder del CMS)
-scripts/{migrate_blogger.py,migrate_live.py,goatcounter_popular.py}
-data/popular.json                    # top visites (exemple)
-data/membres/                        # un fitxer per membre (autor, nom, malnom, web, instagram, actiu)
-.github/workflows/deploy.yml      # CI/CD de producció a GitHub Pages
-archetypes/default.md              # front matter per defecte
-sync-9bi.sh                        # script de sync/gestió
+    ├── header.html              # SOBREESCRIT: icones SVG per .Identifier + sticky + franja vermella
+    ├── footer.html              # SOBREESCRIT: banda accent + 5 columnes + CC + count-up + reveal
+    ├── post-share.html          # botons de compartir per entrada (WhatsApp, Telegram, FB, correu, copia)
+    ├── post-comments.html       # llista de comentaris + formulari (moderació prèvia)
+    ├── seo-title.html           # títol SEO: seoTitle o title sense prefix de data
+    ├── head.html                # SOBREESCRIT: usa seo-title.html
+    ├── extend_head.html         # preload de fonts + GoatCounter → 9bi.goatcounter.com
+    ├── extend_footer.html       # BUIT
+    └── extend_post_content.html # botó "Veure tot l'àlbum de fotos" (si album_url)
+assets/css/extended/custom.css  # mosaic, tipografies, peu, formulari, membres, 404, concurs…
+static/admin/{config.yml,index.html,sveltia-cms.js}
+static/images/                  # imatges (media_folder del CMS)
+static/stats/                   # dashboard /stats/ (Chart.js + analytics.json, noindex)
+data/membres/                   # un fitxer .yml per membre (autor, nom, malnom, web, instagram, actiu)
+data/popular.json               # top visites (generat per goatcounter_popular.py)
+data/comentaris/                # comentaris aprovats (JSON per post, creats via API GitHub)
+gestio/SESSIONSLOG.md           # historial detallat de sessions
+gestio/RECERCA.md               # recerca: fotògrafs de NB, cronologia concurs Cordoncillo
+.github/workflows/deploy.yml    # CI/CD: push a main + cron cada 6 h
+.taques/TASQUES.md              # font única de tasques pendents
 ```
 
 ## Front matter (convencions reals)
 
-- **Posts**: `title`, `date` (ISO), `year` (any, afegit 2026-09-18 per al filtratge del CMS), `author`, `slug`, `tags` (llista), `cover.image` (opcional), `album_url` (opcional), `description` (opcional)
+- **Posts**: `title`, `date` (ISO), `year` (any), `author`, `slug` (obligatori, estable), `tags` (llista), `cover.image` (opcional, `/images/covers/…`), `album_url` (opcional), `description` (opcional = meta SEO), `seoTitle` (opcional = títol SEO sense prefix data)
 - **Pàgines**: `title`, `description`, `url` (ruta final explícita)
-- **Guia**: `robotsNoIndex: true` + `hiddenInRss: true` + `sitemap.disable: true`, publicada a `/guia/` i accessible només des de l'editor/CMS
-- **Documentació**: `draft: true` (interna; no surt a `public/`)
-- **search.md**: `layout: "search"` · **archive.md**: `layout: "archives"` · **mes-visitats.md**: `layout: "popular"` + `hiddenInRss: true`
+- **Guia**: `robotsNoIndex: true` + `hiddenInRss: true` + `sitemap.disable: true`
+- **Documentació**: `draft: true`
 
 ## Sveltia CMS (`static/admin/config.yml`)
 
-- Backend `github`: repo `112books/9bi`, `branch main`; entrada actual amb PAT classic (`repo`) via «Sign In with Token»
-- `media_folder: static/images` · `public_folder: /images`; script de l'aplicació autoallotjat a `static/admin/sveltia-cms.js`
-- 32 col·leccions: 19 d'articles per any (`posts-2026`…`posts-2008`, una per subcarpeta `content/posts/YYYY/` amb `sortable_fields` per data desc; camps: title, date, year [hidden, default l'any], slug, author [select], cover.image, album_url, tags, description, body), la col·lecció de fitxers **`web-pages` «Pàgines del web»** (les 13 pàgines fixes de `content/*.md`; camps tècnics `url`, `layout`, `hiddenInRss`, `page_bg`, `aliases`, `build` com a **hidden** perquè no es perdi'n cap en desar), `guia`, `actes` (title, date, lloc, persones_reunides, convidat, ordre_del_dia, draft, body), `concurs` (title, tipo[select], date, draft, body), `membres` (vegeu "Sessió 2026-09-18 (v6)") i 8 col·leccions **«Àlbums per arreglar · <autor>»** (`recuperacio/<autor>/`, llistes de treball per recuperar enllaços d'àlbum Picasa morts; ~1.188 registres). La llista d'autors es reutilitza amb un ancoratge YAML (`x-autors: &autors`).
-- Per veure **qualsevol article** s'usa la **cerca immediata del propi Sveltia** (indexa tot el web); **no** hi ha cap col·lecció «Tots els articles» perquè els 3.008 posts feien trigar molt el carregament (decisió de l'usuari, 2026-09-25).
-- Capçalera del CMS (`static/admin/index.html`): logo + «Llegir la guia» (→ `/guia/`, pestanya nova) + «Torna al web». El rail propi d'anys de la v8 es va perdre en canviar Decap→Sveltia (`d7cdb3b00`).
-- **Rail propi del CMS (FET 2026-09-25)**: la llista de col·leccions de la lateral nativa del Sveltia s'amaga (⚠️ al Sveltia 0.217 **no és un `<aside>`** sinó `<div class="primary-sidebar">` dins d'un divisor redimensionable de `#page-container`, i `#nc-root aside` no hi té efecte; ara s'amaga amb `#nc-root .primary-sidebar { display:none !important }` + `cmsHideNativeSidebar()` amb `MutationObserver`, que oculta el panell i tots els seus ancestres fins a `#page-container` perquè el contingut ocupi tota l'amplada) i la substitueix un `<aside class="cms-rail">` amb la llista mínima: **Articles · <any>** (desplegable 2026→2008, el SUMMARY reflecteix l'any de la ruta `#/collections/posts-YYYY`), «Documentació · Actes», «Documentació · Concurs», «Àlbums per arreglar» i el grup **Administració** (Pàgines del web, Membres, Editar la guia). El JS llegeix `localStorage['sveltia-cms.user'].login` ( dada interna del Sveltia) i mostra «Àlbums per arreglar» només si el login és a l'objecte `CMS_ALBUMS`; a 2026-09-25 només hi ha el login real de l'usuari (`112books` → `recuperacio-joan-linux`, «Joan Linux»; l'únic col·laborador del repo segons l'API de GitHub) i **cada company que tingui compte s'ha d'afegir aquí** amb el seu login → col·lecció (mai logar el `token` de l'objecte d'usuari). La **cerca immediata** del Sveltia (barra superior: icona de llista, miniatures, camp «cerca continguts», «+» i avatar) es conserva malgrat amagar la lateral. Nota honesta: Sveltia no té rols per usuari (`hide: true` és global) i amb Write es pot editar qualsevol fitxer del repo, així que «només admins» és ordenació de la interfície, no protecció.
-- Peu del CMS: **només** filet vermell + llicència CC + «Powered by LinuxBCN with Hugo & PaperMod» (logo, columnes El web/Legal i 9 Barris en números eliminats el 2026-09-25 per decisió de l'usuari; el peu del **web** no s'ha tocat).
+- Backend `github`: repo `112books/9bi`, branca `main`. Entrada: PAT classic (scope `repo`) via «Sign In with Token».
+- `media_folder: static/images` · `public_folder: /images`
+- **32 col·leccions**: 19 d'articles per any (`posts-YYYY`, carpetes físiques `content/posts/YYYY/`, `sortable_fields: date desc`), `web-pages` (13 pàgines fixes, camps tècnics com a `hidden`), `guia`, `actes`, `concurs`, `membres`, 8 col·leccions «Àlbums per arreglar».
+- **Cap col·lecció «Tots els articles»**: els 3.009 posts feien trigar el carregament; s'usa la cerca immediata del Sveltia.
+- **Rail propi** (`static/admin/index.html`): lateral nativa amagada (`#nc-root .primary-sidebar { display:none !important }` + `MutationObserver`); `<aside class="cms-rail">` amb desplegable d'anys 2026→2008, Documentació, Àlbums (per login a `CMS_ALBUMS`), Administració.
+- **`CMS_AUTHORS`**: mapeja login GitHub → nom d'autor (hook `preSave`). Cal afegir cada editor nou.
+- **`CMS_ALBUMS`**: mapeja login → col·lecció de recuperació. Ara: `112books` → `recuperacio-joan-linux`.
+- Peu del CMS: filet vermell + CC + «Powered by LinuxBCN with Hugo & PaperMod».
 
 ## CI/CD (`.github/workflows/deploy.yml`)
 
-- Trigger: **push a `main`** + `workflow_dispatch`
-- Steps: checkout → Hugo 0.164.0 extended → refresc opcional de GoatCounter → `hugo --minify --environment production` → configure/upload/deploy GitHub Pages
-- Producció: **https://9barrisimatge.org/**; el domini apunta als registres A de GitHub Pages i el TLS el provisiona GitHub
-- Publicació: `git push origin main`; Codeberg `linuxbcn/9bi` queda com a backup i no participa en el desplegament de producció
-
-## Sessió 2026-09-21 — Quota de Codeberg: diagnòstic, petició i deploy incremental
-
-> Tot el context i el text llest de la petició a **`drafts/2026-09-21-quota-codeberg.md`**.
-> Decisió de l'usuari: **restar a Codeberg** (programari lliure; defugir GitHub), demanar
-> augment **modest** de quota (1500 MiB), garantir ús eficient, i **no pagar mai per quota**
-> (si Codeberg cobrès — no és la política — pla B: GitHub).
-
-- **Quota de Codeberg**: límit per **usuari** (no per repo) de **750 MiB per a git**; LFS/packages 1,5 GiB addicionals (no es fan servir). Font: blog oficial «New storage limits on Codeberg» (2025-05-14) i FAQ oficial: *"no quota for valid use-cases"*, excepcions per a ús legítim **gratuïtes** (el propietari les aprova amb un "lgtm"; casos reals aprovats: issues 2103, 2109, 2026 de `Codeberg-e.V./requests`).
-- **Ús real del compte `linuxbcn`** (API, 2026-09-21): `9bi` = 767.549 KiB (**≈ 749,6 MiB**), `konsento` = 6.515 KiB, `gestor-hores` = 9 KiB → **total ≈ 756 MiB > 750 MiB** (sobrepas ≈ 6 MiB). Per això el push falla: `Forgejo: Quota exceeded … pre-receive hook declined`.
-- **Causa de la mida de `9bi`**: el **deploy antic** feia `git init` + `git add -A` + `git push -f HEAD:pages` amb **tot el build (~164 MiB)** a cada publicació; els snapshots anteriors quedaven com a **objectes orfes** al servidor que compten per a la quota fins al GC. El repo local comprimit és només ~254 MiB (pack 229 MiB) — aquesta és la mida "honesta". Les **fotos reals són externes** (àlbums Google Photos enllaçats); al repo només hi ha covers/miniatures petites.
-- **Solució aplicada (3 potes)**:
-  1. **Petició `[STORAGE]`** a `Codeberg-e.V./requests/issues/new` (template «Increase storage quota(s)»): Git Repositories **1500 MiB**, LFS 1500 MiB (default). Text complet llest a `drafts/2026-09-21-quota-codeberg.md`. Pend: **enviar-la** (requereix login a Codeberg).
-  2. **Deploy incremental** a `sync-9bi.sh` (implementat 2026-09-21): clon persistent de `pages` a `~/.cache/9bi-pages`, reset a l'últim publicat, rsync del build, i **push normal** (fast-forward) — només es pugen els objectes que canvien; no es creen orfes. **Ja no hi ha force-push.**
-  3. Es deixa anotada l'opció de demanar que Codeberg faci **GC** al servidor (neteja dels orfes antics) un cop hi hagi marge per pushar; amb el deploy incremental el repo ja no creix.
-
-## Sessió 2026-09-24 — DIAGNÒSTIC DEFINITIU del deploy a producció (no tornar-hi)
-
-> El problema «el domini no es refresca» és RECURRENT i queda resolt/descrit aquí d'una vegada.
-> **Quan algú digui que el domini va enrere: llegir aquesta secció i LA SEGUIR, no tornar a investigar.**
-
-- **Dos llocs, dos webhooks SEPARATS** (causa arrel de tots els mals):
-  - `https://linuxbcn.codeberg.page/9bi/` (staging/previsualització) → el publica un webhook del repo amb Target `https://linuxbcn.codeberg.page/9bi/`, Branch filter `pages`.
-  - `https://9barrisimatge.org/` (producció, domini propi) → el publica **UN ALTRE webhook del repo** amb Target `https://9barrisimatge.org/`, Branch filter `pages`. **Sense aquest webhook el domini NO es refresca mai.**
-  - El push a `pages` (el que fa `sync-9bi.sh deploy`) dispara els webhooks; cada un publica només la seva URL. La documentació de Codeberg ho confirma: cal «a webhook for each of them» (per sub/domini).
-- **Estat verificat avui (2026-09-24 ~09:20 CEST)**:
-  - `pages` remota = `60688d207…` (stats, deploy de les 08:52) — **correccigit**, el push arriba bé.
-  - `/9bi/` = **fresc** (Last-Modified 08:53 CEST) → el webhook de staging funciona.
-  - `9barrisimatge.org` = **endarrerit** (contingut de ~01:39 CEST = deploy FAQ 01:40) → **el webhook del domini no ha publicat** el deploy de les 08:52.
-  - DNS **correcta**: `9barrisimatge.org` A → `217.197.84.141`, AAAA → `2a0a:4580:103f:c0de::2`; `www` CNAME `codeberg.page` + A; TXT a `_git-pages-repository.9barrisimatge.org` i `_git-pages-repository.www.9barrisimatge.org` = `"https://codeberg.org/linuxbcn/9bi.git"`. **No és un problema de DNS.**
-- **Per resoldre-ho** (acció d'usuari al panell de Codeberg, repo `linuxbcn/9bi` → **Settings → Webhooks**):
-  1. Comprovar que existeix un webhook Forgejo amb **Target `https://9barrisimatge.org/`** (Branch filter `pages`).
-  2. Si existeix → pestanya **Recent deliveries**: mirar si les darreres (08:52 en endavant) fallen i per què; si Forgejo l'ha posat en estat desactivat després d'entregues fallides → **re-activar-lo (Enabled)**.
-  3. Si **no existeix** → **crear-lo**: tipus Forgejo, Target `http://9barrisimatge.org/` **la primera vegada** (la doc de Codeberg exigeix que el primer deploy vagi per `http://`; després es pot canviar a `https://`), Branch filter `pages`. **No usar «Test delivery»**: falla sempre (és esperat segons la doc).
-  - Font: <https://docs.codeberg.org/codeberg-pages/using-custom-domain>
-- **Verificació ràpida sempre** (còpia de 3 comandes, sense interpretar):
-  1. `git ls-remote origin pages` → ha de coincidir amb l'última entrada de `.deploy-log`.
-  2. `curl -sI "https://9barrisimatge.org/?v=$RANDOM" | grep -i last-modified` → si la data NO és la del darrer deploy, el webhook del domini no ha publicat.
-  3. `curl -sI "https://linuxbcn.codeberg.page/9bi/?v=$RANDOM" | grep -i last-modified` → sempre s'actualitza.
-- **Corol·lari**: el contingut de `pages` i la DNS ja estan comprovats (2026-09-24). Qualsevol «el domini va enrere» = webhook del domini. Point the user to esta secció.
-
-## Sessió 2026-09-24 — MIGRACIÓ DE PRODUCCIÓ a GITHUB PAGES (decisió de l'usuari)
-
-> **Decisió (usuari)**: migrar el lloc de producció a **GitHub Pages**. Codeberg queda com a **backup** (repo `linuxbcn/9bi`). Motiu: la quota de Codeberg (750 MiB) es torna a sobrepassar sovint i bloqueja els deploys; el cicle de demanar augments i fer GC no és sostenible. **No esborrar res de Codeberg.**
-
-- **Repo nou**: `https://github.com/112books/9bi` (públic). Remotes locals: `github` (https://github.com/112books/9bi.git → main) i `origin` (Codeberg, queda com a backup).
-- **Build i deploy**: `.github/workflows/deploy.yml` — `actions/checkout@v4` + `peaceiris/actions-hugo@v3` (0.164.0 extended) + pas opcional `fetch_9bi_analytics.py` si existeix el secret `GOATCOUNTER_API_KEY` (comprobació al shell, no als `if:`) + `hugo --minify --environment production` + `actions/configure-pages@v5` + `actions/upload-pages-artifact@v3` + `actions/deploy-pages@v4`. Trigger: push a `main` + `workflow_dispatch`. Build ~28 s.
-- **Estat verificat (2026-09-24 ~15:45)**: `https://112books.github.io/9bi/` = 200 (Last-Modified fresc = build del push), `/stats/` = 200, `/page/2/` = 200 (miniatures `relURL`). El domini custom `9barrisimatge.org` està configurat al repo (Settings → Pages, via `gh api -X PUT repos/112books/9bi/pages -f cname=9barrisimatge.org`).
-- **PENDENT (acció d'usuari, ~5 min)**: canviar la **DNS** a la registradora — instruccions exactes a `drafts/2026-09-24-migracio-github-pages-dns.md`:
-  - Apex `@` → 4 registres A `185.199.108.153 / .109 / .110 / .111`; **eliminar** l'A de Codeberg `217.197.84.141` i la AAAA.
-  - `www` → CNAME `112books.github.io`; **eliminar** el CNAME a `codeberg.page` i l'A de `www`.
-  - TXT (`_git-pages-repository`, SPF de FormSubmit, google-site-verification) → **conservar**.
-- **Després de canviar la DNS (propagació 5–60 min)**: GitHub emet el certificat TLS automàticament. Verificar amb les 3 comandes de la secció anterior (ara comparar Last-Modified = build de GitHub, no de Codeberg).
-- **Nota de disseny/estat de protecció del domini**: GitHub Pages no demana cap registre TXT extra per al dominio (els A records són la verificació). Si algún dia GitHub marca el dominia com a "protected domain" caldrà un TXT `_github-pages-challenge-...` (no necessari ara).
-- **Procediment publicar ara**: només cal `git push origin main` → Actions construeix i publica sol. **Ja no s'usa `sync-9bi.sh deploy` per a producció** (queda com a eina per re-deployar Codeberg si calgués revertir el backup).
-- **GOATCOUNTER_API_KEY**: afegida a GitHub → `Settings → Secrets and variables → Actions`; `/stats/` es refresca a cada deploy.
-
-## Sessió 2026-09-25 — CMS a GitHub, concurs, «col·lectiu», audit de seguretat i cert TLS
-
-- **CMS ↔ GitHub (FET)**: `static/admin/config.yml` commitejat i desplegat amb `backend: github` + `repo: 112books/9bi` + `branch: main` (commit `ac75a7448a`). Sveltia autoallotjat (0.217.0) — l'entrada és amb **PAT** (botó «Sign In with Token», token classic scope `repo`) o OAuth App futura. **PKCE amb GitHub no implementat** (GitHub ho té en pausa). Verificat en viu: config amb `backend: github` + pantalla d'entrada amb el chrome del CMS. Els editors entren amb el seu PAT.
-- **`modules/autopublica/` (M2) commitejat** (mateix commit, amb `.gitignore` perquè `config.ini` té un token real de Codeberg — el repo de GitHub és públic). `deploy.sh` encara usa el flux antic de Codeberg (`git init` + `push -f` a pages) — **disseny a revisar** (ara producció = GitHub Actions). `modules/votacio/` amb actualitzacions (taula `visites` + admin visites, bloc de condicions opcional, geo `hard` per defecte amb radi 1000).
-- **Foto de Cordoncillo al concurs (FET)**: `layouts/single.html` amb mecanisme condicional `header_image` (+ `header_image_alt`/`header_image_caption` al front matter) — la foto surt **a tot l'ample** damunt del títol (decisió usuari; primer es va fer petita a l'altura del títol i l'usuari la volia gran). CSS `.post-header--photo`/`.post-header-photo` a `custom.css`. Base-aware (`TrimPrefix "/"` + relURL).
-- **Cards de categories apilades** (decisió usuari): lletra de categoria **a dalt** (A → nom → tema → 100 €), `flex-direction: column`; la card C amb **nom i tema en dues línies** («Josep Antón/Cordoncillo», «Tema:/Arran de terra»); separació calendari→categories **4rem** (primer el triple = 6rem, l'usuari va dir que era excessiu); **efecte hover** (vora accent + translateY(-2px) + ombra, amb `prefers-reduced-motion`). El tema de la C és **«Arran de terra»** ( fet per l'altra IA).
-- **«Col·lectiu, mai associació» (FET)**: `avis-legal.md` (description + Denominació + 4 referències) i `privacitat.md` (Identitat + 1) ara diuen **«Col·lectiu 9 Barris Imatge» / «el col·lectiu»**. Pendent: `subvencions.md:11` diu «associacions com la nostra» (text de l'usuari — no tocat sense aprovació). Posts antics amb «Associació de Titellaires», «Associació 9 Barris Acull» etc. = **altres entitats**, no tocats.
-- **Àlbums de l'històric del concurs (FET)**: a la taula d'història, celda de fets destacats: **2013** → «Entrega de premis 2013» (`photos.app.goo.gl/Snzr7PpUmCa68ozd7`) i **2022** → «Muntatge de l'exposició» (`photos.app.goo.gl/adGZH2GtQZPgFn6r6`). Els dos enllaços verificats (302 → photos.google.com/share → 200).
-- **AUDIT DE SEGURETAT (FET)** — informe complet a **`~/Desktop/cyber-neo-report-9arrisimatge.org-2026-09-25.md`** (Risk Score 49/100, High Risk latent; 0 critical / 2 high / 6 medium / 11 low / 7 info). **Res explotable avui** (votació no desplegada, sense tokens a disc). Positius: SQL parametritzat, sense command injection web, CSRF del vot públic correcte, secrets locals mai commitejats, sense debug.
-  - **Quick wins aplicats** (commit `b700c5bbc4`): `/.tokens/` + regles globals (`.env`, `*.pem`, `*.key`, `*.p12`, `credentials*.json`) al `.gitignore` (els tokens OAuth de `scripts/picasa_to_photos.py` anaven un `git add -A` de filtrar-se); **fail hard** a `secret_key()`/`admin_key()` de votacio (SystemExit si unset o CHANGE-ME/CANVIA-ME — testejat: config real passa, placeholder falla); **noindex** meta a `static/admin/index.html`.
-  - **Correccions votacio FET (lot audit, commit `ee7769edf5`)**: cookies amb **Secure per defecte** (fallback=True, opt-out amb ssl=0; exemple ssl=true), **rate limit a l'admin login** (10/min per IP, bucket "admin:"), **CSRF a POST /admin/tancar** (HMAC lligat a la sessió, testejat: sense csrf 403), **token de sessió amb caducitat server-side** (format `sig:ts`, 4 h validades server-side), **cap de mida al body** (64 KB, 413; helper `read_body`), **bug funcional geo_js arreglat** (1 script, cap JS visible com a text, cap doble execució). Testejat amb WSGI real: vot OK, repetit bloquejat, login dolent 401, login OK 302, tancar sense/amb CSRF, body 413.
-  - **Altres pendents de l'audit**: SHA-pin de les accions de CI/CD (peaceiris@v3 = tag mutable), sortida de deploy.sh dins la resposta HTTP (credencials a la URL), 11 fitxers brossa `.dl-*` a `static/images/covers/`, taro/.gitignore contradir el comentari.
-- **GOATCOUNTER_API_KEY (FET, 2026-09-25)**: afegida a GitHub → Actions secrets (usuari). El workflow executa `fetch_9bi_analytics.py` a cada deploy — verificat en viu: `/stats/` mostra «Actualitzat: 24 de set. del 2026, 08:50» (dades fresques de GoatCounter).
-- **/stats — text clar (FET, commit `fa9b982261`)**: `static/stats/index.html` topbar amb **«Estadístiques des del 24 de setembre de 2026, (242.780 a Blogger dels darrers anys)»** (text exacte de l'usuari, classe `.topbar-since`). Nota: el dashboard de stats és propi (Chart.js + `static/stats/analytics.json`, noindex) — la pàgina /mes-visitats/ llegeix `data/popular.json`.
-- **Cert TLS de 9barrisimatge.org (RESOLT)**: GitHub no emetia el cert (12+ h, `*.github.io` amb SAN mismatch). Fix: **treure i tornar a posar el domini al panell** (Settings → Pages; «DNS Check in Progress») — el cert s'ha emès després (un sol cert amb SAN per apex i www, verificat). **Enforce HTTPS ACTIU (2026-09-25, via panell)**: https 200 · http→https 301 · www→apex 301 · API `https_enforced: true`. Nota: el re-PUT via API no va disparar el provisionament; el cicle del panell sí.
-- **Vídeos no indexats (Search Console) — diagnòstic**: els 122 vídeos «no està en una pàgina de visualització» són gairebé segur **dades del blog vell** (el web nou té ~1 embed de vídeo; verificat amb grep d'iframes). Congelat pendent de confirmar quina propietat de Search Console es mira. **Sitemap**: es regenera sol a cada deploy (verificat: Last-Modified fresc, robots.txt correcte) — només cal re-enviar-lo a Search Console si cal.
-
-## Sessió 2026-09-25 (v2) — documentació d' editors, missatge i sincronització
-
-- **Guia d' editors publicada sense indexar**: els 8 fitxers de `content/guia/` (`_index.md` + 7 pàgines) han passat de `draft: true` a `robotsNoIndex: true` + `hiddenInRss: true` + `sitemap.disable: true`. PaperMod genera `<meta name="robots" content="noindex, nofollow">` per a aquestes pàgines; `hiddenInRss` impedeix que les pàgines de la guia apareguin als feeds i `sitemap.disable` les exclou del sitemap. La guia continua fora del menú públic, però ja es pot obrir a `/guia/`.
-- **Guia actualitzada al backend real**: `content/guia/crear-compte.md` documenta GitHub + PAT classic (`repo`) + «Sign In with Token»; `content/guia/publicar-article.md` ja no parla de Codeberg. `content/incorpora-te.md` (formulari d'alta pública) també demana el nom d'usuari de GitHub. El chrome del CMS (`static/admin/index.html`) enllaça «Guia al web» a `../guia/`, a més de la col·lecció «Guia i manual» del CMS.
-- **Correu d'invitació redactat** a `drafts/emails-usuaris.md`: s'ha d'enviar individualment, sense cap token al missatge; l'editor crea el seu propi PAT. Inclou acceptació de la invitació, entrada al gestor, enllaç a la guia i advertiment de seguretat.
-- **Recompte real del repositori (2026-09-25)**: **3.008 posts** (`content/posts/`, 19 carpetes d'anys 2008–2026), **24 anys** de col·lectiu (2002–2026) i **24 fitxers de membre**. El peu del CMS encara mostra els números estàtics antics (3.006 / 24 / 12); el peu del web els calcula. GoatCounter retorna `total_unique: 0`, per tant el recompte d'usuaris únics no és utilitzable amb el dashboard actual.
-- **Sincronització segura, sense reset**: `main` local coincideix amb `origin/main`; Codeberg `main` i `pages` estan endarrerits i el push hi continua bloquejat per quota. **No esborra ni GitHub ni Codeberg ni facis un repositori de zero**: GitHub Pages és producció i Codeberg és backup amb historial. El procediment correcte és commit → `git push origin main` → verificar Actions i les pàgines afectades; Codeberg només es sincronitza si torna a haver quota.
-- **Encara pendents**:
-  - **Test real de votació pública**: l'usuari proporcionarà un fitxer `numero - títol - categoria` i farà un vot fictici des del telèfon. Abans del tancament cal comprovar la pàgina pública de votació, instruccions, avís legal i resultats finals quan la votació es tanca a la data i hora indicades.
-
-## Sessió 2026-09-25 (v3) — 404 útil, cerca directa i tancament
-
-- **404 publicada (FET, commit `70f4f626f9`)**: `layouts/404.html` substitueix el «404» minimal de PaperMod per la pàgina clara i útil aprovada per l'usuari: «Aquesta pàgina no s'ha trobat», explicació dels motius habituals, cerca directa i enllaços a Portada, Arxiu i Contacte. No s'ha afegit cap il·lustració nova.
-- **Cerca directa real**: la 404 reutilitza el mateix índex Fuse de `/search/`. `themes/PaperMod/layouts/_partials/head.html` carrega els recursos de cerca també per a `.Kind = 404`; `layouts/search.html` i `layouts/404.html` indiquen `index.json` amb `relURL`, i `themes/PaperMod/assets/js/fastsearch.js` consumeix aquesta ruta base-aware. La pàgina `/search/` continua funcionant igual.
-- **SEO i resposta HTTP**: la 404 genera `<meta name="robots" content="noindex, nofollow">`. GitHub Pages retorna HTTP 404 real per a qualsevol ruta inexistent i mostra aquesta pàgina; els seus tres enllaços interiors retornen HTTP 200.
-- **Estil i responsive**: `assets/css/extended/custom.css` inclou `.error-404*`, amb el mateix accent `#e03131` del lloc, cerca i targetes centrades, adaptació a 375 px sense desbordament horitzontal i moviment reduït amb `prefers-reduced-motion`.
-- **Validació i deploy**: build de producció net (6.442 pàgines); prova local amb cerca «Cordoncillo» -> 44 resultats; proves desktop i mòbil; GitHub Actions run `36115053496` completat amb èxit i verificació live de la 404 amb cerca, `noindex` i resposta 404.
-- **Avisos no bloquejants del workflow**: GitHub Actions avisa que `actions/checkout@v4`, `actions/configure-pages@v5` i `actions/upload-artifact@v4` usen Node.js 20, que està obsolet, i que `ubuntu-latest` migrarà a Ubuntu 26 a partir del 19 d'octubre de 2026. L'actualització/SHA-pin de les accions continua pendent.
-- **Tancament i sincronització**: GitHub és el repositori de producció i queda net i sincronitzat. Codeberg continua read-only i desfasat per la quota; no s'hi fa push ni reset. El fitxer de temps local queda registrat a `.taques/9arrisimatge.org/2026-09-25.md`.
-
-## Sessió 2026-09-25 (v4) — CMS: miniatures, pàgines fixes i capçalera
-
-- **Miniatures al CMS (FET, commit `a04d62d56`, Actions `36128375734`)**: els 2.911 valors `cover.image` eren relatius (`images/covers/…`) i Sveltia els resolia contra `public_folder` (`/images`) → `/images/images/…` (404). Normalitzats a `/images/covers/…`; els 19 valors http(s) i els 78 sense portada es van deixar com estan. Confirmat en viu per l'usuari: «Ja es veuen les miniatures!».
-- **Col·lecció «Pàgines del web» (FET, commit `0be75db21`)**: nova col·lecció de fitxers `web-pages` amb les 13 pàgines fixes de `content/*.md`, perquè l'editor principal les pugui veure i editar des del CMS. `title`, `description` i cos editables; els camps tècnics (`url`, `layout`, `hiddenInRss`, `page_bg`, `aliases`, `build`) com a **hidden**, de manera que en cap cas es perden en desar. A `concurs.md`, `visualTitle`/`visualDescription` són editables (títol i subtítol visuals amb `<br>` i Markdown).
-- **Peu del CMS reduït (decisió de l'usuari)**: només el filet vermell + llicència CC (badge + enllaç a la FAQ de crèdits) + «Powered by LinuxBCN with Hugo & PaperMod». S'han eliminat el logo, les columnes «El web» / «Legal» / «9 Barris en números» i el CSS mort associat. **El peu del web (`layouts/_partials/footer.html`) no s'ha tocat.**
-- **Capçalera del CMS (FET)**: «Articles · 2026» ara és un desplegable (`<details>`) amb els 19 anys 2026→2008, 2026 marcat amb `aria-current`; es tanca en triar un any, en fer clic fora i en canviar el hash (JS mínim al final de `static/admin/index.html`). El resta d'enllaços: «Pàgines del web» (→ `web-pages`), «Membres», «Llegir la guia» (→ `/guia/`, pestanya nova) i «Editar la guia» (→ col·lecció `guia») — abans tots dos es deien «Guia i manual» / «Guia al web» i no es distingien prou.
-- **Veure qualsevol article**: cap col·lecció nova; s'usa la **cerca immediata del Sveltia** (indexa tot el web) i els 19 anys per publicar o retocar els darrers posts. Decisió de l'usuari, 2026-09-25: es rebutja «Tots els articles» perquè els 3.008 posts feien trigar molt el carregament.
-- **«Àlbums per arreglar»**: 8 col·leccions a `recuperacio/<autor>/` (~1.188 registres); no s'afegeixen al desplegable d'anys. Com que la llista nativa de col·leccions s'amaga (v5), només s'hi accedeix pel rail «Àlbums per-arreglar · <autor>» i només si el login de l'usuari hi és mapejat a `CMS_ALBUMS`.
-- **Rail propi del CMS (FET, commit `8d98f192f`, Actions `36131260075`)**: capçalera reduïda a logo + «Llegir la guia» + «Torna al web» i `<aside class="cms-rail">` propi a l'esquerra: Articles · <any> (desplegable), Documentació · Actes, Documentació · Concurs, Àlbums per-arreglar i Administració (Pàgines del web, Membres, Editar la guia). Detall de l'amagat de la lateral a la secció Sveltia de més amunt.
-- Build `hugo --minify` net; YAML de `config.yml` validat (32 col·leccions, 13 pàgines, cap camp ocult absent del front matter). Totes les canvis d'aquesta v4 v4 publicats i verificats en viu.
-
-## Sessió 2026-09-25 (v5) — lateral nativa del Sveltia, àlbums per login i crèdit «Taro»
-
-- **Bug de la lateral duplicada (corregit, commit `b3b57a54d`, Actions `36132308723`)**: el selector `#nc-root aside` del rail propi **no funcionava** — al Sveltia 0.217 la lateral nativa no és un `<aside>` sinó un panell `<div class="primary-sidebar">` dins d'un divisor redimensionable de `#page-container`, i la llista de col·leccions («Col·leccions / articles 2026 / …») continuava visible al costat del rail. Correcció: `#nc-root .primary-sidebar { display:none !important }` + `cmsHideNativeSidebar()` amb `MutationObserver` que oculta el panell i tots els ancestres fins a `#page-container` (perquè el panell del divisor tampoc reservi amplada). La cerca immediata de la barra superior es conserva. Verificat en viu.
-- **Mapejament login→àlbums (FET)**: `CMS_ALBUMS` a `static/admin/index.html` conté `112books` → `recuperacio-joan-linux` («Joan Linux»). A 2026-09-25 `gh api repos/112books/9bi/collaborators` retorna **només `112books` (admin)**: encara no s'ha creat cap compte de company. Quan se'n creï, cal afegir `login` → col·lecció; el rail mostra «Àlbums per-arreglar · <autor>» només si el login hi és.
-- **Secció «Per què l'aplicació es diu Taro?» (FET, commit `3984c84ca`, Actions `36132517005`)**: text dictat per l'usuari afegit a `content/credits.md`, dins de «L'aplicació Taro», amb dades verificades (Gran Enciclopèdia Catalana + altres fonts): Gerda Pohorylle (Stuttgart, 1 agost 1910 — El Escorial, 26 juliol 1937), companya de Robert Capa, reportatges de primera línia a la Guerra Civil espanyola; va morir als 26 anys atropellada per un tanc republicà en la retirada del front de Brunete; el cos es va traslladar a París i descansa al **cementiri del Père-Lachaise**. Enllaç a `enciclopedia.cat/gran-enciclopedia-catalana/gerda-taro`. **Pendent**: l'usuari pot retocar el text al CMS; no s'ha escrit el model concret del tanc (T-26) perquè cal verificar-lo en una font específica. **No s'ha tocat** el text de `credits.md` que diu que el codi viu a Codeberg com a «versió de referència» (obsolet, pendent de decisió).
-
-## Sessió 2026-09-25 (v6) — Votació desplegada al subdomini `vots-cordoncillo.linuxbcn.com`
-
-- **Accés SSH correcte**: el compte Dinahosting de `linuxbcn.com` és **`linuxbcn0`** (key `id_ed25519`, ja autoritzada al servidor). **`konsento`/`naubostik` és un compte diferent i PF a altres llocs — no tocar-lo mai.** Decisió de l'usuari (2026-09-25/26), a recordar sempre.
-- **Host**: `vl28359.dinaserver.com` (82.98.166.123). Dinahosting **no té Passenger** ni CGI functional a aquest host: el patró que funciona és **procés d'usuari + proxy al docroot + crontab watchdog**, el mateix que fa l'app `konsento` del compte veí (només-inspeccionada, no modificada). Dinahosting acaba el TLS davant d'Apache i **envia `X-Forwarded-Proto`** (sonda verificada el 2026-09-26: `https` per https, `http` per http, i `HTTPS=on` només a https). Per això els redirects han de ser explícits i en absolut. **No usar `%{HTTPS}`** per redirigir: provoca un bucle de 301.
-- **Certificat del subdomini**: emès el 2026-09-25 22:45 (SAN amb `vots-cordoncillo` i `formularis`, vàlid fins al 2026-12-24). Abans dels vots caldrà renovació automàtica; avui està dins del període de l'exposició.
-- **Desplegament real (documentat a `modules/votacio/README.md`)**: codi a `~/apps/vots-cordoncillo/` (fora del docroot), procés a 127.0.0.1:8301 amb `deploy/start.sh` (`umask 077`), watchdog cada 5 min + `@reboot` al crontab de `linuxbcn0`, docroot `~/www/vots-cordoncillo/` amb només `deploy/htaccess` (redirect arrel → formulari, `.well-known` passa, proxy `[P,QSA,L]`). Còpia primera del docroot anterior a `apps/vots-cordoncillo/COPIA-docroot-20260925.tgz`.
-- **Estat del servei**: `/health` → `ok`; `/v/cordoncillo-2026` → formulari; `/admin/login` → 302 amb `admin_secret`; export CSV signat; geofence `hard` a 500 m del Casal verificat (dins admet, fora rebutja 403); sense geo = 403. BD creada amb **0 vots** a l'hora de la posada.
-- **Config real al servidor** (gitignored, campa només a `~/apps/vots-cordoncillo/config.ini` amb permisos 600): secrets nous (43/32 chars), `base_url` correcte, **finestra de proves 2026-09-25→2026-10-31** (ha de canviar-se a les dates de l'exposició: 1–15 desembre 2026), 3 obres de prova, `rate_limit=120` (perquè amb el proxy `REMOTE_ADDR` és sempre 127.0.0.1; defensades reals = CSRF + testimoni HMAC + geofence). La BD es re-crea amb la configuració nova esborrant `data.db`.
-- **Formularis — FET I PUBLICAT (2026-09-26, commit `57b021ae78`)**: `formularis.linuxbcn.com` servei el mòdul `modules/formularis/` (WSGI, **només biblioteca estàndard**, sense base de dades: les dades passen i surten per correu). Mètode idèntic al de la votació: codi a `~/apps/formularis/` (fora del docroot), procés `python3 serve.py 8302` a 127.0.0.1, `deploy/start.sh` + `stop.sh` + `watchdog.sh`, `@reboot` i watchdog cada 5 min al crontab, docroot `~/www/formularis/` amb **només `.htaccess` i `.well-known`**. `/health` → `200 ok`. **SMTP directe** de Dinahosting: `9barrisimatge-org.correoseguro.dinaserver.com:465` (SSL, hostname del panell; **no** `mail.9barrisimatge.org`, que té certificat que no correspon), `config.ini` a `~/apps/formularis/config.ini` amb permisos 600 i `interpolation=None` + `raw=True` (per a passwords amb `%`). Els dos formularis del web (`/contacte/` i `/incorpora-te/`) apunten a `POST /envia/contacte` i `/envia/incorpora-te`; **ja no es fa servir FormSubmit** (que no entregava). Controls: `Origin`/`Referer` contra `allowed_origins` (403 si no), honeypot `_honey` (200 silenciós), rate limit per IP, `MAX_COS`, whitelist de camps, `Reply-To` només si l'adreça és vàlida. Peu legal RGPD/LOPDGDD a cada correu. **Correu verificat en viu** pels tres tipus amb entrega a INBOX, `DKIM-Signature s=default a=rsa-sha256` i SPF passat. **README.txt reescrit** amb el mètode real (l'antic donava Passenger, que Dinahosting no té).
-- **Carpeta remota lliure**: `~/www/app/taro/votacio/` (buida) per a la fase 2 del projecte Taro (tot sota `taro.linuxbcn.com`).
-- **Pendent sens dubte**: prova del vot real des del telèfon al Casal (l'usuari la farà); abans del tancament, verificar recompte i export finals per la finestra real.
-
-## Sessió 2026-09-26 — Mode de proves de la votació (re-vot, botó d'ubicació, privacitat)
-
-- **Diagnòstic del «no em demana la ubicació»**: la pàgina també es servia per `http://` sense redirigir. En un origen no segur el navegador **no ofereix geolocalització** (`navigator.geolocation` no hi és) i, amb `mode_geo=hard`, el vot es rebutjava sense demanar permís. Ara l'`.htaccess` redirigeix **totes** les rutes `http`→`https` amb 301, conservant ruta i query, i l'`.well-known` i `/fonts/` queden fora del proxy.
-- **Mode de proves (decidit per l'usuari)**: `revote_minutes = 10` a la `[edicio]` del `config.ini` del servidor. Es pot tornar a votar la mateixa obra passats 10 min; la votació anterior **se substitueix** perquè la taula té `UNIQUE (edicio_id, obra_id, dispositiu_hash)`. `0` (per defecte i valor de l'exposició) = un sol vot per obra i dispositiu per tota l'edició.
-- **Botó «Activar la ubicació»**: la petició automàtica no sempre mostra el permís (iOS exigeix un toc de l'usuari). El botó torna a demanar-la, serveix per reintentar si el permís estava bloquejat i **s'amaga quan la ubicació s'aconsegueix**.
-- **Privacitat**: nota al formulari (vots anònims, no es demana nom ni correu, **no es desen les coordenades**; només un codi aleatori del dispositiu — cookie `vid` HttpOnly, no és una empremta digital — i si la ubicació era dins del radi) i enllaç «Protecció de dades» a `https://9barrisimatge.org/privacitat/` al peu de totes les pàgines.
-- **Mode obert de proves (decidit per l'usuari el 2026-09-26, fins al dia de l'exposició)**: `vot_limit = 0` al servidor = **sense límit de vots per obra i dispositiu**; la votació anterior de la mateixa obra se substitueix (`INSERT OR REPLACE`, perquè la taula té `UNIQUE (edicio_id, obra_id, dispositiu_hash)`). Després de votar la pàgina informa dels vots del mateix dispositiu («Des d'aquest dispositiu has votat 3 obres», amb singular/plural). L'usuari el provarà amb companyia des de diferents sistemes operatius i distàncies. Obres de proves: **1 a 100** (`Obra de prova 001`…`100`); 0 i 101 es rebutgen amb «Aquest número d'obra no existeix».
-- **PUNT DEL GEOfence (corregit el 2026-09-26)**: les coordenades estaven mal posades i eren la causa dels rebuts. El punt correcte és el **Casal de Barri de Prosperitat, Plaça d'Àngel Pestanya (08016 Barcelona): `lat = 41.441623`, `lon = 2.179794`, `radi = 500`**, verificat amb Nominatim, Photon i geocodi invers. El punt anterior (41.3948/2.1775) era a **5,2 km** i cap vot es podia registrar.
-- **`connect()` sincronitza la configuració** (`nom`, dates, `mode_geo`, `lat`, `lon`, `radi`, `collect_data`, `vot_limit`, `activa`) al registre de l'edició en cada arrencada i ho deixa escrit al log. Canviar aquests valors al `config.ini` doncs sí que té efecte en reiniciar **sense cal esborrar `data.db`**. No toca les obres ni els vots.
-- **Pàgina de votació (2026-09-26)**: calcula la distància al punt del concurs i la mostra («Ubicació activada: ets a 26 m del punt del concurs»); si la precisió és > 250 m avisa que cal activar l'«ubicació precisa» del telèfon (cas típic de la ubicació aproximada d'iOS); si es rebutja el vot, el missatge diu la distància real («el telèfon indica que ets a 5,2 km»).
-- **Estat verificat**: 1 i 100 acceptats, 0 i 101 rebutjats, recompte per dispositiu 1/2/3, repetició de la mateixa obra en mode obert, `vot_limit=1` rebutja el repetit, 0 errors de consola en directe; base del servidor amb 0 vots (esboren els de prova); commits `60dda04f47`, `7db44dbc15`, `c29ba99436` i `35ab4dd85b`.
-- **Abans del dia de votació (llista de tasques)**:
-  1. `vot_limit = 1` a `~/apps/vots-cordoncillo/config.ini` i reiniciar (`deploy/stop.sh` + `deploy/start.sh`). Deixar `revote_minutes` en actiu no fa res amb `vot_limit = 1` sense finestra, però es pot posar a `0` per claredat.
-  2. Dates reals: `data_inici = 2026-12-01T00:00:00`, `data_fi = 2026-12-15T23:59:59`.
-  3. Substituir les 100 `[obres]` de prova per la llista definitiva (número, títol, autor, categoria). **Les obres només es carregen en la creació de la base**: per canviar-les cal esborrar `data.db` (és el pas 4) o inserir-les a mà.
-  4. Aturar el servei i **esborrar `data.db`** perquè el recompte comenci a zero i les obres definitives es carreguin des del config.
-  5. **Tornar a verificar el punt del geofence** amb una font i que la distància que mostra la pàgina sigui coherent amb on serà l'exposició.
-  6. Integrar el QR real a `content/votacio.md` (el lloc reservat és el `<div class="cartell-qr">`, amb la nota de developer ja convertida en comentari HTML).
-  7. Comprovar la renovació del certificat (vàlid fins al 2026-12-24, dins del període de l'exposició).
-
-## Problemes coneguts / pendents (verificats)
-
-1. **Quota de git de Codeberg superada** (≈756 MiB vs 750 MiB) → cap push a `origin` (ni `main` ni `pages`) des de 2026-09-24. **Mitigat per la migració a GitHub Pages**: producció ja no depèn de Codeberg. El repo de Codeberg queda com a **backup read-only** fins que (opcionalment) s'aprovï l'augment de quota a `Codeberg-e.V./requests` (issue #2522, tancada el 2026-09-23 amb GC del servidor sense augment; text de reobertura preparat però no enviat). (Vegeu `drafts/2026-09-21-quota-codeberg.md`.)
-2. **Codeberg ja no participa en el desplegament de producció**: el workflow canònic és `.github/workflows/deploy.yml`; `sync-9bi.sh` i la branca `pages` només es conserven com a eines/backups antigues de Codeberg. No hi ha runner útil de Forgejo Actions.
-3. `static/admin/config.yml` ja usa el backend `github` (repo `112books/9bi`) i entrada amb PAT; queda pendent convidar els editors com a col·laboradors amb accés de **Write** i comprovar els permisos reals.
-4. GoatCounter està creat a `9bi.goatcounter.com` i el secret `GOATCOUNTER_API_KEY` refresca `/stats/` a cada deploy.
-
-> **Pendents: vegeu [`.taques/TASQUES.md`](.taques/TASQUES.md)** (font única des del 2026-09-27; no afegir-ne aquí).
-
-## Blog real (verificat el 2026-09-17)
-
-- El blog original i encara viu és **https://www.9barrisimatge.org** (Blogger, `blog-id` `8034150767456238983` — mateix ID que `exports/sample-blogger.xml`, que és un extracte real, no dades falses).
-- **3.006 entrades confirmades** (`openSearch:totalResults`, comptatge exacte verificat: 21 pàgines de 150 sumen 3.006).
-- El domini propi (`www.9barrisimatge.org/feeds/posts/default`) serveix **RSS** per defecte, però l'endpoint directe **`https://www.blogger.com/feeds/8034150767456238983/posts/default?start-index=N&max-results=150`** serveix **Atom complet** (`<feed>`, `<content type="html">` sencer, sense truncar, paginable amb `start-index`) — mateix format que espera `migrate_blogger.py`. Font vàlida per a la migració real, no cal l'exportació manual des del panell si aquest endpoint és accessible.
-- Aquest endpoint no inclou categoria `#kind` per entrada (a diferència de l'export oficial, que barreja posts/pàgines/comentaris) — no cal el filtre `#post` de `parse_xml()`, totes les entrades d'aquest feed ja són posts.
-
-### Mapeig d'autors (verificat, comptatge real per `<author><uri>`)
-
-| Posts | Nom Blogger | `profile/<id>` | Membre |
-|---|---|---|---|
-| 1307 | Joan Martinez i Serres "linuxbcn" | 07873791980606905428 | Joan "Linux" Martínez i Serres |
-| 397+11 | PredroClick / pedro click (2 comptes) | 09502103278209433876 / 09447813154520602112 | Pedro Click |
-| 274 | Manel Sala "Ulls" | 07611922472754557605 | Manel Sala "Ulls" Circ |
-| 118 | francesc barbe | 00926052916717343447 | Francesc Barbe |
-| 110 | ismaelug | 06765486609758806432 | Ismael Utrilla |
-| 86 | Alberto | 16399715831790649537 | Alberto Sanagustín |
-| 78 | Iozsef Kiss | 04330214459290255808 | Iozsef Kiss |
-| 53 | pedrocasal | 18053814840045725261 | Pedro "Casal" Cervera |
-| 29 | núria laura orbaneja | 10639085300606178057 | **Núria Laura Orbaneja** (nou) |
-| 27 | manel villalba | 03875414596834414899 | **Manel Villalba** (nou) |
-| 26 | Ulls (compte diferent) | 03777963813689534193 | assumit = Manel Sala "Ulls" Circ (2n compte; **verificar amb ell**) |
-| 12 | Nico YeYe | 15965093973040358649 | **Nico YeYe** (nou) |
-| 5 | Gris Medio,casi negro | 06831158748343898384 | Juan Carlos Molina (Grismedio Casinegro) |
-| 469+2 | Unknown / Anonymous | (sense uri) | "9 Barris Imatge" (genèric) |
-| 2 | Nou Barris Imatge | 02393670543566068078 | "9 Barris Imatge" (compte de l'entitat) |
-
-**Decidit (2026-09-17)**: s'afegeix tothom que hagi publicat com a membre — Núria Laura Orbaneja, Manel Villalba i Nico YeYe afegits a `static/admin/config.yml` (select `author`) i "9 Barris Imatge" com a genèric pels posts sense autor identificable. Pendent: revisar més endavant qui és actiu/inactiu actualment (no tocat `qui-som.md`, que llista només membres actius — aquesta llista del CMS és l'autoria històrica completa).
-
-### Migració real executada (2026-09-17)
-
-- **`scripts/migrate_live.py`**: migra directament des del feed Atom en directe (no cal export manual), reutilitza el processament de `migrate_blogger.py` (imatges, àlbum, HTML→MD). Mapeig d'autor per `<author><uri>` (taula `AUTHOR_BY_URI`), vocabulari de tags real agregat de tot el blog per suggerir-ne 5 als posts sense cap (marcats amb comentari HTML `<!-- tags auto-generades... -->` per revisar-los).
-- **Resultat**: **3.006/3.006 posts migrats a `content/posts/`**, 0 errors. Build local net (`hugo`, 3006 pàgines, ~30s, sense warnings de col·lisió).
-- **Bug detectat i corregit durant la migració**: la primera passada deduplicava per slug sense any/mes i en va perdre 118 (p.ex. "blog-post" es repeteix 41 cops en mesos diferents — cap col·lisió real d'URL). Fix: dedup per URL original de Blogger, no per slug.
-- **Advertència coneguda**: `album_url` s'extreu de l'enllaç que envolta la primera imatge del post. Si un post té més d'un enllaç rellevant (p.ex. tant un àlbum de Google Photos com un crosspost a `blog.pocallum.cat`), només es captura el primer — pot no ser sempre el que un humà triaria. Detectat al post de Prospe Beach 2026 (l'enllaç de Google Photos que l'usuari havia enganxat manualment al xat va quedar substituït per l'enllaç al crosspost de pocallum.cat en re-executar la migració completa).
-- **Estat**: els 3.006 posts estan committejats i desplegats.
-
-## Sessió 2026-09-17 (v2) — formulari RGPD i ordre del peu
-
-- **Menú del peu reordenat** (`config/_default/hugo.toml`, `menu.footer`): **Arxiu, Etiquetes, Més visitats, Estadístiques, Cerca, RSS** (weights 1–6). Verificat al build.
-- **`content/contacte.md`**: formulari reestructurat per complir RGPD:
-  - casella de **consentiment obligatòria** (`name="consentiment"`, no premarcada) amb enllaç a la política;
-  - **honeypot** anti-spam (`_honey`, camp ocult);
-  - bloc "informació bàsica" (responsable, finalitat, legitimació, destinataris, drets) i enllaç a la política;
-  - la línia "També pots escriure'ns directament…" **es manté** però separada del botó (bloc `.contact-alt` amb `border-top`).
-- **`content/privacitat.md`** (nou, `url: "/privacitat/"`): política de privacitat amb responsable, finalitats, base jurídica, destinataris (FormSubmit + proveïdor de correu), conservació, drets i AEPD. **Conté placeholders `[PENDENT: NIF…]` i `[PENDENT: adreça…]` que s'han d'omplir abans de publicar** (vegeu backlog).
-- **`assets/css/extended/custom.css`**: estils `.contact-consent`, `.contact-honeypot` (off-screen), `.contact-after`/`.contact-alt`.
-
-## Sessió 2026-09-18 — membres, imatges, peu en números i tema fosc
-
-- **Llistat de membres implementat** (`content/qui-som.md` → `{{< membres >}}`):
-  - Taxonomia nova `author = "author"` a `config/_default/hugo.toml` (en Hugo el **valor** és la clau de front matter; amb `author = "authors"` no es genera cap terme).
-  - `data/membres.yml`: 12 membres (`autor`, `nom`, `web`, `instagram`), editable des del CMS.
-  - `layouts/_shortcodes/membres.html`: taula ordenada pel nombre de posts (desc); nom i número enllacen a la pàgina de l'autor; els perfils de Blogger es mostren com «Perfil a Blogger»; si `nom` és buit s'usa `autor`. Exclou "9 Barris Imatge".
-  - `layouts/author/term.html`: pàgina per autor amb graella tipus mosaic de portada, paginada (`/author/<slug>.html` i `/author/<slug>/page/N.html`); títol pres de `data/membres.yml` per preservar majúscules/minúscules.
-  - `static/admin/config.yml`: col·lecció de fitxers Decap «membres» sobre `data/membres.yml` (select `autor` amb 13 opcions, `nom`, `web`, `instagram`).
-  - **Pendent**: enllaç de reserva al perfil de «Els components de 9 barris imatge» del bloc vell per als membres sense web (ara mostren «—») i completar els Instagram que falten.
-- **Imatges noves** (mogudes de l'arrel a `static/images/`): `Membres-casalL1300396.jpg` (dalt de «Qui som»), `reunións-dojous-L1420055-1024x576.jpg` (secció Reunions), `juan-sinsangre-trofeus_DSF5756.jpg` (secció nova «Història dels trofeus»). `alt` escrits per nosaltres.
-- **`content/qui-som.md`**: secció nova **«Com funcionem»** (entre Reunions i Membres); text de «Reunions» reescrit per l'usuari amb enllaç a **Las Rudas** (`https://www.instagram.com/rudascooperativa/`), també afegida a «Links amics».
-- **`content/concurs.md`**: secció **«## Història dels trofeus»** (Juan Sin Sangre → Carlitos).
-- **Peu «9 Barris en números»** (només **portada** i **Qui som**): «3.006 posts · 24 anys · 12 membres», amb count-up en entrar a pantalla (IntersectionObserver; amb `prefers-reduced-motion` o sense JS es mostren els valors finals). Valors: `len (where site.RegularPages "Section" "posts")`, `sub now.Year 2002`, `len hugo.Data.membres.membres`; format amb `lang.FormatNumber 0` → «3.006».
-  - **`layouts/_partials/footer.html` sobreescrit** (còpia del tema + bloc + script).
-  - **`layouts/baseof.html` sobreescrit**: cal afegir la condició a la clau de `partialCached "footer.html"` (era `.Layout`+`.Kind`, i «Qui som» comparteix clau amb els posts → agafava el peu cachejat d'un post). **Atenció en actualitzar PaperMod: `baseof.html` i `_partials/footer.html` ara són nostres.**
-- **Tema fosc per defecte**: `config/_default/hugo.toml` → `[params] defaultTheme = "dark"` (el botó sol/lluna del header, Alt+T, passa a clar i ho recorda via localStorage).
-- **Arxiu**: l'índex d'anys de la dreta només apareixia a ≥1200px; baixat a **≥1024px** (`custom.css`).
-- **Tipografia**: només feta la **vista prèvia** (cos **Montserrat** + títols **Gillius ADF**) a `/tmp/font-preview`; **no s'ha canviat cap fitxer del web**. Pendent d'instal·lar autoallotjada.
-- **Peu**: redisseny a **4 columnes** (banda d'accent `#e03131` a dalt + logo · columna buida · «El web» · «Legal»), tot dins de `layouts/_partials/footer.html`; `extend_footer.html` queda **buit**. Línia inferior amb copyright i «Powered by LinuxBCN with Hugo & PaperMod» (links als tres; en hover/focus sobre LinuxBCN es revela «· Consultoria | Desenvolupament | Allotjament | Disseny»). Responsive: 4→2→1 columnes (la buida s'amaga al mòbil).
-- **`content/qui-som.md`**: «FaVB» → «**FAVB**» a «Links amics».
-- **Tipografies autoallotjades aplicades**: cos **Montserrat** + títols **Gillius ADF** (`static/fonts/`, `@font-face` i overrides a `custom.css`, `preload` a `extend_head.html`; sense cap CDN).
-- **Crèdits ampliats** (`content/credits.md`): links a totes les eines, llicència **CC BY-NC-SA 4.0** explicada en català clar i **mini-FAQ** d'ús de les imatges.
-- **Cerca** afegida al `menu.main` (abans de «Contacte»).
-
-## Sessió 2026-09-18 (v2) — capçalera sticky, imatges, peu, legal, subvencions i concurs
-
-- **Capçalera sticky amb icones** (implementat): `layouts/_partials/header.html` **sobreescrit** (`dict $icons` per `.Identifier`: home→casa, archive→arxiu, qui-som→persones, concurs→trofeu, search→lupa, contacte→sobre). En fer scroll (>120px) el JS afegeix `.scrolled` a `#header` i es mostren `.menu-icon` (SVG de línia, `currentColor`) en lloc de `.menu-text`; logo encongit a 48px. Només escriptori (≥769px).
-- **Imatges base-aware**: `layouts/_markup/render-image.html` (nou) reescriu amb `relURL` les rutes d'imatge que comencen per «/» (`strings.TrimPrefix "/"`). Abans `qui-som.md` i `concurs.md` generaven `src=/images/...` i donaven 404 sota `/9bi/`.
-- **Peu de 5 columnes** (abans 4): `layouts/_partials/footer.html` amb logo · buida · «El web» · «Legal» · **«9 Barris en números»**. La columna de números ara és **sempre visible** (abans només portada/Qui som) i s'ha tret la condició `$showStats` de la clau de `partialCached` a `baseof.html`. `grid-template-columns: repeat(5,1fr)` (5→3 @1024 →2 @700 →1 @480; la buida s'amaga ≤1024).
-- **Logo CC a la línia de llicència**: `static/images/cc-by-nc-sa.svg` + `<img class="cc-badge">` dins `.footer-copyright`.
-- **Reveal de LinuxBCN**: `.footer-powered` inline-block i `.footer-powered-reveal` (consultoria…) es desplega en `:hover`/`:focus` sense desplaçar el text.
-- **Amplada unificada**: `.footer-cols` i `.footer-bottom` amb `max-width: calc(var(--nav-width) + var(--gap) * 2); margin: auto` (com «Avui fa» / el mosaic).
-- **Núvol d'etiquetes**: `layouts/taxonomy.html` **sobreescrit** (`.terms-tags.tag-cloud`), mida `0.85 + 0.9*(count/max)` rem (rang ~0.85–1.75rem); CSS `.tag-cloud`.
-- **Text de Cerca**: `content/search.md` amb `description`.
-- **Logo 138×229**: `--logo-width: 138px` / `--logo-height: 229px` a `:root`; `iconHeight = 229` a `[params.label]` de `hugo.toml`; `<img width="138" height="229">` al peu.
-- **Avís legal i privacitat**: `content/avis-legal.md` reescrit (Titular **sense NIF** —l'associació no en té—, adreça **Casal de Barri de Prosperitat, Plaça d'Ángel Pestaña, s/n, 08016 Barcelona**, i secció «Responsabilitat»: cada autor respon dels seus textos; opinions compartides sense comprometre l'entitat). `content/privacitat.md` amb la mateixa adreça i **sense placeholders**.
-- **Subvencions**: el text «Subvencions públiques: per què hi renunciem» s'ha mogut de `posts/` a **pàgina filla de Qui som** (`content/subvencions.md`, `url: /qui-som/subvencions/`), enllaçada des de «Com funcionem», amb `aliases` que redirigeix l'antic URL `/2026/09/renunciem-a-les-subvencions.html`.
-- **Pàgina del Concurs (36è, 2026)** a `content/concurs.md`:
-  - Bloc superior amb **línia del temps de fulls de calendari**: Set 25 (inici) · Nov 20 (data límit) · Des 01 (inici exposició) · Des 18 (lliurament de premis + concert) · Des 30 (fi). Els passos interns (23 i 30 nov) **no** es mostren al públic.
-  - **Pestanyes** «Bases» i «Com participar» amb **CSS pur** (radios, sense JS) + botó **Descarrega en PDF** (`window.print()`; `@media print` deixa visibles només les bases).
-  - Bases adaptades de la 35a a la 36a (correu `dinamitzacio@casalprospe.org`). **Pendent de confirmar**: premis 100 €, votació popular 1–15 des, hora 19 h i tema de la categoria C.
-  - `<hr class="concurs-sep">` separa el bloc del concurs de «Història».
-- **Eslògan de portada** (`[params.homeInfoParams] Content` a `hugo.toml`): de «Des de 2002 documentant Nou Barris - Barcelona» a **«Documentant Nou Barris (Barcelona) des del 2002»**.
-- **Decisió (votació popular per QR, en estudi)**: per evitar vots sospitosos i facilitar el recompte. Regla triada: **1 vot per obra i dispositiu**; identitat **anònima per dispositiu** (testimoni firmat + registre al servidor); accés **només amb QR presencial** (secret d'edició). Allotjament previst: **app Python** (`venv` + FastAPI/Flask + SQLite) al **servidor de LinuxBCN** (sense Docker, per decidir). Pendent d'estudiar/decidir.
-
-## Sessió 2026-09-18 (v3) — recerca «Història de la fotografia a Nou Barris» i diagnòstic responsive/etiquetes
-
-> **Sessió de recerca i diagnòstic (només lectura). No s'ha tocat cap fitxer de disseny ni contingut.** Els canvis d'eslògan (`hugo.toml` + `qui-som.md`) estan aplicats però **no committejats**.
-
-### Recerca de fotògrafs (per a la secció nova proposada a «Qui som»)
-
-- **Kim Manresa** — el nom imprescindible. **Nascut a Nou Barris** (el nostre post del 2016-07-01 el descriu com «el fotògraf nascut a Nou Barris»); fotoperiodista **en actiu des de 1974**; **Premi Miravisions d'Honor 2026**; exposició **«Nou Barris 1970-1980»** (marquesina de Via Júlia, 1 juliol 2016, organitzada per la Coordinadora d'Associacions de Veïns i Entitats de Nou Barris). **Donant destacat del fons fotogràfic de l'Arxiu Històric de Roquetes-Nou Barris** (blog de l'Arxiu, 2011). Ja és al nostre arxiu: posts `2016-07-01-exposicio-fotografica-de-kim-manresa.md` i `2016-07-02-exposicio-kim-manresa-nou-barris-1970.md` (la imatge font es diu `expo-quim.jpg`, d'aquí el «Quim»). Enllaços verificats: <https://www.miravisions.cat/ponent/kim-manresa> · <http://arxiuhistoric.blogspot.com/2011/02/fons-fotografic.html>. **Pendent de confirmar el barri de naixement.**
-- **Ginés Cuesta** (Barcelona, **1945–2023**, veí del **Verdum**) — «fotografia al pas»; fons llegat a l'Arxiu Històric de Roquetes-Nou Barris (2011); llibre **«La Barcelona fotografiada de Ginés Cuesta»** (text d'Isabel Segura; ed. Barcelona Llibres, presentat 2024). Enllaç: <https://juditmusachs.com/project/gines-cuesta>. *(L'usuari deia 1944; la font verificada diu 1945.)*
-- **Manel «Ulls» Sala Aponte** — membre de 9 Barris Imatge (`data/membres.yml`: `Manel Sala "Ulls" Circ`; 274 posts), **referent de la fotografia de circ i arts escèniques**. Cognom «Aponte» i condició de «referent» aportats per l'usuari, **sense font externa**: verificar amb ell.
-- **Jesús Atienza** — fotògraf **especialista en titelles/putxinel·lis** i teatre. Verificat al nostre post `2018-04-07-rombic-lateneu-popular-de-nou-barris_7.md` («el fotògraf especialista en el món de les titelles») i a <https://larevoltadelstitelles.bibliomusicineteca.com/fotografies>.
-- **Manel Mora Palau** — fotògraf esportiu, botiga **Foto Mora** (pg. Fabra i Puig); referent de Manel Montilla (betevé).
-- **Manel Montilla** — **barri de Porta**; fotoperiodista esportiu, 35 anys (des de març 1991), llibre **«Soc fotògraf»** (2026). <https://beteve.cat/cultura/fotoperiodista-esportiu-manel-montilla-reivindica-professio-soc-fotograf>.
-- **José María Medina «El Nostálgico»** — veí, projecte **«Nou Barris d'abans i ara»** (exposició 2018 amb l'Arxiu, Via Favència/CC Can Verdaguer). <https://beteve.cat/cultura/fotografies-el-nostalgico-nou-barris-abans-ara>.
-- **Arnau Bach** i **Myriam Meloni** — coautors de **«Linde»** (2020), sobre **Canyelles, Torre Baró, Vallbona i Ciutat Meridiana**.
-- **Mónica Rosselló** — projecte **«16 barris, 1000 ciutats»** (li tocà La Verneda i La Pau).
-- **Gregori Civera** i **Carmen Secanella** — projecte **«Una ciutat desconeguda sota la boira. Noves imatges de la Barcelona dels barris»** (MACBA, 21/06/2024–12/01/2025, comissari Jorge Ribalta).
-- **Taula rodona MACBA «Fotògrafs a la perifèria»** (27/11/2024, Espai Fotogràfic **Can Basté**): Arnau Bach, Gregori Civera, Carmen Secanella i Mónica Rosselló. <https://www.macba.cat/ca/activitats/fotografs-a-la-periferia/> · exposició: <https://www.macba.cat/ca/exposicions/una-ciutat-desconeguda-sota-la-boira-noves-imatges-de-la-barcelona-dels-barris>.
-- **Arxiu Històric de Roquetes-Nou Barris** — font principal de la fotografia veïnal: <https://arxiuhistoric.blogspot.com/> · Instagram [@arxiuhistoric9b](https://www.instagram.com/arxiuhistoric9b/) · revista «L'Arxiu» a <https://raco.cat/index.php/larxiu/issue/archive>.
-- **Fòrum Fotogràfic Can Basté** — <https://www.canbaste.com/> (19è Fòrum). Espai institucional de fotografia del districte.
-- **SENSE ENLLAÇ VERIFICABLE** (no inventar): Juan Manuel Rodríguez Coria **«Morocho»**, **José Antonio Cordoncillo** (el concurs porta el seu nom), **Rafael Juncadella**, **Eva Orti**, **Carlos Navas**, exposició **«L'àpat»** i reportatge «Collserola crema». Probablement consten només a publicacions de l'Arxiu (pendent cercar dins la revista «L'Arxiu», raco.cat).
-- **Decisió pendent (usuari)**: on ubicar-ho — **A)** ampliar la secció «Història» de `qui-som.md`, o **B)** pàgina nova; i si s'estructura amb **pestanyes** (vegeu backlog).
-
-### Estructura proposada per a la recerca (idea aportada per l'usuari, 2026-09-18)
-
-> Objectiu: no una llista, sinó una **genealogia de la fotografia a Nou Barris (~1960–2026)** amb noms, col·lectius, espais, exposicions, llibres i arxius, i una columna **«per què és conegut?»** per distingir trajectòria professional de fons documental excepcional.
-
-- **Dos pols documentals a creuar**: **Arxiu Històric de Roquetes-Nou Barris** (memòria fotogràfica del territori) i **Centre Cívic Can Basté** (fotografia contemporània, formació, exposició, Fòrum Fotogràfic).
-- **Quatre categories** (eviten barrejar perfils):
-  - **A. Fotògrafs de Nou Barris** — nascuts, residents o fortament arrelats, amb activitat fotogràfica significativa: Manresa, Cuesta, Mora, Montilla, Medina, Sala «Ulls», Joan «Linux»…
-  - **B. Fotògrafs que han documentat Nou Barris** — de fora o vinculació territorial menys clara però amb obra significativa sobre el districte: Bach, Meloni, Rosselló, Civera, Secanella…
-  - **C. Fotografia comunitària i de barri** — 9 Barris Imatge, Grup Foto Roquetes, Arxiu Històric, Morocho, Silva, Cordoncillo, Juncadella…
-  - **D. Ecosistema fotogràfic de Nou Barris** — Can Basté + Fòrum Fotogràfic + formació + laboratori + exposicions + beques + fotògrafs que hi han passat.
-- **Llista de treball** (1–9 ja a la nostra recerca; 10–17 nous aportats; 18–22 categoria B):
-  1. Kim Manresa · 2. Manel «Ulls» Sala Aponte · 3. Jesús Atienza · 4. Manel Mora Palau · 5. Manel Montilla · 6. José María Medina «El Nostálgico» · 7. Grup Foto Roquetes · 8. Joan «Linux» Martínez · 9. 9 Barris Imatge (col·lectiu) · 10. Ginés Cuesta · 11. Juan Manuel Rodríguez «Morocho» · 12. Antonio Silva · 13. Eva Orti · 14. Carlos Navas · 15. Arnaldo Gil Albacete · 16. José Antonio Cordoncillo · 17. Rafael Juncadella · 18. Arnau Bach · 19. Myriam Meloni · 20. Mónica Rosselló · 21. Gregori Civera · 22. Carmen Secanella.
-- **Humberto Rivas** — no és «fotògraf de Nou Barris», però **va ser professor de fotografia a Can Basté**, té una **plaça dedicada al districte** i Can Basté li va fer un homenatge: clau per entendre la cultura fotogràfica generada al districte (categoria D, no A).
-- **Can Basté** (aportat per l'usuari, pendent de verificar): funciona **des de 1996** com a equipament especialitzat en fotografia; disposa de **plató, laboratori i estació digital** (analògic i digital); **19è Fòrum Fotogràfic Can Basté** convocat per al **novembre de 2026** amb beques de producció expositiva i publicació fotogràfica; exposició **«L'ahir i l'avui de Nou Barris»** (creua fotografies històriques de l'Arxiu amb noves interpretacions; hi apareix una **foto de Torre Baró d'Arnaldo Gil Albacete, 1990**).
-
-### Verificació de fets/enllaços de la recerca (rodada 2, 2026-09-18)
-
-- **Grup Foto Roquetes**: confirmat com a grup real de fotografia comunitària de Roquetes; hi consten obres de **Manel Villalba** i **Núria Orbaneja** (tots dos membres de 9 Barris Imatge). Font: <https://ctoniguida.wixsite.com/toniguida/fotos> («Fotos cedides pel Manel Villalba del Grup FotoRoquetes», «Fotos cedides per la Núria Orbaneja del Grup FotoRoquetes»).
-- **Can Basté**: confirmat com a equipament especialitzat en fotografia (exposicions, tallers, agenda) a <https://www.canbaste.com/>; **19è Fòrum Fotogràfic Can Basté** actiu amb **beca expositiva i beca de publicació**; exposició «30 anys de Can Basté» (2025) → coherent amb la fundació ~1995/96.
-- **Humberto Rivas**: confirmat com a figura clau de la fotografia a Espanya — Humberto Luis Rivas Ribeiro (**1937–2009**, nascut a Buenos Aires, instal·lat a Barcelona el **1976**; «el fotògraf del silenci»; retrospectiva al **MNAC 2006**; Fundación MAPFRE 2018; **Premi Ciutat de Barcelona d'Arts Plàstiques 1997**; biblioteca donada a la **UAB** el 2017). **Pendent de confirmar**: que fos professor a Can Basté, la plaça dedicada al districte i l'homenatge de Can Basté (no s'ha trobat cap font).
-- **Arnaldo Gil Albacete** i l'exposició **«L'ahir i l'avui de Nou Barris»**: **sense font externa trobada** (caldrà preguntar o cercar a l'Arxiu/Can Basté).
-- **19è Fòrum «novembre 2026»** i el detall de **plató/laboratori/estació digital**: aportats per l'usuari; confirmada l'existència i especialització del Fòrum, no la data exacta ni els serveis.
-
-### Concurs Josep Anton Cordoncillo — recerca i cronologia (2026-09-18)
-
-> Recerca aportada per l'usuari + verificació a l'arxiu propi (`content/posts/`). És una **peça pròpia** de la investigació: «Concurs Josep Anton Cordoncillo — 1990–2026».
-
-- **Origen 1990 (deducció, no font)**: el post propi de **2008** (`content/posts/2008-03-29-concurs-fotogrfic-josep-antn.md`) diu literalment **«XIXª edició»**; el de **2009** (`2009-09-08-...`) diu **«XXena edició»**. Si la numeració és consecutiva, la primera edició seria **1990**. **Pendent** una font de 1990/1991 que ho confirmi.
-- **Cronologia reconstruïda** (any → número; **negreta** = el post diu un número equivocat, error de xifra romana al títol):
-  1990 I · 2008 XIX · 2009 XX · 2010 XXI · 2011 XXII · 2012 **XXIII** (post: «XIII») · 2013 **XXIV** (post: «XIX») · 2014 XXV · 2015 **XXVI** (post: «XVI») · 2016 XXVII · 2017 XXVIII · 2018 XXIX · 2019 XXX · **2020 (no consta cap edició; possible any saltat, p. ex. COVID)** · 2021 XXXI · 2022 XXXII · 2023 XXXIII · 2024 XXXIV · 2025 XXXV · 2026 XXXVI (en curs).
-- **Anomalies de numeració** (anotar com a incidència documental, **no corregir a mà**): 2012 «XIII», 2013 «XIX», 2015 «XVI». La seqüència quadra de 2008 (XIX) a 2019 (XXX) i de 2021 (XXXI) a 2025 (XXXV) **si el 2020 no es va celebrar**.
-- **Categories 2008–2011** (font pròpia): A color tema lliure; B B/N tema lliure; **C Premi Josep Anton Cordoncillo** (tema específic); **D Fotomòbil** (enviament per correu: 2008 a `cbarri@telefonica.net`, 2009 ja a `info@9barrisimatge.org`); E Infantil (des de 2009). Temes C: 2008 «20 anys de Casal de Barri», 2009 «Surrealisme», 2010 «Surrealisme», 2011 «Moviment Indignats 15M». Jurat: **Agrupació Fotogràfica de Catalunya** (2008–2010); **9 Barris Imatge** (des de 2011).
-- **2012** (post «XIII», tema «Erotisme»): 24×30 cm sobre cartolina, lliurament físic; només fotos inèdites; màxim 3 per categoria; 150 € als guanyadors A/B/C.
-- **2014** XXV: reportatge de **Manel Villalba**; àlbum a Picasa (títol «XXV», nom d'àlbum «XVConcurs…»).
-- **2019** XXX: tema «Jubilats»; 100 € per categoria; premi del públic.
-- **2021** XXXI: tema «Vacances, temps lliure»; guanyador Cordoncillo **Cristian Rodríguez** («El despertador»).
-- **2022** XXXII: tema «Menjar»; jurat 9 Barris Imatge; concert **Daniel Higiénico**; el Casal ja el descriu com un «clàssic».
-- **2023** XXXIII: tema «Petó»; **23 participants i 52 fotografies** (memòria del Casal); concert Sweet Marta & Johnny Bigstone.
-- **2024** XXXIV: tema «Mirades»; concert **Jo Solana Trio**; el post diu explícitament «homenatge al membre fundador de 9 Barris Imatge que va deixar-nos».
-- **2025** XXXV: tema «Peus»; bases digitals (1 foto/categoria, JPEG ≥4 MB, correu, RAW de verificació, **prohibició d'IA**); 100 € per categoria + 100 € vot popular; exposició al Casal al desembre (concert Dani Roto).
-- **Cordoncillo (persona) — PENDENT**: només és documentat que era **membre fundador de 9 Barris Imatge** i que el concurs es manté en homenatge seu. Falten naixement/mort, barri, fotografia, fons i origen del nom. Pista: post propi **`content/posts/2010-11-07-lherencia-de-josep-anton-cordoncillo.md`** (enllaç a BTVnotícies, sense text) → possible mort/legat cap al 2010 (però el 2008 el concurs ja portava el seu nom).
-- **Pendent**: reconstruir **35 anys de guanyadors** (any → tema → color → B/N → Cordoncillo → premi públic), que pot revelar fotògrafs no llistats. Fonts: arxius del Casal de Barri Prosperitat, de 9 Barris Imatge i de l'Arxiu Històric de Roquetes-Nou Barris.
-- **Fonts de veritat per a les dades de cada edició** (2026-09-18): el **mateix blog 9barrisimatge.org** (la convocatòria s'ha publicat habitualment, ni que sigui amb una imatge) i el blog **`blog.pocallum.cat`** (que té totes les dades de cada edició). Ús per a la reconstrucció de l'arxiu del concurs i per al sistema de votació.
-
-### Concurs — reestructuració en pestanyes (2026-09-18)
-
-> Implementat (aprovat 2026-09-18). Fitxers: `content/concurs.md`, `assets/css/extended/custom.css`, `layouts/_partials/footer.html`, nou `layouts/_shortcodes/rel.html`.
-
-- **3 pestanyes principals al capdamunt**: **L'edició 2026** (amb sub-pestanyes Bases / Com participar + botó PDF) · **Història del concurs** · **Els trofeus**. CSS pur amb radios (`name="concurs-view"` → `view-2026`/`view-historia`/`view-trofeus`); les sub-pestanyes mantenen `name="concurs-tab"` (`concurs-tab-bases`/`concurs-tab-participar`).
-- **Més aire**: `.concurs` amb més marge; pestanyes, taula i seccions amb espaiat nou.
-- **Història del concurs**: resum + **taula de cronologia 1990/2008–2026** (temes, fets destacats) + evolució del format + apartat Cordoncillo; els punts no confirmats (1990, 2020, numeracions 2012/2013/2015) marcats amb `.is-pending` «per confirmar».
-- **Compartir + enllaços propis**: `.concurs-share` amb botons WhatsApp/Telegram/Correu/Copiar (JS a `footer.html`, via `location.href`) i enllaços a l'etiqueta del concurs (`/tags/concurs-fotogràfic-josep-antón-cordoncillo.html`), al Casal de la Prosperitat i a l'Arxiu Històric.
-- **`layouts/_shortcodes/rel.html`** (nou): `{{< rel "/ruta" >}}` → `relURL` amb `TrimPrefix "/"`. Cal perquè els enllaços/imatges dins blocs HTML crus del markdown no passen pels hooks `render-image`/`render-link`. Utilitzat a `concurs.md` per a la imatge dels trofeus i l'enllaç de l'etiqueta.
-- **Impressió**: `@media print` actualitzat per forçar `#concurs-2026` i el panell de Bases visibles.
-- Build net (6.539 pàgines). Verificat: enllaços i imatge surten amb `/9bi/` (base-aware).
-
-### Concurs — desplegament final (2026-09-18, sessió v4)
-
-- **Títol de pàgina sense abreviatures**: `content/concurs.md` amb `title` sencer («Concurs fotogràfic Josep Antón Cordoncillo») + `visualTitle` (amb `<br>`) per a l'h1. Nou **`layouts/single.html` SOBREESCRIT** (còpia del tema): si la pàgina té `.Params.visualTitle`, l'usa com a h1 amb `safeHTML`; si no, `.Title`. **Atenció en actualitzar PaperMod.**
-- **Subtítol amb enllaç al Casal**: `description` en text pla (per al `<meta>` net) + `visualDescription` (markdown) renderitzada com a subtítol visual a `single.html` (`{{ .Params.visualDescription | .RenderString (dict "display" "inline") }}`); hi ha enllaç a casalprospe.org.
-- **4 pestanyes principals**: L'edició 2026 · **El vot del públic** · Història del concurs · Els trofeus (CSS pur, radios `name="concurs-view"`, `#view-vot`).
-- **Pestanya «El vot del públic»**: premi de 100 € que decideix el públic; sistema digital de vot en estudi — **QR únic a l'exposició** + cada obra porta el seu **número** i al QR s'hi indica el número a votar; 1 vot per obra i dispositiu, anònim; votar al Casal de Barri de Prosperitat.
-- **Botons de compartir amb icones SVG** (WhatsApp/Telegram/Correu/Copia) — text conservat.
-- **Enllaços externs del bloc «Comparteix i enllaços»** trets (petició usuari): només queda l'enllaç intern a l'etiqueta del concurs.
-- **Espaiat**: dates importants `4.8rem 0 2rem` (triple/doble); línia de Categories `3rem 0`; pestanyes inactives amb `background: var(--tertiary)`.
-- **Bug icones del menú arreglat**: `.menu-icon` i `.menu-icon svg` ara tenen mida base **fora** de `@media (min-width: 769px)`; a ≤768px les icones es mostren a 17px (abans l'SVG sense width/height es renderitzava gegant i trencava el mòbil).
-- **Abreviatures corregides** (`J. A. Cordoncillo` / `J.A.Cordoncillo` → nom sencer): `content/concurs.md` i posts `2014-12-16-...` i `2025-12-21-...`.
-- Build net (6.539 pàgines). **Desplegat a Codeberg Pages** (branca `pages`).
-
-### Peu amb l'ample del header i versió mòbil (2026-09-18, sessió v5)
-
-- **`.footer` ara mesura com el header**: el tema fixa `max-width: calc(var(--main-width) + var(--gap) * 2)` (720px), mentre el header fa 1024 (`--nav-width`). Override a `custom.css`: `.footer { max-width: calc(var(--nav-width) + var(--gap) * 2) }`. **Atenció en actualitzar PaperMod.**
-- **Versió de telèfon (≤480px)**: `.footer-cols` amb `grid-template-areas` → **Logo + «El web»** (costat a costat) · **«Legal»** amb tots els links en una sola línia · **«9 Barris en números»** amb totes les dades en una sola línia (separats per «·»).
-- Classes noves als menús del footer: `footer-col--web` i `footer-col--legal` (a `layouts/_partials/footer.html`).
-- **Títols de columna més grans** (aprovat 2026-09-18): `.footer-col-title` de `0.78rem` → **`0.95rem`**, mateix color `var(--secondary)`.
-- **`.footer-bottom` en columna**: «Powered by…» centrat i a sota del copyright (CC), amb un **filet** `1px solid var(--border)` a sobre de la línia de Creative Commons.
-- **Tasques anotades al backlog (2026-09-18)**: auditoria SEO i IA, document d'URLs de Blogger (SEO/redireccions), i links a Instagram + Grup de Facebook amb eina automàtica de publicació de posts nous (a més del bot de Telegram pendent).
-
-### Diagnòstic del núvol d'etiquetes (`/tags/` i `/search/`)
-
-- **A la pàgina de Cerca (`/search/`) NO hi ha núvol d'etiquetes** — cal afegir-lo (pendent d'aprovació).
-- **Recompte real** (2026-09-18): 3.006 fitxers; **11.377 aparicions**; **1.742 tags literals** (1.719 normalitzats: espais/accents/majúscules).
-- **23 grups de variants** a unificar (exemples): `exposicio`/`exposició` (102), `musica`/`música` (101), `presentacio`/`presentació` (78), `veins`/`veïns` (27), `VIA JULIA`/`vía júlia` (28), `torre baro`/`torre baró` (18), `República`/`republica` (28), `prego`/`pregó`, `futbol sala`/`futbol-sala`, `dia de la dona` (amb doble espai), `nit d´animes`/`nit d'ànimes`, `placa Àngel Pestaña`/`Ángel`, etc.
-- **Famílies grans a unificar**: `prospe`(339)/`Prosperitat`(330)/`barri de Prosperitat`(96)/`la prosperitat`(66); `casal de barri`(140)/`casal barri prosperitat`(122)/`Casal de barri Prosperitat`(107)/`Casal de barri de Prosperitat`(95); `9 barris`(89)/`9barris`(52); `festa`(109)/`festes`(88).
-- **890 tags amb 1 sol ús** — molts brossa: hashtags (`#el47 #lluitaveinal…`), dates (`29-09-2010`), noms puntuals, etc.
-- **Etiqueta trencada detectada**: `manel sala "ulls` (73 aparicions, cometes desbalancejades).
-- Eina d'anàlisi temporal usada: `/tmp/tag_analysis.py` (parseja el front matter de `content/posts/*.md`).
-
-### Diagnòstic responsive: icones del header massa grans
-
-- Causa probable: a `custom.css`, **`.menu-icon svg { width: 20px; height: 20px }` i `.menu-icon { display: none }` només existeixen dins `@media (min-width: 769px)`** (línies ~546–581). Per sota de 769px no hi ha cap mida per a l'SVG → l'SVG inline (viewBox sense width/height) es renderitza enorme i el span es mostra.
-- Proposta (requereix aprovació de disseny): definir `.menu-icon`/`.menu-icon svg` amb mida base **fora** del media query i decidir el comportament mòbil (amagar icones o fer-les de ~18 px), o restringir les icones a escriptori.
-
-### Altres
-
-- **Eslògan «arreu»**: **aplicat i desplegat (2026-09-18)** — `config/_default/hugo.toml` (línia 50, `description`) i `content/qui-som.md` (línia 7).
-- **Reestructurar el footer «amb lògica»**: **implementat (2026-09-18)** — amplada igual al header (`--nav-width`) i versió de telèfon: Logo + El web / Legal / Números, en una sola línia cadascuna.
-
-## Sessió 2026-09-18 (v6) — Client ID CMS, depuració d'etiquetes, header scroll i membres amb actiu/històrics
-
-- **CMS Client ID**: `static/admin/config.yml` amb `app_id: 0c6b6c51-bea8-4b64-8c1e-96bbf02eef15` — **commitejat (`dd36e51e`) i desplegat**, verificat en viu a `/9bi/admin/config.yml`. Redirect URI `https://9barrisimatge.org/admin/`, «Confidential client» desmarcat.
-- **Depuració d'etiquetes APLICADA** (commit `215cdfc8`, desplegat): 3 passades (renames de variants + brossa; variants per cas; Vídeo→vídeo). **430 fitxers** (+315/−524). **Estat final**: 2.891 posts amb tags / 115 sense; **1.675 tags literals únics** (abans 1.743); **11.203 aparicions** (abans 11.382); **0 grups de variants**. Els **anys** com a tag s'han **conservat** (decisió editorial pendent).
-- **Header scroll fix** (commit `a28ea96d`, desplegat): elecció de l'usuari «Canvi instantani» — se suprimeixen `transition: line-height 0.25s ease` i `transition: height 0.25s ease, margin 0.25s ease`; només queda `box-shadow 0.2s ease` (causaven tremolor en fer scroll).
-- **Membres → carpeta amb actiu/històrics**: `data/membres.yml` **substituït per `data/membres/<slug>.yml`** (12 fitxers). Campos: `autor` (clau d'atribució, no es toca), `nom` (real), `malnom` (el que es mostra), `web`, `instagram`, `actiu` (bool, per defecte true).
-  - Taula de membres (`_shortcodes/membres.html`): mostra el **malnom** (si no n'hi ha, el nom real); es parteix en **actius** i «**Membres històrics**» (`actiu: false`) a sota.
-  - Pàgina d'autor (`author/term.html`): títol = **malnom** + línia amb el **nom real** (només si és diferent).
-  - Peu «9 Barris en números»: comptador = **total (actius + històrics)**; ara llegeix el mapa `len (hugo.Data.membres)`.
-  - Decap (`config.yml`): col·lecció `membres` passa de `files` a **folder** (`data/membres`, `identifier_field: autor`, `extension: yml`, `format: yaml`) amb el camp **ACTIU** (boolean, default true).
-  - **Noms reals/malnoms confirmats per l'usuari (2026-09-18)**: Joan = «Linux»; Pedro Click = malnom (nom **Pedro García**); Manel Sala = «Ulls»; Pedro Cervera **sense malnom** (sort com «Pedro Cervera»); Francesc Barbe, Ismael Utrilla, Alberto Sanagustín, Iozsef Kiss, Manel Villalba **sense malnom**; Núria = «Nuria»; Nico YeYe = malnom de **Nico Derocal**; Juan Carlos = «Grismedio Casinegro».
-  - **Limitació Decap**: no hi ha ACL per usuari/registre — els inactius «que ja no editen» es gestionen **traient-los l'accés d'escriptura a Codeberg** (no al config).
-- **Peu — filet d'accent sobre «Powered by»**: `border-bottom` de `.footer-copyright` passa a **4px solid #e03131** (mateix gruix i color que la banda `.footer-band` que separa el footer de la resta).
-- **`.gitignore`**: afegit `/.taques/` (gestió d'hores, local).
-- **Pendents nous**: pestanya «9bi als mitjans» a Qui som (+ material de 27 links verificats de les edicions del concurs); chrome del CMS (header amb logo + «Edició de 9 Barris Imatge», footer igual que el web, Manual consultable des del header); demandes del llistat del CMS (ordenació més recents, miniatures, normalitzar **384 títols en majúscules**, permisos per usuari = inviable a Decap).
-
-## Sessió 2026-09-18 (v7) — CMS: articles per anys
-
-- **Camp `year` a tots els posts**: aprovat per l'usuari (col·leccions per any, opció «Recomanat»). Script `add_year.py` afegeix `year: YYYY` derivat de la `date` al front matter de **3.006 fitxers** (commit `81e67deff`, desplegat a `pages`). Rang: 2008 (102)…2026 (63), total 3.006, 0 errors; verificat que any coincideix amb la data en tots. El tema ignora la clau (clau de front matter extra inofensiva).
-- **19 col·leccions filtrades al CMS (APROXIMACIÓ INICIAL, SUBSTITUÏDA a la sessió v8)**: `static/admin/config.yml` substitueix la col·lecció `posts` per 19 col·leccions tipus folder `posts-YYYY` amb `filter: { field: "year", value: "YYYY" }`, `create: true` i un camp `year` hidden amb default de l'any corresponent (perquè els posts nous entrin al filtre). Menú ordenat de més recent (2026) a més antic (2008). La llista de 13 autors es manté amb **ancoratge YAML** `x-autors: &autors` per no duplicar-la 19 vegades. **Nota (v8)**: el `filter` carregava igualment els 3.006 fitxers de la carpeta → penjament «carregant entrades a la cache»; substituït per subcarpetes físiques per any.
-- **Resultat pràctic**: «Articles · 2026» mostra només els 63 posts d'aquell any (l'any per defecte primer); crear un post nou preomple l'any sol. Redueix el llistat de 3.006 a ~60–250 per any.
-- **Chrome del CMS implementat** (commit `16534a4ae`, desplegat; pages `d1830af`): `static/admin/index.html` amb capçalera i peu propis usant el **Custom Mount Element** oficial (`<div id="nc-root">` + script `defer` — Decap munta la UI dins, no ocupa tota la pàgina). Header: logo (`../images/logo-header.jpg`) + **«9 Barris Imatge - Gestor de continguts»** + enllaços per consulta dels editors: **Guia i manual** (`#/collections/guia`), Articles · 2026 (`#/collections/posts-2026`), Membres i «Torna al web». Footer: **replica del del web** (banda accent `#e03131`, columnes logo · El web · Legal · 9 Barris en números amb links relatius `../`, CC BY-NC-SA + Powered by LinuxBCN/Hugo/PaperMod amb reveal; estils propis prefixats `cms-`, CSS inline, sense assets del web carregats). **Nota**: els números del peu del CMS (`3.006 posts · 24 anys · 12 membres`) són **estàtics** (quedaran vells); els del web es generen a cada build.
-
-## Sessió 2026-09-18 (v8) — CMS: posts en subcarpetes per any + rail propi
-
-- **Porblema**: les col·leccions amb `filter` carregaven tota la carpeta `content/posts` (3.006 fitxers) per mostrar-ne només 63 → el CMS quedava «carregant entrades a la cache». Decap aplica el filtre a client, no a server.
-- **Solució (aprovada per l'usuari, opció «Moure per anys»)**: els **3.006 posts es mouen a subcarpetes físiques** `content/posts/YYYY/` (2008…2026). Les **URL no canvien**: els permalinks `/:year/:month/:slug` surten del front matter (`date` + `slug`), no del path. Verificat comparant l'arbre `public/` abans/després (8.446 pàgines idèntiques).
-- **`config.yml` (commit `77e3d61c9`)**: les 19 col·leccions `posts-YYYY` ara apunten a `folder: content/posts/YYYY` (sense `filter`) i porten **`sortable_fields`** (`date` amb `default_sort: desc` → llistat de més recent a més antic dins de cada any).
-- **Rail propi al CMS** (`static/admin/index.html`, mateix commit): barra lateral esquerra que **substitueix la sidebar nativa de Decap**:
-  - «**Articles**» amb `<details open>` i els **19 anys** (2026→2008, 2026 actiu per defecte) enllaçant a `#/collections/posts-YYYY`;
-  - «Seccions»: Membres, Guia i manual, Actes, Concurs Cordoncillo;
-  - «Torna al web»; JS destaca l'any segons el hash (`#/collections/posts-YYYY`).
-  - CSS: `#nc-root aside { display: none }` i `#nc-root main { padding-left: 0 }` per amagar la sidebar interna de Decap (classes internes → **fràgil davant actualitzacions de Decap**, versió fixada `^3.0.0`). A ≤900 px el rail passa a horitzontal amb els anys en files.
-- **Scripts de migració**: `migrate_live.py` i `migrate_blogger.py` escriuen ara a `content/posts/YYYY/` (`os.path.join(args.output, pub.strftime("%Y"), …)`).
-- Desplegat (webhook ~1-2 min en la verificació): main `77e3d61c9` → pages `65efc85d`. Verificat en viu: config amb `folder: content/posts/2026` + `sortable_fields`, i HTML del rail present.
-
-## Sessió 2026-09-19 (v1) — votació per QR: pla + mòdul M1 fet i testejat
-
-> **Abans de retocar el web**: els canvis d'aquesta sessió són **documents de planificació (`drafts/`)** i el **mòdul `modules/votacio/`** (0 afectació al web). Committejat el 2026-09-19 a `main` (`387f283a6`) i pujat a Codeberg; branca `pages` resincronitzada amb `origin/pages`.
-
-- **`drafts/2026-09-19-votacio-pla-desenvolupament.md`** (nou): pla de la votació del públic. Seccions: 1) investigació (geofencing off/soft/hard; prova que el vot sense mòbil és «vot en paper»; RGPD: consentiment i never-store de coordenades; comparació d'allotjament), 2) abast M1, 3) estructura de fitxers, 4) pla de treball 11 passos, 5) decisions aprovades, 6) pendents.
-- **Decisions de l'usuari (2026-09-19)**: 1) geofencing **off** per defecte global, **soft** a l'edició 2026 (radi **500 m**, centre Casal de Barri de Prosperitat, `lat=41.3948 lon=2.1775`); 2) sense mòbil → **vot en paper** (urna física + `tally --paper`); 3) `collect_data = none` el 2026; 4) allotjament: **primer Dinahosting compartit** (Passenger), VPS Lite (~34 €/mes) només si falla. Llicència proposada **AGPL-3.0** (per confirmar); repo `9bi-apps` (orientatiu).
-- **Config = INI amb configparser (stdlib)**, no YAML → **zero `pip` en producció**.
-- **`drafts/2026-09-19-apps-modulars-votacio-albums.md`**: document de la suite **completat i coherent**, títol ampliat a «Suit modular de programari lliure per a associacions i escoles de fotografia»; §6 «Mòduls futurs a avaluar — i el vincle amb Llumàtics» (inclou `tallers` i `sortides` com a candidats) + taula de candidats i regla de l'adoptant real; seccions reenumerades 7–12; Fase 7 afegida.
-- **`drafts/2026-09-19-noms-suite.md`** (nou): proposta de noms per a la suite per categories; **top 5: Trípode, Objectiu, Revela, Enquadra, Focus**; decidir català vs internacional.
-- **`modules/votacio/`** (nou, M1) — app WSGI **només stdlib**, sense dependències de tercers en producció:
-  - `app.py`: rutes `/v/<token>` (GET form / POST vot), `/admin/` (login, recompte, export CSV signat, tancar, logout), `/health`. Vot per obra i dispositiu (HMAC-cookie), CSRF per petició, rate-limit per IP, geofencing off/soft/hard amb haversine, i18n ca/es/en, `connect()` auto-crea l'esquema.
-  - `schema.sql` (taules edicions/obres/vots amb UNIQUE per duplicats), `config.example.ini`, `passenger_wsgi.py` (punt d'entrada Phusion Passenger per a Dinahosting/cPanel), `i18n/{ca,es,en}.ini`.
-  - `tools/qr.py` (QR del cartell; `qrcode` només en dev o `qrencode`), `tools/tally.py` (+ `--paper`), `tools/audit.py` (verifica HMAC i duplicats).
-  - **Testejar**: via WSGI i servidor real — vot OK, repetit bloquejat, token dolent 404, geo `hard` fora de radi → 403 i dins → 200, `soft` marca `out`, `off` ignora; `audit` 0 anomalies.
-  - Config local `config.ini` **gitignored** (secrets fora del repo).
-- **`scripts/picasa_to_photos.py`** + `drafts/2026-09-18-pla-recuperacio-albums.md`, `drafts/informe-links-trencats.md`, `drafts/emails-usuaris.md`, `drafts/2026-09-18-codeberg-usuaris.md`: documentació/script de la recuperació d'àlbums i dels usuaris Codeberg (vegeu backlog).
-- **Pendent**: confirmar Python/Passenger al panell de Dinahosting i desplegar amb dates reals (1–15 des 2026), secrets reals (`secrets.token_urlsafe`) i `ssl=1`; confirmar AGPL-3.0 i crear el repo `9bi-apps`; moure el mòdul al repo nou.
-
-## Sessió 2026-09-19 (v2) — cura de tags aplicada i reconciliació amb la sessió de casa
-
-> La feina d'aquesta sessió (cura de tags, formulari, membres) s'havia fet sobre l'estructura **plana** antiga (`content/posts/*.md`) i va quedar sense commitejar. Mentrestant, una altra sessió (del 2026-09-18/19, des de casa) havia pujat a `main` tota la feina del CMS (posts en subcarpetes per any, camp `year`, rail, votació QR, «Santa Brava», …). Aquesta sessió ha **reconciliat** les dues línies: la cura es reaplica sobre l'estructura nova i es commiteja tot de nou.
-
-### Cura de tags — REAPLICADA sobre l'estructura nova (258 posts a `content/posts/<any>/`)
-
-- Mètode: es va salvar el treball del working tree a la branca `wip-cura-tags-plana` (commit `aeea1b18`), es va posar `main` a `origin/main` (c17741aa) i es van reaplicar les tags finals dels 258 fitxers des d'aquesta branca sobre els posts de l'estructura nova (preservant el camp `year` afegit per la sessió de casa i la resta del front matter).
-- **143 posts** amb l'any com a tag **trets** (regla: eliminar tags-any excepte `1972`, nom d'una banda). Verificat: **0 anys restants com a tag**; `1972` conservat (1 post).
-- **125 posts** sense tags (o només d'any) **curats** amb overrides confirmades: The Chanclettes → `ARTS ESCÈNIQUES` · SENYALS DE FUM (×2) → `música` + `Festa Major de la Prosperitat` · POR HAITI → `fotografia` + `solidaritat` · AntivirusProspe → `covid-19` + `solidaritat` · LLORENÇ FA 91 → `activisme` + `veïns`.
-- Els 10 posts curades amb el comentari `<!-- tags auto-generades…revisar -->` s'han quedat sense ell. La resta de posts amb el comentari (1.687) resten intactes.
-- **Formulari** (`content/contacte.md`): camp nou `entitat` (patró `assumpte`), entre `assumpte` i `missatge`.
-- **Membres** (`layouts/_shortcodes/membres.html`): sense `web` → enllaç «Posts al blog» a la pàgina `/author/<slug>.html` (abans «—»); activats i històrics.
-- Build local `hugo` **net** (verificat abans del commit).
-
-### Nota per sessions futures
-
-- La branca `wip-cura-tags-plana` es pot esborrar (ja integrada a `main`); si es manté, no esborrar fins a confirmar el commit de la sessió a `main`.
-
-## Sessió 2026-09-20 — autors recuperats, membres veterans, Cordoncillo, header
-
-- **Recuperació d'autors (2026-09-20)**: commit i deploy de la feina de la sessió anterior. **439 de 473 posts** reassignats (93%); **34 irresolubles** documentats a `drafts/autors-no-resolts.md` (comptes Google completament eliminats). Script `scripts/recupera_autors_blogger.py` v2 commitat.
-- **Autors nous descoberts** (principal: **Pili E. G.**, 339 posts): 11 fitxers nous a `data/membres/` + 11 opcions noves al select del CMS (`static/admin/config.yml`, ara 24 opcions).
-- **«Membres veterans»**: nomenclatura aprovada per l'usuari per al segon grup (en lloc de «Membres històrics»).
-- **Josep Anton Cordoncillo**: afegit a `data/membres/` com a membre fundador honorífic (`rol: 'Membre fundador honorífic'`, `actiu: false`, sense posts al blog). El shortcode `layouts/_shortcodes/membres.html` **reescrit** per iterar `data/membres/` com a font primària (en lloc de la taxonomia), de manera que membres sense posts publicats apareixen igualment. Camp `rol` mostrat en cursiva quan `count=0`.
-- **Noms i malnoms actualitzats**: Linux→Joan Linux, Ulls→Manel "Ulls", Nuria→Núria Orbaneja; Ivan Ortiz, Inma Alicio, Antonio Sedano, Pepa Calatrava com a noms reals; Sandra "Casal" i Ignasi "Casal" com a malnoms.
-- **Bug tremolor header (fix definitiu)**: histèresi al listener de scroll — afegeix `.scrolled` a `scrollY > 120px`, treu-la a `scrollY < 90px`. Trenca el bucle reflow que causava el tremolor (el canvi de mida del logo de 229px → 48px provoca un salt de layout que modificava `scrollY` i tornava a fer toggle).
-
-## Sessió 2026-09-27 — Enllaços directes a les pestanyes de «Qui som» i cerca corregida
-
-- **Enllaços directes a cada pestanya de `/qui-som/`** (FET, commit `c8360f4b5a`, GitHub Actions `success`, producció verificada): ids llegibles a les etiquetes (`#quisom`, `#comfuncionem`, `#membres`, `#relacions`, `#historiafotografia`, `#9barrisimatgealsmitjans`), JS a `layouts/_partials/footer.html` que actualitza la URL amb `history.replaceState` i obre la pestanya des del fragment (tolerància a majúscules/accents; compatibles els antics `#qsb-*`), i `scroll-margin-top: 5rem` a `.qsb-viewtab` perquè la barra no quedi sota la capçalera sticky. L'enllaç del peu a membres usa ara `qui-som/#membres`. La galeria `historia-galeria` s'ha retirat de la pàgina (fitxers d'imatge i CSS conservats).
-- **Cerca del web corregida** (FET, commit `bf7f1ba127`, Actions `36311968665` success, producció verificada en viu): límícia completa a l'entrada 10 del backlog. En resum: `index.json` ara porta `date`, `[params.fuseOpts] limit=100 threshold=0.3`, i cada resultat mostra la data de publicació (distingeix els 50 títols repetits).
-- **Sincronització en barrera**: abans del push hi havia el commit remot `ab52a905c1` («Update Membre manel-sala-ulls-circ», fet des del CMS per l'usuari, toca `data/membres/manel-sala-ulls-circ.yml`). Integrat amb `git rebase github/main` sense cap conflicte; cap push manual a Codeberg (restà, com sempre, sense tocar per quota).
-
-## Sessió 2026-09-27 (v2) — paquet distribuïble Taro, llicències, proveïdor únic i votació armada per al 01/12
-
-- **Estat dels remotes (canviat, actualitzat aquí)**: `origin` = **GitHub** (`git@github.com:112books/9bi.git`, és producció) i `codeberg` = **Codeberg** (`git@codeberg.org:linuxbcn/9bi.git`, backup, push bloquejat per quota). **Ja no existeix cap remote anomenat `github`**: el `git fetch github` falla. A la sessió del 2026-09-27 (v1) encara es feia `git rebase github/main`; avui `origin/main` i el HEAD local eren idèntics (`d8a7cf4c7`) i Codeberg estava **79 commits enrere**.
-
-- **Regla del proveïdor (decisió de l'usuari, 2026-09-27)**: **cap document ni el paquet distribuïble ha de dir mai «Dinahosting»**. LinuxBCN **ofereix** l'allotjament i el ven com a servei propi (som *resellers* del proveïdor). Aplicat a `drafts/2026-09-27-taro-photo-app.md` («l'hosting que ofereix LinuxBCN») i als 4 llocs de `modules/taro/`, on la formulació és **neutra** («hostings compartits») perquè el client l'instal·la al seu servidor. A `content/privacitat.md` (pàgina **pública**) el proveïdor de correu passa a ser LinuxBCN, per decisió de l'usuari. **La documentació interna sí que en conserva el nom** (`CLAUDE.md`, `sync-9bi.sh`, `content/documentacio/concurs/procediments-concurs.md`, drafts): són les dades operatives per mantenir el servidor i renovar el certificat. Zero mencions al document i al paquet, verificat amb grep.
-
-- **Quatre bugs reals trobats i corregits** (tots al paquet i als mòduls reals): (1) `SELECT *` a `get_edition_and_works()` trencava amb la versió nova de SQLite → columnes explícites; (2) **`/admin/obres` retornava 500** per `UnboundLocalError: body_estat` (copiat del recompte, mai assignat) — **corregit i verificat en producció (200)**; (3) `modules/taro/autopublica/tools/deploy.sh` reutilitzava `/tmp/pages-deploy` i el `.git` vell, podia publicar HTML obsolet → `mktemp -d` + `trap`; (4) el peu de la votació genèrica imprimia text mort amb el config d'exemple → `html_link()` no imprimeix res si no hi ha URL.
-
-- **Protecció del TLS als quatre `.htaccess`** (`modules/{taro/,}{votacio,formularis}/deploy/htaccess`): només miraven `X-Forwarded-Proto`; en un hosting on Apache rep el TLS directament, `%{HTTPS}` sol no hi és i sortia un **bucle de 301**. Ara hi ha les **dues** condicions (`%{HTTPS} !=on` **i** `X-Forwarded-Proto !=https`); taula de veritat dels 4 casos comprovada, cap bucle possible.
-
-- **Llicències**: `LICENSE` = AGPL-3.0 (text oficial) + carpeta `LICENSES/` amb els avisos de tercers. **Corregit un error meu**: Sveltia **no** és GPL-3.0, és **MIT** (verificat a l'API de GitHub). Avisos SPDX als 13 fitxers Python de `modules/taro/`.
-
-- **Desplegament al servidor (2026-09-27 ~17:45)**: el servidor portava un `app.py` **273 línies més antic** (li falten `interpolation=None`, les columnes `mode`/`llot`/`adreça`, el botó d'ubicació, la distància al concurs i els dos bugs d'aquesta sessió). Pujats `app.py` + `schema.sql` de la votació, `app.py` dels formularis i els dos `.htaccess`. Còpies de seguretat: `~/apps/*/COPIA-pre-deploy-20260927-1744.tgz`, `~/apps/vots-cordoncillo/data.db-pre-deploy-20260927-1744.bak`, `config.ini-pre-data-20260927-1810.bak` i els `.htaccess` del docroot. **BBDD buida** (aturat, esborrat `data.db` amb els 8 vots de proves, arrencat). Verificat: http→https 301 sense bucle als dos subdominis, `/health` 200, arrel 302 al QR, login admin amb cookie `Secure`, `/admin/obres` **200**, export CSV `text/csv` (0 vots), formulari amb origen dolent 403 i honeypot 200 silenciós. `config.ini` i `data.db` en 600, sense secrets llegibles.
-
-- **Data d'activació (decisió de l'usuari, 2026-09-27)**: la votació s'obre el **01/12/2026 a les 00:00**, dia de la **inauguració de l'exposició**, i es tanca sola el **15/12/2026 a les 23:59:59**. Aplicat a `~/apps/vots-cordoncillo/config.ini` amb `activa = 1` + les dates noves. **Com funciona la porta** (`edition_open()`, `modules/votacio/app.py:491`): cal **els dos** — `activa = 1` **i** l'hora del servidor dins de `[data_inici, data_fi]` (i `tancada = 0`). Avui (27/09) la pàgina diu «no està activa en aquest moment» i un POST és rebutjat: **la finestra de dates és la que fa de porta**, no cal ningú a casa per obrir-la. Es tanca permanentment amb el botó de l'administració (`tancada = 1` a la BBDD), que és l'única cosa que no es pot reobrir amb `activa = 1`.
-
-- **PENDENT CRÍTIC, la llista d'obres**: la BBDD encara conté les **100 obres de prova**. Les obres **només es carreguen quan la BBDD es crea buida** (comentari al `config.ini`), i la finestra s'obre sola. Abans del 30 de novembre cal: (1) posar la llista definitiva a `[obres]` (número, títol, autor, categoria) i (2) esborrar `data.db` i reiniciar. Si el dia 1 s'arriba amb les obres de prova, el recompte del públic no serveix.
-
-- **Telegram: NO està lligat** (comprovat el 2026-09-27; **superat el 2026-09-28**, vegeu la sessió d'aquell dia). `modules/autopublica/` **no** publica a xarxes: rep el webhook de push del repositori i fa `git pull` → build → push del build, és a dir, publica el web sol. Les úniques mencions de Telegram són text (backlog, `concurs.md`, `contacte.md`). Per muntar-lo cal token d'un bot de `@BotFather` + `chat_id` del canal (accions de l'usuari) i un script nou que publiqui l'entrada nova; el punt d'enganx natural és just després del build.
-
-## Sessió 2026-09-28 — Menys protagonisme a l'Arxiu Històric i canvi de «Membres veterans»
-
-- **`/qui-som/` — Arxiu Històric de Roquetes-Nou Barris** (FET, commit `72a18d3db8`): l'arxiu ha demanat no tenir gaire protagonisme ni cap enllaç (els tres enllaços ja es van retirar el 2026-09-27, commit `e59c71ac20`). S'ha escurçat la frase del panell «Qui som» sobre el fons del fundador i la fila pròpia de l'Arxiu a la taula de «Fotografia comunitària i de barri» (es treu l'estadística de 48.000 fotos, la llista de donants —ja consten a les seves pròpies files— i la frase de retret per manca de contacte).
-- **`#9barrisimatgealsmitjans`** (mateix commit `72a18d3db8`): corregit el castellanisme «se esmenta» → «s'esmenta» (Barnanews), marcada com a pendent de localitzar la font de Barnanews, reordenades cronològicament les dues entrades de Betevé, i escurçat el paràgraf de resum final (redundant amb el contingut de dalt).
-- **«Membres veterans» → «Antics membres»** (decisió de l'usuari, 2026-09-28, revisant la decisió anterior del 2026-09-20): el terme «veterans» no encaixava amb el grup real (11 persones que ja no participen per motius molt diferents entre si: desconnexió, algun cas d'expulsió, o defunció). Canviat el text visible a `layouts/_shortcodes/membres.html` (capçalera `<h2>`) i a `data/membres/README.txt`. Les variables internes de Hugo (`$veterans`, `$tots_veterans`) no s'han tocat: és codi, no contingut visible.
-- **Pendent de decidir, no aplicat**: reformular a `/faq/` la pregunta «Les fotos dels àlbums de Google Photos?» perquè segueixi el patró interrogatiu («Puc...», «Com he de...») de la resta de preguntes.
-- **Discrepància trobada als remots (a verificar la propera sessió)**: en aquesta sessió, via el bridge al Mac (`~/mnt/9arrisimatge.org`), els remots són com **abans** de la sessió 2026-09-27(v2) — `github` → GitHub (funciona, `git fetch github` OK), `origin` → Codeberg per SSH (bloquejat per la xarxa restringida del sandbox, 403) — i no com diu aquell registre («origin = GitHub, ja no existeix cap remot anomenat github»). No s'ha tocat la configuració dels remots; només s'hi deixa constància.
-- **Aclarit (per l'usuari) i verificat en viu, 2026-09-28**: GitHub és producció real (`.github/workflows/deploy.yml`, push a `main` → build Hugo `--environment production` → GitHub Pages) i Codeberg és la còpia "neta" sense contingut, per distribuir. Però `sync-9bi.sh deploy production` (que puja a Codeberg, branca `pages`) és el que l'usuari fa servir habitualment i **ha fallat per quota de Codeberg** ("Forgejo: Quota exceeded", petició `[STORAGE]` pendent, vegeu `drafts/2026-09-21-quota-codeberg.md`). Comprovat en viu a `https://9barrisimatge.org/qui-som/`: **cap canvi d'aquesta sessió és publicat encara** (ni "Antics membres" ni el text retallat de l'Arxiu Històric ni la correcció "s'esmenta"). Pendent que l'usuari confirmi si el domini real depèn de GitHub Pages o encara de Codeberg Pages (DNS/CNAME), i que faci `git push github main` amb els commits pendents (`72a18d3db8`, `d88cdbc428`, i el d'aquesta auditoria SEO/IA) quan vulgui publicar-los.
-- **Auditoria de SEO i IA (2026-09-28)**: repàs general fet, detallat a `.taques/arxiu-backlog-claude-2026-09-27.md`. Únic canvi aplicat: activat el format de sortida `llms.txt` del tema (`[outputFormats.LLMS]` + `LLMS` a `[outputs] home`, `config/_default/hugo.toml`) — **sense verificar amb un build local** (Hugo no és accessible des d'aquest pont al Mac). Verificar que `public/llms.txt` es genera bé abans de donar-ho per fet.
-
-## Sessió 2026-09-28 (v2) — Telegram, compartir, comentaris, títols i història
-
-Sessió al núvol (Claude Code), ~08:35–11:40. Tots els canvis per PR a `main` (PR #1–#9 de `112books/9bi`).
-
-- **Autopublicació a Telegram (FET, T-13)**: `modules/telegram/telegram_post.py` al servidor (`~/apps/telegram/`), cron cada 30 min, publica al canal @NouBarrisImatge les entrades noves de `https://9barrisimatge.org/posts/index.xml` amb 1 h de marge i màxim 3 per execució. **No** està lligat al build ni a `autopublica/`: llegeix el RSS públic. `state.json` té els 3.008 guids de l'arxiu marcats com a publicats — no s'ha de tocar ni esborrar (republicaria tot). Token només al `config.ini` del servidor (600). Correccions: avís de token buit i feed de `/posts/` per defecte (PR #1, `33d5a437d`). Manual: `modules/telegram/README.txt`.
-- **T-17 Compartir (FET, PR #3)**: `layouts/_partials/post-share.html`, fila d'icones rodones al final de cada post (WhatsApp, Telegram, Facebook, correu, copia l'enllaç; al mòbil, menú de compartir del sistema, que és l'única via cap a Instagram). Enllaços normals, cap script de tercers. Corregit el botó «Copia» de `/concurs/`, que perdia la icona SVG.
-- **T-16 Comentaris (FET, PR #7 i #8)**: dins del servei `formularis` (no cal subdomini nou). `modules/formularis/comentaris.py`: `POST /envia/comentari` → pendent a `~/apps/formularis/comentaris/pendents/` + correu a info@ amb enllaç signat (HMAC) → pàgina de revisió (el GET no fa res; els filtres antispam obren els enllaços) → «Publica» crea `data/comentaris/<nom del fitxer del post>/<id>.json` via l'API de GitHub (només nom, text i data; mai el correu) → el commit a `main` dispara el build. Web: `layouts/_partials/post-comments.html` (llista + formulari plegat, avís de «rebut» amb `:target`). Paràgraf nou a `/privacitat/`. `[comentaris]` al `config.ini` del servidor: `secret` (64 hex) i `github_token` (fine-grained, només `112books/9bi`, només Contents RW; **cal apuntar-ne la caducitat**). Provat en real: formulari → correu → «Descarta» OK. **«Publica» pendent de provar amb el primer comentari real.** Les pàgines del servei (revisió i errors) porten l'aspecte del 9bi (fonts i logo carregats de 9barrisimatge.org). Per esborrar un comentari publicat: esborrar el seu fitxer de `data/comentaris/`.
-- **T-25 Títols (FET, PR #5)**: 399 títols tot en majúscules revisats per l'usuari un per un (382 propostes automàtiques, 17 de propis). Només el camp `title`; tots els posts tenen `slug`, build amb les mateixes 8.708 pàgines i URL.
-- **RSS (FET, PR #4)**: l'enllaç de `/contacte/` i la icona RSS del peu apunten a `/posts/index.xml`. **El feed arrel `/index.xml` inclou també les pàgines fixes** (el tema PaperMod fa servir `site.RegularPages`); no s'ha canviat perquè afectaria qui ja el llegeix — decisió pendent de l'usuari si mai es vol.
-- **Qui som, història (FET, PR #6 i #9)**: enllaços a Eva Orti (blog de l'Arxiu, 10/2014), Elena Bulet (web + «La balsa» a Can Basté) i Humberto Rivas (Arxiu Fotogràfic de Barcelona); resolt el pendent de Rivas (professor a Can Basté, plaça al costat del centre cívic, font betevé); Col·lectiu Nou Barris9: Joan «Linux» Martínez hi va treballar com a maquetador en l'etapa final (dada de l'usuari); treta Mónica Rosselló de la taula (el seu barri a «16 barris, 1000 ciutats» era a Sant Martí; es manté a la línia de la taula rodona del MACBA). **Carlos Navas: cap enllaç verificable trobat.** Les fonts de betevé i del blog de l'Arxiu no es van poder obrir des del núvol (només resultats del cercador): cal que l'usuari les comprovi.
-- **Decisions de l'usuari**: T-15 tancada (pla de correu de 10 comptes; cada membre fa servir el seu correu i el col·lectiu es comunica pel grup privat de Telegram; butlletí aparcat). T-14 (publicació automàtica a Instagram/Facebook): **de moment manual**; si es reprèn, 2.930 de 3.008 posts tenen portada, en WebP (Instagram només accepta JPG a una URL pública → generar-los al build).
-- **Nova tasca T-28**: CSS trencats a l'staging de Codeberg (`https://linuxbcn.codeberg.page/9bi/`).
-- **Eina útil al núvol**: Hugo 0.164.0 extended s'instal·la amb `pip install hugo==0.164.0` (paquet `hugo-python-distributions`) quan no hi ha accés a GitHub Releases.
-
-## Sessió 2026-09-28 (v3) — Versió distribuïble de Taro a Codeberg i GoatCounter
-
-- **Objectiu (usuari)**: Codeberg ha de tenir la **versió distribuïble de Taro**, buida de contingut però funcional, amb els textos que marquin què ha de personalitzar qui la instal·li. Producció del web continua a GitHub.
-- **Codeberg**: esborrada la branca `pages` (el build vell) amb `git push origin --delete pages`. El compte encara marca **752,7 MiB** (>750) perquè cal el **GC**; el push de `distribucio:main` va ser rebutjat (`Forgejo: Quota exceeded`). Petició de GC comentada a l'issue #2522 el 28/09 20:17 (sense resposta encara).
-- **Branca `distribucio`** (local, 2 commits sobre `main`: `90ebcc6379` + `af8a537d6f`): contingut del 9bi eliminat (posts, pàgines, guia, documentació, membres, stats i 2.988 imatges), `[params.taro]` (fundació, Telegram, Instagram), baseURL de producció/staging d'exemple, capçal i peu amb `taro-logo-text.svg`, marcadors `[POSA-HI: …]` a `contacte`/`privacitat`/`votacio`, avís flotant del concurs tret, GoatCounter del 9bi comentat i README amb «Què cal personalitzar». Build `hugo --minify --environment staging` net (18 pàgines). **No publicada** (bloqueig de quota).
-- **GoatCounter (FET, producció, `16bdec539`)**: `/stats/` sumava `/stats/hits?limit=50` (paginat) i quedava curt (159 vs >200 del tauler). Ara usa el camp `total` de `/stats/total`. Verificat a l'OpenAPI de GoatCounter: `total_unique` **no existeix** a l'API (per això sempre era 0). Desplegat (run #110) i verificat en viu: **166** per al període 29/08–28/09.
-- **Pendent de revisar a producció**: vegeu `TASQUES.md`; els crítics són T-01 (llista d'obres de la votació, 30/11), T-04 (certificat SSL, 26/11), T-12 (prova de vot real) i T-16 («Publica» d'un comentari).
-
-## Sessió 2026-09-28 (v4) — Títols (T-08/T-30), certificat, vot i estadístiques
-
-- **T-12 (FET)**: l'usuari confirma que les proves de vot des del telèfon van bé; queda la prova final amb la llista definitiva (lligada a T-01).
-- **T-04 (FET)**: el certificat SSL es va **renovar sol el 28/09** i val fins al **27/12/2026**, amb SAN per `vots-cordoncillo`, `formularis`, `linuxbcn.com` i `www`; `/health` 200 als dos serveis. Ja cobreix tota l'exposició.
-- **T-08 (FET, `699e52a1b5`)**: pàgina de revisió local (`drafts/revisio_titols.py` + HTML) amb 21 «Sense títol» i 66 grups de títols repetits. L'usuari va triar 95 canvis (`drafts/titols-revisats-2026-09-28.json`) i es va esborrar el post buit `content/posts/2008/2008-04-08-blog-post.md`. Només el camp `title`; URL intactes. Build: 8.707 pàgines, 3.007 posts.
-- **T-30 (FET, `d2cc9eacf9`, `d6cd104746`)**: 6 títols llargs escurçats i **convenció de Joan Linux `any-mes-dia - títol`** aplicada als 26 posts seus del lot. El de Ciutat Flamenco porta la data de l'acte (25/10), no la de publicació.
-- **Estadístiques (FET, `27d4b914ff`)**: el dashboard calculava els dies sumant `/stats/hits` (limitat a 50 pàgines) i no quadrava amb el total (159 vs 166). Ara `hits_by_day` surt del camp `stats` de `/stats/total` (tot el web). Verificat en viu: **total 166 = suma dels dies**. Etiqueta «total any» → «total període». Confirmat a l'OpenAPI que l'API v0 no exposa visitants únics.
-- **Pendent principal**: **T-29** publicar el distribuïble a Codeberg, bloquejat pel GC (l'issue #2522 no té resposta; la quota continua a 752,7 MiB).
-
-## Sessió 2026-09-29 — Concurs Cordoncillo: històric, trofeus i enllaços; crèdit del logotip; franja de capçalera
-
-- **Concurs Cordoncillo — històric de guanyadors i muntatges (FET, `c900a64d1a`)**: recerca a `blog.pocallum.cat`, a `9barrisimatge.org`/Blogger (cerca «Cordoncillo», 37 entrades), a les fitxes i memòries del Casal i a la Wayback Machine. A `content/concurs.md`:
-  - **Guanyadors**: afegits 2023, 2022, 2019 (Joanna Chichelnitzky a color), 2018, 2017, 2016 i 2014; es mantenen 2025, 2024, 2021 i 2015.
-  - **Història**: confirmat que el **2020 no hi va haver edició** (comunicat de 9 Barris Imatge, 28/09/2020, pel tancament temporal del Casal); tema de 2017 «Les llibertats»; dades de 2019 (entrega 23/12), 2022 (54 fotos), 2023 (23 participants/52 fotos), 2024 i 2025; i els muntatges i actuacions de cada any.
-  - **Pendent**: no consten en text els noms dels guanyadors de 2022, 2023, la majoria de 2019 i de 2014/2016/2017/2018; les fonts obertes només en guarden imatges/àlbums.
-- **Enllaços del concurs (FET, `2ee33f6af5`, `81e42dab44`)**: substituïts tots els àlbums directes de Google Photos pels **articles del blog** (enllaços interns `{{< rel >}}`) i, on n'hi ha, pels **reportatges de Pocallum** (trofeus de 2019/2021 i galeries de 2017/2018/2021).
-- **Nous trofeus de Carlitos (FET, `2ee33f6af5`, `0e30db4d11`)**: `trofeus-9bi-carlitos.jpg` moguda a `static/images/` i afegida a «Els trofeus», amb la imatge vertical reduïda a la meitat (`.concurs-trofeus-img`, `max-width:50%`).
-- **Ordre de la història (FET, `f83d399461`)**: taula de 1990→2026 reordenada a **2026→1990**.
-- **Crèdit del logotip (FET, `cb21aac09d`, `8ec49e263f`, `7a14830947`)**: `content/qui-som.md` diu que el logotip, **dissenyat el 2002**, és obra de l'artista de Nou Barris **Toni Pagès**, amb enllaç al seu Instagram (`pages2147`) i la descripció «un dels treballadors més veterans del Casal de barri de la Prosperitat i un més que genial il·lustrador».
-- **Franja de capçalera (FET, `bd0129a3a6`, `956899473d`, `f50d73c2b5`)**: capa nova dins `<header>` (a `layouts/_partials/header.html`), `position:absolute; top:50%; translateY(-50%); height:70px; background:rgba(224,49,49,0.55); z-index:0`, amb `.header .header-nav { position:relative; z-index:1 }` perquè el logo i el menú la trepitgin (3 capes). Atenuades la imatge de fons de la capçalera (fosc 0,72→0,8; clar 0,9→0,94) i el fons de pàgina `page_bg` (opacitat 0,14→0,10). Verificat amb Chrome/CDP: franja 95–165px, text del menú 120–139px, nav `z-index:1` sobre la franja `z-index:0`.
-- **Neteja (FET, `bd0129a3a6`)**: tret l'enllaç redundant «Totes les edicions del concurs (arxiu)» del peu del concurs.
-
-## Sessió 2026-09-30 — Redirecció, SEO al CMS, autor per defecte i slug estable
-
-- **Redirecció de l'URL del post de Naya (FET, `e36dc4c8ba`)**: el canvi de títol al CMS va passar l'URL de `…llibre…` a `…llibres…` i la vella va quedar 404. Afegit `aliases` al post; verificat en viu (200 + `meta refresh` + `canonical`). **Causa**: l'URL depèn del `title` quan el `slug` és buit, i Sveltia només afegeix l'alias automàtic quan canvia el nom del fitxer, no quan canvia el títol.
-- **SEO al CMS (FET, `3af5e5b920`)**: camp opcional `seoTitle` als 19 reculls d'articles; si és buit, s'usa el `title` i als articles se li treu el prefix de data (`2026-09-29 - `). S'aplica a `<title>`, `og:title`, `twitter:title` i schema.org. Plantilles noves: `layouts/_partials/seo-title.html`, `head.html` (sobreescrit), `templates/opengraph.html` i `templates/twitter_cards.html`; `templates/schema_json.html` editat. El camp `description` és (i era) la meta descripció SEO; al CMS s'ha reanomenat «Descripció (SEO, opcional)» i, si és buit, Hugo n'agafa un resum de l'article.
-- **Autor per defecte segons el login (FET, `3af5e5b920`)**: `default` de l'autor = `Joan "Linux" Martínez i Serres` i hook `preSave` a `static/admin/index.html`: en articles nous, si l'autor és buit o és el valor per defecte, es canvia pel nom mapat al login de GitHub (`CMS_AUTHORS`). Cal afegir cada editor nou al mapa.
-- **URLs estables (FET, `cfbd4d2c3b`)**: els 4 posts sense `slug` explícit (Naya, Sietemesion i els dos del 19/09) ja el tenen, sense canviar cap URL; un hook `preSave` omple el `slug` dels articles nous.
-- **Regressió del slug i correcció (FET, `c1781d476d`)**: una edició del títol al CMS va buidar el `slug` del post «Libros mellizos…» i en va canviar la URL (`…sietemesion` → `…sietemesino`). Restaurat el slug, la variant `…sietemesino` queda com a alias i el hook torna a omplir el `slug` si queda buit en qualsevol desada.
-- **Ajuda del camp slug (FET, `0d473080fa`)**: etiqueta «Adreça web de l'article (no tocar)» i ajuda planera que avisa que canviar-la trenca l'enllaç antic (pensada per a editors poc acostumats).
-- **Build CI**: el primer intent va fallar perquè `layouts/README.txt` contenia `<title>` (Hugo 0.164 el parseja com a plantilla); corregit (`6cd5ee98e2`).
-- **Decisió de l'usuari (opció A)**: el camp `slug` queda editable amb l'avís de no tocar-lo; Sveltia no pot generar l'alias automàtic en canviar-lo a mà en aquesta configuració (l'URL depèn del camp `slug`, no del nom del fitxer).
-- **Registre d'hores**: sessió de matí (~09:28–10:40, ~1 h 12 min), detall a [`.taques/2026-09-30.md`](.taques/2026-09-30.md).
-
-## Tasques pendents
-
-> **Pendents: vegeu [`.taques/TASQUES.md`](.taques/TASQUES.md)** (font única des del 2026-09-27; no afegir-ne aquí).
-
-## Properes sessions
-
-- **Muntar el CMS**: backend GitHub + entrada amb PAT **fets**. **Articles per anys fet (v7/v8)**: camp `year`, col·leccions en subcarpetes físiques per any (`sortable_fields` desc) + desplegable d'anys a la capçalera (v4). **Chrome del CMS fet**: capçalera amb desplegable d'anys, «Pàgines del web» i «Llegir la guia» / «Editar la guia»; peu reduït al filet vermell + CC + Powered by. Pendent: **convidar editors com a col·laboradors amb Write** i comprovar permisos reals; els membres inactius no reben accés. Queden pendents les altres demandes del llistat (normalització de títols en majúscules, etc.).
-- **Control de fitxers del Concurs Cordoncillo** (bases, històric, etc.).
-- **Secció per fer i gestionar les reunions** del col·lectiu.
-
-## Decisions pendents per a la migració real (2026-09-17)
-
-- **Etiquetes**: al blog original són molt incompletes (moltes entrades sense tag o amb tags inconsistents). No fer còpia cega amb `migrate_blogger.py` — caldrà revisar/curar les etiquetes, no assumir que el que hi ha al Blogger és la taxonomia final.
-- **Autors**: **439/473 resolts (2026-09-20)**. 34 posts irresolubles (comptes eliminats) queden com «9 Barris Imatge» — documentats a `drafts/autors-no-resolts.md`. El CMS ja té tots els autors al select (24 opcions). Pendent: crear comptes GitHub i convidar els editors actius com a col·laboradors amb Write.
-
-## El que encara no existeix (per no assumir)
-
-- Migració de Blogger: **feta** (3.006/3.006 posts migrats; 3.008 fitxers actuals després dels articles nous). No cal l'export XML oficial: `scripts/migrate_live.py` llegeix el feed Atom en directe.
-- ~~OAuth2 de Codeberg~~ **obsolet**: el CMS actual usa el backend GitHub i PAT classic; l'OAuth App de GitHub continua sent opcional.
-- ~~Pàgina de privacitat amb placeholders.~~ **FET (2026-09-18)** — adreça real, sense placeholders.
-- ~~Lloc GoatCounter i API key.~~ **FET (2026-09-25)** — `9bi.goatcounter.com`; secret disponible a GitHub Actions.
-- Confirmació que `info@9barrisimatge.org` rep correus (FormSubmit).
-- ~~DNS cap a Codeberg Pages.~~ **FET** — producció a GitHub Pages; Codeberg és només backup.
-- ~~Contingut real de `cookies.md`.~~ **FET** — política publicada; pendent només la revisió jurídica final de la resta d'adequació RGPD.
-- Configuració SEO/IA per a tot el web (metadades, dades estructurades, etc.).
-- Suport Python/Passenger al panell de Dinahosting sense confirmar (per al desplegament de `modules/votacio/`).
+- Trigger: **push a `main`** + cron `0 */6 * * *` (cada 6 h per refrescar /stats/) + `workflow_dispatch`
+- Steps: checkout → Hugo 0.164.0 → `fetch_9bi_analytics.py` (si `GOATCOUNTER_API_KEY`) → `goatcounter_popular.py` → `hugo --minify --environment production` → deploy GitHub Pages
+- **Avisos no bloquejants**: Node.js 20 obsolet a les accions; `ubuntu-latest` migrarà a Ubuntu 26 el 19/10/2026. (T-21 pendent: SHA-pin de les accions.)
+
+## Servidor (Dinahosting — `linuxbcn0`)
+
+- Host: `vl28359.dinaserver.com` (82.98.166.123). SSH: compte **`linuxbcn0`**, key `id_ed25519`.
+- **`konsento`/`naubostik` és un compte diferent — no tocar mai.**
+- Dinahosting acaba el TLS davant d'Apache i envia `X-Forwarded-Proto`. **No usar `%{HTTPS}` sol** per redirigir (bucle 301); cal comprovar les dues condicions als `.htaccess`.
+- Regla del proveïdor: **cap document públic ha de dir «Dinahosting»**. LinuxBCN ofereix l'allotjament com a servei propi.
+- **Serveis actius**:
+  - `vots-cordoncillo.linuxbcn.com` → `~/apps/vots-cordoncillo/` (port 8301). S'obre **01/12/2026 00:00**, es tanca **15/12/2026 23:59:59**. Geofence: lat 41.441623, lon 2.179794, radi 500 m (Casal de Barri de Prosperitat). **BBDD buida** (0 vots). **T-01 CRÍTIC**: substituir les 100 obres de prova per la llista definitiva abans del 30/11.
+  - `formularis.linuxbcn.com` → `~/apps/formularis/` (port 8302). SMTP: `9barrisimatge-org.correoseguro.dinaserver.com:465`.
+  - Certificat SSL: vàlid fins al **27/12/2026** (SAN: vots-cordoncillo, formularis, linuxbcn.com, www).
+  - Telegram: `~/apps/telegram/telegram_post.py`, cron 30 min, llegeix `/posts/index.xml`. `state.json` amb 3.008 guids marcats — **no tocar ni esborrar**.
+  - Comentaris: `~/apps/formularis/comentaris.py`, `github_token` fine-grained (Contents RW de `112books/9bi`).
+
+## Decisions clau (per no repetir debats)
+
+- **Col·lectiu, mai «associació»**: el nom legal és «Col·lectiu 9 Barris Imatge».
+- **Slug estable**: el camp `slug` no s'ha de tocar un cop publicat; el canvi trenca l'URL. Hi ha un avís al CMS i un hook que el recupera si queda buit.
+- **Antics membres** (no «veterans»): el terme per al grup `actiu: false`.
+- **No hi ha col·lecció «Tots els articles»** al CMS: massa lent amb 3.009 posts.
+- **`analytics.json` al repo és el fallback**: la versió desplegada es genera en cada CI run. Si GoatCounter retorna buit, el script **conserva el fitxer existent** (no actualitza). Diagnòstic si /stats/ va enrere: comprovar el secret `GOATCOUNTER_API_KEY` a GitHub Actions i els logs del workflow.
+- **Codeberg = backup read-only**: producció és GitHub. No fer push ni reset a Codeberg fins que el GC alliberi quota (issue #2522).
+
+## Problemes coneguts / pendents
+
+> Font única: [`.taques/TASQUES.md`](.taques/TASQUES.md).
+
+- **T-01 🔴**: llista definitiva d'obres de la votació — termini **30/11/2026**.
+- **T-29 🟡**: publicar la versió distribuïble de Taro a Codeberg, bloquejada per GC.
+- **T-28 🟡**: CSS trencats a l'staging de Codeberg (lligat a T-29).
+- **T-07 🟡**: convidar editors al CMS amb accés Write.
+- La resta a TASQUES.md.
