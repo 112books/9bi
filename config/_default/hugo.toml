@@ -158,3 +158,8 @@ ignoreFiles = ["README.txt"]
     name = "Cerca"
     url = "/search/"
     weight = 5
+  [[menu.footer]]
+    identifier = "projectes"
+    name = "Projectes"
+    url = "/projectes/"
+    weight = 6

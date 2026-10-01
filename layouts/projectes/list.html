@@ -1,0 +1,17 @@
+{{- define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}<div class="post-description">{{ . }}</div>{{ end }}
+</header>
+
+{{- range .Pages.ByTitle }}
+<article class="post-entry">
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">{{ .Title }}</h2>
+  </header>
+  {{- with .Description }}<div class="entry-content"><p>{{ . }}</p></div>{{ end }}
+  {{- with .Params.estat }}<footer class="entry-footer">Estat: {{ . }}</footer>{{ end }}
+  <a class="entry-link" aria-label="{{ .Title }}" href="{{ .RelPermalink }}"></a>
+</article>
+{{- end }}
+{{- end }}
