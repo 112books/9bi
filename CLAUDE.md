@@ -68,7 +68,7 @@ Lloc web estàtic del **Col·lectiu 9 Barris Imatge** (Barcelona), migrat de Blo
 - Taxonomies: `tag → tags`, `category → categories`, `author → author`
 - `params`: `defaultTheme = "dark"`, ShowPostAuthors=true, ShowBreadCrumbs=false, ShowReadingTime=false, ShowShareButtons=false, ShowPostNavLinks=true, ShowCodeCopyButtons=true, ShowWordCount=false, comments=false
 - `menu.main`: Inici(/), Arxiu(/archive/), Qui som(/qui-som/), El Concurs(/concurs/), FAQ(/faq/), Cerca(/search/), Contacte(/contacte/) — **la Guia NO hi és** (interna, a `/guia/`, `noindex`)
-- `menu.footer`: Arxiu 9bi, Etiquetes/Tags, Més visitats, Estadístiques del web, Cerca
+- `menu.footer`: Arxiu 9bi, Etiquetes/Tags, Més visitats, Estadístiques del web, Cerca, Projectes
 
 ## Estructura de fitxers (verificada)
 
@@ -80,6 +80,7 @@ content/
 ├── search.md (layout "search"), archive.md (layout "archives")
 ├── mes-visitats.md (layout "popular" + hiddenInRss: true)
 ├── guia/                        # _index.md + 7 subpàgines: robotsNoIndex + hiddenInRss + sitemap.disable
+├── projectes/<slug>/index.md    # projectes públics (estat, responsable, sessions, etiqueta del blog); 13-b, retrat-gegant
 └── (documentacio/ ja no hi és: actes i concurs intern al repo PRIVAT 112books/9bi-intern, des del 2026-10-01)
 layouts/
 ├── baseof.html                  # SOBREESCRIT: clau de caché del footer
@@ -89,6 +90,7 @@ layouts/
 ├── taxonomy.html                # SOBREESCRIT: núvol d'etiquetes (/tags/)
 ├── 404.html                     # SOBREESCRIT: 404 útil amb cerca directa
 ├── author/term.html             # pàgina de posts per autor (mosaic paginat)
+├── projectes/{list,single}.html  # /projectes/: llista i fitxa (sessions amb només les columnes amb dades + mosaic de l'etiqueta); sense tasques
 ├── _shortcodes/membres.html     # taula de membres (actius + antics)
 ├── _shortcodes/rel.html         # {{< rel "/ruta" >}} → relURL base-aware
 ├── _default/popular.html        # llista de més visitats (llegeix data/popular.json)
@@ -127,7 +129,7 @@ gestio/RECERCA.md               # recerca: fotògrafs de NB, cronologia concurs 
 
 - Backend `github`: repo `112books/9bi`, branca `main`. Entrada: PAT classic (scope `repo`) via «Sign In with Token».
 - `media_folder: static/images` · `public_folder: /images`
-- **30 col·leccions**: 19 d'articles per any (`posts-YYYY`, carpetes físiques `content/posts/YYYY/`, `sortable_fields: date desc`), `web-pages` (13 pàgines fixes, camps tècnics com a `hidden`), `guia`, `membres`, 8 col·leccions «Àlbums per arreglar».
+- **31 col·leccions**: 19 d'articles per any (`posts-YYYY`, carpetes físiques `content/posts/YYYY/`, `sortable_fields: date desc`), `web-pages` (13 pàgines fixes, camps tècnics com a `hidden`), `guia`, `projectes` (`content/projectes/{{slug}}/index.md`, sessions com a llista), `membres`, 8 col·leccions «Àlbums per arreglar».
 - **Gestor intern** `static/admin/intern/` (repo **privat** `112books/9bi-intern`): col·leccions `actes` (assistents, acords, tasques amb `id`/estat, visibilitat) i `concurs`, i `tasques.html` (tasques obertes llegides per l'API de GitHub amb el token de la sessió). Detall a `gestio/SESSIONSLOG.md` (2026-09-30 v2).
 - **Cap col·lecció «Tots els articles»**: els 3.009 posts feien trigar el carregament; s'usa la cerca immediata del Sveltia.
 - **Rail propi** (`static/admin/index.html`): lateral nativa amagada (`#nc-root .primary-sidebar { display:none !important }` + `MutationObserver`); `<aside class="cms-rail">` amb desplegable d'anys 2026→2008, «Documentació interna» (→ `/admin/intern/`), Àlbums (per login a `CMS_ALBUMS`), Administració.
