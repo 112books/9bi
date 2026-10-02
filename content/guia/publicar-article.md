@@ -47,12 +47,12 @@ Heu de separar els paràgrafs amb una línia en blanc. No passeu d'una línia se
 
 ### Vídeos de YouTube o Vimeo
 
-Per incrustar un vídeo dins del text, enganxeu el codi **tot sol en una línia** (no el barregeu dins d'un paràgraf):
+Per incrustar un vídeo dins del text, canvieu l'editor al mode **«Edita en Markdown»** (a la barra de l'editor), enganxeu-hi el codi **tot sol en una línia** (no el barregeu dins d'un paràgraf) i deseu des d'aquest mode:
 
 - **YouTube:** `{{</* youtube ID */>}}`. Per exemple, per a `https://www.youtube.com/watch?v=dQw4w9WgXcQ` escriviu `{{</* youtube dQw4w9WgXcQ */>}}`. L'ID és el que hi ha darrere de `watch?v=` (o de `youtu.be/`).
 - **Vimeo:** `{{</* vimeo ID */>}}`. Per exemple, per a `https://vimeo.com/146022717` escriviu `{{</* vimeo 146022717 */>}}`. L'ID és el número de l'enllaç.
 
-El vídeo apareixerà amb la mida adaptada a la pantalla.
+El vídeo apareixerà amb la mida adaptada a la pantalla. Si torneu al mode enriquit, el vídeo es pot espatllar; per als articles amb vídeo, deseu sempre en mode «Edita en Markdown».
 {.guide-note}
 
 ## 5. Desa i publica

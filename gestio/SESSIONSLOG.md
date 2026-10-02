@@ -12,7 +12,8 @@ Per a l'estat actual i la configuració del projecte, vegeu [`CLAUDE.md`](../CLA
 - **CMS `config.yml`**: ampliat el hint de «Cos de l'article» de les 19 col·leccions d'anys amb com incrustar vídeos: `{{< youtube ID >}}` i `{{< vimeo ID >}}`; els exemples van entre accents perquè Sveltia renderitza el hint com a Markdown. Shortcodes natius de Hugo provats abans en un projecte de prova. Commit `d2789d6097`.
 - **Guia pública**: afegida la secció «Vídeos de YouTube o Vimeo» a `content/guia/publicar-article.md`.
 - **Verificació**: `hugo --minify --environment production` OK (6.471 pàgines) i desplegament confirmat a `https://9barrisimatge.org/admin/config.yml`.
-- **Vídeo de Vimeo (Andrés Naya)**: el shortcode havia quedat malmès (`{ { < [url](url) > } } ;`) perquè l'editor rich text de Sveltia destrueix els `{{< ... >}}` en desar. Corregit a `{{< vimeo 1232409395 >}}`; per evitar-ho, tots els camps Markdown del CMS (44) passen a `modes: [raw, rich_text]` (l'editor s'obre en Markdown pur i el codi d'exemple s'hi pot enganxar).
+- **Vídeo de Vimeo (Andrés Naya)**: el shortcode havia quedat malmès (`{ { < [url](url) > } } ;`) perquè l'editor rich text de Sveltia destrueix els `{{< ... >}}` en desar. Corregit a `{{< vimeo 1232409395 >}}`.
+- **Editor per defecte (revert)**: l'usuari prefereix que els editors vegin l'editor enriquit com abans; es retira el `modes: [raw, rich_text]` de tots els camps (el mode «Edita en Markdown» ja és disponible per defecte). El hint del cos i la guia expliquen: per als vídeos, canviar a «Edita en Markdown», enganxar el codi i desar des d'aquest mode.
 
 ---
 
