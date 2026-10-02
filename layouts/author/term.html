@@ -19,6 +19,13 @@
   <div class="post-description">{{ len $pages }} publicacions a 9 Barris Imatge</div>
 </header>
 
+<div id="searchbox" class="searchbox author-search">
+  <input id="searchInput" disabled data-index-url="{{ "index.json" | relURL }}" data-author="{{ $title }}"
+    placeholder="Cerca a les seves publicacions ↵" aria-label="Cerca entre les publicacions de {{ $display }}"
+    type="search" autocomplete="off" maxlength="64">
+  <ul id="searchResults" class="searchResults" aria-label="Resultats de la cerca"></ul>
+</div>
+
 <section class="photo-mosaic">
   {{- range $size.Pages -}}
   <article class="mosaic-card">

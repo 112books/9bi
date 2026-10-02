@@ -5,6 +5,7 @@ year: 2016
 author: Joan "Linux" Martínez i Serres
 slug: 1147-cosina-cx2-13b-nou-barris-1b
 tags:
+- 13-B
 - 9barrisimatge
 - nou barris
 - 9barris

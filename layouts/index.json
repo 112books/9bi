@@ -1,0 +1,13 @@
+{{- /* SOBREESCRIT (còpia del tema): afegeix l'autor per a la cerca de les pàgines /author/ (T-11) */ -}}
+{{- $.Scratch.Add "index" slice -}}
+{{- range site.RegularPages -}}
+    {{- if and (not .Params.searchHidden) (ne .Layout `archives`) (ne .Layout `search`) }}
+    {{- $item := dict "title" .Title "content" .Plain "permalink" .Permalink "summary" .Summary -}}
+    {{- with .Params.author }}{{ $item = merge $item (dict "author" .) }}{{ end -}}
+    {{- if not .Date.IsZero -}}
+    {{- $item = merge $item (dict "date" (.Date | time.Format ":date_medium")) -}}
+    {{- end -}}
+    {{- $.Scratch.Add "index" $item -}}
+    {{- end -}}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}

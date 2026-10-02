@@ -18,21 +18,16 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 | T-06 | 🟡 | Desactivar Blogger | 21/09 | — | En espera, decisió de l'usuari: **de moment no s'apaga**. DNS ja apunten a 9barrisimatge.org |
 | T-07 | 🟡 | Editors al CMS: convidar col·laboradors amb Write, comprovar que els no-admin només veuen els seus posts i si algú ja ha iniciat el seu usuari | 21/09 | — | Quan puguem |
 | T-09 | 🟡 | Enllaços d'àlbums morts (Picasa → Google Photos), autor per autor | 18/09 | — | En marxa. Pipeline verificat (`scripts/albums_fix.py recull/validate/apply`); 10 fitxes de Joan Linux aplicades als posts (commit `b42e04f85`). CMS: camp `album` readonly + `filter` per amagar les corregides. 1.178 pendents de 1.189 fitxes a `recuperacio/`. |
-| T-10 | ⚪ | Cerca: etiquetes ordenades de més a menys freqüents | 21/09 | — | |
-| T-11 | ⚪ | Cerca limitada a l'autor a `/author/<slug>.html` | 24/09 | — | Baixa prioritat |
 | T-14 | ⚪ | Publicació automàtica a Instagram i Facebook + enllaços al web | 18/09 | — | Mateix patró que T-13 (`modules/telegram/`: RSS de `/posts/` + `state.json` + cron) |
-| T-18 | ⚪ | Auditoria d'accessibilitat | 17/09 | — | |
+| T-18 | 🟡 | Auditoria d'accessibilitat | 17/09 | — | **Informe fet (02/10)**: `drafts/2026-10-02-auditoria-accessibilitat.md` (axe-core, 15 pàgines × 2 temes). 1 crítica (pestanyes del concurs), contrast (etiquetes, Arxiu, vermell del concurs), navs sense nom, FAQ, 404 sense `<main>`. **Pendent: decidir quines correccions s'apliquen** (1, 3 i 5 no canvien res visible) |
 | T-19 | ⚪ | 5a pestanya de «Qui som»: Història de la fotografia a Nou Barris | 18/09 | — | Recerca feta, galeria en suspens |
 | T-20 | ⚪ | Membres: completar els Instagram que falten | 18/09 | — | |
-| T-21 | ⚪ | Seguretat CI/CD: SHA-pin de les accions, credencials fora de `deploy.sh`, 11 fitxers `.dl-*`, `modules/taro/.gitignore` | 25/09 | — | De l'auditoria del 25/09 |
 | T-22 | ⚪ | Reobrir l'issue #2522 de Codeberg (quota) | 21/09 | — | **Comentari de petició de GC enviat el 28/09 20:17** (branca `pages` esborrada abans). Pendent de resposta. Text a `drafts/2026-09-27-codeberg-issue-2522-reobrir.md` |
 | T-23 | ⚪ | Revisió jurídica final de l'adequació RGPD | 18/09 | — | |
-| T-24 | ⚪ | Tipografia Gillius: OTF → woff2 | 18/09 | — | Opcional |
 | T-26 | ⚪ | Control de fitxers del Concurs Cordoncillo (bases, històric…) | 18/09 | — | |
 | T-28 | 🟡 | Staging a Codeberg (`https://linuxbcn.codeberg.page/9bi/`): els CSS es veuen trencats | 28/09 | — | **Diagnosticat (28/09)**: l'staging serveix el build vell del 24/09 fet amb l'`baseURL` de producció; l'enllaç surt `/assets/...` (sense `/9bi/`) → 404. Queda lligat a T-29 (el distribuïble nou substituirà aquest staging) |
 | T-29 | 🟡 | **Publicar la versió distribuïble de Taro a Codeberg** (`linuxbcn/9bi` → `main`): la plantilla ja està feta i verificada a la branca local `distribucio` (`90ebcc6379`, `af8a537d6f`). Bloquejat pel **GC de Codeberg** (issue #2522, comentari enviat el 28/09 20:17; el compte encara marca 752,7 MiB). Quan passi: `git push origin distribucio:main` | 28/09 | — | Pla B si Codeberg no es desencalla: publicar la mateixa branca en un repo nou a GitHub |
-| T-27 | 🟡 | Secció per preparar i gestionar les reunions del col·lectiu | 18/09 | — | **Feta (Fase 1, 30/09–01/10, PR #11)**: `/admin/intern/` sobre el repo privat `9bi-intern` + `tasques.html`. Pendent només la **prova real** amb el token de l'usuari; llavors es tanca |
-| T-31 | 🟡 | Projectes (Fase 2): fitxes públiques a `/projectes/` (13-B, retrat gegant) | 01/10 | — | **Implementada** (`dc193fe`), pendent de publicar a `main` i revisar en viu. Falten dades del 13-B (rutes 02 i 03, coordinació, estat de la ruta del 23/10/2016) |
+| T-31 | 🟡 | Projectes (Fase 2): fitxes públiques a `/projectes/` (13-B, retrat gegant) | 01/10 | — | **Publicada** (PR #12). 02/10: taula de sessions per ruta (1B, 2B, 3, 4) amb articles, apilada al mòbil; etiqueta `13-B` afegida a 5 posts; projecte nou **Els Inoblidables** (Residència Porta, 2015). Falta: revisió en viu de l'usuari i dades no publicades (coordinació, estat de la ruta oberta del 23/10/2016) |
 
 ### Tancades sense fer
 
@@ -47,6 +42,11 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | Data | ID | Tasca | Temps | Commit |
 |---|---|---|---|---|
+| 02/10 | T-24 | **Gillius en woff2**: `GilliusADF-{Regular,Bold}.woff2` generats amb fontTools (mateixos glifs, 37→19 KB); el CSS els carrega primer i deixa l'OTF de reserva; preload passat a woff2. Els OTF es conserven (els fa servir la votació). Provat: el navegador baixa només els woff2 | ~10 min | (aquest commit) |
+| 02/10 | T-11 | **Cerca a les pàgines d'autor**: quadre de cerca a `/author/<slug>.html` que només busca entre les entrades d'aquell autor (camp `author` afegit a `index.json`, filtre a `fastsearch.js`, scripts carregats a les pàgines d'autor). Provat: Pedro Click + «concurs» → 18 resultats, tots seus; `/search/` igual; 375 px sense desbordament | ~25 min | (aquest commit) |
+| 02/10 | T-10 | **Etiquetes per freqüència**: verificat que ja estava fet — `/search/` i `/tags/` ordenen les 1.684 etiquetes de més a menys (`ByCount`) | ~5 min | — |
+| 02/10 | T-21 | **Seguretat CI/CD**: verificat que ja estava fet — accions del workflow fixades per SHA, els 11 `.dl-*` ja no hi són, `deploy.sh` rebutja credencials a la URL i `app.py` les redacta, `modules/taro/.gitignore` coherent. Únic canvi: `modules/autopublica/tools/deploy.sh` fa el build en un directori temporal nou (`mktemp` + `trap`), com la versió de Taro; provat amb un remot local | ~15 min | (aquest commit) |
+| 02/10 | T-27 | **Reunions (Fase 1) tancada**: l'usuari ha creat l'acta real del 01/10 des de `/admin/intern/` (repo privat `9bi-intern`, commit `a8bc079`) | — | PR #11 |
 | 01/10 | T-31 | **Projectes (Fase 2)**: `content/projectes/` (13-B amb 3 sessions dels posts, retrat gegant en idea), fitxa pública amb sessions i reportatges de l'etiqueta, enllaç al peu, col·lecció al CMS. Provat en navegador (escriptori i 375 px) | ~45 min | `dc193fe` |
 | 30/09–01/10 | T-27 | **Admin intern (Fase 1)**: documentació interna moguda al repo privat `112books/9bi-intern`, `/admin/intern/` (actes amb assistents, acords, tasques, visibilitat) i `tasques.html` (tasques obertes + acta nova amb les obertes). Fusionat amb la PR #11 | ~2 h | `f5d0383`…`78bd705`, merge `5035f5c` |
 | 30/09 | — | **Redirecció de l'URL del post de Naya** (canvi de títol al CMS) | ~10 min | `e36dc4c8ba` |

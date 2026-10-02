@@ -14,14 +14,19 @@ git fetch --quiet origin
 git checkout --quiet "$BRANCH" 2>/dev/null || git checkout --quiet -b "$BRANCH" origin/"$BRANCH"
 git pull --quiet --ff-only origin "$BRANCH"
 
+# El build es fa en un directori nou i buit: sense això, el que sobra del
+# build anterior (i el .git vell) es quedaria publicat.
+DEST="$(mktemp -d "${TMPDIR:-/tmp}/autopublica-build.XXXXXX")"
+trap 'rm -rf "${DEST:-/nonexistent}"' EXIT
+
 echo "[deploy] build hugo"
 HUGO=$(command -v hugo || echo "$HOME/bin/hugo")
 BASEURL_OPT=""
 [ -n "${HUGO_BASEURL:-}" ] && BASEURL_OPT="--baseURL $HUGO_BASEURL"
-"$HUGO" --minify $BASEURL_OPT --destination /tmp/pages-deploy
+"$HUGO" --minify $BASEURL_OPT --destination "$DEST"
 
 echo "[deploy] push a pages"
-cd /tmp/pages-deploy
+cd "$DEST"
 git init -q -b pages
 git add -A
 git commit -qm "autopublica: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
