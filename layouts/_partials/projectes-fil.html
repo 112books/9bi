@@ -1,0 +1,14 @@
+{{- /* Fil d'Ariadna de la secció Projectes: Inici › Projectes › <pàgina>.
+       Rep la pàgina actual; l'últim element no és enllaç (aria-current). */ -}}
+{{- $projectes := site.GetPage "/projectes" }}
+<nav class="projecte-fil" aria-label="Fil d'Ariadna">
+  <ol>
+    <li><a href="{{ "" | relURL }}">Inici</a></li>
+    {{- if eq . $projectes }}
+    <li aria-current="page">{{ $projectes.Title }}</li>
+    {{- else }}
+    <li><a href="{{ $projectes.RelPermalink }}">{{ $projectes.Title }}</a></li>
+    <li aria-current="page">{{ .Title }}</li>
+    {{- end }}
+  </ol>
+</nav>

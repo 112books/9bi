@@ -3,27 +3,31 @@
        Les tasques NO es mostren (viuen al repo privat 9bi-intern). */ -}}
 {{- $p := .Params }}
 <article class="post-single projecte">
-  <header class="post-header">
-    {{- with .Parent }}
-    <nav class="breadcrumbs" aria-label="Tornar a la llista">
-      <a href="{{ .RelPermalink }}">← {{ .Title }}</a>
-    </nav>
-    {{- end }}
+  <header class="post-header projecte-hero">
+    {{- partial "projectes-fil.html" . }}
     <h1 class="post-title">{{ .Title }}</h1>
     {{- with .Description }}<div class="post-description">{{ . }}</div>{{ end }}
+    <ul class="projecte-xips">
+      {{- with $p.estat }}<li class="projecte-xip--estat">{{ . }}</li>{{ end }}
+      {{- with $p.responsable }}<li>{{ . }}</li>{{ end }}
+      {{- if or $p.data_inici $p.data_fi }}
+      <li>
+        {{- with $p.data_inici }}{{ time.Format "02/01/2006" . }}{{ end }}
+        {{- with $p.data_fi }} – {{ time.Format "02/01/2006" . }}{{ end -}}
+      </li>
+      {{- end }}
+    </ul>
   </header>
 
-  <div class="post-content">
+  <div class="post-content md-content">
+    {{- if or $p.collaboradors $p.entitats }}
     <table class="projecte-fitxa">
       <tbody>
-        {{- with $p.estat }}<tr><th scope="row">Estat</th><td>{{ . }}</td></tr>{{ end }}
-        {{- with $p.responsable }}<tr><th scope="row">Responsable</th><td>{{ . }}</td></tr>{{ end }}
         {{- with $p.collaboradors }}<tr><th scope="row">Col·laboradors</th><td>{{ delimit . ", " }}</td></tr>{{ end }}
         {{- with $p.entitats }}<tr><th scope="row">Entitats</th><td>{{ delimit . ", " }}</td></tr>{{ end }}
-        {{- with $p.data_inici }}<tr><th scope="row">Inici</th><td>{{ time.Format "02/01/2006" . }}</td></tr>{{ end }}
-        {{- with $p.data_fi }}<tr><th scope="row">Final</th><td>{{ time.Format "02/01/2006" . }}</td></tr>{{ end }}
       </tbody>
     </table>
+    {{- end }}
 
     {{- .Content }}
 
@@ -99,5 +103,9 @@
     {{- end }}
   </section>
   {{- end }}
+
+  <p class="projecte-proposa">
+    <a class="projecte-boto" href="{{ "projectes/proposa/" | relURL }}">Proposa un projecte</a>
+  </p>
 </article>
 {{- end }}
