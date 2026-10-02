@@ -15,6 +15,7 @@ Per a l'estat actual i la configuració del projecte, vegeu [`CLAUDE.md`](../CLA
 - **Vídeo de Vimeo (Andrés Naya)**: el shortcode havia quedat malmès (`{ { < [url](url) > } } ;`) perquè l'editor rich text de Sveltia destrueix els `{{< ... >}}` en desar. Corregit a `{{< vimeo 1232409395 >}}`.
 - **Editor per defecte (revert)**: l'usuari prefereix que els editors vegin l'editor enriquit com abans; es retira el `modes: [raw, rich_text]` de tots els camps (el mode «Edita en Markdown» ja és disponible per defecte).
 - **Camp de vídeo (solució robusta)**: com que l'editor enriquit esborrava els shortcodes en desar (el commit `f47dd64aa1` va eliminar el vídeo del post d'Andrés Naya), s'afegeix un camp `video` (URL de YouTube o Vimeo) a les 19 col·leccions d'articles; `layouts/_partials/extend_post_content.html` en renderitza el reproductor responsiu. El post s'ha migrat al camp i el hint del cos i la guia s'han simplificat.
+- **Vídeo retirat (pendent de permís)**: l'usuari ha buidat el camp `video` del post d'Andrés Naya (`video: ''`, commit `480ffef535`) perquè encara no té permís per publicar-lo; la resta de la solució (camp + plantilla) queda disponible per quan el tingui.
 
 ---
 
