@@ -5,6 +5,7 @@ year: 2016
 author: Ivan
 slug: 13b-nou-barris-2b-can-peguera-i-turo-de_20
 tags:
+- 13-B
 - Can Peguera
 - nou barris
 - barri

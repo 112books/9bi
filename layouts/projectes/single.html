@@ -23,31 +23,35 @@
     {{- .Content }}
 
     {{- with $p.sessions }}
-    {{- /* Només es mostren les columnes que tenen alguna dada */ -}}
-    {{- $cols := slice (dict "k" "data" "t" "Data") (dict "k" "barri" "t" "Barri") (dict "k" "guia" "t" "Guia") (dict "k" "punt_trobada" "t" "Punt de trobada") (dict "k" "coordinador" "t" "Coordinació") (dict "k" "estat" "t" "Estat") (dict "k" "reportatge" "t" "Article") }}
-    {{- $sessions := sort . "data" }}
-    {{- $used := slice }}
-    {{- range $cols }}
-      {{- $k := .k }}
-      {{- if where $sessions $k "!=" "" }}{{ $used = $used | append . }}{{ end }}
-    {{- end }}
+    {{- /* Una fila per sessió: data, nom, barri (guia, punt de trobada, coordinació i estat
+           en petit, només si hi són) i els articles del blog enllaçats. */ -}}
     <h2 id="sessions">Sessions</h2>
     <div class="projecte-taula">
     <table class="projecte-sessions">
       <thead>
-        <tr>{{ range $used }}<th>{{ .t }}</th>{{ end }}</tr>
+        <tr><th>Data</th><th>Sessió</th><th>Barri</th><th>Articles</th></tr>
       </thead>
       <tbody>
-        {{- range $s := $sessions }}
+        {{- range sort . "data" }}
         <tr>
-          {{- range $used }}
-          {{- $v := index $s .k }}
+          <td>{{ with .data }}{{ time.Format "02/01/2006" . }}{{ end }}</td>
+          <td>{{ .nom }}</td>
           <td>
-            {{- if eq .k "data" }}{{ with $v }}{{ time.Format "02/01/2006" . }}{{ end }}
-            {{- else if eq .k "reportatge" }}{{ with $v }}<a href="{{ if hasPrefix . "/" }}{{ strings.TrimPrefix "/" . | relURL }}{{ else }}{{ . }}{{ end }}">Veure</a>{{ end }}
-            {{- else }}{{ $v }}{{ end -}}
+            {{- .barri }}
+            {{- $meta := slice }}
+            {{- with .guia }}{{ $meta = $meta | append (printf "Guia: %s" .) }}{{ end }}
+            {{- with .punt_trobada }}{{ $meta = $meta | append (printf "Punt de trobada: %s" .) }}{{ end }}
+            {{- with .coordinador }}{{ $meta = $meta | append (printf "Coordinació: %s" .) }}{{ end }}
+            {{- with .estat }}{{ $meta = $meta | append (printf "Estat: %s" .) }}{{ end }}
+            {{- with $meta }}<br><small>{{ delimit . " · " }}</small>{{ end }}
           </td>
-          {{- end }}
+          <td>
+            {{- range $i, $u := .articles }}
+            {{- if $i }}<br>{{ end }}
+            {{- with first 1 (where site.RegularPages "RelPermalink" $u) }}{{ range . }}<a href="{{ .RelPermalink }}">{{ .Date | time.Format "02/01/2006" }}</a>{{ end }}
+            {{- else }}<a href="{{ $u }}">Article</a>{{ end }}
+            {{- end }}
+          </td>
         </tr>
         {{- end }}
       </tbody>
@@ -55,18 +59,18 @@
     </div>
     {{- end }}
 
-    {{- with $p.etiqueta }}
-    {{- $term := index site.Taxonomies.tags (urlize (lower .)) }}
-    {{- with $term }}
+    {{- $reps := slice }}
+    {{- with $p.etiqueta }}{{ with index site.Taxonomies.tags (urlize (lower .)) }}{{ $reps = $reps | append .Pages }}{{ end }}{{ end }}
+    {{- range $p.sessions }}{{ range .articles }}{{ $reps = $reps | append (where site.RegularPages "RelPermalink" .) }}{{ end }}{{ end }}
+    {{- $reps = $reps | uniq }}
+    {{- if $reps }}
     <h2 id="reportatges">Reportatges al blog</h2>
-    {{- end }}
     {{- end }}
   </div>
 
-  {{- with $p.etiqueta }}
-  {{- with index site.Taxonomies.tags (urlize (lower .)) }}
+  {{- with $reps }}
   <section class="photo-mosaic">
-    {{- range .Pages.ByDate.Reverse -}}
+    {{- range sort $reps "Date" "desc" -}}
     <article class="mosaic-card">
       <a class="mosaic-link" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
         {{- $cover := .Params.cover.image | default "" -}}
@@ -89,7 +93,6 @@
     </article>
     {{- end }}
   </section>
-  {{- end }}
   {{- end }}
 </article>
 {{- end }}

@@ -31,8 +31,7 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 | T-26 | ⚪ | Control de fitxers del Concurs Cordoncillo (bases, històric…) | 18/09 | — | |
 | T-28 | 🟡 | Staging a Codeberg (`https://linuxbcn.codeberg.page/9bi/`): els CSS es veuen trencats | 28/09 | — | **Diagnosticat (28/09)**: l'staging serveix el build vell del 24/09 fet amb l'`baseURL` de producció; l'enllaç surt `/assets/...` (sense `/9bi/`) → 404. Queda lligat a T-29 (el distribuïble nou substituirà aquest staging) |
 | T-29 | 🟡 | **Publicar la versió distribuïble de Taro a Codeberg** (`linuxbcn/9bi` → `main`): la plantilla ja està feta i verificada a la branca local `distribucio` (`90ebcc6379`, `af8a537d6f`). Bloquejat pel **GC de Codeberg** (issue #2522, comentari enviat el 28/09 20:17; el compte encara marca 752,7 MiB). Quan passi: `git push origin distribucio:main` | 28/09 | — | Pla B si Codeberg no es desencalla: publicar la mateixa branca en un repo nou a GitHub |
-| T-27 | 🟡 | Secció per preparar i gestionar les reunions del col·lectiu | 18/09 | — | **Feta (Fase 1, 30/09–01/10, PR #11)**: `/admin/intern/` sobre el repo privat `9bi-intern` + `tasques.html`. Pendent només la **prova real** amb el token de l'usuari; llavors es tanca |
-| T-31 | 🟡 | Projectes (Fase 2): fitxes públiques a `/projectes/` (13-B, retrat gegant) | 01/10 | — | **Implementada** (`dc193fe`), pendent de publicar a `main` i revisar en viu. Falten dades del 13-B (rutes 02 i 03, coordinació, estat de la ruta del 23/10/2016) |
+| T-31 | 🟡 | Projectes (Fase 2): fitxes públiques a `/projectes/` (13-B, retrat gegant) | 01/10 | — | **Publicada** (PR #12). 02/10: taula de sessions per ruta (1B, 2B, 3, 4) amb articles, apilada al mòbil; etiqueta `13-B` afegida a 5 posts; projecte nou **Els Inoblidables** (Residència Porta, 2015). Falta: revisió en viu de l'usuari i dades no publicades (coordinació, estat de la ruta oberta del 23/10/2016) |
 
 ### Tancades sense fer
 
@@ -47,6 +46,7 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | Data | ID | Tasca | Temps | Commit |
 |---|---|---|---|---|
+| 02/10 | T-27 | **Reunions (Fase 1) tancada**: l'usuari ha creat l'acta real del 01/10 des de `/admin/intern/` (repo privat `9bi-intern`, commit `a8bc079`) | — | PR #11 |
 | 01/10 | T-31 | **Projectes (Fase 2)**: `content/projectes/` (13-B amb 3 sessions dels posts, retrat gegant en idea), fitxa pública amb sessions i reportatges de l'etiqueta, enllaç al peu, col·lecció al CMS. Provat en navegador (escriptori i 375 px) | ~45 min | `dc193fe` |
 | 30/09–01/10 | T-27 | **Admin intern (Fase 1)**: documentació interna moguda al repo privat `112books/9bi-intern`, `/admin/intern/` (actes amb assistents, acords, tasques, visibilitat) i `tasques.html` (tasques obertes + acta nova amb les obertes). Fusionat amb la PR #11 | ~2 h | `f5d0383`…`78bd705`, merge `5035f5c` |
 | 30/09 | — | **Redirecció de l'URL del post de Naya** (canvi de títol al CMS) | ~10 min | `e36dc4c8ba` |

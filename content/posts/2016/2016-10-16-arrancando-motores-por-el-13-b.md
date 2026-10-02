@@ -5,6 +5,7 @@ year: 2016
 author: Pili E. G.
 slug: arrancando-motores-por-el-13-b
 tags:
+- 13-B
 - Torre Llobeta-Vilapiscina
 cover:
   image: /images/covers/7f9c8fd3e6fd52e6.webp

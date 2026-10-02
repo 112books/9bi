@@ -2005,10 +2005,48 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Projectes (/projectes/): la taula de sessions es desplaça dins del seu marc al mòbil */
-.projecte-taula {
-  overflow-x: auto;
+/* Projectes (/projectes/): fitxa i sessions */
+.projecte .post-content h2 {
+  margin-top: 2.5rem;
 }
-.projecte-taula table {
-  min-width: 34rem;
+.projecte-fitxa th {
+  text-align: left;
+  padding-right: 1.5rem;
+  white-space: nowrap;
+}
+.projecte-sessions td {
+  vertical-align: top;
+}
+.projecte-sessions td:first-child {
+  white-space: nowrap;
+}
+/* Al mòbil cada sessió és una fitxa apilada */
+@media (max-width: 600px) {
+  .projecte-sessions thead {
+    display: none;
+  }
+  .projecte-sessions,
+  .projecte-sessions tbody,
+  .projecte-sessions tr,
+  .projecte-sessions td {
+    display: block;
+    width: 100%;
+  }
+  .projecte-sessions tr {
+    padding: 0.8rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .projecte-sessions td {
+    padding: 0.1rem 0;
+    border: 0;
+  }
+  .projecte-sessions td:first-child {
+    font-weight: 600;
+  }
+  .projecte-sessions td:last-child:not(:empty)::before {
+    content: "Articles:";
+    display: block;
+    font-size: 0.8em;
+    color: var(--secondary);
+  }
 }

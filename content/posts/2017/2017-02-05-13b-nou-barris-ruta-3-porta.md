@@ -5,6 +5,7 @@ year: 2017
 author: Joan "Linux" Martínez i Serres
 slug: 13b-nou-barris-ruta-3-porta
 tags:
+- 13-B
 - nou barris
 - barri
 - ruta
