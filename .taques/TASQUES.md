@@ -42,6 +42,8 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | Data | ID | Tasca | Temps | Commit |
 |---|---|---|---|---|
+| 02/10 | T-31 | **Projectes: to propi i propostes**: franja suau vermell 9bi, fil d'Ariadna, xips; `/projectes/proposa/`; enllaç de tornada; Els Inoblidables en esborrany; Retrat gegant aturat | ~40 min | `5682586`, `86b95e0`, `faa17b6` |
+| 02/10 | — | **Concurs**: coorganitzat amb el Casal de barri de Prosperitat + enllaços (text de l'usuari) | ~10 min | `7e2713c` |
 | 02/10 | T-24 | **Gillius en woff2**: `GilliusADF-{Regular,Bold}.woff2` generats amb fontTools (mateixos glifs, 37→19 KB); el CSS els carrega primer i deixa l'OTF de reserva; preload passat a woff2. Els OTF es conserven (els fa servir la votació). Provat: el navegador baixa només els woff2 | ~10 min | (aquest commit) |
 | 02/10 | T-11 | **Cerca a les pàgines d'autor**: quadre de cerca a `/author/<slug>.html` que només busca entre les entrades d'aquell autor (camp `author` afegit a `index.json`, filtre a `fastsearch.js`, scripts carregats a les pàgines d'autor). Provat: Pedro Click + «concurs» → 18 resultats, tots seus; `/search/` igual; 375 px sense desbordament | ~25 min | (aquest commit) |
 | 02/10 | T-10 | **Etiquetes per freqüència**: verificat que ja estava fet — `/search/` i `/tags/` ordenen les 1.684 etiquetes de més a menys (`ByCount`) | ~5 min | — |
@@ -102,7 +104,9 @@ Els dies anteriors al 25/09 només tenen el total al registre diari (el detall h
 
 | Data | Temps | Registre |
 |---|---|---|
-| 30/09 | ~1 h 12 min (sessió de matí, ~09:28–10:40) | [2026-09-30.md](2026-09-30.md) |
+| 02/10 | ~2 h 40 min (sessió al núvol, ~16:00–18:20) | [2026-10-02.md](2026-10-02.md) |
+| 01/10 | ~3 h 08 min (matí + tarda + núvol) | [2026-10-01.md](2026-10-01.md) |
+| 30/09 | ~2 h 22 min (matí ~09:28–10:40 + núvol ~17:45–18:50) | [2026-09-30.md](2026-09-30.md) |
 | 28/09 | ~3 h 05 min (sessió al núvol, 08:35–11:40, inici estimat) | [2026-09-28.md](2026-09-28.md) |
 | 27/09 | ~5 h 41 min (sessió 2 ~4 h 55 min + sessió 3 46 min) | [2026-09-27.md](2026-09-27.md) |
 | 25/09 | ≥ 2 h 10 min (3 tasques sense tancar) | [2026-09-25.md](2026-09-25.md) |
