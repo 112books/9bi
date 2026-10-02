@@ -82,10 +82,11 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per als vídeos de YouTube o Vimeo, canvieu l'editor al mode «Edita en Markdown» (a la barra de l'editor), poseu el codi `{{< youtube ID >}}` o `{{< vimeo ID >}}` en una línia a part i deseu des d'aquest mode. L'ID és el codi que surt a l'enllaç del vídeo; si torneu al mode enriquit, el vídeo es pot espatllar." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
   - name: "posts-2025"
     label: "Articles · 2025"
@@ -114,10 +115,11 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per als vídeos de YouTube o Vimeo, canvieu l'editor al mode «Edita en Markdown» (a la barra de l'editor), poseu el codi `{{< youtube ID >}}` o `{{< vimeo ID >}}` en una línia a part i deseu des d'aquest mode. L'ID és el codi que surt a l'enllaç del vídeo; si torneu al mode enriquit, el vídeo es pot espatllar." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
   - name: "posts-2024"
     label: "Articles · 2024"
@@ -146,10 +148,11 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per als vídeos de YouTube o Vimeo, canvieu l'editor al mode «Edita en Markdown» (a la barra de l'editor), poseu el codi `{{< youtube ID >}}` o `{{< vimeo ID >}}` en una línia a part i deseu des d'aquest mode. L'ID és el codi que surt a l'enllaç del vídeo; si torneu al mode enriquit, el vídeo es pot espatllar." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
   - name: "posts-2023"
     label: "Articles · 2023"
@@ -178,10 +181,11 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per als vídeos de YouTube o Vimeo, canvieu l'editor al mode «Edita en Markdown» (a la barra de l'editor), poseu el codi `{{< youtube ID >}}` o `{{< vimeo ID >}}` en una línia a part i deseu des d'aquest mode. L'ID és el codi que surt a l'enllaç del vídeo; si torneu al mode enriquit, el vídeo es pot espatllar." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
   - name: "posts-2022"
     label: "Articles · 2022"
@@ -210,10 +214,11 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per als vídeos de YouTube o Vimeo, canvieu l'editor al mode «Edita en Markdown» (a la barra de l'editor), poseu el codi `{{< youtube ID >}}` o `{{< vimeo ID >}}` en una línia a part i deseu des d'aquest mode. L'ID és el codi que surt a l'enllaç del vídeo; si torneu al mode enriquit, el vídeo es pot espatllar." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
   - name: "posts-2021"
     label: "Articles · 2021"
@@ -242,10 +247,11 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per als vídeos de YouTube o Vimeo, canvieu l'editor al mode «Edita en Markdown» (a la barra de l'editor), poseu el codi `{{< youtube ID >}}` o `{{< vimeo ID >}}` en una línia a part i deseu des d'aquest mode. L'ID és el codi que surt a l'enllaç del vídeo; si torneu al mode enriquit, el vídeo es pot espatllar." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
   - name: "posts-2020"
     label: "Articles · 2020"
@@ -274,10 +280,11 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per als vídeos de YouTube o Vimeo, canvieu l'editor al mode «Edita en Markdown» (a la barra de l'editor), poseu el codi `{{< youtube ID >}}` o `{{< vimeo ID >}}` en una línia a part i deseu des d'aquest mode. L'ID és el codi que surt a l'enllaç del vídeo; si torneu al mode enriquit, el vídeo es pot espatllar." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
   - name: "posts-2019"
     label: "Articles · 2019"
@@ -306,10 +313,11 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per als vídeos de YouTube o Vimeo, canvieu l'editor al mode «Edita en Markdown» (a la barra de l'editor), poseu el codi `{{< youtube ID >}}` o `{{< vimeo ID >}}` en una línia a part i deseu des d'aquest mode. L'ID és el codi que surt a l'enllaç del vídeo; si torneu al mode enriquit, el vídeo es pot espatllar." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
   - name: "posts-2018"
     label: "Articles · 2018"
@@ -338,10 +346,11 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per als vídeos de YouTube o Vimeo, canvieu l'editor al mode «Edita en Markdown» (a la barra de l'editor), poseu el codi `{{< youtube ID >}}` o `{{< vimeo ID >}}` en una línia a part i deseu des d'aquest mode. L'ID és el codi que surt a l'enllaç del vídeo; si torneu al mode enriquit, el vídeo es pot espatllar." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
   - name: "posts-2017"
     label: "Articles · 2017"
@@ -370,10 +379,11 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per als vídeos de YouTube o Vimeo, canvieu l'editor al mode «Edita en Markdown» (a la barra de l'editor), poseu el codi `{{< youtube ID >}}` o `{{< vimeo ID >}}` en una línia a part i deseu des d'aquest mode. L'ID és el codi que surt a l'enllaç del vídeo; si torneu al mode enriquit, el vídeo es pot espatllar." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
   - name: "posts-2016"
     label: "Articles · 2016"
@@ -402,10 +412,11 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per als vídeos de YouTube o Vimeo, canvieu l'editor al mode «Edita en Markdown» (a la barra de l'editor), poseu el codi `{{< youtube ID >}}` o `{{< vimeo ID >}}` en una línia a part i deseu des d'aquest mode. L'ID és el codi que surt a l'enllaç del vídeo; si torneu al mode enriquit, el vídeo es pot espatllar." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
   - name: "posts-2015"
     label: "Articles · 2015"
@@ -434,10 +445,11 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per als vídeos de YouTube o Vimeo, canvieu l'editor al mode «Edita en Markdown» (a la barra de l'editor), poseu el codi `{{< youtube ID >}}` o `{{< vimeo ID >}}` en una línia a part i deseu des d'aquest mode. L'ID és el codi que surt a l'enllaç del vídeo; si torneu al mode enriquit, el vídeo es pot espatllar." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
   - name: "posts-2014"
     label: "Articles · 2014"
@@ -466,10 +478,11 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per als vídeos de YouTube o Vimeo, canvieu l'editor al mode «Edita en Markdown» (a la barra de l'editor), poseu el codi `{{< youtube ID >}}` o `{{< vimeo ID >}}` en una línia a part i deseu des d'aquest mode. L'ID és el codi que surt a l'enllaç del vídeo; si torneu al mode enriquit, el vídeo es pot espatllar." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
   - name: "posts-2013"
     label: "Articles · 2013"
@@ -498,10 +511,11 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per als vídeos de YouTube o Vimeo, canvieu l'editor al mode «Edita en Markdown» (a la barra de l'editor), poseu el codi `{{< youtube ID >}}` o `{{< vimeo ID >}}` en una línia a part i deseu des d'aquest mode. L'ID és el codi que surt a l'enllaç del vídeo; si torneu al mode enriquit, el vídeo es pot espatllar." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
   - name: "posts-2012"
     label: "Articles · 2012"
@@ -530,10 +544,11 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per als vídeos de YouTube o Vimeo, canvieu l'editor al mode «Edita en Markdown» (a la barra de l'editor), poseu el codi `{{< youtube ID >}}` o `{{< vimeo ID >}}` en una línia a part i deseu des d'aquest mode. L'ID és el codi que surt a l'enllaç del vídeo; si torneu al mode enriquit, el vídeo es pot espatllar." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
   - name: "posts-2011"
     label: "Articles · 2011"
@@ -562,10 +577,11 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per als vídeos de YouTube o Vimeo, canvieu l'editor al mode «Edita en Markdown» (a la barra de l'editor), poseu el codi `{{< youtube ID >}}` o `{{< vimeo ID >}}` en una línia a part i deseu des d'aquest mode. L'ID és el codi que surt a l'enllaç del vídeo; si torneu al mode enriquit, el vídeo es pot espatllar." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
   - name: "posts-2010"
     label: "Articles · 2010"
@@ -594,10 +610,11 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per als vídeos de YouTube o Vimeo, canvieu l'editor al mode «Edita en Markdown» (a la barra de l'editor), poseu el codi `{{< youtube ID >}}` o `{{< vimeo ID >}}` en una línia a part i deseu des d'aquest mode. L'ID és el codi que surt a l'enllaç del vídeo; si torneu al mode enriquit, el vídeo es pot espatllar." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
   - name: "posts-2009"
     label: "Articles · 2009"
@@ -626,10 +643,11 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per als vídeos de YouTube o Vimeo, canvieu l'editor al mode «Edita en Markdown» (a la barra de l'editor), poseu el codi `{{< youtube ID >}}` o `{{< vimeo ID >}}` en una línia a part i deseu des d'aquest mode. L'ID és el codi que surt a l'enllaç del vídeo; si torneu al mode enriquit, el vídeo es pot espatllar." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
 
   - name: "posts-2008"
     label: "Articles · 2008"
@@ -658,10 +676,11 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
+      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per als vídeos de YouTube o Vimeo, canvieu l'editor al mode «Edita en Markdown» (a la barra de l'editor), poseu el codi `{{< youtube ID >}}` o `{{< vimeo ID >}}` en una línia a part i deseu des d'aquest mode. L'ID és el codi que surt a l'enllaç del vídeo; si torneu al mode enriquit, el vídeo es pot espatllar." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown." }
   - name: "web-pages"
     label: "Pàgines del web (pàgines fixes)"
     files:

@@ -1,3 +1,30 @@
+{{- with .Params.video -}}
+{{- $url := . -}}
+{{- $embed := "" -}}
+{{- if strings.Contains $url "vimeo.com" -}}
+  {{- $id := replaceRE "^.*/([0-9]+).*$" "$1" $url -}}
+  {{- if findRE "^[0-9]+$" $id -}}{{- $embed = printf "https://player.vimeo.com/video/%s?dnt=0" $id -}}{{- end -}}
+{{- else if strings.Contains $url "youtu" -}}
+  {{- $id := "" -}}
+  {{- if strings.Contains $url "youtu.be/" -}}
+    {{- $id = replaceRE "^.*youtu[.]be/([^?&/]+).*$" "$1" $url -}}
+  {{- else if strings.Contains $url "/embed/" -}}
+    {{- $id = replaceRE "^.*/embed/([^?&/]+).*$" "$1" $url -}}
+  {{- else if strings.Contains $url "/shorts/" -}}
+    {{- $id = replaceRE "^.*/shorts/([^?&/]+).*$" "$1" $url -}}
+  {{- else -}}
+    {{- $id = replaceRE "^.*[?&]v=([^?&/]+).*$" "$1" $url -}}
+  {{- end -}}
+  {{- if findRE "^[A-Za-z0-9_-]+$" $id -}}{{- $embed = printf "https://www.youtube.com/embed/%s" $id -}}{{- end -}}
+{{- end -}}
+{{- with $embed }}
+<div class="video-embed" style="margin: 1.25rem 0;">
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe src="{{ . }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy" title="Vídeo"></iframe>
+  </div>
+</div>
+{{- end -}}
+{{- end -}}
 {{- if .Params.album_url -}}
 <div class="album-link">
   <a class="album-button" href="{{ .Params.album_url }}" target="_blank" rel="noopener">

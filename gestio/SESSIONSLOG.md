@@ -13,7 +13,8 @@ Per a l'estat actual i la configuració del projecte, vegeu [`CLAUDE.md`](../CLA
 - **Guia pública**: afegida la secció «Vídeos de YouTube o Vimeo» a `content/guia/publicar-article.md`.
 - **Verificació**: `hugo --minify --environment production` OK (6.471 pàgines) i desplegament confirmat a `https://9barrisimatge.org/admin/config.yml`.
 - **Vídeo de Vimeo (Andrés Naya)**: el shortcode havia quedat malmès (`{ { < [url](url) > } } ;`) perquè l'editor rich text de Sveltia destrueix els `{{< ... >}}` en desar. Corregit a `{{< vimeo 1232409395 >}}`.
-- **Editor per defecte (revert)**: l'usuari prefereix que els editors vegin l'editor enriquit com abans; es retira el `modes: [raw, rich_text]` de tots els camps (el mode «Edita en Markdown» ja és disponible per defecte). El hint del cos i la guia expliquen: per als vídeos, canviar a «Edita en Markdown», enganxar el codi i desar des d'aquest mode.
+- **Editor per defecte (revert)**: l'usuari prefereix que els editors vegin l'editor enriquit com abans; es retira el `modes: [raw, rich_text]` de tots els camps (el mode «Edita en Markdown» ja és disponible per defecte).
+- **Camp de vídeo (solució robusta)**: com que l'editor enriquit esborrava els shortcodes en desar (el commit `f47dd64aa1` va eliminar el vídeo del post d'Andrés Naya), s'afegeix un camp `video` (URL de YouTube o Vimeo) a les 19 col·leccions d'articles; `layouts/_partials/extend_post_content.html` en renderitza el reproductor responsiu. El post s'ha migrat al camp i el hint del cos i la guia s'han simplificat.
 
 ---
 
