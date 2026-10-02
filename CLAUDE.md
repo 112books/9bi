@@ -39,14 +39,14 @@ Quan l'usuari demani «loop de tasques» o «seguim amb les tasques pendents»:
 
 Lloc web estàtic del **Col·lectiu 9 Barris Imatge** (Barcelona), migrat de Blogger a Hugo + PaperMod i publicat a GitHub Pages.
 
-## Estat real (verificat el 2026-10-01)
+## Estat real (verificat el 2026-10-02)
 
 - Producció: `https://9barrisimatge.org/`, desplegada per `.github/workflows/deploy.yml` des del push a `main`.
-- Repositori de producció i CMS: **GitHub `112books/9bi`** (`main`). Publicació: `git push origin main`.
-- Remotes locals: `origin` = GitHub (`git@github.com:112books/9bi.git`); `codeberg` = Codeberg (backup, push bloquejat per quota).
+- Repositori de producció i CMS: **GitHub `112books/9bi`** (`main`). Publicació: `git push github main`.
+- Remotes locals: `github` = GitHub (`https://github.com/112books/9bi.git`, producció); `origin` = Codeberg (`ssh://git@codeberg.org/linuxbcn/9bi.git`, backup, push bloquejat per quota).
 - **Codeberg `linuxbcn/9bi`**: backup read-only. GC demanat a issue #2522 (comentari 28/09); sense resposta. Branca `pages` esborrada el 28/09. Compte a 752,7 MiB.
 - Tema PaperMod vendored a `themes/PaperMod/`.
-- **Posts actuals**: 3.009 (3.006 migrats de Blogger + 3 articles nous), 20 carpetes d'anys (2008–2026).
+- **Posts actuals**: 3.010 (3.006 migrats de Blogger + 4 articles nous), 20 carpetes d'anys (2008–2026).
 
 ## Comandes
 
@@ -131,11 +131,12 @@ gestio/RECERCA.md               # recerca: fotògrafs de NB, cronologia concurs 
 - `media_folder: static/images` · `public_folder: /images`
 - **31 col·leccions**: 19 d'articles per any (`posts-YYYY`, carpetes físiques `content/posts/YYYY/`, `sortable_fields: date desc`), `web-pages` (13 pàgines fixes, camps tècnics com a `hidden`), `guia`, `projectes` (`content/projectes/{{slug}}/index.md`, sessions com a llista), `membres`, 8 col·leccions «Àlbums per arreglar».
 - **Gestor intern** `static/admin/intern/` (repo **privat** `112books/9bi-intern`): col·leccions `actes` (assistents, acords, tasques amb `id`/estat, visibilitat) i `concurs`, i `tasques.html` (tasques obertes llegides per l'API de GitHub amb el token de la sessió). Detall a `gestio/SESSIONSLOG.md` (2026-09-30 v2).
-- **Cap col·lecció «Tots els articles»**: els 3.009 posts feien trigar el carregament; s'usa la cerca immediata del Sveltia.
+- **Cap col·lecció «Tots els articles»**: els 3.010 posts feien trigar el carregament; s'usa la cerca immediata del Sveltia.
 - **Rail propi** (`static/admin/index.html`): lateral nativa amagada (`#nc-root .primary-sidebar { display:none !important }` + `MutationObserver`); `<aside class="cms-rail">` amb desplegable d'anys 2026→2008, «Documentació interna» (→ `/admin/intern/`), Àlbums (per login a `CMS_ALBUMS`), Administració.
 - **`CMS_AUTHORS`**: mapeja login GitHub → nom d'autor (hook `preSave`). Cal afegir cada editor nou.
 - **`CMS_ALBUMS`**: mapeja login → col·lecció de recuperació. Ara: `112books` → `recuperacio-joan-linux`.
-- Peu del CMS: filet vermell + CC + «Powered by LinuxBCN with Hugo & PaperMod».
+- **Hint del camp «Cos»**: ajuda per incrustar vídeos amb els shortcodes natius de Hugo (`{{< youtube ID >}}` i `{{< vimeo ID >}}`); també a la guia pública, secció «Vídeos de YouTube o Vimeo».
+- **Sense peu propi**: el peu del CMS (filet vermell + CC + «Powered by LinuxBCN…») es va eliminar el 2026-10-01 (commit `cfd0e3ba86`) perquè xocava amb l'editor del cos; el CSS mort que quedava a `/admin/intern/` es va treure el 2026-10-02.
 
 ## CI/CD (`.github/workflows/deploy.yml`)
 
@@ -161,7 +162,7 @@ gestio/RECERCA.md               # recerca: fotògrafs de NB, cronologia concurs 
 - **Col·lectiu, mai «associació»**: el nom legal és «Col·lectiu 9 Barris Imatge».
 - **Slug estable**: el camp `slug` no s'ha de tocar un cop publicat; el canvi trenca l'URL. Hi ha un avís al CMS i un hook que el recupera si queda buit.
 - **Antics membres** (no «veterans»): el terme per al grup `actiu: false`.
-- **No hi ha col·lecció «Tots els articles»** al CMS: massa lent amb 3.009 posts.
+- **No hi ha col·lecció «Tots els articles»** al CMS: massa lent amb 3.010 posts.
 - **`analytics.json` al repo és el fallback**: la versió desplegada es genera en cada CI run. Si GoatCounter retorna buit, el script **conserva el fitxer existent** (no actualitza). Diagnòstic si /stats/ va enrere: comprovar el secret `GOATCOUNTER_API_KEY` a GitHub Actions i els logs del workflow.
 - **Codeberg = backup read-only**: producció és GitHub. No fer push ni reset a Codeberg fins que el GC alliberi quota (issue #2522).
 

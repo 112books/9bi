@@ -45,6 +45,16 @@ El cos de l'article admet format senzill:
 Heu de separar els paràgrafs amb una línia en blanc. No passeu d'una línia sense paràgraf.
 {.guide-note}
 
+### Vídeos de YouTube o Vimeo
+
+Per incrustar un vídeo dins del text, enganxeu el codi **tot sol en una línia** (no el barregeu dins d'un paràgraf):
+
+- **YouTube:** `{{</* youtube ID */>}}`. Per exemple, per a `https://www.youtube.com/watch?v=dQw4w9WgXcQ` escriviu `{{</* youtube dQw4w9WgXcQ */>}}`. L'ID és el que hi ha darrere de `watch?v=` (o de `youtu.be/`).
+- **Vimeo:** `{{</* vimeo ID */>}}`. Per exemple, per a `https://vimeo.com/146022717` escriviu `{{</* vimeo 146022717 */>}}`. L'ID és el número de l'enllaç.
+
+El vídeo apareixerà amb la mida adaptada a la pantalla.
+{.guide-note}
+
 ## 5. Desa i publica
 
 - Per desar i estar pendent: utilitzeu el botó **"Desa com a esborrany"** (draft).

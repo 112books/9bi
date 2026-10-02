@@ -5,6 +5,16 @@ Per a l'estat actual i la configuració del projecte, vegeu [`CLAUDE.md`](../CLA
 
 ---
 
+## Sessió 2026-10-02 (vespre) — Sincronització, peu del CMS i ajuda de vídeos
+
+- **Sincronització**: el `main` local anava 36 commits enrere de `github/main` (producció, GitHub); `git pull --ff-only github main` ha fet fast-forward fins a `c949802900`. Recompte: 3.010 posts i 24 membres.
+- **Peu del CMS**: verificat que ja s'havia eliminat al commit `cfd0e3ba86` (1/10) i que `/admin/` en directe no en té. Restava només CSS mort `.cms-footer*` (sense cap element) a `static/admin/intern/index.html`; eliminat (línies 218–291).
+- **CMS `config.yml`**: ampliat el hint de «Cos de l'article» de les 19 col·leccions d'anys amb com incrustar vídeos: `{{< youtube ID >}}` i `{{< vimeo ID >}}`; els exemples van entre accents perquè Sveltia renderitza el hint com a Markdown. Shortcodes natius de Hugo provats abans en un projecte de prova. Commit `d2789d6097`.
+- **Guia pública**: afegida la secció «Vídeos de YouTube o Vimeo» a `content/guia/publicar-article.md`.
+- **Verificació**: `hugo --minify --environment production` OK (6.471 pàgines) i desplegament confirmat a `https://9barrisimatge.org/admin/config.yml`.
+
+---
+
 ## Sessió 2026-10-01 (tarda) — Àlbums: aplicar enllaços nous i filtrar els corregits
 
 - **Context**: l'usuari havia corregit àlbums des del CMS («Àlbums per arreglar · Joan Linux») i dubtava si els posts s'actualitzaven sols. Verificat: **no**; el CMS només desa la fitxa a `recuperacio/`, i cal el pas final manual.
