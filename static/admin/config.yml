@@ -810,6 +810,7 @@ collections:
     summary: "{{title}} · {{estat}}"
     fields:
       - { label: "Nom del projecte", name: "title", widget: "string" }
+      - { label: "Esborrany (no visible al web)", name: "draft", widget: "boolean", default: false, required: false }
       - { label: "Descripció", name: "description", widget: "text", required: false }
       - { label: "Estat", name: "estat", widget: "select", options: ["idea", "actiu", "aturat", "tancat"], default: "idea" }
       - { label: "Responsable", name: "responsable", widget: "string", required: false }
