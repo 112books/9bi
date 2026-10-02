@@ -1,16 +1,20 @@
 {{- define "main" }}
-<header class="page-header">
+<header class="page-header projecte-hero">
+  {{- partial "projectes-fil.html" . }}
   <h1>{{ .Title }}</h1>
   {{- with .Description }}<div class="post-description">{{ . }}</div>{{ end }}
+  <p class="projecte-proposa">
+    <a class="projecte-boto" href="{{ "projectes/proposa/" | relURL }}">Proposa un projecte</a>
+  </p>
 </header>
 
 {{- range .Pages.ByTitle }}
-<article class="post-entry">
+<article class="post-entry projecte-entry">
   <header class="entry-header">
     <h2 class="entry-hint-parent">{{ .Title }}</h2>
   </header>
   {{- with .Description }}<div class="entry-content"><p>{{ . }}</p></div>{{ end }}
-  {{- with .Params.estat }}<footer class="entry-footer">Estat: {{ . }}</footer>{{ end }}
+  {{- with .Params.estat }}<ul class="projecte-xips"><li class="projecte-xip--estat">{{ . }}</li></ul>{{ end }}
   <a class="entry-link" aria-label="{{ .Title }}" href="{{ .RelPermalink }}"></a>
 </article>
 {{- end }}
