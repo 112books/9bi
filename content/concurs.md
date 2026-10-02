@@ -7,7 +7,7 @@ visualDescription: "El concurs fotogràfic Josep Antón Cordoncillo de 9 Barris 
 page_bg: "/images/concurs/concurs-bg.webp"
 ---
 
-El **Concurs Fotogràfic Josep Antón Cordoncillo** és el concurs anual de fotografia que coorganitza 9 Barris Imatge juntament amb el [Casal de barri de Prosperitat](https://www.casalprospe.org) amb l'objectiu de promoure la mirada fotogràfica sobre el barri, la seva gent i la seva vida.
+El **Concurs Fotogràfic Josep Antón Cordoncillo** és el concurs anual de fotografia que coorganitza [9 Barris Imatge](https://9barrisimatge.org/) juntament amb el [Casal de barri de Prosperitat](https://www.casalprospe.org) amb l'objectiu de promoure la mirada fotogràfica sobre el barri, la seva gent i la seva vida.
 
 <div class="concurs">
 <input type="radio" name="concurs-view" id="view-2026" class="concurs-view-radio" checked>
