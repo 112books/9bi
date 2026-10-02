@@ -80,7 +80,8 @@ content/
 ├── search.md (layout "search"), archive.md (layout "archives")
 ├── mes-visitats.md (layout "popular" + hiddenInRss: true)
 ├── guia/                        # _index.md + 7 subpàgines: robotsNoIndex + hiddenInRss + sitemap.disable
-├── projectes/<slug>/index.md    # projectes públics (estat, responsable, sessions, etiqueta del blog); 13-b, retrat-gegant
+├── projectes/<slug>/index.md    # projectes públics (estat, responsable, sessions amb nom/articles, etiqueta); 13-b, retrat-gegant; els-inoblidables en draft
+├── proposa-projecte.md          # /projectes/proposa/: formulari de propostes (servei de contacte, assumpte «Proposta de projecte»)
 └── (documentacio/ ja no hi és: actes i concurs intern al repo PRIVAT 112books/9bi-intern, des del 2026-10-01)
 layouts/
 ├── baseof.html                  # SOBREESCRIT: clau de caché del footer
@@ -90,7 +91,9 @@ layouts/
 ├── taxonomy.html                # SOBREESCRIT: núvol d'etiquetes (/tags/)
 ├── 404.html                     # SOBREESCRIT: 404 útil amb cerca directa
 ├── author/term.html             # pàgina de posts per autor (mosaic paginat)
-├── projectes/{list,single}.html  # /projectes/: llista i fitxa (sessions amb només les columnes amb dades + mosaic de l'etiqueta); sense tasques
+├── projectes/{list,single}.html  # /projectes/: franja suau vermell 9bi, fil d'Ariadna, xips, sessions i mosaic (etiqueta + articles); sense tasques
+├── proposa-projecte.html        # layout de /projectes/proposa/
+├── index.json                   # SOBREESCRIT: índex de cerca amb el camp author (cerca a /author/)
 ├── _shortcodes/membres.html     # taula de membres (actius + antics)
 ├── _shortcodes/rel.html         # {{< rel "/ruta" >}} → relURL base-aware
 ├── _default/popular.html        # llista de més visitats (llegeix data/popular.json)
@@ -101,6 +104,8 @@ layouts/
     ├── post-share.html          # botons de compartir per entrada (WhatsApp, Telegram, FB, correu, copia)
     ├── post-comments.html       # llista de comentaris + formulari (moderació prèvia)
     ├── seo-title.html           # títol SEO: seoTitle o title sense prefix de data
+    ├── projectes-fil.html       # fil d'Ariadna de Projectes (Inici › Projectes › …)
+    ├── post_nav_links.html      # SOBREESCRIT: aria-label a la navegació entre entrades
     ├── head.html                # SOBREESCRIT: usa seo-title.html
     ├── extend_head.html         # preload de fonts + GoatCounter → 9bi.goatcounter.com
     ├── extend_footer.html       # BUIT

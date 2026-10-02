@@ -235,3 +235,27 @@ Per a l'estat actual i la configuració del projecte, vegeu [`CLAUDE.md`](../CLA
   - Retrat gegant col·lectiu per barri: estat `idea`, sense dades.
   - Plantilles `layouts/projectes/{list,single}.html`: fitxa, sessions (només columnes amb dades; desplaçament horitzontal al mòbil amb `.projecte-taula`) i mosaic dels articles de l'etiqueta. Les tasques **no** surten.
 - Verificat: build net, navegador a 1280 i 375 px sense desbordament, Sveltia accepta el config (31 col·leccions).
+
+---
+
+## Sessió 2026-10-02 — Concurs, projectes, loop de tasques i propostes del públic
+
+Sessió al núvol (~16:00–18:20). PR #12–#16 fusionades per l'usuari; deploys de GitHub Actions correctes.
+
+- **T-27 tancada**: l'usuari ha creat l'acta real del 01/10 des de `/admin/intern/` (repo privat, `a8bc079`).
+- **Concurs** (`/concurs/`, primer paràgraf, text de l'usuari): coorganitzat per [9 Barris Imatge](https://9barrisimatge.org/) juntament amb el [Casal de barri de Prosperitat](https://www.casalprospe.org).
+- **Projectes**:
+  - 13-B: rutes trobades al blog — 1B (16/10/2016), 1B oberta (23/10/2016, Virrei Amat 10 h), 2B Can Peguera i Turó de la Peira (20/11/2016), 3 Porta (05/02/2017), 4 Roquetes (02/04/2017). Les dates són les dels posts. Etiqueta `13-B` afegida als 5 posts que no la portaven (només l'etiqueta).
+  - Sessions amb camps `nom` i `articles` (llista); taula per sessió, apilada al mòbil; el mosaic uneix l'etiqueta i els articles de les sessions.
+  - «Els Inoblidables: la nostra Memòria» (Residència i Centre de Dia Porta, Fundació Vella Terra, desembre 2015; responsable Pili E. G.) creat i després posat en **`draft: true`** per decisió de l'usuari (els 3 àlbums són a Picasa, morts, i ja són a «Àlbums per arreglar»; publicació per confirmar). Els 3 posts del blog continuen publicats.
+  - Retrat gegant: estat `aturat`; **text pendent que el dicti l'usuari**.
+  - **To propi** (decisió de l'usuari): capçalera en franja suau vermell 9bi (`.projecte-hero`), fil d'Ariadna «Inici › Projectes › …» (`layouts/_partials/projectes-fil.html`), xips d'estat/responsable/dates, `md-content` al cos.
+  - **`/projectes/proposa/`** (`content/proposa-projecte.md`, layout `proposa-projecte`): formulari que envia al servei de contacte existent (`/envia/contacte`) amb l'assumpte ocult «Proposta de projecte»; botó a la llista i a cada fitxa. **Pendent provar l'enviament real.**
+  - Camp «Esborrany» a la col·lecció Projectes del CMS.
+- **Loop de tasques**:
+  - T-21: ja estava feta (SHA-pin, `.dl-*`, credencials). Port del directori temporal (`mktemp` + `trap`) a `modules/autopublica/tools/deploy.sh`.
+  - T-10: ja estava feta (`ByCount` a `/search/` i `/tags/`).
+  - T-11: cerca a `/author/<slug>.html` limitada a l'autor (`layouts/index.json` amb `author`, filtre `data-author` a `fastsearch.js`, scripts carregats a les pàgines d'autor).
+  - T-24: Gillius en woff2 (fontTools, sense subconjunt; OTF de reserva i conservat per a la votació).
+  - T-18: informe axe-core a `drafts/2026-10-02-auditoria-accessibilitat.md`; aplicades les correccions sense canvi visual (botó PDF fora del `tablist` del concurs amb `.concurs-tabs {display: contents}`, `aria-label` a les navegacions, `post_nav_links.html` sobreescrit). Pendent de decisió: contrast i títol de la FAQ.
+- **Avís**: els àlbums del 13-B són enllaços `goo.gl/photos`; no s'ha pogut comprovar des del núvol si encara redirigeixen.
