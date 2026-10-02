@@ -1,4 +1,7 @@
-{{- with .Params.video -}}
+{{- $videos := slice -}}
+{{- with .Params.videos -}}{{- $videos = . -}}{{- end -}}
+{{- with .Params.video -}}{{- $videos = $videos | append . -}}{{- end -}}
+{{- range $videos -}}
 {{- $url := . -}}
 {{- $embed := "" -}}
 {{- if strings.Contains $url "vimeo.com" -}}

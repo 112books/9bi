@@ -82,7 +82,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
+      - { label: "Vídeos (YouTube o Vimeo)", name: "videos", widget: "list", required: false, hint: "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
@@ -115,7 +115,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
+      - { label: "Vídeos (YouTube o Vimeo)", name: "videos", widget: "list", required: false, hint: "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
@@ -148,7 +148,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
+      - { label: "Vídeos (YouTube o Vimeo)", name: "videos", widget: "list", required: false, hint: "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
@@ -181,7 +181,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
+      - { label: "Vídeos (YouTube o Vimeo)", name: "videos", widget: "list", required: false, hint: "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
@@ -214,7 +214,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
+      - { label: "Vídeos (YouTube o Vimeo)", name: "videos", widget: "list", required: false, hint: "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
@@ -247,7 +247,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
+      - { label: "Vídeos (YouTube o Vimeo)", name: "videos", widget: "list", required: false, hint: "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
@@ -280,7 +280,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
+      - { label: "Vídeos (YouTube o Vimeo)", name: "videos", widget: "list", required: false, hint: "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
@@ -313,7 +313,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
+      - { label: "Vídeos (YouTube o Vimeo)", name: "videos", widget: "list", required: false, hint: "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
@@ -346,7 +346,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
+      - { label: "Vídeos (YouTube o Vimeo)", name: "videos", widget: "list", required: false, hint: "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
@@ -379,7 +379,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
+      - { label: "Vídeos (YouTube o Vimeo)", name: "videos", widget: "list", required: false, hint: "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
@@ -412,7 +412,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
+      - { label: "Vídeos (YouTube o Vimeo)", name: "videos", widget: "list", required: false, hint: "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
@@ -445,7 +445,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
+      - { label: "Vídeos (YouTube o Vimeo)", name: "videos", widget: "list", required: false, hint: "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
@@ -478,7 +478,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
+      - { label: "Vídeos (YouTube o Vimeo)", name: "videos", widget: "list", required: false, hint: "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
@@ -511,7 +511,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
+      - { label: "Vídeos (YouTube o Vimeo)", name: "videos", widget: "list", required: false, hint: "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
@@ -544,7 +544,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
+      - { label: "Vídeos (YouTube o Vimeo)", name: "videos", widget: "list", required: false, hint: "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
@@ -577,7 +577,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
+      - { label: "Vídeos (YouTube o Vimeo)", name: "videos", widget: "list", required: false, hint: "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
@@ -610,7 +610,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
+      - { label: "Vídeos (YouTube o Vimeo)", name: "videos", widget: "list", required: false, hint: "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
@@ -643,7 +643,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
+      - { label: "Vídeos (YouTube o Vimeo)", name: "videos", widget: "list", required: false, hint: "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
@@ -676,7 +676,7 @@ collections:
         fields:
           - { label: "Imatge", name: "image", widget: "image" }
       - { label: "Enllaç a l'àlbum de fotos", name: "album_url", widget: "string", required: false, hint: "Link a Google Photos o similar amb tot el reportatge." }
-      - { label: "Vídeo (YouTube o Vimeo)", name: "video", widget: "string", required: false, hint: "Enganxeu l'enllaç del vídeo (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostrarà al final de l'article." }
+      - { label: "Vídeos (YouTube o Vimeo)", name: "videos", widget: "list", required: false, hint: "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre." }
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }

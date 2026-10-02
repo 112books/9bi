@@ -120,7 +120,7 @@ gestio/RECERCA.md               # recerca: fotògrafs de NB, cronologia concurs 
 
 ## Front matter (convencions reals)
 
-- **Posts**: `title`, `date` (ISO), `year` (any), `author`, `slug` (obligatori, estable), `tags` (llista), `cover.image` (opcional, `/images/covers/…`), `album_url` (opcional), `video` (opcional, URL de YouTube o Vimeo), `description` (opcional = meta SEO), `seoTitle` (opcional = títol SEO sense prefix data)
+- **Posts**: `title`, `date` (ISO), `year` (any), `author`, `slug` (obligatori, estable), `tags` (llista), `cover.image` (opcional, `/images/covers/…`), `album_url` (opcional), `videos` (opcional, llista d'URLs de YouTube o Vimeo), `description` (opcional = meta SEO), `seoTitle` (opcional = títol SEO sense prefix data)
 - **Pàgines**: `title`, `description`, `url` (ruta final explícita)
 - **Guia**: `robotsNoIndex: true` + `hiddenInRss: true` + `sitemap.disable: true`
 - **Documentació**: `draft: true`
@@ -135,7 +135,7 @@ gestio/RECERCA.md               # recerca: fotògrafs de NB, cronologia concurs 
 - **Rail propi** (`static/admin/index.html`): lateral nativa amagada (`#nc-root .primary-sidebar { display:none !important }` + `MutationObserver`); `<aside class="cms-rail">` amb desplegable d'anys 2026→2008, «Documentació interna» (→ `/admin/intern/`), Àlbums (per login a `CMS_ALBUMS`), Administració.
 - **`CMS_AUTHORS`**: mapeja login GitHub → nom d'autor (hook `preSave`). Cal afegir cada editor nou.
 - **`CMS_ALBUMS`**: mapeja login → col·lecció de recuperació. Ara: `112books` → `recuperacio-joan-linux`.
-- **Camp «Vídeo»**: a les 19 col·leccions d'articles, `video` (URL de YouTube o Vimeo) que `layouts/_partials/extend_post_content.html` converteix en reproductor responsiu al final de l'article; immune a l'editor enriquit. Guia pública: secció «Vídeos de YouTube o Vimeo».
+- **Camp «Vídeos»**: a les 19 col·leccions d'articles, `videos` (llista opcional d'URLs de YouTube o Vimeo); `layouts/_partials/extend_post_content.html` en renderitza un reproductor responsiu per element, al final de l'article, i encara accepta el camp antic `video` (singular). Immune a l'editor enriquit. Guia pública: secció «Vídeos de YouTube o Vimeo».
 - **Sense peu propi**: el peu del CMS (filet vermell + CC + «Powered by LinuxBCN…») es va eliminar el 2026-10-01 (commit `cfd0e3ba86`) perquè xocava amb l'editor del cos; el CSS mort que quedava a `/admin/intern/` es va treure el 2026-10-02.
 
 ## CI/CD (`.github/workflows/deploy.yml`)

@@ -16,6 +16,7 @@ Per a l'estat actual i la configuració del projecte, vegeu [`CLAUDE.md`](../CLA
 - **Editor per defecte (revert)**: l'usuari prefereix que els editors vegin l'editor enriquit com abans; es retira el `modes: [raw, rich_text]` de tots els camps (el mode «Edita en Markdown» ja és disponible per defecte).
 - **Camp de vídeo (solució robusta)**: com que l'editor enriquit esborrava els shortcodes en desar (el commit `f47dd64aa1` va eliminar el vídeo del post d'Andrés Naya), s'afegeix un camp `video` (URL de YouTube o Vimeo) a les 19 col·leccions d'articles; `layouts/_partials/extend_post_content.html` en renderitza el reproductor responsiu. El post s'ha migrat al camp i el hint del cos i la guia s'han simplificat.
 - **Vídeo retirat (pendent de permís)**: l'usuari ha buidat el camp `video` del post d'Andrés Naya (`video: ''`, commit `480ffef535`) perquè encara no té permís per publicar-lo; la resta de la solució (camp + plantilla) queda disponible per quan el tingui.
+- **Diversos vídeos per article**: el camp `video` es converteix en `videos`, una llista d'enllaços (widget `list`), opcional; la plantilla en renderitza un reproductor per element i manté compatibilitat amb el camp singular antic.
 
 ---
 

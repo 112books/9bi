@@ -47,12 +47,12 @@ Heu de separar els paràgrafs amb una línia en blanc. No passeu d'una línia se
 
 ### Vídeos de YouTube o Vimeo
 
-Per posar un vídeo a l'article, ompliu el camp **«Vídeo (YouTube o Vimeo)»** de la fitxa amb l'enllaç del vídeo, tal com el copieu del navegador:
+Per posar vídeos a l'article, ompliu el camp **«Vídeos (YouTube o Vimeo)»** de la fitxa amb l'enllaç de cada vídeo, un per línia (el botó «+» n'afegeix més):
 
 - **YouTube:** `https://www.youtube.com/watch?v=dQw4w9WgXcQ` o `https://youtu.be/dQw4w9WgXcQ`.
 - **Vimeo:** `https://vimeo.com/146022717`.
 
-El reproductor apareixerà sol al final de l'article, amb la mida adaptada a la pantalla. No cal tocar el text ni canviar de mode de l'editor.
+Els reproductors apareixeran al final de l'article, en el mateix ordre, amb la mida adaptada a la pantalla. No cal tocar el text ni canviar de mode de l'editor.
 {.guide-note}
 
 ## 5. Desa i publica
