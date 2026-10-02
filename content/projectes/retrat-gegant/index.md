@@ -1,7 +1,7 @@
 ---
 title: "Retrat gegant col·lectiu per barri"
 description: ""
-estat: "idea"
+estat: "aturat"
 responsable: ""
 collaboradors: []
 entitats: []

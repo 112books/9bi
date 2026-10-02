@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Els Inoblidables: la nostra Memòria"
 description: "Exposició fotogràfica a la Residència i Centre de Dia Porta, de la Fundació Vella Terra."
 estat: "tancat"
