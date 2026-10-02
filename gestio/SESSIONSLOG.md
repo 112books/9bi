@@ -5,7 +5,7 @@ Per a l'estat actual i la configuració del projecte, vegeu [`CLAUDE.md`](../CLA
 
 ---
 
-## Sessió 2026-10-02 (vespre) — Sincronització, peu del CMS i ajuda de vídeos
+## Sessió 2026-10-02 (vespre) — Sincronització, peu del CMS i camp de vídeos
 
 - **Sincronització**: el `main` local anava 36 commits enrere de `github/main` (producció, GitHub); `git pull --ff-only github main` ha fet fast-forward fins a `c949802900`. Recompte: 3.010 posts i 24 membres.
 - **Peu del CMS**: verificat que ja s'havia eliminat al commit `cfd0e3ba86` (1/10) i que `/admin/` en directe no en té. Restava només CSS mort `.cms-footer*` (sense cap element) a `static/admin/intern/index.html`; eliminat (línies 218–291).
@@ -17,6 +17,7 @@ Per a l'estat actual i la configuració del projecte, vegeu [`CLAUDE.md`](../CLA
 - **Camp de vídeo (solució robusta)**: com que l'editor enriquit esborrava els shortcodes en desar (el commit `f47dd64aa1` va eliminar el vídeo del post d'Andrés Naya), s'afegeix un camp `video` (URL de YouTube o Vimeo) a les 19 col·leccions d'articles; `layouts/_partials/extend_post_content.html` en renderitza el reproductor responsiu. El post s'ha migrat al camp i el hint del cos i la guia s'han simplificat.
 - **Vídeo retirat (pendent de permís)**: l'usuari ha buidat el camp `video` del post d'Andrés Naya (`video: ''`, commit `480ffef535`) perquè encara no té permís per publicar-lo; la resta de la solució (camp + plantilla) queda disponible per quan el tingui.
 - **Diversos vídeos per article**: el camp `video` es converteix en `videos`, una llista d'enllaços (widget `list`), opcional; la plantilla en renderitza un reproductor per element i manté compatibilitat amb el camp singular antic.
+- **Tancament de sessió**: `main` = `github/main`, arbre net (últim commit `628ce3eacf`); SESSIONSLOG i control horari actualitzats.
 
 ---
 
