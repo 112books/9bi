@@ -1,10 +1,10 @@
 ---
+aliases:
+  - /2026/09/2026-09-29-andrés-naya-presenta-els-seus-dos-nous-llibre-al-casal-de-barri-de-la-prosperitat.html
 title: 2026-09-29 - Andrés Naya presenta els seus dos nous llibres al Casal de barri de la Prosperitat
 date: 2026-09-30T01:32:00
 year: '2026'
-slug: '2026-09-29-andrés-naya-presenta-els-seus-dos-nous-llibres-al-casal-de-barri-de-la-prosperitat'
-aliases:
-  - /2026/09/2026-09-29-andrés-naya-presenta-els-seus-dos-nous-llibre-al-casal-de-barri-de-la-prosperitat.html
+slug: 2026-09-29-andrés-naya-presenta-els-seus-dos-nous-llibres-al-casal-de-barri-de-la-prosperitat
 author: Joan "Linux" Martínez i Serres
 cover:
   image: /images/IMG_3603.jpg
@@ -18,6 +18,7 @@ tags:
   - memòria veïnal
   - Nou Barris
   - Barcelona
+seoTitle: ''
 description: Andrés Naya presenta al Casal de Barri de la Prosperitat dos llibres sobre la lluita veïnal i la memòria del barri.
 ---
 
@@ -40,3 +41,5 @@ Com no podia ser d’una altra manera, la vetllada va ser ben emotiva. El nostre
 Com passa en les grans ocasions, a més de la presentació dels llibres i dels interessants parlaments (aviat els tindrem en vídeo, sospito), també va ser una jornada de joia amb els retrobaments d’amics, companys de lluita, periodistes, companys de la FAVB i de Carrer. Les abraçades, les manyagades, les carantoines i els petons eren una alegria.
 
 M’agrada ser amic d’una persona que tant ha fet per la Prosperitat, per Barcelona i per molts de nosaltres. Ara, però, toca comprar i llegir els nous llibres del Sietemesino!
+
+[https://vimeo.com/1232409395](https://vimeo.com/1232409395)
