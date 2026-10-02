@@ -1,12 +1,13 @@
 ---
-autor: "Joan \"Linux\" Martínez i Serres"
-album: "9 Barris Imatge Org Reunio"
-any: "2015"
-foto: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRvqi1AS2B8uf7ICWjfAOASgG1cBilOmkL_-QvT6zRGZn7o8zDa7PEMb8feTY4FPtpXYhfO0dAeHSVDODq1UzRD03-dW7LoVxpczIDTTFfKH9jy1OHlP1T2FXZ2qAryXFX3eIG3oP1myw/s400-Ic42/DSCF2281.jpg"
-url_antiga: "https://picasaweb.google.com/103138221614479310970/9BarrisImatgeOrgReunio"
-url_nova: ""
+url_nova: https://photos.app.goo.gl/xxq9bLPSssexejhT9
+autor: Joan "Linux" Martínez i Serres
+album: 9 Barris Imatge Org Reunio
+any: '2015'
+foto: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRvqi1AS2B8uf7ICWjfAOASgG1cBilOmkL_-QvT6zRGZn7o8zDa7PEMb8feTY4FPtpXYhfO0dAeHSVDODq1UzRD03-dW7LoVxpczIDTTFfKH9jy1OHlP1T2FXZ2qAryXFX3eIG3oP1myw/s400-Ic42/DSCF2281.jpg
+url_antiga: https://picasaweb.google.com/103138221614479310970/9BarrisImatgeOrgReunio
 posts: 2
-exemple: "https://9barrisimatge.org/2015/12/9barrisimatgeorg-reunio.html"
+exemple: https://9barrisimatge.org/2015/12/9barrisimatgeorg-reunio.html
+slug: 9barrisimatgeorgreunio
 ---
 
 **Foto de mostra** (per identificar l'àlbum):

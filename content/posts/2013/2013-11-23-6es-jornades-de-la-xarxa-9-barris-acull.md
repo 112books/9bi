@@ -10,10 +10,10 @@ tags:
 - jornades
 cover:
   image: /images/covers/2f7177740688840a.webp
-album_url: https://picasaweb.google.com/103138221614479310970/6esJornadesDeLaXarxa9BarrisAcullEnLluitaPelsDretsSocials?authuser=0&amp;feat=embedwebsite
+album_url: https://photos.app.goo.gl/bjYcWGtRpxLtR53p7
 ---
 
 |  |
 | --- |
 |  |
-| De [6es jornades de la Xarxa 9 Barris Acull - En lluita pels drets socials](https://picasaweb.google.com/103138221614479310970/6esJornadesDeLaXarxa9BarrisAcullEnLluitaPelsDretsSocials?authuser=0&feat=embedwebsite) |
+| De [6es jornades de la Xarxa 9 Barris Acull - En lluita pels drets socials](https://photos.app.goo.gl/bjYcWGtRpxLtR53p7) |

@@ -5,6 +5,17 @@ Per a l'estat actual i la configuració del projecte, vegeu [`CLAUDE.md`](../CLA
 
 ---
 
+## Sessió 2026-10-01 (tarda) — Àlbums: aplicar enllaços nous i filtrar els corregits
+
+- **Context**: l'usuari havia corregit àlbums des del CMS («Àlbums per arreglar · Joan Linux») i dubtava si els posts s'actualitzaven sols. Verificat: **no**; el CMS només desa la fitxa a `recuperacio/`, i cal el pas final manual.
+- **Pipeline verificat end-to-end** (`scripts/albums_fix.py`): `recull` (10 enllaços) → `validate` (10/10 HTTP 200) → `apply --write` → commit `b42e04f85`. 10 posts actualitzats (9 `album_url` + 10 enllaços al cos). El nou enllaç substitueix l'antic de Picasa, query inclosa.
+- **CMS — camp «Àlbum» visible**: a les 8 col·leccions de recuperació, `album` passa de `widget: hidden` a `widget: string, readonly: true` perquè es pugui **seleccionar i copiar** el nom i cercar-lo a Google Photos. Commit `9a7043c5e`.
+- **CMS — filtre de corregits**: afegit `filter: { field: url_nova, value: ["", null] }` a les 8 col·leccions; les fitxes amb enllaç desat desapareixen de la llista, però el fitxer es conserva perquè `recull` el trobi. Verificat contra el codi de Sveltia 0.217.0 (`matchesCollectionFilter`, `value ?? null`). Commit `3c33b4b7c`.
+- **Fitxes**: 1.178 pendents (Joan Linux 445 · 9BI 232 · Manel «Ulls» 192 · Pedro Click 191 · Pedro «Casal» 49 · Alberto Sanagustín 33 · Manel Villalba 20 · Nico YeYe 16) i 10 corregides.
+- **Sync**: `git pull --rebase` (el CMS havia empès 2 fitxes mentre treballàvem) i push a `origin/main`.
+
+---
+
 ## Sessió 2026-10-01 — CMS: millores de camps i fix d'estadístiques
 
 - **CLAUDE.md reduït** (697 → 173 línies): historial de sessions mogut a `gestio/SESSIONSLOG.md`, recerca de fotògrafs i concurs a `gestio/RECERCA.md`.

@@ -8,10 +8,10 @@ tags:
 - fotografia
 cover:
   image: /images/covers/e9885715dc8b3c1b.webp
-album_url: https://picasaweb.google.com/103138221614479310970/ComiatALaSandra?authuser=0&feat=embedwebsite
+album_url: https://photos.app.goo.gl/aQ7bTZKbkKPCLbcd7
 ---
 
 |  |
 | --- |
 |  |
-| De [Comiat a la Sandra](https://picasaweb.google.com/103138221614479310970/ComiatALaSandra?authuser=0&feat=embedwebsite) |
+| De [Comiat a la Sandra](https://photos.app.goo.gl/aQ7bTZKbkKPCLbcd7) |

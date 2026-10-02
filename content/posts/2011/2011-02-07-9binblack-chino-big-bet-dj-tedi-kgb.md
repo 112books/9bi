@@ -12,10 +12,10 @@ tags:
 - The Big Bet
 cover:
   image: /images/covers/51fcd4d83d754396.webp
-album_url: https://picasaweb.google.com/linuxbcn/9binblackChinoTheBigBet?feat=embedwebsite
+album_url: https://photos.app.goo.gl/edNnYmdUXTWqB6c2A
 ---
 
 |  |
 | --- |
 |  |
-| De [9binblack - Chino & The Big Bet](https://picasaweb.google.com/linuxbcn/9binblackChinoTheBigBet?feat=embedwebsite) |
+| De [9binblack - Chino & The Big Bet](https://photos.app.goo.gl/edNnYmdUXTWqB6c2A) |

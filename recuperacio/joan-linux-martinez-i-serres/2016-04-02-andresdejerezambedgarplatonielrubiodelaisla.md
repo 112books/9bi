@@ -1,12 +1,13 @@
 ---
-autor: "Joan \"Linux\" Martínez i Serres"
-album: "Andres De Jerez Amb Edgar Platon I El Rubio De La Isla"
-any: "2016"
-foto: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDXZpHBjHD9ku_afNIphxiEzrichnV4zT7KbXMYIHcIOfdMAz5MUYiRz8WlHeNscbB8zbKZ4Qpyz6IrTY6baVNfRsJAw8KuSYhD-3MPc_v-8JcJT2cz186uv80rkrtqgdZIPlOsBNfLzk/s400-Ic42/IMG_9888.jpg"
-url_antiga: "https://picasaweb.google.com/103138221614479310970/AndresDeJerezAmbEdgarPlatonIElRubioDeLaIsla"
-url_nova: ""
+url_nova: https://photos.app.goo.gl/K2tEcyup6A8Ked5GA
+autor: Joan "Linux" Martínez i Serres
+album: Andres De Jerez Amb Edgar Platon I El Rubio De La Isla
+any: '2016'
+foto: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDXZpHBjHD9ku_afNIphxiEzrichnV4zT7KbXMYIHcIOfdMAz5MUYiRz8WlHeNscbB8zbKZ4Qpyz6IrTY6baVNfRsJAw8KuSYhD-3MPc_v-8JcJT2cz186uv80rkrtqgdZIPlOsBNfLzk/s400-Ic42/IMG_9888.jpg
+url_antiga: https://picasaweb.google.com/103138221614479310970/AndresDeJerezAmbEdgarPlatonIElRubioDeLaIsla
 posts: 2
-exemple: "https://9barrisimatge.org/2016/04/andres-de-jerez-amb-edgar-platon-i-el.html"
+exemple: https://9barrisimatge.org/2016/04/andres-de-jerez-amb-edgar-platon-i-el.html
+slug: andresdejerezambedgarplatonielrubiodelaisla
 ---
 
 **Foto de mostra** (per identificar l'àlbum):

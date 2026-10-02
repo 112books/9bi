@@ -12,10 +12,10 @@ tags:
 - linuxbcn
 cover:
   image: /images/covers/7521cae0e8f8a377.webp
-album_url: https://picasaweb.google.com/linuxbcn/9BInBlackPhatFred?feat=embedwebsite
+album_url: https://photos.app.goo.gl/god7k2PPbQFcY5Fp6
 ---
 
 |  |
 | --- |
 |  |
-| De [9 b in black - Phat Fred](https://picasaweb.google.com/linuxbcn/9BInBlackPhatFred?feat=embedwebsite) |
+| De [9 b in black - Phat Fred](https://photos.app.goo.gl/god7k2PPbQFcY5Fp6) |

@@ -867,10 +867,11 @@ collections:
       fields: [any, album]
     thumbnail: "foto"
     summary: "{{fields.album}} · {{fields.any}}"
+    filter: { field: url_nova, value: ["", null] }
     fields:
       - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
       - { label: "Autor", name: "autor", widget: "hidden" }
-      - { label: "Àlbum", name: "album", widget: "hidden" }
+      - { label: "Àlbum (selecciona'l i copia'l per cercar a Google Photos)", name: "album", widget: "string", readonly: true }
       - { label: "Any", name: "any", widget: "hidden" }
       - { label: "Foto de mostra", name: "foto", widget: "hidden" }
       - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
@@ -891,10 +892,11 @@ collections:
       fields: [any, album]
     thumbnail: "foto"
     summary: "{{fields.album}} · {{fields.any}}"
+    filter: { field: url_nova, value: ["", null] }
     fields:
       - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
       - { label: "Autor", name: "autor", widget: "hidden" }
-      - { label: "Àlbum", name: "album", widget: "hidden" }
+      - { label: "Àlbum (selecciona'l i copia'l per cercar a Google Photos)", name: "album", widget: "string", readonly: true }
       - { label: "Any", name: "any", widget: "hidden" }
       - { label: "Foto de mostra", name: "foto", widget: "hidden" }
       - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
@@ -915,10 +917,11 @@ collections:
       fields: [any, album]
     thumbnail: "foto"
     summary: "{{fields.album}} · {{fields.any}}"
+    filter: { field: url_nova, value: ["", null] }
     fields:
       - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
       - { label: "Autor", name: "autor", widget: "hidden" }
-      - { label: "Àlbum", name: "album", widget: "hidden" }
+      - { label: "Àlbum (selecciona'l i copia'l per cercar a Google Photos)", name: "album", widget: "string", readonly: true }
       - { label: "Any", name: "any", widget: "hidden" }
       - { label: "Foto de mostra", name: "foto", widget: "hidden" }
       - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
@@ -939,10 +942,11 @@ collections:
       fields: [any, album]
     thumbnail: "foto"
     summary: "{{fields.album}} · {{fields.any}}"
+    filter: { field: url_nova, value: ["", null] }
     fields:
       - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
       - { label: "Autor", name: "autor", widget: "hidden" }
-      - { label: "Àlbum", name: "album", widget: "hidden" }
+      - { label: "Àlbum (selecciona'l i copia'l per cercar a Google Photos)", name: "album", widget: "string", readonly: true }
       - { label: "Any", name: "any", widget: "hidden" }
       - { label: "Foto de mostra", name: "foto", widget: "hidden" }
       - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
@@ -963,10 +967,11 @@ collections:
       fields: [any, album]
     thumbnail: "foto"
     summary: "{{fields.album}} · {{fields.any}}"
+    filter: { field: url_nova, value: ["", null] }
     fields:
       - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
       - { label: "Autor", name: "autor", widget: "hidden" }
-      - { label: "Àlbum", name: "album", widget: "hidden" }
+      - { label: "Àlbum (selecciona'l i copia'l per cercar a Google Photos)", name: "album", widget: "string", readonly: true }
       - { label: "Any", name: "any", widget: "hidden" }
       - { label: "Foto de mostra", name: "foto", widget: "hidden" }
       - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
@@ -987,10 +992,11 @@ collections:
       fields: [any, album]
     thumbnail: "foto"
     summary: "{{fields.album}} · {{fields.any}}"
+    filter: { field: url_nova, value: ["", null] }
     fields:
       - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
       - { label: "Autor", name: "autor", widget: "hidden" }
-      - { label: "Àlbum", name: "album", widget: "hidden" }
+      - { label: "Àlbum (selecciona'l i copia'l per cercar a Google Photos)", name: "album", widget: "string", readonly: true }
       - { label: "Any", name: "any", widget: "hidden" }
       - { label: "Foto de mostra", name: "foto", widget: "hidden" }
       - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
@@ -1011,10 +1017,11 @@ collections:
       fields: [any, album]
     thumbnail: "foto"
     summary: "{{fields.album}} · {{fields.any}}"
+    filter: { field: url_nova, value: ["", null] }
     fields:
       - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
       - { label: "Autor", name: "autor", widget: "hidden" }
-      - { label: "Àlbum", name: "album", widget: "hidden" }
+      - { label: "Àlbum (selecciona'l i copia'l per cercar a Google Photos)", name: "album", widget: "string", readonly: true }
       - { label: "Any", name: "any", widget: "hidden" }
       - { label: "Foto de mostra", name: "foto", widget: "hidden" }
       - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
@@ -1035,10 +1042,11 @@ collections:
       fields: [any, album]
     thumbnail: "foto"
     summary: "{{fields.album}} · {{fields.any}}"
+    filter: { field: url_nova, value: ["", null] }
     fields:
       - { label: "Enllaç NOU de Google Photos", name: "url_nova", widget: "string", required: false, hint: "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..." }
       - { label: "Autor", name: "autor", widget: "hidden" }
-      - { label: "Àlbum", name: "album", widget: "hidden" }
+      - { label: "Àlbum (selecciona'l i copia'l per cercar a Google Photos)", name: "album", widget: "string", readonly: true }
       - { label: "Any", name: "any", widget: "hidden" }
       - { label: "Foto de mostra", name: "foto", widget: "hidden" }
       - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }

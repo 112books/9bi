@@ -10,10 +10,10 @@ tags:
 - Chino and The Big Bet
 cover:
   image: /images/covers/681ae2c485fab2fd.webp
-album_url: https://picasaweb.google.com/103138221614479310970/9BinBlackChinoTheBigBetACanLlupia?authuser=0&feat=embedwebsite
+album_url: https://photos.app.goo.gl/7fodPbWxmAnWo85r8
 ---
 
 |  |
 | --- |
 |  |
-| De [9BinBlack - Chino & the Big Bet a Can Llupià](https://picasaweb.google.com/103138221614479310970/9BinBlackChinoTheBigBetACanLlupia?authuser=0&feat=embedwebsite) |
+| De [9BinBlack - Chino & the Big Bet a Can Llupià](https://photos.app.goo.gl/7fodPbWxmAnWo85r8) |
