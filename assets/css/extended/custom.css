@@ -1824,6 +1824,10 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid var(--border);
   padding-bottom: 0.7rem;
 }
+/* Contenidor ARIA de les pestanyes: no afecta la maquetació (el botó PDF queda fora del tablist) */
+.concurs-tabs {
+  display: contents;
+}
 .concurs-tab {
   cursor: pointer;
   padding: 0.45rem 0.95rem;

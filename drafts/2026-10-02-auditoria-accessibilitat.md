@@ -48,4 +48,6 @@ El vermell d'accent `#e03131` sobre fons fosc no arriba a 4,5:1 en text petit. C
 5. **404**: embolcallar el contingut amb `<main>`. Sense canvi visual.
 6. **Pestanyes CSS (Qui som, Concurs)**: treure `role="tab"` dels `<label>`, o passar a botons reals amb JS. Sense canvi visual en la primera opció.
 
-**Recomanació**: aplicar primer 1, 3 i 5 (no canvien res visible) i decidir 2 i 4 amb criteri de disseny.
+**Actualització 02/10**: aplicades 1 i 3, que no canvien res visible (captures idèntiques píxel a píxel). La 5 era un fals positiu: la 404 del web ja té `<main>`, i l'error venia del servidor de proves local, que servia la seva pròpia 404. Queden 2, 4 i 6.
+
+**Recomanació original**: aplicar primer 1, 3 i 5 (no canvien res visible) i decidir 2 i 4 amb criteri de disseny.

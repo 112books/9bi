@@ -9,7 +9,7 @@
 -}}
 <header class="header{{ if .IsHome }} header-home{{ end }}" id="header">
     <div class="header-band" aria-hidden="true"></div>
-    <nav class="header-nav">
+    <nav class="header-nav" aria-label="Menú principal">
         <div class="logo">
             {{- $label_text := (site.Params.label.text | default site.Title) }}
             {{- if site.Title }}
