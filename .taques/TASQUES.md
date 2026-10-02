@@ -24,7 +24,6 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 | T-20 | ⚪ | Membres: completar els Instagram que falten | 18/09 | — | |
 | T-22 | ⚪ | Reobrir l'issue #2522 de Codeberg (quota) | 21/09 | — | **Comentari de petició de GC enviat el 28/09 20:17** (branca `pages` esborrada abans). Pendent de resposta. Text a `drafts/2026-09-27-codeberg-issue-2522-reobrir.md` |
 | T-23 | ⚪ | Revisió jurídica final de l'adequació RGPD | 18/09 | — | |
-| T-24 | ⚪ | Tipografia Gillius: OTF → woff2 | 18/09 | — | Opcional |
 | T-26 | ⚪ | Control de fitxers del Concurs Cordoncillo (bases, històric…) | 18/09 | — | |
 | T-28 | 🟡 | Staging a Codeberg (`https://linuxbcn.codeberg.page/9bi/`): els CSS es veuen trencats | 28/09 | — | **Diagnosticat (28/09)**: l'staging serveix el build vell del 24/09 fet amb l'`baseURL` de producció; l'enllaç surt `/assets/...` (sense `/9bi/`) → 404. Queda lligat a T-29 (el distribuïble nou substituirà aquest staging) |
 | T-29 | 🟡 | **Publicar la versió distribuïble de Taro a Codeberg** (`linuxbcn/9bi` → `main`): la plantilla ja està feta i verificada a la branca local `distribucio` (`90ebcc6379`, `af8a537d6f`). Bloquejat pel **GC de Codeberg** (issue #2522, comentari enviat el 28/09 20:17; el compte encara marca 752,7 MiB). Quan passi: `git push origin distribucio:main` | 28/09 | — | Pla B si Codeberg no es desencalla: publicar la mateixa branca en un repo nou a GitHub |
@@ -43,6 +42,7 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | Data | ID | Tasca | Temps | Commit |
 |---|---|---|---|---|
+| 02/10 | T-24 | **Gillius en woff2**: `GilliusADF-{Regular,Bold}.woff2` generats amb fontTools (mateixos glifs, 37→19 KB); el CSS els carrega primer i deixa l'OTF de reserva; preload passat a woff2. Els OTF es conserven (els fa servir la votació). Provat: el navegador baixa només els woff2 | ~10 min | (aquest commit) |
 | 02/10 | T-11 | **Cerca a les pàgines d'autor**: quadre de cerca a `/author/<slug>.html` que només busca entre les entrades d'aquell autor (camp `author` afegit a `index.json`, filtre a `fastsearch.js`, scripts carregats a les pàgines d'autor). Provat: Pedro Click + «concurs» → 18 resultats, tots seus; `/search/` igual; 375 px sense desbordament | ~25 min | (aquest commit) |
 | 02/10 | T-10 | **Etiquetes per freqüència**: verificat que ja estava fet — `/search/` i `/tags/` ordenen les 1.684 etiquetes de més a menys (`ByCount`) | ~5 min | — |
 | 02/10 | T-21 | **Seguretat CI/CD**: verificat que ja estava fet — accions del workflow fixades per SHA, els 11 `.dl-*` ja no hi són, `deploy.sh` rebutja credencials a la URL i `app.py` les redacta, `modules/taro/.gitignore` coherent. Únic canvi: `modules/autopublica/tools/deploy.sh` fa el build en un directori temporal nou (`mktemp` + `trap`), com la versió de Taro; provat amb un remot local | ~15 min | (aquest commit) |

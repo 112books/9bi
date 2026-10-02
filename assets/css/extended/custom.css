@@ -29,14 +29,16 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../../fonts/gillius/GilliusADF-Regular.otf") format("opentype");
+  src: url("../../fonts/gillius/GilliusADF-Regular.woff2") format("woff2"),
+       url("../../fonts/gillius/GilliusADF-Regular.otf") format("opentype");
 }
 @font-face {
   font-family: "Gillius ADF";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("../../fonts/gillius/GilliusADF-Bold.otf") format("opentype");
+  src: url("../../fonts/gillius/GilliusADF-Bold.woff2") format("woff2"),
+       url("../../fonts/gillius/GilliusADF-Bold.otf") format("opentype");
 }
 
 /* ---- Aplicació: cos Montserrat, títols Gillius ADF ---- */
