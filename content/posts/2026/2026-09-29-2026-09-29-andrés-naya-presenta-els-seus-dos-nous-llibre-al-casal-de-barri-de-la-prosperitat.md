@@ -9,7 +9,7 @@ author: Joan "Linux" Martínez i Serres
 cover:
   image: /images/IMG_3603.jpg
 album_url: https://photos.app.goo.gl/Vufwm6KXqUHURARf6
-video: https://vimeo.com/1232409395
+video: ''
 tags:
   - Andrés Naya
   - Prosperitat
