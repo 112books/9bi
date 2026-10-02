@@ -2004,3 +2004,11 @@ h1, h2, h3, h4, h5, h6 {
     color: #000;
   }
 }
+
+/* Projectes (/projectes/): la taula de sessions es desplaça dins del seu marc al mòbil */
+.projecte-taula {
+  overflow-x: auto;
+}
+.projecte-taula table {
+  min-width: 34rem;
+}

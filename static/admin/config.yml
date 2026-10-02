@@ -801,6 +801,38 @@ collections:
       - { label: "Esborrany (no visible públicament)", name: "draft", widget: "boolean", default: true }
       - { label: "Contingut", name: "body", widget: "markdown" }
 
+  - name: "projectes"
+    label: "Projectes"
+    label_singular: "Projecte"
+    folder: "content/projectes"
+    path: "{{slug}}/index"
+    create: true
+    summary: "{{title}} · {{estat}}"
+    fields:
+      - { label: "Nom del projecte", name: "title", widget: "string" }
+      - { label: "Descripció", name: "description", widget: "text", required: false }
+      - { label: "Estat", name: "estat", widget: "select", options: ["idea", "actiu", "aturat", "tancat"], default: "idea" }
+      - { label: "Responsable", name: "responsable", widget: "string", required: false }
+      - { label: "Col·laboradors", name: "collaboradors", widget: "list", required: false }
+      - { label: "Entitats", name: "entitats", widget: "list", required: false }
+      - { label: "Data d'inici", name: "data_inici", widget: "datetime", time_format: false, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD", required: false }
+      - { label: "Data de final", name: "data_fi", widget: "datetime", time_format: false, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD", required: false }
+      - { label: "Etiqueta del blog", name: "etiqueta", widget: "string", required: false, hint: "Els articles amb aquesta etiqueta surten com a reportatges a la pàgina del projecte (p. ex. 13-B)." }
+      - label: "Sessions"
+        name: "sessions"
+        widget: "list"
+        required: false
+        summary: "{{fields.data}} · {{fields.barri}} · {{fields.estat}}"
+        fields:
+          - { label: "Barri", name: "barri", widget: "string", required: false }
+          - { label: "Data", name: "data", widget: "datetime", time_format: false, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD", required: false }
+          - { label: "Guia", name: "guia", widget: "string", required: false }
+          - { label: "Punt de trobada", name: "punt_trobada", widget: "string", required: false }
+          - { label: "Coordinació (9bi)", name: "coordinador", widget: "string", required: false }
+          - { label: "Estat", name: "estat", widget: "select", options: ["prevista", "feta", "anul·lada"], required: false }
+          - { label: "Enllaç a l'article", name: "reportatge", widget: "string", required: false, hint: "Adreça de l'article del blog, p. ex. /2017/04/13-b-04-roquetas.html" }
+      - { label: "Text (opcional)", name: "body", widget: "markdown", required: false }
+
   - name: "membres"
     label: "Membres (Qui som)"
     label_singular: "Membre"

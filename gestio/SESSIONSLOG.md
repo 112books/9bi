@@ -224,3 +224,14 @@ Per a l'estat actual i la configuració del projecte, vegeu [`CLAUDE.md`](../CLA
 - Decisió: les tasques **no** surten a la pàgina pública dels projectes (només a l'admin).
 - Verificat: build net; prova amb navegador i API simulada (filtres, fusió per id, termini vençut, creació d'acta, acta ja existent, 375 px sense desbordament); Sveltia accepta el config intern.
 - **Pendent**: Fase 2 (projectes públics: 13-B i «retrat gegant col·lectiu»).
+
+---
+
+## Sessió 2026-10-01 — Admin intern publicat i Projectes (Fase 2)
+
+- **Fase 1 publicada**: PR #11 fusionada (`5035f5c`). Conflicte previ al `CLAUDE.md` (reduït a `main`) resolt; la nota de sessió de la Fase 1 és a la secció de sobre. Decisions confirmades per l'usuari: estats de tasca `pendent / en curs / feta / descartada`; nom de les actes noves `acta-AAAA-MM-DD-reunio`.
+- **Projectes (Fase 2, `dc193fe`)**, decisions de l'usuari: sessions com a **llista dins del projecte**; accés des del **peu** (columna «El web»), no del menú principal; estats de sessió `prevista / feta / anul·lada`; 13-B **aturat**, responsable **Joan Linux**; l'Antonio Silva es cita com «Antonio Silva, de l'Arxiu de Roquetes» **sense enllaç** (l'Arxiu va demanar poc protagonisme el 28/09).
+  - 13-B: 3 sessions extretes dels posts (`2016-10-16` primera ruta amb l'Antonio Silva; `2016-10-23` ruta oberta, plaça Virrei Amat 10 h, estat desconegut; `2017-04-02` «04 – Roquetas», data = data del post). Les rutes 02 i 03 no consten al blog. El post del 16/10/2016 no porta l'etiqueta `13-B`, per això el mosaic en mostra 2.
+  - Retrat gegant col·lectiu per barri: estat `idea`, sense dades.
+  - Plantilles `layouts/projectes/{list,single}.html`: fitxa, sessions (només columnes amb dades; desplaçament horitzontal al mòbil amb `.projecte-taula`) i mosaic dels articles de l'etiqueta. Les tasques **no** surten.
+- Verificat: build net, navegador a 1280 i 375 px sense desbordament, Sveltia accepta el config (31 col·leccions).

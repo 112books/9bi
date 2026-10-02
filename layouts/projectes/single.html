@@ -1,0 +1,95 @@
+{{- define "main" }}
+{{- /* Fitxa pública d'un projecte: dades, sessions i reportatges de l'etiqueta del blog.
+       Les tasques NO es mostren (viuen al repo privat 9bi-intern). */ -}}
+{{- $p := .Params }}
+<article class="post-single projecte">
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{- with .Description }}<div class="post-description">{{ . }}</div>{{ end }}
+  </header>
+
+  <div class="post-content">
+    <table class="projecte-fitxa">
+      <tbody>
+        {{- with $p.estat }}<tr><th scope="row">Estat</th><td>{{ . }}</td></tr>{{ end }}
+        {{- with $p.responsable }}<tr><th scope="row">Responsable</th><td>{{ . }}</td></tr>{{ end }}
+        {{- with $p.collaboradors }}<tr><th scope="row">Col·laboradors</th><td>{{ delimit . ", " }}</td></tr>{{ end }}
+        {{- with $p.entitats }}<tr><th scope="row">Entitats</th><td>{{ delimit . ", " }}</td></tr>{{ end }}
+        {{- with $p.data_inici }}<tr><th scope="row">Inici</th><td>{{ time.Format "02/01/2006" . }}</td></tr>{{ end }}
+        {{- with $p.data_fi }}<tr><th scope="row">Final</th><td>{{ time.Format "02/01/2006" . }}</td></tr>{{ end }}
+      </tbody>
+    </table>
+
+    {{- .Content }}
+
+    {{- with $p.sessions }}
+    {{- /* Només es mostren les columnes que tenen alguna dada */ -}}
+    {{- $cols := slice (dict "k" "data" "t" "Data") (dict "k" "barri" "t" "Barri") (dict "k" "guia" "t" "Guia") (dict "k" "punt_trobada" "t" "Punt de trobada") (dict "k" "coordinador" "t" "Coordinació") (dict "k" "estat" "t" "Estat") (dict "k" "reportatge" "t" "Article") }}
+    {{- $sessions := sort . "data" }}
+    {{- $used := slice }}
+    {{- range $cols }}
+      {{- $k := .k }}
+      {{- if where $sessions $k "!=" "" }}{{ $used = $used | append . }}{{ end }}
+    {{- end }}
+    <h2 id="sessions">Sessions</h2>
+    <div class="projecte-taula">
+    <table class="projecte-sessions">
+      <thead>
+        <tr>{{ range $used }}<th>{{ .t }}</th>{{ end }}</tr>
+      </thead>
+      <tbody>
+        {{- range $s := $sessions }}
+        <tr>
+          {{- range $used }}
+          {{- $v := index $s .k }}
+          <td>
+            {{- if eq .k "data" }}{{ with $v }}{{ time.Format "02/01/2006" . }}{{ end }}
+            {{- else if eq .k "reportatge" }}{{ with $v }}<a href="{{ if hasPrefix . "/" }}{{ strings.TrimPrefix "/" . | relURL }}{{ else }}{{ . }}{{ end }}">Veure</a>{{ end }}
+            {{- else }}{{ $v }}{{ end -}}
+          </td>
+          {{- end }}
+        </tr>
+        {{- end }}
+      </tbody>
+    </table>
+    </div>
+    {{- end }}
+
+    {{- with $p.etiqueta }}
+    {{- $term := index site.Taxonomies.tags (urlize (lower .)) }}
+    {{- with $term }}
+    <h2 id="reportatges">Reportatges al blog</h2>
+    {{- end }}
+    {{- end }}
+  </div>
+
+  {{- with $p.etiqueta }}
+  {{- with index site.Taxonomies.tags (urlize (lower .)) }}
+  <section class="photo-mosaic">
+    {{- range .Pages.ByDate.Reverse -}}
+    <article class="mosaic-card">
+      <a class="mosaic-link" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+        {{- $cover := .Params.cover.image | default "" -}}
+        {{- if $cover -}}
+        <div class="mosaic-thumb">
+          <img class="mosaic-img" loading="lazy" src="{{ $cover | relURL }}" alt="{{ .Title }}" />
+        </div>
+        {{- else -}}
+        <div class="mosaic-thumb mosaic-placeholder">
+          <span>{{ strings.Truncate 80 .Title }}</span>
+        </div>
+        {{- end -}}
+        <div class="mosaic-caption">
+          <h2>{{ .Title }}</h2>
+          <p class="mosaic-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "02 · 01 · 2006" }}</time>
+          </p>
+        </div>
+      </a>
+    </article>
+    {{- end }}
+  </section>
+  {{- end }}
+  {{- end }}
+</article>
+{{- end }}
