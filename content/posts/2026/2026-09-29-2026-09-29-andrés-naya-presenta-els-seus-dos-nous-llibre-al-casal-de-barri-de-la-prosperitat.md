@@ -41,5 +41,3 @@ Com no podia ser d’una altra manera, la vetllada va ser ben emotiva. El nostre
 Com passa en les grans ocasions, a més de la presentació dels llibres i dels interessants parlaments (aviat els tindrem en vídeo, sospito), també va ser una jornada de joia amb els retrobaments d’amics, companys de lluita, periodistes, companys de la FAVB i de Carrer. Les abraçades, les manyagades, les carantoines i els petons eren una alegria.
 
 M’agrada ser amic d’una persona que tant ha fet per la Prosperitat, per Barcelona i per molts de nosaltres. Ara, però, toca comprar i llegir els nous llibres del Sietemesino!
-
-{{< vimeo 1232409395 >}}
