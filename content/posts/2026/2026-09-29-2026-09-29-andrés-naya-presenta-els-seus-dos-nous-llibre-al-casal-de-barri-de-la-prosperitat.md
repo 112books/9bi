@@ -42,4 +42,4 @@ Com passa en les grans ocasions, a més de la presentació dels llibres i dels i
 
 M’agrada ser amic d’una persona que tant ha fet per la Prosperitat, per Barcelona i per molts de nosaltres. Ara, però, toca comprar i llegir els nous llibres del Sietemesino!
 
-{ { < [https://vimeo.com/1232409395](https://vimeo.com/1232409395) > } } ;
+{{< vimeo 1232409395 >}}

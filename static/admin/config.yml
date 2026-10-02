@@ -85,7 +85,7 @@ collections:
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", modes: [raw, rich_text], hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
 
   - name: "posts-2025"
     label: "Articles · 2025"
@@ -117,7 +117,7 @@ collections:
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", modes: [raw, rich_text], hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
 
   - name: "posts-2024"
     label: "Articles · 2024"
@@ -149,7 +149,7 @@ collections:
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", modes: [raw, rich_text], hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
 
   - name: "posts-2023"
     label: "Articles · 2023"
@@ -181,7 +181,7 @@ collections:
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", modes: [raw, rich_text], hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
 
   - name: "posts-2022"
     label: "Articles · 2022"
@@ -213,7 +213,7 @@ collections:
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", modes: [raw, rich_text], hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
 
   - name: "posts-2021"
     label: "Articles · 2021"
@@ -245,7 +245,7 @@ collections:
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", modes: [raw, rich_text], hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
 
   - name: "posts-2020"
     label: "Articles · 2020"
@@ -277,7 +277,7 @@ collections:
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", modes: [raw, rich_text], hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
 
   - name: "posts-2019"
     label: "Articles · 2019"
@@ -309,7 +309,7 @@ collections:
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", modes: [raw, rich_text], hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
 
   - name: "posts-2018"
     label: "Articles · 2018"
@@ -341,7 +341,7 @@ collections:
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", modes: [raw, rich_text], hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
 
   - name: "posts-2017"
     label: "Articles · 2017"
@@ -373,7 +373,7 @@ collections:
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", modes: [raw, rich_text], hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
 
   - name: "posts-2016"
     label: "Articles · 2016"
@@ -405,7 +405,7 @@ collections:
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", modes: [raw, rich_text], hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
 
   - name: "posts-2015"
     label: "Articles · 2015"
@@ -437,7 +437,7 @@ collections:
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", modes: [raw, rich_text], hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
 
   - name: "posts-2014"
     label: "Articles · 2014"
@@ -469,7 +469,7 @@ collections:
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", modes: [raw, rich_text], hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
 
   - name: "posts-2013"
     label: "Articles · 2013"
@@ -501,7 +501,7 @@ collections:
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", modes: [raw, rich_text], hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
 
   - name: "posts-2012"
     label: "Articles · 2012"
@@ -533,7 +533,7 @@ collections:
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", modes: [raw, rich_text], hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
 
   - name: "posts-2011"
     label: "Articles · 2011"
@@ -565,7 +565,7 @@ collections:
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", modes: [raw, rich_text], hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
 
   - name: "posts-2010"
     label: "Articles · 2010"
@@ -597,7 +597,7 @@ collections:
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", modes: [raw, rich_text], hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
 
   - name: "posts-2009"
     label: "Articles · 2009"
@@ -629,7 +629,7 @@ collections:
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", modes: [raw, rich_text], hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
 
   - name: "posts-2008"
     label: "Articles · 2008"
@@ -661,7 +661,7 @@ collections:
       - { label: "Paraules clau (tags)", name: "tags", widget: "list", required: false, hint: "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la." }
       - { label: "Títol SEO (opcional)", name: "seoTitle", widget: "string", required: false, hint: "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial." }
       - { label: "Descripció (SEO, opcional)", name: "description", widget: "text", required: false, hint: "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article." }
-      - { label: "Cos de l'article", name: "body", widget: "markdown", hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
+      - { label: "Cos de l'article", name: "body", widget: "markdown", modes: [raw, rich_text], hint: "Podeu fer servir links, llistes i negretes amb Markdown. Per incrustar un vídeo de YouTube o Vimeo, poseu en una línia a part `{{< youtube ID >}}` o `{{< vimeo ID >}}`; l'ID és el codi que surt a l'enllaç del vídeo." }
   - name: "web-pages"
     label: "Pàgines del web (pàgines fixes)"
     files:
@@ -672,18 +672,18 @@ collections:
           - { label: "Títol", name: "title", widget: "string" }
           - { label: "Descripció", name: "description", widget: "text", required: false }
           - { label: "URL (no tocar)", name: "url", widget: "hidden" }
-          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown", modes: [raw, rich_text] }
       - name: "concurs"
         label: "El concurs"
         file: "content/concurs.md"
         fields:
           - { label: "Títol", name: "title", widget: "string" }
           - { label: "Títol visual (amb <br> opcional)", name: "visualTitle", widget: "string", required: false }
-          - { label: "Subtítol visual (Markdown)", name: "visualDescription", widget: "markdown", required: false }
+          - { label: "Subtítol visual (Markdown)", name: "visualDescription", widget: "markdown", modes: [raw, rich_text], required: false }
           - { label: "Descripció (per als motors de cerca)", name: "description", widget: "text", required: false }
           - { label: "Fons de la pàgina", name: "page_bg", widget: "hidden" }
           - { label: "URL (no tocar)", name: "url", widget: "hidden" }
-          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown", modes: [raw, rich_text] }
       - name: "contacte"
         label: "Contacte"
         file: "content/contacte.md"
@@ -691,7 +691,7 @@ collections:
           - { label: "Títol", name: "title", widget: "string" }
           - { label: "Descripció", name: "description", widget: "text", required: false }
           - { label: "URL (no tocar)", name: "url", widget: "hidden" }
-          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown", modes: [raw, rich_text] }
       - name: "faq"
         label: "Preguntes freqüents"
         file: "content/faq.md"
@@ -699,7 +699,7 @@ collections:
           - { label: "Títol", name: "title", widget: "string" }
           - { label: "Descripció", name: "description", widget: "text", required: false }
           - { label: "URL (no tocar)", name: "url", widget: "hidden" }
-          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown", modes: [raw, rich_text] }
       - name: "subvencions"
         label: "Subvencions públiques"
         file: "content/subvencions.md"
@@ -708,7 +708,7 @@ collections:
           - { label: "Descripció", name: "description", widget: "text", required: false }
           - { label: "URL (no tocar)", name: "url", widget: "hidden" }
           - { label: "URLs antigues (no tocar)", name: "aliases", widget: "list", required: false }
-          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown", modes: [raw, rich_text] }
       - name: "incorpora-te"
         label: "Incorpora't"
         file: "content/incorpora-te.md"
@@ -722,7 +722,7 @@ collections:
             widget: "object"
             fields:
               - { label: "list", name: "list", widget: "string", required: false }
-          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown", modes: [raw, rich_text] }
       - name: "credits"
         label: "Crèdits"
         file: "content/credits.md"
@@ -730,7 +730,7 @@ collections:
           - { label: "Títol", name: "title", widget: "string" }
           - { label: "Descripció", name: "description", widget: "text", required: false }
           - { label: "URL (no tocar)", name: "url", widget: "hidden" }
-          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown", modes: [raw, rich_text] }
       - name: "avis-legal"
         label: "Avís legal"
         file: "content/avis-legal.md"
@@ -738,7 +738,7 @@ collections:
           - { label: "Títol", name: "title", widget: "string" }
           - { label: "Descripció", name: "description", widget: "text", required: false }
           - { label: "URL (no tocar)", name: "url", widget: "hidden" }
-          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown", modes: [raw, rich_text] }
       - name: "privacitat"
         label: "Privacitat"
         file: "content/privacitat.md"
@@ -746,7 +746,7 @@ collections:
           - { label: "Títol", name: "title", widget: "string" }
           - { label: "Descripció", name: "description", widget: "text", required: false }
           - { label: "URL (no tocar)", name: "url", widget: "hidden" }
-          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown", modes: [raw, rich_text] }
       - name: "cookies"
         label: "Cookies"
         file: "content/cookies.md"
@@ -754,7 +754,7 @@ collections:
           - { label: "Títol", name: "title", widget: "string" }
           - { label: "Descripció", name: "description", widget: "text", required: false }
           - { label: "URL (no tocar)", name: "url", widget: "hidden" }
-          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown", modes: [raw, rich_text] }
       - name: "archive"
         label: "Arxiu"
         file: "content/archive.md"
@@ -762,7 +762,7 @@ collections:
           - { label: "Títol", name: "title", widget: "string" }
           - { label: "Plantilla", name: "layout", widget: "hidden" }
           - { label: "URL (no tocar)", name: "url", widget: "hidden" }
-          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown", modes: [raw, rich_text] }
       - name: "search"
         label: "Cerca"
         file: "content/search.md"
@@ -771,7 +771,7 @@ collections:
           - { label: "Descripció", name: "description", widget: "text", required: false }
           - { label: "Plantilla", name: "layout", widget: "hidden" }
           - { label: "URL (no tocar)", name: "url", widget: "hidden" }
-          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown", modes: [raw, rich_text] }
       - name: "mes-visitats"
         label: "Més visitats"
         file: "content/mes-visitats.md"
@@ -780,7 +780,7 @@ collections:
           - { label: "Plantilla", name: "layout", widget: "hidden" }
           - { label: "Fora de l'RSS", name: "hiddenInRss", widget: "hidden" }
           - { label: "URL (no tocar)", name: "url", widget: "hidden" }
-          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown", modes: [raw, rich_text] }
       - name: "votacio"
         label: "Cartell del vot del públic"
         file: "content/votacio.md"
@@ -788,7 +788,7 @@ collections:
           - { label: "Títol", name: "title", widget: "string" }
           - { label: "Fora de l'RSS", name: "hiddenInRss", widget: "hidden" }
           - { label: "URL (no tocar)", name: "url", widget: "hidden" }
-          - { label: "Cos de la pàgina", name: "body", widget: "markdown" }
+          - { label: "Cos de la pàgina", name: "body", widget: "markdown", modes: [raw, rich_text] }
 
   - name: "guia"
     label: "Guia per publicar"
@@ -799,7 +799,7 @@ collections:
       - { label: "Títol", name: "title", widget: "string" }
       - { label: "Descripció", name: "description", widget: "string", required: false }
       - { label: "Esborrany (no visible públicament)", name: "draft", widget: "boolean", default: true }
-      - { label: "Contingut", name: "body", widget: "markdown" }
+      - { label: "Contingut", name: "body", widget: "markdown", modes: [raw, rich_text] }
 
   - name: "projectes"
     label: "Projectes"
@@ -833,7 +833,7 @@ collections:
           - { label: "Coordinació (9bi)", name: "coordinador", widget: "string", required: false }
           - { label: "Estat", name: "estat", widget: "select", options: ["prevista", "feta", "anul·lada"], required: false }
           - { label: "Articles del blog", name: "articles", widget: "list", required: false, hint: "Una adreça per element, p. ex. /2017/04/13-b-04-roquetas.html" }
-      - { label: "Text (opcional)", name: "body", widget: "markdown", required: false }
+      - { label: "Text (opcional)", name: "body", widget: "markdown", modes: [raw, rich_text], required: false }
 
   - name: "membres"
     label: "Membres (Qui som)"
@@ -879,7 +879,7 @@ collections:
       - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
       - { label: "Nombre de posts", name: "posts", widget: "hidden" }
       - { label: "Post d'exemple", name: "exemple", widget: "hidden" }
-      - { label: "Cos", name: "body", widget: "markdown" }
+      - { label: "Cos", name: "body", widget: "markdown", modes: [raw, rich_text] }
 
   - name: "recuperacio-pedro-click"
     label: "Àlbums per arreglar · Pedro Click"
@@ -904,7 +904,7 @@ collections:
       - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
       - { label: "Nombre de posts", name: "posts", widget: "hidden" }
       - { label: "Post d'exemple", name: "exemple", widget: "hidden" }
-      - { label: "Cos", name: "body", widget: "markdown" }
+      - { label: "Cos", name: "body", widget: "markdown", modes: [raw, rich_text] }
 
   - name: "recuperacio-9-barris-imatge"
     label: "Àlbums per arreglar · 9 Barris Imatge"
@@ -929,7 +929,7 @@ collections:
       - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
       - { label: "Nombre de posts", name: "posts", widget: "hidden" }
       - { label: "Post d'exemple", name: "exemple", widget: "hidden" }
-      - { label: "Cos", name: "body", widget: "markdown" }
+      - { label: "Cos", name: "body", widget: "markdown", modes: [raw, rich_text] }
 
   - name: "recuperacio-manel-sala"
     label: "Àlbums per arreglar · Manel «Ulls»"
@@ -954,7 +954,7 @@ collections:
       - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
       - { label: "Nombre de posts", name: "posts", widget: "hidden" }
       - { label: "Post d'exemple", name: "exemple", widget: "hidden" }
-      - { label: "Cos", name: "body", widget: "markdown" }
+      - { label: "Cos", name: "body", widget: "markdown", modes: [raw, rich_text] }
 
   - name: "recuperacio-pedro-casal"
     label: "Àlbums per arreglar · Pedro «Casal»"
@@ -979,7 +979,7 @@ collections:
       - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
       - { label: "Nombre de posts", name: "posts", widget: "hidden" }
       - { label: "Post d'exemple", name: "exemple", widget: "hidden" }
-      - { label: "Cos", name: "body", widget: "markdown" }
+      - { label: "Cos", name: "body", widget: "markdown", modes: [raw, rich_text] }
 
   - name: "recuperacio-alberto-sanagustin"
     label: "Àlbums per arreglar · Alberto Sanagustín"
@@ -1004,7 +1004,7 @@ collections:
       - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
       - { label: "Nombre de posts", name: "posts", widget: "hidden" }
       - { label: "Post d'exemple", name: "exemple", widget: "hidden" }
-      - { label: "Cos", name: "body", widget: "markdown" }
+      - { label: "Cos", name: "body", widget: "markdown", modes: [raw, rich_text] }
 
   - name: "recuperacio-nico-yeye"
     label: "Àlbums per arreglar · Nico YeYe"
@@ -1029,7 +1029,7 @@ collections:
       - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
       - { label: "Nombre de posts", name: "posts", widget: "hidden" }
       - { label: "Post d'exemple", name: "exemple", widget: "hidden" }
-      - { label: "Cos", name: "body", widget: "markdown" }
+      - { label: "Cos", name: "body", widget: "markdown", modes: [raw, rich_text] }
 
   - name: "recuperacio-manel-villalba"
     label: "Àlbums per arreglar · Manel Villalba"
@@ -1054,5 +1054,5 @@ collections:
       - { label: "Enllaç antic (trencat)", name: "url_antiga", widget: "hidden" }
       - { label: "Nombre de posts", name: "posts", widget: "hidden" }
       - { label: "Post d'exemple", name: "exemple", widget: "hidden" }
-      - { label: "Cos", name: "body", widget: "markdown" }
+      - { label: "Cos", name: "body", widget: "markdown", modes: [raw, rich_text] }
 
