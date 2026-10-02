@@ -24,7 +24,6 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 | T-18 | ⚪ | Auditoria d'accessibilitat | 17/09 | — | |
 | T-19 | ⚪ | 5a pestanya de «Qui som»: Història de la fotografia a Nou Barris | 18/09 | — | Recerca feta, galeria en suspens |
 | T-20 | ⚪ | Membres: completar els Instagram que falten | 18/09 | — | |
-| T-21 | ⚪ | Seguretat CI/CD: SHA-pin de les accions, credencials fora de `deploy.sh`, 11 fitxers `.dl-*`, `modules/taro/.gitignore` | 25/09 | — | De l'auditoria del 25/09 |
 | T-22 | ⚪ | Reobrir l'issue #2522 de Codeberg (quota) | 21/09 | — | **Comentari de petició de GC enviat el 28/09 20:17** (branca `pages` esborrada abans). Pendent de resposta. Text a `drafts/2026-09-27-codeberg-issue-2522-reobrir.md` |
 | T-23 | ⚪ | Revisió jurídica final de l'adequació RGPD | 18/09 | — | |
 | T-24 | ⚪ | Tipografia Gillius: OTF → woff2 | 18/09 | — | Opcional |
@@ -46,6 +45,7 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | Data | ID | Tasca | Temps | Commit |
 |---|---|---|---|---|
+| 02/10 | T-21 | **Seguretat CI/CD**: verificat que ja estava fet — accions del workflow fixades per SHA, els 11 `.dl-*` ja no hi són, `deploy.sh` rebutja credencials a la URL i `app.py` les redacta, `modules/taro/.gitignore` coherent. Únic canvi: `modules/autopublica/tools/deploy.sh` fa el build en un directori temporal nou (`mktemp` + `trap`), com la versió de Taro; provat amb un remot local | ~15 min | (aquest commit) |
 | 02/10 | T-27 | **Reunions (Fase 1) tancada**: l'usuari ha creat l'acta real del 01/10 des de `/admin/intern/` (repo privat `9bi-intern`, commit `a8bc079`) | — | PR #11 |
 | 01/10 | T-31 | **Projectes (Fase 2)**: `content/projectes/` (13-B amb 3 sessions dels posts, retrat gegant en idea), fitxa pública amb sessions i reportatges de l'etiqueta, enllaç al peu, col·lecció al CMS. Provat en navegador (escriptori i 375 px) | ~45 min | `dc193fe` |
 | 30/09–01/10 | T-27 | **Admin intern (Fase 1)**: documentació interna moguda al repo privat `112books/9bi-intern`, `/admin/intern/` (actes amb assistents, acords, tasques, visibilitat) i `tasques.html` (tasques obertes + acta nova amb les obertes). Fusionat amb la PR #11 | ~2 h | `f5d0383`…`78bd705`, merge `5035f5c` |
