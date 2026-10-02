@@ -18,8 +18,6 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 | T-06 | 🟡 | Desactivar Blogger | 21/09 | — | En espera, decisió de l'usuari: **de moment no s'apaga**. DNS ja apunten a 9barrisimatge.org |
 | T-07 | 🟡 | Editors al CMS: convidar col·laboradors amb Write, comprovar que els no-admin només veuen els seus posts i si algú ja ha iniciat el seu usuari | 21/09 | — | Quan puguem |
 | T-09 | 🟡 | Enllaços d'àlbums morts (Picasa → Google Photos), autor per autor | 18/09 | — | En marxa. Pipeline verificat (`scripts/albums_fix.py recull/validate/apply`); 10 fitxes de Joan Linux aplicades als posts (commit `b42e04f85`). CMS: camp `album` readonly + `filter` per amagar les corregides. 1.178 pendents de 1.189 fitxes a `recuperacio/`. |
-| T-10 | ⚪ | Cerca: etiquetes ordenades de més a menys freqüents | 21/09 | — | |
-| T-11 | ⚪ | Cerca limitada a l'autor a `/author/<slug>.html` | 24/09 | — | Baixa prioritat |
 | T-14 | ⚪ | Publicació automàtica a Instagram i Facebook + enllaços al web | 18/09 | — | Mateix patró que T-13 (`modules/telegram/`: RSS de `/posts/` + `state.json` + cron) |
 | T-18 | ⚪ | Auditoria d'accessibilitat | 17/09 | — | |
 | T-19 | ⚪ | 5a pestanya de «Qui som»: Història de la fotografia a Nou Barris | 18/09 | — | Recerca feta, galeria en suspens |
@@ -45,6 +43,8 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | Data | ID | Tasca | Temps | Commit |
 |---|---|---|---|---|
+| 02/10 | T-11 | **Cerca a les pàgines d'autor**: quadre de cerca a `/author/<slug>.html` que només busca entre les entrades d'aquell autor (camp `author` afegit a `index.json`, filtre a `fastsearch.js`, scripts carregats a les pàgines d'autor). Provat: Pedro Click + «concurs» → 18 resultats, tots seus; `/search/` igual; 375 px sense desbordament | ~25 min | (aquest commit) |
+| 02/10 | T-10 | **Etiquetes per freqüència**: verificat que ja estava fet — `/search/` i `/tags/` ordenen les 1.684 etiquetes de més a menys (`ByCount`) | ~5 min | — |
 | 02/10 | T-21 | **Seguretat CI/CD**: verificat que ja estava fet — accions del workflow fixades per SHA, els 11 `.dl-*` ja no hi són, `deploy.sh` rebutja credencials a la URL i `app.py` les redacta, `modules/taro/.gitignore` coherent. Únic canvi: `modules/autopublica/tools/deploy.sh` fa el build en un directori temporal nou (`mktemp` + `trap`), com la versió de Taro; provat amb un remot local | ~15 min | (aquest commit) |
 | 02/10 | T-27 | **Reunions (Fase 1) tancada**: l'usuari ha creat l'acta real del 01/10 des de `/admin/intern/` (repo privat `9bi-intern`, commit `a8bc079`) | — | PR #11 |
 | 01/10 | T-31 | **Projectes (Fase 2)**: `content/projectes/` (13-B amb 3 sessions dels posts, retrat gegant en idea), fitxa pública amb sessions i reportatges de l'etiqueta, enllaç al peu, col·lecció al CMS. Provat en navegador (escriptori i 375 px) | ~45 min | `dc193fe` |

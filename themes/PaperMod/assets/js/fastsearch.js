@@ -141,7 +141,10 @@ const initSearch = async () => {
     }
 
     sInput.disabled = false;
-    sInput.focus();
+    // A les pàgines d'autor el cercador no agafa el focus (no fa saltar la pàgina).
+    if (!sInput.dataset.author) {
+        sInput.focus();
+    }
 
     try {
         const response = await fetch(sInput?.dataset.indexUrl || '../index.json');
@@ -149,7 +152,12 @@ const initSearch = async () => {
             throw new Error(`Search index load failed: ${response.status}`);
         }
 
-        const data = await response.json();
+        let data = await response.json();
+        // Pàgina d'autor (/author/…): la cerca només mira les seves entrades.
+        const author = (sInput.dataset.author || '').toLowerCase();
+        if (data && author) {
+            data = data.filter((item) => [].concat(item.author || []).some((a) => String(a).toLowerCase() === author));
+        }
         if (data) {
             fuse = new Fuse(data, buildFuseOptions());
         }

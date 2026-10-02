@@ -86,7 +86,7 @@
 {{- end }}
 
 {{- /* Search */}}
-{{- if or (eq .Layout `search`) (eq .Kind `404`) -}}
+{{- if or (eq .Layout `search`) (eq .Kind `404`) (and (eq .Kind `term`) (eq .Type `author`)) -}}
 <link crossorigin="anonymous" rel="preload" as="fetch" href="{{ "index.json" | relURL }}">
 {{- $fastsearch := resources.Get "js/fastsearch.js" | js.Build (dict "params" (dict "fuseOpts" site.Params.fuseOpts)) | resources.Minify }}
 {{- $fusejs := resources.Get "js/fuse.basic.min.js" }}
