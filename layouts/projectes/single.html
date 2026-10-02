@@ -4,6 +4,11 @@
 {{- $p := .Params }}
 <article class="post-single projecte">
   <header class="post-header">
+    {{- with .Parent }}
+    <nav class="breadcrumbs" aria-label="Tornar a la llista">
+      <a href="{{ .RelPermalink }}">← {{ .Title }}</a>
+    </nav>
+    {{- end }}
     <h1 class="post-title">{{ .Title }}</h1>
     {{- with .Description }}<div class="post-description">{{ . }}</div>{{ end }}
   </header>

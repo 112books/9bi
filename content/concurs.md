@@ -73,9 +73,11 @@ de 9 Barris Imatge
 <div class="concurs-tabs">
 <input type="radio" name="concurs-tab" id="concurs-tab-bases" class="concurs-tab-radio" checked>
 <input type="radio" name="concurs-tab" id="concurs-tab-participar" class="concurs-tab-radio">
-<div class="concurs-tablist" role="tablist">
+<div class="concurs-tablist">
+<div class="concurs-tabs" role="tablist" aria-label="Edició 2026">
 <label for="concurs-tab-bases" class="concurs-tab" role="tab">Bases</label>
 <label for="concurs-tab-participar" class="concurs-tab" role="tab">Com participar</label>
+</div>
 <button type="button" class="concurs-print" data-concurs-print>Descarrega en PDF</button>
 </div>
 <section class="concurs-panel concurs-panel--bases" id="concurs-bases">

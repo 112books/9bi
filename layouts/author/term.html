@@ -52,7 +52,7 @@
 </section>
 
 {{- if gt $size.TotalPages 1 }}
-<nav class="mosaic-pager">
+<nav class="mosaic-pager" aria-label="Paginació">
   {{- with $size.Prev -}}<a class="pager-link" href="{{ .URL }}">← Més recents</a>{{- end -}}
   <span>Pàgina {{ $size.PageNumber }} de {{ $size.TotalPages }}</span>
   {{- with $size.Next -}}<a class="pager-link" href="{{ .URL }}">Més antigues →</a>{{- end -}}
