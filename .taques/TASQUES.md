@@ -22,17 +22,17 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 | T-18 | 🟡 | Auditoria d'accessibilitat | 17/09 | — | **Informe** a `drafts/2026-10-02-auditoria-accessibilitat.md`. **Aplicades (02/10)** les correccions sense canvi visual: botó PDF fora del `tablist` del concurs, `aria-label` a les navegacions (menú, paginació, entrada anterior/següent); la 404 ja tenia `<main>` (fals positiu del servidor de proves). **Pendent de decisió de disseny**: contrast (etiquetes, Arxiu, vermell petit del concurs) i nivell de títol de la FAQ |
 | T-19 | ⚪ | 5a pestanya de «Qui som»: Història de la fotografia a Nou Barris | 18/09 | — | Recerca feta, galeria en suspens |
 | T-20 | ⚪ | Membres: completar els Instagram que falten | 18/09 | — | |
-| T-22 | ⚪ | Reobrir l'issue #2522 de Codeberg (quota) | 21/09 | — | **Comentari de petició de GC enviat el 28/09 20:17** (branca `pages` esborrada abans). Pendent de resposta. Text a `drafts/2026-09-27-codeberg-issue-2522-reobrir.md` |
 | T-23 | ⚪ | Revisió jurídica final de l'adequació RGPD | 18/09 | — | |
 | T-26 | ⚪ | Control de fitxers del Concurs Cordoncillo (bases, històric…) | 18/09 | — | |
-| T-28 | 🟡 | Staging a Codeberg (`https://linuxbcn.codeberg.page/9bi/`): els CSS es veuen trencats | 28/09 | — | **Diagnosticat (28/09)**: l'staging serveix el build vell del 24/09 fet amb l'`baseURL` de producció; l'enllaç surt `/assets/...` (sense `/9bi/`) → 404. Queda lligat a T-29 (el distribuïble nou substituirà aquest staging) |
-| T-29 | 🟡 | **Publicar la versió distribuïble de Taro a Codeberg** (`linuxbcn/9bi` → `main`): la plantilla ja està feta i verificada a la branca local `distribucio` (`90ebcc6379`, `af8a537d6f`). Bloquejat pel **GC de Codeberg** (issue #2522, comentari enviat el 28/09 20:17; el compte encara marca 752,7 MiB). Quan passi: `git push origin distribucio:main` | 28/09 | — | Pla B si Codeberg no es desencalla: publicar la mateixa branca en un repo nou a GitHub |
 | T-31 | 🟡 | Projectes (Fase 2): fitxes públiques a `/projectes/` (13-B, retrat gegant) | 01/10 | — | **Publicada** (PR #12). 02/10: taula de sessions per ruta (1B, 2B, 3, 4) amb articles, apilada al mòbil; etiqueta `13-B` afegida a 5 posts; projecte nou **Els Inoblidables** (Residència Porta, 2015). Falta: revisió en viu de l'usuari i dades no publicades (coordinació, estat de la ruta oberta del 23/10/2016). 02/10: **Els Inoblidables en esborrany** (`draft: true`, decisió de l'usuari: àlbums de Picasa morts i pendent de confirmar si es pot publicar); Retrat gegant passa a `aturat`, **text pendent que el dicti l'usuari**. 02/10: **to propi i fil d'Ariadna** (franja suau vermell 9bi, «Inici › Projectes › …», xips d'estat/responsable/dates) i **`/projectes/proposa/`** (formulari que envia al servei de contacte amb assumpte «Proposta de projecte»; botó a la llista i a cada fitxa). **Pendent provar l'enviament real** |
+| T-32 | 🟡 | **Distribució de Taro a LinuxBCN**: apuntar-hi les URL dels mòduls, la documentació i els enllaços de descàrrega a `https://linuxbcn.com/ca/projectes/taro-photo-app/` | 04/10 | — | **Fet (04/10)** a la documentació del distribuïble (README i CHANGELOG). Pendent que existeixi la pàgina real a LinuxBCN; `taro.linuxbcn.com` encara no funciona |
 
 ### Tancades sense fer
 
 | ID | Tasca | Data | Motiu |
 |---|---|---|---|
+| T-22 | Reobrir l'issue #2522 de Codeberg (quota) | 04/10 | Ja no cal: el repositori vell `linuxbcn/9bi` s'ha esborrat i la distribució viu en un repo nou i lleuger (`taro-photo-app`) |
+| T-28 | Staging a Codeberg amb els CSS trencats | 04/10 | El repositori i l'staging vells s'han esborrat; el distribuïble nou no en té |
 | T-02 | Rotar `admin_secret` i `secret` de la votació | 27/09 | Decisió de l'usuari: risc acceptat, no es rota |
 | T-15 | Butlletí, correu per a cada membre + genèric, i grup de correu | 28/09 | Decisió de l'usuari: el pla de correu només permet 10 comptes. Cada membre fa servir el seu correu personal i el col·lectiu es comunica (i vota) pel grup privat de Telegram. El butlletí queda aparcat: les novetats ja surten al canal públic de Telegram |
 
@@ -42,6 +42,7 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | Data | ID | Tasca | Temps | Commit |
 |---|---|---|---|---|
+| 04/10 | T-29 | **Taro Photo App publicat a Codeberg**: branca neta sense contingut ni internals del 9bi; snapshot d'un sol commit (`24ae3471da`, 241 fitxers, ~4 MiB); `main` i tag `v1.0.0` a `codeberg.org/linuxbcn/taro-photo-app`. `INSTALL.md`, `CHANGELOG.md` i README amb la URL de LinuxBCN. Build de Hugo net i Python compilat | ~2 h | — |
 | 02/10 | T-24 | **Gillius en woff2**: `GilliusADF-{Regular,Bold}.woff2` generats amb fontTools (mateixos glifs, 37→19 KB); el CSS els carrega primer i deixa l'OTF de reserva; preload passat a woff2. Els OTF es conserven (els fa servir la votació). Provat: el navegador baixa només els woff2 | ~10 min | (aquest commit) |
 | 02/10 | T-11 | **Cerca a les pàgines d'autor**: quadre de cerca a `/author/<slug>.html` que només busca entre les entrades d'aquell autor (camp `author` afegit a `index.json`, filtre a `fastsearch.js`, scripts carregats a les pàgines d'autor). Provat: Pedro Click + «concurs» → 18 resultats, tots seus; `/search/` igual; 375 px sense desbordament | ~25 min | (aquest commit) |
 | 02/10 | T-10 | **Etiquetes per freqüència**: verificat que ja estava fet — `/search/` i `/tags/` ordenen les 1.684 etiquetes de més a menys (`ByCount`) | ~5 min | — |
