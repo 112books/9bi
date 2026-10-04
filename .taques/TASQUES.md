@@ -25,7 +25,6 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 | T-23 | ⚪ | Revisió jurídica final de l'adequació RGPD | 18/09 | — | |
 | T-26 | ⚪ | Control de fitxers del Concurs Cordoncillo (bases, històric…) | 18/09 | — | |
 | T-31 | 🟡 | Projectes (Fase 2): fitxes públiques a `/projectes/` (13-B, retrat gegant) | 01/10 | — | **Publicada** (PR #12). 02/10: taula de sessions per ruta (1B, 2B, 3, 4) amb articles, apilada al mòbil; etiqueta `13-B` afegida a 5 posts; projecte nou **Els Inoblidables** (Residència Porta, 2015). Falta: revisió en viu de l'usuari i dades no publicades (coordinació, estat de la ruta oberta del 23/10/2016). 02/10: **Els Inoblidables en esborrany** (`draft: true`, decisió de l'usuari: àlbums de Picasa morts i pendent de confirmar si es pot publicar); Retrat gegant passa a `aturat`, **text pendent que el dicti l'usuari**. 02/10: **to propi i fil d'Ariadna** (franja suau vermell 9bi, «Inici › Projectes › …», xips d'estat/responsable/dates) i **`/projectes/proposa/`** (formulari que envia al servei de contacte amb assumpte «Proposta de projecte»; botó a la llista i a cada fitxa). **Pendent provar l'enviament real** |
-| T-32 | 🟡 | **Distribució de Taro a LinuxBCN**: apuntar-hi les URL dels mòduls, la documentació i els enllaços de descàrrega a `https://linuxbcn.com/ca/projectes/taro-photo-app/` | 04/10 | — | **Fet (04/10)** a la documentació del distribuïble (README i CHANGELOG). Pendent que existeixi la pàgina real a LinuxBCN; `taro.linuxbcn.com` encara no funciona |
 
 ### Tancades sense fer
 
@@ -42,6 +41,7 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | Data | ID | Tasca | Temps | Commit |
 |---|---|---|---|---|
+| 04/10 | T-32 | **Distribució de Taro a LinuxBCN**: la documentació del distribuïble i la pàgina `/ca/projectes/taro-photo-app/` ja s'apunten mútuament; la pàgina és en línia amb el repositori nou | ~30 min | `5a09705` |
 | 04/10 | T-29 | **Taro Photo App publicat a Codeberg**: branca neta sense contingut ni internals del 9bi; snapshot d'un sol commit (`24ae3471da`, 241 fitxers, ~4 MiB); `main` i tag `v1.0.0` a `codeberg.org/linuxbcn/taro-photo-app`. `INSTALL.md`, `CHANGELOG.md` i README amb la URL de LinuxBCN. Build de Hugo net i Python compilat | ~2 h | — |
 | 02/10 | T-24 | **Gillius en woff2**: `GilliusADF-{Regular,Bold}.woff2` generats amb fontTools (mateixos glifs, 37→19 KB); el CSS els carrega primer i deixa l'OTF de reserva; preload passat a woff2. Els OTF es conserven (els fa servir la votació). Provat: el navegador baixa només els woff2 | ~10 min | (aquest commit) |
 | 02/10 | T-11 | **Cerca a les pàgines d'autor**: quadre de cerca a `/author/<slug>.html` que només busca entre les entrades d'aquell autor (camp `author` afegit a `index.json`, filtre a `fastsearch.js`, scripts carregats a les pàgines d'autor). Provat: Pedro Click + «concurs» → 18 resultats, tots seus; `/search/` igual; 375 px sense desbordament | ~25 min | (aquest commit) |
