@@ -3,6 +3,19 @@
 Notes detallades de les sessions de treball, des del 2026-09-17.
 Per a l'estat actual i la configuració del projecte, vegeu [`CLAUDE.md`](../CLAUDE.md).
 
+## Sessió 2026-10-04 — Taro Photo App publicat a Codeberg (v1.0.0 i v1.0.1) i pàgina a LinuxBCN
+
+- **Sincronització**: `git fetch github --prune`; `main` = `github/main` (`0ac6cc9c44`). El remot `origin` (Codeberg `linuxbcn/9bi`) responia «Cannot find repository»: l'usuari l'havia esborrat. Recompte: 3.010 posts i 24 membres (12 actius).
+- **Branca neta de Taro**: creada `taro-neta` des de `distribucio` en un worktree (`tmp/taro-neta`). Tret el contingut i els interns del 9bi (`.taques/`, `CLAUDE.md`, `drafts/`, `recuperacio/`, `.github/`, `.forgejo/`, `sync-9bi.sh` i els scripts de migració) i els mòduls de producció duplicats (`modules/formularis`, `modules/votacio`, `modules/autopublica`), que ja són dins del bundle `modules/taro/`.
+- **Generalització**: referències del 9bi substituïdes per valors d'exemple o `[POSA-HI: …]` (Telegram, comentaris, CSS, `config/`, `data/`). Reescrits `README.md`, `modules/README.txt` i `data/README.txt`; nous `INSTALL.md` (requisits i instal·lació de cada part) i `CHANGELOG.md`. Es conserva l'atribució al 9bi com a cas fundador.
+- **Publicació v1.0.0**: snapshot d'un sol commit (`24ae3471da`, 241 fitxers, ~4 MiB) a `codeberg.org/linuxbcn/taro-photo-app` (`main` + tag `v1.0.0`). Build de Hugo net (18 pàgines) i Python compilat.
+- **Autoria v1.0.1**: per indicació de l'usuari, l'autoria passa a **Joan "Linux" Martínez i Serres (LinuxBCN.com)** a les capçaleres de copyright dels 13 `.py`, `LICENSES/README.md`, `modules/taro/README.md`/`.txt`, `README.md` i `CHANGELOG.md`. Republicat: `main` = `e1ad2a4a26`, tags `v1.0.0` i `v1.0.1`.
+- **Pàgina de LinuxBCN** (`linuxbcn-2026/linuxbcn`): fitxa `content/projectes/taro-photo-app/` (CA+EN) actualitzada (`lastmod`, enllaç al repo nou i punt a «Fet»). Commit `5a09705`, build de producció, `rsync` al servidor i permisos; verificat en viu.
+- **Crèdits del 9bi**: `content/credits.md` reescrit (el web viu a GitHub; el Taro es distribueix des de Codeberg) i `drafts/2026-09-27-taro-photo-app.md` actualitzat a la v2. Commit i push `c817b57355`; verificat en viu.
+- **README del contenidor Taro** (`taro-photo-app/README.md`): el web del 9bi és producció a `112books/9bi` i el repo genèric és a Codeberg `linuxbcn/taro-photo-app`.
+- **Script `scripts/publish-taro.sh`** (commit `81c0bc2490`): publica una versió nova (build de verificació + snapshot d'un commit + `push --force` a `taro main` + tag `vX.Y.Z`), amb mode `DRY_RUN` per comprovar-ho sense publicar.
+- **Tasques**: T-29 i T-32 a «Fetes»; T-22 i T-28 a «Tancades sense fer» (el repositori vell s'ha esborrat). Registre horari a `.taques/2026-10-04.md`.
+
 ---
 
 ## Sessió 2026-10-02 (vespre) — Sincronització, peu del CMS i camp de vídeos

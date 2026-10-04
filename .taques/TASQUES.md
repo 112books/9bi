@@ -41,6 +41,7 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | Data | ID | Tasca | Temps | Commit |
 |---|---|---|---|---|
+| 04/10 | — | **Script `scripts/publish-taro.sh`**: publica una versió nova de Taro a Codeberg (build de verificació + snapshot d'un sol commit + `push --force` + tag `vX.Y.Z`), amb `DRY_RUN=1` | ~15 min | `81c0bc2490` |
 | 04/10 | T-32 | **Distribució de Taro a LinuxBCN**: la documentació del distribuïble i la pàgina `/ca/projectes/taro-photo-app/` ja s'apunten mútuament; la pàgina és en línia amb el repositori nou | ~30 min | `5a09705` |
 | 04/10 | T-29 | **Taro Photo App publicat a Codeberg**: branca neta sense contingut ni internals del 9bi; snapshot d'un sol commit (`24ae3471da`, 241 fitxers, ~4 MiB); `main` i tag `v1.0.0` a `codeberg.org/linuxbcn/taro-photo-app`. `INSTALL.md`, `CHANGELOG.md` i README amb la URL de LinuxBCN. Build de Hugo net i Python compilat | ~2 h | — |
 | 02/10 | T-24 | **Gillius en woff2**: `GilliusADF-{Regular,Bold}.woff2` generats amb fontTools (mateixos glifs, 37→19 KB); el CSS els carrega primer i deixa l'OTF de reserva; preload passat a woff2. Els OTF es conserven (els fa servir la votació). Provat: el navegador baixa només els woff2 | ~10 min | (aquest commit) |

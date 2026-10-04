@@ -21,7 +21,7 @@ Documentació per a sessions de Claude. Només fets verificats dels fitxers del 
 
 A l'inici de **cada** sessió, abans de treballar:
 
-1. **Sincronitzar els repositoris**: `git fetch origin` i comprovar que `main` estigui al dia.
+1. **Sincronitzar els repositoris**: `git fetch github --prune` i comprovar que `main` estigui al dia (el remot `origin` apunta al Codeberg vell, esborrat).
 2. **Iniciar la gestió d'hores**: activar/enregistrar el temps (skill `time-tracker`, `.taques/`).
 3. **Recompte del web**: nombre de posts i membres (GoatCounter per a usuaris).
 
@@ -39,12 +39,12 @@ Quan l'usuari demani «loop de tasques» o «seguim amb les tasques pendents»:
 
 Lloc web estàtic del **Col·lectiu 9 Barris Imatge** (Barcelona), migrat de Blogger a Hugo + PaperMod i publicat a GitHub Pages.
 
-## Estat real (verificat el 2026-10-02)
+## Estat real (verificat el 2026-10-04)
 
 - Producció: `https://9barrisimatge.org/`, desplegada per `.github/workflows/deploy.yml` des del push a `main`.
 - Repositori de producció i CMS: **GitHub `112books/9bi`** (`main`). Publicació: `git push github main`.
-- Remotes locals: `github` = GitHub (`https://github.com/112books/9bi.git`, producció); `origin` = Codeberg (`ssh://git@codeberg.org/linuxbcn/9bi.git`, backup, push bloquejat per quota).
-- **Codeberg `linuxbcn/9bi`**: backup read-only. GC demanat a issue #2522 (comentari 28/09); sense resposta. Branca `pages` esborrada el 28/09. Compte a 752,7 MiB.
+- Remotes locals: `github` = GitHub (`https://github.com/112books/9bi.git`, producció); `taro` = Codeberg (`ssh://git@codeberg.org/linuxbcn/taro-photo-app.git`, distribuïble); `origin` apunta al repo vell `linuxbcn/9bi`, **esborrat el 2026-10-04**.
+- **Taro Photo App (distribució)**: `https://codeberg.org/linuxbcn/taro-photo-app` (`main` + tags `v1.0.0`, `v1.0.1`). Repositori net amb el web, el bundle `modules/taro/`, el mòdul opcional de Telegram, `INSTALL.md` i `CHANGELOG.md`, sense contingut ni dades del 9bi. Branca local de treball `taro-neta` (worktree `tmp/taro-neta`); es publica amb `scripts/publish-taro.sh X.Y.Z`.
 - Tema PaperMod vendored a `themes/PaperMod/`.
 - **Posts actuals**: 3.010 (3.006 migrats de Blogger + 4 articles nous), 20 carpetes d'anys (2008–2026).
 
@@ -54,6 +54,7 @@ Lloc web estàtic del **Col·lectiu 9 Barris Imatge** (Barcelona), migrat de Blo
 - Build: `hugo --minify` → `public/`
 - Stats locals: `python3 scripts/fetch_9bi_analytics.py` (requereix `GOATCOUNTER_API_KEY`)
 - Més visitats: `python3 scripts/goatcounter_popular.py --days 30` (requereix `GOATCOUNTER_API_KEY`)
+- Publicar Taro: `scripts/publish-taro.sh X.Y.Z [nota]` (build + snapshot d'un commit + push a Codeberg; `DRY_RUN=1` per comprovar-ho sense publicar)
 
 ## Versions (verificades)
 
@@ -164,14 +165,12 @@ gestio/RECERCA.md               # recerca: fotògrafs de NB, cronologia concurs 
 - **Antics membres** (no «veterans»): el terme per al grup `actiu: false`.
 - **No hi ha col·lecció «Tots els articles»** al CMS: massa lent amb 3.010 posts.
 - **`analytics.json` al repo és el fallback**: la versió desplegada es genera en cada CI run. Si GoatCounter retorna buit, el script **conserva el fitxer existent** (no actualitza). Diagnòstic si /stats/ va enrere: comprovar el secret `GOATCOUNTER_API_KEY` a GitHub Actions i els logs del workflow.
-- **Codeberg = backup read-only**: producció és GitHub. No fer push ni reset a Codeberg fins que el GC alliberi quota (issue #2522).
+- **Codeberg = distribució de Taro, no backup**: la producció del web és GitHub. Codeberg allotja el distribuïble `linuxbcn/taro-photo-app` (repo nou i lleuger, snapshot d'un sol commit per versió); el vell `linuxbcn/9bi` es va esborrar el 2026-10-04.
 
 ## Problemes coneguts / pendents
 
 > Font única: [`.taques/TASQUES.md`](.taques/TASQUES.md).
 
 - **T-01 🔴**: llista definitiva d'obres de la votació — termini **30/11/2026**.
-- **T-29 🟡**: publicar la versió distribuïble de Taro a Codeberg, bloquejada per GC.
-- **T-28 🟡**: CSS trencats a l'staging de Codeberg (lligat a T-29).
 - **T-07 🟡**: convidar editors al CMS amb accés Write.
 - La resta a TASQUES.md.
