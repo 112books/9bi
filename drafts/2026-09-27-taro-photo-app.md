@@ -1,6 +1,6 @@
 # Taro Photo App
 
-> Document de referència i article per a LinuxBCN.com. Versió 1 — 2026-09-27.
+> Document de referència i article per a LinuxBCN.com. Versió 2 — 2026-10-04.
 > Estat: **el que fa avui està verificat amb el codi i amb el web en producció**;
 > la secció 9 recull, amb els mateixos criteris, el que encara no existeix.
 > Llicència prevista del programari: **AGPL-3.0** (pendent d'escriure el fitxer).
@@ -294,7 +294,9 @@ seria una mentida, així que el que s'ha fet surt de la llista:
 4. **Paquet distribuïble.** `modules/taro/` està al dia i funciona: un router
    que munta els tres mòduls, cap dada ni configuració de 9 Barris Imatge a
    dins, documentació de cada mòdul i un manual del bundle. Les proves de
-   formulari i de votació s'executen i acaben amb `RESULTAT: OK`.
+   formulari i de votació s'executen i acaben amb `RESULTAT: OK`. Des del
+   2026-10-04 es publica a Codeberg (`linuxbcn/taro-photo-app`) amb un
+   `INSTALL.md` i historial de versions.
 5. **Filtratge del gestor.** El gestor té un rail propi que filtra els
    articles per any i amaga la llista de col·leccions. És ordre de la
    interfície, no seguretat: la frontera real és qui té accés d'escriptura.
@@ -367,7 +369,8 @@ formularis. No cal saber programar: publicar és escriure i pujar una imatge.
 - **Si voleu el programari i no teniu Hosting, parlem.** A LinuxBCN podem oferir l'allotjament, el correu i el manteniment amb tarifes de col·lectiu, i
   si esteu lluny, amb un contracte de manteniment, perquè la garantia de que el
   lloc continuï en marxa no quedi només en mans de voluntaris.
-- **Si voleu llegir-ne el codi, useu-lo o millorar-lo**, el repositori és obert.
+- **Si voleu llegir-ne el codi, useu-lo o millorar-lo**, el repositori és
+  obert: [codeberg.org/linuxbcn/taro-photo-app](https://codeberg.org/linuxbcn/taro-photo-app).
 
 ## Annex: referències tècniques
 
@@ -388,12 +391,12 @@ votació i els formularis es serveixen des de l'hosting que ofereix
 LinuxBCN, amb procés propi, proxy i vigilant automàtic. `autopublica` no
 s'ha activat enlloc (vegeu el 6.3).
 
-**Repositoris**: hi ha el codi a GitHub (on viu el gestor de continguts i des d'on es
-publica el web) i a Codeberg (mirall, que ara mateix no s'actualitza per un límit
-d'emmagatzematge del compte). El programari està llicenciat amb AGPL-3.0
-(`LICENSE`); **queda pendent decidir quina és la font de referència i quin és el
-mirall**, perquè la documentació del projecte (pàgina de crèdits i fitxer de
-llegenda) encara descriu la situació anterior.
+**Repositoris**: el **programari distribuïble** és a Codeberg
+(`linuxbcn/taro-photo-app`, v1.0.1, 2026-10-04): un repositori net amb el web,
+els mòduls i la documentació d'instal·lació (`INSTALL.md`), sense cap dada del
+9bi. El **web de referència** (9barrisimatge.org) es desenvolupa a GitHub
+(`112books/9bi`), que és d'on es publica. El programari està llicenciat amb
+AGPL-3.0 (`LICENSE`).
 
 **Fitxers que expliquen el funcionament**: `content/credits.md` (crèdits del web,
 amb l'explicació de la decisió sobre Blogger i sobre el nom Taro) ·

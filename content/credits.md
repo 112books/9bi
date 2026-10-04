@@ -8,9 +8,9 @@ Aquest web no és només una eina: és també una manera de fer. Aquí expliquem
 
 ## Desenvolupament
 
-L'ha desenvolupat **[LinuxBCN](https://linuxbcn.com)**, a partir de la necessitat i la possibilitat que va veure **Joan Linux**, membre de 9 Barris Imatge, de fer en programari lliure el que portàvem massa temps fent a Blogger i amb les limitacions que això comportava: dificultat per publicar els àlbums per a membres amb un perfil poc tècnic, dependència de Blogger i la seva poca flexibilitat, etc.
+L'ha desenvolupat **Joan "Linux" Martínez i Serres** ([LinuxBCN](https://linuxbcn.com)), a partir de la necessitat i la possibilitat que va veure com a membre de 9 Barris Imatge, de fer en programari lliure el que portàvem massa temps fent a Blogger i amb les limitacions que això comportava: dificultat per publicar els àlbums per a membres amb un perfil poc tècnic, dependència de Blogger i la seva poca flexibilitat, etc.
 
-El **codi font del projecte viu a [Codeberg](https://codeberg.org/)**, una plataforma **100% lliure** (basada en Forgejo), al repositori [`linuxbcn/9bi`](https://codeberg.org/linuxbcn/9bi), que és la **versió de referència**. La publicació en línia del web —el que anomenem «9bi»— es fa, però, des de **[GitHub Pages](https://pages.github.com/)** amb una còpia del repositori allotjada a GitHub. Ho fem per raons de **mida i de practicitat operativa** (capacitat d'emmagatzematge i publicació automàtica), no per preferència: som conscients que GitHub no és programari lliure, i per això la **font del codi sempre és Codeberg**.
+El **codi d'aquest web viu a [GitHub](https://github.com/112books/9bi)**, des d'on es publica amb **[GitHub Pages](https://pages.github.com/)**. Ho fem per raons de **mida i de practicitat operativa** (capacitat d'emmagatzematge i publicació automàtica), no per preferència: som conscients que GitHub no és programari lliure. Per això el **programari distribuïble**, el **Taro Photo App**, es publica a **[Codeberg](https://codeberg.org/linuxbcn/taro-photo-app)**, una plataforma **100% lliure** (basada en Forgejo).
 
 ## L'aplicació Taro
 
@@ -27,7 +27,7 @@ Va morir el **26 de juliol de 1937**, als 26 anys, durant la Guerra Civil espany
 - **[Hugo](https://gohugo.io/)** — generador de llocs estàtics (ràpid, sense base de dades).
 - **[PaperMod](https://github.com/adityatelange/hugo-PaperMod)** — tema del lloc per a Hugo.
 - **[Decap CMS](https://decapcms.org/)** — per editar els continguts.
-- **[Codeberg](https://codeberg.org/)** ([Forgejo](https://forgejo.org/)) — allotjament del codi (font de referència, programari lliure).
+- **[Codeberg](https://codeberg.org/)** ([Forgejo](https://forgejo.org/)) — allotjament del **Taro Photo App**, el programari lliure distribuïble.
 - **[GitHub Pages](https://pages.github.com/)** — publicació del lloc (mirall operatiu per mida i practicitat).
 - **[GoatCounter](https://www.goatcounter.com/)** — estadístiques de visites sense cookies.
 - **[Git](https://git-scm.com/)**, **[Markdown](https://daringfireball.net/projects/markdown/)**, HTML, CSS i JavaScript.
@@ -75,8 +75,9 @@ Què vol dir, en català clar:
 - **Sense cap garantia**: es lliura tal qual, i el manteniment no és nostre
   obligació.
 
-El codi viu a [github.com/112books/9bi](https://github.com/112books/9bi) i la
-versió per a col·lectius, el **Taro Photo App**, a
-[linuxbcn.com/ca/projectes/taro-photo-app/](https://linuxbcn.com/ca/projectes/taro-photo-app/).
+El codi d'aquest web viu a [github.com/112books/9bi](https://github.com/112books/9bi),
+i el **Taro Photo App** (la versió per a col·lectius), a
+[codeberg.org/linuxbcn/taro-photo-app](https://codeberg.org/linuxbcn/taro-photo-app)
+i a [linuxbcn.com/ca/projectes/taro-photo-app/](https://linuxbcn.com/ca/projectes/taro-photo-app/).
 
 Si tens dubtes sobre l'ús de les fotografies, pots consultar les [preguntes freqüents](/faq/).
