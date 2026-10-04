@@ -9,8 +9,6 @@ tags:
 - Casal de barri Prosperitat
 - fotografia
 - linuxbcn
-cover:
-  image: http://www.festivalbluesbarcelona.com/drupal/sites/default/files/instantsdeblues_0.jpg
 ---
 
 ## del 4 al 30 de Setembre Instants de Blues Exposició fotogràfica Joan “linuxbcn”

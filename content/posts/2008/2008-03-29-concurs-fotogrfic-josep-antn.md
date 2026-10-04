@@ -6,8 +6,6 @@ author: Joan "Linux" Martínez i Serres
 slug: concurs-fotogrfic-josep-antn
 tags:
 - Concurs Fotogràfic Josep Antón Cordoncillo
-cover:
-  image: http://cybercasal9b.info/files/images//fotoweb_0.jpg
 album_url: http://cybercasal9b.info/files/images//fotoweb_0.jpg
 ---
 

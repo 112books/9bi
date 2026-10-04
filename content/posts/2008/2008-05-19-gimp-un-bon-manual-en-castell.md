@@ -7,8 +7,6 @@ slug: gimp-un-bon-manual-en-castell
 tags:
 - formació
 - retoc fotografic
-cover:
-  image: http://www.gimp.org/images/news-icons/wilber-reading.png
 ---
 
 Bé, en moltes ocasions he sentit a persones dir que el el programari [The Gimp](http://www.gimp.org/) és difícil i tosc d'utilitzar. Bé, per a mi és senzillament un gran programa per editar fotografies i poques coses li trobo a faltar per poder editar fotografies. Bé, ara ja no hi ha excusa per no intentar de posar-si al menys.

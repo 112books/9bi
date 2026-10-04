@@ -6,8 +6,6 @@ author: Joan "Linux" Martínez i Serres
 slug: xxi-edicio-concurs-fotografic-josep
 tags:
 - Concurs Fotogràfic Josep Antón Cordoncillo
-cover:
-  image: http://www.casalprospe.org/files/images//CARTELMOSTRA2_0.jpg
 album_url: http://www.casalprospe.org/?q=node/819
 ---
 

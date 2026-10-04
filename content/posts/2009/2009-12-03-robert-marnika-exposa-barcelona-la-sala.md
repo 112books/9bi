@@ -9,8 +9,6 @@ tags:
 - kowasa
 - linuxbcn
 - Robert Marnika
-cover:
-  image: http://linuxbcn.homeip.net/files/u1/robert_0.png
 ---
 
 Estic content, molt content, de poder anunciar la exposició "Fragments of Memory" de l'amic Croat [Robert Marnica](http://www.robertmarnika.com). Aquest excel·lent fotògraf, amb el que vaig tenir el gust de iniciar una molt bona amistat a Bolonia fa un parell d'anys, us deleiterà amb una genial mostra del seu treball a la guerra de Croàcia.

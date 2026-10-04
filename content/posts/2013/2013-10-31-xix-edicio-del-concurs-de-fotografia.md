@@ -7,7 +7,7 @@ slug: xix-edicio-del-concurs-de-fotografia
 tags:
 - Concurs Fotogràfic Josep Antón Cordoncillo
 cover:
-  image: http://www.casalprospe.org/files/images//CORDONCILLO2013_0.gif
+  image: /images/covers/xix-concurs-cordoncillo-2013.webp
 album_url: http://www.casalprospe.org/files/images//CORDONCILLO2013_0.gif
 ---
 

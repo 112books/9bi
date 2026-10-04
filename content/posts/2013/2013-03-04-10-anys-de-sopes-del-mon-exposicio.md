@@ -9,8 +9,6 @@ tags:
 - 9 barris imatge
 - ateneu popular 9 barris
 - exposició
-cover:
-  image: http://www.9bacull.org/sites/default/files/node_images/expo_sopes%20(2).png
 ---
 
 Dijous 7 de març a les 19.30h

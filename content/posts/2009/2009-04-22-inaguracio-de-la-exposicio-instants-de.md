@@ -10,8 +10,6 @@ tags:
 - exposició
 - fotografia
 - linuxbcn
-cover:
-  image: http://linuxbcn.homeip.net/files/u1/flayer2.png
 ---
 
 

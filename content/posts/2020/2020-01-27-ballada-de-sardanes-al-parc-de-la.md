@@ -11,7 +11,7 @@ tags:
 - ruta
 - mar
 cover:
-  image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhb5WDnk7p0kiAli0lWN7e8g2U01SyE1IuFa3c1DNPLui8Wb6YybIT0aCnhgDO_Frh3tmGafkYN5Yy_JyXPAF4lvgct7OeRAIHbEYQYA75NhMoG7359AmK76x73xFy1SceZy5RvJa0Rl40/s640/IMG_20200126_133
+  image: /images/covers/ballada-sardanes-2020.webp
 
     126.jpg'
 album_url: https://photos.app.goo.gl/8t6gckLvEc3b57EG6

@@ -12,7 +12,7 @@ tags:
 - casal de barri
 - Prosperitat
 cover:
-  image: http://www.casalprospe.org/files/images//expofrancesc_0_0.gif
+  image: /images/covers/exposicio-les-casernes.webp
 ---
 
 <!-- tags auto-generades a partir del vocabulari del blog, revisar -->

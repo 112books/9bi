@@ -13,8 +13,6 @@ tags:
 - rocas
 - tramontana
 - vent
-cover:
-  image: http://ulls.info/galeria/albums/userpics/10001/cap-de-creus-2008-ulls.jpg
 album_url: http://ulls.info/galeria/thumbnails.php?album=164
 ---
 

@@ -6,8 +6,6 @@ author: Joan "Linux" Martínez i Serres
 slug: no-al-tancament-del-casal-de-joves-de
 tags:
 - casal de joves de prospe
-cover:
-  image: http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs690.snc4/63047_142996985745686_100001061563744_224206_4385213_n.jpg
 ---
 
 Casal de Joves de Prosperitat i l'Associació Juvenil Sociocultural de Prosperitat

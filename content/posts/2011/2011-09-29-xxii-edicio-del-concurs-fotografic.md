@@ -8,7 +8,7 @@ tags:
 - Concurs Fotogràfic
 - Concurs Fotogràfic Josep Antón Cordoncillo
 cover:
-  image: http://www.casalprospe.org/files/images//concursofotos_0.gif
+  image: /images/covers/xxii-concurs-cordoncillo-2011.webp
 ---
 
 EXPOSICIÓ:

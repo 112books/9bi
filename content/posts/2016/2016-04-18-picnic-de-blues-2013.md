@@ -8,7 +8,7 @@ tags:
 - blues
 - BLUE
 cover:
-  image: https://farm8.staticflickr.com/7323/8736090348_e1df9bc6f2.jpg
+  image: /images/covers/picnic-de-blues-2013.webp
 album_url: https://www.flickr.com/photos/50985562@N08/albums/72157634140165631
 ---
 
