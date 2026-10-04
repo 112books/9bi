@@ -7,7 +7,7 @@ year: '2026'
 slug: 2026-09-29-andrés-naya-presenta-els-seus-dos-nous-llibres-al-casal-de-barri-de-la-prosperitat
 author: Joan "Linux" Martínez i Serres
 cover:
-  image: /images/IMG_3603.jpg
+  image: /images/covers/img-3603.webp
 album_url: https://photos.app.goo.gl/Vufwm6KXqUHURARf6
 tags:
   - Andrés Naya
