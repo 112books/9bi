@@ -64,7 +64,7 @@ Lloc web estàtic del **Col·lectiu 9 Barris Imatge** (Barcelona), migrat de Blo
 ## Configuració (`hugo.toml`)
 
 - `baseURL` **https://9barrisimatge.org/** (producció) · title "9 Barris Imatge" · `locale ca` · `timeZone Europe/Madrid`
-- `uglyURLs = true` · `[permalinks] posts = "/:year/:month/:slug"` · `paginate = 24`
+- `uglyURLs = true` · `[permalinks] posts = "/:year/:month/:slug"` · `[pagination] pagerSize = 8`
 - `[markup.goldmark.renderer] unsafe = true` · `[markup.goldmark.parser.attribute] block = true`
 - Taxonomies: `tag → tags`, `category → categories`, `author → author`
 - `params`: `defaultTheme = "dark"`, ShowPostAuthors=true, ShowBreadCrumbs=false, ShowReadingTime=false, ShowShareButtons=false, ShowPostNavLinks=true, ShowCodeCopyButtons=true, ShowWordCount=false, comments=false
@@ -122,6 +122,7 @@ gestio/RECERCA.md               # recerca: fotògrafs de NB, cronologia concurs 
 ## Front matter (convencions reals)
 
 - **Posts**: `title`, `date` (ISO), `year` (any), `author`, `slug` (obligatori, estable), `tags` (llista), `cover.image` (opcional, `/images/covers/…`), `album_url` (opcional), `videos` (opcional, llista d'URLs de YouTube o Vimeo), `description` (opcional = meta SEO), `seoTitle` (opcional = títol SEO sense prefix data)
+- **Cobertes**: `cover.image` ha d'apuntar sempre a una miniatura WebP de com a màxim 640 px dins `/images/covers/` (no a un original de `/images/`); si no, la portada carrega imatges molt més pesades
 - **Pàgines**: `title`, `description`, `url` (ruta final explícita)
 - **Guia**: `robotsNoIndex: true` + `hiddenInRss: true` + `sitemap.disable: true`
 - **Documentació**: `draft: true`

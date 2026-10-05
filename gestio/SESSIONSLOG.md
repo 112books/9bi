@@ -3,6 +3,18 @@
 Notes detallades de les sessions de treball, des del 2026-09-17.
 Per a l'estat actual i la configuració del projecte, vegeu [`CLAUDE.md`](../CLAUDE.md).
 
+## Sessió 2026-10-04 (vespre) — Miniatures de portada i cobertes externes mortes
+
+- **Diagnòstic**: el mosaic de la portada (`layouts/index.html`) carregava l'original de `cover.image`, sense miniatures generades (les imatges viuen a `static/`, que Hugo no processa). Les 3 entrades més noves (29/09 i 01/10) apuntaven a originals de `static/images/` (512 KB PNG, 400 KB JPG i 156 KB WebP), mentre la resta de `covers/` feien 23–225 KB. La portada pesava ~1,5 MB.
+- **Fix**: generades 3 miniatures WebP de 640 px (`cordoncillo-36`, `img-3603`, `libros-mellizos`) i canviat `cover.image` dels 3 posts. Portada: ~1,5 MB → ~0,58 MB. Commit `d3b79bef9c`, workflow `37226981213` OK i verificat en viu.
+- **Auditoria de les 19 cobertes externes**: 18 mortes (404 o DNS/TLS) i 1 viva (Blogger). Cap post tenia imatge local ni al cos.
+- **Recuperades 6**: `xix-concurs-cordoncillo-2013`, `xxii-concurs-cordoncillo-2011` i `exposicio-les-casernes` (Wayback/casalprospe), `festes-2013` i `picnic-de-blues-2013` (Wayback/Flickr) i `ballada-sardanes-2020` (Blogger viva), convertides a WebP 640 px. El `cap-de-creus` no s'ha pogut recuperar (l'única captura de Wayback és una pàgina HTML, no la imatge).
+- **Tretes 13 cobertes** irrecuperables: eliminat el bloc `cover:` i les entrades mostren el placeholder amb el títol. YAML validat i 0 cobertes externes al build. Commit `cac4f3a152`, workflow `37227842628` OK i verificat en viu (les 6 imatges responen 200).
+- **Pendent detectat**: uns quants `album_url` (botó «Veure tot l'àlbum») apunten a dominis morts fora de Picasa (casalprospe, ulls.info, linuxbcn.homeip, cybercasal9b, dropbox, posterous…) → nova **T-33**.
+- **Tasques**: cap tasca de la llista tancada; alta de T-33. Registre horari a `.taques/2026-10-04.md`.
+
+---
+
 ## Sessió 2026-10-04 — Taro Photo App publicat a Codeberg (v1.0.0 i v1.0.1) i pàgina a LinuxBCN
 
 - **Sincronització**: `git fetch github --prune`; `main` = `github/main` (`0ac6cc9c44`). El remot `origin` (Codeberg `linuxbcn/9bi`) responia «Cannot find repository»: l'usuari l'havia esborrat. Recompte: 3.010 posts i 24 membres (12 actius).
