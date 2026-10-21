@@ -5,7 +5,7 @@ dashboard /stats/ (GoatCounter).
 
 Ús:
     export GOATCOUNTER_API_KEY="..."   # GoatCounter → Settings → API key
-    python3 scripts/fetch_9bi_analytics.py [--days 30] [--output static/stats/analytics.json]
+    python3 scripts/fetch_9bi_analytics.py [--days 365] [--output static/stats/analytics.json]
 
 Adaptat de goatcounter-dashboard (scripts/fetch_goatcounter_analytics.py),
 amb:
@@ -77,7 +77,7 @@ def norm_items(items):
     return sorted(out, key=lambda x: x["count"], reverse=True)
 
 
-def fetch_analytics(token, days=30):
+def fetch_analytics(token, days=365):
     now = datetime.now(timezone.utc)
     end = now.strftime("%Y-%m-%d")
     start = (now - timedelta(days=days)).strftime("%Y-%m-%d")
@@ -90,6 +90,7 @@ def fetch_analytics(token, days=30):
         hits_raw = []
 
     by_lang, by_section = {}, {}
+    pages_daily, sections_daily = {}, {}
     total, hits_by_day, hits_pages = 0, {}, {}
 
     for path_item in hits_raw:
@@ -109,6 +110,12 @@ def fetch_analytics(token, days=30):
             by_section[section] = by_section.get(section, 0) + count
             if d:
                 hits_by_day[d] = hits_by_day.get(d, 0) + count
+                if path not in pages_daily:
+                    pages_daily[path] = {}
+                pages_daily[path][d] = pages_daily[path].get(d, 0) + count
+                if section not in sections_daily:
+                    sections_daily[section] = {}
+                sections_daily[section][d] = sections_daily[section].get(d, 0) + count
         if path_total > 0:
             hits_pages[path] = hits_pages.get(path, 0) + path_total
 
@@ -160,6 +167,8 @@ def fetch_analytics(token, days=30):
         "hits": hits_top,
         "by_lang": by_lang,
         "by_section": by_section,
+        "pages_daily": {k: dict(sorted(v.items())) for k, v in pages_daily.items()},
+        "sections_daily": {k: dict(sorted(v.items())) for k, v in sections_daily.items()},
         "browsers": safe("browsers"),
         "systems": safe("systems"),
         "sizes": safe("sizes"),
@@ -170,7 +179,7 @@ def fetch_analytics(token, days=30):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--days", type=int, default=30)
+    ap.add_argument("--days", type=int, default=365)
     ap.add_argument("--output", default="static/stats/analytics.json")
     args = ap.parse_args()
 
@@ -180,7 +189,7 @@ def main():
         return 1
 
     data = fetch_analytics(token, days=args.days)
-    if not (data["total"] > 0 and data["hits_by_day"]):
+    if not (data["total"] > 0 and data["hits_by_day"] and data["hits"]):
         print("AVÍS: GoatCounter no ha retornat dades; es conserva "
               f"{args.output} tal com estava.", file=sys.stderr)
         return 0
