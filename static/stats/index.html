@@ -352,7 +352,11 @@ document.getElementById('topbar-logo').innerHTML =
 document.getElementById('gc-link').href = CFG.gcUrl;
 document.title = 'Stats · ' + CFG.siteName;
 
-showDashboard();
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', showDashboard);
+} else {
+  showDashboard();
+}
 
 function showDashboard() {
   document.getElementById('dashboard').style.display = 'block';
