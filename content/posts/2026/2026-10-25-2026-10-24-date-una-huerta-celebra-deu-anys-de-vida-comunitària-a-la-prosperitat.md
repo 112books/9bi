@@ -7,7 +7,7 @@ author: Joan "Linux" Martínez i Serres
 cover:
   image: /images/DSCF8042.jpg
   alt: Jenny i Bicicleto, dos usuaris habituals de Date una Huerta, durant la festa de celebració dels deu anys d’aquest espai comunitari autogestionat al barri de la Prosperitat, Barcelona.
-header_image: /images/DSCF8042.jpg
+header_image: ''
 header_image_alt: Jenny i Bicicleto, dos usuaris habituals de Date una Huerta, durant la festa de celebració dels deu anys d’aquest espai comunitari autogestionat al barri de la Prosperitat, Barcelona.
 pinned: false
 album_url: https://photos.app.goo.gl/bhE3JxhcFe4QL7AD9
