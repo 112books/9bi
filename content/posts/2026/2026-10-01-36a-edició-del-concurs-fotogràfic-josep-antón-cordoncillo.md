@@ -7,6 +7,8 @@ seoTitle: 36è Concurs Fotogràfic Cordoncillo 2026 | 9 Barris Imatge
 author: Joan "Linux" Martínez i Serres
 cover:
   image: /images/covers/cordoncillo-36.webp
+pinned: true
+weight: -1
 album_url: ''
 tags:
   - 9 Barris Imatge

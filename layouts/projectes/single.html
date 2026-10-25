@@ -83,9 +83,10 @@
     <article class="mosaic-card">
       <a class="mosaic-link" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
         {{- $cover := .Params.cover.image | default "" -}}
+        {{- $alt := .Params.cover.alt | default .Title -}}
         {{- if $cover -}}
         <div class="mosaic-thumb">
-          <img class="mosaic-img" loading="lazy" src="{{ $cover | relURL }}" alt="{{ .Title }}" />
+          <img class="mosaic-img" loading="lazy" src="{{ $cover | relURL }}" alt="{{ $alt }}" />
         </div>
         {{- else -}}
         <div class="mosaic-thumb mosaic-placeholder">

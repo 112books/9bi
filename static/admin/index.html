@@ -467,6 +467,18 @@
             if (slug) updated = updated.set('slug', slug);
           }
 
+          // «Destaca'l a la portada»: Hugo ordena per weight abans que per
+          // data, així que el weight -1 és el que fa que l'article surti el
+          // primer al mosaic de la portada. En desmarcar-lo, es treu el weight.
+          if (data.get('pinned') === true) {
+            if (updated.get('weight') !== -1) updated = updated.set('weight', -1);
+          } else if (updated.get('weight') != null) {
+            updated =
+              typeof updated.delete === 'function'
+                ? updated.delete('weight')
+                : updated.set('weight', 0);
+          }
+
           return updated === data ? undefined : updated;
         },
       });
