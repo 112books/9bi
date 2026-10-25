@@ -4,7 +4,9 @@ date: 2026-10-25T22:32:00
 year: '2026'
 slug: 2026-10-24-date-una-huerta-celebra-deu-anys-de-vida-comunitària-a-la-prosperitat
 author: Joan "Linux" Martínez i Serres
-cover: null
+cover:
+  image: /images/DSCF8042.jpg
+  alt: Jenny i Bicicleto, dos usuaris habituals de Date una Huerta, durant la festa de celebració dels deu anys d’aquest espai comunitari autogestionat al barri de la Prosperitat, Barcelona.
 header_image: /images/DSCF8042.jpg
 header_image_alt: Jenny i Bicicleto, dos usuaris habituals de Date una Huerta, durant la festa de celebració dels deu anys d’aquest espai comunitari autogestionat al barri de la Prosperitat, Barcelona.
 pinned: false
