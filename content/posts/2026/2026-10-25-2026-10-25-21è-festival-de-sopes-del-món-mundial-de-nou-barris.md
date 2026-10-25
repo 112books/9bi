@@ -7,7 +7,7 @@ author: Joan "Linux" Martínez i Serres
 cover:
   image: /images/DSCF8434.jpg
   alt: Repartiment de les sopes preparades pels participants durant el 21è Festival de Sopes del Món Mundial de Nou Barris, celebrat al barri de Canyelles el 25 d’octubre de 2026.
-header_image: /images/DSCF8434.jpg
+header_image: ''
 header_image_alt: Repartiment de les sopes preparades pels participants durant el 21è Festival de Sopes del Món Mundial de Nou Barris, celebrat al barri de Canyelles el 25 d’octubre de 2026.
 pinned: false
 album_url: https://photos.app.goo.gl/AZgAUgptxsSD5dRFA
