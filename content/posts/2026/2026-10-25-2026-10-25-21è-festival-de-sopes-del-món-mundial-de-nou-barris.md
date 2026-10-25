@@ -1,5 +1,5 @@
 ---
-title: 2026-10-25 -21è Festival de Sopes del Món Mundial de Nou Barris
+title: 2026-10-25 - 21è Festival de Sopes del Món Mundial de Nou Barris
 date: 2026-10-26T00:15:00
 year: '2026'
 slug: 2026-10-25-21è-festival-de-sopes-del-món-mundial-de-nou-barris
