@@ -42,6 +42,7 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | Data | ID | Tasca | Temps | Commit |
 |---|---|---|---|---|
+| 26/10 | — | **Recompte de posts automàtic**: `scripts/actualitza_recompte.py` (idempotent, `--dry-run`) + step al CI que compta els posts de `content/posts` i desa «Posts actuals» a `CLAUDE.md` i les mencions «N posts» (`CLAUDE.md` + comentari de `config.yml`); recompte verificat a **3.017** posts i **19** carpetes d'anys (la doc en deia 20) | ~1 h | `c2755fc377` |
 | 25/10 | — | **ALT a les cobertes**: `cover.alt` (amb recaiguda al títol) a la portada, «Avui fa…», mosaic per autor i `/projectes/`; camps nous al CMS (`alt`, `header_image` + `header_image_alt`) a les 19 col·leccions d'articles | ~1 h 15 min | `ffac82cb5c`, `290ff73dd5` |
 | 25/10 | — | **Articles destacats**: la casella del CMS («Destaca'l al capdamunt») es desa com a `weight: -1` perquè `.Paginate` ignora qualsevol altre ordre; el post del 36è concurs queda primer a la portada | (inclòs a dalt) | `ffac82cb5c` |
 | 25/10 | — | **Guia per a editors**: ALT de la foto principal i com destacar un article a `/guia/publicar-article.html` | ~20 min | `b5a2d49e3b` |
@@ -109,7 +110,7 @@ Els dies anteriors al 25/09 només tenen el total al registre diari (el detall h
 
 | Data | Temps | Registre |
 |---|---|---|
-| 26/10 | ~15 min (tancament: documentació i sincronització) | [2026-10-26.md](2026-10-26.md) |
+| 26/10 | ~1 h 15 min (tancament ~15 min + recompte automàtic de posts ~1 h) | [2026-10-26.md](2026-10-26.md) |
 | 25/10 | ~1 h 50 min (sessió de matí, ~09:50–11:40, estimat) | [2026-10-25.md](2026-10-25.md) |
 | 30/09 | ~1 h 12 min (sessió de matí, ~09:28–10:40) | [2026-09-30.md](2026-09-30.md) |
 | 28/09 | ~3 h 05 min (sessió al núvol, 08:35–11:40, inici estimat) | [2026-09-28.md](2026-09-28.md) |
