@@ -3,6 +3,22 @@
 Notes detallades de les sessions de treball, des del 2026-09-17.
 Per a l'estat actual i la configuració del projecte, vegeu [`CLAUDE.md`](../CLAUDE.md).
 
+## Sessió 2026-10-25 — ALT a les cobertes i articles destacats a la portada
+
+- **Punt de partida**: `main` era 9 commits enrere de `github/main` (fast-forward a `60e08eb51b`, arbre net). Recompte: 3.010 posts.
+- **Pop-up CTA del concurs**: l'usuari el va demanar i després el va descartar. Ja existeix un avís del concurs (`layouts/_partials/avis-concurs.html`): banner inferior que entra sol, s'amaga al cap de 5 s i queda com a pestanya lateral que es reobre amb un clic; un cop per sessió i mai a `/concurs/`. No s'hi va tocar res.
+- **ALT de les fotografies destacades**: el tema ja llegia `cover.alt` (`themes/PaperMod/layouts/_partials/cover.html`), però les plantilles pròpies fixaven `alt` = títol. Ara `cover.alt` (amb recaiguda al títol) s'usa a `layouts/index.html` (mosaic i «Avui fa…»), `layouts/author/term.html` i `layouts/projectes/single.html`. Cap dels 3.010 posts existents canvia si no té el camp.
+- **Destacar un article**: provades tres vies (`where`+`complement`+`append`, `slice` manual i `sort "Params.pinned" "desc"`); **cap funciona perquè `.Paginate` reordena la col·lecció que rep** per l'ordre per defecte. La solució és el `weight` de Hugo (pes abans que data): `pinned: true` + `weight: -1`. El hook `preSave` de `static/admin/index.html` tradueix la casella del CMS al `weight` i el treu en desmarcar-la. Només afecta la portada (arxiu, etiquetes i llistes per autor continuen per data).
+- **CMS**: `alt` dins de «Fotografia principal», `header_image` + `header_image_alt` i la casella `pinned`, a les 19 col·leccions d'articles (31 col·leccions en total, YAML validat).
+- **Concurs destacat**: el post del 36è Cordoncillo queda amb `pinned: true` + `weight: -1` i `cover.alt: Logotip de 9 Barris Imatge` (ALT dictat per l'usuari).
+- **Guia per editors**: a `/guia/publicar-article.html`, dues files noves a la taula de camps, seccions «Text alternatiu (ALT) de la foto» i «Destacar un article al capdamunt de la portada», i un error freqüent nou.
+- **Desplegaments**: workflows `40183668686` i `40185530665` en success. Verificat en viu: la portada té 8 targetes amb el concurs com a primera, l'ALT nou a la imatge i la guia publicada.
+- **Verificació del CMS (26/10)**: dos posts creats des del gestor (`2026-10-24 Date una Huerta` i `2026-10-25 Festival de Sopes`) ja porten `cover.alt`, `header_image_alt` i `pinned: false` i **cap `weight`**: el hook `preSave` deixa desar sense trencar res i treu el `weight` quan la casella no està marcada. Els dos ALT es veuen al mosaic. Queda provar la casella **marcada** des del CMS (el concurs es va fixar a mà).
+- **Pendent**: la foto de capçal (`header_image`) no s'ha documentat a la guia perquè no es va demanar.
+- **Tasques**: cap tasca de la llista tancada. Registre horari a `.taques/2026-10-25.md` i `.taques/2026-10-26.md`.
+
+---
+
 ## Sessió 2026-10-04 (vespre) — Miniatures de portada i cobertes externes mortes
 
 - **Diagnòstic**: el mosaic de la portada (`layouts/index.html`) carregava l'original de `cover.image`, sense miniatures generades (les imatges viuen a `static/`, que Hugo no processa). Les 3 entrades més noves (29/09 i 01/10) apuntaven a originals de `static/images/` (512 KB PNG, 400 KB JPG i 156 KB WebP), mentre la resta de `covers/` feien 23–225 KB. La portada pesava ~1,5 MB.

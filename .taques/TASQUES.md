@@ -42,6 +42,9 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 
 | Data | ID | Tasca | Temps | Commit |
 |---|---|---|---|---|
+| 25/10 | — | **ALT a les cobertes**: `cover.alt` (amb recaiguda al títol) a la portada, «Avui fa…», mosaic per autor i `/projectes/`; camps nous al CMS (`alt`, `header_image` + `header_image_alt`) a les 19 col·leccions d'articles | ~1 h 15 min | `ffac82cb5c`, `290ff73dd5` |
+| 25/10 | — | **Articles destacats**: la casella del CMS («Destaca'l al capdamunt») es desa com a `weight: -1` perquè `.Paginate` ignora qualsevol altre ordre; el post del 36è concurs queda primer a la portada | (inclòs a dalt) | `ffac82cb5c` |
+| 25/10 | — | **Guia per a editors**: ALT de la foto principal i com destacar un article a `/guia/publicar-article.html` | ~20 min | `b5a2d49e3b` |
 | 04/10 | — | **Miniatures de portada i cobertes externes mortes**: les 3 cobertes noves passen a WebP 640 px (−90% de pes a la portada) i s'auditen les 19 cobertes externes (6 recuperades, 13 sense coberta amb placeholder) | ~1 h 30 min | `d3b79bef9c`, `cac4f3a152` |
 | 04/10 | — | **Script `scripts/publish-taro.sh`**: publica una versió nova de Taro a Codeberg (build de verificació + snapshot d'un sol commit + `push --force` + tag `vX.Y.Z`), amb `DRY_RUN=1` | ~15 min | `81c0bc2490` |
 | 04/10 | T-32 | **Distribució de Taro a LinuxBCN**: la documentació del distribuïble i la pàgina `/ca/projectes/taro-photo-app/` ja s'apunten mútuament; la pàgina és en línia amb el repositori nou | ~30 min | `5a09705` |
@@ -106,6 +109,8 @@ Els dies anteriors al 25/09 només tenen el total al registre diari (el detall h
 
 | Data | Temps | Registre |
 |---|---|---|
+| 26/10 | ~15 min (tancament: documentació i sincronització) | [2026-10-26.md](2026-10-26.md) |
+| 25/10 | ~1 h 50 min (sessió de matí, ~09:50–11:40, estimat) | [2026-10-25.md](2026-10-25.md) |
 | 30/09 | ~1 h 12 min (sessió de matí, ~09:28–10:40) | [2026-09-30.md](2026-09-30.md) |
 | 28/09 | ~3 h 05 min (sessió al núvol, 08:35–11:40, inici estimat) | [2026-09-28.md](2026-09-28.md) |
 | 27/09 | ~5 h 41 min (sessió 2 ~4 h 55 min + sessió 3 46 min) | [2026-09-27.md](2026-09-27.md) |

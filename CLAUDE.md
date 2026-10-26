@@ -123,6 +123,8 @@ gestio/RECERCA.md               # recerca: fotògrafs de NB, cronologia concurs 
 
 - **Posts**: `title`, `date` (ISO), `year` (any), `author`, `slug` (obligatori, estable), `tags` (llista), `cover.image` (opcional, `/images/covers/…`), `album_url` (opcional), `videos` (opcional, llista d'URLs de YouTube o Vimeo), `description` (opcional = meta SEO), `seoTitle` (opcional = títol SEO sense prefix data)
 - **Cobertes**: `cover.image` ha d'apuntar sempre a una miniatura WebP de com a màxim 640 px dins `/images/covers/` (no a un original de `/images/`); si no, la portada carrega imatges molt més pesades
+- **ALT**: `cover.alt` (opcional) és el text alternatiu de la foto principal; si falta, s'usa el títol. El mateix ALT surt a la portada, a «Avui fa…», a les llistes per autor i a `/projectes/`. `header_image` + `header_image_alt` (opcionals) mostren una foto de capçal a l'article
+- **Destacat**: `pinned: true` + `weight: -1` posen l'article primer al mosaic de la portada. El `weight` és imprescindible: `.Paginate` reordena la col·lecció que rep per l'ordre per defecte (pes → data), així que `sort`/`where`/concatenacions a la plantilla no serveixen. Només afecta la portada
 - **Pàgines**: `title`, `description`, `url` (ruta final explícita)
 - **Guia**: `robotsNoIndex: true` + `hiddenInRss: true` + `sitemap.disable: true`
 - **Documentació**: `draft: true`
@@ -137,6 +139,7 @@ gestio/RECERCA.md               # recerca: fotògrafs de NB, cronologia concurs 
 - **Rail propi** (`static/admin/index.html`): lateral nativa amagada (`#nc-root .primary-sidebar { display:none !important }` + `MutationObserver`); `<aside class="cms-rail">` amb desplegable d'anys 2026→2008, «Documentació interna» (→ `/admin/intern/`), Àlbums (per login a `CMS_ALBUMS`), Administració.
 - **`CMS_AUTHORS`**: mapeja login GitHub → nom d'autor (hook `preSave`). Cal afegir cada editor nou.
 - **`CMS_ALBUMS`**: mapeja login → col·lecció de recuperació. Ara: `112books` → `recuperacio-joan-linux`.
+- **ALT i destacat** (2026-10-25): a les 19 col·leccions d'articles, «Fotografia principal» porta el camp `alt`, i hi ha `header_image` + `header_image_alt` i la casella `pinned`. El hook `preSave` de `static/admin/index.html` desa `pinned` com a `weight: -1` (i el treu en desmarcar-la). Guia per editors: «Text alternatiu (ALT) de la foto» i «Destacar un article al capdamunt de la portada» a `/guia/publicar-article.html`.
 - **Camp «Vídeos»**: a les 19 col·leccions d'articles, `videos` (llista opcional d'URLs de YouTube o Vimeo); `layouts/_partials/extend_post_content.html` en renderitza un reproductor responsiu per element, al final de l'article, i encara accepta el camp antic `video` (singular). Immune a l'editor enriquit. Guia pública: secció «Vídeos de YouTube o Vimeo».
 - **Sense peu propi**: el peu del CMS (filet vermell + CC + «Powered by LinuxBCN…») es va eliminar el 2026-10-01 (commit `cfd0e3ba86`) perquè xocava amb l'editor del cos; el CSS mort que quedava a `/admin/intern/` es va treure el 2026-10-02.
 
