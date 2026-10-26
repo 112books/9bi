@@ -46,7 +46,7 @@ Lloc web estàtic del **Col·lectiu 9 Barris Imatge** (Barcelona), migrat de Blo
 - Remotes locals: `github` = GitHub (`https://github.com/112books/9bi.git`, producció); `taro` = Codeberg (`ssh://git@codeberg.org/linuxbcn/taro-photo-app.git`, distribuïble); `origin` apunta al repo vell `linuxbcn/9bi`, **esborrat el 2026-10-04**.
 - **Taro Photo App (distribució)**: `https://codeberg.org/linuxbcn/taro-photo-app` (`main` + tags `v1.0.0`, `v1.0.1`). Repositori net amb el web, el bundle `modules/taro/`, el mòdul opcional de Telegram, `INSTALL.md` i `CHANGELOG.md`, sense contingut ni dades del 9bi. Branca local de treball `taro-neta` (worktree `tmp/taro-neta`); es publica amb `scripts/publish-taro.sh X.Y.Z`.
 - Tema PaperMod vendored a `themes/PaperMod/`.
-- **Posts actuals**: 3.010 (3.006 migrats de Blogger + 4 articles nous), 20 carpetes d'anys (2008–2026).
+- **Posts actuals**: 3.017 (3.006 migrats de Blogger + 11 articles nous), 19 carpetes d'anys (2008–2026).
 
 ## Comandes
 
@@ -54,6 +54,7 @@ Lloc web estàtic del **Col·lectiu 9 Barris Imatge** (Barcelona), migrat de Blo
 - Build: `hugo --minify` → `public/`
 - Stats locals: `python3 scripts/fetch_9bi_analytics.py` (requereix `GOATCOUNTER_API_KEY`)
 - Més visitats: `python3 scripts/goatcounter_popular.py --days 30` (requereix `GOATCOUNTER_API_KEY`)
+- Recompte de posts: `python3 scripts/actualitza_recompte.py` (`--dry-run` per veure-ho sense escriure); el CI també l'executa en cada publicació
 - Publicar Taro: `scripts/publish-taro.sh X.Y.Z [nota]` (build + snapshot d'un commit + push a Codeberg; `DRY_RUN=1` per comprovar-ho sense publicar)
 
 ## Versions (verificades)
@@ -135,7 +136,7 @@ gestio/RECERCA.md               # recerca: fotògrafs de NB, cronologia concurs 
 - `media_folder: static/images` · `public_folder: /images`
 - **31 col·leccions**: 19 d'articles per any (`posts-YYYY`, carpetes físiques `content/posts/YYYY/`, `sortable_fields: date desc`), `web-pages` (13 pàgines fixes, camps tècnics com a `hidden`), `guia`, `projectes` (`content/projectes/{{slug}}/index.md`, sessions com a llista), `membres`, 8 col·leccions «Àlbums per arreglar».
 - **Gestor intern** `static/admin/intern/` (repo **privat** `112books/9bi-intern`): col·leccions `actes` (assistents, acords, tasques amb `id`/estat, visibilitat) i `concurs`, i `tasques.html` (tasques obertes llegides per l'API de GitHub amb el token de la sessió). Detall a `gestio/SESSIONSLOG.md` (2026-09-30 v2).
-- **Cap col·lecció «Tots els articles»**: els 3.010 posts feien trigar el carregament; s'usa la cerca immediata del Sveltia.
+- **Cap col·lecció «Tots els articles»**: els 3.017 posts feien trigar el carregament; s'usa la cerca immediata del Sveltia.
 - **Rail propi** (`static/admin/index.html`): lateral nativa amagada (`#nc-root .primary-sidebar { display:none !important }` + `MutationObserver`); `<aside class="cms-rail">` amb desplegable d'anys 2026→2008, «Documentació interna» (→ `/admin/intern/`), Àlbums (per login a `CMS_ALBUMS`), Administració.
 - **`CMS_AUTHORS`**: mapeja login GitHub → nom d'autor (hook `preSave`). Cal afegir cada editor nou.
 - **`CMS_ALBUMS`**: mapeja login → col·lecció de recuperació. Ara: `112books` → `recuperacio-joan-linux`.
@@ -146,7 +147,8 @@ gestio/RECERCA.md               # recerca: fotògrafs de NB, cronologia concurs 
 ## CI/CD (`.github/workflows/deploy.yml`)
 
 - Trigger: **push a `main`** + cron `0 */6 * * *` (cada 6 h per refrescar /stats/) + `workflow_dispatch`
-- Steps: checkout → Hugo 0.164.0 → `fetch_9bi_analytics.py` (si `GOATCOUNTER_API_KEY`) → `goatcounter_popular.py` → `hugo --minify --environment production` → deploy GitHub Pages
+- Steps: checkout → Hugo 0.164.0 → `actualitza_recompte.py` → `fetch_9bi_analytics.py` (si `GOATCOUNTER_API_KEY`) → `goatcounter_popular.py` → `hugo --minify --environment production` → deploy GitHub Pages → commit del recompte (si ha canviat)
+- **Recompte automàtic** (2026-10-25): `scripts/actualitza_recompte.py` reescriu la línia «Posts actuals» de `CLAUDE.md` i les mencions «N posts» (`CLAUDE.md` + comentari de `static/admin/config.yml`). El CI el passa a cada publicació i desa el resultat amb `GITHUB_TOKEN` (step `continue-on-error`, que no torna a disparar el workflow; fa `pull --rebase` si el CMS ha publicat mentrestant).
 - **Avisos no bloquejants**: Node.js 20 obsolet a les accions; `ubuntu-latest` migrarà a Ubuntu 26 el 19/10/2026. (T-21 pendent: SHA-pin de les accions.)
 
 ## Servidor (Dinahosting — `linuxbcn0`)
@@ -167,7 +169,7 @@ gestio/RECERCA.md               # recerca: fotògrafs de NB, cronologia concurs 
 - **Col·lectiu, mai «associació»**: el nom legal és «Col·lectiu 9 Barris Imatge».
 - **Slug estable**: el camp `slug` no s'ha de tocar un cop publicat; el canvi trenca l'URL. Hi ha un avís al CMS i un hook que el recupera si queda buit.
 - **Antics membres** (no «veterans»): el terme per al grup `actiu: false`.
-- **No hi ha col·lecció «Tots els articles»** al CMS: massa lent amb 3.010 posts.
+- **No hi ha col·lecció «Tots els articles»** al CMS: massa lent amb 3.017 posts.
 - **`analytics.json` al repo és el fallback**: la versió desplegada es genera en cada CI run. Si GoatCounter retorna buit, el script **conserva el fitxer existent** (no actualitza). Diagnòstic si /stats/ va enrere: comprovar el secret `GOATCOUNTER_API_KEY` a GitHub Actions i els logs del workflow.
 - **Codeberg = distribució de Taro, no backup**: la producció del web és GitHub. Codeberg allotja el distribuïble `linuxbcn/taro-photo-app` (repo nou i lleuger, snapshot d'un sol commit per versió); el vell `linuxbcn/9bi` es va esborrar el 2026-10-04.
 
