@@ -32,7 +32,7 @@ Omple el formulari de sota amb el teu nom d'usuari de GitHub i les teves dades. 
   <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" class="contact-honeypot">
 
   <label for="nom-complet">Nom complet <span aria-hidden="true">*</span></label>
-  <input id="nom-complet" type="text" name="nom_complet" required autocomplete="name" placeholder="Joan Martínez i Serres">
+  <input id="nom-complet" type="text" name="nom_complet" required autocomplete="name" placeholder="Pepeta López">
 
   <label for="nom-artistic">Nom artístic o malnom (com vols que aparegui al web)</label>
   <input id="nom-artistic" type="text" name="nom_artistic" autocomplete="nickname" placeholder="Joan Linux, Ulls, Pedro Click… o deixa-ho en blanc si vols el nom real">
