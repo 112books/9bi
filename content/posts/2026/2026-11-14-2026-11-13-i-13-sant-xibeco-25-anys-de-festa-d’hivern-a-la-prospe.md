@@ -6,7 +6,7 @@ slug: 2026-11-13-i-13-sant-xibeco-25-anys-de-festa-d’hivern-a-la-prospe
 author: Joan "Linux" Martínez i Serres
 cover:
   image: /images/DSCF9452.jpg
-  alt: Un "costalero" patint a tope traginant Sant Xibeco
+  alt: Un «costalero» patint de valent mentre carrega el Sant Xibeco.
 header_image: /images/DSCF9362.jpg
 header_image_alt: MOment del "pasabares" dins les festes d'hivern de Sant Xibeco al barri de la Prosperitat (nou barris)
 pinned: false
