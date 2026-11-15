@@ -32,7 +32,7 @@ La fitxa de l'article té aquests camps, **en aquest mateix ordre**. A cada fila
 | **Autor** | El nom que signa l'article: surt al peu de l'entrada, a la pàgina de l'autor i a les fitxes de projectes. Si el teu compte de GitHub ja està donat d'alta, et surt posat i no l'has de tocar. |
 | **Fotografia principal** | La foto que encapçala l'article: es veu al mosaic de la portada, a «Avui fa…», a les llistes per autor i a l'article. La puges amb el botó d'imatge del camp «Imatge». |
 | **Text alternatiu (ALT)** | Dins de «Fotografia principal»: descripció curta del que es veu a la foto. La fan servir els lectors de pantalla i els cercadors. Si el deixes buit, s'usa el títol. |
-| **Foto de capçal de l'article (opcional)** | Una foto gran a tot l'ample, just sota el títol de l'article. No és la foto de portada: si la deixes buida, l'article simplement no en mostra cap. |
+| **Foto de capçal de l'article (opcional)** | Una foto gran a tot l'ample, just sota el títol de l'article. No és la foto de portada: si la deixes buida, l'article simplement no en mostra cap. Si hi poses la mateixa foto que a «Fotografia principal», la veuràs **dues vegades**. |
 | **Text alternatiu de la foto de capçal (ALT)** | La descripció de la foto de capçal, per als lectors de pantalla i els cercadors. Si el deixes buit, s'usa el títol. |
 | **Destaca'l al capdamunt de la portada** | Marca-ho només si l'article ha de sortir el primer al mosaic de la portada (per exemple, el concurs mentre és vigent). Desmarca-ho quan deixi de ser-ho. |
 | **Enllaç a l'àlbum de fotos** | L'enllaç públic de l'àlbum sencer (vegeu les guies de cada plataforma). És el que fa aparèixer el botó «Veure tot l'àlbum de fotos» al final de l'article. |
@@ -41,6 +41,19 @@ La fitxa de l'article té aquests camps, **en aquest mateix ordre**. A cada fila
 | **Títol SEO (opcional)** | El títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial. |
 | **Descripció (SEO, opcional)** | Resum que apareix a la llista, al RSS i com a meta descripció. Si el deixes buit, s'agafa un resum de l'article. |
 | **Cos de l'article** | El text: crònica, comentari de les imatges, agraïments… Admet Markdown (ho tens al punt següent). |
+
+### Quina foto va a cada lloc
+
+L'article té dos camps de foto i **no fan el mateix**. Aquesta és la diferència:
+{.guide-note}
+
+| Camp | On surt | Què hi va |
+|---|---|---|
+| **Fotografia principal** (amb el seu ALT) | Al mosaic de la portada del web, a les llistes per autor, a «Avui fa…», al RSS, a la imatge que es veu en compartir l'enllaç i com a figura gran a l'inici de l'article | La foto de portada: una de sola i lleugera (uns 640 px d'amplada) |
+| **Foto de capçal de l'article** (opcional) | Només dins de l'article, a tot l'ample i just sota el títol | Una foto **diferent**, pensada per a tota l'amplada. Si hi poses la mateixa que la principal, la veuràs dues vegades |
+
+Si només tens una foto, omple **«Fotografia principal»** i deixa la foto de capçal buida.
+{.guide-note}
 
 ## 4. Escriviu el text (Markdown)
 
@@ -71,6 +84,7 @@ El camp **«Foto de capçal de l'article»** mostra una foto gran, a tot l'ample
 
 - Si no n'hi poses cap, l'article no mostra cap foto de capçal i queda com sempre.
 - Serveix per a reportatges on vols obrir amb una imatge panoràmica, sense que aquesta hagi de fer de portada a la portada del web.
+- Si hi poses la mateixa foto que a «Fotografia principal», surt dues vegades dins de l'article: la figura de portada i la capçal.
 
 ### Destacar un article al capdamunt de la portada
 

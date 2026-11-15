@@ -111,7 +111,7 @@
      "name": "cover",
      "widget": "object",
      "required": false,
-     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "hint": "La foto de portada: surt al mosaic de la portada del web, a les llistes i com a imatge gran a l'inici de l'article. Puja-la lleugera (uns 640 px d'amplada).",
      "fields": [
       {
        "label": "Imatge",
@@ -132,7 +132,7 @@
      "name": "header_image",
      "widget": "image",
      "required": false,
-     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+     "hint": "Una foto diferent de la de portada: surt només dins de l'article, a tot l'ample, sota el títol. Si hi poses la mateixa que a «Fotografia principal», la veuràs dues vegades. Deixa-ho buit si no en vols cap."
     },
     {
      "label": "Text alternatiu de la foto de capçal (ALT)",
@@ -269,7 +269,7 @@
      "name": "cover",
      "widget": "object",
      "required": false,
-     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "hint": "La foto de portada: surt al mosaic de la portada del web, a les llistes i com a imatge gran a l'inici de l'article. Puja-la lleugera (uns 640 px d'amplada).",
      "fields": [
       {
        "label": "Imatge",
@@ -290,7 +290,7 @@
      "name": "header_image",
      "widget": "image",
      "required": false,
-     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+     "hint": "Una foto diferent de la de portada: surt només dins de l'article, a tot l'ample, sota el títol. Si hi poses la mateixa que a «Fotografia principal», la veuràs dues vegades. Deixa-ho buit si no en vols cap."
     },
     {
      "label": "Text alternatiu de la foto de capçal (ALT)",
@@ -427,7 +427,7 @@
      "name": "cover",
      "widget": "object",
      "required": false,
-     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "hint": "La foto de portada: surt al mosaic de la portada del web, a les llistes i com a imatge gran a l'inici de l'article. Puja-la lleugera (uns 640 px d'amplada).",
      "fields": [
       {
        "label": "Imatge",
@@ -448,7 +448,7 @@
      "name": "header_image",
      "widget": "image",
      "required": false,
-     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+     "hint": "Una foto diferent de la de portada: surt només dins de l'article, a tot l'ample, sota el títol. Si hi poses la mateixa que a «Fotografia principal», la veuràs dues vegades. Deixa-ho buit si no en vols cap."
     },
     {
      "label": "Text alternatiu de la foto de capçal (ALT)",
@@ -585,7 +585,7 @@
      "name": "cover",
      "widget": "object",
      "required": false,
-     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "hint": "La foto de portada: surt al mosaic de la portada del web, a les llistes i com a imatge gran a l'inici de l'article. Puja-la lleugera (uns 640 px d'amplada).",
      "fields": [
       {
        "label": "Imatge",
@@ -606,7 +606,7 @@
      "name": "header_image",
      "widget": "image",
      "required": false,
-     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+     "hint": "Una foto diferent de la de portada: surt només dins de l'article, a tot l'ample, sota el títol. Si hi poses la mateixa que a «Fotografia principal», la veuràs dues vegades. Deixa-ho buit si no en vols cap."
     },
     {
      "label": "Text alternatiu de la foto de capçal (ALT)",
@@ -743,7 +743,7 @@
      "name": "cover",
      "widget": "object",
      "required": false,
-     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "hint": "La foto de portada: surt al mosaic de la portada del web, a les llistes i com a imatge gran a l'inici de l'article. Puja-la lleugera (uns 640 px d'amplada).",
      "fields": [
       {
        "label": "Imatge",
@@ -764,7 +764,7 @@
      "name": "header_image",
      "widget": "image",
      "required": false,
-     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+     "hint": "Una foto diferent de la de portada: surt només dins de l'article, a tot l'ample, sota el títol. Si hi poses la mateixa que a «Fotografia principal», la veuràs dues vegades. Deixa-ho buit si no en vols cap."
     },
     {
      "label": "Text alternatiu de la foto de capçal (ALT)",
@@ -901,7 +901,7 @@
      "name": "cover",
      "widget": "object",
      "required": false,
-     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "hint": "La foto de portada: surt al mosaic de la portada del web, a les llistes i com a imatge gran a l'inici de l'article. Puja-la lleugera (uns 640 px d'amplada).",
      "fields": [
       {
        "label": "Imatge",
@@ -922,7 +922,7 @@
      "name": "header_image",
      "widget": "image",
      "required": false,
-     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+     "hint": "Una foto diferent de la de portada: surt només dins de l'article, a tot l'ample, sota el títol. Si hi poses la mateixa que a «Fotografia principal», la veuràs dues vegades. Deixa-ho buit si no en vols cap."
     },
     {
      "label": "Text alternatiu de la foto de capçal (ALT)",
@@ -1059,7 +1059,7 @@
      "name": "cover",
      "widget": "object",
      "required": false,
-     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "hint": "La foto de portada: surt al mosaic de la portada del web, a les llistes i com a imatge gran a l'inici de l'article. Puja-la lleugera (uns 640 px d'amplada).",
      "fields": [
       {
        "label": "Imatge",
@@ -1080,7 +1080,7 @@
      "name": "header_image",
      "widget": "image",
      "required": false,
-     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+     "hint": "Una foto diferent de la de portada: surt només dins de l'article, a tot l'ample, sota el títol. Si hi poses la mateixa que a «Fotografia principal», la veuràs dues vegades. Deixa-ho buit si no en vols cap."
     },
     {
      "label": "Text alternatiu de la foto de capçal (ALT)",
@@ -1217,7 +1217,7 @@
      "name": "cover",
      "widget": "object",
      "required": false,
-     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "hint": "La foto de portada: surt al mosaic de la portada del web, a les llistes i com a imatge gran a l'inici de l'article. Puja-la lleugera (uns 640 px d'amplada).",
      "fields": [
       {
        "label": "Imatge",
@@ -1238,7 +1238,7 @@
      "name": "header_image",
      "widget": "image",
      "required": false,
-     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+     "hint": "Una foto diferent de la de portada: surt només dins de l'article, a tot l'ample, sota el títol. Si hi poses la mateixa que a «Fotografia principal», la veuràs dues vegades. Deixa-ho buit si no en vols cap."
     },
     {
      "label": "Text alternatiu de la foto de capçal (ALT)",
@@ -1375,7 +1375,7 @@
      "name": "cover",
      "widget": "object",
      "required": false,
-     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "hint": "La foto de portada: surt al mosaic de la portada del web, a les llistes i com a imatge gran a l'inici de l'article. Puja-la lleugera (uns 640 px d'amplada).",
      "fields": [
       {
        "label": "Imatge",
@@ -1396,7 +1396,7 @@
      "name": "header_image",
      "widget": "image",
      "required": false,
-     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+     "hint": "Una foto diferent de la de portada: surt només dins de l'article, a tot l'ample, sota el títol. Si hi poses la mateixa que a «Fotografia principal», la veuràs dues vegades. Deixa-ho buit si no en vols cap."
     },
     {
      "label": "Text alternatiu de la foto de capçal (ALT)",
@@ -1533,7 +1533,7 @@
      "name": "cover",
      "widget": "object",
      "required": false,
-     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "hint": "La foto de portada: surt al mosaic de la portada del web, a les llistes i com a imatge gran a l'inici de l'article. Puja-la lleugera (uns 640 px d'amplada).",
      "fields": [
       {
        "label": "Imatge",
@@ -1554,7 +1554,7 @@
      "name": "header_image",
      "widget": "image",
      "required": false,
-     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+     "hint": "Una foto diferent de la de portada: surt només dins de l'article, a tot l'ample, sota el títol. Si hi poses la mateixa que a «Fotografia principal», la veuràs dues vegades. Deixa-ho buit si no en vols cap."
     },
     {
      "label": "Text alternatiu de la foto de capçal (ALT)",
@@ -1691,7 +1691,7 @@
      "name": "cover",
      "widget": "object",
      "required": false,
-     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "hint": "La foto de portada: surt al mosaic de la portada del web, a les llistes i com a imatge gran a l'inici de l'article. Puja-la lleugera (uns 640 px d'amplada).",
      "fields": [
       {
        "label": "Imatge",
@@ -1712,7 +1712,7 @@
      "name": "header_image",
      "widget": "image",
      "required": false,
-     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+     "hint": "Una foto diferent de la de portada: surt només dins de l'article, a tot l'ample, sota el títol. Si hi poses la mateixa que a «Fotografia principal», la veuràs dues vegades. Deixa-ho buit si no en vols cap."
     },
     {
      "label": "Text alternatiu de la foto de capçal (ALT)",
@@ -1849,7 +1849,7 @@
      "name": "cover",
      "widget": "object",
      "required": false,
-     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "hint": "La foto de portada: surt al mosaic de la portada del web, a les llistes i com a imatge gran a l'inici de l'article. Puja-la lleugera (uns 640 px d'amplada).",
      "fields": [
       {
        "label": "Imatge",
@@ -1870,7 +1870,7 @@
      "name": "header_image",
      "widget": "image",
      "required": false,
-     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+     "hint": "Una foto diferent de la de portada: surt només dins de l'article, a tot l'ample, sota el títol. Si hi poses la mateixa que a «Fotografia principal», la veuràs dues vegades. Deixa-ho buit si no en vols cap."
     },
     {
      "label": "Text alternatiu de la foto de capçal (ALT)",
@@ -2007,7 +2007,7 @@
      "name": "cover",
      "widget": "object",
      "required": false,
-     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "hint": "La foto de portada: surt al mosaic de la portada del web, a les llistes i com a imatge gran a l'inici de l'article. Puja-la lleugera (uns 640 px d'amplada).",
      "fields": [
       {
        "label": "Imatge",
@@ -2028,7 +2028,7 @@
      "name": "header_image",
      "widget": "image",
      "required": false,
-     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+     "hint": "Una foto diferent de la de portada: surt només dins de l'article, a tot l'ample, sota el títol. Si hi poses la mateixa que a «Fotografia principal», la veuràs dues vegades. Deixa-ho buit si no en vols cap."
     },
     {
      "label": "Text alternatiu de la foto de capçal (ALT)",
@@ -2165,7 +2165,7 @@
      "name": "cover",
      "widget": "object",
      "required": false,
-     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "hint": "La foto de portada: surt al mosaic de la portada del web, a les llistes i com a imatge gran a l'inici de l'article. Puja-la lleugera (uns 640 px d'amplada).",
      "fields": [
       {
        "label": "Imatge",
@@ -2186,7 +2186,7 @@
      "name": "header_image",
      "widget": "image",
      "required": false,
-     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+     "hint": "Una foto diferent de la de portada: surt només dins de l'article, a tot l'ample, sota el títol. Si hi poses la mateixa que a «Fotografia principal», la veuràs dues vegades. Deixa-ho buit si no en vols cap."
     },
     {
      "label": "Text alternatiu de la foto de capçal (ALT)",
@@ -2323,7 +2323,7 @@
      "name": "cover",
      "widget": "object",
      "required": false,
-     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "hint": "La foto de portada: surt al mosaic de la portada del web, a les llistes i com a imatge gran a l'inici de l'article. Puja-la lleugera (uns 640 px d'amplada).",
      "fields": [
       {
        "label": "Imatge",
@@ -2344,7 +2344,7 @@
      "name": "header_image",
      "widget": "image",
      "required": false,
-     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+     "hint": "Una foto diferent de la de portada: surt només dins de l'article, a tot l'ample, sota el títol. Si hi poses la mateixa que a «Fotografia principal», la veuràs dues vegades. Deixa-ho buit si no en vols cap."
     },
     {
      "label": "Text alternatiu de la foto de capçal (ALT)",
@@ -2481,7 +2481,7 @@
      "name": "cover",
      "widget": "object",
      "required": false,
-     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "hint": "La foto de portada: surt al mosaic de la portada del web, a les llistes i com a imatge gran a l'inici de l'article. Puja-la lleugera (uns 640 px d'amplada).",
      "fields": [
       {
        "label": "Imatge",
@@ -2502,7 +2502,7 @@
      "name": "header_image",
      "widget": "image",
      "required": false,
-     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+     "hint": "Una foto diferent de la de portada: surt només dins de l'article, a tot l'ample, sota el títol. Si hi poses la mateixa que a «Fotografia principal», la veuràs dues vegades. Deixa-ho buit si no en vols cap."
     },
     {
      "label": "Text alternatiu de la foto de capçal (ALT)",
@@ -2639,7 +2639,7 @@
      "name": "cover",
      "widget": "object",
      "required": false,
-     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "hint": "La foto de portada: surt al mosaic de la portada del web, a les llistes i com a imatge gran a l'inici de l'article. Puja-la lleugera (uns 640 px d'amplada).",
      "fields": [
       {
        "label": "Imatge",
@@ -2660,7 +2660,7 @@
      "name": "header_image",
      "widget": "image",
      "required": false,
-     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+     "hint": "Una foto diferent de la de portada: surt només dins de l'article, a tot l'ample, sota el títol. Si hi poses la mateixa que a «Fotografia principal», la veuràs dues vegades. Deixa-ho buit si no en vols cap."
     },
     {
      "label": "Text alternatiu de la foto de capçal (ALT)",
@@ -2797,7 +2797,7 @@
      "name": "cover",
      "widget": "object",
      "required": false,
-     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "hint": "La foto de portada: surt al mosaic de la portada del web, a les llistes i com a imatge gran a l'inici de l'article. Puja-la lleugera (uns 640 px d'amplada).",
      "fields": [
       {
        "label": "Imatge",
@@ -2818,7 +2818,7 @@
      "name": "header_image",
      "widget": "image",
      "required": false,
-     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+     "hint": "Una foto diferent de la de portada: surt només dins de l'article, a tot l'ample, sota el títol. Si hi poses la mateixa que a «Fotografia principal», la veuràs dues vegades. Deixa-ho buit si no en vols cap."
     },
     {
      "label": "Text alternatiu de la foto de capçal (ALT)",
@@ -2955,7 +2955,7 @@
      "name": "cover",
      "widget": "object",
      "required": false,
-     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "hint": "La foto de portada: surt al mosaic de la portada del web, a les llistes i com a imatge gran a l'inici de l'article. Puja-la lleugera (uns 640 px d'amplada).",
      "fields": [
       {
        "label": "Imatge",
@@ -2976,7 +2976,7 @@
      "name": "header_image",
      "widget": "image",
      "required": false,
-     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+     "hint": "Una foto diferent de la de portada: surt només dins de l'article, a tot l'ample, sota el títol. Si hi poses la mateixa que a «Fotografia principal», la veuràs dues vegades. Deixa-ho buit si no en vols cap."
     },
     {
      "label": "Text alternatiu de la foto de capçal (ALT)",
