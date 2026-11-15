@@ -10,7 +10,7 @@ cover:
 header_image: ''
 header_image_alt: Joni D. en un moment de la presentació del seu darrer llibre a Date una Huerta del barri de la Prosperitat
 pinned: false
-album_url: https://blog.pocallum.cat/2026/11/15/2026-11-15-presentacio%CC%81-del-llibre-ella-tamb%C3%A9-hi-era-de-jonhi-d./
+album_url: https://blog.pocallum.cat/2026/11/15/2026-11-15-presentacio%CC%81-del-llibre-ella-tamb%C3%A9-hi-era-de-joni-d./
 videos: []
 tags:
   - Joni D.
@@ -36,4 +36,4 @@ El passat 15 de novembre, l’Hort de la Prosperitat va acollir la presentació 
 
 Després de la presentació, la trobada va continuar a La Torrada, antic punt de referència del punk a la Prosperitat, que aleshores es coneixia com a Canastos Voladores.
 
-Podeu llegir la crònica i veure’n les fotografies al [blog de Poca Llum](https://blog.pocallum.cat/2026/11/15/2026-11-15-presentacio%CC%81-del-llibre-ella-tamb%C3%A9-hi-era-de-jonhi-d./).
+Podeu llegir la crònica i veure’n les fotografies al [blog de Poca Llum](https://blog.pocallum.cat/2026/11/15/2026-11-15-presentacio%CC%81-del-llibre-ella-tamb%C3%A9-hi-era-de-joni-d./).
