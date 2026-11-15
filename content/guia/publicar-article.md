@@ -124,7 +124,10 @@ Els dos camps opcionals de la part de baix de la fitxa són per als cercadors i 
 
 ### El pes de la foto principal
 
-La portada és un mosaic que carrega moltes fotos a la vegada: convé pujar la fotografia principal ja lleugera (una imatge de com a màxim 640 px d'amplada), no un original de càmera de diversos megues.
+La portada és un mosaic que carrega moltes fotos alhora, així que la imatge que hi surt ha de ser petita. No te n'has de preocupar: quan publiques, el web **genera tot sol una miniatura** de la fotografia principal (WebP de com a màxim 640 px d'amplada) i la fa servir a la portada i a les llistes.
+
+- Pots pujar l'original que tinguis: la miniatura es fa automàticament.
+- La foto gran de dins de l'article no es toca: si en vols una de grossa, posa-la a «Foto de capçal».
 {.guide-note}
 
 ## 5. Desa i publica

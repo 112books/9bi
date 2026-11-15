@@ -5,7 +5,7 @@ year: '2026'
 slug: la-prosperitat-plora-la-pèrdua-d’andrés-naya-referent-de-la-lluita-veïnal
 author: Joan "Linux" Martínez i Serres
 cover:
-  image: /images/photo_2026-10-07 15.25.25.jpeg
+  image: /images/covers/ace51c40eea3b56a.webp
 album_url: ''
 videos: []
 tags:

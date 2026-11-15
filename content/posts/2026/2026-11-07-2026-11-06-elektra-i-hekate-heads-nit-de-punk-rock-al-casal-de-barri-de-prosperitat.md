@@ -5,7 +5,7 @@ year: '2026'
 slug: 2026-11-06-elektra-i-hekate-heads-nit-de-punk-rock-al-casal-de-barri-de-prosperitat
 author: Joan "Linux" Martínez i Serres
 cover:
-  image: /images/DSCF9005.jpg
+  image: /images/covers/ea46fbb4439d45d2.webp
   alt: ''
 header_image: /images/DSCF8734.jpg
 header_image_alt: Les Elektra, jove banda del barri

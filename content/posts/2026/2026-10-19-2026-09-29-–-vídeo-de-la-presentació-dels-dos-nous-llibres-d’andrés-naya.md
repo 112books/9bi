@@ -5,7 +5,7 @@ year: '2026'
 slug: 2026-09-29-–-vídeo-de-la-presentació-dels-dos-nous-llibres-d’andrés-naya
 author: Joan "Linux" Martínez i Serres
 cover:
-  image: /images/Captura de pantalla 2026-10-19 a les 21.02.08.png
+  image: /images/covers/5be8bd64231ea7da.webp
 album_url: ''
 videos:
   - https://vimeo.com/1232409395

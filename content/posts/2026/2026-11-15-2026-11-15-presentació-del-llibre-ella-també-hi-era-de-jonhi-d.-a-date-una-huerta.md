@@ -5,7 +5,7 @@ year: '2026'
 slug: 2026-11-15-presentació-del-llibre-ella-també-hi-era-de-joni-d.-a-date-una-huerta
 author: Joan "Linux" Martínez i Serres
 cover:
-  image: /images/DSCF9767.jpg
+  image: /images/covers/ec02657193116be5.webp
   alt: ''
 header_image: ''
 header_image_alt: Joni D. en un moment de la presentació del seu darrer llibre a Date una Huerta del barri de la Prosperitat

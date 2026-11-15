@@ -5,7 +5,7 @@ year: '2026'
 slug: 2026-10-23-ciutat-batalla-2026-dansa-i-flamenco-a-nou-barris
 author: Joan "Linux" Martínez i Serres
 cover:
-  image: /images/IMG_5836.jpg
+  image: /images/covers/2b26223c708556b9.webp
 album_url: https://blog.pocallum.cat/2026/10/25/2026-10-23-ciutat-flamenco-ciutat-batalla/
 videos: []
 tags:

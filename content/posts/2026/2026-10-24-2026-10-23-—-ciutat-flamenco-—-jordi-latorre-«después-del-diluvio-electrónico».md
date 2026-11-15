@@ -5,7 +5,7 @@ year: '2026'
 slug: 2026-10-23-—-ciutat-flamenco-—-jordi-latorre-«después-del-diluvio-electrónico»
 author: Joan "Linux" Martínez i Serres
 cover:
-  image: /images/IMG_5189.jpg
+  image: /images/covers/e07e9eb911a8739f.webp
 album_url: ''
 videos: []
 tags:

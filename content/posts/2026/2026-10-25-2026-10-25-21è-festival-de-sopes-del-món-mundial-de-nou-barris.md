@@ -5,7 +5,7 @@ year: '2026'
 slug: 2026-10-25-21è-festival-de-sopes-del-món-mundial-de-nou-barris
 author: Joan "Linux" Martínez i Serres
 cover:
-  image: /images/DSCF8434.jpg
+  image: /images/covers/c174eab147469742.webp
   alt: Repartiment de les sopes preparades pels participants durant el 21è Festival de Sopes del Món Mundial de Nou Barris, celebrat al barri de Canyelles el 25 d’octubre de 2026.
 header_image: ''
 header_image_alt: Repartiment de les sopes preparades pels participants durant el 21è Festival de Sopes del Món Mundial de Nou Barris, celebrat al barri de Canyelles el 25 d’octubre de 2026.

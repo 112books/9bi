@@ -5,7 +5,7 @@ year: '2026'
 slug: 2026-10-16-–-sopar-d’entitats-al-casal-de-barri-de-prosperitat
 author: Joan "Linux" Martínez i Serres
 cover:
-  image: /images/DSCF7628.jpg
+  image: /images/covers/4e646f6d4917139f.webp
 album_url: https://photos.app.goo.gl/SoDQYeC1NGMqNqBJ6
 videos: []
 tags:
