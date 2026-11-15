@@ -1,0 +1,4346 @@
+{
+ "backend": {
+  "name": "github",
+  "repo": "112books/9bi",
+  "branch": "main"
+ },
+ "media_folder": "static/images",
+ "public_folder": "/images",
+ "x-autors": [
+  "Alberto Sanagustín",
+  "A.Sedano",
+  "Dani González",
+  "Francesc Barbe",
+  "Guillem",
+  "Héctor J. Oca",
+  "Ignasi",
+  "inma",
+  "Iozsef Kiss",
+  "Ismael Utrilla",
+  "Ivan",
+  "Joan \"Linux\" Martínez i Serres",
+  "Juan Carlos Molina (Grismedio Casinegro)",
+  "Manel Sala \"Ulls\" Circ",
+  "Manel Villalba",
+  "Nico YeYe",
+  "Núria Laura Orbaneja",
+  "pecalatrava",
+  "Pedro \"Casal\" Cervera",
+  "Pedro Click",
+  "petxina",
+  "Pili E. G.",
+  "sandra",
+  "9 Barris Imatge"
+ ],
+ "collections": [
+  {
+   "name": "posts-2026",
+   "label": "Articles · 2026",
+   "folder": "content/posts/2026",
+   "create": true,
+   "sortable_fields": {
+    "fields": [
+     "date",
+     "title"
+    ],
+    "default": {
+     "field": "date",
+     "direction": "descending"
+    }
+   },
+   "thumbnail": "cover.image",
+   "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+   "fields": [
+    {
+     "label": "Títol",
+     "name": "title",
+     "widget": "string"
+    },
+    {
+     "label": "Data de publicació",
+     "name": "date",
+     "widget": "datetime"
+    },
+    {
+     "label": "Any (el posa el sistema)",
+     "name": "year",
+     "widget": "hidden",
+     "default": "2026"
+    },
+    {
+     "label": "Adreça web de l'article (no tocar)",
+     "name": "slug",
+     "widget": "string",
+     "required": false,
+     "hint": "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur."
+    },
+    {
+     "label": "Autor",
+     "name": "author",
+     "widget": "select",
+     "options": [
+      "Alberto Sanagustín",
+      "A.Sedano",
+      "Dani González",
+      "Francesc Barbe",
+      "Guillem",
+      "Héctor J. Oca",
+      "Ignasi",
+      "inma",
+      "Iozsef Kiss",
+      "Ismael Utrilla",
+      "Ivan",
+      "Joan \"Linux\" Martínez i Serres",
+      "Juan Carlos Molina (Grismedio Casinegro)",
+      "Manel Sala \"Ulls\" Circ",
+      "Manel Villalba",
+      "Nico YeYe",
+      "Núria Laura Orbaneja",
+      "pecalatrava",
+      "Pedro \"Casal\" Cervera",
+      "Pedro Click",
+      "petxina",
+      "Pili E. G.",
+      "sandra",
+      "9 Barris Imatge"
+     ],
+     "default": "Joan \"Linux\" Martínez i Serres"
+    },
+    {
+     "label": "Fotografia principal",
+     "name": "cover",
+     "widget": "object",
+     "required": false,
+     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "fields": [
+      {
+       "label": "Imatge",
+       "name": "image",
+       "widget": "image"
+      },
+      {
+       "label": "Text alternatiu (ALT)",
+       "name": "alt",
+       "widget": "string",
+       "required": false,
+       "hint": "Descripció curta del que es veu a la foto, per als lectors de pantalla i els cercadors. Si el deixes buit, s'usa el títol de l'article."
+      }
+     ]
+    },
+    {
+     "label": "Foto de capçal de l'article (opcional)",
+     "name": "header_image",
+     "widget": "image",
+     "required": false,
+     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+    },
+    {
+     "label": "Text alternatiu de la foto de capçal (ALT)",
+     "name": "header_image_alt",
+     "widget": "string",
+     "required": false,
+     "hint": "Descripció curta de la foto de capçal. Si el deixes buit, s'usa el títol de l'article."
+    },
+    {
+     "label": "Destaca'l al capdamunt de la portada",
+     "name": "pinned",
+     "widget": "boolean",
+     "required": false,
+     "hint": "Marca-ho perquè aquest article surti el primer al mosaic de la portada (per exemple, el concurs mentre és vigent). Desmarca-ho quan ja no ho sigui."
+    },
+    {
+     "label": "Enllaç a l'àlbum de fotos",
+     "name": "album_url",
+     "widget": "string",
+     "required": false,
+     "hint": "Link a Google Photos o similar amb tot el reportatge."
+    },
+    {
+     "label": "Vídeos (YouTube o Vimeo)",
+     "name": "videos",
+     "widget": "list",
+     "required": false,
+     "hint": "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre."
+    },
+    {
+     "label": "Paraules clau (tags)",
+     "name": "tags",
+     "widget": "list",
+     "required": false,
+     "hint": "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la."
+    },
+    {
+     "label": "Títol SEO (opcional)",
+     "name": "seoTitle",
+     "widget": "string",
+     "required": false,
+     "hint": "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial."
+    },
+    {
+     "label": "Descripció (SEO, opcional)",
+     "name": "description",
+     "widget": "text",
+     "required": false,
+     "hint": "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article."
+    },
+    {
+     "label": "Cos de l'article",
+     "name": "body",
+     "widget": "markdown",
+     "hint": "Podeu fer servir links, llistes i negretes amb Markdown."
+    }
+   ]
+  },
+  {
+   "name": "posts-2025",
+   "label": "Articles · 2025",
+   "folder": "content/posts/2025",
+   "create": true,
+   "sortable_fields": {
+    "fields": [
+     "date",
+     "title"
+    ],
+    "default": {
+     "field": "date",
+     "direction": "descending"
+    }
+   },
+   "thumbnail": "cover.image",
+   "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+   "fields": [
+    {
+     "label": "Títol",
+     "name": "title",
+     "widget": "string"
+    },
+    {
+     "label": "Data de publicació",
+     "name": "date",
+     "widget": "datetime"
+    },
+    {
+     "label": "Any (el posa el sistema)",
+     "name": "year",
+     "widget": "hidden",
+     "default": "2025"
+    },
+    {
+     "label": "Adreça web de l'article (no tocar)",
+     "name": "slug",
+     "widget": "string",
+     "required": false,
+     "hint": "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur."
+    },
+    {
+     "label": "Autor",
+     "name": "author",
+     "widget": "select",
+     "options": [
+      "Alberto Sanagustín",
+      "A.Sedano",
+      "Dani González",
+      "Francesc Barbe",
+      "Guillem",
+      "Héctor J. Oca",
+      "Ignasi",
+      "inma",
+      "Iozsef Kiss",
+      "Ismael Utrilla",
+      "Ivan",
+      "Joan \"Linux\" Martínez i Serres",
+      "Juan Carlos Molina (Grismedio Casinegro)",
+      "Manel Sala \"Ulls\" Circ",
+      "Manel Villalba",
+      "Nico YeYe",
+      "Núria Laura Orbaneja",
+      "pecalatrava",
+      "Pedro \"Casal\" Cervera",
+      "Pedro Click",
+      "petxina",
+      "Pili E. G.",
+      "sandra",
+      "9 Barris Imatge"
+     ],
+     "default": "Joan \"Linux\" Martínez i Serres"
+    },
+    {
+     "label": "Fotografia principal",
+     "name": "cover",
+     "widget": "object",
+     "required": false,
+     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "fields": [
+      {
+       "label": "Imatge",
+       "name": "image",
+       "widget": "image"
+      },
+      {
+       "label": "Text alternatiu (ALT)",
+       "name": "alt",
+       "widget": "string",
+       "required": false,
+       "hint": "Descripció curta del que es veu a la foto, per als lectors de pantalla i els cercadors. Si el deixes buit, s'usa el títol de l'article."
+      }
+     ]
+    },
+    {
+     "label": "Foto de capçal de l'article (opcional)",
+     "name": "header_image",
+     "widget": "image",
+     "required": false,
+     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+    },
+    {
+     "label": "Text alternatiu de la foto de capçal (ALT)",
+     "name": "header_image_alt",
+     "widget": "string",
+     "required": false,
+     "hint": "Descripció curta de la foto de capçal. Si el deixes buit, s'usa el títol de l'article."
+    },
+    {
+     "label": "Destaca'l al capdamunt de la portada",
+     "name": "pinned",
+     "widget": "boolean",
+     "required": false,
+     "hint": "Marca-ho perquè aquest article surti el primer al mosaic de la portada (per exemple, el concurs mentre és vigent). Desmarca-ho quan ja no ho sigui."
+    },
+    {
+     "label": "Enllaç a l'àlbum de fotos",
+     "name": "album_url",
+     "widget": "string",
+     "required": false,
+     "hint": "Link a Google Photos o similar amb tot el reportatge."
+    },
+    {
+     "label": "Vídeos (YouTube o Vimeo)",
+     "name": "videos",
+     "widget": "list",
+     "required": false,
+     "hint": "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre."
+    },
+    {
+     "label": "Paraules clau (tags)",
+     "name": "tags",
+     "widget": "list",
+     "required": false,
+     "hint": "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la."
+    },
+    {
+     "label": "Títol SEO (opcional)",
+     "name": "seoTitle",
+     "widget": "string",
+     "required": false,
+     "hint": "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial."
+    },
+    {
+     "label": "Descripció (SEO, opcional)",
+     "name": "description",
+     "widget": "text",
+     "required": false,
+     "hint": "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article."
+    },
+    {
+     "label": "Cos de l'article",
+     "name": "body",
+     "widget": "markdown",
+     "hint": "Podeu fer servir links, llistes i negretes amb Markdown."
+    }
+   ]
+  },
+  {
+   "name": "posts-2024",
+   "label": "Articles · 2024",
+   "folder": "content/posts/2024",
+   "create": true,
+   "sortable_fields": {
+    "fields": [
+     "date",
+     "title"
+    ],
+    "default": {
+     "field": "date",
+     "direction": "descending"
+    }
+   },
+   "thumbnail": "cover.image",
+   "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+   "fields": [
+    {
+     "label": "Títol",
+     "name": "title",
+     "widget": "string"
+    },
+    {
+     "label": "Data de publicació",
+     "name": "date",
+     "widget": "datetime"
+    },
+    {
+     "label": "Any (el posa el sistema)",
+     "name": "year",
+     "widget": "hidden",
+     "default": "2024"
+    },
+    {
+     "label": "Adreça web de l'article (no tocar)",
+     "name": "slug",
+     "widget": "string",
+     "required": false,
+     "hint": "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur."
+    },
+    {
+     "label": "Autor",
+     "name": "author",
+     "widget": "select",
+     "options": [
+      "Alberto Sanagustín",
+      "A.Sedano",
+      "Dani González",
+      "Francesc Barbe",
+      "Guillem",
+      "Héctor J. Oca",
+      "Ignasi",
+      "inma",
+      "Iozsef Kiss",
+      "Ismael Utrilla",
+      "Ivan",
+      "Joan \"Linux\" Martínez i Serres",
+      "Juan Carlos Molina (Grismedio Casinegro)",
+      "Manel Sala \"Ulls\" Circ",
+      "Manel Villalba",
+      "Nico YeYe",
+      "Núria Laura Orbaneja",
+      "pecalatrava",
+      "Pedro \"Casal\" Cervera",
+      "Pedro Click",
+      "petxina",
+      "Pili E. G.",
+      "sandra",
+      "9 Barris Imatge"
+     ],
+     "default": "Joan \"Linux\" Martínez i Serres"
+    },
+    {
+     "label": "Fotografia principal",
+     "name": "cover",
+     "widget": "object",
+     "required": false,
+     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "fields": [
+      {
+       "label": "Imatge",
+       "name": "image",
+       "widget": "image"
+      },
+      {
+       "label": "Text alternatiu (ALT)",
+       "name": "alt",
+       "widget": "string",
+       "required": false,
+       "hint": "Descripció curta del que es veu a la foto, per als lectors de pantalla i els cercadors. Si el deixes buit, s'usa el títol de l'article."
+      }
+     ]
+    },
+    {
+     "label": "Foto de capçal de l'article (opcional)",
+     "name": "header_image",
+     "widget": "image",
+     "required": false,
+     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+    },
+    {
+     "label": "Text alternatiu de la foto de capçal (ALT)",
+     "name": "header_image_alt",
+     "widget": "string",
+     "required": false,
+     "hint": "Descripció curta de la foto de capçal. Si el deixes buit, s'usa el títol de l'article."
+    },
+    {
+     "label": "Destaca'l al capdamunt de la portada",
+     "name": "pinned",
+     "widget": "boolean",
+     "required": false,
+     "hint": "Marca-ho perquè aquest article surti el primer al mosaic de la portada (per exemple, el concurs mentre és vigent). Desmarca-ho quan ja no ho sigui."
+    },
+    {
+     "label": "Enllaç a l'àlbum de fotos",
+     "name": "album_url",
+     "widget": "string",
+     "required": false,
+     "hint": "Link a Google Photos o similar amb tot el reportatge."
+    },
+    {
+     "label": "Vídeos (YouTube o Vimeo)",
+     "name": "videos",
+     "widget": "list",
+     "required": false,
+     "hint": "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre."
+    },
+    {
+     "label": "Paraules clau (tags)",
+     "name": "tags",
+     "widget": "list",
+     "required": false,
+     "hint": "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la."
+    },
+    {
+     "label": "Títol SEO (opcional)",
+     "name": "seoTitle",
+     "widget": "string",
+     "required": false,
+     "hint": "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial."
+    },
+    {
+     "label": "Descripció (SEO, opcional)",
+     "name": "description",
+     "widget": "text",
+     "required": false,
+     "hint": "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article."
+    },
+    {
+     "label": "Cos de l'article",
+     "name": "body",
+     "widget": "markdown",
+     "hint": "Podeu fer servir links, llistes i negretes amb Markdown."
+    }
+   ]
+  },
+  {
+   "name": "posts-2023",
+   "label": "Articles · 2023",
+   "folder": "content/posts/2023",
+   "create": true,
+   "sortable_fields": {
+    "fields": [
+     "date",
+     "title"
+    ],
+    "default": {
+     "field": "date",
+     "direction": "descending"
+    }
+   },
+   "thumbnail": "cover.image",
+   "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+   "fields": [
+    {
+     "label": "Títol",
+     "name": "title",
+     "widget": "string"
+    },
+    {
+     "label": "Data de publicació",
+     "name": "date",
+     "widget": "datetime"
+    },
+    {
+     "label": "Any (el posa el sistema)",
+     "name": "year",
+     "widget": "hidden",
+     "default": "2023"
+    },
+    {
+     "label": "Adreça web de l'article (no tocar)",
+     "name": "slug",
+     "widget": "string",
+     "required": false,
+     "hint": "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur."
+    },
+    {
+     "label": "Autor",
+     "name": "author",
+     "widget": "select",
+     "options": [
+      "Alberto Sanagustín",
+      "A.Sedano",
+      "Dani González",
+      "Francesc Barbe",
+      "Guillem",
+      "Héctor J. Oca",
+      "Ignasi",
+      "inma",
+      "Iozsef Kiss",
+      "Ismael Utrilla",
+      "Ivan",
+      "Joan \"Linux\" Martínez i Serres",
+      "Juan Carlos Molina (Grismedio Casinegro)",
+      "Manel Sala \"Ulls\" Circ",
+      "Manel Villalba",
+      "Nico YeYe",
+      "Núria Laura Orbaneja",
+      "pecalatrava",
+      "Pedro \"Casal\" Cervera",
+      "Pedro Click",
+      "petxina",
+      "Pili E. G.",
+      "sandra",
+      "9 Barris Imatge"
+     ],
+     "default": "Joan \"Linux\" Martínez i Serres"
+    },
+    {
+     "label": "Fotografia principal",
+     "name": "cover",
+     "widget": "object",
+     "required": false,
+     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "fields": [
+      {
+       "label": "Imatge",
+       "name": "image",
+       "widget": "image"
+      },
+      {
+       "label": "Text alternatiu (ALT)",
+       "name": "alt",
+       "widget": "string",
+       "required": false,
+       "hint": "Descripció curta del que es veu a la foto, per als lectors de pantalla i els cercadors. Si el deixes buit, s'usa el títol de l'article."
+      }
+     ]
+    },
+    {
+     "label": "Foto de capçal de l'article (opcional)",
+     "name": "header_image",
+     "widget": "image",
+     "required": false,
+     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+    },
+    {
+     "label": "Text alternatiu de la foto de capçal (ALT)",
+     "name": "header_image_alt",
+     "widget": "string",
+     "required": false,
+     "hint": "Descripció curta de la foto de capçal. Si el deixes buit, s'usa el títol de l'article."
+    },
+    {
+     "label": "Destaca'l al capdamunt de la portada",
+     "name": "pinned",
+     "widget": "boolean",
+     "required": false,
+     "hint": "Marca-ho perquè aquest article surti el primer al mosaic de la portada (per exemple, el concurs mentre és vigent). Desmarca-ho quan ja no ho sigui."
+    },
+    {
+     "label": "Enllaç a l'àlbum de fotos",
+     "name": "album_url",
+     "widget": "string",
+     "required": false,
+     "hint": "Link a Google Photos o similar amb tot el reportatge."
+    },
+    {
+     "label": "Vídeos (YouTube o Vimeo)",
+     "name": "videos",
+     "widget": "list",
+     "required": false,
+     "hint": "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre."
+    },
+    {
+     "label": "Paraules clau (tags)",
+     "name": "tags",
+     "widget": "list",
+     "required": false,
+     "hint": "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la."
+    },
+    {
+     "label": "Títol SEO (opcional)",
+     "name": "seoTitle",
+     "widget": "string",
+     "required": false,
+     "hint": "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial."
+    },
+    {
+     "label": "Descripció (SEO, opcional)",
+     "name": "description",
+     "widget": "text",
+     "required": false,
+     "hint": "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article."
+    },
+    {
+     "label": "Cos de l'article",
+     "name": "body",
+     "widget": "markdown",
+     "hint": "Podeu fer servir links, llistes i negretes amb Markdown."
+    }
+   ]
+  },
+  {
+   "name": "posts-2022",
+   "label": "Articles · 2022",
+   "folder": "content/posts/2022",
+   "create": true,
+   "sortable_fields": {
+    "fields": [
+     "date",
+     "title"
+    ],
+    "default": {
+     "field": "date",
+     "direction": "descending"
+    }
+   },
+   "thumbnail": "cover.image",
+   "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+   "fields": [
+    {
+     "label": "Títol",
+     "name": "title",
+     "widget": "string"
+    },
+    {
+     "label": "Data de publicació",
+     "name": "date",
+     "widget": "datetime"
+    },
+    {
+     "label": "Any (el posa el sistema)",
+     "name": "year",
+     "widget": "hidden",
+     "default": "2022"
+    },
+    {
+     "label": "Adreça web de l'article (no tocar)",
+     "name": "slug",
+     "widget": "string",
+     "required": false,
+     "hint": "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur."
+    },
+    {
+     "label": "Autor",
+     "name": "author",
+     "widget": "select",
+     "options": [
+      "Alberto Sanagustín",
+      "A.Sedano",
+      "Dani González",
+      "Francesc Barbe",
+      "Guillem",
+      "Héctor J. Oca",
+      "Ignasi",
+      "inma",
+      "Iozsef Kiss",
+      "Ismael Utrilla",
+      "Ivan",
+      "Joan \"Linux\" Martínez i Serres",
+      "Juan Carlos Molina (Grismedio Casinegro)",
+      "Manel Sala \"Ulls\" Circ",
+      "Manel Villalba",
+      "Nico YeYe",
+      "Núria Laura Orbaneja",
+      "pecalatrava",
+      "Pedro \"Casal\" Cervera",
+      "Pedro Click",
+      "petxina",
+      "Pili E. G.",
+      "sandra",
+      "9 Barris Imatge"
+     ],
+     "default": "Joan \"Linux\" Martínez i Serres"
+    },
+    {
+     "label": "Fotografia principal",
+     "name": "cover",
+     "widget": "object",
+     "required": false,
+     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "fields": [
+      {
+       "label": "Imatge",
+       "name": "image",
+       "widget": "image"
+      },
+      {
+       "label": "Text alternatiu (ALT)",
+       "name": "alt",
+       "widget": "string",
+       "required": false,
+       "hint": "Descripció curta del que es veu a la foto, per als lectors de pantalla i els cercadors. Si el deixes buit, s'usa el títol de l'article."
+      }
+     ]
+    },
+    {
+     "label": "Foto de capçal de l'article (opcional)",
+     "name": "header_image",
+     "widget": "image",
+     "required": false,
+     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+    },
+    {
+     "label": "Text alternatiu de la foto de capçal (ALT)",
+     "name": "header_image_alt",
+     "widget": "string",
+     "required": false,
+     "hint": "Descripció curta de la foto de capçal. Si el deixes buit, s'usa el títol de l'article."
+    },
+    {
+     "label": "Destaca'l al capdamunt de la portada",
+     "name": "pinned",
+     "widget": "boolean",
+     "required": false,
+     "hint": "Marca-ho perquè aquest article surti el primer al mosaic de la portada (per exemple, el concurs mentre és vigent). Desmarca-ho quan ja no ho sigui."
+    },
+    {
+     "label": "Enllaç a l'àlbum de fotos",
+     "name": "album_url",
+     "widget": "string",
+     "required": false,
+     "hint": "Link a Google Photos o similar amb tot el reportatge."
+    },
+    {
+     "label": "Vídeos (YouTube o Vimeo)",
+     "name": "videos",
+     "widget": "list",
+     "required": false,
+     "hint": "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre."
+    },
+    {
+     "label": "Paraules clau (tags)",
+     "name": "tags",
+     "widget": "list",
+     "required": false,
+     "hint": "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la."
+    },
+    {
+     "label": "Títol SEO (opcional)",
+     "name": "seoTitle",
+     "widget": "string",
+     "required": false,
+     "hint": "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial."
+    },
+    {
+     "label": "Descripció (SEO, opcional)",
+     "name": "description",
+     "widget": "text",
+     "required": false,
+     "hint": "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article."
+    },
+    {
+     "label": "Cos de l'article",
+     "name": "body",
+     "widget": "markdown",
+     "hint": "Podeu fer servir links, llistes i negretes amb Markdown."
+    }
+   ]
+  },
+  {
+   "name": "posts-2021",
+   "label": "Articles · 2021",
+   "folder": "content/posts/2021",
+   "create": true,
+   "sortable_fields": {
+    "fields": [
+     "date",
+     "title"
+    ],
+    "default": {
+     "field": "date",
+     "direction": "descending"
+    }
+   },
+   "thumbnail": "cover.image",
+   "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+   "fields": [
+    {
+     "label": "Títol",
+     "name": "title",
+     "widget": "string"
+    },
+    {
+     "label": "Data de publicació",
+     "name": "date",
+     "widget": "datetime"
+    },
+    {
+     "label": "Any (el posa el sistema)",
+     "name": "year",
+     "widget": "hidden",
+     "default": "2021"
+    },
+    {
+     "label": "Adreça web de l'article (no tocar)",
+     "name": "slug",
+     "widget": "string",
+     "required": false,
+     "hint": "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur."
+    },
+    {
+     "label": "Autor",
+     "name": "author",
+     "widget": "select",
+     "options": [
+      "Alberto Sanagustín",
+      "A.Sedano",
+      "Dani González",
+      "Francesc Barbe",
+      "Guillem",
+      "Héctor J. Oca",
+      "Ignasi",
+      "inma",
+      "Iozsef Kiss",
+      "Ismael Utrilla",
+      "Ivan",
+      "Joan \"Linux\" Martínez i Serres",
+      "Juan Carlos Molina (Grismedio Casinegro)",
+      "Manel Sala \"Ulls\" Circ",
+      "Manel Villalba",
+      "Nico YeYe",
+      "Núria Laura Orbaneja",
+      "pecalatrava",
+      "Pedro \"Casal\" Cervera",
+      "Pedro Click",
+      "petxina",
+      "Pili E. G.",
+      "sandra",
+      "9 Barris Imatge"
+     ],
+     "default": "Joan \"Linux\" Martínez i Serres"
+    },
+    {
+     "label": "Fotografia principal",
+     "name": "cover",
+     "widget": "object",
+     "required": false,
+     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "fields": [
+      {
+       "label": "Imatge",
+       "name": "image",
+       "widget": "image"
+      },
+      {
+       "label": "Text alternatiu (ALT)",
+       "name": "alt",
+       "widget": "string",
+       "required": false,
+       "hint": "Descripció curta del que es veu a la foto, per als lectors de pantalla i els cercadors. Si el deixes buit, s'usa el títol de l'article."
+      }
+     ]
+    },
+    {
+     "label": "Foto de capçal de l'article (opcional)",
+     "name": "header_image",
+     "widget": "image",
+     "required": false,
+     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+    },
+    {
+     "label": "Text alternatiu de la foto de capçal (ALT)",
+     "name": "header_image_alt",
+     "widget": "string",
+     "required": false,
+     "hint": "Descripció curta de la foto de capçal. Si el deixes buit, s'usa el títol de l'article."
+    },
+    {
+     "label": "Destaca'l al capdamunt de la portada",
+     "name": "pinned",
+     "widget": "boolean",
+     "required": false,
+     "hint": "Marca-ho perquè aquest article surti el primer al mosaic de la portada (per exemple, el concurs mentre és vigent). Desmarca-ho quan ja no ho sigui."
+    },
+    {
+     "label": "Enllaç a l'àlbum de fotos",
+     "name": "album_url",
+     "widget": "string",
+     "required": false,
+     "hint": "Link a Google Photos o similar amb tot el reportatge."
+    },
+    {
+     "label": "Vídeos (YouTube o Vimeo)",
+     "name": "videos",
+     "widget": "list",
+     "required": false,
+     "hint": "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre."
+    },
+    {
+     "label": "Paraules clau (tags)",
+     "name": "tags",
+     "widget": "list",
+     "required": false,
+     "hint": "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la."
+    },
+    {
+     "label": "Títol SEO (opcional)",
+     "name": "seoTitle",
+     "widget": "string",
+     "required": false,
+     "hint": "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial."
+    },
+    {
+     "label": "Descripció (SEO, opcional)",
+     "name": "description",
+     "widget": "text",
+     "required": false,
+     "hint": "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article."
+    },
+    {
+     "label": "Cos de l'article",
+     "name": "body",
+     "widget": "markdown",
+     "hint": "Podeu fer servir links, llistes i negretes amb Markdown."
+    }
+   ]
+  },
+  {
+   "name": "posts-2020",
+   "label": "Articles · 2020",
+   "folder": "content/posts/2020",
+   "create": true,
+   "sortable_fields": {
+    "fields": [
+     "date",
+     "title"
+    ],
+    "default": {
+     "field": "date",
+     "direction": "descending"
+    }
+   },
+   "thumbnail": "cover.image",
+   "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+   "fields": [
+    {
+     "label": "Títol",
+     "name": "title",
+     "widget": "string"
+    },
+    {
+     "label": "Data de publicació",
+     "name": "date",
+     "widget": "datetime"
+    },
+    {
+     "label": "Any (el posa el sistema)",
+     "name": "year",
+     "widget": "hidden",
+     "default": "2020"
+    },
+    {
+     "label": "Adreça web de l'article (no tocar)",
+     "name": "slug",
+     "widget": "string",
+     "required": false,
+     "hint": "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur."
+    },
+    {
+     "label": "Autor",
+     "name": "author",
+     "widget": "select",
+     "options": [
+      "Alberto Sanagustín",
+      "A.Sedano",
+      "Dani González",
+      "Francesc Barbe",
+      "Guillem",
+      "Héctor J. Oca",
+      "Ignasi",
+      "inma",
+      "Iozsef Kiss",
+      "Ismael Utrilla",
+      "Ivan",
+      "Joan \"Linux\" Martínez i Serres",
+      "Juan Carlos Molina (Grismedio Casinegro)",
+      "Manel Sala \"Ulls\" Circ",
+      "Manel Villalba",
+      "Nico YeYe",
+      "Núria Laura Orbaneja",
+      "pecalatrava",
+      "Pedro \"Casal\" Cervera",
+      "Pedro Click",
+      "petxina",
+      "Pili E. G.",
+      "sandra",
+      "9 Barris Imatge"
+     ],
+     "default": "Joan \"Linux\" Martínez i Serres"
+    },
+    {
+     "label": "Fotografia principal",
+     "name": "cover",
+     "widget": "object",
+     "required": false,
+     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "fields": [
+      {
+       "label": "Imatge",
+       "name": "image",
+       "widget": "image"
+      },
+      {
+       "label": "Text alternatiu (ALT)",
+       "name": "alt",
+       "widget": "string",
+       "required": false,
+       "hint": "Descripció curta del que es veu a la foto, per als lectors de pantalla i els cercadors. Si el deixes buit, s'usa el títol de l'article."
+      }
+     ]
+    },
+    {
+     "label": "Foto de capçal de l'article (opcional)",
+     "name": "header_image",
+     "widget": "image",
+     "required": false,
+     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+    },
+    {
+     "label": "Text alternatiu de la foto de capçal (ALT)",
+     "name": "header_image_alt",
+     "widget": "string",
+     "required": false,
+     "hint": "Descripció curta de la foto de capçal. Si el deixes buit, s'usa el títol de l'article."
+    },
+    {
+     "label": "Destaca'l al capdamunt de la portada",
+     "name": "pinned",
+     "widget": "boolean",
+     "required": false,
+     "hint": "Marca-ho perquè aquest article surti el primer al mosaic de la portada (per exemple, el concurs mentre és vigent). Desmarca-ho quan ja no ho sigui."
+    },
+    {
+     "label": "Enllaç a l'àlbum de fotos",
+     "name": "album_url",
+     "widget": "string",
+     "required": false,
+     "hint": "Link a Google Photos o similar amb tot el reportatge."
+    },
+    {
+     "label": "Vídeos (YouTube o Vimeo)",
+     "name": "videos",
+     "widget": "list",
+     "required": false,
+     "hint": "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre."
+    },
+    {
+     "label": "Paraules clau (tags)",
+     "name": "tags",
+     "widget": "list",
+     "required": false,
+     "hint": "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la."
+    },
+    {
+     "label": "Títol SEO (opcional)",
+     "name": "seoTitle",
+     "widget": "string",
+     "required": false,
+     "hint": "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial."
+    },
+    {
+     "label": "Descripció (SEO, opcional)",
+     "name": "description",
+     "widget": "text",
+     "required": false,
+     "hint": "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article."
+    },
+    {
+     "label": "Cos de l'article",
+     "name": "body",
+     "widget": "markdown",
+     "hint": "Podeu fer servir links, llistes i negretes amb Markdown."
+    }
+   ]
+  },
+  {
+   "name": "posts-2019",
+   "label": "Articles · 2019",
+   "folder": "content/posts/2019",
+   "create": true,
+   "sortable_fields": {
+    "fields": [
+     "date",
+     "title"
+    ],
+    "default": {
+     "field": "date",
+     "direction": "descending"
+    }
+   },
+   "thumbnail": "cover.image",
+   "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+   "fields": [
+    {
+     "label": "Títol",
+     "name": "title",
+     "widget": "string"
+    },
+    {
+     "label": "Data de publicació",
+     "name": "date",
+     "widget": "datetime"
+    },
+    {
+     "label": "Any (el posa el sistema)",
+     "name": "year",
+     "widget": "hidden",
+     "default": "2019"
+    },
+    {
+     "label": "Adreça web de l'article (no tocar)",
+     "name": "slug",
+     "widget": "string",
+     "required": false,
+     "hint": "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur."
+    },
+    {
+     "label": "Autor",
+     "name": "author",
+     "widget": "select",
+     "options": [
+      "Alberto Sanagustín",
+      "A.Sedano",
+      "Dani González",
+      "Francesc Barbe",
+      "Guillem",
+      "Héctor J. Oca",
+      "Ignasi",
+      "inma",
+      "Iozsef Kiss",
+      "Ismael Utrilla",
+      "Ivan",
+      "Joan \"Linux\" Martínez i Serres",
+      "Juan Carlos Molina (Grismedio Casinegro)",
+      "Manel Sala \"Ulls\" Circ",
+      "Manel Villalba",
+      "Nico YeYe",
+      "Núria Laura Orbaneja",
+      "pecalatrava",
+      "Pedro \"Casal\" Cervera",
+      "Pedro Click",
+      "petxina",
+      "Pili E. G.",
+      "sandra",
+      "9 Barris Imatge"
+     ],
+     "default": "Joan \"Linux\" Martínez i Serres"
+    },
+    {
+     "label": "Fotografia principal",
+     "name": "cover",
+     "widget": "object",
+     "required": false,
+     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "fields": [
+      {
+       "label": "Imatge",
+       "name": "image",
+       "widget": "image"
+      },
+      {
+       "label": "Text alternatiu (ALT)",
+       "name": "alt",
+       "widget": "string",
+       "required": false,
+       "hint": "Descripció curta del que es veu a la foto, per als lectors de pantalla i els cercadors. Si el deixes buit, s'usa el títol de l'article."
+      }
+     ]
+    },
+    {
+     "label": "Foto de capçal de l'article (opcional)",
+     "name": "header_image",
+     "widget": "image",
+     "required": false,
+     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+    },
+    {
+     "label": "Text alternatiu de la foto de capçal (ALT)",
+     "name": "header_image_alt",
+     "widget": "string",
+     "required": false,
+     "hint": "Descripció curta de la foto de capçal. Si el deixes buit, s'usa el títol de l'article."
+    },
+    {
+     "label": "Destaca'l al capdamunt de la portada",
+     "name": "pinned",
+     "widget": "boolean",
+     "required": false,
+     "hint": "Marca-ho perquè aquest article surti el primer al mosaic de la portada (per exemple, el concurs mentre és vigent). Desmarca-ho quan ja no ho sigui."
+    },
+    {
+     "label": "Enllaç a l'àlbum de fotos",
+     "name": "album_url",
+     "widget": "string",
+     "required": false,
+     "hint": "Link a Google Photos o similar amb tot el reportatge."
+    },
+    {
+     "label": "Vídeos (YouTube o Vimeo)",
+     "name": "videos",
+     "widget": "list",
+     "required": false,
+     "hint": "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre."
+    },
+    {
+     "label": "Paraules clau (tags)",
+     "name": "tags",
+     "widget": "list",
+     "required": false,
+     "hint": "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la."
+    },
+    {
+     "label": "Títol SEO (opcional)",
+     "name": "seoTitle",
+     "widget": "string",
+     "required": false,
+     "hint": "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial."
+    },
+    {
+     "label": "Descripció (SEO, opcional)",
+     "name": "description",
+     "widget": "text",
+     "required": false,
+     "hint": "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article."
+    },
+    {
+     "label": "Cos de l'article",
+     "name": "body",
+     "widget": "markdown",
+     "hint": "Podeu fer servir links, llistes i negretes amb Markdown."
+    }
+   ]
+  },
+  {
+   "name": "posts-2018",
+   "label": "Articles · 2018",
+   "folder": "content/posts/2018",
+   "create": true,
+   "sortable_fields": {
+    "fields": [
+     "date",
+     "title"
+    ],
+    "default": {
+     "field": "date",
+     "direction": "descending"
+    }
+   },
+   "thumbnail": "cover.image",
+   "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+   "fields": [
+    {
+     "label": "Títol",
+     "name": "title",
+     "widget": "string"
+    },
+    {
+     "label": "Data de publicació",
+     "name": "date",
+     "widget": "datetime"
+    },
+    {
+     "label": "Any (el posa el sistema)",
+     "name": "year",
+     "widget": "hidden",
+     "default": "2018"
+    },
+    {
+     "label": "Adreça web de l'article (no tocar)",
+     "name": "slug",
+     "widget": "string",
+     "required": false,
+     "hint": "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur."
+    },
+    {
+     "label": "Autor",
+     "name": "author",
+     "widget": "select",
+     "options": [
+      "Alberto Sanagustín",
+      "A.Sedano",
+      "Dani González",
+      "Francesc Barbe",
+      "Guillem",
+      "Héctor J. Oca",
+      "Ignasi",
+      "inma",
+      "Iozsef Kiss",
+      "Ismael Utrilla",
+      "Ivan",
+      "Joan \"Linux\" Martínez i Serres",
+      "Juan Carlos Molina (Grismedio Casinegro)",
+      "Manel Sala \"Ulls\" Circ",
+      "Manel Villalba",
+      "Nico YeYe",
+      "Núria Laura Orbaneja",
+      "pecalatrava",
+      "Pedro \"Casal\" Cervera",
+      "Pedro Click",
+      "petxina",
+      "Pili E. G.",
+      "sandra",
+      "9 Barris Imatge"
+     ],
+     "default": "Joan \"Linux\" Martínez i Serres"
+    },
+    {
+     "label": "Fotografia principal",
+     "name": "cover",
+     "widget": "object",
+     "required": false,
+     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "fields": [
+      {
+       "label": "Imatge",
+       "name": "image",
+       "widget": "image"
+      },
+      {
+       "label": "Text alternatiu (ALT)",
+       "name": "alt",
+       "widget": "string",
+       "required": false,
+       "hint": "Descripció curta del que es veu a la foto, per als lectors de pantalla i els cercadors. Si el deixes buit, s'usa el títol de l'article."
+      }
+     ]
+    },
+    {
+     "label": "Foto de capçal de l'article (opcional)",
+     "name": "header_image",
+     "widget": "image",
+     "required": false,
+     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+    },
+    {
+     "label": "Text alternatiu de la foto de capçal (ALT)",
+     "name": "header_image_alt",
+     "widget": "string",
+     "required": false,
+     "hint": "Descripció curta de la foto de capçal. Si el deixes buit, s'usa el títol de l'article."
+    },
+    {
+     "label": "Destaca'l al capdamunt de la portada",
+     "name": "pinned",
+     "widget": "boolean",
+     "required": false,
+     "hint": "Marca-ho perquè aquest article surti el primer al mosaic de la portada (per exemple, el concurs mentre és vigent). Desmarca-ho quan ja no ho sigui."
+    },
+    {
+     "label": "Enllaç a l'àlbum de fotos",
+     "name": "album_url",
+     "widget": "string",
+     "required": false,
+     "hint": "Link a Google Photos o similar amb tot el reportatge."
+    },
+    {
+     "label": "Vídeos (YouTube o Vimeo)",
+     "name": "videos",
+     "widget": "list",
+     "required": false,
+     "hint": "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre."
+    },
+    {
+     "label": "Paraules clau (tags)",
+     "name": "tags",
+     "widget": "list",
+     "required": false,
+     "hint": "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la."
+    },
+    {
+     "label": "Títol SEO (opcional)",
+     "name": "seoTitle",
+     "widget": "string",
+     "required": false,
+     "hint": "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial."
+    },
+    {
+     "label": "Descripció (SEO, opcional)",
+     "name": "description",
+     "widget": "text",
+     "required": false,
+     "hint": "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article."
+    },
+    {
+     "label": "Cos de l'article",
+     "name": "body",
+     "widget": "markdown",
+     "hint": "Podeu fer servir links, llistes i negretes amb Markdown."
+    }
+   ]
+  },
+  {
+   "name": "posts-2017",
+   "label": "Articles · 2017",
+   "folder": "content/posts/2017",
+   "create": true,
+   "sortable_fields": {
+    "fields": [
+     "date",
+     "title"
+    ],
+    "default": {
+     "field": "date",
+     "direction": "descending"
+    }
+   },
+   "thumbnail": "cover.image",
+   "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+   "fields": [
+    {
+     "label": "Títol",
+     "name": "title",
+     "widget": "string"
+    },
+    {
+     "label": "Data de publicació",
+     "name": "date",
+     "widget": "datetime"
+    },
+    {
+     "label": "Any (el posa el sistema)",
+     "name": "year",
+     "widget": "hidden",
+     "default": "2017"
+    },
+    {
+     "label": "Adreça web de l'article (no tocar)",
+     "name": "slug",
+     "widget": "string",
+     "required": false,
+     "hint": "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur."
+    },
+    {
+     "label": "Autor",
+     "name": "author",
+     "widget": "select",
+     "options": [
+      "Alberto Sanagustín",
+      "A.Sedano",
+      "Dani González",
+      "Francesc Barbe",
+      "Guillem",
+      "Héctor J. Oca",
+      "Ignasi",
+      "inma",
+      "Iozsef Kiss",
+      "Ismael Utrilla",
+      "Ivan",
+      "Joan \"Linux\" Martínez i Serres",
+      "Juan Carlos Molina (Grismedio Casinegro)",
+      "Manel Sala \"Ulls\" Circ",
+      "Manel Villalba",
+      "Nico YeYe",
+      "Núria Laura Orbaneja",
+      "pecalatrava",
+      "Pedro \"Casal\" Cervera",
+      "Pedro Click",
+      "petxina",
+      "Pili E. G.",
+      "sandra",
+      "9 Barris Imatge"
+     ],
+     "default": "Joan \"Linux\" Martínez i Serres"
+    },
+    {
+     "label": "Fotografia principal",
+     "name": "cover",
+     "widget": "object",
+     "required": false,
+     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "fields": [
+      {
+       "label": "Imatge",
+       "name": "image",
+       "widget": "image"
+      },
+      {
+       "label": "Text alternatiu (ALT)",
+       "name": "alt",
+       "widget": "string",
+       "required": false,
+       "hint": "Descripció curta del que es veu a la foto, per als lectors de pantalla i els cercadors. Si el deixes buit, s'usa el títol de l'article."
+      }
+     ]
+    },
+    {
+     "label": "Foto de capçal de l'article (opcional)",
+     "name": "header_image",
+     "widget": "image",
+     "required": false,
+     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+    },
+    {
+     "label": "Text alternatiu de la foto de capçal (ALT)",
+     "name": "header_image_alt",
+     "widget": "string",
+     "required": false,
+     "hint": "Descripció curta de la foto de capçal. Si el deixes buit, s'usa el títol de l'article."
+    },
+    {
+     "label": "Destaca'l al capdamunt de la portada",
+     "name": "pinned",
+     "widget": "boolean",
+     "required": false,
+     "hint": "Marca-ho perquè aquest article surti el primer al mosaic de la portada (per exemple, el concurs mentre és vigent). Desmarca-ho quan ja no ho sigui."
+    },
+    {
+     "label": "Enllaç a l'àlbum de fotos",
+     "name": "album_url",
+     "widget": "string",
+     "required": false,
+     "hint": "Link a Google Photos o similar amb tot el reportatge."
+    },
+    {
+     "label": "Vídeos (YouTube o Vimeo)",
+     "name": "videos",
+     "widget": "list",
+     "required": false,
+     "hint": "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre."
+    },
+    {
+     "label": "Paraules clau (tags)",
+     "name": "tags",
+     "widget": "list",
+     "required": false,
+     "hint": "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la."
+    },
+    {
+     "label": "Títol SEO (opcional)",
+     "name": "seoTitle",
+     "widget": "string",
+     "required": false,
+     "hint": "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial."
+    },
+    {
+     "label": "Descripció (SEO, opcional)",
+     "name": "description",
+     "widget": "text",
+     "required": false,
+     "hint": "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article."
+    },
+    {
+     "label": "Cos de l'article",
+     "name": "body",
+     "widget": "markdown",
+     "hint": "Podeu fer servir links, llistes i negretes amb Markdown."
+    }
+   ]
+  },
+  {
+   "name": "posts-2016",
+   "label": "Articles · 2016",
+   "folder": "content/posts/2016",
+   "create": true,
+   "sortable_fields": {
+    "fields": [
+     "date",
+     "title"
+    ],
+    "default": {
+     "field": "date",
+     "direction": "descending"
+    }
+   },
+   "thumbnail": "cover.image",
+   "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+   "fields": [
+    {
+     "label": "Títol",
+     "name": "title",
+     "widget": "string"
+    },
+    {
+     "label": "Data de publicació",
+     "name": "date",
+     "widget": "datetime"
+    },
+    {
+     "label": "Any (el posa el sistema)",
+     "name": "year",
+     "widget": "hidden",
+     "default": "2016"
+    },
+    {
+     "label": "Adreça web de l'article (no tocar)",
+     "name": "slug",
+     "widget": "string",
+     "required": false,
+     "hint": "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur."
+    },
+    {
+     "label": "Autor",
+     "name": "author",
+     "widget": "select",
+     "options": [
+      "Alberto Sanagustín",
+      "A.Sedano",
+      "Dani González",
+      "Francesc Barbe",
+      "Guillem",
+      "Héctor J. Oca",
+      "Ignasi",
+      "inma",
+      "Iozsef Kiss",
+      "Ismael Utrilla",
+      "Ivan",
+      "Joan \"Linux\" Martínez i Serres",
+      "Juan Carlos Molina (Grismedio Casinegro)",
+      "Manel Sala \"Ulls\" Circ",
+      "Manel Villalba",
+      "Nico YeYe",
+      "Núria Laura Orbaneja",
+      "pecalatrava",
+      "Pedro \"Casal\" Cervera",
+      "Pedro Click",
+      "petxina",
+      "Pili E. G.",
+      "sandra",
+      "9 Barris Imatge"
+     ],
+     "default": "Joan \"Linux\" Martínez i Serres"
+    },
+    {
+     "label": "Fotografia principal",
+     "name": "cover",
+     "widget": "object",
+     "required": false,
+     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "fields": [
+      {
+       "label": "Imatge",
+       "name": "image",
+       "widget": "image"
+      },
+      {
+       "label": "Text alternatiu (ALT)",
+       "name": "alt",
+       "widget": "string",
+       "required": false,
+       "hint": "Descripció curta del que es veu a la foto, per als lectors de pantalla i els cercadors. Si el deixes buit, s'usa el títol de l'article."
+      }
+     ]
+    },
+    {
+     "label": "Foto de capçal de l'article (opcional)",
+     "name": "header_image",
+     "widget": "image",
+     "required": false,
+     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+    },
+    {
+     "label": "Text alternatiu de la foto de capçal (ALT)",
+     "name": "header_image_alt",
+     "widget": "string",
+     "required": false,
+     "hint": "Descripció curta de la foto de capçal. Si el deixes buit, s'usa el títol de l'article."
+    },
+    {
+     "label": "Destaca'l al capdamunt de la portada",
+     "name": "pinned",
+     "widget": "boolean",
+     "required": false,
+     "hint": "Marca-ho perquè aquest article surti el primer al mosaic de la portada (per exemple, el concurs mentre és vigent). Desmarca-ho quan ja no ho sigui."
+    },
+    {
+     "label": "Enllaç a l'àlbum de fotos",
+     "name": "album_url",
+     "widget": "string",
+     "required": false,
+     "hint": "Link a Google Photos o similar amb tot el reportatge."
+    },
+    {
+     "label": "Vídeos (YouTube o Vimeo)",
+     "name": "videos",
+     "widget": "list",
+     "required": false,
+     "hint": "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre."
+    },
+    {
+     "label": "Paraules clau (tags)",
+     "name": "tags",
+     "widget": "list",
+     "required": false,
+     "hint": "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la."
+    },
+    {
+     "label": "Títol SEO (opcional)",
+     "name": "seoTitle",
+     "widget": "string",
+     "required": false,
+     "hint": "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial."
+    },
+    {
+     "label": "Descripció (SEO, opcional)",
+     "name": "description",
+     "widget": "text",
+     "required": false,
+     "hint": "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article."
+    },
+    {
+     "label": "Cos de l'article",
+     "name": "body",
+     "widget": "markdown",
+     "hint": "Podeu fer servir links, llistes i negretes amb Markdown."
+    }
+   ]
+  },
+  {
+   "name": "posts-2015",
+   "label": "Articles · 2015",
+   "folder": "content/posts/2015",
+   "create": true,
+   "sortable_fields": {
+    "fields": [
+     "date",
+     "title"
+    ],
+    "default": {
+     "field": "date",
+     "direction": "descending"
+    }
+   },
+   "thumbnail": "cover.image",
+   "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+   "fields": [
+    {
+     "label": "Títol",
+     "name": "title",
+     "widget": "string"
+    },
+    {
+     "label": "Data de publicació",
+     "name": "date",
+     "widget": "datetime"
+    },
+    {
+     "label": "Any (el posa el sistema)",
+     "name": "year",
+     "widget": "hidden",
+     "default": "2015"
+    },
+    {
+     "label": "Adreça web de l'article (no tocar)",
+     "name": "slug",
+     "widget": "string",
+     "required": false,
+     "hint": "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur."
+    },
+    {
+     "label": "Autor",
+     "name": "author",
+     "widget": "select",
+     "options": [
+      "Alberto Sanagustín",
+      "A.Sedano",
+      "Dani González",
+      "Francesc Barbe",
+      "Guillem",
+      "Héctor J. Oca",
+      "Ignasi",
+      "inma",
+      "Iozsef Kiss",
+      "Ismael Utrilla",
+      "Ivan",
+      "Joan \"Linux\" Martínez i Serres",
+      "Juan Carlos Molina (Grismedio Casinegro)",
+      "Manel Sala \"Ulls\" Circ",
+      "Manel Villalba",
+      "Nico YeYe",
+      "Núria Laura Orbaneja",
+      "pecalatrava",
+      "Pedro \"Casal\" Cervera",
+      "Pedro Click",
+      "petxina",
+      "Pili E. G.",
+      "sandra",
+      "9 Barris Imatge"
+     ],
+     "default": "Joan \"Linux\" Martínez i Serres"
+    },
+    {
+     "label": "Fotografia principal",
+     "name": "cover",
+     "widget": "object",
+     "required": false,
+     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "fields": [
+      {
+       "label": "Imatge",
+       "name": "image",
+       "widget": "image"
+      },
+      {
+       "label": "Text alternatiu (ALT)",
+       "name": "alt",
+       "widget": "string",
+       "required": false,
+       "hint": "Descripció curta del que es veu a la foto, per als lectors de pantalla i els cercadors. Si el deixes buit, s'usa el títol de l'article."
+      }
+     ]
+    },
+    {
+     "label": "Foto de capçal de l'article (opcional)",
+     "name": "header_image",
+     "widget": "image",
+     "required": false,
+     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+    },
+    {
+     "label": "Text alternatiu de la foto de capçal (ALT)",
+     "name": "header_image_alt",
+     "widget": "string",
+     "required": false,
+     "hint": "Descripció curta de la foto de capçal. Si el deixes buit, s'usa el títol de l'article."
+    },
+    {
+     "label": "Destaca'l al capdamunt de la portada",
+     "name": "pinned",
+     "widget": "boolean",
+     "required": false,
+     "hint": "Marca-ho perquè aquest article surti el primer al mosaic de la portada (per exemple, el concurs mentre és vigent). Desmarca-ho quan ja no ho sigui."
+    },
+    {
+     "label": "Enllaç a l'àlbum de fotos",
+     "name": "album_url",
+     "widget": "string",
+     "required": false,
+     "hint": "Link a Google Photos o similar amb tot el reportatge."
+    },
+    {
+     "label": "Vídeos (YouTube o Vimeo)",
+     "name": "videos",
+     "widget": "list",
+     "required": false,
+     "hint": "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre."
+    },
+    {
+     "label": "Paraules clau (tags)",
+     "name": "tags",
+     "widget": "list",
+     "required": false,
+     "hint": "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la."
+    },
+    {
+     "label": "Títol SEO (opcional)",
+     "name": "seoTitle",
+     "widget": "string",
+     "required": false,
+     "hint": "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial."
+    },
+    {
+     "label": "Descripció (SEO, opcional)",
+     "name": "description",
+     "widget": "text",
+     "required": false,
+     "hint": "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article."
+    },
+    {
+     "label": "Cos de l'article",
+     "name": "body",
+     "widget": "markdown",
+     "hint": "Podeu fer servir links, llistes i negretes amb Markdown."
+    }
+   ]
+  },
+  {
+   "name": "posts-2014",
+   "label": "Articles · 2014",
+   "folder": "content/posts/2014",
+   "create": true,
+   "sortable_fields": {
+    "fields": [
+     "date",
+     "title"
+    ],
+    "default": {
+     "field": "date",
+     "direction": "descending"
+    }
+   },
+   "thumbnail": "cover.image",
+   "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+   "fields": [
+    {
+     "label": "Títol",
+     "name": "title",
+     "widget": "string"
+    },
+    {
+     "label": "Data de publicació",
+     "name": "date",
+     "widget": "datetime"
+    },
+    {
+     "label": "Any (el posa el sistema)",
+     "name": "year",
+     "widget": "hidden",
+     "default": "2014"
+    },
+    {
+     "label": "Adreça web de l'article (no tocar)",
+     "name": "slug",
+     "widget": "string",
+     "required": false,
+     "hint": "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur."
+    },
+    {
+     "label": "Autor",
+     "name": "author",
+     "widget": "select",
+     "options": [
+      "Alberto Sanagustín",
+      "A.Sedano",
+      "Dani González",
+      "Francesc Barbe",
+      "Guillem",
+      "Héctor J. Oca",
+      "Ignasi",
+      "inma",
+      "Iozsef Kiss",
+      "Ismael Utrilla",
+      "Ivan",
+      "Joan \"Linux\" Martínez i Serres",
+      "Juan Carlos Molina (Grismedio Casinegro)",
+      "Manel Sala \"Ulls\" Circ",
+      "Manel Villalba",
+      "Nico YeYe",
+      "Núria Laura Orbaneja",
+      "pecalatrava",
+      "Pedro \"Casal\" Cervera",
+      "Pedro Click",
+      "petxina",
+      "Pili E. G.",
+      "sandra",
+      "9 Barris Imatge"
+     ],
+     "default": "Joan \"Linux\" Martínez i Serres"
+    },
+    {
+     "label": "Fotografia principal",
+     "name": "cover",
+     "widget": "object",
+     "required": false,
+     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "fields": [
+      {
+       "label": "Imatge",
+       "name": "image",
+       "widget": "image"
+      },
+      {
+       "label": "Text alternatiu (ALT)",
+       "name": "alt",
+       "widget": "string",
+       "required": false,
+       "hint": "Descripció curta del que es veu a la foto, per als lectors de pantalla i els cercadors. Si el deixes buit, s'usa el títol de l'article."
+      }
+     ]
+    },
+    {
+     "label": "Foto de capçal de l'article (opcional)",
+     "name": "header_image",
+     "widget": "image",
+     "required": false,
+     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+    },
+    {
+     "label": "Text alternatiu de la foto de capçal (ALT)",
+     "name": "header_image_alt",
+     "widget": "string",
+     "required": false,
+     "hint": "Descripció curta de la foto de capçal. Si el deixes buit, s'usa el títol de l'article."
+    },
+    {
+     "label": "Destaca'l al capdamunt de la portada",
+     "name": "pinned",
+     "widget": "boolean",
+     "required": false,
+     "hint": "Marca-ho perquè aquest article surti el primer al mosaic de la portada (per exemple, el concurs mentre és vigent). Desmarca-ho quan ja no ho sigui."
+    },
+    {
+     "label": "Enllaç a l'àlbum de fotos",
+     "name": "album_url",
+     "widget": "string",
+     "required": false,
+     "hint": "Link a Google Photos o similar amb tot el reportatge."
+    },
+    {
+     "label": "Vídeos (YouTube o Vimeo)",
+     "name": "videos",
+     "widget": "list",
+     "required": false,
+     "hint": "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre."
+    },
+    {
+     "label": "Paraules clau (tags)",
+     "name": "tags",
+     "widget": "list",
+     "required": false,
+     "hint": "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la."
+    },
+    {
+     "label": "Títol SEO (opcional)",
+     "name": "seoTitle",
+     "widget": "string",
+     "required": false,
+     "hint": "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial."
+    },
+    {
+     "label": "Descripció (SEO, opcional)",
+     "name": "description",
+     "widget": "text",
+     "required": false,
+     "hint": "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article."
+    },
+    {
+     "label": "Cos de l'article",
+     "name": "body",
+     "widget": "markdown",
+     "hint": "Podeu fer servir links, llistes i negretes amb Markdown."
+    }
+   ]
+  },
+  {
+   "name": "posts-2013",
+   "label": "Articles · 2013",
+   "folder": "content/posts/2013",
+   "create": true,
+   "sortable_fields": {
+    "fields": [
+     "date",
+     "title"
+    ],
+    "default": {
+     "field": "date",
+     "direction": "descending"
+    }
+   },
+   "thumbnail": "cover.image",
+   "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+   "fields": [
+    {
+     "label": "Títol",
+     "name": "title",
+     "widget": "string"
+    },
+    {
+     "label": "Data de publicació",
+     "name": "date",
+     "widget": "datetime"
+    },
+    {
+     "label": "Any (el posa el sistema)",
+     "name": "year",
+     "widget": "hidden",
+     "default": "2013"
+    },
+    {
+     "label": "Adreça web de l'article (no tocar)",
+     "name": "slug",
+     "widget": "string",
+     "required": false,
+     "hint": "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur."
+    },
+    {
+     "label": "Autor",
+     "name": "author",
+     "widget": "select",
+     "options": [
+      "Alberto Sanagustín",
+      "A.Sedano",
+      "Dani González",
+      "Francesc Barbe",
+      "Guillem",
+      "Héctor J. Oca",
+      "Ignasi",
+      "inma",
+      "Iozsef Kiss",
+      "Ismael Utrilla",
+      "Ivan",
+      "Joan \"Linux\" Martínez i Serres",
+      "Juan Carlos Molina (Grismedio Casinegro)",
+      "Manel Sala \"Ulls\" Circ",
+      "Manel Villalba",
+      "Nico YeYe",
+      "Núria Laura Orbaneja",
+      "pecalatrava",
+      "Pedro \"Casal\" Cervera",
+      "Pedro Click",
+      "petxina",
+      "Pili E. G.",
+      "sandra",
+      "9 Barris Imatge"
+     ],
+     "default": "Joan \"Linux\" Martínez i Serres"
+    },
+    {
+     "label": "Fotografia principal",
+     "name": "cover",
+     "widget": "object",
+     "required": false,
+     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "fields": [
+      {
+       "label": "Imatge",
+       "name": "image",
+       "widget": "image"
+      },
+      {
+       "label": "Text alternatiu (ALT)",
+       "name": "alt",
+       "widget": "string",
+       "required": false,
+       "hint": "Descripció curta del que es veu a la foto, per als lectors de pantalla i els cercadors. Si el deixes buit, s'usa el títol de l'article."
+      }
+     ]
+    },
+    {
+     "label": "Foto de capçal de l'article (opcional)",
+     "name": "header_image",
+     "widget": "image",
+     "required": false,
+     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+    },
+    {
+     "label": "Text alternatiu de la foto de capçal (ALT)",
+     "name": "header_image_alt",
+     "widget": "string",
+     "required": false,
+     "hint": "Descripció curta de la foto de capçal. Si el deixes buit, s'usa el títol de l'article."
+    },
+    {
+     "label": "Destaca'l al capdamunt de la portada",
+     "name": "pinned",
+     "widget": "boolean",
+     "required": false,
+     "hint": "Marca-ho perquè aquest article surti el primer al mosaic de la portada (per exemple, el concurs mentre és vigent). Desmarca-ho quan ja no ho sigui."
+    },
+    {
+     "label": "Enllaç a l'àlbum de fotos",
+     "name": "album_url",
+     "widget": "string",
+     "required": false,
+     "hint": "Link a Google Photos o similar amb tot el reportatge."
+    },
+    {
+     "label": "Vídeos (YouTube o Vimeo)",
+     "name": "videos",
+     "widget": "list",
+     "required": false,
+     "hint": "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre."
+    },
+    {
+     "label": "Paraules clau (tags)",
+     "name": "tags",
+     "widget": "list",
+     "required": false,
+     "hint": "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la."
+    },
+    {
+     "label": "Títol SEO (opcional)",
+     "name": "seoTitle",
+     "widget": "string",
+     "required": false,
+     "hint": "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial."
+    },
+    {
+     "label": "Descripció (SEO, opcional)",
+     "name": "description",
+     "widget": "text",
+     "required": false,
+     "hint": "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article."
+    },
+    {
+     "label": "Cos de l'article",
+     "name": "body",
+     "widget": "markdown",
+     "hint": "Podeu fer servir links, llistes i negretes amb Markdown."
+    }
+   ]
+  },
+  {
+   "name": "posts-2012",
+   "label": "Articles · 2012",
+   "folder": "content/posts/2012",
+   "create": true,
+   "sortable_fields": {
+    "fields": [
+     "date",
+     "title"
+    ],
+    "default": {
+     "field": "date",
+     "direction": "descending"
+    }
+   },
+   "thumbnail": "cover.image",
+   "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+   "fields": [
+    {
+     "label": "Títol",
+     "name": "title",
+     "widget": "string"
+    },
+    {
+     "label": "Data de publicació",
+     "name": "date",
+     "widget": "datetime"
+    },
+    {
+     "label": "Any (el posa el sistema)",
+     "name": "year",
+     "widget": "hidden",
+     "default": "2012"
+    },
+    {
+     "label": "Adreça web de l'article (no tocar)",
+     "name": "slug",
+     "widget": "string",
+     "required": false,
+     "hint": "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur."
+    },
+    {
+     "label": "Autor",
+     "name": "author",
+     "widget": "select",
+     "options": [
+      "Alberto Sanagustín",
+      "A.Sedano",
+      "Dani González",
+      "Francesc Barbe",
+      "Guillem",
+      "Héctor J. Oca",
+      "Ignasi",
+      "inma",
+      "Iozsef Kiss",
+      "Ismael Utrilla",
+      "Ivan",
+      "Joan \"Linux\" Martínez i Serres",
+      "Juan Carlos Molina (Grismedio Casinegro)",
+      "Manel Sala \"Ulls\" Circ",
+      "Manel Villalba",
+      "Nico YeYe",
+      "Núria Laura Orbaneja",
+      "pecalatrava",
+      "Pedro \"Casal\" Cervera",
+      "Pedro Click",
+      "petxina",
+      "Pili E. G.",
+      "sandra",
+      "9 Barris Imatge"
+     ],
+     "default": "Joan \"Linux\" Martínez i Serres"
+    },
+    {
+     "label": "Fotografia principal",
+     "name": "cover",
+     "widget": "object",
+     "required": false,
+     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "fields": [
+      {
+       "label": "Imatge",
+       "name": "image",
+       "widget": "image"
+      },
+      {
+       "label": "Text alternatiu (ALT)",
+       "name": "alt",
+       "widget": "string",
+       "required": false,
+       "hint": "Descripció curta del que es veu a la foto, per als lectors de pantalla i els cercadors. Si el deixes buit, s'usa el títol de l'article."
+      }
+     ]
+    },
+    {
+     "label": "Foto de capçal de l'article (opcional)",
+     "name": "header_image",
+     "widget": "image",
+     "required": false,
+     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+    },
+    {
+     "label": "Text alternatiu de la foto de capçal (ALT)",
+     "name": "header_image_alt",
+     "widget": "string",
+     "required": false,
+     "hint": "Descripció curta de la foto de capçal. Si el deixes buit, s'usa el títol de l'article."
+    },
+    {
+     "label": "Destaca'l al capdamunt de la portada",
+     "name": "pinned",
+     "widget": "boolean",
+     "required": false,
+     "hint": "Marca-ho perquè aquest article surti el primer al mosaic de la portada (per exemple, el concurs mentre és vigent). Desmarca-ho quan ja no ho sigui."
+    },
+    {
+     "label": "Enllaç a l'àlbum de fotos",
+     "name": "album_url",
+     "widget": "string",
+     "required": false,
+     "hint": "Link a Google Photos o similar amb tot el reportatge."
+    },
+    {
+     "label": "Vídeos (YouTube o Vimeo)",
+     "name": "videos",
+     "widget": "list",
+     "required": false,
+     "hint": "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre."
+    },
+    {
+     "label": "Paraules clau (tags)",
+     "name": "tags",
+     "widget": "list",
+     "required": false,
+     "hint": "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la."
+    },
+    {
+     "label": "Títol SEO (opcional)",
+     "name": "seoTitle",
+     "widget": "string",
+     "required": false,
+     "hint": "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial."
+    },
+    {
+     "label": "Descripció (SEO, opcional)",
+     "name": "description",
+     "widget": "text",
+     "required": false,
+     "hint": "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article."
+    },
+    {
+     "label": "Cos de l'article",
+     "name": "body",
+     "widget": "markdown",
+     "hint": "Podeu fer servir links, llistes i negretes amb Markdown."
+    }
+   ]
+  },
+  {
+   "name": "posts-2011",
+   "label": "Articles · 2011",
+   "folder": "content/posts/2011",
+   "create": true,
+   "sortable_fields": {
+    "fields": [
+     "date",
+     "title"
+    ],
+    "default": {
+     "field": "date",
+     "direction": "descending"
+    }
+   },
+   "thumbnail": "cover.image",
+   "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+   "fields": [
+    {
+     "label": "Títol",
+     "name": "title",
+     "widget": "string"
+    },
+    {
+     "label": "Data de publicació",
+     "name": "date",
+     "widget": "datetime"
+    },
+    {
+     "label": "Any (el posa el sistema)",
+     "name": "year",
+     "widget": "hidden",
+     "default": "2011"
+    },
+    {
+     "label": "Adreça web de l'article (no tocar)",
+     "name": "slug",
+     "widget": "string",
+     "required": false,
+     "hint": "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur."
+    },
+    {
+     "label": "Autor",
+     "name": "author",
+     "widget": "select",
+     "options": [
+      "Alberto Sanagustín",
+      "A.Sedano",
+      "Dani González",
+      "Francesc Barbe",
+      "Guillem",
+      "Héctor J. Oca",
+      "Ignasi",
+      "inma",
+      "Iozsef Kiss",
+      "Ismael Utrilla",
+      "Ivan",
+      "Joan \"Linux\" Martínez i Serres",
+      "Juan Carlos Molina (Grismedio Casinegro)",
+      "Manel Sala \"Ulls\" Circ",
+      "Manel Villalba",
+      "Nico YeYe",
+      "Núria Laura Orbaneja",
+      "pecalatrava",
+      "Pedro \"Casal\" Cervera",
+      "Pedro Click",
+      "petxina",
+      "Pili E. G.",
+      "sandra",
+      "9 Barris Imatge"
+     ],
+     "default": "Joan \"Linux\" Martínez i Serres"
+    },
+    {
+     "label": "Fotografia principal",
+     "name": "cover",
+     "widget": "object",
+     "required": false,
+     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "fields": [
+      {
+       "label": "Imatge",
+       "name": "image",
+       "widget": "image"
+      },
+      {
+       "label": "Text alternatiu (ALT)",
+       "name": "alt",
+       "widget": "string",
+       "required": false,
+       "hint": "Descripció curta del que es veu a la foto, per als lectors de pantalla i els cercadors. Si el deixes buit, s'usa el títol de l'article."
+      }
+     ]
+    },
+    {
+     "label": "Foto de capçal de l'article (opcional)",
+     "name": "header_image",
+     "widget": "image",
+     "required": false,
+     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+    },
+    {
+     "label": "Text alternatiu de la foto de capçal (ALT)",
+     "name": "header_image_alt",
+     "widget": "string",
+     "required": false,
+     "hint": "Descripció curta de la foto de capçal. Si el deixes buit, s'usa el títol de l'article."
+    },
+    {
+     "label": "Destaca'l al capdamunt de la portada",
+     "name": "pinned",
+     "widget": "boolean",
+     "required": false,
+     "hint": "Marca-ho perquè aquest article surti el primer al mosaic de la portada (per exemple, el concurs mentre és vigent). Desmarca-ho quan ja no ho sigui."
+    },
+    {
+     "label": "Enllaç a l'àlbum de fotos",
+     "name": "album_url",
+     "widget": "string",
+     "required": false,
+     "hint": "Link a Google Photos o similar amb tot el reportatge."
+    },
+    {
+     "label": "Vídeos (YouTube o Vimeo)",
+     "name": "videos",
+     "widget": "list",
+     "required": false,
+     "hint": "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre."
+    },
+    {
+     "label": "Paraules clau (tags)",
+     "name": "tags",
+     "widget": "list",
+     "required": false,
+     "hint": "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la."
+    },
+    {
+     "label": "Títol SEO (opcional)",
+     "name": "seoTitle",
+     "widget": "string",
+     "required": false,
+     "hint": "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial."
+    },
+    {
+     "label": "Descripció (SEO, opcional)",
+     "name": "description",
+     "widget": "text",
+     "required": false,
+     "hint": "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article."
+    },
+    {
+     "label": "Cos de l'article",
+     "name": "body",
+     "widget": "markdown",
+     "hint": "Podeu fer servir links, llistes i negretes amb Markdown."
+    }
+   ]
+  },
+  {
+   "name": "posts-2010",
+   "label": "Articles · 2010",
+   "folder": "content/posts/2010",
+   "create": true,
+   "sortable_fields": {
+    "fields": [
+     "date",
+     "title"
+    ],
+    "default": {
+     "field": "date",
+     "direction": "descending"
+    }
+   },
+   "thumbnail": "cover.image",
+   "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+   "fields": [
+    {
+     "label": "Títol",
+     "name": "title",
+     "widget": "string"
+    },
+    {
+     "label": "Data de publicació",
+     "name": "date",
+     "widget": "datetime"
+    },
+    {
+     "label": "Any (el posa el sistema)",
+     "name": "year",
+     "widget": "hidden",
+     "default": "2010"
+    },
+    {
+     "label": "Adreça web de l'article (no tocar)",
+     "name": "slug",
+     "widget": "string",
+     "required": false,
+     "hint": "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur."
+    },
+    {
+     "label": "Autor",
+     "name": "author",
+     "widget": "select",
+     "options": [
+      "Alberto Sanagustín",
+      "A.Sedano",
+      "Dani González",
+      "Francesc Barbe",
+      "Guillem",
+      "Héctor J. Oca",
+      "Ignasi",
+      "inma",
+      "Iozsef Kiss",
+      "Ismael Utrilla",
+      "Ivan",
+      "Joan \"Linux\" Martínez i Serres",
+      "Juan Carlos Molina (Grismedio Casinegro)",
+      "Manel Sala \"Ulls\" Circ",
+      "Manel Villalba",
+      "Nico YeYe",
+      "Núria Laura Orbaneja",
+      "pecalatrava",
+      "Pedro \"Casal\" Cervera",
+      "Pedro Click",
+      "petxina",
+      "Pili E. G.",
+      "sandra",
+      "9 Barris Imatge"
+     ],
+     "default": "Joan \"Linux\" Martínez i Serres"
+    },
+    {
+     "label": "Fotografia principal",
+     "name": "cover",
+     "widget": "object",
+     "required": false,
+     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "fields": [
+      {
+       "label": "Imatge",
+       "name": "image",
+       "widget": "image"
+      },
+      {
+       "label": "Text alternatiu (ALT)",
+       "name": "alt",
+       "widget": "string",
+       "required": false,
+       "hint": "Descripció curta del que es veu a la foto, per als lectors de pantalla i els cercadors. Si el deixes buit, s'usa el títol de l'article."
+      }
+     ]
+    },
+    {
+     "label": "Foto de capçal de l'article (opcional)",
+     "name": "header_image",
+     "widget": "image",
+     "required": false,
+     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+    },
+    {
+     "label": "Text alternatiu de la foto de capçal (ALT)",
+     "name": "header_image_alt",
+     "widget": "string",
+     "required": false,
+     "hint": "Descripció curta de la foto de capçal. Si el deixes buit, s'usa el títol de l'article."
+    },
+    {
+     "label": "Destaca'l al capdamunt de la portada",
+     "name": "pinned",
+     "widget": "boolean",
+     "required": false,
+     "hint": "Marca-ho perquè aquest article surti el primer al mosaic de la portada (per exemple, el concurs mentre és vigent). Desmarca-ho quan ja no ho sigui."
+    },
+    {
+     "label": "Enllaç a l'àlbum de fotos",
+     "name": "album_url",
+     "widget": "string",
+     "required": false,
+     "hint": "Link a Google Photos o similar amb tot el reportatge."
+    },
+    {
+     "label": "Vídeos (YouTube o Vimeo)",
+     "name": "videos",
+     "widget": "list",
+     "required": false,
+     "hint": "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre."
+    },
+    {
+     "label": "Paraules clau (tags)",
+     "name": "tags",
+     "widget": "list",
+     "required": false,
+     "hint": "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la."
+    },
+    {
+     "label": "Títol SEO (opcional)",
+     "name": "seoTitle",
+     "widget": "string",
+     "required": false,
+     "hint": "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial."
+    },
+    {
+     "label": "Descripció (SEO, opcional)",
+     "name": "description",
+     "widget": "text",
+     "required": false,
+     "hint": "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article."
+    },
+    {
+     "label": "Cos de l'article",
+     "name": "body",
+     "widget": "markdown",
+     "hint": "Podeu fer servir links, llistes i negretes amb Markdown."
+    }
+   ]
+  },
+  {
+   "name": "posts-2009",
+   "label": "Articles · 2009",
+   "folder": "content/posts/2009",
+   "create": true,
+   "sortable_fields": {
+    "fields": [
+     "date",
+     "title"
+    ],
+    "default": {
+     "field": "date",
+     "direction": "descending"
+    }
+   },
+   "thumbnail": "cover.image",
+   "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+   "fields": [
+    {
+     "label": "Títol",
+     "name": "title",
+     "widget": "string"
+    },
+    {
+     "label": "Data de publicació",
+     "name": "date",
+     "widget": "datetime"
+    },
+    {
+     "label": "Any (el posa el sistema)",
+     "name": "year",
+     "widget": "hidden",
+     "default": "2009"
+    },
+    {
+     "label": "Adreça web de l'article (no tocar)",
+     "name": "slug",
+     "widget": "string",
+     "required": false,
+     "hint": "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur."
+    },
+    {
+     "label": "Autor",
+     "name": "author",
+     "widget": "select",
+     "options": [
+      "Alberto Sanagustín",
+      "A.Sedano",
+      "Dani González",
+      "Francesc Barbe",
+      "Guillem",
+      "Héctor J. Oca",
+      "Ignasi",
+      "inma",
+      "Iozsef Kiss",
+      "Ismael Utrilla",
+      "Ivan",
+      "Joan \"Linux\" Martínez i Serres",
+      "Juan Carlos Molina (Grismedio Casinegro)",
+      "Manel Sala \"Ulls\" Circ",
+      "Manel Villalba",
+      "Nico YeYe",
+      "Núria Laura Orbaneja",
+      "pecalatrava",
+      "Pedro \"Casal\" Cervera",
+      "Pedro Click",
+      "petxina",
+      "Pili E. G.",
+      "sandra",
+      "9 Barris Imatge"
+     ],
+     "default": "Joan \"Linux\" Martínez i Serres"
+    },
+    {
+     "label": "Fotografia principal",
+     "name": "cover",
+     "widget": "object",
+     "required": false,
+     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "fields": [
+      {
+       "label": "Imatge",
+       "name": "image",
+       "widget": "image"
+      },
+      {
+       "label": "Text alternatiu (ALT)",
+       "name": "alt",
+       "widget": "string",
+       "required": false,
+       "hint": "Descripció curta del que es veu a la foto, per als lectors de pantalla i els cercadors. Si el deixes buit, s'usa el títol de l'article."
+      }
+     ]
+    },
+    {
+     "label": "Foto de capçal de l'article (opcional)",
+     "name": "header_image",
+     "widget": "image",
+     "required": false,
+     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+    },
+    {
+     "label": "Text alternatiu de la foto de capçal (ALT)",
+     "name": "header_image_alt",
+     "widget": "string",
+     "required": false,
+     "hint": "Descripció curta de la foto de capçal. Si el deixes buit, s'usa el títol de l'article."
+    },
+    {
+     "label": "Destaca'l al capdamunt de la portada",
+     "name": "pinned",
+     "widget": "boolean",
+     "required": false,
+     "hint": "Marca-ho perquè aquest article surti el primer al mosaic de la portada (per exemple, el concurs mentre és vigent). Desmarca-ho quan ja no ho sigui."
+    },
+    {
+     "label": "Enllaç a l'àlbum de fotos",
+     "name": "album_url",
+     "widget": "string",
+     "required": false,
+     "hint": "Link a Google Photos o similar amb tot el reportatge."
+    },
+    {
+     "label": "Vídeos (YouTube o Vimeo)",
+     "name": "videos",
+     "widget": "list",
+     "required": false,
+     "hint": "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre."
+    },
+    {
+     "label": "Paraules clau (tags)",
+     "name": "tags",
+     "widget": "list",
+     "required": false,
+     "hint": "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la."
+    },
+    {
+     "label": "Títol SEO (opcional)",
+     "name": "seoTitle",
+     "widget": "string",
+     "required": false,
+     "hint": "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial."
+    },
+    {
+     "label": "Descripció (SEO, opcional)",
+     "name": "description",
+     "widget": "text",
+     "required": false,
+     "hint": "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article."
+    },
+    {
+     "label": "Cos de l'article",
+     "name": "body",
+     "widget": "markdown",
+     "hint": "Podeu fer servir links, llistes i negretes amb Markdown."
+    }
+   ]
+  },
+  {
+   "name": "posts-2008",
+   "label": "Articles · 2008",
+   "folder": "content/posts/2008",
+   "create": true,
+   "sortable_fields": {
+    "fields": [
+     "date",
+     "title"
+    ],
+    "default": {
+     "field": "date",
+     "direction": "descending"
+    }
+   },
+   "thumbnail": "cover.image",
+   "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+   "fields": [
+    {
+     "label": "Títol",
+     "name": "title",
+     "widget": "string"
+    },
+    {
+     "label": "Data de publicació",
+     "name": "date",
+     "widget": "datetime"
+    },
+    {
+     "label": "Any (el posa el sistema)",
+     "name": "year",
+     "widget": "hidden",
+     "default": "2008"
+    },
+    {
+     "label": "Adreça web de l'article (no tocar)",
+     "name": "slug",
+     "widget": "string",
+     "required": false,
+     "hint": "És la part final de l'adreça (el que va abans de «.html»). Normalment s'omple sola i no cal tocar-la. Si la canvies, l'enllaç antic deixarà de funcionar i no es redirigeix. Canvia-la només si n'estàs segur."
+    },
+    {
+     "label": "Autor",
+     "name": "author",
+     "widget": "select",
+     "options": [
+      "Alberto Sanagustín",
+      "A.Sedano",
+      "Dani González",
+      "Francesc Barbe",
+      "Guillem",
+      "Héctor J. Oca",
+      "Ignasi",
+      "inma",
+      "Iozsef Kiss",
+      "Ismael Utrilla",
+      "Ivan",
+      "Joan \"Linux\" Martínez i Serres",
+      "Juan Carlos Molina (Grismedio Casinegro)",
+      "Manel Sala \"Ulls\" Circ",
+      "Manel Villalba",
+      "Nico YeYe",
+      "Núria Laura Orbaneja",
+      "pecalatrava",
+      "Pedro \"Casal\" Cervera",
+      "Pedro Click",
+      "petxina",
+      "Pili E. G.",
+      "sandra",
+      "9 Barris Imatge"
+     ],
+     "default": "Joan \"Linux\" Martínez i Serres"
+    },
+    {
+     "label": "Fotografia principal",
+     "name": "cover",
+     "widget": "object",
+     "required": false,
+     "hint": "La foto que encapçala l'article (es mostra a la portada i a l'article).",
+     "fields": [
+      {
+       "label": "Imatge",
+       "name": "image",
+       "widget": "image"
+      },
+      {
+       "label": "Text alternatiu (ALT)",
+       "name": "alt",
+       "widget": "string",
+       "required": false,
+       "hint": "Descripció curta del que es veu a la foto, per als lectors de pantalla i els cercadors. Si el deixes buit, s'usa el títol de l'article."
+      }
+     ]
+    },
+    {
+     "label": "Foto de capçal de l'article (opcional)",
+     "name": "header_image",
+     "widget": "image",
+     "required": false,
+     "hint": "Foto gran, a tot l'ample, just sota el títol de l'article. Si no n'hi ha, l'article no en mostra cap."
+    },
+    {
+     "label": "Text alternatiu de la foto de capçal (ALT)",
+     "name": "header_image_alt",
+     "widget": "string",
+     "required": false,
+     "hint": "Descripció curta de la foto de capçal. Si el deixes buit, s'usa el títol de l'article."
+    },
+    {
+     "label": "Destaca'l al capdamunt de la portada",
+     "name": "pinned",
+     "widget": "boolean",
+     "required": false,
+     "hint": "Marca-ho perquè aquest article surti el primer al mosaic de la portada (per exemple, el concurs mentre és vigent). Desmarca-ho quan ja no ho sigui."
+    },
+    {
+     "label": "Enllaç a l'àlbum de fotos",
+     "name": "album_url",
+     "widget": "string",
+     "required": false,
+     "hint": "Link a Google Photos o similar amb tot el reportatge."
+    },
+    {
+     "label": "Vídeos (YouTube o Vimeo)",
+     "name": "videos",
+     "widget": "list",
+     "required": false,
+     "hint": "Enganxeu un enllaç per línia (p. ex. https://vimeo.com/1232409395 o https://youtu.be/dQw4w9WgXcQ). Es mostraran al final de l'article, en ordre."
+    },
+    {
+     "label": "Paraules clau (tags)",
+     "name": "tags",
+     "widget": "list",
+     "required": false,
+     "hint": "Escriu una etiqueta i prem Intro (o el botó «+») per afegir-la."
+    },
+    {
+     "label": "Títol SEO (opcional)",
+     "name": "seoTitle",
+     "widget": "string",
+     "required": false,
+     "hint": "Títol per als cercadors i les xarxes (fins a ~60 caràcters). Si el deixes buit, s'usa el títol de l'article sense la data inicial."
+    },
+    {
+     "label": "Descripció (SEO, opcional)",
+     "name": "description",
+     "widget": "text",
+     "required": false,
+     "hint": "Apareix a la llista, al RSS i com a meta descripció (SEO). Si el deixes buit, s'agafa un resum de l'article."
+    },
+    {
+     "label": "Cos de l'article",
+     "name": "body",
+     "widget": "markdown",
+     "hint": "Podeu fer servir links, llistes i negretes amb Markdown."
+    }
+   ]
+  },
+  {
+   "name": "web-pages",
+   "label": "Pàgines del web (pàgines fixes)",
+   "files": [
+    {
+     "name": "qui-som",
+     "label": "Qui som",
+     "file": "content/qui-som.md",
+     "fields": [
+      {
+       "label": "Títol",
+       "name": "title",
+       "widget": "string"
+      },
+      {
+       "label": "Descripció",
+       "name": "description",
+       "widget": "text",
+       "required": false
+      },
+      {
+       "label": "URL (no tocar)",
+       "name": "url",
+       "widget": "hidden"
+      },
+      {
+       "label": "Cos de la pàgina",
+       "name": "body",
+       "widget": "markdown"
+      }
+     ]
+    },
+    {
+     "name": "concurs",
+     "label": "El concurs",
+     "file": "content/concurs.md",
+     "fields": [
+      {
+       "label": "Títol",
+       "name": "title",
+       "widget": "string"
+      },
+      {
+       "label": "Títol visual (amb <br> opcional)",
+       "name": "visualTitle",
+       "widget": "string",
+       "required": false
+      },
+      {
+       "label": "Subtítol visual (Markdown)",
+       "name": "visualDescription",
+       "widget": "markdown",
+       "required": false
+      },
+      {
+       "label": "Descripció (per als motors de cerca)",
+       "name": "description",
+       "widget": "text",
+       "required": false
+      },
+      {
+       "label": "Fons de la pàgina",
+       "name": "page_bg",
+       "widget": "hidden"
+      },
+      {
+       "label": "URL (no tocar)",
+       "name": "url",
+       "widget": "hidden"
+      },
+      {
+       "label": "Cos de la pàgina",
+       "name": "body",
+       "widget": "markdown"
+      }
+     ]
+    },
+    {
+     "name": "contacte",
+     "label": "Contacte",
+     "file": "content/contacte.md",
+     "fields": [
+      {
+       "label": "Títol",
+       "name": "title",
+       "widget": "string"
+      },
+      {
+       "label": "Descripció",
+       "name": "description",
+       "widget": "text",
+       "required": false
+      },
+      {
+       "label": "URL (no tocar)",
+       "name": "url",
+       "widget": "hidden"
+      },
+      {
+       "label": "Cos de la pàgina",
+       "name": "body",
+       "widget": "markdown"
+      }
+     ]
+    },
+    {
+     "name": "faq",
+     "label": "Preguntes freqüents",
+     "file": "content/faq.md",
+     "fields": [
+      {
+       "label": "Títol",
+       "name": "title",
+       "widget": "string"
+      },
+      {
+       "label": "Descripció",
+       "name": "description",
+       "widget": "text",
+       "required": false
+      },
+      {
+       "label": "URL (no tocar)",
+       "name": "url",
+       "widget": "hidden"
+      },
+      {
+       "label": "Cos de la pàgina",
+       "name": "body",
+       "widget": "markdown"
+      }
+     ]
+    },
+    {
+     "name": "subvencions",
+     "label": "Subvencions públiques",
+     "file": "content/subvencions.md",
+     "fields": [
+      {
+       "label": "Títol",
+       "name": "title",
+       "widget": "string"
+      },
+      {
+       "label": "Descripció",
+       "name": "description",
+       "widget": "text",
+       "required": false
+      },
+      {
+       "label": "URL (no tocar)",
+       "name": "url",
+       "widget": "hidden"
+      },
+      {
+       "label": "URLs antigues (no tocar)",
+       "name": "aliases",
+       "widget": "list",
+       "required": false
+      },
+      {
+       "label": "Cos de la pàgina",
+       "name": "body",
+       "widget": "markdown"
+      }
+     ]
+    },
+    {
+     "name": "incorpora-te",
+     "label": "Incorpora't",
+     "file": "content/incorpora-te.md",
+     "fields": [
+      {
+       "label": "Títol",
+       "name": "title",
+       "widget": "string"
+      },
+      {
+       "label": "Descripció",
+       "name": "description",
+       "widget": "text",
+       "required": false
+      },
+      {
+       "label": "URL (no tocar)",
+       "name": "url",
+       "widget": "hidden"
+      },
+      {
+       "label": "Fora de l'RSS",
+       "name": "hiddenInRss",
+       "widget": "hidden"
+      },
+      {
+       "label": "Ordre de construcció",
+       "name": "build",
+       "widget": "object",
+       "fields": [
+        {
+         "label": "list",
+         "name": "list",
+         "widget": "string",
+         "required": false
+        }
+       ]
+      },
+      {
+       "label": "Cos de la pàgina",
+       "name": "body",
+       "widget": "markdown"
+      }
+     ]
+    },
+    {
+     "name": "credits",
+     "label": "Crèdits",
+     "file": "content/credits.md",
+     "fields": [
+      {
+       "label": "Títol",
+       "name": "title",
+       "widget": "string"
+      },
+      {
+       "label": "Descripció",
+       "name": "description",
+       "widget": "text",
+       "required": false
+      },
+      {
+       "label": "URL (no tocar)",
+       "name": "url",
+       "widget": "hidden"
+      },
+      {
+       "label": "Cos de la pàgina",
+       "name": "body",
+       "widget": "markdown"
+      }
+     ]
+    },
+    {
+     "name": "avis-legal",
+     "label": "Avís legal",
+     "file": "content/avis-legal.md",
+     "fields": [
+      {
+       "label": "Títol",
+       "name": "title",
+       "widget": "string"
+      },
+      {
+       "label": "Descripció",
+       "name": "description",
+       "widget": "text",
+       "required": false
+      },
+      {
+       "label": "URL (no tocar)",
+       "name": "url",
+       "widget": "hidden"
+      },
+      {
+       "label": "Cos de la pàgina",
+       "name": "body",
+       "widget": "markdown"
+      }
+     ]
+    },
+    {
+     "name": "privacitat",
+     "label": "Privacitat",
+     "file": "content/privacitat.md",
+     "fields": [
+      {
+       "label": "Títol",
+       "name": "title",
+       "widget": "string"
+      },
+      {
+       "label": "Descripció",
+       "name": "description",
+       "widget": "text",
+       "required": false
+      },
+      {
+       "label": "URL (no tocar)",
+       "name": "url",
+       "widget": "hidden"
+      },
+      {
+       "label": "Cos de la pàgina",
+       "name": "body",
+       "widget": "markdown"
+      }
+     ]
+    },
+    {
+     "name": "cookies",
+     "label": "Cookies",
+     "file": "content/cookies.md",
+     "fields": [
+      {
+       "label": "Títol",
+       "name": "title",
+       "widget": "string"
+      },
+      {
+       "label": "Descripció",
+       "name": "description",
+       "widget": "text",
+       "required": false
+      },
+      {
+       "label": "URL (no tocar)",
+       "name": "url",
+       "widget": "hidden"
+      },
+      {
+       "label": "Cos de la pàgina",
+       "name": "body",
+       "widget": "markdown"
+      }
+     ]
+    },
+    {
+     "name": "archive",
+     "label": "Arxiu",
+     "file": "content/archive.md",
+     "fields": [
+      {
+       "label": "Títol",
+       "name": "title",
+       "widget": "string"
+      },
+      {
+       "label": "Plantilla",
+       "name": "layout",
+       "widget": "hidden"
+      },
+      {
+       "label": "URL (no tocar)",
+       "name": "url",
+       "widget": "hidden"
+      },
+      {
+       "label": "Cos de la pàgina",
+       "name": "body",
+       "widget": "markdown"
+      }
+     ]
+    },
+    {
+     "name": "search",
+     "label": "Cerca",
+     "file": "content/search.md",
+     "fields": [
+      {
+       "label": "Títol",
+       "name": "title",
+       "widget": "string"
+      },
+      {
+       "label": "Descripció",
+       "name": "description",
+       "widget": "text",
+       "required": false
+      },
+      {
+       "label": "Plantilla",
+       "name": "layout",
+       "widget": "hidden"
+      },
+      {
+       "label": "URL (no tocar)",
+       "name": "url",
+       "widget": "hidden"
+      },
+      {
+       "label": "Cos de la pàgina",
+       "name": "body",
+       "widget": "markdown"
+      }
+     ]
+    },
+    {
+     "name": "mes-visitats",
+     "label": "Més visitats",
+     "file": "content/mes-visitats.md",
+     "fields": [
+      {
+       "label": "Títol",
+       "name": "title",
+       "widget": "string"
+      },
+      {
+       "label": "Plantilla",
+       "name": "layout",
+       "widget": "hidden"
+      },
+      {
+       "label": "Fora de l'RSS",
+       "name": "hiddenInRss",
+       "widget": "hidden"
+      },
+      {
+       "label": "URL (no tocar)",
+       "name": "url",
+       "widget": "hidden"
+      },
+      {
+       "label": "Cos de la pàgina",
+       "name": "body",
+       "widget": "markdown"
+      }
+     ]
+    },
+    {
+     "name": "votacio",
+     "label": "Cartell del vot del públic",
+     "file": "content/votacio.md",
+     "fields": [
+      {
+       "label": "Títol",
+       "name": "title",
+       "widget": "string"
+      },
+      {
+       "label": "Fora de l'RSS",
+       "name": "hiddenInRss",
+       "widget": "hidden"
+      },
+      {
+       "label": "URL (no tocar)",
+       "name": "url",
+       "widget": "hidden"
+      },
+      {
+       "label": "Cos de la pàgina",
+       "name": "body",
+       "widget": "markdown"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "guia",
+   "label": "Guia per publicar",
+   "label_singular": "Pàgina de la guia",
+   "folder": "content/guia",
+   "create": true,
+   "fields": [
+    {
+     "label": "Títol",
+     "name": "title",
+     "widget": "string"
+    },
+    {
+     "label": "Descripció",
+     "name": "description",
+     "widget": "string",
+     "required": false
+    },
+    {
+     "label": "Esborrany (no visible públicament)",
+     "name": "draft",
+     "widget": "boolean",
+     "default": true
+    },
+    {
+     "label": "Contingut",
+     "name": "body",
+     "widget": "markdown"
+    }
+   ]
+  },
+  {
+   "name": "projectes",
+   "label": "Projectes",
+   "label_singular": "Projecte",
+   "folder": "content/projectes",
+   "path": "{{slug}}/index",
+   "create": true,
+   "summary": "{{title}} · {{estat}}",
+   "fields": [
+    {
+     "label": "Nom del projecte",
+     "name": "title",
+     "widget": "string"
+    },
+    {
+     "label": "Esborrany (no visible al web)",
+     "name": "draft",
+     "widget": "boolean",
+     "default": false,
+     "required": false
+    },
+    {
+     "label": "Descripció",
+     "name": "description",
+     "widget": "text",
+     "required": false
+    },
+    {
+     "label": "Estat",
+     "name": "estat",
+     "widget": "select",
+     "options": [
+      "idea",
+      "actiu",
+      "aturat",
+      "tancat"
+     ],
+     "default": "idea"
+    },
+    {
+     "label": "Responsable",
+     "name": "responsable",
+     "widget": "string",
+     "required": false
+    },
+    {
+     "label": "Col·laboradors",
+     "name": "collaboradors",
+     "widget": "list",
+     "required": false
+    },
+    {
+     "label": "Entitats",
+     "name": "entitats",
+     "widget": "list",
+     "required": false
+    },
+    {
+     "label": "Data d'inici",
+     "name": "data_inici",
+     "widget": "datetime",
+     "time_format": false,
+     "date_format": "YYYY-MM-DD",
+     "format": "YYYY-MM-DD",
+     "required": false
+    },
+    {
+     "label": "Data de final",
+     "name": "data_fi",
+     "widget": "datetime",
+     "time_format": false,
+     "date_format": "YYYY-MM-DD",
+     "format": "YYYY-MM-DD",
+     "required": false
+    },
+    {
+     "label": "Etiqueta del blog",
+     "name": "etiqueta",
+     "widget": "string",
+     "required": false,
+     "hint": "Els articles amb aquesta etiqueta surten com a reportatges a la pàgina del projecte (p. ex. 13-B)."
+    },
+    {
+     "label": "Sessions",
+     "name": "sessions",
+     "widget": "list",
+     "required": false,
+     "summary": "{{fields.data}} · {{fields.nom}} · {{fields.barri}}",
+     "fields": [
+      {
+       "label": "Nom de la sessió",
+       "name": "nom",
+       "widget": "string",
+       "required": false,
+       "hint": "P. ex. Ruta 3"
+      },
+      {
+       "label": "Barri",
+       "name": "barri",
+       "widget": "string",
+       "required": false
+      },
+      {
+       "label": "Data",
+       "name": "data",
+       "widget": "datetime",
+       "time_format": false,
+       "date_format": "YYYY-MM-DD",
+       "format": "YYYY-MM-DD",
+       "required": false
+      },
+      {
+       "label": "Guia",
+       "name": "guia",
+       "widget": "string",
+       "required": false
+      },
+      {
+       "label": "Punt de trobada",
+       "name": "punt_trobada",
+       "widget": "string",
+       "required": false
+      },
+      {
+       "label": "Coordinació (9bi)",
+       "name": "coordinador",
+       "widget": "string",
+       "required": false
+      },
+      {
+       "label": "Estat",
+       "name": "estat",
+       "widget": "select",
+       "options": [
+        "prevista",
+        "feta",
+        "anul·lada"
+       ],
+       "required": false
+      },
+      {
+       "label": "Articles del blog",
+       "name": "articles",
+       "widget": "list",
+       "required": false,
+       "hint": "Una adreça per element, p. ex. /2017/04/13-b-04-roquetas.html"
+      }
+     ]
+    },
+    {
+     "label": "Text (opcional)",
+     "name": "body",
+     "widget": "markdown",
+     "required": false
+    }
+   ]
+  },
+  {
+   "name": "membres",
+   "label": "Membres (Qui som)",
+   "label_singular": "Membre",
+   "folder": "data/membres",
+   "create": true,
+   "identifier_field": "autor",
+   "extension": "yml",
+   "format": "yaml",
+   "summary": "{{fields.autor}}",
+   "fields": [
+    {
+     "label": "Autor (ha de coincidir amb el camp Autor dels articles)",
+     "name": "autor",
+     "widget": "select",
+     "options": [
+      "Alberto Sanagustín",
+      "Francesc Barbe",
+      "Iozsef Kiss",
+      "Ismael Utrilla",
+      "Joan \"Linux\" Martínez i Serres",
+      "Juan Carlos Molina (Grismedio Casinegro)",
+      "Manel Sala \"Ulls\" Circ",
+      "Pedro \"Casal\" Cervera",
+      "Pedro Click",
+      "Núria Laura Orbaneja",
+      "Manel Villalba",
+      "Nico YeYe",
+      "9 Barris Imatge"
+     ]
+    },
+    {
+     "label": "Nom real",
+     "name": "nom",
+     "widget": "string",
+     "required": false,
+     "hint": "El nom real de la persona (es mostra a la seva pàgina d'autor)."
+    },
+    {
+     "label": "Malnom (el que es mostra)",
+     "name": "malnom",
+     "widget": "string",
+     "required": false,
+     "hint": "Com es mostra el nom a la llista de membres i a les pàgines d'autor. Si es deixa buit, es mostra el nom real."
+    },
+    {
+     "label": "Web / Blog personal",
+     "name": "web",
+     "widget": "string",
+     "required": false
+    },
+    {
+     "label": "Instagram",
+     "name": "instagram",
+     "widget": "string",
+     "required": false
+    },
+    {
+     "label": "Membre ACTIU (desmarca per convertir-lo en membre històric)",
+     "name": "actiu",
+     "widget": "boolean",
+     "default": true
+    }
+   ]
+  },
+  {
+   "name": "recuperacio-joan-linux",
+   "label": "Àlbums per arreglar · Joan Linux",
+   "label_singular": "Àlbum",
+   "folder": "recuperacio/joan-linux-martinez-i-serres",
+   "create": false,
+   "delete": false,
+   "extension": "md",
+   "format": "yaml-frontmatter",
+   "identifier_field": "album",
+   "sortable_fields": {
+    "fields": [
+     "any",
+     "album"
+    ]
+   },
+   "thumbnail": "foto",
+   "summary": "{{fields.album}} · {{fields.any}}",
+   "filter": {
+    "field": "url_nova",
+    "value": [
+     "",
+     null
+    ]
+   },
+   "fields": [
+    {
+     "label": "Enllaç NOU de Google Photos",
+     "name": "url_nova",
+     "widget": "string",
+     "required": false,
+     "hint": "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..."
+    },
+    {
+     "label": "Autor",
+     "name": "autor",
+     "widget": "hidden"
+    },
+    {
+     "label": "Àlbum (selecciona'l i copia'l per cercar a Google Photos)",
+     "name": "album",
+     "widget": "string",
+     "readonly": true
+    },
+    {
+     "label": "Any",
+     "name": "any",
+     "widget": "hidden"
+    },
+    {
+     "label": "Foto de mostra",
+     "name": "foto",
+     "widget": "hidden"
+    },
+    {
+     "label": "Enllaç antic (trencat)",
+     "name": "url_antiga",
+     "widget": "hidden"
+    },
+    {
+     "label": "Nombre de posts",
+     "name": "posts",
+     "widget": "hidden"
+    },
+    {
+     "label": "Post d'exemple",
+     "name": "exemple",
+     "widget": "hidden"
+    },
+    {
+     "label": "Cos",
+     "name": "body",
+     "widget": "markdown"
+    }
+   ]
+  },
+  {
+   "name": "recuperacio-pedro-click",
+   "label": "Àlbums per arreglar · Pedro Click",
+   "label_singular": "Àlbum",
+   "folder": "recuperacio/pedro-click",
+   "create": false,
+   "delete": false,
+   "extension": "md",
+   "format": "yaml-frontmatter",
+   "identifier_field": "album",
+   "sortable_fields": {
+    "fields": [
+     "any",
+     "album"
+    ]
+   },
+   "thumbnail": "foto",
+   "summary": "{{fields.album}} · {{fields.any}}",
+   "filter": {
+    "field": "url_nova",
+    "value": [
+     "",
+     null
+    ]
+   },
+   "fields": [
+    {
+     "label": "Enllaç NOU de Google Photos",
+     "name": "url_nova",
+     "widget": "string",
+     "required": false,
+     "hint": "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..."
+    },
+    {
+     "label": "Autor",
+     "name": "autor",
+     "widget": "hidden"
+    },
+    {
+     "label": "Àlbum (selecciona'l i copia'l per cercar a Google Photos)",
+     "name": "album",
+     "widget": "string",
+     "readonly": true
+    },
+    {
+     "label": "Any",
+     "name": "any",
+     "widget": "hidden"
+    },
+    {
+     "label": "Foto de mostra",
+     "name": "foto",
+     "widget": "hidden"
+    },
+    {
+     "label": "Enllaç antic (trencat)",
+     "name": "url_antiga",
+     "widget": "hidden"
+    },
+    {
+     "label": "Nombre de posts",
+     "name": "posts",
+     "widget": "hidden"
+    },
+    {
+     "label": "Post d'exemple",
+     "name": "exemple",
+     "widget": "hidden"
+    },
+    {
+     "label": "Cos",
+     "name": "body",
+     "widget": "markdown"
+    }
+   ]
+  },
+  {
+   "name": "recuperacio-9-barris-imatge",
+   "label": "Àlbums per arreglar · 9 Barris Imatge",
+   "label_singular": "Àlbum",
+   "folder": "recuperacio/9-barris-imatge",
+   "create": false,
+   "delete": false,
+   "extension": "md",
+   "format": "yaml-frontmatter",
+   "identifier_field": "album",
+   "sortable_fields": {
+    "fields": [
+     "any",
+     "album"
+    ]
+   },
+   "thumbnail": "foto",
+   "summary": "{{fields.album}} · {{fields.any}}",
+   "filter": {
+    "field": "url_nova",
+    "value": [
+     "",
+     null
+    ]
+   },
+   "fields": [
+    {
+     "label": "Enllaç NOU de Google Photos",
+     "name": "url_nova",
+     "widget": "string",
+     "required": false,
+     "hint": "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..."
+    },
+    {
+     "label": "Autor",
+     "name": "autor",
+     "widget": "hidden"
+    },
+    {
+     "label": "Àlbum (selecciona'l i copia'l per cercar a Google Photos)",
+     "name": "album",
+     "widget": "string",
+     "readonly": true
+    },
+    {
+     "label": "Any",
+     "name": "any",
+     "widget": "hidden"
+    },
+    {
+     "label": "Foto de mostra",
+     "name": "foto",
+     "widget": "hidden"
+    },
+    {
+     "label": "Enllaç antic (trencat)",
+     "name": "url_antiga",
+     "widget": "hidden"
+    },
+    {
+     "label": "Nombre de posts",
+     "name": "posts",
+     "widget": "hidden"
+    },
+    {
+     "label": "Post d'exemple",
+     "name": "exemple",
+     "widget": "hidden"
+    },
+    {
+     "label": "Cos",
+     "name": "body",
+     "widget": "markdown"
+    }
+   ]
+  },
+  {
+   "name": "recuperacio-manel-sala",
+   "label": "Àlbums per arreglar · Manel «Ulls»",
+   "label_singular": "Àlbum",
+   "folder": "recuperacio/manel-sala-ulls-circ",
+   "create": false,
+   "delete": false,
+   "extension": "md",
+   "format": "yaml-frontmatter",
+   "identifier_field": "album",
+   "sortable_fields": {
+    "fields": [
+     "any",
+     "album"
+    ]
+   },
+   "thumbnail": "foto",
+   "summary": "{{fields.album}} · {{fields.any}}",
+   "filter": {
+    "field": "url_nova",
+    "value": [
+     "",
+     null
+    ]
+   },
+   "fields": [
+    {
+     "label": "Enllaç NOU de Google Photos",
+     "name": "url_nova",
+     "widget": "string",
+     "required": false,
+     "hint": "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..."
+    },
+    {
+     "label": "Autor",
+     "name": "autor",
+     "widget": "hidden"
+    },
+    {
+     "label": "Àlbum (selecciona'l i copia'l per cercar a Google Photos)",
+     "name": "album",
+     "widget": "string",
+     "readonly": true
+    },
+    {
+     "label": "Any",
+     "name": "any",
+     "widget": "hidden"
+    },
+    {
+     "label": "Foto de mostra",
+     "name": "foto",
+     "widget": "hidden"
+    },
+    {
+     "label": "Enllaç antic (trencat)",
+     "name": "url_antiga",
+     "widget": "hidden"
+    },
+    {
+     "label": "Nombre de posts",
+     "name": "posts",
+     "widget": "hidden"
+    },
+    {
+     "label": "Post d'exemple",
+     "name": "exemple",
+     "widget": "hidden"
+    },
+    {
+     "label": "Cos",
+     "name": "body",
+     "widget": "markdown"
+    }
+   ]
+  },
+  {
+   "name": "recuperacio-pedro-casal",
+   "label": "Àlbums per arreglar · Pedro «Casal»",
+   "label_singular": "Àlbum",
+   "folder": "recuperacio/pedro-casal-cervera",
+   "create": false,
+   "delete": false,
+   "extension": "md",
+   "format": "yaml-frontmatter",
+   "identifier_field": "album",
+   "sortable_fields": {
+    "fields": [
+     "any",
+     "album"
+    ]
+   },
+   "thumbnail": "foto",
+   "summary": "{{fields.album}} · {{fields.any}}",
+   "filter": {
+    "field": "url_nova",
+    "value": [
+     "",
+     null
+    ]
+   },
+   "fields": [
+    {
+     "label": "Enllaç NOU de Google Photos",
+     "name": "url_nova",
+     "widget": "string",
+     "required": false,
+     "hint": "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..."
+    },
+    {
+     "label": "Autor",
+     "name": "autor",
+     "widget": "hidden"
+    },
+    {
+     "label": "Àlbum (selecciona'l i copia'l per cercar a Google Photos)",
+     "name": "album",
+     "widget": "string",
+     "readonly": true
+    },
+    {
+     "label": "Any",
+     "name": "any",
+     "widget": "hidden"
+    },
+    {
+     "label": "Foto de mostra",
+     "name": "foto",
+     "widget": "hidden"
+    },
+    {
+     "label": "Enllaç antic (trencat)",
+     "name": "url_antiga",
+     "widget": "hidden"
+    },
+    {
+     "label": "Nombre de posts",
+     "name": "posts",
+     "widget": "hidden"
+    },
+    {
+     "label": "Post d'exemple",
+     "name": "exemple",
+     "widget": "hidden"
+    },
+    {
+     "label": "Cos",
+     "name": "body",
+     "widget": "markdown"
+    }
+   ]
+  },
+  {
+   "name": "recuperacio-alberto-sanagustin",
+   "label": "Àlbums per arreglar · Alberto Sanagustín",
+   "label_singular": "Àlbum",
+   "folder": "recuperacio/alberto-sanagustin",
+   "create": false,
+   "delete": false,
+   "extension": "md",
+   "format": "yaml-frontmatter",
+   "identifier_field": "album",
+   "sortable_fields": {
+    "fields": [
+     "any",
+     "album"
+    ]
+   },
+   "thumbnail": "foto",
+   "summary": "{{fields.album}} · {{fields.any}}",
+   "filter": {
+    "field": "url_nova",
+    "value": [
+     "",
+     null
+    ]
+   },
+   "fields": [
+    {
+     "label": "Enllaç NOU de Google Photos",
+     "name": "url_nova",
+     "widget": "string",
+     "required": false,
+     "hint": "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..."
+    },
+    {
+     "label": "Autor",
+     "name": "autor",
+     "widget": "hidden"
+    },
+    {
+     "label": "Àlbum (selecciona'l i copia'l per cercar a Google Photos)",
+     "name": "album",
+     "widget": "string",
+     "readonly": true
+    },
+    {
+     "label": "Any",
+     "name": "any",
+     "widget": "hidden"
+    },
+    {
+     "label": "Foto de mostra",
+     "name": "foto",
+     "widget": "hidden"
+    },
+    {
+     "label": "Enllaç antic (trencat)",
+     "name": "url_antiga",
+     "widget": "hidden"
+    },
+    {
+     "label": "Nombre de posts",
+     "name": "posts",
+     "widget": "hidden"
+    },
+    {
+     "label": "Post d'exemple",
+     "name": "exemple",
+     "widget": "hidden"
+    },
+    {
+     "label": "Cos",
+     "name": "body",
+     "widget": "markdown"
+    }
+   ]
+  },
+  {
+   "name": "recuperacio-nico-yeye",
+   "label": "Àlbums per arreglar · Nico YeYe",
+   "label_singular": "Àlbum",
+   "folder": "recuperacio/nico-yeye",
+   "create": false,
+   "delete": false,
+   "extension": "md",
+   "format": "yaml-frontmatter",
+   "identifier_field": "album",
+   "sortable_fields": {
+    "fields": [
+     "any",
+     "album"
+    ]
+   },
+   "thumbnail": "foto",
+   "summary": "{{fields.album}} · {{fields.any}}",
+   "filter": {
+    "field": "url_nova",
+    "value": [
+     "",
+     null
+    ]
+   },
+   "fields": [
+    {
+     "label": "Enllaç NOU de Google Photos",
+     "name": "url_nova",
+     "widget": "string",
+     "required": false,
+     "hint": "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..."
+    },
+    {
+     "label": "Autor",
+     "name": "autor",
+     "widget": "hidden"
+    },
+    {
+     "label": "Àlbum (selecciona'l i copia'l per cercar a Google Photos)",
+     "name": "album",
+     "widget": "string",
+     "readonly": true
+    },
+    {
+     "label": "Any",
+     "name": "any",
+     "widget": "hidden"
+    },
+    {
+     "label": "Foto de mostra",
+     "name": "foto",
+     "widget": "hidden"
+    },
+    {
+     "label": "Enllaç antic (trencat)",
+     "name": "url_antiga",
+     "widget": "hidden"
+    },
+    {
+     "label": "Nombre de posts",
+     "name": "posts",
+     "widget": "hidden"
+    },
+    {
+     "label": "Post d'exemple",
+     "name": "exemple",
+     "widget": "hidden"
+    },
+    {
+     "label": "Cos",
+     "name": "body",
+     "widget": "markdown"
+    }
+   ]
+  },
+  {
+   "name": "recuperacio-manel-villalba",
+   "label": "Àlbums per arreglar · Manel Villalba",
+   "label_singular": "Àlbum",
+   "folder": "recuperacio/manel-villalba",
+   "create": false,
+   "delete": false,
+   "extension": "md",
+   "format": "yaml-frontmatter",
+   "identifier_field": "album",
+   "sortable_fields": {
+    "fields": [
+     "any",
+     "album"
+    ]
+   },
+   "thumbnail": "foto",
+   "summary": "{{fields.album}} · {{fields.any}}",
+   "filter": {
+    "field": "url_nova",
+    "value": [
+     "",
+     null
+    ]
+   },
+   "fields": [
+    {
+     "label": "Enllaç NOU de Google Photos",
+     "name": "url_nova",
+     "widget": "string",
+     "required": false,
+     "hint": "Enganxa aquí l'enllaç compartible: a Google Photos obre l'àlbum → Comparteix → «Crea un enllaç» → Copia. Comença per https://photos.app.goo.gl/..."
+    },
+    {
+     "label": "Autor",
+     "name": "autor",
+     "widget": "hidden"
+    },
+    {
+     "label": "Àlbum (selecciona'l i copia'l per cercar a Google Photos)",
+     "name": "album",
+     "widget": "string",
+     "readonly": true
+    },
+    {
+     "label": "Any",
+     "name": "any",
+     "widget": "hidden"
+    },
+    {
+     "label": "Foto de mostra",
+     "name": "foto",
+     "widget": "hidden"
+    },
+    {
+     "label": "Enllaç antic (trencat)",
+     "name": "url_antiga",
+     "widget": "hidden"
+    },
+    {
+     "label": "Nombre de posts",
+     "name": "posts",
+     "widget": "hidden"
+    },
+    {
+     "label": "Post d'exemple",
+     "name": "exemple",
+     "widget": "hidden"
+    },
+    {
+     "label": "Cos",
+     "name": "body",
+     "widget": "markdown"
+    }
+   ]
+  }
+ ]
+}

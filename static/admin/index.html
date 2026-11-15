@@ -419,6 +419,12 @@
   <!-- Autoallotjat (2026-09-23): sense CDN tercer (RGPD) i sense risc de cadena de
        subministrament per change a unpkg. Per actualitzar: baixa de
        https://unpkg.com/@sveltia/cms@0.217.0/dist/sveltia-cms.js a static/admin/sveltia-cms.js -->
+  <!-- Inicialització manual: el gestor s'arrenca des del bloc del final de la
+       pàgina, perquè abans cal carregar config.json i adaptar-lo a qui ha
+       iniciat sessió (cada autor veu només els seus articles). -->
+  <script>
+    window.CMS_MANUAL_INIT = true;
+  </script>
   <script defer src="sveltia-cms.js"></script>
 
   <script>
@@ -483,6 +489,82 @@
           return updated === data ? undefined : updated;
         },
       });
+    })();
+  </script>
+
+  <!-- Arrencada del gestor adaptada a qui ha iniciat sessió.
+
+       El Sveltia no té filtres per usuari, així que als autors que no són a
+       CMS_MASTERS se'ls carrega config.json (generat a partir de config.yml
+       pel CI), s'hi afegeix a les col·leccions d'articles un filtre pel camp
+       «author» i se'ls posa el seu nom com a autor per defecte. Qui és a
+       CMS_MASTERS ho veu tot i no se li toca res.
+
+       Si qualsevol cosa falla, s'arrenca el gestor normal (sense filtre): mai
+       no es deixa ningú sense accés. -->
+  <script>
+    const CMS_MASTERS = ["112books"];
+    const CMS_FILTER_FLAG = "cms-filter-applied";
+
+    // Nom d'autor a filtrar, o null si aquesta persona ho ha de veure tot.
+    function cmsAuthorToFilter() {
+      const login = cmsLogin();
+      if (!login || CMS_MASTERS.indexOf(login) !== -1) return null;
+      return CMS_AUTHORS[login] || null;
+    }
+
+    // Després d'iniciar sessió la pàgina no es recarrega: si la persona és un
+    // autor amb filtre, es recarrega un sol cop perquè el filtre s'apliqui.
+    function cmsWatchLogin() {
+      let ticks = 0;
+      const timer = setInterval(() => {
+        ticks += 1;
+        const author = cmsAuthorToFilter();
+        if (author && sessionStorage.getItem(CMS_FILTER_FLAG) !== author) {
+          clearInterval(timer);
+          location.reload();
+        } else if (ticks > 40) {
+          clearInterval(timer);
+        }
+      }, 1500);
+    }
+
+    (function cmsInitPerAuthor() {
+      if (!window.CMS || typeof window.CMS.init !== "function") {
+        setTimeout(cmsInitPerAuthor, 150);
+        return;
+      }
+
+      const author = cmsAuthorToFilter();
+      if (!author) {
+        sessionStorage.removeItem(CMS_FILTER_FLAG);
+        window.CMS.init();
+        cmsWatchLogin();
+        return;
+      }
+
+      (async () => {
+        try {
+          const res = await fetch("config.json", { cache: "no-store" });
+          if (!res.ok) throw new Error("config.json " + res.status);
+          const config = await res.json();
+          config.load_config_file = false;
+          (config.collections || []).forEach((collection) => {
+            if (!collection.folder) return;
+            if (String(collection.folder).indexOf("content/posts/") !== 0) return;
+            collection.filter = { field: "author", value: author };
+            (collection.fields || []).forEach((field) => {
+              if (field.name === "author") field.default = author;
+            });
+          });
+          sessionStorage.setItem(CMS_FILTER_FLAG, author);
+          window.CMS.init({ config });
+        } catch (error) {
+          console.warn("Gestor: sense filtre per autor (" + error.message + ")");
+          window.CMS.init();
+          cmsWatchLogin();
+        }
+      })();
     })();
   </script>
 </body>

@@ -33,6 +33,11 @@ jobs:
           hugo-version: "0.164.0"
           extended: true
 
+      - name: Genera la configuració del gestor en JSON (filtres per autor)
+        run: |
+          python3 -m pip install --quiet pyyaml
+          python3 scripts/cms_config_json.py
+
       - name: Actualitza el recompte de posts a la documentació
         run: python3 scripts/actualitza_recompte.py
 
