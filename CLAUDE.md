@@ -46,7 +46,7 @@ Lloc web estàtic del **Col·lectiu 9 Barris Imatge** (Barcelona), migrat de Blo
 - Remotes locals: `github` = GitHub (`https://github.com/112books/9bi.git`, producció); `taro` = Codeberg (`ssh://git@codeberg.org/linuxbcn/taro-photo-app.git`, distribuïble); `origin` apunta al repo vell `linuxbcn/9bi`, **esborrat el 2026-10-04**.
 - **Taro Photo App (distribució)**: `https://codeberg.org/linuxbcn/taro-photo-app` (`main` + tags `v1.0.0`, `v1.0.1`). Repositori net amb el web, el bundle `modules/taro/`, el mòdul opcional de Telegram, `INSTALL.md` i `CHANGELOG.md`, sense contingut ni dades del 9bi. Branca local de treball `taro-neta` (worktree `tmp/taro-neta`); es publica amb `scripts/publish-taro.sh X.Y.Z`.
 - Tema PaperMod vendored a `themes/PaperMod/`.
-- **Posts actuals**: 3.019 (3.006 migrats de Blogger + 13 articles nous), 19 carpetes d'anys (2008–2026).
+- **Posts actuals**: 3.020 (3.006 migrats de Blogger + 14 articles nous), 19 carpetes d'anys (2008–2026).
 
 ## Comandes
 
@@ -136,7 +136,7 @@ gestio/RECERCA.md               # recerca: fotògrafs de NB, cronologia concurs 
 - `media_folder: static/images` · `public_folder: /images`
 - **31 col·leccions**: 19 d'articles per any (`posts-YYYY`, carpetes físiques `content/posts/YYYY/`, `sortable_fields: date desc`), `web-pages` (13 pàgines fixes, camps tècnics com a `hidden`), `guia`, `projectes` (`content/projectes/{{slug}}/index.md`, sessions com a llista), `membres`, 8 col·leccions «Àlbums per arreglar».
 - **Gestor intern** `static/admin/intern/` (repo **privat** `112books/9bi-intern`): col·leccions `actes` (assistents, acords, tasques amb `id`/estat, visibilitat) i `concurs`, i `tasques.html` (tasques obertes llegides per l'API de GitHub amb el token de la sessió). Detall a `gestio/SESSIONSLOG.md` (2026-09-30 v2).
-- **Cap col·lecció «Tots els articles»**: els 3.019 posts feien trigar el carregament; s'usa la cerca immediata del Sveltia.
+- **Cap col·lecció «Tots els articles»**: els 3.020 posts feien trigar el carregament; s'usa la cerca immediata del Sveltia.
 - **Rail propi** (`static/admin/index.html`): lateral nativa amagada (`#nc-root .primary-sidebar { display:none !important }` + `MutationObserver`); `<aside class="cms-rail">` amb desplegable d'anys 2026→2008, «Documentació interna» (→ `/admin/intern/`), Àlbums (per login a `CMS_ALBUMS`), Administració.
 - **`CMS_AUTHORS`**: mapeja login GitHub → nom d'autor (hook `preSave`). Cal afegir cada editor nou.
 - **`CMS_ALBUMS`**: mapeja login → col·lecció de recuperació. Ara: `112books` → `recuperacio-joan-linux`.
@@ -169,7 +169,7 @@ gestio/RECERCA.md               # recerca: fotògrafs de NB, cronologia concurs 
 - **Col·lectiu, mai «associació»**: el nom legal és «Col·lectiu 9 Barris Imatge».
 - **Slug estable**: el camp `slug` no s'ha de tocar un cop publicat; el canvi trenca l'URL. Hi ha un avís al CMS i un hook que el recupera si queda buit.
 - **Antics membres** (no «veterans»): el terme per al grup `actiu: false`.
-- **No hi ha col·lecció «Tots els articles»** al CMS: massa lent amb 3.019 posts.
+- **No hi ha col·lecció «Tots els articles»** al CMS: massa lent amb 3.020 posts.
 - **`analytics.json` al repo és el fallback**: la versió desplegada es genera en cada CI run. Si GoatCounter retorna buit, el script **conserva el fitxer existent** (no actualitza). Diagnòstic si /stats/ va enrere: comprovar el secret `GOATCOUNTER_API_KEY` a GitHub Actions i els logs del workflow.
 - **Codeberg = distribució de Taro, no backup**: la producció del web és GitHub. Codeberg allotja el distribuïble `linuxbcn/taro-photo-app` (repo nou i lleuger, snapshot d'un sol commit per versió); el vell `linuxbcn/9bi` es va esborrar el 2026-10-04.
 
