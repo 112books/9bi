@@ -55,6 +55,8 @@ Lloc web estàtic del **Col·lectiu 9 Barris Imatge** (Barcelona), migrat de Blo
 - Stats locals: `python3 scripts/fetch_9bi_analytics.py` (requereix `GOATCOUNTER_API_KEY`)
 - Més visitats: `python3 scripts/goatcounter_popular.py --days 30` (requereix `GOATCOUNTER_API_KEY`)
 - Recompte de posts: `python3 scripts/actualitza_recompte.py` (`--dry-run` per veure-ho sense escriure); el CI també l'executa en cada publicació
+- Miniatures de portada: `python3 scripts/portades_miniatures.py` (`--dry-run` per veure què faria); el CI les genera i les desa a cada publicació
+- Config del gestor en JSON: `python3 scripts/cms_config_json.py` (genera `static/admin/config.json` de `config.yml`; el CI també el passa)
 - Publicar Taro: `scripts/publish-taro.sh X.Y.Z [nota]` (build + snapshot d'un commit + push a Codeberg; `DRY_RUN=1` per comprovar-ho sense publicar)
 
 ## Versions (verificades)
@@ -108,7 +110,7 @@ layouts/
     ├── extend_footer.html       # BUIT
     └── extend_post_content.html # botó "Veure tot l'àlbum de fotos" (si album_url)
 assets/css/extended/custom.css  # mosaic, tipografies, peu, formulari, membres, 404, concurs…
-static/admin/{config.yml,index.html,sveltia-cms.js}
+static/admin/{config.yml,config.json,index.html,sveltia-cms.js}  # config.json: generat de config.yml (no editar)
 static/images/                  # imatges (media_folder del CMS)
 static/stats/                   # dashboard /stats/ (Chart.js + analytics.json, noindex)
 data/membres/                   # un fitxer .yml per membre (autor, nom, malnom, web, instagram, actiu)
@@ -123,7 +125,7 @@ gestio/RECERCA.md               # recerca: fotògrafs de NB, cronologia concurs 
 ## Front matter (convencions reals)
 
 - **Posts**: `title`, `date` (ISO), `year` (any), `author`, `slug` (obligatori, estable), `tags` (llista), `cover.image` (opcional, `/images/covers/…`), `album_url` (opcional), `videos` (opcional, llista d'URLs de YouTube o Vimeo), `description` (opcional = meta SEO), `seoTitle` (opcional = títol SEO sense prefix data)
-- **Cobertes**: `cover.image` ha d'apuntar sempre a una miniatura WebP de com a màxim 640 px dins `/images/covers/` (no a un original de `/images/`); si no, la portada carrega imatges molt més pesades
+- **Cobertes**: `cover.image` ha d'apuntar a una miniatura WebP de com a màxim 640 px dins `/images/covers/`. Des del 2026-11-15 és automàtic: `scripts/portades_miniatures.py` (al CI, abans del build) converteix tota portada que apunti a un original de `/images/` i reescriu només la línia `image:` del bloc `cover:`
 - **ALT**: `cover.alt` (opcional) és el text alternatiu de la foto principal; si falta, s'usa el títol. El mateix ALT surt a la portada, a «Avui fa…», a les llistes per autor i a `/projectes/`. `header_image` + `header_image_alt` (opcionals) mostren una foto de capçal a l'article
 - **Destacat**: `pinned: true` + `weight: -1` posen l'article primer al mosaic de la portada. El `weight` és imprescindible: `.Paginate` reordena la col·lecció que rep per l'ordre per defecte (pes → data), així que `sort`/`where`/concatenacions a la plantilla no serveixen. Només afecta la portada
 - **Pàgines**: `title`, `description`, `url` (ruta final explícita)
@@ -138,7 +140,9 @@ gestio/RECERCA.md               # recerca: fotògrafs de NB, cronologia concurs 
 - **Gestor intern** `static/admin/intern/` (repo **privat** `112books/9bi-intern`): col·leccions `actes` (assistents, acords, tasques amb `id`/estat, visibilitat) i `concurs`, i `tasques.html` (tasques obertes llegides per l'API de GitHub amb el token de la sessió). Detall a `gestio/SESSIONSLOG.md` (2026-09-30 v2).
 - **Cap col·lecció «Tots els articles»**: els 3.021 posts feien trigar el carregament; s'usa la cerca immediata del Sveltia.
 - **Rail propi** (`static/admin/index.html`): lateral nativa amagada (`#nc-root .primary-sidebar { display:none !important }` + `MutationObserver`); `<aside class="cms-rail">` amb desplegable d'anys 2026→2008, «Documentació interna» (→ `/admin/intern/`), Àlbums (per login a `CMS_ALBUMS`), Administració.
-- **`CMS_AUTHORS`**: mapeja login GitHub → nom d'autor (hook `preSave`). Cal afegir cada editor nou.
+- **`CMS_AUTHORS`**: mapeja login GitHub → nom d'autor (hook `preSave`). Cal afegir cada editor nou. Ara: `112books` → Joan «Linux» i `ismaelutrilla-bot` → Ismael Utrilla.
+- **Filtre per autor** (2026-11-15): el gestor arrenca amb `CMS_MANUAL_INIT`. `static/admin/index.html` llegeix el login de la sessió (`sveltia-cms.user`) i, si és a `CMS_AUTHORS` i **no** a `CMS_MASTERS` (`["112books"]`), carrega `static/admin/config.json` (generat de `config.yml` per `scripts/cms_config_json.py`), hi afegeix a les 19 col·leccions d'articles `filter: {field: author, value: <nom>}` i el nom com a `default` de l'Autor, i inicialitza amb aquesta config. Després del primer login es recarrega un sol cop. Si res no carrega, `CMS.init()` normal. **És cosmètic**: amb Write al repositori, un editor podria editar-ho tot.
+- **Miniatures de portada** (2026-11-15): `scripts/portades_miniatures.py` converteix a WebP ≤640 px les portades que apunten a originals i reescriu només `cover.image`; el CI les genera i les desa. Aplicat als 11 articles que penjaven originals (13,7 MB → 508 KB).
 - **`CMS_ALBUMS`**: mapeja login → col·lecció de recuperació. Ara: `112books` → `recuperacio-joan-linux`.
 - **ALT i destacat** (2026-10-25): a les 19 col·leccions d'articles, «Fotografia principal» porta el camp `alt`, i hi ha `header_image` + `header_image_alt` i la casella `pinned`. El hook `preSave` de `static/admin/index.html` desa `pinned` com a `weight: -1` (i el treu en desmarcar-la). Guia per editors: «Text alternatiu (ALT) de la foto» i «Destacar un article al capdamunt de la portada» a `/guia/publicar-article.html`.
 - **Camp «Vídeos»**: a les 19 col·leccions d'articles, `videos` (llista opcional d'URLs de YouTube o Vimeo); `layouts/_partials/extend_post_content.html` en renderitza un reproductor responsiu per element, al final de l'article, i encara accepta el camp antic `video` (singular). Immune a l'editor enriquit. Guia pública: secció «Vídeos de YouTube o Vimeo».
@@ -147,7 +151,7 @@ gestio/RECERCA.md               # recerca: fotògrafs de NB, cronologia concurs 
 ## CI/CD (`.github/workflows/deploy.yml`)
 
 - Trigger: **push a `main`** + cron `0 */6 * * *` (cada 6 h per refrescar /stats/) + `workflow_dispatch`
-- Steps: checkout → Hugo 0.164.0 → `actualitza_recompte.py` → `fetch_9bi_analytics.py` (si `GOATCOUNTER_API_KEY`) → `goatcounter_popular.py` → `hugo --minify --environment production` → deploy GitHub Pages → commit del recompte (si ha canviat)
+- Steps: checkout → Hugo 0.164.0 → `cms_config_json.py` (pip `pyyaml`) → `actualitza_recompte.py` → `portades_miniatures.py` (pip `pillow`) → `fetch_9bi_analytics.py` (si `GOATCOUNTER_API_KEY`) → `goatcounter_popular.py` → `hugo --minify --environment production` → deploy GitHub Pages → commit de `CLAUDE.md`, `static/admin/config.yml`, `content/posts` i `static/images/covers` (si han canviat)
 - **Recompte automàtic** (2026-10-25): `scripts/actualitza_recompte.py` reescriu la línia «Posts actuals» de `CLAUDE.md` i les mencions «N posts» (`CLAUDE.md` + comentari de `static/admin/config.yml`). El CI el passa a cada publicació i desa el resultat amb `GITHUB_TOKEN` (step `continue-on-error`, que no torna a disparar el workflow; fa `pull --rebase` si el CMS ha publicat mentrestant).
 - **Avisos no bloquejants**: Node.js 20 obsolet a les accions; `ubuntu-latest` migrarà a Ubuntu 26 el 19/10/2026. (T-21 pendent: SHA-pin de les accions.)
 
@@ -178,5 +182,6 @@ gestio/RECERCA.md               # recerca: fotògrafs de NB, cronologia concurs 
 > Font única: [`.taques/TASQUES.md`](.taques/TASQUES.md).
 
 - **T-01 🔴**: llista definitiva d'obres de la votació — termini **30/11/2026**.
-- **T-07 🟡**: convidar editors al CMS amb accés Write.
+- **T-07 🟡**: convidar editors al CMS amb accés Write (primer editor real: Ismael Utrilla, 2026-11-15).
+- **macOS i noms del CMS**: si un post creat des del gestor porta accents al nom del fitxer, `git status` en pot mostrar un duplicat fantasma (normalització Unicode). Per afegir-lo: `git -c core.precomposeunicode=false add content/posts`. Passa al post «Ella també hi era» (2026-11-15), renombrat a NFC al commit `ebd765064a`.
 - La resta a TASQUES.md.

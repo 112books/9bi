@@ -3,6 +3,21 @@
 Notes detallades de les sessions de treball, des del 2026-09-17.
 Per a l'estat actual i la configuració del projecte, vegeu [`CLAUDE.md`](../CLAUDE.md).
 
+## Sessió 2026-11-15 — Alta del primer editor, filtre per autor de cada editor i miniatures automàtiques
+
+- **Punt de partida**: `main` 8 commits enrere de `github/main`; fast-forward i, durant la sessió, 4 commits més del CMS (l'editor nou publicava en directe). Recompte: 3.021 posts.
+- **Alta del primer editor**: un membre diu que ha enviat el formulari `/incorpora-te/`. Verificat al servidor: `POST /envia/incorpora-te` a les **10:41:54** (303, correu cap a `info@9barrisimatge.org`); el compte `ismaelutrilla-bot` s'havia creat a les 10:36. Invitat amb **Write** a `112books/9bi` (10:51:54) i a `112books/9bi-intern` (10:52:24), totes dues acceptades; afegit a `CMS_AUTHORS`. La fitxa `data/membres/ismael-utrilla.yml` ja existia (110 articles).
+- **Diagnòstic del token**: el gestor no el deixava entrar. Reproduït amb Chrome headless (Playwright) contra `/admin/` en producció: amb un token vàlid el login funciona (`GET /user` 200, arbre del repo i llista d'articles); amb un d'invàlid, **401** i el missatge «El testimoni proporcionat no és vàlid». La causa era l'àmbit del token classic (la casella `repo`), no el compte ni el web.
+- **Guia = reflex de la fitxa** (commit `ae1eea34f9`): taula de **16 camps en l'ordre del formulari**, cada un amb què s'hi posa i per a què serveix; blocs de foto de capçal, adreça web (`slug`), títol SEO/descripció i pes de la foto. Cobertura comprovada automàticament: les 17 etiquetes de camp de les col·leccions d'anys hi surten totes.
+- **Filtre per autor** (commit `5e53a3b0fb`): el Sveltia no té filtres per usuari (els `view_filters` són estàtics, sense cap variable equivalent a `{{user}}`). Solució: `CMS_MANUAL_INIT` + `static/admin/config.json` (generat de `config.yml` per `scripts/cms_config_json.py`, pas nou al CI) + `filter` per `author` i autor per defecte a les 19 col·leccions d'articles per als logins de `CMS_AUTHORS`; `CMS_MASTERS = ["112books"]` ho veu tot. Recàrrega única després del primer login; si falla, `CMS.init()` normal. En producció: tu **78** entrades del 2026, Ismael **9**.
+- **Foto de portada i foto de capçal** (commit `b2c330f1ec`): l'usuari va trobar un article amb la mateixa foto als dos camps (sortia dues vegades). Hints reescrits a les 19 col·leccions (quina surt a cada lloc i l'avís de duplicació) i bloc nou **«Quina foto va a cada lloc»** a la guia, amb els mateixos textos que el gestor.
+- **Miniatures automàtiques — T-34** (commit `2e99a11385`): `scripts/portades_miniatures.py` converteix a WebP ≤640 px qualsevol portada que apunti a un original de `/images/`, amb nom derivat del contingut, i reescriu **només** la línia `image:` del bloc `cover:` (comprovació que el front matter no canviï en res més). Pas nou al CI i el commit automàtic final ara desa també `content/posts` i `static/images/covers`. Aplicat als **11 articles** que penjaven originals: **13,7 MB → 508 KB**; cap referència a originals a la portada i `og:image` cap a la miniatura.
+- **Normalització Unicode a macOS** (commit `ebd765064a`): el nom del post «Ella també hi era» (escrit pel CMS amb accents) feia que `git status` mostrés un duplicat fantasma; en un `git add -A` s'haurien comès **dos fitxers del mateix article**. Renombrat a NFC al disc i a l'índex (`update-index --force-remove` sobre els bytes exactes) i verificat amb un build net que només es genera una pàgina.
+- **Desplegaments**: 6 workflows en success; verificat en viu (portada, guia, `config.json` i l'article 200).
+- **Tasques**: T-34 a «Fetes»; T-07 amb l'estat real (primer editor). Registre horari a `.taques/2026-11-15.md`.
+
+---
+
 ## Sessió 2026-10-25 — ALT a les cobertes i articles destacats a la portada
 
 - **Punt de partida**: `main` era 9 commits enrere de `github/main` (fast-forward a `60e08eb51b`, arbre net). Recompte: 3.010 posts.
