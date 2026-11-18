@@ -41,6 +41,7 @@ Prioritats: 🔴 crític · 🟠 abans de l'exposició · 🟡 quan puguem · �
 ### Registre per tasca (des del 2026-09-25)
 
 | Data | ID | Tasca | Temps | Commit |
+| 15/11 | — | **RustDesk documentat** com a eina de suport remot (`gestio/RUSTDESK.md`: regles de sessió, privacitat i alternatives) i **neteja d'originals**: 11 imatges que havien fet de portada i ja no referenciava ningú (145 MB → 131 MB a `static/images`) | ~25 min | (aquest commit) |
 |---|---|---|---|---|
 | 15/11 | T-34 | **Miniatura de portada automàtica**: `scripts/portades_miniatures.py` — si `cover.image` apunta a un original de `/images/`, genera un WebP de ≤640 px a `/images/covers/<hash>.webp` (nom derivat del contingut, com les 2.973 existents) i reescriu només aquella línia del front matter, amb comprovació que no canviï res més. Pas nou al CI (abans del build) i el commit automàtic final ara també desa `content/posts` i `static/images/covers`. Aplicat als **11 articles** que penjaven originals: **13,7 MB → 508 KB** | ~50 min | `2e99a11385` |
 | 15/11 | — | **Cada autor veu només els seus articles**: `CMS_MANUAL_INIT` + `static/admin/config.json` (generat de `config.yml` per `scripts/cms_config_json.py`, pas nou al CI) + filtre per `author` i autor per defecte a les 19 col·leccions d'articles per als logins de `CMS_AUTHORS`; `CMS_MASTERS` ho veu tot. Verificat en producció: tu **78** entrades del 2026, Ismael **9** | ~1 h 30 min | `5e53a3b0fb` |
@@ -114,7 +115,7 @@ Els dies anteriors al 25/09 només tenen el total al registre diari (el detall h
 
 | Data | Temps | Registre |
 |---|---|---|
-| 15/11 | ~5 h (alta d'editor ~1 h, diagnòstic del token ~40 min, guia ~40 min, filtre per autor ~1 h 30 min, audit de portades ~15 min, miniatures automàtiques ~50 min) | [2026-11-15.md](2026-11-15.md) |
+| 15/11 | ~5 h 30 min (alta d'editor ~1 h, diagnòstic del token ~40 min, guia ~40 min, filtre per autor ~1 h 30 min, audit de portades ~15 min, miniatures automàtiques ~50 min, RustDesk i neteja ~25 min) | [2026-11-15.md](2026-11-15.md) |
 | 26/10 | ~1 h 15 min (tancament ~15 min + recompte automàtic de posts ~1 h) | [2026-10-26.md](2026-10-26.md) |
 | 25/10 | ~1 h 50 min (sessió de matí, ~09:50–11:40, estimat) | [2026-10-25.md](2026-10-25.md) |
 | 30/09 | ~1 h 12 min (sessió de matí, ~09:28–10:40) | [2026-09-30.md](2026-09-30.md) |
